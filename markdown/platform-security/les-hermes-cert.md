@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/les-hermes-cert.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Log Export Service \(LES\), Platform Security]
 ---
@@ -35,15 +35,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d119416e135">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d131616e135">
 
 Option
 
-</th><th align="left" id="d119416e138">
+</th><th align="left" id="d131616e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119416e144">
+</th></tr></thead><tbody><tr><td id="d131616e144">
 
 **Apply ACLs to namespaces**
 
@@ -56,7 +56,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d119416e186">
+</td></tr><tr><td id="d131616e186">
 
 **Apply ACLs to defined topics**
 
@@ -99,7 +99,7 @@ You can now create a secure connection to the Hermes Messaging Service.
 
 ## What to do next
 
-.
+[Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md).
 
 **Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-configure.md)
 

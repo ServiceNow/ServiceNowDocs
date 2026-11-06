@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,8 +18,6 @@ Reference topics provide additional information about the lists and forms that y
 
 -   **[Domain separation and Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/domain-separation-and-cloud-services-catalog.md)**  
 Domain separation is supported in Cloud Services Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[GitHub Actions Permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/github-actions-permissions.md)**  
-GitHub Actions workflow discovery and permissions
 -   **[Azure DevOps permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/ado-permissions.md)**  
 Azure DevOps discovery and provision permissions.
 -   **[Ansible permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/ansible-permissions.md)**  

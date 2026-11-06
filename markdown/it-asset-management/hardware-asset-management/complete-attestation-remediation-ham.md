@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete the remediation task for asset attestation in the Hardware Asset Workspace
@@ -24,15 +24,15 @@ Role required: asset or inventory\_admin
 
 1.  View the list of asset attestations.
 
-<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d318096e62">
+<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d338211e56">
 
 UI option
 
-</th><th align="left" id="d318096e65">
+</th><th align="left" id="d338211e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d318096e71">
+</th></tr></thead><tbody><tr><td id="d338211e65">
 
 **Inventory view**
 
@@ -42,7 +42,7 @@ Action
 2.  Select the **Asset attestations** tab.
 
 
-</td></tr><tr><td id="d318096e104">
+</td></tr><tr><td id="d338211e98">
 
 **Asset operations view**
 

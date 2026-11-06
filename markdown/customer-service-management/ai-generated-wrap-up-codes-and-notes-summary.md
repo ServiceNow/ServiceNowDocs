@@ -1,0 +1,40 @@
+---
+title: Use AI to generate wrap up code and notes summary
+description: ServiceNow Otto automatically analyzes customer interaction transcripts to suggest wrap up codes and generate wrap up note summaries during the Interaction wrap up process. This capability reduces post call tasks while improving documentation quality and consistency.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.html
+release: zurich
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Import wrap-up codes, CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
+---
+
+# Use AI to generate wrap up code and notes summary
+
+ServiceNow Otto automatically analyzes customer interaction transcripts to suggest wrap up codes and generate wrap up note summaries during the Interaction wrap up process. This capability reduces post call tasks while improving documentation quality and consistency.
+
+## Wrap up code and notes summary overview
+
+AI-generated wrap up code and notes summary is a ServiceNow Otto capability that transforms the wrap up task from a manual to automatic process. When an Interaction enters the wrap up state, the ServiceNow Otto analyzes the transcript and suggests a wrap up code based on available codes. ServiceNow Otto also generates concise interaction wrap up notes based on the call transcript. Agents can accept the recommendations or enter their own wrap code and note summaries. Organizations can choose between automatically generated content from ServiceNow Otto, or a third-party CCaaS vendor. Alternatively, agents may enter the code and wrap up notes manually.
+
+Admins can configure the feature to make it available for the agents to use.
+
+For more information, see:
+
+-   [Enable ServiceNow Otto to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md)
+-   [AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-wrapup-ai-generated.md)
+
+\[Omitted image "int-ai-generated-wrap-up-code-and-notes-summary.jpg"\] Alt text: AI generated wrap up code and notes summary
+
+## Key Features and benefit
+
+-   **Improved Agent Productivity:**
+
+    Reduces after-call work time by automating summary writing and code selection. Streamlines the wrap up process with pre-populated recommendations that speed completion of required tasks.
+
+-   **Enhanced data quality and business insights**
+
+    Ensures standardized, consistent summaries across all interaction notes. Improves categorization accuracy through comprehensive transcript analysis. Enables reliable reporting and trend analysis through consistent wrap-up codes.
+
+

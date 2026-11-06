@@ -7,7 +7,7 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_critical.responder
 
 3.  Mark the status of the impacted people.
 
-<table id="choicetable_pgz_fm4_ndc"><thead><tr><th align="left" id="d263979e78">
+<table id="choicetable_pgz_fm4_ndc"><thead><tr><th align="left" id="d269537e78">
 
 Status
 
-</th><th align="left" id="d263979e81">
+</th><th align="left" id="d269537e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d263979e87">
+</th></tr></thead><tbody><tr><td id="d269537e87">
 
 **Accounted**
 
@@ -46,7 +46,7 @@ Choose one of the following:-   Select the check mark \(\[Omitted image "green-c
 -   Select the More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) and select **Accounted**.
 
 
-</td></tr><tr><td id="d263979e124">
+</td></tr><tr><td id="d269537e124">
 
 **Need Help**
 
@@ -62,7 +62,7 @@ Select the More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 5.  If you must add an impacted person manually, select the **Add Person** button.
 
 
-**Parent Topic:**[Managing impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

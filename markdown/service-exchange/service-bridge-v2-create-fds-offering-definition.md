@@ -1,5 +1,5 @@
 ---
-title: Create and publish a foundation data sync offering definition
+title: Create and publish an FDS offering definition
 description: Create an foundation data sync \(FDS\) offering definition to inform your consumers about the data you’re ready to share.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-create-fds-offering-definition.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configure FDS for provider, Use for providers, Service Exchange for Providers, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure outbound FDS as providers, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Create and publish a foundation data sync offering definition
+# Create and publish an FDS offering definition
 
 Create an foundation data sync \(FDS\) offering definition to inform your consumers about the data you’re ready to share.
 
@@ -84,21 +84,47 @@ Clear the**Auto publish FDS subscriptions** check box.
 
     2.  In the **Table name** field, select the table you want to share with your consumer.
 
-    3.  In the **Outbound field**, select the table fields you want to share by selecting the lock icon and moving them from the **Available** to the **Selected** column.
+    3.  In the **Condition** field, add any condition you want to apply.
 
-    4.  If you selected a non-CMDB table, unlock the **Coalesce field** field, select the table fields you want to share, and move them from the **Available** to the**Selected** column.
+        Use the condition builder to specify criteria that determine which records from the selected table are included in the data sync.
 
-    5.  Select **Save**.
+        For example, to sync only the published knowledge article, you can add condition where workflow is published.
+
+    4.  In the **Outbound fields**, select the table fields you want to share by selecting the lock icon and moving them from the **Available** to the **Selected** column.
+
+    5.  If it isn't already selected, select the **AccountSecure** check box to ensure data security.
+
+        When enabled, only records where the company field matches the connection company are synchronized. Clear this option to synchronize all records regardless of company.
+
+        **AccountSecure** option is selected by default.
+
+    6.  If it isn't already selected, select **Send attachments** check box to Send attachments.
+
+        When enabled, file attachments linked to records are included in the synchronization.
+
+        **Send attachments** option is selected by default.
+
+    7.  If you selected a non-CMDB table, unlock the **Coalesce fields**, select the table fields you want to share, and move them from the **Available** to the**Selected** column.
+
+    8.  If it isn't already selected, select the **Maintain SysID** check box to preserve referential integrity.
+
+        When enabled, new records created in the destination instance maintain their original sys\_id. However, if an existing record is updated, the sys\_id may not be preserved.
+
+        **Maintain SysID** option is selected by default for non-CMDB tables and not available for CMDB tables.
+
+        **Note:** Beginning with Service Exchange version 2.3.18, **Maintain SysID** is supported for both CMDB and non-CMDB tables.
+
+    9.  Select **Save**.
 
 8.  Create a dependent relationship for the offering item.
 
-    If the table you are offering depends on another table, you must create a dependent table offering to share the related table. You can create multiple dependent offerings.
+    If the table you're offering depends on another table, you must create a dependent table offering to share the related table. You can create multiple dependent offerings.
 
     1.  Select **Create Dependent Offering Item**.
 
     2.  From the drop-down menu, choose a dependent item and select **Create Offering Item**.
 
-    3.  In the **Outbound field**, select the table fields you want to share by selecting the lock icon to unlock the field.
+    3.  In the **Outbound fields**, select the table fields you want to share by selecting the lock icon to unlock the field.
 
     4.  Select **Save**.
 

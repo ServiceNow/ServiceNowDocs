@@ -7,10 +7,10 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [HLA, Health Log Analytics, ServiceNow, system logs, log data, data input, configuration, fields]
-breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # ServiceNow Log Export data input configuration fields
@@ -86,5 +86,5 @@ Disabled since
 The time when the data input stopped or failed. This field is read-only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

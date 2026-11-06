@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -32,7 +32,7 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 5.  Make the required changes.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
+    For information on the field values, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 6.  Change the form view to view the demand details in a different layout.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-10-23"
-reading_time_minutes: 1
-breadcrumb: [Skill sensing for learning content, Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Skill sensing for learning content, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add skills to a course with skill sensing
@@ -56,4 +56,6 @@ Plugin requirement: Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\
 
 -   The added skills are linked to the course and displayed in its Associated skills list. They are also stored in the Course item skills table \(sn\_lc\_course\_item\_m2m\_cmn\_skill\) and removed from the Review skills recommendation table.
 -   Discarded skills move to the Review skills recommendation table with a Rejected status. You can later change their status to Pending or Accepted.
+
+**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
 

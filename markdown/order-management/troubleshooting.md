@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/troubleshooting.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -25,6 +25,8 @@ Steps to take if you encounter problems using ServiceNow CPQ.
     \[Omitted image "cpq-logs.png"\] Alt text: Logs
 
     If there is no further detail located in the Admin log, or if you are still confused by the messaging of the error, please log a support ticket.
+
+    **Note:** To log a support ticket, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 -   Cannot get Configurable Product. Product &lt;Salesforce Product2 Id&gt; is not available in cache.
 
@@ -47,7 +49,7 @@ As a point of contrast, when the ServiceNow CPQ environment is integrated with S
 
 -   The Salesforce Authentication call is returning a Status: 400 Bad Request
 
-    Inspect the permissions of this OAuth App, as defined in Salesforce. Navigation: Salesforce Setup -&gt; App Manager -&gt; For your connected app, select "Manage" from the drop-down menu on the right -&gt; Review OAuth Policies. A common mistake: IP Relaxation may be set to "Enforce IP restrictions". Set this to "Relax IP restrictions".
+    Inspect the permissions of this OAuth App, as defined in Salesforce, by navigating to App Manager in Salesforce Setup. For your connected app, select "Manage" from the drop-down menu on the right, and then click **Review OAuth Policies**. The **IP Relaxation** setting may be set to **Enforce IP restrictions**. Set this to **Relax IP restrictions**.
 
 -   When using the JWT to authenticate the administration API call, you get a 302 Found error with no body.
 
@@ -134,5 +136,5 @@ See [Granting user access in ServiceNow CPQ](https://raw.githubusercontent.com/S
     If you have confirmed none of these are true and a quote line is still not being created, then it is probable that the product sync that takes place between ServiceNow CPQ and Salesforce via the refresh token user has not occurred yet. This sync occurs via API every 30 minutes for test and demo environments and every 15 minutes for production. To determine when this sync last occurred, enter Salesforce and navigate to Setup → Bulk Data Load Jobs.
 
 -   
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

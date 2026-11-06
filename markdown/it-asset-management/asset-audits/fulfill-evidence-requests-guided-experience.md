@@ -7,9 +7,9 @@ release: zurich
 product: Asset Audits
 classification: asset-audits
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Fulfilling evidence requests, Asset Audit Response, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Fulfilling evidence requests, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Fulfill evidence requests through the Asset Response Guided Experience
@@ -24,6 +24,8 @@ Role required: sn\_audit\_response.asset\_governance
 
 The Asset Response Guided Experience takes you through the entire process of fulfilling an evidence request, from accepting the request to submitting a final response to the request. Each set of tasks in this process is represented by a step in the guided experience. You must complete all tasks within a step before you can move on to the next step. You can also save your progress at any point in the process and return to the guided experience at a later time.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Asset Governance Workspace**.
@@ -35,6 +37,19 @@ The Asset Response Guided Experience takes you through the entire process of ful
 3.  In the Audit scope step of the guided experience, verify the details of the evidence request and then select **Accept**.
 
     **Note:** At any point in the Audit scope step, you can post comments and view your activity stream in the contextual side panel.
+
+    **Note:**
+
+    At any point after you select **Accept**, you can automatically generate a comprehensive summary of the evidence request by selecting **Summarize evidence**. This summarization skill uses generative AI to provide the following information about the request:
+
+    -   Evidence Request Overview: General information about the request, including the purpose of the request, the date and time at which the request was created, the user who the request is assigned to, and details about the corresponding audit engagement.
+    -   Evidence Records: Information about the evidence records that were created for the request, including the total number of records, the type of supporting information that is included in each record, and the state of each record.
+    -   Remediation Rules: Information about the remediation rules that were created for the request, including the total number of rules and the focus of each rule.
+    -   Remediation Tasks: Information about the remediation tasks that were automatically generated based on the remediation rules, including the total number of tasks and the status of each task.
+    -   Activity &amp; Audit Notes: Additional notes and activity logs for the request.
+    This skill is turned on by default. It is automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md). If you choose to deactivate the skill, you must reactivate it manually. For detailed instructions, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Starting with version 2.0.6 of the Asset Audit Response application, Azure OpenAI is the default model provider for this summarization skill.
 
 4.  Create evidence records for the supporting information or data that you want to collect and submit for the evidence request.
 
@@ -113,7 +128,7 @@ Report
 
 </td><td>
 
-Report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect this information or data.**Note:** This field appears only if you set the **Evidence type** field to **Report**.
+Report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect the information or data.**Note:** This field appears only if you set the **Evidence type** field to **Report**.
 
 </td></tr><tr><td>
 
@@ -121,7 +136,7 @@ Data Visualization
 
 </td><td>
 
-Report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect this information or data.**Note:** This field appears only if you set the **Evidence type** field to **Data Visualization**.
+Data visualization report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect the information or data.**Note:** This field appears only if you set the **Evidence type** field to **Data Visualization**.
 
 </td></tr><tr><td>
 
@@ -134,11 +149,13 @@ URL of the website or shared online folder that contains the supporting informat
 </td></tr></tbody>
 </table>    4.  Select **Save**.
 
-        The evidence record is added to the Asset Evidence related list.
+        The form closes and you're automatically redirected to the new evidence record. The record is added to the Asset Evidence related list.
 
     5.  Repeat steps b to d for each evidence record that you want to create.
 
     The assigned user can begin collecting the required evidence. After the evidence is collected, the user can upload it by using the **Attachment** option in the contextual side panel of the evidence record. After the evidence is successfully uploaded, the user can update the **Status** field to **Complete**.
+
+    **Note:** If an evidence record has an Evidence type of Report or Data Visualization, the assigned user can view the associated report by selecting **View Report** on the evidence record header. The complete detailed report opens in a new browser tab, providing comprehensive insight into the supporting information or data that you want to collect and submit.
 
 5.  Create remediation rules to identify any data gaps that are discovered during the evidence collection process.
 
@@ -169,7 +186,7 @@ URL of the website or shared online folder that contains the supporting informat
     |Task analytics by priority|Total number of remediation tasks that were automatically generated from your remediation rules, grouped by the task priority.|
     |Total assets evaluated|Total amount of evidence that has been evaluated through your remediation rules, grouped by the compliance status.|
     |Evidences|List of evidence records that you have created for the evidence request. Select a record to view additional details.|
-    |Remediation tasks|List of remediation tasks that were automatically generated from your remediation rules. Select a task to view additional details so that you can determine if you want to defer or take action on that task.|
+    |Remediation tasks|List of remediation tasks that were automatically generated from your remediation rules. Select a task to view additional details, including the list of impacted records that are associated with that task. Use this information to determine if you want to defer or take action on that task.|
 
 8.  On the header of the Asset Response Guided Experience, select **Next**.
 
@@ -179,7 +196,7 @@ URL of the website or shared online folder that contains the supporting informat
     |----------------------|-----------|
     |Task analytics by priority|Total number of remediation tasks that were automatically generated from your remediation rules, grouped by the task priority.|
     |Task burndown|Burndown chart that enables you track the progress of your outstanding remediation tasks against the estimated timeline of completion.|
-    |Remediation tasks|List of remediation tasks that were automatically generated from your remediation rules. Select a task to view additional details so that you can determine if you want to defer or take action on that task.|
+    |Remediation tasks|List of remediation tasks that were automatically generated from your remediation rules. Select a task to view additional details, including the list of impacted records that are associated with that task. Use this information to determine if you want to defer or take action on that task.|
 
 10. On the header of the Asset Response Guided Experience, select **Next**.
 

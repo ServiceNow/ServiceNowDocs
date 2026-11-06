@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-product-order.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_order\
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -56,6 +56,22 @@ The consumer for which you want to create an order.
 
 </td></tr><tr><td>
 
+Buyer organization
+
+</td><td>
+
+The buyer organization for which you want to create an order.
+
+</td></tr><tr><td>
+
+Buyer organization member
+
+</td><td>
+
+Employee of the buyer organization for whom the order is created.
+
+</td></tr><tr><td>
+
 Order Type
 
 </td><td>
@@ -74,11 +90,32 @@ The name of the contact for the order.
 
 </td></tr><tr><td>
 
+Deal type
+
+</td><td>
+
+Indicates the type of deal associated with the order:-   Direct: The seller engages directly with the customer, with no intermediary partner involved.
+-   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
+
+
+</td></tr><tr><td>
+
 Order action
 
 </td><td>
 
 This option should be set to **Add** to create a new order.
+
+</td></tr><tr><td>
+
+Route to market
+
+</td><td>
+
+Identifies the exact sales channel used to execute the deal:-   Direct
+-   Reseller
+-   Distributor
+
 
 </td></tr><tr><td>
 

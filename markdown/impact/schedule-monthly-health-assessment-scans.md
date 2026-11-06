@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/schedule-monthly-health-assessment-scans.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monthly Health Assessment, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [Monthly Health Assessment, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Schedule Monthly Health Assessment scans
@@ -38,4 +38,6 @@ Role required: impact\_permission\_authorizer
     -   The scans are conducted monthly as long as the consent is active.
 5.  Access the Monthly HealthScan reports in the [Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/health-assessment-dashboard.md).
 
+
+**Parent Topic:**[Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/monthly-health-assessment.md)
 

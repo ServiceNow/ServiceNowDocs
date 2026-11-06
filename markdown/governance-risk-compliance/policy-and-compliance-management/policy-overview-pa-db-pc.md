@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics and Reporting, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Policy Overview Performance Analytics dashboard
@@ -45,6 +45,8 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 |Exempted controls by entity|Bar chart|Displays a list of control issues that have been closed with a response value of accept, meaning the issue was not remediated.|
 |Control Issues by Policy \(Opened Date\)|Line chart|Displays the number of control issues opened each week, grouped by policy.|
 |Total Control Objectives by Policy|Bar chart|Displays a count of the overall number of control objectives in each policy. The chart is stacked to display control objectives by type.|
+
+**Note:** You can view this dashboard directly from the Compliance Workspace as well.
 
 **Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

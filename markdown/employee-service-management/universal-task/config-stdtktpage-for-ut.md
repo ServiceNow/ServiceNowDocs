@@ -7,9 +7,9 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring your service, Configure, Universal Task, Employee Service Management]
+breadcrumb: [Configuring your service, Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Add a Task tab on the Standard Ticket page

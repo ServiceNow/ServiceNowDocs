@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -25,5 +25,5 @@ Your employees and business users within your company can self-identify an issue
 -   **[Remediate an issue in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/remediate-issue.md)**  
 After an issue has been identified, triaged, and investigated, you can remediate it.
 
-**Parent Topic:**[Classic UI for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

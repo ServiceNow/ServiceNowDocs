@@ -7,7 +7,7 @@ release: zurich
 product: Program Management
 classification: program-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,8 +35,8 @@ You can:
 
 -   configure the colors of the program items in Gantt chart with [Dashboard Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/program-management/t_AccessTheProgramWorkbench.md) settings.
 -   select the zoom level in Gantt chart calender to **Auto Fit**. The Gantt view fits in one page to view entire timeline in one go without using the scrollbar.
--   review the external dependencies between projects in a program.
--   select the show/hide icon \(\[Omitted image "cogwheel-icon.png"\] Alt text: Show or hide columns in Gantt\) to show or hide columns.
+-   Review the external dependencies between projects in a program.
+-   click the show/hide icon \(\[Omitted image "cogwheel-icon.png"\] Alt text: Show or hide columns in Gantt\) to show or hide columns.
 
 **Note:**
 

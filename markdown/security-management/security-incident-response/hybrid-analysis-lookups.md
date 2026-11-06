@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,9 +24,9 @@ The Hybrid Analysis integration performs threat lookups on the following observa
 
 The flow checks for new observables as they arrive in security incidents. If the observables are of a type recognized by the API integration, the observables are evaluated. Observables determined to be malicious are tagged.
 
-1.  [Install and configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)  
+1.  [Install and configure Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)  
 Before you run the integration on your instance, complete the installation and configuration steps so the Hybrid Analysis application properly integrates with ServiceNow AI Platform Security Operations.
-2.  [Verify expected results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)  
+2.  [Verify expected results for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)  
 Observables are generated automatically by a security incident and scanned by the application. Locate the lookup results on the security incident to verify the threat lookup has run successfully. Also view raw data and run threat lookups on child observables.
 3.  [\(Optional\) Manually attach an observable for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/attach-an-observable-manually-hybrid-analysis.md)  
 You can manually attach observables when you want to perform threat lookups on observables that are not attached to a security incident on the initial event trigger. Also, you might perform this task when you want more information about a related observable.

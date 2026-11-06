@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/md-engagement-dashboard-enterprise.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Engagement dashboard
@@ -56,5 +56,5 @@ Shows the five most frequently used AI systems across your organization, broken 
 
 Systems are listed in descending order by usage. Hover over a bar to see the department breakdown within that system's total usage.
 
-To understand more about the Value insights from the ServiceNow AI Engagement dashboard, see [ServiceNow AI Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/md-servicenow-ai-engagement.md).
+To understand more about the Value insights from the ServiceNow AI Engagement dashboard, see [ServiceNow AI Engagement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/md-servicenow-ai-engagement.md).
 

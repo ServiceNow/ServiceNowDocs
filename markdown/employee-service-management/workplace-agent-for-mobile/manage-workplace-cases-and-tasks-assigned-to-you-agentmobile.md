@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ For detailed information about the available features, refer to [Workplace Agent
 
 2.  On the **Work view** page, depending on what cases or tasks you want to check, you can choose from the following options.
 
-<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d736623e100">
+<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d748165e100">
 
 Section
 
-</th><th align="left" id="d736623e103">
+</th><th align="left" id="d748165e103">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d736623e109">
+</th></tr></thead><tbody><tr><td id="d748165e109">
 
 **My work overview**
 
@@ -57,7 +57,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
 -   Select **All**to view all the cases irrespective of their status.
  The details of the cases are displayed when you select the card. You can further select the case to view the case details in a separate page.
 
-</td></tr><tr><td id="d736623e151">
+</td></tr><tr><td id="d748165e151">
 
 **My work**
 
@@ -70,7 +70,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
     2.  To apply a filter on the workplace cases, select **Workplace case**.
 
 
-</td></tr><tr><td id="d736623e186">
+</td></tr><tr><td id="d748165e186">
 
 **Group work**
 
@@ -85,7 +85,7 @@ Go to the **Group work** section to view the cases and tasks assigned to the ass
 -   **Open unassigned**: Select this open to view both cases and tasks that are unassigned.
 
 
-</td></tr><tr><td id="d736623e225">
+</td></tr><tr><td id="d748165e225">
 
 **Unassigned work**
 

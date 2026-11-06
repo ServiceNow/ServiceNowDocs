@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/setup-audit-retention.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Management Console, Configure, Auditing]
+breadcrumb: [Audit Management Console, Configuring auditing for a table, Auditing]
 ---
 
 # Setup your audit retention
@@ -40,9 +40,13 @@ Role required: security\_admin
 
     The Retention Policy modal shows up confirming the selected duration.
 
-6.  Select **Save** to update the retention policy for the selected table.
+6.  Select **Generate Estimate** to view the approximate number of audit records that are older than your selected duration.
 
-7.  To disable deletion of Audit records of a table, disable the Automatically Purge Audit Records toggle and select **Save**.
+    For information about generate estimate, see [Enable an audit deletion estimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-audit-deletion-estimation.md)
+
+7.  Select **Save** to update the retention policy for the selected table.
+
+8.  To disable deletion of Audit records of a table, disable the Automatically Purge Audit Records toggle and select **Save**.
 
     **Note:** The audit records that were previously deleted due to the selected retention duration are permanently unavailable.
 

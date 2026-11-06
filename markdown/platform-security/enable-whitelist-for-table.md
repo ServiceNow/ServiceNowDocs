@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/enable-whitelist-for-table.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Auditing]
+breadcrumb: [Configuring auditing for a table, Auditing]
 ---
 
 # Enable inclusion list auditing for a table
@@ -16,9 +16,9 @@ Enable a table to audit only those fields you explicitly designate. This is usef
 
 ## Before you begin
 
-The table must be [enabled for auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnableAuditingForATable.md).
-
 Role required: admin
+
+The table must be [enabled for auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnableAuditingForATable.md).
 
 ## Procedure
 

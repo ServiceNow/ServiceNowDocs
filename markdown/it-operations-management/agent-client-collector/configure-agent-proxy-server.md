@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure an agent on a proxy server
@@ -96,7 +96,7 @@ Run checks on all proxy agents \(No load balancing\)
 
 </td><td>
 
-Clear this option to load balance the selected multi proxy agents that monitor the matching CIs in the policy's **Monitored CIs** tab. Select this option for each agent to monitor all matching CIs in the policy's **Monitored CIs** tab.For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, when you clear this option, each agent monitors two CIs. When selecting this option, each agent monitors all 10 of the matching CIs in the policy.
+Clear this option to load balance the selected multi proxy agents that monitor the matching CIs in the policy's **Monitored CIs** tab. Select this option for each agent to monitor all matching CIs in the policy's **Monitored CIs** tab.For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, the load is distributed. When you clear this option, each agent monitors two CIs. When selecting this option, each agent monitors all 10 of the matching CIs in the policy.
 
  For existing or active policies, this option is enabled by default. For new and inactive policies, this option is turned off by default.
 
@@ -105,4 +105,6 @@ Clear this option to load balance the selected multi proxy agents that monitor t
 </td></tr></tbody>
 </table>5.  Select **Activate**.
 
+
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/proxy-agent.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -38,8 +38,6 @@ Based on the tasks that were set up by the administrators, the tasks are display
 -   Watchlist
 -   Confidential records
 
-**Note:** Task configurations are maintained in the Applicable Table, which now includes an Active/Inactive flag. The Active/Inactive flag determines whether a configuration is considered in My Tasks. When marked active, the configuration appears in the relevant task tabs such as My Pending Tasks or My Group Tasks; when marked inactive, it is excluded. This functionality enables you to control visibility without deleting records. Toggle the flag to activate or deactivate entries as needed.
-
 You can view the Tasks page in the following workspaces:
 
 -   Audit Workspace
@@ -55,7 +53,7 @@ You can view the Tasks page in the following workspaces:
 
 
 -   **[Monitor my tasks in the Tasks page in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-my-tasks-in-ws.md)**  
-Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
+Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the GRC Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

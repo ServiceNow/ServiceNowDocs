@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure AES, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Delegate developers using AES
@@ -32,7 +32,7 @@ An admin may have several delegated developers, each with their own set of permi
 
 Some AES features may be inaccessible to the delegated developer, depending on permissions. Your role enables you to access, edit, and add objects. If a feature of App Engine Studio is unavailable to you, contact your system administrator.
 
-For more information about delegated development and permissions, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about delegated development and permissions, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Restricted ability to create apps
 

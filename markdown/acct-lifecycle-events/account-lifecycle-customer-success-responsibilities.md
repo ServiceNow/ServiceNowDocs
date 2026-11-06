@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-customer-success-responsibilities.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Success Management]
 ---
@@ -14,8 +14,8 @@ breadcrumb: [Reference, Customer Success Management]
 
 Responsibilities added with Customer Success Management.
 
-|Responsibilities|Description|
-|----------------|-----------|
+|Responsibility|Description|
+|--------------|-----------|
 |Relationship Manager|Maintains ongoing strategic engagement with the customer. Verifies value delivery, stakeholder alignment, and long-term satisfaction.|
 |Escalation Manager|Coordinates resolution of high-risk issues or service disruptions. Verifies visibility and timely resolution during escalations.|
 |Service Delivery Manager|Oversees consistent service delivery. Tracks service quality, SLA performance, and manages ongoing coordination across teams.|

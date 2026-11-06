@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-case-types-map-regu.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -21,6 +21,8 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 ## About this task
 
 The Digital Resilience Incident Case module in the Operational Resilience Workspace lists all Digital Resilience Incident Cases associated with an incident or security incident. A new Regulation Mappings related list, now available in each Digital Resilience Incident Case record, displays the relationships between entities related to the cases and their corresponding regulations.
+
+Each regulation mapped to an entity drives the action task workflow for that case. When a regulation is added or updated for a Digital Resilience Incident Reporting case, two flows run: 'Action task automation for regulation addition' and 'Action task automation on regulation updates'. These flows read the action task configuration of the matching Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] record. The flows automatically create the required action tasks \(Regulatory reporting assessment of IT incidents, DRI Initial/Intermediate/Final reports\). The action tasks use the assignment groups, due dates, repeat intervals, and termination conditions defined in those templates. For details on the action task templates, see [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/set-up-action-task-templates.md).
 
 ## Procedure
 
@@ -56,9 +58,13 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
         |Regulation|Regulation that is mapped to the entity associated with the case, for example, Digital Operational Resilience Act.|
         |Record type|Digital Resilience Incident Case record. This field is auto-filled.|
 
-        The example illustrates mapping the Acer entity to the 'Digital Operational Resilience Act' \(a single regulation\). However, entities can also be mapped to multiple regulations.
+        The example illustrates mapping the Acer entity to the 'Digital Operational Resilience Act' \(a single regulation\).
+
+        After this mapping is saved, the regulation appears on the case and triggers the corresponding action tasks based on the regulation's action task configuration. If the same case is mapped to multiple regulations, a separate set of action tasks \(and therefore separate Initial/Intermediate/Final reports\) is generated per regulation.
 
         \[Omitted image "reg-mapping-new-record-regulations-added.png"\] Alt text: Mapping an entity to a single regulation.
+
+        Entities can also be mapped to multiple regulations.
 
 3.  To add a subtype for the case, navigate to the Subtypes related list and select **New**.
 
@@ -144,5 +150,5 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 **Related topics**  
 
 
-[Complete action tasks and report incidents associated with regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/work-on-action-tasks.md)
+[Complete action tasks and report regulatory incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/work-on-action-tasks.md)
 

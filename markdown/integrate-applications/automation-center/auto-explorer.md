@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -39,7 +39,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d93183e124">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d93005e123">
 
 **If you know the automation type**
 
@@ -47,16 +47,16 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 Select the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d93183e133">
+</td></tr><tr><td id="d93005e132">
 
 **If you don't know the automation type**
 
 </td><td>
 
-Select the open-ended search button to launch the panel and start an agent-guided conversation.
+Select the open-ended search button to launch the ServiceNow Otto panel and start an agent-guided conversation.
 
 </td></tr></tbody>
-</table>4.  In the panel, respond to the agent prompts to define your search criteria.
+</table>4.  In the ServiceNow Otto panel, respond to the agent prompts to define your search criteria.
 
     The agent asks three questions to scope your search:
 

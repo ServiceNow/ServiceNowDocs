@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Set up a table configuration
@@ -18,7 +18,7 @@ Define the kind of data or process that you want to view and analyse in your gra
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user
 
 ## Procedure
 

@@ -7,10 +7,10 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configuring Agentic Playbooks
@@ -27,15 +27,6 @@ Agentic Playbooks come preconfigured with AI Agents that are integral to the Pla
 
 You can set up AI Agents to automatically complete activities or provide recommendations for you to review, edit, and approve.
 
-You can enable AI Agents for all default activities. For custom activities, make sure to enable AI Agents in the activity definitions and then in playbook. You can configure the following activities to be completed independently by AI Agents:
-
--   New Record Form
--   Questionnaire
--   Email Form
--   Record Form
-
-To learn more about activity definitions, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activity-definitions.md).
-
 ## Procedure
 
 1.  In Workflow Studio, open the playbook that you want to use AI Agents for.
@@ -44,7 +35,7 @@ To learn more about activity definitions, see [Activity definitions](https://raw
 
 3.  On the **AI Agents** tab, select how you want to use the AI Agents.
 
-    \[Omitted image "enable-ai-agent-june2026.png"\] Alt text: Option to enable and select the scope of AI Agents.
+    \[Omitted image "agentic-playbook-configure.png"\] Alt text: Enable and configure AI agents for the activity.
 
     |Option|Description|
     |------|-----------|
@@ -52,17 +43,21 @@ To learn more about activity definitions, see [Activity definitions](https://raw
     |**Autonomous**|The AI Agents update the record, complete the activity, and automatically move the playbook to the next activity.|
     |**No AI Agents**|AI Agents are turned off for the activity.|
 
-    **Note:** Test the playbook extensively to make sure that the AI Agents can complete the activities independently. Select **View progress** while testing the playbook to see the agent activities on the Now Assist panel.
+    **Note:** Test the playbook extensively to make sure that the AI Agents can complete the activities independently. Select **View progress** while testing the playbook to see the agent activities on the ServiceNow Otto® panel.
 
     For activities that can't be completed independently by the AI Agents, the system saves the data. The activity is completed if the data matches any Wait for condition in your playbook.
 
-4.  In the **AI Agents** field, select a custom agent that you want to add to the activity.
+4.  In the **Run as** field, select whether you want the activity to run on behalf of the user who triggered the playbook or the user who completed the previous activity.
 
-5.  In the **AI Agent Instructions** field, enter instructions for the task that you want the AI Agent to perform.
+5.  In the **AI Agents** field, select a custom agent that you want to add to the activity.
+
+    If you have custom agents that are specifically built for your use case, add the custom agents to the activity. To maintain accuracy, add a maximum of 5-6 custom agents.
+
+6.  In the **AI Agent Instructions** field, enter instructions for the task that you want the AI Agent to perform.
 
     For guidelines about how to write instructions for AI Agents, see [Guidelines for writing AI agent instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/guidelines-agent-instruction.md).
 
-6.  Select **Save and close**.
+7.  Select **Save and close**.
 
 
 ## What to do next
@@ -70,6 +65,4 @@ To learn more about activity definitions, see [Activity definitions](https://raw
 Repeat as needed for any other activities that you want an AI Agent to help perform.
 
 After the playbook is complete, test the playbook. For information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-process.md).
-
-**Parent Topic:**[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks-landing.md)
 

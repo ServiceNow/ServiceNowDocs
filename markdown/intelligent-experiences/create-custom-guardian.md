@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-custom-guardian.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring a Guardrail Service Provider, AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring a Guardrail Service Provider, AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Create a custom guardian
@@ -91,13 +91,11 @@ Role required: admin
     -   Select **All** to handle the detection of both offensiveness and prompt injection together.
     -   Select **Offensiveness** to enable the detection of offensive or harmful content.
     -   Select **Prompt Injection** to enable the detection of prompt attacks.
-    **Note:** If your LLM can evaluate both offensiveness and prompt injection in a single request, select **All**. If not, create separate guardrail records for each offensiveness and prompt injection.
+    **Note:** If your LLM can evaluate both offensiveness and prompt injection in a single request, select All. If not, create separate guardrail records for each offensiveness and prompt injection.
 
 8.  In the **Connection And Credential Alias** field, select the alias that you want to integrate with your custom guardian.
 
-9.  Select **Submit**.
-
-10. Set up the custom guardian token limit.
+9.  Set up the custom guardian token limit.
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Tables**.
 

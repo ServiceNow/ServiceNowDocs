@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Scrum program planning board, Scrum Programs for Agile Development 2.0, Agile Development 2.0, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Scrum program planning board, Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Plan a scrum program
@@ -51,6 +51,8 @@ Plan work for sprints, using a centralized view on Agile Board, of multiple scru
 
     -   Dropping the story back into the epic backlog pane clears the references of the sprint and assignment group from the story.
     -   Moving the story to the team's backlog lane clears only the sprint reference but retains the assignment group.
+
+**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/planning-scrum-program-overview.md)
 
 **Related topics**  
 

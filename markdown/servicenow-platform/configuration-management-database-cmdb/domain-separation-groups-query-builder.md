@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Reference, CMDB Query Builder, Configuration Management Database \(
 # Domain separation and CMDB Query Builder
 
 Domain separation is supported in the CMDB Query Builder. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
-
-
 
 ## How domain separation works in the CMDB Query Builder
 

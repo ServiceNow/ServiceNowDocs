@@ -7,9 +7,9 @@ release: zurich
 product: State Management
 classification: state-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [State Management, Configure core features, Administer]
+breadcrumb: [State Management, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Installed with State Model

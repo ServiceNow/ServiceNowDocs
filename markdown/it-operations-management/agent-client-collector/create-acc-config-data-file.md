@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create an Agent Client Collector configuration data file
@@ -36,15 +36,15 @@ Domain separation is supported in the Agent Client Collector configuration data 
 
 3.  Add or remove an attachment.
 
-<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d692344e114">
+<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d746847e116">
 
 Action
 
-</th><th align="left" id="d692344e117">
+</th><th align="left" id="d746847e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d692344e123">
+</th></tr></thead><tbody><tr><td id="d746847e125">
 
 **Add a file**
 
@@ -58,7 +58,7 @@ The Attachments dialog box opens.
 3.  Close the Attachments dialog box.
 
 
-</td></tr><tr><td id="d692344e157">
+</td></tr><tr><td id="d746847e159">
 
 **Delete a file**
 
@@ -92,4 +92,6 @@ The Attachments dialog box opens.
 -   The **Name** value is automatically set to the name of the attachment.
 
 Checks use the configuration data file with instance data during check execution.
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

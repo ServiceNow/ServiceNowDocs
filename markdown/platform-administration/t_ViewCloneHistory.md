@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_ViewCloneHistory.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer]
+breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # View the clone history page \(legacy\)
@@ -24,12 +24,12 @@ The `clone_instance` table stores records for all previously and currently sched
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Instance Clone** &gt; **Live Clones** &gt; **Clone History**.
+1.  Navigate to **All** &gt; **System Clone \(legacy\)** &gt; **Clone History \(legacy\)**.
 
     Clone history also displays the **State** for current and past clones. Clones in the **Draft** state don’t appear on the clone history table. For more information see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-states.md).
 
-2.  Select a record to view its history.
+    The **System Clones** list opens. Requests submitted from the Clone Admin Console appear on the **Clone Home** page instead.
 
+2.  Select a clone ID to view its history.
 
-**Parent Topic:**[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-instance-clone.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage actions in UI Builder pages
@@ -233,7 +233,7 @@ An event mapping in UI Builder is the process that enables you to map an event's
 Use event payloads to link data to an action.
 -   **[Configure an event handler manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/event-handler.md)**  
 Add an event handler to a page, component, data resource, or declarative action within UI Builder so that your user can trigger an action.
--   **[Configure an event handler with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)**  
+-   **[Configure an event handler with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-creator/configure-an-event-handler-with-now-assist.md)**  
 Use Now Assist in UI Builder to configure event handlers. At present, you can configure link to destination, open or close modal, and view load requested event handlers using Now Assist in UI Builder.
 -   **[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/bind-events.md)**  
 After you have created events, you can bind them to actions on your components, pages, data resources, and declarative actions.
@@ -245,6 +245,8 @@ Delete an event handler that you no longer need in UI Builder.
 Delete an event mapping that you no longer need in UI Builder.
 -   **[Add events to track components with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/dirty-state-event.md)**  
 Locate dirty state components through event configuration.
+-   **[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/uib-ui-interactions.md)**  
+Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic.
 
 **Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/using-ui-builder.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,8 +30,9 @@ The product life-cycle value pairs represent the overall life cycle of a product
 
     After a product is approved for development or configuration, its structure and features are defined.
 
-    -   **Design**: The product is being architected, including defining specifications, features, and configurations. 
     -   **Chartered**: The product model has been formally approved for development or procurement. 
+    -   **Design**: The product is being architected, including defining specifications, features, and configurations. 
+    -   **Planning**: The product is undergoing activities of creating and managing planning items that describe intended future work or change — such as new services, applications, or capabilities — and aligning them to business needs and outcomes. This represents proposed or in-progress work that is not yet live in operations. Planning ensures that business strategy \(from the Ideation &amp; Strategy domain\) is converted into actionable initiatives that will shape the services and applications managed in the instance. The CSDM uses the Planning Item \(from the Strategic Portfolio Management application\) as the primary record type.
 -   **Build &amp; Integrate life cycle stage**
 
     The product is being developed, tested, and prepared for operational deployment.

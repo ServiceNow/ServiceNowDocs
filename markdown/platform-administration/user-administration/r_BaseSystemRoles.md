@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 42
-breadcrumb: [Managing roles, User admin, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 43
+breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Base system roles
@@ -558,9 +558,9 @@ Category managers can create, edit, and delete model categories.
 
 ## CMDB administrator \[sn\_cmdb\_admin\]
 
-The configuration management data base \(CMDB\) administrator is a key role required for interacting with the CMDB Workspace. CMDB administrators can access all CMDB data, tools, and UIs within the CMDB Workspace. Users with this role can set policies that an editor can't, such as class manager and app service requirements.
+The configuration management data base \(CMDB\) administrator is a key role required for interacting with the CMDB Workspaceand the Service Graph Workspace. CMDB administrators can access all CMDB data, tools, and UIs within the CMDB Workspaceand Service Graph Workspace. Users with this role can set policies that an editor can't, such as class manager and app service requirements.
 
-As you drill down in the CMDB Workspace, there are some dashboards and list views that require specific roles in addition to the CMDB Admin, CMDB Editor, or CMDB User roles.
+As you drill down in the CMDB Workspaceor the Service Graph Workspace, there are some dashboards and list views that require specific roles in addition to the CMDB Admin, CMDB Editor, or CMDB User roles.
 
 -   **Contains Roles**
 
@@ -614,9 +614,9 @@ CMDB de-duplication admins can review and remediate CMDB de-duplication tasks.
 
 ## CMDB editor \[sn\_cmdb\_editor\]
 
-A key role required for interacting with CMDB Workspace. CMDB editors can create, edit, and delete CMDB records but can't change policies such as data manager, class manager within CMDB Workspace.
+A key role required for interacting with CMDB Workspaceand the Service Graph Workspace. CMDB editors can create, edit, and delete CMDB records but can't change policies such as data manager, class manager within CMDB Workspaceor Service Graph Workspace.
 
-As you drill down in the CMDB Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
+As you drill down in the CMDB Workspaceor Service Graph Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
 
 -   **Contains Roles**
 
@@ -745,9 +745,9 @@ CMDB reader users can read data from the CMDB hierarchy.
 
 ## CMDB user \[sn\_cmdb\_user\]
 
-A key role required for interacting with CMDB Workspace. CMDB users have read-only access to CMDB data and basic UI within CMDB Workspace.
+A key role required for interacting with CMDB Workspaceand the Service Graph Workspace. CMDB users have read-only access to CMDB data and basic UI within CMDB Workspaceand Service Graph Workspace.
 
-As you drill down in the CMDB Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
+As you drill down in the CMDB Workspaceor in Service Graph Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
 
 -   **Contains Roles**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate a AI skill, Use AI Admin Hub, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+1.  Navigate to **Admin** &gt; **AI Admin**.
 
     If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 

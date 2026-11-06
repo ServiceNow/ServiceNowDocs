@@ -7,7 +7,7 @@ release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [DevOps Config custom policies, How to write DevOps Config policies, How to create DevOps Config policies, How to test DevOps Config policies, Creating DevOps Config policies, Writing DevOps Config policies, DevOps Config policy]
 breadcrumb: [Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]

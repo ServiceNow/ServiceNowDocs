@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 ---
@@ -28,7 +28,7 @@ With the Service Graph Connector for Microsoft Excel, you can create import task
 **Related topics**  
 
 
-[bundle-crint.integrationhub]
+[IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md)
 
 [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/integrationhub-etl.md)
 

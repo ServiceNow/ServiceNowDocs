@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Design and Assign function, Configure, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Create a Change Model for Design and Assign function
@@ -88,7 +88,9 @@ Option to enable this state as the initial state for your model. This field is a
 </td></tr></tbody>
 </table>7.  To save the state and return to the Change Model form, select **Submit**.
 
-8.  To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text: Hide/display hierarchical Lists Icon\) for the model state that you want to apply the transition to.
+8.  Select the icon for the model state that you want to apply the transition to.
+
+    To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text:\).
 
     The Model State Transitions context menu appears.
 
@@ -115,7 +117,7 @@ A Change model is created with the model states and model state transitions.
 
 Create a record producer to configure an activity in the playbook. To learn more, see [Create a record producer for the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-record-producer-design-assign-playbook.md).
 
-**Parent Topic:**[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
@@ -124,7 +126,7 @@ Create a record producer to configure an activity in the playbook. To learn more
 
 [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ChangeStateModel.md)
 
-[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 [Configure a Design and Assign function example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.md)
 

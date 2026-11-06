@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-02-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing roles, User admin, Configure core features, Administer]
+breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Time-limited role

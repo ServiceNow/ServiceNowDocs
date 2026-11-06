@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-csm-omni-callback-app.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Omnichannel Callback, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure Omnichannel Callback, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Install Omnichannel Callback for Customer Service Management
@@ -16,7 +16,7 @@ You can install the Omnichannel Callback for Customer Service Management applica
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Omnichannel Callback for Customer Service Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9b6baa35771801108ed8869b8d5a9967) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -55,7 +55,7 @@ The following items are installed with the Omnichannel Callback for Customer Ser
 **Related topics**  
 
 
-[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md)
+[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md)
 
 [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md)
 

@@ -1,24 +1,23 @@
 ---
 title: Zero Copy Connector for ERP partner profile field descriptions
-description: The partner profile record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
+description: The partner profile record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-partner-profile-fields.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2025-10-22"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, field]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP partner profile field descriptions
 
-The partner profile record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
+The partner profile record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 
 For process details, see [View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
-
-This feature is available starting with the Zurich Patch 4 release.
 
 <table id="table_nfm_dcz_1hc"><thead><tr><th>
 
@@ -34,7 +33,7 @@ Partner class
 
 </td><td>
 
-An optional field that can be used to group partners.
+Value used to group partners.
 
 </td></tr><tr><td>
 
@@ -42,7 +41,7 @@ Partner status
 
 </td><td>
 
-Indicates if the partner profile is active or inactive and most often contains **A** for active.
+Indicates whether the partner profile is active or inactive. Most often contains **A** for active.
 
 </td></tr><tr><td>
 
@@ -76,7 +75,7 @@ User type
 
 </td><td>
 
-Most often contains **US** \(for user\) to indicate that you want the system to notify a specific person when the inbound message arrives.
+Most often contains **US** \(for user\), which notifies a specific person when the inbound message arrives.
 
 </td></tr><tr><td>
 
@@ -103,5 +102,4 @@ Message code \(Allowed message types column\)
 A third level of differentiation of message type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

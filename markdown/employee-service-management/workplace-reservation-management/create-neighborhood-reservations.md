@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a neighborhood reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d751851e78">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d763361e78">
 
 Location
 
-</th><th align="left" id="d751851e81">
+</th><th align="left" id="d763361e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d751851e87">
+</th></tr></thead><tbody><tr><td id="d763361e87">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d751851e111">
+</td></tr><tr><td id="d763361e111">
 
 **From Employee Center Portal**
 
@@ -224,9 +224,9 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -253,4 +253,6 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

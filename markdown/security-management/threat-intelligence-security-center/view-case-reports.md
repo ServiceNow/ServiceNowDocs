@@ -7,8 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [case reports, report template, executive summary report, Threat Analyst Workbench]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -24,6 +25,8 @@ Role required: sn\_sec\_tisc.analyst
 
 Generate case reports using predefined templates.
 
+For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
@@ -37,6 +40,8 @@ Generate case reports using predefined templates.
     **Note:** You can delete the reports from the list, create a duplicate copy of the existing reports and customize your own report.
 
 5.  Select **New with Template** as the report generation method.
+
+    For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
 
 6.  Select a report template from the list.
 
@@ -63,6 +68,8 @@ Generate case reports using predefined templates.
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case using generative AI]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -70,6 +77,8 @@ Generate case reports using predefined templates.
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
+
+[Generate a Case Report using generative AI]()
 
 [Create a security incident from a TISC case]()
 

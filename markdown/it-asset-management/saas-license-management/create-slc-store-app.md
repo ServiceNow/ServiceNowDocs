@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a store app for a custom integration
@@ -104,7 +104,7 @@ Target Scope
 
 </td><td>
 
-Application from which resources are being requested. Click the search \(\[Omitted image "search-icon.png"\] Alt text: Search icon\) icon to locate and select the **Global** application.
+Application from which resources are being requested. Select the search\[Omitted image "search-icon.png"\] Alt text:icon to locate and select the **Global** application.
 
 </td></tr><tr><td>
 

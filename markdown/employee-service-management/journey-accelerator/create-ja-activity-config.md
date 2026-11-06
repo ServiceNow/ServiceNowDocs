@@ -7,9 +7,9 @@ release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add action plan to My active items, Configure action plan access in the Employee Center, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Add a Journey Accelerator action plan link to My Active Items list, Configure action plan access in the Employee Center, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an Employee Center activity configuration
@@ -20,7 +20,7 @@ Create or modify an activity configuration to define how the Employee Center han
 
 Use the application picker to set the appropriate scope. Employee Center. See, [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md)
 
-The name of the activity to configure. Use the name of the activity created in the [Add a Journey Accelerator action plan to My active items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md) task example `Action plan items`.
+The name of the activity to configure. Use the name of the activity created in the [Add a Journey Accelerator action plan link to My Active Items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md) task example `Action plan items`.
 
 Role required: admin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -60,7 +60,9 @@ Agents can use the ServiceNow Otto panel available in their workspace. This conv
 
 [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
-[configure-merge-article]
+[Configure AI skills for merging articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.md)
 
 [Enable multilingual service in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.md)
+
+[Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/intelligent-approvals.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build workflows]
 ---
@@ -14,23 +14,27 @@ breadcrumb: [Build workflows]
 
 Use AI to automatically evaluate incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval.
 
+\[Omitted video\] Description: Video overview of Intelligent Approvals showing how AI interprets natural-language policies to automate approval decisions.
+
+Learn how Intelligent Approvals connects policy intent directly to approval execution through AI-powered automation.
+
 ## Get started
 
 <table id="table_mp1_4d4_w3c" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/explore-intelligent-approvals.md)\[Omitted image "bus-explore.svg"\] Alt text:Discover how AI interprets approval policies and automates decision-making
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover how AI interprets approval policies and automates decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/explore-intelligent-approvals.md)
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/configure-intelligent-approvals.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Set up intelligent approvals and configure AI evaluation settings
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up intelligent approvals and configure AI evaluation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/configure-intelligent-approvals.md)
 
 </td></tr><tr><td>
 
-Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intelligent approvals
+[Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/build-intelligent-approvals.md)
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/reference-intelligent-approvals.md)\[Omitted image "bus-learn.svg"\] Alt text:Access technical specifications and role documentation
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Access technical specifications and role documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/reference-intelligent-approvals.md)
 
 </td></tr></tbody>
 </table>Intelligent approvals bridge the gap between business policy and approval execution. Upload natural-language policy documents, and have AI automatically evaluate incoming requests against these policies in real-time. The AI handles clear approvals and rejections automatically, and routes ambiguous cases to humans for approval. When policies change, update the document. There's no need for developer intervention to rewrite the workflow.
@@ -97,6 +101,6 @@ Some ServiceNow resources that can provide you with helpful information are:
     -   Learn more about specific known errors, along with workarounds if any, from [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
-    Learn more about the value that you can add to your business with intelligent approval automation. Watch the product demonstration videos.
+    Learn more about the value that you can add to your business with intelligent approval automation. Watch the product demonstration video Create an Intelligent Approval.
 
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Web usage data collection tables and fields
@@ -177,4 +177,5 @@ Metric monitoring \(monitored\)
 Indicates whether the application is monitored for metrics. Read-only.Default: false
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+

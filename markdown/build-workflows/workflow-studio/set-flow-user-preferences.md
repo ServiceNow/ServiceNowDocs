@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Set flow user preferences
@@ -40,6 +40,4 @@ Role required: admin or flow\_designer
 
     For more information about available user preferences, see [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-preferences.md).
 
-
-**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-flow-designer.md)
 

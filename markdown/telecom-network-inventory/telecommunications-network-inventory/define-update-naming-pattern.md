@@ -1,0 +1,112 @@
+---
+title: Define or update a naming pattern for a related template
+description: Define a JavaScript expression to control how configuration items \(CIs\) are named when they are created from a related template. Naming patterns can include literal text, token library variables, conditionals, and string transformations.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/define-update-naming-pattern.html
+release: zurich
+product: Telecommunications Network Inventory
+classification: telecommunications-network-inventory
+topic_type: task
+last_updated: "2026-11-06"
+reading_time_minutes: 4
+breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
+---
+
+# Define or update a naming pattern for a related template
+
+Define a JavaScript expression to control how configuration items \(CIs\) are named when they are created from a related template. Naming patterns can include literal text, token library variables, conditionals, and string transformations.
+
+## Before you begin
+
+Role required: inventory\_template\_manager.
+
+## Procedure
+
+1.  Navigate to the SOW workspace or the Network Inventory workspace.
+
+    1.  Go to **List** &gt; **Network Inventory Templates** &gt; **Inventory Templates**.
+
+    2.  Select the inventory template that contains the related template you want to update.
+
+2.  Open the related template record.
+
+    From the inventory template, select the **Related Templates** tab. Locate the related template you want to update and select its name to open the record.
+
+    Alternatively, select the **Overview** tab and select the related template's node in the tree. Select **View details** to open the related template record in a new tab.
+
+3.  Open the name pattern editor for the related template.
+
+    1.  On the related template record's form, locate the **Name Pattern** field.
+
+    2.  Select the **Define name pattern** button.
+
+    The Define name pattern modal opens. The modal shows the current pattern, if one exists, in the **Name pattern** input.
+
+    **Note:** The **Define name pattern** button is visible only to users with the Inventory Template Manager role. Users without this role see the **\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`** field as read-only.
+
+4.  Edit the pattern in the **Name pattern** input.
+
+    Enter or update the JavaScript expression that produces the CI name. The pattern can combine literal text, variables, string methods such as `.replace()`, and conditional logic using the ternary operator.
+
+    For the full pattern syntax, see [Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
+
+5.  Insert a variable from the token library.
+
+    1.  Place the cursor in the **Name pattern** input.
+
+        The list of available variables opens automatically.
+
+    2.  Select a variable from the list to insert it into the pattern at your cursor position.
+
+6.  Review the inline pattern feedback.
+
+    As you edit the pattern, the modal displays inline feedback below the **Name pattern** input:
+
+    -   **Pattern valid**
+
+        A green message appears: `Valid name pattern. Preview: <resolved name>`. The name shown after `Preview:` is a sample of what your pattern produces, using sample values for the pattern's variables.
+
+    -   **Pattern invalid or empty result**
+
+        A red message appears: `Name pattern results in empty name. Please try again.` The **Apply** action is blocked. The same message appears whether the pattern has invalid JavaScript, references a variable that is not in the token library, or evaluates to an empty string.
+
+7.  Refresh the inline feedback by selecting **Preview**.
+
+    Selecting **Preview** re-runs the pattern and updates the sample name shown in the green message.
+
+8.  Add the pattern to the Name Pattern field by selecting **Apply**.
+
+    The modal closes. The **Name Pattern** field shows the new pattern. The record form indicates you have unsaved changes.
+
+    **Note:** **Apply** does not save the record. The pattern stays in the form until you save the record.
+
+9.  Save the related template record.
+
+
+## What to do next
+
+Confirm the pattern produces the expected resolved name:
+
+1.  Open the parent inventory template.
+2.  Select the **Overview** tab.
+3.  Select **Refresh**.
+
+The tree updates to show the resolved names. For more information, see [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md).
+
+**Parent Topic:**[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+
+**Related topics**  
+
+
+[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
+
+[Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
+
+[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+
+[Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
+
+[Extension point for custom name validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.md)
+
+[Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)
+

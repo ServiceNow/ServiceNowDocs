@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-12-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Amazon AWS sub account discovery, AWS Organizations, AWS discovery, AWS patterns, AWS sub accounts, AWS member accounts]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

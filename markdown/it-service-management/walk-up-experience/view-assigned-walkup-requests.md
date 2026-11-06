@@ -7,9 +7,9 @@ release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # Manage Walk-up Experience interactions manually
@@ -106,7 +106,7 @@ All Closed Complete and Closed Abandoned interactions assigned to a specific wal
     Alternatively, you can click **Close** to complete the interaction.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 **Related topics**  
 

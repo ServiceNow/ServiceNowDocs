@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/access-fields-ext-table-vis-des.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [extended table]
 breadcrumb: [Dot-walking from reference fields, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]

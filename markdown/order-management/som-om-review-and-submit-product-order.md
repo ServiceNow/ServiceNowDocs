@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-om-review-and-submit-product-order.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, order\_approver
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -151,10 +151,19 @@ Aggregate cost of all charges, both, one-time and recurring, associated with the
 
     The state of the order changes from Draft to New. The order progresses to the next step of the order life cycle.
 
+    **Note:** For orders that include recurring or entitlement offerings, ensure that required contract details such as the contract start date, contract end date, and term are populated before submitting the order. These details are validated during order approval.
+
 
 ## What to do next
 
 For complex orders, capture technical details. For more information, see [Capture order enrichment details for complex fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/capture-order-enrichment-details.md).
 
 If order enrichment tasks don't apply, move to order approval. For more information, see [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/approving-rejecting-orders-som.md).
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

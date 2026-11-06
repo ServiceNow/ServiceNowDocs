@@ -7,9 +7,9 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Manage schedules and shifts, On-Call Scheduling, IT Service Management]
+breadcrumb: [Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
 
 # Configure or update an On-Call schedule
@@ -241,7 +241,9 @@ Rotation interval
 
 Type of the rotation interval. Possible options are:-   Daily
 -   Weekly
+-   Monthly
 
+**Note:** This option is available only for the 2024 schedule engine. For information about this schedule engine, see [On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/oncall-schedule-engine.md).
 
 </td></tr><tr><td>
 
@@ -249,7 +251,7 @@ Rotate every
 
 </td><td>
 
-Frequency of the rotation interval.**Note:** This field appears only if the **Rotation interval** field is set to **Weekly**.
+Frequency of the rotation interval.**Note:** This field appears only if the **Rotation interval** field is set to **Weekly** or **Monthly**.
 
 </td></tr><tr><td>
 
@@ -261,19 +263,21 @@ Day of the week on which the roster rotation should start. When this field is sp
 
 </td></tr><tr><td>
 
-
+Day of the month for rotation
 
 </td><td>
 
-
+Day of the month on which the roster rotation should start. Possible options are:-   Last day of the month
+-   Specific day
+**Note:** This field appears only if the **Rotation interval** field is set to **Monthly**.
 
 </td></tr><tr><td>
 
-
+Rotation day
 
 </td><td>
 
-
+Specific day of the month on which the roster rotation should start.**Note:** This field appears only if the **Rotation interval** field is set to **Monthly** and **Day of the month for rotation** field is set to **Specific day**.
 
 </td></tr><tr><td>
 

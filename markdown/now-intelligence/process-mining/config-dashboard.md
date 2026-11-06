@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Configure, Process Mining, Platform Analytics]
 ---
 
 # Configure Process Mining map in PAR dashboard
@@ -18,7 +18,7 @@ Configure a Process Mining map to view the process graph in the PAR dashboard.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 

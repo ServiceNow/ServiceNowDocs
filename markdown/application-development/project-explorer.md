@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 4
 keywords: [Project explorer, Panel location, Opening and switching projects, Creating files and folders, File tree navigation, Explorer panel context menu, File and folder context menu, Inline run and preview icons, File status markers, Filtering and searching files, Moving, copying, and selecting files]
-breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Project explorer

@@ -7,7 +7,7 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,6 +45,8 @@ The Log \[syslog\] table displays only the Hermes Messaging Service log messages
 
 **Related topics**  
 
+
+[Managing Hermes settings]()
 
 [Check the status of and connection to the Hermes Kafka cluster]()
 

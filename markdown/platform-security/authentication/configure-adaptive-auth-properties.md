@@ -1,24 +1,24 @@
 ---
 title: Configure adaptive authentication properties
-description: After activating Adaptive Authentication, configure adaptive authentication properties according to your security requirements.
+description: After activating adaptive authentication, configure adaptive authentication properties according to your security requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-adaptive-auth-properties.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
 
 # Configure adaptive authentication properties
 
-After activating Adaptive Authentication, configure adaptive authentication properties according to your security requirements.
+After activating adaptive authentication, configure adaptive authentication properties according to your security requirements.
 
 ## Before you begin
 
-Role required: admin
+Role required: adaptive\_auth\_admin
 
 ## Procedure
 
@@ -102,11 +102,11 @@ Yes \| No
 
 </td></tr><tr><td>
 
-Maximum number of trusted device a user can register \(glide.trusted.device.max.count\)
+Maximum number of trusted devices a user can register \(glide.trusted.device.max.count\)
 
 </td><td>
 
-It is the maximum number of trusted device a user can register.
+It is the maximum number of trusted devices a user can register.
 
 </td><td>
 

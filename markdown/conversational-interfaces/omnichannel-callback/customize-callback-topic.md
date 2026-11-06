@@ -7,9 +7,9 @@ release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Omnichannel Callback, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Customize a default callback topic
@@ -26,7 +26,7 @@ You can customize one of the following default callback topics: Callback-Phone f
 
 ## Procedure
 
-1.  Duplicate the Callback-Phone topic from the Virtual Agent Designer.
+1.  Duplicate the Callback-Phone topic in the Asset library in Assistant Designer.
 
     For more information on how to duplicate a topic, see [Duplicate a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 

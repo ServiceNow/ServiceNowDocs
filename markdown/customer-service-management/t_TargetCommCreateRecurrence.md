@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommCreateRecurrence.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -26,8 +26,8 @@ You can specify the recurrence interval and the recurrence start and end date. T
 
 1.  Do one of the following:
 
-    -   Navigate to **Targeted Communications** &gt; **Active Publications**, open the desired publication, and select the **Setup Recurrence** related link.
-    -   Navigate to **Targeted Communications** &gt; **Recurrences** and select **New**.
+    -   Navigate to **Targeted Communications** &gt; **Active Publications**, open the desired publication, and click the **Setup Recurrence** related link.
+    -   Navigate to **Targeted Communications** &gt; **Recurrences** and click **New**.
 2.  Fill in the fields on the Recurrence form.
 
 <table id="table_mca_ftc_nr"><thead><tr><th>
@@ -52,8 +52,8 @@ Publication Template
 
 </td><td>
 
-The number of the publication being used as a template. -   If you selected the **Setup Recurrence** related link, this field displays the original publication number.
--   If you selected **Recurrences** in the Targeted Communications menu, select a publication from the Publications list.
+The number of the publication being used as a template. -   If you clicked the **Setup Recurrence** related link, this field displays the original publication number.
+-   If you clicked **Recurrences** in the Targeted Communications menu, select a publication from the Publications list.
 
 
 </td></tr><tr><td>
@@ -94,9 +94,9 @@ Custom Interval in Days
 This field appears when you select **Custom** as the **Recurrence Interval**. Enter the number of days for the interval.
 
 </td></tr></tbody>
-</table>3.  Select **Submit**.
+</table>3.  Click **Submit**.
 
-    The recurring publications are created based on the selected dates and the recurrence interval and the stage for each copy is set to **Author**. The copies appear on the **Publications** related list on the original publication form, as well as on the Active Publications and the Draft Publications lists. From any of these lists, you can open each publication and change the information as necessary. Each copy lists the publication template number in the **Recurrence** field.
+    The recurring publications are created based on the selected dates and the recurrence interval and the stage for each copy is set to **Author**. The copies appear on the **Publications** related list on the original publication form, as well as on the Active Publications and the Draft Publications lists. From any of these lists you can open each publication and change the information as necessary. Each copy lists the publication template number in the **Recurrence** field.
 
     A record of the recurrence appears on the Recurrences list.
 

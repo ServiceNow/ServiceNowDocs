@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define state flows, Work orders, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Customize state flows, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Rebuild state flows

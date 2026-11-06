@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -203,6 +203,4 @@ Queue that is assigned to the task.
 </td></tr></tbody>
 </table>3.  Click **Submit** to create the task or **Update** to modify the task.
 
-
-**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

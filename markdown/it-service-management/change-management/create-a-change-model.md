@@ -1,20 +1,20 @@
 ---
 title: Create a Change model
-description: Depending on your requirements, you can create a Change model and configure the states and transitions for a specific use case.
+description: Create change models to configure the states and transitions to match your organization's change processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-a-change-model.html
 release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
 # Create a Change model
 
-Depending on your requirements, you can create a Change model and configure the states and transitions for a specific use case.
+Create change models to configure the states and transitions to match your organization's change processes.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: change\_manager
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Change Models**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -42,7 +42,10 @@ Name
 
 </td><td>
 
-Unique name for the Change model.
+Name of the change model, based on the process that the model represents. For example, you can create the following change models:-   Normal
+-   Standard
+-   Emergency
+
 
 </td></tr><tr><td>
 
@@ -50,7 +53,7 @@ Default Change Model
 
 </td><td>
 
-Option for enabling the Change model as a default model on the Change request form.
+Option for enabling the change model as a default model on the change request form.
 
 </td></tr><tr><td>
 
@@ -58,7 +61,7 @@ Active
 
 </td><td>
 
-Option for enabling that this model is available for selection when creating a Change request.
+Option for making the model available for selection when creating a change request.
 
 </td></tr><tr><td>
 
@@ -66,7 +69,7 @@ Color
 
 </td><td>
 
-Color that appears on the left side of the Change model bar on the **Models** tab in the Change landing page.
+Color that appears on the side of the change model bar on the **Models** tab in the change landing page.
 
 </td></tr><tr><td>
 
@@ -74,7 +77,7 @@ Available in 'Create New'
 
 </td><td>
 
-Option for enabling that this model is available for selection on the **Models** tab on the Change landing page. Also, the model will be available to select in the **Model** field on the Change request form.
+Option for making this model available for selection on the **Models** tab on the change landing page and in the **Model** field on the change request form.
 
 </td></tr><tr><td>
 
@@ -82,7 +85,7 @@ Description
 
 </td><td>
 
-Detailed description of the Change model.
+Detailed description of the change model.
 
 </td></tr><tr><td>
 
@@ -90,79 +93,12 @@ Implementation states
 
 </td><td>
 
-Implementation state for the Change model. For more information on states, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md).If you are using Mass CI Update with Change Models ensure the Implementation states field in the model is set to the state in which you want the changes to take effect.
-
-</td></tr><tr><td>
-
-Record Preset
-
-</td><td>
-
-Preset values for all changes using this model.
-
-</td></tr><tr><td>
-
-Advanced Security
-
-</td><td>
-
-Option to enable role-based access controls and user criteria to tailor the Change creation landing page views. When you enable Advanced Security, **Available For**, **Not Available For**, and **Can write** tabs appear next to **Model States** tab.
-
-</td></tr><tr><td>
-
-Read Roles
-
-</td><td>
-
-Option to define the roles to view the Change model.
-
-</td></tr><tr><td>
-
-Write Roles
-
-</td><td>
-
-Option to define the roles to edit the Change model.
+Implementation state for the change model. For more information on states, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md).If you are using Mass CI Update with change models, verify that the **Implementation states** field in the model is set to the state in which you want the changes to take effect.
 
 </td></tr></tbody>
-</table>4.  Click the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\) and select **Save**.
+</table>4.  On the **Security** tab, fill in the fields.
 
-    The Model States context menu appears. You can select the states for your Change model.
-
-5.  Click **New**.
-
-6.  On the form, fill in the fields.
-
-    |Field|Description|
-    |-----|-----------|
-    |State|State that you want to include in your model.|
-    |Initial State|Option to enable this state as the initial state for your model. This field is automatically selected when you add the first state to your model.|
-
-7.  To save the state and return to the Change Model form, click **Submit**.
-
-8.  To add a transition between the states, click the display/hide hierarchical lists icon \(\[Omitted image "display-hide-hierarchial-lists.png"\] Alt text: Display/hide hierarchical lists icon.\) for the model state that you want to apply the transition to.
-
-    The Model State Transitions context menu appears.
-
-9.  Click **New**.
-
-10. On the form, fill in the fields.
-
-    |Field|Description|
-    |-----|-----------|
-    |From|State that the Change request is moving from.|
-    |To|State that the Change request is moving to.|
-    |Automatic Transition|Option for enabling automatic transition to the Change request when the defined conditions are met. Selecting this option also prevents you from manually selecting the **State** field on the Change request form.|
-
-11. Click the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\) and click **Save**.
-
-    The Model State Transition Condition context menu appears.
-
-12. Click **New**.
-
-13. On the form, fill in the fields.
-
-<table id="table_ybk_z2v_znb"><thead><tr><th>
+<table id="table_dyx_l11_g3c"><thead><tr><th>
 
 Field
 
@@ -172,102 +108,127 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Name
+Advanced Security
 
 </td><td>
 
-Unique name for the condition.
+Option to enable role-based access controls and user criteria to tailor the Change creation landing page views. When you enable Advanced Security, the **Not Available For**, **Available For**, and **Can Write** tabs appear next to the **Model States** tab in the related lists.For more information on managing user access to the change model, see [Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-user-criteria.md).
 
 </td></tr><tr><td>
 
-State Transition
+Available For
 
 </td><td>
 
-State that you're applying the transition condition to. This field is automatically set with the state that you're applying the condition to.
+Users with access to the change model.
 
 </td></tr><tr><td>
+
+Not Available For
+
+</td><td>
+
+Users with no the access to the change model
+
+</td></tr><tr><td>
+
+Can Write
+
+</td><td>
+
+Users with write access to the change model.
+
+</td></tr><tr><td>
+
+Read Roles
+
+</td><td>
+
+Roles that can view the change model.
+
+</td></tr><tr><td>
+
+Write Roles
+
+</td><td>
+
+Roles to edit the change model.
+
+</td></tr></tbody>
+</table>5.  Provide standard information for specific fields to be available for a new change request created using the model.
+
+    If you set a preset for the model, the value becomes read-only for change records created using the model.
+
+    1.  On the **Preset Management** tab, select the **Apply record preset** check box.
+
+    2.  Select the record preset from the list, and then select the relevant option for the chosen preset.
+
+    3.  Select the fields from the list, and then select the relevant value for the chosen field.
+
+    4.  Select **Submit**.
+
+6.  On the **Template Management** tab, fill in the fields.
+
+<table id="table_wr2_xb1_g3c"><thead><tr><th>
+
+Field
+
+</th><th>
 
 Description
 
+</th></tr></thead><tbody><tr><td>
+
+Who can propose Templates
+
 </td><td>
 
-Detailed description of the condition.
+Users allowed to propose templates using this change model. The available options are:-   Anyone who can modify this model
+-   Anyone who can read this model
+
 
 </td></tr><tr><td>
 
-Requires
+Template approval users
 
 </td><td>
 
-Condition for your transition. You can select a pre-defined condition, such as **Mandatory Fields** to require that specified fields are populated before the model state transitions, or select **Transition Condition** to define a more granular condition.
-
-To create pre-defined conditions, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-predefined-transition-condition-type.md).
+Users who can approve templates proposed using this change model.
 
 </td></tr><tr><td>
 
-Condition \(condition builder\)
+Template approval groups
 
 </td><td>
 
-Condition on the Change request that must be fulfilled to enable the transition.
-
-</td></tr><tr><td>
-
-Condition \(script\)
-
-</td><td>
-
-Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Option to make the condition active.
+User groups that can approve templates created using this change model.
 
 </td></tr></tbody>
-</table>14. Click **Submit**.
-
-15. Select **Available For** tab.
-
-16. Select **New** to add the list of users who can access the Change model
-
-17. On the form, fill the fields.
-
-    |Field|Description|
-    |-----|-----------|
-    |Name|Unique name for the user criteria record.|
-    |Active|Option to make the condition active.|
-    |Users|Option to select the users who can access the Change model.|
-    |Groups|Option to select the groups who can access the Change model.|
-    |Roles|Option to select the role who can access the Change model.|
-    |Companies|Option to select the companies who can access the Change model.|
-    |Locations|Option to select the location of the company who can access the Change model.|
-    |Departments|Option to select the departments who can access the Change model.|
-    |Match All|Option to use the Change model if it meets all conditions in the user criteria.|
-    |Advanced|Option to create a script to meet the condition for user criteria.|
-
-18. Select **Submit**.
-
-19. Manage the users to access the change model by providing the user access in **Not Available For**, **Available For**, and **Can Write** tabs:
-
-    -   **Available For** – Provides the access for the change model
-    -   **Not Available For** – Doesn’t provide the access for the change model
-    -   **Can Write** – Provides the editable access to the change model
-    For more information on user access, refer [Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-user-criteria.md).
-
-20. Select **Submit**.
+</table>7.  Select **Submit** to save the change model with the details provided.
 
 
+## What to do next
+
+Configure states for the change model you create. For more information, see [Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-model-states.md).
+
+Manage the templates created using the change model through options in the **Change Templates** tab. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-change-template.md).
+
+Configure categories that help classify available templates on the Create a change request page. For more information, see [Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-template-categories.md).
+
+-   **[Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-model-states.md)**  
+Configure states for change models and define transition between multiple states.
+-   **[State field policies for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/state-field-policies-change-models.md)**  
+Use state field policies to make change request fields mandatory or read-only at each state in a change model. Policies are enforced on the form when a change request is created or updated.
 -   **[Change model attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-model-attributes.md)**  
 Change model attributes are tags that you assign to states in a change model. Scripts can check which attributes are present in the current state of a change and turn functionality on or off for that state.
 -   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
-Create predefined transition conditions to reuse the conditions for your Change models.
+Create predefined transition conditions to reuse the conditions for your change models.
+-   **[Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/model-script-editor-roles.md)**  
+This role grants write access to the scripted condition fields on model state transition conditions and model condition types.
 -   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/attach-process-change-model.md)**  
-You can attach a process with defined conditions to the Change model states to enable state transitions.
+You can attach a process with defined conditions to the change model states to enable state transitions.
+-   **[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-change-template.md)**  
+Create, customize, and then propose a change template for any change model to standardize common change requests so that users don't have to create them manually.
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)
 

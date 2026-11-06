@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/select-aia-llm.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [global LLM, AI agent LLM, use case LLM, agentic workflow LLM, GPT-4, GPT-4o, GPT4, GPT4o]
-breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select the LLM for AI agents and agentic workflows
@@ -41,7 +41,7 @@ Depending on your region, you may have to consent to using a different service p
     -   AWS Claude
     -   Azure OpenAI
     -   Google Gemini
-    The new generative AI Config property records **sys\_generative\_ai\_config** and **sys\_generative\_ai\_prompt\_config** have been introduced for the Azure OpenAI: gpt 5.4 model provider.Both the properties share a **definition** field that references the same **sys\_one\_extend\_capability\_definition** record, which identifies the LLM provider.
+    The new generative AI Config property records **sys\_generative\_ai\_config** and **sys\_generative\_ai\_prompt\_config** have been introduced for the Azure OpenAI: gpt 5.4 model provider. Both the properties share a **definition** field that references the same **sys\_one\_extend\_capability\_definition** record, which identifies the LLM provider.
 
     **Note:** The new prompt config records are set to **true** by default.
 

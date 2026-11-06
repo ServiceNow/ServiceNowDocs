@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -39,15 +39,15 @@ Role required: sn\_cmp.cloud\_admin
 
     **Note:** **Discover now** will also be disabled with an message suggesting you to install the latest Discovery and Service Mapping Patterns. This can be fixed by installing version 1.15.1 at least or by triggering the manual migration step.
 
-<table id="choicetable_hz2_yzr_bcc"><thead><tr><th align="left" id="d582221e142">
+<table id="choicetable_hz2_yzr_bcc"><thead><tr><th align="left" id="d634893e144">
 
 Scenario
 
-</th><th align="left" id="d582221e145">
+</th><th align="left" id="d634893e147">
 
 Next steps
 
-</th></tr></thead><tbody><tr><td id="d582221e151">
+</th></tr></thead><tbody><tr><td id="d634893e153">
 
 **__Discover Now__ is disabled for System Admin login**
 
@@ -57,7 +57,7 @@ Next steps
 -   The banner at the top of the page prompts you to visit **Go to Applications Manager** for installation
 
 
-</td></tr><tr><td id="d582221e174">
+</td></tr><tr><td id="d634893e176">
 
 **__Discover Now__ is disabled for sn\_cmp Cloud Admin login**
 
@@ -67,7 +67,7 @@ Next steps
 -   The page requests to contact the system admin for installation of patterns application.
 
 
-</td></tr><tr><td id="d582221e194">
+</td></tr><tr><td id="d634893e196">
 
 **Latest patterns application is installed**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-management-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Data Management reference
@@ -22,6 +22,8 @@ There are constraints to the size of the table you use to archive your instance 
 A unique 32-character GUID \(Globally Unique ID\), called a Sys ID \(sys\_id\) identifies each record in an instance.
 -   **[Domain separation and Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/domain-separation-data-management.md)**  
 Domain separation is supported in Data Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Data Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-roles.md)**  
+Data Management includes the following roles.
 
 **Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_DataManagement.md)
 

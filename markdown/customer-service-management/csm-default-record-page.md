@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-default-record-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM default record page
@@ -18,11 +18,30 @@ The CSM default record page includes the basic structure for a record page, incl
 
 \[Omitted image "csm-default-record-template.png"\] Alt text: The CSM default record page provides agents with an overview of case record details and the activity stream. It also provides access to multiple features in the contextual side panel.
 
-The CSM default record page is included with the CSM/FSM Configurable Workspace experience.
+The CSM default record page is included with the CRM Workspace experience.
 
 ## Activity stream component
 
 The activity stream component on the CSM default record page displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities. For more information about this component, see [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md).
+
+## Action bar component
+
+The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.
+
+-   **Create**: Create records such as work orders, incidents, and requests.
+-   **Manage case**: Perform case management actions such as accepting a case or requesting information.
+-   **Save**: Save changes to the case record.
+-   **Follow**: Receive notifications when comments or work notes are added to the record.
+-   **More Actions**: Perform additional actions such as following a case, proposing a major case, or reporting a knowledge gap.
+
+The CSM default record page action bar includes the **Follow** action in the More Actions menu. Selecting this action enables you to receive notifications when comments or work notes are added to the record.
+
+You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
+
+-   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-notifications-preferences.md)
+-   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/follow-records-in-next-experience.md)
+
+When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
 
 ## Thin compose modeless dialogs
 
@@ -43,7 +62,12 @@ For more information about this feature, see [User presence](https://raw.githubu
 
 The CSM default record page includes the Email Templates feature. CRM Workspace pages that use the CSM default record page include the Email Templates tab in the contextual side panel.
 
-These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
+These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include:
+
+-   The recipients \(email addresses in the To, Cc, and Bcc fields\)
+-   The sender
+-   The subject of the email
+-   Text to include in the message body
 
 Users with the system administrator role can configure email templates by navigating to **All** &gt; **Email Client** &gt; **Email Client Templates** and selecting **New**. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
 
@@ -60,7 +84,7 @@ For more information, see [Compose an email from an email template](https://raw.
 Customer service agents can create emails from case records in the following ways:
 
 -   By selecting **Email** at the top of the activity stream to open the Compose Email component.
--   By selecting the More actions \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: agent workspace more actions menu\) menu in the case activity bar and then selecting **Compose email** to open a draft email in a new tab.
+-   By selecting the More actions \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: workspace more actions menu\) menu in the case activity bar and then selecting **Compose email** to open a draft email in a new tab.
 
 When creating emails, agents can apply templates to add content to the draft emails, such as the subject line and message body. To apply a template:
 
@@ -77,7 +101,9 @@ When creating emails, agents can apply templates to add content to the draft ema
 
 ## Recommended Actions feature
 
-The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
+The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. By default, the Recommended Actions tab on the CSM default record page is designed to show on the base system Case table `(sn_customerservice_case)`. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
+
+**Note:** The Hide tab condition on the Recommended Actions tab in the Tab sidebar component matches the base system Case table name exactly. As a result, the tab doesn't appear for records from tables that extend the Case table. For more information, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 
 The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-ai-search.md) functionality and Suggested Actions.
 
@@ -154,13 +180,11 @@ Requests
 
     For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nba-use-ai-search.md).
 
-    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
-
-    **Note:** To ensure Recommended Actions loads automatically and performs optimally, enable the **Enable prefetch** check box and verify that the **Get recommendations** data broker exists under Data Resources. This enhancement applies only to the Front-line Case page and CSM default record page and requires Recommended Actions to be enabled on the page. If you have any custom variants created before this enhancement, you must manually enable these settings.
+    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
 
 -   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-nba.md).
 
-    The Suggested Actions tab is available in the base system for Pro customers and doesn’t require additional configuration. The Suggested Actions tab is displayed if either the Task Intelligence for CSM or the Now Assist for CSM plugin is installed. Non-Pro customers can enable the tab manually.
+    The Suggested Actions tab is available in the base system for Pro customers and doesn’t require additional configuration. It becomes visible when the Task Intelligence plugin is installed. Non-Pro customers can enable the tab manually.
 
     -   Without the plugin, only the Search tab is visible on the Front-line case page.
 
@@ -169,14 +193,11 @@ Requests
     -   If the plugin is uninstalled, the Suggested Actions tab is no longer available.
 
 
-## Follow records to receive notifications
+## Editable record header field
 
-The CSM default record page action bar includes the **Follow** action in the More Actions menu. Selecting this action enables you to receive notifications when comments or work notes are added to the record.
+Agents can edit the short description of a record directly from the record header field. For more information, see [Editable record headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-agent-actions.md).
 
-You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
+## Collaborate component
 
--   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-notifications-preferences.md)
--   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/follow-records-in-next-experience.md)
-
-When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
+The Collaborate component enables agents to communicate with stakeholders and other users and gather information for case resolution. This component is available on the CSM default record page n the contextual side panel. For more information, see [Collaborate component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-collaborate-component.md).
 

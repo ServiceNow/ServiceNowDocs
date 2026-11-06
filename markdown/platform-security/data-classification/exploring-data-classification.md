@@ -7,7 +7,7 @@ release: zurich
 product: Data Classification
 classification: data-classification
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data Classification, Platform Privacy]
 ---
@@ -30,7 +30,7 @@ Data classification is a standalone process in which you manually apply data cla
 -   If you create your own data classifications, you can also design a tiered hierarchical system with parent and child data classifications.
 -   When creating manual data classifications on an extended or child table, base fields inherited from the parent table are not available for selection.
 
-    Classification is supported only for dictionary entries. You can't assign different classifications to inherited columns because they share the same dictionary entry. For example, you can't classify task.description as PII while classifying incident.description as Public.
+    Classification is supported only for dictionary entries. You can't assign different classifications to inherited columns because they share the same dictionary entry. For example, you can't classify task.description as PII while classifying incident.description as Public, as the incident table is a child of the task table.
 
 
 ## Overview dashboard

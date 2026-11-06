@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-update-approved-ex-rule.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -36,6 +36,4 @@ Group rules are reapplied to these findings. Submit the rule after making the ch
 
     The rule moves back to the Draft state and the associated VUL is deleted. The related Findings are reopened, and group rules are applied to the individual Findings.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-exception-rule.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an ad-hoc task on a claim
@@ -30,15 +30,15 @@ You can create additional tasks as needed on a claim by using the **Add task** b
 
 2.  Create a task from the **claim workspace** tab in a case or from the tasks list.
 
-<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d94581e110">
+<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d104096e110">
 
 Option
 
-</th><th align="left" id="d94581e113">
+</th><th align="left" id="d104096e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94581e119">
+</th></tr></thead><tbody><tr><td id="d104096e119">
 
 **From the claim workspace in a case**
 
@@ -46,7 +46,7 @@ Steps
 
 In the Tasks section, select **Add claim task**. The new task has the case set as the parent record.
 
-</td></tr><tr><td id="d94581e131">
+</td></tr><tr><td id="d104096e131">
 
 **From the tasks list**
 

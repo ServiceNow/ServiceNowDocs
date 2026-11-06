@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/jeopardy-management-setup-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ To use Jeopardy Management, fulfillment managers must either reconfigure existin
 
 ## Create SLA Definitions
 
-SLA definitions and SLA Processing flows are linked to tasks in a fulfillment plan and track and report on the time jeopardy-enabled tasks take to complete. See [Create Service Level Agreement definitions in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-sla-definitions.md) for more information.
+SLA definitions and SLA Processing flows are linked to tasks in a fulfillment plan and track and report on the time jeopardy-enabled tasks take to complete. See [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-sla-definitions.md) for more information.
 
 -   SLA Definitions: Set start condition, pause condition, cancel condition, and reset conditions according to use case.
 -   SLA Durations: Durations are specified so that tracking can be achieved when task SLA is created.
@@ -45,4 +45,11 @@ Decision tables are used to link and configure Jeopardy Management to product an
 -   Order Task Jeopardy Level Calculation: Sets a task's jeopardy level based on percentage task completion.
 -   Order Task Duration Assignment Policy: Defines the order duration and task SLA definition.
 -   Order Jeopardy Enablement Policy: Defines if a specification has jeopardy enabled.
+
+**Related topics**  
+
+
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/jeopardy-management.md)
+
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/monitoring-jeopardy-management.md)
 

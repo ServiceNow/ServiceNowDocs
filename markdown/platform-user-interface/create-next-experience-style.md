@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-next-experience-style.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -44,7 +44,7 @@ You upload new typefaces or images in a separate process. See [Add Next Experien
     
     ```
 
-4.  To save your work between steps, select the additional actions icon\[Omitted image "hamburger-icon.png"\] Alt text: and choose `Save`.
+4.  To save your work between steps, select the additional actions icon \[Omitted image "hamburger-icon.png"\] Alt text: and choose `Save`.
 
 5.  In the **Style** field, edit the JSON code to reflect the overrides you want the style to contain.
 

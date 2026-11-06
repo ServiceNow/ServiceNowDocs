@@ -7,7 +7,7 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -43,7 +43,7 @@ Employees are mapped to their workspace location. The employee list is automatic
     The list of impacted people is extracted based on the location. To add people manually, see [Add a person manually to the impacted people list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/add-person-manually-to-impacted-people.md).
 
 
-**Parent Topic:**[Managing impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/asynchronous-order-processing.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -49,14 +49,14 @@ The asynchronous order processing follows these steps:
 1.  You must activate the Product Order Open API. The new parameter mode enables the API to process orders synchronously or asynchronously. For more information about the API, see [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md).
 2.  After you receive high-volume orders or large numbers of order payloads through the Product Order Open API in asynchronous mode, the system responds with a `202 Accepted` status and an order ID. The order details are validated first and include the product offering, order line items, order specifications, order line item characteristics, and the specification relationship of order line items. For more information on how the validation works, see [Validating your orders through asynchronous order processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/asynchronous-order-validation.md).
 3.  After the validation of the order details is complete, an entry for each order with a unique record ID is created in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table. To learn more about how the order entries are created, see [Create order entries manually during the asynchronous order processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/creation-of-order-entries-in-the-asynchronous-order-processing.md).
-4.  When all the orders are captured in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table, a scheduled job runs to create the customer orders for the records in the New state. You can also manually trigger order creation from the Inbound Queue module by selecting the **Create Order** button, bypassing the wait for the automated job. After processing, you can verify the created orders in the customer orders section. To learn how a scheduled job creates orders, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/running-scheduled-job.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/running-scheduled-job.md).
+4.  When all the orders are captured in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table, a scheduled job runs to create the customer orders for the records in the New state. You can also manually trigger order creation from the Inbound Queue module by selecting the **Create Order** button, bypassing the wait for the automated job. After processing, you can verify the created orders in the customer orders section. To learn how a scheduled job creates orders, see [Configure a scheduled job for asynchronous order creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/running-scheduled-job.md).
 
 -   **[Validating your orders through asynchronous order processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/asynchronous-order-validation.md)**  
 You can validate your orders before the order records are created in the customer order table during asynchronous order processing in the ServiceNow® Order Management application.
 -   **[Create order entries manually during the asynchronous order processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/creation-of-order-entries-in-the-asynchronous-order-processing.md)**  
 Skip the scheduled job and create order entries manually in the Order Management application for asynchronous order requests.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/running-scheduled-job.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/running-scheduled-job.md)**  
-
+-   **[Configure a scheduled job for asynchronous order creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/running-scheduled-job.md)**  
+Run a scheduled job in the Order Management application to create a customer order from the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table.
 
 **Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
 

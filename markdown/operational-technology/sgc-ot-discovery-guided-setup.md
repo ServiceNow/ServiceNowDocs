@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgc-ot-discovery-guided-setup.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Service Graph Connector for ServiceNow OT Discovery Guided Setup
@@ -16,7 +16,7 @@ Use the Guided Setup for the Service Graph Connector for ServiceNow OT Discovery
 
 ## Before you begin
 
-Review the [Service Graph Connector prerequisites and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-prereq-settings.md) section before beginning.
+Review the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-prereq-settings.md) section before beginning.
 
 Role required: admin
 
@@ -32,7 +32,7 @@ Role required: admin
 
 5.  On the Guided Setup page, select **Get started**.
 
-    This opens the page with each task for downloading the OT devices as well as steps to configure connections, integrations, and imports for the Service Graph Connector.
+    This opens the page with each task for downloading the OT devices and steps to configure connections, integrations, and imports for the Service Graph Connector.
 
 6.  In the first section, select **Download &amp; Deploy OT Discovery**.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 9.  Choose the OT Discovery Collector OS package that matches your machine's OS.
 
-    **Note:** If you have a closed network, download the Sensor package and the containerized versions of the Console and Collector packages. When ready, in stall the Console first, install the Sensor after that and, finally, install the Collector. See [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md) for more information.
+    **Note:** If you have a closed network, download the Sensor package and the containerized versions of the Console and Collector packages. When ready, in stall the Console first, install the Sensor after that and, finally, install the Collector. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
 10. Return to the previous page and select **Mark as complete**.
 
@@ -90,4 +90,6 @@ Role required: admin
 ## What to do next
 
 The next step in the Guided Setup is [Configure the OT Discovery connections &amp; credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-the-ot-discovery-connections-credentials.md).
+
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
 

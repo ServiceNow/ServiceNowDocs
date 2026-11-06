@@ -1,74 +1,118 @@
 ---
 title: Process Mining release notes
-description: The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Zurich release.The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Zurich release.
+description: The ServiceNow Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.The Brazil release delivers meter-based usage guardrails and a redesigned evaluation project experience so you can control costs and explore Process Mining risk-free. This release also adds automatic content packs and template management capabilities, deeper playbook analytics, and quick starters for transition and finding filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/process-optimization-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Process Mining release notes
 
-The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Zurich release.
+The ServiceNow® Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.
 
 ## About Process Mining
 
--   Generate highlights of the improvement opportunities in the Opportunity details page.
--   Identify inefficiencies by focusing on the delays in task assignment by using idle time analysis.
--   Analyze the workload of transitions and cases by using touchpoint analysis.
--   Enhance data security by marking projects as restricted.
--   Process Mining is integrated with ServiceNow playbook.
+-   See your real processes, not assumptions — automated discovery maps actual workflow paths from audit logs.
+-   Find where work breaks down — bottleneck and root-cause analysis pinpoint stalled approvals and rework.
+-   Accelerate value with proven templates — best-practice content packs give you ready-made starting points.
+-   Prove every change works — side-by-side comparisons confirm improvements and catch regressions.
+-   Govern humans and AI, together — trace performance across people, automations, and AI agents in one view.
 
 See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Process Mining is available by default. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Process Mining is available by default. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/activating-process-mining.md).
+    Process Mining is available by default. For details, see [Access Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/activate-po-plugin.md).
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/analytics-intel-report-rn-landing.md)
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Zurich release.
+The Brazil release delivers meter-based usage guardrails and a redesigned evaluation project experience so you can control costs and explore Process Mining risk-free. This release also adds automatic content packs and template management capabilities, deeper playbook analytics, and quick starters for transition and finding filters.
 
 ### What's new
 
--   **[Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/opportunity-details.md)**
+-   **[Meter-based usage guardrails and controls introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/meter-based-guardrails.md)**
 
-    Generate highlights to surface key drivers behind process patterns that accelerate decision-making and prioritization of process changes on the Opportunity details page. This page provides the detailed context of every improvement opportunity. It uses Now Assist to help generate highlights.
+    Configure table-level guardrails and mandatory filters to control entitlement usage and prevent unexpected overage charges. Projects with configured guardrails are automatically validated, capped, or flagged before mining starts.
 
--   **[Idle time analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/idle-time-analysis.md)**
+-   **Process Mining for Playbooks enhanced**
 
-    Analyze where cases are waiting to be assigned to agents by tracking and analyzing the time during which the case is assigned to a team but not yet to an agent. Idle time analysis helps identify inefficiencies, such as delays in task assignment or workflow bottlenecks, and helps improve coordination and reduce waiting time within processes. Idle time analysis must be configured in the process configuration.
+    Playbook projects are enhanced:
 
--   **[Touchpoint analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/touchpoint-analysis.md)**
+    -   to configure and analyze breakdowns based on the trigger record of a playbook
+    -   to filter playbook executions by recency to focus on current performance trends
+    -   to view execution-time histograms for each activity and phase to identify performance patterns and outliers
+    -   to compare playbook variants on overall and per-activity efficiency
+-   **[Evaluation project experience improved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/evaluate-pm.md)**
 
-    Identify where and how human involvement occurs in a process by using touchpoint analysis. Analyzing the fields that involves human involvement helps you improve your processes, enhancing performance and reducing operational costs. Touchpoint analysis enables you to analyze the workload of transitions and cases. Touchpoint analysis must be configured in the process configuration.
+    Explore evaluation projects directly from the Process Mining workspace landing page, with guided onboarding that highlights key areas of the interface and suggests where to start exploring. Human Resources and Security Operations users get personal evaluation projects scoped to their own data access, so no administrator impersonation is required.
 
--   **[Enhanced data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/set-objectives.md)**
+-   **AI-assisted process configuration**
 
-    Mark a project as restricted to help protect sensitive data and avoid security breaches. Restricted project data is available only to the owner and the users with whom the project is shared.
+    Generate process configuration field values with AI directly from the process configuration header, then review, select, and confirm the suggested fields before applying them. Map states to stakeholder responsibilities with AI in the Process details step.
 
--   **[Share a Process Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/share-project.md)**
+-   **Launch Process Mining from any ServiceNow workspace**
 
-    Share projects through a link that remains unchanged even when the project is updated and remined.
+    Create a Process Mining project directly from a list of records from any ServiceNow workspace.
 
--   **[Creation of automation requests and CIMs simplified](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/submit-automation-idea.md)**
+-   **[Project sharing with edit rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/share-project.md)**
 
-    When creating an automation or Continual Improvement Management \(CIM\) request from Process Mining, mandatory fields are pre-populated, reducing friction and accelerating time-to-action.
+    Share a project with other users as **Can view** or **Can edit**. Users with edit rights can modify the project definition and perform mining, but can't share or delete the project.
 
--   **[Process Mining integrated with ServiceNow playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analyst-workbench-dashboard.md)**
+-   **Contextual Task Mining project names**
 
-    Process Mining has been integrated with ServiceNow playbook. After analyzing and identifying a process for improvement, export the process to playbook and add subflows or triggers to analyze and refine the flow.
+    Task Mining projects launched from Process Mining include the triggering node or improvement opportunity name in the project name, making it easier to distinguish between multiple task mining projects.
 
-    Use the Playbooks icon on the Process Mining Analyst Workbench to export up to 5 routes of a project to ServiceNow playbook. This feature is enabled by Now Assist.
+-   **Template creation and management introduced**
+
+    Create multiple templates per table to support several distinct use cases instead of one generic configuration.
+
+-   **Preset filters for transitions introduced**
+
+    Create filters from the available filters after selecting the Select quick starter from Process steps in Analyst workbench. This makes the process of creating filters easier and faster.
+
+-   **[Three new system properties added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/components-installed.md)**
+
+    The following three system properties are added:
+
+    -   promin.metered\_usage.allow\_unrestricted
+    -   promin.metered\_usage.warning\_limit
+    -   promin.workspace.hide\_from\_navigation
+
+### What's changed
+
+-   **Content packs availability changed**
+
+    Access content packs for the following automatically when the corresponding application plugin is active and the associated table is present:
+
+    -   IT Service Management
+    -   Customer Service Management
+    -   HR Service Delivery
+    -   Strategic Portfolio Management
+    -   Security Incident Response
+    -   Field Service Management
+
+### What's deprecated or removed
+
+-   **Two APIs deprecated**
+
+    The following two APIs are deprecated:
+
+    -   promin.api.allow\_no\_role\_mining
+    -   promin.api.auto\_share\_project\_with\_creator
+
+### Plugin information
+
+-   **Renamed or changed plugins**
+
+    Now Assist for Process Mining: Renamed to ServiceNow Otto for Process Mining.
 
 

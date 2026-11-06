@@ -1,5 +1,5 @@
 ---
-title: Configure AI Search answers capability for web search
+title: Configure AI search answers capability for web search
 description: AI web search is a OneExtend capability that enables end users to perform web searches and receive AI-powered answers. The capability supports multiple AI providers and integrates with virtual assistants and workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.html
@@ -7,19 +7,19 @@ release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI Search answers, Websearch, Web search]
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Configure AI Search answers capability for web search
+# Configure AI search answers capability for web search
 
 AI web search is a OneExtend capability that enables end users to perform web searches and receive AI-powered answers. The capability supports multiple AI providers and integrates with virtual assistants and workflows.
 
 ## Before you begin
 
-When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in AI Admin Hub can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-model-providers.md).
+When web search is turned on, Google Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in AI Admin Hub can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-model-providers.md).
 
 Some of the AI providers require API keys whereas others don’t require API keys because they use OEM. The following table highlights the four AI providers and whether they use API keys or OEM.
 
@@ -37,7 +37,7 @@ OpenAI
 
 </td><td>
 
-Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in AI Admin Hub and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
+Gemini**Note:** Google Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Google Gemini as the LLM provider in AI Admin Hub and you want to use Google Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Azure**Note:** Azure doesn’t currently support web search.
 
     **Note:** Although Azure OpenAI answer is an option for an AI search provider, Azure doesn't support web search and should remain set to `false`.
 
-5.  In the OneExtend Capability Definitions related list, select the value in the Connection And Credential Alias column for the AI Search provider you want to use.
+5.  In the OneExtend Capability Definitions related list, select the value in the Connection And Credential Alias column for the AI search provider you want to use.
 
     For example, if you want to switch the web search AI provider to OpenAI, select **sn\_openai.OpenAI** from the Connection And Credential Alias column.
 
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d42884e220">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d53691e206">
 
 Scenario
 
-</th><th align="left" id="d42884e223">
+</th><th align="left" id="d53691e209">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d42884e229">
+</th></tr></thead><tbody><tr><td id="d53691e215">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d42884e238">
+</td></tr><tr><td id="d53691e224">
 
 **Connection isn’t available and must be created**
 
@@ -101,7 +101,7 @@ For example, `Open AI connection`.
 
 **Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md).
 
-3.  Select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: next to **Credential**.
+3.  Select the Lookup using list icon \( \[Omitted image "magnifying-glass-outline-24.svg"\] Alt text: Lookup using list icon.\) next to **Credential**.
 4.  Select **New** to create a credential for your connection.
 
 **Note:** You may see an existing credential that you can select from the Credentials list, but some AI providers, like OpenAI, do not come with default credentials.

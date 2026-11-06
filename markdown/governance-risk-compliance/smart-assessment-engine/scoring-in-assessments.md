@@ -7,8 +7,8 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -73,6 +73,8 @@ The following function can be used:
 
     A weighted average assigns greater importance to values based on their weight. To calculate it, multiply each question, section or subsections score by its weight, sum up the results, and divide by the total weight.
 
+
+After an assessment is completed, scores are calculated and stored at multiple levels. These levels include assessment, section, subsection, and question, based on the scoring configuration defined in the template. For more information about where scores are stored and how to access them, see [Scoring results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/scoring-results.md).
 
 ## Benefits of scoring
 

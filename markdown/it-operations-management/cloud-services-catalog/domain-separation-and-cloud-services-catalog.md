@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -34,7 +34,7 @@ Domain separation recommendations in Cloud Services Catalog:
 
 -   **CSC Guided setup**
 
-    CSC Guided Setup can be executed by a system administrator within the global domain or a feature admin \(sn\_cmp.cmp\_root\_admin\). It is important to note that the local domain is not the suited environment for this task.
+    CSC Guided Setup should be executed solely by the system administrator within the global domain. It is important to note that the local domain is not the suited environment for this task.
 
 -   **Terraform Opensource in global domain**
 

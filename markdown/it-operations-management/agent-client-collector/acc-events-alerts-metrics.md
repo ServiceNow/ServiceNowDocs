@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent-based data flow
@@ -27,6 +27,4 @@ The numbered entries in the flow indicate the following:
 1.  Specified checks run on the agent. Data, including metrics, is pushed to the MID Server.
 2.  The MID Server analyzes the data and classifies the results as events or metrics. MID Server uses REST API to send the results to the instance.
 3.  The instance receives the data and stores it in the relevant database.
-
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

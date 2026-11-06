@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manually create and review your network asset instances, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Manually create a network topology
@@ -28,7 +28,7 @@ When you create a network topology record, it creates a corresponding configurat
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  From the list icon \(\[Omitted image "lists\_icon-proactive.png"\] Alt text: List icon, go to **Inventory** &gt; **Network Topology**.
+2.  From the list icon \(\[Omitted image "Lists.png"\] Alt text: List icon.\), go to **Inventory** &gt; **Network Topology**.
 
 3.  Select **New**.
 
@@ -52,7 +52,7 @@ When you create a network topology record, it creates a corresponding configurat
 
 You can view the topology in the Network Viewer window. To learn more, see [Viewing a network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-topology.md).
 
-**Parent Topic:**[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 
 **Related topics**  
 

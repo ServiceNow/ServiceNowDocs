@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -18,15 +18,11 @@ Create schedules for discovering cloud resources based on the discovery method t
 
 ## Before you begin
 
-**Important:**
-
--   Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
--   Starting with version 1.11.0, you can create [AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-AWS-schedule-DAW.md), [Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-azure-schedule-DAW.md), and [GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-gcp-schedule-DAW.md) schedules in Discovery Admin Workspace.
--   Starting with version 1.13.0, you can create [Alibaba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-schedule-DAW.md), [IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-ibm-schedule-DAW.md), [OCI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-oci-schedule-DAW.md), [OpenStack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-openstack-schedule-DAW.md), [oVirt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-ovirt-schedule-DAW.md), and [VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-vmware-schedule-DAW.md) schedules in Discovery Admin Workspace
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 -   Verify that version 1.7.1 or later of the Cloud Discovery Workspace application is installed on the ServiceNow AI Platform. For more information, see [Install Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-discovery-workspace/install-cloud-ops-wrksp.md).
--   Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md). The MID Server used for Cloud Discovery must be configured with the Cloud Management capability.
--   Verify that suitable credentials are available in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery.
+-   Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md). Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
+-   Ensure that suitable credentials are available in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery.
 -   Pattern-based discovery runs by default. In scenarios where the latest patterns application is not installed, discovery fails and you are prompted to install or migrate from CAPI-based discovery. For more information, see [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/migrate-from-capi-to-pattern.md).
 
 Role required: discovery\_admin

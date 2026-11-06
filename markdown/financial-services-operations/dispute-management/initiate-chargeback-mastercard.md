@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -57,8 +57,10 @@ When you initiate a chargeback, the process follows one of these paths:
 
 9.  Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    **Note:**
 
+    -   You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    -   When integrated with Mastercard's Mastercom APIs, the system automatically compresses multiple attachments into a single zip file. It also validates attached files against Mastercard requirements for file type and size, and alerts you when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 10. Select **Initiate chargeback**.
 
     A chargeback is initiated and a collaboration starts with the merchant, cardholder, and Mastercard.
@@ -68,6 +70,8 @@ When you initiate a chargeback, the process follows one of these paths:
     -   If an error message is displayed in the **Activity** work notes, the **Initiate chargeback** button displays again to retry.
     -   If the task state changes to Document Upload Pending, then the attached document isn't uploaded to Mastercard.
 11. To reupload the document, delete and replace your attachment with the one that meets Mastercard's requirements then select **Upload document**.
+
+    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 12. If you want to stop and revert the chargeback for any reason, select **Reverse chargeback**.
 

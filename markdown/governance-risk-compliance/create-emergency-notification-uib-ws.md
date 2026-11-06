@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-emergency-notification-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
 
 5.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create New Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-notification-form.md).
+    For more information on the fields in the form, see [Create Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-notification-form.md).
 
 6.  To save the notification and send it later, select **Save**.
 
@@ -67,8 +67,8 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
     **Note:** Now that the event is closed and the corresponding incident in Everbridge is also closed, you can’t create any more notifications for this event.
 
 
--   **[Create New Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-notification-form.md)**  
-Use the Create New Notification form in BCM UIB Workspace to add details about an emergency notification.
+-   **[Create Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-notification-form.md)**  
+Use the Create Notification form in BCM UIB Workspace to add details about an emergency notification.
 
 **Parent Topic:**[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ebn-collective-tasks.md)
 

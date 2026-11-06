@@ -7,8 +7,8 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-04-02"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -22,7 +22,7 @@ Teams managing work across disconnected tools often lose context, duplicate effo
 
 CWM solves this by bringing tasks, documentation, and planning into a single workspace organized around Spaces. Each Space contains Boards for task and project management and Docs for documentation, so everything related to a team's work stays connected and accessible from one place.
 
-Teams can choose how they work within CWM. Use a custom workflow for general task management, or run sprints end-to-end using the built-in Agile capabilities, including sprint planning, scrum tasks, and cross-team dependencies. Boards are highly configurable without admin involvement, and generative AI features help reduce manual overhead on task creation and content generation.
+Teams can choose how they work within CWM. Use a custom workflow for general task management, or run sprints end-to-end using the built-in Agile capabilities, including sprint planning, scrum tasks, and cross-team dependencies. Boards are highly configurable without admin involvement, and generative AI features help reduce manual overhead on task creation, formula building, and content generation.
 
 CWM integrates with the broader ServiceNow AI Platform, connecting to other ServiceNow applications, records, and the Strategic Planning workspace so that team-level execution stays aligned with organizational goals.
 
@@ -30,7 +30,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 
 |User|Description|
 |----|-----------|
-|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and content generation.|
+|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
 |SPM team member|Views and updates project and demand tasks from Project Workspace and Next Experience for Demand Management directly in CWM using the team member read or team member read-write role.|
@@ -87,6 +87,18 @@ Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PD
 </td><td>
 
 [Import tasks into Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Create CWM tasks and stories from open prompts or documents with ServiceNow Otto. Review the generated tasks and add them to your Board.
+
+</td><td>
+
+[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
 
 </td><td>
 
@@ -193,6 +205,20 @@ Switch between Dashboard, List, Gantt, and Kanban view modes to visualize work i
 </td><td>
 
 All users
+
+</td></tr><tr><td>
+
+Add calculated columns to the List view that automatically compute values from your task data, such as totaling story points, calculating date differences, or deriving custom metrics. Build formulas manually using the Formula Builder panel.
+
+ You can also describe your calculation in plain language and let AI generate the formula for you.
+
+</td><td>
+
+[Formula columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
+
+</td><td>
+
+Knowledge worker/team member, Project manager
 
 </td></tr><tr><td>
 

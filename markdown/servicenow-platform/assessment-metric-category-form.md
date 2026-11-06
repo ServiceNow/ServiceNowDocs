@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/assessment-metric-category-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Reference, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Assessments reference, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Assessment Metric form for a category
@@ -247,8 +247,6 @@ Script
 Script that obtains the desired system information. This field is visible and required only if the **Method** is **Script**.
 
 **Note:** Script can now only be edited by Assessment Admins. Survey Creators no longer have the ability to edit the script.
-
- For more information about using this field, see [Script methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_ScriptMethods.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

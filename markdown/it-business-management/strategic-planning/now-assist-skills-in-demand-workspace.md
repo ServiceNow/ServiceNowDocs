@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Explore, Next Experience for Demand Management in Strategic Plannin
 # AI skills for Next Experience for Demand Management
 
 ServiceNow Otto for Strategic Portfolio Management provides AI-powered skills for demand records that help you quickly understand demand details and refine records. These skills improve planning efficiency and support informed decision-making.
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 ## Demand summarization
 
@@ -43,4 +45,8 @@ For more information, see [Identify similar records using AI](https://raw.github
 The refine record skill improves demand quality by enabling AI-assisted text refinement directly within the text fields of demand records. You can elaborate on a brief description or shorten lengthy content without losing key information. This feature helps verify demands are clear, complete, and actionable from the start.
 
 The skill considers other fields in the demand form to generate contextually relevant content. It reduces rework caused by missing or unclear information and helps demand managers create well-structured records more efficiently.
+
+For more information, see [Improve data quality using the refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/improve-data-quality-using-the-refine-records-skill.md).
+
+\[Omitted image "demand-refine-records.png"\] Alt text: The shorten or elaborate options available in the Refine with AI menu.
 

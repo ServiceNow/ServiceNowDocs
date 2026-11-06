@@ -7,7 +7,7 @@ release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Metric Intelligence, IT Operations Management]
 ---
@@ -18,8 +18,6 @@ You can perform a variety of tasks to optimize your use of Metric Intelligence.
 
 -   **[Create an anomaly test rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/anomaly-model-testing.md)**  
 To use the anomaly model testing, create an anomaly test rule in which you specify up to 20 metric series to test anomaly detection for. Run the anomaly test, and after it completes, use the provided URL to open the Insights Explorer which is pre-loaded with the model testing results.
--   **[Specify custom upper and lower metric bounds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/override-metric-bounds.md)**  
-Use the Bounds Settings wizard to override learned control bounds by specifying custom upper and lower bounds for an Metric Intelligence metric.
 -   **[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/view-metric-to-CI-binding.md)**  
 View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. Unmapped metrics are excluded from anomaly detection until properly mapped.
 -   **[Disable a metric for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/disable-metric-per-ci.md)**  

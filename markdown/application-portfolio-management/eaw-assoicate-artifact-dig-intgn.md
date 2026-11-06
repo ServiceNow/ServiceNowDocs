@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage architectural artifacts of a digital integration in EA Workspace
@@ -44,7 +44,7 @@ Role required: sn\_apm.apm\_user
     -   To remove an existing architectural artifact, select the artifact and then select **Remove**.
 9.  Fill in the form fields.
 
-    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/architectural-artifact-form.md).
+    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-new-arch-artifact-form.md).
 
 10. Select **Save**.
 

@@ -44,15 +44,15 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
     When you apply a filter to the list and then select All, the download includes only the records that match the filter.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d126973e165">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d288423e165">
 
 Step
 
-</th><th align="left" id="d126973e168">
+</th><th align="left" id="d288423e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126973e174">
+</th></tr></thead><tbody><tr><td id="d288423e174">
 
 **Export to excel**
 
@@ -60,7 +60,7 @@ Description
 
 To download records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, select **Export to Info Excel**. The records export as a Microsoft Excel file.
 
-</td></tr><tr><td id="d126973e192">
+</td></tr><tr><td id="d288423e192">
 
 **Export to info register**
 
@@ -87,15 +87,15 @@ When making a download request for a Excel master template record, select **Expo
 
 7.  To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d126973e328">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d288423e328">
 
 Step
 
-</th><th align="left" id="d126973e331">
+</th><th align="left" id="d288423e331">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126973e337">
+</th></tr></thead><tbody><tr><td id="d288423e337">
 
 **Select __File Type__.**
 
@@ -107,7 +107,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d126973e367">
+</td></tr><tr><td id="d288423e367">
 
 **Select __Delivery Type__.**
 
@@ -117,7 +117,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d126973e389">
+</td></tr><tr><td id="d288423e389">
 
 **Select __Export.__**
 

@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrations for Leader Hub
@@ -46,6 +46,4 @@ Leader Hub provides an integration with the following applications:
 
     When you optionally install the Learning plugin \(sn\_lep\), Leader Hub generates metrics for employee engagement with the Learning app, such as the percentage of employees in your organization who have completed courses in the past 30 days.
 
-
-**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-using.md)
 

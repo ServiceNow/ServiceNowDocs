@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Supported features for custom chat integrations, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Typing indicators

@@ -1,18 +1,19 @@
 ---
 title: Performance Analytics release notes
-description: The ServiceNow   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Zurich release.The ServiceNow   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Zurich release.
+description: The ServiceNow Performance Analytics application is an in-platform process optimization solution. It enables organizations to set, track, and analyze progress toward goals.Data snapshots indicators now support bucket groups and calculated date fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/performance-analytics-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-02-19"
-reading_time_minutes: 1
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-25"
+reading_time_minutes: 2
+keywords: [Performance analytics, Platform analytics, indicator, KPI, data snapshots, indicators, KPI]
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Performance Analytics release notes
 
-The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Zurich release.
+The ServiceNow® Performance Analytics application is an in-platform process optimization solution. It enables organizations to set, track, and analyze progress toward goals.
 
 ## About Performance Analytics
 
@@ -27,25 +28,57 @@ See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercon
 
 -   **Activation information**
 
-    Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
+    Complimentary Performance Analytics for Incident ManagementPerformance Analytics is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
-    The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches  your subscription. For details, see Activate your Performance Analytics  subscription.
-
--   **Additional requirements**
-
-    To use the new data snapshots feature, your instance must be on the RaptorDB Professional database.
+    The full features of Performance Analytics are available with a subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/analytics-intel-report-rn-landing.md)
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Zurich release.
+Data snapshots indicators now support bucket groups and calculated date fields.
 
 ### What's new
 
--   **[Apply multiple levels of breakdown to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/multi-level-breakdowns.md)**
+-   **Use bucket groups to break down Data Snapshots indicators by continuous data**
 
-    Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
+    To filter Data snapshots scores by a numeric field on the source table, you can now map a bucket group to that field. The bucket group splits that field into value ranges.
+
+-   **Use calculated fields to break down Data Snapshots indicators by date**
+
+    Create calculated fields to show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated.
+
+
+### What's changed
+
+-   **Create indicators on Workflow Data Fabric tables**
+
+    Create classic automated indicators on external data via Workflow Data Fabric. Use Workflow Data Fabric tables in indicator sources just as you would any other facts tables.
+
+-   **Intraday scores supported on indicators with Data snapshots enabled**
+
+    If you enable Data snapshots on an existing classic automated indicator, you can collect intraday scores on the data snapshots indicator.
+
+-   **Manage and troubleshoot your Data snapshots jobs more easily**
+
+    You now are provided with new estimates and more log information:
+
+    -   Time estimates before a job starts
+    -   Progress percentages for first-day mining, changes loader, and delta mining jobs
+    -   Logs include the next scheduled run timestamp after incremental job completion
+
+### What's deprecated or removed
+
+-   **[KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/designing-pa-solution.md)**
+
+    KPI Composer is deprecated starting in the Brazil release. Removal is expected in the D release, and no replacement is planned. KPI Composer will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+### Plugin information
+
+-   **Plugins planned for deprecation**
+
+    KPI Composer \(sn\_kpi\_compose\): Planned for deprecation in D release. There is no replacement for this plugin.
 
 

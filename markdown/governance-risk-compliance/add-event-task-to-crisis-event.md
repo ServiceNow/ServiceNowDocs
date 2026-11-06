@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-event-task-to-crisis-event.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -46,7 +46,7 @@ For more information, see [Structured workflows for crisis events](https://raw.g
 
     **Note:** An ad-hoc task is added to the crisis event so that you can take corrective actions for the crisis event. When you add an ad-hoc task to the crisis event that is in the **Work in progress** state and if the activated plan is in the **Work in progress** state, the tasks will be in the **Open** state. If the activated plan is the **Pending** state, the task will be in the **Pending** state.
 
-    For more information on the fields in the New Event Task form, see [Create New Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
+    For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
     **Note:** You cannot create an ad-hoc task for the activated plans that are in **Closed Complete** or **Closed Incomplete** state.
 

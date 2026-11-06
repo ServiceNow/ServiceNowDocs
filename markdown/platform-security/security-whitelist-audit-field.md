@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/security-whitelist-audit-field.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Auditing]
+breadcrumb: [Configuring auditing for a table, Auditing]
 ---
 
 # Include a table field in auditing \(inclusion listing\)
@@ -16,9 +16,9 @@ Track a subset of fields in an audited table by add those fields to an inclusion
 
 ## Before you begin
 
-To add fields in a table to an inclusion list, you must have first [enabled auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnableAuditingForATable.md) and [enabled inclusion list auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/enable-whitelist-for-table.md).
-
 Role required: admin
+
+To add fields in a table to an inclusion list, you must have first [enabled auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnableAuditingForATable.md) and [enabled inclusion list auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/enable-whitelist-for-table.md).
 
 ## About this task
 

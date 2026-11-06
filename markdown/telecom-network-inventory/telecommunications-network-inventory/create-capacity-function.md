@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity management, Configure, Telecommunications Network Inventory]
 ---
@@ -52,7 +52,7 @@ The capacity function record is created.
 
 You can use the function for capacity calculation or use it within the definition record to determine the capacity. To learn more about how to create a capacity definition, see [Create capacity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-capacity-definition.md).
 
-**Parent Topic:**[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
+**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
 
 **Related topics**  
 

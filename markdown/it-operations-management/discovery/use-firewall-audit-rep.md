@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---

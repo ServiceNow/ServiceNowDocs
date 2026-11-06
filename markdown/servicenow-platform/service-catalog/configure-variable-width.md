@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,7 +37,7 @@ A default width size cannot be set or does not apply to the following variables:
 
 2.  For each variable type, select a default width.
 
-<table><tbody><tr><td id="d570560e142">
+<table><tbody><tr><td id="d576515e142">
 
 **25%**
 
@@ -45,7 +45,7 @@ A default width size cannot be set or does not apply to the following variables:
 
 Configures the variable to span 25% of the available screen size.
 
-</td></tr><tr><td id="d570560e151">
+</td></tr><tr><td id="d576515e151">
 
 **50%**
 
@@ -53,7 +53,7 @@ Configures the variable to span 25% of the available screen size.
 
 Configures the variable to span 50% of the available screen size. By default, some variables require a minimum of 50% width.
 
-</td></tr><tr><td id="d570560e160">
+</td></tr><tr><td id="d576515e160">
 
 **75%**
 
@@ -61,7 +61,7 @@ Configures the variable to span 50% of the available screen size. By default, so
 
 Configures the variable to span 75% of the available screen size.
 
-</td></tr><tr><td id="d570560e169">
+</td></tr><tr><td id="d576515e169">
 
 **100%**
 

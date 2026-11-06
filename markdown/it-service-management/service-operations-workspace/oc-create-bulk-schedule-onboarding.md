@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-21"
 reading_time_minutes: 4
 keywords: [on-call onboarding wizard, bulk create schedules, rota\_admin, on-call roster upload]
-breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create on-call schedules for multiple groups

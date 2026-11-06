@@ -7,9 +7,9 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Send notifications, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Send notifications during a critical event, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Create a communication task
@@ -41,9 +41,9 @@ Role required: sn\_critical.agent
 
 If you chose **Now** from the **Compose and send communication** field on the Communication form, then a new tab opens so you can choose a template and compose your message. If you chose **Later**, then you're redirected back to the **Notification center** tab.
 
-**Note:** You must compose the message before you can send the communication. For more information on composing an existing communication task, see [Sending notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/notify-impacted-people.md).
+**Note:** You must compose the message before you can send the communication. For more information on composing an existing communication task, see [Send notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/notify-impacted-people.md).
 
-**Parent Topic:**[Sending notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/notify-impacted-people.md)
+**Parent Topic:**[Send notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/notify-impacted-people.md)
 
 **Related topics**  
 

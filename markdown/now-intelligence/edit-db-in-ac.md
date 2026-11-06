@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/edit-db-in-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Edit inline editor dashboards, inline editor dashboard options, reports, add reports to dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,7 @@ You can edit dashboard and dashboard tab information in the inline editor. If th
 
 You can edit the details of dashboards created in the inline editor and in the technical editor in the Platform Analytics experience. When you edit elements in dashboards created in the technical editor, you’re redirected to UI Builder.
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
 ## About this task
 
@@ -43,15 +43,15 @@ The **More actions** menu includes the option to clear the edit lock. Use this o
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d166413e157">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d174748e163">
 
 Action
 
-</th><th align="left" id="d166413e160">
+</th><th align="left" id="d174748e166">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d166413e166">
+</th></tr></thead><tbody><tr><td id="d174748e172">
 
 **Edit dashboard details**
 
@@ -77,7 +77,7 @@ To edit the details of a dashboard created in the inline editor:
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
  For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md).
 
-</td></tr><tr><td id="d166413e256">
+</td></tr><tr><td id="d174748e262">
 
 **Configure the dashboard layout**
 
@@ -85,15 +85,15 @@ To edit the details of a dashboard created in the inline editor:
 
 Select and drag an element's handlebars to resize it. Select and drag an entire element to move it around the dashboard layout. Elements include data visualizations, filters, and other dashboard content.
 
-</td></tr><tr><td id="d166413e265">
+</td></tr><tr><td id="d174748e271">
 
-**Add a tab to a dashboard**
+**Add a [tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) to a dashboard**
 
 </td><td>
 
-Select **Add a tab**. A tab labeled `Untitled` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus. Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: pencil icon\) to rename the tab.
+Select **Add a tab**. A tab labeled `Untitled` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the [top stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) that are visible no matter which tab has focus. Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: pencil icon\) to rename the tab.
 
-</td></tr><tr><td id="d166413e289">
+</td></tr><tr><td id="d174748e303">
 
 **Reorder a dashboard tab**
 
@@ -109,7 +109,7 @@ You can reorder tabs by dragging and dropping them. You can also reorder dashboa
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d166413e334">
+</td></tr><tr><td id="d174748e348">
 
 **Duplicate a dashboard tab**
 
@@ -122,7 +122,7 @@ You can duplicate a tab on the current dashboard.1.  Select the **Edit** button 
 2.  Select the More actions menu icon \(\[Omitted image "context-menu-db-element-ac.png"\] Alt text: More actions icon\) next to the tab's name and choose **Duplicate**.
 A new tab with the same content as the duplicated tab opens with the name Untitled. Choose the pencil icon to rename the tab.
 
-</td></tr><tr><td id="d166413e376">
+</td></tr><tr><td id="d174748e390">
 
 **Delete a dashboard tab**
 
@@ -135,7 +135,7 @@ A new tab with the same content as the duplicated tab opens with the name Untitl
 2.  Select the More actions menu icon \(\[Omitted image "context-menu-db-element-ac.png"\] Alt text: More actions icon\) next to the tab's name and choose **Delete**.
  **Note:** There’s no confirmation message. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d166413e420">
+</td></tr><tr><td id="d174748e434">
 
 **Rename a tab**
 
@@ -151,7 +151,7 @@ A new tab with the same content as the duplicated tab opens with the name Untitl
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d166413e473">
+</td></tr><tr><td id="d174748e487">
 
 **Configure the refresh settings**
 
@@ -167,7 +167,7 @@ Role required: admin.1.  Select the **Edit** button \(\[Omitted image "edit-butt
 
 The minimum refresh interval is 10 minutes.
 
-</td></tr><tr><td id="d166413e522">
+</td></tr><tr><td id="d174748e536">
 
 **Configure background colors**
 
@@ -178,7 +178,7 @@ The minimum refresh interval is 10 minutes.
 
 Specify Hex or RGBA values, or choose from the color picker.
 
-</td></tr><tr><td id="d166413e548">
+</td></tr><tr><td id="d174748e562">
 
 **Configure Insights**
 
@@ -192,10 +192,10 @@ Choose whether and which analytics to show in the **Insights** section.When you 
 Populate your dashboard with a selection of widgets, including data visualizations and filters.
 -   **[Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-db-elements-in-ac.md)**  
 You can edit the contents of a dashboard or dashboard tab, including data visualizations and filters. Because dashboards are shared, any changes you make are applied globally.
+-   **[Group dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/group-db-elements.md)**  
+Improve your layout control and dashboard customization capabilities, by organizing related elements into single visual and logical units. Configure backgrounds and borders according to group.
 -   **[Edit a copy of a shared dashboard element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/editing-local-copy-saved-dv.md)**  
 To configure a shared element that you added to a dashboard from a library, make a local copy that is not linked to a library. You only have to do this if you do not have permission to edit the version in the library.
--   **[Add images to Platform Analytics dashboard cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-images-db-cards-ac.md)**  
-Distinguish the cards in the dashboard overview with uploaded images.
 
 **Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dashboard-tasks.md)
 
@@ -203,6 +203,8 @@ Distinguish the cards in the dashboard overview with uploaded images.
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Share a Platform Analytics dashboard]()
 

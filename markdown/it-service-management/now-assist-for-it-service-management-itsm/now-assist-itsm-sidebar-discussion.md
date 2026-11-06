@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -42,25 +42,27 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and open an incident that supports Sidebar discussion and summarization.
 
-2.  Choose an existing discussion, or start a new discussion.
+2.  Select the Sidebar discussion icon \(\[Omitted image "now-assist-itsm-sidebar-icon.png"\] Alt text:\).
 
-3.  Generate a summary of the Sidebar discussion during the conversation either by either entering `/Summarize` in the Active Sidebar discussion window, or by selecting the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon. and selecting **Summarize**.
+3.  Choose an existing discussion, or start a new discussion.\[Omitted image "now-assist-itsm-sidebar-discussion.png"\] Alt text: Choose an existing discussion or a new one
+
+4.  Generate a summary of the Sidebar discussion during the conversation by either entering `/Summarize` in the Active Sidebar discussion window, or by selecting the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon. and selecting **Summarize**.
 
     \[Omitted image "now-assist-itsm-sidebar-discuss.png"\] Alt text: Sidebar discussion summarization.
 
     The Sidebar discussion summary appears in the Discussion that is summarized by the ServiceNow Otto modal.
 
-4.  Add the summary to the incident work notes, and provide feedback about it.
+5.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d454165e253">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d398571e269">
 
 Option
 
-</th><th align="left" id="d454165e256">
+</th><th align="left" id="d398571e272">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d454165e262">
+</th></tr></thead><tbody><tr><td id="d398571e278">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -71,7 +73,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d454165e289">
+</td></tr><tr><td id="d398571e305">
 
 **Provide feedback for the summary**
 

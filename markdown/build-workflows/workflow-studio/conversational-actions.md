@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-04-02"
-reading_time_minutes: 3
-breadcrumb: [Actions, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Conversational actions
@@ -82,13 +82,6 @@ Conversational subflows and actions support a limited number of input data types
 |string|String|
 |string\_full\_utf8|String \(Full UTF-8\)|
 |table\_name|Table Name|
-
--   **[Available conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/available-conversational-actions.md)**  
-Workflow Studio provides a set of actions that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
--   **[Check for conversational compatible actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/check-for-conversational-compatible-actions.md)**  
-Run a compatibility check on new or all actions to determine if they are conversational compatible. Review the inputs of an action to determine if their data types are compatible.
-
-**Parent Topic:**[Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-actions.md)
 
 **Related topics**  
 

@@ -1,0 +1,22 @@
+---
+title: Generating case from an alert
+description: Enable swift resolution by generating cases from alerts, either manually or automatically.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/alert-generate-case.html
+release: zurich
+product: Event Management
+classification: event-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Promote alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+---
+
+# Generating case from an alert
+
+Enable swift resolution by generating cases from alerts, either manually or automatically.
+
+Customer Service Management provides integration with ITOM Event Management. This integration breaks down the silos between the processes and systems used by front-line customer service and back-office operations teams. By monitoring issues and creating cases proactively, you can better correlate customer issues and provide faster responses.
+
+If you are using the integration between the Customer Service Management and Event Management applications, you can create a case for the customer install base affected by an alert. For more details, see [Manually create a proactive case from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-alert-workspace.md). You can also activate an alert rule to automatically create a proactive case from an alert when an incident is created. For more details, see [Activate an alert rule to automatically create a proactive case from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/automate-case-creation-alert.md).
+

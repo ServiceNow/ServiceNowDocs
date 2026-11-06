@@ -7,7 +7,7 @@ release: zurich
 product: Proactive Analytics
 classification: proactive-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -112,7 +112,7 @@ Multiple insights of the same type are aggregated into a single card. If more in
 
 ## Limitations and requirements
 
-The Zurich version of Proactive analytics applies only to Performance Analytics indicators.
+The Brazil version of Proactive analytics applies only to Performance Analytics indicators.
 
 Target and threshold events are shown only when a target or threshold has been set on the indicator. For more information, see [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-targets-thresholds.md).
 
@@ -125,7 +125,7 @@ While key contributor events are also based on KPI Signals, they do not require 
 **Related topics**  
 
 
-[bundle-crworkflow.create-flow-proactive-analytics]
+[Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow-proactive-analytics.md)
 
 [Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details-targets.md)
 

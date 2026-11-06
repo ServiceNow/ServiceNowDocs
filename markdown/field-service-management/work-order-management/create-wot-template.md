@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standalone task templates, Template Management, Work orders, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure standalone task templates, Template Management, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create a work order task template
@@ -20,7 +20,7 @@ Create a standalone work order task template, which can be used by different wor
 
 You must activate the Template Management for Field Service plugin \(com.snc.fsm\_template\_management\).
 
-Role required: admin
+Role required: wm\_admin
 
 ## Procedure
 

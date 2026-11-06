@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-plan-template-access-record.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Share a task plan template with other users or groups, Sharing task plan templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -48,7 +48,7 @@ Service organization for the template. Search and select a service organization 
 
 </td></tr><tr><td>
 
-Service Organization Criteria
+Organization Criteria
 
 </td><td>
 
@@ -68,7 +68,7 @@ Member Type
 
 </td><td>
 
-Appropriate member type for the service organization criteria. **Note:** This field is enabled only when **Service Organization** or **Service Organization Criteria** is selected.
+Appropriate member type for the service organization criteria. **Note:** This field is enabled only when **Service Organization** or **Organization Criteria** is selected.
 
 </td></tr></tbody>
 </table>

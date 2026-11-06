@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Customizing Service Operations Workspace for ITSM to align with your requirements, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create a copy of the Service Operations Workspace landing page
@@ -44,5 +44,5 @@ Role required: admin or ui\_builder\_admin
 
 [Customize Service Operations Workspace landing page]()
 
-[Customize the incident record page]()
+[Incident record page customization]()
 

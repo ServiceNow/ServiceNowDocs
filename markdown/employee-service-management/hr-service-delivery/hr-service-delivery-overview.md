@@ -7,8 +7,8 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
@@ -18,35 +18,42 @@ The ServiceNow® HR Service Delivery application improves the employee service e
 
 ## HR Service Delivery applications
 
-Users can choose from the following applications to enhance the employee service experience. The list of available applications depends on the HR Service Delivery package your organization purchased.
+Depending on the HR Service Delivery package you choose, deploy one or more of the following applications.
 
-|Application|Description|
-|-----------|-----------|
-|[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)|Automates standard HR processes and provides a centralized platform for employees to submit and track requests, while enabling HR agents to efficiently manage and monitor cases.|
-|[Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/hr-employee-doc-management.md)|Efficiently manages large numbers of documents by providing cloud-based storage, a robust filing system, easy retrieval, secure access controls, and compliance risk reduction, ensuring that employees can complete and return documents related to benefits, payroll, and other services seamlessly.|
-|[Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md)|Interact with employees, respond to inquiries, and resolve issues quickly as an HR agent.|
-| | |
-| | |
+-   **[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)**
 
-## HR Service Delivery Integrations
+    Standardize the documentation, interaction, and fulfillment of employee inquiries and requests, improving HR efficiency and services over time.
 
-HR Service Delivery integrates with other ServiceNow® applications as well as third-party applications to enhance the overall employee service experience.
+-   **[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)**
 
--   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-framework.md) provides a consistent way of building integrations for common use cases such as pulling employee profiles and tasks from third-party application to a ServiceNow application, and pushing data from a ServiceNow application into a third-party application.
+    Provide a single, unified portal for employees to get all the information, services, and help that they need.
+
+-   **[Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md)**
+
+    Automate onboarding and other employee lifecycle events that span multiple departments, improving employee satisfaction and efficiency across HR and other departments.
+
+
+## Supporting applications
+
+You can also deploy the following supporting applications.
+
+-   [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) to automate and simplify the process of filling, signing, and reviewing a document online.
+-   [Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-document-management/hr-employee-doc-management.md) to secure, retain, access, and purge employee files with ease using paperless document management. A separate subscription is required.
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-framework.md) to provide a consistent way of building integrations for common use cases such as pulling employee profiles and tasks from third-party application to a ServiceNow application, and pushing data from a ServiceNow application into a third-party application.
 -   [HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-predictive-intelligence-wb.md) to guide you through your predictive machine learning implementation to create intelligent HR processes.
+-   [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) to interact with employees, respond to inquiries, and resolve issues quickly as an HR agent.
+-   [HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/success-dashboard-landing.md) to help the HR leadership measure the performance of the HR implementations, using different base system or customized KPIs.
+-   [Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-core_overview.md) to build a integrated learning content repository.
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/manager-hub-overview.md) to increase managers self-service and proactive engagement with teams, and help them grow as leaders.
 -   [Machine learning solutions for HR Service Delivery]() to help in auto determining assignment groups and services for HR cases, auto creating cases from emails, and discovering knowledge articles that help in faster resolution of cases and tasks.
 -   [Performance Analytics for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.md) to reduce HR inefficiencies by reporting and analyzing service delivery performance and quality. A separate subscription is required.
 -   [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md) to enable automated chats for employees requesting HR services.
 
-For the full list of integrations, see [Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md) and [Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-third-party-systems.md).
+## Mobile applications
 
-## Employee experience
+You can use the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) with HR Service Delivery.
 
-HR Service Delivery enables many of the capabilities available on the [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md) portal, where employees can report issues, request items or services, receive training, and complete to-dos.
-
-## Mobile application
-
-Employees view HR requests, request help, complete HR tasks, receive targeted mobile content and push notifications, chat with a virtual agent, and more using the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+Employees view HR requests, request help, complete HR tasks, receive targeted mobile content and push notifications, chat with a virtual agent, and more using the Now Mobile app.
 
 ## Domain separation and HR Service Delivery
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ When you configure Service Catalog on a Classic Mobile device, you can define th
 
 **Important:**
 
-Mobile Classic Is Deprecated.
+Mobile Classic Is Deprecated!
 
 The App Has Been Removed From The Stores And Can No Longer Be Activated. We Are Not Offering Enhancements, Bug Fixes, Or Support For The App. See [ServiceNow Classic Mobile App Deprecation Effective September 15, 2022](https://community.servicenow.com/community?id=community_article&sys_id=8fd41156db9c3c106064eeb5ca961989).
 
@@ -42,7 +42,7 @@ Including:
 -   Defining rendering options for Classic Mobile categories.
 -   Defining rendering options for Classic Mobile catalog items.
 
-Accessing the Service Catalog on Mobile Devices
+Accessing the Service Catalogon Mobile Devices
 
 To access the service catalog, navigate to **Self-Service** &gt; **Catalog**.
 
@@ -64,9 +64,7 @@ To request an item:
 
 2.  Tap any field with an arrow \(&gt;\) to add information, such as the name or location of the requestor, the need-by date, or item quantity.
 
-3.  Tap **Add to Cart** to add the item to your cart.
-
-    The order screen appears.
+3.  Tap **Add to Cart** to add the item to your cart. The order screen appears.
 
     \[Omitted image "OrderItemMobile2.png"\] Alt text: Screenshot for Order Item Classic Mobile 2.
 

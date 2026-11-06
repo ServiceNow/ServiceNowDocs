@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Domain separation in Cloud Provisioning and Governance - considerations for service providers, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -42,7 +42,7 @@ Strong universal process standards, data-driven process design, strict governanc
     -   [Day 1 setup guide for VMware on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
 -   [Cloud API \(CAPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-management-api.md) and [Cloud scripts and cloud script templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.md)
 
-    CAPI is not domain separated in Cloud Provisioning and Governance. CAPI is set up at a global domain and shared across leaf domains. Ensure that scripts do not contain hard-coded sensitive information such as account details, credentials, or names, even in comments or annotations.
+    CAPI is not domain separated in Cloud Provisioning and Governance. CAPI is set up at a global domain and shared across leaf domains. Ensure that scripts do not contain hard-coded sensitive information such as account details, credentials, or names even in comments or annotations.
 
     CAPI enables you to integrate Cloud Provisioning and Governance with cloud providers using REST APIs. Cloud scripts are simple java scripts that use platform features. In the Cloud Provisioning and Governance application, script execution is divided into cloud scripts and cloud script templates. Use scripts in templates, resource blocks, OS profiles, and use policy scripts to set request form attributes. Policy scripts cannot override user data. Cloud script templates are actual executables which are passed to target a virtual machine for execution. Create a cloud template first and then associate it with a cloud script.
 
@@ -68,7 +68,7 @@ Strong universal process standards, data-driven process design, strict governanc
 
     -   [Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/exploring-event-management.md)
     -   [Event Management Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMConfiguration.md)
-        -   [Configure AWS Config event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-config-service-cloud-mgt.md)
+        -   [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-events-driven-discovery.md)
         -   [Configure the Microsoft Azure Alert service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
         -   [Configure the Google Cloud Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/gcp-stackdriver-service.md)
         -   [Configure the VMware Events service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/vmware-events-service-cloud-mgt.md)

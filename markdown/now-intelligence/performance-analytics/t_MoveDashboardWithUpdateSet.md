@@ -7,10 +7,10 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [move a dashboard, move a responsive dashboard]
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Move a Core UI dashboard with an update set
@@ -22,6 +22,8 @@ Portal pages related to dashboard tabs aren’t automatically transferred in upd
 Role required: admin.
 
 ## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
 
 This procedure describes moving the dashboard structure to an update set. The dashboard structure includes the dashboard itself, tabs, the related security configuration, and dashboard-specific widget settings such as header color, and borders.
 
@@ -61,9 +63,9 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
 7.  On the target instance, move the update using standard update set functionality.
 
-    For more information, see Retrieve an update set.
+    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
-    On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**. See [Solving errors on dashboards moved with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
+    On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**. See [Solving errors on Core UI dashboards moved with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
 
 8.  On the target instance, make sure that all the tabs of the dashboard have associated portal pages.
 
@@ -81,7 +83,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
         The portal page for the current tab is added to the current update set.
 
-    4.  Move the update set to another instance using standard update set functionality. For more information, see Retrieve an update set.
+    4.  Move the update set to another instance using standard update set functionality. For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
 ## Result
 

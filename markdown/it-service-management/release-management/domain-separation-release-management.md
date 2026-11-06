@@ -1,5 +1,5 @@
 ---
-title: Domain separation and Release Management
+title: Domain separation in Release Management
 description: This is an overview of domain separation and Release Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/release-management/domain-separation-release-management.html
@@ -7,12 +7,12 @@ release: zurich
 product: Release Management
 classification: release-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Release Management, IT Service Management]
+breadcrumb: [Release Management, IT Service Management]
 ---
 
-# Domain separation and Release Management
+# Domain separation in Release Management
 
 This is an overview of domain separation and Release Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
@@ -28,7 +28,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/reference-release-management.md)
+**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_ITILReleaseManagement.md)
 
 **Related topics**  
 

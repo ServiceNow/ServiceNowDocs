@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Viewing an agent's calendar
@@ -24,6 +24,8 @@ The calendar displays agent information for a selected day, work day, or week. R
 -   Actual work start time
 
 **Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ConfigureFieldService.md).
+
+Resources on the calendar in Dispatcher Workspace are sorted alphabetically by territory, then alphabetically by assignment group within each territory, then alphabetically by resource name within each assignment group. Technicians are grouped together by the assignment group and territory they’re assigned to.
 
 \[Omitted image "agent-calendar-schedule.png"\] Alt text: Calendar showing tasks assigned to agents, available agents, and agent schedules for a selected day or week.
 

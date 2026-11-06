@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MFA Dashboard, Multi-factor authentication, Access Management]
+breadcrumb: [MFA Dashboard, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Log in Metrics

@@ -7,7 +7,7 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Intraday schedule automation, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -32,13 +32,40 @@ Role required: admin
 
 5.  Select the Data Pill Picker icon \[Omitted image "data-pill-pick.png"\] Alt text: data pill picker for the field you want to change the recipients of intraday schedule automation notifications.
 
-    |Action input|Description|
-    |------------|-----------|
-    |**Recipient user field**|Determine the recipient of the notification by choosing a sys\_user field.|
-    |**Recipient group fields**|Choose a different group to receive notifications.|
-    |**Scripted recipients**|Use a script to selectively determine who receives notifications.|
+<table id="choicetable_u45_d4c_vgc"><thead><tr><th align="left" id="d79250e99">
 
-    **Note:** By default intraday schedule automation sends notifications to everyone in the dispatch group that the agent is a member of.
+Action input
+
+</th><th align="left" id="d79250e102">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d79250e108">
+
+**Recipient user field**
+
+</td><td>
+
+Determine the recipient of the notification by choosing a sys\_user field.
+
+</td></tr><tr><td id="d79250e120">
+
+**Recipient group fields**
+
+</td><td>
+
+Choose a different group to receive notifications.
+
+</td></tr><tr><td id="d79250e129">
+
+**Scripted recipients**
+
+</td><td>
+
+Use a script to selectively determine who receives notifications.
+
+</td></tr></tbody>
+</table>    **Note:** By default intraday schedule automation sends notifications to everyone in the dispatch group that the agent is a member of.
 
 6.  Select **Publish**.
 

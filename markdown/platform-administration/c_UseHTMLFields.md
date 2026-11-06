@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_UseHTMLFields.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # HTML field editors
@@ -18,12 +18,12 @@ The HTML field editors available depend on your version of the UI.
 
 |HTML field editor|UI support|
 |-----------------|----------|
-|TinyMCE version 6.8.2|Core UI, configurable workspace|
+|TinyMCE version 8.3.0|Core UI, configurable workspace|
 |htmlArea \(legacy\)|Basic support in Core UI|
 
 Knowledge articles, service catalog item descriptions, release documentation, email clients, and HTML content blocks are common examples of entities using HTML field editors.
 
-**Note:** The TinyMCE v8.6.2 editor doesn't support converting Microsoft Word shapes or nested lists with custom icons into HTML.
+**Note:** The TinyMCE v8.3.0 editor doesn't support converting Microsoft Word shapes or nested lists with custom icons into HTML.
 
 While HTML fields can be added to split pane forms, they can behave unexpectedly because of the limited width available in split pane forms.
 

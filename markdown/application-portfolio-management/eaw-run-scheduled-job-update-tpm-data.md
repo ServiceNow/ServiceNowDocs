@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run a scheduled job to generate TLM lifecycle data
@@ -32,11 +32,11 @@ The scheduled job **Populate TPM Discovered Technologies and Lifecycles** is cre
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+1.  Navigate to **All** &gt; ** System Definition ** &gt; ** Scheduled Jobs**.
 
-2.  Find and open the scheduled job **Populate TPM Discovered Technologies and Lifecycles**.
+2.  Find and open the  scheduled job **Populate TPM Discovered Technologies and Lifecycles**.
 
-3.  Select **Execute Now**.
+3.  Select  ** Execute Now**.
 
 
 ## Result
@@ -45,7 +45,12 @@ After executing the scheduled job, the engine automatically stores the technolog
 
 ## What to do next
 
-To know the status of the scheduled job, refer to the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. To view the technology lifecycle information, refer to the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table. You can view the results in the **Enterprise Architecture Workspace** &gt; **Settings** &gt; **Logs** &gt; **TLM Logs**.
+To know the status of the scheduled job, refer to the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. To view the technology lifecycle information, refer to the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table. You can view the results in the Portfolio &gt; Technology Portfolio Management &gt; Logs page.
 
 **Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-tpm.md)
+
+**Related topics**  
+
+
+[Technology lifecycle risk score in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.md)
 

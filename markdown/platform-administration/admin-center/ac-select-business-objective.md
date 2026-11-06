@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Adoption blueprints, Discover, Admin Center, Get started, Administer]
+breadcrumb: [Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Select your adoption blueprint
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access Adoption blueprint in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d38869e50">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d39809e50">
 
 Option
 
-</th><th align="left" id="d38869e53">
+</th><th align="left" id="d39809e53">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d38869e59">
+</th></tr></thead><tbody><tr><td id="d39809e59">
 
 **Using left navigation**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select one of the Adoption Blueprints that can be implemented to work towards your organizational business goal.
 
 
-</td></tr><tr><td id="d38869e89">
+</td></tr><tr><td id="d39809e89">
 
 **Using Admin tab option**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-or-create-issue-from-crisis-event.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,15 +26,15 @@ The **Issues** related list appears on a crisis event record when GRC: Profiles 
 
 2.  Complete the following steps to create or manage an issue from a crisis event.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d326731e97">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d401276e97">
 
 Step
 
-</th><th align="left" id="d326731e100">
+</th><th align="left" id="d401276e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d326731e106">
+</th></tr></thead><tbody><tr><td id="d401276e106">
 
 **Create or add an issue from the event record**
 
@@ -67,7 +67,7 @@ Use this option when you want to associate an existing issue with the crisis eve
 
 The issue association is removed from the event; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d326731e181">
+</td></tr><tr><td id="d401276e181">
 
 **Link a crisis event from the issue record**
 

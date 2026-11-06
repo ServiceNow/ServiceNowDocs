@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/setting\_up\_a\_runtime\_client.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a runtime client
@@ -25,7 +25,7 @@ Runtime clients can be set up that provide a token for authentication of runtime
 1.  Navigate to the Utilities tab of the left hand navigation pane, and click **Runtime Clients**.
 2.  Click **New** in the upper right corner.
 
-## Configure the new client
+## Configure the client
 
 \[Omitted image "cpq-runtime-client-add.png"\] Alt text: Add a runtime client interface
 
@@ -33,7 +33,7 @@ Runtime clients can be set up that provide a token for authentication of runtime
 2.  Setting the User ID will attach it to any calls authenticated by this runtime client. This may be useful for tracking the origin of the calls.
 3.  For Permissions, choose either Config or Config and Flightpath. Config will allow for launching configurations. Flightpath will allow for accessing Flightpath data of the configuration for use with debugging.
 4.  Optionally, set an expiration date for the runtime client. This expiration date can be changed to extend or shorten the time frame during which this token can be used.
-5.  Users must specify the origins of calls that aree made using this token as authentication. In the origins box, add the desired URL, such as `https://<yourLogikUrlName>.<sector>.ServiceNow CPQ` or `*.salesforce.com`. click `Add Origin` to add the origin, and continue adding more.
+5.  Users must specify the origins of calls that aree made using this token as authentication. In the origins box, add the desired URL, such as `https://<yourCPQUrlName>.<sector>.logik.io` or `*.salesforce.com`. click `Add Origin` to add the origin, and continue adding more.
 
     **Note:** Make sure that your origin does not have a trailing slash. For example, use `*.salesforce.com` and not `*.salesforce.com/`.
 

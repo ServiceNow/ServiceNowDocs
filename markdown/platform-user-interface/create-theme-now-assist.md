@@ -1,31 +1,33 @@
 ---
 title: Create a theme using ServiceNow Otto
-description: Use ServiceNow Otto to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+description: Use ServiceNow Otto to generate themes from your brand image or brand guidelines. Color palettes are extracted automatically, producing visually consistent themes without requiring brand color codes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-theme-now-assist.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a theme using ServiceNow Otto
 
-Use ServiceNow Otto® to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+Use ServiceNow Otto® to generate themes from your brand image or brand guidelines. Color palettes are extracted automatically, producing visually consistent themes without requiring brand color codes.
 
 ## Before you begin
 
 This feature requires:
 
--   ServiceNow Otto for Creator installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
+-   The ServiceNow Otto for Creator application must be installed. See 
 -   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/turn-on-theme-creation-workflow.md).
--   ServiceNow Otto® panel turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-Roles required:
+Role required:
 
--   admin
+-   ui\_builder\_admin
 -   now\_assist\_panel\_user
+
+For information on granular roles, see .
 
 ## Procedure
 
@@ -33,7 +35,7 @@ Roles required:
 
 2.  In the chat window, enter `Create a theme`.
 
-    This triggers the AI-enabled Theme Builder workflow.
+    The AI-enabled Theme Builder workflow starts.
 
 3.  Select **Yes** when prompted to proceed.
 
@@ -76,13 +78,13 @@ Roles required:
 
 8.  If you selected **Handpick my colors**, define your theme colors manually.
 
-    1.  Select the Primary tile and choose your brand’s primary color from the color selector or enter a value using HEX, RGB, or HSL.
+    1.  Select the Primary tile and choose your brand's primary color from the color selector or enter a value using HEX, RGB, or HSL.
 
         \[Omitted image "tb-select-primary-color.png"\] Alt text: Your brand's primary color
 
     2.  After you identify the primary color of your brand, select **Apply**.
 
-    3.  Select the Secondary tile and choose your brand’s secondary color from the color selector.
+    3.  Select the Secondary tile and choose your brand's secondary color from the color selector.
 
     4.  Select **Apply**.
 
@@ -92,7 +94,7 @@ Roles required:
 
 9.  Upload your brand logo, confirm it appears correctly in the preview, and select **Next**.
 
-    If you don’t add a logo, the ServiceNow logo is used.
+    If you don't add a logo, the ServiceNow logo is used.
 
 10. Select the preferred font for your text and select **Next**.
 

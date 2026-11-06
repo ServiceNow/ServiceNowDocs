@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/activate-the-concur-md.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with SAP Concur, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Activate the SAP Concur metric definitions
@@ -41,5 +41,5 @@ Role required: admin
     3.  Select **Save**.
 
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-concur.md)
 

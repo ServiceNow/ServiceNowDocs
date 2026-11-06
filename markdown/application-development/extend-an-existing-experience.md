@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Extend an existing experience]
-breadcrumb: [Using Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Using Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Extend an existing experience

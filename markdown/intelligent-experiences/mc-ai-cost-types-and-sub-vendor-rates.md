@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 3
 keywords: [AI cost, sub-vendor, subscription, cost type, AI Control Tower]
-breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Cost types and sub-vendor rates

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/ciso-dashboard-tab.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Chief Information Security Officer \(CISO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Information Security Officer \(CISO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Chief Information Security Officer \(CISO\) Dashboard pillars

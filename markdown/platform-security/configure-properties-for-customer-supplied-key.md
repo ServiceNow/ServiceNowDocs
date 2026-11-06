@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configure-properties-for-customer-supplied-key.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer-supplied keys for Field Encryption Enterprise, Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Review the system properties for the ephemeral public wrapping key that your ins
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Operator
+Role required: sn\_kmf.admin or sn\_kmf.cryptographic manager
 
 ## About this task
 

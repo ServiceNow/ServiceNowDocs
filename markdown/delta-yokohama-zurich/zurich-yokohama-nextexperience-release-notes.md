@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nextexperience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 7
+last_updated: "2026-11-06"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -157,6 +157,10 @@ Zurich
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
+
 
  -   **Coral theme**
 
@@ -221,7 +225,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and their steps, are removed.
 
 </td></tr></tbody>
 </table>## Activation information

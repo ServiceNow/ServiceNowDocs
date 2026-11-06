@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -62,6 +62,7 @@ If the selected MID Server is a part of a MID cluster, the jobs are equally dist
 -   AWS
 -   Azure
 -   Google
+-   Alibaba Cloud
 
 </td></tr><tr><td>
 

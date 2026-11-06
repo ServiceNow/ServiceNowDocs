@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-17"
 reading_time_minutes: 2
-breadcrumb: [Grants Management Program Setup, Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Set up a Grant Program in Grants Management
@@ -26,9 +26,9 @@ The workflows for a type of case and the activities that you must complete to re
 
 A grant announcement is a formal solicitation issued by a funding organization. It details the objectives, eligibility criteria, funding amounts, and application procedures for a specific funding opportunity. Grants Management Program Setup Playbook walks grants program managers through the process of creating and building out a grant program announcement.
 
-Grants Management Program Set Up allows you to set up and manage grant programs with guided steps. You can create, publish, and manage different grant programs under your agency. Role-based access management protects sensitive information.
+Grants Management Program Set Up allows you to set up and manage grant programs with guided steps to create, publish, and, manage different grant programs under your agency, making sure to protect sensitive information with role-based access management.
 
-Like other Public Sector Digital Services playbooks, this playbook contains four stages, and several activities in each stage. This playbook is designed specifically for grant program managers to create net new grant programs. It guides the program manager through the process of creating a grants program, from defining key details to defining budget and milestones. The program manager can then publish it to the agency's Grants Portal.
+Like other Public Sector Digital Services playbooks, this playbook contains four stages, and several activities in each stage. However, since this playbook is designed specifically for grant program managers create net new grant programs, it guides the program manager through the process of creating a grants program, from defining key details, to defining budget and milestones, to publishing it to the agency's Grants Portal.
 
 Each grant program creates a product model record.
 

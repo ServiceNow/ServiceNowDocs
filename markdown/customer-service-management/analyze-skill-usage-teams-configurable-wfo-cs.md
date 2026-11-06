@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/analyze-skill-usage-teams-configurable-wfo-cs.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -36,5 +36,5 @@ Role required: skill\_admin
     You can click on a skill to analyze skill data such as the number of users or tasks with that skill, the overall skill coverage, and how many experts you currently have with that skill.
 
 
-**Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-channels-wfo-cs.md)
 

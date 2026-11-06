@@ -7,7 +7,7 @@ release: zurich
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---

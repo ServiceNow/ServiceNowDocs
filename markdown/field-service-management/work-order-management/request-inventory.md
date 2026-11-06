@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Inventory, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Request inventory
@@ -26,7 +26,7 @@ You can request inventory in two ways:
 **Related topics**  
 
 
-[Track inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/view-available-parts-inventory.md)
+[Track inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/view-available-parts-inventory.md)
 
 [Accept or reject part requests from peer agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/accept-reject-part-request-mobile.md)
 
@@ -50,15 +50,15 @@ You can create a part requirement with or without the context of a work order ta
 
 2.  Request and source parts.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d65655e151">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d72156e151">
 
 From
 
-</th><th align="left" id="d65655e154">
+</th><th align="left" id="d72156e154">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65655e160">
+</th></tr></thead><tbody><tr><td id="d72156e160">
 
 **My Work**
 
@@ -72,7 +72,7 @@ Do this
 6.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Create Part Requirement**.
 
 
-</td></tr><tr><td id="d65655e212">
+</td></tr><tr><td id="d72156e212">
 
 **Inventory**
 
@@ -172,15 +172,15 @@ You can create part requests from **My work** and **Inventory** screens with the
 
 2.  Request parts with or without a work order task, or from your own requests or parts requirements lists.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d65655e624">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d72156e624">
 
 To request parts from
 
-</th><th align="left" id="d65655e627">
+</th><th align="left" id="d72156e627">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65655e633">
+</th></tr></thead><tbody><tr><td id="d72156e633">
 
 **Work order task**
 
@@ -192,7 +192,7 @@ Do this
 4.  Tap **Create part request**.
 
 
-</td></tr><tr><td id="d65655e672">
+</td></tr><tr><td id="d72156e672">
 
 **Work order task with existing part requirements**
 
@@ -205,7 +205,7 @@ Do this
 5.  Tap **Request parts**.
  **Note:** The **Request parts** option appears only when you have pending part requirements. Note that you can request parts without selecting a part requirement.
 
-</td></tr><tr><td id="d65655e726">
+</td></tr><tr><td id="d72156e726">
 
 **Missing work order task**
 
@@ -215,7 +215,7 @@ Do this
 2.  Tap **Create part request**.
 
 
-</td></tr><tr><td id="d65655e750">
+</td></tr><tr><td id="d72156e750">
 
 **My requests**
 
@@ -225,7 +225,7 @@ Do this
 2.  Tap **My requests** and then **Create part request**.
 
 
-</td></tr><tr><td id="d65655e778">
+</td></tr><tr><td id="d72156e778">
 
 **My part requirements**
 
@@ -249,15 +249,15 @@ Do this
 
 6.  Add parts to the part request either directly or from a part requirement.
 
-<table id="choicetable_wrg_txw_stb"><thead><tr><th align="left" id="d65655e853">
+<table id="choicetable_wrg_txw_stb"><thead><tr><th align="left" id="d72156e853">
 
 To
 
-</th><th align="left" id="d65655e856">
+</th><th align="left" id="d72156e856">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65655e862">
+</th></tr></thead><tbody><tr><td id="d72156e862">
 
 **Add parts directly**
 
@@ -271,7 +271,7 @@ Do this
 6.  \(Optional\) View available substitutes of the selected part model by selecting **Include substitute**.
  **Note:** To add multiple parts, repeat these steps.
 
-</td></tr><tr><td id="d65655e908">
+</td></tr><tr><td id="d72156e908">
 
 **Add from part requirements**
 

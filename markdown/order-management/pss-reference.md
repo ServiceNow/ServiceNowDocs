@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/pss-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -21,12 +21,12 @@ To learn more about configuring and using Customer Contracts and Entitlements, s
 -   [Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-post-sales-support.md)
 -   [Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-post-sales-support.md)
 
--   **[Service contract life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/life-cycle-management.md)**  
-A service contract goes through the various states in each phase of its life cycle.
--   **[Service contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/service-contract-form.md)**  
-The Customer Contracts and Entitlements application uses the Service contract form to create service contracts.
--   **[Service contract line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/service-contract-line-form.md)**  
-You can create service contract lines in the Customer Contracts and Entitlements application by using the Service Contract Line form.
+-   **[Customer contract life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/life-cycle-management.md)**  
+A customer contract goes through the various states in each phase of its life cycle.
+-   **[Customer contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/service-contract-form.md)**  
+The Customer Contracts and Entitlements application uses the Customer contract form to create customer contracts.
+-   **[Customer contract line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/service-contract-line-form.md)**  
+You can create customer contract lines in the Customer Contracts and Entitlements application by using the Customer Contract Line form.
 -   **[Entitlement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/entitlement-form.md)**  
 The Entitlement form can be used to create entitlements in Customer Contracts and Entitlements.
 -   **[Sold Product Covered form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sold-product-covered-form.md)**  

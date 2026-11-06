@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-language-selection-guest-users-businessportal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Enable language selection for guest users
@@ -18,9 +18,17 @@ When a user selects a preferred language, the portal content reloads into the se
 
 To enable the language selector on the business portal, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-header-menu.md).
 
+
+
+\[Omitted image "lang-selector-widget-grouped.png"\] Alt text: Language selector widget with languages grouped by region.
+
 If languages aren’t grouped, users can view all available languages as a full-screen experience.
 
 **Note:** The full screen mode is available in the mobile view.
+
+
+
+\[Omitted image "lang-selector-widget-ungrouped.png"\] Alt text: Language selector widget with languages in an ascending order without region grouping.
 
 **Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceManagement.md)
 

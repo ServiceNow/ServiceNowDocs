@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure financials for Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Change the default expense type for your projects
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Properties** &gt; **All properties**.
+1.  Navigate to **All** and type in **sys\_properties.list** in the filter box.
 
 2.  Filter the name to locate and open the **sn\_plng\_att\_core.default.expense\_type** table.
 

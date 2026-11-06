@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/bulk-delete-assets.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assets page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Assets page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Deleting assets in bulk
@@ -42,10 +42,12 @@ Role required: admin
 
 7.  Select **Delete Assets**.
 
-    You are prompted to confirm that you are deleting assets.
+    You're prompted to confirm deleting assets.
 
 
 ## Result
 
 The bulk deleted assets are no longer in the Assets table.
+
+**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/assets-page-console.md)
 

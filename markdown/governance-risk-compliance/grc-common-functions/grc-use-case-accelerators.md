@@ -7,8 +7,8 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -28,8 +28,8 @@ The Cybersecurity Controls Accelerator ™ enables users to easily adopt the CIS
 The Financial Services Control Accelerator gives customers an operational head-start when adopting the Financial Services Control. When the accelerator is downloaded and activated in the GRC applications, pre-configured authority documents, citations, and control objectives.
 -   **[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)**  
 The NIST CSF Use Case Accelerator gives customers an operational head-start when adopting the NIST CSF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profiles, profile type recommendations\), indicators, risks, and other GRC elements appear.
--   **[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)**  
-Note: Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the Continuous Authorization and Monitoring application. For details, refer to Continuous Authorization and Monitoring documentation. The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
+-   **[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)**  
+The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
 -   **[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)**  
 The Technology Controls Monitoring Accelerator is a collection of pre-defined indicator templates designed to ease collection of data, and aid validation and continuous monitoring of technology controls. This application can be run with the Cybersecurity Controls Accelerator or as a standalone application.
 

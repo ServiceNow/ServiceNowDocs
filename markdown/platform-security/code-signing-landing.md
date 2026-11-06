@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/code-signing-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Security]
 ---
 
@@ -70,13 +70,15 @@ The Circle of Trust requires an initial trust relationship between trusted and p
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
 -   **[Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/explore-code-signing.md)**  
-Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered ECC queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
+Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
 -   **[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/config-code-signing.md)**  
 Activate and configure Code Signing to verify the authenticity and integrity of your data.
 -   **[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-code-signing.md)**  
 Learn how to sign records, messages, and attachments to help verify the authenticity and integrity of your data.
 -   **[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-health-and-status-dashboard.md)**  
 The Code Signing Health and Status dashboard provides a centralized, user-friendly view of your Code Signing environment's health and configuration. Use it to identify issues, verify configuration accuracy, and support secure, uninterrupted code-signing operations.
+-   **[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-reference.md)**  
+Reference topics provide additional information to administer and troubleshoot Code Signing.
 
 **Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platsec-sublanding.md)
 

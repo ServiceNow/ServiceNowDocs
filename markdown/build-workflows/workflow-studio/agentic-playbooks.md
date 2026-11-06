@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Exploring Agentic Playbooks
@@ -29,7 +29,7 @@ Agentic Playbooks bring the following benefits:
 -   Makes the processes efficient
 -   Automates the tedious manual tasks
 -   Provides compliant outcomes across workflows
--   Uses context-aware interactions via Now Assist
+-   Uses context-aware interactions through AI
 
 ## AI agents and their skills
 
@@ -117,6 +117,4 @@ For more information about Now Assist AI agents and their capabilities, refer to
 If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
 If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/running-agentic-activities.md).
-
-**Parent Topic:**[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks-landing.md)
 

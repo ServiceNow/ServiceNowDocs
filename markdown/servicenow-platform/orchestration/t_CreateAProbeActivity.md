@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ For instructions on using the activity template process flow, see [create custom
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md), configure the Probe Execution Command.
 
-<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d402153e117">
+<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d406533e117">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d402153e133">
+</td></tr><tr><td id="d406533e133">
 
 **Probe**
 
@@ -48,7 +48,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Probe to run with this activity, from the list of probes in the system
 
-</td></tr><tr><td id="d402153e142">
+</td></tr><tr><td id="d406533e142">
 
 **Target host**
 
@@ -56,7 +56,7 @@ Probe to run with this activity, from the list of probes in the system
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d402153e151">
+</td></tr><tr><td id="d406533e151">
 
 **Parameters**
 
@@ -64,7 +64,7 @@ Host name or IP address of the target server for this activity.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d402153e160">
+</td></tr><tr><td id="d406533e160">
 
 **Required MID Server capabilities**
 

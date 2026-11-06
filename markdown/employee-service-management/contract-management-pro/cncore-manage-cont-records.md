@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,6 +18,8 @@ As administrator manage contract records.
 
 -   **[View a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-view-contract-rec.md)**  
 View the history of a contract request to track changes, review the audit trail, and update fields. Easily see the date a contract was modified and who modified it.
+-   **[View contract repository record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-view-cntr-tabs.md)**  
+Use the tabs on a contract repository record to view contract details, documents, requests, obligations, and renewal history.
 -   **[Modify a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-modify-contract-rec.md)**  
 After a contract record is created, you can change the end date, parent contract, and contract model.
 -   **[Configure fields in contract template to display correct sys\_id value in contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-addin-adv-script.md)**  
@@ -29,6 +31,8 @@ As a contract configurator, update an advanced script to print the correct displ
 
 
 [Manage clauses, tables, and contract templates]()
+
+[Manage AI skills]()
 
 [Platform Analytics Solutions for Contract Management Pro]()
 

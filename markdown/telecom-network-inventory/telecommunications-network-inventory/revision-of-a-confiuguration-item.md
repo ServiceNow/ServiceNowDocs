@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -20,11 +20,11 @@ Revision of Configuration Item \(CI\) enables you to update the network attribut
 
 CI revisions enable you to modify network-configured attributes and connection elements of an operational Configuration Item. The CI revision is applicable only to logical connection and physical connection CIs. So, you can update all configuration items of a connection, as required with the help of revise CI and its subflows.
 
-CI revisions enable you to modify network-configured attributes and connection elements of an operational Configuration Item. The CI revision is applicable only to logical connection and physical connection CIs. So, after a logical connection or a physical connection configuration Item is created, you can update it as required with the help of revise CI and its subflows.
+CI revisions enable you to modify network-configured attributes and connection elements of an operational Configuration Item. The CI revision is applicable only to logical connection and physical connection CIs. So, after a logical connection or a physical connection Configuration Item is created, you can update it as required with the help of revise CI and its subflows.
 
 ## Operationalization and decommission flow
 
-\[Omitted image "MMASSET00202487-flow-revision-operationalization.png"\] Alt text: Infographic showing the flow diagram of operationalization and decommission. See the following steps for more information
+\[Omitted image "MMASSET00202487-flow-revision-operationalization.png"\] Alt text: Infographic showing the flow diagram of operationalization and decommission. See the following steps for more information.
 
 The following process guides you through the flow for a Configuration Item \(CI\) record after a request is created.
 

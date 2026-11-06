@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolve conflicts for an individual record, Scheduling and monitoring an upgrade, Use, Upgrade Center, Upgrade, Administer]
+breadcrumb: [Resolve conflicts for an individual record, Scheduling and monitoring an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Upgrade details form

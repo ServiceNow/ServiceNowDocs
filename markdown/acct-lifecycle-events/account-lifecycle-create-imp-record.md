@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-imp-record.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create an implementation record
@@ -20,9 +20,9 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin, sn\_acct\_lc.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Implementation Records** and select **New**.
+2.  Navigate to the **Customer Success Management** &gt; **All Implementation Records** and select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -91,7 +91,7 @@ Partner
 
 </td><td>
 
-If it’s a partner led implementation, select the contact name from the list.
+If it is a partner led implementation, select the contact name from the list.
 
 </td></tr><tr><td>
 
@@ -256,9 +256,9 @@ Enter any additional information in the Close notes field.
 </td></tr></tbody>
 </table>4.  Select **Save** to create the implementation record.
 
-    After the record has been created, you can view the implementation record under the Related Items list on the Engagement home page.
+    After the record has been created, you can view the implementation record under the Related Items list on the Engagement home page
 
-5.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+5.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 6.  Navigate to the **Customer Success** &gt; **All Engagements** and open an engagement record.
 
@@ -270,9 +270,9 @@ Enter any additional information in the Close notes field.
 
     You can do the following:
 
-    -   Select **Create** to create a new implementation record.
+    -   Select **Create** to create implementation record.
     -   Select **View all** to view all the implementation records associated with the engagement. The list of records is displayed on a separate page.
     -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to open and edit the implementation record.
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

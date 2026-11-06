@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-site-project-product-offering.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up project oversight conditions and decision rules, Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
@@ -30,7 +30,7 @@ For example, if you want site projects to be created for a specific location, yo
 
 2.  Select the **Site Project Management Oversight for Product Offerings** decision table.
 
-    The Product Offering item is displayed in the **Inputs** and the **Project Template Task** column in the **Results**.
+    The Product Offering item is displayed in the **Inputs** and the **Project Template Task** and Location columns in the **Results**.
 
 3.  Add a condition that a Product Offering must match.
 

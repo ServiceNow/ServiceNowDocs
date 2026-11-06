@@ -7,9 +7,9 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Universal Task, Employee Service Management]
+breadcrumb: [Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Email notification layout for Universal Task notifications
@@ -38,5 +38,5 @@ The following table lists the email notifications shipped with Universal Task. Y
 
 If you are an existing user of Universal Task on a release prior to San Diego, upgrade to Employee Center or Employee Center Pro or install the Employee Experience Foundation plugin from ServiceNow Store to start using these email notifications.
 
-**Parent Topic:**[Configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
 

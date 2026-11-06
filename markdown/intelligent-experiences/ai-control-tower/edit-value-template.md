@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using value templates, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using value templates, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit a value template
@@ -18,34 +18,28 @@ Edit a value template to update how value is calculated for AI assets.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] and AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
 
-2.  From the AI Control Tower, open the AI assets view.
+2.  Select the **AI asset inventory** tab and navigate to the asset that you want to edit the value template for.
 
-3.  From the navigation menu of the AI assets view, navigate to **Productivity** &gt; **Value templates**.
+3.  In the **Value template** tab, select **Duplicate**.
 
-4.  Select the asset that you want to edit the value template for and click **Duplicate**.
+    A new tab with the same details as the original template opens for you to edit.
 
-    A new dialogue box is displayed for you to select what to duplicate and then a tab with the same details as the original template opens for you to edit.
+4.  Edit the value template according to your requirements.
 
-    **Note:** Duplicating a template changes its state to Draft so that you can edit it. For a published template, you can edit only a limited number of fields in the template and save it.
-
-5.  Edit the value template according to your requirements.
+5.  Select **Save as draft**.
 
 6.  Validate and test the formula against the available dataset by selecting **Validate and calculate output**.
 
     You can preview calculations from the past 30 days using the new template before publishing. This functionality enables you to evaluate the impact of the new template while preserving the historical data associated with the previous version.
 
-7.  If you’re satisfied with the output, publish the template by selecting **Publish template**.
+7.  If you’re satisfied with the output, publish the template by selecting **Publish**.
 
     When a value template is published, it’s modified across all instances and subsequent calculations are based on the new template.
 
-    After a template is published, you can't edit the basic information. But you can still add more assets for mapping to it. Testing is unavailable for published templates.
-
-
-**Parent Topic:**[Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-value-templates.md)
 

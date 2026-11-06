@@ -1,0 +1,52 @@
+---
+title: Telecommunications Customer 360
+description: The Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/c360-land-page.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
+---
+
+# Telecommunications Customer 360
+
+The Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
+
+## Get started
+
+<table id="table_nr4_4bw_33c" class="nav-card presentation"><tbody><tr><td>
+
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-overview.md)
+
+</td><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Setup and configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-configure.md)
+
+</td><td>
+
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-use.md)
+
+</td></tr><tr><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate customer insights and recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/ai-customer-360.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>## Additional resources
+
+-   Learn more about the key features, see .
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Customer 360 features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/telecommunication-and-media-service?id=learning_path_prev&path_id=75f3a571936ca6942fac74096cba1094&s=1&ssa=3).
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Telecommunications Customer 360 users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
+

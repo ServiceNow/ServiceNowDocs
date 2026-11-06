@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -24,6 +24,8 @@ Ensure that the following applications are installed:
 
 -   ServiceNow® GRC: Policy and Compliance Management application
 -   ServiceNow® Advanced Risk application
+
+Consider creating and printing a PDF of this checklist topic. You can then check off tasks as you complete them. To generate a PDF, click the **Save As PDF** icon \(\[Omitted image "SaveAsPdf.png"\] Alt text: Save as PDF icon\) at the top of the topic and click **Selected topic**.
 
 ## Procedure
 
@@ -72,6 +74,6 @@ Ensure that the following applications are installed:
 
 11. Provide an overview of the regulatory changes via dashboards and reports.
 
-    For details, see [Regulatory Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-dashboard.md).
+    For details, see [Regulatory Change Management application in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-overview.md).
 
 

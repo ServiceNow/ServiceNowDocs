@@ -7,9 +7,9 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Add custom Embedded Help from a copy
@@ -26,15 +26,15 @@ In base system topics, the read-only **ServiceNow Help** check box is selected. 
 
 When a user navigates to a UI page for which custom content exists, the custom content displays instead of the base system content.
 
-**Note:** Embedded Help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md).
+**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Embedded Help** &gt; **Help Content**.
 
-2.  Open the Embedded Help topic to copy.
+2.  Open the embedded help topic to copy.
 
-    You can also open an Embedded Help topic by selecting **Edit Help Article** from the menu in the Embedded Help pane.
+    You can also open an embedded help topic by selecting **Edit Help Article** from the menu in the embedded help pane.
 
 3.  Update the fields as appropriate.
 
@@ -52,7 +52,7 @@ Name
 
 </td><td>
 
-The Embedded Help topic name.
+The embedded help topic name.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Page
 
 </td><td>
 
-The UI page this topic corresponds to. Typically, you do not change the page name.**Note:** If you are using the Embedded Help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the **Name** and **Page** fields, replacing spaces with underscores in the page field.
+The UI page this topic corresponds to. Typically, you do not change the page name.**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Active
 
 </td><td>
 
-Specifies whether this content displays for the UI page. Clear the check box to hide the content from being available.
+Specifies whether this content displays for the UI page. Clear the check box to prevent the content from being available.
 
 </td></tr><tr><td>
 
@@ -147,10 +147,10 @@ Specify the domain this content is used for, if applicable.This field appears in
 
 5.  To add another line below tables, videos, or related links, click the newline icon \(**⏎**\).
 
-6.  Select **Copy** in the form header.
+6.  Click **Copy** in the form header.
 
-    The edited topic is saved and the list displays again. The **ServiceNow Help** check box is cleared in the saved topic.
+    The edited topic is saved and the list redisplays. The **ServiceNow Help** check box is cleared in the saved topic.
 
 
-**Parent Topic:**[Configure Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
+**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a control test from an engagement, Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -35,7 +35,7 @@ Role required: sn\_audit.admin and sn\_audit.manager
 
 ## Result
 
-The controls tests for each test plan is created under the Audit Task related list.
+The control tests for each test plan are created under the Audit Task related list.
 
 **Parent Topic:**[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateControlTest.md)
 

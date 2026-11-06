@@ -7,9 +7,9 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Audit Issues &amp; Remediation, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit issues and remediation, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manually create GRC issues

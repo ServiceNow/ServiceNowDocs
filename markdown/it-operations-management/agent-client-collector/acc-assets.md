@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector plugins
@@ -25,7 +25,7 @@ Plugins are tightly integrated with checks in the Agent Client Collector Framewo
 
 ## Plugin-agent compatibility
 
-ACC agents must be within two store releases \(N-2\) of your installed Agent Client Collector Framework \(ACC-F\) version. Each release includes security and performance improvements. ACC-F release notes highlight any changes or critical fixes requiring immediate action.
+Agents must be the same version as their corresponding plugins or can be one version lower. For example, an ACC agent version 4.1.0 can work with an ACC-F store version 5.1.0.
 
 ## Creating and managing plugins
 
@@ -38,6 +38,4 @@ You can create Agent Client Collector plugins as needed to customize the monitor
 ## Pre-installed plugins
 
 Agent Client Collector Framework includes a set of pre-installed plugins that provide basic functionalities for common monitoring tasks, such as gathering standard metrics or monitoring key system parameters. For more detailed information on the plugins that come with the Agent Client Collector as part of ITOM AIOps, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/plugin-app-itom-health.md).
-
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

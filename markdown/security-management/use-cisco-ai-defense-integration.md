@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-09-15"
 reading_time_minutes: 2
-breadcrumb: [Cisco AI Defense Integration for AI Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Cisco AI Defense Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Vulnerability Response Integration with Cisco AI Defense data mapping
@@ -82,6 +82,4 @@ Authentication errors:
 -   Regularly check import set processing for errors.
 -   Run automated syncs when system load is low.
 -   Use ServiceNow AI Platform reporting to track AI security trends.
-
-**Parent Topic:**[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-cisco-ai-defense-integration.md)
 

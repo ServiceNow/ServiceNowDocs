@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace 
 You can view the details like the floor details and space KPIs. You can edit a scenario to allocate spaces to projects and neighborhoods, assign spaces to users, or edit space assignments.
 
 **Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+
+\[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
 ## Viewing a scenario
 

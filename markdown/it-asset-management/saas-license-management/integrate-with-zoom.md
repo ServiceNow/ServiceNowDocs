@@ -1,5 +1,5 @@
 ---
-title: Integrating with Zoom Workplace
+title: Integrating with Zoom
 description: Integrating your Software Asset Management application with the Zoom Workplace application enables you to track your software subscriptions and to reclaim unused licenses.Create an application in the Zoom App Marketplace.Create an integration profile to track software subscriptions and optimize licensing for the Zoom Workplace service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-zoom.html
@@ -7,12 +7,12 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Integrating with Zoom Workplace
+# Integrating with Zoom
 
 Integrating your Software Asset Management application with the Zoom Workplace application enables you to track your software subscriptions and to reclaim unused licenses.
 
@@ -37,7 +37,7 @@ With this integration, you can retrieve and analyze licensing information for Zo
 |Large Meeting|Add-on|
 |Customer Managed Key|Add-on|
 
-**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 16.10.0.
+**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 18.1.1.
 
 For additional information about Zoom, see [Zoom Developer Documentation](https://marketplace.zoom.us/docs).
 
@@ -142,7 +142,7 @@ Create an integration profile to track software subscriptions and optimize licen
 
 To create a Zoom Workplace integration profile, request and install the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 ### About this task
 
@@ -152,15 +152,15 @@ If you’re using Software Asset Workspace, the option to create the Zoom Workpl
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d70781e614">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d74274e613">
 
 Interface
 
-</th><th align="left" id="d70781e617">
+</th><th align="left" id="d74274e616">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d70781e623">
+</th></tr></thead><tbody><tr><td id="d74274e622">
 
 **Core UI**
 
@@ -171,7 +171,7 @@ Action
 3.  Select **Zoom Integration Profile**.
 
 
-</td></tr><tr><td id="d70781e666">
+</td></tr><tr><td id="d74274e665">
 
 **Software Asset Workspace**
 
@@ -233,7 +233,7 @@ Type of integration profile. This value is automatically set to `Zoom Workplace 
 
     -   The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Events** isn't created.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -259,6 +259,7 @@ Type of integration profile. This value is automatically set to `Zoom Workplace 
     |Connection Name|Name of the Zoom Workplace connection. This field populates automatically.|
     |Connection URL|URL for the connection. This field is automatically set to `https://zoom.us`.|
     |Credential Information|
+    |OAuth Entity Name|A unique and meaningful display name for the OAuth entity.|
     |OAuth Client ID|Client ID for the OAuth 2.0 application created in [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-zoom.md).|
     |OAuth Client Secret|Password associated with the client ID created in [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-zoom.md).|
     |OAuth Redirect URL|`https://<instance_name>/oauth_redirect.do`, where instance name is the name of your ServiceNow instance.|
@@ -283,13 +284,13 @@ Type of integration profile. This value is automatically set to `Zoom Workplace 
 
 ### Result
 
-You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
+You can view events performed by individual users up to one year before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
 
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers
@@ -299,7 +300,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

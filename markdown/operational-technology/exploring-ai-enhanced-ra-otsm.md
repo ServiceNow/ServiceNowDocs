@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/exploring-ai-enhanced-ra-otsm.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [AI Enhanced Recommended Actions for OTSM, Operational Technology]
@@ -33,7 +33,7 @@ By default, AI Search uses the short description, description, site, OT device, 
 
 ## What to explore next
 
-To learn more about configuring and using , see:
+To learn more about configuring and using AI Enhanced Recommended Actions for OTSM, see:
 
 -   [Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-ai-enhanced-ra-otsm.md)
 -   [Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/use-ai-enhanced-ra-otsm.md)

@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Control assessment through attestation, Manage control objective, Manage control objectives and policies, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Control assessment through attestation, Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Respond to attestations from the Employee Center
@@ -31,6 +31,8 @@ As an attestation respondent of a control you can log in to the Employee Center 
 2.  Select **GRC tasks** in the **My active items** pane of the Home page.
 
 3.  Select the new task in My to-dos section.
+
+    You can view the attestations on the left panel. The Control Attestations list view displays the Control and Entity columns alongside the existing assessment instance, assessment template, state, users, and due date columns, providing attestors with direct scope context for each assessment instance without opening individual records.
 
 4.  Select the assessment instance link in the My pending tasks related list.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-service-event-participant-to-analysis-in-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Associate a scope and define the dependencies
@@ -42,14 +42,6 @@ Role required: sn\_oper\_res.manager
 
     2.  To add the scope related to a dependency, select **Add scope related dependency**, select the dependency, and select **Add** again.
 
-4.  View the status of the service.
-
-    The example shows the status of the service in scenario analysis.
-
-    \[Omitted image "sca-scope-disruption-time.png"\] Alt text: Disruption time.
-
-    The example shows the disruption time and breach status of a service. The disruption time must be longer than the impact duration and importance.
-
-5.  Select **Save**.
+4.  Select **Save**.
 
 

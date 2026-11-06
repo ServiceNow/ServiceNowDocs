@@ -7,8 +7,8 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -29,6 +29,8 @@ If the agent is not satisfied with the merchant’s pre-arbitration response, th
 -   Accept the pre-arbitration: Review and accept the response, then close the chargeback.
 -   Reject without escalation: Review and reject the response, but choose not to proceed with arbitration.
 -   Escalate to arbitration: Respond by escalating the existing pre-arbitration to arbitration for further resolution.
+
+If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 ## Procedure
 
@@ -60,19 +62,21 @@ If the agent is not satisfied with the merchant’s pre-arbitration response, th
 
 11. Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    **Note:**
 
+    -   You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    -   When integrated with Mastercard's Mastercom APIs, the system automatically compresses multiple attachments into a single zip file. It also validates attached files against Mastercard requirements for file type and size, and alerts you when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 12. Select one of the following options from the **Response outcome** drop-down.
 
-<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d37053e278">
+<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d38026e333">
 
 Option
 
-</th><th align="left" id="d37053e281">
+</th><th align="left" id="d38026e336">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37053e287">
+</th></tr></thead><tbody><tr><td id="d38026e342">
 
 **Unresolved**
 
@@ -92,7 +96,7 @@ The next task [Review arbitration response](https://raw.githubusercontent.com/Se
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d37053e368">
+</td></tr><tr><td id="d38026e423">
 
 **Resolved**
 
@@ -104,6 +108,8 @@ Accept the chargeback response and resolve the dispute. The transaction moves to
 </table>    **Note:** In case of integration with Mastercard's Mastercom APIs, if the task state changes to Document Upload Pending after you select **Escalate to arbitration**, then the attached document isn't uploaded to Mastercard.
 
 13. To reupload the document, delete and replace your attachment with one that meets Mastercard's requirements, then select **Upload document**.
+
+    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 14. If you want to stop and withdraw the case for any reason, such as you've selected a wrong option, select **Withdraw case**.
 

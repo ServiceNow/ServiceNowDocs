@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-12-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Configure ESXi, Configure resource pools, Configure ESXi servers]
 breadcrumb: [Configure for VMware Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]

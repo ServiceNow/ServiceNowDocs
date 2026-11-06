@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Better Together integrations, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation
@@ -94,7 +94,7 @@ Get started with initiating contract request by completing these tasks:
 
         Role:contract administrator.
 
-    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md)**
+    -   **[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
         Create a contract template of type .docx that can be used when submitting a contract request to generate a standard contract with predefined content.
 

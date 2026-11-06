@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ For example, assume that your calendar provider is Microsoft Outlook. After you 
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d419929e66">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d426767e66">
 
 Location
 
-</th><th align="left" id="d419929e69">
+</th><th align="left" id="d426767e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d419929e75">
+</th></tr></thead><tbody><tr><td id="d426767e75">
 
 **From the application navigator**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d419929e96">
+</td></tr><tr><td id="d426767e96">
 
 **Employee Center**
 
@@ -99,9 +99,9 @@ The reservation is added to your calendar.
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -128,4 +128,6 @@ The reservation is added to your calendar.
 [Share, modify, or cancel a reservation]()
 
 [Reserve a workplace using the Quick Reservation widget]()
+
+[Manage and configure reservation waitlist]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
+breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
 
 # Components installed with Process Mining
@@ -301,13 +301,13 @@ Roles control access to features and capabilities in applications and modules.
 
 After access has been granted to a role, all the groups or users assigned to the role are granted the access. Roles can contain other roles, and any access granted to a role is granted to any role that contains it.
 
-### Process mining administrator \[sn\_process\_optimization\_admin\]
+### Process mining administrator \[sn\_process\_mining\_admin\]
 
 Access all projects and manage all project settings and configurations and schedule background and jobs.
 
 #### Contains Roles
 
-The Process mining administrator \[sn\_process\_optimization\_admin\] role contains the sn\_process\_optimization\_power\_user role.
+The Process mining administrator \[sn\_process\_mining\_admin\] role contains the sn\_process\_mining\_power\_user role.
 
 #### Groups
 
@@ -319,7 +319,7 @@ None.
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-### Process Mining power user \[sn\_process\_optimization\_power\_user\]
+### Process Mining power user \[sn\_process\_mining\_power\_user\]
 
 Perform the following actions when assigned to this role.
 
@@ -330,7 +330,7 @@ Perform the following actions when assigned to this role.
 
 #### Contains Roles
 
-The Process optimization power user \[sn\_process\_optimization\_power\_user\] role contains the sn\_process\_optimization\_analyst role.
+The Process optimization power user \[sn\_process\_mining\_power\_user\] role contains the sn\_process\_mining\_analyst role.
 
 #### Groups
 
@@ -342,7 +342,7 @@ None.
 
 None.
 
-### Process Mining Analyst \[sn\_process\_optimization\_analyst\]
+### Process Mining Analyst \[sn\_process\_mining\_analyst\]
 
 Perform the following actions when assigned to this role.
 
@@ -508,7 +508,7 @@ Default: The default roles added to the property are:
 -   sn\_sd.success\_dashboard\_read
 -   sn\_sd.success\_dashboard\_details\_read
 -   business\_stakeholder
--   sn\_process\_optimization\_analyst
+-   sn\_process\_mining\_analyst
 -   sn\_customerservice\_manager
 -   sn\_customerservice\_agent
 -   pa\_threshold\_admin
@@ -559,6 +559,26 @@ promin.metered\_usage.warning\_limit
 Specifies the number of records at which the process mining metered usage warning is shown to the user. A default value of -1 means no warning is shown to the customer at all.Type: integer
 
 Default: -1
+
+</td></tr><tr><td>
+
+promin.workspace.hide\_from\_navigation
+
+</td><td>
+
+Hides Process Mining Workspace in Unified Navigation from users who don't have the Process Mining roles.Type: true \| false
+
+Default: false
+
+</td></tr><tr><td>
+
+promin.feature.enable\_evaluation
+
+</td><td>
+
+Enables or disables the evaluation feature.Type: true \| false
+
+Default: true
 
 </td></tr></tbody>
 </table>

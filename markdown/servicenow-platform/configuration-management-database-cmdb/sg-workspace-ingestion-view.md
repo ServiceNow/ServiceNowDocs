@@ -1,5 +1,5 @@
 ---
-title: SGC view in CMDB Workspace
+title: SGC Central view in CMDB Workspace
 description: The Overview page in the SGC Central view in CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# SGC view in CMDB Workspace
+# SGC Central view in CMDB Workspace
 
 The Overview page in the SGC Central view in CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 

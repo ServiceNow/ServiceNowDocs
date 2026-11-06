@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Planned Work Management Home page
@@ -191,7 +191,7 @@ Work Order\[wm\_order\]
 
 </td><td>
 
-Display the number of work orders that aren't compliant with the corresponding maintenance plan.
+Display the number of work orders that are not compliant with the corresponding maintenance plan.
 
 </td></tr></tbody>
 </table>

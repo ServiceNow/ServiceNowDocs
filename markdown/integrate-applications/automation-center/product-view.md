@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applying Common Service Data Model guidelines to Automation Center, Configure, Automation Center, Workflow Data Fabric]
+breadcrumb: [CSDM guidelines, Configure, Automation Center, Workflow Data Fabric]
 ---
 
 # Automation Center product view

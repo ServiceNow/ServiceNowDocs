@@ -1,22 +1,26 @@
 ---
 title: Network Inventory \(NI\) extension classes
-description: The CMDB CI Class Models store app adds or updates classes for the Telecommunications Network Inventory application. Telecommunications Network Inventory uses the Network Inventory \(NI\) extension classes to extend the Configuration Management Database \(CMDB\) configuration item \(CI\) class hierarchy.
+description: The CMDB CI Class Models app adds or updates classes for the Telecommunications Network Inventory application. Telecommunications Network Inventory uses the Network Inventory \(NI\) extension classes to extend the Configuration Management Database \(CMDB\) Configuration item \(CI\) class hierarchy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-network-inventory.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Network Inventory \(NI\) extension classes
 
-The CMDB CI Class Models store app adds or updates classes for the Telecommunications Network Inventory application. Telecommunications Network Inventory uses the Network Inventory \(NI\) extension classes to extend the Configuration Management Database \(CMDB\) configuration item \(CI\) class hierarchy.
+The CMDB CI Class Models app adds or updates classes for the Telecommunications Network Inventory application. Telecommunications Network Inventory uses the Network Inventory \(NI\) extension classes to extend the Configuration Management Database \(CMDB\) Configuration item \(CI\) class hierarchy.
 
-These extensions enable the CMDB to store information about a service provider's network inventory. The store app adds class models that extend the CMDB class hierarchy, including:
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+
+See the release notes for all CMDB CI class models.
+
+The extensions enable the CMDB to store information about a service provider's network inventory.
 
 -   Class descriptions
 -   Identification rules
@@ -25,11 +29,11 @@ These extensions enable the CMDB to store information about a service provider's
 
 With the ServiceNow Telecommunications Network Inventory application, you can build a digital representation of your physical and logical networks. This application uses the NI class extensions to populate CIs that form the basis of your digital network inventory model. To learn more, see [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-network-inventory/telecom-network-inventory.md).
 
-See the CMDB CI Class Models release notes.
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Telecommunications Network Inventory \(NI\) schema structure​
 
@@ -37,7 +41,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_kv4_rwq_zrb"><thead><tr><th>
 
@@ -63,7 +67,7 @@ Site \[cmdb\_ci\_site\]
 
 Network Site. Captures and maintains the location-specific attributes for each network site, including the network centers, buildings, floors, and rooms where equipment is located.
 
- The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories.
+The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories.
 
 </td></tr><tr><td>
 
@@ -77,7 +81,7 @@ Equipment Holder \[cmdb\_ci\_equipment\_holder\]
 
 Telco Equipment Holder. Represents the physical units that contain the telecommunications equipment, including the cages, bays, cabinets, slots, relay racks, and line ups. The line ups contain the individual relay racks. Each relay rack contains the equipment shelves. The equipment holders can contain the other equipment holders.
 
- The equipment holder records enable you to track and manage your network assets.
+The equipment holder records enable you to track and manage your network assets.
 
 </td></tr><tr><td>
 

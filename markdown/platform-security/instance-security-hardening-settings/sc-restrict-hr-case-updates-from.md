@@ -1,22 +1,24 @@
 ---
-title: Restrict HR case updates from personal emails \[New in Security Center 1.3 and updated in 1.5\]
-description: Use thesn\_hr\_core.restrict\_guest\_email property to control whether a user can respond back to a HR case with their personal email.
+title: Restrict HR case updates from personal emails
+description: Use the sn\_hr\_core.restrict\_guest\_email property to control whether a user can respond back to a HR case with their personal email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-hr-case-updates-from.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data protection, Hardening settings, Platform Security]
 ---
 
-# Restrict HR case updates from personal emails \[New in Security Center 1.3and updated in 1.5\]
+# Restrict HR case updates from personal emails
 
-Use the**sn\_hr\_core.restrict\_guest\_email** property to control whether a user can respond back to a HR case with their personal email.
+Use the **sn\_hr\_core.restrict\_guest\_email** property to control whether a user can respond back to a HR case with their personal email.
 
-When the **sn\_hr\_core.restrict\_guest\_email** property is not set to true, a user can send an email from a personal account referencing the HR case to be included in the work notes. This could result in minor confidentiality or integrity issues if the personal email is compromised or communicating insecurely. An admin may want to restrict the ability of users to respond to HR cases from their personal email, since they cannot be confident of the user accessing the personal email account.
+When the **sn\_hr\_core.restrict\_guest\_email** system property is not set to **true**, a user can send an email from a personal account referencing the HR case to be included in the worknotes. This could result in minor confidentiality or integrity issues if the personal email is compromised or communicating insecurely. An admin may want to restrict the ability of users to respond to HR cases via their personal email, since they can't be confident of the user accessing the personal email account.
+
+Set the property **sn\_hr\_core.restrict\_guest\_email** to '**true**.
 
 ## More information
 
@@ -66,7 +68,15 @@ Default value
 
 </td><td>
 
-false
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
 
 </td></tr><tr><td>
 
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 3.5
 -   CVSS score: Low
--   Security risk details: Not having this property set to true could result in minor confidentiality or integrity issues if the personal email is compromised or communicating insecurely.
+-   This creates a risk of minor confidentiality and integrity issues because personal email accounts may be insecure or compromised, and administrators cannot verify the identity or security posture of those accounts. Allowing this behavior weakens control over sensitive HR communications and increases exposure to data leakage.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install Collaboration services, Configure, Collaboration services, IT Service Management]
+breadcrumb: [Install Collaboration services, Collaboration services, IT Service Management]
 ---
 
 # Components installed with Collaboration services
@@ -55,5 +55,4 @@ Communication Plan — Collaboration Service Data\[comm\_plan\_collab\_data\]
 Stores Collaboration Service related data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/install-collaboration-services.md)
-
+</table>

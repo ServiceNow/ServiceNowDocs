@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-enhanced-address-model.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -16,7 +16,7 @@ Use the Account Address table in the enhanced address data model feature to link
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_crm\_foundation\_admin, script\_include\_admin, and script\_fix\_admin
 
 ## Procedure
 

@@ -7,8 +7,8 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -22,6 +22,10 @@ Set up a data input for streaming log data from the ServiceNow System Log table 
 **Note:** Only a single ServiceNow System Logs Retriever data input can exist in the system. This data input doesn't run on a MID Server.
 
 Role required: admin
+
+## About this task
+
+The HLA store app installation automatically creates the ServiceNow System Logs Retriever data input. Use this procedure if you need to recreate it manually.
 
 ## Procedure
 
@@ -52,7 +56,7 @@ For a description of how this data input can help you detect and resolve emergin
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Verify that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
 **Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

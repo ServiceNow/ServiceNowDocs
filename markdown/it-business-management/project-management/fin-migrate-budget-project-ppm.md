@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Migrate budget of active projects to Next Experience
@@ -26,15 +26,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d190522e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d203110e85">
 
 Choice
 
-</th><th align="left" id="d190522e88">
+</th><th align="left" id="d203110e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190522e94">
+</th></tr></thead><tbody><tr><td id="d203110e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d190522e124">
+</td></tr><tr><td id="d203110e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d190522e151">
+</td></tr><tr><td id="d203110e151">
 
 **Activate a scheduled job**
 
@@ -97,6 +97,10 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

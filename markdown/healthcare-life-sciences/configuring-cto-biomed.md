@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/configuring-cto-biomed.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -34,20 +34,26 @@ The following setup steps need to occur prior to using Care Team Operations for 
 
     Create a healthcare organization to represent the fulfilling healthcare organization for healthcare biomed cases.
 
-5.  [Create a group for all location support agents in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-create-agent-groups.md)
+5.  [Add members to your biomed support organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-assign-members.md)
+
+    Add members to your Biomed healthcare organization to provide visibility and access to Healthcare Biomed cases.
+
+6.  [Create a group for all location support agents in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-create-agent-groups.md)
 
     Create a group for location support agents with the sn\_cto\_biomed.loc\_support\_agent assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
 
-6.  [Create a group for all location managers in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-creare-manager-group.md)
+7.  [Create a group for all location managers in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-creare-manager-group.md)
 
     Create a group for location managers with the sn\_customerservice.svc\_location\_manager assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
 
-7.  [Set up assignment groups for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-set-up-assignment-groups.md)
+8.  [Set up assignment groups for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-set-up-assignment-groups.md)
 
     Associate assignment groups with your healthcare organizations to determine which user groups are associated with specific healthcare organizations.
 
-8.  [Modify state decision tables in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-modify-states.md)
+9.  [Modify state decision tables in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-biomed-modify-states.md)
 
     Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Biomed .
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

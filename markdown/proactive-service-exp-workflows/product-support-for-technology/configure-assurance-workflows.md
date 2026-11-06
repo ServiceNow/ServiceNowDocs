@@ -1,25 +1,27 @@
 ---
 title: Configuring Proactive Service Experience Workflows
-description: You can configure Proactive Service Experience Workflows so that you can add users to assignment groups. You can also create custom instructions for engineers to guide them in resolving network-initiated issues through automatically provided workflows.
+description: Setup Proactive Service Experience Workflows application to proactively resolve the network issues through automated workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive Service Experience Workflows]
+breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Configuring Proactive Service Experience Workflows
 
-You can configure Proactive Service Experience Workflows so that you can add users to assignment groups. You can also create custom instructions for engineers to guide them in resolving network-initiated issues through automatically provided workflows.
+Setup Proactive Service Experience Workflows application to proactively resolve the network issues through automated workflows.
 
--   **[Install Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.md)**  
-If you’re a user with the system administrator role, you can install the Proactive Service Experience Workflows application.
--   **[Add users to Proactive Service Experience Workflows assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assign-group-taw.md)**  
-Add users to Proactive Service Experience Workflows assignment groups so that they have the necessary role and can be assigned to resolve network-initiated issues at the appropriate escalation level.
+-   **[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)**  
+Begin your customer journey by preparing your Proactive Service Experience Workflows environment with data models, customer data, product data, and user management tools to go live.
+-   **[Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md)**  
+Modify the values of the indicators in the Technology Account 360 view.
+-   **[Install ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-otto-install.md)**  
+Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) `sn_tmt_gen_ai` plugin to configure and use AI skills in Proactive Service Experience Workflows.
 
-**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
+**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

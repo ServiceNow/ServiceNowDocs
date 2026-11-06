@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
-last_updated: "2025-09-08"
-reading_time_minutes: 5
-breadcrumb: [Manage plans, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create and publish maintenance plans
@@ -24,9 +24,6 @@ Ensure that the following plugins are installed:
 -   Enterprise Model and Asset Classes \(sn\_ent\)
 -   Workplace Service Delivery
 -   Workplace Core
--   Workplace Indoor Mapping
--   Workplace Case Management
--   Workplace Reservation Management
 
 Role required: sn\_wsd\_maintenance.manager, sn\_wsd\_maint.admin
 
@@ -104,8 +101,6 @@ Models: List of enterprise models or assets that need maintenance. For example, 
 
 Locations: Option to select a Workplace location \(sn\_wsd\_core\_workplace\_location\). Select a building from the list of buildings.
 
-**Note:** For Optimize cleaning activities AI agent, select the Plan type as **Location**. Model plan type is not optimized by the agentic AI workflow. For more information about how to optimize a maintenance plan record using the Agentic AI workflow, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
-
 </td></tr><tr><td>
 
 Model/Building
@@ -133,8 +128,6 @@ For example: Select **Building B**.
 
     If you’ve selected a building in step 4, the floors, spaces, and areas associated with that building are displayed and included as part of the maintenance item.
 
-    **Note:** The Optimized Cleaning Activities Agentic AI workflow only optimizes spaces at the floor level of a selected building. AI agents autonomously optimizes a space in a floor to get the space utilization threshold. For more information, see [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md).
-
 7.  Select **Go back** to make updates or edits on the maintenance details page.
 
 8.  Select **Next**.
@@ -147,7 +140,7 @@ For example: Select **Building B**.
 
     Select the **Skip scheduling** option if you don’t want to create a schedule now and prefer to create it later. After publishing a maintenance plan, you can create a schedule or copy an existing schedule for a plan.
 
-    For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-schedule.md). For more information about how the scheduled job creates maintenance cases for a plan record, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md) and [Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md).
+    For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-schedule.md). For more information about how the scheduled job creates maintenance cases for a plan record, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 10. Select **Save**.
 
@@ -163,9 +156,7 @@ For example: Select **Building B**.
 
     Status of the maintenance plan moves to the **In progress** state. For more information about the calendar view, see [Maintenance plan calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/cal-view-overview.md).
 
-    The **Schedules tab** shows the **Next run time** for a scheduled job. The scheduled job **Workplace Maintenance Nightly run** runs every 48 hours \(2 days\) and creates maintenance cases for active plan records. The schedule job can be scheduled on a daily or hourly basis. For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
-
-    Optimize cleaning activities Agentic AI workflow autonomously optimizes maintenance plan record Ids based on maintenance threshold data for a selected location. For more information, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
+    The **Schedules tab** shows the **Next run time** for a scheduled job. The scheduled job **Workplace Maintenance Nightly run** runs every 48 hours \(2 days\) and creates maintenance cases for active plan records. For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 
 **Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)

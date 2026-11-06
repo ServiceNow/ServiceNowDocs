@@ -1,18 +1,18 @@
 ---
 title: Reference additional records in decision records
-description: You can customize the default values of the sn\_apm\_ws.record\_mention\_config system property to enable the tagging of additional record tables in an architectural decision record \(ADR\).
+description: You can customize the default values of the sn\_apm\_ws.record\_mention\_config system property, to enable the tagging of additional record tables in an architectural decision record \(ADR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Reference additional records in decision records
 
-You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property to enable the tagging of additional record tables in an architectural decision record \(ADR\).
+You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property, to enable the tagging of additional record tables in an architectural decision record \(ADR\).
 
 ## Before you begin
 

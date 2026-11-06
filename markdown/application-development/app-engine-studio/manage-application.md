@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Prepare your app for approval
@@ -18,7 +18,7 @@ Prepare your app for the approval process by making any needed changes, such as 
 
 ## Before you begin
 
-Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin
+Role required: admin, sn\_app\_eng\_studio.user
 
 ## About this task
 

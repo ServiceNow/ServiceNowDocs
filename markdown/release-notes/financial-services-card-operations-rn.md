@@ -1,122 +1,106 @@
 ---
 title: Financial Services Card Operations release notes
-description: The ServiceNow Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.The ServiceNow Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.The ServiceNow Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.The ServiceNow Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.The ServiceNow Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.
+description: The ServiceNow Financial Services Card Operations application streamlines, digitizes, and automates card operations from the front to back office in your financial institution, and enables dispute agents to expedite dispute resolutions. See the following sections for release notes by version.Financial Services Card Operations version 15.4.1 adds Mastercard fraud type options and a Colombia-specific claim question to the card dispute intake questionnaire.Use Dispute Summarization from the Now Assist context menu \(NACM\) component on the dispute record page. The AI Summary Card component is deprecated. Answer the merchant voucher question in the dispute questionnaire for Refund Not Processed disputes.Add new dispute intake questions for Visa hotel and facilities-withdrawal disputes, and provide read-back visibility into compelling-evidence transaction details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/financial-services-card-operations-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+keywords: [card operations, financial services, credit card management, dispute resolution, card blocking, credit limit, debit card, ACH dispute, dispute cases, card opening, card closing, financial institution, dispute agents, Mastercard, dispute intake questionnaire, fraud type, dispute summarization, NACM, AI Summary Card, dispute record page, Now Assist, card operations, financial services, Visa, dispute intake, consumer disputes, cardholder, compelling evidence, hotel disputes, price discrepancy, card operations, financial services]
+audience: [administrator, user]
+breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Financial Services Card Operations release notes
 
-The ServiceNow® Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.
+The ServiceNow® Financial Services Card Operations application streamlines, digitizes, and automates card operations from the front to back office in your financial institution, and enables dispute agents to expedite dispute resolutions. See the following sections for release notes by version.
 
 ## About Financial Services Card Operations
 
--   Resolve disputes with a new dispute life cycle for Mastercard dispute transactions.
--   Leverage a new workspace page in Financial Services Card Operations to resolve Mastercard disputes.
--   Integrate Mastercard's Mastercom APIs into the Dispute Management workflow to resolve card disputes faster and more efficiently.
--   Resolve ACH disputes faster with a guided, end-to-end workflow that unifies intake, investigation, and resolution—built on a framework ready for any non-card transaction.
--   Streamline operations with a single, consistent intake process that applies across all dispute workflows.
+-   Manage credit card openings and closings on one platform.
+-   Simplify credit card blocking and credit ​limit processes.
+-   Enable agents to create and manage dispute cases for both personal and business, debit and credit card accounts, and ACH dispute cases.
+-   Enhanced user experience through guided workflows and real-time visibility.
 
-See [Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/dispute-management-workflows.md) for more information.
+See [Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/card-ops-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Financial Services Card Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+-   **Activation information**
 
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Install Financial Services Card Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/financial-services-operations-rn-landing.md)
 
-## July 2026
+## Version 15.4.1
 
-The ServiceNow® Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Updated dispute intake questionnaire for July Store release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
-
-    New questions have been added to the dispute intake questionnaire to support updated Mastercard chargeback ineligibility rule assessment.
-
-    -   For Goods or Services Not Provided disputes \(RC 4853\): Dispute agents must select the applicable waiver and insurance status for merchandise delivery. Options are: a liability waiver was signed by the buyer; shipment insurance was declined by the buyer; both a liability waiver was signed and shipment insurance was declined; or neither applied. This question is mandatory for dispute agents and is also displayed to cardholders.
-    -   For Authorization disputes \(RC 4808\): Dispute agents must identify the current account status. Options include: account closed; suspended or restricted; fraud or compromise; credit-related issue; or account active and in good standing. This question is specific to Mastercard and is not displayed to cardholders.
-    The following additional changes have been made to existing questionnaire questions in this release:
-
-    -   The **What is the dispute about?** question choice list has been updated: the Multiple Authorization Requests option has been removed from the RC 4808 Authorization list, and Late Presentment has been removed from the RC 4834 Processing Errors list. The following labels have been updated: CAT 3 Devices \(formerly Cardholder-Activated Terminal\); Transit First Ride Risk \(FRR\) and Transit First Ride Issuer Liability \(FRIL\) claims; Installment Billing Dispute-Participating Countries; Cardholder Dispute-Not Elsewhere Classified-United States Domestic \(new\).
-    -   Display conditions have been updated for several existing RC 4853 Cardholder Disputes questions — including merchandise return date, date the cardholder first notified the issuer, and whether previous negotiation with the merchant occurred — to reflect the addition of the Cardholder Dispute-Not Elsewhere Classified- United States Domestic sub-category.
-    -   For Refund Not Processed disputes \(RC 4853\): The question asking for the date the cardholder first notified the issuer of the dispute is displayed when the credit voucher or transaction receipt is not dated. This question applies to dispute agents only.
-
-## May 2026
-
-The ServiceNow® Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Updated chargeback eligibility questionnaire for May Store release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
-
-    New Mastercard-specific questions have been added to the chargeback eligibility questionnaire.
-
-    For Authorization disputes \(all RC 4808 sub-categories\): A new mandatory certification statement appears in the dispute information section. It displays after the dispute amount modification reason field. Dispute agents must confirm that authorization was required for the transaction but was not properly obtained before an Authorization chargeback can proceed.
-
-    For Consumer Dispute RC 4853 Failed Travel Merchant: Two new questions support the bond or insurance scheme reimbursement requirement:
-
-    -   When a bond or insurance scheme exists, agents are asked what response was received from the bonding authority or insurance scheme when reimbursement was requested.
-    -   When no response has been received, agents are asked to provide the date on which the reimbursement request was submitted.
-    Questionnaire questions were updated including RC 4853 Failed Travel Merchant – Intra-EEA and Domestic European Transactions Only as an additional display condition.
-
-
-## December 2025
-
-The ServiceNow® Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.
+Financial Services Card Operations version 15.4.1 adds Mastercard fraud type options and a Colombia-specific claim question to the card dispute intake questionnaire.
 
 ### What's new
 
--   **[ACH disputes workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/work-dispute-ach.md)**
+-   **Additional Mastercard fraud type options**
 
-    Resolve ACH disputes faster with a guided, end-to-end workflow that unifies intake, investigation, and resolution—built on a framework ready for any non-card transaction. The unified intake now features a new dispute reason framework for accurate regulatory mapping and embedded WSUD signature collection for seamless authorization capture. The overall workflow centralizes data, applies real-time regulatory checks, and surfaces next best actions to reduce manual effort and speed decisioning, all on a modular design that can scale to additional non-card dispute types.
+    Classify Mastercard fraud disputes more precisely by selecting from three additional fraud type options during card dispute intake:
 
+    -   53 - Testing-issuer
+    -   54 - Undetermined
+    -   57 - First-party misuse
+-   **Colombia payment reversion claim question**
+
+    Capture the information that Colombian regulations require for Mastercard fraud disputes. When a Mastercard dispute uses reason code 4837, 4870, or 4871, the merchant is located in Colombia, and the cardholder billing currency is the Colombian Peso, the dispute intake form asks whether the cardholder has filed a reversion of payment claim under Colombian law. An answer is required.
+
+
+## Version 15.3.3
+
+Use Dispute Summarization from the Now Assist context menu \(NACM\) component on the dispute record page. The AI Summary Card component is deprecated. Answer the merchant voucher question in the dispute questionnaire for Refund Not Processed disputes.
 
 ### What's changed
 
--   **[Managing disputes integrated with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/work-on-disputes-integrated-with-mc.md)**
+-   **Dispute Summarization component update**
 
-    Integrate the Dispute Management workflow with subflows that communicate with Mastercom, supporting an end-to-end dispute life-cycle from raising an initial dispute to final resolution.
+    The Now Assist context menu \(NACM\) component replaces the AI Summary Card component that generated Dispute Summarization on the dispute record page. Dispute agents can generate an AI-generated summary of a dispute from the dispute record page.
 
--   **[Unified dispute intake experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/dispute-intake-overview.md#section_c13_crs_bdc)**
+    Dispute agents can share a generated summary to the claim's work notes from the summary component. Selecting **Share** opens an editable work notes dialog, where agents can edit the summary text before selecting **Save to work notes**.
 
-    The dispute intake process has been streamlined to provide a clear, intuitive experience for customers and dispute agents, resulting in faster resolution and reduced manual effort. A unified interface now allows cardholders, account holders, and agents to raise disputes for both card and non-card \(ACH\) transactions seamlessly.
+    Activate the Dispute Summarization skill configuration for the summary component to appear. If the skill configuration isn't active, the component doesn't display on the dispute record page.
+
+-   **UI policy update for the merchant voucher question on Refund Not Processed disputes**
+
+    The Mastercard-specific merchant voucher question in the dispute questionnaire displays for Refund Not Processed disputes when the transaction has one of the following merchant category codes \(MCCs\): 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The UI policy **Field: TransactionMerchantVoucherFutureUseInd - Show/Hide/Mandatory \(Consumer\)** controls this display. Before this release, the UI policy displayed the question for Goods or Services Not Provided disputes and for Travel and Entertainment disputes where the merchant issued a voucher. The question and the MCC list are unchanged. Dispute agents answer whether the merchant provided a voucher for future use and disclosed it in its terms and conditions. When Dispute Rules Content Pack for Mastercard is installed, the answer determines whether a chargeback for reason code \(RC\) 4853 is eligible.
 
 
-## Zurich
+## Version 15.2.1
 
-The ServiceNow® Financial Services Card Operations application enables dispute agents to expedite dispute resolutions by providing the required data and improve the overall experience. Financial Services Card Operations was enhanced and updated in the Zurich release.
+Add new dispute intake questions for Visa hotel and facilities-withdrawal disputes, and provide read-back visibility into compelling-evidence transaction details.
 
 ### What's new
 
--   **[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/dispute-management-workflows.md)**
+-   **Date facilities were withdrawn**
 
-    Resolve Mastercard disputes quickly with an enhanced end-to-end workspace that supports all stages of the dispute life cycle, including pre-arbitration and arbitration. Use comprehensive tools to simplify and accelerate the dispute management process.
+    Dispute agents and cardholders can now record the date facilities were withdrawn by answering the question "Date of the facilities were withdrawn." This question displays only after answering Yes to "Certification that the facilities were withdrawn," and supports chargeback eligibility evaluation for reason code 13.2 \(Cancelled Recurring Transaction\).
+
+-   **Date cardholder checked out from hotel**
+
+    Dispute agents and cardholders can now record the date a cardholder checked out from a hotel by answering the question "Date cardholder checked out from hotel." This question displays only for disputes filed as Not as Described \(reason code 13.3\) or for a services dispute, where the merchant is categorized under a hotel or lodging merchant category code \(MCC 7011, or the 3501-3856 hotel-chain range\).
+
+-   **CE Transaction Details**
+
+    View compelling-evidence transaction details as a read-back field when reviewing Visa dispute details.
 
 
 ### What's changed
 
--   **Coral theme**
+-   **Price-discrepancy question for Visa consumer disputes**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    An existing question, originally used under the Processing Errors dispute category, has been repurposed for consumer disputes filed under reason code 13.3 \(Not as Described or Defective Merchandise/Services\). Dispute agents are asked "Is the dispute due to the difference between the quoted price and the actual charges made by the merchant?" and cardholders are asked "Is the dispute related to a discrepancy between the quoted price and the actual charges made by the merchant?" A Yes answer marks the dispute ineligible for reason code 13.3, since a price discrepancy is not a valid basis for that reason code under the Visa Chargeback Guide.
 
 
--   **[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/dispute-management-workflows.md)**
+### What's deprecated or removed
 
-    Track the progress of the investigation workflow intuitively with a redesigned user interface that presents each transaction within a dispute case using a clear, process-based layout. This new layout visualizes the distinct stages of the investigation workflow, Investigate, Chargeback, and Closure, which enhances visibility and dispute management efficiency.
+-   **Now LLM Service deprecation notice**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 

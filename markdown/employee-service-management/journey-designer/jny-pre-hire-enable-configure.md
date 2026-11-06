@@ -7,8 +7,8 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -21,6 +21,8 @@ To enable and use the Pre-hire experience, you must satisfy the following minimu
 -   Upgrade your instance to the Zurich release.
 -   Upgrade the Journey designer application to version 7.0.
 -   Install and activate the Explicit Roles \[com.glide.explicit\_roles\] plugin.
+
+For more information, see [Pre-hire experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-pre-hire-experience.md).
 
 -   **[Deactivate an obsolete Lifecycle Events activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-deactivate-old-le-activity.md)**  
 Journey designer customers must deactivate the following Lifecycle Events activity to initiate the process for enabling the Pre-hire experience: Account setup and notification. The Account setup and notification activity must be deactivated so you can use its replacement, a new Lifecycle Events activity that's designed to support the Pre-hire experience.

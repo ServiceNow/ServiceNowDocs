@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Restricted Caller Access for Localization Workspace

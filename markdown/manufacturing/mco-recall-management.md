@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-recall-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -21,6 +21,8 @@ Recall management enables the OEMs to identify and remove or replace the faulty 
 |[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-my-campaign-phases.md)|Displays all the recall campaign phases that are assigned to the person logged in to the workspace.|
 |[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-recall-campaign-phases.md)|Displays all the recall campaign phases that are created by the OEM.|
 
+-   **[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-my-campaigns.md)**  
+Create a recall campaign and also view the list of campaigns claims assigned to the person who has logged in to the workspace.
 -   **[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-all-campaigns.md)**  
 View a recall campaign using the All campaigns form.
 -   **[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-my-campaign-phases.md)**  

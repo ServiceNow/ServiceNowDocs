@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_ot\_incident\_read
 
 4.  Select the **More actions** icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon\) to expand the menu.
 
-5.  Select **Report Knowledge Gap**.\[Omitted image "report-gap.png"\] Alt text: Report knowledge gap UI action.
+5.  Select **Report Knowledge Gap**.
 
 6.  On the form, fill in the **Description** field with a summary of the knowledge gap.
 

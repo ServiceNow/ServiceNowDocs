@@ -1,5 +1,5 @@
 ---
-title: Configuring Universal Task
+title: Setting up and configuring Universal Task
 description: You must set up and configure the Universal Task application before you can enable agents to assign tasks to employees in order to fulfill a request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/set-up-universal-task.html
@@ -7,12 +7,12 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Universal Task, Employee Service Management]
 ---
 
-# Configuring Universal Task
+# Setting up and configuring Universal Task
 
 You must set up and configure the Universal Task application before you can enable agents to assign tasks to employees in order to fulfill a request.
 

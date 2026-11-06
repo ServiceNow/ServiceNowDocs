@@ -7,9 +7,9 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sync existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Synchronize existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Legacy status values that are auto-updated
@@ -33,5 +33,5 @@ When you follow the procedure described in [Activate the CSDM plugin](https://ra
 
 **Note:** Mappings are inherited from parent tables to child tables.
 
-**Parent Topic:**[Migrate and sync existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)
+**Parent Topic:**[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)
 

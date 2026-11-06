@@ -7,7 +7,7 @@ release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View metric values in the Insights Explorer, Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -18,13 +18,13 @@ You can create a custom view in the Insights Explorer that saves any metric char
 
 ## Before you begin
 
-Role required: admin
+Role required: TSOM Assurance admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Metrics** &gt; **Insights Explorer**.
 
-2.  Click **Create View** \(\[Omitted image "create-view-metrics.png"\] Alt text: Create View icon.\), and enter a **Name** in the Create New View dialog box.
+2.  Click **Create View** \(\[Omitted image "create-view-metrics.png"\] Alt text:\), and enter a **Name** in the Create New View dialog box.
 
     If you are already creating a view, then you can choose **Create With Existing** to load an existing view to work with rather than starting with a blank canvas.
 
@@ -41,6 +41,6 @@ Role required: admin
 
 ## What to do next
 
--   Share a view: Click **Share View** \(\[Omitted image "share-view-metrics.png"\] Alt text: Share View icon.\), and then in the Share dialog box, click **Copy Link**. Send or paste the link to make it accessible to whoever you want to share the view with. A shared link captures the time range of the view, the charts that were added to the canvas, and any added configuration items.
+-   Share a view: Click **Share View** \(\[Omitted image "share-view-metrics.png"\] Alt text:\), and then in the Share dialog box, click **Copy Link**. Send or paste the link to make it accessible to whoever you want to share the view with. A shared link captures the time range of the view, the charts that were added to the canvas, and any added configuration items.
 -   Display a saved view: Open the **Select a Saved View** drop down list, and select a previously saved view that you want to display.
 

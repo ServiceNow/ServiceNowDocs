@@ -1,26 +1,26 @@
 ---
 title: Edit an Appliance
-description: This section describes what information is available and can be edited on an Appliance record
+description: This section describes what information that is available and that is setup on an Appliance record
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/edit-an-appliance.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Appliances page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Appliances page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit an Appliance
 
-This section describes what information is available and can be edited on an Appliance record
+This section describes what information that is available and that is setup on an Appliance record
 
 ## Edit an Appliance
 
 To edit any appliance, select the Name of the appliance. The appliance record opens.
 
-\[Omitted image "image.appliance-record-tabs"\] Alt text: Appliance record
+\[Omitted image "appliance-record-tabs.png"\] Alt text: Collector record
 
-The appliance view has tabs with additional information and options. Select the **Edit** button to edit any of the appliance settings. Select the **Save** button to save your changes or **Cancel** to discard them.
+The appliance view has tabs with additional information and options. Move to a tab and then select the **Edit** button to edit any of the appliance settings. Select the **Save** button to save your changes or **Cancel** to discard them.
 
 The following sections describe the available appliance information shown as tabs in the record.
 
@@ -68,13 +68,13 @@ Duplicate keys are automatically removed, so the same SSH key appears only once,
 
 **Note:** As a safety feature that allows continued SSH access, disable **Password Authentication** only if you have uploaded at least one SSH public key to the appliance.
 
-\[Omitted image "image.appliance-sshkeys-tab"\] Alt text: SSH Keys tab
+\[Omitted image "appliance-sshkeys-tab.png"\] Alt text: SSH Keys tab
 
 ## Sites
 
 The **Sites** tab displays which sites are associated with the selected appliance record during an Auto Query. The Allow/Deny setting indicates whether the appliance is associated with a listed Site. The tab also displays the site name, recommended setting for that site, and the reason for the recommendation. A Deny recommendation means the Site does not appear to be related to the appliance. An Allow recommendation means the Site's network ranges match the Device IP. Select the **Edit** button to change the Allow/Deny settings. Select the **Save Associations** button to save changes or **Cancel** to discard any changes.
 
-\[Omitted image "image.appliances-site-tab-allowdeny"\] Alt text: Sites tab
+\[Omitted image "appliances-site-tab-allowdeny.png"\] Alt text: Sites tab
 
 ## Status
 
@@ -88,5 +88,7 @@ The **Actions** button in the appliance record enables the following actions.
 -   **Reboot Device**: Reboots the appliance.
 -   **Remove from Console**: Removes the appliance from the Console.
 
-\[Omitted image "image.appliance-action-button"\] Alt text: Action button
+\[Omitted image "appliance-action-button.png"\] Alt text: Action button
+
+**Parent Topic:**[Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/appliances-page.md)
 

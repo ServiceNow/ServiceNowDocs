@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Health and Safety Environmental Management if you have the a
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Health and Safety Environmental Management](https://store.servicenow.com/store/app/0810e27c4735fa9482f632c4f16d4360) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

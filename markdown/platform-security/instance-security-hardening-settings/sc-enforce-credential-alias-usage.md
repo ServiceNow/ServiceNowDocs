@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-20"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,13 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
 
-The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on your local network. MID Server properties are listed in the \[ecc\_agent\_property\] table. You can access them in your instance by navigating to **MID Server** &gt; **Properties**. Credential aliases allow an administrator to use specific credentials on Discovery schedules. Credential aliases provide more granular control over which credential a Discovery table is allowed to use. To remediate this security vulnerability, set **alias\_filtering\_behavior** to strict to prevent unnecessary exposure of credentials with elevated privileges. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_MIDServerProperties.md) for more details.
+The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on your local network. MID Server properties are listed in the \[ecc\_agent\_property\] table. You can access them in your instance by navigating to **MID Server** &gt; **Properties**.
+
+The MID Server property **alias\_filtering\_behavior** defines the behavior of Discovery aliases. When the behavior is not `strict`, then all credentials are used regardless of their aliases for Discovery schedules. This behavior might not be desirable in some circumstances, particularly for credentials with elevated privileges. Credential aliases provide more control over which credentials a Discovery schedule is allowed to use and helps prevent the unnecessary exposure of credentials with elevated privileges.
+
+See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_MIDServerProperties.md) for more details.
+
+**Important:** This property has been deprecated and will be removed from future baselines.
 
 ## More information
 

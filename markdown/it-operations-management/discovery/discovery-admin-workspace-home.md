@@ -1,25 +1,27 @@
 ---
 title: Discovery Admin Workspace Home
-description: The Discovery Admin Workspace Home page features tools to help you identify and address the most critical discovery tasks.
+description: The Discovery Admin Workspace Home page features tools to help you identify and address the most critical discovery errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-admin-workspace-home.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 5
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Admin Workspace Home
 
-The Discovery Admin Workspace Home page features tools to help you identify and address the most critical discovery tasks.
+The Discovery Admin Workspace Home page features tools to help you identify and address the most critical discovery errors.
 
 To access the Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace**.
 
-**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. If the **sn\_disco\_workspace.enable\_error\_framework** system property is turned off, the Home page displays the legacy experience. Specific version requirements are noted for individual features where applicable.
+
+\[Omitted image "daw-home-ef.png"\] Alt text: Discovery Admin Workspace Settings page
 
 ## Onboarding for Discovery
 
@@ -45,10 +47,6 @@ The following data counts display in the Quick overview section:
 
     Displays the number of active IP-based and Cloud Discovery schedules run to date.
 
--   **Error tasks**
-
-    Displays the active, including pending or in-progress, Discovery error tasks opened in a certain time period. Selecting this number redirects you to the Case management tab on the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page, where you can view all Discovery error tasks.
-
 -   **Schedules with anomalies**
 
     Displays the number of Discovery schedules with anomalies detected over a certain time period. This count only displays when anomaly detection is enabled. If anomaly detection is inactive, select **Turn on** to access the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
@@ -60,11 +58,9 @@ The following data counts display in the Quick overview section:
     Monitor discovery performance across your IT environment. Select **View dashboard** to open the dashboard and view performance metrics for transactions, sensor jobs, MID Server queue load, and probe processing times. For more information, see [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/disco-operations-monitor.md).
 
 
-## Discovery admin tasks
+## Top discovery errors
 
-Review the three most critical Discovery error tasks. Select **Edit Task** to access the details page where you can assign or update the error task, or add work notes. To view and manage all Discovery error tasks, select **View all** to access the Case management tab on the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page.
-
-**Note:** This section focuses solely on Discovery errors that have associated tasks and not all Discovery errors.
+View the most critical Discovery errors currently active on your instance, including a summary count of active errors by severity. Each error card displays the error title, severity, refined code, occurrence count, and error category. Selecting an error card or the **Occurrences** link opens the [Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/daw-error-details.md) page, where you can view the root cause, remediation steps, and individual error instances. Select **View all** to access the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page.
 
 ## Discovery tuning advice
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-24"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [dynamic playbooks, AI governance, lifecycle management, AI asset onboarding, approval workflows, governance automation]
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower playbooks, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Updated playbooks for governing managed assets
@@ -52,4 +52,11 @@ Playbooks can be configured to trigger automatically when specific conditions ar
 When automatic triggering is inactive, asset managers can still initiate approval playbooks manually from the asset record. This provides flexibility for organizations that want to control when governance workflows begin or that have different approval requirements for different asset types.
 
 Automatic triggering reduces manual overhead and helps prevent ungoverned assets from progressing through the lifecycle without required reviews. It also ensures consistent application of governance policies across all AI assets.
+
+**Parent Topic:**[AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-playbooks-reference.md)
+
+**Related topics**  
+
+
+[Migrate to updated AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/migrate-new-playbook-govern.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure action conversational settings
@@ -273,12 +273,12 @@ Channels
 
 </td><td>
 
-The list of default channels in which this action is available.To learn more about channels, see Channels in conversational interfacesChannels in conversational interfaces.
+The list of default channels in which this action is available.To learn more about channels, see [Channels in conversational interfacesChannels in conversational interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-channels-overview.md).
 
 </td></tr></tbody>
 </table>9.  Save the skill.
 
-    You can also test the skill by selecting **Save and test conversation**.
+    You can also test the skill by selecting **Save and test**.
 
 
 **Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md)

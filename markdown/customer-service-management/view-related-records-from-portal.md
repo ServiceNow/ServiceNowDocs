@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-related-records-from-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -26,14 +26,19 @@ If a case has one or more related records, a Related Records widget is displayed
 
 1.  Navigate to the Customer or Consumer Service Portal.
 
-2.  Click **My Lists** in the portal header and then select a case.
+2.  Select **My Lists** in the portal header and then select a case.
 
     You can use the **My Lists** filter to narrow the list of records before selecting a case.
 
-3.  In the Related Records widget, click a record to view its details.
+3.  In the Related Records widget, select a record to view its details.
 
 4.  For request records, expand the **Stage** field to display more details about the request process.
 
-5.  Click the **X** in the upper corner to close the details window.
+5.  Select the **X** in the upper corner to close the details window.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 

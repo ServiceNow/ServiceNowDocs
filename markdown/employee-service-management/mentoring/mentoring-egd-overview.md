@@ -7,7 +7,7 @@ release: zurich
 product: Mentoring
 classification: mentoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -63,7 +63,6 @@ Employees, both mentees and mentors can view the match insights based on the mat
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Growth Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/employee-growth-development-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Mentoring features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

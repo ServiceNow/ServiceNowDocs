@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/configure-compatibility-rules-somt.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Configuring compatibility rules for horizontal relationships

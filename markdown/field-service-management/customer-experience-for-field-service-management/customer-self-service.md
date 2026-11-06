@@ -7,7 +7,7 @@ release: zurich
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Field Service Management]
 ---
@@ -18,12 +18,9 @@ Empower customers to manage their own information and updates. Enhance convenien
 
 ## Using overview
 
+Customer self service includes the following.
+
+[Customer or Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/customer-experience-for-field-service-management/use-customer-experience.md)
+
 The Customer or Consumer Service Portal sends notifications to your customers through email and SMS, such as status of their work order tasks, agent's current location, and provide agent feedback.
-
-Use Field Service Management Customer Experience to send notifications to your customers through email and SMS, such as status of their work order tasks, agent's current location, and provide agent feedback.
-
-**Related topics**  
-
-
-[Configuring Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/Configuring-cust-exp.md)
 

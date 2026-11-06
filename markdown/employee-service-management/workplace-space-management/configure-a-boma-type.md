@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -76,7 +76,7 @@ The BOMA type is configured. To map the BOMA type with a Space type, refer to [M
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

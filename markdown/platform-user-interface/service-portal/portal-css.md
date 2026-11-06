@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -66,7 +66,7 @@ Use Branding Editor to give your portal its own look and feel.
 -   **[Activate La Jolla theme branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-la-jolla-brand-update.md)**  
 Activate the Service Portal La Jolla Brand to apply ServiceNow branding, which includes WCAG-AA compliance for contrast. This plugin is active by default on new instances, but admins must activate the plugin on instances upgraded from earlier versions.
 -   **[Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_CustomCSS.md)**  
-If you need more customization than Branding Editor can provide, you can create your own custom theme.
+If you need more customizations than the Branding Editor can provide, you can create your own custom theme.
 -   **[Enable text resize in your portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-text-resize.md)**  
 Enable text resize to increase the size of your text up to 200% through your browser settings.
 -   **[Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/styling-right-to-left-languages.md)**  

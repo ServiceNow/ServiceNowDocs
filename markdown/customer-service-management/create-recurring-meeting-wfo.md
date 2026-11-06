@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-recurring-meeting-wfo.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_shift\_planning.admin
 
 9.  Select one of the following options from the Repeats list.
 
-<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d219018e148">
+<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d248541e148">
 
 Option
 
-</th><th align="left" id="d219018e151">
+</th><th align="left" id="d248541e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219018e157">
+</th></tr></thead><tbody><tr><td id="d248541e157">
 
 **Does not repeat**
 
@@ -54,7 +54,7 @@ Steps
 
 It is a one-time meeting only.
 
-</td></tr><tr><td id="d219018e166">
+</td></tr><tr><td id="d248541e166">
 
 **Daily**
 
@@ -64,7 +64,7 @@ It is a one-time meeting only.
 2.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d219018e190">
+</td></tr><tr><td id="d248541e190">
 
 **Weekly**
 
@@ -75,7 +75,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d219018e217">
+</td></tr><tr><td id="d248541e217">
 
 **Monthly**
 
@@ -89,7 +89,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d219018e265">
+</td></tr><tr><td id="d248541e265">
 
 **Yearly**
 

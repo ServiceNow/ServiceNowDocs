@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/clone-task-plan-template-item.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,13 +16,15 @@ Clone an existing template item to add to a task plan template.
 
 ## Before you begin
 
-Role required: sn\_task\_plan.admin​ or sn\_task\_plan.creator role
+Role required: sn\_task\_plan.admin or sn\_task\_plan.creator role
 
 ## About this task
 
 Template items include case tasks, child cases, and child case tasks. When you clone a template item, the system clones the selected template item and creates a new template item that includes the hierarchy, conditions, and attachments of the source template item.
 
 **Note:** This action is only available for task plan templates in the Draft state.
+
+If the source template item has document references or dependencies with other template items, the clone preserves them.
 
 The cloned template item is added to the Template Items tab on the Task Plan Template form.
 

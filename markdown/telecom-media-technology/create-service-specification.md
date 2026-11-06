@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/create-service-specification.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish service specifications
@@ -80,9 +80,7 @@ Display name
 </td><td>
 
 Display name that appears for the specification when this version of the specification is in effect. -   When you create the initial, or base version of the specification \(for example, version 1\), you must enter free-form text, which is usually the name of the specification, into the field.
--   When you create versions of the specification, a system-assigned concatenation of the specification name and its current version number appears, but can be overwritten. For example, SD-WAN Edge Device v2 appears in this field when:
-    -   SD-WAN Edge Device is the name of the specification.
-    -   Version 2 is the current version of the specification.
+-   When you create versions of the specification, a system-assigned concatenation of the specification name and its current version number appears, but can be overwritten.
 
 
 </td></tr><tr><td>
@@ -310,15 +308,15 @@ Create another version of the specification.
 </td></tr></tbody>
 </table>5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d21391e595">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d22320e587">
 
 Action
 
-</th><th align="left" id="d21391e598">
+</th><th align="left" id="d22320e590">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21391e604">
+</th></tr></thead><tbody><tr><td id="d22320e596">
 
 **Publish**
 
@@ -328,7 +326,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d21391e622">
+</td></tr><tr><td id="d22320e614">
 
 **Update**
 
@@ -336,7 +334,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d21391e631">
+</td></tr><tr><td id="d22320e623">
 
 **Copy**
 

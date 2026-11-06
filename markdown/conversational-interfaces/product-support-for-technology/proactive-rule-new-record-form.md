@@ -7,7 +7,7 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---

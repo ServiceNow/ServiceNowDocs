@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Continuous Authorization and Monitoring \(CAM\) employs the seven steps defined 
 
 \[Omitted video\] Description: An overview of the Continuous Authorization and Monitoring application
 
-The video provides an overview of the Risk Management Framework. This framework is mandated by the US government for federal agencies. It helps companies to identify and eliminate risks to their infrastructure.
+The video gives you an overview of the seven steps of the Risk Management Framework mandated by the US government for federal agencies that help companies to identify and eliminate risks to their infrastructure.
 
 ## Get started
 
@@ -28,11 +28,11 @@ The video provides an overview of the Risk Management Framework. This framework 
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
 
 </td></tr><tr><td>
 
-[\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Define, categorize, secure, implement, and assess to manage risk effectively.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Define, categorize, secure, implement, and continuously assess to manage risk effectively.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ The video provides an overview of the Risk Management Framework. This framework 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The Continuous Authorization and Monitoring \(com.sn\_irm\_cont\_auth\_monitor\) plugin is available as a separate subscription and requires activation.
 

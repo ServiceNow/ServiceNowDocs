@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/task-create-integration-user.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Create an integration user account
@@ -62,4 +62,6 @@ The integration user account exists in all required instances with the `sn_se.in
 ## What to do next
 
 Proceed to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md)
+
+**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-integration-scan-engine.md)
 

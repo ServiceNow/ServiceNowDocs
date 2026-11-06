@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-workspce-settings.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -46,7 +46,7 @@ Enable group metrics setting
 
 </td><td>
 
-Enables the option for dispatchers to turn on metrics for assignment groups in the Dispatcher Workspace. Assignment groups metrics show in the schedule of the Dispatcher Workspace.
+Enables the option for dispatchers to turn on metrics for assignment groups and territories in the Dispatcher Workspace. Metrics display in the contextual side panel when a territory or assignment group is selected.**Note:** Metrics in the contextual side panel don't refresh automatically when task data changes. To see updated values, select a different technician, then reselect the one you want to view.
 
 </td></tr><tr><td>
 

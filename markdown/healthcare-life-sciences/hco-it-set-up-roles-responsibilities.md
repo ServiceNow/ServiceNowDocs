@@ -1,18 +1,18 @@
 ---
 title: Setting up roles and responsibilities in Care Team Operations for Healthcare IT
-description: To manage access effectively in Care Team Operations for Healthcare IT, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
+description: To be determined.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/hco-it-set-up-roles-responsibilities.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Setting up roles and responsibilities in Care Team Operations for Healthcare IT
 
-To manage access effectively in Care Team Operations for Healthcare IT, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
+To be determined.
 
 To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 

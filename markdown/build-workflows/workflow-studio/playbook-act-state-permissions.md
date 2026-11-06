@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook activity state mapping, Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbook activity state mapping, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook activity state-mapping permissions

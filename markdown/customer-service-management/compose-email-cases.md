@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/compose-email-cases.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -30,13 +30,13 @@ You can compose large emails easily in a full screen view which opens up in a ne
 
     The case opens in a new top-level tab.
 
-3.  Select the More Actions \( \[Omitted image "workspace-more-actions-icon.png"\] Alt text: CSM configurable workspace more actions icon\) icon and select **Compose Email**.
+3.  Select the More Actions \[Omitted image "workspace-more-actions-icon.png"\] Alt text: More icon icon and select **Compose Email**.
 
-    The New Email screen opens in full view in a new sub-tab below the Case tab. The **To** field is pre-filled with the customer's email id and the **Subject** field contains the original case number and issue. For more information, see [Compose an email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-email.md).
+    The New Email screen opens in full view in a new sub-tab below the Case tab. The **To** field is pre-filled with the customer's email id and the **Subject** field contains the original case number and issue.
 
 4.  Compose your email and select **Send**.
 
-    **Note:** You can also select **Save** to save the email and send it later. These drafts are available in the **Draft Emails** related list. To access the draft in the email compose tab, select the More Actions \( \[Omitted image "workspace-more-actions-icon.png"\] Alt text: CSM configurable workspace more actions icon\) icon and select **View Draft** to see the saved draft.
+    **Note:** You can also select **Save** to save the email and send it later. These drafts are available in the **Draft Emails** related list. To access the draft in the email compose tab, select the More Actions \[Omitted image "workspace-more-actions-icon.png"\] Alt text: More icon icon and select **View Draft** to see the saved draft.
 
 
 **Related topics**  

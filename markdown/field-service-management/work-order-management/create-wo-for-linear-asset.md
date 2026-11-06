@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assign work orders for linear assets in Field Service Management, Manage work orders, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Assign work orders for linear assets, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create work order for a linear asset using a map

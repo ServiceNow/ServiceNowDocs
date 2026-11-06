@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -19,8 +19,6 @@ You can link Policy and Compliance Management content and items to Performance A
 The risks and controls associated with a PA indicator or PA indicator/breakdown/element automatically monitor any PA threshold with the same PA indicator or PA indicator, breakdown, or element relationship. Any PA threshold breach is reported at the risk or control and Performance Analytics indicators relationship level within a breach counter.
 
 \[Omitted image "pa-integration.png"\] Alt text: Performance analytics integration overview.
-
-**Note:** Note: Content can be a policy statement or a risk statement and item can be a control or a risk.
 
 ## PA threshold breach impact
 
@@ -37,7 +35,7 @@ There are two reports for the reporting of breaches:
 -   Risk PA Indicator Breaches
 -   Control PA Indicator Breaches
 
-**Parent Topic:**[Classic UI for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Activate GRC: Performance Analytics Integration
 
@@ -61,7 +59,7 @@ This plugin includes demo data and activates related plugins if they are not alr
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -181,5 +179,7 @@ Role required: sn\_risk.manager or sn\_compliance.manager
 3.  Click the **Update PA Relationships** related link.
 
     All the risks or controls related to the risk statement or policy statement are automatically associated with all the risk statement or policy indicators of the statement. Also, if the indicator has a breakdown that matches the risk or entity of the control \(for example a Business Service breakdown\), the **Breakdown** and **Element** fields for the relationship are automatically filled in.
+
+    **Note:** To use Performance Analytics indicators for risk statements and risks, the Advanced Risk application and Performance Analytics must be active, and the related indicators must be enabled. Otherwise, the related links don't appear on a risk record.
 
 

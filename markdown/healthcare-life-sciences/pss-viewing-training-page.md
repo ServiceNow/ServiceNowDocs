@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/pss-viewing-training-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage enrollment requests, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -24,7 +24,7 @@ The home page of the Workspace provides an overview of the training tasks assign
 
 ## Role required
 
-A nurse educator must be a member of the Nurse Training Support assignment group or must be assigned the sn\_patientservice.nurse\_educator role to use the Workspace for viewing training tasks for Patient Support Services programs. For more information, see [Assign roles for Patient Support Services users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/pss-assign-roles.md).
+A nurse educator must be a member of the Nurse Training Support assignment group or must be assigned the sn\_patientservice.nurse\_educator role to use the Workspace for viewing training tasks for Patient Support Services programs.
 
 ## Accessing training tasks from home page
 

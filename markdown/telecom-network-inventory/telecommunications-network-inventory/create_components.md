@@ -1,5 +1,5 @@
 ---
-title: Telephone number components
+title: Components of a telephone number
 description: A telephone number is a unique numerical identifier assigned to a telephone line or device for making and receiving telephone calls. Components of a number are central office code, country code, area code, and rate center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create\_components.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telephone allocation, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
 
-# Telephone number components
+# Components of a telephone number
 
 A telephone number is a unique numerical identifier assigned to a telephone line or device for making and receiving telephone calls. Components of a number are central office code, country code, area code, and rate center.
 

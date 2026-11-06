@@ -7,8 +7,8 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ You can create a resource plan from the Resource Management application for any 
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged to [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility. [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_manager, admin
 
@@ -28,7 +28,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 1.  Create a resource plan using one of the following options.
 
-<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d56611e119">
+<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d59444e119">
 
 **From Resource tab in project workspace**
 
@@ -38,7 +38,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 2.  On the **Resources** tab, click **New**.
 
 
-</td></tr><tr><td id="d56611e156">
+</td></tr><tr><td id="d59444e153">
 
 **From a project form**
 
@@ -49,7 +49,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d56611e195">
+</td></tr><tr><td id="d59444e192">
 
 **From a demand form**
 
@@ -61,7 +61,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 4.  On the Resource Plans page, click **New**.
 
 
-</td></tr><tr><td id="d56611e240">
+</td></tr><tr><td id="d59444e237">
 
 **From a project task**
 
@@ -74,7 +74,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 5.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d56611e291">
+</td></tr><tr><td id="d59444e288">
 
 **From an existing resource plan**
 
@@ -135,7 +135,7 @@ Use the [Resource Plan related links and lists](https://raw.githubusercontent.co
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

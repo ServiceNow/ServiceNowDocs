@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,6 +27,4 @@ The knowledge subscription feature uses email notification templates to send sub
 Users with the admin or knowledge\_admin role can customize these email notification templates. To locate the template, navigate to **System Notifications** &gt; **Email** &gt; **Notifications**. For more information about customizing a template, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateANotification.md).
 
 Subscription notifications include a link at the bottom of the email to the user's Notification Preferences page.
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

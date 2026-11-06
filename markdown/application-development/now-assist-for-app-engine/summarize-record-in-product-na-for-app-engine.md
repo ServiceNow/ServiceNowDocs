@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto for App Engine, Summarize record, summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
-breadcrumb: [Use, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Otto for App Engine, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Summarize a record in-product using ServiceNow Otto for App Engine
@@ -29,9 +29,7 @@ The following procedure describes how to summarize a record from a custom applic
 -   [Components documentation for the AI summary card](https://horizon.servicenow.com/workspace/components/now-ai-summary-card?release=zurich)
 -   [UI Builder setup documentation for the AI summary card](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-ai-summary-card/uib-setup)
 
-.
-
-You can also summarize the contents of a record through chat in the ServiceNow Otto panel. For more information, see [Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
+You can also summarize the contents of a record through chat in the ServiceNow Otto panel. For more information, see [Summarize a record through chat using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
 
 ## Procedure
 
@@ -43,15 +41,15 @@ You can also summarize the contents of a record through chat in the ServiceNow O
 
 3.  When you're finished summarizing a record, you can copy the summary, expand or collapse the summary, or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d41556e164">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d256472e163">
 
 Option
 
-</th><th align="left" id="d41556e167">
+</th><th align="left" id="d256472e166">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41556e173">
+</th></tr></thead><tbody><tr><td id="d256472e172">
 
 **Expand or collapse the summary**
 
@@ -59,7 +57,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d41556e194">
+</td></tr><tr><td id="d256472e193">
 
 **Provide feedback about the summary**
 
@@ -67,7 +65,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d41556e217">
+</td></tr><tr><td id="d256472e216">
 
 **Copy the record summary**
 

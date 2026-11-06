@@ -1,5 +1,5 @@
 ---
-title: View and manage financial plans in classic Project Workspace
+title: View and manage project financial plans
 description: Use the Financials tab in Project Workspace to capture the costs and benefits of a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/view-plan-financials-in-project-workspace.html
@@ -7,12 +7,12 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# View and manage financial plans in classic Project Workspace
+# View and manage project financial plans
 
 Use the **Financials** tab in Project Workspace to capture the costs and benefits of a project.
 

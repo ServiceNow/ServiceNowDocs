@@ -1,13 +1,13 @@
 ---
 title: Clone the ServiceNow Otto for CSM skills
-description: The clone feature enables you to create a copy of an AI skill. You can experiment with skill settings and configure the skill to fit your business needs.
+description: Clone an AI skill to experiment with settings and configure it for your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 
 # Clone the ServiceNow Otto for CSM skills
 
-The clone feature enables you to create a copy of an AI skill. You can experiment with skill settings and configure the skill to fit your business needs.
+Clone an AI skill to experiment with settings and configure it for your business needs.
 
 Role required: admin
 
@@ -23,10 +23,10 @@ The skills that come with the AI applications have default configurations that a
 
 Use AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto for CSM, including the cloned skills from AI Admin Hub console.
 
-Unified admin Experience for GenAI Skills:
+Unified Admin Experience for GenAI Skills:
 
--   Previously, skills cloned in AI Admin Hub console could not be edited in AI Skill Kit, creating a fragmented setup process. With the new unified admin experience, users can manage GenAI skills seamlessly in AI Skill Kit. This includes adding necessary headers as input, configuring or editing prompts, and maintaining all settings in a single location.
--   The unification migrates the AI Admin Hub console setup experience to AI Skill Kit for all ServiceNow Otto for CSM cloned skills.
+-   Previously, skills cloned in AI Admin Hub could not be edited in AI Skill Kit, creating a fragmented setup process. With the new unified admin experience, users can manage GenAI skills seamlessly in AI Skill Kit. This includes adding necessary headers as input, configuring or editing prompts, and maintaining all settings in a single location.
+-   The unification migrates the AI Admin Hub setup experience to AI Skill Kit for all ServiceNow Otto for CSM cloned skills.
 
 There are 2 ways to clone ServiceNow Otto for CSM skills:
 
@@ -36,6 +36,6 @@ There are 2 ways to clone ServiceNow Otto for CSM skills:
 
 2.  [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Clone from AI Skill Kit.
 
-    \[Omitted video\] Description: AI Skill Kit Skill Kit video that shows how to build a custom skill.
+    \[Omitted video\] Description: AI Skill Kit video that shows how to build a custom skill.
 
 

@@ -7,16 +7,16 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # List of default tag categories
 
 View the list of default tag categories on the Tag categories page. A tag category helps you to enable multiple tag names for representing costs against a single business entity.
 
-You can view the list of tag default categories by navigating to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories**.
+You can view the list of default categories by navigating to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories**.
 
 <table id="table_xcq_qr3_w1c"><thead><tr><th>
 

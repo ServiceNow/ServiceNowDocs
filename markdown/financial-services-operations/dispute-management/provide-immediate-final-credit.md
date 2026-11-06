@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -42,7 +42,7 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Immediate final credit** activity under the Investigation playbook stage.
+6.  Select the **Immediate final credit** task under the Investigation playbook stage.
 
 7.  Select the immediate final credit task that you want to complete.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/execute-recall-campaigns.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create recall corrective actions using ServiceNow Otto for MCO
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to ******Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management**.
+1.  Navigate to ******Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management**.
 
 2.  Create a recall campaign record.
 
@@ -42,6 +42,8 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     All the corrective actions are generated along with the different charges \(labor, part, miscellaneous, and external services\).
 
+
+**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-rc-my-campaigns.md)
 
 **Related topics**  
 

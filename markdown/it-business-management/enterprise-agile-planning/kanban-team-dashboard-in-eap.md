@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 # Kanban Team dashboard in EAP
 
 The Kanban Team Dashboard in EAP provides the work item status and progress metrics for the Agile teams following the Kanban configuration in the Enterprise Agile Planning \(EAP\) workspace.
+
+The **Home** tab of an Agile Team whose planning methodology is Kanban shows this dashboard, plus the Collaborative Work Management \(CWM\) dashboard where it applies. Scrum teams don't see this dashboard. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 
 \[Omitted image "eap-dashboard-kanban-team.png"\] Alt text: Kanban team dashboard in Enterprise Agile Planning Workspace.
 

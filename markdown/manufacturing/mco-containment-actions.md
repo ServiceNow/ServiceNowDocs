@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-containment-actions.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a containment action
@@ -20,7 +20,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Containment Action**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Containment Action**.
 
 2.  Select **New**.
 
@@ -30,10 +30,10 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 4.  Select **Save**.
 
-    The [Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md), [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md), and  forms are displayed.
+    The [Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md), [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md), and [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/work-order-form.md) forms are displayed.
 
 
-**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

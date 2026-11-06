@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateAResponsibilityDefinition.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,11 @@ A responsibility, or responsibility definition, specifies the role or function a
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_customer\_access\_management\_admin
+-   sn\_crm\_foundation\_admin
+-   admin
 
 ## About this task
 
@@ -75,6 +79,14 @@ Unique
 </td><td>
 
 Option that you can select to disable the duplicate entries for the responsibility definition.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Provides a description of the purpose or function of the responsibility definition.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

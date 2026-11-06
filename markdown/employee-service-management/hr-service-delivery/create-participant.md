@@ -1,15 +1,15 @@
 ---
 title: Create participants for a PDF document template
-description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.Specify the area in the PDF document where you want to collect the signatures of participants.
+description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-participant.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configure, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Create participants for a PDF document template
@@ -182,39 +182,4 @@ When enabled, a participant will be skipped if the participant user and particip
 ## Result
 
 The participant is added to the document template.
-
-## Mark a signature block
-
-Specify the area in the PDF document where you want to collect the signatures of participants.
-
-### Before you begin
-
-Role required: sn\_doc.admin
-
-**Important:** You can mark signatures only if you have defined participants and mapped users to those participants.
-
-### Procedure
-
-1.  Navigate to **All** &gt; **Document Template** &gt; **All Document Templates**.
-
-2.  Select the PDF document template you want to use.
-
-3.  [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
-
-4.  [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
-
-5.  Click **Mark Signatures**.
-
-6.  In the Mark Signature Blocks window:
-
-    1.  Click **Add Field** and select the area where you want to collect the signature of a participant.
-    2.  In the **Name** field, specify a name for the signature mapping record.
-    3.  In the **Mapping** list, select a user from the mapped participants.
-    4.  Click **Save**.
-    \[Omitted image "mark-signature-blocks-dt.png"\] Alt text: How to mark signature blocks.
-
-7.  Click **Submit**.
-
-    The signature mapping is added to the PDF Template Mappings section.
-
 

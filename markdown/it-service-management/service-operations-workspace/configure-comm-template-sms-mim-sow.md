@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up communication templates and plans in Major Incident Management, Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Setting up communication templates and plans in Major Incident Management, Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure a communications template for SMS in Major Incident Management
@@ -20,9 +20,7 @@ Configure a communication template for SMS in Major Incident Management to help 
 
 Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
-Role required: sn\_mim\_sow\_admin and notify\_admin or notify\_view, admin
-
-**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure communication templates for sms you must also have notify\_admin or notify\_view role to access the specific table. For more information, see [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/roles-in-sow.md).
+Role required: admin
 
 ## Procedure
 

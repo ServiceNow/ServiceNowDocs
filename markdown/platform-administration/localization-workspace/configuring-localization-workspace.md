@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2025-12-11"
-reading_time_minutes: 5
-breadcrumb: [Localization Workspace, Translation and localization, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring Localization Workspace
@@ -18,7 +18,7 @@ Before using Localization Workspace, configure prerequisites, dependencies, and 
 
 ## Configuration overview
 
-Localization Workspace builds upon the functionality of other ServiceNow AI Platform applications related to localization. These applications are activated with Localization Workspace if they are not already installed. You must complete the configuration of these applications before configuring Localization Workspace.
+Localization Workspace builds on the functionality of other ServiceNow AI Platform applications related to localization. These applications are activated with Localization Workspace if they are not already installed. You must complete the configuration of these applications before configuring Localization Workspace.
 
 **Note:** From version 2.0.2, the Localization Workspace interface provides two [Guided Setups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-setup.md) to lead admins through the process of configuration, as follows.
 
@@ -33,21 +33,24 @@ After the initial setup, admins can make adjustments to configurations by using 
 
 2.  Configure prerequisites as needed.
 
-    In the Zurich release, access to the Settings table \[sn\_lf\_setting\] is configured by default. However, in the Yokohama release, you must confirm access to the Settings table \[sn\_lf\_setting\]. The admin role is required for this step. See [Confirm access to Settings table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-confirm-access-settings-table.md).
+    From the Zurich release, access to the Settings table \[sn\_lf\_setting\] is configured by default. However, in the Yokohama release, you must confirm access to the Settings table \[sn\_lf\_setting\]. The admin role is required for this step. See [Confirm access to Settings table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-confirm-access-settings-table.md).
 
 3.  Configure dependencies.
     -   [Internationalization \(i18n\) and language plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/exploring-system-localization.md): Install language plugins as part of System Localization. Choose your instance's languages according to your business requirements.
     -   [Localization Framework:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md) Configure Localization Framework as follows.
 
-        Assign roles. Localization Workspace uses roles from Localization Framework, along with one role specific to Localization Workspace.
+        Assign roles. Localization Workspace uses roles from Localization Framework, along with roles specific to Localization Workspace.
 
         1.  Add Localization Framework roles as needed. See [Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/roles-localization-framework.md).
         2.  Add the Localization Workspace user role sn\_lw.user. This role is required for all users in Localization Workspace.
+        3.  Add the Terminology Manager \(sn\_lw.terminology\) role for working with glossaries in [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-language-asset-management.md).
         Create at least one group in the Groups \[sys\_user\_group\] table and add roles to the group, then assign your localization users to the appropriate group.
 
         Configure artifacts. See [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/framework-configuration.md).
 
-        **Note:** The role sn\_cd.content\_admin is required to see Content Publishing artifacts from Localization Workspace. If your users need the ability to request translations of Content Publishing artifacts, add sn\_cd.content\_admin to the appropriate group.
+        **Note:** The role sn\_cd.content\_admin is required to see Content Publishing items from Localization Workspace. If your users need to request translations for Content Publishing material, add sn\_cd.content\_admin to the appropriate group.
+
+        The sn\_cd.content\_admin role is different from the content\_admin role. From version 3.0.0, the sn\_lw.user role contains the content\_admin role.
 
         Configure settings, including for the workflows of translation tasks. See [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-settings.md). Also on the Localization Framework settings table \(sn\_lf\_settings\), in the **Project Preferences** tab, ensure that check boxes are set as follows.
 
@@ -64,6 +67,13 @@ After the initial setup, admins can make adjustments to configurations by using 
 
 5.  [Configure languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-language-setup.md) in Localization Workspace. Language providers in Localization Workspace are different from translator configurations in Dynamic Translation.
 
+    **Note:** From version 3.0.0, two guided tours are available. One guided tour assists with configuring a language provider, accessible to users with the Localization administrator role \(localization\_admin\). The other guided tour assists with configuring language groups, and is accessible to the Localization administrator role and the Localization requester role \(localization\_requestor\). Find the guided tours by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the Localization Workspace Home screen.
+
+    \[Omitted image "lw-guidedtours-langs-helpcenter-a.png"\] Alt text: Guided Tours for setting up language providers and groups are accessed from the Help Center icon on the Home screen of Localization Workspace. Availability depends on role.
+
+6.  Optionally provide glossaries in [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-language-asset-management.md).
+7.  Optionally activate the Generate Glossary skill if you intend to generate glossaries using AI. From version 4.0. See [Globalization Terminology Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-terminology-agent.md).
+
 \[Omitted image "configuring-localization-workspace1.png"\] Alt text: Language setup in Localization Workspace, opened to display the Language Providers list.
 
 -   **[Install Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/install-localization-workspace.md)**  
@@ -76,6 +86,8 @@ After you create custom translation artifacts, set cross-scope privileges so tha
 Give Localization Workspace access to your content by setting Restricted Caller Access privileges. Setting these privileges is required only when target tables or scripts are restricted.
 -   **[Configuration Hub in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-configuration-hub.md)**  
 Configuration Hub provides centralized access to the tables and properties often used by admins. You can update the tables and properties of dependent applications such as Localization Framework without leaving the Localization Workspace interface.
+-   **[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-language-asset-management.md)**  
+Enhance localization in your instance with Language Asset Management in Localization Workspace. You can upload glossaries to Language Asset Management for editing and storage.
 -   **[Language setup in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-language-setup.md)**  
 Language setup enables you to flexibly configure target languages and their third-party translation service providers. When your users create translation requests, they can select the languages and providers you have configured.
 -   **[Creating email notifications for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-email-notifications.md)**  

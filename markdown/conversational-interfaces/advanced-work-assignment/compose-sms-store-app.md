@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -57,6 +57,4 @@ As an agent, you can compose and send an SMS to an ongoing interaction which is 
 
     For more information, see [Agent initiated SMS conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.md).
 
-
-**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

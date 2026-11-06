@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Operations Workspace, Explore, Telecommunications Network Inventory]
 ---
@@ -166,7 +166,7 @@ To learn more about Telecommunications Network Inventory features, see [Explorin
 
 ## Network visualization
 
-The Network visualization view provides various options to explore the network infrastructure-related functions. You can use the Network visualization to view the geographical location of your network sites, the floor plan of a datacenter, and the topology of your network. To learn more, see [Visualize your network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md).
+The Network visualization view provides various options to explore the network infrastructure-related functions. You can use the Network visualization to view the geographical location of your network sites, the floor plan of a datacenter, and the topology of your network. To learn more, see [Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md).
 
 To access the Network visualization page, select the blue hub icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 
@@ -191,5 +191,5 @@ To access the Network visualization page, select the network visualization icon 
 **Related topics**  
 
 
-[Visualize your network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
+[Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
 

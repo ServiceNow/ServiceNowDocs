@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Discover portable software installed by package managers, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 2
+breadcrumb: [Discover portable software installed by package managers, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure portable software discovery in Agent Client Collector for Visibility Content
@@ -54,6 +54,8 @@ Software discovery is governed by the Portable Software Package Discovery \(**sn
     |Install location|The directory that the discovered software resides in.|
     |Status|When software is successfully discovered, value is **install ok installed**.|
 
+
+**Parent Topic:**[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accvc-package-discovery.md)
 
 **Related topics**  
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [MCP Server, Service Mapping, Claude, Model Context Protocol, AI assistant, application service topology, MCP Server Console, CMDB MCP Server]
-breadcrumb: [AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping MCP tools
@@ -138,7 +138,7 @@ For detailed input and output specifications and example queries, see [Service M
 
     Starting from a single server or application CI, returns the CIs reachable from it by observed TCP traffic only, without traversing CMDB relationships. Use this tool alongside get\_server\_impact\_graph to see what a CMDB-only map is missing.
 
-    The following example shows get\_server\_impact\_graph and get\_unmapped\_topology side by side for the same server, illustrating the difference between CMDB-modeled edges \(left\) and traffic-only connections not already captured in the CMDB \(right\).
+    The following example shows get\_server\_impact\_graph and get\_unmapped\_topology side by side for the same server. It illustrates the difference between CMDB-modeled edges \(left\) and traffic-only connections not already captured in the CMDB \(right\).
 
     \[Omitted image "sm-mcp-impact-vs-unmapped.png"\] Alt text: Side-by-side comparison: on the left, get\_server\_impact\_graph showing 35 CMDB-modeled edges and 25 CIs; on the right, get\_unmapped\_topology showing 0 traffic-only edges for the same server, confirming full CMDB coverage.
 

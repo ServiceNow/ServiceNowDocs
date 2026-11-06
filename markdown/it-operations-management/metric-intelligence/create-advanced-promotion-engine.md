@@ -7,7 +7,7 @@ release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -83,7 +83,7 @@ Number of days in the past that any CI created during that time is ignored. For 
 
 8.  On the **Number of Alerts** tab, in the **Number of alerts on CI** field, enter the minimum number of a CI's alerts with an identical severity level \(or higher\) to be considered for promotion.
 
-    For example, a value of 3 means at least three alerts must exist on a CI to be considered for promotion.
+    For example, a value of 3 means at least three alerts with the indicated severity \(or higher\) must exist on a CI.
 
 9.  On the **Time Window** tab:
 

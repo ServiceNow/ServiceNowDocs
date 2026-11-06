@@ -1,138 +1,143 @@
 ---
 title: View scan results for Scan Engine
-description: You can view scans in real-time as they run, or after they're completed. 
+description: You can view scans in real-time as they run or after they're completed. 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/viewing-scan-results-scan-engine.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # View scan results for Scan Engine
 
-You can view scans in real-time as they run, or after they're completed. 
+You can view scans in real-time as they run or after they're completed. 
 
 ## Before you begin
 
--   Fully configure the general and additional Scan Engine properties.
-
-    See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-scan-engine-properties.md).
-
--   Role required: Scan Engine User \(`sn_se.scan_engine_user`\), Scan Engine Admin \(`(sn_se.scan_engine_admin`\) or Impact specific roles \(Impact App Admin, Impact Platform Owner, Impact Development Team Lead, Impact Executive, Impact Developer\).
+Role required: sn\_se.scan\_engine\_user or sn\_se.scan\_engine\_admin
 
 ## Procedure
 
-1.  To view a completed scan, navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Summary Scans** \(`sn_se_summary_scan` table\), and then select the scan number to view.
+1.  To view a completed scan, navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Summary Scans** \(`sn_se_summary_scan` table\), and then select the scan number to view.
 
 2.  To view a scan that is currently running, navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Scan Status**\(`sn_se_scan_status` table\).
 
-    The following information about the scan displays.
+<table id="table_nqn_vdt_m3c"><thead><tr><th>
 
-<table id="choicetable_ojz_rmk_hhc"><tbody><tr><td id="d77120e127">
+Field
 
-**Scan number**
+</th><th>
 
-</td><td>
+Description
 
-ID number assigned to the scan
+</th></tr></thead><tbody><tr><td>
 
-</td></tr><tr><td id="d77120e136">
-
-**Type of scan **
+Scan number
 
 </td><td>
 
-Type of scan being run
+Unique scan record identifier \(PSR\#\)
 
-</td></tr><tr><td id="d77120e145">
+</td></tr><tr><td>
 
-**Status**
-
-</td><td>
-
-Status of the scan \(active, finished, or encountered errors\) 
-
-</td></tr><tr><td id="d77120e154">
-
-**Scan duration**
+Start time
 
 </td><td>
 
-How long the scan has been running
+Time that the scan executed
 
-</td></tr><tr><td id="d77120e163">
+</td></tr><tr><td>
 
-**Estimated time remaining**
-
-</td><td>
-
-How much time is left until the scan is completed
-
-</td></tr><tr><td id="d77120e173">
-
-**Percent complete**
+Type of scan
 
 </td><td>
 
-Percentage of how close the scan is to completing
+-   Full Instance Scan
+-   Delta Instance Scan
+-   On Demand Instance Scan
+
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+-   **Getting ready**: New scan initial status in initialization phase
+-   **Scanning**: Indicates that the scan is in progress
+-   **Reconciling findings**: Organizing the findings to post on scan results and the findings dashboards
+-   **Complete**: Displays a green status indicator when the scan has successfully completed
+-   **Canceled**: Displays a yellow status indicator if the scan was canceled.
+
+**Note:** In the **Actions** menu, you can select to **Cancel this scan** before scan completion.
+
+</td></tr><tr><td>
+
+Scan duration
+
+</td><td>
+
+The amount of time the scan has been running.
+
+</td></tr><tr><td>
+
+Estimated time remaining
+
+</td><td>
+
+An approximate remaining time required to complete the scan.
+
+</td></tr><tr><td>
+
+Percent complete
+
+</td><td>
+
+The percentage of the instance definitions that have been scanned.
 
 </td></tr></tbody>
-</table>    The current step that the scan is on displays. The steps of a scan are:
+</table>3.  On the **Actions** menu, select any of the following as needed.
 
-    1.  Getting ready
-    2.  Scanning
-    3.  Reconcile findings
-    4.  Complete
-3.  On the **Actions** menu, select any of the following as needed.
+    |Option|Description|
+    |------|-----------|
+    |View Summary Scan Record |Open the summary results for the scan.|
+    |Cancel this scan|Cancel the scan before it completes.|
+    |Reload page|Refresh the page to see updated scan progress.|
 
-<table id="choicetable_e3k_nnk_hhc"><tbody><tr><td id="d77120e211">
+    The following tabs display scan information.
 
-**View Summary Scan Record **
+<table id="table_g11_5nk_hhc"><thead><tr><th>
 
-</td><td>
+Tab
 
-Open the summary results for the scan.
+</th><th>
 
-</td></tr><tr><td id="d77120e220">
+Description
 
-**Cancel this scan**
+</th></tr></thead><tbody><tr><td>
 
-</td><td>
-
-Cancel the scan before it completes.
-
-</td></tr><tr><td id="d77120e229">
-
-**Reload page**
+Batch
 
 </td><td>
 
-Refresh the page.
+-   The batches currently being scanned.
+-   Each batch shows its own progress bar.  
+-   To skip a batch, select the option next to the batch to skip.
 
-</td></tr></tbody>
-</table>    The following tabs display scan information.
 
-<table id="choicetable_g11_5nk_hhc"><tbody><tr><td id="d77120e244">
+</td></tr><tr><td>
 
-**Batch**
-
-</td><td>
-
-The batches currently being scanned. Each batch shows its own progress bar.  To skip a batch, select the option to the right of the batch to skip.
-
-</td></tr><tr><td id="d77120e255">
-
-**Status history**
+Status history
 
 </td><td>
 
 Status messages that displayed during the scan. 
 
-</td></tr><tr><td id="d77120e264">
+</td></tr><tr><td>
 
-**Message**
+Message
 
 </td><td>
 
@@ -144,5 +149,5 @@ System messages and progress updates from the scan.
 </table>
 ## What to do next
 
-From the summary scan record, use the **Findings** related list to view all findings discovered during this scan.
+From the summary scan record, use the **Findings** related list to view all findings discovered during this scan. See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/understand-scan-engine-results-findings.md) for more information.
 

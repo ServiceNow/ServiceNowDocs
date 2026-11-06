@@ -1,5 +1,5 @@
 ---
-title: Class criteria in Cloud vs Non-cloud resources chart
+title: Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/criteria-cloud-resources-chart.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Class criteria in Cloud vs Non-cloud resources chart
+# Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 
 The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 
@@ -139,7 +139,7 @@ Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\]:
 
 -   Cloud:
 
-Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\] \(requires [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)\)
+Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\] \(requires [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)\)
 
 -   Non-Cloud:
 

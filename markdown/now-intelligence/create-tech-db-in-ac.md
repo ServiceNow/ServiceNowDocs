@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-tech-db-in-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Create an advanced dashboard, Create a dashboard in UI Builder]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -17,9 +17,9 @@ Follow the Technical Editor option to create a dashboard using UI Builder. In UI
 
 ## Before you begin
 
-Creating dashboards in UI Builder is recommended for developers. For more information, see .
+Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
 
-It isn’t possible to edit the dashboard's details in the Analytics Center when you create a dashboard in the Technical Editor. However, you can share a technical dashboard from the Analytics Center.
+It isn’t possible to edit the dashboard's details in the Analytics Overview when you create a dashboard in the Technical Editor. However, you can share a technical dashboard from the Analytics Overview.
 
 **Note:** Data visualizations based on table data are automatically shared with users that you share a dashboard with.
 
@@ -55,8 +55,8 @@ The technical editor lets you add any UI Builder component to your dashboard. Yo
 
     Layouts organize container content in patterns.
 
-    -   Choose **Grid** to specify the number of rows and columns in the selected container. For more information, see .
-    -   Choose **Flexbox** for more flexibility in the layouts between containers. For more information, see .
+    -   Choose **Grid** to specify the number of rows and columns in the selected container. For more information, see [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/css-grid-uib.md).
+    -   Choose **Flexbox** for more flexibility in the layouts between containers. For more information, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flexbox-uib.md).
 8.  Add a component to the container.
 
     Select it from the **Components** menu on the left or click the Add content \(**+**\) icon in the staging area.

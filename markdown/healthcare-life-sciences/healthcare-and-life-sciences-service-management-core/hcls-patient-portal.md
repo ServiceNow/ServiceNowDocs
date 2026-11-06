@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -19,8 +19,6 @@ You can use the Patient Portal available with the Healthcare and Life Sciences S
 As a user with the sn\_hcls.patient role, you can access the Patient Portal page by [registering yourself on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patient.md). To begin with the Patient Portal, you might need to first accept the privacy policy of your healthcare organization and then [enter the key personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-entering-per-info.md).
 
 From the Patient Portal, you can request healthcare services, complete your to-do tasks, and receive notifications to provide the required approval or information. You can also check the healthcare information about your household members.
-
-\[Omitted image "hcls-patient-portal.png"\] Alt text: Landing page for Patient Portal showing patient information. For the image description, refer to the text that follows.
 
 Depending on the configurations set by your administrator, as a patient, you can perform the following tasks from the Patient Portal:
 

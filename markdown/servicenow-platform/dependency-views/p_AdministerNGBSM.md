@@ -1,20 +1,20 @@
 ---
 title: Administer Dependency Views
-description: Users with the admin role can control the appearance and behavior of Dependency Views by configuring map indicators, map related items, map icons, and menu actions.
+description: Users with the sn\_cmdb\_admin or admin role can control the appearance and behavior of Dependency Views by configuring map indicators, map related items, map icons, and menu actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/dependency-views/p\_AdministerNGBSM.html
 release: zurich
 product: Dependency Views
 classification: dependency-views
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Administer Dependency Views
 
-Users with the admin role can control the appearance and behavior of Dependency Views by configuring map indicators, map related items, map icons, and menu actions.
+Users with the sn\_cmdb\_admin or admin role can control the appearance and behavior of Dependency Views by configuring map indicators, map related items, map icons, and menu actions.
 
 -   **[Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIndicators.md)**  
 Dependency Views maps and application service maps, use icons to display additional information for a CI by displaying its related records such as alerts, outages, incidents and problems. These icons are called map indicator.

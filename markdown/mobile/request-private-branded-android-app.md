@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/request-private-branded-android-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-20"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 

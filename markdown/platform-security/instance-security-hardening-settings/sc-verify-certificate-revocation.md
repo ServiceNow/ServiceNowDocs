@@ -1,22 +1,27 @@
 ---
-title: Verify certificate revocation \[New in Security Center 1.3\]
-description: The com.glide.communications.httpclient.verify\_revoked\_certificate property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks are not bypassed.
+title: Verify certificate revocation
+description: The com.glide.communications.httpclient.verify\_revoked\_certificate property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks aren't bypassed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-verify-certificate-revocation.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communications, Hardening settings, Platform Security]
 ---
 
-# Verify certificate revocation \[New in Security Center 1.3\]
+# Verify certificate revocation
 
-The **com.glide.communications.httpclient.verify\_revoked\_certificate** property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks are not bypassed.
+The **com.glide.communications.httpclient.verify\_revoked\_certificate** property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks aren't bypassed.
 
-If **com.glide.communications.httpclient.verify\_revoked\_certificate** is not set to the recommended value of **true**, then certificate revocation will not be checked during the TLS handshake. TLS encrypts data sent over the Internet to ensure that bad actors are unable to see sensitive information such as passwords or credit card numbers. Bypassing the TLS handshake is a security risk because an attacker with a revoked certificate can neglect to provide a valid certificate and break public key infrastructure \(PKI\) and digital certificate trust.
+If the **com.glide.communications.httpclient.verify\_revoked\_certificate** property isn't configured to the recommended value of **true**, certificate revocation checks will be skipped during the TLS handshake.
+
+This creates a critical security gap, potentially allowing an attacker to use a revoked certificate undetected and compromise the integrity of the Public Key Infrastructure \(PKI\) and the trust model that underpins secure web communications.
+
+1.  Navigate to /sys\_properties\_list.do on the instance.
+2.  Ensure the **com.glide.communications.httpclient.verify\_revoked\_certificate** property doesn't exist in the sys\_properties table or is set to **true**.
 
 ## More information
 
@@ -54,6 +59,14 @@ Boolean
 
 </td></tr><tr><td>
 
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
 Recommended value
 
 </td><td>
@@ -84,7 +97,10 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS score: Medium
--   Security risk details: Not setting **com.glide.communications.httpclient.verify\_revoked\_certificate** to the recommended value of true will cause certificate revocation to not be checked during the TLS handshake.
+-   Security risk details:
+
+Not setting the **com.glide.communications.httpclient.verify\_revoked\_certificate** property to the recommended value of **true**, creates a critical security gap, potentially allowing an attacker to use a revoked certificate undetected and compromise the integrity of the Public Key Infrastructure \(PKI\) and the trust model that underpins secure web communications.
+
 
 </td></tr><tr><td>
 
@@ -100,7 +116,7 @@ Functional impact
 
 </td><td>
 
-This property should be set to true to ensure that a Transport Layer Security \(TLS\) session is started with an authentic endpoint. If this property is set to false, then the certificate is not checked, which could compromise the security of the instance.
+When the **com.glide.communications.httpclient.verify\_revoked\_certificate** is set to **true**, every outbound HTTP request over TLS has its certificate checked for revocation using OCSP or CRL, as governed by the other properties in this family. When this property is set to **false**, no revocation checking is performed at all for outbound TLS connections, regardless of how the other certificate-revocation properties are configured.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)

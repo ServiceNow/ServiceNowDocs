@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Tab widget mapping form
@@ -139,21 +139,35 @@ For default calendar view, specify `default_calendar_view` value to day or week 
 
 [Approvals experience reference]()
 
-[Browser Extension for Employee Center forms]()
-
 [Connected Content form]()
 
 [Default Employee Profile Header Configuration record]()
 
 [Employee Center widgets]()
 
+[Employee Profile form]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
 [Enhanced Requests Experience forms]()
 
 [External Link form]()
 
+[Featured Content form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
 [Guided Self-Service reference]()
 
 [Menu Item form]()
+
+[Overview section form]()
 
 [Portal notification configuration form]()
 

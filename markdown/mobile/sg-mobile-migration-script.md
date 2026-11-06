@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-mobile-migration-script.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to New York &amp; later, Plugins &amp; upgrades, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Migrate to New York &amp; later, Plugins &amp; upgrades, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Run the mobile migration script
@@ -18,7 +18,7 @@ Run the mobile migration script to convert Madrid mobile applications you have c
 
 Role required: admin
 
-Mobile applications created in the Madrid release still work in the Zurich release, but cannot be edited in Studio. To continue editing in Studio, and to take advantage of new features available in the Zurich release, run the mobile migration script.
+Mobile applications created in the Madrid release still work in the Brazil release, but cannot be edited in Studio. To continue editing in Studio, and to take advantage of new features available in the Brazil release, run the mobile migration script.
 
 ## Procedure
 

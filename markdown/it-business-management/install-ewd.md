@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/install-ewd.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ You can install the SPM Enterprise-Wide Deployment application \(sn\_spm\_ewd\) 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the SPM Enterprise-Wide Deployment application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 **Note:** SPM Enterprise-Wide Deployment is installed automatically if any of the following applications are already installed on your instance at the specified version or later. Verify the installation status before proceeding:

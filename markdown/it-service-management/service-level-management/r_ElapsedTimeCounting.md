@@ -7,9 +7,9 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Service Level Agreement \(SLA\) processing, Explore, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Agreement \(SLA\) processing, Exploring Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Actual and business elapsed times

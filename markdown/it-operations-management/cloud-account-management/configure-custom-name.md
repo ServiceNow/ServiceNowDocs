@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,9 +24,9 @@ Role required: sn\_itom\_cam.cw\_admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
 
-2.  From the list of titles, search for the Cloud Account Management and double-click the name to make the modification.
+2.  From the list of titles, search for the Cloud Account Management and double-click on the name to make the modification.
 
-3.  Enter a custom name and select the check mark icon \( \[Omitted image "check-icon.png"\]\).
+3.  Enter a custom name and select the check \[Omitted image "check-icon.png"\]mark.
 
 4.  Re-login to see the change.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Script support for complex data, Complex data, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Script support for complex data, Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a custom action to generate an array of strings from a list of records
@@ -39,7 +39,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see .
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-app-creation.md).
 
     For example, create an application called `My Application`.
 

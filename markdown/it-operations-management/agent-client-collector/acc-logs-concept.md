@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector logs
@@ -23,6 +23,4 @@ Agent Client Collector \(ACC\) logs offer key benefits for monitoring and mainta
 -   Performance issue identification: Logs provide valuable insights to identify areas where the agent may be experiencing issues, helping to improve agent performance.
 
 For details on locating and managing Agent Client Collector logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-view-log.md).
-
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [References, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License metrics for Microsoft products
@@ -291,7 +291,7 @@ Licensing rules
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-2003–2008 R2
+2003-2008 R2
 
 </td><td>
 
@@ -311,7 +311,7 @@ Min: NA
 
  Virtualization: 1 VM per license.
 
- A single Standard Edition license server permits you to run one instance of the software in a physical or virtual OSE on the server. You must assign a Standard Edition license for each running instance.
+ A single Standard Edition license server permits you to run one instance of the software in a physical or virtual OSE on the server. You need to assign a Standard Edition license for each running instance.
 
 </td></tr><tr><td>
 
@@ -331,7 +331,7 @@ Minimum: 2 processor
 
  Virtualization: Unlimited
 
- When DataCenter Edition is licensed for every physical processor in a server, the server can run both in the physical OSE and in an unlimited number of Windows Server instances in virtual OSEs.
+ When DataCenter Edition is licensed for every physical processor in a server, the server may run both in the physical OSE and in an unlimited number of Windows Server instances in virtual OSEs.
 
 </td></tr><tr><td rowspan="2">
 
@@ -375,7 +375,7 @@ Minimum: 2 processors.
 
 </td></tr><tr><td rowspan="2">
 
-2016–2019
+2016-2019
 
 </td><td>
 
@@ -456,7 +456,7 @@ Standard
 
 </td><td>
 
-A server licensing rule \(for Workgroup, Standard, or Enterprise editions\) is required for every operating system environment on which that edition of SQL Server software or any of its components, such as Analysis Services, is running.
+A server licensing rule \(for Workgroup, Standard, or Enterprise editions\) is required for every operating system environment on which that edition pf SQL Server software or any of its components, such as Analysis Services, is running.
 
  A Processor license is required for each processor installed on each operating system environment running SQL Server or any of its components, such as Analysis Services.
 
@@ -476,11 +476,11 @@ Enterprise
 
 </td><td>
 
-Only for Enterprise edition: If all processors in a machine are licensed, you can run unlimited instances of SQL Server 2002 on an unlimited number of virtual operating environments on the same machine.
+Only for Enterprise edition: If all processors in a machine are licensed, you may run unlimited instances of SQL Server 2002 on an unlimited number of virtual operating environments on the same machine.
 
 </td></tr><tr><td rowspan="3">
 
-2008–2008 R2
+2008-2008 R2
 
 </td><td>
 
@@ -538,7 +538,7 @@ Processor license: Number of OSEs on which you can run the SQL Server: Unlimited
 
 </td></tr><tr><td rowspan="2">
 
-2012–2014
+2012-2014
 
 </td><td>
 
@@ -564,7 +564,7 @@ Core based licensing:
 
 2.  To license individual VMs using the Per Core model, you must purchase a core license for each v-core \(or virtual processor, virtual CPU, virtual thread\) allocated to the VM, subject to a four core license minimum per VM.
 
-For licensing purposes, a v-core maps to a hardware thread. When licensing individual VMs, core factors don’t apply.
+For licensing purposes, a v-core maps to a hardware thread. When licensing individual VMs, core factors do not apply.
 
 
 </td></tr><tr><td>
@@ -581,11 +581,11 @@ Per Core
 
 </td><td>
 
-Same as described earlier.
+Same as above.
 
 </td></tr><tr><td rowspan="2">
 
-2016–2019
+2016-2019
 
 </td><td>
 
@@ -620,7 +620,9 @@ Per Core
 
 </td><td>
 
-Same as described earlier.**Note:** If you’re already using SQL Server Enterprise edition with \(Server/CAL\) server licenses with software assurance, continue to use the Server+CAL licensing model. Use license metric as Server \(per Server\) for Server Licensing and User/Device CAL for CAL licensing. The new purchases for SQL Server Enterprise are based only on the Per Core licensing model.
+Same as above.**Note:** If you are already using SQL Server Enterprise edition with \(Server/CAL\) server licenses with software assurance, continue to use the Server+CAL licensing model. Use license metric as Server \(per Server\) for Server Licensing and User/Device CAL for CAL licensing. The new purchases for SQL Server Enterprise will be based only on the Per Core licensing model.
+
+For more information about licenses required for Server + CAL licensing model, see [Licensing support for Microsoft SQL Server enterprise on Server+ CAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-sql-server-enterprise-edition-licensing-modal.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)

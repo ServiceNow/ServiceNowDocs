@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building spokes using Spoke Generator, Use, Workflow Studio, Build workflows]
+breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Add more actions to the custom spoke
@@ -34,6 +34,4 @@ Role required: admin or action\_designer with delegated access to the specific a
     -   To create actions manually, click **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md).
     You can use the published actions to create flows or subflows as per your requirement.
 
-
-**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spoke-builder.md)
 

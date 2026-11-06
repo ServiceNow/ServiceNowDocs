@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Keyboard navigation in playbook diagram view
@@ -102,5 +102,4 @@ Navigate between stages and activities
 -   Press Esc to navigate out of the stage.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
-
+</table>

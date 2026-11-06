@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-partner-relationship-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
@@ -34,89 +34,42 @@ Role
 
 </td><td>
 
-Install the Partner Relationship Management application from ServiceNow® Store.Installing the Partner Relationship Management plugin will automatically also install the Segment Management application.
+Install the Partner Relationship Management application from ServiceNow Store.
 
 </td><td>
 
-Admin
+admin
 
 </td></tr><tr><td>
 
-[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-workspace.md)
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/roles-and-components-of-partner-relationship-management.md)
 
 </td><td>
 
-Partner admins, agents, and managers can manage partner programs and partnerships on the partner workspace to triage cases and requests from customers.
+Assign functional roles to different PRM entities.
 
 </td><td>
 
-Admin
+admin
 
 </td></tr><tr><td>
 
-[Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
+[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/data-model-for-partner-relationship-management.md)
 
 </td><td>
 
-Use the self-service Partner portal to add and manage staff, submit an inquiry to the enterprise and more.
+Configure and add data to the different tables that are installed with PRM.
 
 </td><td>
 
-Admin
-
-</td></tr><tr><td>
-
-[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-deal-registration-management.md)
-
-</td><td>
-
-Install the Deal Registration Management plugin from ServiceNow® Store.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-segment-management.md)
-
-</td><td>
-
-Install the Segment Management application from ServiceNow® Store.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-sales-common-for-partner-relationship-management.md)
-
-</td><td>
-
-Install the Sales Common for Partner Relationship Management from ServiceNow® Store.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-[Install Order Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-order-management-for-channel-partners.md)
-
-</td><td>
-
-Install the Order Management for Channel Partners from ServiceNow® Store.
-
-</td><td>
-
-Admin
+-   admin
+-   Enterprise Partner admin \(sn\_prm.enterprise\_partner\_admin\)
 
 </td></tr></tbody>
 </table>-   **[Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-partner-relationship-management.md)**  
 Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 -   **[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/roles-and-components-of-partner-relationship-management.md)**  
-The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
+The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
 -   **[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/data-model-for-partner-relationship-management.md)**  
 The Partner Relationship Management data model provides a framework to map the relationship between channel partners and programs.
 -   **[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-workspace.md)**  
@@ -129,8 +82,17 @@ Install the Deal Registration Management plugin \(com.snc.deal\_registration\_ma
 Install the Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
 -   **[Install Order Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-order-management-for-channel-partners.md)**  
 Install the Order Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_orm\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
+-   **[Install Opportunity Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-opportunity-management-for-channel-partners.md)**  
+Install the Opportunity Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_oppty\) and installations that are related to ServiceNow® Store applications and plugins.
 -   **[Install Quote Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-quote-management-for-channel-partners.md)**  
 Install the Quote Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_qm\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
 
 **Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-configuring.md)
+
+**Related topics**  
+
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
 

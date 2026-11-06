@@ -1,0 +1,144 @@
+---
+title: Create a BigQuery metadata collector
+description: Create a collector to import metadata from BigQuery.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/create-bigquery-metadata-collector.html
+release: zurich
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [BigQuery metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
+---
+
+# Create a BigQuery metadata collector
+
+Create a collector to import metadata from BigQuery.
+
+## Before you begin
+
+Before you begin, verify the following:
+
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the BigQuery collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/prepare-to-run-bigquery-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+-   Role required: connection-admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
+
+2.  Select the Connect Hub \[Omitted image "wdf-connect-hub-icon.png"\] Alt text: Connect Hub icon icon in the left sidebar.
+
+3.  Select **Create** &gt; **Metadata collector**.
+
+4.  From the System list, select **BigQuery**.
+
+5.  From the Connection type list, select one of the following:
+
+    1.  Select **New connection** to configure a new connection.
+
+    2.  Select **Existing connection** to reuse an existing connection and select an existing connection from the **Connections** list.
+
+        The configuration form is filled with details from the existing connection. The name is appended with the word Copy and sensitive details like password aren't copied.
+
+6.  Complete the form.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
+    |Short description|Purpose and details of the connection.|
+
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Option to connect to the source system through a MID Server. When selected, the **MID selection** options appear.
+
+</td></tr><tr><td>
+
+MID selection
+
+</td><td>
+
+MID Server routing option for the collector job. This field appears only when **Use MID server** is selected.
+
+ -   **Auto-Select MID Server** — The system selects an available MID Server at job execution time. Default selection.
+-   **Specific MID Server** — The collector job runs on the selected MID Server. If the MID Server is offline at job execution time, the job fails with an error identifying the MID Server by name.
+-   **Specific MID Cluster** — The collector job runs on any available MID Server within the selected cluster.
+
+
+</td></tr><tr><td>
+
+MID Server
+
+</td><td>
+
+MID Server to use for the collector job. This field appears only when **Specific MID Server** is selected. The selected MID Server is saved on the collector record and used for all subsequent collection runs until changed.
+
+</td></tr><tr><td>
+
+MID Cluster
+
+</td><td>
+
+MID cluster to use for the collector job. This field appears only when **Specific MID Cluster** is selected. The selected cluster is saved on the collector record; any available MID Server within the cluster may serve the job.
+
+</td></tr><tr><td>
+
+Capabilities
+
+</td><td>
+
+One or more capability labels that restrict auto-selection to MID Servers advertising those capabilities. This field appears only when **Auto-Select MID Server** is selected.
+
+</td></tr><tr><td>
+
+MID application
+
+</td><td>
+
+MID Server application to use for the collector job. This field appears only when **Auto-Select MID Server** is selected.
+
+</td></tr></tbody>
+</table>8.  Enter the BigQuery authentication details.
+
+    |Field|Description|
+    |-----|-----------|
+    |BigQuery Credential File Path|Upload the credentials file [you generated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-bigquery-metadata-collector.md) for authentication.|
+
+9.  Enter the BigQuery configuration details.
+
+    |Field|Description|
+    |-----|-----------|
+    |BigQuery Project|BigQuery project that contains the datasets to catalog.|
+    |BigQuery Datasets to Catalog|BigQuery datasets to catalog in the project. By default, all datasets in a project are cataloged. When multiple projects are specified, the dataset filter applies to all projects.|
+
+10. Select **Save**.
+
+
+## Result
+
+The metadata collector is created and appears on the Connectors page with a Configured status. It is now ready to connect to the source system and harvest metadata.
+
+## What to do next
+
+After creating the collector, you can perform any of the following tasks:
+
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/manage-data-catalog.md).
+
+**Parent Topic:**[BigQuery metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/bigquery-metadata-collector.md)
+

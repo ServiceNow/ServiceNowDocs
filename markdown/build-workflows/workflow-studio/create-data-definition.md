@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administering playbooks, Playbooks, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a Data Definition
@@ -55,7 +55,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
     2.  Enter the required fields.
 
-<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d65627e229">
+<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d67112e229">
 
 **Type**
 
@@ -63,7 +63,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
 The type of input the agent is collecting for a field. For example, string, reference, integer, etc.
 
-</td></tr><tr><td id="d65627e238">
+</td></tr><tr><td id="d67112e238">
 
 **Label**
 
@@ -71,7 +71,7 @@ The type of input the agent is collecting for a field. For example, string, refe
 
 The label of the field in the UI, during the playbook run. The label can consist of any text.
 
-</td></tr><tr><td id="d65627e250">
+</td></tr><tr><td id="d67112e250">
 
 **Column name**
 
@@ -79,7 +79,7 @@ The label of the field in the UI, during the playbook run. The label can consist
 
 The name of the input being collected. Spaces cannot be used to delimit words.
 
-</td></tr><tr><td id="d65627e259">
+</td></tr><tr><td id="d67112e259">
 
 **Max Length**
 
@@ -87,7 +87,7 @@ The name of the input being collected. Spaces cannot be used to delimit words.
 
 The maximum length a string value can be entered for a string type of field. The variable can store longer strings than it can display.
 
-</td></tr><tr><td id="d65627e268">
+</td></tr><tr><td id="d67112e268">
 
 **Application**
 
@@ -128,5 +128,5 @@ Per Yaron/Bim, add a topic on defining a form view for your data definition and 
 
 Configure a [**Collect user data** activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/collect-user-data-activity.md) in Workflow Studio Playbooks to use your new data definition.
 
-**Parent Topic:**[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)
+**Parent Topic:**[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

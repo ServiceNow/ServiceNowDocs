@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/components-installed-business-object-core.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management reference, Order operations, Reference, Sales Customer Relationship Management]
 ---
@@ -115,7 +115,7 @@ Business Object Relationship
 
 </td><td>
 
-Indicates how entities are structurally connected within a process and outlines the relationships between different business object types. For example, a lead is linked to an opportunity through the **Lead** column in the Opportunity \[sn\_sales\_opportunity\] table.
+Indicates how entities are structurally connected in a process and outlines the relationships between different business object types. For example, a lead is linked to an opportunity through the **Lead** column in the Opportunity \[sn\_sales\_opportunity\] table.
 
 </td></tr><tr><td>
 

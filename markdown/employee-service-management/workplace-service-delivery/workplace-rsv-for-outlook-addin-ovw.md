@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: concept
-last_updated: "2025-12-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---

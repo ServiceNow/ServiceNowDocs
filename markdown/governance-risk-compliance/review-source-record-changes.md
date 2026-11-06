@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/review-source-record-changes.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [review changes, source record, DRIR case, incident changes, field changes]
 breadcrumb: [Source record change notifications, Reporting incidents from SOW and SIR Workspace in DRIR, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
@@ -53,7 +53,7 @@ When you receive a notification that a source record has changed, review the cha
 
     If the source record for a pending update has since been deleted or unlinked, the pending update remains visible in this view but is flagged as orphaned. For details, see [Source record change notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/source-record-change-notifications.md).
 
-4.  \(Optional\) Select **Dismiss** to hide the banner for your current session.
+4.  Select **Dismiss** to hide the banner for your current session.
 
     Dismissing the banner does not reject the pending updates. The underlying pending updates remain, and the banner reappears the next time you open the case.
 

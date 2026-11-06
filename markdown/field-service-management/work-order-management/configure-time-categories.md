@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time Recording, Work order tasks, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Time Recording, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configure time recording categories for Field Service Management

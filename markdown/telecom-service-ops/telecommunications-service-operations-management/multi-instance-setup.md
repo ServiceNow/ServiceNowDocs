@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Nokia Altiplano SGC, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Set up multiple Nokia Altiplano instances
@@ -90,7 +90,7 @@ Example: Altiplano\_Weekly\_OLT\_10.10.10.\*: Runs weekly, filters OLTs with IPs
 **Related topics**  
 
 
-[Configure concurrent import and parallel loading for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
+[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
 
 [Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 

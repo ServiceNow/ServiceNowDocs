@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/configuring-cto-it.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
@@ -28,20 +28,26 @@ The following setup steps need to occur before using Care Team Operations for He
 
     Create healthcare organizations to represent your fulfilling organizations for Healthcare IT cases.
 
-4.  [Create a group for all location support agents in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-create-support-agent-group.md)
+4.  [Add members to your Healthcare IT support organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-add-members-orgs.md)
+
+    Add members to your Healthcare IT support organization to provide visibility and access to Healthcare IT cases.
+
+5.  [Create a group for all location support agents in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-create-support-agent-group.md)
 
     Create a group for location support agents with the sn\_cto\_hcit.loc\_support\_agent assigned so that users added to this group inherits the collection of roles for Care Team Operations for Healthcare IT.
 
-5.  [Create a group for all location managers in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-create-manager-group.md)
+6.  [Create a group for all location managers in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-create-manager-group.md)
 
     Create a group for location managers with the sn\_customerservice.svc\_location\_manager assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Healthcare IT.
 
-6.  [Set up assignment groups for Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-assignment-groups.md)
+7.  [Set up assignment groups for Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-assignment-groups.md)
 
     Associate assignment groups with your healthcare organizations to ensure cases are assigned to the correct healthcare organizations.
 
-7.  [Modify state decision tables in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-modify-decision-tables.md)
+8.  [Modify state decision tables in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-it-modify-decision-tables.md)
 
     Use Decision Builder to change the state mappings for cases and incidents in Care Team Operations for Healthcare IT.
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

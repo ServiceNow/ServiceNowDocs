@@ -1,25 +1,25 @@
 ---
 title: Financial Services Operations Core release notes
-description: The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Zurich release.The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Zurich release.
+description: The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Brazil release.Claim Summarization on the Claim Workspace and Claim Summary pages moves to the supported Now Assist context menu \(NACM\) component, replacing the deprecated AI Summary Card component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/financial-services-operations-core-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-04-06"
+reading_time_minutes: 1
+keywords: [claim summarization, NACM, AI Summary Card, claim workspace, claim summary, Now Assist, financial services]
+breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Financial Services Operations Core release notes
 
-The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Zurich release.
+The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Brazil release.
 
 ## About Financial Services Operations Core
 
--   Leverage a payment card data model application in FSO workflows, such as disputes, which can be used across an entire card life cycle, from issuance to servicing.
--   Support multiple payment card types, including credit and debit cards.
+The case type selector in Financial Services Operations now uses the predefined Customer Service Management \(CSM\) implementation, replacing the previous FSO-specific override.
 
-See [Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/payment-card-application.md) for more information.
+See [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-type-select-modals.md) for more information.
 
 ## Activation and other requirements
 
@@ -27,43 +27,23 @@ See [Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/z
 
 -   **Activation information**
 
-    Install Financial Services Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Install Financial Services Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/financial-services-operations-rn-landing.md)
 
-## Zurich
+## Version 13.2.1
 
-The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Payment card application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/payment-card-application.md)**
-
-    Store the details of physical payment cards across the entire card life cycle, from issuance to servicing. You can also store tokenized values for sensitive data, such as the primary account number \(PAN\).
-
--   **[Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/acl-denial-behavior.md)**
-
-    Use Deny-Unless access control lists \(ACLs\) on FSO tables for non-authenticated users, such as users with public roles. With this minimum-security setting, only your authenticated users can read, write, delete, or create actions on these tables. For more information about the Deny-Unless ACLs, see the [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/acl-denial-behavior.md) topic in the ServiceNow® Platform Security documentation.
-
+Claim Summarization on the Claim Workspace and Claim Summary pages moves to the supported Now Assist context menu \(NACM\) component, replacing the deprecated AI Summary Card component.
 
 ### What's changed
 
--   **Coral theme**
+-   **Claim Summarization component update**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    Generate AI-powered claim summaries using the Now Assist context menu \(NACM\) component, which replaces the deprecated AI Summary Card component on the Claim Workspace and Claim Summary pages. Claims processors and adjusters can continue to generate an AI-generated summary of a claim: processors see it on the Claim Summary page, and adjusters see it on both the Claim Workspace and Claim Summary pages.
 
+    Share a generated summary to the claim's work notes from the summary component. Selecting **Share** opens an editable work notes dialog, where adjusters can edit the summary text before selecting **Save to work notes**.
 
--   **[Added field to Financial transaction table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-core-banking-tables.md)**
-
-    Added the **Payment Card** field to the Financial transaction \[sn\_bom\_transaction\] table as part of the Payment card application.
+    Activate the Claim Summarization skill configuration for the summary component to appear on either page. If the skill configuration isn't active, the component doesn't display on either page.
 
 

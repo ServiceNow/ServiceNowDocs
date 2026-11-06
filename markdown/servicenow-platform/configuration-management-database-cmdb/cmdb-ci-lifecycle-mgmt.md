@@ -1,20 +1,20 @@
 ---
 title: CMDB CI Lifecycle Management \(legacy\)
-description: From the time of its creation to the time that it is no longer needed, a CMDB CI would typically transition through several operational states while undergoing various operations. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
+description: From the time of its creation until it's no longer needed, a CMDB CI would typically transition through several operational states. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB CI Lifecycle Management \(legacy\)
 
-From the time of its creation to the time that it is no longer needed, a CMDB CI would typically transition through several operational states while undergoing various operations. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
+From the time of its creation until it's no longer needed, a CMDB CI would typically transition through several operational states. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
 
 The CMDB Data Manager is now a more comprehensive and integrated solution for managing CI life cycle operations such as deletion and archival, in bulk. For information about the CMDB Data Manager, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 

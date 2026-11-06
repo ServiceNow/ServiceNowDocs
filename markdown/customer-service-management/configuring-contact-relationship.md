@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configuring-contact-relationship.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contact relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -25,7 +25,7 @@ When you create a contact relationship, you select a user from the **Contact** f
     **Note:** By default, the **sn\_customerservice.contact\_relationship.restrict\_within\_account\_hierarchy** system property is set to **true**.
 
 
-If you're a customer service manager \(sn\_customerservice\_manager\), you can create, update, delete, and view the list of contact relationships for an account. If you're a customer service manager \(sn\_customerservice\_manager\) or a customer service agent \(sn\_customerservice\_agent\), you can view a list of the contact relationships for an account.
+If you're a customer service manager \(sn\_customerservice\_manager\), CRM foundation admin \(sn\_crm\_foundation\_admin\), CRM foundation data manager \(sn\_crm\_foundation\_data\_manager\), or an Account relationship data manager \(sn\_crm\_account\_relationship\_data\_manager\), you can create, update, delete, and view the list of contact relationships for an account. If you're a customer service manager \(sn\_customerservice\_manager\), customer service agent \(sn\_customerservice\_agent\), CRM foundation data viewer, \(sn\_crm\_account\_relationship\_viewer\), or and Account relationship viewer \(sn\_crm\_foundation\_data\_viewer\), you can view a list of the contact relationships for an account.
 
 When you select a responsibility for the contact, the responsibilities that are available are those responsibility definitions that are created with a type of **Contact**.
 

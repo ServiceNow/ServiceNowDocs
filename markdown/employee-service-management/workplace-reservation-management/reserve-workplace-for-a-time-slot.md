@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,11 +22,11 @@ Role required: sn\_wsd\_core.workplace\_user
 
 ## About this task
 
-With the Quick Reservation widget, you can directly make a quick reservation. Specify the type of space that you are looking for, the date, the time slot, and the building in which you want to reserve a space. Depending on your specifications, the workplace that best matches your specifications is displayed. You can either make a reservation directly using the Quick reservation widget or use the Reservation portal to search for more suitable workplaces. Select **Advanced reservations** to open the Reservation portal.
+With the Quick Reservation widget, you can directly make a quick reservation from the Workplace Service Portal home page. Specify the type of space that you are looking for, the date, the time slot, and the building in which you want to reserve a space. Depending on your specifications, the workplace that best matches your specifications is displayed. You can either make a reservation directly using the Quick reservation widget or use the Reservation portal to search for more suitable workplaces. Select **Advanced reservations** to open the Reservation portal.
 
-**Note:**
+**Note:** It is not possible to make a shift-based reservation using the Reservation widget.
 
-In Workplace Core version 2.19.0 and above, the navigation path for Workplace Services Portal is not available in the application search context menu **All** &gt; **Workplace Core**. The Workplace Services Portal is currently being deprecated. You can access the Workplace Service portal capabilities from the Employee Center portal page **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services**.
+\[Omitted image "wsd-rsv-home-page-quick-rsv.png"\] Alt text: Quick Reservation widget.
 
 ## Procedure
 
@@ -84,9 +84,9 @@ To view the details of the reservation, click **View details**. To cancel the re
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -113,4 +113,6 @@ To view the details of the reservation, click **View details**. To cancel the re
 [Share, modify, or cancel a reservation]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

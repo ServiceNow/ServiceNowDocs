@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/product-picker-aggregates.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Product picker bulk actions, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product picker bulk actions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Product picker aggregates

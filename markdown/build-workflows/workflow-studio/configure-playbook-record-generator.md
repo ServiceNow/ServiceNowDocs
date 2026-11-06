@@ -8,8 +8,8 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-09-15"
-reading_time_minutes: 2
-breadcrumb: [Playbook record generator, Designing playbooks, Use, Workflow Studio, Build workflows]
+reading_time_minutes: 1
+breadcrumb: [Playbook record generator, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure a playbook record generator
@@ -58,6 +58,4 @@ To invoke the record generator, bind the playbook component on your record page 
 To customize the values submitted with the form, use the playbook component's query property, which can source values from URL parameters, to override the configured Template fields.
 
 To customize the **Continue** button's label, styling, or conditions, create a declarative action with the same name and associate it with a custom Playbook Experience.
-
-**Parent Topic:**[Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-record-generator-overview.md)
 

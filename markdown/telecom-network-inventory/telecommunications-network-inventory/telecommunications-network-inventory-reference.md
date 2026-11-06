@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Telecommunications Network Inventory]
 ---
@@ -18,10 +18,6 @@ Reference topics provide additional information about Telecommunications Network
 
 -   **[Add or Remove member to Link Aggregation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/add-remove-member-link-aggregation-form.md)**  
 The Add/Remove member to Link Aggregation form enables you to create, review, and modify the network asset details for Link Aggregation Group \(LAG\) connection in the Telecommunications Network Inventory application.
--   **[Assign connection element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign-connection-element.md)**  
-The Assign Connection Element form lets you define the connection element for an event by selecting its type, model, sites, equipment, and routing details.
--   **[Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/attribute-form.md)**  
-The Attribute Form allows you to define key details for a logical connection, including its name, life cycle stage, and current status.
 -   **[Allocated IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/allocated-ip-address-form.md)**  
 The Allocated IP Address form represents a single address slot within an IP Subnetwork. The fields on this form are listed below.
 -   **[Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md)**  
@@ -53,21 +49,25 @@ The Company form enables you to review, create, and modify the company details f
 -   **[Connection Element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.md)**  
 The Connection Element form enables you to define the connection elements for the physical connections and logical connections in the Telecommunications Network Inventory application. You can create, review, update, and delete the elements in this form.
 -   **[Create equipment from rack view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-equipment-from-rack-view.md)**  
-The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
+The Create equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
 -   **[Create Logical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-form.md)**  
 The Create Logical Connection form enables you to review, create, and modify the connection details for a logical connection change request.
 -   **[Create Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-form.md)**  
 The Create Physical Connection form enables you to review, create, and modify the connection details for a physical connection change request.
 -   **[Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md)**  
 Place types are used to categorize the different places on your map. You can use place type to categorize your network assets and facilities on your map in the Telecommunications Network Inventory application.
--   **[Data center infrastructure allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation.md)**  
-Data center infrastructure allocation reserves rack unit space by evaluating placement policies, capacity metrics, and the requirements specified in a change request.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md)**  
-
+-   **[Data center infra allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-rack-allocation.md)**  
+Data center infra allocation change request reserves rack units using the rack allocation agentic workflow. The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints.
+-   **[Data center infrastructure allocation placement policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md)**  
+Data center policies and rack policies are stored in the Knowledge Base and are applied to racks during the data center infrastructure allocation process.
 -   **[Data center infrastructure allocation failure cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-failure-cases.md)**  
 Allocation failures occur when devices, rack constraints, or CMDB records don't meet the requirements for placement.
 -   **[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)**  
 The Default Template form enables you to create, review and modify a default template and schedule generation of a template.
+-   **[Design and assign GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)**  
+With the Gigabyte Passive Optical Network \(GPON\) Broadband Service change model, you can create an automated set of tasks to fulfill a GPON broadband order request.
+-   **[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/domain-seperation-telecommunication-network-inventory.md)**  
+Domain separation in Telecommunications Network Inventory provides a structured and efficient way to manage complex, multilevel organizational environments. It enables secure, tailored access and control, ensuring that users view data relevant to their domain.
 -   **[Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-form.md)**  
 The Create new equipment form enables you to describe the details for an equipment record.
 -   **[Equipment Holder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-holder-form-configuration.md)**  
@@ -78,26 +78,22 @@ The Equipment Holder extension classes are the sub-classes that are extended fro
 The Equipment extension classes are the subclasses that are extended from the telco equipment, network gear, and hardware tables. You can define equipment records for these classes in the Telecommunications Network Inventory application.
 -   **[Equipment task attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/equipment-task-attribute-form.md)**  
 The equipment task attribute form enables you to describe the details for an equipment record.
--   **[GPON Broadband Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-record-producer-form.md)**  
-The GPON Broadband form captures the service and network configuration details required to provision a GPON broadband services.
--   **[GPON broadband modification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-modification-form.md)**  
-The GPON Broadband form captures the service and network configuration details required to modify a GPON broadband services.
 -   **[GPON Broadband Change model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model-forms.md)**  
 The GPON Broadband Change model forms enables you to create, review, and modify the connection details of the physical connection, and the compute and create logical connection.
 -   **[Hierarchy rules for IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/hierarchy-rules-for-ip-subnetworks.md)**  
 These rules apply only when creating or updating an IP Subnetwork \(which always has a parent — either an IP Address Block or another IP Subnetwork\).
 -   **[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)**  
-The Inventory Model forms enable you to create, review, and modify the model details for equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
+The Inventory Model forms enable you to create, review, and modify model details. This includes equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
 -   **[Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md)**  
 The additional tabs of the inventory models appear after a model is created. These tabs display all the related information of a model. You can always view, update, save, and delete the information as required.
 -   **[Inventory number allocation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-number-allocation-fields.md)**  
 The inventory number allocation fields enables you to describe the details for LAG, VLAN, IP address, and telephone number records.
 -   **[Inventory Numbers form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-numbers-form.md)**  
 The Inventory Numbers form enables you to create, review, and modify the inventory details for a network inventory.
--   **[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)**  
-The IP Address form is the active CMDB record for an IP address, created from an allocated IP slot or at the subnetwork level.
 -   **[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)**  
 The IP Address Block form defines a top-level IP address range using CIDR notation. Use this reference to understand the available fields and their behavior.
+-   **[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)**  
+The IP Address form is the active CMDB record for an IP address, created from an allocated IP slot or at the subnetwork level.
 -   **[IP Subnetwork form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-subnetwork-form.md)**  
 The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork.
 -   **[Import model Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/import-model-excel-template.md)**  
@@ -114,6 +110,8 @@ The Logical connection modification request form enables you to modify endpoints
 The Managed network form enables you to manage a network in the Telecommunications Network Inventory application.
 -   **[Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md)**  
 Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
+-   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)**  
+A naming pattern is a JavaScript expression that defines how a configuration item \(CI\) is named when it is created from an inventory template.
 -   **[Network inventory change request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-field.md)**  
 The Change Request form enables you to create and modify the change activities for the Telecom Inventory change models in the Design and Assign function.
 -   **[Network inventory facility classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/network-inventory-facility-classes.md)**  
@@ -138,14 +136,14 @@ The Physical connection modification request form enables you to modify endpoint
 The Power Circuit form enables you to describe the details for an power circuit record.
 -   **[Provision LAG form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/provision-lag-form.md)**  
 The Provision LAG form enables you to create, review, and modify the network asset details for Link Aggregation Group \(LAG\) connection in the Telecommunications Network Inventory application.
--   **[Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md)**  
+-   **[Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md)**  
 The related tabs in the Network Inventory forms display the related records that dynamically change based on the connection and relationships with the other network assets. You can selectively view, modify, or update these records.
--   **[Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)**  
-Describes the field information in the Remote Hands Request form.
 -   **[Related templates form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/related-templates-form.md)**  
 The Related templates form enables you to understand all fields of the related templates tab for slots, equipment, and shelves.
+-   **[Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)**  
+Describes the field information in the Remote Hands Request form.
 -   **[Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/router-form.md)**  
-The equipment form enables you to create, review, and modify the network asset details in the Telecommunications Network Inventory application for the router, switch, firewall, virtual machine, load balancer, or server.
+The equipment form enables you to create, review, and modify network asset details in the Telecommunications Network Inventory application. This applies to the router, switch, firewall, virtual machine, load balancer, or server.
 -   **[Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/application-service-instance-form.md)**  
 The Service Instance form enables you to create, review, and modify the details of an application service.
 -   **[Strand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/strand-form.md)**  
@@ -172,8 +170,6 @@ The Telco Equipment form enables you to create, review, and modify the network a
 By using the Telecommunications Network Inventory function catalog, you can access the functions that help you to automate the network inventory's Design and Assign process.
 -   **[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/subflow.md)**  
 You can use Workflow Studio subflows in the Telecommunications Network Inventory application to automate the network inventory's Design and Assign process.
--   **[Telephone number inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data_model_of_telephone_number_inventory_management.md)**  
-By using the telephone number inventory management data model, you can understand how the tables of a telephone block, telephone number allocation, and telephone number relate to each other.
 -   **[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)**  
 Use time series metrics to calculate the operational details of network assets in the Telecommunications Network Inventory application.
 -   **[TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md)**  

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -18,6 +18,8 @@ Use the integration of generative AI with Health and Safety Incident Management 
 
 The generative AI skills can be used with Health and Safety Incident Management when com.snc.sn\_hs\_gen\_ai plugin is installed.
 
+-   **[Summarize a safety incident by using ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md)**  
+Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the ServiceNow Otto for Health and Safety application.
 -   **[Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md)**  
 The incident pattern analysis tool automatically detects recurring patterns across health and safety incidents.
 -   **[Conversational AI Health and Safety incident or observation report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-explore-conversational-incidents.md)**  

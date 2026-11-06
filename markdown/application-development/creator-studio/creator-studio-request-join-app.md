@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Ask to work on an app in Creator Studio
@@ -22,7 +22,7 @@ First things first, you need the right access to get involved. Your system admin
 
 ## About this task
 
-Getting permission to work on an app delegates you to its development, which means you can start pitching in and making things happen. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+Getting permission to work on an app delegates you to its development, which means you can start pitching in and making things happen. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 **Note:** Admins don't see the **Request access** option because their permissions enable them to access all apps.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/order-mgt-priority-recalculate.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Calculating the order priority, Configuring order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Calculate order priority, Order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Recalculating the order priority
@@ -28,7 +28,7 @@ When a customer order is updated, all child order line items will be recalculate
 
 2.  Select the order that you want to recalculate.
 
-3.  Update the Priority field in the Customer Order form or for the order line items and click **Re-calculate**.
+3.  Update the Priority field in the Customer Order form or for the order line items and select **Re-calculate**.
 
     The decision tables are re-evaluated with the latest order, customer, and urgency data to recalculate the order priority.
 

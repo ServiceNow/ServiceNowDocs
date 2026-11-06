@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_DirectJDBCProbeParameters.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [JDBCProbe, Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [JDBCProbe, Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Parameters
@@ -148,9 +148,4 @@ For example, to query a table using a direct JDBC probe, requires the following 
 -   The table name
 
 **Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_JDBCProbe.md)
-
-**Related topics**  
-
-
-[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_JDBCProbe.md)
 

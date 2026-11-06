@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_ImpUserRunInboundActions.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer]
+breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # User impersonations and inbound actions

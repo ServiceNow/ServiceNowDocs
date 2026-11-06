@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Crew, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Crew, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Remove or release members and equipment from your crew

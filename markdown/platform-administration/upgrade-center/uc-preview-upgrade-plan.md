@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prepare to upgrade with Upgrade Plan, Preparing your upgrade plan, Use, Upgrade Center, Upgrade, Administer]
+breadcrumb: [Prepare to upgrade with Upgrade Plan, Preparing your upgrade plan, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Preview Upgrade Plan
@@ -31,7 +31,7 @@ Role required: admin
     -   Total: total number of skipped records
     -   Resolved: skipped records included in the upgrade plan
     -   Reviewed: skipped records that have been reviewed
-    **Note:** This step is applicable only if you have enabled the GLIDE\_UPGRADE\_PLAN\_INCLUDE\_SKIPS property.
+    **Note:** This step is applicable only if you have enabled the GLIDE.UPGRADE.PLAN.INCLUDE.SKIPS property.
 
 
 **Parent Topic:**[Prepare to upgrade with Upgrade Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-prepare-upgrade-plan.md)

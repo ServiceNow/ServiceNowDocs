@@ -1,26 +1,24 @@
 ---
 title: ServiceNow Studio release notes
-description: The ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Zurich release.The ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Zurich release.The ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Zurich release.
+description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.ServiceNow Studio was enhanced and updated in the October release with updated tracking for update sets and source control changes and persistent versioning for ServiceNow Studio used without Build Agent.ServiceNow Studio was enhanced and updated in the September release with an agentic-first, simplified interface for development, and a configurable activity bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/servicenow-studio-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ServiceNow Studio release notes
 
-The ServiceNow® Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.
 
 ## About ServiceNow Studio
 
--   As of version 28.2.1, simplify the app creation process by using Creator Studio, Now Assist for app generation, or by gaining inspiration from the App Gallery.
--   As of version 28.2.1, elevate your access to security\_admin from within ServiceNow Studio to make changes to roles and ACLs.
--   As of version 28.2.1, several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role in ServiceNow Studio.
--   As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
--   As of version 28.2.1, access your favorite lists in ServiceNow Studio by bookmarking them.
+-   Use the generative and agentic AI capabilities in ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records.
+-   Access low-code builders available in the ServiceNow AI Platform, including Table Builder and flows in Workflow Studio, alongside other development tools.
+-   Package changes for deployment using update sets, pipelines, or the Application Repository without leaving ServiceNow Studio.
 
 See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md) for more information.
 
@@ -30,86 +28,97 @@ See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
--   **Upgrade information**
-
-    ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
-
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
 
-## December 2025
+## Version 30.1.3
 
-The ServiceNow® Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Zurich release.
+ServiceNow Studio was enhanced and updated in the October release with updated tracking for update sets and source control changes and persistent versioning for ServiceNow Studio used without Build Agent.
 
 ### What's new
 
--   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-an-application-in-servicenow-studio.md)**
+-   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/summarize-an-app-in-servicenow-studio.md)**
 
-    As of version 28.2.1, you can use Now Assist or Creator Studio to begin creating your applications. You can also view the App Gallery for more inspiration.
-
--   **[Elevate your role in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/elevate-your-role-in-servicenow-studio.md)**
-
-    As of version 28.2.1, you can elevate your role to security\_admin without having to leave ServiceNow Studio. Users with the security\_admin role can make changes to other roles and to access control lists \(ACLs\).
-
--   **[ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-personas-roles.md)**
-
-    As of version 28.2.1, several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role in ServiceNow Studio.
-
--   **[Opening files in your preferred editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/opening-files-in-your-preferred-editor.md)**
-
-    As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
-
--   **[Bookmark lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/bookmark-lists-in-sns.md)**
-
-    As of version 28.2.1, access your favorite lists by bookmarking them.
-
--   **[AppSee support in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-servicenow-studio.md)**
-
-    As of version 28.2.1, AppSee is supported in ServiceNow Studio.
-
--   **[Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-create-app-file.md)**
-
-    As of version 28.2.1, you can create files directly from an app open in the Navigator panel.
+    ServiceNow Studio supports the Delegated Admin role for ServiceNow Otto app summary generation.
 
 
 ### What's changed
 
--   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-details-page.md)**
+-   ****
 
-    As of version 28.2.1, access to source control integration and collaboration functions on each App details page has moved into the More actions menu. Some icon placement depends on the configuration for each application.
+    Update sets and changes linked to source control both display in the Changes tab, with clear tracking paths for both options and support for simultaneous update set and source control use.
 
 
-## Zurich
+### What's deprecated or removed
 
-The ServiceNow® Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Zurich release.
+-   **Pre-VS Code replatformed version of ServiceNow Studio**
+
+    The newly redesigned ServiceNow Studio went through several iterations before the replatform onto VS Code that occurred in March 2026. All versions before the replatform have been deprecated. Previously, turning off Build Agent returned you to the pre-VS Code version of ServiceNow Studio. Now, it stays on the VS Code version and turns off Build Agent.
+
+
+## Version 30.1.1
+
+ServiceNow Studio was enhanced and updated in the September release with an agentic-first, simplified interface for development, and a configurable activity bar.
 
 ### What's new
 
--   **[Add AI files to your apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-file-navigator-taxonomy.md)**
+-   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-quick-start.md)**
 
-    You can add agentic workflows, AI Agents, and skills to your apps in ServiceNow Studio.
+    Learn ServiceNow Studio efficiently with an updated course of quick start topics.
 
--   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/link-app-to-source-control.md)**
+-   **[ServiceNow Studio user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-user-interface.md)**
 
-    Use source control operations on the App details page to link an application to a Git repository.
+    Personalize the new, agentic-first ServiceNow Studio user interface by choosing which components you want to use. Use the pro option with all features, vibe mode with minimal components, or custom, to choose your own.
 
--   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-details-page.md)**
+-   ****
 
-    View and manage app files and metadata on the enhanced App details page. You can also link your app to source control from the App details page and create new files for your application.
-
--   **[Focus the Navigator panel on an app or app file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/qs-focus-navigator-panel-on-app-app-file.md)**
-
-    Improve efficiency as you work in ServiceNow Studio by focusing the Navigator panel on any file or application open in an integrated tab.
-
--   **[Personalize your UI with dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-user-interface.md)**
-
-    Dark theme is now supported in ServiceNow Studio. Access user preferences to switch between dark and light mode on your instance.
+    ServiceNow Studio supports Build Agent spec mode, which generates a complete implementation plan from your requirements.
 
 
 ### What's changed
 
--   **[Open in Creator Studio link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/viewing-app-origination-information-in-sns.md)**
+-   ****
 
-    The link to open an app in Creator Studio was previously available on the App details page in the app metadata section. The link is now in the More actions menu.
+    ServiceNow Studio user preferences and settings have moved from the top right corner to the bottom left corner of the interface. View what's new in ServiceNow Studio, access command palette and keyboard shortcut options, and update preferences.
+
+-   **[App summary generation moves to an agentic architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sns-exploring-now-assist-app-summarize.md)**
+
+    ServiceNow Otto for app summary generation now uses an AI agent to generate application summaries. This change moves the App summary generation from a skill-based architecture to the AI agent orchestration model.
+
+    With this release, users who install the App summary plugin receive the App Summary AI agent.
+
+    The App Summary AI agent is turned off by default after plugin installation to help avoid unexpected charges. An administrator must enable the agent in AI Agent Studio before users can generate application summaries.
+
+    The end-user experience remains the same. The change affects only the underlying architecture, which now uses an agentic model instead of the earlier skill-based model.
+
+-   **Deployment tab**
+
+    The **Deployment** tab, with lists of all update sets, applications, and deployment requests, has moved from the home page to the activity bar as a separate tab.
+
+
+### What's deprecated or removed
+
+-   **Experience switcher**
+
+    The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE capabilities were consolidated under the Explorer tab in ServiceNow Studio. There is no current replacement for the Experience switcher, but each individual application can still be accessed on the ServiceNow AI Platform.
+
+-   **Tools tab**
+
+    The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/integrated-development-tools.md).
+
+-   **Create menu**
+
+    The Create menu in the top right corner of ServiceNow Studio has been removed. The other Create option in the activity bar is still available and has the same functionality.
+
+-   **Resources**
+
+    The Resources section has been removed from the ServiceNow Studio home page. There is no current replacement for the Resources section, but users with Build Agent can prompt in the main chat to access resources.
+
+
+### Plugin information
+
+-   **Deprecated plugins**
+
+    Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-servicenow-studio.md).
 
 

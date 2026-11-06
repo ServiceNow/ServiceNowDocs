@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -89,6 +89,30 @@ Event Management Integrator\[evt\_mgmt\_integration\]
 </td><td>
 
 Has create access to the Event \[em\_event\] and Registered Nodes \[em\_registered\_nodes\] tables to integrate with external event sources.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Event Management AIOps Manager\[evt\_aiops\_manager\]
+
+</td><td>
+
+Responsible for overseeing NOC teams performance and can onboard AI Specialists as part of the agentic workforce features in AIOps.
+
+</td><td>
+
+evt\_team\_operator
+
+</td></tr><tr><td>
+
+Event Management Team Operator\[evt\_team\_operator\]
+
+</td><td>
+
+Can create and manage their own integrations, set up their own alert automations, and enhance control over alert management for their teams.
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ A user can create only one time sheet per week.
 
 1.  Create the time sheet with one of these options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d203070e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d216737e80">
 
 Option
 
-</th><th align="left" id="d203070e83">
+</th><th align="left" id="d216737e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d203070e89">
+</th></tr></thead><tbody><tr><td id="d216737e89">
 
 **From the time sheet menu**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **Time Sheets** &gt; **My Time Sheets** &gt; **Current \(This Week\)**.The time sheet form for the current week opens.
 
-</td></tr><tr><td id="d203070e113">
+</td></tr><tr><td id="d216737e113">
 
 **From the time sheet list**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/customize-colors-empty-state.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [theme builder, customize colors, empty state illustrations]
 breadcrumb: [Empty state illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,11 +17,13 @@ Configure and control the colors automatically applied to empty state illustrati
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
-As a category, all empty state illustrations share color hook mappings. Color hook mappings link theme colors to specific parts of an illustration. As a result, the colors that you apply to one empty state illustration type are also applied to the entire empty state illustration category.
+As a category, all empty state illustrations share color hook mappings. As a result, the colors that you apply to one empty state illustration type are also applied to the entire empty state illustration category.
 
 **Important:** Configuring empty state illustration colors applies to Workspaces and isn’t supported in the Core UI.
 

@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-24"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -42,7 +42,7 @@ Progress indicator
 
 As you complete each configuration phase, the tabs at the top of the Discovery Manager track your progress. A check mark indicates a completed phase. A dark underline marks the current phase. The tabs are interactive, you can move to a phase by clicking that tab.
 
-\[Omitted image "CloudDiscoProgressBar.png"\] Alt text: Discovery Manager progress indicator.
+\[Omitted image "CloudDiscoProgressBar.png"\] Alt text: Discovery Manager progress indicator
 
 ## Discovery Manager label customization
 
@@ -54,7 +54,7 @@ Specify your cloud provider and select the service account to discover. You can 
 
 ### Before you begin
 
-Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md). The MID Server used for Cloud Discovery must be configured with the Cloud Management capability.
+Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md). Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
 
 Role required: discovery\_admin
 
@@ -78,13 +78,13 @@ The default timeout value is 300000 milliseconds or 5 minutes.
 
     If the system can't detect an appropriate MID Server, you're prompted to install and configure a MID Server by using the [MID Server Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md). This notification is also displayed if an existing MID Server is not available because it is upgrading.
 
-    \[Omitted image "CloudDiscoNoMIDs.png"\] Alt text: Notification that no MID Servers were found.
+    \[Omitted image "QS\_NoMIDFound2.png"\] Alt text: MID Server setup link
 
 3.  In the Basic Info pane of the Discovery Manager, select the name of your cloud provider in the **Provider** field, such as **AWS** or **Azure**.
 
     The wizard displays a count of the validated and available MID Servers in the MID Servers pane.
 
-4.  If you're using AWS, Azure, or GCP, you can specify the MID Server selection type in the **MID Selection Type** field.
+4.  If you're using AWS, Azure, GCP, or Alibaba Cloud you can specify the MID Server selection type in the **MID Selection Type** field.
 
     **Note:** AWS and Azure selection is only available after migration to pattern-based Discovery. For more information, see [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/migrate-from-capi-to-pattern.md).
 
@@ -118,6 +118,7 @@ The default timeout value is 300000 milliseconds or 5 minutes.
     -   The [Azure account ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md) is the Azure Subscription GUID.
     -   The [GCP account ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.md) is the project ID.
     -   The [VMware account ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/vmware-create-creds-cloud-mgt.md) is the virtual machine instance UUID.
+    -   The [Alibaba Cloud account ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-up-alibaba-cloud-service-account.md) is the Compartment ID.
     **Note:** VMware discovery can run without a service account. To discover VMware resources, configure the schedule to run on the IP address of the vCenter server.
 
 8.  Select the credentials for this cloud service account or add new credentials.
@@ -228,7 +229,7 @@ Role required: discovery\_admin
 
 ### About this task
 
-You can also access the schedule phase of the Discovery Manager from the Discovery Schedule form. Navigate to **Discovery** &gt; **Discovery Schedules** and click **Cloud Discovery** in the schedules list.
+You can also access the schedule phase of the Discovery Manager from the Discovery Schedule form. Navigate to **Discovery** &gt; **Discovery Schedules** and select **Cloud Discovery** in the schedules list.
 
 ### Procedure
 
@@ -242,14 +243,14 @@ You can also access the schedule phase of the Discovery Manager from the Discove
 
 3.  To deactivate the schedule, toggle the **Active** switch to the left.
 
-4.  Complete the Cloud Discovery scheduling process by selecting one of these options:
+4.  Complete the Cloud Discovery scheduling process by selecting one of the following options:
 
     -   **Finish and Run**: Runs Discovery immediately, using the current configuration. All subsequent cloud discoveries run on the schedule you provided.
     -   **Finish**: Exits the wizard and runs Cloud Discovery on the schedule you provided.
 
 ### What to do next
 
-Open the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-home-page.md) and view the results of your Discovery.
+Open the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-home-page.md) or [Discovery Admin Workspace Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-schedules.md) page and view the results of your Discovery.
 
 ## Enable auto-refreshing of sub-accounts and datacenters
 

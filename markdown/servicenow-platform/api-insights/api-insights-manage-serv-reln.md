@@ -7,7 +7,7 @@ release: zurich
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage API data, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ By using application service relationships, you can:
 -   Understand the dependencies between APIs and the CIs they support.
 -   Manage and monitor API performance and its impact on critical business services and CIs.
 
-For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For more information, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 The available actions for handling application service relationships for APIs include:
 

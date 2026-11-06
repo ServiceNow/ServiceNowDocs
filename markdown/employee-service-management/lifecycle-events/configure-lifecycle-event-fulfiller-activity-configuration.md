@@ -7,7 +7,7 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the supporting components for a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Create or modify an activity configuration to define the fulfillment process and
 
 Role required: sn\_hr\_le.admin or sn\_hr\_le.activity\_set\_manager
 
-A key benefit of the Enterprise Onboarding and Transitions application is that you can leverage existing fulfillment processes from different departments to fulfill lifecycle event activities that are assigned to them. For example, you can use a fulfillment process set up by the IT department to fulfill lifecycle event activities assigned to IT. Preconfigured activity types are available to use. You can also configure your own custom activity types.
+A key benefit of the Lifecycle Events application is that you can leverage existing fulfillment processes from different departments to fulfill lifecycle event activities that are assigned to them. For example, you can use a fulfillment process set up by the IT department to fulfill lifecycle event activities assigned to IT. Preconfigured activity types are available to use. You can also configure your own custom activity types.
 
 ## Procedure
 

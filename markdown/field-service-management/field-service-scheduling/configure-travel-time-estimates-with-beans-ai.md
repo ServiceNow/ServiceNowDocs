@@ -1,38 +1,42 @@
 ---
-title: Configure travel time estimates with Beans.ai
-description: Use the Beans.ai, the map provider that Schedule Optimization supports for more accurate travel time estimates.
+title: Configure travel time estimates with a Third-party provider
+description: Use a third-party travel estimate provider, such as Beans.ai, to improve the accuracy of travel time estimates in Schedule Optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/configure-travel-time-estimates-with-beans-ai.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Setting up a travel estimate provider, Create a scheduling attribute, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Travel estimate provider, Create a scheduling attribute, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
-# Configure travel time estimates with Beans.ai
+# Configure travel time estimates with a Third-party provider
 
-Use the Beans.ai, the map provider that Schedule Optimization supports for more accurate travel time estimates.
+Use a third-party travel estimate provider, such as Beans.ai, to improve the accuracy of travel time estimates in Schedule Optimization.
 
 ## Before you begin
 
-A connection and credential for Beans.ai must have been established. For more information, see [Set up a connection and credential for Beans.ai travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-a-connection-and-credential-for-beans-ai.md).
+When configuring Beans.ai, a connection and credential must have been established before starting this procedure. For more information, see [Set up a connection and credential for Beans.ai travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-a-connection-and-credential-for-beans-ai.md).
 
 Role required: wm\_admin
 
+## About this task
+
+Schedule Optimization supports integration with third-party travel estimate providers to extend mapping capabilities. Beans.ai is one supported provider. To configure any third-party provider, follow the steps in this topic and enter the credentials and API authentication details for your provider.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Map Integrations for Field Service** &gt; **Travel Time Estimate Configuration** &gt; **All**
+1.  Navigate to **All** &gt; **Map Integrations for Field Service** &gt; **Travel Time Estimate Configuration**
 
-2.  Select **New**.
+2.  Select **Create New**.
 
-    **Note:** Beans.ai operates on a bring your own license \(BYOL\) licensing model. If Beans.ai isn’t configured, travel estimates default to straight-line.
+    **Note:** Beans.ai operates on a bring your own licensing model. If no third-party provider is configured, travel estimates default to straight-line.
 
-3.  On the form, provide a name for the travel time estimate provider and an optional description.
+3.  On the form, provide a name for the configuration and an optional description.
 
-4.  In the **Select a travel estimate provider** field, select Beans.ai.
+4.  In the **Select a travel estimate provider** field, select Beans.ai, Straight-line, or New provider to configure a different third-party provider.
 
 5.  Ensure that the travel time estimate is calculated and updated continuously by selecting the **Enable real-time** check box.
 
@@ -42,7 +46,7 @@ Role required: wm\_admin
 
     **Note:** Travel bands can vary in duration, ranging from 30 minutes to 4 hours, and can't overlap.
 
-    1.  Select an existing Beans.ai record.
+    1.  Select an existing provider record.
 
     2.  Scroll down to the **Travel Band Modifiers** tab.
 
@@ -113,4 +117,9 @@ When selected, sends the travel band's day and time window to the map provider t
 
     6.  Select **Update**.
 
+
+**Related topics**  
+
+
+[https://support.servicenow.com/kb?sys\_kb\_id=77fb7ba7871736142d5cbbb5cebb35e9&amp;id=kb\_article\_view](https://support.servicenow.com/kb?sys_kb_id=77fb7ba7871736142d5cbbb5cebb35e9&id=kb_article_view)
 

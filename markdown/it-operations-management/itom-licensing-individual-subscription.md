@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-licensing-individual-subscription.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM/OT SU Licensing subscription types, Explore ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # ITOM/OT SU Licensing Individual \(ala carte\) subscription
 
 You can purchase subscriptions for individual ITOM applications \(ala carte\).
 
-The ITOM/OT SU Licensing application calculates and displays subscription consumption for ITOM applications purchased individually \(ala carte\). If your organization exceeds the number of subscription units, the Subscriptions window shows the relevant a la carte subscription as overdrawn. You cannot use unconsumed subscriptions for overdrawn subscriptions of another application.
+The ITOM/OT SU Licensing application calculates and displays subscription consumption for ITOM applications purchased individually \(a la carte\). If your organization exceeds the number of subscription units, the Subscriptions window shows the relevant a la carte subscription as overdrawn. You cannot use unconsumed subscriptions for overdrawn subscriptions of another application.
 
 The Subscriptions window displays information about the purchased and allocated subscriptions for ITOM applications.
 

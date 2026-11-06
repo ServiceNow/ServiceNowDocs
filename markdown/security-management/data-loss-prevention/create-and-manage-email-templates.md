@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -20,8 +20,8 @@ Create and manage the preconfigured email templates for sending notifications to
 
 Role required:
 
--   sn\_dlir.admin
--   sn\_dlir.analyst and sn\_dlir.analyst\_read
+-   sn\_dlir.admin - Create, edit, and delete.
+-   sn\_dlir.analyst and sn\_dlir.analyst\_read - View \(read-only\).
 
     **Important:** For Analysts to view email communications of a DLP Incident on the activity stream, you should add or append the 'sn\_dlir.analyst' role in the global system property `glide.ui.activity.email_roles`.
 
@@ -354,7 +354,7 @@ The end user receives a digest notification email with all the selected variable
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -84,6 +84,4 @@ There is an active interaction involving a different contact/consumer/user​
 </table>## Customize the behaviour of send from and to numbers
 
 The AgentInitiatedConversationUtil extension point is added to implement a customers' logic to change the default behaviour of the **Send from** and **Send to** fields. For more information, see [Associating user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.md). For this store application, AgentInitiatedMessagingUtilExtPointImpl extension point is configured for fetching the from and to numbers.
-
-**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

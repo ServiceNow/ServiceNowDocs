@@ -1,16 +1,16 @@
 ---
-title: Configure script field types for a workspace
+title: Configure script fields for a workspace
 description: Configure a Configurable Workspace to support script fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/use-script-field-types-in-your-configurable-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure script field types for a workspace
+# Configure script fields for a workspace
 
 Configure a Configurable Workspace to support script fields.
 

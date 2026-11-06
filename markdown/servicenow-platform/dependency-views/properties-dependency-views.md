@@ -7,7 +7,7 @@ release: zurich
 product: Dependency Views
 classification: dependency-views
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Confi
 
 Use Dependency Views properties to configure how data appears in Dependency Views maps.
 
-These properties are available for Dependency Views. To view and edit these properties, the admin role is required.
+These properties are available for Dependency Views. To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
 <table id="table_vb2_wj3_rt"><thead><tr><th>
 

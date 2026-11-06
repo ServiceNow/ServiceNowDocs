@@ -1,18 +1,18 @@
 ---
 title: Configuring product pricing
-description: Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales Customer Relationship Management and by customers using self service for orders.
+description: Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales Customer Relationship Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-managing-product-pricing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring product pricing
 
-Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales Customer Relationship Management and by customers using self service for orders.
+Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales Customer Relationship Management.
 
 ## Pricing configuration overview
 
@@ -20,13 +20,12 @@ As a pricing administrator or pricing manager, you complete various configuratio
 
 \[Omitted image "q4-som-catalog-pricing-workflow.svg"\] Alt text: Workflow infographic that shows the main pricing configuration steps described in the following table, which also identifies other pricing features that can be configured
 
-You can use the CRM Workspace to configure product pricing.
+Starting with the May 2024 release of Sales Customer Relationship Management applications, you can use the CRM Workspace to configure product pricing.
 
 **Note:** Check your entitlements to determine if you have access to these features.
 
 |Configuration task|Description|
 |------------------|-----------|
-|Install Pricing Management|Install the Pricing Management application \(sn\_csm\_pricing\) if you have the admin role.|
 |[Configurable pricing plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-pricing-plan.md)|Customize the default pricing plan provided with Pricing Management. You can add, change, or delete the sequence of steps in which pricing calculations and adjustments are run to determine product offering prices.|
 |[Create and publish a price list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-price-list.md)|Define a price list that identifies basic pricing features, such as the currency used or the customer account to which the price list applies.|
 |[Create a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-price-list-line.md)|Add line items to a price list. A price list line identifies the list price for a product offering.|
@@ -42,7 +41,6 @@ You can use the CRM Workspace to configure product pricing.
 |[Create pricing adjustments for bundled products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-bundle-adjustment.md)|Define the pricing adjustments for child product offerings in a bundled product by using the Configuration Component Price Adjustment Matrix.|
 |[Create a matrix version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-matrix-versions.md)|Create a version of a published price matrix when you need to update the matrix, for example to add or delete a context variable used in the price matrix.|
 |[Set properties to control pricing processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-set-pricing-properties.md)|Manage the processing of pricing features, such as how certain pricing calculations are made.|
-|[Enable ramps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering.md)|When creating a product offering, select the **Enable ramps** option, which lets sales agents add price and quantity ramps for the offering during the quote process. For information on how ramps work, see [Price and quantity ramps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/defining-products-with-ramps.md).|
 |[Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-context-variable.md)|Create a custom variable that represents an attribute that can be used in a pricing matrix, for example to create a non-product attribute adjustment.|
 |[Map a custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-map-variable.md)|Associate a custom pricing context variable to a particular transaction entity type in Sales Customer Relationship Management.|
 |[Use extension points in Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/extension-points-som-pricing.md)|Apply pricing extension points to use pricing information from external sources or extend the pricing engine logic on how list prices or adjustments are calculated.|

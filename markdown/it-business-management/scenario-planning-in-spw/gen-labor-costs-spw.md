@@ -1,24 +1,28 @@
 ---
 title: Generate labor costs
-description: Generate labor costs in the Financials view for attribute-based resource assignments based on the financial attributes configured in the planning attributes page.
+description: Generate labor costs for projects and sub-projects based on the attribute-based resource assignments and the financial attributes configured in the planning attributes page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Generate labor costs
 
-Generate labor costs in the Financials view for attribute-based resource assignments based on the financial attributes configured in the planning attributes page.
+Generate labor costs for projects and sub-projects based on the attribute-based resource assignments and the financial attributes configured in the planning attributes page.
 
 ## Before you begin
 
 Role required: sn\_align\_ws.spw\_financial\_user
+
+## About this task
+
+When the distribution of effort for a resource assignment is adjusted without changing the total planned effort. The system then automatically recalculates and generates labor costs to align with the updated effort distribution. For example, consider a resource assignment of 100 hours distributed as 60 hours in January and 40 hours in February. Now if you swap the efforts to make 40 hours in January and 60 hours in February. Now the system automatically adjusts the labor costs so that January reflects the cost of 40 hours and February reflects the cost of 60 hours. This ensures that costs accurately correspond to the revised effort distribution.
 
 ## Procedure
 
@@ -32,6 +36,6 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 5.  Select **Generate** on the Generate labor costs confirmation window.
 
-    **Note:** Alternatively, you can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md) to automatically create baselines at the required cadence.
+    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

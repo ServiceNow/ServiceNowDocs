@@ -1,6 +1,6 @@
 ---
 title: Select fields for an extraction table in Zero Copy Connector for ERP
-description: Add or remove fields for an extraction table in Zero Copy Connector for ERP. For example, you may want to remove fields with sensitive information, such as birthdays.
+description: Add or remove fields for an extraction table in Zero Copy Connector for ERP \(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erpc-select-extraction-table-fields.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table, field, add, remove, delete]
-breadcrumb: [Extracting and transforming data, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Select fields for an extraction table in Zero Copy Connector for ERP
 
-Add or remove fields for an extraction table in Zero Copy Connector for ERP. For example, you may want to remove fields with sensitive information, such as birthdays.
+Add or remove fields for an extraction table in Zero Copy Connector for ERP \(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "image.erpc-extraction-table-icon"\] Alt text: in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
 
 3.  Select an extraction table to work with by selecting the **Name**.
 
@@ -43,6 +43,4 @@ Role required: sn\_erp\_integration.erp\_admin
 
 5.  Confirm that the fields appear correctly as columns on the extraction table by selecting the **Extraction table fields** tab.
 
-
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configure-user-selected-start-page-preference.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Configure a user-selected start page to override the administrator‑configured 
 
 ## Before you begin
 
-Confirm you have enabled the Next Experience before beginning this task. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-adoption-paths.md).
+Ensure you have enabled the Next Experience prior to beginning this task. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-adoption-paths.md).
 
 Role required: none
 

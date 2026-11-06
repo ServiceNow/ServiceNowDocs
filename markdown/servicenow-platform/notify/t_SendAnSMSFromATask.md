@@ -7,9 +7,9 @@ release: zurich
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify with tasks, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with tasks, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send an SMS alert from a task
@@ -42,7 +42,7 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
 
 5.  To select ad-hoc participants, choose one of the following actions.
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d88770e143">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d88167e143">
 
 **Click the reference lookup icon and select the relevant user**
 
@@ -50,7 +50,7 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d88770e155">
+</td></tr><tr><td id="d88167e155">
 
 **Enter the participant's phone number**
 

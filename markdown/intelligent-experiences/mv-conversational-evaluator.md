@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [Conversational Evaluator, AI Control Tower, Virtual Agent, auto-evaluation]
-breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Conversational evaluator

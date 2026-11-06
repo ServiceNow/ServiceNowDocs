@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 4
 keywords: [Extend existing ServiceNow experiences, Prerequisites, Steps, Two extensions targeting the same route]
-breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Extend existing ServiceNow experiences
@@ -24,7 +24,7 @@ Contribute a page to an experience owned by another scoped application, without 
 
 ## About this task
 
-For the same task through the ServiceNow® AI Experience Lab for VS Code instead of the CLI, see [Create an extension application with Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-an-extension-application-with-lux-lab.md).
+For the same task through the ServiceNow Lux Lab for VS Code instead of the CLI, see [Create an extension application with Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-an-extension-application-with-lux-lab.md).
 
 ## Procedure
 

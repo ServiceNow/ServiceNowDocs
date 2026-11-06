@@ -18,7 +18,7 @@ Migrate resource plans and cost plans of your projects or demands to resource as
 
 ## Before you begin
 
--   Learn more about [Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
+-   Learn more about [Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 -   Verify the project or demand have resource plans and cost plans.
 -   Verify that the Resource Management Workspace plugin is version 5.5.0 or later for proper effort table synchronization.
 -   Role required: resource\_user
@@ -62,7 +62,7 @@ During migration, the system performs the following operations:
 
     \[Omitted image "rp-ra-migration-confirmation-window.png"\] Alt text: Resource plans migration confirmation window.
 
-    **Tip:** You can [Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
+    **Tip:** You can [Activate a scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
 
 4.  Verify that the migration completed successfully by checking the resource assignment records.
 
@@ -132,5 +132,5 @@ To verify the migration at the database level, system administrators can run the
 
 **Warning:** If the effort table is out of sync, use the [Update Effort Estimates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md) scheduled job to regenerate effort records. Verify you test this job on a sub-production instance before running it on production, as it updates all effort estimates for all resource groups.
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

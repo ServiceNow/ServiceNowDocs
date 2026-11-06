@@ -7,9 +7,9 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create resource assignments for demands, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage resources for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Recalculate costs of resource assignments of a demand
@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To recalculate the costs of resource assignments, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+To recalculate the costs of resource assignments, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 

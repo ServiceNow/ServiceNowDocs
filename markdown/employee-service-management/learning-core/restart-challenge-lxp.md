@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a Learning challenge, Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a Learning challenge, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Restart a learning challenge
@@ -32,4 +32,6 @@ Role required: admin
 
 4.  On the **Do you want to restart this challenge** pop-up, click **Yes, I'm done**.
 
+
+**Parent Topic:**[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-challenge.md)
 

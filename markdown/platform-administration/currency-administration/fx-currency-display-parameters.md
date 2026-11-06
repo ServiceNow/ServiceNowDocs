@@ -7,9 +7,9 @@ release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [FX Currency field behavior, Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer]
+breadcrumb: [FX Currency field behavior, Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Identify the FX Currency field and its display parameters
@@ -40,7 +40,7 @@ Role required: admin, currency\_admin
 
 7.  In the **Display Digits** field, select the number of digits that should appear after the decimal point in lists and reports.
 
-<table id="choicetable_display_digits"><tbody><tr><td id="d217849e128">
+<table id="choicetable_display_digits"><tbody><tr><td id="d226530e128">
 
 **Currency Default**
 
@@ -51,7 +51,7 @@ Number of digits that appear on lists and forms, based on what is appropriate an
 -   Yen: No digits appear after the decimal, because the Yen uses no cents and numbers round to the next latest value. For example, a calculated currency value of 69.535 rounds up to, and appears as, 67 Yen.
 
 
-</td></tr><tr><td id="d217849e149">
+</td></tr><tr><td id="d226530e149">
 
 **0–12**
 
@@ -66,7 +66,7 @@ Specific number of digits that should appear after the decimal, with selectable 
 
 8.  In the **Display Value Currency** field, select what currency value appears in the designated FX Currency field on forms and lists.
 
-<table id="choicetable_display_value_currency"><tbody><tr><td id="d217849e191">
+<table id="choicetable_display_value_currency"><tbody><tr><td id="d226530e191">
 
 **Use Global Default**
 
@@ -74,7 +74,7 @@ Specific number of digits that should appear after the decimal, with selectable 
 
 Use the global default you established in the **glide.currency2.display\_value** system property in **System Localization** &gt; **All Properties.**
 
-</td></tr><tr><td id="d217849e212">
+</td></tr><tr><td id="d226530e212">
 
 **Display As Entered**
 
@@ -82,7 +82,7 @@ Use the global default you established in the **glide.currency2.display\_value**
 
 Currency value, as entered into the designated FX Currency field. For example, if the user locale is US Dollars, the value appears in Euros if they select the Euro as the currency during an entry session.
 
-</td></tr><tr><td id="d217849e221">
+</td></tr><tr><td id="d226530e221">
 
 **Display in Session Currency**
 
@@ -92,7 +92,7 @@ Currency value entered into the designated FX Currency field, converted to the s
 -   If the user locale is Japan, the session currency appears in the Yen.
  To learn more about the user locale, see [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/locales.md).
 
-</td></tr><tr><td id="d217849e249">
+</td></tr><tr><td id="d226530e249">
 
 **Display in Reference Currency**
 
@@ -103,7 +103,7 @@ Currency value entered into the designated FX Currency field, converted to the r
 </td></tr></tbody>
 </table>9.  In the **Aggregation Source** field, select the currency type to use when aggregating currency amounts for the designated field on reports.
 
-<table id="choicetable_aggregation_source"><tbody><tr><td id="d217849e286">
+<table id="choicetable_aggregation_source"><tbody><tr><td id="d226530e286">
 
 **Use Global Default**
 
@@ -111,7 +111,7 @@ Currency value entered into the designated FX Currency field, converted to the r
 
 Use the global default you established in the **glide.currency2.default\_reference\_currency** property in **System Localization** &gt; **All Properties.**
 
-</td></tr><tr><td id="d217849e307">
+</td></tr><tr><td id="d226530e307">
 
 **As Entered Values**
 
@@ -119,7 +119,7 @@ Use the global default you established in the **glide.currency2.default\_referen
 
 Currency values, as entered into the designated FX Currency field. **Note:** If you select this option, you may experience situations where amounts entered in dissimilar currencies can't be aggregated on reports. For example, if you enter currency amounts in US Dollars, Yen, and Euros, the amounts can't be properly aggregated, or may result in erroneous totals.
 
-</td></tr><tr><td id="d217849e319">
+</td></tr><tr><td id="d226530e319">
 
 **Reference values**
 

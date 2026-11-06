@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-add-store-case-details.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
 ---
@@ -34,4 +34,6 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
     A new form appears where you must add a task for the store.
 
+
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

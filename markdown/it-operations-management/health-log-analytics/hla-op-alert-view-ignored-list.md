@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mute an unimportant alert, Assign higher or lower significance to an alert, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -33,12 +33,10 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     |Created|Date and time when the metric was added to the list.|
 
 
-**Parent Topic:**[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-mute.md)
-
 **Related topics**  
 
 
-[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-mute-sow.md)
+[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-mute-sow.md)
 
-[Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-restore-user-defined-sow.md)
+[Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined-sow.md)
 

@@ -1,0 +1,65 @@
+---
+title: Analyze hardware assets using the Generate hardware asset insights generative AI skill
+description: View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/generate-asset-analysis-now-assist-ham.html
+release: zurich
+product: Hardware Asset Management
+classification: hardware-asset-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+---
+
+# Analyze hardware assets using the Generate hardware asset insights generative AI skill
+
+View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
+
+## Before you begin
+
+Summaries are available only for assets within the Hardware and Asset classes and that are licensed and associated with an opted-in resource category.
+
+**Important:** This feature doesn't support pallets, consumables, bundles, and assets that are opted out of HAM workflows.
+
+Role required: asset
+
+## About this task
+
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, Google Gemini is the default model provider for the Generate hardware asset insights generative AI skill.
+
+The Generate hardware asset insights generative AI skill generates comprehensive asset analysis summaries by aggregating data from related records. These summaries provide insights into the asset lifecycle, chain of custody, audit status, and financial metrics to support key asset management activities. The level of detail in the summary depends on the amount of data available for that specific asset. The summary dynamically updates based on asset state and includes context from any active incidents, change requests, or tasks. To maintain data integrity and streamline workflows, the skill highlights missing information and lists specific action items.
+
+**Note:** You can view incident and change request details in the summary only if the asset role is provisioned with read access to the Incident \[incident\] and Change Request \[change\_request\] tables.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Hardware Asset Workspace**.
+
+2.  Select the **Hardware assets** tab.
+
+3.  Select the asset record that you want to analyze.
+
+4.  Select **Summarize**.
+
+    An asset analysis summary card with a consolidated overview of critical asset data and potential actions is displayed.
+
+    \[Omitted image "now-assist-ham-asset-summary.png"\] Alt text: Asset analysis summary with comprehensive asset information and list of action items
+
+
+**Parent Topic:**[Reporting and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reporting-performance-ham.md)
+
+**Related topics**  
+
+
+[Create a TCO report in Hardware Asset Workspace]()
+
+[Manage stockrooms with inventory reports in the Hardware Asset Workspace]()
+
+[View all maturity items for Hardware Asset Management]()
+

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/generate-thresholds-io-alerts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Generate thresholds for key alerts
@@ -24,7 +24,7 @@ Role required: admin
 
     \[Omitted image "threshold-banner-io.png"\] Alt text: Shows the Generate Threshold button in the Configure Alerts banner.
 
-    A notification banner displays. If the banner prompts to configure alerts, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
+    A notification banner displays. If the banner prompts to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
 
 2.  Select **Generate Threshold**.
 
@@ -67,4 +67,6 @@ Role required: admin
 
     **Note:** If you choose three max alerts per day, then you may receive up to three Alerts notification per day for that specific metric. The alert count resets daily at 00:00 UTC.
 
+
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts.md)
 

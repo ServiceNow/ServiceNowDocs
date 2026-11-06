@@ -1,5 +1,5 @@
 ---
-title: Asset Analytics overview for Enterprise Asset workspace
+title: Asset analytics overview for Enterprise Asset workspace
 description: Use the Asset Analytics view to get a detailed view of all your assets, their overall performance, and the asset total cost of ownership \(TCO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.html
@@ -7,12 +7,12 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
-# Asset Analytics overview for Enterprise Asset workspace
+# Asset analytics overview for Enterprise Asset workspace
 
 Use the Asset Analytics view to get a detailed view of all your assets, their overall performance, and the asset total cost of ownership \(TCO\).
 

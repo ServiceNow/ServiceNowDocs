@@ -1,15 +1,16 @@
 ---
 title: Knowledge articles on ServiceNow Agent
-description: Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.Search through articles from your organization's knowledge base to find helpful information relevant to a work order task assigned to you.Know when your team members are on-site working on a task and if they are on schedule to complete their tasks. You can connect with them by calling or sending a text message.Access knowledge articles that are attached to work order tasks on the ServiceNow Agent application.Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the ServiceNow Agent application.Discover articles with similar information on a topic while viewing a knowledge article.View translated versions of published knowledge articles through the ServiceNow Agent mobile app.Ask natural language questions and get quick, accurate answers from the Knowledge Base, including additional information and related steps for effective help, all from the ServiceNow Agent app.
+description: Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.Search through articles from your organization's knowledge base to find helpful information relevant to a work order task assigned to you.Know when your team members are on-site working on a task and if they are on schedule to complete their tasks. You can connect with them by calling or sending a text message.Access knowledge articles that are attached to work order tasks on the ServiceNow Agent application.Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the ServiceNow Agent application.Discover articles with similar information on a topic while viewing a knowledge article.View translated versions of published knowledge articles through the ServiceNow Agent mobile app.Ask natural language questions and get answers from the Knowledge Base, including related steps and guidance, from the ServiceNow Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/access-information-you-need-mobile.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Agent mobile app, Use, Field Service Management]
+keywords: [conversational search, Now Assist, technician support, SN Agent, knowledge base]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Knowledge articles on ServiceNow Agent
@@ -30,15 +31,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 2.  View or search for the knowledge article.
 
-<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d125690e124">
+<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d137863e124">
 
 To
 
-</th><th align="left" id="d125690e127">
+</th><th align="left" id="d137863e127">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d125690e133">
+</th></tr></thead><tbody><tr><td id="d137863e133">
 
 **View knowledge articles for a work order task assigned to you**
 
@@ -50,7 +51,7 @@ Do this
 4.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **View Knowledge**.
  The application uses the task short description to search all knowledge bases and returns articles based on that search.
 
-</td></tr><tr><td id="d125690e179">
+</td></tr><tr><td id="d137863e179">
 
 **Search knowledge articles**
 
@@ -93,15 +94,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Connect with a team member.
 
-<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d125690e327">
+<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d137863e327">
 
 To
 
-</th><th align="left" id="d125690e330">
+</th><th align="left" id="d137863e330">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d125690e336">
+</th></tr></thead><tbody><tr><td id="d137863e336">
 
 **Place a call**
 
@@ -112,7 +113,7 @@ Do one of the following:-   Tap the **Phone** icon and tap **Dial number**to imm
 -   Open the member profile, tap the mobile number, and select **Dial number**.
 
 
-</td></tr><tr><td id="d125690e369">
+</td></tr><tr><td id="d137863e369">
 
 **Send a text message**
 
@@ -125,7 +126,7 @@ Tap the **Phone** icon and tap **Send SMS** to send a text message to the team m
 3.  Select **Send SMS** and send your message through one of the available messaging options.
 
 
-</td></tr><tr><td id="d125690e402">
+</td></tr><tr><td id="d137863e402">
 
 **View the member's location on the map**
 
@@ -200,15 +201,15 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 3.  Provide feedback for the article by marking it as helpful or not helpful, rating it, or leaving a comment.
 
-<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d125690e695">
+<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d137863e695">
 
 To
 
-</th><th align="left" id="d125690e698">
+</th><th align="left" id="d137863e698">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d125690e704">
+</th></tr></thead><tbody><tr><td id="d137863e704">
 
 **Mark an article as helpful or unhelpful**
 
@@ -216,7 +217,7 @@ Do this
 
 Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not helpful icon.\).
 
-</td></tr><tr><td id="d125690e725">
+</td></tr><tr><td id="d137863e725">
 
 **Rate the article**
 
@@ -224,7 +225,7 @@ Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpfu
 
 Tap the star icons displayed on the article to indicate its effectiveness on a scale of 1 to 5.
 
-</td></tr><tr><td id="d125690e734">
+</td></tr><tr><td id="d137863e734">
 
 **Enter your comment \[available only in online mode\]**
 
@@ -234,7 +235,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Enter the comment and click **Submit**.
 
 
-</td></tr><tr><td id="d125690e758">
+</td></tr><tr><td id="d137863e758">
 
 **View all comments and replies posted for the article \[available only in online mode\]**
 
@@ -244,7 +245,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Scroll down to see the comments.
 
 
-</td></tr><tr><td id="d125690e780">
+</td></tr><tr><td id="d137863e780">
 
 **Like a comment on the article \[available only in online mode\]**
 
@@ -254,7 +255,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Underneath a comment, tap the like icon \(\[Omitted image "like-comment-now-mobile.png"\] Alt text: Like icon.\).
 
 
-</td></tr><tr><td id="d125690e807">
+</td></tr><tr><td id="d137863e807">
 
 **Reply to a comment on the article \[available only in online mode\]**
 
@@ -349,7 +350,7 @@ An article is available in other languages only if an author has created the tra
 
 ## Use conversational search for technician support
 
-Ask natural language questions and get quick, accurate answers from the Knowledge Base, including additional information and related steps for effective help, all from the ServiceNow Agent app.
+Ask natural language questions and get answers from the Knowledge Base, including related steps and guidance, from the ServiceNow Agent app.
 
 ### Before you begin
 
@@ -359,19 +360,19 @@ Role required: wm\_agent
 
 \[Omitted video\] Description: This video demonstrates how to use conversational search for technician support
 
-You can use natural language processing to pose questions in your own words and receive immediate, precise responses from the Knowledge Base. The conversational search complements these answers with relevant details and step-by-step guidance, which enhances your ability to diagnose and resolve issues efficiently. This approach ensures that you have all the necessary information to perform their tasks accurately.
+You can ask questions in your own words and receive responses from the Knowledge Base, including relevant details and step-by-step guidance to help you diagnose and resolve issues.
+
+**Note:** ServiceNow Otto® generates responses using AI. Review answers before acting on them, as generated content may not always be accurate.
 
 ### Procedure
 
-1.  Navigate to **My work** or **My tasks**.
+1.  Tap ServiceNow Otto® in the navigation bar.
 
-2.  From quick actions, tap **Ask Now Assist**.
+2.  In the **Quick actions** section, tap **Ask ServiceNow Otto**.
 
-    \[Omitted image "ask-now-assist.png"\] Alt text: Ask Now Assist
+3.  In the ServiceNow Otto® panel, type a question.
 
-3.  In the Now Assist panel, type a question.
-
-    For example: "How do I install a router?"
+    For example: `How do I install a router?`
 
 4.  Tap **Send**.
 
@@ -379,6 +380,6 @@ You can use natural language processing to pose questions in your own words and 
 
 6.  Tap **Done** to end the conversation.
 
-7.  Tap the plus icon to begin a new conversation.
+7.  Tap the new conversation icon to begin a new conversation.
 
 

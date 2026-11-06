@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 11
-breadcrumb: [Dashboard, Analytics and reporting, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Configuration Compliance dashboard, Analytics and reporting, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Viewing the Performance Analytics for Configuration Compliance dashboard

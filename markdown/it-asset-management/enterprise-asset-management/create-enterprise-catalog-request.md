@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Service Catalog for requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise asset reclamation, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a catalog request to reclaim enterprise assets
@@ -113,4 +113,6 @@ Any instructions that you may want to mention.
 
     The enterprise asset reclamation request is created. Once the request is created, the enterprise\_asset\_technician role navigates to the Enterprise Asset Workspace to view the reclamation line and complete the tasks. For more details, see [Close an enterprise asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/close-enteprise-reclamation-request.md).
 
+
+**Parent Topic:**[Enterprise asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
 

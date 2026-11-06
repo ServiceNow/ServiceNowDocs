@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-nested-bundling-in-salesforce-cpq.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Nested bundling in Salesforce CPQ
@@ -27,7 +27,7 @@ To enable support for nested bundles, additional setup steps must be completed i
 2.  On the Additional Settings tab, check the box to enable **Nested Bundles for External Configurator**.
 3.  Click **Save** to save the changes.
 
-Products that may have other products below them in the BOM hierarchy should be marked as Logik Enabled in the Product2 record in Salesforce. This is the same as setting up configurable products to work with ServiceNow CPQ. The products also need to have a pricebook entry in the pricebook used for the quote if they are going to be created as quote lines.
+Products that may have other products below them in the BOM hierarchy should be marked as ServiceNow CPQ Enabled in the Product2 record in Salesforce. This is the same as setting up configurable products to work with ServiceNow CPQ. The products also need to have a pricebook entry in the pricebook used for the quote if they are going to be created as quote lines.
 
 The following video explains setting up nested bundle structures in ServiceNow CPQ and Salesforce CPQ:
 
@@ -35,7 +35,11 @@ The following video explains setting up nested bundle structures in ServiceNow C
 
 ## Setup in ServiceNow CPQ
 
-After completing the Salesforce CPQ package setting steps, reach out to ServiceNow CPQ support and log a case to have nested bundling enabled in your ServiceNow CPQ instance. As with any larger change, the recommendation would be to start in a dev or test environment and validate that it is working as expected before enabling it in production.
+After completing the Salesforce CPQ package setting steps, log a support case to enable nested bundling in your ServiceNow CPQ instance.
+
+**Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+
+As with any larger change, the recommendation would be to start in a dev or test environment and validate that it is working as expected before enabling it in production.
 
 In ServiceNow CPQ, the BOM hierarchy is defined through the parentProduct and uniqueIdentifier fields on items in the bill of materials. This hierarchy in the product list is reflected in the Salesforce CPQ quote line editor.
 

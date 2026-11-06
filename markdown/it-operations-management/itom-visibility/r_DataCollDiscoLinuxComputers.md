@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Patterns, Discovery, Linux]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -32,6 +32,11 @@ The Linux server pattern can discover only English-based Linux.
     -   SUSE
     -   CentOS
     -   Ubuntu
+    -   Rocky Linux
+    -   AlmaLinux OS
+    -   Debian GNU/Linux
+    -   VMware Photon OS
+    -   Amazon Linux
     -   Alpine Linux \(starting from Visibility Content version 6.30.0\)\*
     \* Operating System and OS Version only
 

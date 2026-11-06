@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-22"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Deploying what you built with Build Agent
@@ -20,7 +20,7 @@ Learn about deployment methods and workflows for moving applications created wit
 After development, review, and testing are complete, a typical deployment workflow includes the following steps:
 
 1.  Collaborative design: Business owners and IT collaborate on requirements and ideas using their preferred tools.
-2.  AI-driven app development: Build Agent and ServiceNow Otto process files, chat history, and diagrams to generate and implement app updates.
+2.  AI-driven app development: Build Agent, Autonomous Engineer and ServiceNow Otto process files, chat history, and diagrams to generate and implement app updates.
 3.  Review and testing: Teams preview updates, make revisions, and run rounds of performance and readiness testing.
 4.  Developer review: A developer reviews the AI-generated changes, compares versions, and confirms the changes are ready for deployment.
 5.  Deployment approval: The project is handed off to a deployment manager, who initiates the deployment approval process.
@@ -36,20 +36,21 @@ The way isolation works depends on the environment:
 
 ## Deployment methods for Build Agent
 
-Build Agent supports the following deployment methods for apps created and edited with agentic development:
+Build Agent and Autonomous Engineer support the following deployment methods for apps created and edited with agentic development:
 
 -   Git-based source control integration: ServiceNow supports Git-based workflows for version control and CI/CD.
     -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow supports bring-your-own Git integration, such as GitHub or Bitbucket.
-    -   You must be on Zurich Patch 12 to use source control in ServiceNow Studio.
-    -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
+    -   You must be on Brazil Patch 1 to use source control in ServiceNow Studio.
+    -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md) and [Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).
     -   For information on update sets for Build Agent, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-update-sets.md).
+    -   For information on update sets for Autonomous Engineer, see [Update sets and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ae-update-sets.md).
     -   For more information on System Update Sets, see [System update sets]().
 
 ## Options for moving apps through instances
 
-After you create an app using Build Agent, you have several options to move the app to the test instance.
+After you create an app using Build Agent or Autonomous Engineer, you have several options to move the app to the test instance.
 
 1.  Wrap the entire scoped application in an update set. The workflow is as follows:
     1.  Go to the **Custom Applications** list, select an app and swap to its scope.
@@ -63,7 +64,7 @@ After you create an app using Build Agent, you have several options to move the 
     -   Register and entitle apps before publishing.
     -   For more information on Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/app-repo.md).
 
-If your app is connected to Git-based source control, you can also push changes to a remote repository directly from the Build Agent chat panel. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md).
+If your app is connected to Git-based source control, you can also push changes to a remote repository directly from the Build Agent chat panel. For more information, see .
 
 ## Additional deployment tools
 

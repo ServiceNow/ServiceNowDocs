@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Installing Enterprise Asset Management
@@ -21,5 +21,5 @@ You can install the Enterprise Asset Management application \(com.sn\_eam\) if y
 -   **[Install Enterprise Asset Management from the Admin Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-eam-admin-home-page.md)**  
 You can install the Enterprise Asset Management application \(com.sn\_eam\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

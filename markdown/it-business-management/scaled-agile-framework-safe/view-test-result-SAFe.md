@@ -7,7 +7,7 @@ release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Track your SAFe team work from the list view, SAFe Board — Team level, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---

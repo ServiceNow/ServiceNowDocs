@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-gaf.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configure Group Action Framework
@@ -100,7 +100,7 @@ You can have different GAF configurations for different agentic workflows and ap
 
 ## Result
 
-GAF is configured on your instance for that application and can be used by AI agents to find related records.
+GAF is configured on your instance for an application and can be used by AI agents to find related records.
 
 ## What to do next
 

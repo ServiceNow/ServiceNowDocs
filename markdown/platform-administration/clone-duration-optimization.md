@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/clone-duration-optimization.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Instance Clone, Configure core features, Administer]
+breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # General guidelines for optimizing your clone duration

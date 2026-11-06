@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Joining tables, Work with database views, Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Joining tables, Work with database views, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Specify a field to return

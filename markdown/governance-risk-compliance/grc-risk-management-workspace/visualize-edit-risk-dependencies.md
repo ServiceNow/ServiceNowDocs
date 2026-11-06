@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use entity and risk dependencies using the GRC: Workbench, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_risk.manager
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d179993e97">
+<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d319322e97">
 
 **To add an upstream risk dependency**
 
@@ -44,7 +44,7 @@ Role required: sn\_risk.manager
 
 Drag an eligible upstream risk from the list of eligible risks on the right and drop it on the top half of the risk in the center of the page.
 
-</td></tr><tr><td id="d179993e106">
+</td></tr><tr><td id="d319322e106">
 
 **To add a downstream risk dependency**
 

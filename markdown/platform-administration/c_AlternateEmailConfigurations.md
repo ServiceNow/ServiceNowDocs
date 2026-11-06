@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_AlternateEmailConfigurations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Advanced email setup
@@ -26,7 +26,7 @@ Setting up your own email environment can be useful if you want to use existing 
 The following procedures assume that you [enabled basic email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfiguringStandardEmail.md).
 
 -   **[Enable using your own SMTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfAltEmailUsgOwnSMTP.md)**  
-Enable using your own SMTP server so that you can use the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
+Enable using your own SMTP server so that you can leverage the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
 -   **[Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfAltEmailConfPOP3Server.md)**  
 You can use your own POP3 server to store and receive email for the instance.
 -   **[Enable using your own SMTP and POP3 servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ConfAltEmailConfServers.md)**  
@@ -37,10 +37,12 @@ Help prevent sending emails to addresses that are known to generate bounces by m
 OAuth enables your instance to receive and send email through a third-party email account.
 -   **[System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-address-filters.md)**  
 Prevent your system from communicating with untrusted domains and email addresses.
--   **[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/read-email-using-ms-graph.md)**  
-Use Microsoft Graph endpoints to read emails from Microsoft Exchange Online.
+-   **[Read or send emails using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/read-send-emails-ms-graph.md)**  
+Use Microsoft Graph endpoints to read or send emails from Microsoft Exchange Online.
 -   **[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/send-email-client-credential-flow.md)**  
 Use the client credential flow to send emails from Microsoft Exchange Online.
+-   **[Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/personal-corporate-mailbox.md)**  
+Enables sales agents to integrate their personal corporate mail boxes to send and receive emails.
 
 **Parent Topic:**[Configure email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-email-admin.md)
 

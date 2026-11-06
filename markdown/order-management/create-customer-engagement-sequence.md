@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-customer-engagement-sequence.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a customer engagement sequence
@@ -30,11 +30,14 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 ## About this task
 
-**Important:** Setup and Tear Down are predefined stages in the Customer Engagement Sequences playbook. Do not remove these stages or add more activities in these stages. Avoid making any other changes to the Start Sequence and End Sequence activities.
+**Important:**
+
+-   Create sequences from the Sequences module in the CRM Workspace, not from Workflow Studio. If you create a playbook of the type Sequence directly in Workflow Studio, the required Setup, Configure sequence activities, and Tear Down stages are not added automatically.
+-   Setup and Tear Down are predefined stages in the Customer Engagement Sequences playbook. Do not remove these stages or add more activities in these stages. Avoid making any other changes to the Start Sequence and End Sequence activities.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -101,7 +104,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 16. Publish the sequence by selecting **Activate**.
 
-17. View the sequence in the CSM/FSM Workspace by selecting the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and navigating to **Sequences** &gt; **All Sequences**.
+17. View the sequence in the CRM Workspace by selecting the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and navigating to **Sequences** &gt; **All Sequences**.
 
 
 ## What to do next
@@ -109,7 +112,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 [Assign runtime permissions while creating sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-runtime-permission-sequence-playbooks.md).
 
 -   **[Define trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/define-trigger-conditions.md)**  
-Define trigger conditions that start a sequence by configuring simple triggers or combining multiple triggers for initiating workflows from multiple record-based events.
+Define trigger conditions that start a sequence by configuring simple triggers, or combining multiple triggers for initiating workflows from multiple record-based events.
 -   **[Add a schedule call activity to a telesales workflow sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-schedule-call-activity.md)**  
 Add a schedule call activity in your sequences to support telesales workflows.
 -   **[Add decision nodes to a sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-decision-nodes-sequences.md)**  

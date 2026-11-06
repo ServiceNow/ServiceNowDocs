@@ -7,8 +7,8 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Review request policies, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -46,60 +46,23 @@ This procedure demonstrates how to assign account configuration using the assign
 
 6.  Select **Add**.
 
-7.  Select **Get AWS Config Assignment Results**.
+7.  Select **Get Config Assignment Results**.
 
-8.  In the **Add data collector** dialog box, under the **Details** tab, fill in the **Label** and **Variable name** fields.
+8.  In the **Add data collector** pop-up, enter `Label` and `Variable name`.
 
-    These field values are used to identify the data collector.
+    These field values are only used to identify the data collector.
 
-9.  Under the **Inputs** tab, fill in the fields.
+    \[Omitted image "add\_data\_collector1.png"\] Alt text: Data collector dialog box
 
-<table id="table_il5_1hd_nhc"><thead><tr><th>
+9.  Under the **Inputs** tab, select **CW Application Configuration** and **CW Account Group** \(same as the AWS org unit that an admin selects on the account request screen\).
 
-Field
+    \[Omitted image "add\_data\_collector2.png"\] Alt text: Data collector dialog box for inputs tab
 
-</th><th>
+    **Note:** The selected AWS org unit in the data collector should be part of the same Cloud Organization provided in the configuration.
 
-Description
+10. Select **Save**.
 
-</th></tr></thead><tbody><tr><td>
-
-Application Configuration
-
-</td><td>
-
-The application configuration for the AWS cloud provider of the create account type.
-
-</td></tr><tr><td>
-
-Organizational Unit
-
-</td><td>
-
-Organizational unit \(OU\) are the list of units populated automatically after discovery is run.**Note:**
-
-The selected AWS org unit in the data collector should be part of the same Cloud Organization provided in the configuration.
-
-</td></tr><tr><td>
-
-GovCloud Organization
-
-</td><td>
-
-The GovCloud organization into which the account will be moved. This field is applicable only for AWS GovCloud accounts.
-
-</td></tr><tr><td>
-
-GovCloud Organizational Unit
-
-</td><td>
-
-This field is applicable only for AWS GovCloud accounts.
-
-</td></tr></tbody>
-</table>10. Select **Save**.
-
-    The new data collector entry is saved. Only when the **If** condition is met, the **then** condition gets executed.
+    The new data collector entry is saved. Only when the **If** condition is met, the **then** condition get executed.
 
 11. Select the output result as follows.
 
@@ -119,5 +82,5 @@ To test the policy, see [Test updates to a PaCE policy version](https://raw.gith
 
 To publish the policy, see [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/pace-publish-policy-version.md).
 
-To add a new approval step in the flow designer, see [Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/building-workflow-studio-components.md).
+To add a new approval step in the flow designer, see [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-workflow-studio.md).
 

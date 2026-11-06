@@ -7,9 +7,9 @@ release: zurich
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [LDAP integration setup, LDAP integration, Access Management]
+breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Management]
 ---
 
 # Enable an LDAP listener and set system properties

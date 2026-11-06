@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-itsmmcpserver-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -120,7 +120,7 @@ Use common tools to use with the ITSM MCP Server.
 For example:
 
     -   Answer structured natural language questions about ITSM data, including details on incidents, change requests, and active catalog items using `itsm_knowledge_graph`.
-    -   Approve or reject your oldest pending approval for a change or request items using `task_approval_decision`.
+    -   Approve or reject your oldest pending approval for a change request or an incident using `task_approval_decision`.
     -   Get the authenticated user's current session time zone and the current date and time in that time zone using `get_session_timezone`.
 
 </td></tr></tbody>

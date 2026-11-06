@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/dynamic-scheduling.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scheduling and Dispatching, Explore, Field Service Management]
+breadcrumb: [Optimize Scheduling and Dispatching, Explore, Field Service Management]
 ---
 
 # Dynamic scheduling
@@ -18,7 +18,7 @@ By leveraging task attributes and agent availability, Dynamic Scheduling optimiz
 
 ## Key benefits
 
-Dynamic Scheduling streamlines field assignments, maintains SLAs, optimizes agent selection, and improves issue resolution. By leveraging its advanced capabilities, organizations can enhance operational efficiency, deliver exceptional field service experiences, and achieve higher levels of customer satisfaction.
+Dynamic Scheduling streamlines field assignments, maintains SLAs, optimizes agent selection, and improves issue resolution. By leveraging dynamic scheduling's advanced capabilities, organizations can enhance operational efficiency, deliver exceptional field service experiences, and achieve higher levels of customer satisfaction.
 
 -   **Streamline field assignments**
 
@@ -39,7 +39,7 @@ Dynamic Scheduling streamlines field assignments, maintains SLAs, optimizes agen
 
 ## Integration with Workforce Optimization for Field Service
 
-When enabled, Dynamic Scheduling works with the Workforce Optimization for Field Service application. This integration enables you to view the agent's schedule and events directly from the Dispatcher Workspace calendar. Gain access to a unified view of agent availability and make informed task assignments.
+When enabled, Dynamic Scheduling works with the Workforce Optimization for Field Service. This integration enables you to view the agent's schedule and events directly from the Dispatcher Workspace calendar. Gain access to a unified view of agent availability and make informed task assignments.
 
 ## Dynamic Scheduling for Planned Crews
 
@@ -47,7 +47,9 @@ Dynamic Scheduling schedules task assignments to planned crews. There are two ty
 
 ## Dynamic Scheduling for Capacity and Reservations Management
 
-Dynamic Scheduling schedules task assignments based on capacity defined for a territory or group by considering all the reservation rules.
+Dynamic Scheduling assigns tasks based on capacity defined for a territory or group by considering all the reservation rules.
+
+Reservation rules help allocate a specific percentage of capacity for different attributes of work order tasks, such as work type, location, or priority. This confirms efficient task management and meets specific workload demands. You can create multiple reservation rules to manage and prioritize work order tasks based on their attributes, such as priority and demand. Each rule assigns a specific task type or condition. This helps distribute workloads efficiently and make the best use of the available resources.
 
 **Related topics**  
 

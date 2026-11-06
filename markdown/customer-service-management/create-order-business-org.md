@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-order-business-org.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order Management for business location, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create an order for business organizations
@@ -28,7 +28,7 @@ Roles required:
 -   sn\_bus\_org\_orm.org\_relationship\_mgr, or
 -   sn\_bus\_loc.org\_sales\_mgr
 
--   Ensure that the Business Function is set to Sales and the Business Organization is active.
+-   Confirm that the Business Function is set to Sales and the Business Organization is active.
 
 ## About this task
 
@@ -36,7 +36,9 @@ When you start an order, a pop-up prompts you to enter details. The pop-up windo
 
 -   If you have a B2B role, you can create orders for customer accounts.
 -   If you have a B2C role, you can create orders for consumers.
--   Managers can also view child business locations and onboard agents to a business location.
+
+    **Note:** Managers can also view child business locations and onboard agents to a business location.
+
 
 ## Procedure
 
@@ -48,17 +50,17 @@ When you start an order, a pop-up prompts you to enter details. The pop-up windo
 
     \[Omitted image "create-order-business-org.png"\] Alt text: create a new order
 
-3.  On the Create a new order pop-up, create order for either an account or consumer.
+3.  On the Create a new order pop-up, create an order for either an account or consumer.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d251722e170">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d286286e162">
 
 To
 
-</th><th align="left" id="d251722e173">
+</th><th align="left" id="d286286e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d251722e179">
+</th></tr></thead><tbody><tr><td id="d286286e171">
 
 **Create an order for an account**
 
@@ -71,7 +73,7 @@ Description
     -   **Order action**: Select the type of order action.
 
 
-</td></tr><tr><td id="d251722e217">
+</td></tr><tr><td id="d286286e209">
 
 **Create an order for a consumer**
 
@@ -90,10 +92,10 @@ Description
 
     -   The Channel Partner field is available only when the Order Management for Business Location store app \(sn\_bus\_org\_orm\) is installed.
     -   The field is automatically prefilled if the agent is assigned to a single business location.
-    -   If the agent is assigned to multiple business locations, the field remains empty and must be selected manually.
-    -   The field is also prefilled when an **Account** or **Consumer** is selected, based on its associated Channel Partner.
-    To learn more about the **Channel Partner** field, see [Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/som-create-product-order.md).
 
+        **Note:** If the agent is assigned to multiple business locations, the field remains empty and must be selected manually.
+
+    -   The field is also prefilled when an **Account** or **Consumer** is selected, based on its associated Channel Partner.
 6.  Select **Create**.
 
 

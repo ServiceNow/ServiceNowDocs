@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -49,8 +49,6 @@ Add MetricBase data to charts on Service Observability dashboard templates when 
 Add a graph showing logs from Health Log Analytics \(HLA\) in a Service Observability dashboard.
 -   **[Add Splunk Enterprise data to Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/add-splunk-enterprise-data.md)**  
 Add Splunk Enterprise data to charts on Service Observability dashboard templates when you want to view those metrics in context of Service Observability.
--   **[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)**  
-Create a synthetic monitor to test your service's endpoints. Then display the results by customizing a Service Observability dashboard.
 
 **Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/configuring-service-observability.md)
 

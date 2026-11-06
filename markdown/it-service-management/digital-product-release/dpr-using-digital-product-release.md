@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital Product Release, IT Service Management]
 ---
@@ -20,6 +20,8 @@ Use Digital Product Release Workspace to perform these tasks to manage the relea
 
 -   **[Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-request-product.md)**  
 Request a new product or service to manage features and enhancements.
+-   **[Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-config-product-release-setting.md)**  
+Configure release settings for a product or service that are applied whenever a release is created or executed for that product.
 -   **[Manage product hierarchy using Included products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-manage-included-products.md)**  
 Add products that you manage​ as Included products within a product or service to create a product hierarchy.
 -   **[Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-release.md)**  

@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a role, Managing roles, User admin, Configure core features, Administer]
+breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add a role to an existing role
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see .
 
 ## Procedure
 

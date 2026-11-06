@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Report Subsection Element template, Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -44,15 +44,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Free Form tab, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d441836e142">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d446096e142">
 
 Field
 
-</th><th align="left" id="d441836e145">
+</th><th align="left" id="d446096e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d441836e151">
+</th></tr></thead><tbody><tr><td id="d446096e151">
 
 **Field title**
 
@@ -60,7 +60,7 @@ Description
 
 Name of the field title. For example, Overview.
 
-</td></tr><tr><td id="d441836e160">
+</td></tr><tr><td id="d446096e160">
 
 **Field value \(Placeholder\)**
 

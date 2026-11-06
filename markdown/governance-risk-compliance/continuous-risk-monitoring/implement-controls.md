@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework \(RMF\) step 3 - Implement controls
+title: RMF step 3 - Implement controls
 description: After you have selected controls for implementation and performed any of the possible actions on them, you can implement the controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/implement-controls.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Risk Management Framework \(RMF\) step 3 - Implement controls
+# RMF step 3 - Implement controls
 
 After you have selected controls for implementation and performed any of the possible actions on them, you can implement the controls.
 

@@ -222,5 +222,3 @@ Both enhanced and standard chat code is included in this topic. Review the begin
         ```
 
 
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
-

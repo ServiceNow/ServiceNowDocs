@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Google Directory Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -95,6 +95,9 @@ Role required: admin
 4.  Locate the **Google Directory** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Google Directory spoke, click **View Details**.
+
+        \[Omitted image "google-dir-connection.png"\] Alt text: Google Directory Spoke connection.
+
     -   To manage more than one Google Directory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 

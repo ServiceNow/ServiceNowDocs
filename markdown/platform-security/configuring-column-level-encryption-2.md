@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configuring-column-level-encryption-2.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Column Level Encryption, Encryption]
 ---
@@ -18,14 +18,14 @@ Learn how to activate and configure Column Level Encryption and manage migration
 
     Learn how to active either Column Level Encryption or Column Level Encryption Enterprise.
 
--   **Roles Required for Configuring Field Encryption**
+-   **Roles Required for Configuring Column Level Encryption**
 
     Learn about the roles required to configure Column Level Encryption.
 
 
 ## Migration from encryption support
 
-Use Scheduled jobs to migrate your keys and encrypted data from legacy Encryption Support to Column Level Encryption Enterprise. See details for this process at [Migrating to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/migration-to-platform-encryption.md)
+Use Scheduled jobs to migrate your keys and encrypted data from legacy Encryption Support to Column Level Encryption. See details for this process at [Migrating to Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/migration-to-platform-encryption-2.md)
 
 ## Change attachment encryption settings
 
@@ -33,8 +33,8 @@ Improve security by preventing users from attaching unencrypted files. For detai
 
 -   **[Activate Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activate-platform-encryption-2.md)**  
 With subscription to Column Level Encryption Enterprise, an admin can activate the com.glide.now.platform.encryption plugin.
--   **[Migrating to Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/migration-to-platform-encryption-2.md)**  
-Scheduled jobs migrate your keys and encrypted data from Encryption Support to Field Encryption Enterprise.
+-   **[Migrating to Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/migration-to-platform-encryption-2.md)**  
+Scheduled jobs migrate your keys and encrypted data from Encryption Support to Column Level Encryption.
 -   **[Prevent users from attaching unencrypted files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/attach-enc-property.md)**  
 Modify the com.glide.encryption.enable\_attachment\_key\_ui property to prevent your users with access to an encryption module key from attaching unencrypted attachments.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/editing-a-variable-set.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Variables page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Variables page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit a Variable set
@@ -40,12 +40,14 @@ Role required: admin
 
     Select the pencil icon to edit the Variable. The Edit Variable window opens.
 
-    \[Omitted image "image.edit-variable-window-2"\] Alt text: Edit variable window
+    \[Omitted image "edit-variable-window-2.png"\] Alt text: Edit variable window
 
 6.  To hide the value of a Variable, slide the toggle next to Encrypted.
 
     **Note:** Encrypted Variable values in Variable Sets are obscured. Encrypted values display as dots when set to encrypted.
 
-    \[Omitted image "image.encrypted-passwords"\] Alt text: Encrypted values
+    \[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
 
+
+**Parent Topic:**[Variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/variables.md)
 

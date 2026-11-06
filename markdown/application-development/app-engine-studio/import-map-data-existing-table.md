@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a data integration
@@ -26,7 +26,7 @@ This video shows you how to perform the following procedure.
 
     **Note:** Currently, Excel files are the only accepted data format users can upload.
 
--   Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-csm-accounts-contacts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,13 @@ An account is a supported external customer and a contact is a user who is an em
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   admin
 
 ## About this task
 

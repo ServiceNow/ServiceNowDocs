@@ -1,5 +1,5 @@
 ---
-title: Install and configure
+title: Install and configure Hybrid Analysis
 description: Before you run the integration on your instance, complete the installation and configuration steps so the Hybrid Analysis application properly integrates with ServiceNow AI Platform Security Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/install-and-configure-hybrid-analysis.html
@@ -7,12 +7,12 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hybrid Analysis integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Install and configure
+# Install and configure Hybrid Analysis
 
 Before you run the integration on your instance, complete the installation and configuration steps so the Hybrid Analysis application properly integrates with ServiceNow AI Platform Security Operations.
 
@@ -112,5 +112,5 @@ Perform the following steps to update system properties and install and configur
 
 **Previous topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Next topic:**[Verify expected results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
+**Next topic:**[Verify expected results for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
 

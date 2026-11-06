@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personas for consumers, Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Personas for consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Assign roles to groups for Service Exchange

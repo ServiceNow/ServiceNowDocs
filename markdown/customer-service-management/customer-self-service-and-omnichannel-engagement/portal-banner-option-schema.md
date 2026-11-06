@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Add a widget for additional functionality to the Portal Banner widget and config
 
 The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Role required: admin or sp\_admin
 
 6.  Copy the JSON code from the **Additional options, JSON format** field.
 
-7.  On your portal home page, press Control+right-click on the Portal Banner widget.
+7.  On your portal home page, press Control+right-click on the Portal Banner widget..
 
 8.  Select **Instance Options**.
 

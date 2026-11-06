@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/lookup-verify-create-contact.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -16,7 +16,10 @@ An agent can create a contact or consumer from the Lookup and verify feature in 
 
 ## Before you begin
 
-Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, workspace\_admin, admin
+Role required: Any one of the:
+
+-   sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, workspace\_admin, admin, and sn\_crm\_account\_data\_managerroles to create a contact.
+-   sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, workspace\_admin, admin, or sn\_crm\_consumer\_data\_manager roles to create a consumer.
 
 ## About this task
 
@@ -36,7 +39,7 @@ If an agent can't find a contact or consumer, they can create a record for that 
 
     This information can include the first few letters of a first or last name or the first few digits of a phone or case number.
 
-4.  If you cannot locate the contact or consumer and choose to create a record, select **Create Contact** or **Create Consumer**.
+4.  If you can't locate the contact or consumer and choose to create a record, select **Create Contact** or **Create Consumer**.
 
     The system displays the Create Contact or Create Consumer form in the Contextual side panel.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-admin-api-keys.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Intro to admin API keys
@@ -26,7 +26,7 @@ To get to the Admin API Keys page in ServiceNow CPQ, click the arrow to expand t
 
 \[Omitted image "cpq-apis-admin-keys-page.png"\] Alt text: Admin keys
 
-## Add a new admin API key
+## Add an admin API key
 
 To add a new admin API key, click **New** at the top of the screen.
 
@@ -91,8 +91,6 @@ When you use an admin API key, you use different endpoints to access the admin A
 
 **Related topics**  
 
-
-[https://logikio.atlassian.net/wiki/spaces/CS/pages/1614479620/Setting+up+a+Google+IdP+JWT+Token+for+Headless+Admin+API+Authentication](https://logikio.atlassian.net/wiki/spaces/CS/pages/1614479620/Setting+up+a+Google+IdP+JWT+Token+for+Headless+Admin+API+Authentication)
 
 [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with application rationalization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Use bubble chart view
@@ -26,10 +26,10 @@ Set the planned disposition of a business application to track decisions on the 
 Create or edit the life cycle of a business application to manage the business application.
 -   **[Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)**  
 You can make updates to the business application record directly from the list, without leaving the bubble chart view.
--   **[View scores of a custom scoring profile on bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-app-rat-custom-scoring-profile-scores.md)**  
-Create a system property to view indicator scores of a custom scoring profile on the application rationalization bubble chart.
 -   **[Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md)**  
 Customize the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to change the number of bubbles displayed on the application rationalization bubble chart page.
+-   **[Use case: How indicator scores appear on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-bubble-chart-use-case.md)**  
+Understand how application indicator scores are calculated and displayed as bubbles on the Application Rationalization bubble chart.
 
 **Parent Topic:**[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-app-rat.md)
 

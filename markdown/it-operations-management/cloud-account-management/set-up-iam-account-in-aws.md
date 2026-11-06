@@ -1,20 +1,20 @@
 ---
 title: Set up an IAM account for a ServiceNow user in AWS
-description: AWSCreate an Identity Access Manager \(IAM\) user in the management account using the CloudFormation template. This allows you to manage multiple AWS accounts with a centralized IAM user.
+description: AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\). This allows you to manage multiple AWS accounts with a centralized IAM user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up an IAM account for a ServiceNow user in AWS
 
-AWSCreate an Identity Access Manager \(IAM\) user in the management account using the CloudFormation template. This allows you to manage multiple AWS accounts with a centralized IAM user.
+AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\). This allows you to manage multiple AWS accounts with a centralized IAM user.
 
 ## Before you begin
 
@@ -24,15 +24,15 @@ AWSCreate an Identity Access Manager \(IAM\) user in the management account usin
 
 ## Procedure
 
-1.  Log in to the AWS Management console.
+1.  Log in to the AWS Management console and enter `CloudFormation` in the search bar and then select it.
 
-2.  Access the CloudFormation console by entering `CloudFormation` in the search bar and selecting it.
+2.  On the CloudFormation console, select **Create Stack**.
 
-3.  On the CloudFormation console, select **Create Stack**.
+    A stack is a collection of AWS resources that you can manage as a single unit.
 
-    A stack is a collection of AWS resources that you manage as a single unit.
+3.  Copy the CloudFormation template \(CFT\) code into a file and save the file.
 
-4.  Copy the CloudFormation template \(CFT\) code into a file with a `.yml` extension and save the file.
+    The file extension should be `.yml`. For example, `CreateServiceNowUser.yml`.
 
     ```
     AWSTemplateFormatVersion: '2010-09-09'
@@ -140,28 +140,25 @@ AWSCreate an Identity Access Manager \(IAM\) user in the management account usin
     
     ```
 
-5.  On the **Create Stack** page, select **Choose an existing template** &gt; **Upload a template file** &gt; **Choose file** to choose a template file from your local computer.
+4.  On the **Create Stack** page, select **Choose an existing template** &gt; **Upload a template file** &gt; **Choose file** to choose a template file from your local computer.
 
-6.  Select **Next** to continue and to validate the template.
+5.  Select **Next** to continue and to validate the template.
 
-7.  On the **Specify stack details** page, enter a name for the template in the **Stack name** field.
+6.  On the **Specify stack details** page, enter a `CloudFormation stack name` in the **Stack name** field.
 
-    Note the following format requirements for a stack name:
+    The stack name is an identifier that helps you find a particular stack from a list of stacks. A stack name can contain only alphanumeric characters \(case-sensitive\) and hyphens. It must start with an alphabetic character and can't be longer than 128 characters.
 
-    -   Can contain only case-sensitive alphanumeric characters and hyphens
-    -   Must start with an alphabetic character
-    -   Can't be longer than 128 characters
-8.  In the **User Name** field, enter a Cloud Account Management service account user name.
+7.  In the **User Name** field, enter a Cloud Account Management service account user name.
 
-9.  Select **Next**.
+8.  Select **Next** to continue.
 
-10. On the **Configure stack options** page, select the **I acknowledge that AWS CloudFormation might create IAM resources with custom names** check box and select **Next**.
+9.  On the **Configure stack options** page, select the **I acknowledge that AWS CloudFormation might create IAM resources with custom names** check box and select **Next**.
 
-11. On the **Review and create** page, select **Submit** to launch your stack.
+10. On the **Review and create** page, select **Submit** to launch your stack.
 
     The IAM account gets created.
 
-12. Add security credentials.
+11. To add security credentials:
 
     1.  Select **Resources**.
 
@@ -171,13 +168,13 @@ AWSCreate an Identity Access Manager \(IAM\) user in the management account usin
 
     4.  On the **Access key best practices &amp; alternatives** page, choose the **Third-party service** option.
 
-        This access key provides access for a third-party application or service that monitors or manages your AWS resources.
+        You plan to use this access key to enable access for a third-party application or service that monitors or manages your AWS resources.
 
     5.  Select the **I understand the above recommendation and want to proceed to create an access key** check box and select **Next**.
 
     6.  Select **Create access key**.
 
-    7.  On the **Review access keys** page, download the access key file and select **Done**.
+    7.  In the **Review access keys** page, download the access key file and select **Done**.
 
         **Note:** Share the access key and secret key with the Terraform admin and ServiceNow AI Platform admin.
 

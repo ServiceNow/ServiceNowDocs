@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gg-aia-eval.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [agentic AI evaluation, AI agent testing, evaluation metrics, dataset creation, agentic execution logs]
-breadcrumb: [Explore, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # General guidelines for agentic AI asset evaluation

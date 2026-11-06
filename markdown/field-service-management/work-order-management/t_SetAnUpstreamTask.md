@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -48,22 +48,6 @@ Indicates that the successor \(downstream\) task should be started after finishi
 
 </td></tr><tr><td>
 
-Finish to start - Same agent
-
-</td><td>
-
-Indicates that the successor \(downstream\) task should be started after finishing its predecessor \(upstream\) task.Successor and Predecessor should be assigned to the same agent.
-
-</td></tr><tr><td>
-
-Finish to start - Same day - Same agent
-
-</td><td>
-
-Indicates that the successor \(downstream\) task should be started after finishing its predecessor \(upstream\) task.Successor and Predecessor should be scheduled on the same day and by the same agent.
-
-</td></tr><tr><td>
-
 Start after start
 
 </td><td>
@@ -89,7 +73,7 @@ Dependencies can be created only when the predecessor and successor tasks are no
 
 2.  Open a work order task.
 
-3.  In the **Depends on** or Dependents related list, click **New**.
+3.  In the **Depends on** or Dependants related list, click **New**.
 
 4.  On the form, fill the fields.
 

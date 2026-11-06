@@ -7,10 +7,10 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-09-30"
-reading_time_minutes: 13
-keywords: [UI Builder, UIB, Components, Repeater, Heading, Label value, Stylized text, Highlighted value, Dropdown, Card base container]
-breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+keywords: [UI Builder, UIB, Components, Repeater, Heading, Label value, Stylized text, Highlighted value, Dropdown, Card base container, Use case]
+breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create dynamic filtered card displays
@@ -24,15 +24,6 @@ Role required: ui\_builder\_admin
 ## About this task
 
 This example shows how to bind data to components so you can display record information in custom layouts. For example, you can present records as selectable cards rather than in a traditional list view. For this procedure, the data comes from the Incident table.
-
-\[Omitted image "comp-ex-dfc-anatomy.png"\] Alt text: UI Builder stage with numbered callouts on individual components.
-
-1.  **Dropdown**: Filters visible cards by caller name.
-2.  **Card Base Container**: Holds individual card content and enables click interaction.
-3.  **Heading**: Displays the record number.
-4.  **Label value**: Displays the caller name with a static label \("Caller: "\).
-5.  **Stylized text**: Displays the short description of the record.
-6.  **Highlighted value**: Displays the record priority level with color styling applied through a script.
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
@@ -204,7 +195,7 @@ Enter `25`.
 
     4.  Keeping **Repeater 1** selected, in the configuration panel, hover over the **Data array** field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
-        \[Omitted image "comp-ex-dfc-bind-data.png"\] Alt text: Configuration panel for repeater, with a cursor hovering over the bind data icon.
+        \[Omitted image "comp-ex-dfc-bind-data.png"\] Alt text: Configurational panel for repeater, with a cursor hovering over the bind data icon.
 
     5.  In the **Bind data to Data array** dialog, under **Data types**, select **Data resource**.
 
@@ -548,9 +539,10 @@ Value to use after triggering event
 </td><td>
 
 1.  Hover over the field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
-2.  Under **Pill view**, double-click or drag the **value** pill to move it to the area above.
-3.  Select **Apply** to confirm the binding.
-4.  Select **Add**.
+2.  Select **Data types**, then **Event payload**.
+3.  Under **Pill view**, double-click or drag the **value** pill to move it to the area above.
+4.  Select **Apply** to confirm the binding.
+5.  Select **Add**.
 
 
 </td></tr></tbody>

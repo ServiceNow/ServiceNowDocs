@@ -47,7 +47,7 @@ Because the assessments use the Smart Assessment Engine, the responders can see 
 
 6.  To reassign the assessment, select **Reassign**.
 
-    You can only reassign the assessment to a user who has the privilege to respond to an assessment and is a key stakeholder. For more information, see [Add key stakeholders and send privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
+    You can only reassign the assessment to a user who has the privilege to respond to an assessment and is a key stakeholder. For more information, see [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
 
 7.  On the **Personal data** section, provide the responses for the following sections.
 

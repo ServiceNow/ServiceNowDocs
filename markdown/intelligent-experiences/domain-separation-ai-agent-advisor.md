@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/domain-separation-ai-agent-advisor.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Reference, AI Agent Advisor, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Domain separation and AI Agent Advisor
@@ -26,14 +26,8 @@ For more information on support levels, see [Application support for domain sepa
 
 **Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-reference.md)
 
-**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-reference.md)
-
 **Related topics**  
 
-
-[Components installed with AI Agent Advisor]()
-
-[AI Agent Advisor roles]()
 
 [Components installed with AI Agent Advisor]()
 

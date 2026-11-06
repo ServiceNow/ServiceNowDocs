@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Delete a transfer order line
@@ -18,7 +18,7 @@ You can delete a transfer order line only if it's still in the draft stage.
 
 ## Before you begin
 
-Role required: inventory\_user
+Role required: asset\_system\_admin or inventory\_user
 
 The inventory\_user, asset, or procurement\_user role can only access the Transfer Order \[alm\_transfer\_order\] reports. You must install the Procurement \(com.snc.procurement\) plugin for the inventory\_user, asset, and procurement\_user roles.
 

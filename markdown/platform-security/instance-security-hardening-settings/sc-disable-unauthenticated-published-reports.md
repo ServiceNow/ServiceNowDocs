@@ -1,5 +1,5 @@
 ---
-title: Disable unauthenticated published reports \[Updated in Security Center 2.0\]
+title: Disable unauthenticated published reports
 description: Deactivate this property to prevent the user from publishing or accessing reports. This property disables the published reports feature in reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disable-unauthenticated-published-reports.html
@@ -7,35 +7,111 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Disable unauthenticated published reports \[Updated in Security Center 2.0\]
+# Disable unauthenticated published reports
 
 Deactivate this property to prevent the user from publishing or accessing reports. This property disables the published reports feature in reporting.
 
-Enable publishing reports by setting the **glide.report.published\_reports.enabled** to **true**.
+If the **glide.report.published\_reports.enabled** system property is not set to the recommended value of **false**, then reports stored on the instance can be made visible without authentication.
 
-Ensure the Glide Property **glide.report.published\_reports.enabled** exists and is set to the value false. If the property does not appear in the sys\_properties table, add a new record.
+Ensure that the **glide.report.published\_reports.enabled** system property exists in the System Properties \[sys\_properties\] table and is set to the value **false**. If the property does not appear in the sys\_properties table, add a new record.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.report.published\_reports.enabled**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)|
-|Purpose|Disables the published reports feature in reporting.|
-|Type|true \| false|
-|Recommended value|**false**|
-|Security risk rating|6.5|
-|Functional impact|The user cannot publish reports.|
-|Security risk|\(Moderate\) If this property is not enabled, users may be able to access or publish reports exposing sensitive data. Publishing a report creates a URL that anyone can use to access the report, including people who are not users. When anyone navigates to the URL, the report is generated with current data from the instance.|
-|References|[Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_PublishAReport.md)|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
 
-**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.report.published\_reports.enabled**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 6.5
+-   CVSS rating: Medium
+-   Security risk details: Allowing unauthenticated access to sensitive data can cause inadvertent information disclosure to a malicious actor.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+The user cannot publish reports.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

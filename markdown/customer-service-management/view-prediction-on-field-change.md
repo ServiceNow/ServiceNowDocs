@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-prediction-on-field-change.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Task Intelligence, Automate and optimize, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Agents can use Task Intelligence to predict values for configured fields before 
 
 ## Before you begin
 
-Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, ti\_admin
+Role required: sn\_customerservice\_agent, sn\_customerservice\_manager or ti\_admin
 
 ## About this task
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-case-routing-assignment.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure case routing and assignment
@@ -16,11 +16,11 @@ The case routing feature uses matching rules and assignment rules to identify ca
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Matching rules are based on two defined sets of conditions: One that identifies specific case attributes and another that identifies the agent resources best suited to handle cases with these attributes.
+Matching rules are based on two defined sets of conditions: one that identifies specific case attributes and another that identifies the agent resources best suited to handle cases with these attributes.
 
 Assignment rules automatically assign tasks to users and groups when the conditions in a matching rule are met. Create an assignment rule for a matching rule using the **Create assignment rule** related link on the Matching Rule form.
 
@@ -28,16 +28,16 @@ Assignment rules automatically assign tasks to users and groups when the conditi
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, select **Get Started**.
+2.  On the Getting Started page of the guided setup, click **Get Started**.
 
 3.  In the Case Management category, view the list of tasks to configure the feature.
 
     |Task|Description|
     |----|-----------|
-    |[Create a matching rule for case routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateARoutingRule.md)|Matching rules are based on two defined sets of conditions, one that identifies specific case attributes and another that identifies the agent resources best suited to handle cases with these attributes.|
-    |[Create an assignment rule for case routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateAnAssignmentRule.md)|Assignment rules automatically assign tasks to users and groups when the conditions in a matching rule are met.|
+    |Create matching rules for case routing|Matching rules are based on two defined sets of conditions, one that identifies specific case attributes and another that identifies the agent resources best suited to handle cases with these attributes.|
+    |Create assignment rules for case routing|Assignment rules automatically assign tasks to users and groups when the conditions in a matching rule are met.|
 
-4.  To perform a task, select **Configure**.
+4.  To perform a task, click **Configure**.
 
     This button opens the page in your instance where the configuration is completed.
 

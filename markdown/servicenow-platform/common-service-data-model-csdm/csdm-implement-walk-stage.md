@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
 -   **Managing discovered infrastructure CIs**
 
-    The operations facilitate managing the discovered infrastructure CIs. You might manually managing the metadata on these CIs, such as support group and technical approval group. By identifying the technology management offering that manages the CIs, you can perform the following operations:
+    The operations facilitate managing the discovered infrastructure CIs. You might manually managing the metadata on these CIs, such as support group and technical approval group. By identifying the Technology management offering that manages the CIs, you can perform the following operations:
 
     -   Configure the instance to populate and synchronize this metadata onto the related child objects.
     -   Eliminate the manual effort of maintaining the metadata on thousands of CIs.
@@ -36,7 +36,7 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
     The operations build the foundation for using Service Portfolio Management \(Service Portfolio Management\).
 
-    You can start using Service Portfolio Management more quickly because your service data are in the right place.
+    You can start using Service Portfolio Management more quickly because your service data are in the correct place.
 
 -   **Use the request catalog**
 
@@ -67,7 +67,7 @@ The walk stage includes base-system CMDB tables that identify the technology pro
 
 -   **Technology management offering \[service\_offering\] table**
 
-    A technology management offering is a service offering with a service classification of "technical service". Technology management offerings may be further divided as follows:
+    A Technology management offering is a service offering with a service classification of "technical service". Technology management offerings may be further divided as follows:
 
     -   Location and geography
     -   Environment \(production or non-production\)
@@ -76,9 +76,9 @@ The walk stage includes base-system CMDB tables that identify the technology pro
     -   Support group \(for Incident Management\)
     -   Technical approval group \(for Change Management\)
     -   Packaging options \(commitments\)
-    The technology management offering comes from the service, based on how the parent serves a specific technical need. Every operational technology management service must be associated with at least one technology management offering.
+    The Technology management offering comes from the service, based on how the parent serves a specific technical need. Every operational Technology management service must be associated with at least one Technology management offering.
 
-    **Note:** Not all technology management offerings have to be related to applications or infrastructure CIs. Managed Service Providers can provide technology management offerings.
+    **Note:** Not all Technology management offerings have to be related to applications or infrastructure CIs. Managed Service Providers can provide Technology management offerings.
 
 -   **Dynamic CI group \[cmdb\_ci\_query\_based\_service\] table**
 

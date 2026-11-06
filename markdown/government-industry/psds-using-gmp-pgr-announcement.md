@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-11"
 reading_time_minutes: 3
-breadcrumb: [Grants Management Program Setup, Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Set up the grants program announcement details
@@ -84,5 +84,5 @@ The program announcement as it will appear on the grants portal is now configure
 
 ### What to do next
 
-.
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gmp-pgr-proposal.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gmp-pgr-proposal.md).
 

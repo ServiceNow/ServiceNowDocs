@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [With Process Configuration Builder, Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure investigative features
@@ -18,7 +18,7 @@ Configure investigative features to set advanced analytics features for a proces
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -36,8 +36,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     -   Automated root cause analysis
     -   Cluster analysis
-    -   Work notes analysis
-    -   Automation Discovery
+    -   Transition work notes analysis
     \[Omitted image "invest-features-config.png"\] Alt text: Investigative features in process configuration
 
 4.  Add fields that you want for automated root cause analysis in the **Automated root cause analysis** field.
@@ -50,7 +49,9 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     **Note:** If the automated root cause analysis isn’t set up in the process configuration, it isn’t available.
 
-5.  Select an existing clustering definition in the **Cluster analysis** field.
+5.  Select an existing clustering definition in the **Intent and activity analysis** field.
+
+    **Note:** Intent and activity analysis isn’t available unless specified in the process configuration. Also, if the Intent and Activity Analysis skill is not activated in ServiceNow Otto for Creator, then the section is not available for edit. For more information on Intent and Activity Analysis skill, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
@@ -59,8 +60,6 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
     If there are no clustering analyses, select **New clustering definition**.
 
     Provide a name for the clustering analysis and provide fields that you want to use for your cluster analysis, and then select **Configure**.
-
-    **Note:** Cluster analysis isn’t available unless the clustering definition is selected in the process configuration.
 
     For more information, see [Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-configuration-clustering.md).
 
@@ -76,15 +75,15 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     3.  Select **Configure**.
 
-7.  Fill the details in **Work notes analysis** section.
+7.  Fill the details in **Transition work notes analysis** section.
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    For information on running work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/perform-worknotes-analysis.md).
+    For information on running transition work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/perform-worknotes-analysis.md).
 
-    **Note:** Work notes analysis isn’t available unless it’s set up in the process configuration.
+    **Note:** Transition work notes analysis isn’t available unless it’s set up in the process configuration.
 
-    You can use the AI feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
+    You can use the AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
 
 <table id="table_wmj_zsq_ndc"><thead><tr><th>
 
@@ -159,24 +158,7 @@ Select the length greater than which the work notes are disregarded in the analy
 50
 
 </td></tr></tbody>
-</table>8.  Fill the details in the **Automation Discovery** section.
-
-    Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
-
-    **Note:** This section is available only when Automation Discovery is available.
-
-    Automation Discovery helps to identify automation opportunities within your processes. You can use the automation discovery reports to implement or improve automation solutions like Virtual Agent \(VA\) or Agent assist. These reports are available on the **Automation Opportunities** tab in the Process Mining workspace.
-
-    For information on configuring Automation Discovery, see [Configure Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-finding-def-auto-disc.md).
-
-    |Field|Description|
-    |-----|-----------|
-    |**Turn on automation discovery**|Select the field if you want to use the Automation Discovery feature.|
-    |**Field used to surface automation opportunities**|Select the fields for automation opportunities.|
-    |**Taxonomy**|Select a taxonomy that categorizes your records using prebuilt automation opportunities rather than grouping them into clusters.|
-    |**Auto-run with mining**|Select this field if you want to run the automation discovery job automatically every time you mine a project.|
-
-9.  Select **Continue to impact metrics**.
+</table>8.  Select **Continue to impact metrics**.
 
 
 **Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-config-builder.md)

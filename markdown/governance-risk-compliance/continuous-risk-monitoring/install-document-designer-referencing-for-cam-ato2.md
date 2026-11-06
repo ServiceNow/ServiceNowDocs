@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring ATO artifacts report templates, Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -47,4 +47,9 @@ There are several properties that get installed with the Document designer plugi
 **Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 
 **Parent Topic:**[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/document-designer-template.md)
+
+**Related topics**  
+
+
+[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
 

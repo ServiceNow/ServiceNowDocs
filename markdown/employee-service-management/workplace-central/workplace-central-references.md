@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -50,6 +50,10 @@ The Workplace Task form specifies details to assign a space to a neighborhood.
 The Neighborhood User Assignment Rule form specifies conditions based on which users or their profiles must be assigned to the neighborhood.
 -   **[User Workplace Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/user-workplace-profile-form.md)**  
 The User Workplace Profile form specifies details about an employee like their name, primary location, and allocation.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+
 
 **Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/workplace-central-feat.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -19,6 +19,10 @@ Create demands to capture the strategic and operational requirements and central
 ## Before you begin
 
 Role required: it\_demand\_manager, it\_demand\_user
+
+## About this task
+
+By default, a new demand opens in its **Details** page. If you want your demands to land on a different page on creation, the related system property can be modified. See [Configure the landing page for created demand records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/configure-demand-record-landing-page-ppw.md).
 
 ## Procedure
 
@@ -45,6 +49,14 @@ Name
 </td><td>
 
 Name of the demand.
+
+</td></tr><tr><td>
+
+Demand experience
+
+</td><td>
+
+Demand experience to associate with this demand, which determines the demand's form view, the modules shown, and any dynamic attributes available. This is an optional field. If no value is selected in this field, the demand is displayed with the default form view and all modules.
 
 </td></tr><tr><td>
 
@@ -77,23 +89,23 @@ The **Category** field selection determines the selections available in the **Ty
     -   Change
     -   Defect
     -   No Conversion
-For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
+For more information, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 </td></tr><tr><td>
 
-Start date
+Planned start date
 
 </td><td>
 
-The preliminary or estimated date when the work is initially planned to begin.**Note:** The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Zurich version. To facilitate continuity, you continue to see the prior labels.
+The preliminary or estimated date when the work is initially planned to begin.
 
 </td></tr><tr><td>
 
-Due date
+Planned end date
 
 </td><td>
 
-The preliminary or estimated date when the planned work is expected to be completed.**Note:** The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Zurich version. To facilitate continuity, you continue to see the prior labels.
+The preliminary or estimated date when the planned work is expected to be completed.
 
 </td></tr><tr><td>
 
@@ -114,4 +126,9 @@ Description of the demand.
 ## What to do next
 
 Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
+
+**Related topics**  
+
+
+[Add dynamic attributes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-dynamic-attributes-to-a-demand-ppw.md)
 

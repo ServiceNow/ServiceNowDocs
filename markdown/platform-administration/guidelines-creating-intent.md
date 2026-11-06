@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/guidelines-creating-intent.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-20"
-reading_time_minutes: 6
-breadcrumb: [Email agentic workflow, Use agentic workflows in emails, Now Assist in Notifications, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Email agentic workflow, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # General guidelines for creating and mapping an intent
@@ -79,6 +79,4 @@ It’s recommended not to configure workflows to produce final artifacts directl
 -   Target Record for drafting and email: If using the email drafting capability, a target record must be attached to the email by the time the agent workflow triggers. Without a target record, generated email drafts can't be access.
 -   Order of Execution: When enabling the agentic workflow either via Inbound Action or Inbound Email Trigger, consider its order relative to existing inbound actions. The default order 999 places it last to avoid interfering with other processes, but this can be adjusted.
 -   Human Oversight: The system aims to remove bottlenecks and increase efficiency, but it doesn’t eliminate the need for human involvement. It's designed to augment, not fully replace, human agents.
-
-**Parent Topic:**[Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/email-agentic-workflow.md)
 

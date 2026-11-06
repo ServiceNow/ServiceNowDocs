@@ -7,9 +7,9 @@ release: zurich
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Configure Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Install Task Intelligence Admin Console
@@ -18,7 +18,7 @@ You can install the Task Intelligence application \(sn\_ti\_admin\) if you have 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Task Intelligence Admin Console](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7778b2352b5c0200c5244f74b4da153b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

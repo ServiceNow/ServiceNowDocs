@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-channels-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Review real-time performance as your team is actively working on tasks across ch
 -   **Assignment Group** refines reports on all pages of channels and queues as per the groups selected. Interactive filter based on the assignment group configuration, you can select the assignment group on which you want to refine the data directly from the dashboard. You can disable the **Assignment Group** interactive filter using the **sn\_channel\_mgmt.filter\_config.enable** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md).
 -   The **Queued Work** tab displays the active work interactions being done within each service channel and queues.
 -   The **All Queues** tab displays the list of work items from queue-based routing. You can drill into specific queues and see the active interactions, work items and agents. Track real-time performance of your teams using key performance indicator reports in service channels and queues. Respond to incoming support requests by changing queues as per the priorities.
--   The **All Agents** tab displays your agents’ ongoing work, presence statuses, channels, work load, and open capacity. You can drill into specific agents to view the agent's profile, on-going tasks, presence state's history, and override channel capacity.
+-   The **All Agents** tab displays your agents’ ongoing work, presence statuses, channels, work load, and open capacity. You can drill into specific agents to view the agent's profile, ongoing tasks, presence state's history, and override channel capacity.
 
 **Note:**
 
@@ -30,7 +30,7 @@ Review real-time performance as your team is actively working on tasks across ch
 -   The **All Queues** and **All Agents** lists offer a default sorting and filtering mechanism that lets you to view the records of the selected fields based on a default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. Administrator can customize the default sort order by creating an implementation using the extension points. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
 -   You will also receive an email notification of your agents' work summary at the end of each day if a [scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-channels-queues-configurable-wfo-cs.md) is configured.
 
-**Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-channels-wfo-cs.md)
 
 ## Assist agents by joining their chat conversations with their end users
 
@@ -72,7 +72,7 @@ Role required: sn\_csm\_wfo\_workspa.manager
 
 ### About this task
 
-Track the real-time performance of each queue within your service channels. You can drill into specific queues so that you can see the real-time reports, waiting work items, available agents, and status of the on-going work. This information can give you an idea of how efficiently work moves through the queue and to your agents. With this information, you can determine which queues are doing well and which queues could use a few more agents on board. For example, if you see lots of agents and not much work, you can recommend skills for your agents for other queues.
+Track the real-time performance of each queue within your service channels. You can drill into specific queues so that you can see the real-time reports, waiting work items, available agents, and status of the ongoing work. This information can give you an idea of how efficiently work moves through the queue and to your agents. With this information, you can determine which queues are doing well and which queues could use a few more agents on board. For example, if you see lots of agents and not much work, you can recommend skills for your agents for other queues.
 
 **Note:**
 
@@ -127,15 +127,15 @@ The active work items remain in the queue and are pending manual allocation for 
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d285567e679">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d323325e673">
 
 Navigate To
 
-</th><th align="left" id="d285567e682">
+</th><th align="left" id="d323325e676">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d285567e688">
+</th></tr></thead><tbody><tr><td id="d323325e682">
 
 **Queued Work tab**
 
@@ -143,7 +143,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d285567e697">
+</td></tr><tr><td id="d323325e691">
 
 **Service Channel page**
 
@@ -154,7 +154,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d285567e721">
+</td></tr><tr><td id="d323325e715">
 
 **All Queues**
 
@@ -319,15 +319,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d285567e1179">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d323325e1173">
 
 To set the override capacity
 
-</th><th align="left" id="d285567e1182">
+</th><th align="left" id="d323325e1176">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d285567e1188">
+</th></tr></thead><tbody><tr><td id="d323325e1182">
 
 **From Channels**
 
@@ -338,7 +338,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d285567e1218">
+</td></tr><tr><td id="d323325e1212">
 
 **From Teams**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-sold-product-contract.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sold products, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Associate sold products with contracts
@@ -24,17 +24,17 @@ Associate sold products to contracts so that your customer service agents workin
 
 -   Check a sold product and view any contracts that exist for the sold product.
 -   View which products have been sold to the customer under the contract.
--   Track when sold products were added to the contract, and how long they're covered for.
+-   Track when sold products were added to the contract, and how long they are covered for.
 
-You can also associate a sold product with a contract from the sold product form.
+You can also associate a sold product with a contract from the Sold Product form.
 
-A sold product can be part of multiple contracts. If a sold product is deleted, it's also deleted from any associated contracts. If a contract is deleted, the sold product remains.
+A sold product can be part of multiple contracts. If a sold product is deleted, it is also deleted from any associated contracts. If a contract is deleted, the sold product remains.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Contracts** &gt; **Service Contracts**.
 
-2.  Select a contract that you want to add a sold product to.
+2.  Select a contract you want to add a sold product to.
 
 3.  On the **Products Covered** related list, select **New** to associate sold products to the contract.
 

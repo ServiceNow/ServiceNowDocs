@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -21,13 +21,23 @@ Automatically generate a response in request-related record activity streams usi
 
 Role required: itil
 
+## About this task
+
+Activity response generation for Request Management involves individual skills used to generate responses in the following record types:
+
+-   Requests
+-   Requested items
+-   Catalog tasks
+
+These Request Management activity response generation skills provide you with responses in work notes or comments. These responses are generated from the information entered in the corresponding record fields. For more information about which fields are referenced, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+
 ## Procedure
 
-1.  Navigate to a request, requested item, or catalog task record in the SOW or Core UI where you want to generate work notes or comments using Now Assist.
+1.  Navigate to a request, requested item, or catalog task record in the SOW or Core UI where you want to generate work notes or comments using ServiceNow Otto.
 
 2.  Do the following in the **Work notes** or **Comments** field:
 
-    1.  Select the ServiceNow Otto icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
+    1.  Select the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
 
         The following four options appear:
 

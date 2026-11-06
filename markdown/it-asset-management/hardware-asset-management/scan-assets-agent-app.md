@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete a single scan inventory audit using the ServiceNow Agent app
@@ -21,10 +21,6 @@ Scan your inventory assets by using the ServiceNow Agent app for single scan aud
 The **sn\_hamp.migrate\_hamaudit** system property is set to **true** to enable the audit enhancements introduced in the Hardware Asset Management version 15.0.0.
 
 Role required: asset, sn\_itam\_common.asset\_audit\_admin or sn\_itam\_common.asset\_audit\_user
-
-## About this task
-
-**Important:** This feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 ## Procedure
 

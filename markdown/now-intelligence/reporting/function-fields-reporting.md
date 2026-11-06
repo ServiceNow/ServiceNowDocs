@@ -7,14 +7,16 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on function fields
 
 While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 The responsibility for creating, editing, and deactivating function fields belongs to the user with the role function\_field\_admin. On upgrade, no user has this role. An admin must give this role to a non-admin user. See [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateARole.md).
 
@@ -206,7 +208,7 @@ Return type: Text
 
 </td></tr></tbody>
 </table>-   **[Configuring function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/configure-function-fields.md)**  
-You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation.
+You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation. Function fields that you create in Report Designer are available in Platform Analytics experience, but you cannot create them in Platform Analytics experience
 -   **[Create a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-function-field.md)**  
 Create a function field to be able to group and stack a report by the results of the field's calculation.
 -   **[Edit a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/edit-function-field.md)**  

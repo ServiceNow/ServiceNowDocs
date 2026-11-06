@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Guided Tour Designer use case, Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Use Guided Tour Designer to create a guided tour to explore the Service Portal h
 
 ## Before you begin
 
-Role required: guided\_tour\_admin or admin
+Role required: guided\_tour\_admin
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Limit concurrent sessions, Access Management]
+breadcrumb: [Concurrent session limits, Authentication, Access Management]
 ---
 
 # Disable a concurrent session limit by user or role
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Users** or **User Administration** &gt; **Roles**.
 
-2.  Select a user or role that you want to disable a concurrent session limit, uncheck the **Limit Concurrent Sessions** check box, and click **Update**.
+2.  Select a user or role to disable a concurrent session limit, clear the **Limit Concurrent Sessions** check box, and select **Update**.
 
     The user or role is not subject to a limit of how many concurrent sessions can be open at one time.
 

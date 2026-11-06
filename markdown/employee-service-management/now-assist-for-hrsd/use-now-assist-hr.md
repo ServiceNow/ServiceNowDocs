@@ -1,5 +1,5 @@
 ---
-title: Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace
+title: Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace
 description: If you have a sn\_hr\_core.case\_writer role, you can summarize a case, generate resolution notes, summarize the chat interactions with a requester, and propose resolutions more quickly with the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.html
@@ -7,12 +7,12 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace
+# Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace
 
 If you have a sn\_hr\_core.case\_writer role, you can summarize a case, generate resolution notes, summarize the chat interactions with a requester, and propose resolutions more quickly with the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 
@@ -32,10 +32,10 @@ Create drafts of knowledge articles from multiple cases with the ServiceNow Otto
 Generate an email reply that is based on the case and email context by using the ServiceNow Otto icon. With email reply recommendations, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 -   **[Summarize an HR case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md)**  
 Quickly understand the case context and respond to inquiries by using the case summarization skill.
--   **[Summarize an ER case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-er-case.md)**  
-Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details such as allegations, evidences, and interviews.
 -   **[Summarize an ER case interview using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-er-interview.md)**  
 Use the ER interview summarization skill to obtain a comprehensive overview of the ER interview, which includes key details such as quick recap, key assertions and responses.
+-   **[Summarize an ER case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-er-case.md)**  
+Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details such as allegations, evidences, and interviews.
 -   **[Generate resolution notes using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md)**  
 Generate the resolution notes for a case using the resolution notes generation skill. You can improve the quality of the resolution notes by providing a summary of the issue and the steps that were taken to resolve the case.
 -   **[View employee summary reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/employee-summary-lh.md)**  
@@ -52,6 +52,8 @@ Generate chat and case summaries and resolution notes by using the ServiceNow Ot
 Place an HR request using the conversational and streamlined experience offered by Gen AI Virtual Agent.
 -   **[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)**  
 Enable employees to complete actions in third-party Human Capital Management \(HCM\) systems with ServiceNow Otto Virtual Agent topics in Employee Center.
+-   **[Generate activity responses for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/gen-activity-response.md)**  
+Use AI-powered activity response generation to instantly create, review, and refine work notes and comments in HR cases.
 -   **[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/analyze-sentiments-now-assist.md)**  
 HR agents can prioritize cases based on case sentiment.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Understanding Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,9 +18,9 @@ Service Portal contains two parts: a framework and a portal. The framework is co
 
 \[Omitted image "ServicePortalOverviewDiagram.png"\] Alt text: Diagram of Service Portal and how pages and widgets fit inside it
 
-After you enter a URL, the framework uses the suffix and picks the appropriate portal to determine the theme and configurations. Then it loads the configured default portal homepage unless the URL has a specified ID.
+After you enter a URL, the framework uses the suffix and picks the appropriate portal to determine the theme and configurations. Then it loads the configured default portal home page unless the URL has a specified ID.
 
-Each widget added to a page becomes its own instance. A widget instance is basically the application of a widget in a page. Because widgets are reusable and can appear on different pages to do different things, the manifestation of a widget on a page is referred to as a Widget Instance. The page loads with content represented by widgets.
+Each widget added to a page becomes its own instance. A widget instance is basically the application of a widget in a page. Because widgets are reusable and can appear on different pages to do different things, a widget on a page is referred to as a Widget Instance. The page loads with content represented by widgets.
 
 Widget instances get their logic from the base widget template, client scripts, server scripts, and depending on the widget, CSS.
 

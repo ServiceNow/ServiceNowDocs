@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Migrating NLU/keyword Virtual Agent topics to LLM topics, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Migrating NLU topics to LLM, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # NLU to LLM migration log
@@ -192,7 +192,7 @@ Process failure issues: These issues occur whenever there's an error during a pa
 
 </td><td>
 
-No. The issue must be corrected before the topic can be published. Edit the description field on the Publish step or from the topic properties page in Assistant Designer Asset library before publishing.
+No. The issue must be corrected before the topic can be published. Edit the description field on the Publish step or from the topic properties page in an Virtual Agent Designer topic before publishing.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/llm-topic-migration.md)

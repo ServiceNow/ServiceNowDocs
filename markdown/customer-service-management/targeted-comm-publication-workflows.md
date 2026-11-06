@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/targeted-comm-publication-workflows.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,8 +16,8 @@ The Targeted Communications application \(com.sn\_publications\) includes defaul
 
 The application includes two publishing workflows:
 
--   **Instant Publish**: Publishes an article instantly.
--   **Publish With Approval**: Requires approval before publishing.
+-   **Instant Publish**: publishes an article instantly.
+-   **Publish With Approval**: requires approval prior to publishing.
 
 ## Migrating workflows to Workflow Studio flows
 
@@ -99,13 +99,13 @@ The logic checks if the legacy workflows or the sn\_publications\_workflow\_conf
 </td><td>
 
 -   Legacy UI policies are activated:
-    -   Approver field required \(legacy\)
+    -   Approver field mandatory \(legacy\)
     -   Hide approver field \(legacy\)
     -   Show legacy workflow
 -   New UI Policies are deactivated:
     -   Hide approver field
     -   Show process flow
-    -   Approver field required
+    -   Approver field mandatory
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ The logic checks if the legacy workflows or the sn\_publications\_workflow\_conf
 
 </td><td>
 
-The workflow configuration record \(sn\_publication\_workflow\_config\) is updated to point out to the correct process workflow:-   If legacy workflows are present, the config is set to use the corresponding legacy flow.
+The workflow configuration record \(sn\_publication\_workflow\_config\) is updated to point to the correct process workflow:-   If legacy workflows are present, the config is set to use the corresponding legacy flow.
 -   If not, it defaults to the Instant Publish Flow.
 
 </td></tr></tbody>

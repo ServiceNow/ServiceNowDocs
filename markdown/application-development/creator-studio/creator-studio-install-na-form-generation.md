@@ -1,24 +1,24 @@
 ---
-title: Install Now Assist for form generation in Creator Studio
-description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Now Assist in Creator Studio.
+title: Install ServiceNow Otto for Creator for form generation in Creator Studio
+description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get AI in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-install-na-form-generation.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Form generation, Configure, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Form generation, Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
-# Install Now Assist for form generation in Creator Studio
+# Install ServiceNow Otto for Creator for form generation in Creator Studio
 
-Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get Now Assist in Creator Studio.
+Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get AI in Creator Studio.
 
 ## Before you begin
 
-Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store to learn about dependencies, licensing, and subscription requirements, and release compatibility. ServiceNow Otto for Creator installs the Now Assist for form generation in Creator Studio.
+Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store to learn about dependencies, licensing, and subscription requirements, and release compatibility. ServiceNow Otto for Creator installs AI for form generation in Creator Studio.
 
 Role required: admin
 
@@ -42,12 +42,12 @@ Role required: admin
 
         **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+    For more information about using the AI Admin Hub to access information about setting up, configuring, and monitoring ServiceNow Otto applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
 
 ## What to do next
 
-Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/roles-creator-studio.md).
+Grant the now.assist.creator role to the Creator Studio users to create forms using AI in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/roles-creator-studio.md).
 
 **Parent Topic:**[Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-configure-now-assist.md)
 

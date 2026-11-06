@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-29"
 reading_time_minutes: 2
-breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a tool from an AI skill
@@ -20,7 +20,7 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 ## About this task
 
-Prebuilt and custom AI skills are organized as governed MCP tools, enabling seamless discovery and accessibility for any standards-conforming MCP client. This structure enhances usability and encourages effective integration of these skills across various platforms. See [Generative AI skill support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-support-mcp.md) to learn about the pre-configured AI skills.
+Prebuilt and custom AI skills are organized as governed MCP tools, enabling seamless discovery and accessibility for any standards-conforming MCP client. This structure enhances usability and encourages effective integration of these skills across various platforms. See [AI skill support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-support-mcp.md) to learn about the pre-configured AI skills.
 
 **Note:** Only AI skills that don't rely on internal information as inputs, such as sys\_ids, are available to be created as tools. For more information about why a skill might not be available for creation as a tool, see the [AI Skill Eligibility Criteria for MCP Tool Integration \[KB2952564\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2952564) article in the Now Support Knowledge Base.
 

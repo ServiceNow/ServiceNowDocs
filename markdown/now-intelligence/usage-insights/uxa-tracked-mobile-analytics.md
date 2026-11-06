@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Tracked mobile analytics fields for Usage Insights

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-forecasting-terminology.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Sales Forecasting, Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Forecasting terminology
@@ -23,7 +23,7 @@ The Forecast Model is a framework or method used to predict future sales based o
 The classification of opportunities is based on the level of certainty regarding their closure. The longer a sales prospect progresses along the sales pipeline, the better their chances of converting.  The forecast admin can configure these categories. By default, these six categories are available:
 
 -   Won:  Opportunities that have already been closed and won.​
--   Commit: Opportunities that sales reps are confident will close within the forecast period.​
+-   Commit: Opportunities that sales representatives are confident will close in the forecast period.​
 -   Strong upside:  Opportunities with greatest potential to close but have some minor uncertainty.
 -   Upside: Opportunities with potential to close but with lower level of certainty.
 -   Pipeline: Opportunities in the early stages of the sales process with uncertainty if they will be closed deals.
@@ -60,4 +60,9 @@ The forecast schedule fetches all the opportunities in the system and generates 
 ## Sales Quota Management
 
 You can assign sales quota targets to sales representatives and managers based on their hierarchy, role, and forecast period.
+
+## What to explore next
+
+-   [Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-forecasting.md)
+-   [Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)
 

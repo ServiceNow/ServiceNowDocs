@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
@@ -91,5 +91,5 @@ The steps for configuring Field Service Crew Operations are:
 
 [Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 
-[Managing crew tasks using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/executing-crew-tasks.md)
+[Managing crew tasks using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/executing-crew-tasks.md)
 

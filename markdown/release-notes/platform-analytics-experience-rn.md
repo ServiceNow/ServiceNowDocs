@@ -1,23 +1,25 @@
 ---
 title: Platform Analytics experience release notes
-description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Zurich release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Zurich release.
+description: The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.External pages and UI Builder pages can now pass filter parameters via URL to pre-apply filters on Platform Analytics inline dashboards and visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/platform-analytics-experience-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-28"
+reading_time_minutes: 5
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Platform Analytics experience release notes
 
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Zurich release.
+The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
 
 ## About Platform Analytics experience
 
--   Collaborate on data-informed decisions through an AI-assisted, interactive explorer that serves as a centralized workspace, where you can create and share data visualizations on the fly.
--   Manage Performance Analytics indicators more conveniently, with access to editing, creation, and migration from within the Platform Analytics experience.
+-   Create dashboards to visually share your data with stakeholders in your organization.
+-   Create, update, and share visualizations based on indicators, tables or other data to share with others.
+-   Filter lists and visualizations on dashboards based on values, date, or true/false.
+-   Delve into the information behind your Key Performance Indicators \(KPIs\) and learn when processes behave in unexpected ways.
 
 See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/par-workspace.md) for more information.
 
@@ -25,77 +27,64 @@ See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow
 
 -   **Activation information**
 
-    Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
+    Platform Analytics experience is enabled by default on upgrade to Brazil.
 
 -   **Upgrade information**
 
-    On upgrade, any homepages on your instance that have been opened are migrated to Core UI dashboards, which are visible in the dashboard library. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/homepage-deprecation-help-tool.md).
-
-    Simple lists are all converted to the new List element on upgrade.
+    Core UI dashboards and reports are visible from the Platform Analytics Dashboard and Data visualization libraries.
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/analytics-intel-report-rn-landing.md)
 
-## Zurich
+## Platform Analytics experience Bundle — v9.0
 
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Zurich release.
+External pages and UI Builder pages can now pass filter parameters via URL to pre-apply filters on Platform Analytics inline dashboards and visualizations.
 
 ### What's new
 
--   **[View, share, and export table records in the List component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-dv-analytics-list.md)**
+-   **[Explore mode for read-only users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/editing-dv-in-line-db.md)**
 
-    Take advantage of the improved list capabilities of the List element, which replaces List - Simple. The List supports pagination, export from dashboards, export to comma-separated values, and alternative group by. It also provides a consistent configuration experience with other data visualizations.
+    Read-only users can temporarily reconfigure a visualization in-session — on inline dashboards or in the Visualization Designer — without saving changes. When Explore mode is active, an informational alert indicates that changes aren't persisted, and the Save action is not available. This enables dashboard consumers to explore data on their own terms without requiring edit access.
 
--   **[Create indicators and migrate to data snapshots in the indicator library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/your-kpis.md)**
-    -   Manage indicators from the indicator library, including links to create and edit indicators.
-    -   Activate data snapshots conveniently, opening up the possibilities of applying multiple levels of breakdown to your indicators. See statistics on recent views and updates in tiles.
-    -   If data snapshots are activated for the instance, see how many indicators are eligible and have already had data snapshots enabled.
-    -   Show columns for any field on indicator records, as well as usage information.
--   **[Drill down to application overviews for Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/visualization-drilldown-in-config-ws.md)**
+-   **[Share dashboard with all internal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/share-db-in-ac.md)**
 
-    Navigate to individual application overviews for Usage Insights from data visualizations. The **Go to data view** chart interaction is now supported for Usage Insights data and takes the viewer to these overview pages by default.
-
--   **[Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/filter-user-list.md)**
-
-    Filter Usage Insights data on default and custom Usage Insights properties.
+    Administrators can share a Platform Analytics dashboard with all authenticated users by assigning it to the `dashboard_user` role, which ships with the base system. Any user who holds at least one role automatically receives read access to dashboards shared this way. The role name used as the sentinel is configurable via the system property `com.glide.par_dashboards.security.all_users_role`. This replaces the need to manage individual user, group, or role assignments for organization-wide dashboards.
 
 
 ### What's changed
 
--   **Coral theme**
+-   **[URL filter parameters for inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/url-filter-parameters.md)**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    External pages and UI Builder pages can now pass filter values to Platform Analytics inline dashboards and the Visualization Designer using URL parameters. The feature introduces a standard mechanism that accepts filter payloads in `encodedQuery` format, validates and maps them to filter state, and applies them when the dashboard or visualization loads. Supported filter types include choice and Boolean. Deep links and drill-down workflows that previously relied on Classic or Core UI URL-based filtering are now supported in Platform Analytics experiences.
 
--   **[Consistent header and border configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/add-elements-to-a-dashboard.md)**
+    Copying a dashboard link now includes active filter state in the URL using the format `/unified-filters-param/filterId:value1,value2`, removing the back-end dependency on the `par_dashboard` filter record.
 
-    Dashboard components now have header and border configuration options that are consistent with data visualizations and each other.
+-   **[Updated creation flow for dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/common-dashboard-tasks.md)**
 
-    Component icons have consistent coloring for improved contrast and accessibility and are consolidated in the same corner.
+    The creation flow for Platform Analytics dashboards and data visualizations now clearly surfaces Next Experience as the recommended path. Core UI creation remains available for users who need it. The updated flow applies when the system properties `com.snc.par.coreui.dashboard_create.enabled` and `com.snc.par.coreui.report_create.enabled` are set to `true`. Instances where migration is complete and Core UI creation is inactive aren't affected. A new informational modal for data visualization creation has been added. The create flow now routes Core UI dashboard creation to the `pa_dashboard` record form and Core UI report creation to the Report Designer.
 
+-   **[Configurable list view for drilldowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/dv-chart-interactions.md)**
 
--   **[Select whether to drill down to Platform Analytics or Core UI lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/visualization-drilldown-in-config-ws.md)**
+    Dashboard and report designers can now select which list view opens when users drill down to data using the **Go to Data View** chart interaction. The configuration option is available in the **Chart Interaction** section of the Visualization and Dashboard Designers. Designers can specify a view from the `sys_ui_view_list` table, providing flexibility to target different views for different roles or use cases. Tooltip text in the visualization now dynamically reflects the configured destination — showing the data source name for **Go to Data View** interactions and the page name for **Go to URL** interactions. The **Go to URL** interaction now redirects in the same browser tab.
 
-    Decide whether data view chart interactions for data visualizations on an instance drill down to Platform Analytics or Core UI record lists. This choice applies only on the Platform Analytics experience.
+-   **Export quality improvements**
+    -   A system property enables or disables the export button globally. A second property accepts a comma-separated list of roles permitted to export when the first property is enabled. When the roles list is empty, export is available to all users. This applies to on-demand export at both the dashboard and data visualization level, including client-side export.
+    -   The export modal now includes a documentation link for supported and unsupported components. It also provides options to enable or disable sending exports via email and displays improved error messages after export failures. UI controls in export modals have been updated from toggles to check boxes.
+    -   PDF exports now correctly apply the selected orientation \(landscape or portrait\) for list-type visualizations. Previously the orientation setting was recognized in the UI but exports always rendered in portrait.
+    -   Users can select specific dashboard tabs to include when exporting to PDF, consistent with existing PPT export tab selection. Dashboards with applied filters respect the filter state in PDF exports.
+    -   Scheduled export now supports additional file types and page format options that were previously available in Core UI but missing from the scheduled export UI. Day-of-week scheduling options \(Monday to Friday\) are now available. Core UI reports are hidden from the scheduled export library page.
+-   **[Dashboard PDF export improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/export-pae-dashboard-ppt.md)**
 
--   **[View usage information in the dashboards library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/dashboards-for-admin-users.md)**
+    Platform Analytics dashboard PDF and PowerPoint export includes the following improvements:
 
-    For analytics managers, the dashboard library now contains usage statistics, such as the number of dashboards not viewed in one year and the number of dashboards deactivated for more than three months.
+    -   You can now select which dashboard tabs to include when exporting to PDF, consistent with the existing tab selection available for PPT export.
+    -   When exporting a dashboard to PDF, you can choose whether to apply or exclude the active dashboard filters in the exported output.
+    -   Visualizations in exported PDF and PPT files now follow the layout order displayed on the dashboard, with the top layout rendered first and widgets ordered left to right.
+    -   Filters, images, and headings are now included in dashboard PDF exports. Previously these components were excluded because `par_metadata` records were not present for them.
+    -   When a dashboard contains only unsupported components, the export now returns a meaningful error message rather than an empty PDF.
+    -   Dashboards containing only list visualizations no longer trigger an unnecessary export server call.
+-   **[Library page bookmark icon theme alignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/bookmark-dashboard-ac.md)**
 
--   **[Export data visualizations from dashboards to PNG and JPEG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/export-data-vis-from-dboard.md)**
-
-    Export individual data visualizations as a viewer to a graphic file.
-
--   **[Platform Analytics experience is supported even when Next Experience UI is disabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/data-migration-perform.md)**
-
-    You can migrate to Platform Analytics even if Next Experience isn’t enabled. Core UI dashboards are embedded in iframes.
-
--   **[Migration Center changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/data-migration.md)**
-    -   Dashboard owners can perform partial migration on their own dashboards.
-    -   Geomap migration supported.
-    -   Interactive filter check box option.
-    -   Export to CSV from lists is supported.
--   **[Data visualizations and filters support Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric.md)**
-
-    Perform data analysis on external data fabric sources.
+    The bookmark icon in the Dashboard library page and the Data Visualization library page now renders in the applied theme color, consistent with the Indicators library page. Previously the bookmark icon displayed in blue regardless of the active theme.
 
 

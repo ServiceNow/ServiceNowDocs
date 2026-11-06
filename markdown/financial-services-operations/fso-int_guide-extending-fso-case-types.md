@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/fso-int\_guide-extending-fso-case-types.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using case types and service definitions in FSO, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -18,7 +18,7 @@ All FSO applications have a base case type table. Use the base case type table w
 
 For more information on the application case types that are available, see the following:
 
--   [Using banking applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-banking-overview.md)
+-   [Financial Services Operations banking applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-banking-overview.md)
 -   [Using insurance applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-insurance-overview.md)
 
 When implementing FSO, start with mapping your use cases to the FSO domain-level case types. This enables you to extend the prebuilt FSO applications and use the provided roles and business logic.

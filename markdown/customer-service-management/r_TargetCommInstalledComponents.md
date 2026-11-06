@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/r\_TargetCommInstalledComponents.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with additional plugins for Customer Service Management, Reference, Customer Service Management]
 ---
@@ -143,7 +143,6 @@ The publications author can:-   read all publications
 -   sn\_publications\_recipients\_user
 -   workflow\_publisher
 -   image\_admin
--   sn\_esm\_agent
 
 </td></tr><tr><td>
 

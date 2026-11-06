@@ -7,9 +7,9 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Incident Management, IT Service Management]
+breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Quick start tests for Incident Management

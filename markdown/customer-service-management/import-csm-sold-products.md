@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-csm-sold-products.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sold products, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Import sold products with guided setup
@@ -16,17 +16,17 @@ Sold products are products and components that have been sold to an account or a
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-This task provides an overview of the complete product sold to an account or consumer. A sold product can have child and parent sold items in a hierarchical structure.
+This provides an overview of the complete product sold to an account or consumer. A sold product can have child and parent sold items in a hierarchical structure.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**.
 
-2.  In the Foundation Data category, select **Get Started** and then select **Import Sold Products**.
+2.  In the Foundation Data category, click **Get Started** and then click **Import Sold Products**.
 
 3.  Upload data from an external data source into an import set.
 

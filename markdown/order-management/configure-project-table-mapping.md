@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-project-table-mapping.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
@@ -55,15 +55,15 @@ The source and target tables in each table map are pre-populated.
 
     **Note:** If Order Management demo data is installed, the **Source Field** and **Target Field** values in the Basic Field Mapping related list display the mapping for demo data. You can use the mapping or change it as needed.
 
-<table id="choicetable_i3m_4wt_xxb"><thead><tr><th align="left" id="d87809e284">
+<table id="choicetable_i3m_4wt_xxb"><thead><tr><th align="left" id="d148184e284">
 
 Option
 
-</th><th align="left" id="d87809e287">
+</th><th align="left" id="d148184e287">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87809e293">
+</th></tr></thead><tbody><tr><td id="d148184e293">
 
 **Define a new field mapping**
 
@@ -72,14 +72,15 @@ Steps
 1.  Select **New**.
 2.  In the **Source Field**, select an item from the source table.
 
-For example, select an item such as **Short Description** from the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table.
+For example, select an item such as **work\_notes** from the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table.
 
 3.  In the **Target Field**, select an item from the Project \[pm\_project\] table, such as **Project Name**.
-4.  Select **Submit**.
+4.  In the **Active**,select **True**.
+5.  Select **Submit**.
 
 In this example, the order line **Short Description** is used as the **Project Name** in SPM.
 
-</td></tr><tr><td id="d87809e345">
+</td></tr><tr><td id="d148184e354">
 
 **Change an existing field mapping**
 
@@ -108,4 +109,6 @@ In this example, the order line **Short Description** is used as the **Project N
 ## Result
 
 The fields in the Order Management source tables are mapped to the fields in the SPM target table.
+
+Changes made to a synchronized field in order task or domain order will automatically be reflected in the corresponding synchronized field in project task.
 

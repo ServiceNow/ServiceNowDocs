@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/r\_CustomerServiceCaseForm.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -125,19 +125,19 @@ Name of the consumer for this case.
 
 </td></tr><tr><td>
 
-Service Organization
+Provider Organization
 
 </td><td>
 
-Name of business location.
+Organization resolving the cases.
 
 </td></tr><tr><td>
 
-Requesting Service Organization
+Requestor Organization
 
 </td><td>
 
-Service organization for which this case is being requested.
+Organization requesting the omni-channel interactions.
 
 </td></tr><tr><td>
 

@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC upgrade errors, ACC-5005, ACC-5006, ACC-5017]
-breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector upgrade error codes

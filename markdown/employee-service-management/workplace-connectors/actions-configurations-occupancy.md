@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -25,6 +25,8 @@ Role required: admin
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Administration** &gt; **Action Configurations**.
+
+    \[Omitted image "wsd-action-configurations.png"\] Alt text: Actions configuration table showing the Metrikus occupancy action, transform definition, and sub flow.
 
 2.  Select **New**.
 

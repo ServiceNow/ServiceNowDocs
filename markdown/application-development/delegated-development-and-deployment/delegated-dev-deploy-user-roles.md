@@ -1,20 +1,20 @@
 ---
 title: System-managed developer and deployment roles
-description: Although system admins can still manually assign and remove the user roles, they’re encouraged to let the system manage the following delegated developer roles.
+description: Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/delegated-dev-deploy-user-roles.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegated Development reference, Delegated Development, Planning your application, Building applications]
+breadcrumb: [User roles, Configure, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # System-managed developer and deployment roles
 
-Although system admins can still manually assign and remove the user roles, they’re encouraged to let the system manage the following delegated developer roles.
+Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 
 To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
@@ -40,7 +40,7 @@ Roles that start with an sn\_dd prefix \(for example, sn\_dd\_&lt;app\_name&gt;\
 
 </td><td>
 
-User has an application-specific developer permission. The role name indicates the application scope to which it applies.For example, after a user with a sn\_appclient.app\_client\_company\_installer role installs a company application, the system automatically grants a sn\_dd\_&lt;app\_name&gt;\_upgrade\_app delegated deployment role. This role enables you to upgrade the application when future updates are published to the Application Client page.
+User has an application-specific developer permission. The role name indicates the application scope to which it applies.For example, after a user with a sn\_appclient.app\_client\_company\_installer role installs a company application, the system automatically grants a sn\_dd\_&lt;app\_name&gt;\_upgrade\_app delegated deployment role. This role allows the user to upgrade the application when future updates are published to the Application Client page.
 
 </td></tr><tr><td>
 
@@ -50,16 +50,14 @@ glide.security.add\_admin\_contained\_roles\_to\_system
 
 Default Value: true if the property is true, then all the roles, directly or indirectly contained by the admin role, are added to the system user, including the scoped-admin roles.
 
- **Note:** Setting the property to false results in the system user having the admin role, but not any of the scoped-admin roles contained by the admin role.
+ **Note:** Setting the property to false results in the old behavior, where the system user has the admin role, but not any of the scoped-admin roles contained by the admin role.
 
  Example: The admin role contains the **sn\_templated\_snip.template\_snippet\_admin** role
 
- Old behavior: The system user doesn’t have the **sn\_templated\_snip.template\_snippet\_admin** role.
+ Old behavior: The system user does not have the **sn\_templated\_snip.template\_snippet\_admin** role.
 
  New behavior: The system user has the **sn\_templated\_snip.template\_snippet\_admin** role and other scoped roles that it contains.
 
 </td></tr></tbody>
-</table>**Note:** Users with delegated developer roles can’t add or remove the system admin role.
-
-**Parent Topic:**[Delegated Development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-reference.md)
+</table>**Note:** Users with delegated developer roles cannot add or remove the system admin role.
 

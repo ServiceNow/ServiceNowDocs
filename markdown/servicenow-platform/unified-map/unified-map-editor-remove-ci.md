@@ -1,20 +1,20 @@
 ---
 title: Remove a CI from a map using the map editor
-description: You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You cannot remove a CI that was on the map when you started the editing session.
+description: You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You can't remove a CI that was on the map when you started the editing session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/unified-map/unified-map-editor-remove-ci.html
 release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Remove a CI from a map using the map editor
 
-You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You cannot remove a CI that was on the map when you started the editing session.
+You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You can't remove a CI that was on the map when you started the editing session.
 
 ## Before you begin
 
@@ -29,5 +29,5 @@ When you remove \(hide\) a CI from the map, the record of the CI in the CMDB is 
 1.  While editing a map, take one of the following actions:
 
     -   Select the CI and then select **Remove** in the Attributes panel.
-    -   Right-click the CI and then select **Remove**.
+    -   Select and hold \(or right-click\) the CI and then select **Remove**.
 

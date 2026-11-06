@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 9
 keywords: [Configurable properties, @config decorator, @config options, Field types, Grouping a crowded panel, Conditional fields \(dependsOn\), Configuration ids for nested components, Storage key format, Config service methods, Configuration modes, Actions \(@action\), Related]
-breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Configurable properties for Lux experiences
@@ -269,5 +269,5 @@ See [Inline configuration](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/admin-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/admin-experience.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/schema-reference.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/schema-reference.md)
+[schema-reference]
 

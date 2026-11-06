@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-guardrail-model.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring a Guardrail Service Provider, AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring a Guardrail Service Provider, AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Setup a Guardrail Service Provider
@@ -20,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-AI Guardian supports multiple guardrail service provider types to monitor and detect harmful content. Select a provider based on your organization's requirements. Only one provider can be active at a time. For more information about supported service providers, see [Configuring a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-byog.md).
+AI Guardian supports multiple guardrail service provider types to monitor and detect harmful content. Select a provider based on your organization's requirements. Only one provider can be active at a time.
 
 ## Procedure
 

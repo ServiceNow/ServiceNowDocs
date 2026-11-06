@@ -1,16 +1,16 @@
 ---
-title: Define additional field and record level validations
+title: Configure data validation
 description: Create field and record level validations in the Data validation assist table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-data-valid-assist.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
-# Define additional field and record level validations
+# Configure data validation
 
 Create field and record level validations in the Data validation assist table.
 
@@ -64,5 +64,9 @@ Several pre-defined validations are available with the base system. When data is
 7.  Select **Submit** to create a validation assist table.
 
 
-**Parent Topic:**[Data capture and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.md)
+## Result
+
+A new validation record is created. When data is imported with the account onboarding playbook, this validation runs against the staging table.
+
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
 

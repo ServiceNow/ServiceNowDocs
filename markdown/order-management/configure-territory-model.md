@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-territory-model.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring the Territory Model
@@ -44,4 +44,11 @@ The Sales Territory Model is shipped by default with the necessary configuration
 
     The new territory model is created. You can update the new territory model with the associated **Territory Model Sources** and **Territory Model Level Mappings**.
 
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-sales-territory-management.md)
 

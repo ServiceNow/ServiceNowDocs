@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommReviewAPublication.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -36,9 +36,9 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 4.  Add review comments to the **Comments** field.
 
-5.  Select one of the following options.
+5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d250891e132">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d285270e132">
 
 **Approve**
 
@@ -46,7 +46,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 The review state changes to **Approved** on the Approvals list and the publication stage is set to **Ready To Publish**.For other approvers of this article, the review state changes to **No Longer Required**.
 
-</td></tr><tr><td id="d250891e153">
+</td></tr><tr><td id="d285270e153">
 
 **Reject**
 

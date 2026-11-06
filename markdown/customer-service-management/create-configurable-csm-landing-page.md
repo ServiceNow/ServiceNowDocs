@@ -1,16 +1,16 @@
 ---
-title: Create Manager Workspace Landing Page
+title: Create Manager Workspace landing page
 description: Create a landing page based on your business requirement.You can set a default landing page to surface the information that is most relevant for your business.Set the enhanced Manager Workspace as the default landing page for an improved user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-configurable-csm-landing-page.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
 
-# Create Manager Workspace Landing Page
+# Create Manager Workspace landing page
 
 Create a landing page based on your business requirement.
 
@@ -38,9 +38,9 @@ Using UI Builder, you can:
 
 1.  Navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Landing Pages**.
 
-2.  Select the **CSM Landing Page**.
+2.  Click the **CSM Landing Page**.
 
-3.  Select **Clone Page**.
+3.  Click **Clone Page**.
 
     **Note:** The **Clone Page** action is available when the application scope is CSM workspace.
 
@@ -54,29 +54,29 @@ Using UI Builder, you can:
     |Component|The component defaults to sn-page and is read-only.|
     |Order|The order for the landing page. If you have multiple landing pages, the order determines the landing page precedence. Pages with a lower-order value take precedence over pages with a higher-order value.|
     |Active|Determines whether the landing page is active. Enable for a landing page to be displayed.|
-    |Optional page title|A title to display on the page.|
-    |Available child slots|A predefined style of child slots.|
+    |Optional Page Title|A title to display on the page.|
+    |Available Child Slots|A predefined style of child slots.|
     |Layout|The layout of the columns on the page.|
 
 5.  Click **Update** to save your landing page.
 
 6.  Configure permissions for users to access the landing page.
 
-    1.  Select the **UX Page Element Permissions** related list.
+    1.  Click the **UX Page Element Permissions** related list.
 
-    2.  Select **New**.
+    2.  Click **New**.
 
     3.  Select the role or group for the landing page to be visible.
 
-    4.  Select **Submit** to save your permissions.
+    4.  Click **Submit** to save your permissions.
 
     Any page element \(including sub elements\) can have a restriction to a given set of roles or groups. If there are no element permissions set on roles or groups, then all users see the element. If there are some element permissions set, then a user needs just one role or group assignment to see the element.
 
 7.  Configure a container:
 
-    1.  Select the **UX Page Elements** related list.
+    1.  Click the **UX Page Elements** related list.
 
-    2.  Select **New Container** or select an existing container.
+    2.  Click **New Container** or select an existing container.
 
     3.  Fill out the form.
 
@@ -88,16 +88,16 @@ Using UI Builder, you can:
     |Slot|The component placement within the parent element's slot configuration.|
     |Order|The order the page shows.|
     |Border|Enable if you want a border around your container.|
-    |Optional container title|A title to display on the container.|
+    |Optional Container Title|A title to display on the container.|
     |Type|Select a type of styling for your visualization.|
-    |Available child slots|A predefined style of child slots.|
+    |Available Child Slots|A predefined style of child slots.|
     |Layout|The layout of the columns on the page.|
 
 8.  Configure a widget:
 
-    1.  Select **New Visualization** or select an existing widget.
+    1.  Click **New Visualization** or select an existing widget.
 
-    2.  Fill out the form:
+    2.  Fill out the form.
 
 <table id="table_xwv_4y1_b3b"><thead><tr><th>
 
@@ -160,7 +160,7 @@ Select the report you want to render:-   Single score
 
 </td></tr><tr><td>
 
-PA widget
+PA Widget
 
 </td><td>
 
@@ -170,7 +170,7 @@ Select the PA widget you want to render:-   Single score
 
 </td></tr><tr><td>
 
-Optional widget label
+Optional Widget Label
 
 </td><td>
 
@@ -178,7 +178,7 @@ A label to display on the widget.
 
 </td></tr><tr><td>
 
-Size variant
+Size Variant
 
 </td><td>
 
@@ -198,7 +198,7 @@ Check if you want a border around your widget.
 
 </td></tr><tr><td>
 
-Refresh interval
+Refresh Interval
 
 </td><td>
 
@@ -206,7 +206,7 @@ Determines the number of minutes before a widget refreshes with new data. The in
 
 </td></tr><tr><td>
 
-Additional details
+Additional Details
 
 </td><td>
 
@@ -222,16 +222,16 @@ Designated ID for the widget.
 
 </td></tr><tr><td>
 
-Report type \[Read Only\]
+Report Type \[Read Only\]
 
 </td><td>
 
 The type of report that renders.
 
 </td></tr></tbody>
-</table>9.  Select **Update** or **Submit** to save changes to the page element.
+</table>9.  Click **Update** or **Submit** to save changes to the page element.
 
-10. Select **Update** to save changes to the landing page.
+10. Click **Update** to save changes to the landing page.
 
 
 **Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-configurable-wfo-cs.md)

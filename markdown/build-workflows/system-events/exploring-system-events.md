@@ -7,7 +7,7 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [System Events, Build workflows]
 ---
@@ -28,29 +28,24 @@ Realize the benefits of leveraging system events by doing the following tasks in
 -   Move an event
 -   Register events
 -   Reprocess events
--   Pass event parameters from a workflow to a notification
+-   Pass event parameters from a work-flow to a notification
 
 ## System events users
 
 |User|Description|
 |----|-----------|
-|Administrator|Administrators leverage system events to trigger automated actions and workflows based on specific occurrences in the platform, enabling asynchronous processing and responsive automation. They can generate events via scripts or business rules, register them in the Event Registry, and handle them using notifications, script actions, or flows.|
+|Administrator|Administrators leverage system events to trigger automated actions and work-flows based on specific occurrences in the platform, enabling asynchronous processing and responsive automation. They can generate events via scripts or business rules, register them in the Event Registry, and handle them using notifications, script actions, or flows.|
 |Business analysts|Business analysts analyze trends and processes by leveraging events to capture specific system activities, generate logs, or send data to analytic tools for better decision-making and process improvement.|
 |Compliance officers|Compliance officers help to ensure adherence to regulatory requirements by using events to log critical activities, generate compliance reports, or initiate corrective actions when deviations from standards are detected.|
 |Customer support|Customer support employees use system events to enhance customer service by triggering automated responses to customer requests, creating follow-up tasks, or escalating unresolved cases to appropriate teams.|
-|Developers|Developers create and manage system events to integrate modules and implement custom logic, which helps ensure extensibility and dynamic system behavior.|
-|HR administrators|HR professionals use system events to automate HR processes, such as notifying employees of updates, generate onboarding workflows when a new hire is recorded, or trigger document reviews during offboarding.|
-|ITOM/ITSM|IT service managers use system events to automate ITSM processes like SLA breach notifications, incident escalation, or workflow initiation, helping ensure efficient IT service delivery and SLA compliance.|
-|Marketing teams|Marketing teams use events to automate customer engagement, triggering actions like sending promotional emails or updating CRM systems based on customer interactions.|
-|Operations teams|Operations teams use events to respond to operational alerts, initiating corrective actions like restarting services or notifying teams, helping ensure timely issue resolution and system maintenance.|
+|Developers|Developers create and manage system events to integrate modules, trigger work-flows, and implement custom logic in response to user actions or record changes, helping to ensure extensibility and dynamic system behavior.|
+|HR administrators|HR professionals use system events to automate HR processes, such as notifying employees of updates, generating on-boarding work-flows when a new hire is recorded, or triggering document reviews during off-boarding.|
+|ITOM/ITSM|IT service managers use system events to monitor and automate ITSM processes, such as sending notifications for SLA breaches, escalating incidents, or triggering task work-flows, helping to ensure efficient IT service delivery and compliance with SLAs.|
+|Marketing teams|Marketing teams automate customer engagement by using events to trigger campaign actions, such as sending promotional emails or updating CRM systems when specific conditions \(e.g., customer interaction\) are met.|
+|Operations teams|Operations teams monitor and respond to operational alerts or system changes by triggering events that initiate corrective actions, such as restarting services, updating CMDB records, or notifying relevant teams of maintenance schedules.|
 |Project managers|Project managers use system events to trigger notifications for project updates, create task dependencies automatically, or update stakeholders when milestones are achieved, enabling better project tracking and communication.|
-|Security analysts|Security analysts use system events to trigger immediate responses to security incidents, such as creating alerts, generating logs, or initiating containment workflows for detected threats.|
+|Security analysts|Security analysts leverage system events to trigger immediate responses to security incidents, such as creating alerts, generating logs, or initiating containment work-flows in response to detected threats or vulnerabilities.|
 
-## System events workflow
-
-\[Omitted image ""\] Alt text:
-
-1.  2.  
 ## System events benefits
 
 |Benefit|Feature|Users|
@@ -70,4 +65,11 @@ To learn more about configuring and using System events, see:
 -   [Configuring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/configuring-system-events.md)
 -   [Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/managing-system-events.md)
 -   [System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/system-events-reference.md)
+
+-   **[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/events.md)**  
+Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
+-   **[Event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/c_EventRegistry.md)**  
+The events registry lists the events the system recognizes. Use registered events to automate other activities, such as script actions or notifications.
+
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/system-events-landing.md)
 

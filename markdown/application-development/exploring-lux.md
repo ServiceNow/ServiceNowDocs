@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [Lux, Server-rendered, then hydrated, Built on Lit widgets, What you build with it, Who this is for]
-breadcrumb: [Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring Lux

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -25,6 +25,8 @@ Role required: admin
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Administration** &gt; **Provider Space Mapping**.
 
     The location data is mapped with the external Ids of the provider. For example, Metrikus occupancy data using the External Ids. The location hierarchy is shown for the spaces or locations that you selected in the [Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md) table.
+
+    \[Omitted image "wsd-provider-space-mappings.png"\] Alt text: Provider space Mappings table showing mapped Workplace Service Delivery spaces with external IDs provided by Metrikus occupancy sensor.
 
 2.  To create a provider space mapping records, select **New**.
 

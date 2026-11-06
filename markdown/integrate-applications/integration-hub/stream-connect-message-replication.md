@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -46,7 +46,7 @@ For details on setting up a MID Server cluster, see [Configure a MID Server clus
 
 Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. To configure a Connection &amp; Credential alias:
 
-1.  [Create Kafka SSL credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
+1.  [Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
 2.  [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-kafka-connection.md) to connect to your Kafka environment.
 3.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md), to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
 
@@ -86,8 +86,8 @@ Most issues are logged in the MID Server log. Additional debug logging can be en
 
 -   **[Create message and Kafka topic replications in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-message-topic-reps-sc.md)**  
 Set up message and topic replications to replicate data between your Apache Kafka environment and ServiceNow.
--   **[Create Kafka SSL credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md)**  
-Configure SSL credentials for your Apache Kafka connection.
+-   **[Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md)**  
+Configure credentials for your Apache Kafka connection.
 -   **[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-kafka-connection.md)**  
 Configure a connection to your Apache Kafka environment.
 -   **[Viewing Stream Connect Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-message-rep-stats.md)**  

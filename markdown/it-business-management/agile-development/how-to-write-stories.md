@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development 2.0 reference, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Writing effective stories in Agile Development 2.0
@@ -47,7 +47,7 @@ Typically, a story description is expressed as: "As a &lt;role&gt;, I want &lt;g
     -   The description does not include any benefit information, so the business value is not clear.
     It could be better written as:
 
-    Description: As an incident creator, I want email notifications to be sent to a predefined set of interested parties when I create an incident. This way, they are informed when an incident affecting them is created.
+    Description: As an incident creator, I want email notifications to be sent to a predefined set of interested parties when I create an incident. This way, they can be informed when an incident affecting them is created.
 
 
 ## Story acceptance criteria

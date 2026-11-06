@@ -7,7 +7,7 @@ release: zurich
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrading legacy Investment Funding to Store application, Investment Funding, Strategic Portfolio Management]
 ---

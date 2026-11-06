@@ -8,9 +8,9 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
 last_updated: "2026-10-01"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Agent Client Collector for Visibility, ACC-VC, non-persistent VDI, NPVDI]
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # ACC-VC NPVDI endpoints
@@ -73,4 +73,9 @@ Caching applies only to the installed software inventory. Software usage metrics
 ## Behavior when NPVDI configuration is unavailable
 
 If an NPVDI endpoint can't read its NPVDI configuration, for example, because the acc.yml file is missing or malformed, ACC-VC doesn't skip any Enhanced Discovery modules and treats caching as turned off. Discovery then runs the same way it does on a persistent endpoint.
+
+-   **[Configure ACC-VC data collection for NPVDI endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-accvc-npvdi-data-collection.md)**  
+Choose which **Enhanced Discovery** modules Agent Client Collector for Visibility Content \(ACC-VC\) skips on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints. Optionally, choose whether installed software scan results are cached within the same session.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

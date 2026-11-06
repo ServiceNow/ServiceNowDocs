@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mab-opening.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -30,15 +30,15 @@ For more information about the delegated developer role, see [Exploring Delegate
 
 2.  Perform one or all of the following actions from the application scope selection screen.
 
-<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d39155e106">
+<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d40467e106">
 
 Action
 
-</th><th align="left" id="d39155e109">
+</th><th align="left" id="d40467e109">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d39155e115">
+</th></tr></thead><tbody><tr><td id="d40467e115">
 
 **Access documentation**
 
@@ -46,7 +46,7 @@ Process
 
 Select **Go to product documentation** to get information about Mobile App Builder and how to use the tool.
 
-</td></tr><tr><td id="d39155e130">
+</td></tr><tr><td id="d40467e130">
 
 **Access Mobile Card Builder**
 
@@ -54,7 +54,7 @@ Select **Go to product documentation** to get information about Mobile App Build
 
 Select **Open Mobile Card Builder** to customize the appearance of the mobile cards you use within Mobile App Builder.
 
-</td></tr><tr><td id="d39155e148">
+</td></tr><tr><td id="d40467e148">
 
 **Select an application scope**
 

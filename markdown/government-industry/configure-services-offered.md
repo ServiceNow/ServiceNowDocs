@@ -1,18 +1,18 @@
 ---
-title: Configure the service catalog for a constituent, business, or agency
-description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal.
+title: Configure the portal service catalog for a constituent, business, or agency
+description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/configure-services-offered.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the service catalog for a constituent, business, or agency
+# Configure the portal service catalog for a constituent, business, or agency
 
-Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal.
+Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
 
 ## About this task
 
@@ -71,9 +71,9 @@ Application
 </td><td>
 
 Application scope of the service. Select from the following options:-   Public Sector Digital Services Core
--   License and Permit Playbook
+-   License and Permit Administration
 -   Information Request Administration
--   Service Request Playbook
+-   Service Request Administration
 
 
 </td></tr><tr><td>

@@ -9,7 +9,7 @@ classification: workspace-builder
 topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Configure, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Installing Workspace Builder

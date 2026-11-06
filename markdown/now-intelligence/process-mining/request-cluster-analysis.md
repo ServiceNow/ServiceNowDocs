@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cluster analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Cluster analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Perform a cluster analysis
@@ -19,7 +19,7 @@ Generate a cluster analysis on an activity, connection between activities, route
 **Before you begin**
 
 -   [Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-configuration-clustering.md). To generate a cluster analysis, the project must have a process configured with a clustering solution on the relevant table.
--   Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+-   Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 -   An analysis can be performed on an activity, connection, improvement opportunity, or combined routes with a minimum of 100 and maximum of 300,000 records.
 
 Run a cluster analysis in one of the following ways.

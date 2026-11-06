@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Edit a growth conversation series in Career Conversations
@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d325638e150">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d330999e150">
 
 Role
 
-</th><th align="left" id="d325638e153">
+</th><th align="left" id="d330999e153">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d325638e159">
+</th></tr></thead><tbody><tr><td id="d330999e159">
 
 **Employee**
 
@@ -51,13 +51,13 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d325638e168">
+</td></tr><tr><td id="d330999e168">
 
 **Manager**
 
 </td><td>
 
--   Your team's conversations
+-   Your team's conversation
 -   Coming up soon
 
 **Tip:** This widget reflects conversations that are set to transpire within one week of the system date.
@@ -71,7 +71,7 @@ Your conversations
 
     |Field|Description|
     |-----|-----------|
-    |Conversation title|Name of the conversation.|
+    |Conversation title|Date of the conversation. The format is &lt;YYYY-MM-DD&gt;|
     |End series on|Date on which the growth conversation series should end.|
 
     **Note:** The **Organizer** and **Have this conversation with** fields are not editable.

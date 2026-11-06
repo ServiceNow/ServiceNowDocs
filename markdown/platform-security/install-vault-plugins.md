@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/install-vault-plugins.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring ServiceNow Vault, ServiceNow Vault]
 ---
@@ -16,11 +16,9 @@ Learn how to review and install the necessary plugins for ServiceNow Vault.
 
 ## Before you begin
 
-Role required: sn\_vault\_console.vault\_console\_admin
+Role required: Elevate to sn\_vault\_console.vault\_console\_admin role.
 
-## About this task
-
-ServiceNow Vault is best used with other ServiceNow security products. Install and configure the other plugins to make the most of your tools and metrics.
+ServiceNow Vault is best used with other ServiceNow security products. Make the most of your tools and metrics by installing and configuring the plugins listed in step 3.
 
 ## Procedure
 
@@ -35,7 +33,7 @@ ServiceNow Vault is best used with other ServiceNow security products. Install a
     |\[Omitted image "vault-tool-status-3.png"\] Alt text: Needs license|Tool has no license. Reported metrics may be affected or unavailable.|
     |\[Omitted image "vault-tool-status-4.png"\] Alt text: Premium license|Tool has full access.|
 
-3.  If a status is either limited or needs a license, review its respective installation page, and then install or activate the tool.
+3.  If a status is either limited or needs a license, review its respective installation page.
 
 <table id="table_bf1_qhb_1gc"><thead><tr><th>
 
@@ -59,7 +57,7 @@ Installation page
 
 </td><td>
 
-Included with the platform
+Included with the platform.
 
 </td></tr><tr><td>
 
@@ -67,7 +65,7 @@ Included with the platform
 
 </td><td>
 
-[Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-activate-data-privacy.md)**Note:** Data anonymization is installed as part of [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md)
+[Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-activate-data-privacy.md)**Note:** Data anonymization is installed as part of [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md).
 
 </td></tr><tr><td>
 
@@ -93,11 +91,9 @@ Included with the platform
 
 </td><td>
 
--   [Activate Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activate-session-access.md)
+-   [Activate Zero Trust access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activate-session-access.md)
 -   [Activate Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activate-continuous-authentication.md)
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-servicenow-vault.md)
-

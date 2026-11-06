@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-now-assist-configure.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
@@ -18,4 +18,5 @@ The collection comprises of ServiceNow Otto for Retail Service Management \(RSM\
 -   A trigger allows the AI agent to launch automatically without requiring a HQ agent request when the trigger condition is met.
 -   The trigger that is shipped with this release is configured to launch for the HQ agent when the case state changes to Open from New and Assigned to field is not empty.
 -   By default, the trigger being shipped is disabled and HQ agent can navigate to the AI agent and enable the trigger.
+-   Now Assist for doc Intel should be upgraded to 6.0.0.
 

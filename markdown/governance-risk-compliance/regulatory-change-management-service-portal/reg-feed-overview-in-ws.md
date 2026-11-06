@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -57,10 +57,10 @@ Visual component for the regulatory event alert that displays the following stag
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Regulatory alert|Details of the alert such as title of the alert, associated citation, provider name and URL, regulatory body URL, alert type, and coordinator of the alert.|
+|Regulatory alert|Details of the alert such as the alert number, title, associated citation, provider name and URL, regulatory body URL, alert type, and coordinator of the alert.|
 |Dates|Details of the important dates associated with the alert such as source publication date, comments date, effective date, compliance date, and expiration date.|
 |Activity journal|Text box for entering additional comments related to the activity.|
-|Settings|Functional domain that the regulatory alert belongs to. For example, `Cybersecurity and risk`, `IT risk and compliance`.|
+|Settings|Functional domains that the regulatory alert belongs to. For example, `Cybersecurity and risk`, `IT risk and compliance`.|
 
 |Field|Description|
 |-----|-----------|

@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Service Mapping, Cloud Environments, IaaS, PaaS]
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]

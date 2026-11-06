@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [Widget Builder, Widgets catalog, Editor, Build Service]
-breadcrumb: [Lux Widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Widget Builder

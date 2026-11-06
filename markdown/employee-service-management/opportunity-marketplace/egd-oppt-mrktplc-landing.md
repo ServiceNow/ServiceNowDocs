@@ -7,7 +7,7 @@ release: zurich
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -50,11 +50,4 @@ You can also create custom opportunities. For more details about custom opportun
  
 
 </td></tr></tbody>
-</table>## Additional resources
-
--   Learn more about what's new and changed, see the .
--   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
-
+</table>

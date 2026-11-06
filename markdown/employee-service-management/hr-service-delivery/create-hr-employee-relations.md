@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -264,7 +264,7 @@ Agents or interested parties you want to associate with the case. Collaborators 
 -   Notifications are sent to the collaborators when added to the ER case.
  Collaborators and the COE for the HR case can conflict. The basic rules are:
 
--   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md).
+-   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
 -   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
 **Note:** Agents must have the ER case writer \[sn\_hr\_er.case\_writer\] role in order to be a collaborator.
 
@@ -350,7 +350,7 @@ A longer, detailed description after the ER case is created. Use the Rich Text F
 
     -   **Interviews**
 
-        Interview record for an involved party. For more information, see .
+        Interview record for an involved party. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-interview.md).
 
     -   **Evidence**
 

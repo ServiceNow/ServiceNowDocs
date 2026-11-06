@@ -1,18 +1,18 @@
 ---
 title: Data Relationships Framework
-description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework. It fetches the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Zurich release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/data-relationship-framework.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Data Relationships Framework
 
-The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework. It fetches the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Zurich release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 
 \[Omitted video\] Description: An overview of the Data Relationships Framework.
 
@@ -20,9 +20,9 @@ The video gives you an overview of the Data Relationships Framework and how it f
 
 ## Framework for fetching the dependencies
 
-The Data Relationships Framework \(sn\_grc\_rel\_config\) stores the configurations for how a main object type can relate to other object types. It enables the users to configure the source \(main node\) for the dependency updates. It configures its relationship with the child nodes and fetch the dependencies for the selected object.
+The Data Relationships Framework \(sn\_grc\_rel\_config\) stores the configurations for how a main object type can relate to other object types. It enables you to configure the source \(main node\) for the dependency updates and configure its relationship with the child nodes. You can fetch the dependencies for the selected object.
 
-A scheduled job scans the object configuration data at regular intervals and checks if any dependencies have been updated. If any changes are observed in the dependencies, the scheduled job fetches the dependencies from one of the configured sources such as BIA, BCP, or CMDB.
+A scheduled job scans the object configuration data at regular intervals and checks if any dependencies have been updated. When changes are detected, the job fetches the dependencies from configured sources such as BIA, BCP, or CMDB.
 
 ## Benefits of the Data Relationships Framework
 
@@ -79,7 +79,7 @@ The BCM application users can navigate to **Data Relationship Framework** in the
 
 The Data Relationships Framework application consists of the following modules:
 
-1.  Main node configuration: Configure the details of the main node such as its name, source, table name, filter conditions, and so on as shown in the following examples.
+1.  Main node configuration: Configure the details of the main node such as its name, source, table name, filer conditions, and so on as shown in the following examples.
 
     \[Omitted image "main-node-config-new-bcm.png"\] Alt text: Main node configuration.
 
@@ -97,7 +97,7 @@ The Data Relationships Framework application consists of the following modules:
     -   Configure the Impact analysis dependency update configuration module and fetch the dependency updates into a BIA \(add the dependency updates to the BIA\) from these sources.\[Omitted image "sources-bia-updates.png"\] Alt text: Sources.
     -   Configure the Planning dependency update configuration module and fetch the planning dependency updates into a plan \(add the updated related assets to the plan\) from these sources.
     -   Configure the Event dependency source configuration module and configure the sources for the event dependency updates \(add the updated impacted assets to a recovery event\).
-    **Note:** All the information on how data should be pulled is stored in the Main node configuration, which is attached to the records. This configuration determines the order in which the data is pulled. To reduce the amount of data pulled and how it is pulled, you must configure the conditions in both the Main node configuration and the records. This verifies that only the necessary data is retrieved.
+    **Note:** All the information on how data should be pulled is stored in the Main node configuration, which is attached to the records. This configuration determines the order in which the data is pulled. To reduce the amount of data pulled and how it is pulled, you need to configure the conditions in both the Main node configuration and the records. This ensures that only the necessary data is retrieved.
 
     The main node configuration records for plans and CMDB are shown in the following examples.
 
@@ -129,6 +129,8 @@ The Data Relationships Framework application consists of the following modules:
 The Data Relationships Framework is used to configure the node and asset relationships such as mapping a main node to its child node or mapping an asset to a risk.
 
 Consider the following use case that shows the main node configuration and its relationships.
+
+\[Omitted image "data-relationship-framework-mapping.png"\] Alt text: Data relationship framework.
 
 In this example, INC1010 is the main node where the source is an Incident. INC1010 has two child nodes:
 
@@ -176,9 +178,11 @@ The Data Relationships Framework has the following limitations:
 For more information on the administrative setup for the configuration records, see [Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/dependency-config-modules.md).
 
 -   **[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-a-main-node-config-record.md)**  
-Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
+-   **[Update the node relationship configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-node-rel-config-bcm.md)**  
+Update the node relationship configuration for each main node configuration. In the Node relationship configurations related list, select the sequence and update the source table, relationship registry, relationship table, target table, and target conditions.
 -   **[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-a-rela-registry-record.md)**  
-Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
 -   **[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-properties-for-data-rel-framework.md)**  
 Configure the properties for the Data Relationships Framework application.
 

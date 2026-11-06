@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure API notifications, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure API notifications, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Create a topic
@@ -32,7 +32,7 @@ You can create topics either by manually typing the external message details or 
 
 2.  Select **New**.
 
-    If you’ve integrated with an external system, you can select **Get Topics** to get the available topics automatically. This action triggers the Event Alarm Notification API subflow. To learn more about the functions that enable you to query and manipulate records in the topic, see [TopicUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md).
+    If you’ve integrated with an external system, you can select **Get Topics** to get the available topics automatically. This action triggers the Event Alarm Notification API subflow. To learn more about the functions that enable you to query and manipulate records in the topic, see .
 
 3.  On the form, fill in the fields.
 
@@ -105,4 +105,6 @@ A topic is created.
 ## What to do next
 
 You can create the topic subscription according to the customer requirement. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/create-subscription-api-notification.md)
+
+**Parent Topic:**[Configuring Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-telecommunications-api-notifications.md)
 

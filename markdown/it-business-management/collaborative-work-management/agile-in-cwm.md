@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [agile, scrum, sprint planning, CWM agile, stories, scrum tasks, backlog]
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -17,7 +17,7 @@ breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 
 Run your agile workflow in Collaborative Work Management \(CWM\), from building and refining a backlog to planning sprints, executing work as stories and scrum tasks, and collaborating with your team.
 
-CWM is a unified workspace where agile teams can manage their delivery cycle. Teams transitioning to CWM can continue to run the Scrum workflow they’re familiar with, which includes managing a backlog, planning and executing sprints, and tracking daily progress. These teams also benefit from CWM's flexible work item model, AI assistance, and broader collaboration features.
+CWM is a unified workspace where agile teams can manage their delivery cycle. Teams transitioning to CWM can continue to run the Scrum workflow they’re familiar with, which includes managing a backlog, planning and executing sprints, and tracking daily progress. They also benefit from CWM's flexible work item model, AI assistance, and broader collaboration features.
 
 ## Agile workflow in CWM
 
@@ -120,7 +120,7 @@ Sprint data and classic UI
 
 </td><td>
 
-Sprint data is stored on the story record and is visible when you open the story in classic UI.
+Sprint data is stored on the story record and is visible when you open the story in the classic UI.
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing access to knowledge bases and knowledge articles, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -92,7 +92,7 @@ Script to define any additional user criteria that returns true or false. This f
 
 -   A script is evaluated in the scope that the user criteria are created in.
 -   The evaluation of a script is cached in the session, so any change in the evaluation requires you to log in again. If a scripted user criterion is defined for a knowledge base, user access to knowledge bases is evaluated once per session. If the script results in changes after a session cache is built, the result takes effect in the next session.
--   Don't use gs.getUser\(\) or other session APIs because they cause conflicts when used in diagnostic tools. Use the predefined *user\_id* variable available in the script to get the user ID of the user being used to evaluate the script.
+-   Don’t use gs.getUser\(\) or other session APIs because they cause conflicts when used in diagnostic tools. Use the predefined *user\_id* variable available in the script to get the user ID of the user being used to evaluate the script.
 -   Scripts are evaluated dynamically. Therefore, including scripts in a user criteria can impact performance.
 
 
@@ -142,7 +142,7 @@ Option to determine whether all elements from each populated user criteria field
 -   Company C or D
 With **Match All** selected, only users that meet all of these conditions are matched. For example, a user with a location A and a company C.
 
- If **Match All** isn't selected, users meeting any of these conditions are matched. For example, a user with a location B.
+ If **Match All** isn’t selected, users meeting any of these conditions are matched. For example, a user with a location B.
 
 **Note:** If you select **Match All**, ensure that you don't create contradictory conditions that can never be met. For example, if all users in location A work for company G, the conditions in this example can never be met.
 

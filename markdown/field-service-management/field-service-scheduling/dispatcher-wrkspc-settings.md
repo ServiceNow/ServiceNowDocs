@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Enable Dispatcher Workspace settings
@@ -30,7 +30,7 @@ Quick settings in Dispatcher Workspace provide access to certain capabilities of
 
 2.  Select the Dispatcher Workspace.
 
-3.  Click the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\).
+3.  Select the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\).
 
     The options on the Settings dialog box are arranged in a multiple-tabbed layout.
 
@@ -52,19 +52,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable tasks in the task panel, schedule, and map to filter at the same time when an assignment group is selected
+Collapse task panel on initial load
 
 </td><td>
 
-Option to synchronize the resource filter with the task panel, tasks, and map for selected assignment groups.
-
-</td></tr><tr><td>
-
-Select the type of group you want to show
-
-</td><td>
-
-Option to choose if you want to see Assignment groups or Dispatch groups when you search in the task panel.
+Collapses all the assignment groups or territories on the calendar when Dispatcher Workspace loads.**Note:** The setting collapse\_task\_panel\_in\_init\_load must be enabled by an administrator to see this option.
 
 </td></tr><tr><td>
 
@@ -73,6 +65,14 @@ Enable Auto-refresh
 </td><td>
 
 Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/configure-workspce-settings.md).
+
+</td></tr><tr><td>
+
+Select the type of group you want to show
+
+</td><td>
+
+Option to choose if you want to see Assignment groups or Dispatch groups when you search in the task panel.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Groups
 Enter the default groups to you want selected when you open the **Note:** If you have the Territory Planning plugin installed, then the **Groups** tab becomes the **Territories** tab. Enter the default territories to you want selected when you open the Dispatcher Workspace.
 
 </td></tr></tbody>
-</table>5.  Click the **Tasks** tab and fill in the fields.
+</table>5.  Select the **Tasks** tab and fill in the fields.
 
 <table id="table_thq_dfc_xtb"><thead><tr><th>
 
@@ -135,7 +135,7 @@ Option to display the default location of the field service agent.**Note:** This
 
 </td></tr><tr><td>
 
-Timezone
+Time zone
 
 </td><td>
 
@@ -158,7 +158,7 @@ Notify me of new tasks before adding them to the list
 Option to show a notification at the top of the task list when a new task is added to the task list. You must have **Enable auto-refresh** turned on to use this setting.
 
 </td></tr></tbody>
-</table>6.  Click the **Calendar** tab and fill in the fields.
+</table>6.  Select the **Calendar** tab and fill in the fields.
 
 <table id="table_w4t_cjd_mzb"><thead><tr><th>
 
@@ -169,6 +169,22 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+Show zoom controls
+
+</td><td>
+
+Enables zooming capabilities on the calendar.
+
+</td></tr><tr><td>
+
+Show overtime indicator
+
+</td><td>
+
+Enables overtime indicators on the calendar. Overtime is indicated with a cross pattern on the calendar.
+
+</td></tr><tr><td>
 
 Default calendar view
 
@@ -254,7 +270,7 @@ Automatically adjust overlapping tasks
 
 </td><td>
 
-Option to reschedule an existing task after a new task is assigned where an existing task is scheduled. When dragging a new task over an existing tasks, this shifts existing task to the right of the new task.**Note:** If Field Service Task Bundling plugin is installed, dragging bundles will also shift existing tasks, and existing bundles will shift when overlapped.
+Option to reschedule an existing task after a new task is assigned where an existing task is scheduled. When dragging a new task over an existing task, this shifts existing task to the right of the new task.**Note:** If Field Service Task Bundling plugin is installed, dragging bundles will also shift existing tasks, and existing bundles shift when overlapped.
 
 </td></tr><tr><td>
 
@@ -262,7 +278,7 @@ Select time zones for calendar
 
 </td><td>
 
-Entry to choose which time zones are available from the time zone drop-down on the Schedule and Hybrid views of Dispatcher Workspace. You can choose one or more.
+Entry to choose which time zones are available from the time zone drop-down on the Schedule and Hybrid views of Dispatcher Workspace. You can choose one or more.**Note:** This setting isn't available if Enable resource time indicators is on.
 
 </td></tr><tr><td>
 
@@ -270,10 +286,26 @@ Show multiple time zone rows
 
 </td><td>
 
-Enable multiple time zone rows to show on the calendar in Dispatcher Workspace. The time zones available for selection are input in the **Select time zones for calendar** field. Additional time zones are stacked on top of the default time zone on the calendar.
+Enable multiple time zone rows to show on the calendar in Dispatcher Workspace. The time zones available for selection are input in the **Select time zones for calendar** field. Additional time zones are stacked on top of the default time zone on the calendar.**Note:** This setting isn't available if **Enable resource time** indicators is on.
+
+</td></tr><tr><td>
+
+Enable resource time indicators
+
+</td><td>
+
+Shows equalized technician schedules on the calendar. The calendar time indicator is segmented to indicate the different time zones technicians are located in.
+
+</td></tr><tr><td>
+
+Show time label
+
+</td><td>
+
+Shows the time in indicator label on the calendar in Dispatcher Workspace.
 
 </td></tr></tbody>
-</table>7.  Click the **Resources** tab and fill in the fields.
+</table>7.  Select the **Resources** tab and fill in the fields.
 
     **Note:** Disable Available Parts, Matching skills, and Distance to Task to prevent Dispatcher Workspace from reloading each time a new task is selected.
 
@@ -351,7 +383,7 @@ Option to determine the distance to task locations based on the route taken by t
 
 </td></tr><tr><td>
 
-Timezone
+Time zone
 
 </td><td>
 
@@ -391,7 +423,7 @@ Operational Status
 
 </td><td>
 
-Current status of the equipment. For example, a bucket truck is Unavailable because there is maintenance being completed on it. The available values are:
+Status of the equipment. For example, a bucket truck is Unavailable because there’s maintenance being completed on it. The available values are:
 
 -   Available
 -   In Use
@@ -409,7 +441,7 @@ Name of the category for the equipment.
 **Note:** Equipment must be enabled to see this setting.
 
 </td></tr></tbody>
-</table>8.  Click the **Events** tab and fill in the fields.
+</table>8.  Select the **Events** tab and fill in the fields.
 
 <table id="table_lc3_rfc_xtb"><thead><tr><th>
 

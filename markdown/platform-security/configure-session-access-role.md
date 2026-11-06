@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configure-session-access-role.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Zero Trust Access, Access Management]
 ---
@@ -35,7 +35,7 @@ Role required: security\_admin
 
 2.  To create a Session Access role configuration, select **New**.
 
-3.  On the form, fill the fields:
+3.  On the form, fill in the fields:
 
 <table id="table_vdl_r1g_twb"><thead><tr><th>
 
@@ -67,7 +67,7 @@ Policy
 
 </td><td>
 
-Choose the adaptive authentication policy. Use the look-up icon to view the list of policy.
+The adaptive authentication policy to apply. Use the look-up icon to view the list of policy.
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Role List
 
 </td><td>
 
-Choose roles from the Role List.
+Roles from the Role List.
 
 </td></tr><tr><td>
 
@@ -93,10 +93,10 @@ Group List
 
 </td><td>
 
-Choose the roles from the Group List that you want to remove or limit to the user.
+The roles from the Group List to remove or limit for the user.
 
 </td></tr></tbody>
-</table>4.  Select, **Submit**.
+</table>4.  Select **Submit**.
 
     The login for users based on the configured countries is as follows:
 
@@ -104,6 +104,6 @@ Choose the roles from the Group List that you want to remove or limit to the use
     -   In **Limit To Roles**, the users from the configured countries with the selected roles only have those roles for the session.
     \[Omitted image "configure-session-access-role.png"\] Alt text: Configure Session Access Role
 
-    To know more about how to remove or limit roles for a session explained with a sample use-case, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/use-zero-trust-access.md).
+    To know more about how to remove or limit roles for a session explained with a sample use-case, see [Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/use-zero-trust-access.md).
 
 

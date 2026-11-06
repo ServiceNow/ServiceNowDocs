@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
@@ -61,13 +61,6 @@ User personas and roles are defined as follows:
     Configure and maintain walk-up related systems, such as the walk-up location branding and text, queue locations and schedules, appointments, advanced work assignments, and notifications, and CSAT surveys.
 
 
-|Role Name|Role|Description|
-|---------|----|-----------|
-|sn\_walkup.walkup\_login|Store representative|A user with this role helps requesters check in at the walk-up location.|
-|sn\_csm\_walkup.walkup\_technician|CSM walk-up technician|A user with this role fulfills user demands at the CSM walk-up location.|
-|sn\_csm\_walkup.walkup\_manager|CSM walk-up manager|A user with this role manages the team at the walk-up location.|
-|sn\_csm\_walkup.walkup\_admin|CSM walk-up administrator|A user with this role administers walk-up interactions, location queues, and walk-up reasons.|
-
 ## Configuring Walk-up Experience for Customer Service Management
 
 To get started with Walk-up Experience for Customer Service Management, see [Configure Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-walk-up-csm.md).
@@ -76,4 +69,9 @@ To get started with Walk-up Experience for Customer Service Management, see [Con
 The Walk-up Experience application can enable guest users to manage walk-up appointments online from the Consumer Service Portal or Customer Service Portal home page.
 
 **Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceManagement.md)
+
+**Related topics**  
+
+
+[Walk-up Experience for CSM user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/walk-up-experience-user-roles.md)
 

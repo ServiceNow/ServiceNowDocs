@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Filter records with the GRC Mobile application
@@ -53,5 +53,5 @@ Time to complete this task: 5 minutes.
 
 View the records that are displayed after your search for more details.
 
-**Parent Topic:**[Manage mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

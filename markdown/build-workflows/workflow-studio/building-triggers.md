@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2025-06-19"
 reading_time_minutes: 1
-breadcrumb: [Use, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Building triggers
@@ -37,5 +37,5 @@ View a list of flows that are associated with a saved trigger, and detach it fro
 -   **[Delete a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/delete-saved-trigger.md)**  
 Delete a saved trigger that you no longer need.
 
-**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

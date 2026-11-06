@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-boolean-filter-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -45,13 +45,17 @@ The filter applies to all elements on the same dashboard or the same dashboard t
     -   An empty \(null\) value is possible for a field. Therefore, the total number of true and false values can be less than the total number of records or less than an indicator score that counts records. The viewer can also select **\(empty\)** to clear their selection.
 4.  Specify a default value of true or false.
 
-    The filter is applied with this value when the dashboard is opened. If you do not specify a default value, the filter value is empty by default.
+    The filter is applied with this value when the dashboard is opened. If you don't specify a default value, the filter value is empty by default.
 
 5.  Select the **Sort direction**.
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
 
-6.  Select **Save**.
+6.  Specify a **Filter Custom ID**, a name for the filter that replaces its sys\_id in URL filter parameters.
+
+    For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/url-filter-parameters.md).
+
+7.  Select **Save**.
 
 
 ## Result

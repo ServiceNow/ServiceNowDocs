@@ -1,5 +1,5 @@
 ---
-title: Configure immediate optimization for prioritized events
+title: Configure optimization for prioritized events
 description: Configure prioritized event optimization to enable schedule adjustments in response to critical, same-day events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/configure-immediate-optimization.html
@@ -7,12 +7,12 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Optimizing technician schedules, Optimizing technician schedules, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
-# Configure immediate optimization for prioritized events
+# Configure optimization for prioritized events
 
 Configure prioritized event optimization to enable schedule adjustments in response to critical, same-day events.
 
@@ -22,11 +22,13 @@ To set the system properties for the prioritized event mode, see [Schedule Optim
 
 Role required: wm\_admin
 
+\[Omitted video\] Description: This video demonstrates how to configure optimization for prioritized events
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
 
-2.  In the **Prioritized** and **Active** fields, set the value to true for the event types you want to include in immediate optimization.
+2.  In the **Prioritized** field, set the value to true for the event types you want to include in immediate optimization.
 
     **Note:** Only three event types may be enabled for prioritized optimization at one time. Confirm that only the most critical events are enabled.
 
@@ -54,4 +56,11 @@ Role required: wm\_admin
 ## Result
 
 When the selected event type occurs, optimization runs shortly after. The optimization run creates an event for the task, which then generates a prioritized job. The task is assigned accordingly. When an event no longer meets the defined condition, it's removed from prioritized optimization and also from the scheduled intraday run to maintain consistency.
+
+**Related topics**  
+
+
+[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
+
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

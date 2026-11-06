@@ -1,16 +1,16 @@
 ---
-title: Editing email settings
+title: Edit email settings
 description: Edit the email settings as needed to match the settings on your mail server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/edit-email-settings.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Editing email settings
+# Edit email settings
 
 Edit the email settings as needed to match the settings on your mail server.
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to the **Settings** page.
+1.  Navigate to the Settings page.
 
 2.  Select the **Email** tab.
 
@@ -34,8 +34,10 @@ Role required: admin
     |Port|Port of the email server. Typically port 25.|
     |From Address|From address to use for the alert|
     |Enable TLS Encryption|Setting that must match the TLS setting on the email server.|
-    |Enable Connection Logging|Feature that, if enabled, logs all email server connections to a file|
+    |Enable Connection Logging|Option to log all email server connections to a file|
 
 5.  Select **Save**.
 
+
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/settings-page-console.md)
 

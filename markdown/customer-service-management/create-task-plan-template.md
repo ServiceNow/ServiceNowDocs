@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-task-plan-template.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Create a task plan template that includes template items, such as tasks, that ar
 
 ## Before you begin
 
-Role required: sn\_task\_plan.admin​ or sn\_task\_plan.creator role
+Role required: sn\_task\_plan.admin or sn\_task\_plan.creator role
 
 ## About this task
 
@@ -40,7 +40,7 @@ You can also [clone a task plan template](https://raw.githubusercontent.com/Serv
 
     1.  If there are task plan template configurations created, select one from the **Task plan template configuration** field.
 
-        The task plan template configuration prefills the **Short description** and **Target record** field. For more information about task plan template configurations, see [Create a task plan template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/task_plan_template_configurations.md).
+        The task plan template configuration pre-fills the **Short description** and **Target record** field. For more information about task plan template confgurations, see [Create a task plan template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/task_plan_template_configurations.md).
 
     2.  Provide a **Name** and **Short description** for the task plan template.
 

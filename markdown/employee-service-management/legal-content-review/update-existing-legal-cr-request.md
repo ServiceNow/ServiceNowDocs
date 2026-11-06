@@ -7,7 +7,7 @@ release: zurich
 product: Legal Content Review
 classification: legal-content-review
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Requests, Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,15 +48,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 9.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d129586e157">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d131268e157">
 
 Option
 
-</th><th align="left" id="d129586e160">
+</th><th align="left" id="d131268e160">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d129586e166">
+</th></tr></thead><tbody><tr><td id="d131268e166">
 
 **If the Attachments tab is visible**
 
@@ -67,7 +67,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d129586e205">
+</td></tr><tr><td id="d131268e205">
 
 **If the Documents tab is visible**
 

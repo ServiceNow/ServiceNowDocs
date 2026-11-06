@@ -7,14 +7,16 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Predefined colors in reports
 
 Depending on the type and configuration of the report, you can select one color, a predefined color palette, or predefined chart colors. All three options are built on a customizable set of individual colors.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 If you aren’t grouping or stacking the data in a report, you select one color. If you stack or group data, you have two main choices for colors:
 
@@ -48,7 +50,7 @@ A color palette is a sequence of colors that apply to the elements in a chart, i
 -   **[Chart colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ChartColors.md)**  
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
 -   **[Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_DefiningSystemColors.md)**  
-Create color definitions for use in reports and Performance Analytics widgets.
+Create color definitions for use in visualizations and Performance Analytics widgets.
 
 **Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 

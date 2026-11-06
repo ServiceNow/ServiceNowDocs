@@ -7,7 +7,7 @@ release: zurich
 product: Remote Tables
 classification: remote-tables
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create script definitions, Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

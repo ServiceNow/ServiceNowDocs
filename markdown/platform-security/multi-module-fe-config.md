@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/multi-module-fe-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,13 +16,13 @@ Create an encrypted field configuration that uses more than one encryption modul
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Manager, Security Admin
+Role required: security\_admin, sn\_kmf.cryptographic\_manager or sn\_kmf.admin
 
 You must have a configured field encryption module with a ServiceNow or customer-supplied key. If you have not yet configured a module, see [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-fe-modules.md).
 
 ## About this task
 
-Use multiple encryption modules for a single encrypted field configuration to encrypt different rows within a column \(or different attachments on the same table\) using different module keys. For example, users with different roles can encrypt data on the same table, but still be prevented from decrypting each others encrypted data.
+Use multiple encryption modules for a single encrypted field configuration to encrypt different rows within a column \(or different attachments on the same table\) using different module keys. For example, users with different roles can encrypt data on the same table, but still be prevented from decrypting each other's encrypted data.
 
 **Warning:**
 
@@ -42,11 +42,11 @@ Note these limitations on multi-module encrypted field configuration before proc
 
 3.  Confirm that each of your modules has a module access policy.
 
-    If you have not done so, see [Configure module access policies for field encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/maps-for-fe.md).
+    If you have not done so, see [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/maps-for-fe.md).
 
-4.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Configurations**.
+4.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations**.
 
-5.  Open of create an encrypted field configuration record.
+5.  Open or create an encrypted field configuration record.
 
 6.  In the **Method** field, select **Multiple Modules**.
 
@@ -59,7 +59,7 @@ Note these limitations on multi-module encrypted field configuration before proc
 
 ## Result
 
-After the record is saved, and the **Active** field is enabled, new data created for the specified field is encrypted with the module key of the relevant field encryption module. When a user with the role in module access policy “A” writes to the specified table, the data is encrypted with field encryption modules “A”’s module key. In this case, only users with the same role are able to decrypt that data.
+After the record is saved, and the **Active** field is enabled, new data created for the specified field is encrypted with the module key of the relevant field encryption module. When a user with the role in module access policy “A” writes to the specified table, the data is encrypted with field encryption modules “A”’s module key. In this case, only users with the same role can decrypt that data.
 
 ## Encrypting the Short Description column on the Incident table using a multi-module encrypted field configuration
 
@@ -78,7 +78,7 @@ After the record is saved, and the **Active** field is enabled, new data created
     2.  The short description for the incident record created by User B is encrypted with the key for field encryption module B.
 5.  Users with the HR and Sales roles have access to incidents. Only a user with the HR role can decrypt and view the short description for those incidents created by User A \(who had the HR Role\). Only users with the Sales role can decrypt and view the short descriptions for those incidents created by User B \(who has the Sales role\).
 
-\[Omitted image "map-example.png"\] Alt text: Venn diagram showing a multi-module configuration
+\[Omitted image "MultipleModules.png"\] Alt text: Shows a diagram of multiple modules.
 
 **Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-column-level-encryption.md)
 

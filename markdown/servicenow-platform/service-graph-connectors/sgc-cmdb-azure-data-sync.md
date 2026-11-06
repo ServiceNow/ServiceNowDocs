@@ -1,13 +1,13 @@
 ---
 title: Configuring data synchronization in Service Graph Connector for Microsoft Azure
-description: You can configure the system property for synchronizing only delta data from an Azure instance.Disable delta synchronization to import all Microsoft Azure data.
+description: You can configure the system property for synchronizing only delta data from an Azure instance.Disable delta synchronization to import all the Microsoft Azure data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional features, Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ For a delta pull, you can also configure the grace time, page size, preceding ti
 
 ## Disable delta synchronization
 
-Disable delta synchronization to import all Microsoft Azure data.
+Disable delta synchronization to import all the Microsoft Azure data.
 
 ### Before you begin
 

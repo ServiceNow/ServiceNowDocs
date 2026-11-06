@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/copy-survey.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Survey administration, Use, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Copy a survey
@@ -32,15 +32,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d146437e89">
+<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d146018e89">
 
 Option
 
-</th><th align="left" id="d146437e92">
+</th><th align="left" id="d146018e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146437e98">
+</th></tr></thead><tbody><tr><td id="d146018e98">
 
 **From Platform**
 
@@ -48,7 +48,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d146437e110">
+</td></tr><tr><td id="d146018e110">
 
 **From Platform**
 
@@ -56,7 +56,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d146437e122">
+</td></tr><tr><td id="d146018e122">
 
 **From survey designer**
 

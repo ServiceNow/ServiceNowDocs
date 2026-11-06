@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/config-credential-flow-certificate.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Sending email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure client credential flow for SMTP OAuth2 using certificate-based authentication

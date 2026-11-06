@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/map-missing-custom-table-sub-mgt.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer]
+breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Map a missing custom table to a product subscription in Subscription Management
@@ -47,7 +47,7 @@ Subscription Management can't display product subscription recommendations for s
 
 ## Result
 
-One or more custom tables are mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Table Inventory form show in Subscription Management the next day.
+The custom table is mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Table Inventory form show in Subscription Management the next day.
 
 **Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

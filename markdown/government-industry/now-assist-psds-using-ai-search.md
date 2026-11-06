@@ -20,7 +20,7 @@ The ServiceNow Otto in AI Search application uses GenAI to extract actionable Q&
 
 The ServiceNow Otto AI Search for CSM Workspace​ plugin synthesizes and summarizes information from multiple knowledge bases to deliver relevant, actionable AI-generated or AI-selected answers to search queries in a conversational format​.
 
-Agents can use AI Search to pose a query directly in the search bar in the CRM Workspace, which will then generate an answer to their question by parsing and summarizing content from one or more knowledge bases. This single-turn, conversational search result replaces a long list of possible matches, and can help improve agent response accuracy and relevancy by allowing agents to review a summary of relevant content before responding to customers.
+Agents can use AI Search to pose a query directly in the search bar in the Public Sector Workspace, which will then generate an answer to their question by parsing and summarizing content from one or more knowledge bases. This single-turn, conversational search result replaces a long list of possible matches, and can help improve agent response accuracy and relevancy by allowing agents to review a summary of relevant content before responding to customers.
 
 ## Search configurations
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configuring-filters-manager-configurable-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ View and analyze data in scheduling and coaching applications based on the filte
 
 1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Manager Workspace Configuration** &gt; **Filter Configurations**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -40,7 +40,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Filter name
+Filter Name
 
 </td><td>
 
@@ -66,7 +66,7 @@ Field on which to filter.
 
 </td></tr><tr><td>
 
-Filter query
+Filter Query
 
 </td><td>
 
@@ -92,7 +92,7 @@ Filter display order in Manager Workspace.
 
 </td></tr><tr><td>
 
-Workspace module
+Workspace Module
 
 </td><td>
 
@@ -115,7 +115,7 @@ Macroponent
 Metadata defined seismic component.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
 
 **Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-configurable-wfo-cs.md)

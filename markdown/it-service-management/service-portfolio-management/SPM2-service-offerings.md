@@ -7,7 +7,7 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Offering records define different levels of performance for an existing service.
 
 Service offering types include business service offerings and technical service offerings.
 
-**Important:** For the Zurich release and later, the label for the items in the \[cmdb\_ci\_service\_technical\] table is Technology Management Service, respectively. Prior to the Zurich release, the label is Technical Service.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Brazil release, the labels are Technical Service and Technical Service Offering.
 
 Create a complete set of service offerings defined by commitments that define the specifics of the offering. Each service must have at least one defined offering to move to the Catalog phase. This is because service offerings are where you define Service Level Agreements \(SLAs\) and where metrics are collated.
 
@@ -67,8 +67,6 @@ As a service owner or service offering subscriber, you can create one or more ca
 See what's impacting your services and service offerings and report on them by using related list information in Service Portfolio Management.
 -   **[Service Portfolio Management service offering price](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-set-service-offer-price.md)**  
 Service offerings inherit the pricing structure of the associated parent service. If the price model for each service offering in Service Portfolio Management is defined in the parent service as per unit, then each service offering must also have an associated price unit. The actual price for that unit is established in the service offering record.
--   **[Service Portfolio Management Premium notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-premium-notifications.md)**  
-Notifications are added with Service Portfolio Management Premium to manage your service offering to catalog item relationships.
 
 **Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-using.md)
 

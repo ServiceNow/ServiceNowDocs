@@ -7,7 +7,7 @@ release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-To activate the *var.adv-promo-eng*, you also need to install a plugin for ACC-M, which includes the Metric Intelligence plugin.
+To activate the *var.adv-promo-eng*, you also need to install a plugin for ACC-M, which includes Metric Intelligence plugin, as described in [Exploring Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-monitoring.md).
 
 If you don't plan to use ACC-M, install Metrics Intelligence plugin only, as described in [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/get-started-metrics.md).
 

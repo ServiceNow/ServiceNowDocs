@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Search application configurations
@@ -34,22 +34,24 @@ For details on enabling AI Search and specifying search application configuratio
 
 -   **[Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-search-app-config-ais.md)**  
 Create a search application configuration to specify AI Search as the search engine for a ServiceNow AI Platform® application. Select a search profile for the application to use. Configure the application's settings for refinement and display of search results.
--   **[Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md)**  
-Display search result counts for facets on the results page for AI Search applications that use Seismic components. Search result counts for facets show the number of matching search results for each source facet bucket.
--   **[Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/group-attachment-srch-results-ais.md)**  
-Configure your AI Search applications to display attachment search results grouped with the results for their parent records.
 -   **[Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md)**  
 Define facets to refine your searches using categories dynamically generated from the current search results.
+-   **[Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md)**  
+Display search result counts for facets on the results page for AI Search applications that use Seismic components. Search result counts for facets show the number of matching search results for each source facet bucket.
 -   **[Clear facet filters when selecting a new source facet bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/persist-facets-nav-tabs-ais.md)**  
 Specify whether AI Search applications should preserve existing facet filters when you select a new source facet bucket.
 -   **[Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/config-nav-tabs-ais.md)**  
 Define settings for source facet buckets in a search application configuration. Users of the application can select source facet buckets to refine their search query results by search source.
 -   **[Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/auto-complete-ais.md)**  
-Automatically display intelligent suggestions in your search application's input field, helping users formulate their searches or jump directly to relevant results. Suggestions can include relevant search results, popular queries, recent queries from the user's personal history, and popular search results.
+Auto-complete displays intelligent suggestions in your search application's input field to help users formulate their searches or jump directly to relevant results. Suggestions can include relevant search results, popular queries, recent queries from the user's personal history, and popular search results.
 -   **[Using search scripted post-processors in AI Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/script-post-process-ais.md)**  
 Use scripted post-processors to modify search result records for display in a search application.
 -   **[Search result sort options in AI Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sort-options-srch-app-cfg-ais.md)**  
 A search result sort option enables users to display search results in an order determined by their field values. Applying a search result sort option overrides the default AI Search relevancy-based result order. You can define custom search result sort options for your AI Search applications.
+-   **[Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grouping-attachment-srch-results-ais.md)**  
+Search application administrators can control whether attachment search results appear grouped with their parent search results or whether they display on their own. By default, AI Search displays attachments grouped with their parent search results.
+-   **[Display search result links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-search-result-links-standard-html-anchors.md)**  
+Increase search flexibility by configuring AI Search to display search result links as standard HTML anchors. You can open these search result links in new browser tabs using your browser's right-click or long-press functionality.
 
 **Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ais.md)
 

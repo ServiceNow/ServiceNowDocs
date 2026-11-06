@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-display-header-in-sidebar.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,9 +22,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 **Note:** This task applies to CRM Workspace.
 
-The [form ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-ribbon.md) includes components that provide agents with an overview of case details, such as a customer summary and a case timeline.
+The form ribbon includes components that provide agents with an overview of case details, such as a customer summary and a case timeline.
 
-The [form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-agent-actions.md) for the Case form can display two levels of field values from the Case table. The primary value is the case short description. The secondary values include the account and contact or consumer, the case priority, and the case state.
+The form header for the Case form can display two levels of field values from the Case table. The primary value is the case short description. The secondary values include the account and contact or consumer, the case priority, and the case state.
 
 You can use properties to determine where the form ribbon and secondary values are displayed: at the top of the record or in the Contextual side panel. Two properties are available for the standard record page and two are available for the interaction record.
 
@@ -34,9 +34,9 @@ These properties can operate independently. For example, you can display the for
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences** and select CRM Workspace.
 
-2.  In the UX Page Properties list, click the desired property.
+2.  In the UX Page Properties list, select the desired property.
 
     |Property|Description|
     |--------|-----------|
@@ -47,27 +47,25 @@ These properties can operate independently. For example, you can display the for
 
 3.  In the **Value** field for the selected property, enter one of the following values.
 
-<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d53707e184">
+<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d58951e168">
 
 Value
 
-</th><th align="left" id="d53707e187">
+</th><th align="left" id="d58951e171">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53707e193">
+</th></tr></thead><tbody><tr><td id="d58951e177">
 
 **header**
 
 </td><td>
 
-Displays the selected component in the following location:
-
--   Ribbon: at the top of the record.
+Displays the selected component in the following location: -   Ribbon: at the top of the record.
 -   Secondary values: at the top of the record, in the form header below the primary value.
 
 
-</td></tr><tr><td id="d53707e213">
+</td></tr><tr><td id="d58951e194">
 
 **sidebar**
 
@@ -76,6 +74,6 @@ Displays the selected component in the following location:
 Displays the selected component in the Contextual side panel.
 
 </td></tr></tbody>
-</table>4.  Click **Update**.
+</table>4.  Select **Update**.
 
 

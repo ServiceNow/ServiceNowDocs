@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Archive process contexts, Administering playbooks, Playbooks, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure archive settings for process contexts
@@ -40,6 +40,10 @@ If you want to turn off automated archiving instead, see [Turn off automated arc
 
     Your change is saved.
 
+
+## Change the wait period to 30 days
+
+\[Omitted image "change-archive-wait-period.gif"\] Alt text: Changing the Value from 14 to 30
 
 **Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/archive-process-executions.md)
 

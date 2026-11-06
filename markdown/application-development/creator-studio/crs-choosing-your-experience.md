@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Choosing your development experience
@@ -42,7 +42,7 @@ If you have access to ServiceNow Studio, you can open an app there by selecting 
 
 \[Omitted image "crs-open-in-sns-link.png"\] Alt text: Select more options to get the Open in SNS link
 
-You can also select the more actions icon \(\[Omitted image "sn-studio-more-options-icon.png"\]\) in the navigation panel and then select **Open in ServiceNow Studio**.
+You can also select the more actions icon \[Omitted image "sn-studio-more-options-icon.png"\] in the navigation panel and then select **Open in ServiceNow Studio**.
 
 ## Sharing apps between development experiences
 

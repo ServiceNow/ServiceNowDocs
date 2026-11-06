@@ -7,9 +7,9 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the standard ticket page for cases
@@ -18,7 +18,7 @@ Configure the standard ticket page for cases from where users can view the detai
 
 ## Before you begin
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

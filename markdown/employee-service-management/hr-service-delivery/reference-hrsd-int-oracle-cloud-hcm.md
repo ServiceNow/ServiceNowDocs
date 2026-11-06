@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery integration with Oracle Cloud HCM reference
+title: Reference - HR Service Delivery integration with Oracle Cloud HCM
 description: Reference topics provide additional information about the HR Service Delivery integration with Oracle Cloud HCM, including lists and forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Service Delivery integration with Oracle Cloud HCM, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Service Delivery integration with Oracle Cloud HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery integration with Oracle Cloud HCM reference
+# Reference - HR Service Delivery integration with Oracle Cloud HCM
 
 Reference topics provide additional information about the HR Service Delivery integration with Oracle Cloud HCM, including lists and forms.
 

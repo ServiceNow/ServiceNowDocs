@@ -7,10 +7,10 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Explore Approvals
@@ -28,9 +28,5 @@ The approvals page has two features to set up governance of your approvals for A
     3.  AI models- Activating this all AI models need approval by an AI steward before being deployed.
 -   Automatically trigger playbooks- enabling automatically trigger playbooks control triggers approval requests for AI assets. When inactive, only the AI steward can initiate requests manually. The recommendation is to have this control activated in the production environment.
 
-\[Omitted image "image.approvals-aict-config"\] Alt text:
-
-**Note:**
-
-The controls on Approvals are specific to ServiceNow. They govern which models and MCP servers can be used within Agent Studio / NASK, etc. At this stage, there is only limited control over blocking deployments and the activation of skills and agents. Now Assist has it on its backlog to enforce governance.
+\[Omitted image "approvals-aict-config.png"\] Alt text:
 

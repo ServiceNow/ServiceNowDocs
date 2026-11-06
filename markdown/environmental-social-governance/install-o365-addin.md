@@ -1,18 +1,18 @@
 ---
-title: Install the ServiceNow Reporting add-in
-description: Install the ServiceNow Reporting add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create disclosure reports.
+title: Install the ServiceNow Document designer add-in
+description: Install the ServiceNow Document designer add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create disclosure reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/install-o365-addin.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Install the ServiceNow Reporting add-in
+# Install the ServiceNow Document designer add-in
 
-Install the ServiceNow Reporting add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow® instance to Microsoft Word documents to create disclosure reports.
+Install the ServiceNow Document designer add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create disclosure reports.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: sys\_admin
 
 1.  Navigate to **All** &gt; **ServiceNow Add-Ins for Office** &gt; **Office Add-In Manifests**.
 
-2.  From the Office Manifests list, select **ServiceNow Reporting**.
+2.  Select **ServiceNow Reporting** from the Office Manifests list.
 
 3.  Select **Download Manifest**.
 

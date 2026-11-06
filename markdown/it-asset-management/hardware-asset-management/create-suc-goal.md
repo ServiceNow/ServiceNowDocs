@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assess performance of Hardware Asset Management, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure HAM success goals, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a success goal for Hardware Asset Management
@@ -41,5 +41,5 @@ Role required: ham\_admin
 
 The success goal that you created gets displayed on the Success goals page in the Asset operations view.
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
+**Parent Topic:**[Configure HAM success goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
 

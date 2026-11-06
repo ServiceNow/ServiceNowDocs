@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Debug external content security filters for a ServiceNow AI Platform user
@@ -32,7 +32,7 @@ Enable session debugging for AI Search to view debug log messages for external c
 
     The Session Log opens.
 
-3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-preview.md) to submit the external content search query of interest.
+3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/ai-search-preview.md) to submit the external content search query of interest.
 
     **Note:** To debug external content security access permissions for another user, specify their name in the Search Preview UI's user impersonation tool.
 

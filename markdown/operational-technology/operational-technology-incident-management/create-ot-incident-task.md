@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -142,7 +142,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident task when work notes are added. **Note:** You can select the add me icon \[Omitted image "add-me.png"\] Alt text: Add me icon. to add yourself to the work notes list.
+Users who receive notifications about this incident task when work notes are added. **Note:** You can also add yourself to the work notes list.
 
 </td></tr><tr><td>
 

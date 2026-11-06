@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Process executions
@@ -42,6 +42,4 @@ A process execution record can have one of the following states:
 |Complete|The playbook triggered, and the process execution is done running. All activities in the playbook have a state of Skipped or Complete.|
 |Error|The playbook triggered, but an activity has an Error state. Errors can occur when the action, subflow, or flow specified in the activity definition's automation plan fails to run.|
 |Cancelled|A user with the admin or playbook.admin role explicitly canceled the process execution, and the execution has stopped running.|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

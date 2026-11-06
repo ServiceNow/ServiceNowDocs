@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Design and Assign function, Configure, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Create subflow for Design and Assign function
@@ -40,7 +40,7 @@ You create a subflow by defining the input data that the subflow uses and the ou
 
 4.  Create the subflow input and assign an appropriate value to the subflow output according to your requirement.
 
-    To learn more, see .
+    To learn more, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-subflow.md).
 
     **Note:** The subflows are triggered by the TNI Design Assign process flow on submission, and the following inputs are required.
 
@@ -52,7 +52,7 @@ You create a subflow by defining the input data that the subflow uses and the ou
 -   Test the subflow, and publish it when it’s ready to be added to the record producer.
 -   Create a request definition and associate the subflow. To learn more, see [Create a request definition for Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-request-definition-design-assign-function.md).
 
-**Parent Topic:**[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
@@ -61,7 +61,7 @@ You create a subflow by defining the input data that the subflow uses and the ou
 
 [Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
-[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 [Configure a Design and Assign function example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.md)
 

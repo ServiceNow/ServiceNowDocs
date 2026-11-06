@@ -7,16 +7,16 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Basics of Project Management, Explore, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Schedule conflicts between project tasks
 
 Scheduling conflict helps you to identify project tasks that are not honoring dependencies. A scheduling conflict occurs when one project task prevents other task from starting on the specified date because of dependencies or constraint types.
 
-A scheduling conflict occurs when applying a dependency, changing constraint type, or constraint date causes the task start date to violate the project's constraint date.
+A scheduling conflict occurs when any action such as applying a dependency, changing constraint type, or constraint date causes the task start date to violate the project's constraint date.
 
 When a scheduling conflict occurs, the system warns you about the conflict. You can choose to cancel the action that is causing the conflict or continue with the conflict. If you choose to continue with the conflict, the constraint date is given highest precedence and dates are recalculated. The start date is moved till allowed by the task constraint date, but dependency is not honored.
 
@@ -67,4 +67,8 @@ When a scheduling conflict is identified, you can identify such tasks in the pla
 [Types of external dependencies]()
 
 [Project and portfolio funding]()
+
+[Project scheduling in Project Management]()
+
+[Task constraints]()
 

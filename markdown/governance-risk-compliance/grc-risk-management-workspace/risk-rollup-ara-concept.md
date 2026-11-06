@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced Risk Assessment, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Before you understand the rollup feature, consider the following points:
 
 -   Each entity might have multiple scores based on the different risk assessment methodologies.
 -   Only the risk assessments in the **Monitor** state contribute to the risk score.
--   Each risk assessment methodology might have a different formula to calculate the rollup qualitative score and the rollup quantitative score. The formula is specified in the **Rollup configurations**section in the risk assessment methodology form.
+-   Each risk assessment methodology might have a different formula to calculate the rollup qualitative score and the rollup quantitative score. The formula is specified in the **Rollup configurations** section in the risk assessment methodology form.
 -   Whenever the Advanced Risk plugin is activated the risk scores get rolled up.
 
 ## Risk statement hierarchy

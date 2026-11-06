@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Geo map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -42,15 +42,15 @@ Use the geo map to do the following:
 
 4.  View the details of the site by performing the following actions on the map pane.
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d28344e121">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d28665e172">
 
 Action
 
-</th><th align="left" id="d28344e124">
+</th><th align="left" id="d28665e175">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d28344e130">
+</th></tr></thead><tbody><tr><td id="d28665e181">
 
 **View the details of a site.**
 
@@ -60,7 +60,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 
  **Note:** If you select the datacenter on the map pane, select **View floor map** to view the floor map. The **View Floor Map** automatically populates the campus only. You must manually select a building and floor to view the corresponding floor map.
 
-</td></tr><tr><td id="d28344e161">
+</td></tr><tr><td id="d28665e222">
 
 **View the details of the sites in the same location.**
 
@@ -70,7 +70,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 2.  Select next or previous buttons to view the details about other site.
 
 
-</td></tr><tr><td id="d28344e182">
+</td></tr><tr><td id="d28665e243">
 
 **View the physical and logical connections and topology details**
 
@@ -87,7 +87,7 @@ These connection elements appear as dashed lines between the sites.
 3.  Select a line to view the details on the details pane. The bar chart graph shows the available connection elements.
 
 
-</td></tr><tr><td id="d28344e218">
+</td></tr><tr><td id="d28665e283">
 
 **View the cable route between sites**
 
@@ -99,7 +99,7 @@ These connection elements appear as dashed lines between the sites.
 
 **Note:** You must only select **Cables** to view the cable route.
 
-</td></tr><tr><td id="d28344e248">
+</td></tr><tr><td id="d28665e322">
 
 **View the capacity information**
 
@@ -118,7 +118,7 @@ Select a site and view the capacity information on the details pane. The bar cha
 -   Card Bandwidth
  Select the a bar on the graph to redirect to the corresponding capacity metrics list.
 
-</td></tr><tr><td id="d28344e293">
+</td></tr><tr><td id="d28665e369">
 
 **View the change requests**
 

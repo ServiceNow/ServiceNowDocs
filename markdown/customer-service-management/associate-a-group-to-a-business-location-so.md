@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-a-group-to-a-business-location-so.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  In the Assignment Groups related list, select **New**. 
 
-4.  On the Service Organization Assignment Group form, fill in the fields.
+4.  On the Organization Assignment Group form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|

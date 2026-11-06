@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Update to the latest version of Flow Diagramming
@@ -38,6 +38,4 @@ As of Washington DC Patch 3, updating Workflow Studio automatically updates all 
 ## Result
 
 The Flow Diagramming application is updated to the latest application version. See the [Flow Diagramming](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a4f5f4d7ca80209b2a32be23119ae821/) application listing on the ServiceNow Store for the latest available version and features.
-
-**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-flow-designer.md)
 

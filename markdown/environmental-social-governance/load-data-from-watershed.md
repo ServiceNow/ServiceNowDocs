@@ -1,16 +1,16 @@
 ---
-title: Load data from Watershed into ESG Management
+title: Load data from Watershed into Operational Sustainability Management
 description: Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/load-data-from-watershed.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Watershed, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Load data from Watershed into ESG Management
+# Load data from Watershed into Operational Sustainability Management
 
 Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
 
@@ -47,5 +47,5 @@ The spreadsheet is loaded in the staging table. All the columns from the spreads
 
 [View the import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/view-and-verify-the-import-sets.md).
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
 

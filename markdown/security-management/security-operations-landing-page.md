@@ -1,17 +1,17 @@
 ---
 title: Security Operations
-description: ServiceNow Security Operations applications import incident data from your security tools into a structured response engine that uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on the impact they pose to your organization.
+description: ServiceNow Security Operations applications import incident data from your security tools into a structured response engine. The engine uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on their impact to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-operations-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 ---
 
 # Security Operations
 
-ServiceNow® Security Operations applications import incident data from your security tools into a structured response engine that uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on the impact they pose to your organization.
+ServiceNow® Security Operations applications import incident data from your security tools into a structured response engine. The engine uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on their impact to your organization.
 
 Choose one of these tiles to get started.
 
@@ -25,19 +25,19 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[SerivceNow Otto for Unified Security Exposure Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Unified Security Exposure Management supports ServiceNow® Generative AI \(GenAI\) skills in the Vulnerability Response Workspaces and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-usem-landing-ties.md)
+[ServiceNow Otto for Unified Security Exposure Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Unified Security Exposure Management supports ServiceNow® Generative AI \(GenAI\) skills in the workspaces and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-usem-landing-ties.md)
 
 </td></tr><tr><td>
+
+[ServiceNow Otto for Threat Intelligence Security Center\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Threat Intelligence Security Center \(TISC\) supports ServiceNow® Generative AI \(GenAI\) skills in the Threat Intelligence Security Center workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-tisc-landing.md)
+
+</td><td>
 
 [Unified Security Exposure Management \(USEM\)\[Omitted image "bus-vulnerability-response.svg"\] Alt text:Learn about USEM to transform and manage the security exposure across your digital estate.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/unified-security-exposure-management-landing-page.md)
 
 </td><td>
 
 [Upgrade Vulnerability Response to USEM \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Upgrade Vulnerability Response applications to Unified Security Exposure Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/migrating-to-usem.md)
-
-</td><td>
-
-[Enterprise security case management applications\[Omitted image "bus-security-incident-response.svg"\] Alt text:Learn about the applications in Security Incident Response that help you analyze, isolate, and fix critical security incidents as they evolve.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sir-apps-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -62,6 +62,18 @@ Choose one of these tiles to get started.
 </td><td>
 
 Security Operations scenarios and examples\[Omitted image "bus-case-study.svg"\] Alt text:Learn more about how to get Security Operations applications from the ServiceNow® Store and scenarios for applications that you can employ while using the products.
+
+</td></tr><tr><td>
+
+[Enterprise security case management applications\[Omitted image "bus-security-incident-response.svg"\] Alt text:Learn about the applications in Security Incident Response that help you analyze, isolate, and fix critical security incidents as they evolve.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sir-apps-landing-page.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

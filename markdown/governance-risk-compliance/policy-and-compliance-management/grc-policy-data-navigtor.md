@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,7 @@ In Policy and Compliance Management, the 360° relationship view button is enabl
 -   Policy \[sn\_compliance\_policy\]
 -   Citation \[sn\_compliance\_citation\]
 -   Control \[sn\_compliance\_control\]
--   Control requirements \[sn\_control\_requirement\]
--   Control objective \[sn\_compliance\_control\_objective\]
--   Control objective requirements \[sn\_control\_objective\_requirement\]
+-   Control objective \[sn\_compliance\_policy\_statement\]
 
 To explore the 360° view and for instructions to launch the view, see [Exploring the 360° view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.md).
 

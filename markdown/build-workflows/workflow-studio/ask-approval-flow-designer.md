@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-08-15"
-reading_time_minutes: 4
-breadcrumb: [Actions, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Ask for Approval action
@@ -60,16 +60,16 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Approval Rules**
 
-    Approval and rejection rules to determine which users can approve or reject requests, and what happens after approval or rejection.
+    Configure which users can approve or reject requests, and what happens after the record is approved or rejected.
 
-    Approval or rejection rules include:
+    Approval or rejection user rules include:
 
-    -   Anyone approves
-    -   All users approve
-    -   All responded and anyone approves
-    -   % of users approve
-    -   \# of users approve
-    In the field beside the approval rule, add the desired approvers. To add approvers:
+    -   Anyone approves. Use this option when any user listed can approve.
+    -   All users approve. Use this option when every user listed must approve.
+    -   All responded and anyone approves. Use this option when every user must respond, but only one user must approve.
+    -   % of users approve. Use this option when a majority of users is needed to approve.
+    -   \# of users approve. Use this option when a specific number of users need to approve.
+    In the field beside the approval rule, add the desired approval users. To add approval users:
 
     -   Select individual users or groups.
     -   Drag or select a field from a record.
@@ -111,7 +111,9 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 \[Omitted image "example-ask-for-approval-action.png"\] Alt text: Example Ask for Approval Action in a flow.
 
-In this example flow, the flow asks for approval once an incident is created or updated. The Ask for Approval action waits one day for approval using an 8-5 weekday schedule. After one business day has passed, if no one has approved or rejected the request, the request is approved. The action sends an approval request to the manager of the person listed in the Assigned to field. That manager can approve or reject the request within one business day.
+In this example flow, an approval is required whenever a new high priority incident is created or an existing one is updated. When the incident enters the queue, the flow triggers an Ask for Approval action to confirm that the assigned work is appropriate and that the incident should move forward. The action waits one business day for a response, following an 8–5 weekday schedule to align with standard IT support hours. If no approver responds within that window, the system automatically approves the request to prevent delays in restoring service.
+
+The approval request is routed to the manager of the user listed in the Assigned to field. This ensures that a responsible leader reviews whether the assigned technician has the correct skill set and workload capacity to handle the incident. The manager can approve or reject the request within the one day window, allowing the workflow to either continue or reroute the incident based on the decision.
 
 ## General guidelines
 

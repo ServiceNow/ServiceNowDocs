@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create and use JavaScript modules in applications in the ServiceNow IDE
@@ -66,15 +66,15 @@ To learn about support for using JavaScript modules in scoped applications, incl
 
 7.  Use code from the exported module in other modules or server-side scripts.
 
-<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d171116e200">
+<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d324593e200">
 
 File
 
-</th><th align="left" id="d171116e203">
+</th><th align="left" id="d324593e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d171116e209">
+</th></tr></thead><tbody><tr><td id="d324593e209">
 
 **Module**
 
@@ -95,7 +95,7 @@ import { feature } from "path/to/module";
 3.  Call the module code from this module to reuse it.
 
 
-</td></tr><tr><td id="d171116e248">
+</td></tr><tr><td id="d324593e248">
 
 **Server-side script in source code**
 
@@ -122,7 +122,7 @@ script: `
 
 For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
 
-</td></tr><tr><td id="d171116e308">
+</td></tr><tr><td id="d324593e308">
 
 **Server-side script record**
 

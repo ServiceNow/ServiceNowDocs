@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -60,7 +60,7 @@ Project cost plans capture the costs of projects. Create a cost plan to specify 
 
 **Note:** Users are suggested to use it\_project\_manager role instead of project\_manager role by PPM product.
 
--   Users who already have access to the engagement and also have sn\_ppm\_finance\_read or demand\_manager or program\_manager or portfolio\_manager or project\_manager roles are able to view the cost plans for the engagement.
+-   Users who already have access to the engagement can view the cost plans if they have one of the following roles: sn\_ppm\_finance\_read, demand\_manager, program\_manager, portfolio\_manager, or project\_manager.
 
 </td></tr><tr><td>
 
@@ -88,8 +88,8 @@ You can log hours in a time card for an engagement and other tasks on an engagem
 </td><td>
 
 -   Users need timecard\_user role to create a time card.
--   Users who already have access to the engagement, audit tasks, milestones, issues and also have sn\_ppm\_read or timecard\_approver or timecard\_admin roles will be able to view all the time cards on the engagement, audit tasks, milestones, and issues.
--   Users who already have access to the engagement, audit tasks, milestones, and issues and also have the timecard\_user role will only be able to view the time cards that they have reported on the engagement, audit tasks, milestones, and issues.
+-   Users who already have access to the engagement, audit tasks, milestones, and issues can view all time cards on these items. They must also have sn\_ppm\_read or timecard\_approver or timecard\_admin roles.
+-   Users who already have access to the engagement, audit tasks, milestones, and issues and also have the timecard\_user role can view only their own time cards. They can view time cards they reported on the engagement, audit tasks, milestones, and issues.
 -   Users need timecard\_approver role to approve a submitted time card. The time sheet policy assigned to the user governs the approval process.
 
 </td></tr></tbody>

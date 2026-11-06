@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/code-signing-certificates.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]
 ---
@@ -50,7 +50,7 @@ Text field
 
 </td><td>
 
-The cryptographic component used to generate, store, and manage private keys for Code Signing. It ensures secure key operations and helps protect sensitive cryptographic material from unauthorized access.
+The cryptographic component used to generate, store, and perform key operations on private keys for Code Signing. It ensures secure key operations and helps protect sensitive cryptographic material from unauthorized access.
 
 </td></tr><tr><td>
 

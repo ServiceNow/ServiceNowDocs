@@ -1,20 +1,20 @@
 ---
 title: Configuring Cloud Services Catalog
-description: You can configure the Cloud Services Catalog application so that you can begin to automate cloud management tooling.
+description: You can configure the Cloud Services Catalog application so that so can begin to automate cloud management tooling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/configuring-csc.html
 release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Configuring Cloud Services Catalog
 
-You can configure the Cloud Services Catalog application so that you can begin to automate cloud management tooling.
+You can configure the Cloud Services Catalog application so that so can begin to automate cloud management tooling.
 
 ## Configuration overview
 
@@ -48,10 +48,8 @@ For more information, see [Guided Setup](https://raw.githubusercontent.com/Servi
 You can install the Cloud Services Catalog application purchased from the ServiceNow® Store, to make it available on your instance. The application also includes demo data and installs related to ServiceNow applications and plugins, if you don’t have them installed already.
 -   **[Cloud Services Catalog setup for the Day 1 configuration task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/setting-up-cloud-services.md)**  
 You're ready to do the Day 1 configuration task of setting up the Cloud Services Catalog application for the first time. You can do the optional Day 2 setup and configure procedures as needed, in any order.
--   **[Integrating GitHub Actions with Cloud-Services-Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-github-actions-with-cloud-service-catalog.md)**  
-Integrating Cloud-Services-Catalog with GitHub Actions helps your organization streamline continuous integration and deployment \(CI/CD\) processes directly from GitHub into the ServiceNow AI Platform self-service environment through a governed service catalog.
 -   **[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)**  
-You can process the release request from the Cloud Services Catalog workflow with Azure DevOps for end-to-end automation of the development process, including provisioning the resources, and deploying and monitoring the applications.
+You can process the release request from the Cloud Services Catalog workflow with Azure DevOps for end-to-end automation of the development process. This includes provisioning the resources, and deploying and monitoring the applications.
 -   **[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)**  
 Integrate Ansible with Cloud Services Catalog as a Day 1 activity. With this activity, you can deploy an Ansible job template via a ServiceNow catalog item.
 -   **[Cloud Services Catalog administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/cloud-services-catalog-administration-guide.md)**  

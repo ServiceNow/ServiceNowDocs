@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Plugins for CCaaS, contact center plugins for nvc, contact center plugins for icc]
-breadcrumb: [Enable ICC for CCaaS calls and callbacks, Enable communication channels, Configure, Customer Service Management]
+keywords: [Plugins for CCaaS, contact center plugins for nvc, contact center plugins for Interaction Controls Component \(ICC\)]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Plugin requirements for voiceand callbackintegrations with contact centers

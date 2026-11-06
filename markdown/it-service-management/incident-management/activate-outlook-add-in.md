@@ -1,24 +1,24 @@
 ---
 title: Activate the ServiceNow Add-in for Microsoft Office
-description: You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
+description: You can install the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/activate-outlook-add-in.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configure, Incident Management, IT Service Management]
+breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Activate the ServiceNow Add-in for Microsoft Office
 
-You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
+You can install the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [ServiceNow Add-in for Microsoft 365](https://store.servicenow.com) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -41,7 +41,7 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 
 2.  Find the ServiceNow Add-in for Microsoft 365 application \(sn\_outlook\_addin\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
     In the list next to the **Install** button, the versions that are available to you are displayed.
 
@@ -63,5 +63,5 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 **Related topics**  
 
 
-[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

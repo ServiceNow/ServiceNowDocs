@@ -1,37 +1,39 @@
 ---
-title: UX: Why It Matters and How to Apply It
-description: This accelerator takes examples directly from the Impact customer’s instance to develop their understanding of UX and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
+title: UX: Build a Foundation for Better Experiences
+description: This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# UX: Why It Matters and How to Apply It
+# UX: Build a Foundation for Better Experiences
 
-This accelerator takes examples directly from the Impact customer’s instance to develop their understanding of UX and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
+This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 
 ## Accelerator overview
 
-UX: Why It Matters and How to Apply It helps Impact customers develop the foundational skills to start considering the needs of their users as part of their ongoing ServiceNow implementation process. By developing this capability and mindset, customers can unlock the full potential of the platform, improve productivity, enhance user satisfaction, and boost operational efficiency.
+UX: Build a Foundation for Better Experiences helps Impact customers develop the foundational skills to start considering the needs of their users as part of their ongoing ServiceNow implementation process. By developing this capability and mindset, customers can unlock the full potential of the platform, improve productivity, enhance user satisfaction, and boost operational efficiency.
 
-**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), Advanced and Total Packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Platform Governance\), Advanced and Total Packages.
 
 ## What you get
 
 -   **Session Preparation**
-    -   Provision a temporary instance
+    -   Provide a temporary instance
     -   Review customer’s implemented experience to gain deeper insights of the UX
 -   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 
     Includes the following activities:
 
-    -   Review scope and expectations of the accelerator and confirm customer’s UX goals and maturity level
+    -   Review the scope and expectations of the accelerator and confirm customer’s UX goals and maturity level
     -   Outline the importance of considering user needs, goals, and feedback when implementing ServiceNow products
     -   Present UX concepts, terms, and examples from customer instance to demonstrate how UX can improve multiple areas of their ServiceNow AI Platform
 -   **Customer Coaching Session \#2 \(Optional Upon Recommendation-up to 1 hour\)**
@@ -44,11 +46,11 @@ UX: Why It Matters and How to Apply It helps Impact customers develop the founda
 
 ## Requested customer resources
 
-One or more customer resources are requested. The specific number of resources provided is Accelerator and customer specific.
+One or more customer resources are requested. The specific number of resources provided is accelerator and customer specific.
 
 |Customer resource|Responsibilities|Required|Optional|
 |-----------------|----------------|--------|--------|
-|Product Owner|Manages Customer’s ServiceNow Service Portal.|✓| |
+|Product Owner|Manages Customer’s  ServiceNow  Portal.|✓| |
 |UX &amp; OCM expert|Primary stakeholders and advocates for user experience and organizational change management.   | |✓|
 |Process/Service Owner\(s\)|A senior leader within each business unit for each major process or service \(Example: incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.| |✓|
 |Developer\(s\)|Writes code for the ServiceNow platform| |✓|

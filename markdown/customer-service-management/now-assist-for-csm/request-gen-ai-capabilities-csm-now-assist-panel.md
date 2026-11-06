@@ -1,21 +1,21 @@
 ---
 title: Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel
-description: Request generative AI capabilities such as chat summaries, case summaries, resolution notes, and more using the ServiceNow Otto panel.
+description: Request generative AI capabilities in the ServiceNow Otto panel, such as chat summaries, case summaries, resolution notes, or knowledge article generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel
 
-Request generative AI capabilities such as chat summaries, case summaries, resolution notes, and more using the ServiceNow Otto panel.
+Request generative AI capabilities in the ServiceNow Otto panel, such as chat summaries, case summaries, resolution notes, or knowledge article generation.
 
 ## Before you begin
 
@@ -27,108 +27,108 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 
-You can use the panel in CRM Workspace to request a chat, call, or case summary, generate case resolution notes and knowledge articles, and ask questions about a case. You can also use AI agents to complete casesand use conversational subflows and actions.
+You can use the Now Assist panel in CRM Workspace to request a chat, call or case summary, and generate case resolution notes and knowledge articles. You can also ask questions about a case and use AI agents to complete casesand conversational subflows and actions.
 
-For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For more information about the Now Assist panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Log in to an instance where the ServiceNow Otto for CSM application is installed.
 
-3.  Request the generative AI capabilities in CSM for an interaction or case by selecting the AI icon\[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon..
+3.  Request the generative AI capabilities in CSM for an interaction or case by selecting the AI icon\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 
-4.  Use the generative AI capabilities to work with interactions, cases, calls, and knowledge articles.
+    \[Omitted image "now-assist-csm-na-panel.png"\] Alt text: Panel with a list of available actions and a task selection dropdown displayed after the user chose "Add Comment To Task.".
 
-    You can ask questions about cases, use AI agents to complete cases, and complete tasks with conversational subflows and actions.
+4.  After you request the generative AI capabilities, you can use the following options.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d39714e169">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d42179e191">
 
 Option
 
-</th><th align="left" id="d39714e172">
+</th><th align="left" id="d42179e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39714e178">
+</th></tr></thead><tbody><tr><td id="d42179e200">
 
 **Summarize the chat for an interaction**
 
 </td><td>
 
 1.  Open the interaction.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d39714e208">
+</td></tr><tr><td id="d42179e230">
 
 **Summarize the chat for a case that is created from an interaction**
 
 </td><td>
 
 1.  Open the case that was created from an interaction.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the case was created is displayed.
 
 
-</td></tr><tr><td id="d39714e238">
+</td></tr><tr><td id="d42179e260">
 
 **Summarize a case**
 
 </td><td>
 
 1.  Open the case.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d39714e268">
+</td></tr><tr><td id="d42179e290">
 
 **Generate case resolution notes**
 
 </td><td>
 
 1.  Open the case.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle con..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, select **Generate resolution notes**.
 
 
-</td></tr><tr><td id="d39714e299">
+</td></tr><tr><td id="d42179e321">
 
 **Summarize a call**
 
 </td><td>
 
 1.  Open the case.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, select **Summarize conversation**. A call summary of the conversation with the live agent is generated on the details page.
 
 
-</td></tr><tr><td id="d39714e329">
+</td></tr><tr><td id="d42179e351">
 
 **Generate a knowledge article**
 
 </td><td>
 
 1.  Open the case.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, select **Generate Article**. A knowledge article is drafted for the case using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d39714e359">
+</td></tr><tr><td id="d42179e381">
 
 **Ask questions about a case**
 
 </td><td>
 
 1.  Open the case.
-2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkleicon..
+2.  From the header menu, select the AI icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon..
 3.  In the panel, enter a case assist topic question and select a case assist topic. Information requested about the case is shown.
 
 
-</td></tr><tr><td id="d39714e386">
+</td></tr><tr><td id="d42179e408">
 
 **Use AI agents to complete cases**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/product\_picker\_bulk\_actions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Product picker bulk actions
@@ -100,7 +100,9 @@ The data for a bulk action can also be exported in the data pane. The data can b
 
 ## Forcing data override
 
-By default, bulk actions that set the values of product pickers will not override a value that was set by the end user. To change this setting so that bulk actions will change user-edited values, submit a Support case and request "set the bulk actions Override User Edited Values behavior to True." This setting acts across the environment.
+By default, bulk actions that set the values of product pickers will not override a value that was set by the end user. To change this setting so that bulk actions will change user-edited values, submit a support case to request "set the bulk actions Override User Edited Values behavior to True." This setting acts across the environment.
+
+To submit a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 **Related topics**  
 

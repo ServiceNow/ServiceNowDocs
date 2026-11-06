@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/enable-manage-invoice-operations-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure AI-assisted invoice dispute intake on the Business Portal
@@ -56,7 +56,7 @@ Role required: sn\_aia.admin
 
 The chat assistant is activated in the Business Portal.
 
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

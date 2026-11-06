@@ -1,16 +1,16 @@
 ---
-title: Create a risk definition
+title: Define risk criteria
 description: Use the engagement risk definition to configure the metrics required to define the risk signals for an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage engagements, Customer success, Configure, Customer Success Management]
+breadcrumb: [Engagements, Customer success, Configure, Customer Success Management]
 ---
 
-# Create a risk definition
+# Define risk criteria
 
 Use the engagement risk definition to configure the metrics required to define the risk signals for an engagement.
 
@@ -85,7 +85,7 @@ Enter a description for the risk definition.
 
 </td></tr><tr><td colspan="2">
 
-`Metric based:` This option is used to create or update risks if a risk threshold is breached. If you’re creating a metric based risk definition, select the metric, define the thresholds, set up the template, and specify conditions to define the list of applicable engagements.
+`Metric based:` This option is used to create or update risks if a risk threshold is breached. If you're creating a metric based risk definition, select the metric, define the thresholds, set up the template, and specify conditions to define the list of applicable engagements.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ If you select an applicable engagement, this risk definition will be evaluated f
 
 </td></tr><tr><td colspan="2">
 
-`Table based:` This option is used to create or update risks in all records in the matching table and the specified condition. If you’re creating table based risk definition, you must select the table and specify the condition. Set up the template with fields and values to generate risks in the specified format.
+`Table based:` This option is used to create or update risks in all records in the matching table and the specified condition. When creating a table based risk definition, select the table and specify the condition. Set up the template with fields and values to generate risks in the specified format.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Source table
 
 Select the source table for which the risk definition is to be created.**Note:** A context mapper must have been defined that associates the source and the context tables. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 
-For example, to define risk signals for a contract, select Contract as your source table. A context mapping with a Contract to Engagement association must have been defined.
+For example, if you want to define risk signals for a contract and select Contract as your source table, verify that a context mapping exists. A Contract to Engagement association must have been defined.
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Conditions
 
 </td><td>
 
-Specify any conditions that must be used for the risk definition for the selected source table. Risks are generated for the records in the source table that satisfy the specified conditions.
+Specify any conditions that are to be used for the risk definition for the selected source table. Risks are generated for the records in the source table that satisfy the specified conditions.
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Select the Template tab to define the fields for the risk definition. The follow
 
     Enter the following details:
 
-    -   Engagement risk definition: This is the engagement risk definition for which you’re creating an override condition.
+    -   Engagement risk definition: This is the engagement risk definition for which you're creating an override condition.
     -   Threshold: Specify the override threshold value.
     -   Select **Add Filter Condition** or **Add Or Clause** to specify additional override conditions.
     -   Rank: Specify a rank for this override condition. 1 is highest rank. If an engagement matches multiple threshold overrides, the engagement with the highest rank is considered first.
@@ -175,5 +175,5 @@ Select the Template tab to define the fields for the risk definition. The follow
 -   **[Sample risk definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-demo-data.md)**  
 These are sample risk definitions available with the base system and can configured based on your requirements.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
+**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
 

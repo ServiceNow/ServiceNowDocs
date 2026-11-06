@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Using global search with AI Search for Next Experience
@@ -54,7 +54,7 @@ To remove an applied facet filter, select **Clear** by the facet field name, or 
 
 AI Search administrators can define facets in search application configurations. For details, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md).
 
-In the base system, facets don't appear in the Filters list until you've selected a source facet bucket. Administrators can override this behavior and show all available facets in the Filters list by creating a **glide.ui.ais.show\_all\_facets** system property record and setting its value to **true**. For more details on this system property, see .
+In the base system, facets don't appear in the Filters list until you've selected a source facet bucket. Administrators can override this behavior and show all available facets in the Filters list by creating a **glide.ui.ais.show\_all\_facets** system property record and setting its value to **true**. For more details on this system property, see [AI Search for Next Experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-next-experience-properties.md).
 
 The Filters list defaults to displaying a count of matching search results for each facet bucket. Search administrators can configure this behavior in search application configurations. To learn more about result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
 

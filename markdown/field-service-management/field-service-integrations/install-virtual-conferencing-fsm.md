@@ -7,7 +7,7 @@ release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Field Service Management Virtual Conferencing Integration ap
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Field Service Management Virtual Conferencing Integration requires the following plugins. Ensure that these plugins are activated before you install Field Service Management Virtual Conferencing Integration.
     -   **Required ServiceNow plugins**
         -   **Notify \(com.snc.notify\)**
@@ -29,20 +29,20 @@ You can install the Field Service Management Virtual Conferencing Integration ap
     -   **Required ServiceNow Store applications to integrate Zoom**
         -   **Zoom Spoke**
 
-            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
         -   **Notify Zoom Connector**
 
-            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Required ServiceNow Store applications to integrate Microsoft Teams**
         -   **Notify Connector for Microsoft Teams**
 
-            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
         -   **Microsoft Teams Communication Spoke**
 
-            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 Role required: admin
@@ -55,7 +55,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

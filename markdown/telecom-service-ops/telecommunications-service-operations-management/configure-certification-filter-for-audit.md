@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Activate Discrepancy and Reconciliation, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Activate Discrepancy and Reconciliation, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure filter for audit
@@ -35,8 +35,6 @@ The following are the audit filters:
 1.  Telecom Logical Connections Discrepancy Audit: This audit runs at the logical connection table. The default filter condition is defined as `discovery_source` like TSOM. This condition is applied on each CI in the logical connection table.
 2.  Telecom Network Topology Discrepancy Audit: This audit runs at the network topology table. The default filter condition is defined as `discovery_source` like TSOM. This condition is applied on each CI in the network topology table.
 3.  Telecom Discrepancy Audit: This audit runs at the relationships table. The default filter condition is defined as `discovery_source` like TSOM. This condition is applied on each CI at the equipment level.
-
-The following screenshot helps to understand the user interface of the certification filter \[Omitted image "certification-filter.png"\] Alt text: The user interface of TSOM certification and logical connection discrepancy audit filter.
 
 ## Procedure
 
@@ -70,7 +68,7 @@ You can use the filter in the logical connection audit.
 
 [Example for Telecom Discrepancy Audit and Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
 
-[System components installed with Telecom Discrepancy Identification &amp; Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
+[Telecom discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
 
 [Configure attribute value discrepancy in CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-attribute-value-discrepancy-in-cmdb-360.md)
 

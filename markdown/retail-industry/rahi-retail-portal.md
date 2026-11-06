@@ -1,18 +1,18 @@
 ---
 title: Retail portal
-description: Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations. You must install Retail core to use the Retail portal. You must enter &lt;instance&gt;/rsp in the browser URL to access the Retail portal.
+description: Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Retail]
 ---
 
 # Retail portal
 
-Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations. You must install Retail core to use the Retail portal. You must enter `<instance>/rsp` in the browser URL to access the Retail portal.
+Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 
 \[Omitted image "z-retail-portal.png"\] Alt text: Retail Portal landing page
 
@@ -38,7 +38,7 @@ For information on using Retail portal, see the following topics:
 -   [Add and configure the Retail KPI widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-portal-configure-retail-kpi-widget.md)
 -   [Create a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-create-store-service-portal.md)
 -   [Manage a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-fulfill-retail-store-service-case.md)
--   [Tracking cases and tasks from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-navigating-retail.md)
+-   [Track cases and tasks from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-navigating-retail.md)
 
 **Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-operations-explore.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -40,21 +40,6 @@ Analyzing the Capacity Planning screen, you can easily:
         You can move the Gantt chart to adjust your resource capacity details accordingly.
 
     -   Toggle option \(\[Omitted image "cp-toggle-buttons.png"\] Alt text: Toggle options to view capacity.\) to adjust your view of the Capacity Planning screen.
-
-## Using the Capacity Planning screen
-
-Follow these steps to analyze and manage resource capacity for your portfolio:
-
-1.  Navigate to **Portfolio Planning** &gt; **Portfolios** and open a portfolio.
-2.  Select the **Capacity** tab to open the Capacity Planning screen.
-3.  In the top tray, define your resource criteria by selecting primary attributes such as **Group**, **Role**, or **Skill** to filter the resource view.
-4.  Review the resource capacity bars to identify over-allocated or under-utilized resources across the time period.
-5.  In the bottom tray, review prioritized planning items and their Gantt chart bars. Select a Gantt bar to see capacity for that specific item.
-6.  Drag the Gantt bars of planning items to adjust planned dates based on available resource capacity.
-
-    **Note:** Planning items with actual dates \(indicated by the in-progress icon\) cannot be adjusted.
-
-7.  Use the toggle option \(\[Omitted image "cp-toggle-buttons.png"\] Alt text: Toggle options to view capacity.\) to adjust your capacity view between different display modes.
 
 **Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

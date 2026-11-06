@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Admin Center, Get started, Administer]
+breadcrumb: [Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring Admin Center
@@ -44,7 +44,7 @@ To learn more about using Admin Center, see:
 -   [Administering Admin Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-administer-admin-home.md)
 -   [Discovering adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-discover-ab.md)
 -   [Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-configuration-hub.md)
--   [Admin Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)
+-   [Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)
 
 -   **[Admin Center summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-overview.md)**  
 If you are new to Admin Center, read this summary to learn what the product can do.

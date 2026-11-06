@@ -1,5 +1,5 @@
 ---
-title: Add background check packages for First Advantage service
+title: Add background check packages for the First Advantage
 description: Add one or more background check packages to your instance so they can be accessed when a request for a background check by First Advantage is made. For example, you can add a package for a background check only and a package for both a background check and drug screening.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/background-check-package-for-first-advantage.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [First Advantage service, HR Integrations, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with the First Advantage service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Add background check packages for First Advantage service
+# Add background check packages for the First Advantage
 
 Add one or more background check packages to your instance so they can be accessed when a request for a background check by First Advantage is made. For example, you can add a package for a background check only and a package for both a background check and drug screening.
 
@@ -48,7 +48,7 @@ Role required: sn\_hr\_integrations.admin
 
 .
 
-**Parent Topic:**[Integrate with First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
+**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
 **Previous topic:**[Verify integration for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/verify-base-inbound-integration-for-first-advantage.md)
 

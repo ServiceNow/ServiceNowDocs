@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [How users consent to tracking in Usage Insights, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+breadcrumb: [How users consent to tracking in Usage Insights, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Configure link to your privacy policy

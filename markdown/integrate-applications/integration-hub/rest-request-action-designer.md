@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -377,7 +377,7 @@ The general strategy to get extracted data from the response is to do the follow
     -   Map the parsed data to the output variables.
 4.  Create action outputs for the output variables to make the data available to a flow.
 
-For a detailed example, see the section on Parsing a REST Response in the [REST in IntegrationHub developer training \(Zurich\)](https://developer.servicenow.com/dev.do#!/learn/courses/zurich/app_store_learnv2_rest_zurich_rest_integrations/app_store_learnv2_rest_zurich_rest_in_integration_hub/app_store_learnv2_rest_zurich_rest_in_integration_hub_objectives).
+For a detailed example, see the section on Parsing a REST Response in the [REST in IntegrationHub developer training \(Zurich\)](https://developer.servicenow.com/dev.do#!/learn/courses/australia/app_store_learnv2_rest_australia_rest_integrations/app_store_learnv2_rest_australia_rest_in_integration_hub/app_store_learnv2_rest_australia_rest_in_integration_hub_objectives).
 
 -   **[Import a REST message into a REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/import-rest-message-step.md)**  
 Transfer data from an existing Platform REST message into a REST step.

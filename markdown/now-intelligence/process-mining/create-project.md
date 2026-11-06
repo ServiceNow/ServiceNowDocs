@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Create a project with the imported external data. You must mine the project to a
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_admin
 
 ## Procedure
 

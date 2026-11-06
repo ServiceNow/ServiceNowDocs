@@ -7,10 +7,10 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Migrate to Build Agent, AES to Build Agent, Build Agent, App Engine Studio, Agentic development]
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Migrating to Build Agent
@@ -27,7 +27,7 @@ Whether you have an AES app that you want to extend, or you want to build someth
 
 ## What migration involves
 
-Migrating to Build Agent is more of a development workflow adjustment than an actual migration process. When you're ready to migrate to Build Agent, the agent converts the the AES app to ServiceNow Fluent, enabling you to work in an integrated development environment \(IDE\). When your app is converted to ServiceNow Fluent, you can also work in ServiceNow Studio. Existing applications and app artifacts, such as tables, flows, workspaces, ACLs, and playbooks, are already accessible in ServiceNow Studio and available to be modified with Build Agent.
+Migrating to Build Agent is more of a development workflow adjustment than an actual migration process. When you're ready to migrate to Build Agent, the agent converts [the the AES app to ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/convert-app-to-fluent.md), enabling you to work in an integrated development environment \(IDE\). When your app is converted to ServiceNow Fluent, you can also work in ServiceNow Studio. Existing applications and app artifacts, such as tables, flows, workspaces, ACLs, and playbooks, are already accessible in ServiceNow Studio and available to be modified with Build Agent.
 
 What does change is how you complete tasks. AES developers are accustomed to thinking in terms of wizard steps and form completion, which guides them through completing specific tasks. Development using Build Agent, however, operates using natural language prompts and iterative development. So if you plan to migrate to Build Agent, you must adjust to the cycle of prompting, reviewing, and accepting or rejecting Build Agent output.
 

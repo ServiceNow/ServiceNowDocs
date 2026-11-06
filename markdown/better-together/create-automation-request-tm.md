@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/better-together/create-automation-request-tm.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d22972e288">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23001e288">
 
 Option
 
-</th><th align="left" id="d22972e291">
+</th><th align="left" id="d23001e291">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22972e297">
+</th></tr></thead><tbody><tr><td id="d23001e297">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d22972e315">
+</td></tr><tr><td id="d23001e315">
 
 **Complete manually**
 

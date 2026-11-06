@@ -1,31 +1,31 @@
 ---
 title: Configure case or incident summarization in the AI Admin Hub console
-description: Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields and customize the prompt output for copies of the record summarization skills.
+description: Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields, and also customize the prompt output for copies of the record summarization skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-28"
 reading_time_minutes: 5
 keywords: [Configure, Case, incident, record, summarization, Now Assist, guided setup, admin console, gen AI, generative AI]
-breadcrumb: [Make a copy of AI skill, Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Make a copy of an AI skill, Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure case or incident summarization in the AI Admin Hub console
 
-Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields and customize the prompt output for copies of the record summarization skills.
+Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields, and also customize the prompt output for copies of the record summarization skills.
 
 \[Omitted video\] Description: Prompt configurability in the AI Admin Hub for setting up case/incident summarization skill copies
 
 ## Before you begin
 
-You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
+You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
 
-Role required: nsa\_admin
+Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-By default, many settings for record summarization skill are optimized for general use cases. Review your goals for incorporating generative AI on your instance to determine whether you want to make changes and what those changes are. After you have made a plan, you can create a copy of a skill and modify the input sources and prompt output.
+Default settings for record summarization skills are optimized for general use cases. Review your goals for incorporating generative AI on your instance to determine whether you want to make changes and what those changes are. After you have made a plan, you can create a copy of a skill and modify the input sources and prompt output.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ By default, many settings for record summarization skill are optimized for gener
 
     2.  Add the base input table fields by selecting **New base input field**, choosing a field, and entering a field description.
 
-        Each base input table field requires a description. The description informs the large language model \(LLM\) what the field is for and how the information should be interpreted. The more information that you put in the description means that the model has more context for the data.
+        Each base input table field requires a description. The description informs the large language model \(LLM\) what the field is for and how the information should be interpreted. The more information you provide in the description, the more context the model can work with.
 
         \[Omitted image "na-record-summarization-input1.png"\] Alt text: Choose an input template, add the base table input fields, and use the save template button to save your work.
 
@@ -120,5 +120,5 @@ Your customized version of case or incident summarization is active on the insta
 
 Analyze your skill performance on the AI Admin Hub console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+**Parent Topic:**[Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Reference, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Components installed with Feedback application

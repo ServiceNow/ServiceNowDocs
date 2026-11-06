@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # External Content for AI Search roles
@@ -51,6 +51,7 @@ Access High Security settings for AI Search.
 
 -   Bypasses all search filters from search sources and content security in the Search Preview UI, viewing all search query results available in the AI Search index
 -   Reads external content user mapping import history records
+-   Reads indexed content item records in the index inspector tool for External Content Connectors
 
 ### Contains Roles
 

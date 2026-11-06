@@ -1,16 +1,16 @@
 ---
-title: Share an ESG Management dashboard
+title: Share an Operational Sustainability Management dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing permissions or both viewing and editing permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/share-an-esg-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Share an ESG Management dashboard
+# Share an Operational Sustainability Management dashboard
 
 Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing permissions or both viewing and editing permissions.
 
@@ -46,7 +46,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24685e123">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24640e123">
 
 **Add as viewer**
 
@@ -54,7 +54,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d24685e132">
+</td></tr><tr><td id="d24640e132">
 
 **Add as editor**
 
@@ -72,5 +72,5 @@ Grant editing permissions to the users, groups, or roles you’re sharing the da
 9.  Select the View dashboard details icon \[Omitted image "details-icon.png"\] Alt text: to view who the dashboard has been shared with and where it’s visible.
 
 
-**Parent Topic:**[Monitoring assessment data using ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

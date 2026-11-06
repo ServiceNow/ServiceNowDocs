@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-27"
 reading_time_minutes: 3
 keywords: [Employee Slate home page, home experience, personalized home, widgets, Employee Slate]
-breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks home

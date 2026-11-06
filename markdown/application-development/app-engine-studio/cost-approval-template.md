@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Expense Pre-Approval template
@@ -17,8 +17,6 @@ breadcrumb: [Available templates, Use an app template, Create your app, Build, A
 Build an application in App Engine Studio \(AES\) using the Expense Pre-Approval template to create, track, and manage planned expenses in your organization.
 
 To use the Expense Pre-Approval template, install this application from the ServiceNow Store.
-
-\[Omitted image "template-expense-pre-approval.png"\] Alt text: Expense Pre-Approval template
 
 Employees can easily submit their planned expenses for multiple levels of approval using the Expense Pre-Approval application. Managers can then review every submitted request. Approved requests are assigned to the budget review group, which can approve or reject the request. The employee receives a notification with the final status of the request.
 

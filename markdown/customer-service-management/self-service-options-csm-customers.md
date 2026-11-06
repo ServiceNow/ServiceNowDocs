@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/self-service-options-csm-customers.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Explore, Customer Service Management]
 ---
 
@@ -41,7 +41,7 @@ Self-service in CSM offers the following benefits:
 
 ## Web Embeddables
 
-With Web Embeddables you can embed web components into external websites outside the ServiceNow environment. These components enable interaction with the platform through dedicated APIs that support real-time data exchange and provide functionality without requiring users to access the ServiceNow interface. To learn more about Web Embeddables, see .
+With Web Embeddables you can embed web components into external websites outside the ServiceNow environment. These components enable interaction with the platform through dedicated APIs that support real-time data exchange and provide functionality without requiring users to access the ServiceNow interface. To learn more about Web Embeddables, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md).
 
 Web Embeddables offer the following benefits:
 
@@ -52,13 +52,13 @@ Web Embeddables offer the following benefits:
 
 ## Self-service portals
 
-By using the Service Portal web application, you can create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
+Use the Service Portal web application to create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
 
 ## Self-service portal types
 
 You can configure four types of portals. The Business Portal and Consumer Portal are enhanced portals built on configurable widgets, while the Customer Service Portal and Consumer Service Portal are standard portals. New implementations should use the enhanced portals.
 
-**Note:** The Business Portal and Consumer Portal plugins are installed automatically when customers install the Customer Service Portal and Consumer Service Portal plugins respectively.
+**Note:** The Business Portal and Consumer Portal plugins are installed automatically when customers install the Customer Service Portal and Consumer Service Portal plugins respectively. For details, see [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
 
 The following table describes the four self-service portals:
 
@@ -67,7 +67,7 @@ The following table describes the four self-service portals:
 |[Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-the-customer-portal.md)|Supports your business-to-business \(B2B\) customers|
 |[Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-the-business-portal.md)|Supports your business-to-business \(B2B\) customers and is built using configurable widgets. The Business Portal is an enhanced version of the Customer Service Portal.|
 |[Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-consumer-service-portal.md)|Supports your business-to-consumer \(B2C\) customers|
-|Consumer Portal|Supports your business-to-consumer \(B2C\) customers and is built using configurable widgets. The Consumer Portal is an enhanced version of the Consumer Service Portal.|
+|[Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-consumer-portal.md)|Supports your business-to-consumer \(B2C\) customers and is built using configurable widgets. The Consumer Portal is an enhanced version of the Consumer Service Portal.|
 
 All the portals offer the same self-service and Virtual Agent assistance features.
 
@@ -79,14 +79,14 @@ All the portals offer the same self-service and Virtual Agent assistance feature
 
     \[Omitted image "self-service-portal.png"\] Alt text: Infographic displaying various options for self-service. For the text description, refer to the column in the Self-service on portals table.
 
-    To get started with the portals, see [Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md) and [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
+    To get started with the portals, see [Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md) and [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
 
 
 ## Engagement Messenger
 
-With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
+With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
 
-To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setting-up-engagement-messenger.md).
+To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 
 ## Service catalog
 
@@ -108,7 +108,7 @@ As customers answer questions and select options presented by Virtual Agent, the
 
 If customers want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 
-To learn more about chat, see [Configuring the chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_ChatFeature.md).
+To learn more about chat, see [Configure chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_ChatFeature.md).
 
 ## Community
 

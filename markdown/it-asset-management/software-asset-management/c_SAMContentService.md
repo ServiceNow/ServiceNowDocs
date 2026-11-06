@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [Explore, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management Content Service
@@ -20,7 +20,7 @@ The Software Asset Management Content Service is an IT Asset Management \(ITAM\)
 
 The Software Asset Management Content Service transfers data between your organization and ServiceNow through a Content Data Service \(CDS\) instance. In commercial deployments, data is transferred through a CDS instance that is deployed in a commercial data center. In National Security Cloud \(NSC\) Department of Defense \(DOD\) Impact Level 5 \(IL5\) deployments, data is transferred through a CDS instance that is deployed in an NSC DOD IL5 data center.
 
-**Note:** Data for your NSC DOD IL5 deployments can be transferred only from ServiceNow to your organization. It cannot be transferred from your organization to ServiceNow. Since you cannot share any unnormalized software installation data with ServiceNow, you must manually create a software content request for any software product that you want to add to the Software Asset Management Content Library. After the software product is added to the Content Library, the Software Asset Management application can begin normalizing the corresponding software installations that are discovered in your NSC DOD IL5 deployments. See [Create IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/create-itam-content-request.md) for instructions on how to create a software content request.
+**Note:** Data for your NSC DOD IL5 deployments can be transferred only from ServiceNow to your organization. It cannot be transferred from your organization to ServiceNow. Since you cannot share any unnormalized software installation data with ServiceNow, you must manually create a software content request for any software product that you want to add to the Software Asset Management Content Library. After the software product is added to the Content Library, the Software Asset Management application can begin normalizing the corresponding software installations that are discovered in your NSC DOD IL5 deployments. See [Create IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-itam-content-request.md) for instructions on how to create a software content request.
 
 No personally identifiable information is shared with ServiceNow. However, please note the exception for custom software products, as described in the Software Asset Management Content Service asset data types table below.
 
@@ -275,7 +275,9 @@ Software entitlement details are extracted from software contracts using machine
 -   Agreement type
 
 </td></tr></tbody>
-</table>## Opting out
+</table>You can opt in to Content Service from the Configuration Console for Software Asset Management. The Console provides an AI-guided setup to walk you through the process. For more details about the Configuration Console, see [Configure Content Service setup using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/configure-content-service-otto.md).
+
+## Opting out
 
 You can opt out at any time from the Content Service Setup page.
 
@@ -294,4 +296,10 @@ The Software Asset Management Content Service provides content updates to your i
 [Normalization and Content Service dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-normalization-dash.md)
 
 [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_EnableSAMContentService.md)
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

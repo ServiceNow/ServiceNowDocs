@@ -7,9 +7,9 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Plugins, Configure, Change Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Data Archiving
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to move a subset of data from large tables into the data archive.
+The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables you to move a subset of data from large tables into the data archive.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -44,7 +44,7 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -64,11 +64,11 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -76,7 +76,7 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -84,5 +84,5 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Manage your epic backlogs
@@ -104,4 +104,6 @@ Use the keyboard to rearrange a group of epics
 
 10. To view the backlog in a standard platform list, click the standard list view icon \(\[Omitted image "standard-list-icon.png"\] Alt text: Standard list view icon\).
 
+
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/scrum-programs-concept.md)
 

@@ -9,8 +9,8 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Contract analysis, Create use case, Contract analysis use case, Now Assist use cases, Now Assist in contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Create use case, Contract analysis use case, Now Assist use cases, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract analysis
@@ -44,6 +44,8 @@ For more information on the computation of non-standard and missing clauses, see
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
+
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -81,7 +83,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents this is by AI.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
+Language of the contract documents this is by AI.For more information on supported languages, see .
 
 </td></tr><tr><td>
 
@@ -113,6 +115,8 @@ Displays the skill name for which you’re creating the use case.
 </table>7.  In the Define fields page, select **Add a field** to add fields for the use case.
 
     1.  In the New field window, select **Question group**.
+
+        \[Omitted image "cmpro-na-question-group.png"\] Alt text: Question group card in add field page.
 
         **Note:** Add a question group, and then define the questions within that question group to ensure that questions are linked to a question group.
 
@@ -153,9 +157,13 @@ This field should be left empty.
 </td></tr></tbody>
 </table>    3.  Select **Add questions**.
 
+        \[Omitted image "cmpro-na-add-questions.png"\] Alt text: Adding questions in a Question group page.
+
     4.  Enter details for the field.
 
-        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-qna-single-field-form.md).
+        For more information on the field form, see .
+
+        \[Omitted image "cmpro-na-add-fields.png"\] Alt text: Question details in the fields page.
 
     5.  Select **Save**.
 
@@ -203,5 +211,5 @@ The use case for Contract analysis skill is created.
 
 [Map a use case for contract analysis]()
 
-[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/modify-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Modify an AI agent
@@ -16,7 +16,7 @@ Modify an AI agent in AI Agent Studio to suit your changing business needs.
 
 ## Before you begin
 
-Role required: sns\_aia.admin
+Role required: sn\_aia.admin
 
 ## Procedure
 
@@ -31,7 +31,7 @@ Role required: sns\_aia.admin
     -   [Define the AI agent's specialty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-specialty.md).
     -   [Define the AI agent security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-sec-controls-aia.md).
     -   [\(Optional\) Add a trigger to automatically invoke your AI agent if a specified event occurs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
-    -   [Determine whether you want to use the ServiceNow Otto for Virtual Agent chat assistants and/or as UI action, set the processing messages, and activate your AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/channels-access-aia.md).
+    -   [Determine whether you want to use the ServiceNow Otto in Virtual Agent chat assistants and/or as UI action, set the processing messages, and activate your AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/channels-access-aia.md).
     **Note:** Some fields aren't editable if the agent is associated with an application. If you want to make more modifications, [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md) and make changes to the duplicate.
 
     -   For the **List of steps** field in the **Define specialty** step, you can create multiple versions of the same AI agent without losing previous versions. Creating versions enables you to test different instructions to evaluate performance. See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/version-control.md) for more information.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-flow-actions-fulfillment-subflows.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring order fulfillment, Order management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure order fulfillment, Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Flow actions for fulfillment subflow definition
@@ -57,7 +57,7 @@ Get Customer Order Characteristic Value
 Flow action that takes the customer order line Item and characteristic as input and returns a characteristic value from the customer order line item. If the characteristic is not present in the customer order line item, it returns the default value for the characteristic from the respective order line item offering.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-fulfillment.md)
+</table>**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-fulfillment.md)
 
 **Related topics**  
 

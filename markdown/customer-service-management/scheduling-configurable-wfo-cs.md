@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/scheduling-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -34,6 +34,8 @@ Manage your team's schedule by creating a schedule plan that covers a span of ti
 Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
 -   **[Track and manage your team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/track-manage-teams-schedule-configurable-wfo.md)**  
 Create, update, or monitor the schedule for your team from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
+-   **[Move agents to another shift or schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/move-agents-between-shifts-wfo-cs.md)**  
+Move one or more agents from their current shift to a shift in the same schedule or in a different schedule for a specified date range.
 -   **[Create recurring meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-recurring-meeting-wfo.md)**  
 Set recurring meetings or training sessions for your team from the Schedule tab. You can create daily, weekly, monthly, or yearly meetings.
 -   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-schedule-adherence-configurable-wfo.md)**  
@@ -51,5 +53,5 @@ Empower your teams to sign up for work shifts based on their availability and pr
 -   **[Sign up for your preferred shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/sign-up-preferred-shifts-wfo-csm.md)**  
 Specify one or more shifts in a schedule plan for which you would prefer to sign up.
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 

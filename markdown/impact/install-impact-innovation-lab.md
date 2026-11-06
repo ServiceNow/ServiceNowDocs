@@ -1,16 +1,16 @@
 ---
-title: Install the Impact Store Application from the ServiceNow Store
+title: Install Impact
 description: Follow these instructions to install the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/install-impact-innovation-lab.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Install the Impact Store Application from the ServiceNow Store
+# Install Impact
 
 Follow these instructions to install the Impact Store Application.
 
@@ -27,9 +27,9 @@ Role required: Any Impact role, admin
 
 ## Procedure
 
-1.  Navigate to the ServiceNow Store.
+1.  Navigate to the [ServiceNow Store](https://store.servicenow.com/store).
 
-2.  Select **Apps and Solutions**.
+2.  Select **Apps and Solutions** from the Explore menu.
 
 3.  Find Impact using the filter criteria and search bar.
 
@@ -58,11 +58,7 @@ Role required: Any Impact role, admin
 
 ## What to do next
 
-[Use Guided Setup for Impact Store Application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md).
+[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md).
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
-
-**Next topic:**[Use Guided Setup for Impact Store Application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md)
 

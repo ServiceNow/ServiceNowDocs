@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway
@@ -24,7 +24,7 @@ The AI Gateway page enables you to pause and resume AI Gateway transactions, as 
 
 **Global MCP clients**- View the list of Global MCP clients \(CIMD support\), Where CIMD refers to Client ID Metadata document. These Global MCP clients once created can be used across all MCP severs. You can Add Global MCP clients from the tab by selecting Add. \[Omitted image "aict-config-globalmcp.png"\] Alt text: The list of Global MCP clients.
 
-For more information on adding a Global MCP client, see .
+For more information on adding a Global MCP client, see [Add a Global MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/add-a-global-mcp-client.md).
 
 You can filter and export the list into PDF, JSON, Excel, and CSV format. The list of allowed AI connections is categorized into.
 
@@ -33,5 +33,5 @@ You can filter and export the list into PDF, JSON, Excel, and CSV format. The li
 -   Last updated by
 -   Updated
 
-For information on AI Gateway tab on the AI Control Tower Home, see 
+For information on AI Gateway tab on the AI Control Tower Home, see [AI Gateway tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-gateway-tab.md)
 

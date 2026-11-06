@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/setup-sales-quota.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales forecasting, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up sales quota
@@ -121,4 +121,11 @@ Select the **Active** check box to activate this quota.
 
     The sales quota has been assigned to sales team.
 
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-forecasting.md)
 

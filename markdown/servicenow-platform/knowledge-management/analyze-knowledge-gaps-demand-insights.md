@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,15 +43,15 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
 
 4.  Analyze the sample to create a knowledge gap feedback task or ignore the tasks within a collection.
 
-<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d310689e130">
+<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d312550e130">
 
 Action
 
-</th><th align="left" id="d310689e133">
+</th><th align="left" id="d312550e133">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d310689e139">
+</th></tr></thead><tbody><tr><td id="d312550e139">
 
 **Report a knowledge gap to create a feedback task**
 
@@ -69,7 +69,7 @@ The **Description** field is automatically populated with frequently appearing w
 4.  Click **Submit**.
 
 
-</td></tr><tr><td id="d310689e179">
+</td></tr><tr><td id="d312550e179">
 
 **Ignore a collection to avoid its tasks from being reported as knowledge gaps**
 

@@ -1,20 +1,20 @@
 ---
-title: Train the similarity solution for similar closed Universal Request
-description: Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Request that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
+title: Train the similarity solution for similar closed Universal Requests
+description: Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Requests that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-closed-ur.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predictive Intelligence for Universal Request, Configuring Universal Request, Configure, Universal Request, Employee Service Management]
+breadcrumb: [Predictive Intelligence for Universal Request, Configuring Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
-# Train the similarity solution for similar closed Universal Request
+# Train the similarity solution for similar closed Universal Requests
 
-Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Request that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
+Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Requests that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
 
 ## Before you begin
 

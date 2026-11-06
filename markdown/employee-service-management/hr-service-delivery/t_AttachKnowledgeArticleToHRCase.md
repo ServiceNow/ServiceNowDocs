@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Knowledge Management, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -39,15 +39,15 @@ Role required: hr\_basic or hr\_case\_writer
 
 4.  Review the list of suggested knowledge articles.
 
-<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d146455e137">
+<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d148433e137">
 
 Action
 
-</th><th align="left" id="d146455e140">
+</th><th align="left" id="d148433e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146455e146">
+</th></tr></thead><tbody><tr><td id="d148433e146">
 
 **Preview the article**
 
@@ -55,7 +55,7 @@ Description
 
 Click the article title. After reviewing the article in the pop-up window, click **Attach to HR Case** if it is relevant, or click **\(X\)** to close the article.
 
-</td></tr><tr><td id="d146455e161">
+</td></tr><tr><td id="d148433e161">
 
 **Attach the article without previewing it**
 

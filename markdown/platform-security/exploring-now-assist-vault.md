@@ -1,24 +1,24 @@
 ---
-title: Exploring Now Assist for Vault
-description: With the Now Assist for Vault application, you can generate custom data patterns from text descriptions to streamline your workload, check role access for an encrypted column to monitor your instance’s encryption access posture, and schedule Data Discovery jobs to detect sensitive data.
+title: AI in ServiceNow Vault
+description: With the ServiceNow Otto for Vault application, you can automate many tasks in Vault with the help of AI. These tasks include securing custom applications to improve your security posture, checking role access for an encrypted column to instance’s encryption access posture, and others.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/exploring-now-assist-vault.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Vault]
+breadcrumb: [Exploring ServiceNow Vault, ServiceNow Vault]
 ---
 
-# Exploring Now Assist for Vault
+# AI in ServiceNow Vault
 
-With the Now Assist for Vault application, you can generate custom data patterns from text descriptions to streamline your workload, check role access for an encrypted column to monitor your instance’s encryption access posture, and schedule Data Discovery jobs to detect sensitive data.
+With the ServiceNow Otto for Vault application, you can automate many tasks in Vault with the help of AI. These tasks include securing custom applications to improve your security posture, checking role access for an encrypted column to instance’s encryption access posture, and others.
 
-## Ask Now Assist panel in ServiceNow Vault console
+## ServiceNow Otto panel in ServiceNow Vault console
 
-The Ask Now Assist panel in ServiceNow Vault console lists skills to accomplish common security tasks. Selecting a skill opens a conversational interface that lets you accomplish a task through prompts. For more information about the Now Assist conversational interface, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+The ServiceNow Otto panel in ServiceNow Vault console lists common security tasks. Selecting a task opens a conversational interface that lets you accomplish the task through prompts. For more information about the ServiceNow Otto conversational interface, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
-\[Omitted image "ask-now-assist.png"\] Alt text: Ask Now Assist panel with three skills shown.
+\[Omitted image "ask-otto.png"\] Alt text: ServiceNow Otto panel with three skills shown.
 
-**Parent Topic:**[Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/now-assist-vault-landing.md)
+**Parent Topic:**[Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/exploring-servicenow-vault.md)
 

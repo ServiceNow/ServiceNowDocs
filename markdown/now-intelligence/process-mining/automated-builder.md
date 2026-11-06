@@ -1,24 +1,24 @@
 ---
-title: Configure ping-pong finding definition
-description: Configure ping-pong finding definitions to view a pattern where a record bounces back and forth between two steps without interruption.
+title: Configure ping-pong
+description: Configure a ping-pong definition to view a pattern where a record bounces back and forth between two steps without interruption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/automated-builder.html
 release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated improvement opportunities, Setting improvement opportunity from Project Builder, Setting improvement opportunity for projects, Working with improvement opportunities, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Setting Automated improvement opportunities, Setting improvement opportunities, Use, Process Mining, Platform Analytics]
 ---
 
-# Configure ping-pong finding definition
+# Configure ping-pong
 
-Configure ping-pong finding definitions to view a pattern where a record bounces back and forth between two steps without interruption.
+Configure a ping-pong definition to view a pattern where a record bounces back and forth between two steps without interruption.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 Ping-pong finding definition surfaces areas in the process where records continuously bounce between two steps. Identifying these loops helps determine the necessary improvements.
 
@@ -32,7 +32,7 @@ Ping-pong finding definition surfaces areas in the process where records continu
 
 2.  Select **Create** on the Ping-Pong card.
 
-    For a particular type of automated finding, you can create a maximum of two automated findings.
+    For one type of automated finding, you can configure a maximum of two automated findings per project.
 
 3.  Provide details in the **Define** section.
 
@@ -98,7 +98,7 @@ Displays the table name that you have selected. This field is non-editable.
 
 </td></tr><tr><td>
 
-Apply to process
+Apply to process/project
 
 </td><td>
 
@@ -121,10 +121,10 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
-    -   A record must have the minimum number of 3 uninterrupted repetitions where it alternates between two processes.
-    -   In the Summary and insights page, a maximum of 10 improvement opportunities will be displayed.
+    -   A record must have a minimum number of uninterrupted repetitions where it alternates between two steps at least the 3 times.
+    -   10 improvement opportunities to be generated in the Summary and insights page.
 5.  Select **Save and exit**.
 
 
-**Parent Topic:**[Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
 

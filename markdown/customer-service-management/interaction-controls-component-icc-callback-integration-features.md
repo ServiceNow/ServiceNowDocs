@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/interaction-controls-component-icc-callback-integration-features.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Callback, CCaaS callback, ICC Callback, Callback requests]
 breadcrumb: [Integrating with contact centers, Integrate, Customer Service Management]
@@ -44,7 +44,7 @@ The Interaction Controls Component \(ICC\) for callbacks feature enables CCaaS p
 
 **Note:**
 
-To manage and activate the ICC integration for callbacks, see [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md) and [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md).
+To manage and activate the ICC integration for callbacks, see [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md) and [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md).
 
 **Related topics**  
 

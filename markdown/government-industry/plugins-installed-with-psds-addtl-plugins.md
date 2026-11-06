@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/plugins-installed-with-psds-addtl-plugins.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-10"
-reading_time_minutes: 9
-breadcrumb: [Components installed, Reference, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 11
+breadcrumb: [Components and roles installed, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Plugins installed with Public Sector Digital Services Applications
@@ -32,9 +32,60 @@ The following plugins are activated when you enable the Public Sector Digital Se
 |Service Applicant Program Management \(com.sn\_svc\_appl\_pgm\_mg\)|The Service Applicant Program Management application, in partnership with Strategic Portfolio Management, empowers organizations to quickly design, configure, and launch applicant-facing programs, such as grants.|
 |Service Request Criteria \(sn\_req\_criteria\)|Allows government service agents to view only relevant service definitions while creating a case. Service definitions can be filtered using user criteria and entity criteria which shows only relevant service definitions for agents and constituents. Admins can create customer criteria for constituents, accounts. Constituents can see relevant service definitions in the customer portal based on customer criteria setup by admins.|
 
-## Plugins installed with Grants Management
+## Plugins installed with Investigative Case Management
 
-The following plugins and applications are installed with the Grants Management \(com.sn\_gsm\_grants\) application. The Grants Management application enables government agencies to simplify and streamline grant program set-up, management, application intake, review, and screening using a guided, customizable experience. For a full list of dependencies for Grants Management, see [Grants Management App Dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ref-gm-app-dependencies.md).
+The following plugins and applications are installed with the Investigative Case Management \(com.sn\_gsm\_icm\) application. The Investigative Case Management application enables government organizations to manage complex investigations with a government-optimized data model, supporting diverse investigation types and comprehensive evidence management.
+
+<table id="table_qwl_nv4_m3c"><thead><tr><th>
+
+Plugin
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Public Sector Digital Services Core \(com.sn\_public\_sector\_digital\_services\_core\)
+
+</td><td>
+
+Provides a standard architecture for provisioning a variety of government services—such as social assistance programs, service requests, licensing/permitting, and so on—with a government data model that supports case types and agency services provided to constituents or their businesses. Includes:-   UI Components for Customer Portals \(com.sn\_ciwf\_ui\_cmpnt\)
+-   Business Location \(sn\_bus\_loc\)
+-   Agency Support Model \(com.sn\_agency\_support\_model\)
+-   Customer Service Case Types \(com.snc.csm\_case\_types\)
+-   Customer Service Portal \(com.glide.service-portal.customer-portal\)
+-   Customer Service Install Base Management \(com.snc.install\_base\)
+-   Service Applicant Information \(com.sn\_svc\_appl\_info\)
+-   Service Applicant Program Management \(com.sn\_svc\_appl\_pgm\_mg\)
+-   Service Request Criteria \(sn\_req\_criteria\)
+
+</td></tr><tr><td>
+
+CSM Investigative Case Management \(sn\_csm\_icm\)
+
+</td><td>
+
+Enables organizations to handle and process complaints around various issues such as misuse, fraud or illegal activities. Extends the Customer Service case table for investigations. Purpose-built for Public Sector Digital Services.
+
+ This plugin includes:
+
+ Investigative Case Management Foundation
+
+</td></tr><tr><td>
+
+Investigative Case Management Foundation \(sn\_icm\)
+
+</td><td>
+
+AI-first platform for government fraud, waste, and abuse investigations, designed to modernize investigative operations, accelerate case resolution, and ensure regulatory compliance.
+
+ Purpose-built foundation of data models, workflows, and AI agents transforms paper-based and spreadsheet-driven processes into unified digital operations. ICM provides a standard architecture for managing complex investigations with a government-optimized data model supporting diverse investigation types and comprehensive evidence management.
+
+</td></tr></tbody>
+</table>## Plugins installed with Grants Management
+
+The following plugins and applications are installed with the Grants Management \(com.sn\_gsm\_grants\) application. The Grants Management application enables government agencies to simplify and streamline grant program set-up, management, application intake, review, and screening using a guided, customizable experience.
 
 <table id="table_vp4_zrs_xhc"><thead><tr><th>
 
@@ -160,7 +211,7 @@ Service Applicant Information \(sn\_svc\_appl\_info\)
 
 </td><td>
 
-Extends your application and case intake processes by enabling the collection of detailed applicant data. Supports both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces. Capture and manage key information—including financial details—at the point of entry.
+Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces. You can capture and manage key information—including financial details—at the point of entry.
 
 </td></tr><tr><td>
 
@@ -193,12 +244,12 @@ Policy as Code Engine \(com.sn\_pace\)
 
 </td><td>
 
-Contains the UI components to support the UI functionality of Policy as Code Engine \(PaCE\). PaCE provides a centralized platform for storing, managing, and using policies. Policies are pre-defined rule-sets that drive eligibility determination and benefits. Policies can be mapped to one or more social benefit types. This plugin includes the Policy as Code Engine UI \(com.sn\_pace\_builder\).
+Contains the UI components to support the UI functionality of Policy as Code Engine \(PaCE\). PaCE provides a centralized platform for storing, managing, and using policies, which are pre-defined rule-sets that drive eligibility determination and benefits. Policies can be mapped to one or more social benefit types. This plugin includes the Policy as Code Engine UI \(com.sn\_pace\_builder\).
 
 </td></tr></tbody>
-</table>## Plugins installed with License and Permit Playbook
+</table>## Plugins installed with License and Permit Administration
 
-The following plugins are installed with the License and Permit Playbook \(com.sn\_gsm\_lic\_prmt\) application:
+The following plugins are installed with the License and Permit Administration \(com.sn\_gsm\_lic\_prmt\) application:
 
 <table id="table_gq4_zrs_xhc"><thead><tr><th>
 
@@ -255,7 +306,7 @@ Service Applicant Information \(sn\_svc\_appl\_info\)
 
 </td><td>
 
-Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces. Captures and manages key information—including financial details—at the point of entry.
+Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces. Capture and manage key information—including financial details—at the point of entry.
 
 </td></tr><tr><td>
 
@@ -311,9 +362,9 @@ Document Management \(com.snc.platform\_document\_management\)
 Enables you to manage large numbers of documents efficiently. Provides storage space and a filing system that allows you to easily upload, retrieve and delete documents.
 
 </td></tr></tbody>
-</table>## Plugins installed with Service Request Playbook
+</table>## Plugins installed with Service Request Administration
 
-The following plugins are installed with Service Request Playbook \(com.sn\_gsm\_srvc\_req\) application:
+The following plugins are installed with Service Request Administration \(com.sn\_gsm\_srvc\_req\) application:
 
 <table id="table_pq4_zrs_xhc"><thead><tr><th>
 
@@ -348,7 +399,57 @@ Foundational plugin that enables customers to create playbooks based on individu
 -   CSM Configurable Workspace Bundle
 
 </td></tr></tbody>
-</table>## Plugins installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+</table>## Plugins installed with GOV.UK Developer Toolkit
+
+The following plugins are installed with the GOV.UK Developer Toolkit application:
+
+<table id="table_rlg_yp3_ljc"><thead><tr><th>
+
+Plugin
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Service Portal Knowledge Base \(com.glide.service-portal.knowledge-base\)
+
+</td><td>
+
+Provides a standard architecture for provisioning a variety of government services—such as social assistance programs, service requests, licensing/permitting, and so on—with a government data model that supports case types and agency services provided to constituents or their businesses. Includes:-   Customer Service Case Types \(com.snc.csm\_case\_types\)
+-   Customer Service Install Base Management \(com.snc.install\_base\)
+-   Agency Support Model \(com.sn\_agency\_support\_model\)
+-   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
+-   Signature Pad \(com.snc.signaturepad\)
+-   UI Components for Customer Portals \(sn\_ciwf\_ui\_cmpnt\)
+
+
+</td></tr><tr><td>
+
+Playbooks for Customer Service Management \(com.sn\_csm\_playbook\)
+
+</td><td>
+
+Foundational plugin that enables customers to create playbooks based on individual business needs. Playbooks guide government service agents through sequences of tasks to resolve constituent issues, and helps users to visualize the entire lifecycle of a workflow. This plugin includes:-   Dynamic Related Records for Configurable Workspace \(sn\_uib\_dyn\_rel\_rec\)
+-   Customer Service Management \(com.sn\_customerservice\)
+-   CSM Configurable Workspace Bundle
+
+</td></tr></tbody>
+</table>## Plugins installed with Service Portal
+
+The following plugins are installed with the Service Portal \(com.glide.service-portal.esm\) application, which comes with the GOV.UK Developer Toolkit:
+
+|Plugin|Description|
+|------|-----------|
+|Service Portal Knowledge Base \(com.glide.service-portal.knowledge-base\)| |
+|Service Portal - Service Catalog \[com.glide.service-portal.service-catalog\]| |
+|Service Portal - Service Status \[com.glide.service-portal.service-status\]| |
+|Service Portal Configuration Pages \[com.glide.service-portal.config\]| |
+|Service Portal Designer \[com.glide.service-portal.designer\]| |
+|Service Portal Surveys \[com.glide.service-portal.survey\]| |
+
+## Plugins installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 The following plugins are installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\) \(com.sn\_psds\_gen\_ai\) application:
 
@@ -356,7 +457,7 @@ The following plugins are installed with ServiceNow Otto for Public Sector Digit
 
 ## Optional Plugins available for Public Sector Digital Services and related apps
 
-- Geo Map \(sn\_geo\_map\) for Service Request Playbook
+- Geo Map \(sn\_geo\_map\) for Service Request Administration
 
 **Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/installed-with-public-sector-digital-services-core.md)
 

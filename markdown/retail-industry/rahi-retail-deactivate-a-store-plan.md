@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-deactivate-a-store-plan.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans, Retail]
 ---
@@ -29,4 +29,6 @@ Select the store plan in the list and then select Deactivate to disable the Acti
 Deactivating a Store plan requires the sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\_hq\_ops.location\_manager roles.
 
 **Note:** The system displays a confirmation message when deactivating a store plan. When the user confirms the action, the system deletes the store plan.
+
+**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plans.md)
 

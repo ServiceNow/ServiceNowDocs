@@ -7,7 +7,7 @@ release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -73,9 +73,7 @@ Justification
 Details related to the reason this exception is being requested. This field must be filled in by the remediation owner.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[IT Remediation Workspace reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/it-remediation-workspace-reference.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-management-create-appointment.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add lead tasks, Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Add lead tasks, Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create appointments for lead tasks
@@ -34,10 +34,17 @@ You can create appointments only after creating a lead task. To create a lead ta
 
 5.  Fill in the fields in the Create New Appointment form.
 
-    For a description of the field values, see .
+    For description of the field values, see [Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-lead-appointment-form.md).
 
 6.  Select **Save** to save the appointment and send it later or select **Send activity** to send it now.
 
 
 **Parent Topic:**[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-tasks-tab.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
 

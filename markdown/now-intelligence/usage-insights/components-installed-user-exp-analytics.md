@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Usage Insights, Platform Analytics]
+breadcrumb: [Usage Insights reference, Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Roles installed with Usage Insights
@@ -26,7 +26,7 @@ View the settings within Usage Insights in the application navigator and control
 View settings within Usage Insights in the application navigator and control the Usage Insights settings for each mobile application. Assigned users have admin role permissions to be able to create funnel and cohort reports within the Usage Insights application.
 -   **[Web analytics admin\[web\_analytics\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-role-3.md)**  
 View the settings under Usage Insights in the application navigator and control the Usage Insights settings for each web application. Assigned users have admin role permissions to create funnel and cohort reports from within the Usage Insights application.
--   **[User experience analytics viewer \[analytics\_viewer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-role-4.md)**  
+-   **[Usage Insights viewer \[analytics\_viewer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-role-4.md)**  
 View Usage Insights in the application navigator. Assigned users have viewer role permissions for Usage Insights for mobile and web applications.
 -   **[Mobile analytics viewer \[mobile\_analytics\_viewer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-role-5.md)**  
 View Usage Insights in the application navigator. Assigned users have viewer role permissions for Usage Insights for mobile applications.

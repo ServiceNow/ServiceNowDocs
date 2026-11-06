@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/fso-integrate-other-applications.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Financial Services Operations \(FSO\)]
 ---
@@ -36,6 +36,8 @@ Integrating Financial Services Operations with Field Service Management enables 
 Integration with Document Intelligence enables machine learning \(ML\) to assist in quickly automating document processing and accurately extracting information from documents to the ServiceNow AI Platform.
 -   **[Integrating with Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/integration-with-service-bridge.md)**  
 Integrating Financial Services Operations \(FSO\) with Service Exchange enables you to connect ServiceNow instances to provide seamless support and service experiences.
+-   **[Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md)**  
+The ServiceNow® Financial Services Operations Integration with Verifi application connects FSO's issuer dispute workflow to Verifi Cardholder Dispute Resolution Network \(CDRN\) which is a Visa-owned pre-dispute settlement service. This integration enables issuers initiate structured negotiations with merchants before disputes escalate to costly chargebacks.
 
 **Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-overview.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Scrum ranking definitions

@@ -7,8 +7,8 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -53,24 +53,7 @@ Require approval when Service Reliability Management \(SRM\) admins, managers, o
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 
-
-[Install Service Reliability Management from Admin Center or ServiceNow Store]()
-
-[Assign an administrator to Service Reliability Management]()
-
-[Activate teams and services in SRM]()
-
-[Customize team approval settings]()
-
-[Configure error budget actions for breached SRM SLOs]()
-
-[Approve a change request for SRM]()
-
-[Configure fields for escalation triggers]()
-
-[Configure Twilio to send notifications in SRM]()
-
-[Install the Alert Automation application]()
+**Next topic:**[Customize team approval settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
 

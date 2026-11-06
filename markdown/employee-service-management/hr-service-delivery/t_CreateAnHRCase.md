@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Use HR Case Management, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Work an HR case
@@ -172,7 +172,7 @@ Add collaborators or other HR agents to the case.Only HR agents can be added as 
 
  Collaborators and the COE for the HR case can conflict. The basic rules are:
 
--   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md).
+-   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
 -   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
  **Note:** Agents must have the ER case writer \[sn\_hr\_er.case\_writer\] role in order to be a collaborator.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -57,7 +57,6 @@ The GTD does not currently support the following areas.
     -   Guided Tours are not supported in mobile view
     -   Callouts on elements inside visualisation components or par widgets
 -   **Technical limitations**
-    -   Call out targeting generally works as expected, but may occasionally fail for some pages. When adding a step in Guided Tours, for example, the algorithm that identifies unique element selectors relies on the page's DOM structure. If multiple selectors match the same element, the algorithm picks the first match, which may not always be the correct one. In such cases, it is recommended to manually edit the selectors to ensure the intended element is uniquely identified.
     -   Elements that are loaded in DOM by scrolling the page effect Guided Tours. The admin must inform the user to scroll further when the form is present.
     -   If there is no click action on the elements that are selectable while creating the tour, place the callout on the parent element.
 

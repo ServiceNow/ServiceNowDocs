@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure system properties for contract metadata extraction
@@ -39,6 +39,8 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
     -   To set manual initiation of the metadata extraction process, enter `manual`.
     -   To set automatic initiation of the metadata extraction process, enter `automated`.
     The default value is **manual**.
+
+    \[Omitted image "cmpro-manual-me.png"\] Alt text: Set metadata extraction initiation method.
 
 5.  Select **Update**.
 

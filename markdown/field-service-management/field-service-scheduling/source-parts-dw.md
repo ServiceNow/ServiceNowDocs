@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Part requirements, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Managing part requirements, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Source parts in Dispatcher Workspace
@@ -20,7 +20,7 @@ Source parts from your preferred stockrooms or assignment groups to complete the
 
 Role required: wm\_dispatcher
 
-Ensure that the part you are sourcing is not requested before.
+Confirm that the part you’re sourcing isn’t requested before.
 
 ## About this task
 
@@ -32,17 +32,17 @@ Parts sourcing is a process of reserving and obtaining parts described in a part
 
 2.  Select **Dispatcher Workspace**.
 
-3.  Click the work order task for which you want to source the parts from the task panel.
+3.  Select the work order task for which you want to source the parts from the task panel.
 
-4.  Click the **Part Requirements** tab, view a list of required parts for the task.
+4.  Select the **Part Requirements** tab and view a list of required parts for the task.
 
 5.  Select the part that you want to source.
 
     **Note:** The Source Part option is enabled only if you select a part that is not previously sourced or marked false as requested.
 
-6.  Click **Source Part**.
+6.  Select **Source Part**.
 
-7.  On the form, fill in appropriate option based on the desired sourcing criteria.
+7.  On the form, fill in the appropriate option based on the desired sourcing criteria.
 
 8.  <table id="table_ksd_1wx_xzb"><thead><tr><th>
 
@@ -81,15 +81,15 @@ Radius in selected distance unit \(miles or kilometers\).
 
     **Note:** Only stockrooms that have the specified part are included in the list.
 
-9.  If there are no stockrooms available that match the selected search criteria, you can either change the sourcing criteria or click **Place a part request** to source the part from assignment groups or other stockrooms.
+9.  If there are no stockrooms available that match the selected search criteria, you can change the sourcing criteria or select **Place a part request** to source the part from assignment groups or other stockrooms.
 
     -   A part request \(REQ\) is created for the specified part requirement with the state as **Pending Approval** and the part request line with the state as **Requested**.
     -   A temporary part request \(RITM\) record is created for the requested parts and sent to your agents as a mobile notification.
 10. Select a stockroom from the list of available stockrooms.
 
-11. Enter the total quantity of the parts required to complete the task in the**Reserve quantity** field.
+11. Enter the total quantity of the parts required to complete the task in the **Reserve quantity** field.
 
-12. Click **Submit**.
+12. Select **Submit**.
 
 
 ## Result
@@ -98,5 +98,5 @@ The transfer order and transfer order line is created for the sourced part.
 
 ## What to do next
 
-Complete the transfer orders: If the agent sources parts from other stockrooms or assignment groups, a transfer order line is created automatically. You can then complete the transfer order, ensuring the parts are moved to the designated location.
+Complete the transfer orders: If the agent sources parts from other stockrooms or assignment groups, a transfer order line is created automatically. You can then complete the transfer order, confirming the parts are moved to the designated location.
 

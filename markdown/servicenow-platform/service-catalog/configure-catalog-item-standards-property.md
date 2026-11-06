@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Catalog item standards for catalog item generation, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,8 +35,8 @@ The "Catalog item standards" property controls whether best practices from the C
 3.  Select the toggle to enable or turn off the feature:
 
     -   Enabled: Best practices are passed to the LLM and applied during catalog generation. Users are prompted to confirm deviations from best practices.
-    -   Turned off: Best practices aren't passed to the LLM. ServiceNow Otto does not apply best practices or prompt users about deviations.
-    The Catalog item standards property is configured. Your setting takes effect immediately for all new catalog generation requests using ServiceNow Otto.
+    -   Turned off: Best practices aren't passed to the LLM. AI does not apply best practices or prompt users about deviations.
+    The Catalog item standards property is configured. Your setting takes effect immediately for all new catalog generation requests using AI.
 
     If you enabled the property, confirm that your best practices are published in the Catalog Best Practices article.
 

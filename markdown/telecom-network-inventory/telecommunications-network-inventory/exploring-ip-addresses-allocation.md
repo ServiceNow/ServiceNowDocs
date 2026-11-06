@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
-breadcrumb: [IP address management, Explore, Telecommunications Network Inventory]
+breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
 
 # IP addresses allocation
@@ -36,7 +36,7 @@ Using the IP address allocation, you can create, view, and update IP Address Blo
 
 -   **Managed Network**
 
-    A network scope within which an IP Address Block's CIDR must be unique. The same CIDR may exist in different Managed Networks without conflict. The Managed Network assigned to an IP Address Block propagates to its IP Subnetworks and cannot be changed at a lower level. For more information, see [Create a Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md).
+    A network scope within which an IP Address Block's CIDR must be unique. The same CIDR may exist in different Managed Networks without conflict. The Managed Network assigned to an IP Address Block propagates to its IP Subnetworks and cannot be changed at a lower level. For more information, see [Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md).
 
 
 ## IP allocation methods
@@ -67,13 +67,13 @@ Both relationship types are visible on each IP Address record's Related Items pa
 
 [Create an IP Address Block record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.md)
 
-[Create an IP Subnetwork Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
 
-[Allocate IP Address Slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md)
+[Allocate IP address slots in a subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.md)
 
-[Create IP Address Records from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
+[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
 
-[Create an IP Address Record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
+[Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
 
-[Create a Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+[Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
 

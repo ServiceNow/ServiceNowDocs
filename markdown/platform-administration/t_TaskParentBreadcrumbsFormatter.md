@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_TaskParentBreadcrumbsFormatter.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Parent breadcrumbs formatter
@@ -34,7 +34,7 @@ You can customize the parent breadcrumbs formatter to control what breadcrumbs a
 
 ### Before you begin
 
-**Role required:** admin
+Role required: ui\_macro\_admin
 
 ### Procedure
 
@@ -79,7 +79,7 @@ The parent breadcrumbs formatter can be used on non-Task tables as long as the t
 
 ### Before you begin
 
-Role required: admin
+Role required: ui\_macro\_admin
 
 ### About this task
 

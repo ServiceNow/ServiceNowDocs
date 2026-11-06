@@ -7,7 +7,7 @@ release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up Microsoft Office 365 integration for Walk-up Experience, Integrate Microsoft Office 365 calendar with Walk-up Experience, Configure, Walk-up Experience, IT Service Management]
 ---

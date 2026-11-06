@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Enable users to choose the identity provider for login
@@ -18,7 +18,7 @@ SSO federation support enables users to choose which IdP to log in to.
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 

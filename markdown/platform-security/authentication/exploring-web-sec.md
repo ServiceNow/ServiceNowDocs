@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Web service security, Access Management]
+breadcrumb: [Web service security, Authentication, Access Management]
 ---
 
 # Explore Web service security

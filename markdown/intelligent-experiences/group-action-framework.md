@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/group-action-framework.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [gaf]
-breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Group Action Framework
@@ -17,7 +17,7 @@ Group Action Framework \(GAF\) is an intelligence feature on the ServiceNow AI P
 
 ## GAF overview
 
-GAF is composed of two processes. The grouping process identifies clusters of similar records \(incident, cases, KB articles, and the actioning process maps new records to clusters and selects the representative record. Topic-labeling occurs during the setup process and labels the different clusters, which form the **Description** field of records on the GAF record groups \[sn\_gaf\_record\_group\] table. GAF processes together benefit your AI agents and generative AI features in multiple ways.
+GAF is composed of two processes. The grouping process identifies clusters of similar records \(incident, cases, KB articles, and the actioning process maps\) new records to clusters and selects the representative record. Topic-labeling occurs during the setup process and labels the different clusters, which form the **Description** field of records on the GAF record groups \[sn\_gaf\_record\_group\] table. GAF processes together benefit your AI agents and generative AI features in multiple ways.
 
 -   Improves consistency and quality of agentic and generative AI features by using the best examples from groups of records.
 -   Reduces the cost of LLM calls by only executing on the representative records.
@@ -48,11 +48,11 @@ Multiple skills are involved in GAF setup and execution. They are modular, so no
     Uses the generated summaries created by the mapper skill to produce a single summary for the entire cluster.
 
 
-## GAF and AI Search
+## GAF and ServiceNow® Otto for AI Search
 
-GAF uses AI Search to improve its effectiveness and uses it as a fallback option in case GAF does not return any results. When AI Search is enabled, then GAF can utilize its optimized prediction. The optimized prediction feature increases clustering capacity up to 500,000 records and improves recall speed.
+GAF uses AI Search to improve its effectiveness and can use it as a fallback option in case GAF does not return any results. GAF can work without ServiceNow Otto for AI Search, but if it is enabled then GAF has optimized prediction. The optimized prediction feature increases clustering capacity up to 500,000 records and improves recall speed.
 
-See [Install AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
+See [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/install-now-assist-ais.md) and [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/setup-ai-search-gaf.md) for more information on configuring AI Search for GAF.
 
 ## Grouping inputs
 
@@ -60,7 +60,7 @@ When you configure GAF, the Grouping inputs record in the Now Assist Skill Confi
 
 -   **Table**
 
-    The source table whose records are clustered. For example, the Incident \[incident\] table for ITSM.
+    The source table whose records are clustered. For example, the Incident \[incident\] table for ServiceNow Otto for ITSM.
 
 -   **Fields**
 
@@ -93,7 +93,7 @@ When you configure GAF, the Grouping inputs record in the Now Assist Skill Confi
 
 To find logs where GAF is used on your instance, go to the Generative AI Log \[sys\_generative\_ai\_log\] table and filter based on the skill that used GAF. You can also filter the Log \[syslog\] table for the scope containing `sn-gaf`. Actions performed by skills, AI agents, and agentic workflows that use GAF all generate logs.
 
-For more information about common errors and possible resolution steps, see [Troubleshooting GAF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/troubleshooting-gaf.md).
+For more information about common errors and possible resolution steps, see Troubleshooting GAF.
 
 ## Additional information
 

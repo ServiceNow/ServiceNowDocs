@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ The SAP Fieldglass spoke is built by Bristlecone, Inc. Manage job postings, work
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP Fieldglass spoke v1.3.1 is the latest version.
+SAP Fieldglass spoke v1.3.1 is the latest version. For version history of the spoke, see [SAP Fieldglass spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-fieldglass.html).
 
 ## Supported versions
 
@@ -171,5 +171,5 @@ The SAP Fieldglass spoke adds the SAP Fieldglass Spoke application to your insta
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r-credentials.md).
 
-Two connection and credential aliases are available along with spoke; one record for supplier and another record for buyer. For information about setting up the spoke, see [Set up the SAP Fieldglass spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/fieldglass-setup.md).
+Two connection and credential aliases are available along with spoke; one record for supplier and another record for buyer. For information about setting up the spoke, see .
 

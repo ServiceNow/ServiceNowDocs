@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,8 +20,8 @@ Configure a CI attribute as mandatory so it is included in the CMDB Health tests
 
 Role required:
 
--   sn\_cmdb\_admin or Itil\_admin and personalize\_dictionary: For editing the dictionary table
--   sn\_cmdb\_editor and itil has read access
+-   sn\_cmdb\_admin or Itil\_admin, and personalize\_dictionary: For editing the dictionary table
+-   sn\_cmdb\_editor and itil have read access
 
 ## About this task
 

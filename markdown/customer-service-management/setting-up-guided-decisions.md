@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setting-up-guided-decisions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service
 # Configuring Guided Decisions
 
 Create structured troubleshooting processes for your agents through the ServiceNow® Guided Decisions Experience application. Help your agents solve complex issues in a consistent way.
+
+**Important:** The Guided Decisions Experience\[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. Existing customers who already have the plugin installed can continue to access and migrate their Guided Decision Trees to Guided Decision Playbooks. However, new customers, or customers who have not previously installed the Guided Decisions Experience plugin, must create new decision flows using Guided Decision Playbooks, as Guided Decisions is no longer available for new installations. For migration guidance, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
 
 The Guided Decisions Experience application is a tool for authoring and running decision tree flows. A decision tree walks an agent through a troubleshooting process based on a record context. The process asks a series of questions and the agent provides the answers. Based on those answers, the agent receives guidance on the next steps to take in the resolution process. Agents can resolve complex issues faster and more efficiently. For more information, see [Decision trees in Guided decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/decision-trees-in-guided-decisions.md).
 
@@ -52,8 +54,6 @@ As an admin, set up the Guided Decisions Experience application to enable users 
 
 ## Creating and using decision trees
 
-\[Omitted image "gd-flowchart.png"\] Alt text: Flowchart displaying process of creating decision trees, implementing them, and then using them by different persona.
-
 Users with the decision tree author role \(decision\_tree\_author\) create decision trees. After creating a decision tree, the decision tree is implemented by adding it to a recommended action, playbook, or Service Portal. For more information, see the following topics:
 
 -   [Create a decision tree in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-decision-trees-gdb.md)
@@ -73,5 +73,5 @@ For guided decisions that are added to playbooks, agents can work through the de
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

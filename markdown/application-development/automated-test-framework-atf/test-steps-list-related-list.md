@@ -7,16 +7,16 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # List and Related List
 
 Validate the functionality and visibility of records and UI actions in lists and related lists.
 
-Test Agent can now generate ATF tests that use List and Related List test steps, extending test coverage beyond form interactions to include list view operations such as validating visibility and applying filters. See  for more information.
+Test Agent can now generate ATF tests that use List and Related List test steps, extending test coverage beyond form interactions to include list view operations such as validating visibility and applying filters. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-agent-landing-page.md) for more information.
 
 Consider the following while creating the tests:
 

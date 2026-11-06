@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Policy authoring and redlining, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Complete publishing checklist and request policy approval
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon..
+2.  In the Compliance Workspace, select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.icon.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -89,7 +89,7 @@ Refresh the browser after completing this step. Update the policy Knowledge base
 </td></tr></tbody>
 </table>    The **Complete publishing checklist** button is no longer available.
 
-6.  To view your attachments, select the attachment icon in the right panel.
+6.  To view your attachments, select the image attachment icon in the right panel.
 
 7.  Select the **Request approval** button to request approval for the policy.
 

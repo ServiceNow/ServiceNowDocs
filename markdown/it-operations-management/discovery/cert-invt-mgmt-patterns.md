@@ -62,7 +62,7 @@ Import SSL Certificate pattern
 
 </td><td>
 
-Allows you to discover certificates by importing certificates from files. [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
+Allows you to discover certificates by importing certificates from files. [Run Certificate Discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
 
 </td></tr><tr><td>
 

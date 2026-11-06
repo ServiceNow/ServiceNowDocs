@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-task-landing-sup.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring supplier support, Core Business Suite]
 ---

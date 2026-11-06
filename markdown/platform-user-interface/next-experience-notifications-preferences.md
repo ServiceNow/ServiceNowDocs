@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-notifications-preferences.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [next experience notification, notification preferences]
-breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience notification preferences
@@ -27,15 +27,15 @@ Role required: none
 
 3.  Configure your preferences for system notifications outside of the platform.
 
-<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d122021e103">
+<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d119483e103">
 
 Option
 
-</th><th align="left" id="d122021e106">
+</th><th align="left" id="d119483e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d122021e112">
+</th></tr></thead><tbody><tr><td id="d119483e112">
 
 **Allow Notifications**
 
@@ -43,7 +43,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d122021e121">
+</td></tr><tr><td id="d119483e121">
 
 **Advanced Preferences**
 
@@ -51,7 +51,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d122021e130">
+</td></tr><tr><td id="d119483e130">
 
 **System notifications**
 
@@ -59,7 +59,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d122021e142">
+</td></tr><tr><td id="d119483e142">
 
 **Custom notifications**
 
@@ -67,7 +67,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d122021e152">
+</td></tr><tr><td id="d119483e152">
 
 **Delivery Channels**
 

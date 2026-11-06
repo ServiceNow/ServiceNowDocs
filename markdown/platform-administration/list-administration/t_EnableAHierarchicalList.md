@@ -7,9 +7,9 @@ release: zurich
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Enable a hierarchical list

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/now-platform-encryption.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Encryption]
+breadcrumb: [Exploring Field Encryption, Field Encryption, Encryption]
 ---
 
 # Field Encryption Enterprise
@@ -74,7 +74,7 @@ Support for key managementFundamental to Field Encryption Enterprise is the Key 
 
 Support for customer supplied keysOne of the biggest benefits of Field Encryption Enterprise is that you can use your own keys for encryption. Administrators have the choice to use ServiceNow supplied keys or your own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform®.
 
- You can also manage the key life cycle and decide when to revoke, rotate, and inactivate the keys. After you enable customer-supplied keys and create a cryptographic module, you download a token and public ephemeral key. You use the token and public key to wrap your key and then upload to the instance. To use customer-supplied keys, see [Configure field encryption settings to select key type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-field-encryption-settings.md) and [Using customer supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/csk-landing.md).
+ You can also manage the key life cycle and decide when to revoke, rotate, and inactivate the keys. After you enable customer-supplied keys and create a cryptographic module, you download a token and public ephemeral key. You use the token and public key to wrap your key and then upload to the instance. To use customer-supplied keys, see [Configure field encryption settings to select key type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-field-encryption-settings.md) and [Using customer-supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/csk-landing.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ The following field types can be encrypted with Field Encryption Enterprise:
 
     Customers using Field Encryption have attachments encrypted by default in tables that have an active Encrypted Field Configuration \(EFC\) type of **Attachment**.
 
-    Because the EFC configuration defines this default encryption, admins don't need to manually declare that an attachment should be encrypted on upload for these tables.
+    The EFC configuration defines this default encryption. Admins aren't required to manually declare that an attachment should be encrypted on upload for these tables.
 
 -   **Administrators can disallow users from attaching unencrypted files**
 
@@ -159,7 +159,7 @@ The following field types can be encrypted with Field Encryption Enterprise:
 
 Field Encryption Enterprise enables the following APIs.
 
-**Note:** The API behavior described in the following table represents the default configuration for the latest base system package. If you are working with older package versions, you may experience different functionality.
+**Note:** The API behavior described in the following table represents the default configuration for the latest base system package. If you're working with older package versions, you may experience different functionality.
 
 <table id="table_jns_p3m_mhc"><thead><tr><th>
 
@@ -183,7 +183,7 @@ Return type
 
 </td><td>
 
-Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC and encrypts the attachment.
+Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC. The API then uses the CM to encrypt the attachment.
 
 **Note:** This API is only available in the Global scope.
 
@@ -315,5 +315,7 @@ gs.info(gr.getValue('short_description')); //displays the unencrypted value
 
 When the Field Encryption plugin is installed, `glide_encryption.set_value_support_cle.disabled` is set to false by default.
 
-**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption-landing.md)
+When you call `getValue()` on an encrypted text field, it returns the plaintext if you have access to the cryptographic module; otherwise, it returns either the ciphertext or `null`.
+
+**Parent Topic:**[Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/exploring-fe.md)
 

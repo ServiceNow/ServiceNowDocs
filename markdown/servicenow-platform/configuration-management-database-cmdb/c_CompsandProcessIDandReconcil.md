@@ -1,5 +1,5 @@
 ---
-title: Components and process
+title: Components and process of Identification and Reconciliation
 description: The CMDB Identification and Reconciliation functionality is supported by the Identification and Reconciliation engine \(IRE\), rules, and tasks. Identification rules, reconciliation rules, IRE data source rules, de-duplication tasks, and reclassification tasks determine how IRE identifies and reconciles CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_CompsandProcessIDandReconcil.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Components and process
+# Components and process of Identification and Reconciliation
 
 The CMDB Identification and Reconciliation functionality is supported by the Identification and Reconciliation engine \(IRE\), rules, and tasks. Identification rules, reconciliation rules, IRE data source rules, de-duplication tasks, and reclassification tasks determine how IRE identifies and reconciles CI.
 
@@ -54,7 +54,7 @@ Predefined identification are included for many of the tables in the base system
 
 ## Identification and Reconciliation Engine \(IRE\)
 
-[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md) is a rule-based engine, operating as an underlying key component in Identification and Reconciliation. IRE provides a centralized framework to perform identification and reconciliation processes across different data sources. IRE uses identification rules, reconciliation rules, and IRE data source rules when processing incoming data before inserting or updating data in the CMDB. IRE processes help maintain data integrity in the CMDB.
+[Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md) is a rule-based engine, operating as an underlying key component in Identification and Reconciliation. IRE provides a centralized framework to perform identification and reconciliation processes across different data sources. IRE uses identification rules, reconciliation rules, and IRE data source rules when processing incoming data before inserting or updating data in the CMDB. IRE processes help maintain data integrity in the CMDB.
 
 -   IRE prevents duplicate CIs by uniquely identifying CIs.​
 -   IRE reconciles CI attributes by allowing only authoritative data sources to write to CMDB.

@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard JFrog.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d402547e121">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d301090e121">
 
 Option
 
-</th><th align="left" id="d402547e124">
+</th><th align="left" id="d301090e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d402547e130">
+</th></tr></thead><tbody><tr><td id="d301090e130">
 
 **Homepage**
 
@@ -46,7 +46,7 @@ Steps
 2.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d402547e157">
+</td></tr><tr><td id="d301090e157">
 
 **Applications module**
 
@@ -58,7 +58,7 @@ Steps
 4.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d402547e206">
+</td></tr><tr><td id="d301090e206">
 
 **Tools module**
 

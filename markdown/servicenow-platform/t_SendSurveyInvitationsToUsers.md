@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/t\_SendSurveyInvitationsToUsers.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Survey distribution, Survey administration, Use, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send survey invitations to users
@@ -38,7 +38,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 3.  Complete one of the following actions.
 
-<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d632477e123">
+<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d639700e123">
 
 **Assign a survey to users listed in the Survey Users related list**
 
@@ -46,7 +46,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 Click **Send invitations**.
 
-</td></tr><tr><td id="d632477e135">
+</td></tr><tr><td id="d639700e135">
 
 **Assign a survey to any user**
 

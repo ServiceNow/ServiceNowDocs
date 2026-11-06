@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_DatabaseRotation.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data growth, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Applying database rotation techniques
@@ -16,9 +16,9 @@ Manage table size growth, archive data, and boost query performance by configuri
 
 Instance data grows quickly, and as these tables grow in size they require management. Database rotation preserves instance performance and averts risk associated with querying growing data sets utilizing three techniques. These techniques are based on the concept of managing large quantities of data by separating whole sets into individual tables. After this task is performed, each technique handles data in a different manner:
 
--   Table rotation works by rotating among a small set of tables, and deleting and reusing the old tables for new data.
--   Table extension works by periodically starting a new table and allowing old tables to be easily archived and removed from the system.
--   Table sharding works by enabling records to be grouped in a single table by document ID.
+-   Table Rotation works by rotating among a small set of tables, and deleting and reusing the old tables for new data.
+-   Table Extension works by periodically starting a new table and allowing old tables to be easily archived and removed from the system.
+-   Table Sharding works by enabling records to be grouped in a single table by document ID.
 
 <table id="table_n4k_qbq_z4"><thead><tr><th>
 
@@ -60,5 +60,5 @@ Optimize performance and manage data lifecycle by rotating tables, allowing olde
 -   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-extension.md)**  
 Partition and preserve data sets for extended periods without overwriting.
 
-**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_DataManagement.md)
 

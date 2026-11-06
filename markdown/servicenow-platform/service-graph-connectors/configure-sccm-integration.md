@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Microsoft SCCM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set up and validate data source connection credentials to import Microsoft SCCM 
 
 ## Before you begin
 
-**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
+**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
 Confirm that you are in the Service Graph Connector for Microsoft SCCM application scope by using the application picker.
 
@@ -27,7 +27,7 @@ Confirm that you are in the Service Graph Connector for Microsoft SCCM applicati
 Dependencies and requirements:
 
 -   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Integration - JDBC \(com.snc.integration.jdbc\)
 -   Windows MID Server required for access to the SCCM environment.
 

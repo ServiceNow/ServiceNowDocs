@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Problem Management, IT Service Management]
+breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---
 
 # Quick start tests for Problem Management

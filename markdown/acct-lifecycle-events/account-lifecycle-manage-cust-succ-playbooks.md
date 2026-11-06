@@ -1,25 +1,30 @@
 ---
 title: Manage customer success playbooks
-description: Create playbooks to define planned and unplanned activities during the engagement lifecycle.
+description: Use the customer success playbooks to manage planned and unplanned activities during an engagement. Configure the structure of these playbooks, including their stages and activities, use the Playbook builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Configure, Customer Success Management]
+breadcrumb: [Customer success, Use, Customer Success Management]
 ---
 
 # Manage customer success playbooks
 
-Create playbooks to define planned and unplanned activities during the engagement lifecycle.
+Use the customer success playbooks to manage planned and unplanned activities during an engagement. Configure the structure of these playbooks, including their stages and activities, use the Playbook builder.
 
--   **[Create an internal play playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md)**  
-Create an internal play playbook to define planned or unplanned activities that the customer does not have access to during the engagement lifecycle. This playbook is your starting point to define any internal processes required by your organization.
+-   **[Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md)**  
+Create an internal play to define planned or unplanned activities that the customer does not have access to during the engagement lifecycle.
 -   **[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)**  
-Create a customer play in collaboration with customers to define planned and unplanned activities that are required to support an engagement. The customer play playbook is your starting point to configure the success processes required in your organization.
--   **[Create a renewal playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-renewal-playbook.md)**  
+Create a customer play in collaboration with customers to define planned and unplanned activities required to support an engagement.
+-   **[Create a renewal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-renewal-playbook.md)**  
 Create a renewal playbook to define processes to simplify contract renewals and identify expansion opportunities.
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
+
+**Related topics**  
+
+
+[Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-process-automation-designer.md)
 

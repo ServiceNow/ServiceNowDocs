@@ -1,5 +1,5 @@
 ---
-title: Validate the auto-renew status of your certificate
+title: Validate auto-renew status of certificate
 description: Confirm that you set your certificate to renew automatically before it expires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/validate-cert-auto-renew-status.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Validate the auto-renew status of your certificate
+# Validate auto-renew status of certificate
 
 Confirm that you set your certificate to renew automatically before it expires.
 
@@ -21,7 +21,7 @@ Confirm that you set your certificate to renew automatically before it expires.
 Complete one of the following tasks before you validate your certificate:
 
 -   [Set certificates to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-certificate-to-renew-automatically.md)
--   [Request certificates and set them to auto-renew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-cert-set-to-auto-renew.md)
+-   [Request certificates with auto-renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-cert-set-to-auto-renew.md)
 
 Role required: pki\_admin or admin
 
@@ -29,11 +29,11 @@ Role required: pki\_admin or admin
 
 1.  Navigate to **All** &gt; **Unique Certificates**.
 
-2.  Select the certificate that you want to validate.
+2.  Select the Certificate that you want to validate.
 
 3.  Select the **Certificates metadata** tab.
 
-4.  Ensure that the **Auto renew enabled** field is set to **true**.
+4.  Check that the **Auto renew enabled** field is set to **true**.
 
     **Note:** The pki\_admin can select this field and edit it.
 

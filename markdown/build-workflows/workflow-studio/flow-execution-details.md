@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow execution details
@@ -48,7 +48,7 @@ Each reporting level generates progressively more flow execution details.
 
 -   **Full: Action configuration and runtime values \(for debugging only\)**
 
-    The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action. This reporting level is only valid on non-production instances
+    The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action.
 
     **Important:** Only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
 
@@ -145,7 +145,7 @@ The following types of execution details are available.
 
 -   **Integration Metadata**
 
-    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see Integration steps.
+    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-steps.md).
 
 -   **Configuration Details**
 
@@ -211,7 +211,7 @@ Workflow Studio displays large text-based configuration and runtime output recor
 
 Workflow Studio displays a selector control to view the configuration and runtime results for each item processed by flow logic. Select a record number to see its configuration and runtime details.
 
-\[Omitted image "flow-runtime-statistics.png"\] Alt text: Sample flow statistics
+\[Omitted image "flow-runtime-statistics.png"\] Alt text: Flow runtime statistics.
 
 ## Subflow execution details
 
@@ -282,6 +282,4 @@ fd\_read\_operations
 </table>## Run with roles support
 
 When a flow runs with one or more privileged roles, a user must also have these privileged roles to see the flow execution details. For example, if a flow runs as System, then a user must have the admin role to view its flow execution details. In addition, if a flow runs with a role that can access field encryption, then a user must also have that role in order to view its flow execution details. For more information about field encryption and roles, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/field-encryption.md).
-
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

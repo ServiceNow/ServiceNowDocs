@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-invoice-case-resolution-ep.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure the invoice dispute resolution extension point
@@ -74,7 +74,7 @@ The demo data for the Manage Invoice Operations application includes a sample im
     For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/dispute-invoice-issues-now-assist.md).
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

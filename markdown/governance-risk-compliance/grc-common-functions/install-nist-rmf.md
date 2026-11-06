@@ -7,9 +7,9 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [\(Deprecated\) NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Install the NIST RMF Use Case Accelerator
@@ -85,5 +85,5 @@ The System Admin \(admin\) assigns the following roles:
 5.  Click **Install**.
 
 
-**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

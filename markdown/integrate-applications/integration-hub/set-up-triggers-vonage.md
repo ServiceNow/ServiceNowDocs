@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Vonage Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -91,8 +91,6 @@ Role required: admin
 
 6.  To configure webhooks for call management, navigate to **BUILD** &gt; **Applications** &gt; **Create a new application**.
 
-    **Note:** If you have an existing application, you can configure a webhook for it by adding an Answer URL and Event URL.
-
     \[Omitted image "vonage-spoke-applications.png"\] Alt text: Creating an application in Vonage
 
 7.  While creating an application, toggle the Voice option under Capabilities.
@@ -100,7 +98,5 @@ Role required: admin
 8.  Copy the URL generated in your ServiceNow instance and paste it as the Answer URL and Event URL and click **Save**.
 
     \[Omitted image "vonage-spoke-capabilities.png"\] Alt text: Configuring voice capabilities in Vonage
-
-9.  Similarly, toggle the Messages option and copy the URL generated in your ServiceNow instance and paste it as the Answer URL and Event URL and click **Save**.\[Omitted image "vonage-spoke-message-cap.png"\] Alt text: Configuring message capabilities in Vonage
 
 

@@ -7,8 +7,8 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
@@ -88,13 +88,4 @@ Role required: awa\_admin and admin
 
     2.  Select **Set up Shift-based Assignment** to assign work items to agents based on shifts.
 
-
--   **[Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-activate.md)**  
-You can activate the Advanced Work Assignment plugin \(com.glide.awa\) if you have the admin role.
--   **[Activate related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md)**  
-After activating the Advanced Work Assignment plugin, activate related AWA plugins to enable other base system service channels and the Performance Analytics Solutions dashboard for AWA.
--   **[Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md)**  
-Move from ServiceNow® Connect Support to Agent Chat \(live chat\), which is the messaging system that agents use in Agent Workspace to interact with customers. Moving from Connect Support also involves using Advanced Work Assignment \(AWA\) to create the chat queues for routing chat work items to agents.
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

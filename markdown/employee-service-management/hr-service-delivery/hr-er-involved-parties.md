@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -101,7 +101,7 @@ The name of the involved party.Only appears when you check the **Not in system**
 </td></tr></tbody>
 </table>4.  Click **Submit** or **Save**.
 
-    -   If you select **Save**, the **Interviews** and **Corrective Actions** tabs appear. For more information, see .
+    -   If you select **Save**, the **Interviews** and **Corrective Actions** tabs appear. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-interview.md).
     -   Use the **Corrective Actions** tab to create and associate a corrective action record with an involved party.
     -   If an allegation record is created, the Subject of Allegation is auto-populated from the Involved Parties record of type **Subject of Allegation**, provided that only one subject of allegation exists.
 

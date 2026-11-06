@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/bulk-edit-risk-restrictions.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-04"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [bulk edit, risk modification, restrictions, Security Exposure Management]
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
@@ -24,6 +24,4 @@ Risk modification in the Bulk Edit dialog is restricted in specific scenarios ba
 ## Application support
 
 Bulk edit risk modification is supported in the host vulnerability and CVE-based vulnerable items applications. It is not supported in the Configuration Compliance application.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
 

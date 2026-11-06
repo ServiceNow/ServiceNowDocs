@@ -7,9 +7,9 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Get started with Advanced Work Assignment, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
+breadcrumb: [Get started, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
 # Move from Connect Support to Advanced Work Assignment and Agent Chat
@@ -51,7 +51,7 @@ If you are currently using Connect Support APIs, see [AWA Routing API](https://r
 
 5.  In [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-agent-chat.md), access the Chat Setup form to specify Agent Workspace as the fulfiller interface for live chat and enable other live chat features.
 
-6.  Activate the [chat client on your end user Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-bot-portal.md).
+6.  Activate the [chat client on your end user Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-bot-portal.md).
 
 
 Troubleshooting suggestions include these common problems and solutions:
@@ -74,6 +74,4 @@ Here are a few questions to ask and places to look if agents are not receiving c
 -   Does an awa\_work\_item record exist for the interaction? If it does not, is the **Assigned to** field for the interaction empty or is it set to Virtual Agent? If the **Assigned to** field is set to Virtual Agent, it is probably trying to use Connect Support.
 -   In the Chat setup, are the fulfillers set appropriately for each application?
 -   In the interaction\_json\_blob referenced by the **interaction.context\_document** field, is the *Liveagent\_application* variable set to the expected value?
-
-**Parent Topic:**[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/implement-awa.md)
 

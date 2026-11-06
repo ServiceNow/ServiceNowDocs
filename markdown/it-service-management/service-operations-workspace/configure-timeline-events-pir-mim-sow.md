@@ -1,26 +1,26 @@
 ---
 title: Configure the timeline events for a Post Incident Report
-description: Configure the incident information displayed as the event on the post incident report that is generated after a major incident is resolved. You can configure what information a Post Incident Report \(PIR\) must contain and how the information is arranged.
+description: Configure the incident information displayed as the event on the post incident report that is generated after a major incident is resolved. You can configure what information a post incident report must contain and how the information is arranged.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/configure-timeline-events-pir-mim-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure the timeline events for a Post Incident Report
 
-Configure the incident information displayed as the event on the post incident report that is generated after a major incident is resolved. You can configure what information a Post Incident Report \(PIR\) must contain and how the information is arranged.
+Configure the incident information displayed as the event on the post incident report that is generated after a major incident is resolved. You can configure what information a post incident report must contain and how the information is arranged.
 
 ## Before you begin
 
 The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
-Role required: sn\_mim\_sow\_admin or admin
+Role required: admin
 
 ## Procedure
 

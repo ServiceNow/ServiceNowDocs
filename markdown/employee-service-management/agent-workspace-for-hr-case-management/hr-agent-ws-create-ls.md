@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lifecycle event cases, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Lifecycle event cases in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a lifecycle event case using Agent Workspace for HR Case Management

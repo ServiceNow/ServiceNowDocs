@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-state-values.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-10"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
@@ -16,7 +16,9 @@ Use the State fields on the customer order management forms to determine the cur
 
 ## Customer Order form states
 
-Use the **State** field on the customer order form to determine the current processing state for the order, including all of its associated line items. You can also use it to perform certain types of order actions, such as canceling an order. To learn more, see [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-orders.md).
+Use the **State** field on the customer order form to determine the current processing state for the order, including all of its associated line items. You can also use it to perform certain types of order actions, such as canceling an order. To learn more, see [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-orders.md). The following flowchart illustrates how customer and service order state processing works.
+
+\[Omitted image "add-order-states.svg"\] Alt text: Infographic showing the customer order processing workflow. For the text description, refer to the Customer Order states section.
 
 <table id="table_xzp_3fn_v4b"><thead><tr><th>
 
@@ -96,7 +98,7 @@ Revision in progress
 
 </td><td>
 
-Customer order revision that is in process but has not been approved.As part of the Inflight Order Change functions, when you are currently in the process of updating the customer order, it moves to this state.
+Customer order revision that is in process but has not been approved.
 
 </td></tr><tr><td>
 
@@ -128,7 +130,7 @@ Assessing cancellation
 
 </td><td>
 
-As part of the Inflight Order Change functions, when a cancellation request is submitted for the customer order, it moves to this state. A cancellation request has been submitted for the customer order.
+A cancellation request has been submitted for the customer order.
 
 </td></tr><tr><td>
 
@@ -158,12 +160,7 @@ All associated customer order line items are complete.**Note:** After your agent
 -   The **State** field for each of the individual customer order line items is set to Completed.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled customer order states, see the following:
-
--   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/key-inflight-order-change-cancellation-request-fields.md)
-
-## Order line item form states
+</table>## Order line item form states
 
 Use the **State** field on the order line item form to determine the current processing state for an individual customer order line item. You can also use it to perform certain types of customer order actions, such as canceling a line item.
 
@@ -253,8 +250,8 @@ Revision in progress
 
 </td><td>
 
-Customer order line item revision that is in process but has not been approved. To learn more, see the following:-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/key-inflight-order-change-cancellation-request-fields.md)
+Customer order line item revision that is in process but has not been approved. To learn more, see the following:-   
+-   
 
 </td></tr><tr><td>
 
@@ -274,21 +271,12 @@ Customer order line item that is on hold. No further fulfillment processing can 
 
 </td></tr><tr><td>
 
-Assessing cancellation
-
-</td><td>
-
-As part of the Inflight Order Change functions, when a cancellation request is submitted for the customer order line item, it moves to this state. To learn more, see the following:-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/key-inflight-order-change-cancellation-request-fields.md)
-
-</td></tr><tr><td>
-
 Cancellation in progress
 
 </td><td>
 
-When the cancellation request is approved, the customer order line item moves to this state. To learn more, see the following:-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/key-inflight-order-change-cancellation-request-fields.md)
+When the cancellation request is approved, the customer order line item moves to this state. To learn more, see the following:-   
+-   
 
 </td></tr><tr><td>
 
@@ -310,12 +298,7 @@ Customer order line item and all associated domain orders and order tasks that a
 -   The **State** field for each of the individual customer order line items is set to Completed.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled customer order line item states, see the following:
-
--   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/key-inflight-order-change-cancellation-request-fields.md)
-
-## Product Order, Service Order, and Resource Order form states
+</table>## Product Order, Service Order, and Resource Order form states
 
 Use the **State** fields on the Product Order, Service Order, and Resource Order forms to determine the current processing state for a product order, service order, or resource order.
 

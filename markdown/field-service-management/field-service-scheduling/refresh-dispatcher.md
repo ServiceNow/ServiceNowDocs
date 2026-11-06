@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Refresh Dispatcher Workspace
@@ -22,18 +22,18 @@ Role required: wm\_dispatcher
 
 ## About this task
 
-Refreshing Dispatcher Workspace also resets the expanded groups or territories and loads only the number of resources configured.This is defined in the system property calendar\_resources\_page\_size.
+Refreshing Dispatcher Workspace also resets the expanded groups or territories and loads only the number of resources configured. The number of expanded groups or territories is defined in the system property `calendar_resources_page_size`.
 
-Reloading Dispatcher Workspace is important if you want to get latest data without having auto refresh enabled.
+Reloading Dispatcher Workspace is important if you want to get the latest data without having auto refresh enabled.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Select **Dispatcher Workspace**.
+2.  Select **Dispatcher workspace**.
 
-3.  Select the Refresh icon \(\[Omitted image "refresh-icon.png"\] Alt text: refresh\).
+3.  Select the Refresh icon \[Omitted image "refresh-icon.png"\] Alt text: Refresh icon.
 
-    Dispatcher Workspace reloads.
+    Dispatcher Workspace refreshes.
 
 

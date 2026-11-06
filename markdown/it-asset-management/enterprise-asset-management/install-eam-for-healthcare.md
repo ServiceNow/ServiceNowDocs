@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing Enterprise Asset Management for Healthcare, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Installing Enterprise Asset Management for Healthcare, Enterprise Asset Management for Healthcare, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install Enterprise Asset Management for Healthcare from the ServiceNow Store
@@ -18,7 +18,7 @@ You can install the Enterprise Asset Management for Healthcare application \(com
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

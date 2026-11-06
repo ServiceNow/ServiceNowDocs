@@ -7,7 +7,7 @@ release: zurich
 product: Safe Workplace
 classification: safe-workplace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Install Workplace Core, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -96,7 +96,7 @@ Workplace user\[sn\_wsd\_core.workplace\_user\]
 
 </td><td>
 
--   Requests area or workspace reservations from the Employee Center or the Now® Mobile app
+-   Requests area or workspace reservations from the Workplace Service Portal or the Now® Mobile app
 -   Schedules arrival to workplace locations using the Workplace Service Portal or the Now® Mobile app
 
  **Note:** From Workplace Core v1.3.2 onwards, this role is required for employees to request reservations from Workplace Service Portal.

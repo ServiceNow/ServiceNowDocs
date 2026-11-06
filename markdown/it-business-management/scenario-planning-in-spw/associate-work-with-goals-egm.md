@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ You can create goal or target relationships with a custom planning item from the
 
 1.  Open the Goal/Target Relationship form using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d152140e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d161250e80">
 
 Option
 
-</th><th align="left" id="d152140e83">
+</th><th align="left" id="d161250e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d152140e89">
+</th></tr></thead><tbody><tr><td id="d161250e89">
 
 **From the Align work window**
 
@@ -65,7 +65,7 @@ You can search for the required planning items by applying filter on the Name co
 
 For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
-</td></tr><tr><td id="d152140e184">
+</td></tr><tr><td id="d161250e180">
 
 **From the Planning items or Other items tab**
 

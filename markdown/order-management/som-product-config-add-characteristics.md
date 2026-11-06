@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-product-config-add-characteristics.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Defining characteristics and options, Create product offerings, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Defining product characteristics and characteristic options, Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create product characteristics and characteristic options
@@ -16,11 +16,11 @@ Add product characteristics and characteristic options that you can later add to
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
-Use this procedure to build product characteristics \(also called attributes\) and characteristic options, which you add to product offerings and specifications. For example, if the product offering is a bike, characteristics might include bike size and color. The characteristic options are the option choices, such as the various bike sizes and colors available. These options appear in the product configurator when your agents add configurable products to opportunities, quotes, and orders or when customers submit product orders using the Business Portal.
+Use this procedure to build product characteristics \(also called attributes\) and characteristic options, which you add to product offerings and specifications. For example, if the product offering is a bike, characteristics might include bike size and color. The characteristic options are the option choices, such as the various bike sizes and colors available. These options appear in the configurator when your agents add configurable products to opportunities, quotes, and orders or when customers submit orders using the Business Portal.
 
 When you define a characteristic, you select the data input type, which indicates how the characteristic option is entered in the product configurator, such as Single Line Text, Choice \(radio buttons or drop-down list\), and Yes/No selections. Complex data input types are also available to define complex characteristics that have hierarchical attribute structures. You use the object data type to define complex characteristics, which have a top-level parent attribute and associated child characteristics. These structures can also include data arrays, another complex data type that you can use to specify multiple instances of the same data input type, such as multiple lines of text or integers.
 
@@ -144,4 +144,11 @@ Continue working on other areas related to the product offering or specification
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-relationship-groups.md)
 -   If you're creating technical products such as telecommunications products, you can create the product, service, and resource specification categories and associate them to model categories.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

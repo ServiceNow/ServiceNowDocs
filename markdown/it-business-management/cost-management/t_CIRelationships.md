@@ -7,7 +7,7 @@ release: zurich
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ Use the demo data of the Cost Management plugin to understand how to check all e
     4.  Filter the related list for **short description contains dbaix901nyc**.
     The server's expenses are now visible:
 
-    \[Omitted image "CostDemoServerexp.jpg"\] Alt text: Cost Demo Server Expense
+    \[Omitted image "CostDemoServerexp.png"\] Alt text: Cost Demo Server Expense
 
     This example contains one direct expense \(**inherited = false**\), and three inherited expenses that have been generated from other direct expenses. These inherited expenses are based on CI relationships, which allow for reporting at any business service level.
 

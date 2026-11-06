@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/install-proactive-code-check.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Proactive Code Check, Platform Health, Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
 # Use Proactive Code Check for the Impact Store Application
@@ -48,4 +48,6 @@ Role required: admin
 
     New findings are referenced to the specific Update Set from which they originated, including findings related to child update sets, allowing for easy navigation between findings and the update set in the user interface.
 
+
+**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/proactive-code-check.md)
 

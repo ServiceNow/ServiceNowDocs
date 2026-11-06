@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure skills, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Skill inputs and triggers for ServiceNow Otto for HRSD
@@ -223,90 +223,5 @@ Input fields
 -   Work notes
 
 </td></tr></tbody>
-</table>## ER case summarization skill
-
-The ER case summarization skill includes the inputs that identify the table and fields that are used to generate case summary.
-
-**Note:** These fields are read-only.
-
-The following table lists the inputs for the ER case summarization skill.
-
-<table id="table_fsq_s4h_mhc"><thead><tr><th>
-
-Input
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Input table
-
-</td><td>
-
-Employee Relations Case
-
-</td></tr><tr><td>
-
-Input fields
-
-</td><td>
-
--   Description
--   Priority
--   Short Description
--   State
--   Additional comments
--   Work notes
--   Number
--   HR service
-
-</td></tr></tbody>
-</table>## ER interview summarization skill
-
-The ER interview summarization skill includes the inputs that identify the table and fields that are used to generate interview summary.
-
-**Note:** These fields are read-only.
-
-The following table lists the inputs for the ER interview summarization skill.
-
-<table id="table_qw1_53t_g3c"><thead><tr><th>
-
-Input
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Input table
-
-</td><td>
-
-Interview
-
-</td></tr><tr><td>
-
-Input fields
-
-</td><td>
-
--   Start date
--   End date
--   Interviewee
--   Interviewee - &gt;Type
--   Interviewers
--   External attendees
--   External URL
--   Additional parties
--   Created by
--   Interview notes
--   HR case -&gt; Number
--   HR case - &gt;Short description
--   HR case -&gt; Description
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)
 

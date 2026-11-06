@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Collaboration services, IT Service Management]
+breadcrumb: [Collaboration services, IT Service Management]
 ---
 
 # Import messages from an incident
@@ -100,6 +100,4 @@ Option to include attachments while importing messages.
 </td></tr></tbody>
 </table>6.  Click **Import messages**.
 
-
-**Parent Topic:**[Using Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/using-collab-services.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [\(Deprecated\) NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Verify the NIST RMF Use Case Accelerator
@@ -60,5 +60,5 @@ Role required: admin
     |**Risk** &gt; **Remediation Tasks** &gt; **All Open Remediation Tasks**|Perform a search for all Remediation tasks where an issue identified on the remediation task has **Item.Content.Source = NIST 800-53-r4**.|
 
 
-**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

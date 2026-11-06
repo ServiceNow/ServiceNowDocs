@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Content Service, ITOM Visibility, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ Role required: discovery\_admin
 
 3.  Manually sync with suggestions from your system by selecting **Sync candidates**.
 
-    **Note:** If a message appears about the application scope, select **OK** to exit the message. Then, change the scope by selecting the application scope icon and selecting **Global**.
+    **Note:** If a message appears about the application scope, select **OK** to exit the message. Then, change the scope by selecting the application scope icon \(\[Omitted image "application-scope-icon.png"\] Alt text: Application scope icon\) and selecting **Global**.
 
 4.  In the Sync candidates confirmation window, select **Yes**.
 

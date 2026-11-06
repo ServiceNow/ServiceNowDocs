@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, Customer Success Management]
 ---
 
@@ -16,13 +16,14 @@ This section includes the Customer Success Management tables.
 
 |Table|Description|
 |-----|-----------|
-|Engagement|Delivering value to an enterprise customer \[account\] is not a one-time event, it is a journey with multiple activities, both internal and external during its lifecycle.|
+|Engagement|As a provider, delivering value to an enterprise customer \[account\] is not a one-time event. It is a journey with multiple activities, both internal and external, during its lifecycle.|
 |Success objective|Success objectives represents the value that the provider has sold to an enterprise customer. This value can be defined for one or more products.|
-|Success outcome|Success outcomes are measurable components of success objectives. They can be monitored through analytics within the ServiceNow AI Platform or through a 3rd Party integration tools.|
+|Success outcome|Success outcomes are measurable components of success objectives. They can be monitored through analytics within the ServiceNow AI Platform or through a third-party integration tool.|
 |Success initiative|Success initiatives are a planned set of actions \(workflows\) that the provider and enterprise customer agree to take and complete on the customer's value realization journey.|
 |Customer play|Customer plays are an unplanned set of actions a provider takes to support a customer engagement activity.|
 |Success task|Success tasks are planned or unplanned actions that either the provider or enterprise customer must complete in support of a success initiative \(planned\) or a customer play \(unplanned\).|
 |Touchpoint|A touchpoint captures and supports conversations such as scheduling calls, sharing reports, and presentation material.|
+|Touchpoint Applicable Records|Used to link the multiple records to a single touchpoint.|
 |Internal play|Internal plays are planned or unplanned actions tied to the engagement lifecycle. Internal plays often require internal sub-tasks and follow a playbook with pre-defined activities.|
 |Internal play task|Internal play tasks are actions that are created as result of a specific internal plays being created. These tasks must have a clear purpose and if possible, must be created through playbook automation \[automatic, optional, or conditional\].|
 |Risk signal and issue|Risk signals and issues are a way of recording and managing risks tied to an engagement or onboarding so that the provider can take appropriate actions.|
@@ -42,6 +43,13 @@ This section includes the Customer Success Management tables.
 |Applicable entitlements|Associates applicable entitlements with an engagement.|
 |Applicable team members|Associates team members with an engagement.|
 |Applicable customer team|Associate a customer team with an engagement.|
+|Meeting applicable records|Associates records with a touchpoint meeting. Each entry links a meeting to a related record, such as a success play created from a meeting recommendation. The association type indicates the relationship: Trigger, Action Item, or Referenced. The AI Recommended field indicates whether the associated record was suggested by ServiceNow Otto.|
+|Engagement onboarding links|Associates an engagement with one or more onboarding cases. Each entry links one engagement to one onboarding case on the same account.|
+
+-   **[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)**  
+The supported use case table \(`sn_prod_cap_core_sup_use_case`\) is the default implementation of the use case catalog. It extends the base use case table and adds classifies the industry verticals and business model segments relevant to the use case.
+-   **[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)**  
+The Customer Discovery Hub includes four tables that capture customer business context: customer business need, customer business challenge, customer business expectation, and customer use case.
 
 **Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-reference.md)
 

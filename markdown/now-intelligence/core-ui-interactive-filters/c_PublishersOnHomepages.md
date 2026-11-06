@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ Add an interactive filter to a dashboard to filter reports on that dashboard.
 -   **[Make a breakdown act as an interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/make-breakdown-interactive-filter.md)**  
 You can configure a Performance Analytics breakdown on a dashboard to act as an interactive filter for reports on the dashboard. The dashboard must be configured as a breakdown dashboard.
 -   **[Make a report follow interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/t_MakeAReportASubscriber.md)**  
-When you add interactive filters to a dashboard, you can configure the reports on the dashboard to accept input from interactive filters. For example, you add a filter on the Incident table's Active field. Reports on the Incident table can reflect the user's choice from that filter.
+When you add interactive filters to a Core dashboard, you can configure the reports on the dashboard to accept input from interactive filters. For example, you add a filter on the Incident table's Active field. Reports on the Incident table can reflect the user's choice from that filter.
 -   **[Make a report act as an interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/t_MakeAReportAPublisher.md)**  
 You can configure an existing report widget to filter other report widgets on the same dashboard.
 -   **[Reset all interactive filters on a dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/reset-all-filters.md)**  

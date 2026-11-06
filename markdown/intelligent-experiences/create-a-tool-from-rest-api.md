@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-28"
 reading_time_minutes: 2
-breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a tool from a REST API

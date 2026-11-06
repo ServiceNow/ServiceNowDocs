@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/button-emphasis-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Button emphasis, Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ Button emphasis configuration is performed in web-based UI. For more information
 
 4.  Select a button emphasis for the chosen function location type.
 
-<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d106669e119">
+<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d111800e119">
 
 Function location
 
-</th><th align="left" id="d106669e122">
+</th><th align="left" id="d111800e122">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d106669e128">
+</th></tr></thead><tbody><tr><td id="d111800e128">
 
 **Swipe action**
 
@@ -57,7 +57,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d106669e178">
+</td></tr><tr><td id="d111800e178">
 
 **Top menu action or Quick action function**
 
@@ -72,7 +72,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d106669e227">
+</td></tr><tr><td id="d111800e227">
 
 **Footer function or Media section**
 

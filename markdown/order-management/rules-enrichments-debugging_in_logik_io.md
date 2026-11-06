@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/rules-enrichments-debugging\_in\_logik\_io.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Debugging in ServiceNow CPQ
@@ -16,7 +16,7 @@ How to use the debugger to perfect your scripts before deployment.
 
 When you need to fix a script in ServiceNow CPQ, the debugging tool in Advanced Functions and Enrichment Scripts can help. This guide shows you how to write debug JSONs to isolate and test your scripts before deployment. By following these best practices for debugging faulty scripts, you can help ensure your blueprints run flawlessly.
 
-## Best practices for debugging
+## General guidelines for debugging
 
 Using `console.log()`: When coding a complex behavior, you may have to check whether certain values are set or manipulated the correct way. Instead of seeing only what is returned by the rule, use the `console.log([variableName])` function in a script to show the value of the variable at that line when run in the debugger.
 
@@ -359,9 +359,9 @@ picklist extension Request: Inputs are entered as an array of objects in JSON fo
 
 ## If the debuggerʼs behavior is different from runtime behavior
 
-In almost every case, the debugging JSON needs to match exactly what would normally be entered during runtime as valid values for the fields. Make sure that you are using the correct data type or structures described above.
+In most cases, the debugging JSON needs to exactly match what would normally be entered during runtime as valid values for the fields. Make sure that you're using the correct data type or structures described above.
 
-In other cases, similar rules may be acting on the same field. In this case, the debugger will not be helpful, as it can only show the behavior of one rule at a time. It might be necessary to inactivate entire rules and redeploy in order to rule out the undesired behavior.
+In other cases, similar rules may be acting on the same field. In this situation, the debugger will not be helpful, as it can only show the behavior of one rule at a time. To isolate the problem, it might be necessary to inactivate individual rules and redeploy.
 
-If all else fails, please open a case with our support team, or email us at support@logik.io.
+If neither method is successful, open a case with our support team by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 

@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Use, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Extract and analyze data using ServiceNow AI Lens from Virtual Agent
@@ -20,7 +20,7 @@ Extract and analyze data from an image using ServiceNow AI Lens from a Virtual A
 
 To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow AI Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 -   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
 -   Enable ServiceNow AI Lens topic for ServiceNow Otto for Virtual Agent. For more information, see [Enabling ServiceNow AI Lens in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md).
 

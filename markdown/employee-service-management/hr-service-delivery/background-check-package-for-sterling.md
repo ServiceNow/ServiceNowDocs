@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sterling Talent Solutions service, HR Integrations, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with the Sterling Talent Solutions service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Add background check packages for the Sterling service
@@ -52,7 +52,7 @@ Role required: sn\_hr\_integrations.admin
 
 **Previous topic:**[Verify integration for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.md)
 
-**Next topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
+**Next topic:**[Integrating with the CIC Plus service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-cic-plus-service.md)
 
 **Related topics**  
 

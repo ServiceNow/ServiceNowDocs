@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-install-config-checklist.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [installing Now Assist, AI features, AI products, updating Now Assist, solutions, Now Assist, GenAI, generative AI, configure Now Assist]
-breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
+breadcrumb: [Enable AI Experiences]
 ---
 
 # Solving installation and configuration issues with ServiceNow AI features
@@ -87,7 +87,7 @@ ServiceNow Otto for AI Search Genius results don't appear
 
 1.  Verify that AI Search and ServiceNow Otto for AI Search are installed and configured.
 2.  To use Q&amp;A Genius Results in AI Search applications, link the Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/link-gr-search-profile-ais.md).
-3.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallUpdates.md).
+3.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
 4.  Try repairing the plugins.
 
 </td></tr><tr><td>
@@ -100,7 +100,7 @@ Errors after clone
 
 </td><td>
 
-Try repairing affected plugins. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-app.md).
+Try repairing affected plugins. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -124,12 +124,12 @@ Features/skills are missing or generally not working
 
 </td><td>
 
--   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallUpdates.md).
+-   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
 -   Verify that version and dependency requirements are met. For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/versions-dependencies.md).
 -   For skills, verify that they are active in the AI Admin Hub. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
--   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-app.md).
+-   Try repairing Generative AI Controller. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Can't edit a skill
 
 Verify that you have the AI Admin Hub role: sn\_nowassist\_admin.nsa\_admin.
 
- You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+ You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -155,9 +155,9 @@ Missing entries, fields, and errors
 
 </td><td>
 
--   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallUpdates.md).
--   Try repairing the application. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-app.md).
--   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-app.md).
+-   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
+-   Try repairing the application. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-application-app-mgr.md).
+-   Try repairing Generative AI Controller. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ AI Skill Kit is not visible on my instance
 
 </td><td>
 
--   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   Verify that the sn\_skill\_builder.admin role is assigned to the user.
 
 </td></tr><tr><td>
@@ -221,7 +221,7 @@ I can't generate a knowledge article
 </td><td>
 
 1.  Verify that ServiceNow Otto for Knowledge Management is installed and configured.
-2.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallUpdates.md).
+2.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
 3.  Verify that the knowledge generation skill is activated. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-a-now-assist-skill.md).
 4.  Try repairing the plugins.
 
@@ -263,6 +263,21 @@ Skills not available or not working
 
 -   Verify that the skill is active in AI Admin Hub.
 -   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
+Panel is activated but stays in a loading or frozen state
+
+</td><td>
+
+-   Verify all ServiceNow Otto plugins are up to date.
+-   Repair Generative AI Controller.
+-   Clear browser cookies and cache.
+-   Verify Next Experience is enabled.
 
 </td></tr><tr><td>
 
@@ -351,7 +366,7 @@ Configuration issues
 
 </td><td>
 
-1.  Verify that the plugin is up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallUpdates.md).
+1.  Verify that the plugin is up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
 2.  Follow the guided setup to install and configure it. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
@@ -376,7 +391,7 @@ Chat is not showing search results
 
 </td><td>
 
--   Verify that all of your AI or ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallUpdates.md).
+-   Verify that all of your AI or ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
 -   Verify that AI Search and ServiceNow Otto for AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-ais.md) and [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/install-now-assist-ais.md).
 -   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the ServiceNow Otto panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-info-sources-assistant.md).
 

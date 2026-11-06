@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Manually create and review your network asset instances, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the network site details
@@ -22,9 +22,9 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-Your network sites are those physical locations where you keep your network equipment. Network site records enable you to view all your equipment at a specific location. You can filter the locations by their assigned type, role, and function categories. To learn more, see [Viewing your network inventory configuration items with CMDB Workspace or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md).
+Your network sites are those physical locations where you keep your network equipment. Network site records enable you to view all your equipment at a specific location. You can filter the locations by their assigned type, role, and function categories. To learn more, see [Viewing your network inventory configuration items with CMDB or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md).
 
-When you create a network site record, it creates a corresponding configuration item \(CI\) record in the Network Site \[cmdb\_ci\_ni\_site\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you create a network site record, it creates a corresponding configuration item \(CI\) record in the Network Site \[cmdb\_ci\_ni\_site\] table. To learn more, see [or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 The Telecommunications Network Inventory application stores the physical network connections, the logical network connections, and the resources that contain the overall network and the services provisioned on the network. The TNI data model adheres to a hierarchical structure. The foundation is the Network Site \(referred to here as a network site\).
 
@@ -135,7 +135,7 @@ Altitude of the network site that is measured in meters.
 
 10. Click **Save**.
 
-    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 11. View the visual representation of the selected record by selecting **Open Map**.
 
@@ -158,11 +158,11 @@ Altitude of the network site that is measured in meters.
 
 ## What to do next
 
--   If you want to establish relationships with the other network assets, enter the details in the related tabs. To learn more, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+-   If you want to establish relationships with the other network assets, enter the details in the related tabs. To learn more, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 -   To delete an inventory record, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
 
-**Parent Topic:**[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 
 **Related topics**  
 

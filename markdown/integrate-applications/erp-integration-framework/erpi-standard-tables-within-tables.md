@@ -1,22 +1,23 @@
 ---
-title: Standard Zero Copy Connector for ERP fields within remote tables
-description: The standard ERP \(Enterprise Resource Planning\) remote tables available for use in Zero Copy Connector for ERP contain fields from additional SAP tables.
+title: Standard Zero Copy Connector for ERP fields in remote tables
+description: The standard ERP \(Enterprise Resource Planning\) remote tables available in Zero Copy Connector for ERP contain fields from additional SAP tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erpi-standard-tables-within-tables.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-10-22"
 reading_time_minutes: 5
-breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table, standard]
+breadcrumb: [Standard remote and extraction tables, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Standard Zero Copy Connector for ERP fields within remote tables
+# Standard Zero Copy Connector for ERP fields in remote tables
 
-The standard ERP \(Enterprise Resource Planning\) remote tables available for use in Zero Copy Connector for ERP contain fields from additional SAP tables.
+The standard ERP \(Enterprise Resource Planning\) remote tables available in Zero Copy Connector for ERP contain fields from additional SAP tables.
 
-The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpi-standard-remote-tables.md).
+For details about the standard tables, see [Standard remote tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpi-standard-remote-tables.md). The standard remote tables contain the following additional fields:
 
 |Remote table|Source table|ERP field name|Mapped field name|
 |------------|------------|--------------|-----------------|
@@ -177,6 +178,4 @@ The standard remote tables contain the following additional fields. For details 
 |SAP Transport|E071|OBJECT|object\_type|
 |SAP Transport|E071|OBJ\_NAME|object\_name|
 |SAP Transport|E071|PGMID|program\_id|
-
-**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

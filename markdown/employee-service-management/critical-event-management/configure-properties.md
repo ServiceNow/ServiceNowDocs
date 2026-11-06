@@ -7,7 +7,7 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -34,18 +34,16 @@ Role required: admin
 
     The value can be customized as needed. The maximum contacts the SMS can be sent to is 10,000.
 
-5.  Use the **Flag to disable the playbook for Critical Event** option to enable or disable the **Playbook** related item on the critical event record page.
-
-6.  In the Google Map Component Properties section, select the **Enable Geo Map feature** check box.
+5.  In the Google Map Component Properties section, select the **Enable Geo Map feature** check box.
 
     **Note:** This configuration is available only when the Geo map application is installed.
 
-7.  Add either a client id or an API key:
+6.  Add either a client id or an API key:
 
     -   To add a client id, obtain a client id from Google and enter it in the **Client ID from google to access Geo map** field.
     -   To add an API key, obtain an API key from Google and enter it in the **Api key from Google to access Geo map** field.
     For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/set-up-google-maps-api.md).
 
-8.  Select **Save**.
+7.  Select **Save**.
 
 

@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configure an appointment booking record producer
@@ -20,7 +20,7 @@ Configure an appointment booking record producer and enable the appointment book
 
 Enable the appointment booking variable set to display the appointment selection widget on the record producer.
 
-Role required: appointment\_booking\_admin, admin
+Role required: catalog\_admin
 
 ## About this task
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-detail-form-fields.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-System-generated unique identifier for the quote.
+System‑generated unique identifier for the quote.
 
 </td></tr><tr><td>
 
@@ -88,6 +88,22 @@ The customer account for which the quote is created.
 
 </td></tr><tr><td>
 
+Buyer organization
+
+</td><td>
+
+Identifies the service organization for which the quote is created. When selected, the Account and Consumer fields are hidden.
+
+</td></tr><tr><td>
+
+Buyer organization member
+
+</td><td>
+
+Identifies the member of the buyer organization who is receiving the quoted items.
+
+</td></tr><tr><td>
+
 Enable sales agreement quote
 
 </td><td>
@@ -108,7 +124,7 @@ Sales agreement
 
 </td><td>
 
-A sales agreement that defines the scope, pricing, and conditions under which the quote is created.
+A sales agreement that defines the scope, pricing, and conditions under which the quote is created. When a buyer organization is selected, sales agreements are filtered to show sales agreements for that buyer organization.
 
 </td></tr><tr><td>
 
@@ -196,7 +212,7 @@ Indicates the quote is generated after consolidating multiple contracts, contrac
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Currency|The currency for the price matches the currency stated in the account information.|
+|Currency|The currency for the price matches the currency stated in the account information. When a buyer organization is selected, the currency reflects the currency of the buyer organization's country.|
 |Renewal adjustment basis|Specifies the price reference used to calculate renewal pricing adjustments, such as contracted price or price list.|
 |Price list|The Standard Price List field is the default price list for the product catalogs referenced in the quote.|
 |Renewal adjustment type|Specifies the method used to adjust the renewal price, such as applying a markup percentage to the selected renewal adjustment basis. The adjustment type is applied after the renewal adjustment basis is determined.|
@@ -225,7 +241,7 @@ Total cost
 
 </td><td>
 
-Roll-up of the cumulative net cost of all root parent quote lines. This includes one-time costs and recurring costs calculated over the quote term.
+Roll‑up of the cumulative net cost of all root parent quote lines. This includes one‑time costs and recurring costs calculated over the quote term.
 
 </td></tr><tr><td>
 
@@ -233,7 +249,7 @@ Total amount
 
 </td><td>
 
-Roll-up of the cumulative net price of all root parent quote lines. This represents the total quoted amount, including recurring and one-time charges.
+Roll‑up of the cumulative net price of all root parent quote lines. This represents the total quoted amount, including recurring and one‑time charges.
 
 </td></tr><tr><td>
 
@@ -281,8 +297,8 @@ Sum of the cumulative net price for all root quote lines with Line Type = Net Ne
 
 |Field|Description|
 |-----|-----------|
-|Work notes|Internal notes used to record behind-the-scenes information related to the quote, such as negotiation details, pricing decisions, or internal follow-ups. Work notes are intended for internal users only and are included in the quote activity history.|
-|Additional comments|Free-form comments used to capture customer-facing or general information related to the quote. Additional comments can be used to communicate updates or clarifications and are visible to a broader audience, depending on access permissions.|
+|Work notes|Internal notes used to record behind‑the‑scenes information related to the quote, such as negotiation details, pricing decisions, or internal follow‑ups. Work notes are intended for internal users only and are included in the quote activity history.|
+|Additional comments|Free‑form comments used to capture customer‑facing or general information related to the quote. Additional comments can be used to communicate updates or clarifications and are visible to a broader audience, depending on access permissions.|
 
 **Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)
 

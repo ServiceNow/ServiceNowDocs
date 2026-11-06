@@ -7,9 +7,9 @@ release: zurich
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a workspace in Workspace Builder
@@ -63,7 +63,7 @@ You can customize essential elements and components in Workspace Builder. For mo
 
     For more information, see [Create lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/add-workspace-list.md).
 
-5.  Enable an Analytics Center for the workspace.
+5.  Enable an Analytics Overview for the workspace.
 
     For more information, see [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-analytics-workspace.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -43,7 +43,7 @@ Enables fulfillers to determine the category, subcategory, and configuration ite
 
 1.  Categorize ITSM incident AI agent
 2.  Classify service and CI AI agent
-3.  Link major incident and link problem AI agent
+3.  Link major incident or problem AI agent
 
 </td></tr><tr><td>
 

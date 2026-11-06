@@ -1,20 +1,20 @@
 ---
-title: Create New Impact analysis form
-description: Use the Create New Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
+title: Create Impact analysis form
+description: Use the Create Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Create a business impact analysis, Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Impact analysis form
+# Create Impact analysis form
 
-Use the Create New Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
+Use the Create Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
 
-## Create New Impact analysis form
+## Create Impact analysis form
 
 For description of the field values, see the table.
 
@@ -108,6 +108,14 @@ Person who owns and is responsible for completing the business impact analysis. 
 
 </td></tr><tr><td>
 
+BIA owner group
+
+</td><td>
+
+Group that owns the business impact analysis. All members of the selected group can edit the BIA. The list is filtered to groups that hold the sn\_bia.bia\_planner or sn\_bia.bia\_manager role. Either the owner or the owner group is required.
+
+</td></tr><tr><td>
+
 Expires
 
 </td><td>
@@ -188,7 +196,7 @@ Availability
 
 </td><td>
 
-Integrity information for the analysis.
+Availability information for the analysis.
 
 </td></tr><tr><td>
 
@@ -196,7 +204,7 @@ Integrity
 
 </td><td>
 
-Confidentiality information for the analysis. You can also have one questionnaire for calculating confidentiality, availability, and integrity of the data and assets in the assessment.
+Integrity information for the analysis. You can also have one questionnaire for calculating confidentiality, availability, and integrity of the data and assets in the assessment.
 
 </td></tr><tr><td>
 

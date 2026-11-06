@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Cloning tool in Upgrade Console
@@ -23,7 +23,7 @@ You can achieve the following using the System Clone tool:
 -   Clone a ServiceNow instance from a backup.
 -   Clone a ServiceNow instance over a production instance.
 
-See [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/Clone-UI.md) for more information.
+See [Exploring Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/exploring-instance-clone.md) for more information.
 
 **Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-tools.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/working-policies-scan-engine.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
-breadcrumb: [Platform Health, Using Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Create policies for Scan Engine
@@ -20,59 +20,65 @@ Role required: admin
 
 You can choose to create policies that label these definition findings as:
 
--   **Acceptable as is**: Findings remain in the **Open Findings** table but are excluded from dashboard metrics, health score calculations, and prioritization views. They are not automatically closed.
--   **Prioritize**: Findings will appear in the **Prioritized findings** module on analytics dashboards.
-
-**Note:** Policies match findings based on the **Definition** field. When creating a policy from a finding, the policy automatically references that definition and will apply to all future findings from the same definition.
+-   **Acceptable as is**: Findings remain in the **Open Findings** table but are excluded from dashboard metrics, health score calculations, and prioritization views. They aren't automatically closed.
+-   **Prioritize**: Findings appear in the **Prioritized findings** module on analytics dashboards.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Open Findings**.
 
-2.  To open the record of a finding that you want to assign a policy to, select its short description.
+2.  Select the short description for a finding to open the record to assign a policy.
 
 3.  In the **Related Links** section, select **Create a policy for this finding**.
 
 4.  Set the following fields to configure the policy.
 
-<table id="choicetable_npc_csk_hhc"><tbody><tr><td id="d45172e121">
+<table id="table_ot3_tqp_zjc"><thead><tr><th>
 
-**Number**
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number
 
 </td><td>
 
 Auto-generated ID for the policy.
 
-</td></tr><tr><td id="d45172e130">
+</td></tr><tr><td>
 
-**Active**
-
-</td><td>
-
-Enable the policy to display in the **Finding Policies** page \(**ALL &gt; Impact &gt; Platform Health &gt; Finding Policies**\).
-
-</td></tr><tr><td id="d45172e148">
-
-**Status**
+Active
 
 </td><td>
 
-Select one of the following: -   None
--   Acceptable as is
--   Prioritize
-**Note:** **None** means the policy is defined but not currently affecting findings. Use **Acceptable as is** to exclude findings from metrics, or **Prioritize** to highlight them in dashboards. Inactive policies do not process at all.
+Enable the policy to display in the **Finding Policies** page \(**All** &gt; **Impact** &gt; **Platform Health** &gt; **Finding Policies**\).
 
-</td></tr><tr><td id="d45172e178">
+</td></tr><tr><td>
 
-**Order**
+Status
 
 </td><td>
 
-Policies are evaluated in order \(lowest to highest\). The first policy that matches a finding is applied; subsequent policies are not evaluated for that finding. Lower order values have higher priority.
+Select one of the following: -   None: The policy is defined but not currently affecting findings
+-   Acceptable as is: Exclude findings from metrics
+-   Prioritize: Highlight the finding in dashboards
 
-</td></tr><tr><td id="d45172e187">
 
-**Reason for policy**
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Policies are evaluated in order lowest to highest. The first policy that matches a finding is applied; subsequent policies aren't evaluated for that finding. Lower order values have higher priority.
+
+</td></tr><tr><td>
+
+Reason for policy
 
 </td><td>
 
@@ -81,6 +87,8 @@ Description of why the policy was created.
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-    When a policy is active, findings matching its criteria display its name in their **Policy** field. View all findings affected by a policy through the policy record's **Findings** related list, or navigate to **ALL &gt; Impact &gt; Platform Health &gt; Finding Policies** to manage all policies.
+    When a policy is active, findings matching its criteria display its name in their **Policy** field. View all findings affected by a policy through the policy record's **Findings** related list, or navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Finding Policies** to manage all policies.
 
+
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/view-modify-scan-engine-properties.md)
 

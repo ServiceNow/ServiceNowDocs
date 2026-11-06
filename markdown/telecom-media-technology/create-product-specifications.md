@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/create-product-specifications.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-02"
-reading_time_minutes: 6
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish product specifications
@@ -28,8 +28,6 @@ A product specification defines a product that you sell to your customers. It ca
 -   All the specification characteristic options that are available for a product, and how they should be fulfilled.
 -   Various categories of information, such as the brand, cost, terms and conditions, and product-related materials, which include product visuals. Product specifications are customer-facing and are added to product offerings.
 -   Its relationship to other product, service, and resource specifications, and how a customer order of a product offering is delivered.
-
-For example, suppose you define a product specification for an SD-WAN service package and you designate it as a composite product specification for a complex enterprise product specification. A composite product is typically composed of a parent or umbrella specification, and multiple child specifications, each with their own characteristics. When bundled together, they form a single complex product. The SD-WAN service package consists of three bundled product specifications, two of which are designated as mandatory items that the user must select. The third specification is for an optional security package. The SD-WAN service package is a container or wrapper for the three other products.
 
 ## Procedure
 
@@ -80,9 +78,7 @@ Display name
 </td><td>
 
 Name that appears for the specification in the ServiceNow AI Platform when this version of the specification is in effect.-   When you create the initial, or base version of the specification \(for example, version 1\), you must enter free-form text, which is usually the name of the specification, into the field.
--   When you create versions of the specification, a system-assigned concatenation of the specification name and its current version number appears but can be overwritten. For example, SD-WAN Edge Device v2 appears in this field when:
-    1.  SD-WAN Edge Device is the name of the specification.
-    2.  Version 2 is the current version of the specification.
+-   When you create versions of the specification, a system-assigned concatenation of the specification name and its current version number appears but can be overwritten.
 
 
 </td></tr><tr><td>
@@ -240,15 +236,15 @@ You can't change this field.
 
 5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d36095e547">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d53788e536">
 
 Action
 
-</th><th align="left" id="d36095e550">
+</th><th align="left" id="d53788e539">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36095e556">
+</th></tr></thead><tbody><tr><td id="d53788e545">
 
 **Publish**
 
@@ -258,7 +254,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d36095e574">
+</td></tr><tr><td id="d53788e563">
 
 **Update**
 
@@ -266,7 +262,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d36095e583">
+</td></tr><tr><td id="d53788e572">
 
 **Copy**
 

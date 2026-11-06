@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -22,11 +22,11 @@ The HR Centers of Excellence \(COEs\) data model provides a structured approach 
 
 \[Omitted video\] Description: The HR Centers of Excellence video provides an overview of the HR Centers of Excellence \(COEs\), their benefits, the COE data model, how to configure and use the COE data model, and how to handle a request for a new COE.
 
-Each COE can be configured to its unique function, such as payroll or employee relations. The COE data model allows you to limit access to sensitive information, promote consistency for metrics and reporting, and help drive automation by defining the request to fulfillment process at the HR service level.
+Each COE can be configured to its unique function, such as payroll or employee relations. The COE data model allows you to limit access to sensitive information and promote consistency for metrics and reporting. It helps drive automation by defining the request to fulfillment process at the HR service level.
 
 ## HR Centers of Excellence structure
 
-Each HR Center of Excellence is an extension of the HR Case \[sn\_hr\_core\_case\] table and is organized around a functional discipline, such as employee relations, lifecycle events, payroll, talent management, workforce administration, total rewards, HRIT operations, benefits, compensation, corporate communications, and global mobility.
+Each HR Center of Excellence is an extension of the HR Case \[sn\_hr\_core\_case\] table. Each COE is organized around a functional discipline. Examples include employee relations, lifecycle events, payroll, talent management, workforce administration, total rewards, HRIT operations, benefits, compensation, corporate communications, and global mobility.
 
 **Note:** The benefits, compensation, corporate communications, and global mobility COEs are inactive by default.
 
@@ -48,7 +48,7 @@ This structure enables you to categorize HR services by functional area, and you
 
 Before configuring individual HR services, review and set up the categorization structure for them. This foundational step ensures that your services are properly organized within the COE framework.
 
-**Note:** For a list of base system COEs and how to enable or disable them, see [Enable or disable an HR Center of Excellence \(COE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-categorization.md).
+**Note:** For a list of base system COEs and how to enable or disable them, see [Enable or disable an HR Center of Excellence \(COE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-center-of-excellence-coe.md).
 
 ## Roles
 

@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-08-06"
-reading_time_minutes: 7
-breadcrumb: [Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using Software Asset Workspace
@@ -30,6 +30,8 @@ Create a software model in the Software Asset Workspace. Add product details tha
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in the Software Asset Workspace environment on-demand.
 -   **[Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/generate-elp-report-sam.md)**  
 Generate an ELP report to gain detailed insights into the consumption details of different groups within your organization.
+-   **[Create a custom deduplication rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/configure-custom-deduplication-rule.md)**  
+Create a custom deduplication rule to define how duplicate software installations are identified and matched within your organization.
 -   **[Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/add-sw-removal-workspace.md)**  
 Removal candidates reclaim software resources in your environment. They are created automatically from reclamation rules or can be created manually.
 -   **[Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/reclaiming-software-sam.md)**  
@@ -52,6 +54,8 @@ Copy user or device allocations from one entitlement to the other.
 Create consumption rules to restrict license consumption to certain entities within your organization.
 -   **[Link consumption rules to entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/link-consumption-rules.md)**  
 After you've created a consumption rule, you must link the rule to one or more entitlements.
+-   **[Create a comprehensive lifecycle report using a guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.md)**  
+Use a guided experience to improve your lifecycle data completeness.
 -   **[View discovered engineering licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-disco-englicenses-workspace.md)**  
 View a list of all the discovered and normalized software for your engineering applications in the Software Asset Workspace.
 -   **[View engineering license servers in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-englicenses-server-workspace.md)**  
@@ -66,14 +70,14 @@ Track your installation to license journey by connecting software installations 
 Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Workspace.
 -   **[Use publisher add-on lifecycles in the Software Lifecycle Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/specify-publisher-add-on-lifecyles.md)**  
 If you purchase an add-on or optional support for a software product, enable the Software Asset Management application to automatically update the life-cycle dates of that product with the extended life-cycle dates of the add-on or optional support. These updated life-cycle dates are populated in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table.
--   **[View normalization suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-norm-sugg-workspace.md)**  
-View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
--   **[Revert normalization in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/revert-norm-workspace.md)**  
-You can revert the normalization of discovery models in the Software Asset Workspace.
 -   **[Manually override edition value in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manually-override-edvalue-workspace.md)**  
 If the edition of a software installation is not automatically discovered, you can specify the edition on the Software Installation form \(if known\) so the software can be successfully reconciled.
--   **[Manually normalize a software model in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manual-normalize-swmodel-workspace.md)**  
-You can manually normalize a software discovery model that has not been fully normalized \(partially normalized, publisher normalized, or match not found\) in order to reconcile it.
+-   **[View normalization suggestions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-norm-sugg-workspace.md)**  
+View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
+-   **[Manually normalize a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manual-normalize-swmodel-workspace.md)**  
+You can manually normalize a software discovery model that hasn’t been fully normalized \(partially normalized, publisher normalized, or match not found\) to reconcile it.
+-   **[Revert normalization in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/revert-norm-workspace.md)**  
+You can revert the normalization of discovery models in the Software Asset Workspace.
 -   **[Create parent-child relationships between software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-parent-child-relationships-between-software-products.md)**  
 Create and define the parent-child relationships between your software products so that your child products can inherit life-cycle dates from their parent products.
 -   **[View Export Classification Control Number \(ECCN\) mappings for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-eccn-software-mappings.md)**  
@@ -110,6 +114,8 @@ Carry out phase-wise Software Asset Management implementation by publishing only
 Create product install conditions in the Software Asset Workspace that apply across all software models of a product during reconciliation.
 -   **[Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-edit-override-license-cost.md)**  
 Create or update an override license cost record for your software entitlements based on your requirements.
+-   **[Create an unrecognized publisher integration mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/map-unid-pub-integration.md)**  
+Create an unrecognized publisher-to-subscription integration mapping for your engineering applications. You can create these mappings when the content resolver doesn't automatically identify a specific publisher.
 -   **[Create an end of life workflow request for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manage-eol-risk.md)**  
 Manage risks associated with your software product installations that have reached the end of life \(EOL\) or are reaching EOL in the next 18 months. You can create an EOL request and take the required action for the EOL software.
 -   **[Complete the end of life workflow request for your software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/complete-eol-workflow-request.md)**  
@@ -120,6 +126,10 @@ Create demands to rationalize SaaS and SSO applications by discontinuing softwar
 Create a demand requirement for rationalizing your SaaS and SSO applications.
 -   **[Install Content library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/install-contentlookup.md)**  
 Install the Content library portal store application to view the data stored in the Software Asset Management Content Service.
+-   **[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)**  
+Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts. Set the contract reminder dates for contract renewal or termination.
+-   **[Manage obligation tasks in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.md)**  
+Create obligation records to define specific instructions and obligation task types required to fulfill the contract obligation in the Software Asset Workspace.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

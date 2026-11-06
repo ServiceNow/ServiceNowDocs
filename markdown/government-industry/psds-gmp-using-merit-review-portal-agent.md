@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gmp-using-merit-review-portal-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-09"
 reading_time_minutes: 3
 keywords: [reviewer service portal, rsp, review grant proposals, grant reviewer]
 breadcrumb: [Portals, Use, Public Sector Digital Services \(PSDS\)]

@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Azure API Management, API Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Azure API Management, API Service Graph Connectors, Integrating thi
 
 You can access the connection details of the API Service Graph Connector for Azure API Management in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
 
-With the CCF, you can access all the connections used by the API Service Graph Connector for Azure API Management. The connection details include the connection alias, connection properties, data sources, and scheduled data imports associated with a connection. You can also test the connection. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
+With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
 
 ## Access the details of an Azure API Management connection
 

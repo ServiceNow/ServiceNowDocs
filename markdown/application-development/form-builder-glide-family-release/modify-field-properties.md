@@ -7,9 +7,9 @@ release: zurich
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Modify field properties in Table Builder form editor
@@ -46,7 +46,7 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 4.  To view any UI policies that are set up for the selected field and make edits to that field, select the **UI Policies** tab.
 
-    For more information about the policies and properties, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/ui-policy-fields.md).
+    For more information about the policies and properties, see [Policies and rules fields in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
 5.  Select **Save**.
 

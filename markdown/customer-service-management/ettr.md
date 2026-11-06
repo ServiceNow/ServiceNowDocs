@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ettr.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -20,5 +20,5 @@ Machine learning predicts the estimated time to resolve a case \(ETTR\) based on
 
 This feature is available with activation of the Predictive Intelligence for Customer Service Management plugin \(com.sn\_csm\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-predictive-intelligence.md).
 
-Agents must activate the **Time to resolve** ribbon component, which displays the ETTR, to view it in the CSM Agent Workspace or in the CSM Configurable Workspace. For more information, see [Display the time to resolve ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ettr-activate.md) and [Estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-ribbon.md).
+Agents must activate the **Time to resolve** ribbon component, which displays the ETTR, to view it in the CSM Agent Workspace or in the CSM Configurable Workspace. For more information, see [Display the time to resolve ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ettr-activate.md) and [CRM Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-ribbon.md).
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/create-synthetic-monitor-for-discovered-api.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [synthetic monitoring, discovered API, API insights, HTTP endpoint]
-breadcrumb: [Configure, Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Create a synthetic monitor for a discovered API
@@ -28,7 +28,7 @@ Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.syn
 
 When API Insights discovers APIs through Service Graph Connectors, you can proactively monitor their availability and performance by creating synthetic monitors. Synthetic monitors identify issues before they impact users and verify continuous monitoring of critical API endpoints.
 
-For more information about how API discovery integrates with synthetic monitoring, see [API Insights and synthetic monitoring integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/api-discovery-integration.md).
+For more information about how API discovery integrates with synthetic monitoring, see [API discovery and synthetic monitoring integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/api-discovery-integration.md).
 
 ## Procedure
 
@@ -59,7 +59,7 @@ For more information about how API discovery integrates with synthetic monitorin
 
     3.  Verify the service association.
 
-        If the discovered API is related to an application service in the CMDB, the service and its support group are populated automatically and shown as read-only. If no service relationship exists, these fields are hidden and the monitor is created without a service association.
+        If the discovered API is related to one or more application services in the CMDB, those services and their support groups are populated automatically and shown as read-only. If no service relationship exists, these fields are hidden and the monitor is created without a service association.
 
     4.  To configure optional request details, expand **Advanced settings**.
 

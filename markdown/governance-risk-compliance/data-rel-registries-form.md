@@ -1,18 +1,18 @@
 ---
 title: Relationship registry record form
-description: Use the Relationship registry record form \(Relationship Registry \[sn\_data\_registry\_relationship\] table\) to define a relationship between objects.
+description: Use the Relationship registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/data-rel-registries-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a relationship registry record, Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Relationship registry record form
 
-Use the Relationship registry record form \(Relationship Registry \[sn\_data\_registry\_relationship\] table\) to define a relationship between objects.
+Use the Relationship registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 
 ## Relationship registry record form
 
@@ -74,17 +74,6 @@ Relationship table
 </td><td>
 
 Read-only field. The table selected in the **Relationship** field is displayed as a relationship table by default. For example, Issue \[sn\_grc\_issue\].
-
-</td></tr><tr><td>
-
-Related field
-
-</td><td>
-
-Type of relationship. Available options are:-   **Type**
--   **Parent**
--   **Child**
--   **None**
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-a-rela-registry-record.md)

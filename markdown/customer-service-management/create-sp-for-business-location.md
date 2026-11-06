@@ -1,18 +1,18 @@
 ---
-title: Create and manage sold products for a business location
-description: Staff members with the location agent role can manage sold products for their business locations.
+title: Create and manage sold products for a business organization
+description: Staff members with the location agent role can manage sold products for their business organizations \(formerly business locations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-sp-for-business-location.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Model Foundation business locations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Business Organizations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Create and manage sold products for a business location
+# Create and manage sold products for a business organization
 
-Staff members with the location agent role can manage sold products for their business locations.
+Staff members with the location agent role can manage sold products for their business organizations \(formerly business locations\).
 
 ## Before you begin
 
@@ -22,13 +22,15 @@ Role required: sn\_customerservice\_manager, sn\_customerservice.svc\_location\_
 
 Staff members with the sn\_customerservice\_manager role can create sold products by choosing the appropriate product model. In contrast, staff members with the sn\_customerservice.svc\_location\_agent role can only view the list of sold products installed at any service organization.
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal/External Business Locations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal/External Organizations**.
 
-2.  Select either an internal or an external business location.
+2.  Select either an internal or an external organization.
 
-3.  In the Sold Products related lists, click **New**.
+3.  In the Sold Products related lists, select **New**.
 
 4.  On the form, fill in the fields.
 
@@ -66,16 +68,16 @@ If the sold product contains child components, reference to another sold product
 
 </td></tr><tr><td>
 
-Service Organization
+Buyer Organization \(formerly Service Organization\)
 
 </td><td>
 
 Internal or external entity that is involved in providing service to the customer.**Note:** The sold products are closely tied to the service organization. As an example, if you select a service organization, all the parent sold products come from the same service organization.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
-    A sold product record is created for the selected business location.
+    A sold product record is created for the selected business organization.
 
 
 **Related topics**  

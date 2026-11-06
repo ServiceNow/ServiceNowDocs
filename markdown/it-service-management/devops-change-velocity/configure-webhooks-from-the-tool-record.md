@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner in DevOps Change Veloc
 
     **Note:** You can also select the a Project, Plan, or Repository record and configure the corresponding webhooks for them specifically.
 
-<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d245841e95">
+<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d426681e95">
 
 Options
 
-</th><th align="left" id="d245841e98">
+</th><th align="left" id="d426681e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d245841e104">
+</th></tr></thead><tbody><tr><td id="d426681e104">
 
 **Auto configure with existing token**
 
@@ -46,7 +46,7 @@ Description
 
 Configures a webhook with your existing token.
 
-</td></tr><tr><td id="d245841e113">
+</td></tr><tr><td id="d426681e113">
 
 **Auto configure with new token**
 
@@ -54,7 +54,7 @@ Configures a webhook with your existing token.
 
 Configures a webhook with a new token.
 
-</td></tr><tr><td id="d245841e122">
+</td></tr><tr><td id="d426681e122">
 
 **Configure manually**
 

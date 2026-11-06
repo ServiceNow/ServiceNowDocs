@@ -24,7 +24,7 @@ The ChangeRequest API provides these methods for use in business rules, UI actio
 |Method|Description|
 |------|-----------|
 |hasStateAttribute|Returns `true` if the attribute with the specified name is assigned to the current state of the change request.|
-|modelContainsAttribute\(name\)|Returns true if the attribute with the specified name is contained anywhere in the model. Useful when introducing an attribute and you want to preserve existing behavior for models without the attribute.|
+|modelContainsAttribute\(name\)|Returns true if the attribute with the specified name is contained anywhere in the model. Use this method when you introduce an attribute and need to preserve existing behavior for models without the attribute.|
 
 ## Server-side example
 
@@ -48,9 +48,9 @@ A client-side Change Model object is available on the Change Request form for cl
 |Method|Description|
 |------|-----------|
 |hasStateAttribute\(name\)|Returns true if the attribute with the specified name is assigned to the current state of the change request.|
-|containsAttribute\(name\)|Returns true if the attribute with the specified name is contained anywhere in the model. Useful when introducing an attribute and you want to preserve existing behavior for models without the attribute.|
+|containsAttribute\(name\)|Returns true if the attribute with the specified name is contained anywhere in the model. Use this method when you introduce an attribute and need to preserve existing behavior for models without the attribute.|
 
-The functions can be found in the change\_model object on the scratchpad.
+These methods are in the change\_model object on the scratchpad.
 
 ## Example: Enforce the Allow CI Modification attribute
 

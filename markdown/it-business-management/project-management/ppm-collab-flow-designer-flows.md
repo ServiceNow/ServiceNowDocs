@@ -1,5 +1,5 @@
 ---
-title: Flows to synchronize projects with collaboration tools
+title: Flows designed to synchronize projects with your collaboration tool
 description: Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/ppm-collab-flow-designer-flows.html
@@ -7,12 +7,12 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [PPM Collaboration application overview, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Flows to synchronize projects with collaboration tools
+# Flows designed to synchronize projects with your collaboration tool
 
 Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 

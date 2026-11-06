@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-user-access-control-ref.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Inte
 # User Access Control reference
 
 Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN permissions to specific areas.
+
+**Note:** The User Access utility is enabled via a support request. Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ## Access levels
 
@@ -26,7 +28,7 @@ Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN
 -   END\_USER
 -   CONFIG
 
-    Users with ADMIN they can use the Matrix Loader.
+    Users with ADMIN can use the Matrix Loader.
 
 -   TRANSACTION
 
@@ -37,8 +39,8 @@ Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN
 
     Applies permissions for an individual table listed in addition to any MANAGED\_TABLES access level. Examples:
 
-    -   EX: MANAGED\_TABLES: NONE + TABLE “myTable” Edit = ability to edit “myTable” only
-    -   EX: MANAGED\_TABLES: READ + TABLE “myTable” Edit = ability to read all tables and edit "myTable"
+    -   MANAGED\_TABLES: NONE + TABLE “myTable” Edit = ability to edit “myTable” only
+    -   MANAGED\_TABLES: READ + TABLE “myTable” Edit = ability to read all tables and edit "myTable"
 -   DEPLOY
     -   Applies all blueprint, transaction, product catalog enrichment, and product filter deploys
     -   Roles are either NONE or ADMIN
@@ -69,4 +71,11 @@ Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN
 -   UTILITIES\_NONE / UTILITIES\_READ / UTILITIES\_ADMIN \(no EDIT\)
     -   READ correlates to GET endpoints
     -   ADMIN correlates to everything else
+
+**Related topics**  
+
+
+[Using CPQ user access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-using-uam.md)
+
+[User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

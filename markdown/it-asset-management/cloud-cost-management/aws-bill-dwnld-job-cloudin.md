@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 10
-breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule and manage the jobs that download AWS billing data
@@ -26,8 +26,6 @@ Enable cost allocation for each Kubernetes cluster before you run an AWS Billing
 
 ## About this task
 
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
-
 During billing download, all the resources are pulled into the system. AWS Redshift resources are placed in the \[cmdb\_ci\_cloud\_database\] table. After the 4.0 upgrade, make sure that the billing download is executed with reimport true.
 
 **Note:** From Cloud Cost Management version 8.1 onwards, the default time for billing download jobs has changed from 12:00 to 01:00 \(UTC\). Also, schedule or run Cloud Cost Management jobs only during off-business hours and when there's no other heavy operations or jobs running on the ServiceNow instance.
@@ -39,7 +37,7 @@ If you have installed the Cloud Cost Management Infra Stack application, then to
 -   You can create only one Billing Download job for each account \(enrollment\).
 -   Configure AWS Billing download for the main account otherwise the spend doesn't generate.
 -   To ensure accurate reporting and recommendations for some providers, make sure that the Discovery application runs before the scheduled execution.
--   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Reservation/saving plans, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
+-   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Commitments, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
 -   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. You can apply the latest tag category definitions to cost data without running a Billing Download job, by selecting **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories** and then selecting **Re-Apply Categories**.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   All user-defined tags for cost allocation are assigned the prefix `user:` from AWS while all AWS-generated tag names are automatically assigned the prefix `aws:`. For example, if the tag name is `owner`, in the billing data it is displayed as `user:owner`.
@@ -53,7 +51,7 @@ For AWS.
 -   You can create only one Billing Download job for each service account.
 -   Only costs of the unblended type are supported.
 -   The Billing Download job updates the billing node data table \[sn\_cld\_intg\_aws\_cost\_usage\] with the CIs in the CMDB that correspond to each resource ID.
--   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
+-   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type for billing data accuracy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
 
 ## Procedure
 

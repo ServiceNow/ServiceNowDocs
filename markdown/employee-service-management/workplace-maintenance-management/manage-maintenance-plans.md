@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,12 +28,12 @@ After publishing a maintenance plan, the plan opens in a calendar view. The cale
 After creating a maintenance plan, define a maintenance schedule for a maintenance plan. Define duration or meter-based schedules for your assets or locations on a daily, weekly, monthly, or yearly basis.
 4.  [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)  
 The scheduled Job **Workplace Planned Maintenance Nightly Run** runs at the configured time and creates maintenance cases. It also pre-creates maintenance cases when the scheduled duration is less than a day.
-5.  [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-cases.md)  
-The schedule job creates maintenance cases for plan records.
-6.  [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-workplace-services.md)  
+5.  [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-workplace-services.md)  
 Create Workplace services like catering, office supply, parking, or any other service. Associate this service to a default general request template.
-7.  [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)  
+6.  [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)  
 Configure a plan service to associate workplace services and set scheduling conditions for a plan record.
+7.  [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-cases.md)  
+The schedule job creates maintenance cases for plan records.
 8.  [Workplace Maintenance Management dashboard and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-management-dashboard-overview.md)  
 The Workplace Maintenance Management dashboard and reporting module provide high-level reporting on maintenance plans, plan records, and cases. Preventive maintenance dashboard provides insights for workplace managers and administrators on all plans, live active plans, plans in draft state, and maintenance cases.
 

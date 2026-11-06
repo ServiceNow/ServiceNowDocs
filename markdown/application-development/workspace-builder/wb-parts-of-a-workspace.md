@@ -7,9 +7,9 @@ release: zurich
 product: Workspace Builder
 classification: workspace-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Explore, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Parts of a workspace in Workspace Builder
@@ -56,9 +56,9 @@ Analytics
 
 </td><td>
 
-The customizable Analytics Center enables users to track and analyze records and usage with dashboards, data visualizations, and insights on your instance. **Note:** If Analytics Center page/route doesn't exist for a workspace, Workspace Builder is still available, but the Analytics Center tab doesn't appear in the workspace.
+The customizable Analytics Overview enables users to track and analyze records and usage with dashboards, data visualizations, and insights on your instance. **Note:** If Analytics Overview page/route doesn't exist for a workspace, Workspace Builder is still available, but the Analytics Overview tab doesn't appear in the workspace.
 
- For more information on enabling the Analytics Center for a workspace, see [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-analytics-workspace.md).
+ For more information on enabling the Analytics Overview for a workspace, see [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/configure-analytics-workspace.md).
 
 </td></tr><tr><td>
 

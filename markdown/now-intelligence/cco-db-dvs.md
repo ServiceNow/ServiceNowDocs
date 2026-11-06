@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cco-db-dvs.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Chief Customer Operations Officer Dashboard data visualizations

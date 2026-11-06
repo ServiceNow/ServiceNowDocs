@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bia-impact-categories.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -26,7 +26,7 @@ When a business service, process, or application experiences downtime due to a d
 
 ## Impact categories in BCM
 
-With the BCM administrator role, you can view the impact categories that are installed with demo data and set up new impact categories in the **Impact categories** module of the BCM application. The example shows the impact categories that are installed with demo data in an instance.
+With the BCM administrator role, you can view the impact categories that are installed with demo data. You can also set up new impact categories in the **Impact categories** module. The example shows the impact categories that are installed with demo data in an instance.
 
 \[Omitted image "bia-impact-categories.png"\] Alt text: BIA impact categories that are installed with demo data.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-02-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -27,8 +27,8 @@ The ServiceNow Otto for Automation Center plugin helps you to:
 -   Automatically create automation requests from Task Mining Workspace
 -   Automate Task Mining recording to desktop actions
 
--   **[Activate skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md)**  
-Activate the user task step summarization skill to create an automation request from the Task Mining workspace.
+-   **[Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md)**  
+Activate the skills available for ServiceNow Otto for Automation Center to work with ease and reduce manual effort in creating automation requests and exploring automations.
 
 **Parent Topic:**[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configure-clone.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Instance Clone, Configure core features, Administer]
+breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring Instance Clone
@@ -16,23 +16,23 @@ Register your instance for cloning and create a custom clone profile.
 
 ## Configuration overview
 
-1.  Register your target instance through the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-target-instance.md) or [the legacy experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateACloneTarget.md) before requesting your clone.
+1.  [Register an instance for cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-target-instance.md) before requesting your clone.
 
     A clone target record specifies the instance URL and credentials used for cloning.
 
-2.  Create a custom clone profile in the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-clone-profile.md) or [the legacy experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-profile-clone.md).
+2.  [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-clone-profile.md).
 
     Clone profiles enable you to select the correct exclusions and preservers for your clone.
 
-3.  Create a clone preserver in the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-new-clone-preserver.md) or [the legacy experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateADataPreserver.md).
+3.  [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-new-clone-preserver.md).
 
     Create clone preservers to protect data on the target instance from being overwritten.
 
-4.  Exclude a table from cloning in the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/exclude-a-table-from-cloning.md) or [the legacy experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ExcludeATableFromCloning.md).
+4.  [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ExcludeATableFromCloning.md).
 
     Exclude a table to create an empty but usable table on the target instance.
 
-5.  Create cleanup scripts in the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-cleanup-script.md) or [the legacy experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/post-clone-cleanup-scripts.md).
+5.  [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-cleanup-script-latest.md).
 
     Use cleanup scripts to automate post-clone steps or to modify data after your clone.
 

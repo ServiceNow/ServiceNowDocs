@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enabling and configuring AI Search, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)

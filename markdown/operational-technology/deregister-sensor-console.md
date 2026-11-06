@@ -1,30 +1,30 @@
 ---
-title: Deregistering a Discovery Sensor for OT
+title: Deregister a Discovery Sensor for OT
 description: Deregister a Discovery Sensor for OT from the Discovery Console for OT that is no longer available on your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/deregister-sensor-console.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Deregistering a Discovery Sensor for OT
+# Deregister a Discovery Sensor for OT
 
 Deregister a Discovery Sensor for OT from the Discovery Console for OT that is no longer available on your system.
 
 ## Before you begin
 
-Role required: user
+Role required: admin
 
 ## Procedure
 
-1.  Navigate to the **Sensors** page.
+1.  In the Console, navigate to the Sensors page.
 
 2.  Select the Sensor that you want to deregister.
 
-3.  Select the **Actions** icon.
+3.  Select the Actions icon.
 
 4.  Select **Deregister Device**.
 
@@ -34,4 +34,8 @@ Role required: user
 ## Result
 
 The Sensor is deregistered, and the Sensor is reset to the default network configuration, which is the DHCP with the link-local fallback.
+
+For removing a lost Sensor, see [Remove a lost Sensor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/remove-lost-sensor-console.md).
+
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md)
 

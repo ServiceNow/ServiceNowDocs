@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Influence anomaly detection with lexical keywords, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -105,7 +105,7 @@ Source types that are not associated with the keyword. Health Log Analytics does
 
 3.  Edit a global keyword.
 
-    1.  Click the keyword that you want to edit in the list.
+    1.  Select the keyword that you want to edit in the list.
 
     2.  On the form, edit the relevant fields.
 
@@ -119,8 +119,6 @@ Source types that are not associated with the keyword. Health Log Analytics does
 
     3.  Select **OK**.
 
-
-**Parent Topic:**[Influence anomaly detection in Health Log Analytics with lexical keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-log-anomaly-detection.md)
 
 **Related topics**  
 

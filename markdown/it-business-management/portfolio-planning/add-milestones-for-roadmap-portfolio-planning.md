@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -29,15 +29,15 @@ For the timeline of your portfolio plan or free-form roadmap, create milestones 
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d216186e96">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d230840e96">
 
 Roadmap type
 
-</th><th align="left" id="d216186e99">
+</th><th align="left" id="d230840e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d216186e105">
+</th></tr></thead><tbody><tr><td id="d230840e105">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d216186e126">
+</td></tr><tr><td id="d230840e126">
 
 **Free-form roadmap**
 

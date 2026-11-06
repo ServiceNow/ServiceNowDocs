@@ -1,35 +1,37 @@
 ---
-title: Generating forms with Now Assist
-description: Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+title: Generating forms with AI
+description: Learn how ServiceNow Otto for Creator helps you to create forms for you in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creator-studio/creator-studio-text-to-form.html
 release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
-# Generating forms with Now Assist
+# Generating forms with AI
 
-Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+Learn how ServiceNow Otto for Creator helps you to create forms for you in Creator Studio.
 
-## Now Assist in Creator Studio overview
+## AI in Creator Studio overview
 
-While creating your app in Creator Studio, you can describe the form you want, and Now Assist generates the form for you.
+While creating your app in Creator Studio, you can describe the form you want, and AI generates the form for you.
 
-The application uses the Now Assist for Creator skills, such as Catalog item generation and App generation, to generate the forms.
+The application uses the ServiceNow Otto for Creator skills, such as Catalog item generation and App generation, to generate the forms.
 
-**Note:** You must be assigned the now.assist.creator role to create the forms using Now Assist.
+**Note:** You must be assigned the now.assist.creator role to create the forms using AI.
 
-## Now Assist in Creator Studio benefits
+Forms generated with AI appear with an AI icon \[Omitted image "crs-ai-banner-logo.png"\] Alt text: in the application banner.
 
-The benefits of using Now Assist to generate forms in Creator Studio are below:
+## AI in Creator Studio benefits
+
+The benefits of using AI to generate forms in Creator Studio include the following:
 
 -   Forms of your choice are created quickly with just a direction.
--   If you provide more details about your form while writing the direction, Now Assist can generate the form specifically to meet your needs.
+-   If you provide more details about your form while writing the direction, AI can generate the form specifically to meet your needs.
 -   You can also use the pre-available examples in the directions available to generate forms.
 
 ## ServiceNow Otto language availability notice
@@ -52,6 +54,8 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
 
 **Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-work-with-forms.md)
 

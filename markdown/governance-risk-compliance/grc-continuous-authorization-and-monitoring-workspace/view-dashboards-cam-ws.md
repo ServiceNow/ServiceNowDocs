@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Monitor and manage your NIST security posture
@@ -26,7 +26,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.authorization\_off
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  Select\[Omitted image "feedback-dashboard-icon.jpg"\] Alt text: Dashboard icon. from the sidebar.
+2.  Select \[Omitted image "feedback-dashboard-icon.jpg"\] Alt text: Dashboard icon. from the sidebar.
 
     The dashboard appropriate for your user role opens.
 

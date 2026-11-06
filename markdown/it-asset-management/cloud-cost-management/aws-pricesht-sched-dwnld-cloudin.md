@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule and manage the Cloud Cost Management jobs that download AWS price sheets
@@ -24,7 +24,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\].
 
 ## About this task
 
--   You create a scheduled Price Sheet Download job for each provider.
+-   You create a scheduled Price Sheet Download job for AWS.
 -   Each execution of a Price Sheet Download job runs multiple execution items. Each execution item imports and stores the price sheet for one region.
 -   To ensure accurate reporting and recommendations for some providers, make sure that the Discovery application runs before the scheduled execution.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
@@ -37,13 +37,13 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\].
 
 3.  On the form, fill in the fields.
 
-<table id="id_zd2_sct_zxb"><thead><tr><th>
+<table id="table_jms_c4c_dhc"><thead><tr><th>
 
 Field
 
 </th><th>
 
-Value
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -51,7 +51,7 @@ Name
 
 </td><td>
 
-Meaningful name for the Price Sheet Download job.
+A unique and meaningful name for the Price Sheet Download job.
 
 </td></tr><tr><td>
 
@@ -75,18 +75,9 @@ Download Price Sheet For
 
 </td><td>
 
-Price sheet downloads for different services.-   AWS
-    -   Compute and Storage
-    -   Database
-    -   All
--   Azure
-    -   Compute
-    -   Database
-    -   Storage
--   Google
-    -   Compute and Storage
-    -   Database
-    -   All
+Price sheet downloads for different services.-   Compute and Storage
+-   Database
+-   All
 
 
 </td></tr><tr><td>
@@ -103,11 +94,9 @@ Run
 
 </td><td>
 
-Frequency to execute the job.
+Frequency to execute the job.**Note:** Depending on the value that you select, additional fields appear. For example, if you select a **Run** value of **Monthly**, a **Day** field appears. A value of 3 would mean the third day of the month.
 
- **Note:** Depending on the value that you select, additional fields appear. For example, if you select a **Run** value of **Monthly**, a **Day** field appears. A value of 3 would mean the third day of the month.
-
- This field is automatically set to **Monthly**.
+This field is automatically set to **Monthly**.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,7 +44,7 @@ The Dispute Content Pack for US Regulations application can help you do the foll
 </td></tr></tbody>
 </table>## Request Dispute Content Pack for US Regulations on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use Dispute Content Pack for US Regulations, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 
@@ -59,7 +59,7 @@ Learn how the Dispute Content Pack for US Regulations application streamlines th
 -   **[Install the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.md)**  
 If you have the admin role, you can install the Dispute Content Pack for US Regulations application.
 -   **[Configuring the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/configuring-the-dispute-content-pack-for-us-regulation.md)**  
-You can set up your implementation of the Dispute Content Pack for US Regulations application by installing the application from the ServiceNow Store.
+Dispute Content Pack for US Regulations includes predefined Service Level Agreement \(SLA\) definitions that align with Regulation E and Regulation Z. SLA durations are calculated from key dates such as the dispute reported date, task creation date, statement date, and billing cycle date.
 -   **[Using the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/using-the-dispute-content-pack-for-us-regulation.md)**  
 Dispute agents use the Dispute Content Pack for US Regulations to track the dispute cases that are governed by United States \(US\) Regulations \(Reg E and Reg Z\) and ensure they are in conformance with the regulatory guidance. This application provides the required Service Level Agreement \(SLA\) definitions and provide details to the dispute manager to monitor and take necessary actions.
 -   **[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)**  

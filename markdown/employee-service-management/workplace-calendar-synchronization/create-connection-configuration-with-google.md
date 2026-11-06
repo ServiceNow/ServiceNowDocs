@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -27,7 +27,7 @@ Role required: admin
 
 ## About this task
 
-Configure the Google connection and credential record. Perform steps in the flow designer. Configure the default Google Calendar spoke. You can also create your own connection and credential alias, if you don't want to configure the default Google Calendar spoke using the flow designer. To create your own alias, refer to [Configure your own Google connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-your-own-google-connection-and-credential-alias.md).
+Configure the Google connection and credential record. Perform steps in the flow designer. Configure the default Google Calendar spoke. You can also create your own connection and credential alias, if you don't want to configure the default Google Calendar spoke using the flow designer.
 
 ## Procedure
 

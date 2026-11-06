@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Browser Extension for Employee Center, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browser Extension for Employee Center, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Set up browser policies
@@ -41,56 +41,139 @@ The browser settings and policy page might look different for different browsers
 
         ```json
         {
-           "Instance": {
-             "Value": ""
-           },
-           "Browser extension portal": {
-             "Value": ""
-           },
-           "Employee portal": {
-             "Value": ""
-           },
-           "Extension title": {
-             "Value": ""
-           },
-           "Extension icon path": {
-             "Value": ""
-           },
-           "Enable notifications": {
-             "Value": false
-           },
-           "Enable context menu": {
-             "Value": false
-           },
-           "Open search in browser extension": {
-             "Value": false
-           },
-           "Allowed sites": {
-             "Value": []
-           },
-           "Context menu title for search": {
-             "Value": ""
-           },
-           "Context menu title for search in portal": {
-             "Value": ""
-           },
-           "Empty state title": {
-             "Value": ""
-           },
-           "Empty state message": {
-             "Value": ""
-           },
-           "Empty state action label": {
-             "Value": ""
-           },
-           "Empty state header logo": {
-             "Value": ""
-           }
-         }
+          "Instance": "",
+          "Browser extension portal": "",
+          "Employee portal": "",
+          "Extension title": "",
+          "Extension icon path": "",
+          "Enable notifications": false,
+          "Enable context menu": false,
+          "Open search in browser extension": false,
+          "Allowed sites": [],
+          "Context menu title for search": "",
+          "Context menu title for search in portal": "",
+          "Empty State title": "",
+          "Empty State Header Logo": ""
+        }
         ```
 
 2.  In the **ServiceNow Employee Center Browser Extension** policy, fill in the fields.
 
-    For a description of the field values, see [Browser Extension policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecbe-policy-form.md).
+3.  Enter the following field values to set up Browser Extension for your web browser.
+
+<table id="table_pct_sf5_vfc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Values
+
+</th></tr></thead><tbody><tr><td>
+
+Allowed sites
+
+</td><td>
+
+Examples: &lt;concur, workday&gt;
+
+</td></tr><tr><td>
+
+Browser extension portal
+
+</td><td>
+
+ecbe
+
+</td></tr><tr><td>
+
+Context menu title for search
+
+</td><td>
+
+Open search in browser extension
+
+</td></tr><tr><td>
+
+Context menu title for search in portal
+
+</td><td>
+
+Open search in employee portal
+
+</td></tr><tr><td>
+
+Employee portal
+
+</td><td>
+
+esc
+
+</td></tr><tr><td>
+
+Empty state action label
+
+</td><td>
+
+Open Employee Hub
+
+</td></tr><tr><td>
+
+Empty state message
+
+</td><td>
+
+&lt;Empty state message for your organization&gt;
+
+</td></tr><tr><td>
+
+Empty state title
+
+</td><td>
+
+&lt;Visit Employee hub&gt;
+
+</td></tr><tr><td>
+
+Enable context menu
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Enable notifications
+
+</td><td>
+
+true**Note:** Enable this setting to get Chrome browser notifications along with the notifications in your Browser Extension.
+
+</td></tr><tr><td>
+
+Instance
+
+</td><td>
+
+&lt;servicenow.com&gt;
+
+</td></tr><tr><td>
+
+Open search in browser extension
+
+</td><td>
+
+true**Note:** Enabled this context search option to open it in the Browser Extension.
+
+</td></tr><tr><td>
+
+Open search in Employee Portal
+
+</td><td>
+
+true**Note:** Enabled this context search option to open it in the Employee Center portal.
+
+</td></tr></tbody>
+</table>    If you try to access the Browser Extension from a website where it's not configured, a link takes you back to the Employee Center portal.
 
 

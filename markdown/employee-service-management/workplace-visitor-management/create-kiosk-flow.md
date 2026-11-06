@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Workplace Visitor Management for Workplace Services Kiosk, Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,6 +28,8 @@ Role required: sn\_wsd\_visitor.admin
 
     -   Check-in Flows
     -   Check-out Flows
+    **Note:** The visit requirements are displayed during the check-in flow. Initial requirements are displayed first, non-initial requirements are displayed later.
+
     Based on your selected module, either the Kiosk Check-in Flow Configurations list or Kiosk Check-out Flow Configurations list opens.
 
 3.  On the list, select **New**.

@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ After you outline the guided tour, use the Guided Tour Designer \(GTD\) to enter
 
 ## Before you begin
 
-Role required: guided\_tour\_admin or admin
+Role required: guided\_tour\_admin
 
 ## About this task
 

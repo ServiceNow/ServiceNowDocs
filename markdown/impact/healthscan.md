@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/healthscan.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform Health, Using Impact, Impact]
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # HealthScan for the Impact Delivery Instance
@@ -19,4 +19,9 @@ Impact uses HealthScan to help you understand and improve the health of your Ser
 -   Improve your understanding of instance health through the use of hundreds of best practice checks​
 -   Reduce technical debt and optimize performance​
 -   Prevent common implementation missteps​
+
+-   **[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-tech-kpis.md)**  
+Tech Key Performance Indicators\(KPIs\) show how closely you're aligned to ServiceNow technical leading practices, offer recommendations for improvement, and help you monitor your instance health.
+
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-reference.md)
 

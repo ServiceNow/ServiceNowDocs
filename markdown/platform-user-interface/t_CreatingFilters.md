@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_CreatingFilters.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Filters, Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ Role required: none
 
 5.  Add or remove conditions to construct the desired filter by completing one or more of the following steps.
 
-<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d141331e135">
+<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d139941e135">
 
 **To add a top-level condition**
 
@@ -42,7 +42,7 @@ Role required: none
 
 Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
-</td></tr><tr><td id="d141331e150">
+</td></tr><tr><td id="d139941e150">
 
 **To add a dependent condition**
 
@@ -50,7 +50,7 @@ Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
 Click **AND** or **OR** beside the condition.
 
-</td></tr><tr><td id="d141331e165">
+</td></tr><tr><td id="d139941e165">
 
 **To remove a condition**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-territories.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring the Territory
@@ -113,4 +113,11 @@ Used during assignment rules, this flag indicates whether the parent territory c
 
     The new territory is created.
 
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-sales-territory-management.md)
 

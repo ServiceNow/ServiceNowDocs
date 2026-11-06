@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ You can install the CCG Content Pack application \(sn\_itom\_ccg\_cp\) if you ha
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [CCG Content Pack](https://store.servicenow.com/sn_appstore_store.do#!/store/application/78513e8d4cef8550f877e248e52b63a7) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

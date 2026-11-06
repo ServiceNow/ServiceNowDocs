@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage various assets through asset classes, Use, Asset Management, IT Asset Management]
+breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Set asset states and substates
@@ -71,16 +71,18 @@ In stock
 -   Defective: Asset is faulty or inoperative.
 -   Pending repair: Defective asset is marked for repair by the vendor.
 -   Pending install: Asset is yet to be installed.
--   Pending donation: Asset is marked for donation because it’s no longer required in your stockroom.
 -   Pending disposal: Asset is marked for disposal because it’s no longer required in the stockroom.
 -   Pending transfer: Asset is being planned to be transferred through a transfer order.
 -   Pre-allocated: Asset is ready to be allocated but isn’t a financial liability until it’s allocated to a user.
 -   On hold: Asset isn’t ready to be used because it’s awaiting something. For example, necessary documentation is pending.
 -   Legal hold: Asset is kept on hold because of some legal reasons.
 -   Quarantine: Asset is kept in isolation in the stockroom.
+-   Pending fulfillment: Asset is functional but awaiting business conditions such as billing and signoff.
 -   Pending certificate: Asset is awaiting certificate for disposal.
 -   Pending return: Asset that is leased is yet to be returned.
 -   Test: Asset is in the testing phase and not yet operational.
+-   End of support: Asset is no longer provided any support through incidents or contracts.
+-   Pending Retirement: Asset has reached the end of life and can be sold, disposed, or donated.
 -   Pending resale: Asset is awaiting resale.
 -   Pending evaluation: Asset is yet to be evaluated or assessed to confirm if it can be used.
 
@@ -116,8 +118,8 @@ In use
 </td><td>
 
 -   Pending fulfillment: Asset is functional but awaiting business conditions such as billing and signoff.
--   End of support: Asset isn't provided any support services through incidents or contracts.
--   Pending retirement: Asset is marked for retirement because it’s no longer in service. Asset has reached the end of life and can be sold, disposed, or donated.
+-   End of support: Asset isn't provided any support services.
+-   Pending retirement: Asset is marked for retirement because it’s no longer in service.
 -   None
 
 

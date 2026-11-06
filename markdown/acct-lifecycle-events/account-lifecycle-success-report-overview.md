@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-report-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Use, Customer Success Management]
+breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Success report dashboard overview
@@ -37,5 +37,5 @@ The success report dashboard provides a view of all engagements in the hierarchy
 -   **[Success report dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md)**  
 Get an overall view of all your engagement and team status overview, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
+**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-dashboards.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Configure one or more tours to launch automatically when a user lands on a page.
 
 ## Before you begin
 
-Role required: guided\_tour\_admin and embedded\_help\_admin, or admin
+Role required: guided\_tour\_admin and embedded\_help\_admin
 
 **Note:** Guided tours are only available for logged-in users.
 

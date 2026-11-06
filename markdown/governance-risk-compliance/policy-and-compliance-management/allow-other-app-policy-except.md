@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -36,6 +36,8 @@ When you are setting up the Policy Exception Integration Registry, you can defin
 The verification rule is used to verify the accuracy and completeness of a policy exception request prior to sending it out for approvals. You can define multiple levels of approvers for an application.
 -   **[Define policy exception approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-approval-rules.md)**  
 Approval rules define the criteria \(risk rating, policy or control objective\) that is used for sending approval requests for an exception. Rules can be configured for an application and you can identify multiple levels of approvers, as needed.
+-   **[Define policy extension approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-extension-approval-rules.md)**  
+Enable the GRC Approval Configurator from the Policy and Compliance Properties page to allow multiple approvers for policy extension approvals, replacing the single default approver \(Compliance Manager\).
 
 **Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 

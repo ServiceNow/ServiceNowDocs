@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reclaim user subscriptions in Software Asset Management classic, Reclaiming user subscriptions, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Reclaim user subscriptions in Software Asset Management classic, Reclaiming user subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaim Roadmunk user subscriptions in Software Asset Management classic
@@ -80,7 +80,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
         The list of inactive users opens.
 
-    2.  Click the Remove icon \[Omitted image "remove-icon.png"\]for the user that you want to delete.
+    2.  Click the Remove icon \[Omitted image "remove-icon.png"\] for the user that you want to delete.
 
         The removal confirmation dialog box opens.
 

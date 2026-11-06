@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use an SLA map, Field Service Management SLAs, Manage work orders, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Use a SLA map, SLA for work orders, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Manage a task that has an SLA

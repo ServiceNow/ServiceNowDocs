@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create and manage a safety audit, Safety inspections and audits, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -38,15 +38,15 @@ Safety auditors create actions for specific questions while completing a smart a
 
 4.  Create a finding from the **Findings** tab or directly from within an item for review.
 
-<table id="choicetable_omn_fqz_l3c"><thead><tr><th align="left" id="d260199e131">
+<table id="choicetable_omn_fqz_l3c"><thead><tr><th align="left" id="d265703e131">
 
 Option
 
-</th><th align="left" id="d260199e134">
+</th><th align="left" id="d265703e134">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d260199e140">
+</th></tr></thead><tbody><tr><td id="d265703e140">
 
 **From the Findings tab**
 
@@ -54,7 +54,7 @@ Steps
 
 In the **Findings** tab of the audit, select **New**.
 
-</td></tr><tr><td id="d260199e155">
+</td></tr><tr><td id="d265703e155">
 
 **From within an item for review**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -96,5 +96,5 @@ To check for occupancy status of a space in the location directory \(Card view a
 
 **Previous topic:**[Retrieving Action Configurations data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/actions-configurations-occupancy.md)
 
-**Next topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
+**Next topic:**[Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [3E Regulatory Intelligence, 3E, Integration with third-party services, Health and Safety, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_hs\_chm.manager
 
 3.  Add regulations to the regulatory list.
 
-<table id="choicetable_hp4_t5r_ljc"><thead><tr><th align="left" id="d386333e87">
+<table id="choicetable_hp4_t5r_ljc"><thead><tr><th align="left" id="d391687e87">
 
 Option
 
-</th><th align="left" id="d386333e90">
+</th><th align="left" id="d391687e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d386333e96">
+</th></tr></thead><tbody><tr><td id="d391687e96">
 
 **From Regulatory list**
 
@@ -44,7 +44,7 @@ Steps
 
 Select **Regulatory** list and then **All**.
 
-</td></tr><tr><td id="d386333e111">
+</td></tr><tr><td id="d391687e111">
 
 **From Chemical substance list**
 

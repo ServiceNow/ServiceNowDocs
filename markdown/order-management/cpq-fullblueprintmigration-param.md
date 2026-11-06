@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-fullblueprintmigration-param.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up blueprints, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The fullBlueprintMigration parameter

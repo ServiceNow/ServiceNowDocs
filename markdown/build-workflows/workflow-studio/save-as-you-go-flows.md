@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Save as you go flows
@@ -39,7 +39,7 @@ You can manually save a flow at any time with the Force save option available fr
 
 ## Last saved indicator
 
-Workflow Studio displays the last saved icon after saving a flow \[Omitted image "icon-last-saved.png"\] Alt text:. Select or point to the last saved icon to display the duration or date since the flow was last saved.
+Workflow Studio displays the last saved icon after saving a flow \[Omitted image "icon-last-saved.png"\] Alt text: Auto save icon. Select or point to the last saved icon to display the duration or date since the flow was last saved.
 
 \[Omitted image "example-last-saved.png"\] Alt text: Pop-up displaying, "Last saved: 3 minutes ago."
 
@@ -50,5 +50,5 @@ You can't save a flow that you don't have edit rights to. Make sure to save your
 -   **[Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/restore-save-as-you-go-functionality.md)**  
 Restore save as you go functionality that was disabled in the Washington DC release.
 
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flows.md)
 

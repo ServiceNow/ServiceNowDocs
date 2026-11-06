@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog for managers and end users, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: admin \(history list or calendar\), itil \(calendar only\)
 
 1.  Complete one of the following actions for the history to view.
 
-<table id="choicetable_hhm_zwm_wcb"><tbody><tr><td id="d618570e71">
+<table id="choicetable_hhm_zwm_wcb"><tbody><tr><td id="d625616e62">
 
 **View history for your requested items**
 
@@ -32,7 +32,7 @@ Role required: admin \(history list or calendar\), itil \(calendar only\)
 
 Navigate to **Self-Service** &gt; **Requested Items** and open the item you requested.
 
-</td></tr><tr><td id="d618570e89">
+</td></tr><tr><td id="d625616e80">
 
 **View history for any requested item**
 

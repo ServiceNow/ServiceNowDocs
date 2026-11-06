@@ -7,9 +7,9 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Implement, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Generate assessment procedure plans for a test plan
@@ -54,6 +54,6 @@ Assessment procedure plans are generated for the test plan of a control based on
 
 8.  To view the control tests that are generated to assess the control, navigate to the Controls tests related list of the Engagement form.
 
-    See [Risk Management Framework \(RMF\) step 4 - Assess implemented controls and document findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md).
+    See [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md).
 
 

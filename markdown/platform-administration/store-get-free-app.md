@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/store-get-free-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [get an app, servicenow store, store, app store, application store, app store user documentation, servicenow app store]
-breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer]
+breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Get a free application
@@ -70,6 +70,6 @@ If the application isn't available to install from the Application Manager withi
 
 Install the app on compatible production or non-production instances, based on whether you have a hosted or on-premise instance:
 
--   If your instance is in a hosted environment, install the app using the Application Manager. For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-applications-in-application-manager.md).
+-   If your instance is in a hosted environment, install the app using the Application Manager. For more information, see [Install an application or plugin]().
 -   If your instance is in an on-premise environment, download the encrypted app file from your federal or regional instance of the ServiceNow Store and upload the file to your instance. For more information, see [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/getting-apps-on-prem.md)
 

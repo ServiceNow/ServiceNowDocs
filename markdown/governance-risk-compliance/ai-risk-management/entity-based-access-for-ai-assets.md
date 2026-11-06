@@ -7,8 +7,9 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [entity-based access, AI asset access control, GRC Entity Based Access]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -36,7 +37,7 @@ The following tasks must be performed to enable and use GRC: Entity Based Access
 2.  Enable or disable the entity-based Access properties to control access to the objects that are associated with an AI asset. For more information, refer to [Set up Entity Based Access properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/set-up-entity-based-access-properties.md).
 3.  Configure an entity class for a linked object by using the GRC: Entity Based Access application. For more information, refer to [Configure an entity class for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-an-entity-class-configuration-for-entity-based-access.md).
 
-    **Note:** Entities created with an AI asset are assigned an entity class such as AI system, AI model, dataset, or MCP server, depending on their category. To apply access restrictions to these entities, you must configure the appropriate entity class settings.
+    **Note:** Entities created with an AI asset are assigned an entity class such as AI system, AI model, or dataset depending on their category. To apply access restrictions to these entities, you must configure the appropriate entity class settings.
 
 4.  Configure an entity type by using the GRC: Entity Based Access application. For more information, refer to [Configure an entity type for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-an-entity-type-configuration-for-entity-based-access.md).
 5.  Set access restrictions for the existing records in bulk by using the entity-based record access update utility guided-experience. For more information, refer to [Set access restrictions using an entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-a-bulk-access-update-configuration.md).
@@ -44,4 +45,11 @@ The following tasks must be performed to enable and use GRC: Entity Based Access
 
     **Note:** Three records are provided by default, each with specific field configurations. The AI Asset record \(sn\_grc\_ai\_gov\_ai\_system\) includes Analyst and Business owner as user fields, and Analyst Group as a group field. For AI Asset task \(sn\_grc\_ai\_gov\_ai\_system\_task\), you can find Assigned to and Watch list as user fields. The Related Entity record \(sn\_grc\_ai\_gov\_ai\_system\_entity\_map\) doesn’t have any user or group fields configured by default.
 
+
+**Related topics**  
+
+
+[AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-system-airc.md)
+
+[AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-assets-airc.md)
 

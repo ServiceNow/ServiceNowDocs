@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-stakeholders.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [stakeholder, Product Quality Investigation, PQI, quality investigation, Manufacturing Commercial Operations, MCO]
 breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Quality Investigation** &gt; **Stakeholder**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Quality Investigation** &gt; **Stakeholder**.
 
 2.  Select **New**.
 

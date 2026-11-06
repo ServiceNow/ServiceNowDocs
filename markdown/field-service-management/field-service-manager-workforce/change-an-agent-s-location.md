@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Territory planning console, Workforce, Use, Field Service Management]
+breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
 ---
 
 # Change map marker location in the Territory Planning console
@@ -30,15 +30,15 @@ You can move the map marker icons from the current location to the new location 
 
 2.  Edit location for marker overlay data items.
 
-<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d50765e101">
+<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d55553e101">
 
 To
 
-</th><th align="left" id="d50765e104">
+</th><th align="left" id="d55553e104">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d50765e110">
+</th></tr></thead><tbody><tr><td id="d55553e110">
 
 **Edit location of a single icon map marker**
 
@@ -55,7 +55,7 @@ You can move the map marker icon from the current location to the new location o
 -   Drag and drop the map marker to the desired location or enter the address manually in the **New Location** field.
 
 
-</td></tr><tr><td id="d50765e165">
+</td></tr><tr><td id="d55553e165">
 
 **Edit location of all items in a co-located marker data item**
 

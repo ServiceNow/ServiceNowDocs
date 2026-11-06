@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -18,7 +18,7 @@ With Financial Services Card Operations, streamline, digitize, and automate the 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -30,7 +30,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-transaction.svg"\] Alt text: Submit and manage credit card related requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/managing-credit-card-service-case-tasks.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Submit and manage credit card related requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/managing-credit-card-service-case-tasks.md)
 
 </td><td>
 

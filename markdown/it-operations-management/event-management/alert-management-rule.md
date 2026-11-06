@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -73,7 +73,7 @@ You can perform the following actions:
 
 -   Specify a filter that determines which alerts the rule applies to.
 -   In the Related List Conditions section of the form, configure additional conditions, for example, with an **Alert &gt; Parent** relationship, to filter for any alerts that were received today.
--   Respond to alerts. For example, by using subflows and workflows, create incidents for primary alerts with critical severity, or open a search engine in a browser to search for data according to the description field of the alert.
+-   Respond to alerts. For example, use subflows or workflows to create incidents for critical-severity primary alerts, or open a browser search using the alert description field.
 -   Apply remediation. Remediation is based on Orchestration workflows that can be scripted to perform remediation tasks such as gathering system information or rebooting a server.
 
     **Note:** For enhanced performance of **Event Management - Evaluate Scoped Alert Rules Management** scheduled jobs, use subflows instead of workflows.

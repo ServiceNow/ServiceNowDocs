@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset operations view
@@ -19,7 +19,7 @@ Use the Asset operations view in the Hardware Asset Workspace to view the asset 
 The Asset operations view includes the following list:
 
 -   Inventory
-    -   Stockroom types: View types of stockrooms. For more information, see [Create a new stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
+    -   Stockroom types: View types of stockrooms. For more information, see [Create a stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
     -   Stock rules: View stock rules associated with the stockroom. For more details, see [Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/t_CreateAStockRule.md).
     -   Stock orders: View stock orders associated with the inventory.
 -   Shipment
@@ -28,6 +28,12 @@ The Asset operations view includes the following list:
     -   Shipping carriers: Create and view the list of shipping carriers. For more information, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
     -   Carrier integration profiles: View the list of carrier integration profiles associated with the shipping carriers. For more information, see [View the carrier integration profile details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-integration-profiles.md).
 -   Procurement-Requests: View and track procurement requests. For more information, see [Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/c_SourcingRequestItems.md).
+-   Contracts
+
+    -   Obligations: View the details of obligation records to fulfill the responsibilities specified in the contract. For more information, see [Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-obligation-records-ham.md).
+    -   Obligation tasks: View the details of obligation tasks associated with obligation records. For more information, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+    **Note:** These options are available if you have HAM integration with the Contract Management Pro application. For more information, see [Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md).
+
 -   Hardware asset normalization
     -   Custom products: View details of custom products that aren't represented in the Asset Management Content Service. For more information, see [Add a custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/add-custom-hardware-model.md).
     -   Custom models: View details of custom models. For more information, see [Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
@@ -46,7 +52,7 @@ The Asset operations view includes the following list:
     -   Task rate card: Define the type of task and the method of calculating the associated costs, and view the details of the created task rate cards. For more information, see [Create a task rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md).
     -   Labor rate card: Record the time worked on a task and associate a rate to the task, and view the details of the created labor rate cards. For more information, see [Create a labor rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-ham-labor-task.md).
 -   Zero touch
-    -   Asset requests: View the list of hardware asset requests of your employees submitted through the Zero Touch request flow. For more information, see [Manage hardware asset requests using the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
+    -   Asset requests: View the list of hardware asset requests of your employees submitted through the Zero Touch request flow. For more information, see [Use Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
     -   Provider integration profiles: Create a provider integration profile to transform the Scratchpad updates from your provider into a format required for the Zero Touch request flow. For more information, see [Create a provider integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-int-profile-ztr-ham.md).
 -   Zero touch refresh
     -   Requests: View the list of Zero Touch Refresh requests of your employees. For more information, see [Process a Zero Touch Refresh request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/process-zero-touch-asset-request.md).
@@ -59,7 +65,6 @@ The Asset operations view includes the following list:
     -   Success activities: Create success activities and view the list of created success activities for Hardware Asset Management. For more information, see [Create success activities for HAM success goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-suc-act-hw.md).
     -   Success categories: Create a category for a success goal and view the list of categories. For more information, see [Create a success goal category for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-ham-suc-cat.md).
     -   Hardware maturity: View items that help you drive the success of your hardware assets. For more information, see [View all maturity items for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-ham-maturity-items.md).
--   Stockroom receiving- Receive assets: View the list of all import records that were performed in any stockroom. For more details, see [Import and receive assets in bulk at your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/import-assets-for-receive-ham.md).
 -   Asset audits: View deprecated audit records created in the Asset Audits \[sn\_hamp\_asset\_audit\] table before upgrading to the audit enhancements introduced in Hardware Asset Management version 15.0.0. For more information, see [View deprecated audit records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-deprecated-audit-records.md).
 
     **Important:**
@@ -68,13 +73,13 @@ The Asset operations view includes the following list:
 
     You can view the deprecated audit records from the Asset Operations view, when the **migrate\_hamaudit** system property to **true**.
 
-    .
-
 -   Asset warranty: View the warranty details of Lenovo hardware assets. For more information, see [Track the warranty details of your Lenovo assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-asset-warranty-details.md).
 
 You can also create and easily access your custom list views from the **My Lists** tab.
 
 \[Omitted image "asset-operations-view.png"\] Alt text: Asset operation view in the Hardware Asset Workspace.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 
 **Related topics**  
 

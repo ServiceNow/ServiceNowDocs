@@ -69,7 +69,7 @@ Frameworks, citations, metric definitions, emission factors
 
 </td><td>
 
-[ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/esg-content-accelerator.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/esg-content-accelerator.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/esg-content-accelerator.md)
 
 </td></tr><tr><td>
 

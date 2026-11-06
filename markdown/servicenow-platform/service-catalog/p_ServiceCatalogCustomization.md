@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,13 +42,13 @@ Administrators can configure options to hide catalog item prices in the service 
 Clone a request to create up to ten copies \(clones\) of the same Service Catalog request, for different users, without having to enter the same information multiple times. For example, you can request a new piece of equipment for several specified people, generating multiple individual requests quickly from a single initial request.
 -   **[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ServiceCatalogScriptingExtensn.md)**  
 Service Catalog enables you to use certain scripts.
--   **[Service Catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)**  
-The home page for a Service Catalog provides the primary front end for ordering items within that catalog. You can configure various elements of the pages within the Service Catalog.
+-   **[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)**  
+The home page for a service catalog provides the primary front end for ordering items within that catalog. You can configure various elements of the pages within the Service Catalog.
 -   **[Configure Classic Mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ServiceCatalogOnMobileDevices.md)**  
 When you configure Service Catalog on a Classic Mobile device, you can define the layout and presentation of catalogs. You can then perform actions such as ordering products and services, submit incidents and problems using record producers.
--   **[Using the content management system with the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)**  
+-   **[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)**  
 Use the content management system \(CMS\) to create a custom interface for the service catalog.
--   **[Customization vs configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/customization-vs-configuration-concepts.md)**  
+-   **[Customization vs configuration]()**  
 There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 
 **Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)

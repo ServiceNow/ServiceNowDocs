@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applying CSDM guidelines to Problem Management, Configure, Problem Management, IT Service Management]
+breadcrumb: [Applying CSDM guidelines to Problem Management, Configuring Problem Management, Problem Management, IT Service Management]
 ---
 
 # Problem Management and CSDM tables
@@ -20,8 +20,8 @@ Problem Management manages and uses CSDM tables. Several ServiceNow products ben
 
 1.  Mapped Application Service \[cmdb\_ci\_service\_discovered\] table: Discovered Application Service \(service instance\) or any infrastructure CI
 2.  Configuration Item \[cmdb\_ci\*\] tables
-3.  Business Service \[cmdb\_ci\_service\_business\] table and Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\): Use the service classification attribute to identify business services and technology management services.
-4.  Service Offering \[service\_offering\] table: Used as a choice list attribute to filter types of service offerings like business service, technology management offering, and service instance.
+3.  Business Service \[cmdb\_ci\_service\_business\] table and Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\): Use the service classification attribute to identify business services and Technology management services.
+4.  Service Offering \[service\_offering\] table: Used as a choice list attribute to filter types of service offerings like business service, Technology management offering, and service instance.
 
 \[Omitted image "pm-used-tables-csdm-v5.png"\] Alt text: CSDM tables used by Problem Management.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/ne-start-options-user.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring start page options, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Start page options, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience user start options
@@ -34,4 +34,6 @@ The start page that you configure should address your daily needs. Next Experien
 
     You can select any page on the platform to be your start, based on a user preference. A user-selected landing page can be any page inside a configurable workspace as well. For more information, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-selected-start-page-preference.md).
 
+
+**Parent Topic:**[Configuring Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

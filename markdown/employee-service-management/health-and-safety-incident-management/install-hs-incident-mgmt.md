@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ You can install the Health and Safety Incident Management application \(sn\_hs\_
 -   Starting from version 10, the previously known Health and Safety Incident Management \(sn\_ohs\_im\) application has been renamed to Health and Safety Core. There is no impact on existing customers using versions up to 9. However, to receive the latest updates for incident management, customers on version 9 and earlier must also install \(sn\_hs\_im\_incident\).
 -   When you upgrade from Health and Safety Incident Management v9 to Health and Safety Core v10, certain reference fields and column labels related to Health and Safety user profile might not update correctly. To resolve this issue, see the [KB article \[KB2057452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2057452) in the Now Support Knowledge Base to create and run a Fix Script.
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Health and Safety Incident Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f27b42a72f373010f2bf532a2799b693) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 **Tip:** The application installation does not install the location demo data for the Workplace Core location model. The location picker on incident and observation forms is mandatory so that users can't submit these forms unless they are populated with locations. As a workaround, repair the Workplace Core plugin with the **Load demo data** option.

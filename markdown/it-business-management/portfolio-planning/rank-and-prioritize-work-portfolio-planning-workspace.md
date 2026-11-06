@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -42,15 +42,15 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d132869e146">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d140722e146">
 
 Choice
 
-</th><th align="left" id="d132869e149">
+</th><th align="left" id="d140722e149">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d132869e155">
+</th></tr></thead><tbody><tr><td id="d140722e155">
 
 **Reorder a single planning item**
 
@@ -60,7 +60,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 
  \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d132869e180">
+</td></tr><tr><td id="d140722e180">
 
 **Reorder multiple planning items at once**
 

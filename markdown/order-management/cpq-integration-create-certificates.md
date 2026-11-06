@@ -1,18 +1,18 @@
 ---
-title: Set up ServiceNow instance for CPQ Integration
-description: Set up the ServiceNow instance and generate the JSON Web Token \(JWT\) and authenticate API calls to Logik.ai.
+title: Set up instance for ServiceNow CPQ integration
+description: Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-integration-create-certificates.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up ServiceNow instance for CPQ Integration
+# Set up instance for ServiceNow CPQ integration
 
-Set up the ServiceNow instance and generate the JSON Web Token \(JWT\) and authenticate API calls to Logik.ai.
+Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to ServiceNow CPQ.
 
 ## Before you begin
 
@@ -20,29 +20,31 @@ Role required: admin
 
 ## Procedure
 
-1.  Validate that the CPQ Integration application is installed on your ServiceNow instance by doing the following
+1.  Validate that the ServiceNow CPQ Integration application is installed on your ServiceNow instance by doing the following:
 
-    1.  Navigate to: https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=3b119df83b566210a0c0989e53e45a15
+    1.  Navigate to https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=3b119df83b566210a0c0989e53e45a15
 
-    2.  Check that the Logik.AI Admin UI Application Registry exists with a ClientID and secret.
+    2.  Check that the ServiceNow CPQ Admin UI Application Registry exists with a ClientID and secret.
 
         This information is used later.
 
-2.  In a directory on your local machine, create the private and public certificates using OpenSSL, then use the keytool to convert the certificate from PKCS to JKS format.
+2.  In a directory on your local machine, generate the private and public certificates by using the `openssl` tool, then use `keytool` to convert the certificate from PKCS to JKS format.
 
-    1.  Create the private key by entering: `openssl genrsa -out private.key 2048`
+    **Note:** Skip this step if the CPQ integration is above 3.1 on the Australia ServiceNow Instance
 
-        The key is created in a file named private.key.
+    1.  Create the private key by using the command `openssl genrsa -out private.key 2048`.
+
+        The key is created in the current folder in a file named private.key.
 
     2.  Create a self-signed certificate that uses the private key by entering: `openssl req -new -x509 -key private.key -out publickey.cer -days 3650`
 
         You’re prompted to enter information that is included in your certificate request. The certificate, named publickey.cer, contains the public key derived from the private key and metadata, such as subject and issuer. The certificate is digitally signed using the private key.
 
-    3.  Create a PKCS\#12 keystore file \(a .p12 file\) by entering: `openssl pkcs12 -export -in publickey.cer -inkey private.key -out keystore.p12 -name "<cert_name>"`
+    3.  Create a PKCS\#12 keystore file \(a .p12 file\) by using the command `openssl pkcs12 -export -in publickey.cer -inkey private.key -out keystore.p12 -name "<cert_name>"`.
 
         This keystore file bundles the signed certificate and private key together and sets the alias for the key+cert entry in the keystore. The file is encrypted using a password \(also called the export password\). This password is required to import and export the certificate.
 
-    4.  Convert the .p12 \(PKCS\#12\) keystore file to .jks \(Java KeyStore\) format by entering: `keytool -importkeystore -srckeystore keystore.p12 -srcstoretype pkcs12 -destkeystore keystore.jks`
+    4.  Convert the .p12 \(PKCS\#12\) keystore file to .jks \(Java KeyStore\) format by using the command `keytool -importkeystore -srckeystore keystore.p12 -srcstoretype pkcs12 -destkeystore keystore.jks`.
 
         -   You’re prompted for the export password from step 2c to read the private key and certificate from the .p12 file.
         -   You’re prompted to enter a new key store password to protect the JKS keystore file. Record and retain this password for later, since it’s required to set up the ServiceNow instance.
@@ -68,6 +70,8 @@ Role required: admin
 
         Set the **Value** to true, then select **Submit**.
 
+        **Note:** Repeat step 3 each time CPQ Integration is reinstalled.
+
 4.  Set up API authentication by creating the integration user roles included with the Sales Customer Relationship Management applications:
 
     1.  Create an integration user.
@@ -86,25 +90,27 @@ Role required: admin
             -   sn\_ind\_tmt\_orm.order\_integrator
             -   sn\_opty\_mgmt\_core.opportunity\_integrator
             -   sn\_sales\_cart.cart\_integrator
+        **Note:** If roles are missing, an app may have failed to properly install. Navigate to the app manager, select the app associated with the missing role, and click **Repair**.
+
     2.  Navigate to: https://&lt;service\_instance\_url&gt;/oauth\_entity\_list.do?sysparm\_query=sys\_id=99a63a9e2baeea1001bff246f291bf57
 
 5.  Personalize the list view to add the **OAuth Application User** column.
 
     Use the **Update Personalized List** icon.
 
-    1.  From the list view, double click the **OAuth Application User** field to edit it.
+    1.  In the list view, double-select the **OAuth Application User** field to edit it.
 
-    2.  Set the user created in Step 4a as the one the Logik.ai API record.
+    2.  Set the user created in Step 4a as the OAuth Application User in the ServiceNow CPQ.ai API record.
 
         If you can't modify this field, verify that you're in the correct scope \(CPQ Integration\).
 
-    3.  Open this Logik.ai API record.
+    3.  Open this ServiceNow CPQ.ai API record.
 
     4.  Select **Active** and save the record.
 
     5.  Switch to the global scope.
 
-    6.  Create a new system property.
+    6.  Create system property.
 
         -   In the navigation filter, enter `sys_properties.list`.
         -   Select **New**.
@@ -112,4 +118,8 @@ Role required: admin
         -   Select the edit icons for Read Roles and Write Roles and select admin for each.
         -   Set the **Value** to true.
         -   Select **Update**.
+
+## What to do next
+
+[Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/set-up-logik-instance.md)
 

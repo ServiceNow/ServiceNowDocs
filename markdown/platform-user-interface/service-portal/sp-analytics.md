@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Analytics and Reporting Solutions for Service Portal, Analyzing por
 
 The Usage Insights application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
 
-\[Omitted video\] Description: Video showing how to navigate and use User Experience Analytics
+\[Omitted video\] Description: Video showing how to navigate and use Usage Insights
 
-You can view user analytics tracking for the portal in the Usage Insights application. For more information, see [Overview of the User Experience Analytics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-dashboard.md).
+You can view user analytics tracking for the portal in the Usage Insights application. For more information, see [Overview of the Usage Insights application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-dashboard.md).
 
 \[Omitted image "sp-analytics-dashboard.png"\] Alt text: Usage Insights interface for Service Portal
 
@@ -53,5 +53,5 @@ Use system properties to configure Usage Insights for Service Portal.
 **Related topics**  
 
 
-[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-landing.md)
+[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-landing.md)
 

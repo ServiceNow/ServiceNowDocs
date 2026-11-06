@@ -1,5 +1,5 @@
 ---
-title: Adding a network interface template to an interface card template
+title: Add a network interface template to an interface card template
 description: If the interface card supports network interfaces directly to it, create an interface template relationship between the two interfaces in the Network Inventory Workspace Lists view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
 
-# Adding a network interface template to an interface card template
+# Add a network interface template to an interface card template
 
 If the interface card supports network interfaces directly to it, create an interface template relationship between the two interfaces in the Network Inventory Workspace Lists view.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-configure-dce-visual.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # Configure DCE Visualizations
@@ -22,7 +22,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 1.  Navigate to **All** &gt; **Data Context Engine** &gt; **Insights** &gt; **All DCE Visualizations**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Enter the following details on the form.
 
@@ -95,23 +95,18 @@ You can select:-   Maximize: The higher the target, the better the score. For ex
 
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
-5.  Navigate to the DCE Visualizations M2Ms Related List and click **New**.
+5.  Navigate to the DCE Visualizations M2Ms Related list and select **New**.
 
 6.  Select a **DCE Insights Item** from the list.
 
     The DCE Insights Item maps a specific visualization to a designated location on a layout, ensuring that insights are displayed in the right context within the user interface. The DCE Insights Item table contains the following fields.
 
-7.  Specify the Rank for this visualization and click **Submit**.
+7.  Specify the Rank for this visualization and select **Submit**.
 
     Navigate to [View product usage and capability data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) to view the configured metrics.
 
     **Note:** You can use the [Color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) to configure the colors that appear on the charts that appear on the product usage and capability pages.
 
-
--   **[DCE Insights tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-dce-insights-table.md)**  
-DCE Insights is a feature of the Data Context Engine that enhances how users view and interact with data directly on record pages and includes the following tables
-
-**Parent Topic:**[Set up the Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-dce.md)
 

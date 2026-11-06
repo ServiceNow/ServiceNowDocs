@@ -1,6 +1,6 @@
 ---
 title: Jira Spoke
-description: Manage issues, users, stories, groups, projects, sprints, and webhooks, and look up audit logs in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL. Install Now Assist for Integration Hub and start using the available AI agents to perform tasks in your ServiceNow instance. Set up triggers for the required events to enable webhooks to connect with your ServiceNow instance.
+description: Manage issues, users, stories, and groups in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/jira-spoke-v3-0-2.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workfl
 
 # Jira Spoke
 
-Manage issues, users, stories, groups, projects, sprints, and webhooks, and look up audit logs in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL. Install Now Assist for Integration Hub and start using the available AI agents to perform tasks in your ServiceNow instance. Set up triggers for the required events to enable webhooks to connect with your ServiceNow instance.
+Manage issues, users, stories, and groups in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Jira spoke v6.1.3 is the latest version.
+Jira spoke v6.1.3 is the latest version. For version history of the spoke, see [Jira spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jira.html).
 
 ## Spoke dependencies
 

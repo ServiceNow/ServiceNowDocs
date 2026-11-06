@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ Role required: agent\_admin.
 
 Agent Client Collector supports the following authentication strategies:
 
--   **Keybased**: For backwards \(pre-Zurich release\) compatibility only. See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
+-   **Keybased**: For backwards \(pre-Brazil release\) compatibility only. See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
 -   **API key**: See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/mid-web-server-api-key-authentication.md).
 -   **mTLS**: See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/mid-web-server-mTLS-authentication.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Create a risk event
+title: Create a risk event entry
 description: Create a risk event entry to determine the monetary or non-monetary impact of the risk event. A risk event can have multiple risk event entries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-event-impact.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-08-18"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Create a risk event
+# Create a risk event entry
 
 Create a risk event entry to determine the monetary or non-monetary impact of the risk event. A risk event can have multiple risk event entries.
 
@@ -26,11 +26,13 @@ Risk event entries capture the direct and indirect losses reported due to the ri
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk Events** &gt; **All Events**.
+1.  Navigate to **All** &gt; **Risk Events** &gt; **All Events** and select the event to be analyzed.
 
-2.  Select **New**.
+2.  Click the Risk Event Entries related list.
 
-3.  On the form, fill in the fields.
+3.  Click **New**.
+
+4.  On the form, fill in the fields.
 
 <table id="table_cjy_rj3_f3b"><thead><tr><th>
 
@@ -42,75 +44,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Name
-
-</td><td>
-
-Unique name of the risk event. For example, `Unauthorized access to customer data`.
-
-</td></tr><tr><td>
-
 Number
 
 </td><td>
 
-Record number for the event entry. This field value is automatically set.
-
-</td></tr><tr><td>
-
-Discovered by
-
-</td><td>
-
-Individual or group identified the risk event.
-
-</td></tr><tr><td>
-
-Opened by
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Primary entity
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Owning group
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Owner
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Substate
-
-</td><td>
-
- 
+Number for the event entry. This field value is automatically set.
 
 </td></tr><tr><td>
 
@@ -193,7 +131,7 @@ Short description
 Brief description of the impact.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>5.  Click **Submit**.
 
 
 ## What to do next

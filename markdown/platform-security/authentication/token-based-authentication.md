@@ -1,20 +1,20 @@
 ---
-title: Token based authentication \(User logins\)
-description: Enhance the security mechanism for users to access a network using token based authentication.
+title: Token based authentication \(user logins\)
+description: Token-based authentication verifies the identity of users who access a network and issues a unique access token.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/token-based-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Access Management]
+breadcrumb: [Authentication, Access Management]
 ---
 
-# Token based authentication \(User logins\)
+# Token based authentication \(user logins\)
 
-Enhance the security mechanism for users to access a network using token based authentication.
+Token-based authentication verifies the identity of users who access a network and issues a unique access token.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/components-of-esg-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -40,7 +40,7 @@ If you integrate Operational Sustainability Management with other products, you 
 -   If you integrate with Project Portfolio Management, you can add programs and projects to capture the work being done to meet your goal.
 -   If you integrate with Integrated Risk Management, you can add risks, risk statements, policies, control objectives, and issues to your goals and build a governance framework.
 
-For more information on integrations, see [Integrating ESG Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md).
+For more information on integrations, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md).
 
 ## Targets
 

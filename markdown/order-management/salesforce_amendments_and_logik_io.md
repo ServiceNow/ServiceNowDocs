@@ -1,24 +1,24 @@
 ---
 title: Salesforce amendments and ServiceNow CPQ
-description: A brief look at the Logik amendments feature, which adds and updates fields in existing objects.
+description: A brief look at the ServiceNow CPQ amendments feature, which adds and updates fields in existing objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/salesforce\_amendments\_and\_logik\_io.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ integration with Salesforce B2B Commerce, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # Salesforce amendments and ServiceNow CPQ
 
-A brief look at the Logik amendments feature, which adds and updates fields in existing objects.
+A brief look at the ServiceNow CPQ amendments feature, which adds and updates fields in existing objects.
 
 The ServiceNow CPQ amendments feature follows the standard CPQ amendment model by adding additional fields to existing objects as well as triggers to update these fields appropriately.
 
 ## Prerequisites
 
-The Logik Extension for Salesforce CPQ must be installed in the org.
+The ServiceNow CPQ Extension for Salesforce CPQ must be installed in the org.
 
 ## How the amendments feature works
 
@@ -41,5 +41,5 @@ The following fields are added to facilitate this functionality.
 |SBQQ Subscription c|LGK ConfigurationId c|
 |SBQQ Subscription c|LGK BomData c|
 
-You can disable this functionality in Setup &gt; Custom Settings &gt; Manage Logik Tenant &gt; Edit &gt; Disable Amendment Triggers.
+You can disable this functionality in Setup &gt; Custom Settings &gt; Manage ServiceNow CPQ Tenant &gt; Edit &gt; Disable Amendment Triggers.
 

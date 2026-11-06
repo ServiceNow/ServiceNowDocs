@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/creation-of-order-entries-in-the-asynchronous-order-processing.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Asynchronous order processing, Order management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -16,21 +16,21 @@ Skip the scheduled job and create order entries manually in the Order Management
 
 ## Before you begin
 
-Role required: admin
+Role required: Order Integrator \[sn\_ind\_tmt\_orm.order\_integrator\]
 
 ## About this task
 
-Before you can create the order entries in the customer order table, all these records are staged in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table. This table helps you to store and manage your order requests during the asynchronous processing of orders.
+Before you can create order entries in the customer order table, records are staged in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table. This table helps you to store and manage your order requests during the asynchronous processing of orders.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  Select the List icon \[Omitted image "list-outline-24.svg"\].
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  Navigate **Inbound Queue Requests** &gt; **All**.
+3.  Navigate to **Inbound Queue Requests** &gt; **All**.
 
-    The following table describes the details displayed on the list view.
+    The Inbound Queue Requests list view provides the following information.
 
 <table id="table_mwd_24r_wvb"><thead><tr><th>
 
@@ -42,11 +42,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record ID
+Resource
 
 </td><td>
 
-System-generated ID of the target table.
+Caller that created the record in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table.
+
+</td></tr><tr><td>
+
+Record id
+
+</td><td>
+
+Unique system-generated ID returned as orderID in the HTTP response.
 
 </td></tr><tr><td>
 
@@ -54,21 +62,21 @@ State
 
 </td><td>
 
-State of the record in the Inbound Queue.-   **New**
+State of the record in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table.-   **New**
 
-The order records are created.
+Order records created.
 
 -   **In Progress**
 
-When the scheduler picks the orders and generates a system ID.
+Scheduler picks orders and generates a system ID.
 
 -   **Completed**
 
-The scheduler has successfully created the customer order record from the Inbound Queue table.
+Scheduler successfully created the customer order record from the Inbound Queue table.
 
 -   **Error**
 
-If the scheduler doesn't successfully create the customer order record.
+Scheduler did not successfully create the customer order record.
 
 </td></tr><tr><td>
 
@@ -80,29 +88,14 @@ External ID of the order from the Configure, Price, and Quote \(CPQ\) system.
 
 </td></tr><tr><td>
 
-Status Code
+Status code
 
 </td><td>
 
-HTTP status codes. If the target record is created successfully, it displays 2xx or 4xx.-   **201**
+HTTP status codes.-   201: Target record successfully created.
+-   202: Record in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table successfully created.
+-   400: Target record not created due to an error.
 
-If the target record is successfully created.
-
--   **202**
-
-If the record in the Inbound Queue table is successfully created.
-
--   **400**
-
-If the target record isn’t created due to any error.
-
-</td></tr><tr><td>
-
-Resource
-
-</td><td>
-
-Information about which caller created the record in the inbound queue table​.
 
 </td></tr><tr><td>
 
@@ -110,7 +103,7 @@ Error message
 
 </td><td>
 
-\(Optional\) Error message that is returned for an exception​.
+\(Optional\) Error message returned for an exception.
 
 </td></tr><tr><td>
 
@@ -118,7 +111,7 @@ Payload
 
 </td><td>
 
-Payload that was received via an API​.
+Payload received via an API.
 
 </td></tr><tr><td>
 
@@ -134,10 +127,10 @@ Reference table
 
 </td><td>
 
-Name of the target table.
+Name of the target table, such as Customer Order.
 
 </td></tr></tbody>
-</table>4.  Select a record using which you want to create an order.
+</table>4.  From the list, select a record to create an order.
 
 5.  On the Inbound Queue page, select **Create Order**.
 
@@ -149,4 +142,11 @@ Name of the target table.
 [Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-om-approve-product-order.md)
 
 **Parent Topic:**[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/asynchronous-order-processing.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
 

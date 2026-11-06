@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,11 +18,11 @@ Reference topics provide property settings, domain separation, and other referen
 
 ## Reference topics
 
--   **[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)**
+-   **[Domain separation and CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)**
 
     How domain separation is supported in IRE to let you separate data, processes, and administrative tasks by domains in your organization.
 
--   **[Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)**
+-   **[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)**
 
     Properties that you can adjust to manage different aspects of how IRE functions.
 
@@ -30,7 +30,7 @@ Reference topics provide property settings, domain separation, and other referen
 
     Errors and messages that the Identification and Reconciliation Engine \(IRE\) generates.
 
--   **[Components installed with IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_IWIdentAndReconcil.md)**
+-   **[Components installed with Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_IWIdentAndReconcil.md)**
 
     Details about tables associated with IRE.
 

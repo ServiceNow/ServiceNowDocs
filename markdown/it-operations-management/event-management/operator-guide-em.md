@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -58,7 +58,7 @@ Lesson 4
 
 </td></tr></tbody>
 </table>-   **[An overview of alerts for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-events-alerts.md)**  
-As an Event Management operator, you need to understand how an alert is generated from an event and what to look for in an alert. You also need to understand how alerts can be grouped together.
+As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 -   **[Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-application-services.md)**  
 As an Event Management operator, you need to understand what application services are.
 -   **[Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-user-interfaces.md)**  

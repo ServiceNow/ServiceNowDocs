@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gm-ref.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Public Sector Digital Services \(PSDS\)]
 ---

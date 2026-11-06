@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -23,6 +23,8 @@ Using the abilities of the Smart Assessment Engine, you can empower the privacy 
 -   Defining the due date for responding to the assessment
 
 In the Assessment Workspace, you can view the templates available for Privacy Case Management. You must ensure that the assessment template category is set to **Privacy Case Assessment** and the assessment targets are set to **Action task** and **Privacy case**. Only the assessment templates that are published are available for performing the assessments.
+
+You can publish a new version of a smart assessment template when its questionnaire, response options, or automations must change. Each version keeps a complete change history. Only one version is published at a time, so new assessments stay consistent. New assessments use the latest published version, while in-progress assessments finish against the version they were created with. For more information, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 For more information about Smart Assessment Engine, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md)
 

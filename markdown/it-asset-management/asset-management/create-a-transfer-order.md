@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create a transfer order
@@ -50,5 +50,5 @@ Create transfer order lines to specify the items that the transfer order compris
 **Related topics**  
 
 
-[Create a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line.md)
+[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line.md)
 

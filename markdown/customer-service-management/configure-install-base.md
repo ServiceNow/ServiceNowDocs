@@ -1,36 +1,36 @@
 ---
-title: Configure Install base
+title: Configure install base
 description: Track which products and services have been purchased by a customer, how they've been installed or provisioned, along with the detailed configuration for each installed item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-install-base.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Configure Install base
+# Configure install base
 
 Track which products and services have been purchased by a customer, how they've been installed or provisioned, along with the detailed configuration for each installed item.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Install the Customer Service Install Base Management plugin \(com.snc.install\_base\) from the ServiceNow Store.
+Install the Customer Install Base Management plugin \(com.snc.install\_base\) from the ServiceNow Store.
 
-Capture the Install base for a customer by creating sold products, Install base items, and installed products. The Install base would enable the customer service agents to trace issues back to the relevant product, instances of that product, and other entities impacting their functioning.
+Capture the install base for a customer by creating sold products, install base items, and installed products. This would enable the customer service agents to trace issues back to the relevant product, instances of that product, and other entities impacting their functioning.
 
-Before setting up your Install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-products.md).
+Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-products.md).
 
 This example shows the summary of the customer's purchase on the Solana microwave.
 
 \[Omitted image "install-base-example.png"\] Alt text: Solana corporation sells 800 series microwave in different colors and two capacity choices. Boxeo installed one model in their break room in the office as installed base and manages it.
 
-There are three parts to setting up your Install base.
+There are three parts to setting up your install base.
 
 <table id="table_ekf_rwq_rgb"><tbody><tr><td>
 
@@ -46,7 +46,7 @@ Install Base Items
 
 </td><td>
 
-Create an Install base item to track instances that have been provisioned for an account or consumer. An Install base item can be any configuration item that has been made accessible to customers. For Software as a Service \(SaaS\) products, an Install base item refers to an application service configuration item.
+Create an install base item to track instances that have been provisioned for an account or consumer. An install base item can be any configuration item that has been made accessible to customers. For Software as a Service \(SaaS\) products, an install base item refers to an application service configuration item.
 
 </td></tr><tr><td>
 
@@ -57,9 +57,9 @@ Installed Products
 Create an installed product to track information on the instances that a sold product is deployed on at an account or consumer. A sold product can have multiple installed product records depending on the number of instances of the product in use.
 
 </td></tr></tbody>
-</table>You can create sold products, Install base items, and installed products as individual records, import them in bulk, or create them from an Account or Consumer record.
+</table>You can create sold products, install base items, and installed products as individual records, import them in bulk, or create them from an Account or Consumer record.
 
-Customer service agents can view Install base information in Agent Workspace. Customers can view Install base information on the Customer Service Portal.
+Customer service agents can view install base information in Agent Workspace. Customers can view install base information on the Customer Service Portal.
 
 ## Procedure
 
@@ -72,8 +72,8 @@ Customer service agents can view Install base information in Agent Workspace. Cu
     |Task|Description|
     |----|-----------|
     |Import Sold Products|Import sold products to track the products or services sold to an account or consumer.|
-    |Import Install Base Items|Import Install base items that represent the items installed or provisioned for a customer.|
-    |Import Installed Products|Import installed products to create an association between sold products and Install base items.|
+    |Import Install Base Items|Import install base items that represent the items installed or provisioned for a customer.|
+    |Import Installed Products|Import installed products to create an association between sold products and install base items.|
 
 4.  To perform a task, select **Configure**.
 

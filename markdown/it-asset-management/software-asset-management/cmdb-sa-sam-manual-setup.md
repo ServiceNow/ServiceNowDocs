@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [manual dashboard setup, select software products, SAM advisor scope, Select software products dialog box, software product selection]
-breadcrumb: [Get started with dashboard setup, Set up advisor, Use SAM advisor, Software Asset Management, IT Asset Management]
+breadcrumb: [Get started with dashboard setup, Set up advisor, Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Set up the SAM advisor dashboard manually

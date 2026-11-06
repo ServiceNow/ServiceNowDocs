@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Create and manage enterprise assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Track assets using indoor maps in the Enterprise Asset Workspace
@@ -18,32 +18,7 @@ Use indoor maps to locate and track the enterprise assets, consumable assets, an
 
 ## Before you begin
 
-To use indoor maps in the Enterprise Asset Workspace, fulfill the following requirements:
-
--   Explicitly install the Indoor Mapping for Assets \(com.sn\_ima\) application from the ServiceNow® Store. When you install this application, Indoor Mapping \(sn\_map\_core\) and Indoor Mapping component \(sn\_map\_component\) are also installed.
-
-    If you purchased the Enterprise Asset Management license after November 3, 2023 using the updated Enterprise Asset Management SKU \(PROD21613\), you can install the Indoor Mapping for Assets \(com.sn\_ima\) application.
-
--   Set the **com.sn\_eam.indoormap.enabled** asset parameter to **true** on your ServiceNow instance.
-
--   Set up your indoor maps: You can design indoor maps using Map Studio. For more information, see [Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/configure-ind-mapping.md).
-
-    **Note:** When you install indoor maps using the entitlement to the Enterprise Asset Management license, you can use only the PNG floor map files in the Map Studio. You can’t import the files that are in AutoCAD or Raster file format. To use AutoCAD or Raster files, you should have entitlement to the Workplace Service Delivery application.
-
--   Configure the option to display the **Asset indoor map** tab in the Enterprise asset estate view of the Enterprise Asset Workspace. For detailed instructions, see [Configure tabs in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/configure-model-asset-class-tabs.md).
-
-    **Note:** This tab appears only if the **Include in tab** option is enabled in the Asset indoor map tab configuration.
-
--   Synchronize location data: The Enterprise Asset Management application supports the following indoor mapping location types:
-
-    -   Campus: Represents a set of buildings within the same geographic location.
-    -   Building: Represents a multi-floor building within a specific campus.
-    -   Floor: Represents a floor within a specific building.
-    -   Place: Represents either a polygon or point of interest within a specific floor. Places can represent areas, rooms, desks, printers, assets, and more.
-    **Note:** For indoor maps to show assets in the Enterprise Asset Workspace, assets should be assigned to a location of the type **place** or **room** in the Location \[cmn\_location\] table.
-
-    To view the newly created locations within the Enterprise Asset Management application, make sure to synchronize the newly created locations from Map Studio to the Location \[cmn\_location\] table. You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/sync-ind-mapping-cmn-location.md).
-
+To use indoor maps in the Enterprise Asset Workspace, you must fulfill all the requirements specified in [Indoor maps in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/indoor-maps-eam.md).
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 

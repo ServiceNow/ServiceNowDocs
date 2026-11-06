@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure the list page in Service Operations Workspace for ITSM
@@ -32,7 +32,7 @@ Role required: admin
 
 2.  On the SOW Admin Center page, navigate to **Initial setup** &gt; **SOW properties**.
 
-3.  On the SOW properties page, in the **Improve page load speed for list view pages in SOW** tile, select **Configure**.
+3.  On the SOW properties page, in the **Set display count to improve list loading** tile, select **Configure**.
 
     The **fuzzyCount** UX property page opens on a separate tab.
 

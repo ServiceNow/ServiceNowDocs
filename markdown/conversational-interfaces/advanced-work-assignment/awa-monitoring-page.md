@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -77,6 +77,4 @@ The Advanced Work Assignment Stats page displays AWA performance statistics. Adm
 |Mean Routing Time for Work Items|Mean routing time of creating a work item for a given record and assigning it to the queue|
 |Median Routing Time for Work Items|Median routing time of creating a work item for a given record and assigning it to the queue|
 |Total Routing Count of Work Items|Total number of work items routed to the queue from created records|
-
-**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
 

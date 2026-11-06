@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [The experience switcher, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [The experience switcher, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a role's access to the experience switcher
@@ -39,19 +39,19 @@ This topic is for giving non-default roles to the experience switcher. The follo
 
 4.  Specify the roles that should get access to the experience.
 
-    1.  Unlock the **Available for roles** field by selecting the lock icon \(\[Omitted image "crs-purple-lock.png"\] Alt text:\).
+    1.  Unlock the **Available for roles** field by selecting the lock icon \[Omitted image "crs-purple-lock.png"\] Alt text:.
 
     2.  Start typing and then select the name of the role you're giving access to.
 
-    3.  Lock the **Available for roles** field by selecting the unlock icon \(\[Omitted image "crs-purple-unlock.png"\] Alt text:\).
+    3.  Lock the **Available for roles** field by selecting the unlock icon \[Omitted image "crs-purple-unlock.png"\] Alt text:.
 
 5.  Specify the roles that should not have access to the experience.
 
-    1.  Unlock the **Not available for roles** field by selecting the lock icon \(\[Omitted image "crs-purple-lock.png"\] Alt text:\).
+    1.  Unlock the **Not available for roles** field by selecting the lock icon \[Omitted image "crs-purple-lock.png"\] Alt text:.
 
     2.  Start typing and then select the name of the role you're restricting access for.
 
-    3.  Lock the **Not available for roles** field by selecting the unlock icon \(\[Omitted image "crs-purple-unlock.png"\] Alt text:\).
+    3.  Lock the **Not available for roles** field by selecting the unlock icon \[Omitted image "crs-purple-unlock.png"\] Alt text:.
 
 6.  Select **Submit** to save the changes.
 

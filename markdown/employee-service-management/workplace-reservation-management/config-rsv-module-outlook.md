@@ -7,8 +7,8 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-07"
-reading_time_minutes: 23
+last_updated: "2026-09-10"
+reading_time_minutes: 22
 breadcrumb: [Manage Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -668,9 +668,3 @@ Option to specify what status of the reservation that is shown on the employee's
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md)
-
-**Previous topic:**[Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md)
-
-**Next topic:**[Redirect WSD RSV MOA OAuth registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/route-outlook-add-in.md)
-

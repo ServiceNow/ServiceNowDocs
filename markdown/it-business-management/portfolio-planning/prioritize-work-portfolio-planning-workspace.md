@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -36,15 +36,15 @@ Review and prioritize the items in the Prioritization or Hierarchy tab views dur
 
 3.  From the Prioritization or Hierarchy tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d293352e126">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d315900e126">
 
 Tab
 
-</th><th align="left" id="d293352e129">
+</th><th align="left" id="d315900e129">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d293352e135">
+</th></tr></thead><tbody><tr><td id="d315900e135">
 
 **Prioritization**
 
@@ -54,7 +54,7 @@ Update the **Planning state** field of the item.
 
  \[Omitted image "backlog-planning-state.png"\] Alt text: Planning state update in Prioritization page.
 
-</td></tr><tr><td id="d293352e157">
+</td></tr><tr><td id="d315900e157">
 
 **Hierarchy**
 

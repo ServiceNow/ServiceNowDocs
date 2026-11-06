@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/explore-demand-forecast-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -39,7 +39,7 @@ When you create Demand Forecast configurations, the application creates these me
 
 ## Analyzing Demand Forecast resource prediction
 
-\[Omitted video\] Description: Demand Forecast in Workforce Optimization overview
+\[Omitted video\] Description: Demand Forecast in Workforce Optimization
 
 As a manager with the forecast admin role, you can create forecast parameters in the Manager Workspace. [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/modify-demand-forecast-parameters-configurable-wfo.md) and preview time-series data before publishing it. You can create any number of forecasts to preview the time-series data in real time.
 
@@ -111,7 +111,7 @@ As a WFO admin, you need to configure assignment groups associated with Workforc
 
 **Note:** If you need to add new assignment groups after the historical or daily data collection job has already been run, update the corresponding data collection definition by setting the `is_historical_data_collected` flag to false and the duration to 0. After making these changes, rerun the historical data collection job to ensure that historical data is collected for the newly added groups, maintaining the accuracy and completeness of demand forecasts.
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 

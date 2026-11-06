@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-rfq-plugin.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ You can install the Customer Request for Quote application \[sn\_cust\_rfq\] if 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Customer Request for Quote](https://store.servicenow.com/sn_appstore_store.do#!/store/application/11198fdbff3aa610d6e6ffffffffffdb) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -53,4 +53,11 @@ For more information, see [Components installed with Customer Request for Quote]
 
 6.  Select **Install**.
 
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-self-service-business-portal.md)
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-business-portal.md)
 

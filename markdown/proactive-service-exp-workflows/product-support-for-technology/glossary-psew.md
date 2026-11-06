@@ -7,10 +7,10 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
-breadcrumb: [Reference, Proactive Service Experience Workflows]
+keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
+breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Glossary Proactive Service Experience Workflows
@@ -47,7 +47,7 @@ A table used to determine which subflow to generate at certain escalation points
 
 ### domain separation
 
-Enables developers to separate data, processes, and administrative tasks into logical groupings called domains. Developers can then control the information available to each domain, including which users can see and access the data. Typically used only in Multiple Service Provider \(MSP\) organizations.
+A process to separate data, processes, and administrative tasks into logical groupings called domains. Admins can then control the information available to each domain, including which users can see and access the data. Typically used only in Multiple Service Provider \(MSP\) organizations.
 
 ## E
 
@@ -55,7 +55,7 @@ Glossary terms are grouped alphabetically.
 
 ### escalation
 
-The process of moving an incident to a higher level of support for faster resolution. PSEW includes predefined stages of escalation: Triage, L1 investigation, L2 investigation, L3 investigation, and Resolution.
+The process of moving an incident to a higher level of support for faster resolution. PSEW includes predefined stages of escalation: Triage, L1 investigation, L2 investigation, L3 investigation, and Resolution. To learn more, see [About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md).
 
 ## H
 
@@ -63,7 +63,7 @@ Glossary terms are grouped alphabetically.
 
 ### hermes kafka
 
-A messaging service used to publish outbound notifications to external systems, particularly for cloud customers.
+A messaging service used to publish outbound notifications to external systems, particularly for cloud customers. To learn more, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md).
 
 ## I
 
@@ -95,7 +95,7 @@ Glossary terms are grouped alphabetically.
 
 ### operations account 360
 
-A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics.
+A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see [Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md).
 
 ### open message bus
 
@@ -119,7 +119,7 @@ A contractual commitment defining service performance standards and service avai
 
 ### service operations workspace
 
-A dedicated workspace within ServiceNow where technical support agents can manage and resolve incidents, view affected accounts, and communicate with customers. To learn more, see [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/sow-landing-page.md).
+A dedicated workspace within ServiceNow where technical support agents can manage and resolve incidents, view affected accounts, and communicate with customers.
 
 ## T
 
@@ -127,11 +127,11 @@ Glossary terms are grouped alphabetically.
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/trouble-ticket-open-api.md).
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/trouble-ticket-open-api.md).
 
 ### trouble ticket notification
 
-A feature that sends notifications to third-party systems about incidents or cases created in ServiceNow, either reactively or proactively.
+A feature that sends notifications to third-party systems about incidents or cases created in ServiceNow, either reactively or proactively. To learn more, see [Exploring API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md).
 
 ## W
 

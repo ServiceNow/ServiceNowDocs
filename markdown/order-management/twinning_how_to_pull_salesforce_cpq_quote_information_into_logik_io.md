@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/twinning\_how\_to\_pull\_salesforce\_cpq\_quote\_information\_into\_logik\_io.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow CPQ integration with Salesforce B2B Commerce, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ In the SFDC CPQ quote object \(SBQQ\_Quote\_c\), confirm that there is a field s
 
 1.  In SFDC, add a custom field to the SFDC CPQ quote object with the format &lt;someName&gt;LGK. This will create a field with the API name &lt;someName&gt;LGK\_c.
 
-    In Logik, variable names begin with a lowercase character by default. Take care to make sure your twinned quote object in SFDC begins with a lowercase character as well.
+    In ServiceNow CPQ, variable names begin with a lowercase character by default. Take care to make sure your twinned quote object in SFDC begins with a lowercase character as well.
 
 2.  Add this custom field to the ReferencedFields field set on the quote object. In SFDC, navigate to Setup -&gt; Object Manager -&gt; quote \(SBQQ\_Quote\_c\) -&gt; Field Sets -&gt; ReferencedFields. From the list of quote fields, drag and drop your new custom field into the In the Field Set box.
 

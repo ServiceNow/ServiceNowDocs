@@ -1,5 +1,5 @@
 ---
-title: Configure financials for planning items in Strategic Planning
+title: Configure financials for planning items Strategic Planning
 description: Configure the ServiceNow Internal integrations to view the financials for planning items in Strategic Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/config-fin-spw.html
@@ -7,12 +7,12 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Configure financials for planning items in Strategic Planning
+# Configure financials for planning items Strategic Planning
 
 Configure the ServiceNow Internal integrations to view the financials for planning items in Strategic Planning.
 
@@ -80,6 +80,6 @@ Role required: admin
 
 15. Activate and define scheduled jobs to automatically generate labor costs for your planning items based on the attribute-based resource assignments at a defined cadence.
 
-    For more information, see [Activate scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
+    For more information, see [Scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

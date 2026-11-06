@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure notifications in Service Operations Workspace for ITSM
@@ -18,7 +18,7 @@ Customize notifications that are sent to an agent to update about various change
 
 ## Before you begin
 
-Role required: workspace\_admin, notification\_provider\_admin, sn\_sow\_admin.sn\_sow\_admin or admin
+Role required: workspace\_admin, notification\_provider\_admin, or admin
 
 For delegation notifications, the Notification Provider for Next Experience plugin \(com.glide.notification.provider.next.experience\) must be installed.
 

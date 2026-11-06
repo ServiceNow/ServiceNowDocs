@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Ma
 
 The Action planner sidebar panel in the Health and Safety Workspace enables safety teams to manage actions directly from a Health and Safety record, without navigating away from the page.
 
-\[Omitted image "image.health-safety-action-planner-example"\] Alt text: Risk assessment form with the Action planner panel open.
+\[Omitted image "health-safety-action-planner-example.png"\] Alt text: Risk assessment form with the Action planner panel open.
 
 ## What you can do with the Action planner
 
@@ -30,7 +30,7 @@ The Action planner sidebar panel in the Health and Safety Workspace enables safe
 The Action planner is available on any Health and Safety record that has an **Actions** tab and is visible to users with the Safety action writer \(sn\_ohs\_im.action\_writer\) role. To open the Action planner for a Health and Safety record,
 
 1.  In the **Health and Safety Workspace**, open a safety record such as safety incident or risk assessment.
-2.  Select the Action Planner icon \(\[Omitted image "image.health-safety-action-planner"\] Alt text: Action Planner icon\) from the contextual sidebar panel.
+2.  Select the Action Planner icon \(\[Omitted image "health-safety-action-planner.png"\] Alt text: Action Planner icon\) from the contextual sidebar panel.
 
 ## Suggested actions availability
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/interaction-controls-component-icc-call-interaction-features.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Interaction Controls Component \(ICC\) call features
@@ -54,15 +54,7 @@ Interaction record
 
 </td><td>
 
-View an interaction record within the global call component in the supported workspaces, such as CSM.
-
- An interaction record is automatically created for each call. Opening the interaction record expands any voice interaction to show additional call details, including call transcript, wrap-up options, and customer context. The agent can view and update this record during the call and in the wrap-up interaction.
-
-**Note:** You can use an identity property and extension point to hide the conversation panel when real-time transcription is turned on or off. See: [Show or hide the conversation panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/show-hide-conversation-panel.md)
-
- The Interaction record page contains several other features that can be used to assist agents resolve customer issues while on call. Description of these features, such as record information, customer history, and KB search are available in the next table.
-
- Agents can also view interaction record details in unsupported workspaces with the call resiliency capability. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-call-resiliency.md).
+View an interaction record within the global call component in the supported workspace, such as CRM Workspace.
 
 </td></tr><tr><td>
 
@@ -74,26 +66,7 @@ Active call component
 
 </td><td>
 
-Use the active call features to manage incoming, ongoing, and outgoing calls, and is available as an embedded component within the open interaction page. The active call components are available via integration with ICC.
-
- The agent can monitor interactions and access them using the call control panel, which provides call control buttons such as record, mute, hold, and transfer \(consult or blind\). Additionally, real-time call data is shown, such as the call's associated interaction record, hold time, and call duration. Moving away from the interaction page to another area of the workspace automatically opens the global call component.
-
- -   Active call: When an agent is in an active call, the associated interaction record displays. Selecting the link opens the interaction record in a new tab. During an active call, you can use buttons to hold, start, or stop recording, mute yourself or other parties, and transfer calls to a queue, other agents, or external numbers. Additionally, agents get notified when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system.
--   Call transfer: Transfers calls using either consult or blind transfer methods. In a consult transfer, you can share the call context with the external contact before completing the transfer. A blind transfer immediately transfers the call to the external contact. Follow these steps to better assist a customer using the 'call transfer feature:
-    -   **Initiate call transfer**
-
-Select the transfer icon on the active call component, which places the customer call on hold.
-
-    -   **Select Receiving agent**
-
-Choose the agent to transfer the call to from the Agent's list.
-
-    -   **Choose transfer method**
-
-Consult: Talk to the agent before transferring the call. You can then either 'Merge calls' by combining your call with the new agent's call, or 'Leave &amp; Transfer calls' by disconnecting from the call and transferring the call directly.
-
-Blind: Transfer the call directly without consultation.
-
+Use the active call features to manage incoming, ongoing, and outgoing calls, which is available as an embedded component within the open interaction page.
 
 </td></tr><tr><td>
 
@@ -105,19 +78,18 @@ Global call component
 
 </td><td>
 
-Enable agent movement between screens in the ServiceNow instance by displaying real-time call data in the component panel. The global call component provides an experience that enables agents to access call controls and embedded functionality within any workspace that supports the ICC enabled features. The global call components are available via OpenFrame integration. See: [Global call list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-global-call-list.md).
-
- This component is used to make and manage outbound and incoming calls. Agents can switch between workspaces anywhere within the application while taking ongoing calls. If an agent switches to a non-interaction tab during an ongoing call, the call continues to be active. All other active call controls can be accessed from this component.
-
--   Outbound call: Initiates outbound calls to contact customers, using the phone keypad to dial manually, or by selecting the call icon on the record phone field for direct calls. Avail the phone directory for ease of making outbound calls.
--   -   Callbacks: Outbound calls also support customer callback requests. When enabled and integrated within CSM, the agent can follow up on a callback request by manually completing an outbound call.
-
-**Note:** For more information on callbacks, view [Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-intergration-with-icc-callback.md)
-
--   Phone directory: Agents can use the integrated address book to make outbound calls to queues, other agents, and external numbers. They can also enter a phone number directly in the global call list window to make calls. See: [Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-phone-directory.md).
+Enable agent movement between screens in the ServiceNow instance by displaying real-time call data in the component panel.
 
 </td></tr></tbody>
 </table>## Interaction record page features within the CRM Workspace
+
+An interaction record is automatically created for each call. Opening the interaction record expands any voice interaction to show additional call details, including call transcript, wrap-up options, and customer context. The agent can view and update this record during the call and in the wrap-up interaction.
+
+**Note:** You can use an identity property and extension point, to hide the conversation panel when real-time transcription is turned on or off. See: [Show or hide the conversation panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/show-hide-conversation-panel.md)
+
+The Interaction record page contains several other features that can be used to assist agents resolve customer issues while on call. Description of these features, such as record information, customer history, and KB search are available in the next table. For feature information, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md).
+
+Agents can also view interaction record details in unsupported workspaces with the call resiliency capability. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-call-resiliency.md).
 
 The Interaction records page surfaces capabilities that assist agents both during and after calls. The following table describes additional features that are embedded within the record page.
 
@@ -143,7 +115,7 @@ Record information
 
 </td><td>
 
-An agent is able to view and update the record during their call. This section displays details of the task or case linked to the interaction.
+An agent is able to view and update the record during their call. This section displays details of the task or case linked to the interaction. See [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md).
 
 </td></tr><tr><td>
 
@@ -159,7 +131,7 @@ Customer history
 
 </td><td>
 
-Agents can open an overview of the customer and their interaction history, as well as display a timeline of the all previous agent interactions. The agent can use this context to identify recurring issues or follow up on earlier cases.
+Agents can open an overview of the customer and their interaction history, and also display a timeline of all previous agent interactions. The agent can use this context to identify recurring issues or follow up on earlier cases.
 
 </td></tr><tr><td>
 
@@ -180,4 +152,57 @@ Now Assist automatically generates a call summary and adds it to the interaction
  **Note:** Enable the call transcription capability to implement this feature.
 
 </td></tr></tbody>
-</table>
+</table>## Active call component
+
+Active call components are available via integration with ICC.
+
+The agent can monitor interactions and access them using the call control panel, which provides call control buttons such as record, mute, hold, and transfer \(consult or blind\). Additionally, real-time call data is shown, such as the call's associated interaction record, hold time, and call duration. Moving away from the interaction page to another area of the workspace automatically opens the global call component.
+
+-   Active call: When an agent is in an active call, the associated interaction record displays. Selecting the link opens the interaction record in a new tab. During an active call, you can use buttons to hold, start, or stop recording, mute yourself or other parties, and transfer calls to a queue, other agents, or external numbers.
+    -   **Overflow menu**
+
+        Access primary call controls \(Recording, Hold, Mute, Transfer, and Help Request\) directly on the active call interface. Additional CCaaS-defined actions are available through an overflow menu when controls exceed five or available display width is crossed. See [Implement the overflow menu for active calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/implement-overflow-menu-icc.md).
+
+    -   **Agent help request**
+
+        Agents get notified when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system. See [Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/agent-help-request-for-voice-calls.md).
+
+    -   **Real-time availability update**
+
+        Agents get accurate availability status updates for other agents, supporting informed transfer decisions. Agent availability status updates in the transfer list and phone directory in real-time during call transfers.
+
+    -   **Agent-initiated call wrap-up**
+
+        Agents can initiate call wrap-up during an active call reducing reliance on post-call recall and shortening the time they spend on wrap-up tasks after the call ends. See [Call Wrap-Up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/initiate-agent-wrap-up-during-active-call.md).
+
+-   Call transfer: Transfers calls using either consult or blind transfer methods. In a consult transfer, you can share the call context with the external contact before completing the transfer. A blind transfer immediately transfers the call to the external contact. Follow these steps to better assist a customer using the 'call transfer feature:
+    -   **Initiate call transfer**
+
+        Select the transfer icon on the active call component, which places the customer call on hold.
+
+    -   **Select Receiving agent**
+
+        Choose the agent to transfer the call to from the Agent's list.
+
+    -   **Choose transfer method**
+
+        Choose **Consult** or **Blind** transfer methods:
+
+        -   Use **Consult** to talk to the agent before transferring the call. You can **Merge** calls by combining your call with the new agent's call, or **Leave &amp; Transfer** calls by disconnecting from the call and transferring the call directly.
+        -   Blind: Transfer the call directly without consultation.
+        Blind: Transfer the call directly without consultation.
+
+
+## Global call component
+
+The global call component enables agents to access call controls and embedded functionality within any workspace that supports the ICC enabled call features. The global call components are available via OpenFrame integration. See: [Global call list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-global-call-list.md).
+
+This component is used to make and manage outbound and incoming calls. Agents can switch between workspace anywhere within the application while taking ongoing calls. If an agent switches to a non-interaction tab during an ongoing call, the call continues to be active. All other active call controls can be accessed from this component.
+
+-   Outbound call: Initiates outbound calls to contact the customer. Use the phone keypad to dial manually, or select the call icon on the record phone field for direct calls. Avail the phone directory for ease of making outbound calls.
+-   -   Callbacks: Outbound calls also support customer callback requests. When enabled and integrated within CSM, the agent can follow up on a callback request by manually completing an outbound call.
+
+    **Note:** For more information on callbacks, view [Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-intergration-with-icc-callback.md)
+
+-   Phone directory: Agents can use the integrated address book to make outbound calls to queues, other agents, and external numbers. They can also enter a phone number directly in the global call list window to make calls. See: [Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-phone-directory.md).
+

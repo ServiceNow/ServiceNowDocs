@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-drtp-reg-contract.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a contract and enhance digital resilience data
@@ -20,7 +20,7 @@ Role required: sn\_oper\_res.manager
 
 ## About this task
 
-The Digital resilience third-party registers include details about who within your organization is using externally outsourced ICT services, which functions and branches are using them, and who the third-party providers and their engagements are. The contracts link these two aspects together.
+The Digital resilience third-party registers include details about who within your organization is using externally outsourced ICT services. They show which functions and branches are using them and who the third-party providers and their engagements are. The contracts link these two aspects together.
 
 The contracts link both parties—those using the information and those providing it. Essentially, they bind legal entities, branches, and functions to third parties and third-party engagements.
 
@@ -38,71 +38,115 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-contract-form.md).
+    Specific information sub-head is shown in the Create New Contractual arrangement form. The Service provider type field controls which identification fields are displayed \(Third party, Third-party engagement, or Legal entity\).
+
+    For description of the fields on the form, see [Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-contract-form.md).
 
 4.  To submit the contract for review, select **Submit for Review**.
 
 5.  Select **Save**.
 
-6.  To add entities signing the contract to use the ICT services associated with the contract, navigate to the **Entities signing contract to use service** related list of the contract record and select **Add**.
+6.  Navigate to Entity make using the service related list and select **New**.
 
-7.  Select **Save**.
+    1.  Update the **LEI using service** field.
 
-8.  To add entities using the ICT services associated with the contract, navigate to the **Entities making use of services** related list of the contract record and select **Add**.
+    2.  Add the branch ID for a branch and update the Function identifiers fields.
+
+    3.  Select **Save**.
+
+7.  To set up the digital resilience information for DORA regulation, navigate to the **Digital resilience information** tab and select **New**.
+
+    The Create New Contractual arrangement form is displayed.
+
+8.  On the form, fill in the fields.
+
+    For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-cont-arrange-form.md).
+
+    **Note:** Third party, Third-party engagement, and Contractual arrangement Digital resilience information records include a reference field back to their parent record.
 
 9.  Select **Save**.
 
-    **Note:** When creating multiple entities using the ICT services, the combination of LEI and Nature of the entity must be unique. If the nature of the entity is a branch, the combination of the LEI of the entity, Nature of the entity, and the identification code of the branch must be unique.
+    Before saving a contractual arrangement record, the system checks for duplicate records. A duplicate is detected when an existing record matches on the combination of the following 8 key fields:
 
-10. To add entities signing the contract to provide ICT services associated with the contract, navigate to the **Entity providing services** related list of the contract record and select **Add**.
+    1.  Contractual arrangement reference number
+    2.  Entity using the service \(LEI\)
+    3.  ICT third-party service provider
+    4.  Country of provision of the ICT services
+    5.  Function identifier
+    6.  Type of ICT services
+    7.  Storage location
+    8.  Processing location
+    For the multi-select fields \(Function identifier, Type of ICT services, Storage location, Processing location\), any overlap between records is treated as a match. This uses intersection logic, not exact match. If both records have an empty multi-select field, they are also considered matching.
 
-11. Select **Save**.
+    If a duplicate is detected, the save is blocked and the following error message is displayed: `A duplicate contractual arrangement (Sys ID: {id}) already exists for this service provider. Check for overlaps in function, service type, or country before saving.`
 
-12. To add third parties signing the contract to provide ICT services associated with the contract, navigate to the **Third party signing contract to provide services** related list of the contract record and select **Add**.
-
-13. Select **Save**.
-
-14. To add third-party engagements signing the contract to provide ICT services associated with the contract, navigate to the **Third-party engagements signing contract** related list of the contract record and select **Add**.
-
-15. Select **Save**.
-
-16. To set up the digital resilience information for DORA regulation, navigate to the **Specific information** related list and create a contractual arrangement by selecting **New**.
-
-17. On the form, fill in the fields.
-
-    **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
-
-18. Select **Save**.
+    **Note:** When you update an existing record without changing the key fields, the duplicate check excludes the current record, so the save is not incorrectly blocked as a self-duplicate.
 
     Every contractual arrangement with specific information must have at least one rank 1 ICT service supply chain record. The system enforces this requirement, including for records created through data migration.
 
     The system also checks referential integrity between related DORA reporting sheets, for example, between template B\_05.02 and template B\_07.01. A record with no matching entry in the related sheet is an orphaned record. Saving an orphaned record fails validation with an error.
 
-19. To add intra-group contractual arrangements, navigate to the **Intra-group contractual arrangements** tab of the contract and select **Add**.
+10. To view contracts for a legal entity, go to the legal entity's record, open the **Legal Entities** tab, and navigate to the Contracts related list.
 
-20. Select **Save**.
+    The Contracts related list for the legal entity is shown in the example.
 
-21. To add ICT service supply chains associated with the contract, navigate to the **ICT service supply chains** tab of the contract and select **New** and fill in the fields.
+    \[Omitted image "leg-ent-record-leg-ent-tab-contact-tab.png"\] Alt text: Contracts tab.\[Omitted image "contracts-tab-leg-ent.png"\] Alt text: Contracts tab.\[Omitted image "contratcs-form-leg-ent.png"\] Alt text: Form.
 
-22. Select **Save**.
+    This navigation simplifies tracking from the function or legal entity using these third parties.
 
-23. To add Assessments of the ICT services associated with the contract, navigate to the **Assessments of the ICT services** tab of the contract and select **New** and fill in the fields.
+    1.  In the form, select **More** and navigate to the **Digital resilience information** tab.
 
-24. Select **Save**.
+        For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-cont-arrange-form.md).
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
+    2.  Navigate to the Contract **Details** tab to view the details that are needed by the Digital Operational Resilience Act.
 
-25. To edit the contract record, select it from the list and select **Save** after making your edits.
+        \[Omitted image "contracts-dig-res-info-tab.png"\] Alt text: Resilience tab.\[Omitted image "contracts-dora-details.png"\] Alt text: Contracts resilience details.
 
-26. To export contract records, select **Export**.
+        The information on the form specifies who uses the ICT service. If the entity signing the contract differs from the one using it, that detail goes on the form, along with the service provider. Essentially, the user and the provider are linked together. The following key details are captured:
 
-27. To delete the contract record, select it from the list and select **Delete**.
+        -   Data Storage:
+            -   Is data stored at APS?
+            -   Storage location
+        -   Data Processing: Processing location
+        -   Data Sensitivity and Resilience:
+            -   Data sensitivity level
+            -   Reliance on ICT service provider
+        -   Contract Details:
+            -   Function using the service
+            -   Type of services
+            -   Contract start and end dates
+            -   Termination details \(if applicable\)
+                -   Reason for termination
+                -   Notice period for both financial entity and third party
+        -   Assessments:
+            -   Annual assessment mandate for contracts and third parties
+            -   Contractual reference number \(links user, provider, etc.\)
+        -   Critical Information for Digital Resilience:
+            -   Data storage and processing locations
+            -   Data sensitivity and service provider reliance
+            -   Contract and termination details
+            -   Annual assessments and contractual reference number
+        -   Termination Clause: Notice period required for termination
+            -   Notice period for the financial entity
+            -   Notice period for the third party
+        -   Contract Specifics:
+            -   Function or department using the service
+            -   Type of services provided
+            -   Contract start date
+            -   Contract end date
+        -   Termination Information: Reason for termination \(if applicable\)
+        -   Additional Context: These details are essential for the contracts and DORA \(Digital Operational Resilience Act\) Register of information perspective.
+11. To edit the contract record, select it from the list and select **Edit**.
+
+12. To export the contract record, select **Export**.
+
+13. To delete the contract record, select it from the list and select **Delete**.
 
 
--   **[Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-contract-form.md)**  
+-   **[Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-contract-form.md)**  
 On the Create New Contract form, fill in the fields.
--   **[Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-cont-arrange-form.md)**  
-On the Create New Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
+-   **[Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-cont-arrange-form.md)**  
+On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-dg-registers.md)
 

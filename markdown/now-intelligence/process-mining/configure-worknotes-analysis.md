@@ -1,5 +1,5 @@
 ---
-title: Configure worknotes analysis
+title: Configure work notes analysis
 description: Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/configure-worknotes-analysis.html
@@ -7,12 +7,12 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Work notes analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Work notes analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
-# Configure worknotes analysis
+# Configure work notes analysis
 
 Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
 
@@ -22,8 +22,8 @@ Configure work notes analysis for a process table to view the work notes analysi
 
 -   You can create one configuration for one process table.
 -   Role required:
-    -   The sn\_process\_optimization\_admin and sn\_process\_optimization\_power\_user roles can associate work note analysis definition with a project, but can’t create a definition.
-    -   The sn\_process\_optimization\_analyst role can view a work note analysis definition, but can’t create, edit, associate, or delete a definition.
+    -   The sn\_process\_mining\_admin and sn\_process\_mining\_power\_user roles can associate work note analysis definition with a project, but can’t create a definition.
+    -   The sn\_process\_mining\_analyst role can view a work note analysis definition, but can’t create, edit, associate, or delete a definition.
 
 ## Procedure
 

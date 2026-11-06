@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -28,7 +28,7 @@ Role required: knowledge
 
 2.  In the list view under the Knowledge module, open one of the available lists.
 
-3.  Select **New**.\[Omitted image "new-knowledge-article-button.png"\] Alt text: New button in the Your unpublished articles list
+3.  Select **New**.
 
 4.  On the form, fill in the fields.
 

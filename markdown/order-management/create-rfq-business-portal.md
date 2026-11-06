@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-rfq-business-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-05"
-reading_time_minutes: 2
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Submit a request for quote from the Business Portal
@@ -93,6 +93,8 @@ The RFQ is submitted for further processing and you're redirected to the Request
 ## What to do next
 
 View the quote details on the Business Portal after the sales agent reviews and generates a quote for your request. For more information, see [View requests for quotes \(RFQs\) on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/view-rfq-business-portal.md).
+
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rfq-business-portal.md)
 
 **Related topics**  
 

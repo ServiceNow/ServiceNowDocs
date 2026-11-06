@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-spm-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
 
@@ -48,7 +48,7 @@ Use the Project Portfolio Management application to create the project templates
 
 </td><td>
 
-Configure the CSM table maps to associate fields in order lines, domain orders, and order tasks to projects in SPM.
+Configure the CSM table maps to associate fields in order lines, domain orders, and order tasks to projects and programs in SPM.
 
 </td></tr><tr><td>
 
@@ -56,15 +56,7 @@ Configure the CSM table maps to associate fields in order lines, domain orders, 
 
 </td><td>
 
-Configure the conditions and decision rules for determining the order lines, domain orders, project offering with site locations, site project, and order tasks that qualify for project management oversight. You also specify the project templates to be used to create those projects.
-
-</td></tr><tr><td>
-
-[Configure project oversight for Product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-site-project-product-offering.md)
-
-</td><td>
-
-Configure the conditions and decision rules that qualify product offering for site project oversight.
+Configure the conditions and decision rules for determining the order lines, domain orders, and order tasks that qualify for project management and order tasks that qualify for project management oversight. You also specify the project templates to be used to create those projects.
 
 </td></tr><tr><td>
 
@@ -72,7 +64,7 @@ Configure the conditions and decision rules that qualify product offering for si
 
 </td><td>
 
-Manage the automatic closure of project tasks when related child tasks are completed or canceled.
+Manage the automatic closure of project tasks when related child tasks are completed or cancelled.
 
 </td></tr></tbody>
 </table>

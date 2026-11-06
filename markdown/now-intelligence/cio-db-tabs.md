@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/cio-db-tabs.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Chief Information Officer Dashboard tabs
@@ -43,7 +43,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
     -   ServiceNow admins and analytics leads
     -   Executive reviewers and board members
 
-## Value tab
+## Value
 
 \[Omitted image "cio-db-value-tab.png"\] Alt text: The visualizations on this tab address the question 'Are we hitting our value creation targets?'
 
@@ -64,7 +64,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
     -   Financial analysts supporting IT investments
     -   Enterprise architects focused on cost optimization
 
-## Operations tab
+## Operations
 
 \[Omitted image "cio-db-ops-tab.png"\] Alt text: The visualizations on this tab address the question 'How is the infrastructure's and operation's health?'
 
@@ -88,7 +88,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
     -   Service Level and Availability Managers
     -   Operations Analysts and Continuous Improvement Leads
 
-## Security tab
+## Security
 
 \[Omitted image "cio-db-security-tab.png"\] Alt text: The visualizations on this tab address the question 'Are we better protected today vs yesterday?'
 
@@ -107,7 +107,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
     -   IT audit and governance teams
     -   Enterprise architects overseeing security controls
 
-## Execution tab
+## Execution
 
 \[Omitted image "cio-db-execution-tab.png"\] Alt text: The visualizations on this tab address the question 'Which projects/programs are at risk and why?'
 
@@ -129,7 +129,7 @@ Organizing insights into these five pillars promotes CIO focus on both operation
     -   Enterprise and solution architects
     -   Risk and governance officers
 
-## Experience tab
+## Experience
 
 \[Omitted image "cio-db-experience-tab.png"\] Alt text: The CIO dashboard's Experience tab addresses the question 'Are employees getting self-served and satisfied?'
 

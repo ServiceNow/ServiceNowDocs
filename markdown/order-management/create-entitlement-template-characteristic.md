@@ -1,18 +1,18 @@
 ---
 title: Create a characteristic
-description: Create a characteristic that can be associated with an entitlement or service contract line.
+description: Create a characteristic that can be associated with an entitlement or customer contract line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-entitlement-template-characteristic.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Customer Contracts and Entitlements, Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up Customer Contracts and Entitlements, Configure Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a characteristic
 
-Create a characteristic that can be associated with an entitlement or service contract line.
+Create a characteristic that can be associated with an entitlement or customer contract line.
 
 ## Before you begin
 

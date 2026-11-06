@@ -1,18 +1,34 @@
 ---
-title: Create Scan Engine definition suites
-description: Follow these steps to create Scan Engine definition suites.You can modify a definition suite to further customize and refine its scanning criteria.
+title: Customize Scan Engine definition suites
+description: Follow these steps to create or modify Scan Engine definition suites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/create-scan-engine-definition-suites.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Create Scan Engine definition suites
+# Customize Scan Engine definition suites
 
-Follow these steps to create Scan Engine definition suites.
+Follow these steps to create or modify Scan Engine definition suites.
+
+## About this task
+
+Definition suites are useful as they allow scanning of the entire instance or all definitions. Admins can focus on a suite that represents a logical category and improve efficiency and precision in code quality checks.
+
+By default, the following suites are available:
+
+-   Scan Engine
+-   JavaScript Naming Conventions
+-   Scoped Application
+-   ITOM
+-   Workflow Engine
+-   Security and Instance Hardening
+-   IL4 \(Impact Level 4\)
+-   HR Scoped Applications
+-   Artificial Intelligence Readiness
 
 ## Before you begin
 
@@ -20,63 +36,24 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites.**.
+1.  Create Definition Suites
+2.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites.**.
 
-2.  Select **New**.
+3.  Select **New**.
 
-3.  Fill in the fields as needed.
+4.  Fill in the fields as needed.
 
-<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d31944e97">
+    |Field|Description|
+    |-----|-----------|
+    |Number|Unique identifier of the definition suite. This number is generated automatically.|
+    |Active|Makes the definition suite active and useable.|
+    |Short Description|Brief description of the definition suite.|
+    |Description|Detailed description of why the suite was created.|
 
-**Number**
+5.  Modify Scan Engine Definition Suites
+6.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
 
-</td><td>
-
-The unique identifier of the definition suite. This number is generated automatically.
-
-</td></tr><tr><td id="d31944e106">
-
-**Active**
-
-</td><td>
-
-Makes the definition suite active and useable.
-
-</td></tr><tr><td id="d31944e115">
-
-**Short Description**
-
-</td><td>
-
-Brief description of the definition suite.
-
-</td></tr><tr><td id="d31944e124">
-
-**Description**
-
-</td><td>
-
-Detailed description of why the suite was created
-
-</td></tr></tbody>
-</table>
-## View and modify Scan Engine definition suites
-
-You can modify a definition suite to further customize and refine its scanning criteria.
-
-### Before you begin
-
-Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
-
-While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
-
-### Procedure
-
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
-
-2.  Select a suite number to open its details and modify its properties.
-
-    You can edit the same fields you configured in [Create Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-scan-engine-definition-suites.md).
+7.  Select a suite number to open its details and modify its properties.
 
     Related lists appear at the bottom of the screen.
 
@@ -115,3 +92,5 @@ Displays findings found during on-demand or instance scans as defined by the def
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/view-modify-scan-engine-properties.md)
+

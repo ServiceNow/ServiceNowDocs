@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using ServiceNow Otto for Virtual Agent conversations with Slack
@@ -20,7 +20,7 @@ ServiceNow Otto provides a large language model \(LLM\)-based conversational exp
 
 To enable a bot with ServiceNow Otto, you must first integrate your Virtual Agent bot or a self-configured bot with Slack.
 
--   To integrate Slack with Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-slack.md).
+-   To integrate Slack with Virtual Agent, see [Integrating Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-slack.md).
 
 -   To integrate Slack with a self-configured bot, see [Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-single-slack.md).
 

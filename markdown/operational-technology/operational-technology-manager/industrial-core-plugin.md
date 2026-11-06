@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---

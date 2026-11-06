@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-09"
 reading_time_minutes: 1
 keywords: [MCP server, MCP catalog, AI Gateway, MCP integration, MCP intake]
-breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an MCP server from MCP Catalog

@@ -1,58 +1,52 @@
 ---
 title: Upload a disclosure document
-description: Upload a locally created disclosure document to the Operational Sustainability Management application instance to sync the disclosure data and associated metric records.
+description: Upload locally created disclosures in the Operational Sustainability Management application instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/upload-a-disclosure-document.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a narrative disclosure on local system, Disclosures in ESG Management, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Create a narrative disclosure on local system, Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Upload a disclosure document
 
-Upload a locally created disclosure document to the Operational Sustainability Management application instance to sync the disclosure data and associated metric records.
+Upload locally created disclosures in the Operational Sustainability Management application instance.
 
 ## Before you begin
-
-Create a narrative disclosure on your local system. For more information, see [Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-a-disclosure-on-local.md).
 
 Role required: sn\_esg.admin or the owner of the disclosure
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace**.
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Disclosures** &gt; **Narrative disclosures**.
 
-2.  In the **Lists** tab of the workspace, select **Disclosures** &gt; **Narrative disclosures**.
+2.  Open the locally created disclosure.
 
-3.  Open the locally created disclosure.
+3.  Select **Upload disclosure document**.
 
-4.  Select **Upload disclosure document**.
+4.  Open the document and copy the unique document ID by selecting the copy icon.
 
-5.  Link the disclosure document.
+    1.  In the **Document ID** field, provide the unique ID by opening the document and copying the ID.
 
-    1.  Open the document.
+    2.  Select **Save**.
 
-    2.  Copy the document ID by selecting the copy icon \[Omitted image "copy-icon.png"\] Alt text:.
+5.  Select the download icon to download the document.
 
-    3.  In the **Document ID** field, paste the ID.
+6.  Delete the document already present.
 
-    4.  Select **Save**.
+7.  Make the necessary edits to the document.
 
-6.  Select the download icon \[Omitted image "download-icon.png"\] Alt text:.
-
-7.  If a previously uploaded document is already present, delete it.
-
-8.  Upload the document by selecting **Attach file**, browsing for the new document, and selecting it.
+8.  To upload the new document, select **Attach file** and browse for the document to upload.
 
 9.  Select **Save**.
 
 
 ## Result
 
--   The disclosure document is synced, which could take some time.
--   The corresponding claim records are synced and added to the disclosure.
+-   The disclosure document is synced. The data takes some time to sync.
+-   The corresponding claim records are synced and created in the disclosure.
 
 **Parent Topic:**[Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-a-disclosure-on-local.md)
 

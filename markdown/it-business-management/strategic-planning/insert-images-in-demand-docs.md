@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [insert image, upload image, embed image, demand Docs]
 breadcrumb: [Collaborate with Docs, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -35,15 +35,15 @@ Role required: it\_demand\_user, it\_demand\_manager, or demand\_approver
 
 6.  Add an image to the Doc page either by pasting it directly, uploading it from your system, or by embedding a link.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d233109e110">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d250539e110">
 
 Goal
 
-</th><th align="left" id="d233109e113">
+</th><th align="left" id="d250539e113">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d233109e119">
+</th></tr></thead><tbody><tr><td id="d250539e119">
 
 **Copy and paste an image from an external source or another page**
 
@@ -51,7 +51,7 @@ Actions
 
 Use your standard method to copy and paste the image.
 
-</td></tr><tr><td id="d233109e128">
+</td></tr><tr><td id="d250539e128">
 
 **Upload an image from your local system**
 
@@ -62,7 +62,7 @@ Use your standard method to copy and paste the image.
 3.  Select the image from your local system and select **Open**.
 
 
-</td></tr><tr><td id="d233109e163">
+</td></tr><tr><td id="d250539e163">
 
 **Embed a link to your image**
 

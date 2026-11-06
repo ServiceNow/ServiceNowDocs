@@ -1,21 +1,21 @@
 ---
 title: Health Log Analytics content packs for quicker time to value
-description: Shorten onboarding time for the Health Log Analytics application by installing content packs. The packs contain default source types and mapping script templates that save you the time it takes to create them from scratch.
+description: Shorten time to value for the Health Log Analytics application by installing content packs. The packs contain default source types and mapping script templates that save you the time it takes to create them from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-content-packs.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [ServiceNow, Health Log Analytics, HLA, content packs, default source types, mapping script templates]
+keywords: [ServiceNow, Health Log Analytics, HLA, time to value, content packs, default source types, mapping script templates]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Health Log Analytics content packs for quicker time to value
 
-Shorten onboarding time for the Health Log Analytics application by installing content packs. The packs contain default source types and mapping script templates that save you the time it takes to create them from scratch.
+Shorten time to value for the Health Log Analytics application by installing content packs. The packs contain default source types and mapping script templates that save you the time it takes to create them from scratch.
 
 After installing a content pack, Health Log Analytics begins to stream and parse your log data immediately. The application recognizes and analyzes the data, generates more relevant alerts, and reduces noise from the moment of the integration. You can still customize the mapping configuration later on, if needed.
 

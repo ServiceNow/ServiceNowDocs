@@ -1,30 +1,33 @@
 ---
 title: Configure Field Encryption modules
-description: Learn how to configure Field Encryption modules.
+description: Configure Field Encryption modules by selecting and updating module settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configure-fe-modules.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [field encryption module configuration, cryptographic module setup, field encryption settings]
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
 
 # Configure Field Encryption modules
 
-Learn how to configure Field Encryption modules.
+Configure Field Encryption modules by selecting and updating module settings.
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Manager
+Role required: KMF Admin \(`sn_kmf.admin`\) or KMF Cryptographic Manager \(`sn_kmf.cryptographic_manager`\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Modules**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
-2.  Select **New**
+2.  Select the module you want to configure.
 
-3.  In the Module form fill out the fields as shown here.
+    To create a new module, see [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/create-PE-cryptographic-module.md).
+
+3.  In the Module Overview fill out the fields as shown here.
 
 <table id="table_p4x_3dw_22c"><thead><tr><th>
 
@@ -40,7 +43,31 @@ Module name
 
 </td><td>
 
-Choose a name for the module. This name is referenced when running scripts.
+Enter a descriptive name for your module. ServiceNow automatically prepends the application scope \(for example, `global.my_crypto_module`\) to prevent conflicts. This name is used in scripts.
+
+</td></tr><tr><td>
+
+Module lifecycle state
+
+</td><td>
+
+The term "lifecycle" refers to the creation, use, and deactivation of a cryptographic module. Set this value to **Draft** initially during configuration. Set it to **Published** for active use.**Note:** The default template is automatically set to **Published**.
+
+</td></tr><tr><td>
+
+Application scope
+
+</td><td>
+
+The application scope for this module. This field is automatically populated with the current application.
+
+</td></tr><tr><td>
+
+Cryptographic purpose
+
+</td><td>
+
+Displays the purpose of the selected algorithm, key, length, and mode. For Field Encryption, this field is read only and has a value of Symmetric Data Encryption/Data.
 
 </td></tr><tr><td>
 
@@ -52,35 +79,11 @@ Automatically populated with **Default template**. This template is used to crea
 
 </td></tr><tr><td>
 
-Application
+Algorithm
 
 </td><td>
 
-The application scope for this module. This field is automatically populated with the current application.
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-This name automatically generated. It is the module name prepended with the application scope name to avoid conflict with other scoped applications. For example, if you create a module with the name `my_crypto_module` in the global application scope, the name is saved as `global.my_crypto_module`.
-
-</td></tr><tr><td>
-
-Crypto Module Lifecycle State
-
-</td><td>
-
-The term “lifecycle” refers to the creation, use, and deactivation of a cryptographic module. Set this value to **Draft** initially during configuration. Set it to **Published** for active use.**Note:** The Default template is automatically set to **Published**.
-
-</td></tr><tr><td>
-
-Parent Crypto Module
-
-</td><td>
-
-For Field Encryption, ensure this value is set to **column\_level\_encryption**.
+Defines which encryption scheme will be used to encrypt fields associated with the module.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,14 +16,10 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The News and Articles widget displays a list of articles that are accessible to patients.
 
-\[Omitted image "hcls-widget-news-articles.png"\] Alt text: Infographic displays theNews and Articles widget.
-
 ## Key features
 
 -   Displayed for both logged-in and non-logged-in users.
 -   By default, shows maximum of four articles from the Healthcare and Life Sciences knowledge base.
-
-\[Omitted image "hcls-widget-io-news-articles.png"\] Alt text: Screenshot displaying theNews and Articles widget instance options. For the text description, refer to the News and Articles widget instance options fields section.
 
 <table id="table_vy1_hy2_yrb"><thead><tr><th>
 

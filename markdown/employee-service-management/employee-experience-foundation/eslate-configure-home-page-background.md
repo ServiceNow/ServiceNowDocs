@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-02"
 reading_time_minutes: 1
 keywords: [home page background, branding and theming, gradient, Employee Slate]
-breadcrumb: [EmployeeWorks home, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks home, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the home page background
@@ -39,7 +39,7 @@ Configure the home page background separately for light mode and dark mode. Choo
 
     A confirmation message tells you whether the background meets accessibility standards for text contrast.
 
-    \[Omitted image "image.es-home-page-background-config"\] Alt text: Homepage background page showing the gradient background type with a CSS gradient field and an accessibility contrast confirmation message
+    \[Omitted image "es-home-page-background-config.png"\] Alt text: Homepage background page showing the gradient background type with a CSS gradient field and an accessibility contrast confirmation message
 
 5.  For an image, upload a PNG file and set the image behavior to **Fill** or **Repeat pattern**.
 

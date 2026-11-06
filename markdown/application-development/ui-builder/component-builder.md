@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Component Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Component Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create custom components to reuse across pages with component builder
@@ -63,7 +63,7 @@ You can access the component builder in UI Builder by selecting **Create** in th
 
 Components built with UI Builder can be found in the toolbox when adding a component to a page and in the component list on the home page of UI Builder. You can update or modify custom components by locating it in the components list on the home page of UI Builder.
 
-\[Omitted image "cb-test-values.png"\] Alt text: The alt text modal displays when test values is selected.
+\[Omitted image "cb-test-values.png"\] Alt text: Editing test values for input properties
 
 Use test values in component builder to supply simulated values for required and optional URL parameters when building a custom component. Test values help validate how a component will act when added to a page by ensuring bindings and data resources are functioning correctly. For more information about test values see, [Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/test-value.md).
 

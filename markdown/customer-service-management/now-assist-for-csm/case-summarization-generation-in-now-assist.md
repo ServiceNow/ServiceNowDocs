@@ -42,7 +42,7 @@ Any modifications to the names or labels of the fields within these templates ca
 
 4.  Select **General details** and edit name and description of the skill.
 
-    Additional information regarding details of the skill are displayed, but can’t be edited.
+    Additional information regarding details of the skill are displayed, but can't be edited.
 
 5.  Select **Choose Input** and review the tables and fields to define the prompts that determine where data is pulled from.
 
@@ -132,7 +132,7 @@ Activity is listed as 'Email.'
     Default and Custom Roles:
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent automatically appear in **Define access** and **Select display**.
-    -   If custom roles were added before the upgrade, they’re updated automatically by a script.
+    -   If custom roles were added before the upgrade, they're updated automatically by a script.
     -   If new roles are created after the upgrade, you can manually add them in both the **Define access** and **Select display**.
 
         **Note:** In the **Select display** step, you can only choose roles that were added in the **Define access** step. If you add a role in **Define access**, you still must manually select it in **Select display** to make it active.

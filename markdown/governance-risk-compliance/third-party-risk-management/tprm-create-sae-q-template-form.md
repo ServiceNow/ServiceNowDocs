@@ -65,7 +65,7 @@ TPRM purpose options include:
 
 To view a TPRM TPRM questionnaire template you must have the TPR assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\]. For more information on creating assessment template purposes, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
-**Note:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
+**Note:** You can create an assessment only from a published assessment template.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create or modify an application configuration for Appointment Booking
@@ -18,7 +18,7 @@ Set up an application configuration to manage appointment booking settings acros
 
 ## Before you begin
 
-Role required: admin
+Role required: appointment\_booking\_admin
 
 ## About this task
 
@@ -27,7 +27,7 @@ Field Service Management provides default application-level configurations:
 -   **Field Service Order Configuration** \(for work orders\)
 -   **Field Service Task Configuration** \(for work order tasks\)
 
-You can modify these default configurations or use them as templates to create new configurations.
+For example, if you create application configuration for the table Work Order \[wm\_order\], these appointment booking configurations are applied to all the work orders. You can modify these default configurations or use them as templates to create new configurations.
 
 ## Procedure
 
@@ -63,7 +63,7 @@ Task Table
 
 </td><td>
 
-Appointments are created for the tasks in the selected table. The Work Order \[wm\_order\] table is the default table for the Field Service Order Configuration.
+The settings are applied and appointments are created for the tasks in the selected table. The Work Order \[wm\_order\] table is the default table for the Field Service Order Configuration.
 
 </td></tr><tr><td>
 
@@ -71,8 +71,8 @@ Availability Method
 
 </td><td>
 
-Use one of the methods to determine appointment availability. The selection depends on the Field Service Management configuration setting in the **Assignment method for tasks** field: -   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
--   **Scripted**: Dynamically calculates availability based on Field Service Management settings. Recommended if auto-assignment or dynamic scheduling is used. This is the default setting.
+Use one of the methods to determine appointment availability at the application-level. You can choose the availability method depending on the Field Service Management configuration setting in the **Assignment method for tasks** field of [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ConfigureFieldService.md). The available methods are:-   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
+-   **Scripted**: Dynamically calculates availability of technicians using customized scripts. Recommended if auto-assignment or dynamic scheduling is used. This is the default setting.
 -   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 
 This option is available when the Task Table is selected as work\_order and Field Service Capacity and Reservations Management plugin is installed.
@@ -109,7 +109,9 @@ Calendar View
 
 </td><td>
 
-Display available appointments in the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week.
+Display available appointments in the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week. The available options are:-   Day: Displays the available appointments for the day.
+-   Week: Displays the available appointments for the entire week.
+
 
 </td></tr><tr><td>
 

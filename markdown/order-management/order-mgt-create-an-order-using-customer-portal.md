@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-create-an-order-using-customer-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Self-service order management, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Create orders from the Business Portal
@@ -88,6 +88,8 @@ The following illustration describes the process to create orders from the Busin
 ## Result
 
 The order is created and you're redirected to the Order details page. You can view your account details, order amount, order lines, and so on.
+
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/self-service-order-management.md)
 
 **Related topics**  
 

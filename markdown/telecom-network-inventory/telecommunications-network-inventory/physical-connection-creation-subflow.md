@@ -1,20 +1,20 @@
 ---
-title: Physical connection creation subflow
-description: The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+title: Physical Connection Creation subflow
+description: The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Telecommunications Network Inventory subflows, Reference, Telecommunications Network Inventory]
+breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
 
-# Physical connection creation subflow
+# Physical Connection Creation subflow
 
-The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 
 You can use the Physical Connection Creation subflow to create a physical port connection on the interface cards in your networks.
 
@@ -39,7 +39,7 @@ The following table lists the input fields in the Physical Connection Creation s
 |CI Relationship|Type of configuration item \(CI\) relationship. By default, the Logical Creation subflow sets a CI relationship to **Terminated::Terminated by**.|Reference.CI Relationship Type|
 |Physical connection elements|sys\_id of the connection elements that are added for the physical connections. If the physical connection has the Connection Type attribute as Cable, you can add the connection element. Click the add icon \(\[Omitted image "add-icon-1.png"\] Alt text: Add icon.\) to add a connection element.|Array.String|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -60,25 +60,25 @@ The following table lists the information about the subflow's output.
 
 [Logical Connection Creation subflow]()
 
-[TNI Design Assign Connection Element Creation subflow]()
+[Design Assign Connection Element Creation subflow]()
 
-[TNI Design Assign Protected Path Assignment subflow]()
+[Design Assign Protected Path Assignment subflow]()
 
-[TNI Design Assign IP Address Creation subflow]()
+[Design Assign IP Address Creation subflow]()
 
-[TNI Design assign Logical Connection Creation subflow]()
+[Design assign Logical Connection Creation subflow]()
 
-[TNI Design Assign Number Element Creation subflow]()
+[Design Assign Number Element Creation subflow]()
 
-[TNI Design Assign Set Attributes subflow]()
+[Design Assign Set Attributes subflow]()
 
-[TNI Design Assign Request Details Update subflow]()
+[Design Assign Request Details Update subflow]()
 
-[TNI Design Assign Connection Element Validation subflow]()
+[Design Assign Connection Element Validation subflow]()
 
-[TNI Design Assign IP Address Validation subflow]()
+[Design Assign IP Address Validation subflow]()
 
-[TNI Design Assign Number Element Validation subflow]()
+[Design Assign Number Element Validation subflow]()
 
-[Telecommunication Network Inventory workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
+[Workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
 

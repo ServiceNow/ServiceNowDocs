@@ -7,10 +7,10 @@ release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Workplace service delivery for mobile, workplace schedule, desk suggestions, preferred location]
-breadcrumb: [Manage workplace schedule, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a reservation for a day in Workplace

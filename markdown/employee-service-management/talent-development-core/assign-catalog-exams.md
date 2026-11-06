@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create exam catalogs, Use, Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create exam catalogs, Using Career Assessment, Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add exams to a catalog

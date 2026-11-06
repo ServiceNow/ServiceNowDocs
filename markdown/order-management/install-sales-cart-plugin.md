@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-sales-cart-plugin.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Sales Cart for Business Portal, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Sales Cart
@@ -16,7 +16,7 @@ You can install the Sales Cart plugin \(sn\_sales\_cart\) if you have the admin 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Sales Cart](https://store.servicenow.com/store/app/6185ab4cff056610ee6efffffffffffe) listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -57,4 +57,11 @@ For more information, see [Components installed with Sales Cart](https://raw.git
 ## What to do next
 
 A sample logo is applied to the sales cart PDF by default. To customize and add your logo, see [Add a logo to the sales cart PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-logo-sales-cart-pdf.md).
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-self-service-business-portal.md)
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-business-portal.md)
 

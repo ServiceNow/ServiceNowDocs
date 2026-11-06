@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/workflow-of-esg-risk-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Advanced risk assessment, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Workflow of Operational Sustainability Risk Management
@@ -27,5 +27,5 @@ The following steps are necessary to successfully perform your ESG risk assessme
 4.  For risk-based assessments, as an ESG data owner, from the Tasks pane in the Operational Sustainability Workspace, respond to an assessment, review, and submit the assessment for approval if the approvers are defined. If there are no approvers defined, the risk score is rolled up to the risks and entities.
 5.  For object-based assessments, as an ESG program manager, from the Tasks pane in the Operational Sustainability Workspace, respond to the assessment, review, and submit for the assessment for approval if the approvers are defined.
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-risk-management.md)
 

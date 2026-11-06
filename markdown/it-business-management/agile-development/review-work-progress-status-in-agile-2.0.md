@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work Progress Status for Agile Teams, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Work Progress Status for Agile Teams, Agile Development, Strategic Portfolio Management]
 ---
 
 # Reviewing progress status for Agile Development 2.0 epics

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft 365 for Employee Experience, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating ServiceNow with Microsoft 365 applications for Employee Experience, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Upload manifest file in Microsoft Teams for Microsoft 365
@@ -44,6 +44,4 @@ Role required: admin
 
 7.  Select **Add**.
 
-
-**Parent Topic:**[Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/subscription-management-reference-v2.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Subscription Management, Get started, Administer]
+breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Subscription Management reference
@@ -15,7 +15,7 @@ breadcrumb: [Subscription Management, Get started, Administer]
 Reference topics provide information about subscription types, meters, and domain separation support.
 
 -   **[Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/types-subscription-v2.md)**  
-Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation of users, access to applications, and custom application and table entitlements.
+Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation ofusers, access to applications, and custom application and table entitlements.
 -   **[Subscription form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-form-v2.md)**  
 The Subscription form contains important information about your subscription.
 -   **[User sets and groups in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-user-sets-v2.md)**  

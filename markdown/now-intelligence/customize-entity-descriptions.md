@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/customize-entity-descriptions.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [semantic layer, entity descriptions, table descriptions, query generation, Semantic Table Configuration, update sets]
 breadcrumb: [Customizing semantic metadata, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -21,7 +21,7 @@ Role required: sn\_query\_gen.admin or higher
 
 ## About this task
 
-The Query Generation semantic layer uses natural-language descriptions to help AI understand what each table represents. By default, descriptions are auto-derived from the Field Label \[sys\_documentation\] table, but you can override these descriptions with custom descriptions that better explain the business purpose of your tables. When you clear a custom description, the system falls back to the Field Label value.
+The Query Generation semantic layer uses natural-language descriptions to help AI understand what each table represents. By default, descriptions are auto-derived from the Field Label \[sys\_documentation\] table. However, you can override these descriptions with custom descriptions that better explain the business purpose of your tables. When you clear a custom description, the system falls back to the Field Label value.
 
 This procedure uses the Semantic Table Configuration table. Customizations made this way can be transferred between instances via update sets and override descriptions set directly in the Entity table. For simpler, single-instance testing, you can edit the Semantic Description field directly in the Entity \[sn\_query\_gen\_entity\] table instead.
 

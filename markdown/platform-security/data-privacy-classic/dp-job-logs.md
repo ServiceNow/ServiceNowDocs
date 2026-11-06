@@ -7,7 +7,7 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 Review errors from Data Privacy jobs.
 
 ## Before you begin
-
-**Important:** This section is for Data Privacy\(Classic\). See [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) for the latest up to date store version.
 
 Role required: data\_privacy\_admin, data\_privacy\_clone\_processor, data\_privacy\_processor, data\_privacy\_auditor
 

@@ -7,8 +7,8 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-10-24"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -20,39 +20,146 @@ Configure the Service Portal Approval Configuration record to make the Approval 
 
 Role required: admin or sp\_admin
 
-**Note:** Now Assist support for portals includes all pages within the portal.
+**Note:** Service Portal must be integrated with the third-party cloud provider before the checklist can be used. You must also maintain secure access and appropriate permissions to access documents from third-party providers.
+
+The Approval Configuration record controls two aspects of the approval experience in the Service Portal:
+
+-   **Display experience**
+
+    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-approval-aia.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/approval-info-record-widget.md).
+
+-   **AI behavior**
+
+    Defines whether an approval checklist is generated for records in a table, and how the AI searches through search sources to support decision-making.
+
 
 To define how a search query should be formed for checklist generation, configure the Service Portal Approval Configuration for a table.
 
-The sc\_request and sc\_req\_item tables are provided by default in Approval Configuration. You can configure additional tables to go through the approval workflow.
+The sc\_request and sc\_req\_item tables are preconfigured by default in Approval Configuration. For custom tables that go through the approval workflow, create an Approval Configuration record for each additional table. Without a configuration record for a custom table, the Approval Assistance AI agent uses default fields, which may not reflect the relevant information for that table.
 
-You can select the display fields that you want the AI agent to display in the results, such as a short description, opened by, and requested for. The display field order also applies to the Approval Info Record widget. You can add, change, or remove display fields for both the Approval assistance AI agent and the Approval Info Record widget.
+<table id="table_h1v_vfg_bhc"><thead><tr><th>
 
-The checklist uses KB articles and policies to assist the Approval assistance AI agent in decision making. The checklist fetches information from knowledge base articles about specific requester approval tickets. All fields that are available from the approval configuration can be used by the Approval assistance AI agent. If you do not configure a table for the AI agent, the Approval assistance AI agent uses the default fields.
+Configuration
 
-|Configuration|Type|Description|
-|-------------|----|-----------|
-|\*Name|String|The specific name of a table.|
-|\*Table|Drop down list|You can choose to configure additional tables to go through the approval workflow.|
-|Application|Auto populated|You can choose an application scope, such as Global or ServiceNow Otto® Agent for Requester.|
-|\*Active|Check box|Active is selected by default. If you clear the Active check box, then the configuration for this table will be disabled.|
-|Display Fields Configuration|Tab|Display fields represent the information that the Approval assistance AI agent and Approval Info Record widget presents to the requester.|
-|Gen AI Checklist &amp; KB Search|Tab|Defines the table for which the approval checklist is generated and configures the Knowledge Base search fields used to build search queries for relevant articles.|
-|Conditionally|Drop down list|Set the conditions that the records must meet to generate the approval checklist. For example: **Short description** &gt; **starts with** &gt; **Tuition reimbursement**.|
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+\*Name
+
+</td><td>
+
+String
+
+</td><td>
+
+The specific name of a table.
+
+</td></tr><tr><td>
+
+\*Table
+
+</td><td>
+
+List
+
+</td><td>
+
+Choose to configure additional tables to go through the approval workflow.
+
+</td></tr><tr><td>
+
+Application
+
+</td><td>
+
+Auto-populated
+
+</td><td>
+
+Choose an application scope, such as Global or Now Assist Agent for Requester.
+
+</td></tr><tr><td>
+
+\*Active
+
+</td><td>
+
+Check box
+
+</td><td>
+
+Active is selected by default. If you clear the Active check box, then the configuration for this table will be disabled.
+
+</td></tr><tr><td>
+
+Display Fields Configuration
+
+</td><td>
+
+Tab
+
+</td><td>
+
+This tab controls what information is shown to the approver, and in what order. The configuration applies to the Approval Assistance AI agent and the Approval Info Record widget. Select the fields from the configured table that you want visible to the approver. For example: Short description, Opened by, Requested for. Move fields between the **Available** and **Selected** lists, then use the arrows to set their display order.**Note:** The order you set here is also reflected in the Approval Info Record widget. Arrange fields in the priority order that makes most sense for your approvers.
+
+</td></tr><tr><td>
+
+Gen AI Checklist &amp; KB Search
+
+</td><td>
+
+Tab
+
+</td><td>
+
+This tab controls the AI behavior for the selected table, including the following: -   Checklist generation. Whether and when an approval checklist is generated for records.
+-   KB search. Which fields from the table are used to build the search query when retrieving relevant KB articles and policy document if other search sources are configured.
+
+</td></tr></tbody>
+</table>## Approval checklist
+
+The approval checklist is generated by the AI agent to help approvers make an informed decision. The checklist retrieves relevant KB articles and policies \(if search sources are configured\) based on the record details. The fields you select in the KB Search Fields section determine how the search query is formed.
+
+|Option|Behavior|
+|------|--------|
+|Always|An approval checklist is generated by default for all records associated with the table.|
+|Never|No records in the table will show an approval checklist.|
+|Conditionally|An approval checklist is generated only when records meet the conditions you define. For example: Short description &gt; starts with &gt; Tuition reimbursement.|
+
+## KB Search Fields
+
+KB search fields define which fields from the configured table are used to build the search query when retrieving relevant KB articles and policies \(from search sources\). For example, if you select Short description, the AI uses the value of that field from the approval record to search for matching articles.
+
+**Note:** All fields available in the Approval Configuration can be used as KB search fields. Choose fields with values that are most likely to match the content of your articles.
+
+## Configuring search sources for checklist generation
+
+In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-sources-ais.md).
+
+After the search source is configured, add the search profile and search source to the following system property: sn\_na\_req\_agent.approval\_checklist.search\_profile\_sources.
 
 ## Configuring the Approval Configuration record
 
-To better control the table records that go through the approval workflow, configure the fields that you want to show in the Service Portal Approval Info Record widget and the Approval assistance AI agent.
+Configure fields and AI behavior for a table that goes through the approval workflow.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Approval Configurations**.
 
-2.  Modify an existing record, or click **New**.
+2.  Modify an existing record.
 
-3.  Click the **Display Fields Configuration** tab.
+    Select **New**.
 
-4.  Click **Display fields**.\[Omitted image "aia-choose-display-fields.png"\] Alt text: Approval Display fields.
+3.  Select the **Display Fields Configuration** tab.
+
+4.  Select **Display fields**.\[Omitted image "aia-choose-display-fields.png"\] Alt text: Approval Display fields.
 
 5.  Move the display fields from the **Available** list to the **Selected** list.
 
@@ -60,21 +167,21 @@ To better control the table records that go through the approval workflow, confi
 
     **Note:** The order of the display fields are also reflected in the Approval Info Record widget.
 
-7.  Click the **Gen AI Checklist &amp; KB Search** tab.
+7.  Select the **Gen AI Checklist &amp; KB Search** tab.
 
-8.  In the Approval checklist list, select one of the following options.
+8.  In the Approval checklist, select one of the following options.
 
     |Choice|Action|
     |------|------|
     |**Always**|Approval checklist generated by default for the records associated with the selected table.|
-    |**Never**|No records will show an approval checklist.|
+    |**Never**|No records show for an approval checklist.|
     |**Conditionally**|Set conditions that the records must meet to generate the approval checklist. For example: **Short description** &gt; **starts with** &gt; **Tuition reimbursement**.|
 
-9.  Click **KB search fields**. \[Omitted image "aia-choose-checklist-kb.png"\] Alt text: Select KB search fields to show the available and selection fields.
+9.  Select **KB search fields**. \[Omitted image "aia-choose-checklist-kb.png"\] Alt text: Select KB search fields to show the available and selection fields.
 
 10. Move KB search fields from the **Available** list to the **Selected** list.\[Omitted image "aia-choose-checklist-kb-fields.png"\] Alt text: Approval checklist and KB search fields.
 
-11. Click **Update**.
+11. Select **Update**.
 
 
 **Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configuring-service-portal.md)

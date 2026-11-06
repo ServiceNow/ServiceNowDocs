@@ -1,20 +1,20 @@
 ---
 title: Upload a file to cloud
-description: Upload local documents from your local to Microsoft cloud and manage the access to the cloud files.
+description: Upload local documents from your local drive to Microsoft cloud and manage the access to the cloud files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/upload-cloud-file-eng-audit-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Upload a file to cloud
 
-Upload local documents from your local to Microsoft cloud and manage the access to the cloud files.
+Upload local documents from your local drive to Microsoft cloud and manage the access to the cloud files.
 
 ## Before you begin
 

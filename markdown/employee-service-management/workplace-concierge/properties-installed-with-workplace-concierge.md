@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Concierge - Components, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Properties installed with Workplace Concierge
@@ -102,5 +102,12 @@ If there is no date selected, the system shall select the first allowed \(possib
 When an employee removes a date from the calendar, the suggestion is removed from the Space Suggestions list view.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
+</table>**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/workplace-concierge-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Concierge]()
+
+[Insights installed with Workplace Concierge]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
+breadcrumb: [Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
 ---
 
 # Using the Conversational Interfaces Diagnostic Tool

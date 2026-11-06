@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Mapping external users and groups to ServiceNow AI Platform users
@@ -160,7 +160,7 @@ AI Search creates an import set for each batch of user mappings that you import 
 
     1.  Perform the appropriate action for your version of the UI:
 
-<table id="table_els_wyl_vpb"><thead><tr><th>
+<table><thead><tr><th>
 
 UI version
 

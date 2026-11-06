@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -60,6 +60,8 @@ The **Dispute Workspace** displays a list of all open tasks for the agent, each 
 -   The agent can attach documents related to the task within the task detail section.
 -   The agent can write work notes for the task, which appears in the activity stream once the task is saved.
 -   After a task is complete, it automatically moves to the **Closed** tab.
+
+**Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 **Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-disputes.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configuring user access and data permissions for AI agents
@@ -30,7 +30,7 @@ The following roles are configured with the base system to provide data access t
 
 To ensure that the AI agent can access all the required information for your workspace, add the necessary roles for the AI agent in the AI Agent Studio.
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **.**
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select the **AI agents** tab.
 3.  Open the AI agent for which you want to configure the security controls.
 4.  In the guided setup, navigate to **Define security controls** to define the security access.
@@ -42,7 +42,7 @@ To ensure that the AI agent can access all the required information for your wor
 
 For more information on configuring the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 
 **Related topics**  
 

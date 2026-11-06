@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/flexible-data-model-changes.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -32,13 +32,13 @@ The flexible data model offers several key features that enhance operational res
 
     \[Omitted image "top-controls-details.png"\] Alt text: Details.
 
--   Streamlined navigation: You can directly access related lists and metrics for a specific business service, such as its service offerings, business processes, application services, dependencies, incidents, and metrics from the vertical layout.
+-   Streamlined navigation: You can directly access related lists and metrics for a specific business service from the vertical layout. These include service offerings, business processes, application services, dependencies, and incidents.
 
 ## Technical implementation
 
-Starting with Operational Resilience, Release 21.0.x, the data model for operational resilience configurations has been optimized. Now, each node in a hierarchical chain, such as a business service to offering to processes, is stored separately in the \[sn\_oper\_res\_profile\] CSDM objects table along with its class and parent nodes. This means that only relevant objects \(for example, 500 out of 1,000 entities\) that are part of main node configurations are stored, improving data management efficiency.
+Starting with Operational Resilience, Release 21.0.x, the data model for operational resilience configurations has been optimized. Each node in a hierarchical chain, such as a business service to offering to processes, is stored separately in the \[sn\_oper\_res\_profile\] CSDM objects table. Each node is stored along with its class and parent nodes. This means that only relevant objects \(for example, 500 out of 1,000 entities\) that are part of main node configurations are stored, improving data management efficiency.
 
-The flexible data model introduced with Operational Resilience, Release 21.0.x provides a foundation for the dashboards and tracks the flow of dependent services. The data, including red flags by type, such as failed controls, incidents, and outages, and business service metrics such as number of flags, importance, and impact tolerance, is updated in the dashboard through changes to the flexible data model.
+The flexible data model introduced with Operational Resilience, Release 21.0.x provides a foundation for the dashboards and tracks the flow of dependent services. Changes to the flexible data model update the dashboard data. This data includes red flags by type, such as failed controls, incidents, and outages. It also includes business service metrics such as number of flags, importance, and impact tolerance.
 
 \[Omitted image "dashboard-data.png"\] Alt text: Dashboard data.
 
@@ -46,9 +46,9 @@ The data shown in the example is for business services such as business service 
 
 ## Configuring the sn\_oper\_res.top\_class\_name property
 
-You can configure the **sn\_oper\_res.top\_class\_name** property to designate any class as the top class in the dashboard view so that any node, such as business service, business process, or application service, can be the top node. You can then view the downstream data and various dashboards based on the selected top class, such as the number of application services that are under a business service. It enables you to switch between different views, such as business services, service offerings, business processes, or applications, on the dashboard and view relevant data accordingly.
+You can configure the **sn\_oper\_res.top\_class\_name** property to designate any class as the top class in the dashboard view. Any node, such as business service, business process, or application service, can be the top node. You can then view the downstream data and various dashboards based on the selected top class. For example, you can view the number of application services that are under a business service. This enables you to switch between different views, such as business services, service offerings, business processes, or applications, on the dashboard and view relevant data accordingly.
 
-For example, if the data is displayed for a business service, you can change the top class to service offerings, business processes, or application services by configuring the **sn\_oper\_res.top\_class\_name** property. You can then change the top class to another object and the system shows data with respect to that specific top class. This property is applicable only for the dashboards and not for the Workspace forms. For more information on the properties, see [Configure Operational Resilience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-opres-prop.md).
+For example, if the data is displayed for a business service, you can configure the **sn\_oper\_res.top\_class\_name** property to change the top class. You can change it to service offerings, business processes, or application services. The system shows data with respect to that specific top class. This property is applicable only for the dashboards and not for the Workspace forms. For more information on the properties, see [Configure Operational Resilience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-opres-prop.md).
 
 The following example shows that the top class name is set to **cmdb\_ci\_service\_business**.
 
@@ -68,11 +68,11 @@ When the **Calculate red flags for CSDM and dependencies** scheduled job is exec
 
 \[Omitted image "dashboard-data.png"\] Alt text: Dashboard data.
 
-Selecting the card shows a detailed breakdown for the business service. It shows a total of 24 red flags, with 3 specifically attributed to the "Cards and payments" service. The following illustration shows the roll-up functionality, which aggregates the red flags for the entities associated with the selected "Cards and Payments" business service, providing a hierarchical view of the data.
+Selecting the card shows a detailed breakdown for the business service. It shows a total of 24 red flags, with 3 specifically attributed to the "Cards and payments" service. The following illustration shows the roll-up functionality, which aggregates the red flags for the entities associated with the selected "Cards and Payments" business service. The illustration provides a hierarchical view of the data.
 
 \[Omitted image "red-flags-breakup.png"\] Alt text: red flags.
 
-The value "24" shown in the Total red flags count column is the roll-up value of the red flags for all entities under the "Cards and Payments" business service.
+The Total red flags count column shows the value "24". This is the roll-up value of red flags for all entities under the "Cards and Payments" business service.
 
 ## CSDM objects table
 
@@ -91,7 +91,7 @@ You can group the objects with respect to their object classes. Then you can the
 
 \[Omitted image "obj-class.png"\] Alt text: Object classes.\[Omitted image "obj-class-2.png"\] Alt text: Grouped classes.
 
-The upstream impacted objects for a specific object class are added to the Impacted objects column. For example, the Java Application Server FLX has upstream impacted objects such as digital banking process and inbound payment, which get added and are shown in the Impacted objects column.
+The upstream impacted objects for a specific object class are added to the Impacted objects column. For example, the Java Application Server FLX has upstream impacted objects such as digital banking process and inbound payment. These objects are added and shown in the Impacted objects column.
 
 \[Omitted image "object-classes.png"\] Alt text: Classes.
 
@@ -109,7 +109,7 @@ The Main node configurations provide the data flow of what you want to see. The 
 
 \[Omitted image "main-node-menu.png"\] Alt text: Menu.
 
-The entire flow that goes from a business service to business process to service offering and then to an application is created in the Main node configurations and then the configurations are mapped to the impacted objects.
+The entire flow from a business service to business process to service offering and then to an application is created in the Main node configurations. The configurations are then mapped to the impacted objects.
 
 For information on setting up the Main node configurations, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/set-up-main-node.md).
 
@@ -127,11 +127,11 @@ After running the **Update CSDM and other dependencies** scheduled job, the data
 
 \[Omitted image "tabs-business-service-view-2.png"\] Alt text: Record form.
 
-Previously, traversing many-to-many tables to find related records was time-consuming. Now, by storing impacted objects in the table itself, you can directly retrieve related records from a single column, eliminating the need for recursive hierarchy creation, improving efficiency significantly.
+Previously, traversing many-to-many tables to find related records was time-consuming. Now, impacted objects are stored in the table itself. You can directly retrieve related records from a single column, eliminating the need for recursive hierarchy creation and improving efficiency significantly.
 
 Dependencies are fetched from the Entity \[sn\_grc\_profile\] \(many-to-many\) table first. When you run the **Calculate red flags for CSDM and other dependencies** scheduled job, the red flags data is fetched and rolled up according to the configured settings.
 
-After the scheduled job is completed, the Main node configurations are no longer required. The dashboard uses the top class property to traverse the red flags staging table and retrieve downstream red flags that match the specified record type, such as business service or service offering, and so on.
+After the scheduled job is completed, the Main node configurations are no longer required. The dashboard uses the top class property to traverse the red flags staging table. It retrieves downstream red flags that match the specified record type, such as business service or service offering.
 
 \[Omitted image "sch-job-2.png"\] Alt text: Red flags.
 

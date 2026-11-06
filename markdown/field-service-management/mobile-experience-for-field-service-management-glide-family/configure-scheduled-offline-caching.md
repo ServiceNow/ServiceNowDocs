@@ -1,20 +1,20 @@
 ---
 title: Configure scheduled offline caching
-description: Configure system components to automatically download the cache in the background. If you're making changes to these properties, then you must create them first.
+description: Configure system components to automatically download the cache in the background. If you are making changes to these properties, then you must create them first.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-scheduled-offline-caching.html
 release: zurich
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Configure scheduled offline caching
 
-Configure system components to automatically download the cache in the background. If you're making changes to these properties, then you must create them first.
+Configure system components to automatically download the cache in the background. If you are making changes to these properties, then you must create them first.
 
 ## Before you begin
 
@@ -76,9 +76,7 @@ The duration when the cache expires on the client. Every time the payload is ref
 **Note:** 172,800,000 milliseconds is 48 hours. After 48 hours, the system deletes the data due to a security protocol.
 
 </td></tr></tbody>
-</table>        **Note:** To set additional properties for scheduling offline cache download, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/sg-configure-offline-mode.md).
-
-    3.  Select **Update**.
+</table>    3.  Select **Update**.
 
 2.  Configure the scheduled job to schedule the offline cache download.
 

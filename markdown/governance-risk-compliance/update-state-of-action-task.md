@@ -1,18 +1,18 @@
 ---
 title: Manage an investigation-type action task
-description: Manage an investigation-type action task for the Operational vulnerability. An investigation-type action task is initiated when additional investigation is needed to resolve the vulnerability. If the approver rejects the Operational vulnerability and requests more investigation, the task owner can create an investigation-type of action task, assign it to an appropriate user, review their completed work, and then request an approval again.
+description: Manage an investigation-type action task for the Operational vulnerability. Create and assign investigation tasks when approvers request additional investigation. After reviewing completed work, request approval again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/update-state-of-action-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating an action task for the operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Manage an investigation-type action task
 
-Manage an investigation-type action task for the Operational vulnerability. An investigation-type action task is initiated when additional investigation is needed to resolve the vulnerability. If the approver rejects the Operational vulnerability and requests more investigation, the task owner can create an investigation-type of action task, assign it to an appropriate user, review their completed work, and then request an approval again.
+Manage an investigation-type action task for the Operational vulnerability. Create and assign investigation tasks when approvers request additional investigation. After reviewing completed work, request approval again.
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ If the approver rejects the vulnerability, its state is updated to **Treatment**
 
 3.  On the Create New Action task form, fill in the fields.
 
-    For more information, see [Create New Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/action-task-form.md).
+    For more information, see [Create Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/action-task-form.md).
 
 4.  Select the type of the action task as **Investigation**.
 

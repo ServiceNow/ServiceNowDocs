@@ -7,7 +7,7 @@ release: zurich
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---
@@ -18,7 +18,7 @@ After the request has been submitted, a catalog administrator can approve or rej
 
 ## Before you begin
 
-Role required: none
+Role required: none.
 
 ## About this task
 

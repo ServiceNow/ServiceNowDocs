@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/displaying\_multiple\_productlists\_in\_layouts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Displaying multiple product lists in layouts
@@ -20,7 +20,7 @@ In ServiceNow CPQ, a layout can show multiple bills of material \(BOMs\) at once
 
 Use the BOM Types to Include in Save Request admin setting to add additional BOM types to a Save request. Any BOM types added here are passed in the save request and created as quote lines when going through Salesforce CPQ.
 
-Use the Push BOM Data to Logik Salesforce Object admin setting to configure BOM items to be passed back and written into Salesforce as configuration line items.
+Use the Push BOM Data to ServiceNow CPQ Salesforce Object admin setting to configure BOM items to be passed back and written into Salesforce as configuration line items.
 
 To learn how to add additional BOM types to a Save request and to configure BOM items to be written to Salesforce as configuration line items, see [ServiceNow CPQ admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-admin-settings.md).
 

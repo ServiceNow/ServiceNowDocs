@@ -23,7 +23,7 @@ Verify the following:
 
 -   The ServiceNow AI Platform is running on the Brazil, Australia, or Zurich release starting with Patch 8.
 -   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/install-na-itom.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/install-na-itom.md).
 -   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 Role required: admin

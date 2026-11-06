@@ -1,24 +1,29 @@
 ---
 title: Export OSCAL catalog
-description: Export selected control objectives from Continuous Authorization and Monitoring to Open Security Controls Assessment Language \(OSCAL\) JSON format for external system integration or catalog backup.
+description: From the Control objective list view page, you can export the catalog in OSCAL JSON format for the selected control objectives. This action enables you to export your control objectives from CAM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-catalog-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Export in OSCAL format, CAM OSCAL, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Export in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Export OSCAL catalog
 
-Export selected control objectives from Continuous Authorization and Monitoring to Open Security Controls Assessment Language \(OSCAL\) JSON format for external system integration or catalog backup.
+From the Control objective list view page, you can export the catalog in OSCAL JSON format for the selected control objectives. This action enables you to export your control objectives from CAM.
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.info\_system\_sec\_manager,sn\_irm\_cont\_auth.info\_system\_sec\_officer, sn\_irm\_cont\_auth.system\_owner, or sn\_irm\_cont\_auth.reader
+Role required:
+
+-   Authorizing Official \(sn\_irm\_cont\_auth.authorization\_official\)
+-   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\)
+-   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
+-   System Owner \(sn\_irm\_cont\_auth.system\_owner\)
 
 ## Procedure
 
@@ -31,8 +36,6 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 4.  From the list view, select one or more control objectives records which need to be exported.
 
 5.  Select **OSCAL Export**.
-
-    **OSCAL Export** pop-window displays.
 
 6.  In the pop-up window, enter the **Title** and **Version** and then select **Export**.
 

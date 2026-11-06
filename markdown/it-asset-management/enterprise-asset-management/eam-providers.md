@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-10-15"
-reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise Asset Management for Providers
@@ -27,10 +27,21 @@ You can install and use the application only if you've already installed the Ent
 
 -   **[Installing Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installing-eam-providers.md)**  
 Install the Enterprise Asset Management for Providers application so that Device as a Service \(DaaS\) providers, vendors, and manufacturers can manage all DaaS-related activities from a single location. You can install the application from either the ServiceNow® Store or the Admin Home page.
+-   **[Components installed with Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-providers.md)**  
+Several types of components are installed with activation of the com.sn\_eam\_provider plugin, including user roles, applications, and tables.
 -   **[Managing Return Merchandise Authorization \(RMA\) response orders for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-rma-response-orders-daas-assets.md)**  
 If you are a DaaS provider, vendor, or manufacturer, you can fulfill RMA requests from your customers by creating and managing provider-based RMA response orders.
 -   **[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-inbound-asset-orders-daas-assets.md)**  
 If you are a DaaS provider, vendor, or manufacturer, you can create and manage provider-based inbound asset orders to provide your customers with the DaaS assets that are requested through your Return Merchandise Authorization \(RMA\) response orders.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-related-apps.md)
+
+**Related topics**  
+
+
+[Enterprise Asset Management for Healthcare]()
+
+[OT Asset Management]()
+
+[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
 

@@ -1,20 +1,20 @@
 ---
 title: Embedded Help reference
-description: Reference topics provide information about system properties, configure, and basic information about domain separation.
+description: Reference topics provide information about system properties you may need to configure, as well as basic information about domain separation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embedded-help-reference.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Embedded Help reference
 
-Reference topics provide information about system properties, configure, and basic information about domain separation.
+Reference topics provide information about system properties you may need to configure, as well as basic information about domain separation.
 
 -   **[Embedded Help system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-sys-properties.md)**  
 Embedded help is active by default on your instance. The administrator can change system properties to modify how the instance interacts with embedded help.

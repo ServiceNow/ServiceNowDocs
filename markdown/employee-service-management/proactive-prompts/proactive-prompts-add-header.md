@@ -7,9 +7,9 @@ release: zurich
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a signal, Configure, Proactive Prompts, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a signal, Configuring Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
 
 # Add a new prompt header to identify the prompt

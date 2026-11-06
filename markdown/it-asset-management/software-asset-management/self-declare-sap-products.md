@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Self-declaring SAP engine license usage, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Self-declaring SAP engine license usage, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Self-declare SAP engine license usage in the Software Asset Management classic application
@@ -18,7 +18,7 @@ Use the Software Asset Management classic application to self-declare the licens
 
 ## Before you begin
 
-Role required: admin or sam\_user
+Role required: sam\_user
 
 ## About this task
 
@@ -56,7 +56,7 @@ To determine if you must self-declare the license usage for a given engine, see 
 
     4.  In the **Name** field of the Client Access form, enter a name for the client access record.
 
-    5.  Select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Search icon. next in the **Software model** field to locate and select the software model for the SAP engine.
+    5.  Select the Lookup using list icon \[Omitted image "search-icon.png"\] next in the **Software model** field to locate and select the software model for the SAP engine.
 
         **Note:** Select the same software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/self-declare-sap-products.md).
 

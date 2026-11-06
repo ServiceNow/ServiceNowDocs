@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/schedule-execute-job-update-records.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Update records safely, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Schedule or execute a job to update records
@@ -30,15 +30,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d258990e88">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d268388e88">
 
 Option
 
-</th><th align="left" id="d258990e91">
+</th><th align="left" id="d268388e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d258990e97">
+</th></tr></thead><tbody><tr><td id="d268388e97">
 
 **Schedule the update job**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d258990e127">
+</td></tr><tr><td id="d268388e127">
 
 **Run the update job now**
 
@@ -67,5 +67,5 @@ Description
 
 The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/rollback-update-job.md).
 
-**Parent Topic:**[Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)
+**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)
 

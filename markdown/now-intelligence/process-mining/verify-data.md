@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Verify the data that was imported and validate that the data is accurate. The su
 
 -   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md).
 
-Role required: sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Role required: sn\_process\_optimization\_admin
 
     Verify that the mandatory and custom fields have the value that you had specified in your source file.
 
-4.  Select **edit your dataset** link if you want to import your dataset again or edit the imported dataset.
+4.  Select **Edit your dataset** link if you want to import your dataset again or edit the imported dataset.
 
 5.  Select **Confirm and continue** after validating your data.
 

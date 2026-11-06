@@ -7,9 +7,9 @@ release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Localization Framework Properties: Update Set Strategies

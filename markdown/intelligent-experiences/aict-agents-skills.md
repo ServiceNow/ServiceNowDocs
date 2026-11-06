@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-agents-skills.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [generative AI, agentic AI, agents, skills]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Agents and skills inventory
@@ -49,7 +49,7 @@ The skills are available on the Now Assist Skill Config \[sn\_nowassist\_skill\_
 
 |Skill name|Interface plugin|Description|
 |----------|----------------|-----------|
-|AI Asset Tag Generator|Base plugin \(no gate\)|Derives tags for an AI asset based on its metadata, guided by existing tags present in the system.|
+|AI Asset Tag Generator|Base plugin \(no gate\)|Derives tags for an AI asset based on its metadata, guided by existing tags present in the system. Intelligent Asset Deduplication uses these tags to group AI systems that perform the same function.|
 |AI Asset Metadata Enrichment Recommender|Base plugin \(no gate\)|Analyzes AI asset metadata and generates field-level enrichment recommendations using LLM inference and optional web search. Suggests values for description, use cases, and docs with confidence scoring.|
 |Score and Categorization Insight|`com.sn_ai_evaluations`|Analyzes evaluated agent sessions to identify where quality and safety scores degrade across usage categories. Correlates session and trace-level metrics to pinpoint problem patterns.|
 |Use and Purpose vs Intent Insight|`com.sn_ai_evaluations`|Compares an AI agent's registered use &amp; purpose against actual user interactions from session trace data. Detects divergence patterns and escalates meaningful mismatches.|

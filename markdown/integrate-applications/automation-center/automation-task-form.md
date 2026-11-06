@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -71,11 +71,11 @@ Description of the automation task.
 
 </td></tr><tr><td>
 
-Active
+Due date
 
 </td><td>
 
-Option for ensuring the use of the automation task.
+Date when the task is due.
 
 </td></tr><tr><td>
 

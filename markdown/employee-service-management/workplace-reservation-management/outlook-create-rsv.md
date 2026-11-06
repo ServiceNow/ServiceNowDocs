@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Using Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a reservation in Microsoft Outlook add-in
@@ -260,10 +260,4 @@ Select this option to add another building to your reservation. You can create m
 
     \[Omitted image "delegate-fields-all-reservations-page.png"\] Alt text: Workplace Reservations page showing meeting delegate and meeting organizer.. For more information, see [Delegate reservations in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-delegate-rsv.md).
 
-
-**Parent Topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/using-outlook-addin.md)
-
-**Previous topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/using-outlook-addin.md)
-
-**Next topic:**[Edit reservation details in Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-edit-rsv.md)
 

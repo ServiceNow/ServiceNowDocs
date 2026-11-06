@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Language filtering for external content
@@ -26,7 +26,7 @@ As an example, if the session language is Canadian French, with French configure
 
 **Note:** AI Search can detect multiple languages when indexing content from external source system documents, so a single external content search result may be tagged with multiple languages. As an example, a document in Japanese that contains a section in English might be tagged as including both Japanese and English content. This document would appear in the search results from the previous example because it contains content in English. For more information on language detection at indexing time, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/international-language-support-ais.md).
 
-To learn about configuring and using connectors to make content from external source systems searchable, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-cont-connectors-landing-page.md). For details on fallback languages and the global fallback locale, see [AI Search interaction with fallback languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/interaction-fallback-language-ais.md) and [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
+To learn about configuring and using connectors to make content from external source systems searchable, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/ext-cont-connectors-landing-page.md). For details on fallback languages and the global fallback locale, see [AI Search interaction with fallback languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/interaction-fallback-language-ais.md) and [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
 
 **Parent Topic:**[Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/international-language-support-ais.md)
 

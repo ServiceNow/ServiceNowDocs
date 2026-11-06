@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -50,29 +50,29 @@ You can generate the explanation of the calculated risk rating for a change requ
 
 1.  In Core UI or Service Operations Workspace for ITSM, open a change request that is assigned to you.
 
-2.  Select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] for the **Explain Risk** field.
+2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. for the **Explain Risk** field.
 
-    **Note:** The ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] isn’t available if the risk for the change request hasn’t already been calculated.
+    **Note:** The Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. isn’t available if the risk for the change request hasn’t already been calculated.
 
-    The risk explained by ServiceNow Otto appears in a window on the change request record.
+    The risk explained by Now Assist appears in a window on the change request record.
 
     \[Omitted image "now-assist-itsm-change-risk-citation.png"\] Alt text: The Change Risk explanation includes a list of relevant change requests to help you understand which risk factors contributed to the calculated risk
 
-3.  Elaborate or shorten the risk explained by ServiceNow Otto.
+3.  Elaborate or shorten the risk explained by Now Assist.
 
     -   To lengthen the generated response, select **Refine** &gt; **Elaborate**.
     -   To shorten the generated response, select **Refine** &gt; **Shorten**.
 4.  When you're finished generating the explanation for a change request risk rating, you can provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d275158e237">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d69283e245">
 
 Option
 
-</th><th align="left" id="d275158e240">
+</th><th align="left" id="d69283e248">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d275158e246">
+</th></tr></thead><tbody><tr><td id="d69283e254">
 
 **Provide feedback for the change request risk explanation**
 
@@ -80,7 +80,7 @@ Procedure
 
 If you think that the change request risk explanation was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the change request risk explanation wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d275158e269">
+</td></tr><tr><td id="d69283e277">
 
 **Copy the change request risk explanation**
 
@@ -88,7 +88,7 @@ If you think that the change request risk explanation was helpful, select the he
 
 If you want to reuse the change request risk explanation, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d275158e284">
+</td></tr><tr><td id="d69283e292">
 
 **View the information about the change request risk explanation**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Transfer order tasks
@@ -18,8 +18,8 @@ Transfer assets from one location to the other by moving the assets through the 
 
 -   **[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-a-transfer-order.md)**  
 Create a transfer order to move one or more assets from a source stockroom to a destination stockroom.
--   **[Create a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line.md)**  
-Create a transfer order line to specify the exact items that comprise a transfer order.
+-   **[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line.md)**  
+Add a transfer order a line to a transfer order for each asset or consumable model you want to move.
 -   **[Close transfer order line task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/move-transfer-order-line-through-stages.md)**  
 Progress a transfer order line through diffident stages by closing the transfer order line task.
 -   **[Perform bulk updates for transfer order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-bulk-transfer.md)**  
@@ -29,7 +29,7 @@ You can delete a transfer order only if the transfer order is still in the draft
 -   **[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)**  
 You can delete a transfer order line only if it's still in the draft stage.
 -   **[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)**  
-When you receive a transfer order and if there’s a problem with all or some of the items, you can return the transfer order.
+Return items from a received transfer order when all or some of the delivered assets are defective or incorrect.
 
 **Parent Topic:**[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/manage-transfer-orders.md)
 
@@ -39,6 +39,8 @@ When you receive a transfer order and if there’s a problem with all or some of
 [Transfer order flow]()
 
 [Customize transfer order line tasks]()
+
+[Transfer assets using transfer orders]()
 
 [Transfer order line asset tracking]()
 

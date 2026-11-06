@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -33,7 +33,7 @@ When turning on the Customer summarization skill in CSM, you can specify who has
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select the **Customer** workflow.
 

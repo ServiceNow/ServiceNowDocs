@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/exploring-mcp-server-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [explore]
-breadcrumb: [MCP Server Console, Enable AI experiences]
+breadcrumb: [MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Exploring MCP Server Console
@@ -19,7 +19,7 @@ Learn about how you can use Model Context Protocol \(MCP\) servers to allow AI a
 
 The Model Context Protocol defines a standard method of communication between large language models \(LLMs\) and external systems, such as a ServiceNow instance. AI applications connect to an external system from an MCP client, such as an AI agent, using an MCP server. The server tells the client which external resources it can access and how to access them. Then, from an MCP client, users can request information from the server and automate functionality using the available tools and data that the server returns. For general information about the Model Context Protocol and MCP terminology, see the [Model Context Protocol documentation](https://modelcontextprotocol.io/docs/learn/server-concepts) on the modelcontextprotocol.io website.
 
-With MCP Server Console, you can create MCP servers on an instance and configure the tools that they expose or use a preconfigured Quickstart Server. Tools define which functionality and data a server exposes to clients and the actions that can be performed on an instance by clients. You can create tools based on existing capabilities, such as Now Assist skills.
+With MCP Server Console, you can create MCP servers on an instance and configure the tools that they expose or use a preconfigured Quickstart Server. Tools define which functionality and data a server exposes to clients and the actions that can be performed on an instance by clients. You can create tools based on existing capabilities, such as AI skills.
 
 Then any AI application, such as Microsoft Copilot or Claude, can call a server from a client using OAuth 2.0 authentication and get a list of available tools. With these tools, employees using MCP clients can prompt the server for information from the instance or to perform an action on the instance, such as to summarize a list of recently closed incidents or cases. You can also use the ServiceNow Model Context Protocol Client to let an AI application on one instance access tools from an MCP server on another instance.
 
@@ -47,7 +47,7 @@ The following infographic shows the workflow for AI administrators to get starte
 
     You can create one or more servers that expose different tools for different use cases, such as for HR or IT workflows, or for different clients.
 
-3.  If needed, you can create additional tools from generative AI skills and configure which fields are exposed to clients and then add the tools to servers.
+3.  If needed, you can create additional tools from AI skills and configure which fields are exposed to clients and then add the tools to servers.
 4.  You create OAuth inbound integrations for each client to secure access to servers on an instance.
 5.  You configure clients to connect to a server using the server and OAuth inbound integration details.
 
@@ -55,7 +55,7 @@ The following infographic shows the workflow for AI administrators to get starte
 
 6.  Employees use clients, such as AI agents, to prompt the server for data from the instance or to perform an action on the instance.
 
-**Note:** With AI Gateway in AI Control Tower, AI administrators can monitor MCP server access and view metrics for servers and their tools. For more information, see .
+**Note:** With AI Gateway in AI Control Tower, AI administrators can monitor MCP server access and view metrics for servers and their tools. For more information, see [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-gateway-overview.md).
 
 ## MCP Server Console benefits
 

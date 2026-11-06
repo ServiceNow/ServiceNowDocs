@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/optimization.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Customer Service Management]
 ---
@@ -56,7 +56,7 @@ Key Features of process mining include:
 
 For more information about enabling the Process Mining content pack, see the following topics:
 
--   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/po-content-pack.md).
+-   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/activate-po-content-pack.md).
 -   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/process-opt-csm.md).
 
 ## Workforce Optimization

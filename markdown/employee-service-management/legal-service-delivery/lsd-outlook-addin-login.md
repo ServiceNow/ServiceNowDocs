@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 1.  Sign in to Microsoft Outlook Add-In for Legal Service Delivery using any of the two methods.
 
-<table id="choicetable_kwh_4wy_wbc"><thead><tr><th align="left" id="d231443e84">
+<table id="choicetable_kwh_4wy_wbc"><thead><tr><th align="left" id="d235835e84">
 
 Method
 
-</th><th align="left" id="d231443e87">
+</th><th align="left" id="d235835e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d231443e93">
+</th></tr></thead><tbody><tr><td id="d235835e93">
 
 **Microsoft Outlook client**
 
@@ -45,7 +45,7 @@ Steps
 3.  On the Microsoft Outlook ribbon, select ServiceNow for Legal icon.
 
 
-</td></tr><tr><td id="d231443e125">
+</td></tr><tr><td id="d235835e125">
 
 **Outlook Web App**
 

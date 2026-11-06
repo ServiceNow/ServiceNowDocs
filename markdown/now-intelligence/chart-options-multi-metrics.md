@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/chart-options-multi-metrics.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,6 +23,10 @@ If you are showing multiple metrics in a time series data visualization, you can
 When you have a data visualization with more than one data source, you have a separate metric for each data source. In time series data visualizations, you can select a separate visualization type for each metric, to make the visualization easier to read. In each Metric tile, selecting the visualization icon opens a list of visualization types to choose from.
 
 \[Omitted image "ts-chart-choice-multi-metrics.png"\] Alt text: Metrics tile when there are 2 metrics, showing visualization selection menu.
+
+**Note:** When a Data snapshots indicator is selected, the Metrics component is the same as the source table.
+
+Dot-walk fields are limited to those fields defined in the snapshot indicator's source.
 
 ## Multiple Y-axes
 

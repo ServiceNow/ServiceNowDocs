@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure translation management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ Add a custom Localization Framework setting to enable machine translation for bu
 -   [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
 -   [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/activate-lf-plugin.md).
 -   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateALanguage.md).
--   Bulk Translation is available with the base Zurich release. If you are upgrading from a previous release, you must configure the following settings:
+-   Bulk Translation is available with the base Brazil release. If you are upgrading from a previous release, you must configure the following settings:
     -   Enable the Localization Framework by setting the **glide.knowman.translation.enable\_lf\_article\_translation** system property to true.
     -   Set the **glide.knowman.translation.enable\_translation\_task** system property to false.
     -   Set the **glide.knowman.translation.enable\_localization\_framework** system property to true.

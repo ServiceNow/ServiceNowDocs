@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -36,7 +36,7 @@ Modify the Request cloud account form by creating or editing variables in the ca
 
 4.  Click the **Variable Sets** subtab, and click the variable set.
 
-5.  Select the variable that you want to edit, or to create a variable, click **New**.
+5.  Click the variable that you want to edit, or to create a variable, click **New**.
 
 6.  On the form, fill in the fields.
 
@@ -239,7 +239,7 @@ If the expression isn't valid, an error appears.
 
     | | |
     |---|---|
-    |Visible|If selected, the variable is visible in the item form before ordering the item. It is also visible in the Variable editor after ordering and in the cart view.|
+    |Visible|If selected, the variable is visible in the item form before ordering and in the cart view. The variable is also visible in the Variable editor after ordering.|
     |Read-only|If selected, the variable is read-only in the Cloud User Portal and cannot be edited.|
 
 7.  Click **Update** once you have made all the changes to the variable.

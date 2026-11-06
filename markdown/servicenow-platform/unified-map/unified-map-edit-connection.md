@@ -7,7 +7,7 @@ release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,15 +42,15 @@ The map editor does not support the following actions:
 
 1.  While editing a map, specify whether to create or modify a connection.
 
-<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d474108e132">
+<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d478920e134">
 
 Action
 
-</th><th align="left" id="d474108e135">
+</th><th align="left" id="d478920e137">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d474108e141">
+</th></tr></thead><tbody><tr><td id="d478920e143">
 
 **Create a connection**
 
@@ -58,11 +58,11 @@ Procedure
 
 Take one of the following actions:
 
--   Right-click a CI and select **Connect to**.
+-   Select and hold \(or right-click\) a CI and select **Connect to**.
 -   Select a CI for the connection \(either the parent or the child\) and then select the Manage connection icon \[Omitted image "icon-um-edit-connection.png"\].
 
 
-</td></tr><tr><td id="d474108e166">
+</td></tr><tr><td id="d478920e168">
 
 **Modify an existing connection**
 
@@ -74,7 +74,7 @@ Take one of the following actions:
 -   Select a CI for the connection \(either the parent or the child\) and then select the Attributes icon \[Omitted image "icon-um-attributes-panel.png"\]. All connections for the CI are listed in boxes. \[Omitted image "um-editor-attrib-card-cxn.png"\] Select **Change**.
 
 
-</td></tr><tr><td id="d474108e195">
+</td></tr><tr><td id="d478920e197">
 
 **Delete a connection**
 

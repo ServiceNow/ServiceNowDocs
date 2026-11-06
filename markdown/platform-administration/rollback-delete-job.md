@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/rollback-delete-job.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delete records safely, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Deleting records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Rollback a delete job
@@ -37,5 +37,5 @@ If you want to restore records deleted through a delete job, execute a rollback 
 
 The rollback job is executed immediately and the deleted records are restored. If you want to delete the restored records, create a delete job using the same conditions, and then schedule the delete job or execute it immediately.
 
-**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/activate-notifications-email-agents-plugin.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Now Assist in Notifications, Configure core features, Administer]
+breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate Notifications Email Agents plugin
@@ -22,7 +22,7 @@ To purchase a subscription, contact your ServiceNow account manager. When you pu
 
 **Note:**
 
-Before purchasing a subscription, you can evaluate this feature on a non-production instance without charge by requesting it from the Now Support Service Catalog.
+Before purchasing a subscription, you can evaluate the feature on a non-production instance without charge by requesting it from the Now Support Service Catalog.
 
 Role required: sn\_notif\_agents.notification\_ai\_admin
 
@@ -36,7 +36,7 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md).
 
@@ -44,6 +44,4 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 ## What to do next
 
 Enable intent to action from [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/enable-intent-to-action.md) or [Inbound email triggers in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/trigger-intent-to-action.md).
-
-**Parent Topic:**[Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-agentic-workflows-in-notifications.md)
 

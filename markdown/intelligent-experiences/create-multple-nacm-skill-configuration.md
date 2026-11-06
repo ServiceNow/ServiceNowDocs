@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-multple-nacm-skill-configuration.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist context menu for custom skill deployment, ServiceNow Otto context menu, AI Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Use ServiceNow Otto context menu for custom skill deployment, ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Create multiple ServiceNow Otto context menu skill configurations
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Experiences** &gt; **ServiceNow Otto Context Menu**.
+1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **ServiceNow Otto Experiences** &gt; **ServiceNow Otto Context Menu**.
 
 2.  Select **Configurations** tab in the ServiceNow Otto context menu home page.
 
@@ -48,7 +48,7 @@ Role required: admin
 
 9.  Select **Save and continue**.
 
-    You will land on the Configure experience page. You will see a table that lists the skill configurations along the order value, for the selected record field. The precedence is given to the configuration with the lowest order value.
+    You will land on the Configure experience page. You will see a table that lists the skill configurations along the order value, for the selected record field. The precedence is always given to the configuration with the lowest order value.
 
     **Note:**
 
@@ -81,5 +81,5 @@ Role required: admin
 13. Select **Preview** and **Done**.
 
 
-**Parent Topic:**[Use Now Assist context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
+**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

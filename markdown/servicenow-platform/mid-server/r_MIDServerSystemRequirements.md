@@ -7,7 +7,7 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-04-26"
+last_updated: "2026-10-16"
 reading_time_minutes: 16
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use these minimum system requirements to allocate resources for computers hostin
 
 <table id="table_mhj_csf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## MID Server supported systems
@@ -41,6 +41,8 @@ Use these minimum system requirements to allocate resources for computers hostin
     -   Linux Red Hat 6 and above
     -   Ubuntu 1404 \(Ubuntu 14\) and above
     -   CentOS 9 and above
+    On Linux, the MID Server requires the net-tools package \(specifically netstat\) to populate the **Network** and **Router** fields on the MID Server record. If net-tools is not installed, these fields remain empty even after the MID Server is validated.
+
 
 **Note:** ServiceNow no longer supports new installations of 32-bit MID Servers or upgrades to version Rome. New MID Server installation are blocked through RPM and MSI installer on the following operating systems:
 
@@ -70,7 +72,7 @@ In order to connect, the MID Server requires access to:
 
 **Note:** OCSP responder URLs use HTTP by design, not HTTPS. Allow outbound HTTP traffic to these addresses so the MID Server can reach OCSP responder endpoints.
 
-While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires \(for example, if its associated private key may have been compromised\). Therefore, the current validity of a website’s certificate must always be checked by clients regardless of its expiry date.
+While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires. For example, this occurs if its associated private key may have been compromised. Therefore, the current validity of a website's certificate must always be checked by clients regardless of its expiry date.
 
 Clients fail a connection when they can’t check the revocation status of a certificate. Firewalls and proxy configurations may block calls to the OCSP DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
 
@@ -80,7 +82,7 @@ On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and
 
 ## Java version support
 
-Java 17.0.12 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 17.0.12 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 17.0.12. If you are using a lower version than 17.0.10, you may see encryption related issues.
+Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
 Testing showed that the MID Server works as expected with Oracle Java 11 version 17.0.10. If you need to upgrade the JRE to a different version, then coordinate with the appropriate account representative for support.
 
@@ -231,7 +233,7 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
 ## Monitoring performance
 
-To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerDashboard.md).
+To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard]().
 
 **Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-reference-information.md)
 

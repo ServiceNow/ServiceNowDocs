@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-chat-session-tabs-configure.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Configure settings such as duration and color for the chat SLA threshold timers 
 
 ## Before you begin
 
-Role required: admin
+Role required: virtual\_agent\_admin
 
 ## About this task
 
@@ -40,7 +40,7 @@ You can configure a minimum of one and a maximum of three chat SLA threshold tim
 
     This is a global switch that enables the feature for an instance.
 
-4.  Select **CSM/FSM Configurable Workspace** in the **Select a workspace for tab settings** field.
+4.  Select **CRM Workspace** in the **Select a workspace for tab settings** field.
 
     This is the workspace for which you want to enable the chat session tabs feature.
 

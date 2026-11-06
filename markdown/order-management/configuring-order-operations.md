@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-order-operations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ Installing and configuring the following applications involve installing the app
 
 1.  [Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-order-ops.md)
 
-    Install and configure the Order Operations Case Management application customer service agents to create cases for multiple customer orders or for specific products within an order.
+    Install and configure the Order Operations Case Management application customer service agents to create cases for multiple customer orders or for specific products in an order.
 
 2.  [Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-cash-process-management.md)
 
@@ -28,4 +28,11 @@ Installing and configuring the following applications involve installing the app
 
     Activate the RMA Case Management plugin that enables your sales organization to manage and triage return cases for customer products and services, addressing returns, replacements, and repair use cases.
 
+
+**Related topics**  
+
+
+[Order operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-operations-landing.md)
+
+[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-operations.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Send a publication for review
-description: Send publications for a review, either the author or administrators, from the Author stage, triggering a transition to the Review stage. Approvers are automatically added to the Approvers related list.
+description: Send publications for review, either the author or administrators, from the Author stage, triggering a transition to the Review stage. Approvers are automatically added to the Approvers related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommSendPubForReview.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Send a publication for review
 
-Send publications for a review, either the author or administrators, from the Author stage, triggering a transition to the Review stage. Approvers are automatically added to the Approvers related list.
+Send publications for review, either the author or administrators, from the Author stage, triggering a transition to the Review stage. Approvers are automatically added to the Approvers related list.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_publications.author or sn\_publications.admin
     -   **Targeted Communications** &gt; **Draft Publications**
 2.  Select a publication in the **Author** stage.
 
-3.  Select **Send For Review**.
+3.  Click **Send For Review**.
 
     The publication stage is set to **Review** and the approvers are added to the **Approvers** related list on the Publication form.
 

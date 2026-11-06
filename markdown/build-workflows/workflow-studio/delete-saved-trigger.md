@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build triggers, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Delete a saved trigger
@@ -30,7 +30,7 @@ The trigger must be detached from any of the flows that are using the trigger. F
 
 3.  Select the trigger that you want to delete.
 
-4.  From the More Actions menu \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to open more actions menu.\), select **Delete**.
+4.  From the More Actions menu \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to select the more actions menu.\), select **Delete**.
 
 5.  If the trigger was attached to any flows, then from the list of flows that are using the trigger, detach the trigger by selecting the flows from the list and selecting **Detach**.
 

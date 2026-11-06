@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-bpmn-shapes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 13
-breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business Process Modeling Notation \(BPMN\) shapes
@@ -18,7 +18,7 @@ Use the BPMN shapes to generate diagrams for your current business processes and
 
 You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
 
-You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Pulling outward increases the shape's dimensions, while dragging inward reduces its size. However, BPMN-Event shapes can't be resized.
+You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Pulling outward increases the shape's dimensions, while dragging inward reduces its size. However, BPMN-Event shapes can’t be resized.
 
 When you drag a BPMN shape from the **Shapes** palette to the canvas, the shape icon you drag matches the shape's appearance on the canvas. This helps you confirm the correct shape before placing it on the canvas.
 
@@ -26,98 +26,236 @@ BPMN shapes are organized into sub-categories in the **Shapes** palette: **Event
 
 ## BPMN: General shapes
 
-|Shape|Name|Description|
-|-----|----|-----------|
-|\[Omitted image "bpmn-icon-pool.png"\] Alt text: Pool|Pool|Represents a swimlane container for a single participant or system in a process. Defines the boundary of a process and organizes the lanes that represent roles or responsibilities within it.|
-|\[Omitted image "bpmn-icon-lane.png"\] Alt text: Lane|Lane|Represents a subdivision within a pool, used to assign activities to specific roles, departments, or systems. Organizes responsibilities visually within the parent process boundary.|
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-icon-pool.png"\] Alt text: Pool|Pool|
+|\[Omitted image "bpmn-icon-lane.png"\] Alt text: Lane|Lane|
 
 ## BPMN-Event shapes
 
 Event shapes represent something that happens during a process. Events are categorized by their position in the process flow — start, intermediate, or end — and by the trigger type that causes or results from the event. Boundary events are attached to an activity shape and fire when a specific condition occurs while the activity is running. BPMN-Event shapes cannot be resized.
 
-|Shape|Name|Description|
-|-----|----|-----------|
-|\[Omitted image "bpmn-start-event-compensation.png"\] Alt text: Start \(Compensation\)|Start \(Compensation\)|Represents a process triggered to perform compensation for a previously completed activity. Used within event subprocesses to initiate rollback or corrective actions when a transaction requires undoing completed work.|
-|\[Omitted image "bpmn-start-event-error.png"\] Alt text: Start \(Error\)|Start \(Error\)|Represents a process triggered by an error event, used exclusively within event subprocesses. Interrupts the parent process and redirects flow to error-handling logic when the specified error is thrown.|
-|\[Omitted image "bpmn-start-event-escalation.png"\] Alt text: Start \(Escalation\)|Start \(Escalation\)|Represents a process triggered by an escalation signal, used within event subprocesses. Models escalation-driven initiation when an activity or process requires higher-level attention or intervention.|
-|\[Omitted image "bpmn-start-event-condition.png"\] Alt text: Start Interrupting Conditional|Start Interrupting Conditional|Represents an interrupting start event that activates when a specified business condition or data state becomes true. Interrupts the parent process and redirects flow to the event subprocess when the condition is met.|
-|\[Omitted image "bpmn-start-event-message.png"\] Alt text: Start Interrupting Message|Start Interrupting Message|Represents an interrupting start event activated by an incoming message. Interrupts the parent process and redirects flow to the event subprocess upon receiving the specified message.|
-|\[Omitted image "bpmn-start-event-signal.png"\] Alt text: Start Interrupting Signal|Start Interrupting Signal|Represents an interrupting start event activated by a broadcast signal. Interrupts the parent process and redirects flow to the event subprocess when the specified signal is received.|
-|\[Omitted image "bpmn-start-event-timer.png"\] Alt text: Start Interrupting Timer|Start Interrupting Timer|Represents an interrupting start event activated at a specific time or after a defined interval. Interrupts the parent process and redirects flow to the event subprocess when the timer triggers.|
-|\[Omitted image "bpmn-start-event-multiple.png"\] Alt text: Start \(Multiple\)|Start \(Multiple\)|Represents a start event that activates when any one of several defined trigger types is received. The process begins when any single defined trigger condition is satisfied.|
-|\[Omitted image "bpmn-start-event-non-interrupting-condition.png"\] Alt text: Start \(Non-Interrupting Condition\)|Start \(Non-Interrupting Condition\)|Represents a non-interrupting start event activated when a specified condition becomes true. Spawns a concurrent event subprocess without interrupting the parent process flow.|
-|\[Omitted image "bpmn-start-event-non-interrupting-escalation.png"\] Alt text: Start \(Non-Interrupting Escalation\)|Start \(Non-Interrupting Escalation\)|Represents a non-interrupting start event activated by an escalation signal. Spawns a concurrent event subprocess to handle escalation without interrupting the parent process.|
-|\[Omitted image "bpmn-start-event-non-interrupting-message.png"\] Alt text: Start \(Non-Interrupting Message\)|Start \(Non-Interrupting Message\)|Represents a non-interrupting start event activated by an incoming message. Spawns a concurrent event subprocess without interrupting the parent process flow.|
-|\[Omitted image "bpmn-start-event-non-interrupting-multiple.png"\] Alt text: Start \(Non-Interrupting Multiple\)|Start \(Non-Interrupting Multiple\)|Represents a non-interrupting start event activated by any one of several defined trigger types. Spawns a concurrent event subprocess when any single trigger condition is met.|
-|\[Omitted image "bpmn-start-event-non-interrupting-parallel-multiple.png"\] Alt text: Start \(Non-Interrupting Parallel Multiple\)|Start \(Non-Interrupting Parallel Multiple\)|Represents a non-interrupting start event activated when all defined trigger types occur simultaneously. Spawns a concurrent event subprocess only when every trigger condition is satisfied.|
-|\[Omitted image "bpmn-start-event-non-interrupting-signal.png"\] Alt text: Start \(Non-Interrupting Signal\)|Start \(Non-Interrupting Signal\)|Represents a non-interrupting start event activated by a broadcast signal. Spawns a concurrent event subprocess to handle the signal without interrupting the parent process.|
-|\[Omitted image "bpmn-start-event-non-interrupting-timer.png"\] Alt text: Start \(Non-Interrupting Timer\)|Start \(Non-Interrupting Timer\)|Represents a non-interrupting start event activated at a specific time or after a defined interval. Spawns a concurrent event subprocess without interrupting the parent process flow.|
-|\[Omitted image "bpmn-start-event-none.png"\] Alt text: Start \(None\)|Start \(None\)|Represents the starting point of a process with no defined trigger. Indicates that the process begins when initiated manually or by an external condition not captured in the model.|
-|\[Omitted image "bpmn-start-event-parallel-multiple.png"\] Alt text: Start \(Parallel Multiple\)|Start \(Parallel Multiple\)|Represents a start event that initiates only when all defined trigger types occur simultaneously. Every specified trigger must be satisfied before the process begins.|
-|\[Omitted image "bpmn-intermediate-event-catch-cancel.png"\] Alt text: Intermediate \(Catch-Cancel\)|Intermediate \(Catch-Cancel\)|Represents an intermediate catch event that captures a cancel event within a transaction subprocess. Redirects process flow to cancellation handling and triggers compensation for completed activities within the transaction.|
-|\[Omitted image "bpmn-intermediate-event-catch-compensation.png"\] Alt text: Intermediate \(Catch-Compensation\)|Intermediate \(Catch-Compensation\)|Represents an intermediate catch event that captures a compensation event. Redirects flow to the compensation handler to perform rollback or corrective actions for a previously completed activity.|
-|\[Omitted image "bpmn-intermediate-event-catch-condition.png"\] Alt text: Intermediate \(Catch-Conditional\)|Intermediate \(Catch-Conditional\)|Represents an intermediate catch event that pauses process flow until a specified business condition or data state becomes true. Resumes execution when the defined condition is satisfied.|
-|\[Omitted image "bpmn-intermediate-event-catch-error.png"\] Alt text: Intermediate \(Catch-Error\)|Intermediate \(Catch-Error\)|Represents an intermediate catch event that captures a specific error thrown within the process. Redirects flow to recovery or exception-handling paths when the specified error is received.|
-|\[Omitted image "bpmn-intermediate-event-catch-escalation.png"\] Alt text: Intermediate \(Catch-Escalation\)|Intermediate \(Catch-Escalation\)|Represents an intermediate catch event that captures an escalation signal. Redirects process flow to an escalation handler when higher-level attention is required.|
-|\[Omitted image "bpmn-intermediate-event-catch-message.png"\] Alt text: Intermediate \(Catch-Message\)|Intermediate \(Catch-Message\)|Represents an intermediate catch event that pauses process flow until a specific message is received from a participant or system. Resumes execution once the expected message arrives.|
-|\[Omitted image "bpmn-intermediate-event-catch-multiple.png"\] Alt text: Intermediate \(Catch-Multiple\)|Intermediate \(Catch-Multiple\)|Represents an intermediate catch event that resumes process flow when any one of several defined trigger types occurs. The first trigger condition to be met is sufficient to continue.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-condition.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Condition\)|Intermediate \(Catch-Non-Interrupting Condition\)|Represents a non-interrupting boundary conditional event that fires when a specified condition is true while an activity is active. Spawns a concurrent flow without interrupting the activity.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-escalation.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Escalation\)|Intermediate \(Catch-Non-Interrupting Escalation\)|Represents a non-interrupting boundary escalation event that fires while an activity is active. Spawns a concurrent escalation handler without interrupting or canceling the activity.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-message.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Message\)|Intermediate \(Catch-Non-Interrupting Message\)|Represents a non-interrupting boundary message event that fires when a message arrives while an activity is active. Spawns a concurrent flow without canceling the activity.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-multiple.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Multiple\)|Intermediate \(Catch-Non-Interrupting Multiple\)|Represents a non-interrupting boundary event triggered by any defined event type while an activity is active. Spawns a concurrent flow when any single trigger condition is met.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-parallel-multiple.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Parallel Multiple\)|Intermediate \(Catch-Non-Interrupting Parallel Multiple\)|Represents a non-interrupting boundary event triggered only when all defined event types occur simultaneously while an activity is active. Spawns a concurrent flow when every condition is satisfied.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-signal.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Signal\)|Intermediate \(Catch-Non-Interrupting Signal\)|Represents a non-interrupting boundary signal event that fires when a signal arrives while an activity is active. Spawns a concurrent flow without canceling the activity.|
-|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-timer.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Timer\)|Intermediate \(Catch-Non-Interrupting Timer\)|Represents a non-interrupting boundary timer event that fires at a specific time or interval while an activity is active. Spawns a concurrent flow without interrupting or canceling the activity.|
-|\[Omitted image "bpmn-intermediate-event-catch-parallel-multiple.png"\] Alt text: Intermediate \(Catch-Parallel Multiple\)|Intermediate \(Catch-Parallel Multiple\)|Represents an intermediate catch event that pauses process flow until all defined trigger types occur simultaneously. Resumes execution only when every specified trigger condition is satisfied.|
-|\[Omitted image "bpmn-intermediate-event-catch-signal.png"\] Alt text: Intermediate \(Catch-Signal\)|Intermediate \(Catch-Signal\)|Represents an intermediate catch event that pauses process flow until a specific broadcast signal is received. Resumes execution when the designated signal arrives from another process or participant.|
-|\[Omitted image "bpmn-intermediate-event-catch-timer.png"\] Alt text: Intermediate \(Catch-Timer\)|Intermediate \(Catch-Timer\)|Represents an intermediate catch event that pauses process flow until a specific time or interval elapses. Models time-based delays, deadlines, and scheduled waits within a process.|
-|\[Omitted image "bpmn-intermediate-event-catch-link.png"\] Alt text: Intermediate \(Link-Catch\)|Intermediate \(Link-Catch\)|Represents a link catch event that receives process flow from a corresponding link throw event within the same process. Simplifies diagrams by replacing long or crossing sequence flow lines.|
-|\[Omitted image "bpmn-intermediate-event-none.png"\] Alt text: Intermediate \(None\)|Intermediate \(None\)|Represents a marker in the process flow with no associated trigger or result. Used to document significant milestones or states within a process that are meaningful to stakeholders but do not affect routing.|
-|\[Omitted image "bpmn-intermediate-event-throw-compensation.png"\] Alt text: Intermediate \(Throw-Compensation\)|Intermediate \(Throw-Compensation\)|Represents an intermediate throw event that triggers compensation for one or more previously completed activities. Initiates rollback or corrective actions within transactional process flows.|
-|\[Omitted image "bpmn-intermediate-event-throw-escalation.png"\] Alt text: Intermediate \(Throw-Escalation\)|Intermediate \(Throw-Escalation\)|Represents an intermediate throw event that raises an escalation signal to a higher-level handler or event subprocess. Models escalation initiation when standard process flow requires intervention at a broader scope.|
-|\[Omitted image "bpmn-intermediate-event-throw-link.png"\] Alt text: Intermediate \(Throw-Link\)|Intermediate \(Throw-Link\)|Represents a link throw event that transfers process flow to a corresponding link catch event within the same process. Used to simplify complex diagrams by replacing long or crossing sequence flow lines.|
-|\[Omitted image "bpmn-intermediate-event-throw-message.png"\] Alt text: Intermediate \(Throw-Message\)|Intermediate \(Throw-Message\)|Represents an intermediate throw event that sends a message to a participant or external system. Models outbound message transmission as a defined step within the process flow.|
-|\[Omitted image "bpmn-intermediate-event-throw-multiple.png"\] Alt text: Intermediate \(Throw-Multiple\)|Intermediate \(Throw-Multiple\)|Represents an intermediate throw event that simultaneously triggers all defined outgoing events. Models multi-event broadcasting from a single point in the process flow.|
-|\[Omitted image "bpmn-intermediate-event-throw-signal.png"\] Alt text: Intermediate \(Throw-Signal\)|Intermediate \(Throw-Signal\)|Represents an intermediate throw event that broadcasts a signal to one or more listening processes or events. Models signal-based communication within or across process flows.|
-|\[Omitted image "bpmn-event-end-cancellation.png"\] Alt text: Cancellation End|Cancellation End|Represents an end event that cancels a transaction subprocess. Triggers compensation for all completed activities within the transaction scope and terminates the transaction flow.|
-|\[Omitted image "bpmn-end-event-compensation.png"\] Alt text: Compensation End|Compensation End|Represents an end event that triggers compensation for previously completed activities as the final process action. Models rollback as the terminal outcome of a transactional flow.|
-|\[Omitted image "bpmn-end-event-link.png"\] Alt text: End \(Link\)|End \(Link\)|Represents an end event that transfers flow to a corresponding link event. Used to simplify diagrams by connecting distant parts of a process without long sequence flow lines.|
-|\[Omitted image "bpmn-end-event-none.png"\] Alt text: End \(None\)|End \(None\)|Represents the completion of a process path with no specific result or outgoing action. Indicates that the current flow terminates without triggering further events, messages, or signals.|
-|\[Omitted image "bpmn-end-event-error.png"\] Alt text: End Error|End Error|Represents an end event that terminates a process path by throwing a specific error. The error propagates to an enclosing process or boundary handler for exception-based process termination.|
-|\[Omitted image "bpmn-end-event-message.png"\] Alt text: End Message|End Message|Represents an end event that sends a message to a participant or external system as the final action of a process path. Models outbound notification as the terminal outcome of a process flow.|
-|\[Omitted image "bpmn-end-event-signal.png"\] Alt text: End Signal|End Signal|Represents an end event that broadcasts a signal to one or more listening processes as the final process action. Models signal-based notification as the terminal outcome of a process flow.|
-|\[Omitted image "bpmn-end-event-terminate.png"\] Alt text: End Terminate|End Terminate|Represents an end event that immediately terminates all active process instances and parallel flows. Stops the entire process upon reaching this point, regardless of other paths that may still be active.|
-|\[Omitted image "bpmn-end-event-escalation.png"\] Alt text: Escalation End|Escalation End|Represents an end event that raises an escalation signal to a higher-level handler. Models escalation as the final outcome of a process flow requiring intervention at a broader scope.|
-|\[Omitted image "bpmn-end-event-multiple.png"\] Alt text: Multiple End|Multiple End|Represents an end event that simultaneously triggers all defined result events. Models multi-result termination where multiple end behaviors occur from a single endpoint.|
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-start-event-compensation.png"\] Alt text: Start \(Compensation\)|Start \(Compensation\)|
+|\[Omitted image "bpmn-start-event-error.png"\] Alt text: Start \(Error\)|Start \(Error\)|
+|\[Omitted image "bpmn-start-event-escalation.png"\] Alt text: Start \(Escalation\)|Start \(Escalation\)|
+|\[Omitted image "bpmn-start-event-condition.png"\] Alt text: Start Interrupting Conditional|Start Interrupting Conditional|
+|\[Omitted image "bpmn-start-event-message.png"\] Alt text: Start Interrupting Message|Start Interrupting Message|
+|\[Omitted image "bpmn-start-event-signal.png"\] Alt text: Start Interrupting Signal|Start Interrupting Signal|
+|\[Omitted image "bpmn-start-event-timer.png"\] Alt text: Start Interrupting Timer|Start Interrupting Timer|
+|\[Omitted image "bpmn-start-event-multiple.png"\] Alt text: Start \(Multiple\)|Start \(Multiple\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-condition.png"\] Alt text: Start \(Non-Interrupting Condition\)|Start \(Non-Interrupting Condition\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-escalation.png"\] Alt text: Start \(Non-Interrupting Escalation\)|Start \(Non-Interrupting Escalation\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-message.png"\] Alt text: Start \(Non-Interrupting Message\)|Start \(Non-Interrupting Message\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-multiple.png"\] Alt text: Start \(Non-Interrupting Multiple\)|Start \(Non-Interrupting Multiple\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-parallel-multiple.png"\] Alt text: Start \(Non-Interrupting Parallel Multiple\)|Start \(Non-Interrupting Parallel Multiple\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-signal.png"\] Alt text: Start \(Non-Interrupting Signal\)|Start \(Non-Interrupting Signal\)|
+|\[Omitted image "bpmn-start-event-non-interrupting-timer.png"\] Alt text: Start \(Non-Interrupting Timer\)|Start \(Non-Interrupting Timer\)|
+|\[Omitted image "bpmn-start-event-none.png"\] Alt text: Start \(None\)|Start \(None\)|
+|\[Omitted image "bpmn-start-event-parallel-multiple.png"\] Alt text: Start \(Parallel Multiple\)|Start \(Parallel Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-catch-cancel.png"\] Alt text: Intermediate \(Catch-Cancel\)|Intermediate \(Catch-Cancel\)|
+|\[Omitted image "bpmn-intermediate-event-catch-compensation.png"\] Alt text: Intermediate \(Catch-Compensation\)|Intermediate \(Catch-Compensation\)|
+|\[Omitted image "bpmn-intermediate-event-catch-condition.png"\] Alt text: Intermediate \(Catch-Conditional\)|Intermediate \(Catch-Conditional\)|
+|\[Omitted image "bpmn-intermediate-event-catch-error.png"\] Alt text: Intermediate \(Catch-Error\)|Intermediate \(Catch-Error\)|
+|\[Omitted image "bpmn-intermediate-event-catch-escalation.png"\] Alt text: Intermediate \(Catch-Escalation\)|Intermediate \(Catch-Escalation\)|
+|\[Omitted image "bpmn-intermediate-event-catch-message.png"\] Alt text: Intermediate \(Catch-Message\)|Intermediate \(Catch-Message\)|
+|\[Omitted image "bpmn-intermediate-event-catch-multiple.png"\] Alt text: Intermediate \(Catch-Multiple\)|Intermediate \(Catch-Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-condition.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Condition\)|Intermediate \(Catch-Non-Interrupting Condition\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-escalation.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Escalation\)|Intermediate \(Catch-Non-Interrupting Escalation\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-message.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Message\)|Intermediate \(Catch-Non-Interrupting Message\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-multiple.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Multiple\)|Intermediate \(Catch-Non-Interrupting Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-parallel-multiple.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Parallel Multiple\)|Intermediate \(Catch-Non-Interrupting Parallel Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-signal.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Parallel Multiple\)|Intermediate \(Catch-Non-Interrupting Parallel Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-catch-non-interrupting-timer.png"\] Alt text: Intermediate \(Catch-Non-Interrupting Timer\)|Intermediate \(Catch-Non-Interrupting Timer\)|
+|\[Omitted image "bpmn-intermediate-event-catch-parallel-multiple.png"\] Alt text: Intermediate \(Catch-Parallel Multiple\)|Intermediate \(Catch-Parallel Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-catch-signal.png"\] Alt text: Intermediate \(Catch-Signal\)|Intermediate \(Catch-Signal\)|
+|\[Omitted image "bpmn-intermediate-event-catch-timer.png"\] Alt text: Intermediate \(Catch-Timer\)|Intermediate \(Catch-Timer\)|
+|\[Omitted image "bpmn-intermediate-event-catch-link.png"\] Alt text: Intermediate \(Link-Catch\)|Intermediate \(Link-Catch\)|
+|\[Omitted image "bpmn-intermediate-event-none.png"\] Alt text: Intermediate \(None\)|Intermediate \(None\)|
+|\[Omitted image "bpmn-intermediate-event-throw-compensation.png"\] Alt text: Intermediate \(Throw-Compensation\)|Intermediate \(Throw-Compensation\)|
+|\[Omitted image "bpmn-intermediate-event-throw-escalation.png"\] Alt text: Intermediate \(Throw-Escalation\)|Intermediate \(Throw-Escalation\)|
+|\[Omitted image "bpmn-intermediate-event-throw-link.png"\] Alt text: Intermediate \(Throw-Link\)|Intermediate \(Throw-Link\)|
+|\[Omitted image "bpmn-intermediate-event-throw-message.png"\] Alt text: Intermediate \(Throw-Message\)|Intermediate \(Throw-Message\)|
+|\[Omitted image "bpmn-intermediate-event-throw-multiple.png"\] Alt text: Intermediate \(Throw-Multiple\)|Intermediate \(Throw-Multiple\)|
+|\[Omitted image "bpmn-intermediate-event-throw-signal.png"\] Alt text: Intermediate \(Throw-Signal\)|Intermediate \(Throw-Signal\)|
+| |Cancellation End|
+|\[Omitted image "bpmn-end-event-compensation.png"\] Alt text: Compensation End|Compensation End|
+|\[Omitted image "bpmn-end-event-link.png"\] Alt text: End \(Link\)|End \(Link\)|
+|\[Omitted image "bpmn-end-event-none.png"\] Alt text: End \(None\)|End \(None\)|
+|\[Omitted image "bpmn-end-event-error.png"\] Alt text: End Error|End Error|
+|\[Omitted image "bpmn-end-event-message.png"\] Alt text: End Message|End Message|
+|\[Omitted image "bpmn-end-event-signal.png"\] Alt text: End Signal|End Signal|
+|\[Omitted image "bpmn-end-event-terminate.png"\] Alt text: End Terminate|End Terminate|
+|\[Omitted image "bpmn-end-event-escalation.png"\] Alt text: Escalation End|Escalation End|
+|\[Omitted image "bpmn-end-event-multiple.png"\] Alt text: Multiple End|Multiple End|
+|||
+|||
+|||
 
 ## BPMN-Activity shapes
 
 Activity shapes represent work performed within a process. Activities are divided into tasks, which are atomic units of work, and sub-processes and call activities, which reference other process flows. You can also apply a marker to any task shape to indicate how the activity executes — for example, whether it loops or runs in parallel.
 
-|Shape|Name|Description|
-|-----|----|-----------|
-|\[Omitted image "bpmn-acitivity-business-rule-task.png"\] Alt text: Business Rule Task|Business Rule Task|Represents a task that evaluates a set of business rules to produce a result or decision. Models rule-engine-driven activities such as eligibility checks, policy evaluations, or dynamic calculations.|
-|\[Omitted image "bpmn-acitivity-manual-task.png"\] Alt text: Manual Task|Manual Task|Represents a task performed entirely by a human participant without any system or application support. Models unassisted manual activities such as physical document handling or fieldwork that occurs outside the process system.|
-|\[Omitted image "bpmn-acitivity-receive-task.png"\] Alt text: Receive Task|Receive Task|Represents a task that waits for a message from an external participant or system before the process can continue. Models inbound message reception as an explicit activity within the process flow.|
-|\[Omitted image "bpmn-acitivity-script-task.png"\] Alt text: Script Task|Script Task|Represents a task executed automatically by the process engine using a defined script or expression. Models lightweight automation tasks embedded directly in the process flow, such as data transformations or calculations.|
-|\[Omitted image "bpmn-acitivity-send-task.png"\] Alt text: Send Task|Send Task|Represents a task that sends a message to an external participant or system. Models outbound message transmission as an explicit step where the act of sending is meaningful within the process flow.|
-|\[Omitted image "bpmn-acitivity-service-task.png"\] Alt text: Service Task|Service Task|Represents a task performed automatically by a system, service, or application without human intervention. Models automated activities such as API calls, system integrations, or background data processing.|
-|\[Omitted image "bpmn-acitivity-task.png"\] Alt text: Task|Task|Represents a unit of work within a process performed by a participant or system. Models atomic activities not decomposed further in the current diagram when the task type is unspecified or not relevant to the model.|
-|\[Omitted image "bpmn-acitivity-user-task.png"\] Alt text: User Task|User Task|Represents a task performed by a human participant with the assistance of a software application or workflow tool. Models human-in-the-loop activities such as form completion, approvals, and data entry.|
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-acitivity-business-rule-task.png"\] Alt text: Business Rule Task|Business Rule Task|
+|\[Omitted image "bpmn-acitivity-manual-task.png"\] Alt text: Manual Task|Manual Task|
+|\[Omitted image "bpmn-acitivity-receive-task.png"\] Alt text: Receive Task|Receive Task|
+|\[Omitted image "bpmn-acitivity-script-task.png"\] Alt text: Script Task|Script Task|
+|\[Omitted image "bpmn-acitivity-send-task.png"\] Alt text: Send Task|Send Task|
+|\[Omitted image "bpmn-acitivity-service-task.png"\] Alt text: Service Task|Service Task|
+|\[Omitted image "bpmn-acitivity-task.png"\] Alt text: Task|Task|
+|\[Omitted image "bpmn-acitivity-user-task.png"\] Alt text: User Task|User Task|
+| | |
+|||
+|||
+|||
+|||
+
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-activity-business-rule-call-activity.png"\] Alt text: Business Rule Call Activity|Business Rule Call Activity|
+|\[Omitted image "bpmn-activity-call-activity.png"\] Alt text: Call Activity|Call Activity|
+|\[Omitted image "bpmn-activity-manual-call-activity.png"\] Alt text: Manual Call Activity|Manual Call Activity|
+|\[Omitted image "bpmn-activity-script-call-activity.png"\] Alt text: Script Call Activity|Script Call Activity|
+|\[Omitted image "bpmn-activity-user-call-activity.png"\] Alt text: User Call Activity|User Call Activity|
+|\[Omitted image "bpmn-activity-sub-process.png"\] Alt text: Sub-Process|Sub-Process|
+|\[Omitted image "bpmn-activity-adhoc-sub-process.png"\] Alt text: Adhoc Sub-Process|Adhoc Sub-Process|
+| |Transaction Sub-Process|
+
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-acitivity-loop-business-rule-task.png"\] Alt text: Loop - Business Rule Task|Loop - Business Rule Task|
+|\[Omitted image "bpmn-acitivity-loop-manual-task.png"\] Alt text: Loop - Manual Task|Loop - Manual Task|
+|\[Omitted image "bpmn-acitivity-loop-receive-task.png"\] Alt text: Loop - Receive Task|Loop - Receive Task|
+|\[Omitted image "bpmn-acitivity-loop-script-task.png"\] Alt text: Loop - Script Task|Loop - Script Task|
+|\[Omitted image "bpmn-acitivity-loop-send-task.png"\] Alt text: Loop - Send Task|Loop - Send Task|
+|\[Omitted image "bpmn-acitivity-loop-service-task.png"\] Alt text: Loop - Service Task|Loop - Service Task|
+|\[Omitted image "bpmn-acitivity-loop-default-task.png"\] Alt text: Loop - Task|Loop - Task|
+|\[Omitted image "bpmn-acitivity-loop-user-task.png"\] Alt text: Loop - User Task|Loop - User Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-business-rule-task.png"\] Alt text: Multi Instance Parallel - Business Rule Task|Multi Instance Parallel - Business Rule Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-manual-task.png"\] Alt text: Multi Instance Parallel - Manual Task|Multi Instance Parallel - Manual Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-receive-task.png"\] Alt text: Multi Instance Parallel - Receive Task|Multi Instance Parallel - Receive Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-script-task.png"\] Alt text: Multi Instance Parallel - Script Task|Multi Instance Parallel - Script Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-send-task.png"\] Alt text: Multi Instance Parallel - Send Task|Multi Instance Parallel - Send Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-service-task.png"\] Alt text: Multi Instance Parallel - Service Task|Multi Instance Parallel - Service Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-task.png"\] Alt text: Multi Instance Parallel - Task|Multi Instance Parallel - Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-parallel-user-task.png"\] Alt text: Multi Instance Parallel - User Task|Multi Instance Parallel - User Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-business-rule-task.png"\] Alt text: Multi Instance Sequential - Business Rule Task|Multi Instance Sequential - Business Rule Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-manual-task.png"\] Alt text: Multi Instance Sequential - Manual Task|Multi Instance Sequential - Manual Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-receive-task.png"\] Alt text: Multi Instance Sequential - Receive Task|Multi Instance Sequential - Receive Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-script-task.png"\] Alt text: Multi Instance Sequential - Script Task|Multi Instance Sequential - Script Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-sendTask.png"\] Alt text: Multi Instance Sequential - Send Task|Multi Instance Sequential - Send Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-service-task.png"\] Alt text: Multi Instance Sequential - Service Task|Multi Instance Sequential - Service Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-default-task.png"\] Alt text:|Multi Instance Sequential - Task|
+|\[Omitted image "bpmn-acitivity-multi-instance-sequential-user-task.png"\] Alt text: Multi Instance Sequential - User Task|Multi Instance Sequential - User Task|
+|\[Omitted image "bpmn-acitivity-compensation-business-rule-task.png"\] Alt text: Compensation - Business Rule Task|Compensation - Business Rule Task|
+|\[Omitted image "bpmn-acitivity-compensation-manual-task.png"\] Alt text: Compensation - Manual Task|Compensation - Manual Task|
+|\[Omitted image "bpmn-acitivity-compensation-receive-task.png"\] Alt text: Compensation - Receive Task|Compensation - Receive Task|
+|\[Omitted image "bpmn-acitivity-compensation-script-task.png"\] Alt text: Compensation - Script Task|Compensation - Script Task|
+|\[Omitted image "bpmn-acitivity-compensation-send-task.png"\] Alt text: Compensation - Send Task|Compensation - Send Task|
+|\[Omitted image "bpmn-acitivity-compensation-service-task.png"\] Alt text: Compensation - Service Task|Compensation - Service Task|
+|\[Omitted image "bpmn-acitivity-compensation-default-task.png"\] Alt text: Compensation - Task|Compensation - Task|
+|\[Omitted image "bpmn-acitivity-compensation-user-task.png"\] Alt text: Compensation - User Task|Compensation - User Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-business-rule-task.png"\] Alt text: Loop &amp; Compensation - Business Rule Task|Loop &amp; Compensation - Business Rule Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-manual-task.png"\] Alt text: Loop &amp; Compensation - Manual Task|Loop &amp; Compensation - Manual Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-receive-task.png"\] Alt text: Loop &amp; Compensation - Receive Task|Loop &amp; Compensation - Receive Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-script-task.png"\] Alt text: Loop &amp; Compensation - Script Task|Loop &amp; Compensation - Script Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-send-task.png"\] Alt text: Loop &amp; Compensation - Send Task|Loop &amp; Compensation - Send Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-service-task.png"\] Alt text: Loop &amp; Compensation - Service Task|Loop &amp; Compensation - Service Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-default-task.png"\] Alt text: Loop &amp; Compensation - Task|Loop &amp; Compensation - Task|
+|\[Omitted image "bpmn-acitivity-loop-compensation-user-task.png"\] Alt text: Loop &amp; Compensation - User Task|Loop &amp; Compensation - User Task|
 
 ## BPMN-Gateway shapes
 
 Gateway shapes control how the process flow splits and merges. Gateways can be resized on the canvas.
 
-|Shape|Name|Description|
-|-----|----|-----------|
-|\[Omitted image "bpmn-gateway-complex.png"\] Alt text: Complex|Complex|Represents a decision or synchronization point with complex activation conditions not expressible by standard gateway types. Models advanced branching or merging logic that requires custom rules defined in the gateway condition expression.|
-|\[Omitted image "bpmn-icon-gateway-default.png"\] Alt text: Default|Default|Represents the default sequence flow from an exclusive or inclusive gateway when no other defined condition is met. Ensures that the process always has a path to follow when all conditional flows evaluate to false.|
-|\[Omitted image "bpmn-event.png"\] Alt text: Event|Event|Represents an event-based gateway that routes process flow based on which event occurs first among defined alternatives. Models reactive branching where the next step is determined by incoming events rather than data conditions.|
-|\[Omitted image "bpmn-event-based-start.png"\] Alt text: Event Based \(Start\)|Event Based \(Start\)|Represents an instantiating event-based gateway that creates a new process instance when the first of several defined events occurs. Models exclusive event-driven process instantiation without requiring a preceding start event.|
-|\[Omitted image "bpmn-icon-gateway-exclusive.png"\] Alt text: Exclusive|Exclusive|Represents a decision point where exactly one outgoing sequence flow is followed based on evaluated conditions. Models branching logic where only a single path is taken, and merges the first arriving token on convergence.|
-|\[Omitted image "bpmn-icon-gateway-inclusive.png"\] Alt text: Inclusive|Inclusive|Represents a decision point where one or more outgoing sequence flows are followed based on conditions. Models branching logic where multiple paths can be activated simultaneously and synchronizes all active paths on merge.|
-|\[Omitted image "bpmn-icon-gateway-parallel.png"\] Alt text: Parallel|Parallel|Represents a forking or synchronization point where all outgoing sequence flows are activated simultaneously. Models parallel execution of multiple process paths and waits for all tokens to arrive before continuing on merge.|
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-gateway-complex.png"\] Alt text: Complex|Complex|
+|\[Omitted image "bpmn-icon-gateway-default.png"\] Alt text: Default|Default|
+| |Event|
+| |Event Based \(Start\)|
+|\[Omitted image "bpmn-icon-gateway-exclusive.png"\] Alt text: Exclusive|Exclusive|
+|\[Omitted image "bpmn-icon-gateway-inclusive.png"\] Alt text: Inclusive|Inclusive|
+|\[Omitted image "bpmn-icon-gateway-parallel.png"\] Alt text: Parallel|Parallel|
+|||
+|||
+|||
+|||
+
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-gateway-cancel-end.png"\] Alt text: Cancel \(End\)|Cancel \(End\)|
+|\[Omitted image "bpmn-gateway-cancel-bounary-interrupting.png"\] Alt text: Cancel Boundary \(Interrupting\)|Cancel Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-compensation-end.png"\] Alt text: Compensation \(End\)|Compensation \(End\)|
+|\[Omitted image "bpmn-gateway-compensation-interrupting.png"\] Alt text: Compensation \(Interrupting\)|Compensation \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-compensation-throwing.png"\] Alt text: Compensation \(Throwing\)|Compensation \(Throwing\)|
+|\[Omitted image "bpmn-gateway-conditional-boundary-interrupting.png"\] Alt text: Compensation Boundary \(Interrupting\)|Compensation Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-conditional.png"\] Alt text: Conditional|Conditional|
+|\[Omitted image "bpmn-gateway-conditional-catching.png"\] Alt text: Conditional \(Catching\)|Conditional \(Catching\)|
+|\[Omitted image "bpmn-gateway-conditional-interrupting.png"\] Alt text: Conditional \(Interrupting\)|Conditional \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-conditional-non-interrupting.png"\] Alt text: Conditional \(Non-Interrupting\)|Conditional \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-conditional-boundary-interrupting.png"\] Alt text: Conditional Boundary \(Interrupting\)|Conditional Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-conditional-boundary-non-interrupting.png"\] Alt text: Conditional Boundary \(Non-Interrupting\)|Conditional Boundary \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-end.png"\] Alt text: End|End|
+|\[Omitted image "bpmn-gateway-error-end.png"\] Alt text: Error \(End\)|Error \(End\)|
+|\[Omitted image "bpmn-gateway-error-interrupting.png"\] Alt text: Error \(Interrupting\)|Error \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-error-boundary-interrupting.png"\] Alt text: Error Boundary \(Interrupting\)|Error Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-escalation-end.png"\] Alt text: Escalation \(End\)|Escalation \(End\)|
+|\[Omitted image "bpmn-gateway-escalation-interrupting.png"\] Alt text: Escalation \(Interrupting\)|Escalation \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-escalation-non-interrupting.png"\] Alt text: Escalation \(Non-Interrupting\)|Escalation \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-escalation-boundary-throwing.png"\] Alt text: Escalation \(Throwing\)|Escalation \(Throwing\)|
+|\[Omitted image "bpmn-gateway-escalation-boundary-interrupting.png"\] Alt text: Escalation Boundary \(Interrupting\)|Escalation Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-escalation-boundary-non-interrupting.png"\] Alt text: Escalation Boundary \(Non-Interrupting\)|Escalation Boundary \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-intermediate.png"\] Alt text: Intermediate|Intermediate|
+|\[Omitted image "bpmn-gateway-link-catching.png"\] Alt text: Link \(Catching\)|Link \(Catching\)|
+|\[Omitted image "bpmn-gateway-link-throwing.png"\] Alt text: Link \(Throwing\)|Link \(Throwing\)|
+|\[Omitted image "bpmn-gateway-message.png"\] Alt text: Message|Message|
+|\[Omitted image "bpmn-gateway-message-catching.png"\] Alt text: Message \(Catching\)|Message \(Catching\)|
+|\[Omitted image "bpmn-gateway-message-end.png"\] Alt text: Message \(End\)|Message \(End\)|
+|\[Omitted image "bpmn-gateway-message-interrupting.png"\] Alt text: Message \(Interrupting\)|Message \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-message-non-interrupting.png"\] Alt text: Message \(Non-Interrupting\)|Message \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-message-boundary-throwing.png"\] Alt text: Message \(Throwing\)|Message \(Throwing\)|
+|\[Omitted image "bpmn-gateway-message-boundary-interrupting.png"\] Alt text: Message Boundary \(Interrupting\)|Message Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-message-boundary-non-interrupting.png"\] Alt text: Message Boundary \(Non-Interrupting\)|Message Boundary \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-multiple.png"\] Alt text: Multiple|Multiple|
+|\[Omitted image "bpmn-gateway-multiple-catching.png"\] Alt text: Multiple \(Catching\)|Multiple \(Catching\)|
+|\[Omitted image "bpmn-gateway-multiple-end.png"\] Alt text: Multiple \(End\)|Multiple \(End\)|
+|\[Omitted image "bpmn-gateway-multiple-interrupting.png"\] Alt text: Multiple \(Interrupting\)|Multiple \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-multiple-non-interrupting.png"\] Alt text: Multiple \(Non-Interrupting\)|Multiple \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-multiple-start.png"\] Alt text: Multiple \(Start\)|Multiple \(Start\)|
+|\[Omitted image "bpmn-gateway-multiple-throwing.png"\] Alt text: Multiple \(Throwing\)|Multiple \(Throwing\)|
+|\[Omitted image "bpmn-gateway-multiple-boundary-interrupting.png"\] Alt text: Multiple Boundary \(Interrupting\)|Multiple Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-multiple-boundary-non-interrupting.png"\] Alt text: Multiple Boundary \(Non-Interrupting\)|Multiple Boundary \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-parallel-multiple.png"\] Alt text: Parallel Multiple|Parallel Multiple|
+|\[Omitted image "bpmn-gateway-parallel-multiple-catching.png"\] Alt text: Parallel Multiple \(Catching\)|Parallel Multiple \(Catching\)|
+|\[Omitted image "bpmn-gateway-parallel-multiple-interrupting.png"\] Alt text: Parallel Multiple \(Interrupting\)|Parallel Multiple \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-parallel-multiple-non-interrupting.png"\] Alt text: Parallel Multiple \(Non-Interrupting\)|Parallel Multiple \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-parallel-multiple-boundary-interrupting.png"\] Alt text: Parallel Multiple Boundary \(Interrupting\)|Parallel Multiple Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-parallel-multiple-boundary-non-interrupting.png"\] Alt text: Parallel Multiple Boundary \(Non-Interrupting\)|Parallel Multiple Boundary \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-signal.png"\] Alt text: Signal|Signal|
+|\[Omitted image "bpmn-gateway-signal-catching.png"\] Alt text: Signal \(Catching\)|Signal \(Catching\)|
+|\[Omitted image "bpmn-gateway-signal-end.png"\] Alt text: Signal \(End\)|Signal \(End\)|
+|\[Omitted image "bpmn-gateway-signal-interrupting.png"\] Alt text: Signal \(Interrupting\)|Signal \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-signal--non-interrupting.png"\] Alt text: Signal \(Non-Interrupting\)|Signal \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-signal-throwing.png"\] Alt text: Signal \(Throwing\)|Signal \(Throwing\)|
+|\[Omitted image "bpmn-gateway-signal-boundary-interrupting.png"\] Alt text: Signal Boundary \(Interrupting\)|Signal Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-signal-boundary-non-interrupting.png"\] Alt text: Signal Boundary \(Non-Interrupting\)|Signal Boundary \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-start.png"\] Alt text: Start|Start|
+|\[Omitted image "bpmn-gateway-terminate.png"\] Alt text: Terminate|Terminate|
+|\[Omitted image "bpmn-gateway-timer.png"\] Alt text: Timer|Timer|
+|\[Omitted image "bpmn-gateway-timer-catching.png"\] Alt text: Timer \(Catching\)|Timer \(Catching\)|
+|\[Omitted image "bpmn-gateway-timer-interrupting.png"\] Alt text: Timer \(Interrupting\)|Timer \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-timer-non-interrupting.png"\] Alt text: Timer \(Non-Interrupting\)|Timer \(Non-Interrupting\)|
+|\[Omitted image "bpmn-gateway-timer-boundary-interrupting.png"\] Alt text: Timer Boundary \(Interrupting\)|Timer Boundary \(Interrupting\)|
+|\[Omitted image "bpmn-gateway-timer-boundary-non-interrupting.png"\] Alt text: Timer Boundary \(Non-Interrupting\)|Timer Boundary \(Non-Interrupting\)|
+
+|Shape|Name|
+|-----|----|
+|\[Omitted image "bpmn-icon-pool.png"\] Alt text: Pool|Pool|
+|\[Omitted image "bpmn-icon-lane.png"\] Alt text: Lane|Lane|
 
 **Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-shapes.md)
 

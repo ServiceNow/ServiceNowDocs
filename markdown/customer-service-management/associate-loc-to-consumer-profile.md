@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-loc-to-consumer-profile.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Creating multiple consumer profiles for a user, Configure consumers
 
 By enabling relationships between consumer profiles and locations across industries such as Financial Services Operations, Healthcare and Life Sciences, and Public Sector Digital Services Core, multiple consumer profiles can be associated with their corresponding addresses in the Customer Service Management \(CSM\) application.
 
-## Overview
+## Overview of consumer profiles
 
 Individual consumer profiles can be associated with multiple locations, or multiple consumer profiles can be linked to the same location by using consumer profile locations. That means that different industries can associate consumer profiles with multiple locations and location types. The Customer Service Management \(CSM\) application supports the consumer profile \(sn\_csm\_consumer\_profile\) table with a reference to the consumer \(csm\_consumer\) table that helps to define and support consumer profiles.
 

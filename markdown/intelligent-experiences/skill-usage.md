@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/skill-usage.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, skills, performance, dashboard, indicators, usage, generative AI, Gen AI]
-breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Skills performance
@@ -56,6 +56,8 @@ Select the **View skill details** button to view the usage and performance indic
 
 -   **[Skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/skill-details.md)**  
 Use the Skill details dashboard page to view usage and performance indicators of a skill.
+-   **[Custom skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/custom-skill-details.md)**  
+Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 
 **Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-analytics.md)
 

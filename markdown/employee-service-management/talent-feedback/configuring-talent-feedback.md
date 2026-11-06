@@ -1,13 +1,13 @@
 ---
 title: Configuring Talent Feedback
-description: Set up Talent Feedback to be able to use it along with Talent Development.You can install the Talent Feedback application if you have the admin role. .If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
+description: Set up Talent Feedback to be able to use it along with Talent Development.You can install the Talent Feedback application if you have the admin role. Talent Feedback is also installed along with Talent Development and Employee Center Pro.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/talent-feedback/configuring-talent-feedback.html
 release: zurich
 product: Talent Feedback
 classification: talent-feedback
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -18,18 +18,18 @@ Set up Talent Feedback to be able to use it along with Talent Development.
 
 ## Install Talent Feedback
 
-You can install the Talent Feedback application if you have the admin role. .
+You can install the Talent Feedback application if you have the admin role. Talent Feedback is also installed along with Talent Development and Employee Center Pro.
 
 ### Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Talent Feedback](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9be1d3ff9f311210ab46fb0e6a0a1cc8/1.0.1) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
 
 ### About this task
 
-The following items are installed with :
+The following items are installed with Talent Feedback:
 
 -   Plugins
 -   Store applications

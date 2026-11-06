@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Authoring a knowledge article in Microsoft Word, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,7 +50,7 @@ If a knowledge article was created from the Knowledge Management application in 
 
 If a knowledge article was created using another Word document, the document opens in a new browser tab with the content in the Document pane and the article details in the Knowledge Management pane of that document.
 
-**Note:** If the article uses a template, the article opens in the ServiceNow AI Platform interface in a new browser tab. You can't edit articles with templates in Microsoft Word.
+**Note:** If the article uses a template, the article opens in the ServiceNow AI Platform interface in a new browser tab. You can’t edit articles with templates in Microsoft Word.
 
 The following article details appear in the Knowledge Management pane.
 
@@ -146,7 +146,7 @@ Date this knowledge article expires.
 </table>**Related topics**  
 
 
-[Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-article-word.md)
+[Create a knowledge article in Microsoft Word]()
 
 [Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/edit-article-word.md)
 

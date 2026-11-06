@@ -1,5 +1,5 @@
 ---
-title: Run certificate discovery via individual URL scans
+title: Run Certificate Discovery via individual URL scans
 description: To initiate certificate discovery through URL scans, you must manually include individual URLs and configure a new certificate Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-urls.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Run certificate discovery via individual URL scans
+# Run Certificate Discovery via individual URL scans
 
 To initiate certificate discovery through URL scans, you must manually include individual URLs and configure a new certificate Discovery schedule.
 

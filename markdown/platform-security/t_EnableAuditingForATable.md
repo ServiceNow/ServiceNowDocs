@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/t\_EnableAuditingForATable.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Auditing]
 ---
@@ -16,9 +16,9 @@ You can enable table auditing to track changes to all or some of the table's fie
 
 ## Before you begin
 
-**Note:** Encrypted fields aren’t audited by design. This behavior isn’t configurable.
-
 Role required: admin.
+
+**Note:** Encrypted fields aren’t audited by design. This behavior isn’t configurable.
 
 ## Procedure
 

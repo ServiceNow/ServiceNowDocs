@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/field-descriptions-customer-orders.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -76,7 +76,7 @@ Priority
 
 </td><td>
 
-The priority of completing the order. Options include:-   1 - Critical
+The priority of completing the order. The available options are:-   1 - Critical
 -   2- High
 -   3 - Moderate
 -   4 - Low
@@ -220,7 +220,7 @@ Price list
 
 </td><td>
 
-The price list used for applying prices to the items in your order.
+The price list used for applying prices to the items within your order.
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Renewal adjustment basis
 
 </td><td>
 
-Pricing method applied during the renewal of a service contract. It enables agents to specify whether the renewal price should be based on the current market rate or the previously contracted rate. Options include:-   List price: Renews the contract at the current market price of the product or service at the time of renewal.
+Pricing method applied during the renewal of a service contract. It enables agents to specify whether the renewal price should be based on the current market rate or the previously contracted rate. The available options are:-   List price: Renews the contract at the current market price of the product or service at the time of renewal.
 -   Contracted price: Renews the contract using the original contract price, with optional adjustments
 
 </td></tr><tr><td>
@@ -237,7 +237,7 @@ Renewal adjustment type
 
 </td><td>
 
-Method used to adjust the renewal price of a service contract when the value of the Renewal adjustment basis field is set to Contracted price. Options include:-   Markup %: Increases the renewal price by a specified percentage above the contracted price.
+Method used to adjust the renewal price of a service contract when the value of the Renewal adjustment basis field is set to Contracted price. The available options are:-   Markup %: Increases the renewal price by a specified percentage above the contracted price.
 -   Markdown %: Decreases the renewal price by a specified percentage below the contracted price.
 
 The field is disabled if the value of the Renewal adjustment basis field is set to List price.

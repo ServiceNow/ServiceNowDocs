@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -49,7 +49,7 @@ Network Connectivity Problems: There are widespread network connectivity issues 
 
 </td><td>
 
-Alerts from various network monitoring tools might report issues like Network segment down, High packet loss, or Connectivity issues in subnet. Text-based alert grouping uses the EM Alert Clustering Solution and ML Predictor to streamline alert management. The EM Alert Clustering Solution employs Natural Language Processing \(NLP\) algorithms to analyze and identify common text patterns in alerts. These patterns include Network segment down or High packet loss. It then clusters these alerts based on their text similarity, grouping related issues together. The ML Predictor further enhances this process by evaluating new alerts in real time and assigning them to the appropriate existing clusters based on their text patterns.
+Alerts from various network monitoring tools might report issues like Network segment down, High packet loss, or Connectivity issues in subnet. Text-based alert grouping uses the EM Alert Clustering Solution and ML Predictor to streamline alert management. The EM Alert Clustering Solution employs Natural Language Processing \(NLP\) algorithms to analyze and identify common text patterns in alerts. These patterns include issues such as Network segment down or High packet loss. It then clusters these alerts based on their text similarity, grouping related issues together. The ML Predictor further enhances this process by evaluating new alerts in real time and assigning them to the appropriate existing clusters based on their text patterns.
 
  This dynamic grouping provides a consolidated view of the connectivity problems, allowing network engineers to quickly diagnose and address the root cause of the issues more efficiently.
 

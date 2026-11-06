@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC installation, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Golden image structure and modularity
@@ -24,4 +24,6 @@ The following table outlines the structure and modularity of the golden image mo
 |**Identity handling**|cache wipe|skip restore|skip restore|
 |**Certificate handling**|cert wip|skip restore|cert wipe|
 |**Runtime state**|Cache and database wipe|skip restore|Cache and database wipe|
+
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

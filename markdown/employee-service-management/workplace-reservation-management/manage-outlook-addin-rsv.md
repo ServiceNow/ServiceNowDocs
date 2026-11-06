@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -39,13 +39,4 @@ Employees can perform the following using Workplace Reservation Management 3.0.2
 
 
 Workplace calendar synchronization allows employees to use Calendar Providers \(MS Outlook or Google\) to create reservation records in Workplace Reservation Management. For more information, see [Microsoft Exchange Online - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/ms-exchange-reservation-synchronization.md).
-
-1.  [Configure Reservable Module for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-rsv-module-outlook.md)  
-Configure Reservable Module settings for Microsoft Outlook in Workplace Reservation Management version 3.0.2. Employees can create a meeting or an event in the Microsoft Outlook calendar, and reserve a space using the Workplace Reservation Management manifest add-in file.
-2.  [Redirect WSD RSV MOA OAuth registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/route-outlook-add-in.md)  
-Redirect MOA Outh access \(moa\_login\) for Microsoft Outlook Add-in version 1.12.2 or earlier to WSD RSV MOA OAuth registry \(rsv\_moa\_login\) registry.
-3.  [Activate the add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-outlook-addin.md)  
-Workplace Reservation Management administrators can activate the manifest add-in for Microsoft Outlook. Add a manifest add-in file and customize it as per your requirements.
-
-**Parent Topic:**[Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
 

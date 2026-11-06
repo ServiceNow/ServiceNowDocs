@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Provider connector configuration, Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -141,5 +141,5 @@ Option to select the callback URL icon \(\[Omitted image "wsd-callback-url-icon.
 
 **Previous topic:**[Configure badging table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/provider-configuration-wsd-connectors.md)
 
-**Next topic:**[Bading data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/bading-data-table.md)
+**Next topic:**[Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/employee-attendance.md)
 

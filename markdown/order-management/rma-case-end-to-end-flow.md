@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/rma-case-end-to-end-flow.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Return Merchandise Authorization, Order operations, Explore, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ The following are the different phase involved in RMA case end-to-end workflow.
 -   System action:
     -   The playbook record generator renders the RMA Case form.
     -   And once the RMA Case form is rendered, Agent fills the customer details and **Request Source** fields, and select **Save**.
-    -   The system creates the RMA Case in the Draft State.
+    -   The system creates the RMA Case in the **Draft** state.
 -   Agent action: Add defective install base items as RMA Case Lines.
 -   System action: Create RMA Case Lines for each selected item.
 -   Agent action: Update each line with request reason code and customer-expected resolution, then submit.
@@ -51,8 +51,8 @@ Agent action:
 -   Put the RMA case in Resolved state and formally close the case after all lines are resolved.
 -   Send a final communication to the customer confirming the closure.
 
-**Related topics**  
+## What to explore next
 
-
-[Return Merchandise Authorization case user journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rma-case-user-journey.md)
+-   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/activate-return-merchandise-authorization-plugin.md)
+-   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization-case-management-reference.md)
 

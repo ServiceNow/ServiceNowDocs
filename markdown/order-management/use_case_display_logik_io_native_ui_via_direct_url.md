@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use\_case\_display\_logik\_io\_native\_ui\_via\_direct\_url.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Use cases, Using ServiceNow CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Displaying the ServiceNow CPQ native UI via direct URL
@@ -89,7 +89,7 @@ Configuration ID
 
 </td><td>
 
-Logik UUID of existing configuration to load
+ServiceNow CPQ UUID of existing configuration to load
 
 </td></tr><tr><td>
 
@@ -290,9 +290,11 @@ Currency ISO Code
  
 
 </td></tr></tbody>
-</table>**Note:** When using the runtime token \(rt\) parameter, it is highly recommended to also include the rta as well to ensure that all of the requests can be authenticated when using the Firefox or Safari browsers.
+</table>**Note:** When using the runtime token \(rt\) parameter, it is highly recommended to also include the rta as well to ensure that all of the requests can be authentica
 
-If you are not accessing the configuration URL where you have already authenticated \(via Salesforce or directly\), the runtime token will be required to authenticate. If you are accessing the configuration URL before authenticating through the associated SFDC environment or accessing the configuration URL for a headless environment, the ServiceNow CPQ tenant URL needs to be listed as an origin for the leveraged runtime client. For example, `https://<yourLogikUrl>.test.logik.io`.
+If you are not accessing the configuration URL where you have already authenticated \(via Salesforce or directly\), you will need the runtime token to authenticate. If you are accessing the configuration URL before authenticating through the associated SFDC environment or accessing the configuration URL for a headless environment, the ServiceNow CPQ tenant URL must be listed as an origin for the leveraged runtime client. For example, `https://<tenant>.test.logik.io`.
+
+Example, `https://<tenant>.test.logik.io`.
 
 If the version parameter is not included, the UI will not load, and you will receive the following error: "Error: A version must be specified."
 
@@ -312,7 +314,7 @@ Considerations for using the configuration URL as the top level window URL:
 Considerations for using the configuration URL in an iframe:
 
 -   If a return URL is included, the UI will attempt to set the window location to that URL on save \("Quote"\) or on cancel. If a return URL is not included, the ServiceNow CPQ UI will broadcast a postMessage up to the parent, with the UUID on save \(such as `{"uuid": "8b88c843-d10b-468b-8c49-17f8c9698799"}`\) and an empty object on cancel \(`{}`\).
--   For either implementation, after executing the save or cancel action, the configuration is removed. Subsequent save actions will result in a 404 error with an error message: "No Rules Engine found for Tenant with Config ID '&lt;Logik UUID&gt;'. Subsequent cancel actions will also result in a 404 error.
+-   For either implementation, after executing the save or cancel action, the configuration is removed. Subsequent save actions will result in a 404 error with an error message: "No Rules Engine found for Tenant with Config ID '&lt;ServiceNow CPQ UUID&gt;'. Subsequent cancel actions will also result in a 404 error.
 
 ## Configuration result
 

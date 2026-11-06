@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The Tag-based service mapping dashboard offers an intuitive way to manage tag-ba
 
 ## Prerequisites
 
-Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3.
+Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 ## Required role
 
@@ -99,9 +99,4 @@ Display tag-based information and access tag-based actions through the following
 When creating a service family for mapping services based on tags in domain-separated environment, you must pick the relevant leaf domain. Service Mapping populates tag-based services based on this service family only with CIs belonging to the leaf domain to which the service family belongs. If you have domain separation without Performance Analytics domain support, you can't see data visualization for the total number of tag-based service maps versus service candidates. You’re then redirected to install the Performance Analytics Domain Support plugin.
 
 For more information about domain separation and Service Mapping, see [Domain separation and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/domain-separation-service-mapping.md).
-
--   **[About the tag-based application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-service-form.md)**  
-The tag-based application service form provides a centralized location for viewing detailed information about a selected tag-based service, including its configuration and its associated configuration items.
-
-**Parent Topic:**[Exploring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-get-started.md)
 

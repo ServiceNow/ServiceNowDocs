@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ A CMDB query type that queries the infrastructure for CI classes and optionally 
 
 ## Before you begin
 
-Role required: cmdb\_query\_builder\_read to only view and run saved queries, and cmdb\_query\_builder \(contained for itil, itil\_admin, and asset\) to create and save queries, modify saved queries, and run queries. For reporting on queries, report related ACLs are required.
+Role required: cmdb\_query\_builder\_read to only view and run saved queries, and cmdb\_query\_builder to create and save queries, modify saved queries, and run queries. For reporting on queries, report related ACLs are required.
 
 Authorized users can update and [delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md) a query created by another user.
 
@@ -152,6 +152,9 @@ A pattern connection between an application service node and another node.
     Only the first 100 results of the query appear in the results pane.
 
     -   Select **Load More Results** to view the next set of 100 results.
+
+        **Note:** This option is available only with the V1 engine execution mode. For more information about CMDB Query engine execution modes, see [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md).
+
     -   Select **Load All Results** to view the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
     Select a CI to open its CI form, and on the CI form select **Open in Workspace** to view CI health in CMDB Workspaceor in Service Graph Workspace. This operation requires the sn\_cmdb\_user \(CMDB user\) role.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Topic form
@@ -182,21 +182,35 @@ This field is available when the **Enable user criteria check** is selected.
 
 [Approvals experience reference]()
 
-[Browser Extension for Employee Center forms]()
-
 [Connected Content form]()
 
 [Default Employee Profile Header Configuration record]()
 
 [Employee Center widgets]()
 
+[Employee Profile form]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
 [Enhanced Requests Experience forms]()
 
 [External Link form]()
 
+[Featured Content form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
 [Guided Self-Service reference]()
 
 [Menu Item form]()
+
+[Overview section form]()
 
 [Portal notification configuration form]()
 

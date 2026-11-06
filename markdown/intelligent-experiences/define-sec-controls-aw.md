@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/define-sec-controls-aw.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define security controls for an agentic workflow
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an ACL \(ACL\) that determines which users can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it’s invoked.
+The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an access control list \(ACL\) that determines which users can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it’s invoked.
 
 See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
 
@@ -33,7 +33,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
     -   Users with specified roles
     -   Authenticated users
     -   Public
-    If you select **Users with specified roles**, you can select exactly which roles can access the agentic workflow. Agentic workflows installed with AI applications and their AI agents might require you to include specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
+    If you select **Users with specified roles**, you can select exactly which roles can access the agentic workflow. Agentic workflows installed with ServiceNow applications and their AI agents might require you to include specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
 
     \[Omitted image "def-user-access-aw.png"\] Alt text: Define user access for an agentic workflow
 
@@ -45,13 +45,13 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the agentic workflow. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user.
 
-    If you don't have an AI user but want to use the **AI user** identity, you need to create record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role masking must be applied for all AI agents and agentic workflows set to run as dynamic users.
 
     To override the role masking requirement for a specific agentic workflow or AI agent, admins with the correct elevated access can create an approved list of roles for a given agentic workflow or AI agent. Then, they can access that role masking record in the Agent Access Role Configurations table \[sys\_agent\_access\_role\_configuration\], and select the “allow all roles” check box. Taking these steps deactivates the requirement for a role masking approved roles list in AI Agent Studio, so the AI admin can return to AI Agent Studio and continue to configure the agentic workflow or AI agent without role masking applied.
 
-    **Note:** Role masking should be applied as security general guidelines and adherence to the principle of least privilege. Overriding the role masking requirement isn’t recommended.
+    **Note:** Role masking should be applied as security best practice and adherence to the principle of least privilege. Overriding the role masking requirement isn’t recommended.
 
     If you select **AI user**, the list of roles that the AI user has is displayed.
 

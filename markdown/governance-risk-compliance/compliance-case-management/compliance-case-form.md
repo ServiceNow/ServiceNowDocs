@@ -7,9 +7,9 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create compliance case form, Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create compliance case, Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Compliance Case form
@@ -250,7 +250,7 @@ Case closure SLA
 
 </td><td>
 
-Expected date of the case closure.
+Expected date of the case closure. This date is automatically calculated based on the case creation date.
 
 </td></tr><tr><td>
 

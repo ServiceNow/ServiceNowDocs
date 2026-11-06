@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-policy.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Working with data certification, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a certification policy
@@ -16,7 +16,9 @@ Creating a data certification policy serves as a governance mechanism to ensure 
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst
+\[Omitted video\] Description: Video demonstrating how to create and publish a certification policy in Enterprise Architecture Workspace.
+
+Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 
 ## Procedure
 

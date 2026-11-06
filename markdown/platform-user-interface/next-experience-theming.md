@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-theming.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -26,11 +26,15 @@ Quickly create, edit, preview, and publish themes to your experiences using Them
 
 ## Next Experience default themes
 
-New customers launching on Zurich will have the Next Experience Coral theme enabled by default on their instance.
+Customers have the Next Experience Coral theme enabled by default on their instance.
 
-Existing customers upgrading from a previous release will continue to see the theme they've applied to their instance prior to upgrade, for example the Next Experience Polaris theme or a theme created in Theme Builder. Use [Theme Builder to publish Coral theme to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-apply-theme.md) or [add Coral theme to the Next Experience UX Parent App Theme table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-presentation-order-of-themes.md)
+Customers upgrading from a previous release continue to see the theme applied to their instance before the upgrade, for example the Next Experience Polaris theme or a theme created in Theme Builder. Use [Theme Builder to publish Coral theme to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-apply-theme.md) or [add Coral theme to the Next Experience UX Parent App Theme table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-presentation-order-of-themes.md)
 
 \[Omitted image "next-exp-coral-polaris.png"\] Alt text: Theme preference with Polaris and Coral themes displayed.
+
+\[Omitted image "next-exp-coral-record-light.png"\] Alt text: Record page with Coral theme light variant applied.
+
+\[Omitted image "next-exp-coral-record-dark.png"\] Alt text: Record page with Coral theme dark variant applied.
 
 ## Theme record
 
@@ -44,7 +48,7 @@ When you configure a theme, you adjust the color schemes, fonts, and images of y
 
 -   **Order**
 
-    Style records with higher-order values override styles with lower values. The base system styles all have the order 0. If you meet the Applicability constraint, styles with higher values override the base system styles. If not, the lower-value style is used.
+    Style records with higher-order values override styles with lower values. The base system styles all have the order 0. If you meet the Applicability constraint, styles with higher values override the base system styles. If you do not meet the Applicability constraint, the lower-value style is used.
 
 -   **Style**
 
@@ -52,9 +56,13 @@ When you configure a theme, you adjust the color schemes, fonts, and images of y
 
 -   **Type**
 
-    Styles can be of either the Core type or the Variant type. Core styles are active by default. Users can choose from available variants from their Theme user preference, and those variant styles override the core style. Theme Builder doesn’t automatically generate dark theme variants; however, you can create a dark alternate color palette with limited customization. For more information, see [Add an alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-color-palette.md). The Polaris and Coral themes include a Dark Theme variant that is available on instances with Next Experience enabled.
+    Styles can be of either the Core type or the Variant type. Core styles are active by default. Users can choose from available variants from their Theme user preference, and those variant styles override the core style. Theme Builder doesn't automatically generate dark theme variants; however, you can create a dark alternate color palette with limited customization. For more information, see [Add an alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-color-palette.md). The Polaris and Coral themes include a Dark Theme variant that is available on instances with Next Experience enabled.
 
 
+-   **[Guided tours in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/guided-tours-theme-builder.md)**  
+Learn about Theme Builder guided tours, including how to access and take them to build your knowledge of Theme Builder.
+-   **[Dark mode in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/dark-mode-theme-builder.md)**  
+Learn how to switch to dark mode in Theme Builder.
 -   **[Get help with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/theme-builder-get-help-now.md)**  
 To get help with Theme Builder, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 -   **[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configuring-next-experience-with-theme-builder.md)**  

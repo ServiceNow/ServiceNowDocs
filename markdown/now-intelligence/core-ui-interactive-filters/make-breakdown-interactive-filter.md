@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2025-09-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Interactive Filters on dashboards, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -30,7 +30,7 @@ When you select a [breakdown](https://raw.githubusercontent.com/ServiceNow/Servi
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Dashboards**.
 
-2.  Select the dashboard with the breakdown you want to make act as an interactive filter.
+2.  Select the Core UI dashboard with the breakdown you want to make act as an interactive filter.
 
 3.  Click the context menu icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon and select **Dashboard Properties**.
 

@@ -1,16 +1,16 @@
 ---
-title: Using Playbooks and Solutions for Public Sector Digital Services
+title: Using Playbooks Public Sector Digital Services
 description: A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for license and permits, government records and other public information, or non-emergency service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-playbooks-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using Playbooks and Solutions for Public Sector Digital Services
+# Using Playbooks Public Sector Digital Services
 
 A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for license and permits, government records and other public information, or non-emergency service requests.
 
@@ -25,11 +25,11 @@ The following applications are available with Public Sector Digital Services tha
 
 -   [Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-grants-management-playbook.md)
 -   [Social Benefits Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sb-playbooks.md)
--   [License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-lp-playbooks.md)
+-   [License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-lp-playbooks.md)
 -   [Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-ir-playbooks.md)
--   [Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sr-playbooks.md)
+-   [Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sr-playbooks.md)
 
-The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the CRM Workspace, or when a constituent puts in a request through the Government Service Portal.
+The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the Public Sector Workspace, or when a constituent puts in a request through the Government Service Portal.
 
 The workflows for a type of case and the activities that you need to resolve these cases are in the playbook. By using a playbook, you can visualize the entire life cycle of the public service case workflow.
 
@@ -60,7 +60,7 @@ The process-based playbook layout shows the following features:
 -   Record information on the left side of the page, such as the contact information that is always available.
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-\[Omitted image "lp-request-process-based-layout.png"\] Alt text: Agent workspace view of the License and Permit Playbook life cycle, case record information, and license request details, shown in the Process-based experience view.
+\[Omitted image "lp-request-process-based-layout.png"\] Alt text: Agent workspace view of the License and Permit Administration life cycle, case record information, and license request details, shown in the Process-based experience view.
 
 The following table shows the components shown in the Playbook workspace.
 
@@ -130,7 +130,7 @@ Service Request Map Card
 
 </td><td>
 
--   **Service Request Playbook only**
+-   **Service Request Administration only**
 -   New component of the process-based playbook layout.
 -   Appears after the intake stage, if the sn-geo-map plugin is installed, and Google API key is configured.
 
@@ -140,7 +140,7 @@ Items Received Card
 
 </td><td>
 
--   **License and Permit Playbook only**
+-   **License and Permit Administration only**
 -   Appears on the left side of the playbook.
 -   Shows licenses/permits that are active, expired, and expiring soon, and the time remaining on each one.
 
@@ -156,9 +156,9 @@ The Public Sector Digital Services platform includes the following playbooks:
     -   Packaged playbook that deploys out of the box case types, playbooks, business logic, SLAs, notifications and more to automate workflow to orchestrate the process​ and help agents resolve requests faster and efficiently.
     -   Customizable catalog of pre-built social benefit options that constituents and businesses can choose from on the Government Service Portal.
     -   Extendable data model through service definitions.
--   **[License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-lp-playbooks.md)**
+-   **[License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-lp-playbooks.md)**
 
-    The License and Permit Playbook application provides an end-to-end workflow for handling license and permit requests submitted by public sector end users. The application includes the following:
+    The License and Permit Administration application provides an end-to-end workflow for handling license and permit requests submitted by public sector end users. The application includes the following:
 
     -   Packaged playbook that deploys out of the box case types, playbooks, business logic, SLAs, notifications and more to automate workflow to orchestrate the process​ and help agents resolve requests faster and efficiently.
     -   Customizable catalog of pre-built license and permit request options that constituents and businesses can choose from on the Government Service Portal.
@@ -170,9 +170,9 @@ The Public Sector Digital Services platform includes the following playbooks:
     -   Service catalog of pre-built, information request options that constituents and businesses can choose from on the Government Service Portal.
     -   Automated workflow process that agents use to resolve information requests faster and efficiently.
     -   If using Advanced Work Assignment, an Information Request service channel that admins can use to automatically route information requests to designated agents.
--   **[Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sr-playbooks.md)**
+-   **[Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sr-playbooks.md)**
 
-    The Service Request Playbook application provides an end-to-end workflow for handling non-emergency service requests submitted by public sector end users. The application includes the following:
+    The Service Request Administration application provides an end-to-end workflow for handling non-emergency service requests submitted by public sector end users. The application includes the following:
 
     -   Service catalog of pre-built, non-emergency request options that constituents and businesses can choose from on the Government Service Portal.
     -   Automated workflow process that agents use to resolve non-emergency service requests faster and efficiently.

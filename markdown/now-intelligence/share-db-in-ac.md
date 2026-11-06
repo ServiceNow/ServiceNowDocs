@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/share-db-in-ac.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-04"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -53,15 +53,15 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38684e172">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39918e176">
 
 **Add as viewer**
 
 </td><td>
 
-Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. They cannot edit it.
+Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
-</td></tr><tr><td id="d38684e181">
+</td></tr><tr><td id="d39918e185">
 
 **Add as editor**
 
@@ -72,7 +72,7 @@ Grant editing rights to the users, groups, or roles you're sharing the dashboard
 </td></tr></tbody>
 </table>7.  Select **Copy link with filter** or **Copy link** to copy the dashboard's URL to the clipboard.
 
-    The URL points to the tab that was open when you opened the **Share dashboard** dialogue. **Copy link with filter** also applies the filters as they're configured on the dashboard or dashboard tab.
+    The URL points to the tab that was open when you opened the **Share dashboard** dialogue. **Copy link with filter** also applies the filters as they're configured on the dashboard or dashboard tab. For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/url-filter-parameters.md)
 
 8.  Select **Confirm**.
 
@@ -87,9 +87,16 @@ The roles, groups, and users you have shared the dashboard with appear when you 
 
 ## What to do next
 
-You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
+-   Change the rights of those you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
 
-\[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
+    \[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
+
+-   [Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-ref-qualifiers-more-info.md)
+
+-   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-ref-qualifiers.md)**  
+Use reference qualifiers to limit the users, groups, and roles and to provide more information in the recipients field of shared dashboards.
+-   **[Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-ref-qualifiers-more-info.md)**  
+Clarify users, groups, and roles in the **Share Dashboard** window so users can share with the right audience.
 
 **Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dashboard-tasks.md)
 
@@ -97,6 +104,8 @@ You can change the rights of whom you have shared the dashboard with in the Shar
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

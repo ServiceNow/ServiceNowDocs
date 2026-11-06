@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflows, Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---

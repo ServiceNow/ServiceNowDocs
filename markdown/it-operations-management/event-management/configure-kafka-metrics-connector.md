@@ -7,8 +7,8 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 1
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -20,43 +20,41 @@ Configure the Kafka metric consumer connector instance to read message send to K
 
 To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 
-OAuth authentication for the Kafka Metrics Connector is supported only in the Australia release and later. Ensure your instance is upgraded to Australia or a newer version before configuring OAuth.
+-   For PLAINTEXT in the Credential field, create a Basic authentication credential.
 
--   Create Kafka SSL credentials on ServiceNow instance. For more information, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
+    Select the Search icon \(\[Omitted image "search-icon.png"\] Alt text: search icon\) next to the Credential field.
+
 -   ServiceNow does not support discovery for Kafka. Therefore, create the CI entry manually in the respective table.
 
 Role required: evt\_mgmt\_admin
 
 ## Procedure
 
-1.  Navigate to **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
+1.  On the Credentials screen, select **New**.
 
-2.  Select **New** and create a connector instance.
+2.  From the list of available credentials, select **Basic Auth Credentials**.
 
-    For details on the connector instance fields displayed on the page, see [Kafka connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/kafka-connector-instance-form.md).
+3.  On the Basic Authentication screen, give information for PLAINTEXT authentication, which doesn’t require credentials.
 
-3.  In the MID Servers for connectors section,specify a MID Server that is up and is valid.
+    For PLAINTEXT authentication, in the **Name** field, type any value and leave the **User Name** and **Password** fields empty.
 
-4.  Right-click the form header and select **Save**.
+4.  Select **Submit**.
 
-5.  Verify the connector instance values based on your Kafka setup and the JSON payload from the Kafka topic.
+5.  For a SASL\_PLAINTEXT, SSL, or SASL\_SSL authentication credential, in the Credential field, create a Kafka SSL credential.
 
-6.  In the Connector Instance Values section, you can edit the values of the mandatory Kafka parameters.
+    1.  Select the Search icon \(\[Omitted image "search-icon.png"\] Alt text: search icon\) next to the Credential field.
+    2.  On the Credentials screen, select **New**.
+    3.  From the list of available credentials, select **Kafka SSL Credentials**.
 
-    For details on the connector instance value parameters, see [Kafka connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/kafka-connector-instance-value-parameters.md).
+        For the Kafka SSL credentials fields descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
-7.  Right-click the form header and select **Save**.
+        **Note:** If you clear the **Disable hostname verification** field, then in the **Additional Kafka consumer properties** field, enter the value of the **ssl.endpoint.identification.algorithm** parameter the same as of the Kafka server parameter value. For example:
 
-8.  Test the connection between the MID Server and the Kafka Metric Consumer connector.
-
-    -   Select **Test Connector**.
-    -   If the test connection fails, verify whether the credential is valid, and that the network is connected from the MID Server to the Kafka broker.
-
-        **Note:** Kafka topic name validation occurs only in Test Connector validation.
-
-9.  After a successful test, make the connector instance active by selecting the **Active** check box.
-
-10. Select **Update**.
+        ```
+        ssl.enabled.protocols=TLSv1.2,TLSv1.1,TLSv1;
+        sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username=<username> password=<password>;
+        sasl.enabled.mechanisms=PLAIN;ssl.endpoint.identification.algorithm=;
+        ```
 
 
 **Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)

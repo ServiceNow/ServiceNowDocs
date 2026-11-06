@@ -232,3 +232,5 @@ To learn more about configuring and using Third-party Risk Management, see:
 
 [Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md)
 
+[AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md)
+

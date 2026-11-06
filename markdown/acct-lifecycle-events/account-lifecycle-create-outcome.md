@@ -1,16 +1,16 @@
 ---
-title: Create a primary success outcome
+title: Add a primary success outcome
 description: Create a primary success outcome that can be used to measure the achievement of a success objective.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-outcome.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Basic setup, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a primary success outcome
+# Add a primary success outcome
 
 Create a primary success outcome that can be used to measure the achievement of a success objective.
 
@@ -20,11 +20,11 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Primary success outcomes are measurable components of success objectives. They are both measurable and actionable. Progress can be tracked automatically using data collected by the Data Context Engine. You can also track progress manually for outcomes that are not easily tracked through metrics.
+Primary success outcomes are measurable components of success objectives. They’re both measurable and actionable. Progress can be tracked automatically using data collected by the Data Context Engine, or manually for outcomes that aren't easily tracked through metrics.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Outcomes** and select **New**.
 
@@ -217,5 +217,9 @@ Current value of the primary success outcome.
 </table>4.  Select **Save** to create a primary success outcome.
 
 
-**Parent Topic:**[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
+## What to do next
+
+Add a success initiative to capture the activities required to achieve this outcome. See [Add a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-initiative.md).
+
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

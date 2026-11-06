@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-explore-data-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 ---
@@ -49,7 +49,7 @@ To learn more about product data, see [Product Data](https://raw.githubuserconte
 
 Service Model Foundation refers to a set of pre-designed business and technical data frameworks that helps set up and manage how services are delivered and supported. It provides a standardized way to configure, monitor, and support service requests, applications, cases, and workflows across various business locations or government service organizations.
 
-To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-industry-data-model.md).
+To learn more about the Service Model Foundation, see .
 
 For more information on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the BLSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-business-location-service-portal.md).
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage plans, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create workplace services
@@ -29,13 +29,13 @@ Role required: admin
     -   Service Name: Name of the workplace service. For example, Workplace cleaning.
     -   Case table: Name of the case or request table. Select the **Workplace Maintenance Case** \(sn\_wsd\_maintenance\_case\) table.
     -   Fulfillment Type: Select **Service Activity** from the drop-down options.
-    -   Default Template: Default template for Workplace Maintenance Management. Search for the **General maintenance request** template using the look up list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup list icon.\).
+    -   Default Template: Default template for Workplace Maintenance Management. Search for the **General maintenance request** template using the lookup list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup list icon.\).
 3.  Select **Update**.
 
 
 **Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
+**Previous topic:**[Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)
 
 **Next topic:**[Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)
 

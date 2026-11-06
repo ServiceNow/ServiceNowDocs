@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tasks, Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
+breadcrumb: [Managing tasks, Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View work order task information

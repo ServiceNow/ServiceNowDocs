@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -35,6 +35,8 @@ Example: The Care Team Member responsibility limits your access to cases for hea
 |Care Team Member|Service location business contributor|
 |Care Team Manager|Service location business manager|
 |Support Department Agent|Location Support Agent|
+
+For the base Service Model Foundation roles and responsibilities that these are adapted from, see [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-data-model-roles.md) and [Service definition roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definitions-roles.md).
 
 ## Why responsibilities matter
 

@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Operations view
@@ -24,7 +24,7 @@ Access the Operations view by navigating to **Workspaces** &gt; **Cloud Cost Man
 
 The Operations view includes the following categories of tasks:
 
--   **My preferences** - **Currency preference**: Set up your preferred display currency for the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, commitments\), budgets, and billing data. For more information, see [Choose preferred currency for cost and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/choose-pref-currency.md).
+-   **My preferences** - **Currency preference**: Set up your preferred display currency for the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, reservation, and savings plan\), budgets, and billing data. For more information, see [Choose preferred currency for cost and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/choose-pref-currency.md).
 
     **Note:** The option to set up your preferred currency is available with Cloud Cost Management 10.0.0 or later.
 

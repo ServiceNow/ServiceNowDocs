@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Agile Development use cases, Explore, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development use cases, Exploring Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Standalone project development use case in Agile Development

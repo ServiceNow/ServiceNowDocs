@@ -1,20 +1,20 @@
 ---
 title: Modify a manual cluster
-description: Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description.
+description: Modify an existing manual cluster by changing the service, CI, CI class, or description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/modify-a-manual-cluster.html
 release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure CIs as manual cluster, Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Modify a manual cluster
 
-Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description.
+Modify an existing manual cluster by changing the service, CI, CI class, or description.
 
 ## Before you begin
 

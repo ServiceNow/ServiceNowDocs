@@ -1,5 +1,5 @@
 ---
-title: CMDB classes targeted in the Service Graph Connector for Qualys
+title: Targeted CMDB classes in the Service Graph Connector for Qualys
 description: When you complete setting up the connection, you can configure the integration to periodically pull data. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table. The Service Graph Connector for Qualys identifies and classifies information about various configuration Items \(CIs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-qualys-data-mapping.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Qualys, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB classes targeted in the Service Graph Connector for Qualys
+# Targeted CMDB classes in the Service Graph Connector for Qualys
 
 When you complete setting up the connection, you can configure the integration to periodically pull data. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table. The Service Graph Connector for Qualys identifies and classifies information about various configuration Items \(CIs\).
 

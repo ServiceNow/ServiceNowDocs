@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Orchestration provides custom PowerShell activities that were created with the P
 
 **Note:** Existing workflows from earlier versions that were created with legacy PowerShell activities continue to function normally after an upgrade to Geneva. However, all new workflows must use these custom PowerShell activities.
 
-Starting with the Zurich release, there are the following updates to the PowerShell activity pack:
+Starting with the Brazil release, there are the following updates to the PowerShell activity pack:
 
 -   A new PowerShell probe \(V2\), which takes advantage of Integration Hub functionality
 -   The ability to insert debug statements in the PowerShell scripts and produce the resulting messages at runtime

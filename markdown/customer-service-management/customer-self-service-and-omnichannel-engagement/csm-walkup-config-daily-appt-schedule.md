@@ -7,8 +7,8 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-06-25"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Appointment booking configuration, Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
@@ -18,7 +18,7 @@ Specify different daily hours of operation for your Walk-up Experience location 
 
 ## Before you begin
 
-Role required: admin or sn\_apptmnt\_booking.appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## About this task
 
@@ -35,6 +35,15 @@ Create a unique appointment booking schedule for each day of the week or for spe
 3.  In the Schedule Entries related list, select **New** to display the Schedule Entry New record form.
 
 4.  Name the new record **Excludes** and fill in the form to create a unique daily booking schedule for Tuesday and Thursday appointments.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name the record. For example, name the record **Excludes** to indicate the hours excluded from appointment booking.|
+    |Type|Choose **Excluded** as the type.|
+    |Show as|Choose **Busy** as the reason for the exclusion.|
+    |When|Indicate the date to begin using this booking availability schedule. Also indicate the time to exclude booking availability for this date. For example, the hours of 12:00pm through 5:00pm.|
+    |Repeats|Indicate the recurrence for this availability schedule. For example, **Weekly on Tue and Thu**.|
+    |Repeat until|Specify how long you want this availability schedule to run by selecting an end date.|
 
 5.  Select **Submit**.
 

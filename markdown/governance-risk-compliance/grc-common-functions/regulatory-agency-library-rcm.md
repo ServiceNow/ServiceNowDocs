@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -31,7 +31,7 @@ Several types of components are installed with activation of the Regulatory Agen
 
 ## Overview of an agency record
 
-After a regulatory agency is created, on the overview tab of the agency, you can view the pie charts depicting the total number of emails sent to the various regulator domains. This feature enables you to view the domains where the maximum number of emails were sent.  The ability to drill-down helps you to access the emails tracker page directly from an agency record thus enabling you to filter and display only the relevant emails sent for a specific agency, making it easier to track and manage communications. The following image shows how the overview tab of a regulatory agency appears.\[Omitted image "overview-reg-agency.jpg"\] Alt text: Overview tab of a regulatory agency.
+After a regulatory agency is created, the **Overview** tab displays pie charts showing the total number of emails sent to each regulator domain. You can identify the domains that received the most emails. From an agency record, you can drill down to the email tracker page to filter and display only the emails sent for that agency. The following image shows the **Overview** tab of a regulatory agency.\[Omitted image "overview-reg-agency.jpg"\] Alt text: Overview tab of a regulatory agency.
 
 -   **[Download and activate the Regulatory Agency Library plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-reg-agency-library-ccm.md)**  
 You can activate the GRC: Regulatory Agency Library application if you have the admin role. This application includes demo data and provides you access to regulatory body profiles.

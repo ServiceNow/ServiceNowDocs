@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-digital-integrations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with digital integration management in Enterprise Architecture Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with digital integration management in Enterprise Architecture Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with digital integrations
@@ -24,6 +24,8 @@ Add a digital integration or edit an existing digital integration in the EA Work
 You can create new, add, or remove the architectural artifacts that are associated with a digital integration.
 -   **[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-dig-integ-add-info-object.md)**  
 Associate an information object to a digital integration in the Enterprise Architecture Workspace.
+-   **[Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md)**  
+The provider and subscriber roles are independent of the data flow direction. The following example illustrates how the same provider and subscriber pairing can support both outgoing and incoming data flow directions.
 
 **Parent Topic:**[Working with digital integration management in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-digital-integ-mngmnt.md)
 

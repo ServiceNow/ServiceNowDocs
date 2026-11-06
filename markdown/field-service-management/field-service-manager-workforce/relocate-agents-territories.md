@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Territory planning console, Workforce, Use, Field Service Management]
+breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
 ---
 
 # Move agents between territories in the Territory Planning console

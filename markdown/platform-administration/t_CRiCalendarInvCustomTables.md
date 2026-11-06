@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_CRiCalendarInvCustomTables.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Calendar integration, Email templates, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Calendar integration, Email templates, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create iCalendar invitations for custom tables
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  In the navigation filter, enter `sys_impex_map.list`.
 
-3.  Select **New**.
+3.  Click **New**.
 
 4.  Set the following fields:
 
@@ -43,7 +43,7 @@ Role required: admin
 
     **Note:** These variables are required.
 
-9.  Select **Submit**.
+9.  Click **Submit**.
 
 10. Create field mappings for any of the following iCalendar fields as necessary.
 
@@ -51,7 +51,7 @@ Role required: admin
     -   dtend
     -   location
     -   alarm\_time
-11. Select **Update**.
+11. Click **Update**.
 
     Here are sample field mappings between iCalendar variables and custom fields in a custom table, u\_my\_custom\_table:
 

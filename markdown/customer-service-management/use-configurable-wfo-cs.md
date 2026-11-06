@@ -1,20 +1,20 @@
 ---
-title: Using Workforce Optimization for Customer Service
+title: Workforce Optimization for Customer Service
 description: Enhance the quality and efficiency of your teams using channel management capabilities, smart scheduling, team structure, and real-time refreshing single scores. Monitor chat conversations and help agents on cases. Assess the quality of tasks completed, recommend skills for agents, and train them to address skill gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent management, Use, Customer Service Management]
 ---
 
-# Using Workforce Optimization for Customer Service
+# Workforce Optimization for Customer Service
 
 Enhance the quality and efficiency of your teams using channel management capabilities, smart scheduling, team structure, and real-time refreshing single scores. Monitor chat conversations and help agents on cases. Assess the quality of tasks completed, recommend skills for agents, and train them to address skill gaps.
 
--   **[Manager workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/wfo-cs-manager-landing-page-new.md)**  
+-   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**  
 The Manager Workspace landing page provides managers with real-time alerts and key metrics that reflect the overall health and performance of the organization. By consolidating work and resource management data, managers can effectively oversee team performance, optimize agent utilization, and drive continuous improvement.
 -   **[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/explore-channels-configurable-wfo-cs.md)**  
 Channel management lets you monitor important metrics across different channels and queues, manage the work being done by your team members, and collaborate with them to solve complex issues for your end-customers.
@@ -32,6 +32,8 @@ Coaching lets you review and assess the quality of completed interactions and ta
 Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 -   **[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/explore-scheduling-configurable-wfo-cs.md)**  
 Learn how you can plan shifts that include break time for your agents to effectively manage their schedule in Workforce Optimization for Customer Service. Publish schedules to view the agent schedules on the team calendar.
+-   **[Forecasting in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/forecasting-configurable-wfo-cs.md)**  
+ Use the Forecasting page to monitor staffing levels and volume forecast trends for your assignment groups.
 -   **[Schedule Adherence in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/schedule-adherence-configurable-wfo-cs.md)**  
 You can use schedule adherence to monitor whether your team members are adhering and conforming to the schedules and to improve the operational efficiency of your organization.
 -   **[Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/work-scheduling-wfo-cs.md)**  

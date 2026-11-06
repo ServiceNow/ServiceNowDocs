@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Set up Agent Client Collector Log Analytics without using guided setup
@@ -21,7 +21,7 @@ Configure the Agent Client Collector to stream log data from Linux and Windows h
 **Note:** You can configure Agent Client Collector Log Analytics using guided setup. The guided setup ensures that you have the minimum required setup for using the application. For more information, see [Set up Agent Client Collector Log Analytics using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-guided-setup-use.md).
 
 -   The Agent Client Collector Log Analytics \(ACC-L\) plugin must be installed. The plugin comes with the Agent Client Collector Framework \(ACC-F\) and Agent Client Collector Monitoring \(ACC-M\) plugins. For more information, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-installation.md).
--   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
+-   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-sow-itom-apps.md).
 -   Agent Client Collector Log Analytics has a dependency on the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Streaming log data from Windows hosts is supported in Agent Client Collector Log Analytics Version 3.1.0 and later.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
@@ -42,7 +42,7 @@ Role required: agent\_client\_collector\_admin
 
     In addition, the system automatically creates an ACC data input. When it has been created, the data input record is added to the ACC data inputs table and the data input is ready to stream logs.
 
-    **Note:** It is important to configure an ACC data input for every MID Server to which Agent Client Collectors can connect.
+    **Note:** It is important to configure an ACC data input for every MID Server to which Agent Client Collectors can connect. For more information, see [Set up additional ACC data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-data-input-setup.md).
 
     The system also prompts you to set up the MID Web Server. For more information, see [MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/mid-web-server.md).
 
@@ -60,6 +60,8 @@ Role required: agent\_client\_collector\_admin
 
 6.  Install the ACC agent on the endpoint machine.
 
+    **Note:** If you have already installed the ACC agent, proceed to [Agent Client Collector log policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/hla-acc-data-input-log-policies.md).
+
     1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads**.
 
     2.  Download the ACC agent for the appropriate operating system.
@@ -72,4 +74,10 @@ Role required: agent\_client\_collector\_admin
 ## Result
 
 Agent Client Collector Log Analytics and the ACC agent are installed. You can start using the application.
+
+## What to do next
+
+Review the [Agent Client Collector log policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/hla-acc-data-input-log-policies.md).
+
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-setup.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-action-task-op-vul.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating an action task for the operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ After completing the steps outlined in this section, the state of the Operationa
 
 3.  On the Create New Action task form, fill in the fields.
 
-    For more information, see [Create New Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/action-task-form.md).
+    For more information, see [Create Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/action-task-form.md).
 
 4.  In the **Type** field, select **Assessment**.
 
@@ -67,7 +67,7 @@ After completing the steps outlined in this section, the state of the Operationa
 
 ## What to do next
 
-The task owner then logs in, reviews the assigned action task, and creates an investigation-type action task if necessary, or directly requests for an approval for the assessment-type action task.
+The task owner then logs in and reviews the assigned action task. If necessary, the task owner creates an investigation-type action task or directly requests approval for the assessment-type action task.
 
 For more information, see [Manage an investigation-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-state-of-action-task.md) and [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/request-approval-for-action-task.md).
 

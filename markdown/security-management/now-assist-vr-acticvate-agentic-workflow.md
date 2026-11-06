@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-vr-acticvate-agentic-workflow.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
 ---

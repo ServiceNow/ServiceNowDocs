@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 # Appointment reminder card widget
 
 The Appointment reminder card widget displays the next appointment reminder for the logged-in user.
-
-\[Omitted image "hcls-widget-appt-remind-card.png"\] Alt text: Screenshot displaying theAppointment reminder card widget.
 
 ## Key features
 

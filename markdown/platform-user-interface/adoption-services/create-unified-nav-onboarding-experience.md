@@ -1,40 +1,32 @@
 ---
-title: Create Onboarding modals
-description: Create your own Onboarding modals to introduce your users to a new experience or application in your ServiceNow instance.
+title: Create an onboarding modal
+description: Create your own onboarding modals to introduce your users to a new experience or application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/create-unified-nav-onboarding-experience.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Create onboarding modal]
-breadcrumb: [Configure, Onboarding modals, Adoption services, Configure user experiences]
+breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---
 
-# Create Onboarding modals
+# Create an onboarding modal
 
-Create your own Onboarding modals to introduce your users to a new experience or application in your ServiceNow instance.
+Create your own onboarding modals to introduce your users to a new experience or application.
 
 ## Before you begin
 
 Role required: admin
 
-Ensure you have:
-
--   Planned your onboarding content, including the key concepts to cover and the optimal sequence for presenting information
--   Identified target user roles who should see the Onboarding modals
--   Prepared any images, videos, or custom HTML content to include in the modal
--   Determined the application or workspace where the modal will appear
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Adoption Services** &gt; **Create Guidance**.
 
-2.  To create your Onboarding modals, do the following:
+2.  To create your onboarding modal, do the following:
 
-    1.  On the guidance form, fill in the fields.
+    1.  On the form, fill in the fields.
 
         |Field|Description|
         |-----|-----------|
@@ -48,7 +40,27 @@ Ensure you have:
 
     2.  Select **Submit**.
 
-3.  To create embedded help guidance steps, do the following:
+3.  To launch an Onboarding modal once created, do the following:
+
+    1.  Create a client script in UIB.
+
+    2.  Under the code snippet enter `api.emit('SN_HELP#GUIDANCE_START_REQUESTED',{guidanceId:"ID"});`
+
+    3.  Replace the ID with the sys\_id of the modal guidance to be opened.
+
+    4.  Save the page.
+
+    5.  Select **Body** in the left panel of the UIB page.
+
+    6.  In the right panel, select the **Events** tab.
+
+    7.  Under **Dispatched Events** select **Add**.
+
+    8.  In the event name, add `SN_HELP#GUIDANCE_START_REQUESTED` and give the label with a name.
+
+    9.  Select **Save**.
+
+4.  To create embedded help guidance steps, do the following:
 
     1.  Select your guidance from the Guidances list.
 
@@ -121,7 +133,7 @@ The guidance that this Help Guidance Step applies to.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-4.  To create help contents for your help guidance steps, do the following:
+5.  To create help contents for your help guidance steps, do the following:
 
     1.  Select your help guidance step in the related list.
 
@@ -344,20 +356,12 @@ The question is Mandatory when selected.
 
     13. Select **Submit**.
 
-5.  Create any additional guidance that you want to build your onboarding experience.
+6.  Create any additional guidance that you want to build your onboarding experience.
 
-6.  When you're done building your onboarding guidance, confirm that the status of your guidance is set to **Published** on the Guidance form.
+7.  When you're done building your onboarding guidance, confirm that the status of your guidance is set to **Published** on the Guidance form.
 
-7.  On the Guidance form, select **Update**.
+8.  On the Guidance form, select **Update**.
 
 
-## Result
-
-Your onboarding modal is created and published. The modal contains all configured guidance steps with their associated help content. Users with the specified roles can now see the modal when it is triggered.
-
-## What to do next
-
-Configure a launch trigger for your modal. See Launch an onboarding modal.
-
-**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-onboarding-modals.md)
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

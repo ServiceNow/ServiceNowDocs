@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/code-signing-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Code Signing, Platform Security]
 ---
@@ -22,8 +22,25 @@ Reference topics provide additional information to administer and troubleshoot C
 
     Code Signing includes the following roles.
 
+-   **[Code Signing actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cs-actions-roles.md)**
+
+    Maps every Code Signing action to its required roles and instance type.
+
 -   **[Troubleshooting and accessing logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cs-logs.md)**
 
     Access various logs to troubleshoot and identify the failure reasons.
 
+
+-   **[Properties installed with Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-sign-properties.md)**  
+Code Signing adds the following properties.
+-   **[Roles installed with Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cs-role-landing.md)**  
+Code Signing includes the following roles.
+-   **[Code Signing actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cs-actions-roles.md)**  
+Reference table of Code Signing actions, their descriptions, and the roles required to perform them.
+-   **[Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cs-vault-audit-data.md)**  
+Review the create, update, and delete operations that users perform on records protected by Code Signing.
+-   **[Troubleshooting and accessing logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cs-logs.md)**  
+Access various logs to troubleshoot and identify the failure reasons.
+
+**Parent Topic:**[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-landing.md)
 

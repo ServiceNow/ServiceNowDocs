@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/watchlist-slushbucket-order.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email notifications, Add users to a watch list, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure email notifications for watch lists, Add users to a watch list, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure order buttons on the watch list slushbucket
@@ -22,7 +22,7 @@ Role required: admin
 
 The slushbucket opens when the user clicks the add/remove multiple users icon.
 
-\[Omitted image "add-multiple-users-icon.png"\] Alt text: Add/remove multiple users opens the slushbucket.
+\[Omitted image "add-multiple-users-icon.png"\] Alt text: Add/remove multiple users icon opens the slushbucket
 
 By default, the order buttons on the right are not displayed. Follow the procedure to display the order buttons.
 

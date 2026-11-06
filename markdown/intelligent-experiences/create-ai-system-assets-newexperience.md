@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-ai-system-assets-newexperience.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI system assets
@@ -28,7 +28,7 @@ When you manually create an asset, the asset defaults to a **Design** state.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
+1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  On the Inventory page, select **Add AI asset**.
 
@@ -323,7 +323,7 @@ Additional information or context that helps clarify the specific use and purpos
 
 10. Select **Submit for review**.
 
-    The Asset record page opens and your asset is in an unmanaged state. You can edit details related to your asset on the **Details** tab by using the pencil icon in the sections titled **About this asset** and **Use and purpose**.
+    The Asset record page opens and your asset is in an unmanaged state. You can edit details related to your asset on the **Details** tab by using the pencil icon in the sections titled **Details** and **Use and purpose**.
 
 11. If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, select the **Actions** menu and then select **Start lifecycle review**.
 

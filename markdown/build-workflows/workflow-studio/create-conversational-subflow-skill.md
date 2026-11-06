@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-04"
 reading_time_minutes: 1
 keywords: [create skill, create conversational skill]
-breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create conversational subflow skill

@@ -1,18 +1,18 @@
 ---
-title: Service contract line form
-description: You can create service contract lines in the Customer Contracts and Entitlements application by using the Service Contract Line form.
+title: Customer contract line form
+description: You can create customer contract lines in the Customer Contracts and Entitlements application by using the Customer Contract Line form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/service-contract-line-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer Contracts and Entitlements reference, Reference, Customer Service Management]
 ---
 
-# Service contract line form
+# Customer contract line form
 
-You can create service contract lines in the Customer Contracts and Entitlements application by using the Service Contract Line form.
+You can create customer contract lines in the Customer Contracts and Entitlements application by using the Customer Contract Line form.
 
 <table id="table_jtd_tbk_bzb"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Name
 
 </td><td>
 
-The name of the service contract line.
+The name of the customer contract line.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Contract
 
 </td><td>
 
-The internal unique identification number that is generated when the service contract is created. This number isn’t editable.
+The internal unique identification number that is generated when the customer contract is created. This number isn’t editable.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Parent contract line
 
 </td><td>
 
-The internal unique identification number of the parent service contract line that is associated with the child service contract line.
+The internal unique identification number of the parent customer contract line that is associated with the child customer contract line.
 
 </td></tr><tr><td>
 
@@ -52,9 +52,9 @@ Account
 
 </td><td>
 
-The name of the account associated with this service contract.**Note:**
+The name of the account associated with this customer contract.**Note:**
 
--   A service contract can be associated with either an account or a consumer.
+-   A customer contract can be associated with either an account or a consumer.
 -   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-account-form.md).
 
 </td></tr><tr><td>
@@ -63,7 +63,7 @@ Location
 
 </td><td>
 
-The service or installation location.
+The customer or installation location.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Number
 
 </td><td>
 
-The internal unique identification number of the service contract line that is generated when it is created. This number isn’t editable.
+The internal unique identification number of the customer contract line that is generated when it is created. This number isn’t editable.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the service contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-consumer-record.md).
+The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-consumer-record.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ The current state of the contract line:-   Draft
 
 **Note:**
 
--   The state of the service contract line is inherited from its parent service contract.
+-   The state of the customer contract line is inherited from its parent customer contract.
 -   Suspended state is only applicable when the contract line item is created via the Sales Customer Relationship Management workflow.
 
 </td></tr><tr><td>
@@ -112,7 +112,7 @@ Start date
 
 </td><td>
 
-The date of activation of the service contract line.
+The date of activation of the customer contract line.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ End date
 
 </td><td>
 
-The date when the service contract line expires.
+The date when the customer contract line expires.
 
 </td></tr><tr><td>
 
@@ -146,8 +146,8 @@ Sold product
 
 The name of the sold product that is added to the contract line.**Note:**
 
--   When the service contract line item is created via the Sales Customer Relationship Management workflow, this field displays the sold product name from which the contract line is generated.
--   When service contract lines are created via integration, the field becomes invalid.
+-   When the customer contract line item is created via the Sales Customer Relationship Management workflow, this field displays the sold product name from which the contract line is generated.
+-   When customer contract lines are created via integration, the field becomes invalid.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Renewal root
 
 </td><td>
 
-A service contract line can be renewed multiple times. Renewal root refers the service contract line reference of the first or base service contract line.
+A customer contract line can be renewed multiple times. Renewal root refers the customer contract line reference of the first or base customer contract line.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Renewed from
 
 </td><td>
 
-A service contract line can be renewed multiple times. Renewed from field refers to the previous service contract line that was renewed.
+A customer contract line can be renewed multiple times. Renewed from field refers to the previous customer contract line that was renewed.
 
 </td></tr></tbody>
 </table>You can see the pricing information on a contract line for subscription contracts that helps you in reviewing your contract information.
@@ -289,5 +289,5 @@ Cumulative net price
 Represents the total price of the contract line by calculating the roll-up amount of all root lines.
 
 </td></tr></tbody>
-</table>**Note:** When a service contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales Customer Relationship Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child service contract line must be in between the start and end date of the associated parent service contract line.
+</table>**Note:** When a customer contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales Customer Relationship Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child customer contract line must be in between the start and end date of the associated parent customer contract line.
 

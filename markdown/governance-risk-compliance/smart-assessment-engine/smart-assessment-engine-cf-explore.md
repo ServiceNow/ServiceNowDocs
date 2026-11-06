@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 # Exploring Smart Assessment Engine
 
 The ServiceNow®Smart Assessment Engine \(SAE\) helps you reduce the manual burden and costs of your assessment processes through automation.
+
+\[Omitted video\] Description: Smart Assessment Engine Overview
 
 ## Smart Assessment Engine
 
@@ -178,5 +180,5 @@ sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager and sn\_s
     A user with the template admin or template manager role and template \[sn\_smart\_asmt.developer\] role can read, write, and create the script for response automation in assessment questions.
 
 
-For more information, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 

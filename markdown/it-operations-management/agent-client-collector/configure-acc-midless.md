@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring MID-less ACC, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring MID-less ACC, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure MID-less Agent Client Collector using a single-line command
@@ -57,9 +57,7 @@ String
 
 </td><td>
 
-Location of the `acc.yml` being configured. Can also be used to modify and validate parameters if the file is in a different location from the default. Can also be used to modify a different file location to check if the parameters specified are valid.
-
-Optional. If no value is entered, the default location of the `acc.yml` file is used.
+Location of the `acc.yml` being configured. Can also be used to modify and validate parameters if the file is in a different location that the default.Can also be used to modify a different file location to check if the parameters specified are valid.Optional. If no value is entered, the default location of the `acc.yml` file is used.
 
 </td></tr><tr><td>
 

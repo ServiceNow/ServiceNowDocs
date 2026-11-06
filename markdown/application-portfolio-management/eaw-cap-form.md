@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-cap-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create business capability form
@@ -54,7 +54,7 @@ Business Unit
 
 </td><td>
 
-Name of the business unit in the organizational structure.Before Zurich Patch 12, this field was the only way to associate a business unit with a business capability, and accepted a single value. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate multiple business units. The field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
+Name of the business unit in the organizational structure.Before Australia Patch 5, this field was the only way to associate a business unit with a business capability, and accepted a single value. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate multiple business units. The field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
 </td></tr><tr><td>
 
@@ -105,12 +105,10 @@ Description
 A short description of the business capability.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
 [Add or edit a business capability from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-capability.md)
-
-[Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)
 

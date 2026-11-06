@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configure ServiceNow Otto for Field Service Management \(FSM\)
@@ -32,7 +32,7 @@ The following table lists the features and skills that you can access from the A
 |Knowledge|KB generation|
 |Chat|Sidebar summarization|
 
-The ServiceNow® large language model \(Now LLM Service\) is currently the only provider for this Now Assist application's skills.
+The ServiceNow® large language model \(Now LLM Service\) is currently the only provider for ServiceNow Otto for FSM skills.
 
 ## Procedure
 
@@ -40,9 +40,9 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
     For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the AI Admin Hub console.
+2.  Navigate to **All** &gt; **AI Admin hub** &gt; **Skills**.
 
-3.  In the Select product field, select **FSM**.
+3.  In the Customer dropdown, select **FSM**.
 
 4.  Activate and configure the skills for the ServiceNow Otto for FSM features.
 
@@ -69,7 +69,7 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 11. Select where you would like to display the skill.
 
     -   Select **In-product** to display the skill on the Mobile Agent app.
-    -   Select **Now Assist panel** to display the skill in the Now Assist panel.
+    -   Select **ServiceNow Otto panel** to display the skill in the ServiceNow Otto panel.
 12. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 
 13. Review your choices and select **Activate** to complete the configuration.

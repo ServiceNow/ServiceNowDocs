@@ -1,5 +1,5 @@
 ---
-title: Configure settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace
+title: Configuring settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace
 description: Set up the necessary configurations in the Admin Center to enable the tracking of KPIs for your enterprise assets. These settings enable you to monitor and manage the performance your assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.html
@@ -7,12 +7,12 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
-# Configure settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace
+# Configuring settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace
 
 Set up the necessary configurations in the Admin Center to enable the tracking of KPIs for your enterprise assets. These settings enable you to monitor and manage the performance your assets.
 
@@ -22,5 +22,5 @@ As an enterprise administrator, configure the following settings to monitor asse
 2.  [Create an operational schedule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.md).
 3.  [Map enterprise assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.md).
 
-For details on asset performance and the related reports, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md) and [Asset Analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.md).
+For details on asset performance and the related reports, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md) and [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.md).
 

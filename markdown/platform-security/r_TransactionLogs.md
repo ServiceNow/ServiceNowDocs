@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/r\_TransactionLogs.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---
@@ -35,4 +35,5 @@ Access the transaction logs by navigating to **All** &gt; **System Logs** &gt; *
 |IP address|IP address of the client making the request.|
 |GZipped|Indication of whether a compressed Web page was requested by the application.|
 |Protocol|HTTP protocol used by the application for this instance.|
+|HTTP Response Code|Status code returned by the server indicating the result of the HTTP request.|
 

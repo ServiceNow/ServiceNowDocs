@@ -7,8 +7,8 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Employee Service Management]
 ---
 
@@ -18,13 +18,28 @@ HR Service Delivery is a suite of applications that drive employee productivity 
 
 \[Omitted image "hr-service-delivery-landing-page.svg"\] Alt text: HR Service Delivery applications support employees at each stage: hiring, self-service during employment, growth, and departure.
 
+## HR Service Delivery Users
+
+-   **Employees**
+
+    Employees access HR services and self-service features through the Employee Center. HR Service Delivery applications power the features employees use to manage their careers and get help when they need it.
+
+-   **Managers**
+
+    Managers access HR tools through the Employee Center to support their teams and act on HR tasks.
+
+-   **HR agents**
+
+    HR agents handle employee inquiries and resolve cases through the Agent Workspace, a unified interface for managing agent-employee interactions.
+
+
 ## HR Service Delivery applications
 
 **Note:** The Talent Development applications suite has been renamed to Growth Experiences and the Talent Acquisition application been renamed to Hiring Experiences.
 
 <table id="table_hlz_zwz_fgc" class="nav-card"><tbody><tr><td>
 
-[AI-Powered Experiences\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+[AI-Powered Experiences\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about the generative AI skills and capabilities offered by ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td><td>
 

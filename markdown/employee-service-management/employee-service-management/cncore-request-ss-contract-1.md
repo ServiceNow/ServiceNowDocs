@@ -1,5 +1,5 @@
 ---
-title: Use self-served contract request
+title: Own paper contract requests
 description: Use Contract Management Pro to submit contract requests that will generate contract documents using a predefined contract template and template rules.
 locale: en-US
 release: zurich
@@ -9,7 +9,7 @@ reading_time_minutes: 5
 audience: sn\_cm\_core.contract\_fulfiller
 ---
 
-# Use self-served contract request
+# Own paper contract requests
 
 Use Contract Management Pro to submit contract requests that will generate contract documents using a predefined contract template and template rules.
 
@@ -23,7 +23,7 @@ Use Contract Management Pro to submit contract requests that will generate contr
 -   Centralized contracts repository containing the metadata of signed contract documents.
 -   System property to generate a certification of completion for an electronically signed contract.
 
-## Self-served contracts workflow
+## Own paper contracts workflow
 
 When a requester submits a self-served contract request, a contract document is created using a standard contract template based on the information from the request. The information from the request is inserted at the appropriate places in the template.
 
@@ -33,7 +33,7 @@ If the generated contract document doesn’t require any changes, the requester 
 
 A workflow for a self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request. For more information, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request. For more information, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
     -   If there are no validation errors, a contract request is created in the Work in progress state.
     -   If there are any signatory validation errors, the contract requester resolves them and resubmits the contract request.
 2.  A contract document is generated from a contract template and the metadata, clauses, signatories, and tables are added dynamically according to predefined conditions.
@@ -73,7 +73,9 @@ Review and finalize a contract document according to the contract request.
 -   **[Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md)**  
 Edit a contract request, regenerate the contract document, and send it for signature.
 -   **[Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md)**  
-Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
+-   **[Modify the signing order for signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-set-signing-order.md)**  
+Modify the order in which signatories sign a contract document that has not yet been sent for signature.
 -   **[Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-sync-document.md)**  
 When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 -   **[Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/add-push-notif-reg-table.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup with ServiceNow mobile app, Push notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Push notification setup with the ServiceNow mobile app, Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add a push notification to the Push Default Registrations table

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-extend-defer-rem.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -80,7 +80,5 @@ Enter any other relevant information.
 
     -   The request goes through multi-levels of approval.
     -   The Request Extension button is unavailable for remediation tasks that are created as part of an exception rule.
-    -   If a deferred remediation task is extended again, the extend deferral count increases in the backend.
-
-**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-exception-management-overview.md)
+    -   If a deferred remediation task is extended again, the **Extension count** \(defer\_extend\_count\) increases in the backend.
 

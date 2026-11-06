@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Time Sheets, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Time Sheets, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a time sheet
@@ -30,15 +30,15 @@ A user can create only one time sheet per week.
 
 1.  Create the time sheet with one of these options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d221443e78">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d230030e78">
 
 Option
 
-</th><th align="left" id="d221443e81">
+</th><th align="left" id="d230030e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d221443e87">
+</th></tr></thead><tbody><tr><td id="d230030e87">
 
 **From the time sheet menu**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **Time Sheets** &gt; **My Time Sheets** &gt; **Current \(This Week\)**.The time sheet form for the current week opens.
 
-</td></tr><tr><td id="d221443e111">
+</td></tr><tr><td id="d230030e111">
 
 **From the time sheet list**
 

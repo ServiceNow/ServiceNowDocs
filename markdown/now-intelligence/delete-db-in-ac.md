@@ -1,11 +1,11 @@
 ---
 title: Delete a Platform Analytics dashboard
-description: You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
+description: You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/delete-db-in-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to delete a dashboard, How to delete a platform analytics dashboard, How to delete a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -13,7 +13,7 @@ breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics exp
 
 # Delete a Platform Analytics dashboard
 
-You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
+You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  Open the dashboard that you want to delete.
 
@@ -51,6 +51,8 @@ Using the Workflow Studio, you can add actions to the dashboard deletion process
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

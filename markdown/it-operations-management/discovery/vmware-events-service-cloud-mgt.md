@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Discovery for VMware Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery for VMware, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure the VMware Events service to auto-update the CMDB

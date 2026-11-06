@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-managing-product-catalogs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -24,21 +24,21 @@ The following workflow example shows a typical series of steps for setting up ca
 
 ## Overview of product offering and catalog configuration
 
-You can use the CRM Workspace to configure product offering catalogs, product offerings, and product offering relationships.
+Starting with the May 2024 release of Sales Customer Relationship Management applications, you can use the CRM Workspace to configure product offering catalogs, product offerings, and product offering relationships.
 
 The following table identifies the configuration tasks for setting up the various features available in Product Catalog Management.
 
 |Configuration task|Description|
 |------------------|-----------|
-|[Create a product offering catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-catalog.md)|Create a catalog, which is the top-level entity in the catalog hierarchy. Catalogs can have categories, and categories can have subcategories or product offers.|
-|[Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering-category.md)|Define a product offering category used to organize similar product offerings in a catalog. Catalog categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders.|
+|[Create a product offering catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-catalog.md)|Create a catalog, which is the top-level entity in the catalog hierarchy. Catalogs can have categories, and categories can have subcategories or product offers. Set a custom display order for a catalog so it appears in the sequence you choose instead of alphabetically.|
+|[Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering-category.md)|Define a product offering category used to organize similar product offerings in a catalog. Catalog categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders. Set a custom display order for a category within a catalog so it appears in the sequence you choose instead of alphabetically.|
+|[Create a product offering family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-product-offering-family.md)|Create a product offering family for products with similar or common features that have multiple variations. You can apply common rules or attributes for product offerings at the product offering family level instead of applying them individually to each product offering.|
 |[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-characteristics.md)|Define the specific attributes, properties, and options that distinguish a product offering, influencing its configuration and pricing.|
-|[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering.md)|Create and add product offerings to catalogs and categories. Once published, agents and customers use the product catalog to select product offerings in Sales Customer Relationship Management transactions.|
-|[Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-configurable-prod-offerings.md)|Create a configurable product offering and generate an associated blueprint using the CPQ Configurator. A blueprint contains the product structure for an offering and includes product attributes, product relationships, product and pricing rules, and any child products defined for the offering. Blueprints drive the agent and customer experience for configuring customizable products using the CPQ Configurator.|
-|[Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-visuals.md)|Add images and thumbnails to your product offerings to help agents visualize products as they build opportunities, quotes, and orders.|
+|[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering.md)|Configure and add product offerings to catalogs and categories. Once published, product offerings are available to Sales Customer Relationship Management agents as they create opportunities, quotes, and orders.|
+|[Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-visuals.md)|Add images and thumbnails to your product offerings to help agents as they build opportunities, quotes, and orders.|
 |[Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-offering-relationships.md)|Create product relationships to bundle products and services together to streamline the order process. Product offering relationships drive the order capture experience by letting you group multiple product offerings into bundles. Bundles also let you offer special bundle pricing.|
 |[Control cascading quantity values in child product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-activate-cascade-quantity.md)|Control how the quantities for child line items in a product offering for a quote or order are calculated by using the **sn\_prd\_pm.enable\_cascade\_quantity** system property.|
-|[Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-related-contracts.md)|Add related contracts to a product offering in the Sales Customer Relationship Management application.|
+|[Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-related-contracts.md)|Add related contracts to your product offerings in the Sales Customer Relationship Management application.|
 |[Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-unit-of-measure.md)|Add a unit of measure \(UOM\) to a product offering in Sales Customer Relationship Management.|
 |[Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-create-new-version.md)|Create a product version to add updates to a published product offering.|
 |[Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-relationship-groups.md)|Combine bundles of product offerings into related groups in Sales Customer Relationship Management.|
@@ -47,4 +47,11 @@ The following table identifies the configuration tasks for setting up the variou
 |[Export and import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/export-import-product-catalog-entities.md)|Export and import product catalog entities between ServiceNow instances. For example, you can promote catalog entities from a non-production instance to a production instance.|
 |[View product offering hierarchy and associated specification hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-catalog-hierarchy.md)|View the complete hierarchy of a product offering and any associated specifications \(product, service, and resource\). Use these views to verify that all entities have been defined and associated correctly.|
 |[Configure product offer eligibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-sales-eligibility.md)|Filter the product catalog, product categories, and product offerings dynamically, to display only eligible product offerings for a customer in the product catalog.|
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

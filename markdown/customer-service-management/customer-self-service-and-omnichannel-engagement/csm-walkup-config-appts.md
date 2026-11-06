@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Appointment booking configuration, Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Create or modify appointment booking configurations for Walk-up Experience servi
 
 ## Before you begin
 
-Role required: admin or sn\_apptmnt\_booking.appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## About this task
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-households-manage-cases.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure households, Customer data, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -37,7 +37,7 @@ When a constituent case is created or updated, the constituent receives an email
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CRM Workspace** &gt; **List**
+1.  Navigate to **All** &gt; **Public Sector Workspace** &gt; **List**
 
 2.  Navigate to the related list of the type of case you want to create.
 
@@ -45,7 +45,7 @@ When a constituent case is created or updated, the constituent receives an email
 
 4.  Perform one of the following actions.
 
-<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d30472e138">
+<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d64898e138">
 
 **Add a constituent.**
 
@@ -56,7 +56,7 @@ Select a constituent in the **Constituent** field. -   If the constituent belong
 -   If the constituent does not belong to a household, you can leave the **Household** field empty.
 
 
-</td></tr><tr><td id="d30472e171">
+</td></tr><tr><td id="d64898e171">
 
 **Add a household.**
 

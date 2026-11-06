@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-the-customer-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
@@ -196,4 +196,11 @@ View a list of featured community content.
 
 </td></tr></tbody>
 </table>**Note:** You can view the metadata for each entry in the widgets, such as the number of views, number of days from the time the article or feature was published, and rating for the article.
+
+**Related topics**  
+
+
+[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_PortalSelfRegistration.md)
+
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_LogInToPortalFirstTime.md)
 

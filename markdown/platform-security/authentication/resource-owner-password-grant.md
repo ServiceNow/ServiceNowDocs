@@ -7,14 +7,23 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Resource owner password credential grant
 
 Configuring an OAuth Resource Owner Password Credential \(ROPC\) grant enables applications to authenticate users by directly using their credentials to obtain an access token.
+
+-   **Ideal for:**
+
+    Highly trusted internal client applications in controlled environments where the app collects the user’s credentials directly.
+
+-   **How it works:**
+
+    The client application collects the user’s username and password and sends them directly to the ServiceNow instance to obtain an access token. This flow bypasses redirection and consent screens but exposes user credentials to the client application, so it should only be used in legacy or tightly controlled environments where more secure alternatives are not feasible.
+
 
 ## Security Considerations
 

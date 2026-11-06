@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Create all the records necessary to deploy software from Service Catalog request
 
 Integrates with [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/c_SAMOverview.md) to manage license counts for deployed software.
 
-
+\[Omitted image "CSDProcessFlowDiagram.png"\] Alt text: CSD process flow using SCCM
 
 -   **[Request client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/request-csd-ihub.md)**  
 Client software distribution requires the Orchestration - Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\), which is available by request with a subscription to Integration Hub.

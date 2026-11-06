@@ -7,7 +7,7 @@ release: zurich
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extract Transform Load \(ETL\) definition overview, Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -23,7 +23,7 @@ In the temporary \(temp\) entity model, temporary entities serve as an intermedi
 -   In the temp entity, add new entity fields and entity operations to support the values required to map the data to the target entities.
 -   Add target entities and RTE entity mappings to map data from the temp entity to the target entities.
 
-With this model, there's no need to define operations in the target entity. You create operations only in the temp entity, then map the final values to the target entities.
+With this model, there's no need to define operations in the target entity. You create operations only in the temp entity, then map the final values to the target entities. \[Omitted image "temp-entity-model.png"\] Alt text: An overview of the import process using an ETL definition with a temp entity.
 
 ## Teams ETL definition
 

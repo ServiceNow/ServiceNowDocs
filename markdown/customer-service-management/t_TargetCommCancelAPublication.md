@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommCancelAPublication.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ You can cancel a publication in any of the following stages: **Author**, **Revie
     -   **Targeted Communications** &gt; **Draft Publications**
 2.  Select the desired publication.
 
-3.  Select **Cancel**.
+3.  Click **Cancel**.
 
     The stage of the publication changes to **Cancelled**.
 

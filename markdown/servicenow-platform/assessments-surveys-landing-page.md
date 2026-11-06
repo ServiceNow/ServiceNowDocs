@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/assessments-surveys-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Exploring Service Administration, Service Administration, Manage se
 
 The Assessments and Surveys application helps you create, send, and collect responses for surveys. The application also helps you evaluate, score, and rank records from any table in the system.
 
-\[Omitted video\] Description: Overview video of assessments, surveys, and quizzes
+\[Omitted video\] Description: Overview of assessments, surveys, and quizzes
 
 ## Get started
 
@@ -61,7 +61,7 @@ The Assessments and Surveys application helps you create, send, and collect resp
 The Assessments and Surveys application helps you create, send, and collect responses for surveys. The application also helps you evaluate, score, and rank records from any table in the system. Create questionnaires that you can assign to one or more users to assess their knowledge of any subject.
 -   **[Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/r_SurveyManagementLandingPage.md)**  
 With Surveys, you can create, send, and collect responses for basic surveys. If Service Portal is installed, users can access and complete the assigned surveys through the **My Assessments** and **Survey** widget within the portal.
--   **[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/r_Assessments.md)**  
+-   **[Assessments]()**  
 Use assessments to evaluate, score, and rank records from any table in the system.
 -   **[Installed with Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/r_InstalledWithAssessments.md)**  
 Several types of components are installed with the activation of Assessments and Surveys.

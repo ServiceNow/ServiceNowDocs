@@ -7,7 +7,7 @@ release: zurich
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -24,8 +24,6 @@ Configure your field encryption settings to use ServiceNow supplied keys or your
 Create a cryptographic module to define the mechanisms used for cryptographic operations. After you create the module, you create a cryptographic specification, where you define an algorithm for encryption and generates a key.
 -   **[Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-module-access-policy.md)**  
 Create module access policies to decide which users and scripts can access data encrypted by a cryptographic module.
--   **[Create a granular role module access policy for symmetric encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-a-granular-role-module-access-policy-for-symmetric-encryption.md)**  
-Create a granular role module access policy \(MAP\) to secure data while permitting users not assigned to a specific MAP to submit forms on a public record.
 -   **[Create a cryptographic module life-cycle policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-cryptographic-module-lifecycle-policy.md)**  
 Create a cryptographic module life-cycle policy to place limits on cryptographic modules, such as how long the key is good for. Create policies to safeguard cryptographic modules by limiting their exposure.
 

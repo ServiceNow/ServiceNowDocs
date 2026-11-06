@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Dynamic outputs, Create an action in Workflow Studio, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Dynamic outputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Get started with dynamic outputs
@@ -119,7 +119,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of JSON name-value pairs, where there is an entry for each field in the table.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
+**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-integrationhub.md) for your instance.
 
 ### Procedure
 
@@ -268,7 +268,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of a JSON array of objects, where each source record is converted into one object of the array.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
+**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-integrationhub.md) for your instance.
 
 ### Procedure
 

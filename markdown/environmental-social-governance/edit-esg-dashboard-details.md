@@ -1,16 +1,16 @@
 ---
-title: Edit ESG Management dashboard details
+title: Edit Operational Sustainability Management dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/edit-esg-dashboard-details.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Edit ESG Management dashboard details
+# Edit Operational Sustainability Management dashboard details
 
 You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 
@@ -28,15 +28,15 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Edit the fields as necessary.
 
-<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d35879e103">
+<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d35988e103">
 
 Field
 
-</th><th align="left" id="d35879e106">
+</th><th align="left" id="d35988e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35879e112">
+</th></tr></thead><tbody><tr><td id="d35988e112">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Edit the name of the dashboard.
 
-</td></tr><tr><td id="d35879e121">
+</td></tr><tr><td id="d35988e121">
 
 **Description**
 
@@ -52,7 +52,7 @@ Edit the name of the dashboard.
 
 Fill in the description to provide further context about the purpose of the dashboard.
 
-</td></tr><tr><td id="d35879e130">
+</td></tr><tr><td id="d35988e130">
 
 **Mark as certified**
 
@@ -62,15 +62,15 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
  **Note:** You must have an admin role to mark a dashboard as certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/certify-db-ac.md).
 
-</td></tr><tr><td id="d35879e149">
+</td></tr><tr><td id="d35988e149">
 
 **Dashboard visibility**
 
 </td><td>
 
-View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboards.md).
+View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboards.md).
 
-</td></tr><tr><td id="d35879e168">
+</td></tr><tr><td id="d35988e168">
 
 **Create new category**
 
@@ -78,7 +78,7 @@ View, add, or remove workspaces in which the dashboard can be viewed.**Note:** I
 
 Specify one or more dashboard categories.**Note:** For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/db-categories.md).
 
-</td></tr><tr><td id="d35879e183">
+</td></tr><tr><td id="d35988e183">
 
 **Requested by**
 
@@ -86,7 +86,7 @@ Specify one or more dashboard categories.**Note:** For more information, see [Pl
 
 Specify who requested the dashboard.**Note:** This user is considered a responsible user. The data visualization is shared with them, with editing permissions.
 
-</td></tr><tr><td id="d35879e194">
+</td></tr><tr><td id="d35988e194">
 
 **Owner**
 
@@ -94,7 +94,7 @@ Specify who requested the dashboard.**Note:** This user is considered a responsi
 
 Specify the owner of the dashboard.**Note:** By default, the owner is the creator of the dashboard, but the creator or owner can assign ownership to another user.
 
-</td></tr><tr><td id="d35879e205">
+</td></tr><tr><td id="d35988e205">
 
 **Owner Group**
 
@@ -102,7 +102,7 @@ Specify the owner of the dashboard.**Note:** By default, the owner is the creato
 
 Specify an owner group.**Note:** The owner of a dashboard can be an entire group rather than a single person.
 
-</td></tr><tr><td id="d35879e216">
+</td></tr><tr><td id="d35988e216">
 
 **Created by**
 
@@ -110,7 +110,7 @@ Specify an owner group.**Note:** The owner of a dashboard can be an entire group
 
 See who created the dashboard.
 
-</td></tr><tr><td id="d35879e225">
+</td></tr><tr><td id="d35988e225">
 
 **Last updated by**
 
@@ -118,7 +118,7 @@ See who created the dashboard.
 
 See who updated the dashboard along with the date and time details.
 
-</td></tr><tr><td id="d35879e235">
+</td></tr><tr><td id="d35988e235">
 
 **Shared with**
 
@@ -128,5 +128,5 @@ See who the dashboard has been shared with.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring assessment data using ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

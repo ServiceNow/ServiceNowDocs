@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Part requirements, Inventory, Manage work order tasks, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create a part requirement
@@ -38,7 +38,7 @@ You can create a part requirement to request a part with or without the context 
 
 4.  Do one of the following.
 
-<table><tbody><tr><td id="d46527e191">
+<table><tbody><tr><td id="d50653e188">
 
 **Click __Source__.**
 
@@ -46,7 +46,7 @@ You can create a part requirement to request a part with or without the context 
 
 All tasks and part requirements are listed on the left. Point to any task or part requirement icon to obtain more information. Right-click a work order task and select **Create Part Requirement**. This method is useful if you are sourcing multiple parts for a work order task.
 
-</td></tr><tr><td id="d46527e206">
+</td></tr><tr><td id="d50653e203">
 
 **In the __Part Requirements__ related list, click __New__.**
 

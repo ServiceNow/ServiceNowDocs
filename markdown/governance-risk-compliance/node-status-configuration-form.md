@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/node-status-configuration-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Node status configurations, Configure the Node configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure the Node status configurations, Configure the Node config
 
 Use the Node status configuration form to configure the Node status conditions and parameters for the selected node configuration table.
 
-## Node status configuration new record form
+## Node status configuration record form
 
 |Field|Description|
 |-----|-----------|

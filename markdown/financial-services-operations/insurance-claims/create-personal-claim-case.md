@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Personal Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a personal claim case
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative or sn\_ins\_claim\_pers
 
 3.  Create a case from the personal auto claim cases list.
 
-<table><thead><tr><th align="left" id="d112799e85">
+<table><thead><tr><th align="left" id="d124110e85">
 
 Option
 
-</th><th align="left" id="d112799e88">
+</th><th align="left" id="d124110e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d112799e94">
+</th></tr></thead><tbody><tr><td id="d124110e94">
 
 **Personal auto claim case from the personal auto claim case list**
 

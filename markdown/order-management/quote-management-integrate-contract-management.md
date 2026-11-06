@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-management-integrate-contract-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Quote management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Integrate with Contract Management Pro
@@ -17,10 +17,6 @@ With the integration of Quote Management and Contract Management Pro, sales agen
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-Manually run fix scripts if you have not installed the demo data at the time of installation. For more information on how to run the script see [Run fix scripts to update Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/run-fix-scripts-update-contract-management-pro.md).
 
 ## Procedure
 
@@ -37,7 +33,15 @@ Manually run fix scripts if you have not installed the demo data at the time of 
     For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-config-cmpro.md).
 
 
-## What to do next
+-   **[Run fix scripts to update Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/run-fix-scripts-update-contract-management-pro.md)**  
+Manually run fix scripts after you have installed the demo data.
 
-To learn more, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-config-cmpro.md) and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-create-contract.md).
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)
+
+**Related topics**  
+
+
+[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-config-cmpro.md)
+
+[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-create-contract.md)
 

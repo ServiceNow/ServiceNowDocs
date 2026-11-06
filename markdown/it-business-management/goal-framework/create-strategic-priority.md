@@ -7,7 +7,7 @@ release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ The strategic priorities are also known as focus areas or long-term strategies.
 
 1.  Create a strategic priority for a strategic plan using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d88937e64">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d93569e64">
 
 Option
 
-</th><th align="left" id="d88937e67">
+</th><th align="left" id="d93569e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88937e73">
+</th></tr></thead><tbody><tr><td id="d93569e73">
 
 **From the Strategic Priorities related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Strategic Priorities related list, click **New**.
 
 
-</td></tr><tr><td id="d88937e106">
+</td></tr><tr><td id="d93569e106">
 
 **From the Strategic Priorities module**
 

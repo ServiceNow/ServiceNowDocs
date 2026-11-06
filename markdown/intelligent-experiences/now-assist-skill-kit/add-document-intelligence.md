@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 1
-breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Add Document Intelligence
@@ -36,7 +36,7 @@ Role required: sn\_skill\_builder.admin
 
 7.  On the form, fill in the fields.
 
-    \[Omitted image "nask-add-doc-intel.png"\] Alt text: Add document intelligence form
+    \[Omitted image "image.nask-add-doc-intel"\] Alt text: Add document intelligence form
 
 <table id="table_f13_fbt_jgc"><thead><tr><th>
 

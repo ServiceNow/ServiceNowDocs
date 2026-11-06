@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning path and course item discovery in Service Operations Workspace, Service Operations Workspace - Learning, Workforce Optimization for ITSM in the Service Operations Workspace, Optimize, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Learning path and course item discovery in Service Operations Workspace, Service Operations Workspace - Learning, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Enroll in Learning to take a learning course or complete a learning path
@@ -28,15 +28,15 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 3.  Select the **Discover** tab.
 
-<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d241523e99">
+<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d419496e99">
 
 To enroll in a course or a path by browsing
 
-</th><th align="left" id="d241523e102">
+</th><th align="left" id="d419496e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d241523e108">
+</th></tr></thead><tbody><tr><td id="d419496e108">
 
 **The full catalog**
 
@@ -51,7 +51,7 @@ Enter a name or a description in the search field.**Note:** You can also narrow 
 -   State—completed, in-progress, or unassigned or not enrolled
 
 
-</td></tr><tr><td id="d241523e137">
+</td></tr><tr><td id="d419496e137">
 
 **Recommended learning**
 

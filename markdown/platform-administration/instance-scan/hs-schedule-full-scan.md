@@ -7,9 +7,9 @@ release: zurich
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Instance Scan, Maintain and monitor, Administer]
+breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Schedule a full scan
@@ -71,6 +71,8 @@ A schedule to trigger a full scan regularly even without an active session is cr
 [Schedule a suite scan]()
 
 [Monitoring a scan]()
+
+[Parallel scans]()
 
 [Reviewing of scans]()
 

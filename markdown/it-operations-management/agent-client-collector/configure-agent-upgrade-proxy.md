@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC upgrade proxy, Package Download Proxies, CDN proxy]
-breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure a download proxy for Agent Client Collector upgrades
@@ -66,4 +66,6 @@ The following configuration tries a corporate proxy first. If the proxy is unava
 ## What to do next
 
 To temporarily block all CDN downloads, clear the **Active** check box on all proxy records. With no active entries, the system blocks CDN downloads. This is useful during maintenance windows.
+
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

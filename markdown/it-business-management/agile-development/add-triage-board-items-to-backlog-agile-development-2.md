@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Triage items and add them to a backlog in Agile Development 2.0
@@ -18,10 +18,7 @@ Review the list of items in your triage board and add them to your Agile Develop
 
 ## Before you begin
 
--   [Activate Agile Development — Unified Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-triage-board.md)
--   [Set up a triage board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/setup-triage-board.md)
-
-Role required: scrum\_product\_owner
+[Set up a triage board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/setup-triage-board.md)Role required: scrum\_product\_owner
 
 ## About this task
 
@@ -54,5 +51,5 @@ An example here shows how an associated story is created for a defect that is ad
 
 \[Omitted image "defect-from-triage-board-to-backlog.png"\] Alt text: Information of the associated story for a defect added to backlog from triage board.
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Fulfill repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfill repair orders manually, Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Cancel a repair order line in the Enterprise Asset Workspace
@@ -43,7 +43,7 @@ Role required: enterprise\_asset
 -   The state of the associated repair asset tasks that were open changes to Closed Incomplete.
 -   The stage of the repair order changes to Cancelled only if there aren't any other repair order lines that are in the Troubleshoot, Repair, Evaluate, or Completed stage.
 
-**Parent Topic:**[Fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
+**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use-cases.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-20"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use cases
@@ -26,8 +26,8 @@ Learn how to set up custom objects and Apex triggers in SFDC to populate the dis
 Learn how to configure an experience where the user must answer the same questions several times so that the user is presented with a rendering of the currently configured solution.
 -   **[Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-case-configuration-line-item-to-quote-line-flow.md)**  
 By making a few adjustments to a flow template includes with the CPQ Extension package version 1.8 or later, you can parse the extended information from a configuration and map it to custom fields without using a QCP script.
--   **[Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md)**  
-In the ServiceNow CPQ Extension for Salesforce CPQ package version 1.7 or earlier, use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields.
+-   **[Integrate configuration data with Quote Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md)**  
+Use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields in version 1.7 or earlier.
 -   **[Use case: Using Apex to call or test ServiceNow CPQ APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use_case_how_to_use_apex_to_calltest_logik_apis.md)**  
 Learn how to use Apex to call or to test ServiceNow CPQ APIs.
 -   **[Use case: Displaying the ServiceNow CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)**  

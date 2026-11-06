@@ -1,5 +1,5 @@
 ---
-title: Require write access to access service catalog add item page \[New in Security Center 1.3\]
+title: Require write access to access service catalog add item page
 description: Use the glide.sc.request.add\_item\_write\_access property to prevent unauthorized operations from being performed on catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-require-write-access-to-access-service-catalog-add-item-page.html
@@ -7,14 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Require write access to access service catalog add item page \[New in Security Center 1.3\]
+# Require write access to access service catalog add item page
 
 Use the **glide.sc.request.add\_item\_write\_access** property to prevent unauthorized operations from being performed on catalog items.
+
+When the **glide.sc.request.add\_item\_write\_access** system property is not set to **true**, any logged in user can access the **Add Catalog Item** UI page. This could result in unauthorized operations performed on catalog items.
+
+Set **glide.sc.request.add\_item\_write\_access** property to **true**.
 
 ## More information
 
@@ -64,6 +68,14 @@ Default value
 
 </td><td>
 
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
 false
 
 </td></tr><tr><td>
@@ -82,7 +94,7 @@ Security risk
 
 -   Severity score: 4.3
 -   CVSS score: Medium
--   Security risk details: When the **glide.sc.request.add\_item\_write\_access** property is set to false, any logged in user can access the Add Catalog Item UI page. This could result in unauthorized operations performed on catalog items. To remediate this security risk, set this property to true.
+-   Security risk details: This creates a risk of unauthorized modifications or additions to catalog items, potentially leading to service disruption, fraudulent requests, or exposure of sensitive data. Misconfigured access controls in catalog management can undermine system integrity.
 
 </td></tr><tr><td>
 

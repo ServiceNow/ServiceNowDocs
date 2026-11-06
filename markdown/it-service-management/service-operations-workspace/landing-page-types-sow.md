@@ -7,16 +7,16 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Access controls in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Access controls in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Types of landing pages in Service Operations Workspace for ITSM
 
 Landing pages provide an agent with quick visibility into the work assigned, announcements, upcoming tasks, and so on.
 
-Following landing pages are available by default for the Service Operations Workspace ITSM Applications \(sn\_sow\_itsm\_cont\) application.
+The following landing pages are available by default for the Service Operations Workspace ITSM Applications \(sn\_sow\_itsm\_cont\) application:
 
 -   Tier 1 landing page
 -   Tier 2 landing page
@@ -26,7 +26,7 @@ Other landing pages are available if you have the corresponding plugins installe
 **Important:**
 
 -   A user's access to the landing page is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. For information about audiences, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-audiences.md).
--   When multiple audiences are available for the landing page, the audience with the least order is considered.
+-   When multiple audiences are available for the landing page, the audience with the lowest order applies.
 
 ## Criteria to access the tier 1 landing page
 

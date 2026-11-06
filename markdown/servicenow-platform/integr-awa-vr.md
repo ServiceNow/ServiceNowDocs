@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/integr-awa-vr.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Integrate Advanced Work Assignment AWA Voice routing
@@ -47,7 +47,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
 6.  Set up AWA queue to route Amazon Connect phone calls.
 
-    To setup AWA, see [Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/implement-awa.md).
+    To setup AWA, see 
 
 
 ## What to do next

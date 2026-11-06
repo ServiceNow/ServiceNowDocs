@@ -1,22 +1,22 @@
 ---
 title: Merge tool
-description: The Diff Merge tool enables you to compare differences between two versions of a record.
+description: The Diff Merge tool enables administrative users to compare differences between two versions of a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/diff-merge-tool.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-10-02"
-reading_time_minutes: 1
-breadcrumb: [Compare to the current version, Working with version records, Team Development, Planning your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Version records, Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Merge tool
 
-The Diff Merge tool enables you to compare differences between two versions of a record.
+The Diff Merge tool enables administrative users to compare differences between two versions of a record.
 
-Administrators can compare field-level changes between two versions, and apply changes using Move Right field-level copy functionality and then merge the results. Administrators can also choose to revert to the non-current version. You can access the Diff Merge tool by comparing versions, resolving conflicts, or resolving collisions, during development or after upgrades.
+Administrators can compare field-level changes between two versions, apply changes using Move Right field-level copy functionality and then merge results, or choose to revert to the non-current version. You can access the Diff Merge tool by comparing versions, resolving conflicts, or resolving collisions, during development or after upgrades.
 
 \[Omitted image "MergeToolComparetoVersion.png"\] Alt text: Diff Merge tool allows you to Compare to Current.
 
@@ -26,14 +26,42 @@ Administrators can compare field-level changes between two versions, and apply c
 
 ## Accessibility Functions
 
-The platform includes accessibility features that support and make the interface accessible to users with disabilities with the use of a screen reader or voice over tool. These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/keyboard-accessibility.md).
+The platform includes accessibility features that support [Web Content Accessibility Guidelines \(WCAG\) 2.0 level A](https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize&levels=aa%2Caaa) and make the interface accessible to users with disabilities. These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/keyboard-accessibility.md).
 
 In general, you can use the following set of standard keyboard navigation functions:
 
 -   Press **Tab** to navigate major groupings in a pre-defined sequence, including moving between standard interface controls \(fields and lists\) in a module, or between records within a tab.
 -   Press **Shift** **Tab** to move backwards in a pre-defined sequence.
 
-To enable accessibility functions, administrators should set the appropriate sys\_properties, see [Team Development system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-system-properties.md).
+Visually impaired users can navigate the Diff Merge tool. Screen readers can read all critical page content. All links and buttons can be reached when a section that is critical must be read. VoiceOver audible cues describe the content of the section that is necessary to read.
 
-**Parent Topic:**[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToCurrentVersion.md)
+To enable accessibility functions, administrators should set these sys\_properties:
+
+1.  Setting **glide.ui.javascript\_editor** to false makes the following functions accessible:
+    -   Script fields \(such as Script Include\).
+    -   Side-by-side script comparison.
+2.  Setting sys\_properties color settings enables high contrast visibility, which makes the left and right columns more accessible and easier to read by visually impaired users.
+    -   **mergetool.bg.left.highlight** - Left column cell color when values differ between versions.
+    -   **mergetool.bg.right.highlight** - Right column cell color when values differ between versions.
+    -   **mergetool.bg.left** - Left column cell color when version values are the same.
+    -   **mergetool.bg.right** - Right column cell color when version values are the same.
+
+**Parent Topic:**[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_VersionRecords.md)
+
+**Related topics**  
+
+
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToCurrentVersion.md)
+
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ComparePushedVerLocalVer.md)
+
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/compare-two-article-versions.md)
+
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-resolve-conflict.md)
+
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md)
+
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_RevertAChange.md)
+
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/view-customer-update-records.md)
 

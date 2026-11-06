@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set property values to configure query processing.
 
 ## Access and Role required
 
-The admin role is required to view and edit Query Builder properties.
+The sn\_cmdb\_admin or the admin role is required to view and edit Query Builder properties.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -82,6 +82,7 @@ Batch size allocated globally when saved queries run.
  -   Type: integer
 -   Default value: 100
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Learn more: [Batch size for CMDB Query Builder queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md)
 
 </td></tr><tr><td>
 
@@ -89,13 +90,15 @@ glide.cmdb.query.execution\_mode
 
 </td><td>
 
-Default execution engine to use when running a saved query when the query's execution mode isn't set \(Query Execution Mode is 'None'\). Used in combination with the **glide.cmdb.query.or\_execution\_mode** system property.
+Default execution engine to use when running a saved query when the query's execution mode isn't set \(Query Execution Mode is 'None'\).
+
+ Used in combination with other settings to determine which engine execution mode to use for running a query.
 
  -   Type: string
 -   Values:
-    -   v1: Use the legacy query execution engine.
-    -   v2: Use an enhanced query execution engine which is designed for improved performance and scalability.
--   Default value: v2
+    -   V1: Use the legacy query execution engine.
+    -   V2: Use an enhanced query execution engine which is designed for improved performance and scalability.
+-   Default value: V2
 -   Location: System Properties \[sys\_properties\] table.
 -   Learn more: [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)
 
@@ -105,13 +108,15 @@ glide.cmdb.query.or\_execution\_mode
 
 </td><td>
 
-Default execution engine to use, applying only to queries that contain at least one logical OR condition. Used in combination of the **glide.cmdb.query.execution\_mode** system property.
+Default execution engine to use for queries that contain at least one logical OR operator. This property also affects which output format to use, which is distinctively different between the V1 and V2 modes.
+
+ This property is used in combination with other settings to determine which engine execution mode to use for running a query, and has precedence over the **glide.cmdb.query.execution\_mode** system property.
 
  -   Type: string
 -   Values:
-    -   v1: Use the legacy query execution engine.
-    -   v2: Use an enhanced query execution engine which is designed for improved performance and scalability.
--   Default value: v2
+    -   V1: Use the legacy query execution engine.
+    -   V2: Use an enhanced query execution engine which is designed for improved performance and scalability.
+-   Default value: V2
 -   Location: System Properties \[sys\_properties\] table.
 -   Learn more: [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)
 

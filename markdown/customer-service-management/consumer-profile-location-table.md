@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/consumer-profile-location-table.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Creating multiple consumer profiles for a user, Configure consumers
 The Consumer Profile Location \[sn\_csm\_consumer\_profile\_location\] table stores the relationship between the consumer profiles and locations.
 
 Starting with the Vancouver release, the Consumer Profile Location \[sn\_csm\_consumer\_profile\_location\] table was introduced. By using this table, you can enhance your consumer profiles to support multiple addresses. Adding this functionality enables the relationship between the consumer profiles and locations, which enables various industries to manage multiple addresses for the individual profiles.
+
+If you are a user with one of the sn\_crm\_foundation\_admin, sn\_crm\_foundation\_data\_manager, sn\_crm\_consumer\_relationship\_data\_manager, or sn\_crm\_consumer\_data\_manager roles, you can create, update, view, and delete the relationship between the consumer profiles and locations in the Consumer Profile Location table. If you are a user with one of the sn\_crm\_consumer\_viewer, sn\_crm\_household\_viewer, or sn\_crm\_foundation\_data\_viewer roles, you can view the records in the Consumer Profile Location table.
 
 <table id="table_k51_hpt_zxb"><thead><tr><th>
 

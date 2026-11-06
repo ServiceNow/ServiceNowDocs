@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,6 +37,8 @@ Role required: catalog\_admin, catalog\_builder\_editor
 3.  Transfer the completed update sets from the source instance to the target instance.
 
     For more information, see [Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/update-set-transfers.md).
+
+    **Note:** If you want to set the prefix of update sets, use the **glide.sc.cb.item.update\_set\_prefix** property. The property defines the naming format for catalog item update sets. You can use a static name or optionally include the following variables: $\{template\_name\}, $\{item\_name\}, and $\{timestamp\}. Format example: CatalogItem\_$\{item\_name\}\_$\{timestamp\} Default value: CB\_$\{template\_name\}\_$\{item\_name\}\_$\{timestamp\}
 
 
 **Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)

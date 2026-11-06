@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -67,7 +67,7 @@ The following terms are key in CMDB:
 
     Class who's CIs are included in various CI list views. A Principal Class designation is used to restrict the list of CIs in list views across CMDB features, to only specific classes that you need.
 
-    For more information, see [Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
+    For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 -   **Related table**
 
@@ -154,7 +154,7 @@ The following terms are for essential features and tools that CMDB provides, som
 
     Store app that adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can use the added classes as any other CMDB class in the base system. Applications such as Discovery and Service Mapping can use these class extensions to populate CIs and discover various technologies and software.
 
-    For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+    For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
 -   **CSDM and the CMDB Data Foundations Dashboards**
 

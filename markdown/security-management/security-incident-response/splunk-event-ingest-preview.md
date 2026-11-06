@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an event profile, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -56,15 +56,15 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 7.  After you have fixed any errors and verified that the fields are the way you want them, choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d307516e213">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d310728e213">
 
 Option
 
-</th><th align="left" id="d307516e216">
+</th><th align="left" id="d310728e216">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d307516e222">
+</th></tr></thead><tbody><tr><td id="d310728e222">
 
 **Continue**
 
@@ -72,7 +72,7 @@ Description
 
 The Scheduling form is displayed for profiles with scheduled alerts. **Scheduling** is selected on the progress bar.
 
-</td></tr><tr><td id="d307516e236">
+</td></tr><tr><td id="d310728e236">
 
 **Finish**
 
@@ -80,7 +80,7 @@ The Scheduling form is displayed for profiles with scheduled alerts. **Schedulin
 
 For profiles with configured for manual event forwarding, click **Finish**. There is no scheduling step for profiles with event data that are exported on-demand directly from the Splunk Enterprise console.
 
-</td></tr><tr><td id="d307516e251">
+</td></tr><tr><td id="d310728e251">
 
 **Update**
 
@@ -88,7 +88,7 @@ For profiles with configured for manual event forwarding, click **Finish**. Ther
 
 Your data is saved, and you are returned to the Splunk Event Profiles list.
 
-</td></tr><tr><td id="d307516e263">
+</td></tr><tr><td id="d310728e263">
 
 **Previous**
 
@@ -96,7 +96,7 @@ Your data is saved, and you are returned to the Splunk Event Profiles list.
 
 The Mapping step on the progress bar is displayed.
 
-</td></tr><tr><td id="d307516e273">
+</td></tr><tr><td id="d310728e273">
 
 **Delete**
 

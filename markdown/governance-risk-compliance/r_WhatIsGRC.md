@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/r\_WhatIsGRC.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 ---
 
 # Governance, Risk, and Compliance
@@ -21,55 +21,55 @@ Respond to business risks in real time. Connect security and IT with an integrat
 
 </td><td>
 
-[Audit Management \[Omitted image "bus-audit-management.svg"\] Alt text:Use risk data to scope and prioritize audit plans and automate cross-functional processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_GRCAudits.md)
+[Audit Management \[Omitted image "app-audit-mgt.svg"\] Alt text:Use risk data to scope and prioritize audit plans and automate cross-functional processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_GRCAudits.md)
 
 </td><td>
 
-[Business Continuity Management \[Omitted image "bus-business-management.svg"\] Alt text:Plan, exercise, and recover from disasters effectively and efficiently.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/business-continuity-mangmt-overview.md)
+[Business Continuity Management \[Omitted image "app-bcm.svg"\] Alt text:Plan, exercise, and recover from disasters effectively and efficiently.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/business-continuity-mangmt-overview.md)
 
 </td></tr><tr><td>
 
-[Compliance Case Management \[Omitted image "bus-learn.svg"\] Alt text:Report, investigate, analyze, and resolve compliance cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
+[Compliance Case Management \[Omitted image "app-ccm.svg"\] Alt text:Report, investigate, analyze, and resolve compliance cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
 
 </td><td>
 
-[Continuous Authorization and Monitoring \[Omitted image "bus-risk-management.svg"\] Alt text:Accelerate the process of bringing IT systems online and continuously monitoring them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md)
+[Continuous Authorization and Monitoring \[Omitted image "app-cam.svg"\] Alt text:Accelerate the process of bringing IT systems online and continuously monitoring them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md)
 
 </td><td>
 
-[Model Risk Management\[Omitted image "mrm-product-icon.png"\]Learn how you can use the Model Risk Management application to identify, assess, validate, and address risks associated with a model throughout their life-cycle.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/model-risk-management.md)
+[Operational Resilience \[Omitted image "app-op-res.svg"\] Alt text:Gain real-time visibility into the resilience of your technology, people, processes, and facilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-opres-landing-page.md)
 
 </td></tr><tr><td>
 
-[Operational Resilience \[Omitted image "bus-problem-benefit.svg"\] Alt text:Gain real-time visibility into the resilience of your technology, people, processes, and facilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-opres-landing-page.md)
+[Policy and Compliance Management \[Omitted image "app-policy-compliance-mgt.svg"\] Alt text:Automate and manage policy life-cycles and continuously monitor for compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
 
 </td><td>
 
-[Policy and Compliance Management \[Omitted image "bus-compliance.svg"\] Alt text:Automate and manage policy life-cycles and continuously monitor for compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
+[Privacy Management \[Omitted image "app-privacy-mgt.svg"\] Alt text:Manage privacy risk and compliance across the enterprise in real time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-management.md)
 
 </td><td>
 
-[Privacy Management \[Omitted image "bus-observable.svg"\] Alt text:Manage privacy risk and compliance across the enterprise in real time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-management.md)
+[Regulatory Change Management \[Omitted image "app-rcm.svg"\] Alt text:Keep pace with today's complex regulatory landscape with integration to leading content providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
 
 </td></tr><tr><td>
 
-[Regulatory Change Management \[Omitted image "bus-employee-document-management.svg"\] Alt text:Keep pace with today's complex regulatory landscape with integration to leading content providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
+[Risk Management\[Omitted image "app-risk-mgt.svg"\] Alt text: Enable fine-grained business impact analysis to appropriately prioritize and respond to risks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-risk-overview.md)
 
 </td><td>
 
-[Risk Management\[Omitted image "bus-incident.svg"\] Alt text:Enable fine-grained business impact analysis to appropriately prioritize and respond to risks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-risk-overview.md)
+[Smart Assessment Engine\[Omitted image "app-sae.svg"\] Alt text:Reduce the manual burden and costs of your risk assessment processes through automation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md)
 
 </td><td>
 
-[Smart Assessment Engine\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Reduce the manual burden and costs of your risk assessment processes through automation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md)
+[Third-party Risk Management \[Omitted image "app-tprm.svg"\] Alt text:Continuously monitor, detect, assess, mitigate, and remediate risks in third-party ecosystems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/third-party-risk-mgt-landing-page.md)
 
 </td></tr><tr><td>
 
-[Third-party Risk Management \[Omitted image "bus-handshake.svg"\] Alt text:Continuously monitor, detect, assess, mitigate, and remediate risks in third-party ecosystems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/third-party-risk-mgt-landing-page.md)
+Common GRC features[\[Omitted image "app-grc-core.svg"\] Alt text:Leverage the power of entities, 360 degree views, the tasks landing page, and security features across GRC products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 
 </td><td>
 
-Common GRC features[\[Omitted image "bus-sdlc.svg"\] Alt text:Leverage the power of entities, 360 degree views, the tasks landing page, and security features across GRC products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+ 
 
 </td><td>
 
@@ -78,7 +78,7 @@ Common GRC features[\[Omitted image "bus-sdlc.svg"\] Alt text:Leverage the power
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Respond to business risks in real time with ServiceNow GRC
 
@@ -195,7 +195,6 @@ By aligning Vendor Risk Management with overall enterprise risk management prior
 -   [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/business-continuity-mangmt-overview.md)
 -   [Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
 -   [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md)
--   [Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/model-risk-management/model-risk-management.md)
 -   [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-opres-landing-page.md)
 -   [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
 -   [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-management.md)

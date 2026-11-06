@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/executive-dashboard-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Platform Analytics]
 ---
 
 # Executive dashboard overview
@@ -28,7 +28,7 @@ Executive dashboards provide top-level overviews of your operations from the C-S
 
 -   **[Chief Risk Officer \(CRO\) Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/cro-dashboard.md)**
 
-    The Chief Risk Officer Dashboard provides a single pane glass view of end-to-end Governance, Risk, and Compliance.
+    The Chief Risk Officer Dashboard provides a single pane of glass view of end-to-end Governance, Risk, and Compliance.
 
 -   **[General Counsel \(GC\) Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/gc-dashboard.md)**
 

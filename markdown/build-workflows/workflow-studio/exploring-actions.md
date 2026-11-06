@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Exploring actions
@@ -58,9 +58,4 @@ Using Workflow Studio, you can:
 |Use data from other automated operations as inputs.|Action|Application developer, integration owner, or process owner|
 |Pass data to other automated operations as outputs.|Action|Application developer, integration owner, or process owner|
 |Stream data in a sequence of pages.|Data Stream Action|Integration owner|
-
--   **[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/conversational-actions.md)**  
-Run a Workflow Studio action from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio.
-
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegating roles, Managing roles, User admin, Configure core features, Administer]
+breadcrumb: [Delegating roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Assign roles as a role delegator

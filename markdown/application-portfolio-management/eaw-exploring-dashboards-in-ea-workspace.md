@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring dashboards in Enterprise Architecture Workspace
@@ -34,7 +34,9 @@ The Application 360 dashboard performs as a reporting tool and uses Performance 
 **Related topics**  
 
 
-[View application performance in Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-insights-ea-dashboard.md)
+
+[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
 
 [Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
 

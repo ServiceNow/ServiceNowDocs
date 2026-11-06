@@ -1,5 +1,5 @@
 ---
-title: Configure team data in Manager Hub
+title: Configure team data
 description: Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu in in Employee Center. Team data configurations are required to support column configurations and filter configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-team-data.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure team data in Manager Hub
+# Configure team data
 
 Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu in in Employee Center. Team data configurations are required to support column configurations and filter configurations.
 
@@ -119,23 +119,21 @@ Option to add a script to retrieve the preferred records. This option allows you
 
 [RCA approvals for Manager Hub]()
 
-[Activate a scheduled job in Manager Hub]()
+[Activate a scheduled job]()
 
-[Configure important dates in Manager Hub]()
+[Configure important dates]()
 
-[Configure manager insights for ServiceNow Otto for HRSD]()
+[Configure team requests]()
 
-[Configure team requests in Manager Hub]()
+[Configure team column data]()
 
-[Configure team column data in Manager Hub]()
-
-[Configure team filters in Manager Hub]()
+[Configure team filters]()
 
 [Set up View as Direct Reports]()
 
-[Configure daily stats in Manager Hub]()
+[Configure daily stats]()
 
-[Configure to do mappings in Manager Hub]()
+[Configure to do mappings]()
 
-[Configure widgets in Manager Hub]()
+[Configure widgets]()
 

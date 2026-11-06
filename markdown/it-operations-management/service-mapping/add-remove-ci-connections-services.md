@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -50,6 +50,8 @@ If discovery based on Predictive Intelligence is enabled, Service Mapping automa
     Alternatively, right-click a CI for which you want to see connection suggestions and select **Show connection suggestions**.
 
 4.  Review the suggestion details paying attention to the parameters covered in the Connections Suggestions list.
+
+    See [Connection Suggestions list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/connection-suggestions-list.md).
 
 5.  If you haven't discovered application CIs, discover a standalone CI of the application class based on fingerprints:
 

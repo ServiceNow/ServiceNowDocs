@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Microsoft Word add-in for ServiceNow Contracts, Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: admin
 
 4.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d331856e100">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d337056e100">
 
 System
 
-</th><th align="left" id="d331856e103">
+</th><th align="left" id="d337056e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d331856e109">
+</th></tr></thead><tbody><tr><td id="d337056e109">
 
 **macOS**
 
@@ -52,7 +52,7 @@ Steps
 6.  Navigate to the menu **Home**.
 
 
-</td></tr><tr><td id="d331856e162">
+</td></tr><tr><td id="d337056e162">
 
 **Windows**
 
@@ -66,7 +66,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d331856e219">
+</td></tr><tr><td id="d337056e219">
 
 **Microsoft Word Online**
 

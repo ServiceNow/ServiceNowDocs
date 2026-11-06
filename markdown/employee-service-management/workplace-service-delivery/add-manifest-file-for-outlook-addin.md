@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
@@ -72,7 +72,7 @@ IconUrl
 
 </td><td>
 
-Link to the icon image. The icon is installed along with the application for the add-in. If you are setting your own icon, ensure that you specify a url linking to the icon. The following icon formats are supported:-   16x16
+Link to the icon image. A Youmoji icon is installed along with the application for the add-in. If you are setting your own icon, ensure that you specify a url linking to the icon. The following icon formats are supported:-   16x16
 -   32x32
 -   64x64
 -   80x80

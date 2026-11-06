@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add or update a tag value for an AI Service tag category

@@ -17,7 +17,7 @@ Approve automatically generated Restricted Caller Access \(RCA\) records to enab
 
 ## Before you begin
 
-You must have administrator access to the protected scope where you want to enable Query Generation data access.
+You must have administrator access to the protected scope where you want to enable Query Generation and AI Data Explorer data access.
 
 The necessary ACLs for the protected scope must be created and active.
 
@@ -25,29 +25,31 @@ Role required: admin or scope-specific administrator role
 
 ## About this task
 
-When Query Generation attempts to fetch data from protected scope tables through API calls, the system automatically creates Restricted Caller Access \(RCA\) records. These records must be approved by administrators to enable data access. RCA records are created on a per-table basis and must be approved for each table that Query Generation needs to access.
+When Query Generation and AI Data Explorer attempt to fetch data from protected scope tables through API calls, the system automatically creates Restricted Caller Access \(RCA\) records. These records must be approved by administrators to enable data access. RCA records are created on a per-table basis and must be approved for each table that Query Generation or AI Data Explorer needs to access.
 
 ## Procedure
 
-1.  Use AI Data Explorer or Query Generation with a table in the protected scope to trigger RCA record creation.
+1.  Ask AI Data Explorer a question about a table in the protected scope to trigger RCA record creation.
 
-    You can add a table to AI Data Explorer or ask Query Generation a question about data in the protected scope. This action creates the necessary RCA records automatically.
+    You might have to add the table to the semantic data layer.
 
     The system creates RCA records for the scripted REST resource and generative AI validator operations needed to access the table data.
 
 2.  Navigate to **System Security** &gt; **Restricted Caller Access**.
 
-3.  Filter the records to show only those related to Query Generation.
+3.  Filter the records to show only those with the Query Generation or AI Data Explorer source scopes.
 
-    Look for records that reference Query Generation operations or the specific table you want to access.
+    Alternatively, filter on the target being the specific table that you want to access.
+
+    When the source table is the script include that is included with AI Data Explorer, the source scope is also AI Data Explorer. Otherwise, Query Generation is the source scope.
 
 4.  Review each RCA record.
 
     Each record shows the source scope, target scope, and the specific operation that requires access. Confirm that these operations align with your intended use of AI Data Explorer and Query Generation.
 
-5.  Set the **State** field to **Allowed** for each approved RCA record.
+5.  Set the **Status** field to **Allowed** for each approved RCA record.
 
-    Query Generation can now access the specified table data through API calls for the approved operations.
+    Query Generation or AI Data Explorer can now access the specified table data through API calls for the approved operations.
 
 6.  Create RCA records manually for additional tables.
 
@@ -58,7 +60,7 @@ When Query Generation attempts to fetch data from protected scope tables through
 
 Query Generation can now fetch data from the approved tables in the protected scope. Users can successfully add tables to AI Data Explorer and ask questions about the data without encountering access errors.
 
-If you encounter error messages such as "Error accessing table data" or "Scope access not granted," check that the ACLs and RCA records are properly configured and approved. Each table requires its own set of approved RCA records.
+If you encounter error messages such as "Error accessing table data" or "Scope access not granted," verify that the ACLs and RCA records are properly configured and approved. Each table requires its own set of approved RCA records.
 
 If RCA records are not being created automatically, confirm that the ACLs are active and that users have the necessary permissions to trigger the Query Generation operations.
 

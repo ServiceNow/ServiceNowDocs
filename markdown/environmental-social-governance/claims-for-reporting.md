@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/claims-for-reporting.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -16,11 +16,11 @@ Claims for reporting are narrative statements or data points that organizations 
 
 ## Using claims
 
-Claims for reporting allows organizations to create, manage, and track narrative statements \(claims\) used in ESG Management reporting and disclosures. A claim could be any assertion a company makes about its achievements, commitments, events, or activities. For example, a statement like “25 employees from ACME Inc. attended the UN conference on sustainability in New York on January 21, 2026” would constitute a claim. These claims can be used across multiple reports and help provide credibility and specificity to disclosures by clearly detailing actions or accomplishments. It serves as a centralized repository for narratives that can be reused in annual reports or sustainability disclosures.
+Claims for reporting allows organizations to create, manage, and track narrative statements \(claims\) used in Operational Sustainability Management reporting and disclosures. A claim could be any assertion a company makes about its achievements, commitments, events, or activities. For example, a statement like “25 employees from ACME Inc. attended the UN conference on sustainability in New York on January 21, 2026” would constitute a claim. These claims can be used across multiple reports and help provide credibility and specificity to disclosures by clearly detailing actions or accomplishments. It serves as a centralized repository for narratives that can be reused in annual reports or sustainability disclosures.
 
 ## Benefits of claims for reporting
 
-Claims for reporting in ESG Management offers numerous benefits, enabling structured and efficient way to manage the factual narratives for disclosures.
+Claims for reporting in Operational Sustainability Management offers numerous benefits, enabling structured and efficient way to manage the factual narratives for disclosures.
 
 -   Streamline reporting through reusable claims, reducing redundancy and increasing efficiency.
 -   Improve accuracy and consistency by centrally tracking and approving claims for uniform use across disclosures.

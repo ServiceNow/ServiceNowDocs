@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time sheets, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Time sheets, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Add a time card to log your work time
@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d110980e85">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d121383e85">
 
 Time card type
 
-</th><th align="left" id="d110980e88">
+</th><th align="left" id="d121383e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d110980e94">
+</th></tr></thead><tbody><tr><td id="d121383e94">
 
 **Copy from previous time sheet**
 
@@ -46,7 +46,7 @@ Action
 
 Tap **Copy** from a previous time sheet.
 
-</td></tr><tr><td id="d110980e109">
+</td></tr><tr><td id="d121383e109">
 
 **Add assigned task**
 
@@ -57,7 +57,7 @@ Tap **Copy** from a previous time sheet.
 3.  Tap **Add**.
 
 
-</td></tr><tr><td id="d110980e136">
+</td></tr><tr><td id="d121383e136">
 
 **Add unassigned task**
 
@@ -67,7 +67,7 @@ Tap **Copy** from a previous time sheet.
 2.  Tap **Add**.
 
 
-</td></tr><tr><td id="d110980e157">
+</td></tr><tr><td id="d121383e157">
 
 **Add from category**
 

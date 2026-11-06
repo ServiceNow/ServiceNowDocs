@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Contact Center as a Service \(CCaaS\), Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---

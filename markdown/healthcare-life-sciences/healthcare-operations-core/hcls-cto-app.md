@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -32,7 +32,7 @@ Healthcare Operations Core provides the foundation to enable hospitals to stream
 
 </td></tr><tr><td>
 
-
+[Use\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Create support requests by chat or by phone with ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-otto-create-requests.md)
 
 </td><td>
 

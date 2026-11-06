@@ -7,7 +7,7 @@ release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create targets for a goal, Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_gf.goal\_useror sn\_gf.goal\_admin
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d259062e61">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d279225e61">
 
 Option
 
-</th><th align="left" id="d259062e64">
+</th><th align="left" id="d279225e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d259062e70">
+</th></tr></thead><tbody><tr><td id="d279225e70">
 
 **From the Targets related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d259062e103">
+</td></tr><tr><td id="d279225e103">
 
 **From the Targets module**
 

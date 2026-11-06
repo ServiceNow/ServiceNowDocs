@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/request-order-changes-now-assist.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-04"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, ServiceNow Otto for Order Management]
+breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Request order changes using ServiceNow Otto Virtual Agent
@@ -84,10 +84,5 @@ When you submit a request through the Virtual Agent, the AI agent performs the f
     If you reject the quote, the AI agent offers to connect you to a live agent and the order case remains in progress.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
-
-**Related topics**  
-
-
-[Configure ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-case-self-service.md)
 

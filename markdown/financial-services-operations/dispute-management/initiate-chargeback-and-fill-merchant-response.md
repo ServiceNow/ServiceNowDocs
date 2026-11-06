@@ -7,9 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration workflow, Chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Initiate chargeback and fill merchant response
@@ -34,17 +34,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+6.  Select the **Initiate chargeback and fill merchant response** task.
 
-7.  Select the **Initiate chargeback and fill merchant response** activity.
+7.  The chargeback reason code and dispute amount is displayed.
 
-8.  The chargeback reason code and dispute amount is displayed.
+8.  Review the details and add any other details.
 
-9.  Review the details and add any other details.
-
-10. Submit the request by selecting **Initiate chargeback**.
+9.  Submit the request by selecting **Initiate chargeback**.
 
 
 ## Result
@@ -56,7 +54,7 @@ The questionnaire data from the **Initiate** stage is sent to Visa. The task is 
 Review the response from the merchant and fill the further details.
 
 1.  After you receive the merchant's response, the **Dispute response** field is set to **Yes** or **No** and the next activity [Review a dispute response and initiate pre-arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.md) is displayed.
-2.  Select **Close task**. The next activity appears based on the selected option.
+2.  Select **Close task**. The next task appears based on the selected option.
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

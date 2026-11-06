@@ -18,7 +18,7 @@ Summarize the case details to help you understand the case context quicker. Thes
 
 Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
-Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the ServiceNow Otto for AI Search for CRM Workspace plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
+Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the ServiceNow Otto for AI Search for Public Sector Workspace plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
 
 ## Skills
 
@@ -60,7 +60,7 @@ The ServiceNow Otto for PSDS application includes the generative AI skills that 
 
 -   **Fee Waiver AI agent skill**
 
-    Determines the fee breakdown for an information request by working to arrive at a subtotal fee estimate, a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection, and a total fee estimate, with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see [Agentic AI for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/agentic-ai-psds-explore.md).
+    Determines the fee breakdown for an information request by working to arrive at a subtotal fee estimate, a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection, and a total fee estimate, with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see .
 
 
 **Important:**

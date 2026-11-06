@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -54,15 +54,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d146906e232">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d245020e232">
 
 To Attach
 
-</th><th align="left" id="d146906e235">
+</th><th align="left" id="d245020e235">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d146906e241">
+</th></tr></thead><tbody><tr><td id="d245020e241">
 
 **The __CARD\_CLICKED__ event**
 
@@ -74,7 +74,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d146906e288">
+</td></tr><tr><td id="d245020e288">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 

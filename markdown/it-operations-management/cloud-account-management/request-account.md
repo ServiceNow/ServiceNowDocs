@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,22 +24,18 @@ Role required: sn\_itom\_cam.cw\_requester
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace**.
+1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Manage and Configure** &gt; **Requests** &gt; **All requests**.
 
-2.  From the home page, select **Request**.
+2.  Select **Create new request**.
 
 3.  On the Request new cloud account form, fill in the fields.
 
     For a description of the field values, see [New cloud account request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/account-creation-details.md).
 
-    **Note:** For information about how to create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configuring-catalog-ids-in-cam-account-request.md).
+    **Note:** To create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configuring-catalog-ids-in-cam-account-request.md).
 
-4.  Request a GovCloud cloud account by selecting the **This is a GovCloud account** check box.
+4.  Select **Submit**.
 
-    This action adds additional fields on the new cloud account request form for entering your GovCloud organization details.
 
-    **Note:** GovCloud account creation is supported only for the AWS cloud provider.
-
-5.  Select **Submit**.
-
+**Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/creating-an-account.md)
 

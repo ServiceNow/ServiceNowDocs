@@ -1,20 +1,20 @@
 ---
 title: Create a Knowledge Graph schema
-description: Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto panel.
+description: Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto Panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/creating-a-new-knowledge-graph-schema.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Create a Knowledge Graph schema
 
-Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto® panel.
+Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto Panel.
 
 ## Before you begin
 
@@ -45,7 +45,7 @@ Role required: kg\_admin
 
 5.  Enter or search for the nodes that you want to add to the Knowledge Graph schema and select **Add**.
 
-    \[Omitted image "add-nodes.png"\] Alt text: Add nodes
+    \[Omitted image "add-nodes.png"\] Alt text: Add nodes.
 
     You can search and select the Workflow Data Fabric tables, if integrated.
 
@@ -53,7 +53,7 @@ Role required: kg\_admin
 
 6.  In the navigation pane, add the following details:
 
-    \[Omitted image "kg-canvas.png"\] Alt text: Knowledge Graph canvas
+    \[Omitted image "kg-canvas.png"\] Alt text: Knowledge Graph canvas.
 
 7.  In the Node details section, you can add or edit the following fields.
 
@@ -78,6 +78,6 @@ Role required: kg\_admin
 
 10. Add, delete, or edit edges in the Related nodes section and select **Save**.
 
-    \[Omitted image "related-nodes.png"\] Alt text: Related nodes
+    \[Omitted image "related-nodes.png"\] Alt text: Related nodes.
 
 

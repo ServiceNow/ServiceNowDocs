@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/update-a-self-attestation-record-in-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certifying services using self-attestation, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -26,22 +26,18 @@ Role required: sn\_oper\_res.manager
 
     In the **Assessment** tab, an assessment questionnaire for the services is displayed. As an assessor, you can respond to the questions in the assessment.
 
-3.  To reassign the self-attestation to another assessor, update the **Assessor** field in the **Details** tab.
-
-    **Note:** Reassignment and collaboration are not supported for self-attestation assessments. Any reassignment must be completed before the self-attestation moves to the **Awaiting Attestation** state and can only be performed from the **Assessment Details** tab.
-
-4.  Ensure that all questions are answered and select **Submit**.
+3.  Ensure that all questions are answered and select **Submit**.
 
     When you submit the assessment, your responses are stored in the application and then the state of the self-attestation is updated to **Attestation received**.
 
     When the self-attestation is updated to the **Attestation received** state, the attestation is complete and the **Export to PDF** button is displayed on the form.
 
-5.  To export the self-attestation report to the PDF format, select **Export to PDF**.
+4.  To export the self-attestation report to the PDF format, select **Export to PDF**.
 
     The self-attestation PDF is generated for download and is available in the activity section of the self-attestation record, containing details such as the owner, name, description, template name, and responses to the questions.
 
-6.  To save the self-attestation record, select **Save**.
+5.  To save the self-attestation record, select **Save**.
 
-7.  To close the self-attestation record, select **Close**.
+6.  To close the self-attestation record, select **Close**.
 
 

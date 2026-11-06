@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-sls-pro-claim-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [sales promotion claim, sales promotion claim case, dealer sales agent, incentive claim, manufacturing commercial operations]
 breadcrumb: [Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]

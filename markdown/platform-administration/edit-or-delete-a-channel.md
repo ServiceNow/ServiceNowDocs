@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/edit-or-delete-a-channel.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer]
+breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Edit a delivery channel
@@ -26,7 +26,7 @@ Role required: none
 
 3.  Expand the delivery channel that you want to edit.
 
-4.  Select the more actions icon \[Omitted image "delete\_cn.png"\] Alt text: More actions icon for the channel and select **Edit**.
+4.  Select the more actions icon \[Omitted image "delete\_cn.png"\] Alt text: for the channel and select **Edit**.
 
 5.  Make the changes to the channel name, email address, or schedule.
 

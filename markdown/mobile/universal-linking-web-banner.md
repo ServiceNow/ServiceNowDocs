@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/universal-linking-web-banner.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Supported URLs, Universal linking, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -135,7 +135,7 @@ Mobile screen builder
 
 </td><td>
 
-Use the mobile screen builder script block to define the screen type to build and the data the screen uses. Using one of the provided methods in the script block it creates a list screen, record screen, or browser screen. Each method has its own parameter requirements. You can find specific parameters in the script block comments. For more information, see [GlideRecord](https://developer.servicenow.com/dev.do#!/reference/api/orlando/server/no-namespace/c_GlideRecordScopedAPI) in the .
+Use the mobile screen builder script block to define the screen type to build and the data the screen uses. Using one of the provided methods in the script block it creates a list screen, record screen, or browser screen. Each method has its own parameter requirements. You can find specific parameters in the script block comments. For more information, see [GlideRecord](https://developer.servicenow.com/dev.do#!/reference/api/orlando/server/no-namespace/c_GlideRecordScopedAPI).
 
 </td></tr></tbody>
 </table>    4.  Select **Submit**.

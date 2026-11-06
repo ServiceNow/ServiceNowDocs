@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a custom integration profile
@@ -23,7 +23,7 @@ Before you create a custom integration profile in your ServiceNow instance, set 
 -   If you create an OAuth application, confirm that you enable the appropriate scopes. The app needs scopes to read users, read user activity, and to modify or delete users. These scopes enable the integration to get a list of users, get user activity, and reclaim unused subscriptions. Record the Client ID and Client secret for the OAuth application. You input these values in your ServiceNow instance.
 -   If you create an API token, record the value for the API token. You input this value in your ServiceNow instance.
 
-Role required: sam\_integrator or admin
+Role required: sam\_integrator
 
 ## About this task
 
@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d257565e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d272401e91">
 
 Interface
 
-</th><th align="left" id="d257565e94">
+</th><th align="left" id="d272401e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d257565e100">
+</th></tr></thead><tbody><tr><td id="d272401e100">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d257565e136">
+</td></tr><tr><td id="d272401e136">
 
 **Software Asset Workspace**
 

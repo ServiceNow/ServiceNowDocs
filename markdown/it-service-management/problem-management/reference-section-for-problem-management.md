@@ -7,7 +7,7 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management, IT Service Management]
 ---
@@ -44,8 +44,6 @@ The quick resolution of problems requires gathering as much information as possi
 Change in a Problem record impacts related Incident records. Notification is sent to the user for each such update.
 -   **[Working with contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-with-contextual-search.md)**  
 Contextual search display results on forms and record producers based on the text that you provide in a field.
--   **[Legacy: Problem Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-content-pack.md)**  
-Platform Analytics Solutions and in-form analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
 **Parent Topic:**[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/c_ProblemManagement.md)
 

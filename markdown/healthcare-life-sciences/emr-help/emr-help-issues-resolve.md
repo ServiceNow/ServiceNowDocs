@@ -7,7 +7,7 @@ release: zurich
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resolve EMR Help requests, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

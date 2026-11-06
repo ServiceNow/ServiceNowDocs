@@ -7,9 +7,9 @@ release: zurich
 product: Talent Feedback
 classification: talent-feedback
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Talent Feedback, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Using Employee feedback collection AI agent
@@ -21,7 +21,7 @@ Role required: sn\_mh.manager\_hub\_user
 **Note:**
 
 -   For the Employee feedback collection agent to work, you need to have the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin which will install ServiceNow Otto for Talent Development and AI Agents for Talent
--   To enable Microsoft Graph suggestions you must configure the Microsoft Exchange Online spoke and the Look up Relevant Users action.
+-   To enable Microsoft Graph suggestions you must configure the Microsoft Exchange Online and the Look up Relevant Users action.
 
 <table id="table_qz2_z22_1fc"><thead><tr><th>
 

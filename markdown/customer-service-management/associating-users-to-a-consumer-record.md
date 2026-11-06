@@ -1,11 +1,11 @@
 ---
 title: Creating and associating a Unified Consumer user to a consumer record
-description: Create and associate a Unified Consumer user with a consumer record so that your user can access the Customer Service Portal \(CSP\). This process involves creating a Unified Consumer user through a consumer form and then associating the user to a consumer record.Create a Consumer User through the User lookup list on the consumer form in the Customer Service Management \(CSM\) application.Associate a user with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, the user can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
+description: Create and associate a Unified Consumer user with a consumer record so that your user can access the Customer Service Portal \(CSP\). This process involves creating a Unified Consumer user through a consumer form and then associating the user to a consumer record.Create a Consumer User through the User lookup list on the consumer form.Associate a user with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, you can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associating-users-to-a-consumer-record.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up a user as a Unified Consumer, Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,11 @@ Create and associate a Unified Consumer user with a consumer record so that your
 
 ## Create a Consumer User through a consumer form
 
-Create a Consumer User through the User lookup list on the consumer form in the Customer Service Management \(CSM\) application.
+Create a Consumer User through the User lookup list on the consumer form.
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_crm\_consumer\_data\_manager, sn\_crm\_consumer\_relationship\_data\_manager, sn\_crm\_household\_data\_manager or sn\_crm\_household\_relationship\_data\_manager or sn\_crm\_foundation\_data\_manager, sn\_crm\_foundation\_admin or admin
 
 ### About this task
 
@@ -38,7 +38,7 @@ You can create both the internal \(snc\_internal\) and external \(snc\_external\
 
 4.  On the Users list, select **New**.
 
-    **Note:** If the unified consumer is not configured, the system redirects to the consumer user form. If other user extensions are configured, it redirects to the interceptor, allowing you to select the user type.
+    **Note:** If the unified consumer isn’t configured, the system redirects to the consumer user form. If other user extensions are configured, it redirects to the interceptor, enabling you to select the user type.
 
 5.  On the form, fill in the fields.
 
@@ -53,11 +53,11 @@ Associate an existing user with a consumer record. For more information, see [As
 
 ## Associate an existing user with a consumer record
 
-Associate a user with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, the user can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
+Associate a user with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, you can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_crm\_consumer\_data\_manager, sn\_crm\_consumer\_relationship\_data\_manager, sn\_crm\_household\_data\_manager or sn\_crm\_household\_relationship\_data\_manager or sn\_crm\_foundation\_data\_manager, sn\_crm\_foundation\_admin or admin
 
 ### Procedure
 
@@ -76,5 +76,5 @@ Role required: admin
 
 ### Result
 
-The sys\_user is associated with the consumer record. The user can now access the Consumer Service Portal \(CSP\) as a consumer.
+The sys\_user is associated with the consumer record. You can access the Consumer Service Portal \(CSP\) as a consumer.
 

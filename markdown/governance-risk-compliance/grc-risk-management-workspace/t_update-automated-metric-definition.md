@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Update a metric definition
@@ -30,7 +30,7 @@ You can use the same form for updating the automated metric definition, manual m
 
 2.  Select a metric definition from the list.
 
-3.  On the form, fill in the fields.
+3.  On the form, update the fields as necessary.
 
 <table id="table_trw_s3v_kwb"><thead><tr><th>
 
@@ -129,15 +129,15 @@ Calculated metric data
 Details of the calculated metric data, such as interval end date, roll up frequency, and value. **Note:** This related list is displayed only for the calculated metric definition. It isn’t displayed for the automated metric definition and the manual metric definition.
 
 </td></tr></tbody>
-</table>4.  To save the metric definition, select **Save**.
+</table>4.  To save the metric definition, click **Save**.
 
-5.  To calculate the composite metric data for the composite metric definition, select **Aggregate**.
+5.  To calculate the composite metric data for the composite metric definition, click **Aggregate**.
 
     The **Aggregate** action calculates the composite metric data for the current interval end date and roll-up frequency to its parent metric definition. The composite metric data record is displayed under the Composite metric data related list. A composite metric definition score is created if it doesn’t exist for the current interval.
 
-6.  To delete the metric definition, select **Delete**.
+6.  To delete the metric definition, click **Delete**.
 
-7.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
+7.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
 
 
 **Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)

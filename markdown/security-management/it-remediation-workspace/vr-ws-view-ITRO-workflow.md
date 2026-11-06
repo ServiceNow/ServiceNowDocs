@@ -7,9 +7,9 @@ release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Exploring the IT Remediation Workspace, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
 
 # View a workflow example in the IT Remediation Workspace

@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development, Strategic Portfolio Management]
 ---
 
 # Mobile experience for Agile Development 2.0
@@ -24,4 +24,13 @@ With the Agile Development v2 mobile app, you track sprints for the assignment g
 -   Add work notes and attachments to a story or scrum task.
 -   Collaborate with other stakeholders on a story or scrum task.
 -   Receive mobile notifications when notes are added to your story or scrum task.
+
+-   **[Get started with Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/get-started-agile-2-mobile.md)**  
+Access the Agile Development mobile app to track your sprints, stories, and tasks.
+-   **[Managing stories on Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/manage-stories-agile-dev-mobile.md)**  
+View, edit, and update the details of stories assigned for the current sprint on your mobile device.
+-   **[Managing scrum tasks on Agile Development v2 mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/manage-scrum-tasks-agile-mobile.md)**  
+View, edit, and update the details of scrum tasks that were created for the stories of the current sprint on your mobile device.
+
+**Parent Topic:**[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-development.md)
 

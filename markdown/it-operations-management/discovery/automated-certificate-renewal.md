@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -20,9 +20,11 @@ Expired certificates are a serious problem for organizations.
 
 Many organizations face unexpected outages due to their Transport Layer Security \(TLS\) certificates expiring without their knowledge.
 
-Manually tracking your digital TLS certificates is a time consuming and tedious job that can cause certificates to expire unnoticed. Overlooking expiring certificates renders sites unsecure and dangerous to users.
+Manually tracking your digital TLS certificates is a time consuming, tedious job that can cause certificates to expire unnoticed. Overlooking expiring certificates renders sites insecure and dangerous to users.
 
 Automatic certificate renewal agents let you find certificates approaching expiration and automatically renew them before they expire.
 
-You can also set a certificate to renew automatically after requesting a new certificate.
+You can also set a certificate to renew automatically when requesting a new certificate.
+
+Certificate Inventory and Management supports HashiCorp, Azure KeyVault, and CyberArk PVWA for external private key storage.
 

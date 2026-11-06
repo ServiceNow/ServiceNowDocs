@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -63,7 +63,7 @@ Lists any attestation tasks assigned to you or to an assignment group that you b
 
 This card shows records from the CMDB Data Management Task \[cmdb\_data\_management\_task\] table, in which **policy.cmdb\_policy\_type** = **Attestation** \(in addition to other filters\).
 
-Review and process these attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks. For information about reviewing and processing attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
+Review and process these attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks. For information about reviewing and processing attestation tasks, see [Review attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md).
 
 ## Life-cycle tasks
 

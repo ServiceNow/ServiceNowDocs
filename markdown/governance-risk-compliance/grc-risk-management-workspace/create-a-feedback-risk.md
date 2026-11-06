@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---

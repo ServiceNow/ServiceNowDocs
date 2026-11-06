@@ -7,7 +7,7 @@ release: zurich
 product: Callback over Zoom
 classification: callback-over-zoom
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zoom extension for Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ You can install the Zoom extension for Omnichannel Callback application \(com.sn
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Zoom Extension for Omnichannel Callback](https://store.servicenow.com/sn_appstore_store.do#!/store/application/d2e4eb3843321110cb03ebdffab8f29c) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -30,7 +30,7 @@ The following items are installed with Zoom extension for Omnichannel Callback:
 -   Script includes
 -   Business rules
 
-For more information, see [Components installed with Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.md).
+For a complete list of components installed with Zoom extension for Omnichannel Callback, see [Components installed with Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.md).
 
 ## Procedure
 
@@ -38,9 +38,9 @@ For more information, see [Components installed with Zoom extension for Omnichan
 
 2.  Find the Zoom extension for Omnichannel Callback application \(com.sn.zoom.callback\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you are displayed.
+    The versions available to you appear in the list next to the **Install** button.
 
 3.  Select a version from the list and select **Install**.
 

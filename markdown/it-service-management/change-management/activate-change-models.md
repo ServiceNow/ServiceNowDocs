@@ -1,20 +1,20 @@
 ---
 title: Activate Change Management - Change Models
-description: You can activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) with the admin role. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/activate-change-models.html
 release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Change Models
 
-You can activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) with the admin role. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -40,7 +40,7 @@ Role required: admin
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -60,11 +60,11 @@ Role required: admin
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -72,13 +72,13 @@ Role required: admin
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
 [Activate Change Management - Change Velocity dashboard]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

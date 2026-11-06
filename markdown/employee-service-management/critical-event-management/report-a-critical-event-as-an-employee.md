@@ -7,9 +7,9 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report critival events, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Report a critical event as an employee

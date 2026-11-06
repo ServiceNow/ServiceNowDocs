@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ CSD 2.0 also integrates with Software Asset Management \(SAM Professional or SAM
 
 **Note:** CSD 2.0 is different from [Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-integrationhub.md). CSD 2.0 is available on ServiceNow Store.
 
-
+\[Omitted image "CSDProcess.png"\] Alt text: CSD 2.0 process flow
 
 **Note:** To integrate CSD 2.0 with SAM, navigate to **Client Software Distribution 2.0** &gt; **Properties** and select the check box for **Determines whether to use SAM plugin\(SAM Foundation or SAM Professional\) tables for managing software models and licensing information**.\[Omitted image "CSD2-props.png"\] Alt text: Option to integrated with SAM.
 

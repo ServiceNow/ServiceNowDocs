@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Building flows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Inline scripts

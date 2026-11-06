@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/ctwm-op-healthcare-orc-tasks.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Operational rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Input Orchestration task details into the Operational Rounding playbook

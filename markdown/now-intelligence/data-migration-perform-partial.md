@@ -1,11 +1,11 @@
 ---
 title: Perform a partial migration of dashboards
-description: Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have many dashboards and want to migrate in segments.
+description: Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have a large number of dashboards and want to migrate in segments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-perform-partial.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to migrate a few dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -13,7 +13,7 @@ breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience,
 
 # Perform a partial migration of dashboards
 
-Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have many dashboards and want to migrate in segments.
+Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have a large number of dashboards and want to migrate in segments.
 
 ## Before you begin
 
@@ -23,7 +23,9 @@ Role required: dashboard\_admin or higher
 
 Run and test the migration first on a single, non-production instance. After you’re satisfied with the results, launch the migration on the production instance.
 
-**Note:** You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+**Note:**
+
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
 
 If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
@@ -34,6 +36,8 @@ You cannot move the migrated artifacts from a non-production instance to a produ
 If you delete a migrated dashboard, that dashboard isn’t migrated if full migration is performed on your instance. You can migrate it again using the steps in this topic. If you want to remigrate a Core UI dashboard, be sure to delete the existing migrated dashboard to avoid duplicating dashboard content.
 
 The migrated dashboard appears in the Platform Analytics library. Links to the original Core UI dashboard redirect to the library as well.
+
+Reports associated with chart to chart drilldown in migrated dashboards are saved to the Visualization Library.
 
 ## Procedure
 

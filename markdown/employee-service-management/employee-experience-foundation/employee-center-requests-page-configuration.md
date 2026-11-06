@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee requests page
@@ -21,8 +21,6 @@ The requests page is where employees can view all their requests on a single pag
 The requests page displays all of an employee's requests. The following GIF shows an example of an employee viewing and opening requests on the requests page.
 
 **Note:** Leverage the Enhanced Requests Experience to get more flexibility of configuration and requests management on Employee Center. For more information, see [Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/my-requests-update-intro.md).
-
-\[Omitted image "request-gif.gif"\] Alt text: Using request page
 
 ## Configuring the requests page
 

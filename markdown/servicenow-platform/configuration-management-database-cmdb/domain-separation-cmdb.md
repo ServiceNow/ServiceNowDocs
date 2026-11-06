@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,15 +23,17 @@ Domain separation is supported in the CMDB. Domain separation enables you to sep
 -   Business logic: The service provider \(SP\) creates or modifies processes per customer. The use cases reflect proper use of the application by multiple SP customers in a single instance.
 -   The instance owner must configure the minimum viable product \(MVP\) business logic and data parameters per tenant as expected for the specific application.
 
-Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
+Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
+
+## Overview of domain separation in CMDB
 
 The following topics provide details about domain separation in Configuration Management \(CMDB\) modules:
 
 -   [Domain separation in CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-health-domain-separation.md)
 -   [Domain separation and CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-groups-query-builder.md)
--   [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)
+-   [Domain separation and CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)
 -   [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)
 -   [CMDB APIs \(CMDB SDK\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-APIs.md)
 

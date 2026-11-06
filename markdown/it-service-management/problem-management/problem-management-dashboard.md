@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legacy: Problem Management Platform Analytics Solutions, Reference, Problem Management, IT Service Management]
+breadcrumb: [Legacy: Problem Management Platform Analytics Solutions, Problem Management, IT Service Management]
 ---
 
 # Legacy: Problem Management dashboard
@@ -73,6 +73,4 @@ The following indicators are not shown directly on the dashboard but are used in
 ## Breakdowns
 
 Priority.
-
-**Parent Topic:**[Legacy: Problem Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-content-pack.md)
 

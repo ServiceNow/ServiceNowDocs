@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/r\_ITBusinessManagement.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 ---
 
 # Strategic Portfolio Management
@@ -47,6 +47,22 @@ Strategically align work with business goals to deliver products and services. S
 
 [SPM custom tables\[Omitted image "bus-sdlc.svg"\] Alt text:Extend and customize your Strategic Portfolio Management applications with additional features and capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/spm-extension-capabilities-overview.md)
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+[SPM Retail Suite\[Omitted image "bus-business-management.svg"\] Alt text:Plan, manage, and track strategic initiatives across retail store operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/spm-retail-suite-landing-page.md)
+
+</td><td>
+
+[Enterprise-Wide Deployment\[Omitted image "bus-business-management.svg"\] Alt text:Separate and control record visibility across departments and business units within a single instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ewd-landing-page.md)
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>## Organization Extension \(com.snc.organization\_extension\) plugin
 
@@ -54,7 +70,7 @@ Organization Extension \(com.snc.organization\_extension\) plugin activates Goal
 
 Business Units, Goals, Enterprise Strategy, and Business Unit Strategy modules are available in the Organization application menu.
 
-Business Applications and Business Capabilities modules are also available within the Organization application menu, however, their related tables are moved to Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin, which is available on zBoot but without demo data.
+Business Applications and Business Capabilities modules are also available within the Organization application menu. Their related tables are moved to the Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin, which is available on zBoot but without demo data.
 
 ## Learn
 
@@ -82,6 +98,7 @@ Business Applications and Business Capabilities modules are also available withi
 -   [Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
 -   [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-landing.md)
 -   [Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md)
+-   [Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/spm-retail-suite-landing-page.md)
 -   [Product Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/product-feedback-landing.md)
 -   [Portfolio Planning in SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 -   [Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-landing.md)

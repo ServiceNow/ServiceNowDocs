@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Create and manage enterprise asset inventory
@@ -28,8 +28,6 @@ Create a stockroom in the Enterprise Asset Management application and assign ass
 Use stockroom records to view detailed information about the stockrooms that your enterprise, hardware, consumable, bundle, loaner, and other assets reside in.
 -   **[Create a stock rule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eamstockrules.md)**  
 Create a stock rule to automatically resupply a stockroom based on vendor purchase orders or transfer orders.
--   **[Create a stockroom type for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eamstockroom-type.md)**  
-If the base system stockroom types don't meet your needs, you can create a custom stockroom type in the Enterprise Asset Workspace.
 -   **[Stockroom audit access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/stockroom-audit-access-eam.md)**  
 Audit roles determine which stockrooms a user can view and audit. Depending on your application and assigned role, you may have access to all stockrooms or only personal stockrooms.
 -   **[Close an enterprise asset remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/close-an-asset-remediation-task-eam.md)**  
@@ -47,15 +45,15 @@ You can track and take action on enterprise assets that have been recalled by th
 -   **[Close an enterprise asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/close-enteprise-reclamation-request.md)**  
 Close an asset reclamation request to efficiently reclaim enterprise assets when an employee leaves an organization or moves to a different role.
 -   **[Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)**  
-Optimize your inventory by getting the defective enterprise assets repaired using the Repair flow.
+Use the Repair flow to get the defective enterprise assets in your stockroom fixed so that the repaired assets can be used in different Enterprise Asset Management workflows.
 -   **[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)**  
-Enable the Asset pick task explicitly for your stockroom and provide granular location details of the asset to facilitate asset picking within your stockroom.
+Inventory picking enables inventory users to locate and pick assets within large stockrooms. When you enable asset pick tasks for a stockroom and provide granular location details, technicians can retrieve assets quickly and efficiently.
 -   **[Manage asset put away using the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)**  
 Enable the Asset put away task explicitly for your stockroom to put away the assets from the receiving bay in the designated aisle-space. View the open Asset put away task and close it after specifying the aisle-space value to move the asset in the stockroom.
 -   **[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md)**  
-Receive enterprise and consumable assets at stockrooms from any workflow at a centralized location on the stockroom form in the Enterprise Asset Workspace.
+As an enterprise asset manager or enterprise asset technician, receive enterprise and consumable assets at stockrooms from any workflow at a centralized location on the stockroom form in the Enterprise Asset Workspace.
 -   **[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md)**  
 Track and manage stockrooms efficiently by evaluating the inventory reports in the Enterprise Asset Workspace.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

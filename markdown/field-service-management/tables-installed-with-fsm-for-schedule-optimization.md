@@ -1,18 +1,18 @@
 ---
 title: Tables installed with FSM for Schedule Optimization
-description: The following tables are installed with the Field Service Management plugin, but are only used bySchedule Optimization.
+description: The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/tables-installed-with-fsm-for-schedule-optimization.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
 
 # Tables installed with FSM for Schedule Optimization
 
-The following tables are installed with the Field Service Management plugin, but are only used bySchedule Optimization.
+The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
 
 <table id="table_hmx_41p_1yb"><thead><tr><th>
 
@@ -52,4 +52,11 @@ Relates a group or territory to an intraday job
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-components.md)
+
+**Related topics**  
+
+
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

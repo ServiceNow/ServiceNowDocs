@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, extract, log message, mapping, component]
 breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -18,6 +18,8 @@ breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Con
 Set Health Log Analytics to extract specified terms from logs and map them to specific components.
 
 ## Before you begin
+
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
 Role required: evt\_mgmt\_admin
 

@@ -1,25 +1,36 @@
 ---
-title: Impact Value Management Data Collection for APM
+title: Impact Value Management Data Collection for Enterprise Architecture
 description: Install and configure the Data Collection Content Pack for APM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/data-collection-apm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Impact Value Management Data Collection for APM
+# Impact Value Management Data Collection for Enterprise Architecture
 
 Install and configure the Data Collection Content Pack for APM.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-install.md)
-2.  [Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-config.md)
-3.  [Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-activate.md)
-4.  [Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-installation-artifacts.md)
+1.  [Install the Data Collection Pack for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-install.md)
+2.  [Configure Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-config.md)
+3.  [Activate Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-activate.md)
+4.  [Review Enterprise Architecture artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-installation-artifacts.md)
 
 You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-upgrade.md).
+
+-   **[Install the Data Collection Pack for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-install.md)**  
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+-   **[Configure Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-config.md)**  
+Configure Data Collection for Enterprise Architecture.
+-   **[Activate Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-activate.md)**  
+Activate the Data Collection Pack for Enterprise Architecture after you enable and configure it.
+-   **[Review Enterprise Architecture artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-apm-installation-artifacts.md)**  
+The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md)
 

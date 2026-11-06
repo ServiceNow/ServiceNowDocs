@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/store-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow Store, Administering applications, Get started, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reference, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # ServiceNow Store glossary
@@ -24,7 +24,11 @@ A standalone piece of code that implements a collection of features on the Servi
 
 ## beta apps
 
-Early-stage, experimental projects that ServiceNow partners are developing to introduce new functionalities to the ServiceNow AI Platform. Partners might invite you to try an app or integration that's in beta.
+Early-stage, experimental projects that ServiceNow partners are developing to introduce new functionalities to the ServiceNow AI Platform. Partners might invite you to try an app or integration that's in beta. Beta apps can only be installed in hosted non-production instances.
+
+## built on ServiceNow solutions
+
+Apps and integrations that help you customize the ServiceNow AI Platform for specific and industry and market needs. Apps and integrations built on ServiceNow solutions have passed the ServiceNow Partner Solutions Center of Excellence process. This process verifies alignment with ServiceNow quality standards related to software development life cycle and business outcomes.
 
 ## built with ServiceNow offerings
 

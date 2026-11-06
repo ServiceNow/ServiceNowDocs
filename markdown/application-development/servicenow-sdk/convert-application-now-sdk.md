@@ -1,20 +1,20 @@
 ---
 title: Convert an application with the ServiceNow SDK
-description: Convert an existing scoped application to support development in source code with the ServiceNow SDK.
+description: Convert an existing application to support development in source code with the ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-sdk/convert-application-now-sdk.html
 release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Add applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Add applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Convert an application with the ServiceNow SDK
 
-Convert an existing scoped application to support development in source code with the ServiceNow SDK.
+Convert an existing application to support development in source code with the ServiceNow SDK.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Existing scoped applications that weren't created with the ServiceNow IDE or ServiceNow SDK must be converted to support development in source code. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code. The application isn't changed on the instance until you build and install it on the instance.
+Existing applications that weren't created with the ServiceNow IDE or ServiceNow SDK must be converted to support development in source code. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code. The application isn't changed on the instance until you build and install it on the instance.
 
 This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
@@ -36,7 +36,7 @@ This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a co
 
 3.  From the application directory, open an integrated Terminal window.
 
-4.  Convert an existing scoped application from an instance or a local directory using the `init` command.
+4.  Convert an existing application from an instance or a local directory using the `init` command.
 
     With the `--from` parameter, provide a sys\_id of an application on the instance or a path to a local directory that contains an application to convert to support development in source code.
 

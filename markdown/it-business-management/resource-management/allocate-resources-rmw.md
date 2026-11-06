@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -44,15 +44,15 @@ The assign logic provides you with the flexibility and control for users when as
 
 4.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d283551e144">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d305304e150">
 
 Assign work choices
 
-</th><th align="left" id="d283551e147">
+</th><th align="left" id="d305304e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d283551e153">
+</th></tr></thead><tbody><tr><td id="d305304e159">
 
 **Manual Assign**
 
@@ -64,7 +64,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d283551e184">
+</td></tr><tr><td id="d305304e190">
 
 **Auto Assign**
 
@@ -75,9 +75,9 @@ The system automatically identifies all resources based on the selected primary 
 </td></tr></tbody>
 </table>    **Note:** Remaining efforts after equally distributing the work among the users is retained in the Unassigned tasks tray. Resource managers can again allocate these efforts.
 
-5.  Select the **Preview** button to see the real-time allocations before assigning the work.
+5.  Select **Preview** to see the real-time allocations before assigning the work.
 
-6.  Select the **Assign** button to assign work to the resources.
+6.  Select **Assign** to assign work to the resources.
 
     The assigned work is reflected in the top tray nested by resource view and will be in Pending state \(\[Omitted image "rmw-pending-state.png"\] Alt text: Yellow rectangular pending state icon.\).
 
@@ -85,7 +85,7 @@ The system automatically identifies all resources based on the selected primary 
 
 8.  Double-click in the Resource status column and select **Approve** to confirm the assigned work so the resource can start working.
 
-    While assigning the work, you can easily identify if a resource is available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), even for the future periods, using the iconography.
+    The resource status icons indicate availability: available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), including future periods.
 
 9.  You can change the status of any assigned assignments using one of the following options.
 
@@ -108,7 +108,7 @@ If no tasks appear in the Unassigned tasks tray, verify the following:
 
 1.  Verify the resource requests exist. Project Managers must create resource requests \(resource assignments with status Requested\) on project tasks. Navigate to the project and verify resource requests exist on the Resource Assignments related list.
 2.  Check if primary attributes match. The resource card filter must match the primary attributes \(Group, Skill, or Role\) defined in the resource requests. Open your resource card and verify the filter criteria aligns with existing requests.
-3.  Check if the employee profiles are generated. Ensure [employee profile definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/generate-profile-definition.md) have been generated for the resources in your view.
+3.  Check if the employee profiles are generated. Verify [employee profile definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/generate-profile-definition.md) have been generated for the resources in your view.
 4.  Request state is correct. Only resource requests in **Requested** state appear as unassigned. Requests that are already Assigned, Approved, or Cancelled don't show.
 5.  Check the date range. Verify the resource card's date range overlaps with the resource request dates. Requests outside the visible time frame will not display.
 6.  Confirm the permissions. Confirm you have the resource\_manager role, which is required to view and manage unassigned work.

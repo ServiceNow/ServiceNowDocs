@@ -7,9 +7,9 @@ release: zurich
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assess a Task Intelligence model, Manage machine learning models with Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Assess a Task Intelligence model, Manage machine learning models with Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Assess field-level accuracy for multi-output models

@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
@@ -18,7 +18,9 @@ Configure walk-up locations for guest-users so they can select a location while 
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_csm\_walkup.walkup\_admin, catalog\_admin
+
+**Note:** `catalog_admin` is a high‑privilege role which grants broader permissions. Assign this role only after reviewing the permissions and confirming necessity.
 
 ## Procedure
 

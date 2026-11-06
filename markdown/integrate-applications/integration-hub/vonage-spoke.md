@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -18,7 +18,7 @@ Manage communications through calls, SMS, and WhatsApp by using the Vonage accou
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Vonage spoke v2.1.0 is the latest version.
+Vonage spoke v2.1.0 is the latest version. For version history of the spoke, see [Vonage spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-vonage.html).
 
 ## Supported versions
 
@@ -63,6 +63,21 @@ The Vonage spoke provides sample subflows to demonstrate automating Vonage tasks
 |Vonage WhatsApp Webhook|Processes the WhatsApp requests from Vonage.|
 
 To customize the default subflow, you must a create a copy of the sample subflow and customize the subflow as per your requirement. While customizing subflows, you must ensure that the subflows are configured to avoid infinite loops.
+
+## Spoke triggers
+
+Use triggers in the Vonage spoke to subscribe to the required events. The endpoint enables webhooks to connect with your ServiceNow instance. You can configure the flows to execute only when the specified trigger conditions are met. The supported events are:
+
+|Category|Trigger|Description|
+|--------|-------|-----------|
+|Call Management|Voice Ringing|Trigger is initiated when a call is made from Vonage and the number is Ringing.|
+|Voice Answered|Trigger is initiated when a call is made from Vonage and the call is Answered.|
+|Voice Completed|Trigger is initiated when a call is made from Vonage and the call is Completed.|
+|SMS Management|SMS Delivered|Trigger is initiated when an SMS is sent from Vonage to a number.|
+|SMS Failed|Trigger is initiated when an SMS is sent from Vonage and it fails.|
+|SMS Accepted|Trigger is initiated when a message has been accepted for delivery, but has not yet delivered.|
+
+For information about setting up the triggers for the Vonage spoke, see Setup the trigger for vonage spoke.
 
 ## Spoke actions
 

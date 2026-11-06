@@ -7,24 +7,26 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Portfolio Governance
 
 Guidance on building a strategic portfolio management process
 
-## Overview
+## Accelerator Overview
 
 Portfolio Governance provides Impact Customers with leading practices and prescriptive guidance on the demand management process, including demand generation, demand scoring, and the transition to design/development. This Impact Accelerator aims to assist Customers in creating a portfolio governance capability that is connected to strategic governance, building cross-enterprise alignment on strategic priorities for more effective and holistic solutions to enhance speed to value.
 
-**Note:** This Accelerator is available in Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What you get
 
--   **Introductory Customer Session \(up to 60 min\)**
+-   **Introductory Customer Session \(up to 1 hr\)**
     -   Set expectations on process and depth of deliverable.
     -   Communicate expectation for Customer participation.
     -   Request data and any other inputs.

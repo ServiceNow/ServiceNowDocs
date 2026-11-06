@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [manage SAM advisor scope, edit dashboard scope, SAM software product selection]
-breadcrumb: [Set up advisor, Use SAM advisor, Software Asset Management, IT Asset Management]
+breadcrumb: [Set up advisor, Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage SAM advisor scope in CMDB success advisor

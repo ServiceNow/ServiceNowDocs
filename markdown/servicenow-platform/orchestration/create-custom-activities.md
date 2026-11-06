@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,7 +54,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 6.  Click **Continue** to open the Execution Command form, then fill out the **Execution Command** step based on the corresponding execution templates:
 
-    -   [Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+    -   [Create a SOAP web service activity]()
     -   [Create a JDBC activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)
     -   [Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md)
     -   [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAPowershellActivity.md)
@@ -74,7 +74,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 9.  Use one of the options to assign values to Outputs.
 
-<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d584850e333">
+<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d590687e333">
 
 **Parsing rule**
 
@@ -82,7 +82,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
 
-</td></tr><tr><td id="d584850e349">
+</td></tr><tr><td id="d590687e349">
 
 **[Post-processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md)**
 

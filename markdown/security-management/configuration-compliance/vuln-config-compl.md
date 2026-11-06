@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -29,6 +29,8 @@ Use test results obtained from third-party Secure Configuration Assessment \(SCA
 The ServiceNow® Configuration Compliance application enables you to prioritize and remediate the most critical configuration-related vulnerabilities in your environment quickly and efficiently. Configuration Compliance is available by subscription in the ServiceNow® Store.
 
 \[Omitted image "cc-overview-image.png"\] Alt text: Configuration Compliance workflow
+
+\[Omitted image "cc-overview-diagram.svg"\] Alt text: Configuration Compliance workflow
 
 ## Key features of Configuration Compliance
 
@@ -67,7 +69,7 @@ Configuration Compliance tasks involve the following roles.
 
 When the Qualys Vulnerability Integration and the Tenable Vulnerability Integration are installed, access to Vulnerability Response becomes available. You can have multiple deployments of these integrations. Data sourced from each deployment is identified and available in a single instance of GRC.
 
-## Available versions for Zurich
+## Available versions for Brazil
 
 <table id="table_svr_hvj_xlb"><thead><tr><th>
 

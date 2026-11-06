@@ -1,5 +1,5 @@
 ---
-title: Working with Connection manager
+title: Working with Connection Manager
 description: Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/connection-manager.html
@@ -7,12 +7,12 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Working with Connection manager
+# Working with Connection Manager
 
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
 

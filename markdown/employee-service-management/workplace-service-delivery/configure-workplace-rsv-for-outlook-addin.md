@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Workplace Reservations for Microsoft Outlook Add-in, Workplace Serv
 Install Workplace Reservations for Microsoft Outlook Add-in and configure the manifest file.
 
 -   **[Install Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/install-workplace-reservations-for-outlook-addin.md)**  
-Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 -   **[Create a manifest file for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/add-manifest-file-for-outlook-addin.md)**  
 Create a manifest file and customize it as per your organization standards to configure the add-in in Microsoft Outlook.
 -   **[Upload the manifest file for a single user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-service-delivery/upload-manifest-for-single-user.md)**  

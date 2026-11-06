@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/config-trm-data-to-publish.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-07"
-reading_time_minutes: 2
-breadcrumb: [Working with the publishing center, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a configuration to publish TRM data
@@ -19,6 +19,8 @@ Define configuration for a Technology Reference Model \(TRM\) catalog that can b
 Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 ## About this task
+
+\[Omitted video\] Description: Create a new configuration to publish TRM data in Enterprise Architecture Workspace
 
 Publishing a TRM catalog involves creating a publishing configuration in the Publishing Center and executing it to generate knowledge base content.
 
@@ -73,5 +75,5 @@ When you create a new TRM publishing configuration, the system automatically cre
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/access-the-published-kb.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-data-viz-from-list.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Role required: You need a role that gives access to the list. To save, share, ex
 
 ## About this task
 
-If you are on a new instance or an instance that has fully migrated to Platform Analytics, follow this procedure. Otherwise, you create a Core UI pie or bar report, instead. In this case, see [Run a report from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_RunAReport.md).
+If you're on a new instance or an instance that has fully migrated to Platform Analytics, follow this procedure. Otherwise, you create a Core UI pie or bar report, instead. In this case, see [Run a report from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_RunAReport.md).
 
 Specifically, whether this feature creates Platform Analytics or Core UI bars and pies is linked to whether both Platform Analytics and Core UI dashboards are available in the dashboard libraries. To combine all dashboards in the library, and thus to open Platform Analytics visualizations from a list, set the property **com.glide.par.unified\_analytics.enabled** to `true`.
 
@@ -28,7 +28,7 @@ Specifically, whether this feature creates Platform Analytics or Core UI bars an
 
 1.  Navigate to the list.
 
-2.  Right-click the header of the column that contains the values you want to be displayed as the bars or slices in the visualization.
+2.  Select and hold \(or right-click\) the header of the column that contains the values you want to be displayed as the bars or slices in the visualization.
 
 3.  Select **Pie Chart** or **Bar Chart**.
 

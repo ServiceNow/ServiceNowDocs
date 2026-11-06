@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/creating-automated-manual-fallout-records.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing order fallout, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -49,4 +49,11 @@ You can define a workflow that automatically creates fallout records whenever in
 Even when the right data structure is submitted in an external system, errors can happen due to the business logic that is implemented in the external system.
 
 **Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/fallout-management-overview.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

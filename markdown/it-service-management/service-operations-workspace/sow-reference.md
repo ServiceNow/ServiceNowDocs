@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,18 +16,18 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 Reference topics provide additional information about ServiceNow Service Operations Workspace.
 
-For information about components installed with Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/sow-reference-itom.md).
+For information about components installed with Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/sow-landing-page-itom.md).
 
--   **[Terminology in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/terminology-used-in-sow-for-itsm.md)**  
-Use this reference to understand the key terms and roles in Service Operations Workspace which includes agent types, request, structures and configuration concepts.
--   **[Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-itom-version.md)**  
-Look for the version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace for ITOM applications.
 -   **[Additional roles for SOW admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/additional-roles-sow-admin.md)**  
 You can add various user roles to Service Operations Workspace \(SOW\) Admin role to perform SOW configurations.
+-   **[Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-itom-version.md)**  
+Look for the version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace for ITOM applications.
 -   **[Service Operations Workspace for ITSM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-itsm-data-model.md)**  
 Learn about Service Operations Workspace \(SOW\) for ITSM by viewing the data model relationship diagram. This diagram shows the relationships between the tables within the application and provide an overall picture of how SOW operates.
 -   **[Components installed with Service Operations Workspace ITSM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/components-installed-with-sow.md)**  
 Several types of components are installed with the Service Operations Workspace ITSM Applications application \(sn-sow-itsm-cont\) installation, including user role, plugins, and ServiceNow Store applications.
+-   **[Service Operations Workspace for ITSM glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/glossary-landing-sow-itsm.md)**  
+The glossary defines the terms and concepts used in Service Operations Workspace for ITSM.
 
 **Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-landing-page.md)
 

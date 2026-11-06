@@ -1,20 +1,20 @@
 ---
-title: Activate a third-party embedding model
-description: Activate your preferred embedding model, whether third-party or custom, so that the AI Search Retrieval Augmented Generation \(RAG\) application knows which model to use for generating embeddings.
+title: Activate the third-party embedding model
+description: Activate your preferred embedding model so that your AI Search RAG application knows which model to use for generating embeddings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/activate-3p-embedding-model.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring an external or custom embedding model, Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring your embedding model, AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Activate a third-party embedding model
+# Activate the third-party embedding model
 
-Activate your preferred embedding model, whether third-party or custom, so that the AI Search Retrieval Augmented Generation \(RAG\) application knows which model to use for generating embeddings.
+Activate your preferred embedding model so that your AI Search RAG application knows which model to use for generating embeddings.
 
 ## Before you begin
 
@@ -26,20 +26,22 @@ Role required: admin
 
 2.  Select an embedding model from the list of AI Search Semantic Embedding Models.
 
-3.  On the Semantic Embedding Model page, turn on the embedding model by selecting **Active**.
+    The selected AI Search Semantic Embedding Model page opens.
+
+3.  Select the **Active** option to turn on the embedding model.
 
 4.  Select **Update**.
 
-5.  Run a quick check to verify that everything is set up correctly by selecting **Validate**.
+5.  Select the **Validate** button to run a quick check if everything is setup correctly.
 
-    **Note:** If you make any changes to its configuration, you must validate the embedding model.
+    **Note:** You must validate the embedding model if you make any changes to its configuration.
 
 
 ## Result
 
-Your preferred embedding model, whether third-party or custom, is ready to use in the AI Search Retrieval Augmented Generation \(RAG\) application.
+The preferred embedding model ready to use in the AI Search RAG application.
 
 ## What to do next
 
-Add your embedding model to the semantic index configuration to enable content ingestion by using that model. For more information, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-semantic-indexing-ais.md).
+Add your embedding model to the semantic index configuration to enable content ingestion using that model. For more information, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 

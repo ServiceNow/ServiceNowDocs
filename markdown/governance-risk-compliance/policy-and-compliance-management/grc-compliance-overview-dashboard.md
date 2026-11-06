@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and Reporting, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Compliance Overview Performance Analytics dashboard
@@ -31,6 +31,8 @@ The following roles and tasks are associated with this solution:
 -   Audit Analyst \(sn\_compliance.user\): To prioritize which risks or tasks to focus on based on criticality to the organization.
 
 To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance** &gt; **Analytics Overview**.
+
+**Note:** You can view this dashboard directly from the Compliance Workspace as well.
 
 The Compliance Overview dashboard contains the following visualizations:
 

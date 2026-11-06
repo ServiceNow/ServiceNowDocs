@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Designing playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure a playbook for ServiceNow mobile
@@ -233,9 +233,4 @@ The playbook is configured for ServiceNow® mobile.
 ## What to do next
 
 Embed your playbook in ServiceNow® mobile. To learn more, see
-
--   **[Embed a playbook in ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/embed-playbook-mobile.md)**  
-Embed a playbook in ServiceNow® mobile by creating a screen in Mobile App Builder.
-
-**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
 

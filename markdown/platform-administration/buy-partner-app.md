@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/buy-partner-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [buy app, servicenow store, store, app store, application store, app store user documentation, servicenow app store, buy app with credit card, purchase app]
-breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer]
+breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Buy a partner application
@@ -31,15 +31,15 @@ Role required: none
 
     If an application requires additional approval from the provider, the listing details page displays a **Request purchase** option. If the application doesn't require any additional approval, the listing details page displays **Contact seller** instead.
 
-<table id="choicetable_bcb_3ct_hjc"><thead><tr><th align="left" id="d280042e138">
+<table id="choicetable_bcb_3ct_hjc"><thead><tr><th align="left" id="d291763e136">
 
 Option
 
-</th><th align="left" id="d280042e141">
+</th><th align="left" id="d291763e139">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d280042e147">
+</th></tr></thead><tbody><tr><td id="d291763e145">
 
 **Request purchase**
 
@@ -47,7 +47,7 @@ Procedure
 
 Select **Request purchase** to send a request to the provider. Approval is granted at the provider's discretion.
 
-</td></tr><tr><td id="d280042e159">
+</td></tr><tr><td id="d291763e157">
 
 **Contact seller**
 

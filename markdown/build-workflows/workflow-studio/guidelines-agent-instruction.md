@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-10-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Guidelines for writing AI agent instructions
@@ -90,5 +90,4 @@ Specify query operations
 Using the keyword Query helps our data gathering AI agent to pick the more effective Knowledge Graph over the AI search.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agentic Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbook-reference.md)
-
+</table>

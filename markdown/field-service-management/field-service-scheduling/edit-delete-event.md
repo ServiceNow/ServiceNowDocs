@@ -1,20 +1,20 @@
 ---
-title: Edit or delete a personal event
-description: Dispatchers can change or delete a non-work order personal event if an event's details change after its creation.
+title: Edit or delete an event
+description: Dispatchers can change or delete a non-work order personal event if the event's details change after its creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/edit-delete-event.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Edit or delete a personal event
+# Edit or delete an event
 
-Dispatchers can change or delete a non-work order personal event if an event's details change after its creation.
+Dispatchers can change or delete a non-work order personal event if the event's details change after its creation.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Edit or delete the event.
 
-<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d68502e91">
+<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d75110e91">
 
 Option
 
-</th><th align="left" id="d68502e94">
+</th><th align="left" id="d75110e94">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d68502e100">
+</th></tr></thead><tbody><tr><td id="d75110e100">
 
 **Edit the event**
 
@@ -44,11 +44,11 @@ Actions
 
 1.  Select and hold \(or right-click\) the personal event you want to edit.
 2.  Select **Edit event**.
-3.  Edit the fields you want to modify.
+3.  Edit the fields that you want to modify.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d68502e130">
+</td></tr><tr><td id="d75110e130">
 
 **Delete the event**
 

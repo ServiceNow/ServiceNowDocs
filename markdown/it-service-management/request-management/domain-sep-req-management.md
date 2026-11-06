@@ -7,7 +7,7 @@ release: zurich
 product: Request Management
 classification: request-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Request Management, IT Service Management]
 ---
@@ -23,7 +23,7 @@ This is an overview of domain separation in Request Management. Domain separatio
 -   Business logic: The service provider \(SP\) creates or modifies processes per customer. The use cases reflect proper use of the application by multiple SP customers in a single instance.
 -   The instance owner must configure the minimum viable product \(MVP\) business logic and data parameters per tenant as expected for the specific application.
 
-Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
+Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 

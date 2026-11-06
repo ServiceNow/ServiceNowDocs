@@ -7,7 +7,7 @@ release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_art\_user or safe\_admin
 
 1.  Create an epic using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d171515e71">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d183434e71">
 
 Option
 
-</th><th align="left" id="d171515e74">
+</th><th align="left" id="d183434e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d171515e80">
+</th></tr></thead><tbody><tr><td id="d183434e80">
 
 **From the Backlog tab**
 
@@ -45,7 +45,7 @@ Steps
 5.  From the **Create** list, select **Create Epic**. The epic is displayed in the **Backlog** tab with the state as **Backlog**.
 
 
-</td></tr><tr><td id="d171515e131">
+</td></tr><tr><td id="d183434e131">
 
 **From the Epics module**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click **New**. The epic is displayed in the **Epics** list and **Backlog** tab with the state as **Funnel**.
 
 
-</td></tr><tr><td id="d171515e170">
+</td></tr><tr><td id="d183434e170">
 
 **From the Portfolios module**
 

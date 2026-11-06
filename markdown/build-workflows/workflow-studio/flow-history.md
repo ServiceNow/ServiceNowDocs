@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Building flows, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow history
@@ -95,8 +95,12 @@ Each flow can have up to 20 favorite flow history entries. Marking a flow histor
 
 By default, Workflow Studio stores 100 flow history records. When the total number of flow history entries exceeds this limit, Workflow Studio overwrites the oldest history entry that is not marked as a favorite. You can set the maximum number of flow history records to store using the sn\_flow\_designer.maximum\_flow\_history\_records\_per\_flow system property. For more information about using this property, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
+-   **[View flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-flow-history.md)**  
+View the change history of a flow by date and user.
 -   **[Add an annotation to a flow history entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-annotation-to-flow-history-entry.md)**  
 Add a text description to a flow history entry. Summarize the purpose or contents of a particular flow history entry.
+-   **[Flow history compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-history-compare-view.md)**  
+Compare two flow history entries in a side-by-side view. Use the step highlighting and change type icons to determine what flow components have been added, removed, and changed.
 -   **[Delete a flow history entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/delete-flow-history-entry.md)**  
 Delete a flow history entry from the flow history list.
 -   **[Restore a flow to a previous flow history entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/restore-flow-to-previous-flow-history-entry.md)**  

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Fulfill repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfill repair orders manually, Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Troubleshoot assets requested for repair in the Enterprise Asset Workspace
@@ -55,7 +55,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
     -   If the asset can be redeployed, select **Redeployable**.
 12. In the **Failure code** field, select the code that corresponds to the reason for the asset failure.
 
-    For more details on codes, see [Failure and resolution codes in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/failure-resolution-codes-eam.md).
+    For more details on codes, see [Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md).
 
 13. Enter the issue identified with the asset during the repair process in the **Issue identified** field.
 
@@ -85,7 +85,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
 
 [Complete the repair asset task in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/repair-eam-assets-ws.md).
 
-**Parent Topic:**[Fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
+**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 
 **Related topics**  
 

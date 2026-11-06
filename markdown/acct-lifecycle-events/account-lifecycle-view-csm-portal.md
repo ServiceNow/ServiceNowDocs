@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-view-csm-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
@@ -60,7 +60,7 @@ Role required:
 
     The following details are displayed for each case task:
 
-    -   Header section that provides information about the case task. This includes case number, parent or onboarding case, account name, and task status.
+    -   Header section that provides information about the case task including case number, parent, associated onboarding case, the account name, and status of the task.
     -   The left-hand section provides the following details:
         -   General instructions: Provides a short description and a detailed case description. Select **View More** to view all the details related to the case.
         -   Shared articles: Shows articles that have been shared with you. Select the article link to view details.

@@ -7,10 +7,10 @@ release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, generative AI, servicenow studio]
-breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+keywords: [ServiceNow Otto, generative AI, servicenow studio]
+breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Summarize the contents of an app in ServiceNow Studio
@@ -19,11 +19,11 @@ Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow S
 
 ## Before you begin
 
-Role required: sn\_app\_summary.app\_summary\_user, and admin or delegated\_developerwith Write access to the app record
+Role required: sn\_app\_summary.app\_summary\_user, and admin or delegated\_developer with either Delegated admin or Delete application permissions
 
 ## About this task
 
-If your company has a robust citizen development program and has many developers creating apps, you might have some duplicate apps. Good app descriptions are one of the best and easiest ways to be able to scan your list of apps for duplicates. Using Now Assist to generate a good app description can enable you to have more governance over app creation.
+If your company has a robust citizen development program and has many developers creating apps, you might have some duplicate apps. Good app descriptions are one of the best and easiest ways to be able to scan your list of apps for duplicates. Using ServiceNow Otto to generate a good app description can enable you to have more governance over app creation.
 
 ## Procedure
 
@@ -41,8 +41,8 @@ If your company has a robust citizen development program and has many developers
 
     |Action|Result|
     |------|------|
-    |**Rate the summary as helpful**|Rating summaries helps enable Now Assist to create better summaries.|
-    |**Rate the summary as unhelpful**|Rating summaries helps enable Now Assist to create better summaries.|
+    |**Rate the summary as helpful**|Rating summaries helps enable ServiceNow Otto to create better summaries.|
+    |**Rate the summary as unhelpful**|Rating summaries helps enable ServiceNow Otto to create better summaries.|
     |**Copy to clipboard**|Copy the summary to use it elsewhere in your app development.|
     |**Regenerate summary**|Regenerate the summary if the initial attempt wasn't accurate or needed major changes.|
     |**Use as app description**|If the summary is complete, accurate, and helpful, select **Use as app description**, and the description is populated with the summary.|
@@ -54,5 +54,5 @@ If your company has a robust citizen development program and has many developers
 
 After you create an initial app summary, the **Summarize** button becomes the **Summary** button. If you see **Summary**, know that an app summary has already been created and can be edited as needed.
 
-**Parent Topic:**[Now Assist for app summary generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 

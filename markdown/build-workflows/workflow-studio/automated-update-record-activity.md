@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Non-Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Non-Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Automated Update Record activity
@@ -145,6 +145,4 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Table|Table Name|Table containing updated record.|
 |Record|Reference.Task\[task\]|Reference to record updated.|
-
-**Parent Topic:**[Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/non-interactive-activities.md)
 

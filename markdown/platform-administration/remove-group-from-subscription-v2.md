@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/remove-group-from-subscription-v2.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer]
+breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Remove a group from a product subscription in Subscription Management
@@ -52,6 +52,4 @@ If you can't manually allocate user-based subscriptions despite having manually 
 ## What to do next
 
 The group is removed from the subscription. If the group still has a measured-role that requires a subscription, add the group to a different subscription or remove the measured-role from the group.
-
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md)
 

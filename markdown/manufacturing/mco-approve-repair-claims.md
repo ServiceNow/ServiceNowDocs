@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-approve-repair-claims.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operatio
 
 Agents portal or workspace enables you to review and approve the claims submitted by a dealer.
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Repair**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Repair**.
 
     **Note:** To create and navigate to the Review &amp; approve form, see [Create a repair claim manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-repair-claim.md).
 

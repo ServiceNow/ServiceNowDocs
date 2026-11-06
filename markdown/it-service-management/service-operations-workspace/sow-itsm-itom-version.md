@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM
@@ -36,19 +36,17 @@ Ensure that the following applications have compatible upgraded versions:
 |5.1.0|25.3.x|
 |6.1.1|26.1.y|
 |7.0.x|26.3.y|
-|8.0.x|26.9.0|
-|8.1.x|26.9.0|
 
 **Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/sow-reference.md)
 
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
-
 [Additional roles for SOW admin]()
 
 [Service Operations Workspace for ITSM data model]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
+
+[Service Operations Workspace for ITSM glossary]()
 

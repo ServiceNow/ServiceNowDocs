@@ -1,20 +1,20 @@
 ---
 title: Execute Skill action
-description: Run a published Now Assist skill and use the skill outputs in a flow or subflow.For existing actions and subflows, copy the short description from the product documentation, or insert a content reference to it. For new actions and subflows, create reusable content and insert a content reference to the short description.
+description: Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.For existing actions and subflows, copy the short description from the product documentation, or insert a content reference to it. For new actions and subflows, create reusable content and insert a content reference to the short description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/execute-skill-action.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Actions, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Execute Skill action
 
-Run a published Now Assist skill and use the skill outputs in a flow or subflow.
+Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.
 
 ## Roles and availability
 

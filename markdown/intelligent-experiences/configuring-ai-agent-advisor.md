@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configuring-ai-agent-advisor.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [AI Agent Advisor, Enable AI experiences]
+breadcrumb: [AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Configuring AI Agent Advisor
@@ -19,12 +19,6 @@ Configure settings for AI Agent Advisor.
 Confirm the installation of the AI Agent Advisor application.
 -   **[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.md)**  
 Configure the data sources, filters, and schedule that AI Agent Advisor uses to analyze your instance and identify automation opportunities.
--   **[Confirm installation of AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/set-up-ai-agent-advisor.md)**  
-Confirm the installation of the AI Agent Advisor application.
--   **[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.md)**  
-Configure the data sources, filters, and schedule that AI Agent Advisor uses to analyze your instance and identify automation opportunities.
-
-**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
 
 **Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
 

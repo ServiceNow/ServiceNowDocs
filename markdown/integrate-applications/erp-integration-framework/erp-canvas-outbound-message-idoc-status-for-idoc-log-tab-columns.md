@@ -7,10 +7,10 @@ release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, idoc, status, log]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Outbound message IDoc status for IDoc log tab fields
@@ -19,9 +19,7 @@ The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP
 
 For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
 
-This feature is available starting with the Zurich Patch 4 release.
-
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 <table id="table_c51_mfb_ghc"><thead><tr><th>
 
@@ -37,7 +35,7 @@ Message ID
 
 </td><td>
 
-Unique ID number when an error or event occurs during IDoc processing.
+Unique ID number assigned when an error or event occurs during IDoc processing.
 
 </td></tr><tr><td>
 
@@ -53,7 +51,7 @@ Message type
 
 </td><td>
 
-The type of business document in an SAP system, for example, ORDERS.
+Type of business document in an SAP system, for example, ORDERS.
 
 </td></tr><tr><td>
 
@@ -61,7 +59,7 @@ Status
 
 </td><td>
 
-Processing state of outbound message sent via IDoc at a specific time.
+Processing state of an outbound message sent via IDoc at a specific time.
 
 </td></tr><tr><td>
 
@@ -69,7 +67,7 @@ Status code
 
 </td><td>
 
-Numerical value stored in IDoc status record, for example:-   03: Data passed to port \(outbound success\)
+Numerical value stored in the IDoc status record, for example:-   03: Data passed to port \(outbound success\)
 -   20: Delivery to external system failure \(outbound error\)
 
 </td></tr><tr><td>
@@ -94,7 +92,7 @@ Parameter 2
 
 </td><td>
 
-An additional specified parameter.
+Additional specified parameter.
 
 </td></tr><tr><td>
 
@@ -102,7 +100,7 @@ Parameter 3
 
 </td><td>
 
-An additional specified parameter.
+Additional specified parameter.
 
 </td></tr><tr><td>
 
@@ -110,7 +108,7 @@ Parameter 4
 
 </td><td>
 
-An additional specified parameter.
+Additional specified parameter.
 
 </td></tr><tr><td>
 
@@ -121,5 +119,4 @@ Created
 Date and time the message was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Run optimization for your groups or territories from Dispatcher Workspace
@@ -18,8 +18,9 @@ Reassign tasks and maximize productivity by running Schedule Optimization on dem
 
 ## Before you begin
 
--   Schedule Optimization must be activated. For more information, see [Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md).
--   Intraday optimization must be configured. For more information, see [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
+Schedule Optimization must be activated. For more information, see [Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md).
+
+Intraday optimization must be configured. For more information, see [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
 
 Role required: schedule\_optimization\_user
 
@@ -31,13 +32,13 @@ For more information on running the optimization engine automatically, see [Conf
 
 Schedule Optimization considers the agent's start and end locations from the **Resource Schedule Attributes** table for the given day.
 
-Schedule Optimization doesn’t detect changes you make to agents or tasks during an optimization run. The system considers changes to agents and tasks during the next optimization run. While an on-demand run is in progress, all scheduled runs will be paused. The pause will remain in effect until the end of the day, and the scheduled runs will resume the next day.
+Schedule Optimization doesn’t detect changes you make to agents or tasks during an optimization run. The system considers changes to agents and tasks during the next optimization run. While an on-demand run is in progress, all scheduled runs are paused. The pause will remain in effect until the end of the day, and the scheduled runs will resume the next day.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching****&gt;Dispatcher Workspace**.
 
-2.  Select **Dispatcher workspace** in the left navigation.
+2.  Select **Dispatcher workspace**.
 
 3.  Select **Optimization summary** in the contextual side panel.
 

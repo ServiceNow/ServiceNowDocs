@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/configuring-prominent-action-button.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -26,114 +26,25 @@ Role required: admin
 
 2.  Select **New** to create a new button instance.
 
-3.  Complete the following fields:
+3.  Complete the following fields.
 
-<table id="table_g1w_fn3_nhc"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |**Name**|The name of the button.|
+    |**Description**|Additional information about the button.|
+    |**Parent**|The button's app type.|
+    |**Application**|The application in which your button resides. This field is auto-populated.|
+    |**Parent table**|Table where the button gets its data. Select the **Mobile app config \[sys\_sg\_native\_client\]** table.|
+    |**Function**|Function used by this button instance.|
+    |**Label**|Label that displays for the button.|
+    |**Location**|The place where the button will reside. Select **Prominent Action**.|
+    |**Icon**|Icon used to represent your button.|
+    |**Order**|The order in which the button appears on the screen compared to other buttons.|
+    |**Active**|Select whether the button is active or not.|
 
-Field
+4.  Configure a badge count by navigating to the **sys\_sg\_badge\_count** table and setting your **Location** to **Prominent Action Button**.
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-The name of the button.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Additional information about the button.
-
-</td></tr><tr><td>
-
-Parent
-
-</td><td>
-
-The button's app type.
-
-</td></tr><tr><td>
-
-Application
-
-</td><td>
-
-The application in which your button resides.
-
- **Note:** This field is auto-populated.
-
-</td></tr><tr><td>
-
-Parent table
-
-</td><td>
-
-Table where the button gets its data.
-
- Select the Mobile app config \[**sys\_sg\_native\_client**\] table.
-
-</td></tr><tr><td>
-
-Function
-
-</td><td>
-
-Function performed by this button instance.
-
-</td></tr><tr><td>
-
-Label
-
-</td><td>
-
-Label that displays for the button.
-
-</td></tr><tr><td>
-
-Location
-
-</td><td>
-
-The place where the button resides.
-
- Select **Prominent Action**.
-
-</td></tr><tr><td>
-
-Icon
-
-</td><td>
-
-Icon used to represent your button.
-
-</td></tr><tr><td>
-
-Order
-
-</td><td>
-
-The order in which the button appears on the screen compared to other buttons.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Select whether the button is active or not.
-
-</td></tr></tbody>
-</table>4.  Configure a badge count by navigating to the table and setting your **Location** to **Prominent Action Button**.
-
-5.  Select **Submit** to save your button record.
+5.  Select **Submit** to save your button.
 
 
 **Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configuring-now-assist-mobile.md)

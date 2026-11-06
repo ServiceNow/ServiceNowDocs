@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # App creation in Creator Studio
@@ -22,7 +22,7 @@ If you don't have permission to build apps yourself, just ask an admin. They can
 
 ## Don't build your app from scratch!
 
-Creating an application from scratch can take some time. That's why Creator Studio does all the basic work for you. Just pick a form template \(think starter kit\) and provide some basic info \(like a name\) or use Now Assist to create a form. Later, we'll show you how to customize your app.
+Creating an application from scratch can take some time. That's why Creator Studio does all the basic work for you. Just pick a form template \(think starter kit\) and provide some basic info \(like a name\) or use AI to create a form. Later, we'll show you how to customize your app.
 
 ## Edit your app's look and feel
 

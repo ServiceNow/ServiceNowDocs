@@ -1,16 +1,16 @@
 ---
-title: Add Digital resilience information to third-party engagements
+title: Add Digital resilience info to third-party engagements
 description: Add Digital resilience information to third-party engagements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/tp-eng-add-digi-resi-info.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a third-party engagement and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third-party engagement for digital resilience, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Add Digital resilience information to third-party engagements
+# Add Digital resilience info to third-party engagements
 
 Add Digital resilience information to third-party engagements.
 
@@ -30,7 +30,7 @@ Role required: sn\_oper\_res.manager
 
 4.  Set up the digital resilience information details.
 
-    For more information, see [Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md).
+    For more information, see [Create ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md).
 
 5.  Select **Save**.
 
@@ -39,5 +39,5 @@ Role required: sn\_oper\_res.manager
 6.  Navigate to the Contractual arrangements tab and view the details.
 
 
-**Parent Topic:**[Create a third-party engagement and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+**Parent Topic:**[Create a third-party engagement for digital resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

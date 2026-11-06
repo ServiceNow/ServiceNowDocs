@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -908,6 +908,4 @@ The following flow actions are installed with the Service Exchange for Consumers
 |Create Record Producer and Remote Choice Dependent Variables \[create\_record\_producer\_and\_entities\]|Creates a remote record producer and the associated remote choice dependent variables from a synced entitlement.|
 |Create Remote Task \[create\_remote\_task\]|Creates a remote task for a given parent and remote task definition.|
 |Repair RPS Provider Connection \[repair\_rps\_provider\_connection\]|Attempts to fix Remote Process Sync errors on Provider Connection.|
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-reference.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for SecOps
-description: Activate the Data Collection Pack for SecOps after you enable and configure it.
+title: Activate Data Collection for Security Operations
+description: Activate the Data Collection Pack for Security Operations after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-secops-activate.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SecOps, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Security Operations, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for SecOps
+# Activate Data Collection for Security Operations
 
-Activate the Data Collection Pack for SecOps after you enable and configure it.
+Activate the Data Collection Pack for Security Operations after you enable and configure it.
 
 ## Before you begin
 
@@ -56,4 +56,6 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
         To validate historical data for any specific indicator, select the widget on the dashboard.
 
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-secops.md)
 

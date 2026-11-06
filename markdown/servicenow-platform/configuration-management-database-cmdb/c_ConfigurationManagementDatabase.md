@@ -1,20 +1,20 @@
 ---
 title: CMDB schema model
-description: The Configuration Management Database \(CMDB\) schema model is a series of connected tables that contain all the assets and business services controlled by a company and its configurations.
+description: The CMDB schema model is a series of connected tables that contain all the assets and business services controlled by a company and its configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/c\_ConfigurationManagementDatabase.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB schema model
 
-The Configuration Management Database \(CMDB\) schema model is a series of connected tables that contain all the assets and business services controlled by a company and its configurations.
+The CMDB schema model is a series of connected tables that contain all the assets and business services controlled by a company and its configurations.
 
 Related ServiceNow® Store apps and reference information:
 
@@ -32,7 +32,7 @@ For more background information about the CMDB, see the ServiceNow Community pos
 
 ## Key class categories
 
-The following items are general class categories that are typically key in organizations. You can for example, use this list as a general guideline for choosing classes to be set as Principal Class so you can track health and pay attention to the most important classes in your CMDB. For more information about Principal Class, see [Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md):
+The following items are class categories that are typically key in organizations. You can for example, use this list as a general guideline for designating classes as Principal Class so you can track health and pay attention to the most important classes in your CMDB:
 
 -   Servers \(physical and virtual\): Classes that are typically well-understood, relatively stable, and which form the backbone of most infrastructure.
 -   Databases: Classes of high business impact, critical for incident triage, and relatively straightforward to discover and maintain.
@@ -40,22 +40,24 @@ The following items are general class categories that are typically key in organ
 -   Application servers.
 -   Storage.
 
+For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
+
 ## Key CMDB classes
 
 Key classes in the CMDB:
 
--   The Base Configuration Item \[cmdb\] class, which is the core CMDB class for non IT CIs \(descending classes are non IT CIs\).
--   The core Configuration Item \[cmdb\_ci\] class, which stores the basic attributes of all the CIs. The admin, itil, or asset user role is required to access this table \(descending classes are IT CIs\).
+-   The Base Configuration Item \[cmdb\] class, which is the core CMDB table for non IT CIs \(descending classes are non IT CIs\).
+-   The core Configuration Item \[cmdb\_ci\] class, which stores the basic attributes of all the CIs. The sn\_cmdb\_admin, sn\_cmdb\_editor, asset, admin, or itil user role is required to access this table \(descending classes are IT CIs\).
 -   The CI Relationship \[cmdb\_rel\_ci\] class, which defines all relationships between CIs.
 
 The Configuration Item class is extended to other classes, such as Database \[cmdb\_ci\_database\] and Computer \[cmdb\_ci\_computer\]. The Computer class is extended to the Server \[cmdb\_ci\_server\] class, which is extended to the UNIX Server \[cmdb\_ci\_unix\_server\] class, and so on.
 
 **Note:** The Base Configuration Item \[cmdb\] class uses the table per partition extension model, which has different behaviors for replicating and deriving information than other extended tables. See [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-extension-and-classes.md).
 
-You can use the schema map to view more details of class and their relationships:
+You can use the schema map to view more details of tables and their relationships:
 
 1.  Navigate to **System Definition** &gt; **Tables &amp; Columns**.
-2.  Select a table and click **Schema Map**.
+2.  Select a table and then select **Schema Map**.
 
 **Note:** CIs not extended from the Configuration Item \[cmdb\_ci\] table, are not displayed in Dependency Views maps and in CI relation formatters.
 

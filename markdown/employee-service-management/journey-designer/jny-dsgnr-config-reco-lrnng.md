@@ -1,5 +1,5 @@
 ---
-title: Add or modify recommended learning in the Journey designer app
+title: Add or modify recommended learning in Journey designer
 description: Configure and manage recommended learning for employee journeys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-config-reco-lrnng.html
@@ -7,18 +7,18 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended learning in journey configurations, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add or modify recommended learning in the Journey designer app
+# Add or modify recommended learning in Journey designer
 
 Configure and manage recommended learning for employee journeys.
 
 ## Before you begin
 
-Role required: admin
+Role required: admin \[sn\_jny.admin\]
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compare config data of two CDM applications, Using DevOps Config, DevOps Config, IT Service Management]
 ---

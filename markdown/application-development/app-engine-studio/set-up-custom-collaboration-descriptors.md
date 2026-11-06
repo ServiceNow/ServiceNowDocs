@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform configuration tasks, Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Perform configuration tasks, Configure AES, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Set up custom collaboration descriptors
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Owner and Editor collaboration descriptors are provided as part of AES and have special capabilities. Development permissions included in each descriptor can be configured to your platform needs. You can create custom descriptors as well, in the global scope, so they can be used in AES.
+Owner and Editor collaboration descriptors are provided out of the box in AES and have special capabilities. Development permissions included in each descriptor can be configured to your platform needs. You can create custom descriptors as well, in the global scope, so they can be used in AES.
 
 **Note:** You should create collaboration descriptors in addition to Owner and Editor in the global scope. If you want collaboration descriptors to appear and be used in AES, you should also set them to `standard = TRUE`. AES doesn't support collaboration descriptors that are created in custom scopes, and non-standard collaboration descriptors don't render in AES.
 

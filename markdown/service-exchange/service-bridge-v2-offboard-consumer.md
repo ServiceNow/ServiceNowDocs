@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Register a consumer, Use for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -67,4 +67,6 @@ The following tables are deleted:
 -   Tasks \(records from the following tables are deleted only if you choose to delete all existing tasks\)
     -   sn\_sb\_pro\_provider\_task
     -   sn\_sb\_pro\_remote\_task
+
+**Parent Topic:**[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-onboarding.md)
 

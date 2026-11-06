@@ -7,10 +7,10 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [calculator rules for test results]
-breadcrumb: [Creating Calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Create a Configuration Compliance calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Configuration Compliance calculators and calculator rules
@@ -85,7 +85,7 @@ Starting with the 18.0 version of Vulnerability Response,
 -   Add additional entries for an existing type or create a new type. When you create a new type, ensure that you add the labels for the new risk rating, and also modify the related scripts and business rules. You must also add a new style for the new risk score.
 -   Modify the script to query the records in the base table.
 
-You can access the Risk Score Weights table by entering sn\_sec\_cmn\_risk\_score\_weight in the filter navigator.
+You can access the Risk Score Weights table by entering sn\_sec\_cmn\_risk\_score\_weight \(for versions below 30.0\) or sn\_sec\_calculator\_risk\_score\_weight \(for versions 30.0 and above\) in the filter navigator.
 
 In addition, the risk score is automatically recalculated in the following scenarios:
 

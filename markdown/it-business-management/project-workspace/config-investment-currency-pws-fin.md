@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-11-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -21,13 +21,6 @@ Select investment currency as an additional currency, which can be different fro
 -   You can define investment currency for projects which do not have any financials records, such as cost plans, expense lines, benefit plans, and actual benefits. To define a investment currency for existing work, you should delete all the financial records and configure the investment currency.
 -   [Enable monetary benefit plans for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/enable-benefitplans-pws-fin.md)
 -   Role required: admin
-
-## About this task
-
-Following are the current limitations for multicurrency.
-
--   Multicurrency for cost plans that are bundled with project tasks. This feature is scheduled to be available starting with the January patch update.
--   Financial baselines do not capture investment currency fields. This feature will be available with the March store release.
 
 ## Procedure
 

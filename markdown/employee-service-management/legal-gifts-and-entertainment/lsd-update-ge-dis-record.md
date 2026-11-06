@@ -7,7 +7,7 @@ release: zurich
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 3.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d609487e93">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d620771e93">
 
 Action
 
-</th><th align="left" id="d609487e96">
+</th><th align="left" id="d620771e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d609487e102">
+</th></tr></thead><tbody><tr><td id="d620771e102">
 
 **Modify the request details**
 
@@ -50,7 +50,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The gifts and entertainment disclosure request is updated with the new information.
 
-</td></tr><tr><td id="d609487e138">
+</td></tr><tr><td id="d620771e138">
 
 **Cancel the request**
 
@@ -68,15 +68,15 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 5.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d609487e188">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d620771e188">
 
 Option
 
-</th><th align="left" id="d609487e191">
+</th><th align="left" id="d620771e191">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d609487e197">
+</th></tr></thead><tbody><tr><td id="d620771e197">
 
 **If the Attachments tab is visible**
 
@@ -87,7 +87,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d609487e236">
+</td></tr><tr><td id="d620771e236">
 
 **If the Documents tab is visible**
 

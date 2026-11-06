@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -76,7 +76,7 @@ Subflow to create an incident. Fields from the alert are used to populate the ma
 
 -   If there is an existing incident that is attached to the alert, this subflow is not activated.
 -   If the alert is in Maintenance, an incident is not created.
--   The alert management job runs even if the alert grouping job is not complete, if a specified time frame has passed. When this occurs, you can enable the **Avoid INTs on secondary alerts** rule to prevent incidents from being created for secondary alerts. This is useful when the **evt\_mgmt.avoid\_int\_enabled** property is enabled, since an incident already exists for the primary alert.
+-   The alert management job runs even if the alert grouping job is not complete, if a specified time frame has passed. When this occurs, you can enable the **Avoid INTs on secondary alerts** rule to prevent incidents from being created for secondary alerts. This prevents duplicate incidents because an incident already exists for the primary alert when the **evt\_mgmt.avoid\_int\_enabled** property is enabled.
 
 </td></tr><tr><td>
 

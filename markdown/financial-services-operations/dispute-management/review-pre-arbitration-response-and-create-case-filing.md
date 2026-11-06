@@ -7,9 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Collaboration workflow, Chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review the pre-arbitration response and create a case filing
@@ -38,29 +38,29 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review pre arbitration response and create case filing** task.
 
-8.  Select the **Review pre arbitration response and create case filing** activity.
-
-9.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response received** field of the record.
+7.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response received** field of the record.
 
     You can also view the merchant response as an attachment in the activity stream.
 
-10. In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
+    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d117422e217">
+8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
+
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d129506e218">
 
 Selection
 
-</th><th align="left" id="d117422e220">
+</th><th align="left" id="d129506e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d117422e226">
+</th></tr></thead><tbody><tr><td id="d129506e227">
 
 **Unresolved**
 
@@ -73,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d117422e272">
+</td></tr><tr><td id="d129506e273">
 
 **Resolved**
 
@@ -92,7 +92,7 @@ After the request executes successfully, the transaction state changes to **Awai
 Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be viewed in the activity stream. You can withdraw the case filing by selecting **Withdraw case**.
 
 1.  After a decision by Visa is available, you can access it by selecting **Get case filing response**.
-2.  The task is automatically closed and the **Review case filing response** activity and appeal is available.
+2.  The task is automatically closed and the **Review case filing response** task and appeal are available.
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

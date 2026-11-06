@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a blank page
@@ -28,21 +28,19 @@ Role required: ui\_builder\_admin
 
     \[Omitted image "experience-main-page.png"\] Alt text: Main page for your new experience
 
-2.  From the main page for your experience, either select **Create new page** or select the plus \(**+**\) sign next to **Pages**.
+2.  From the main page for your experience, either select **Create new page** or select the plus \(**+**\) sign next to **Pages and variants**.
 
 3.  On the **First, select a template** screen, select **Create from scratch instead**.
 
     There are templates you can use, but we are going to create a page from scratch.
 
-    \[Omitted image "page-details.png"\] Alt text: Page details including page name, URL path, and Type.
+    \[Omitted image "page-details.png"\] Alt text: Page details including page name, URL path, and page type.
 
 4.  In the **Name** field, type **My test page**, and select **Continue**.
 
     **Note:** The **URL path** shows the URL that users can navigate to access the page.
 
 5.  Select a URL page type in the **Type** drop-down list.
-
-    **Note:** URL page types help you categorize and find important pages in the experience view.
 
 6.  Select **Looks good** on the next screen.
 

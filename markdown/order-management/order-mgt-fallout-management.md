@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-fallout-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---

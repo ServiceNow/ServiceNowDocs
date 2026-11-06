@@ -1,0 +1,63 @@
+---
+title: Pool Replication Lag
+description: Pool replication lag is the number of seconds that a Standby database or a read replica database lags behind the primary database.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-pool-replica-lag.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
+---
+
+# Pool Replication Lag
+
+Pool replication lag is the number of seconds that a Standby database or a read replica database lags behind the primary database.
+
+This may be an indication that a transaction committed on the primary may not yet be committed on the downstream database.
+
+This number should ideally always be 0; however, a non-zero value usually indicates some workload that is performing an excessive amount of inserts, updates, and deletes to the database, causing a delay in processing the transaction bin logs on the standby or read replica database.
+
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-observer-ovr-metric.md)
+
+**Related topics**  
+
+
+[Anomaly insights]()
+
+[Feature availability based on package]()
+
+[Auriga Intelligent Alert report]()
+
+[Transaction or response metrics]()
+
+[Database performance metrics]()
+
+[Semaphores performance metrics]()
+
+[Event queues performance metrics]()
+
+[ECC Queue performance metrics]()
+
+[Email performance metrics]()
+
+[Scheduler performance metrics]()
+
+[Job details performance metrics]()
+
+[Node health performance metrics]()
+
+[Host health performance metrics]()
+
+[Standby replication Lag]()
+
+[Chat details performance metrics]()
+
+[Cluster details performance metrics]()
+
+[Load balancer performance metrics]()
+
+[User information metrics]()
+
+[Instance Data Replication]()
+

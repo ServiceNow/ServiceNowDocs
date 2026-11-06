@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Provider connector configuration, Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,9 @@ Role required: sn\_wsd\_wc.admin
 
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Provider Connector Configurations**.
 
-2.  Select **Create New**.
+2.  From the menu, select the application scope icon \(\[Omitted image "wsd-appl-global-scope-icon.png"\] Alt text: Application Scope icon.\).
+
+3.  Select **Create New**.
 
     On the form, fill in the fields.
 
@@ -81,27 +83,27 @@ Connector Configuration
 Select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) and select **Badging**. For more information, see [Configure connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
 
 </td></tr></tbody>
-</table>3.  Select **Submit**.
+</table>4.  Select **Submit**.
 
-4.  In the Provider Executions table section, filter by **Last query time**.
+5.  In the Provider Executions table section, filter by **Last query time**.
 
     The Provider Execution table \[sn\_wsd\_wc\_provider\_execution\] stores all the scheduled job execution timestamps. Every time that the scheduled job **Process Provider data** record runs, this table shows an entry in the Last query time column. The time to import data from the source table \(Badging data\) to the target table \(Employee attendance data\) table is updated in the Last query time column.
 
-5.  Select **Save**.
+6.  Select **Save**.
 
-6.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
+7.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
 
-7.  In the **Scheduled Jobs Name** field, filter data by **Process provider data records** and select it.
+8.  In the **Scheduled Jobs Name** field, filter data by **Process provider data records** and select it.
 
     Process provider data records read data from vendor badging data \(source table\). After processing the badging data, it loads it into the Employee Attendance Data table \(target table\).
 
-8.  Select and open the Schedule Script Execution for Provider process data records in the edit mode.
+9.  Select and open the Schedule Script Execution for Provider process data records in the edit mode.
 
-9.  Review the Process provider data records form.
+10. Review the Process provider data records form.
 
     If necessary, change or update the **Repeat interval** timings for the scheduled job.
 
-10. Select **Execute Now**.
+11. Select **Execute Now**.
 
     The scheduled job takes the source data from the Badging data table to transform the data in the required format, and place it in the target Employee Attendance Data table.
 

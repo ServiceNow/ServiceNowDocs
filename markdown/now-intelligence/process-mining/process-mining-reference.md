@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining, Platform Analytics]
 ---
@@ -28,18 +28,10 @@ Use the Project definition form to create a project.
 Crop your process by setting the new process start condition and new process end condition. This configuration defines which part of the process should be included in the Process Mining project and made available for analysis. The Create new process start and end condition forms have the same fields.
 -   **[Activity definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activity-def.md)**  
 Use the Activity Definition form to report on steps that occur within your business process.
--   **[Automated finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-finding-form-builder.md)**  
+-   **[Automated finding definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-finding-form-builder.md)**  
 Use the Create Improvement opportunity definition form to create an automated finding definition from the Finding Builder.
--   **[Automation finding definition form from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-find-form-classic.md)**  
-Use the Automated Finding definition form to create a finding definition from the Classic view.
--   **[Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md)**  
+-   **[Rule-based finding definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md)**  
 Use the Create Improvement opportunity definition form to create a finding definition from the Finding Builder.
--   **[Rule-based finding definition form from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-def-form.md)**  
-Use the Finding Definition form to configure rule-based finding definitions to deliver discovered insights to your Summary and insights page.
--   **[Finding rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-rule-form.md)**  
-Use the Finding Rule form to configure finding rules for your finding definition. Finding rules define what record criteria triggers your finding definitions.
--   **[Finding constraint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-constraint-form.md)**  
-Use the Finding constraint form to configure finding constraints for your finding definition. In addition to finding rules, finding constraints further narrow down the scope of your finding definitions using metrics like duration and relation constraints.
 
 **Parent Topic:**[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining.md)
 

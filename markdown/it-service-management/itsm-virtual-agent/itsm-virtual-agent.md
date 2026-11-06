@@ -7,7 +7,7 @@ release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IT Service Management]
 ---
@@ -18,7 +18,7 @@ You can use ITSM Virtual Agent to support and scale your IT organization. With I
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## About ITSM Virtual Agent
 
@@ -53,7 +53,7 @@ The ITSM Virtual Agent topics re-factored with gs.getMessageLang\(\) provide you
 
 ## Edge Encryption for ITSM Virtual Agent
 
-Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow® instance. For details about edge encryption, see [Edge Encryption for ITSM Virtual Agent within ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/r_ITServiceManagement.md).
+Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow® instance. For details about edge encryption, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/r\_ITServiceManagement.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/r_ITServiceManagement.md).
 
 -   **[Exploring ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/explore-itsm-va.md)**  
 The ServiceNow ITSM Virtual Agent provides assistance through conversations within an intelligent messaging interface.

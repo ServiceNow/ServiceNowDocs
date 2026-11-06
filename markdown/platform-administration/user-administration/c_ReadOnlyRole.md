@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Base system roles, Managing roles, User admin, Configure core features, Administer]
+breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Read-only role
@@ -26,13 +26,15 @@ The **snc\_read\_only** role can be assigned to any user to limit access to data
 
 Users with the **snc\_read\_only** role have the following restrictions regardless of other roles and privileges that they have.
 
--   Can’t insert, update, or delete records from the UI or when using the GlideRecord API.
--   Can’t activate or upgrade plugins.
--   Can’t directly run SQL.
--   Can’t upload XML files.
+-   Can't insert, update, or delete records from the UI or when using the GlideRecord API.
+-   Can't activate or upgrade plugins.
+-   Can't directly run SQL.
+-   Can't upload XML files.
 -   Can only run background scripts when on an instance in the public sandbox environment.
 
 **Note:** These role restrictions are in place even if impersonating another user with write access such as an admin.
+
+If a user has both the admin role and the snc\_read\_only role, the snc\_read\_only restrictions still apply. The admin role does not override them.
 
 ## Exempt tables from the read-only restriction
 
@@ -64,7 +66,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md).
 

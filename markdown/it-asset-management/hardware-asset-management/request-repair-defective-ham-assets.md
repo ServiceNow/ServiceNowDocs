@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request repair of defective hardware assets in your stockroom
@@ -43,7 +43,7 @@ Request repair of a defective hardware asset in your stockroom directly through 
 **Related topics**  
 
 
-[Fulfill repair orders in the Hardware Asset Workspace]()
+[Repair order fulfillment in the Hardware Asset Workspace]()
 
 [Record time worked on asset repair tasks in the Hardware Asset Workspace]()
 

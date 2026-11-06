@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Employee Center Pro Kiosk
@@ -92,9 +92,4 @@ The schedule details in Employee Center Pro Kiosk is a one-stop destination to c
 The time off balances details in the Employee Center Pro Kiosk is the source of truth for the time off or leave details of the deskless workers.
 
 **Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
-
-**Related topics**  
-
-
-[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 

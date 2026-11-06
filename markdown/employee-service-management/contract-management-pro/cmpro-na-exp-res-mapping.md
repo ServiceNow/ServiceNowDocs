@@ -9,8 +9,8 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Contract analysis, Contract analysis expected response mapping, Expected response for contract analysis fields, Expected response mapping, Clause mapping, Now Assist in contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Contract analysis expected response mapping, Expected response for contract analysis fields, Expected response mapping, Clause mapping, Now Assist in contract management pro, ServiceNow Otto for Contract Management Pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a field to an expected response
@@ -28,6 +28,8 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
+
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -65,7 +67,11 @@ Request table
 
 </td><td>
 
-Table that the contract analysis is executed from.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+Table that the contract analysis is executed from.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-facilities-assign-roles.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Facilities, Configure, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -39,6 +39,18 @@ Facilities case viewer
 Can view Healthcare Facilities cases and all HCLS foundation data.
 
  **Note:**If view access to work orders is needed, this role can contain the wm\_read role.
+
+</td></tr><tr><td>
+
+sn\_cto\_facilities.loc\_manager
+
+</td><td>
+
+Facilities services support department manager
+
+</td><td>
+
+Monitors the tasks within their organizations.
 
 </td></tr></tbody>
 </table>**Example:**

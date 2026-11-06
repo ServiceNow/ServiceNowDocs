@@ -1,20 +1,20 @@
 ---
 title: Install Workplace Reservations for Microsoft Outlook Add-in
-description: Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+description: Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-service-delivery/install-workplace-reservations-for-outlook-addin.html
 release: zurich
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Reservations for Microsoft Outlook Add-in
 
-Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Before you begin
 

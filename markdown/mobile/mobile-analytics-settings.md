@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-analytics-settings.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile app settings, Using the mobile apps, Mobile Platform]
 ---
@@ -18,5 +18,5 @@ When launching a mobile application for the first time, European users are promp
 
 All users can enable/disable tracking in the mobile application at **Settings** &gt; **Analytics** &gt; **Enable Analytics**.
 
-For detail on how an administrator can configure and track analytics for mobile, see [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-landing.md).
+For detail on how an administrator can configure and track analytics for mobile, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-landing.md).
 

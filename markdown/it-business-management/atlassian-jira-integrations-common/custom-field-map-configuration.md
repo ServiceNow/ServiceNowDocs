@@ -7,9 +7,9 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Customize your field map configuration
@@ -23,7 +23,7 @@ Map a field of your preference for a Jira project.
 
 ## About this task
 
-If you have a custom field for a Jira project that you want to map with a field in Agile Development 2.0. You can create custom field map configuration that would apply only to this Jira project.
+If you have a custom field for a Jira project that you want to map with a field in Agile Development 2.0, you can create custom field map configuration. This configuration applies only to this Jira project.
 
 If you have a custom field that is applicable to all Jira projects of a specific project type, see [Apply custom map configuration to multiple Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/apply-custom-field-map-to-all-jira-projects.md).The following field types are supported for custom field map configuration:
 

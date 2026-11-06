@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with VTB cards, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Assign a Visual Task Board card to a user
@@ -36,7 +36,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 
 1.  Do one of the following actions.
 
-<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d64742e97">
+<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d64692e91">
 
 **Add an assignee from the quick panel**
 
@@ -46,7 +46,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 2.  Drop the avatar in the **Primary** or **Additional** drop zone.
 
 
-</td></tr><tr><td id="d64742e121">
+</td></tr><tr><td id="d64692e115">
 
 **Add an assignee from the card details**
 

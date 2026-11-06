@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-workspace-bulk-edit-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -26,9 +26,4 @@ You can perform the following tasks using the bulk edit feature in the Security 
 -   [Remove assignments for host vulnerable items in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md)
 -   [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md)
 -   [Close records in bulk in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md)
-
--   **[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)**  
-Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, assign multiple findings to an assignment group simultaneously, and modify risk ratings.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
 

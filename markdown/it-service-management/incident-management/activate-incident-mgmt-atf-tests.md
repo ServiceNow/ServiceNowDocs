@@ -1,20 +1,20 @@
 ---
 title: Activate Incident Management — ATF Tests
-description: You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
+description: You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers Automated Test Framework \(ATF\) tests for Incident Management. This plugin includes demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/activate-incident-mgmt-atf-tests.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
 
 # Activate Incident Management — ATF Tests
 
-You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
+You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers Automated Test Framework \(ATF\) tests for Incident Management. This plugin includes demo data.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -40,5 +40,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

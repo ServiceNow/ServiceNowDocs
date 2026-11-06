@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/roles-installed-with-employee-as-consumer.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configuring a user as a Unified Consumer, Configuring a Unified Use
 
 Use different roles to establish the relationships between your users and entities. By using the Employee as a Consumer functionality within the Customer Service Management \(CSM\) application, your organization can support both requesters and supporters.
 
-## Overview
+## Overview of Employee as a Consumer
 
 The Unified Consumer \(sn\_customerservice.unified\_consumer\) role enables a user to have both the snc\_internal and snc\_external roles, which means that roles have greater control over consumer behavior, whether it's internal or external.
 
@@ -26,7 +26,11 @@ The following diagram shows the existing roles and the new roles that enable the
 
 \[Omitted image "unified-consumer.png"\] Alt text: Existing and new roles that enable the Employee as a Consumer functionality. For a detailed explanation of these roles, refer to the Roles and description table.
 
-**Note:** With the Employee as a Consumer functionality, the Requester \(sn\_customerservice.requester\) and the Unified Consumer \(sn\_customerservice.unified\_consumer\) roles were introduced. Both these roles are independent of the snc\_internal and snc\_external roles​.
+**Note:**
+
+With the Employee as a Consumer functionality, the Requester \(sn\_customerservice.requester\) and the Unified Consumer \(sn\_customerservice.unified\_consumer\) roles were introduced. Both these roles are independent of the snc\_internal and snc\_external roles​.
+
+In addition to the roles listed below, users functioning as consumers must have a linked record in the Consumers \[csm\_consumer\] table. Without this record, consumer functionality is not available even with the appropriate role assigned.
 
 <table id="table_kyc_fs4_5zb"><thead><tr><th>
 

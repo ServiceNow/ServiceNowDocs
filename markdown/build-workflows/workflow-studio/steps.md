@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Workflow Studio steps
@@ -45,7 +45,7 @@ Enable custom actions to integrate with external systems by activating Integrati
 -   **[Ask for Approval step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/ask-approval-action-designer.md)**  
 Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 -   **[Call Now Assist Skill step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/call-now-assist-skill-step.md)**  
-Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 -   **[Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-record-action-designer.md)**  
 Creates a record on any table. You can dynamically add and configure fields for the record.
 -   **[Create or Update Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-update-record-step.md)**  
@@ -72,6 +72,8 @@ Logs a message in the Workflow Studio log table sys\_flow\_log.
 Look up a record from any table based on defined conditions.
 -   **[Look Up Records step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/lookup-records-action-designer.md)**  
 Look up multiple records on any table using defined conditions.
+-   **[Map and Transform Data step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/map-transform-data-action.md)**  
+Map complex nested JSON objects to a target schema with dynamic field creation and data transformation.
 -   **[Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/trigger-notification-action-designer.md)**  
 Trigger a notification as a step within an action by selecting a record \(such as an incident, change request, problem, or user record\) to trigger a notification and defining the associated notification.
 -   **[Payload Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/payload-build-step-action-designer.md)**  

@@ -7,9 +7,9 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Get started with Advanced Work Assignment, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
+breadcrumb: [Get started, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
 # Activate Advanced Work Assignment
@@ -59,6 +59,4 @@ Implements user and user group skills. Based on the same principles of roles man
 ## What to do next
 
 Activate the targeted routing capabilities plugins and other popular AWA plugins to enable the appropriate service channels and the Platform Analytics Solutions for Advanced Work Assignment.
-
-**Parent Topic:**[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/implement-awa.md)
 

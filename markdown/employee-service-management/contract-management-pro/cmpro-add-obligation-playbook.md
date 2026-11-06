@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Playbook tab, Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,7 +48,7 @@ Role required: admin
 
     For more information on adding a viewport, see [Add a viewport component to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-with-viewport-components.md).
 
-    1.  In the configuration panel, select **+ Add** to attach the page collection.
+    1.  In the configuration panel, select **+ Add** to attach the **ServiceNow Otto for Contract Management Pro** page collection.
 
     2.  Select **Apply default configuration with added URL parameters** and then select done.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Test the integration profile for a third-party shipping carrier in the Enterprise Asset Workspace
@@ -22,13 +22,15 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Asset operations view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Asset operations view, navigate to **Shipment** &gt; **Carrier integration profiles**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select the integration profile that you want to test.
+3.  From the navigation panel of the Admin center view, navigate to **Shipping** &gt; **Carrier integration**.
 
-4.  Select **Test connection**.
+4.  Select the integration profile that you want to test.
+
+5.  Select **Test connection**.
 
     A message appears, indicating whether the connection was successful or not.
 

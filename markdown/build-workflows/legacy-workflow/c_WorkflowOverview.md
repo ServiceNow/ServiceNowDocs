@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Build workflows]
 ---
@@ -22,7 +22,7 @@ Workflow is a legacy application that provided a drag-and-drop interface for aut
 
 **Explore**
 
- -   Zurich
+ -   Brazil
 -   [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md)
 -   [Workflow activity pinning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_ActivityPinning.md)
 -   [Domain separation and Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowsAndDomainSeparation.md)
@@ -55,7 +55,7 @@ Workflow is a legacy application that provided a drag-and-drop interface for aut
 
  -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   Workflow API reference
+-   [Workflow API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_WorkflowScopedAPI.md)
 -   [Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
 
 </td><td>

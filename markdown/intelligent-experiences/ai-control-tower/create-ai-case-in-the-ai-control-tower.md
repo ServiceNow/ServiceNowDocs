@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI case in the AI Control Tower
@@ -36,9 +36,4 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_analyst or sn\_ai\_case\_mgmt.ai\_ca
 
     After you submit this form, the AI case team will provide the insights and support you need.
 
-
--   **[Create new AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-new-ai-case-form.md)**  
-Use the Create New AI case form in the AI Control Tower to report an AI case with the necessary details.
-
-**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

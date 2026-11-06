@@ -1,28 +1,28 @@
 ---
 title: ServiceNow AI Platform core feature release notes
-description: The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.The ServiceNow AI Platform core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
+description: The ServiceNow AI Platform core features provide configurations for global ServiceNow AI Platform behavior and behavior in some ServiceNow AI Platform applications. See the following sections for release notes by version.Cross-scope access security enforcement for the getRefRecord\(\) JavaScript API is improved and the default behavior of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed in this patch.Troubleshoot MCP server connections and tool calls from the system logs.Enhancements to AI indicators, HTML editor upgrade to TinyMCE 8.3.0, improved JavaScript engine features, and new configuration options for choice fields and exports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/core-platform-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ServiceNow AI Platform core feature release notes
 
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
+The ServiceNow AI Platform® core features provide configurations for global ServiceNow AI Platform behavior and behavior in some ServiceNow AI Platform applications. See the following sections for release notes by version.
 
-## About ServiceNow AI Platform core feature
+## About ServiceNow AI Platform
 
--   Simplify and build queries with fewer conditions by leveraging hierarchical relationships in a condition builder.
--   Use additional scripting features, including Promises and Async await, with the ECMAScript 2021 \(ES12\) JavaScript mode.
--   Define dynamic categories and dynamic attributes once and reuse them using dynamic namespaces across multiple tables and dynamic attribute store fields.
+-   Access platform capabilities, discover new applications, and get intelligent, actionable insights.
+-   Install and manage licensed applications and plugins for your instance and understand your subscriptions and entitlements.
+-   Configure core features, such as tables and data, users, search, notifications, and localization.
+-   Maintain and monitor the ServiceNow AI Platform to identify issues or enhance performance.
+-   Plan and manage ServiceNow AI Platform upgrades to patches and new releases.
 
 See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/intro-now-platform-landing.md) for more information.
-
-Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
 
 ## Activation and other requirements
 
@@ -30,191 +30,94 @@ Use the Feature Preview Program to choose which pre-release capabilities to acti
 
     The ServiceNow AI Platform core features are active by default.
 
--   **Upgrade information**
-
-    The dynamic schema application framework has been revised in the Zurich release. If you implemented dynamic schema in Xanadu or Yokohama, the application is automatically migrated to a new framework as part of the upgrade to the Zurich release. For details on the migration, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    To use Multi-Instance Setup, you must install it from the ServiceNow Store and activate the AMF Core plugin. For more information, see .
 
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-admin-rn-landing.md)
 
-## July 2026
+## Brazil Patch 2
 
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Access and test pre-release features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/feature-preview-program.md)**
-
-    The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
-
-
-## May 2026
-
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Enhance instance security for sandbox scripts with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/guarded-script.md)**
-
-    The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Zurich Patch 9 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
-
-
-## April 2026
-
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Automatically generate request definitions for scripted REST API resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/autogenerate-api-request-definitions.md)**
-
-    Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
-
-
-## March 2026
-
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Use schemas to define the structure and format of REST API responses and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/define-scripted-rest-api-schema.md)**
-
-    When you define a schema in the ServiceNow AI Platform, the schema can be used to define the structure of requests and responses within the associated REST API. The schema data for the requests and responses is then available in the exportable OpenAPI specification for the API.
-
-
-## December 2025
-
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
+Cross-scope access security enforcement for the getRefRecord\(\) JavaScript API is improved and the default behavior of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed in this patch.
 
 ### What's changed
 
--   **AI indicator in forms**
+-   **Improved cross-scope access security enforcement for getRefRecord\(\) JavaScript API**
 
-    The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content. This feature enhances user experience by providing a consistent and clear indication of AI involvement across the platform.
+    The cross-scope security mechanism has been strengthened, supporting consistent application of authorization rules. For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985).
 
+-   **[Default value of glide.sys.fencing.restricted\_caller\_access.invalidation\_mode is SCRIPT\_ENGINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md)**
 
-## October 2025
-
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Experimentation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/experimentation-framework.md)**
-
-    Help enable innovation by trying new ServiceNow® feature variants in your instance. Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via experimentation framework. You can opt out of specific experiments or turn off the framework entirely.
-
--   **[Monitor requestors' API usage rates through the Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
-
-    Inbound integrations track web service requests for OAuth registered applications and user accounts making those requests.
+    The default value of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed from DB\_LISTENER to SCRIPT\_ENGINE. When the property is set to SCRIPT\_ENGINE, and an update set contains a script with changes, the script engine doesn't invalidate associated RCA records. To enable a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits, set the value to DB\_LISTENER.
 
 
-## Zurich
+## Brazil Patch 1
 
-The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Zurich release.
+Troubleshoot MCP server connections and tool calls from the system logs.
 
 ### What's new
 
--   **[Hierarchical queries in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/data-hierarchies.md)**
+-   **[MCP server logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/view-mcp-server-logs.md)**
 
-    Simplify and build queries with fewer conditions using existing hierarchical data in a table. You can also define new hierarchical relationships between records that are in the same table.
+    Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the system logs.
 
--   **[Dynamic namespaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-dynamic-namespace.md)**
 
-    Define categories and attributes once and reuse them using dynamic namespaces across multiple tables and dynamic attribute store fields. A dynamic namespace is automatically created when you add a dynamic attribute store field.
+## Brazil Early Availability
 
--   **[Audit Management Console and audit retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/audit-mgmt-console.md)**
+Enhancements to AI indicators, HTML editor upgrade to TinyMCE 8.3.0, improved JavaScript engine features, and new configuration options for choice fields and exports.
 
-    Simplify your audit data management and configuration by using the Audit Management Console module. It includes a new Retention option, which automates and simplifies the deletion of audit data based on your requirements.
+### What's new
+
+-   **Set up cross-instance communication**
+
+    Run a scan to discover non-production instances related to a production instance and connect instances using the Multi-Instance Setup application \(sn-app-amf\). Multi-Instance Setup supports cross-instance communication with other ServiceNow applications and provides a single interface to view and monitor connections.
+
+-   **AI indicators now visible in Core UI lists**
+
+    Rows in Core UI lists that are created or modified by an AI agent now display an AI indicator. The indicator clears automatically when a user makes an inline edit to the row, keeping the indicator accurate as data changes.
+
+-   **Caching for repeated metadata queries**
+
+    The platform caches repeated metadata queries to optimize processing of metadata requests.
+
+-   **Monitor daily slow-pattern trends**
+
+    Track day-over-day trends in slow-pattern data with daily snapshots that automatically identify new or worsening patterns. High-significance changes are highlighted in list views, helping you quickly spot meaningful changes and prioritize investigation efforts. Built-in data retention and filtering keep historical comparisons accurate and relevant for up to 33 days.
 
 
 ### What's changed
 
--   **Coral theme**
+-   **AI indicators updated for form fields**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    AI indicators for form fields in Core UI and configurable workspaces now support AI color gradients and have been updated to reflect the latest ServiceNow Otto name and iconography.
 
+-   **[TinyMCE version 8.3.0 upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UseHTMLFields.md)**
+
+    The HTML editor in Core UI and configurable workspaces is upgraded from TinyMCE version 6.8.2 to version 8.3.0.
+
+-   **[Text pattern configuration in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-the.md-system-properties-in-tinymce.md)**
+
+    Text patterns in the HTML editor can now be turned on or off using the **glide.ui.html.editor.textpatterns** system property.
+
+-   **[Configurable choice field empty option labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md)**
+
+    Configure choice fields to display either None or --None-- for empty options using the **glide.ui.choice.display\_none** system property.
+
+-   **[Base cross-scope access on the latest source code updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md)**
+
+    Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property.
+
+    **Note:** In the Brazil Early Availability and Brazil Patch 1 releases, the default value is DB\_LISTENER. Beginning with the Brazil Patch 2 release, the default value is SCRIPT\_ENGINE.
 
 -   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
 
-    Use additional scripting features, including Promises and Async await, in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
+    Use additional scripting features in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
--   **[Stream multipart responses with REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md)**
+-   **JavaScript engine updated with changes from the Rhino engine**
 
-    Stream multipart responses rather than buffering responses until complete by default with REST APIs that support the multipart/mixed requests, such as the Batch API. The **glide.rest.serialize.disable\_response\_stream\_buffering** system property controls this behavior and applies only to instances configured with Application Delivery Controller, version 2 \(ADCv2\).
+    The JavaScript engine on the ServiceNow AI Platform was updated to incorporate changes from the open-source Rhino JavaScript engine.
 
--   **[Additional field types supported in a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_FieldTypes.md)**
+-   **[Configure row threshold for exports to Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ExportLimits.md)**
 
-    The following field types are now supported for use in a configurable workspace:
+    Configure the row limit for exports to Excel using the properties **glide.export.xls.max.rows.per.sheet** and **glide.export.xlsx.max.rows.per.sheet**.
 
-    -   **datetime**
-    -   **email\_script**
-    -   **int**
-    -   **integer\_time**
-    -   **related\_tags**
-    -   **user\_input**
--   **[Vertical layout configuration for radio buttons in a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_FieldTypes.md)**
-
-    Configurable workspaces now support a vertical layout configuration of radio buttons.
-
--   **[More dictionary attributes available for selected fields in a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_FieldTypes.md)**
-
-    Applicable fields used in a configurable workspace now support the following dictionary attributes:
-
-    -   **choice**
-    -   **decimal**
-    -   **float**
-    -   **html\_editor**
-    -   **integer**
-    -   **ip\_addr**
-    -   **is\_searchable\_choice**
-    -   **phone\_number\_e164**
-    -   **readonly\_clickthrough**
-    -   **ref\_ac\_columns**
-    -   **translated\_html\_editor**
-    -   **types**
--   **[New plugins available for the TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-the.md-plugins-for-tinymce.md)**
-
-    The TinyMCE HTML editor now supports two new plugins in Core UI and configurable workspaces:
-
-    -   The Image Editing \(editimage\) plugin adds a contextual editing toolbar to images in the editor.
-    -   The Help plugin \(help\) enables you to check shortcuts and keyboard navigation for accessibility.
--   **[New run types available for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ScheduledJobs.md)**
-
-    The following run types are now available for all scheduled job types, enabling flexible scheduling:
-
-    -   **Day and Month in Year**
-    -   **Day in Week in Month in Year**
-    -   **Week in Month**
-    The new run types are available in the following standard scheduled job types:
-
-    -   **Scheduled Email of Report**
-    -   **Scheduled Entity Generation**
-    -   **Scheduled Script Execution**
-    To enable these new run types in other scheduled job child tables, you must configure your applicable form view to include the fields **Day**, **Month**, and **Year**. For more information, see [Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/customize-run-times-for-scheduled-jobs.md).
-
--   **[New advanced options available for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ScheduledJobs.md)**
-
-    The following new advanced options are available when configuring scheduled jobs, offering greater flexibility in job planning, execution, and recurrence:
-
-    -   **Starting**
-    -   **Ending**
-    -   **Repeat every**
--   **[Export lists to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/setup-gsheet-export.md)**
-
-    Export your lists to Google Sheets directly from the Export menu.
-
-
-### What's deprecated or removed
-
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. Instead, [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/io-overview.md) offers a powerful solution for enhancing system performance. Contact your account manager to discover more. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
--   The **glide.script.use.sandbox** system property has been removed. The script sandbox is enabled by default.
--   Dynamic groups have been removed. Instead, use dynamic attributes in dynamic categories to simplify administration and improve the dynamic schema user experience.
 

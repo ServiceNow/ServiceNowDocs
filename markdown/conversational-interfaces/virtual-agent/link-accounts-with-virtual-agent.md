@@ -1,32 +1,30 @@
 ---
-title: Relink your ServiceNow user account to a messaging application for Virtual Agent conversations
-description: Relink your ServiceNow account to a third-party messaging application to access non-public Virtual Agent topics that use ServiceNow records.
+title: Link your ServiceNow user account to a messaging application for Virtual Agent conversations
+description: Link your ServiceNow account to a third-party messaging application to access non-public Virtual Agent topics that use ServiceNow records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Account linking in pre-built messaging integrations, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Account linking in pre-built messaging integrations, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Relink your ServiceNow user account to a messaging application for Virtual Agent conversations
+# Link your ServiceNow user account to a messaging application for Virtual Agent conversations
 
-Relink your ServiceNow account to a third-party messaging application to access non-public Virtual Agent topics that use ServiceNow records.
+Link your ServiceNow account to a third-party messaging application to access non-public Virtual Agent topics that use ServiceNow records.
 
 ## Before you begin
 
 Role required: user
 
-You had an existing integration with a third party messaging up which was unlinked.
-
 ## About this task
 
-If you used the same email account for both your messaging and ServiceNow accounts, then when you first used the Virtual Agent bot, your messaging account was automatically linked to your ServiceNow account.
+If the same email account is defined for both your messaging and ServiceNow accounts, your messaging account is automatically linked to your ServiceNow account when you first use Virtual Agent.
 
-But when you unlink your messaging account from your ServiceNow account \(using the **logout** command\), then each time you start a new Virtual Agent session, the bot gives you the option to link to your ServiceNow account or continue as a guest. The authentication step \(linking\) occurs in your instance or in a specific Service Portal, as set by your admin.
+However, after you unlink your messaging account from your ServiceNow account \(using the **logout** command\), the bot gives you the option to link to your ServiceNow account or continue as a guest each time you start a new Virtual Agent session. The authentication step \(linking\) occurs in your instance or in a specific Service Portal, as set by your admin.
 
 ## Procedure
 
@@ -40,9 +38,13 @@ But when you unlink your messaging account from your ServiceNow account \(using 
 
 4.  Select **Link to ServiceNow** to authenticate.
 
+    \[Omitted image "msteams-custom-bot-response.png"\] Alt text: Link your ServiceNow profile.
+
     Authentication directs you to your instance or a specific Service Portal set by your admin. If you're not already logged in to your instance or a Service Portal, you’re prompted to enter your login credentials.
 
     **Note:** If a user is unlinked or continued as a guest, notifications are disabled. Also, only the public topics are discoverable.
+
+    \[Omitted image "checkout-tips.png"\] Alt text: Check out tips providing you with the commands to get started with the Virtual Agent.
 
 5.  In the confirmation that appears prompting you to Confirm or Deny linkage between your accounts, select Confirm to enable the account link.
 

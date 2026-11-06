@@ -8,8 +8,8 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Domain usage discovery and categorization, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+reading_time_minutes: 2
+breadcrumb: [Domain usage discovery and categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Categorize domain usage
@@ -140,4 +140,6 @@ Option to activate the signature.
 
     Saving the signature starts a job that evaluates the visited domains against the signature and categorizes any matches.
 
+
+**Parent Topic:**[Domain usage discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-ai-domain-usage-discovery.md)
 

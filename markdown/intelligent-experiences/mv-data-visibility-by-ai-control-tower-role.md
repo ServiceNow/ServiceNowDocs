@@ -1,18 +1,18 @@
 ---
-title: Data visibility by AI Control Tower role
-description: The AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
+title: Role based data visibility
+description: AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+last_updated: "2026-11-06"
+reading_time_minutes: 2
+breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Data visibility by AI Control Tower role
+# Role based data visibility
 
-The AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
+AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
 
 AI Control Tower supports two responsibility levels. AI stewards oversee AI systems at the instance level. Product owners oversee individual AI systems.
 
@@ -37,4 +37,11 @@ Cost configuration is defined at the vendor level. Changes to vendor configurati
 ## When product owners use scoped data
 
 Product owners use scoped data to review value and engagement results, map AI systems to value templates, and review cost output for the vendors behind their AI systems.
+
+**Related topics**  
+
+
+[Feature access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mv-feature-access-by-role.md)
+
+[Review value and engagement insights for AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/review-ai-system-value-and-engagement-data.md)
 

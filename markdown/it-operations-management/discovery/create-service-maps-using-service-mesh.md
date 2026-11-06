@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -30,15 +30,15 @@ If you use a service mesh, a pod running on every node \(Informer\) communicates
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d530502e87">
+<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d577940e92">
 
 Method
 
-</th><th align="left" id="d530502e90">
+</th><th align="left" id="d577940e95">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d530502e96">
+</th></tr></thead><tbody><tr><td id="d577940e101">
 
 **During Helm installation**
 
@@ -60,7 +60,7 @@ If your Prometheus server URL is not the default one, use the following paramete
 --set connectionsDiscovery.prometheusUrl
 ```
 
-</td></tr><tr><td id="d530502e122">
+</td></tr><tr><td id="d577940e127">
 
 **Modify the `k8s_informer.yaml` script**
 

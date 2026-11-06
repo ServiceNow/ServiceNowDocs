@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_LogInToPortalFirstTime.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-register, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -38,4 +38,11 @@ Role required: none
 
 8.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SubmitPortalSelfRegRequest.md)
+
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_RequestPasswordReset.md)
 

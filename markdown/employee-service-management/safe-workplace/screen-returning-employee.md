@@ -7,7 +7,7 @@ release: zurich
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Employee Health Screening, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ The following procedure includes the steps your organization might use in settin
 
 1.  Open the QR code scanning or requirement status page based on the type of device that you're using.
 
-<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d88912e92">
+<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d90367e92">
 
 Platform
 
-</th><th align="left" id="d88912e95">
+</th><th align="left" id="d90367e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88912e101">
+</th></tr></thead><tbody><tr><td id="d90367e101">
 
 **Smartphone or tablet**
 
@@ -48,7 +48,7 @@ Action
 
 From the Now Mobile **Health** screen under the **Health Screening** section, tap **Scan for Entry**.Scan the code that the person presents on their mobile device or on paper. If there is no QR code, enter the user ID in the **User ID** field, for example, `john.smith`.
 
-</td></tr><tr><td id="d88912e131">
+</td></tr><tr><td id="d90367e131">
 
 **Computer**
 
@@ -63,19 +63,19 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 
     If the status is **Not cleared** and your organization's policy is to deny entry at this check point, provide the person with the next steps to take based on your organization's policy. Then, assist the next person in line.
 
-
+    \[Omitted image "erc-status-screening-links-rnd32.png"\] Alt text: Health and safety status screen.
 
 3.  Perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d88912e201">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d90367e202">
 
 Platform
 
-</th><th align="left" id="d88912e204">
+</th><th align="left" id="d90367e205">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88912e210">
+</th></tr></thead><tbody><tr><td id="d90367e211">
 
 **Smartphone or tablet**
 
@@ -83,7 +83,7 @@ Action
 
 Tap **Health Screen** on the Scan for entry page.
 
-</td></tr><tr><td id="d88912e222">
+</td></tr><tr><td id="d90367e223">
 
 **Computer**
 
@@ -92,7 +92,7 @@ Tap **Health Screen** on the Scan for entry page.
 Navigate to **Employee Health Screening** &gt; **Request Entry**.The screening form opens in a new browser tab.
 
 </td></tr></tbody>
-</table>
+</table>    \[Omitted image "health-screen-person-entry.png"\] Alt text: Health screening form
 
 4.  Take the person's temperature and fill out the screening form.
 

@@ -7,8 +7,8 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-09-02"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Entity filters, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
 

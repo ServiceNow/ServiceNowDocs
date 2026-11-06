@@ -1,5 +1,5 @@
 ---
-title: Enable MID audit log \[New in Security Center 1.3 and updated in 1.5\]
+title: Enable MID audit log
 description: The MID Server command audit log records details such as the command name, command hash, name of credential used, and execution status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.html
@@ -7,12 +7,12 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Enable MID audit log \[New in Security Center 1.3and updated in 1.5\]
+# Enable MID audit log
 
 The MID Server command audit log records details such as the command name, command hash, name of credential used, and execution status.
 
@@ -76,6 +76,14 @@ false
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -88,9 +96,17 @@ Security risk
 
 </td><td>
 
--   Severity score: 2.2
--   CVSS score: Low
--   Security risk details: In the event of security investigation, this table can be used by incident response teams to audit the commands run on the MID server. Without this log, there might not be sufficient details to respond to situations such as unauthorized account use.
+-   Severity score: 4.4
+-   CVSS score: Medium
+-   Security risk details: In the event of security investigation, this table can be used by incident response teams to audit the commands run on the MID Server. Without this log, there might not be sufficient details to respond to situations such as unauthorized account use.
+
+</td></tr><tr><td>
+
+Functional Impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -98,7 +114,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+This setting only applies to instances using an active Management, Instrumentation, and Discovery \(MID\) Server. A MID Server enables communication and movement of data between a ServiceNow instance and external applications, data sources, and services. Setting up a MID Server requires downloading the MID Server package on a Linux or Windows host, setting up the connection with the given ServiceNow instance and configuring additional settings. Information and references can be found at [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md). After it has been set up, a MID Server appears as a record in the MID Servers \[ecc\_agent\] table on connecting instance.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/disclosure-overview-esg-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\), Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

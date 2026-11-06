@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio glossary
@@ -66,7 +66,7 @@ When you create a table based off an existing table. Extending a table means the
 
 ## field
 
-A field in Creator Studio is a column on the app's associated table. If you're using condition builder, a field is either a column on the table or a question from the form.
+A field in Creator Studio is a column on the app's underlying table. If you're using condition builder, a field is either a column on the table or a question from the form.
 
 ## form
 

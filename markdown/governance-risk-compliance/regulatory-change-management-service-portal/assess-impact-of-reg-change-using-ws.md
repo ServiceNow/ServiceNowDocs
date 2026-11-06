@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -52,4 +52,9 @@ In the Impact assessments related list, the new impact assessment is listed and 
 ## What to do next
 
 See [Manage regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.md) for information on marking the alert as applicable and managing the regulatory change tasks.
+
+**Related topics**  
+
+
+[Update a regulatory assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/update-reg-assessment-template.md)
 

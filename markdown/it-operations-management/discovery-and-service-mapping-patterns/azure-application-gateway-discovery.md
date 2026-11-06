@@ -1,24 +1,24 @@
 ---
 title: Microsoft Azure Application Gateway discovery with Patterns
-description: The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product. The Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-application-gateway-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Microsoft Azure Application Gateway discovery with Patterns
 
-The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product. The Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

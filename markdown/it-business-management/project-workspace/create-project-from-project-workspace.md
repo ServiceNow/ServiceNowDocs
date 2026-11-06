@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,8 +24,10 @@ Role required: it\_project\_manager
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace**.
 
-2.  Select **New** to create project from the homepage.
+2.  On the homepage, select how you want to create the project.
 
+    -   To create a project without a template, select **New project**.
+    -   To create a project from an existing project template, select the drop-down next to **New project** and then select **New project from template**.
 3.  On the form, fill in the fields.
 
     For field information, see [Project form in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-form-pw.md).
@@ -37,6 +39,9 @@ Role required: it\_project\_manager
 
 -   [Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-project-details-from-project-workspace.md)
 -   [Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md)
+
+-   **[Resource assignment offsets in demand-based projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/demand-project-offsets.md)**  
+When you create a project from a demand, resource assignments keep their start dates, and the offset is recalculated in working days based on the project schedule.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

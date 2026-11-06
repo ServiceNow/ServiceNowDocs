@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/root-cause-correlation.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generative AI powered Root cause analysis, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Root cause correlation
@@ -121,4 +121,6 @@ Threads running​
 
 </td></tr></tbody>
 </table>**Note:** As soon as any of the aforementioned alerts or Critical or Warning performance are identified, the system automatically generates an RCA report after waiting for a maximum of 10 minutes, depending on the conditions.
+
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
 

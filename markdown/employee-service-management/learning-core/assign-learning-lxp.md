@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Assign Learning to your team
@@ -37,4 +37,23 @@ Role required: sn\_lc.learning\_manager
 
 4.  Select **Assign**.
 
+
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+
+**Related topics**  
+
+
+[Enroll in a course collection on My Learning]()
+
+[Resume a course]()
+
+[Create a personal course collection]()
+
+[Create a Learning challenge]()
+
+[View recent activity]()
+
+[Manage Learning]()
+
+[Skill sensing for learning content]()
 

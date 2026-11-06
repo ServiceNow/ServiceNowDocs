@@ -7,10 +7,10 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [search optimization, data]
-breadcrumb: [Creating users, companies, departments, User admin, Configure core features, Administer]
+breadcrumb: [Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Normalization data services
@@ -43,6 +43,8 @@ The Normalized Mappings table lists all the discovered names and the normalized 
 On the normalization properties form, you can see and change the configurable properties for the Normalization Data Services plugin.
 -   **[Changing normalized company names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_NormalChangingNames.md)**  
 You can change a normalized company name several different ways. In all cases, that change affects all normalized fields referring to that company.
+-   **[Enabling duplicate company names in extension tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/enhanced-nds-for-duplicate-records.md)**  
+You can create records with duplicate company names in extension tables, such as Customer Account \[customer\_account\] table, without causing normalization conflicts in Normalization Data Services.
 
 **Parent Topic:**[Creating users, companies, and departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/using-user-administration.md)
 

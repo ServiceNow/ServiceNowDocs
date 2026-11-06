@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/create-integrations-applications.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 ---
 
@@ -23,11 +23,11 @@ Automate and connect anything to ServiceNow. Unify your approach to automation w
 
 </td><td>
 
-[Workflow Data Fabric Hub\[Omitted image "bus-share.svg"\] Alt text:Power AI agents and enrich workflows on the ServiceNow AI Platform with real-time data from across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.md)
+[Workflow Data Fabric Home\[Omitted image "bus-share.svg"\] Alt text:Unify and simplify data from different systems into one consistent, discoverable experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/wdf.md)
 
 </td><td>
 
-[Robotic Process Automation \(RPA\) Hub \[Omitted image "ind-robot-machine.svg"\] Alt text: Emulate user actions and eliminate mundane and repetitive human activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-main-landing-page.md)
+[Robotic Process Automation \(RPA\) Hub \[Omitted image "ind-robot-machine.svg"\] Alt text: Emulate user actions and eliminate mundane and repetitive human activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-explore.md)
 
 </td></tr><tr><td>
 
@@ -35,11 +35,11 @@ Automate and connect anything to ServiceNow. Unify your approach to automation w
 
 </td><td>
 
-[Stream Connect\[Omitted image "bus-cloud.svg"\] Alt text:Connect your Apache Kafka environment to your ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
+[Zero Copy Connectors\[Omitted image "bus-cloud-download.svg"\] Alt text:Fetch real-time data from an external data source without copying it to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/zero-copy-connectors.md)
 
 </td><td>
 
- 
+[Stream Connect\[Omitted image "bus-cloud.svg"\] Alt text:Connect your Apache Kafka environment to your ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 
 </td></tr></tbody>
 </table>## Workflow Data Fabric products and features
@@ -80,23 +80,19 @@ Now Assist in Conversational Spokes application to utilize the conversational ab
 
 </td></tr><tr><td>
 
-[Requirement Intake Diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/requirement-intake-diagram-landing-page.md)
+[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md) Home
 
 </td><td>
 
-Use Requirement Intake Diagram to visualize the complete design automation requirements, which depend on different departments and involve multiple activities. Once the diagram is created, is translated into a detailed Playbook Experience process, which can then be configured and executed as actual running automation.
+Unify data from different systems into one consistent, governed layer. Package trusted, business-ready Data Products with built-in context and meaning. Simplify how teams discover, understand, and reuse data through the catalog.
 
 </td></tr><tr><td>
 
-[Data Catalog](https://docs.data.world/en/375262-data-catalog.html)
+[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/data-catalog.md)
 
 </td><td>
 
-The Data Catalog is a centralized and searchable inventory of all data assets across an organization. It’s enriched with metadata, context, lineage, and governance policies to make data more discoverable, understandable, and usable by both technical and business users.Its core capabilities—such as metadata harvesting, search and discovery, business glossary, data and business lineage visualization, metadata governance and stewardship—are delivered through the data.world cloud-native platform, powered by a knowledge graph architecture.
-
-To get started, please refer to [KB2445501](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2445501), which provides details on entitlements, the required billing applications available on the ServiceNow Store.
-
-See [data.world documentation](https://docs.data.world/en/375262-data-catalog.html) for more information.
+The Data Catalog is a centralized and searchable inventory of all data assets across an organization. It’s enriched with metadata, context, lineage, and governance policies to make data more discoverable, understandable, and usable by both technical and business users.
 
 </td></tr><tr><td>
 
@@ -124,7 +120,7 @@ The External Content Connectors ServiceNow® Store application enables AI Search
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-main-landing-page.md)
+[RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub-landing-page.md)
 
 </td><td>
 
@@ -140,11 +136,11 @@ Connect your Apache Kafka environment to your ServiceNow instance with Stream Co
 
 </td></tr><tr><td>
 
-[Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.md)
+[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/zero-copy-connectors.md)
 
 </td><td>
 
-Power AI agents and enrich workflows on the ServiceNow AI Platform with real-time data from across the enterprise using ServiceNow® Workflow Data Fabric Hub.
+Securely connect to an external data source and access external data directly from your instance with zero copy connectors. Create zero copy connections and data fabric tables in Workflow Data Fabric Hub after requesting the Zero Copy Connectors app through the Now Support Service Catalog. If it isn't already installed, the app installs Workflow Data Fabric Hub.
 
 </td></tr></tbody>
 </table>## Related ServiceNow applications and features

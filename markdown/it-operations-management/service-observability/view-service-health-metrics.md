@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ The metrics are grouped by the following entity types:
 
 For example, say you have metrics from New Relic used to monitor services, databases, and hosts. Say that you also have an issue with the `checkout` service and want to view performance information and metrics related to that service. Service Observability can show you the service, database, and host metrics related to that service that are coming from New Relic, along with related CI information from the ServiceNow platform. Each entity type has its own dashboard and each metric and related CI information has its own chart.
 
-**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
 
 ## Before you begin
 

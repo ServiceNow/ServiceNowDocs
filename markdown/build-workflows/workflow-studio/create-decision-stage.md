@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Decision stages
@@ -24,7 +24,7 @@ Role required: playbook.admin
 
 Add a decision node between stages to determine which stage to run next, based on runtime conditions. For example, in a recruitment playbook, you can have multiple stages for each interview round and one disqualification stage. After each interview stage, you can add a decision to automatically select whether to run the next interview round or proceed to disqualification based on the completed stage.
 
-\[Omitted image "decision-stages.png"\] Alt text: Example of a playbook with decision between stages.
+\[Omitted image "decision-stages.png"\] Alt text: A playbook with decision between stages.
 
 Adding decision between stages help you achieve the following benefits:
 
@@ -154,33 +154,4 @@ You've added and configured decision branches between stages.
 Complete and test the playbook. For more information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-process.md).
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Use AI agent as an activity]()
-
-[Use an AI skill as an activity]()
-
-[Automation Assets]()
-
-[Start with delay input properties]()
-
-[Optional activities]()
-
-[Decision activities]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

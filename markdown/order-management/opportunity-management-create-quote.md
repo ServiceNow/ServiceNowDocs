@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management-create-quote.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a quote from an opportunity
@@ -22,9 +22,9 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to the **Workspaces** &gt; **CRM Workspace**.
 
-2.  From the **List** view, select **Opportunity - All**.
+2.  From the **List** view \[Omitted image "list-outline-24.svg"\] Alt text:, select **Opportunity - All**.
 
 3.  Select the desired opportunity.
 
@@ -33,8 +33,10 @@ Role required: sales\_agent
     If users with integrated roles create quotes then the channel partners and the related channel partners are copied to the newly created quotes. All the created quotes can be viewed on the **Quotes** tab. For details about integrated roles, see [Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/integration-with-sales-and-order-management.md).
 
 
--   **[Create a quote from an opportunity line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-create-quote-line-items.md)**  
-Create a quote from the selected line items in an opportunity record.
+**Related topics**  
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

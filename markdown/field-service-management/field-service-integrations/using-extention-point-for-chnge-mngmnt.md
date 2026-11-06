@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Change Management for Field Service, Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
+breadcrumb: [Setting up Change Management, Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Using an extension point to synchronize work orders with change requests

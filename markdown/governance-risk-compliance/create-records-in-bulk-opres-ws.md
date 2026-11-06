@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-records-in-bulk-opres-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create records in bulk
@@ -64,7 +64,15 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
     The Microsoft Excel is attached to the form.
 
-11. Navigate to the **Result** section of the upload request to view the records that were uploaded successfully and any errors.
+11. View the **Result** section of the upload request to view the records that were uploaded successfully and any errors.
+
+    The Result panel of an Excel upload request shows the skipped, inserted, and updated record counts and warning messages.
+
+    \[Omitted image "excel-upload-request-result-panel.png"\] Alt text: Result panel of an Excel upload request showing skipped, inserted and updated record counts and warning messages.
+
+    The Number of skipped records, Number of inserted records, and Number of updated records counts summarize the upload outcome. The Messages text area lists per-row WARNING and INVALID\_VALUE entries, such as "LEI not found in GLEIF database", "Entity status is NULL, expected ACTIVE", or "Entity name mismatch".
+
+    Use these messages to identify the spreadsheet rows that need correction before re-uploading.
 
     1.  Correct the errors in the Microsoft Excel spreadsheet.
 

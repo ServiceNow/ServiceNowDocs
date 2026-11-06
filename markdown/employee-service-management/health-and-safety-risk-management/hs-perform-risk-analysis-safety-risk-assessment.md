@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Safety risk assessment, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ A risk analysis can be associated with job steps in a job and have their inheren
 
 5.  In the **Risk analyses** tab, add risk analysis records.
 
-<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d386159e114">
+<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d391513e114">
 
 Option
 
-</th><th align="left" id="d386159e117">
+</th><th align="left" id="d391513e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d386159e123">
+</th></tr></thead><tbody><tr><td id="d391513e123">
 
 **Import from predefined job**
 
@@ -52,7 +52,7 @@ Steps
 
 To create risk analyses by importing hazards and controls from a predefined job, see [Create a risk analysis from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
 
-</td></tr><tr><td id="d386159e139">
+</td></tr><tr><td id="d391513e139">
 
 **Create in Risk analyses tab**
 

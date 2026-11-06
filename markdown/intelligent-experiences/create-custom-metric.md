@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-custom-metric.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a custom metric for evaluating agentic workflows
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-Custom metrics enable you to choose how you measure your AI agents and agentic workflows for effectiveness. You can create custom metrics that apply to one agentic AI asset or multiple ones. After you create them, you can select custom metrics in the guided setup for agentic evaluations. You can select both or either custom metrics and metrics installed with Now Assist applications. Examples of custom metrics include:
+Custom metrics enable you to choose you measure your AI agents and agentic workflow for effectiveness. You can create custom metrics that apply to one agentic AI asset or multiple ones. Once created, you can select custom metrics in the guided setup for agentic evaluations. You can select both or either custom metrics and metrics installed with AI applications. Examples of custom metrics include:
 
 -   Testing that a certain phrase is in the response
 -   Measuring the length of a response to test verbosity
@@ -41,7 +41,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
     If you select **Use this content**, then the details you provide are displayed along with the option in the guided setup for an agentic evaluation run.
 
-    You don't have to fill in details, but you have the option to provide useful information and context to aid the custom metric development process. You can also add metric details from the **Metric settings** tab of the Script Editor.
+    You do not have to fill in details, but you have the option to provide useful information and context to aid the custom metric development process. You can also add metric details from the **Metric settings** tab of the Script Editor.
 
 5.  After reviewing your metric information in the **Summary** step of the guided setup, select **Finish setup** to be redirected to the Script Editor.
 
@@ -49,7 +49,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
     By default, the execution plan record sys\_id is included as a metric input.
 
-    The parser tool enables you to access content from the execution plan log without having to parse through the XML or JSON content yourself. You can access the parser tool's outputs with `tool.output`.
+    The parser tool lets you access content from the execution plan log without having to parse through the XML or JSON content yourself. You can access the parser tool's outputs with `tool.output`.
 
     1.  In the Metric inputs section, select the plus icon to open the Add metric input modal.
 
@@ -57,7 +57,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
         |Field|Description|
         |-----|-----------|
-        |Input datatype|List to choose what data type and format the input is|
+        |Input datatype|Drop-down selector to choose what data type and format the input is|
         |Name|Short, user-friendly name for the input|
         |Description|Description of the input. You can view the description of any input by selecting it in the Metric inputs section of the Script Editor.|
         |Test values|Default input values used for testing your script in the Script Editor|
@@ -73,9 +73,9 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
     You can review the details of the custom metric from the guided setup from the Metric settings tab.
 
-    After you make changes, you can select the **Save** button to save your changes.
+    When you have made changes, you can select the **Save** button to save your changes.
 
-    **Important:** Even if you save, the metric will not be available to use in agentic evaluation runs until you publish it.
+    **Important:** Even if you save, the metric won’t be available to use in agentic evaluation runs until you publish it.
 
 8.  Select **Run test** to open the Run test modal, enter your metric test inputs, and run the test.
 
@@ -85,7 +85,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
 9.  Select **Publish metric** to save your script and activate the metric.
 
-    Before publishing, verify that your output matches the metric output template. If not, your metric may not work as expected or display correctly on the evaluation run results page.
+    Before publishing, ensure that your output matches the metric output template. If not, your metric may not work as expected or display correctly on the evaluation run results page.
 
 
 ## Result
@@ -96,5 +96,5 @@ You have a new custom metric that can be used for evaluating agentic AI assets.
 
 Execute an evaluation run and select your custom metric in the guided setup. See [Evaluate agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/execute-aia-eval.md) for more information on executing an evaluation run.
 
-If you don't see your custom metric in the guided setup for an evaluation run, make sure that you have published it.
+If you do not see your custom metric in the guided setup for an evaluation run, make sure that you have published it.
 

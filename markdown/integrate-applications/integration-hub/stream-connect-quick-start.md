@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -78,15 +78,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d248975e377">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d479559e377">
 
 Option
 
-</th><th align="left" id="d248975e380">
+</th><th align="left" id="d479559e380">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d248975e386">
+</th></tr></thead><tbody><tr><td id="d479559e386">
 
 **Apply ACLs to namespaces**
 
@@ -99,7 +99,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d248975e428">
+</td></tr><tr><td id="d479559e428">
 
 **Apply ACLs to defined topics**
 
@@ -224,7 +224,7 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 ### Before you begin
 
 -   Role required: integration\_hub\_admin
--   The first part of this section shows you how to use the Kafka Message trigger in Workflow Studio to consume messages. For more information about the trigger, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow-kafka.md). For more information about Workflow Studio and configuring flows, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md).
+-   The first part of this section shows you how to use the Kafka Message trigger in Workflow Studio to consume messages. For more information about the trigger, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow-kafka.md).
 -   The second part of this section shows you how to use the Script consumer to consume messages. For more information, see [Configure a script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-script-consumer.md).
 
 ### Procedure

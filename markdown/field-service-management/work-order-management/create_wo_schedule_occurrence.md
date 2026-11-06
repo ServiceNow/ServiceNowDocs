@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Generate work orders, Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Generate work orders, Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Generate work orders for schedule occurrences

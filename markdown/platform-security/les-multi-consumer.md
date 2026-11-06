@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/les-multi-consumer.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID server consumer, Configure, Log Export Service \(LES\), Platform Security]
 ---
@@ -30,6 +30,8 @@ To create multiple consumers, you are required to select distinct topics for eac
 ## Parallel processing with multiple MID servers
 
 A major benefit of this multi-consumer architecture is the ability to run multiple consumers in parallel. This parallel processing significantly enhances the overall throughput and efficiency of log consumption, allowing the system to handle larger volumes of diverse log data more effectively than before.
+
+**Note:** For a mid server consumer, the maximum production level throughput is 31500 msg/sec. You can use 27,000 msg/sec as the reliable sustained throughput.
 
 **Parent Topic:**[MID server consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-mid-server-consumer.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-example-h-bar.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Bar visualization examples, Horizontal and vertical bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Horizontal bar visualizations enable you to show the comparative size or frequen
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -38,7 +38,7 @@ Use the horizontal bar visualization type to compare different categories or gro
 
     2.  Choose the Incident \[incident\] table.
 
-    3.  Because this visualization shows open incidents, let's add the Incidents.Open condition in the Filters section.
+    3.  Because this visualization shows open incidents, let's add the predefined condition Incidents.Open in the Filters section.
 
         With this filter selected, the visualization only shows the number of active incidents.
 
@@ -88,11 +88,9 @@ Use the horizontal bar visualization type to compare different categories or gro
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
-
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
 8.  Configure the X axis.
 

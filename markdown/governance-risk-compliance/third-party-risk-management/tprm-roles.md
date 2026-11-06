@@ -293,7 +293,7 @@ The TPR administrator \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], TPR assessor 
 
 **Note:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role required to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
 
-For more information on SAE related roles, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+For more information on SAE related roles, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 ## Roles required for using ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
@@ -310,5 +310,5 @@ The system automatically grants the TPRM GenAI User \[sn\_tprm\_genai.nowassist\
 
 [Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/roles-for-drtpr.md)
 
-[Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md)
+[Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md)
 

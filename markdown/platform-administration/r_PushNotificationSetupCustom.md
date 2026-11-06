@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_PushNotificationSetupCustom.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Push notification setup with a custom push application for ServiceNow mobile apps
@@ -20,7 +20,7 @@ Setting up a push notification infrastructure that uses a custom push app involv
 
 This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/sg-mobile-push-notifications.md)
 
-\[Omitted image "custom-push-app-setup.png"\] Alt text: Workflow diagram showing push notification setup for custom mobile app
+\[Omitted image "CustomPushAppSetup.png"\] Alt text: Push notification setup tasks for a custom push app
 
 ## Before you begin
 

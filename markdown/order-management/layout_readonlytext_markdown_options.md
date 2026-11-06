@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/layout\_readonlytext\_markdown\_options.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-08"
-reading_time_minutes: 1
-breadcrumb: [Enable Markdown in text fields, Configure fields, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Enable Markdown in text fields, Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Markdown options for read-only text
@@ -61,6 +61,8 @@ Italics
 </td><td>
 
 \*this will be italic\*
+
+ \_this will be italic\_
 
 </td><td>
 
@@ -156,6 +158,27 @@ N/A
 
 </td></tr><tr><td>
 
+Table
+
+</td><td>
+
+\| Header1 \| Header2 \|\\n\|---\|---\|\\n\| Row1Col1 \| Row1Col2 \|\\n\| Row2Col1 \| Row2Col2 \|
+
+</td><td>
+
+|Header1|Header2|
+|-------|-------|
+|Row1Col1|Row1Col2|
+|Row2Col1|Row2Col2|
+
+</td><td>
+
+By default, columns are left-aligned. To right-align, use `---:`. To center, use `:---:`.
+
+ By default, table borders are off. To add borders, add theme property `Markdown-table-borderWidth: 1px`.
+
+</td></tr><tr><td>
+
 Dynamic Text
 
 </td><td>
@@ -190,4 +213,20 @@ Outputs the value of the dynamic text based on context
 
 </td></tr></tbody>
 </table>This markdown syntax is the same as that available for field help popups.
+
+## Returning strings with Markdown
+
+When you return a string with Markdown, enclose the string in double quotes, especially when using escaped characters such as `\n` for line breaks. Using single quotes may prevent Markdown from rendering properly and can lead to unexpected results.
+
+For example, when the following return function is entered, it leads to the escaped characters appearing in the output:
+
+\[Omitted image "cpq-layout-markdown-options-1.png"\] Alt text: Incorrect use of single quotes
+
+\[Omitted image "cpq-layout-markdown-options-2.png"\] Alt text: Bad string appearing as a result of single quotes
+
+When the return function encloses the same text in double quotes, the output appears as intended:
+
+\[Omitted image "cpq-layout-markdown-options-3.png"\] Alt text: Correct use of double quotes
+
+\[Omitted image "cpq-layout-markdown-options-4.png"\] Alt text: Appropriate string appearing as a result of double quotes
 

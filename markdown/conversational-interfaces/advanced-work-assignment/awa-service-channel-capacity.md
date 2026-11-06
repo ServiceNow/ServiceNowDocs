@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -24,6 +24,4 @@ Managers can override the default capacity for:
 -   Groups of agents, by using the **Agent Capacity Override** related list on the Group form.
 
 If an agent already has a capacity override, setting the override again updates the existing capacity for that agent. Override capacity is stored in the Agent Capacity \(awa\_agent\_capacity\) table.
-
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

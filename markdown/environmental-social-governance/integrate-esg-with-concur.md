@@ -1,16 +1,16 @@
 ---
-title: Integrating ESG Management \(formerly ESG\) with SAP Concur
+title: Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur
 description: Use the Operational Sustainability Integration with Concur to calculate your carbon emissions when your employees travel by car, airplane, and train for business. Tracking these emissions enables you to manage them and take the necessary actions to reduce them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/integrate-esg-with-concur.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Integrating ESG Management \(formerly ESG\) with SAP Concur
+# Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur
 
 Use the Operational Sustainability Integration with Concur to calculate your carbon emissions when your employees travel by car, airplane, and train for business. Tracking these emissions enables you to manage them and take the necessary actions to reduce them.
 
@@ -24,7 +24,7 @@ To track the emissions, by default, the following metric definitions are provide
 -   Total distance travelled by all employees by train
 -   Total distance travelled by all employees by airplane
 
-You must activate those metric definitions that you require. After you create the necessary connections and credentials and subscribe to the webhook registry, the scheduled jobs that are provided run and every time there is a trip created or updated in Concur, the data gets imported into ESG Management.
+You must activate those metric definitions that you require. After you create the necessary connections and credentials and subscribe to the webhook registry, the scheduled jobs that are provided run and every time there is a trip created or updated in Concur, the data gets imported into Operational Sustainability Management.
 
 -   **[Install the Operational Sustainability Integration with Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-the-esg-integration-with-concur.md)**  
 You can install the Operational Sustainability Integration with Concur application \(sn\_esg\_concur\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
@@ -41,5 +41,5 @@ Run the trip data import scheduled job to obtain the trip data from Concur. The 
 -   **[Run SAP Concur data import scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/run-sap-concur-data-import-scheduled-job.md)**  
 The data import scheduled job automatically runs monthly and can also be executed manually. When this job runs, it aggregates the data from the SAP Concur trip data staging table based on the trip end date and creates metric data for the respective metric definitions.​
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
 

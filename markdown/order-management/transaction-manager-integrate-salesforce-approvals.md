@@ -1,18 +1,18 @@
 ---
-title: Transaction Manager: Integrate Salesforce approvals
-description: Integrate Salesforce approvals into Transaction Manager.
+title: ServiceNow Quote Experience Integrate Salesforce approvals
+description: Integrate Salesforce approvals into ServiceNow Quote ExperienceServiceNow Quote Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/transaction-manager-integrate-salesforce-approvals.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-13"
-reading_time_minutes: 8
-breadcrumb: [Transaction Manager, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager: Integrate Salesforce approvals
+# ServiceNow Quote Experience Integrate Salesforce approvals
 
-Integrate Salesforce approvals into Transaction Manager.
+Integrate Salesforce approvals into ServiceNow Quote ExperienceServiceNow Quote Experience.
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-1.png"\] Alt text: Menu
 
@@ -20,10 +20,10 @@ Integrate Salesforce approvals into Transaction Manager.
 
 ## Salesforce setup
 
-Refer to these Trailheads modules and documentation:
+Refer to these Salesforce Trailheads modules and documentation:
 
 -   Postman: [Quick Start: Connect Postman to Salesforce](https://trailhead.salesforce.com/content/learn/projects/quick-start-connect-postman-to-salesforce)
--   Submit for Approval: [Salesforce Developers](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_process_approvals_submit.htm)
+-   Submit for Approval: [Salesforce Developers: Submit a Record for Approval](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_process_approvals_submit.htm)
 
 An approval process in Salesforce automates record approval workflows in an organization. It defines:
 
@@ -34,21 +34,21 @@ This streamlines the approval process and ensures consistency.
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-1.png"\] Alt text: Workflow
 
-1.  Go to Setup → Approval Processes and select the relevant object, in this case, the "Transaction" record.
-2.  In Manage Approval Processes For, select Opportunity.
-3.  Click **Create New Approval Process** \| Use Jump Start Wizard.
+1.  Go to Setup, click **Approval Processes**, and select the transaction record.
+2.  In **Manage Approval Processes For**, select **Opportunity**.
+3.  Click **Create New Approval Process**.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-2.png"\] Alt text: Create New Approval Process
 
-4.  Ensure the “Add the Submit for Approval and Approval History” option is checked.
+4.  Ensure that the **Add the Submit for Approval and Approval History** option is checked.
 
-    You can specify conditions, if applicable, under the "Entry-Specific Criteria" section.
+    You can specify conditions, if applicable, in the Entry-Specific Criteria section.
 
 5.  Choose **Automatically assign approvers** and set it to anyone with the SysAdmin role.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-rt-flow-3.png"\] Alt text: Automatically assign approvers
 
-6.  Create a custom picklist field on the Transaction record by navigating to Setup → Object Manager → Transaction. Ensure that the field is not set as a “multi-select” picklist.
+6.  Create a custom picklist field in the transaction record by navigating to Setup, clicking **Object Manager**, and then clicking **Transaction**. Ensure that the field is not set as a multi-select picklist.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-4.png"\] Alt text: Transaction
 
@@ -60,12 +60,12 @@ This streamlines the approval process and ensures consistency.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-6.png"\] Alt text: Layout
 
-    If you skipped the previous screenshot you can add the field to the Transaction Layout like:
+    If you skipped the previous step, you can add the field to the Transaction Layout like so:
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-7.png"\] Alt text: Layout
 
-9.  Go back to the Approval Process and click **Initial Submission Actions**, and then click Add New -&gt; Field Update. Configure it with the required values.
-10. Repeat step 9 for Approval Actions, and Rejection Actions sections to ensure that the relevant fields are updated based on the outcome of the approval process: \(Status=Pending\), Approval Actions\(Status=Approved\), and Rejection actions \(Status=Rejected\). The following screenshot shows the final rejection option.
+9.  Go back to the approval process, click **Initial Submission Actions**, click **Add New**, and then select **Field Update**. Configure it with the required values.
+10. To ensure that the relevant fields are updated based on the outcome of the approval process, repeat step 9 for the Approval Actions and Rejection Actions sections. The following screenshot shows the final rejection option.
 
     \[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-8.png"\] Alt text: Transaction
 
@@ -81,16 +81,16 @@ This streamlines the approval process and ensures consistency.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-11.png"\] Alt text: Activate
 
-12. Ensure that CORS includes the URL. Search for CORS in the Setup search bar. Go to Setup → Security → CORS. Verify that these are included in the CORS:
+12. To ensure that CORS includes the URL, in the Setup search bar, search for `CORS`, or go to Setup, click **Security**, and then click **CORS**. Verify that these are included in the CORS:
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-12.png"\] Alt text: Security
 
 
-## Transaction Manager setup: integrations
+## ServiceNow Quote Experience setup integrations
 
-Create two Integrations for an event that will be used to submit the record for approval through transaction manager.
+Create two integrations for an event that will be used to submit the record for approval through ServiceNow Quote Experience.
 
-**Note:** If you want to test these calls in Postman, the endpoint is the my Salesforce URL: &lt;https://logik-1e-dev-ed.develop.my.salesforce.com/&gt;.
+**Note:** If you want to test these calls in Postman, the endpoint is the my Salesforce URL: `<https://logik-1e-dev-ed.develop.my.salesforce.com/>`.
 
 1.  Receive the Salesforce record ID: Fetch the right Salesforce record ID using the UUID. This integration is used for filling in the custom field for the integration above.
 
@@ -126,7 +126,7 @@ Create two Integrations for an event that will be used to submit the record for 
     /services/data/v62.0/query/?q=SELECT Id, CreatedDate,LGK__OpportunityId__c,LGK__OpportunityId__r.Name, LGK__AccountId__r.Name, LGK__AccountId__c,LGK__TransactionUUID__c FROM LGK__Transaction__c WHERE LGK__TransactionUUID__c ='{{txn.id}}'ORDER BY CreatedDate DESC
     ```
 
-    The “contextActorId” refers to the system Admin Record ID in Salesforce. It can be obtained by navigating to Setup → Users, then copying the ID from the URL of the specific user page.
+    **contextActorId** refers to the system Admin Record ID in Salesforce. It can be obtained by navigating to Setup and clicking **Users**, and then copying the ID from the URL of the user page.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-integrations-1.png"\] Alt text: Integrations
 
@@ -158,23 +158,23 @@ Make sure that the transform template has these values correctly:
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-integrations-3.png"\] Alt text: Code
 
-## Transaction Manager setup: creating events
+## ServiceNow Quote Experience setup creating events
 
-The Slack Approvals Integration is implemented through headless event API calls. In this approach, we’ll use these headless API calls in a Record-Triggered flow and perform the callout through Apex Actions.
+Slack Approvals Integration is implemented through headless event API calls. In this approach, we’ll use these headless API calls in a record-triggered flow and perform the callout through Apex actions.
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-create-events-1.png"\] Alt text: Create events
 
-Note that the two integrations created in the previous step are designed to work in sequence. The first integration receives the Salesforce record ID, and the second integration submits it for approval. Alternatively, the process of receiving the Salesforce ID can occur on the "Open Transaction" action by adding the necessary configuration at that stage.
+Note that the two integrations created in the previous step are designed to work in sequence. The first integration receives the Salesforce record ID, and the second integration submits it for approval. Alternatively, the process of receiving the Salesforce ID can occur on the Open Transaction action by adding the necessary configuration at that stage.
 
-Create two additional events that will move the stage either forward for approval or backward for revision. Be sure to note down their respective variable names for use in the API callout configuration.
+Create two additional events that will move the stage either forward for approval or backward for revision. Be sure to note their respective variable names for use in the API callout configuration.
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-create-events-2.png"\] Alt text: Transition stages
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-create-events-3.png"\] Alt text: Decline
 
-## Transaction Manager setup: adding the Submit for Approval button to the layout
+## Add the Submit for approval option to ServiceNow Quote Experience
 
-The button events can be added to the “default\_draft” layout using the following JSON format:
+The button events can be added to the default\_draft layout using the following JSON format:
 
 ```
 {
@@ -186,7 +186,7 @@ The button events can be added to the “default\_draft” layout using the foll
 },
 ```
 
-Make sure to add the custom field to the draft fields: \[\] section; it’s not necessary to include it in the layout.
+Make sure to add the custom field to the `draft fields: []` section; it’s not necessary to include it in the layout.
 
 ```
 {
@@ -198,38 +198,38 @@ Make sure to add the custom field to the draft fields: \[\] section; it’s not 
 
 ## Record-triggered flow
 
-VS Code Environment Setup: Install the VS Code extensions from this document: [Sales Engineering Team Member Setup](https://logikio.atlassian.net/wiki/spaces/SE/pages/1340342294)
+To set up the VS code environment, install the VS Code extensions from this document: [Sales Engineering Team Member Setup](https://logikio.atlassian.net/wiki/spaces/SE/pages/1340342294)
 
-1.  Following the [Approval Process Trailheads](https://trailhead.salesforce.com/content/learn/modules/business_process_automation), create a picklist record on the LGK\_\_Transaction\_\_C object that has the current approval state of the transaction and ensure the process updates the record based on Approval, Rejection, and Pending Approval.
+1.  Following the [Trailheads approval process](https://trailhead.salesforce.com/content/learn/modules/business_process_automation), create a picklist record on the **LGK\_\_Transaction\_\_C** object that has the current approval state of the transaction, and ensure the process updates the record based on approval, rejection, and pending approval.
 
-    The following image shows a custom Field that will trigger the record-triggered field: the Approval\_Status\_\_C field that you made when you created the approval process.
+    The following image shows a custom field that triggers the record-triggered field: the **Approval\_Status\_\_C** field that you made when you created the approval process.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-rt-flow-1.png"\] Alt text: Approval process
 
-    The following image shows what the flow will look like when its complete \(Setup → Process Automation → Flows\)
+    The following image shows what the flow will look like when it's complete.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-rt-flow-2.png"\] Alt text: Workflow
 
 2.  In the Start block, click **Edit**.
 
-    Trigger on the LGK\_\_Transaction\_\_C object based on the custom field as well as ensuring a UUID is not null. Also make sure to click **Run Asynchronously** and **Only when a record is updated to meet**.
+    Trigger on the **LGK\_\_Transaction\_\_C** object based on the custom field, ensuring that a UUID is not null. Also make sure to click **Run Asynchronously** and **Only when a record is updated to meet**.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-rt-flow-3.png"\] Alt text: Configure trigger
 
-3.  Add a Decision block and create outcomes for when the custom field you created is approved or rejected.
+3.  Add a decision block, and create outcomes for when the custom field you created is approved or rejected.
 
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-rt-flow-4.png"\] Alt text: Decision block
 
 
 ## Apex Code
 
-I deployed this Apex Class through VS Code but I’m sure you could do it in Salesforce. The first step is the create a new Project with manifest.
+Although this Apex Class was deployed through VS code, it could also be deployed in Salesforce. The first step is the create a new Project with manifest.
 
-\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-1.png"\] Alt text: Manu
+\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-1.png"\] Alt text: Menu
 
-Next, create an Apex Class \(in the blue box\) as well as a manifest.xml file \(in the green box\) that will go into the respective files in the project directory.
+Next, create an Apex class \(in the blue box\) as well as a manifest.xml file \(in the green box\) to go into the respective files in the project directory.
 
-\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-2.png"\] Alt text: Transaction Manager
+\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-2.png"\] Alt text: Package.xml option in the menu
 
 Apex code:
 
@@ -296,7 +296,7 @@ XML:
 </Package>
 ```
 
-Next, if you’re not logged into the org you want to deploy to, you can do so with the `sf org login web` command, which should take you to login.salesforce.com.
+Next, if you’re not logged into the org you want to deploy to, do so with the `sf org login web` command, which takes you to login.salesforce.com.
 
 When you’ve authorized CLI, the result should resemble the following:
 
@@ -312,13 +312,13 @@ When you’re logged in, execute this command:
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-4.png"\] Alt text: Deployments
 
-Add the Apex Actions, \(look for a name that matches the label parameter in the invocable method\) after the Decision Blocks and make sure your flow looks similar to the one provided in the screenshot.
+Add the Apex actions after the decision blocks, and make sure your flow looks similar to the one provided in the screenshot. \(Look for a name that matches the label parameter in the invocable method.\)
 
-Finally, Activate the Flow and test.
+Finally, activate the flow and test.
 
 ## Testing
 
-After the record-triggered flow and TM Blueprint are created, you may find this SOQL query helpful for debugging your approvals process in SF.
+After the record-triggered flow and the ServiceNow Quote Experience blueprint are created, you may find this SOQL query helpful for debugging your approvals process in Salesforce.
 
 Receiving Salesforce Approval Status \(getting the state of most recent process\)
 

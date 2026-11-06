@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Kanban board, Explore, Automation Center, Workflow Data Fabric]
 ---
@@ -70,7 +70,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
         1.  Select the task icon \(\[Omitted image "icon-task.png"\] Alt text: Task icon\) from the automation task card.
 
-            The Contextual Task Board for the automation request is displayed.
+            The Task Board for the automation request is displayed.
 
         2.  Select the **Add Task** icon.
 

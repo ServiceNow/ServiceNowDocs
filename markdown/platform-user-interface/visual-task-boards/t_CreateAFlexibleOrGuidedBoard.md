@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data driven VTB, Creating VTB, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Data driven Visual Task Boards, Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a data driven Visual Task Board

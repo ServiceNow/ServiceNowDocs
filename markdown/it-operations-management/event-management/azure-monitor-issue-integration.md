@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -37,7 +37,7 @@ Note the following before you start:
 
 -   If you have different tenants with different Azure Service Principal credentials \(per tenant or per subscription\), create separate Azure Push Connector instances. Use them to push Azure alerts or issues into your ServiceNow instances.
 
-You can integrate Azure Monitor issues using Integration Launchpad. For more information, see [Configure Azure Monitor Issue in Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-azure-monitor-issue-integrations-launchpad.md).
+You can integrate Azure Monitor issues using Integration Launchpad. For more information, see [Configure Azure Monitor Issue in Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/configure-azure-monitor-issue-integrations-launchpad.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ You can integrate Azure Monitor issues using Integration Launchpad. For more inf
 
         This creates an alert, and in turn, the Alert Management rule creates an incident. If you're configuring Azure issues for the first time, first create an action group by following the steps in [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/azure-events-authentication.md).
 
-    3.  If you need related alerts and resource information for an issue in the Azure portal under the **Alerts** and **Resources** tab and for bi-directional synchronization, configure the pull connector by performing the steps as mentioned below.
+    3.  To view related alerts and resource information for an issue in the Azure portal under the **Alerts** and **Resources** tabs, or to enable bi-directional synchronization, configure the pull connector. Follow the steps in the following procedure.
 2.  In the ServiceNow AI Platform instance, configure a pull connector if you have used a push connector to send Azure issues by perform the following steps:
 
     1.  Navigate to the push connector you're using by going to **All** &gt; **Push connectors**.
@@ -71,6 +71,8 @@ You can integrate Azure Monitor issues using Integration Launchpad. For more inf
         7.  Select **Test Connection** to validate the connection.
 
             If Azure bi-directional connector is enabled, when an Azure issue is closed in ServiceNow, it automatically closes in the Azure portal as well.
+
+            When an Azure issue is closed in ServiceNow, it automatically closes in the Azure portal as well.
 
 3.  In the ServiceNow AI Platform instance, configure a pull connector if you have used a push connector instance to send Azure issues by perform the following steps:
 

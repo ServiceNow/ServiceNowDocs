@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record time worked on asset repair tasks, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Record time worked on asset repair tasks in the Hardware Asset Workspace, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Record time worked on a repair task manually in the Hardware Asset Workspace

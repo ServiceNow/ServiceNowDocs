@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-agent-advisor-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [AI Agent Advisor, Enable AI experiences]
+breadcrumb: [AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Agent Advisor reference
@@ -21,14 +21,6 @@ Several components are installed with the AI Agent Advisor application.
 Domain separation is not supported for AI Agent Advisor.
 -   **[AI Agent Advisor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-roles.md)**  
 AI Agent Advisor is installed with these roles.
--   **[Components installed with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/components-installed-with-ai-agent-advisor.md)**  
-Several components are installed with the AI Agent Advisor application.
--   **[Domain separation and AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/domain-separation-ai-agent-advisor.md)**  
-Domain separation is not supported for AI Agent Advisor.
--   **[AI Agent Advisor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-roles.md)**  
-AI Agent Advisor is installed with these roles.
-
-**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
 
 **Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---

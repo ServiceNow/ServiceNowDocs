@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/on\_request\_enrichment.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The On Request enrichment
@@ -18,9 +18,9 @@ Information about an enrichment you shouldn't use.
 
 The On Request enrichment enables the same capabilities as the [On Configure/Reconfigure Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md), except that it is called after each field change to any field in the enrichment.
 
-There is a 5 second API timeout for all external API calls in this enrichment.
+In this enrichment, all external API calls time out after five seconds.
 
-Best practices:
+General guidelines:
 
 -   Wrap external APIs in validation logic to ensure that they are only called when absolutely necessary.
 -   Always validate all data required to run an API before you directly call the API.

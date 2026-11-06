@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d316568e121">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d339990e121">
 
 Choice
 
-</th><th align="left" id="d316568e124">
+</th><th align="left" id="d339990e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d316568e130">
+</th></tr></thead><tbody><tr><td id="d339990e130">
 
 **Select a cost plan**
 
@@ -56,7 +56,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d316568e151">
+</td></tr><tr><td id="d339990e151">
 
 **Select options**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d316568e178">
+</td></tr><tr><td id="d339990e178">
 
 **Select new expense line option**
 

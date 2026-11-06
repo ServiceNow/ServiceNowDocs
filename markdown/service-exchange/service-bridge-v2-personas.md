@@ -1,5 +1,5 @@
 ---
-title: User roles for providers
+title: Personas for providers
 description: Learn about the roles, skills, and tasks for the different users in the Service Exchange for Providers application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-personas.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure for provider, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# User roles for providers
+# Personas for providers
 
 Learn about the roles, skills, and tasks for the different users in the Service Exchange for Providers application.
 
@@ -100,22 +100,6 @@ Has agent skills
 -   \*incident\_read​
 -   \*problem\_read​
 -   \*change\_read
-
-</td></tr><tr><td>
-
-Consumer Requestor
-
-</td><td>
-
-End user
-
-</td><td>
-
-Makes requests from the Remote Catalog
-
-</td><td>
-
-sn\_sb.requestor
 
 </td></tr></tbody>
 </table>

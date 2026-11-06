@@ -7,8 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [create new connection card data security, add tokenized connection, third-party system integration, tokenizer service configuration, card data security routes, workflow studio subflow, decision table entry, rest message function, tokenizer resource configuration entry, enable card data security subflow]
 breadcrumb: [Administer, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -24,27 +25,23 @@ Task
 
 </th><th>
 
-Location
+Description
 
 </th><th>
 
-Description
+Where to perform
 
 </th></tr></thead><tbody><tr><td>
 
-[Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md)
+[Configure the tokenizer service](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577)
+
+</td><td>
+
+Use the tokenizer service website to set up a new connections and service accounts for a Third-Party System.
 
 </td><td>
 
 Tokenizer service
-
-</td><td>
-
-Use the Connections view in our tokenizer service website to set up a new connection to a Third-Party System.
-
- Use the Route view in our tokenizer service website to add or modify connection routes and field configurations.
-
- For more information, refer to the [tokenizer service documentation](https://docs.skyflow.com/).
 
 </td></tr><tr><td>
 
@@ -52,11 +49,11 @@ Use the Connections view in our tokenizer service website to set up a new connec
 
 </td><td>
 
-ServiceNow
+Set up a new integration with the Third-Party System.
 
 </td><td>
 
-Set up a new integration with the Third-Party System.
+ServiceNow
 
 </td></tr><tr><td>
 
@@ -64,11 +61,11 @@ Create a request builder and response parser
 
 </td><td>
 
-ServiceNow
+Create request builder and response parser actions for your new connection. Refer to other FSO banking application spokes for examples.
 
 </td><td>
 
-Create request builder and response parser actions for your new connection. Refer to other FSO banking application spokes for examples.
+ServiceNow
 
 </td></tr><tr><td>
 
@@ -76,13 +73,13 @@ Create an "Enable Card Data Security" subflow in Workflow Studio for your Third-
 
 </td><td>
 
-ServiceNow
-
-</td><td>
-
 Create a Card Data Security subflow to handle payloads from the Third-Party System.
 
  Refer to the default subflows in Card Data Security as examples, such as Enable Card Data Security for VROL and Enable Card Data Security for Mastercom.
+
+</td><td>
+
+ServiceNow
 
 </td></tr><tr><td>
 
@@ -90,11 +87,11 @@ Create a Card Data Security subflow to handle payloads from the Third-Party Syst
 
 </td><td>
 
-ServiceNow
+Add a decision table entry to map to the card data security subflow.
 
 </td><td>
 
-Add a decision table entry to map to the card data security subflow.
+ServiceNow
 
 </td></tr><tr><td>
 
@@ -102,11 +99,11 @@ Add a decision table entry to map to the card data security subflow.
 
 </td><td>
 
-ServiceNow
+Create a new REST message function in **All** &gt; **System Web Services** &gt; **Outbound** &gt; **REST Message** for your Third-Party System.
 
 </td><td>
 
-Create a new REST message function in **All** &gt; **System Web Services** &gt; **Outbound** &gt; **REST Message** for your Third-Party System.
+ServiceNow
 
 </td></tr><tr><td>
 
@@ -114,11 +111,11 @@ Create a new REST message function in **All** &gt; **System Web Services** &gt; 
 
 </td><td>
 
-ServiceNow
+Define an HTTP method for each route in the connection.
 
 </td><td>
 
-Define an HTTP method for each route in the connection.
+ServiceNow
 
 </td></tr><tr><td>
 
@@ -126,11 +123,11 @@ Define an HTTP method for each route in the connection.
 
 </td><td>
 
-ServiceNow
+In the Tokenizer Resource Configurations table, add an entry for each message function, and map the endpoint URL to the REST message function.
 
 </td><td>
 
-In the Tokenizer Resource Configurations table, add an entry for each message function, and map the endpoint URL to the REST message function.
+ServiceNow
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/managing-card-data-security.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/c\_DiffBtwnAuditHistSets.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Auditing]
+breadcrumb: [Knowing about History sets, Auditing]
 ---
 
 # Differences Between Audit and History Sets

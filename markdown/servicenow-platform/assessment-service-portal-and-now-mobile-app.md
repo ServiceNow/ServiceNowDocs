@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/assessment-service-portal-and-now-mobile-app.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Take an assessment, Use, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Take an assessment, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Assessments in Service Portal and the Now Mobile app
@@ -63,7 +63,7 @@ When you assign an assessment to a user, an email notification about taking the 
 
 \[Omitted image "AssessmentsandSurveysInNowMobilApp.png"\] Alt text: My Assessments and Surveys applet on a mobile device.
 
-**Note:** In the Zurich release, you now see the assessments and surveys assigned in the card view instead of the item view. If you customize the styles of the legacy card item views in older versions of Assessments and Surveys, the card continues to appear in the item view even after you upgrade to Zurich. You can view the new card view in Zurich only if no customizations were made to the legacy cards.
+**Note:** In the Brazil release, you now see the assessments and surveys assigned in the card view instead of the item view. If you customize the styles of the legacy card item views in older versions of Assessments and Surveys, the card continues to appear in the item view even after you upgrade to Brazil. You can view the new card view in Brazil only if no customizations were made to the legacy cards.
 
 When users open an assessment either in Service Portal or the Now Mobile app, the assessment provides the following features:
 

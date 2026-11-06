@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Run a planned work schedule on demand
@@ -18,7 +18,7 @@ Planned work schedules mainly run using the **Planned Maintenance Nightly Run** 
 
 ## Before you begin
 
-Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
+Role required: admin
 
 ## About this task
 

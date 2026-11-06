@@ -7,9 +7,9 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Global date and time field format, Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer]
+breadcrumb: [Global date and time field format, Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Personalize the system time format

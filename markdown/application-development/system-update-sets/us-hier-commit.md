@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Building applications]
+breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Commit a batch of update sets

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center reference
@@ -22,22 +22,36 @@ Use the Activity Configuration form to do a basic configuration or an advanced c
 Use the Activity Configuration Detail form to specify which records you want to retrieve from a table when certain conditions are met for a basic activity configuration.
 -   **[Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/approval-hub-ootb.md)**  
 Use the following reference information for better approval experience.
--   **[Browser Extension for Employee Center forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecbe-forms.md)**  
-The Browser Extension for Employee Center forms provide information about various configurations required to set up the extension.
 -   **[Connected Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/connected-content-form.md)**  
 Use the connected content form to associate content to the topics in your taxonomy.
 -   **[Default Employee Profile Header Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/default-profile-header.md)**  
 The default Employee Profile header configuration record contains the following field values.
 -   **[Employee Center widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-widgets-list.md)**  
 You can use base system widgets as-is in the portal or clone them to suit your own business needs.
+-   **[Employee Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-fieldconfig.md)**  
+An option in the Employee Profile configuration that provides a list of employee profile fields.
+-   **[Employee Profile Header Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-header-config-form.md)**  
+Use the Employee Profile Header Configuration form to create a header for a profile.
+-   **[Employee Profile portal configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-portal-config-form.md)**  
+Use the Employee Profile Portal Configuration form to configure the profile for a service portal.
+-   **[Employee Profile upgrade scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-profile-upgrade.md)**  
+After upgrading Employee Profile to version 11.0.3, the profile pages on all portals are updated based on the following scenarios.
 -   **[Enhanced Requests Experience forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/req-concept-ec.md)**  
 The forms provide information to set up the Enhanced Requests Experience.
 -   **[External Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/external-link-form.md)**  
 Use the External Link form to create an external link.
+-   **[Featured Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/featured-content-form.md)**  
+Use the featured content form to mark the associated connected content as featured content for a topic.
+-   **[Footer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-footer-form.md)**  
+Use the Footer form to create a new footer that you want to appear in the Employee Center or Employee Center Pro.
+-   **[Footer Menus form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-footer-menus.md)**  
+Use the Footer Menus form to create a new footer menu that you want to appear on your Employee Center or Employee Center Pro.
 -   **[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)**  
 Use the following reference information for the Guided Self-Service functionality.
 -   **[Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/menu-item-form.md)**  
 Use the Menu Items form to configure the items for the **More** menu on the Employee Center header.
+-   **[Overview section form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/profile-overview-section-form.md)**  
+The overview section form enables you to configure a section on the Employee Profile UI.
 -   **[Portal notification configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/portal-notif-config-form.md)**  
 The portal notification configurations form enables you to create a unified notification system for your preferred portal.
 -   **[Portal notification content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/notif-content-form.md)**  

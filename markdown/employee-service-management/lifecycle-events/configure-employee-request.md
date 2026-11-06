@@ -1,5 +1,5 @@
 ---
-title: Configure Lifecycle Events Employee Requests
+title: Configure Lifecycle Events employee requests
 description: Enable your managers and employees to open employee requests directly from Lifecycle events so that they don't have to create a new HR case or request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/configure-employee-request.html
@@ -7,12 +7,12 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Lifecycle Events employee requests, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure Lifecycle Events Employee Requests
+# Configure Lifecycle Events employee requests
 
 Enable your managers and employees to open employee requests directly from Lifecycle events so that they don't have to create a new HR case or request.
 

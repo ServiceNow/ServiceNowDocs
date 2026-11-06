@@ -7,9 +7,9 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Show item details in sections or pop-ups
@@ -71,5 +71,5 @@ When set to **Yes**, the item details appear as a pop-up when the cursor hovers 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service Catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 keywords: [AI governance, AI life cycle, AI Control Tower, AI Risk and Compliance]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -27,9 +27,9 @@ When a new AI system is introduced or an existing system is significantly update
 
 As part of this life cycle, AI systems typically undergo impact and risk assessments to evaluate regulatory exposure, ethical considerations, and operational risk. Assessment outcomes inform risk classification, required controls, and review routing. During development, governance focuses on control attestation, issue management, and policy exception handling from a risk and compliance perspective.
 
-Before deployment, AI systems are reviewed to confirm that required assessments are complete. Open issues and policy exceptions must be resolved or formally accepted, and the system’s residual risk posture must be understood. Based on this review, the AI system may be approved for deployment, returned for remediation, or blocked from release.
+Before deployment, AI systems are reviewed to confirm that required assessments are complete. Open issues and policy exceptions must be resolved or formally accepted, and the system's residual risk posture must be understood. Based on this review, the AI system may be approved for deployment, returned for remediation, or blocked from release.
 
-After deployment, AI systems move into an operational monitoring phase. Ongoing governance monitoring helps maintain visibility into emerging risks, changes in usage, and evolving compliance requirements. Significant changes or incidents may require governance activities to reenter earlier life-cycle phases.
+After deployment, AI systems move into an operational monitoring phase. Ongoing governance activities help maintain visibility into emerging risks, changes in usage, and evolving compliance requirements. Significant changes or incidents may require governance activities to reenter earlier life-cycle phases.
 
 By applying consistent governance across the AI life cycle, organizations can centralize visibility into AI use and align AI initiatives with business strategy. This approach also helps organizations assess and manage risk for both in-house and third-party AI and support scalable deployment with continuous oversight.
 
@@ -48,7 +48,7 @@ In summary, you can use each application as follows:
 
 -   Neither application replaces the other; together they support a coordinated governance framework.
 
-**Note:** The AI governance life cycle is supported by a set of life-cycle tasks that are executed across AICT and AIRC. These tasks provide operational checkpoints that help ensure that governance, risk, and compliance obligations are addressed at the appropriate stage of the life cycle.
+**Note:** The AI governance life cycle is supported by a set of life-cycle tasks that are executed across AICT and AIRC. These tasks provide operational checkpoints that help ensure that governance, risk, and compliance requirements are addressed at the appropriate stage of the life cycle.
 
 ## AI governance roles and responsibilities
 
@@ -60,11 +60,11 @@ AI asset owners authorize deployment and retirement decisions. These decisions a
 
 AI Risk and Compliance managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] provide independent risk and regulatory oversight. They initiate and oversee impact and risk assessments, determine risk classification, validate control implementation, and approve or block life cycle progression.
 
-AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] and AI stewards \[sn\_ai\_governance\_ai\_steward\] execute governance activities. These roles contribute assessment inputs, perform assigned tasks such as control attestations, and support remediation and issue management. They also help keep inventory records accurate throughout the life cycle.
+AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] and AI stewards \[sn\_ai\_governance.ai\_steward\] execute governance activities. These roles contribute assessment inputs, perform assigned tasks such as control attestations, and support remediation and issue management. They also help keep inventory records accurate throughout the life cycle.
 
-Other governance stakeholders, such as security, legal, privacy, or data governance teams, participate as needed. They contribute expertise during assessment, review, and investigation activities. These stakeholders don’t own life cycle decisions.
+Other governance stakeholders, such as security, legal, privacy, or data governance teams, participate as needed. They contribute expertise during assessment, review, and investigation activities. These stakeholders don't own life cycle decisions.
 
-For more information about roles in AICT and AIRC, see [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
+For more information about roles in AICT and AIRC, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
 
 ## AI governance life cycle phases and processes
 
@@ -78,11 +78,9 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     For more information about intake requests in AIRC and AICT, see [Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-intake.md), [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-dataset.md).
 
-    During intake, the following are created or required: an AI intake request, an initial AI system record, and business context for the AI initiative.
-
     All AI use-case intake, including both in-house and third-party AI use cases, is life cycle-managed in the AI Control Tower application. AI Control Tower is required to register AI systems and use cases that must enter the governed AI life cycle and acts as the system of record for life-cycle tracking and portfolio visibility.
 
-    AIRC doesn’t own AI use-case intake. If you have AIRC, you can participate after intake by contributing risk and compliance governance context, such as impact assessments and regulatory evaluation, once an AI use case has been registered in AICT.
+    AIRC doesn't own AI use-case intake. If you have AIRC, you can participate after intake by contributing risk and compliance governance context, such as impact assessments and regulatory evaluation, once an AI use case has been registered in AICT.
 
     Use the Employee Center to request an AI use case for review, or use AICT to add an AI asset directly as part of approved onboarding by a fulfiller. For more information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-ai-system-assets.md), [Create an AI case in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-ai-case-in-the-ai-control-tower.md), [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-ai-model-assets.md), [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-prompt-assets.md), and [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-dataset-assets.md).
 
@@ -90,7 +88,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     **Note:**
 
-    An intake request represents a proposal to introduce or govern an AI use case. Submitting an intake request doesn’t create or deploy an AI asset. After intake review, AI systems, models, and datasets can be registered in AICT as part of approved onboarding and life cycle initiation. AI system or model categories selected during intake \(such as Agentic or Generative\) provide descriptive context only. Life cycle progression, assessment requirements, and governance decisions are driven by risk classification, assessment outcomes, and configured governance rules, not by category selection.
+    An intake request represents a proposal to introduce or govern an AI use case. Submitting an intake request doesn't create or deploy an AI asset. After intake review, AI systems, models, and datasets can be registered in AICT as part of approved onboarding and life cycle initiation. AI system or model categories selected during intake \(such as Agentic or Generative\) provide descriptive context only. Life cycle progression, assessment requirements, and governance decisions are driven by risk classification, assessment outcomes, and configured governance rules, not by category selection.
 
     AI asset inventory and discovery is a life cycle-wide capability that begins during the Demand phase and persists across all stages of the governed AI life cycle. As part of intake and approved onboarding, AI systems, models, datasets, prompts, and related artifacts are registered or discovered and recorded in a centralized AI inventory.
 
@@ -98,7 +96,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     AI assets can be added to the inventory through manual registration during intake and onboarding, as well as through automated discovery using configured integrations with supported cloud and third-party platforms. Discovered assets and relationships are reviewed and completed by AI asset owners and AI stewards to help ensure inventory accuracy and governance readiness.
 
-    AICT owns and manages the AI asset inventory and acts as the system of record for AI asset records, relationships, and life cycle state. AIRC consumes inventory data for downstream governance activities such as impact assessments, risk classification, control evaluation, and regulatory reporting, but doesn’t create or own inventory records.
+    AICT owns and manages the AI asset inventory and acts as the system of record for AI asset records, relationships, and life cycle state. AIRC consumes inventory data for downstream governance activities such as impact assessments, risk classification, control evaluation, and regulatory reporting, but doesn't create or own inventory records.
 
     **Note:**
 
@@ -140,7 +138,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     During validation, the following records are created or updated: Control attestations, issue records, remediation evidence, and exception records.
 
-    For more information, see [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md), [Create control attestations for AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md), and [Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md).
+    For more information, see [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md), [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md), and [Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md).
 
 -   **Build and validate: Pre-deployment review**
 
@@ -184,7 +182,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     Governance actions identified during monitoring may result in reassessment, additional controls, or life cycle state updates managed through AICT.
 
-    For more information, see [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-value-tab.md) and [AI risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-risk-heatmap-workbench.md).
+    For more information, see [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-value-tab.md), , and [AI risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-risk-heatmap-workbench.md).
 
 -   **Life cycle closure: Retire and offboard**
 

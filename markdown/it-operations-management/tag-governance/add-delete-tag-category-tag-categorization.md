@@ -1,20 +1,20 @@
 ---
-title: Add or delete a tag category for Tag Categorization
-description: Add or delete a tag category for improved tagging of your organization's configuration items \(CIs\) and cloud assets.
+title: Add or delete tag categories for Tag Categorization
+description: Add or delete tag categories for improved tagging of your organization's configuration items \(CIs\) and cloud assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/tag-governance/add-delete-tag-category-tag-categorization.html
 release: zurich
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Add or delete a tag category for Tag Categorization
+# Add or delete tag categories for Tag Categorization
 
-Add or delete a tag category for improved tagging of your organization's configuration items \(CIs\) and cloud assets.
+Add or delete tag categories for improved tagging of your organization's configuration items \(CIs\) and cloud assets.
 
 ## Before you begin
 
@@ -28,21 +28,21 @@ Role required: tag\_governance\_admin
 
 2.  Verify that you're in the leaf domain.
 
-    1.  In the page header, select the domain icon \(\[Omitted image "globe-icon.png"\]\).
+    1.  In the page header, select the globe icon \(\[Omitted image "globe-icon.png"\]\).
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 
 3.  Add or delete a tag category.
 
-<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d675632e127">
+<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d728958e129">
 
 Action
 
-</th><th align="left" id="d675632e130">
+</th><th align="left" id="d728958e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d675632e136">
+</th></tr></thead><tbody><tr><td id="d728958e138">
 
 **Add a tag category**
 
@@ -61,7 +61,7 @@ Description
 8.  Select **Submit** on the CI tag category - New Record page.
 
 
-</td></tr><tr><td id="d675632e198">
+</td></tr><tr><td id="d728958e199">
 
 **Delete a tag category**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/using-va-for-public-sector-digital-services.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -31,7 +31,7 @@ To learn more about topic blocks and how to use them in Virtual Agent conversati
 
 Before creating Virtual Agent conversations, review the following prerequisites and the basic process for working with pre-built topics and topic blocks in Virtual Agent Designer.
 
--   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
+-   Activate the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
 -   Determine the public sector use cases for topics to be created.
 -   In Virtual Agent Designer:
     -   [Preview \(test\) pre-built topics and topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-designer-testing.md), such as the public sector blocks, to see how they work. Use the **Type** filter to sort the list of items, such as topic blocks, in the Topics page.
@@ -45,13 +45,9 @@ Before creating Virtual Agent conversations, review the following prerequisites 
 
 Use this topic block in a conversation to ask constituents to select a service from a list of available government services, for example permits or licenses. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
 
-
-
 ## Create Public Sector Additional Members topic block
 
 Use this topic block to let your constituents specify other people, such as family members or other authorized individuals, who can view a case or issue. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
-
-
 
 When you use this topic block in a conversation, you specify the input parameters from the originating \(calling\) topic to the topic block.
 

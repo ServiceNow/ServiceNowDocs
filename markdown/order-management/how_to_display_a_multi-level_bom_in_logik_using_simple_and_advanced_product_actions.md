@@ -1,16 +1,16 @@
 ---
-title: How to display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
+title: Display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
 description: Two ways to display a bill of materials that includes hierarchical relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/how\_to\_display\_a\_multi-level\_bom\_in\_logik\_using\_simple\_and\_advanced\_product\_actions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# How to display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
+# Display a multi-level BOM in ServiceNow CPQ using simple and advanced product actions
 
 Two ways to display a bill of materials that includes hierarchical relationships.
 

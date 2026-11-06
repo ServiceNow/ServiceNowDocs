@@ -7,7 +7,7 @@ release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,7 +48,7 @@ At any time, select the reset icon \[Omitted image "icon-um-reset-map.png"\] to 
 
     **Note:** No deletions happen until you select **Save**.
 
-    -   To delete a single connection, select it and then select **Delete** in the Attributes panel. Alternatively, right-click the connection and then select **Delete**.
+    -   To delete a single connection, select it and then select **Delete** in the Attributes panel. Alternatively, select and hold \(or right-click\) the connection and then select **Delete**.
     -   To delete only particular connections for a CI, select the CI. In the editing panel, scroll to the connections and select **Delete**.
     -   To delete all connections both upstream and downstream of a CI, select the CI and then select **Remove CI**.
 2.  Deletions happen when you select **Save**.

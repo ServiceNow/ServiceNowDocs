@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)
@@ -22,7 +22,7 @@ Create or update an OpenID Connect \(OIDC\) configuration by using the Multi-Pro
 -   [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ActivateMultipleProviderSSO.md). Multi-Provider SSO feature supports domain separation, you can specify different IdP's to different domains.
 -   [Configure Multi-provider SSO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_ConfigureMultiProviderSSOProps.md)
 -   [Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/activate-approval-esignature.md) to enable eSignature for the OIDC IdP.
--   Role required: admin
+-   Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 If you have a client ID, client secret, and well-known configuration URL of the identity provider, you can directly import the OIDC configuration for SSO.
 
@@ -44,7 +44,7 @@ If you do not have the required information about the identity provider, you can
     -   To create a new configuration, click **New** and select **OpenID Connect**.
 3.  For a new configuration, enter the OIDC configuration information in one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d189568e169">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d221881e169">
 
 **Import OpenID Connect Well-Known Configuration**
 
@@ -52,7 +52,7 @@ If you do not have the required information about the identity provider, you can
 
 If you have the well-known configuration URL along with your associated client credentials, you can directly import an OIDC configuration.**Note:** If you import the OIDC well-known configuration, all related fields are auto-populated.
 
-</td></tr><tr><td id="d189568e181">
+</td></tr><tr><td id="d221881e181">
 
 **Manually configure the OIDC Identity Provider form**
 

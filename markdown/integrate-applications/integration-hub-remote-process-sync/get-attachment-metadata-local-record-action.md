@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Actions, Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
 
@@ -28,6 +28,10 @@ Available as a ServiceNow Core Remote Process Sync action.
 
     This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/user-access-flow-designer.md).
 
+
+## Retry policy
+
+The Get Attachment Metadata for Local Record action uses the RPS Push Attachment Policy to retry failed requests at regular intervals. To view or edit this policy, navigate to the Retry Policies \[sys\_retry\_policy\] table at **All** &gt; **IntegrationHub** &gt; **Connections &amp; Credentials** &gt; **Retry Policies**.
 
 ## Inputs
 
@@ -62,6 +66,22 @@ Provide a value for each input that your action needs. To add dynamic values, yo
     Data type: **Array of Objects**
 
     Array containing a list of attachment objects to evaluate.
+
+-   **Max Attachment Size \(MB\)**
+
+    Data type: **Integer**
+
+    Integer specifying the maximum uncompressed attachment size that can be included in the list of attachments, in megabytes.
+
+    You can use this field to limit attachment sizes and avoid errors that may result from syncing very large attachments.
+
+    Leave this field blank to use the platform limit for attachment sizes.
+
+-   **Allowed Extensions**
+
+    Data type: **List**
+
+    List containing the attachment extensions that can be included in the list of attachments. Leave this field blank to use the platform restrictions.
 
 
 ## Outputs

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/email-as-an-interaction.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Email Interaction
@@ -17,5 +17,9 @@ Like chat and phone channels, Email Interaction enables agents to manage email c
 
 To enable Email Interaction for Customer Service Management \(CSM\), configure system properties and define flows for processing incoming emails. These flows determine how emails are converted into interactions and, if necessary, into cases.
 
-Additionally, enabling notifications for interactions helps keep agents informed about email responses received from customer, providing timely responses to customer inquiries.
+Additionally, enabling notifications for interactions notifies agents about email responses received from customers, supporting timely responses to customer inquiries.
+
+When a customer replies to an email thread linked to a closed interaction, the system automatically routes the reply to the correct open case or interaction. The system does not create a new interaction. For details, see [Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/email-reply-routing-closed-interactions.md).
+
+Check your entitlements to determine whether you have access to generate AI summaries of email interactions on demand. For details, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/eaai-ai-summarization-email-interactions.md).
 

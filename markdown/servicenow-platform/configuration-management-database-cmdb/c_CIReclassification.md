@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ The class of a CI can be upgraded, downgraded, or switched to a different branch
 
 ## Configure automatic CI reclassification using system properties
 
-You can use system properties to configure system-wide IRE behavior for CI reclassification. For information about CI reclassification-related properties, including access, see [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
+You can use system properties to configure system-wide IRE behavior for CI reclassification. For information about CI reclassification-related properties, including access, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
 -   The following properties enable or disable automatic reclassification updates that are specified in a payload. These properties are set to **true** in the base system, enabling processing of CI updates, including CI reclassification updates.
 
@@ -118,7 +118,7 @@ Reduce data loss during IRE processing by preventing a CI class change for speci
 
 ### Before you begin
 
-Role required: Itil\_admin \(Itil has read privilege only\)
+Role required: sn\_cmdb\_admin or itil\_admin \(sn\_cmdb\_editor and itil have read access only\)
 
 ### About this task
 

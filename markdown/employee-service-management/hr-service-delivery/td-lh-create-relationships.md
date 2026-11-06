@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Create support relationships

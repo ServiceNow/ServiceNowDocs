@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-characteristics-to-product-offering.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create characteristics and options, Defining characteristics and options, Create product offerings, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create product characteristics and characteristic options, Defining product characteristics and characteristic options, Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add characteristic and characteristic options to a product offering
@@ -24,19 +24,20 @@ There are a number of ways to create characteristic and characteristic options. 
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you're working with.
 
 3.  In the **Product Offering Characteristics** tab, select **New**.
 
-4.  In the form, fill in the fields.
+4.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Characteristic|Product offering characteristic. Select an existing characteristic. Select **New** to create a characteristic.|
     |Characteristic option|Characteristic option for the product offering. Select an existing characteristic option or select **New** to create options.|
     |Characteristic type|Option that lets you select a characteristic type.|
+    |Value|Default value for the characteristic, applicable only when the characteristic's input type is single-line text, integer, email, address, label, decimal, date, date/time, or duration. This field is available only when the characteristic has one of these input types. For choice, complex, or boolean characteristics, use the characteristic option instead.|
     |Product offering|Name of the product offering.|
     |Order|Numerical order for the options. Options designated with the number 1 appear first in the order.|
     |Mandatory|Option indicating that the characteristic option is required to complete the order.|
@@ -47,4 +48,11 @@ There are a number of ways to create characteristic and characteristic options. 
 
     The product offering characteristic is added to the product offering. Select the characteristic in the **Product Offering Characteristics** tab to make further changes.
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

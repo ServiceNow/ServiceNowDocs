@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,9 +30,9 @@ You can associate one record with multiple different records. For example, you c
 
     For information on how to navigate to a project in the Project Workspace, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
-2.  Select **RIDAC** and select **All RIDAC**.
+2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
-3.  On the All RIDAC page, select context menu row for an individual risk, issue, decision, action, or request change record.
+3.  On the Project form, select **Row context menu** for an individual risk, issue, decision, action, or request change record.
 
 4.  Select **Associate RIDAC**.
 

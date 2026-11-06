@@ -19,7 +19,7 @@ The External Communication Channel \(ECC\) Queue is a connection point between a
 
 <table id="table_sf2_dsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## Asynchronous Message Bus
@@ -28,7 +28,7 @@ The MID Server subscribes to messages published by the Asynchronous Message Bus 
 
 The MID Server opens a persistent connection to the instance through the AMB Client and listens on the `/mid/server/<mid_sys_id>` AMB channel. When an output record is inserted into the Queue \[ecc\_queue\] table, an AMB message is sent to the MID Server's channel. The MID Server receives this message and immediately polls the ecc\_queue table for work, unless the MID Server is busy and the message priority level is not Interactive.
 
-The MID Server polls the ECC queue at the maximum regular interval defined in the **mid.poll.time** configuration parameter \(40 seconds by default\), regardless of AMB message activity. If the MID is busy and receeives an AMB message witrh a priority level other than Interactive, the queue poll time changes to **mid.poll.time.standard** \(5 seconds by default\). This polling of the ECC queue at a regular interval is done in case the AMB connection is dropped.
+The MID Server polls the ECC queue at the maximum regular interval defined in the **mid.poll.time** configuration parameter \(40 seconds by default\), regardless of AMB message activity. If the MID is busy and receives an AMB message with a priority level other than Interactive, the queue poll time changes to **mid.poll.time.standard** \(5 seconds by default\). This polling of the ECC queue at a regular interval is done in case the AMB connection is dropped.
 
 \[Omitted image "MIDServerPollingArchitectureDiagram.png"\] Alt text: MID Server ECC queue polling process
 

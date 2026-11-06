@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-init-sms-csm-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Ensure that an administrator has configured the Conversational SMS Integration w
     -   To create another interaction, click **New** in the My Interactions list.
 4.  On the Details tab of the workspace form, fill in the details for a new interaction or modify the details.
 
-    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-agent-actions.md).
+    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-agent-actions.md).
 
     **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see [Associate user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/associate-user-profiles-messaging-interactions.md).
 

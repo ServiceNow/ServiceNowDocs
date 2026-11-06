@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Incident Management for Field Service, Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
+breadcrumb: [Setting up Incident Management, Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Using extension point for incident management

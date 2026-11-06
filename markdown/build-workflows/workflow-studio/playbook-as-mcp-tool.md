@@ -7,10 +7,10 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbooks as an MCP tool
@@ -71,9 +71,7 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
 -   **Step 4: Use the playbook from the MCP client**
 
-    As an employee, use the configured MCP client to trigger the playbook.
-
-    Trigger the playbook through a Claude chat. \[Omitted image "example-playbook-claude-trigger.png"\] Alt text: End user can trigger the playbook through a Claude chat.
+    As an employee, use the configured MCP client to trigger the playbook. For example, trigger the playbook from a Claude chat. \[Omitted image "example-playbook-claude-trigger.png"\] Alt text: End user can trigger the playbook through a Claude chat.
 
     Claude searches for the available tools and runs the employee onboarding playbook that you have enabled through MCP tool. Claude prompts you for the required inputs. You can either enter the information or upload a document that contains the required information. \[Omitted image "example-playbook-claude-screen2.png"\] Alt text: The playbook is now triggered and prompts the user for inputs.
 
@@ -81,11 +79,4 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
     After all the activities of the playbook are completed, Claude displays a confirmation message with a summary. \[Omitted image "example-playbook-claude-summary.png"\] Alt text: The playbook is complete. Claude displays the confirmation along with the summary.
 
-
--   **[Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md)**  
-Create a tool in the MCP Server Console and expose it in an MCP server so that MCP clients can invoke the playbook through the MCP.
--   **[Check the compatibility of playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/check-mcp-compatibility-playbooks.md)**  
-Verify that the playbook is compatible to be used as an MCP tool.
-
-**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-a-process.md)
 

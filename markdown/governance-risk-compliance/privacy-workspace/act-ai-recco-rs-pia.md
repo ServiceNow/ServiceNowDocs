@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [review, AI recommendations, privacy task, control objectives, risk statements, Privacy Management]
 breadcrumb: [AI recommendations in privacy assessments, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]

@@ -1,5 +1,5 @@
 ---
-title: Creating telephone number components
+title: Create the components of a telephone number
 description: Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create\_components\_of\_a\_telephone\_number.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
-# Creating telephone number components
+# Create the components of a telephone number
 
 Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 

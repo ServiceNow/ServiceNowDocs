@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Association of citations to controls, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

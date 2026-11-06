@@ -1,19 +1,19 @@
 ---
 title: Configure the Grant program budget and award allocation
-description: The program budget and award allocation step structures how Grant Program Managers define, categorize, and allocate the total program budget across budget categories and award types within the Grants Management Program setup playbook.
+description: The program budget and award allocation step structures how Grant Program Managers define, categorize, and allocate the total program budget across budget categories and award types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gmp-pgr-budget-award-allocation.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-29"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [program budget, award allocation, grants management, budget categories]
-breadcrumb: [Set up a grant program, Grants Management Program Setup, Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Set up a grant program, Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the Grant program budget and award allocation
 
-The program budget and award allocation step structures how Grant Program Managers define, categorize, and allocate the total program budget across budget categories and award types within the Grants Management Program setup playbook.
+The program budget and award allocation step structures how Grant Program Managers define, categorize, and allocate the total program budget across budget categories and award types.
 
 ## Program Budget overview
 
@@ -26,7 +26,7 @@ The Program Budget step in the Grants management Program setup playbook defines 
 
 3.  **Award allocation**: The Grant Program Manager selects an award type and configures how the award budget, derived from the Awards budget category, is distributed across recipients. Disbursement schedule and disbursement type fields are also configured in this section.
 
-\[Omitted image "image.psds-gm-program-budget"\] Alt text: Grant program budget and award allocation
+\[Omitted image "psds-gm-program-budget-july-26.png"\] Alt text: Program budget playbook view showing the three-section layout: Program Budget, Budget Categories, and Award Allocation
 
 After the budget activity is completed, the Budget tab on the Grant Program record displays a read-only view.
 
@@ -57,7 +57,7 @@ The Award Allocation section supports the following award types. All award types
 
 ## Validation chain
 
-The program budget setup enforces validation at three levels: upstream \(constraints inherited from the funding program\), within the program budget step itself, and downstream \(rules applied to later stages such as proposal budget and funding allocation that consume the values set in this step\).
+The program budget setup enforces validation at three levels. Upstream validation applies constraints inherited from the funding program. Validation within the program budget step itself ensures internal consistency. Downstream validation applies rules to later stages such as proposal budget and funding allocation.
 
 1.  Upstream, funding program check: The Total Program Budget can't exceed the funding program budget. When multiple grant programs exist under the same funding program, the combined budget across all grant programs is validated against the funding program total.
 2.  Within the program budget: The Awards budget category amount cascades directly into the Award Allocation section. The **Max Budget per Award** field is derived from and constrained by the Awards category amount. Budget category allocations must total 100% of the Total Program Budget before the activity can be marked complete.

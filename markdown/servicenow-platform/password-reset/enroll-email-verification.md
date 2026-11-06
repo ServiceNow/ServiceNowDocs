@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Enrolling in the Password Reset application to reset your password, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Enrolling in the Password Reset application to reset your password, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Enroll for the Password Reset program using emailed codes
@@ -55,19 +55,4 @@ During this enrollment process, you add the email address, the system sends you 
     -   [Enroll for the Password Reset program using questions and answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_EnrollUsingASecurityQuestion.md)
     -   [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_EnrollUsingSMS.md)
     -   [Enroll for the Password Reset program using an authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/authenticator-app-verification.md)
-
-**Parent Topic:**[Enrolling in the Password Reset application to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/c_EnrollInPasswordReset.md)
-
-**Related topics**  
-
-
-[Enroll for the Password Reset program using an authenticator]()
-
-[Enroll for the Password Reset program using SMS codes]()
-
-[Enroll for the Password Reset program using questions and answers]()
-
-[Enroll for the Password Reset program using Soft PIN]()
-
-[Reset your password on Windows systems]()
 

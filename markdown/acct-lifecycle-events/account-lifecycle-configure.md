@@ -1,23 +1,31 @@
 ---
-title: Account onboarding
-description: Set up and configure the Customer Success Management application.
+title: Configure the account onboarding playbook
+description: Customize the account onboarding playbook to your organization's onboarding process by configuring its activities, tasks, data validation rules, and data import behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-configure.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Customer Success Management]
 ---
 
-# Account onboarding
+# Configure the account onboarding playbook
 
-Set up and configure the Customer Success Management application.
+Customize the account onboarding playbook to your organization's onboarding process by configuring its activities, tasks, data validation rules, and data import behavior.
 
--   **[Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-playbook.md)**  
-Use the account onboarding playbook to import, stage, manage, and publish account data.
+The account onboarding playbook includes default activities, tasks, and data validation rules in the base system. Customize the playbook to match your organization's onboarding process by configuring its activities, tasks, data validation rules, and data import behavior.
+
 -   **[Configure the onboarding playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-pad.md)**  
 Use Playbooks in Workflow Studio to configure the account onboarding playbook activities.
+-   **[Configure onboarding tasks in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure-simple.md)**  
+You can configure customer success onboarding tasks in a playbook using the Process Automation Designer.
+-   **[Configure data validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-data-valid-assist.md)**  
+Create field and record level validations in the Data validation assist table.
+-   **[Configure the account onboarding data import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-import-builder.md)**  
+Use the Import Builder to configure the account onboarding data import task.
+-   **[Add the data import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-add-data-import.md)**  
+Add the data import task that you’ve configured to the **Account lifecycle onboarding process** defined in the Process Automation Designer.
 -   **[Set up recommended actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-rec-action.md)**  
 Set up recommended actions to display relevant recommendations in the account onboarding playbook.
 -   **[Run scheduled job to back up staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-backup.md)**  

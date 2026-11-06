@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ChangePasswordFromUserForm.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -28,11 +28,11 @@ Users with the required roles can change their passwords from the Customer Servi
 
     For example, https://example.com/csm.
 
-2.  Click your user name in the portal header.
+2.  Select your user name in the portal header.
 
-3.  Click **Profile** to display the user profile information.
+3.  Select **Profile** to display the user profile information.
 
-4.  Click **Change Password** under **Security**.
+4.  Select **Change Password** under **Security**.
 
 5.  On the form, fill in the fields.
 
@@ -78,6 +78,11 @@ The new password, which must meet the following requirements:
 The new password.
 
 </td></tr></tbody>
-</table>6.  Click **Change**.
+</table>6.  Select **Change**.
 
+
+**Related topics**  
+
+
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_RequestPasswordReset.md)
 

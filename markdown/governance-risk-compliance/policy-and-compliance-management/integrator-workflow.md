@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [GRC: Policy and Compliance integrator, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Workflow for GRC: Policy and Compliance integrator
@@ -22,6 +22,6 @@ The GRC: Policy and Compliance integrator application workflow consists of the f
 2.  Log in with the sn\_compliance.admin role into an instance and assign the sn\_grc\_cim.admin role to a user.
 3.  Use the APIs and staging tables that are supported with the applications and move the data from the staging tables into the GRC: Policy and Compliance Management application.
 
-    For more information about how to integrate batch records and assign library import tasks with the GRC: Policy and Compliance Management application, see [Using the GRC: Policy and Compliance integrator to display batch records and import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/integrator-in-classic-ui.md), [Content integration batch table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/api-batch.md), and [Assign a library import task for compliance approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
+    For more information about how to integrate batch records and assign library import tasks with the GRC: Policy and Compliance Management application, see [Using the GRC: Policy and Compliance integrator to display batch records and import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/integrator-in-classic-ui.md), [Content integration batch table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/api-batch.md), and [Assign a library import task for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
 
 

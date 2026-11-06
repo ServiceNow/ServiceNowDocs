@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-drtp-reg-branch.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a branch and enhance digital resilience data
@@ -25,6 +25,15 @@ A legal entity may operate multiple branches across various cities or countries,
 \[Omitted image "tpr-leg-ent-branches.png"\] Alt text: Branches.
 
 If a new branch is launched, its information is also required for regulatory reporting.
+
+When a valid LEI is entered, the system performs a real-time lookup on the GLEIF \(Global Legal Entity Identifier Foundation\) database at gleif.org. The lookup resolves the entity hierarchy by returning:
+
+-   Direct parent entity LEI and name
+-   Ultimate parent entity LEI and name
+-   Registered country of the branch entity
+-   Relationships such as Parent, Subsidiary, or Branch
+
+It eliminates the need for manual lookup and ensures that branch records contain accurate, regulator-compliant entity identification data aligned with the DORA Register of Information requirements.
 
 ## Procedure
 
@@ -45,9 +54,11 @@ If a new branch is launched, its information is also required for regulatory rep
     -   ID of the branch and its originating country
     The number for the branch is auto-generated. Once the branch details are complete, the information is ready to be captured in the information register.
 
-    For more information, see [Create New Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-branch-form.md).
+    For more information, see [Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-branch-form.md).
 
 4.  Select **Save**.
+
+    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the system automatically populates the Name of the branch, Country of the branch, and LEI of the financial entity head office fields. The data is returned from GLEIF.
 
     The digital resilience information for the branch is shown in the example.
 
@@ -64,8 +75,8 @@ If a new branch is launched, its information is also required for regulatory rep
 
 Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-drtp-reg-function.md).
 
--   **[Create New Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-branch-form.md)**  
-On the Create New Branch form, fill in the fields.
+-   **[Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-branch-form.md)**  
+On the Create Branch form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-dg-registers.md)
 

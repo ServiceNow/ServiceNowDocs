@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.8.2 is the latest version.
+Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.7.5 is the latest version. For version history of the spoke, see [Microsoft Entra ID Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-azure-ad-spoke.html).
 
 ## Spoke dependencies
 
@@ -72,7 +72,7 @@ The Microsoft Entra ID spoke provides actions to automate Entra tasks when event
 
 **Note:**
 
--   One of the mentioned permissions is required to call the API.
+-   For every action, required permissions from least to most privileged are mentioned. At least one, not all, of the mentioned permissions is required to call the API.
 -   Ensure that you are aware of these considerations:
     -   Select the Delegated permission if you intend to use the **Authorization Code** grant type while registering Entra ID as an OAuth provider.
     -   Select the Application permission if you intend to use the **Client Credentials** grant type while registering Entra ID as an OAuth provider.

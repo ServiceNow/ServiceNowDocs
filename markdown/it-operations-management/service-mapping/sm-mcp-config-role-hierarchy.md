@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MCP Server, Service Mapping, role hierarchy, sn\_sm\_gen\_ai.sm\_mcp\_user, service\_mapping\_user, access control, Now Assist, CMDB]
-breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure roles for the Service Mapping MCP tools
@@ -21,8 +21,8 @@ Assign the required roles to users so they can connect to the CMDB MCP Server an
 
 Before assigning roles, confirm the following requirements are met.
 
--   You have the latest version of the MCP Platform Manager plugin activated.
--   You have at least version 1.1.1 of the CMDB MCP Server \[sn\_cmdb\_mcp\_server\] application installed.
+-   You have the latest version of MCP Platform Manager plugin activated.
+-   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.1.1, application installed.
 
 Role required: admin
 

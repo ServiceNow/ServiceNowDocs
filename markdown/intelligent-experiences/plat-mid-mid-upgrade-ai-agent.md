@@ -1,0 +1,126 @@
+---
+title: MID upgrade AI agent
+description: This AI agent helps admins diagnose and resolve 'Upgrade Failed' issues on MID Servers by automating the identification, script deployment, error collection, and resolution workflow.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/plat-mid-mid-upgrade-ai-agent.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [MID Server AI agents, ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# MID upgrade AI agent
+
+This AI agent helps admins diagnose and resolve 'Upgrade Failed' issues on MID Servers by automating the identification, script deployment, error collection, and resolution workflow.
+
+## Workflow
+
+The agent is designed for users managing MID Server health and upgrades in Windows and Linux environments.
+
+1.  Check if MID Server details are provided as input. Otherwise, use the Get MID Server Details tool to retrieve them.
+2.  If the user requests diagnostics, retrieve the script named 'Get-MIDUpgradeErrors' for the selected OS using the MID Script Retriever tool.
+3.  Execute the script.
+4.  Ask the user to provide the error output the diagnostic script generates.
+5.  Send the output to the Resolution Codes Tool for analysis.
+6.  Display the results to the user.
+7.  Confirm resolution or repeat analysis.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Scripts**
+
+Error Resolution Lookup
+
+Get MID Server Details
+
+MID Script Retriever
+
+-   **Web searches**
+
+Gather product documentation info from site www.servicenow.com/docs/
+
+Gather support information on site support.servicenow.com
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+sn\_itom\_mid\_grdn.admin
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+sn\_itom\_mid\_grdn.admin
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+MID Guardian
+
+</td></tr></tbody>
+</table>Learn more about MID Server management in [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
+
+**Parent Topic:**[MID Server AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-mid-server-ai-agents-overview.md)
+

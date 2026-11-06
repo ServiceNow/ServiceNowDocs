@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/layout\_how\_do\_i\_customize\_the\_logik\_io\_ui\_header.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Customizing the ServiceNow CPQ UI header
@@ -58,7 +58,7 @@ The header value contains instructions for several header elements, so here's a 
 }
 ```
 
-As a best practice, we recommend that administrators include both text and URL keys in the header component row. If the Admin does not intend to leverage either text or URL, they should include the key and an empty value. Examples:
+As a general guideline, we recommend that administrators include both text and URL keys in the header component row. If the Admin does not intend to leverage either text or URL, they should include the key and an empty value. Examples:
 
 `"text": ""`
 

@@ -7,7 +7,7 @@ release: zurich
 product: Sitemap Generator
 classification: sitemap-generator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sitemap Generator, Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -48,15 +48,15 @@ Role required: admin
     -   You don’t need to add the header and footer of the sitemap XML. These are added automatically when the sitemap is generated.
 6.  In the **Type** field of the UX Sitemap Definition form, select one of the following options to define the contents of the sitemap either with a script or by specifying static URL elements.
 
-<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d130914e211">
+<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d128644e211">
 
 Type
 
-</th><th align="left" id="d130914e214">
+</th><th align="left" id="d128644e214">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d130914e220">
+</th></tr></thead><tbody><tr><td id="d128644e220">
 
 **Script**
 
@@ -66,7 +66,7 @@ Dynamically generate the content from a script.
 
  **Note:** If special characters such as &lt;,&gt;, &amp;, or " are included in URLs, you must replace them with their equivalent escape characters.
 
-</td></tr><tr><td id="d130914e235">
+</td></tr><tr><td id="d128644e235">
 
 **Static**
 

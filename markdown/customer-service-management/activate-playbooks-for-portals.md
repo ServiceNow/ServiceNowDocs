@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-playbooks-for-portals.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -41,17 +41,6 @@ You can set up Playbooks for Portals using the following high level steps.
 
 4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-playbooks-for-portals.md) for more information.
 5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-playbooks-for-portals.md) for more information.
-
-**Related topics**  
-
-
-[Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/playbooks-for-portals.md)
-
-[Using Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-playbooks-for-portals.md)
-
-[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
-
-[Activate the record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-the-record-generator.md)
 
 ## Create a Playbook Content Item
 

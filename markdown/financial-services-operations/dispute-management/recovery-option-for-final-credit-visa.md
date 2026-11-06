@@ -7,9 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-10-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Determine recovery option for providing final credit
@@ -38,24 +38,26 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  In the open task tab, select the dispute transaction.
 
-6.  Select the **Recovery option** activity under the Investigation playbook stage.
+    The transaction opens in the **Dispute workspace**.
+
+6.  Select the **Recovery option** from the **Dispute workspace**.
 
 7.  Select the recovery task that you want to complete.
 
-8.  On the form, fill in the required fields and any other related information that you've gathered.
+8.  On the form, fill in the required fields and any other related information that you have gathered.
 
 9.  -   In the **Pursue chargeback** field, select whether the determination is to pursue chargeback from the merchant.
 -   In the **Deny dispute** field, select whether the determination is to deny the dispute.
-10. In the **Work notes** field, enter any comments.
+10. In the **Remarks** field, enter any comments.
 
 11. After you have entered the details in the task, select **Update**.
 
-12. Close the task from the playbook.
+12. Close the task.
 
-    |Dispute activity|Action|
-    |----------------|------|
+    |Dispute task|Action|
+    |------------|------|
     |**To close the Recovery option task**|Select **Close**.|
 
 

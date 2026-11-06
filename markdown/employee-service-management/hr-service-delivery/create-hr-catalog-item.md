@@ -1,20 +1,20 @@
 ---
 title: Create an HR catalog item
-description: Create an HR catalog item so that employees can request the HR service directly from the HR service catalog through a self-service portal such as the Employee Service Center. When you create a new HR catalog item, a corresponding HR service, record producer \(synonymous to HR catalog item\), and HR case template are automatically created.
+description: Create an HR catalog item so employees can request HR services through self-service. This automatically creates the HR service, record producer, and case template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-hr-catalog-item.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HR catalog item configuration, HR service catalog management, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an HR catalog item
 
-Create an HR catalog item so that employees can request the HR service directly from the HR service catalog through a self-service portal such as the Employee Service Center. When you create a new HR catalog item, a corresponding HR service, record producer \(synonymous to HR catalog item\), and HR case template are automatically created.
+Create an HR catalog item so employees can request HR services through self-service. This automatically creates the HR service, record producer, and case template.
 
 ## Before you begin
 
@@ -33,6 +33,7 @@ Role required: sn\_hr\_core.admin
     -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
     -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
     -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
+    -   The Agent Workspace for HR Case Management is highly configurable for HR agents. It supports the same functionality in the Classic HR Service Delivery Agent Workspace.
 4.  Fill in the fields on the form.
 
 <table id="table_kcl_v54_n2b"><thead><tr><th>

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-correction-actions.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a correction action
@@ -20,7 +20,7 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions**.
 
 2.  Select **New**.
 
@@ -39,12 +39,7 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 6.  Select **Save**.
 
 
--   **[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)**  
-Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
--   **[Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md)**  
-Create the list of assets that are impacted under non-conformance cases.
-
-**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dashboard-component-events-setup.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Add a dashboard to a page, Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -64,6 +64,55 @@ Add this event handler if you want to override the default drilldown with custom
 2.  Add the Dashboard Widget Clicked event handler.
 3.  Open the Dashboard Widget Clicked client script. To open client scripts, select the &lt;&gt; icon in the page's side bar.
 4.  Locate the code `api.emit('NAV_ITEM_SELECTED', payload);` and update `payload` to align with your custom redirect logic.
+
+</td></tr><tr><td>
+
+URL params update requested
+
+</td><td>
+
+Dispatched whenever the dashboard component would normally update URL parameters and **delegateUrlParams** is `true`. This event provides structured parameter data that client scripts can use to implement custom navigation logic.
+
+ URL parameters:
+
+-   sysId: The sys\_id of the dashboard being navigated to. Present when dashboard changes.
+-   tabSysId: The sys\_id of the selected tab. Present when tab changes.
+-   edit: Whether the dashboard is in edit mode. Present when edit mode changes.
+
+ All parameters have the following object fields:
+
+-   value \(string \| boolean\): The parameter value
+-   description \(string\): Human-readable description of the parameter
+
+ The sysId parameter also has the following object fields:
+
+-   dashboardName \(string\): Title of the dashboard
+-   isNewTab \(boolean\): `true` when the user performed a Cmd/Ctrl+click or middle-click in the dashboard picker, indicating intent to open in a new tab. Only sent for `sysId` parameter.
+
+ Example:
+
+```json
+{
+  "urlParams": {
+    "sysId": {
+      "value": "a1b2c3d4e5f6",
+      "dashboardName": "Dashboard A",
+      "description": "Dashboard sys_id",
+      "isNewTab": false
+    },
+    "tabSysId": {
+      "value": "f6e5d4c3b2a1",
+      "description": "Tab sys_id"
+    },
+    "edit": {
+      "value": true,
+      "description": "Edit mode"
+    }
+  }
+}
+```
+
+ For more information, see [Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-url-parameter-delegation.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dashboard-to-workspace.md)

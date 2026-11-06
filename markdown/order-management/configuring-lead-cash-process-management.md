@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-lead-cash-process-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [sales cockpit]
 breadcrumb: [Order operations apps, Configure, Sales Customer Relationship Management]
@@ -43,6 +43,13 @@ Plan and configure your implementation of Lead-to-Cash Process Management.
 
 7.  [Setting conditions for enabling email access in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enabling-email-l2c-process-management.md)
 
-    Sales process managers can compose emails directly from the dashboard for sales entity records that are monitored within a sales process record.
+    Sales process managers can compose emails directly from the dashboard for sales entity records that are monitored in a sales process record.
 
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-process-management.md)
 

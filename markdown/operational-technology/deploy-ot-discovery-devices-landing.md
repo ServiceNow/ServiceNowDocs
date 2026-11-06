@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/deploy-ot-discovery-devices-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -16,33 +16,18 @@ Consider deployment options for your Operational Technology Discovery components
 
 ## Where to start
 
-You can use the links to explore, configure, and learn more about deploying Operational Technology Discovery components.
+You can use the links in the Related Topics section to consider and learn more about deploying the Operational Technology Discovery components.
 
-<table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
+-   **[Architectural considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/architect-considerations.md)**  
+This document intends to describe the ServiceNow Operational Technology Discovery architecture and covers how discovery components find, identify, and inventory devices in an Operational Technology environment.
+-   **[Before deploying OT Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/before-ot-deployment.md)**  
+To discover assets in your OT environment, the Operational Technology Discovery solution provides the ServiceNow platform, the Discovery Console for OT, the Discovery Sensor for OT, and the OT Discovery Collector.
+-   **[OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-system-resources.md)**  
+You can review the OT Discovery component resources before setting up your OT network.
+-   **[OT Discovery communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/communications.md)**  
+This section describes how the OT Discovery components should be connected so they can communicate with each other.
+-   **[OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deployment-scenarios.md)**  
+Deployment scenarios for OT Discovery vary based on a network's architecture. Use these scenarios to help determine how to deploy the OT Discovery components in your OT environment.
 
-Decisions\[Omitted image "image.BUS\_64px\_Service-Portal\_YG"\] Alt text:
+**Parent Topic:**[Operational Technology Native Discovery components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-discovery-native-components.md)
 
- [Before deploying Operational Technology Discovery \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/before-ot-deployment.md)
-
-</td><td>
-
-Communicate\[Omitted image "image.BUS\_64px\_Workflow\_YG"\] Alt text:
-
- [Operational Technology Discovery components communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/communications.md)
-
-</td></tr><tr><td>
-
-Deploy\[Omitted image "image.BUS\_64px\_Release\_YG"\] Alt text:
-
- [Operational Technology Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deployment-scenarios.md)
-
-</td><td>
-
-Architecture
-
- \[Omitted image "image.IND\_64px\_Factory-Worker\_YG"\] Alt text:
-
- [Architectural considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/architect-considerations.md)
-
-</td></tr></tbody>
-</table>

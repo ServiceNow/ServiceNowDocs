@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-recovery-team.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [recovery team, business continuity management, BCM, recovery team hierarchy]
 breadcrumb: [Global recovery teams and collaboration threads, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -57,7 +57,7 @@ Recovery teams are managed globally rather than being local to individual recove
 
     The selected users are added as members of the recovery team.
 
-    **Note:** The **Department** column on the **Users** tab reflects each member's department, helping you to review and confirm team composition by department.
+    **Note:** The **Department** column on the **Users** tab reflects each member's department, helping you review and confirm team composition by department.
 
 8.  On the **Groups** tab, select **Add**, and select one or more system user groups from the list or filtered conditions, and select **Add** again to confirm the selection.
 

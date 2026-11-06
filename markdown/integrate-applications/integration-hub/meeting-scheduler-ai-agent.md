@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-11-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Available AI agents for Integration Hub, Now Assist for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

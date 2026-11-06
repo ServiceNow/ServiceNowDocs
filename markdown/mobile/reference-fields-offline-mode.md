@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/reference-fields-offline-mode.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Input forms in offline, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure reference inputs for input form screens in offline mode
@@ -16,7 +16,7 @@ Configure reference inputs so that users can see a list of records in offline mo
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  From the **Record type** field, select **Input form screen \[sys\_sg\_parameter\_screen\]** and then either select **New** or an existing record.
 
-5.  If you are creating a new input form screen, enter a name for the input form screen and complete the fields as required.
+5.  If you're creating a new input form screen, enter a name for the input form screen and complete the fields as required.
 
 6.  In the Settings area, select the **Available offline** to true.
 
@@ -53,8 +53,5 @@ Role required: admin
 11. Select **Save**.
 
 
--   **[Reference field attributes for input form screens in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/reference-fields-offline-attributes.md)**  
-Configure the fields that you want to use and the data you want to display in offline mode by using various input attributes.
-
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Input forms in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/offline-input-form.md)
 

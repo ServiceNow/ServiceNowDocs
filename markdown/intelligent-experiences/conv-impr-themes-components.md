@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/conv-impr-themes-components.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Conversation Improvement Themes, Enable AI experiences]
+breadcrumb: [Reference, Conversation Improvement Themes, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Components installed with Conversation Improvement Themes

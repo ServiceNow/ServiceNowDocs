@@ -1,20 +1,20 @@
 ---
 title: HR Integrations
-description: Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks; e-signature systems to request electronic signatures; and more.
+description: Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Integrations
 
-Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks; e-signature systems to request electronic signatures; and more.
+Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks.
 
 For select systems, preconfigured integrations are available to use. You can also configure your own custom integration with third-party systems that use SOAP or REST services.
 
@@ -38,18 +38,9 @@ Background check system
 
 </td><td>
 
--   [Integrate with First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
+-   [Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 -   [Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 -   [Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
-
-</td></tr><tr><td>
-
-E-signature system
-
-</td><td>
-
--   [Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
--   [Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)
 
 </td></tr><tr><td>
 
@@ -72,16 +63,12 @@ HR Integrations is automatically activated when you activate Case and Knowledge 
 
 -   **[Activate HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-hr-integrations.md)**  
 You can activate Human Resources Scoped App: Integrations \[com.sn\_hr\_integrations\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Integrate with First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)**  
+-   **[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)**  
 The preconfigured First Advantage integration uses SOAP services to request background checks through the First Advantage service. You can use the preconfigured integration as-is or customize it to meet your needs.
 -   **[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)**  
 The preconfigured Accurate Background integration uses REST services to request background checks through the Accurate Background service. You can use the preconfigured integration as-is or customize it to meet your needs.
 -   **[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)**  
 The preconfigured Sterling Talent Solutions integration uses REST services to request background checks through the Sterling service. You can use the preconfigured integration as-is or customize it to meet your needs.
--   **[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)**  
-Request electronic signatures through the DocuSign service with the DocuSign integration.
--   **[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)**  
-Request electronic signatures through the Adobe Sign service with the Adobe Sign integration. This integration depends on the Adobe Sign spoke in IntegrationHub, and is enabled for the signing of adhoc documents \(HR PDF document templates\) and Adobe Sign templates.
 -   **[Integrating with the CIC Plus service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-cic-plus-service.md)**  
 Integrate with the CIC Plus service so that you can enable US-based new hires to provide relevant tax information as part of the onboarding process.
 

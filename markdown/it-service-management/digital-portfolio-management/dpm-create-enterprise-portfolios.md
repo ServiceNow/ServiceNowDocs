@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
@@ -20,8 +20,6 @@ Admins create enterprise portfolios for business applications and service instan
 
 -   Plugin required: enterprise portfolios
 -   Role required: sn\_dpm.dpm\_admin
-
-\[Omitted video\] Description: Create and edit portfolios in enterprise portfolio builder.
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compli
 
 Entity class rules help to assign classes to the entities at the table level. Any new entity created on the table gets that entity class automatically. Entity classes are used to tag your entities.
 
-When you create an entity for a table, the class associated with that table automatically gets assigned to the entity. You can set a new rule for the entity class. Entity class rules provide the categories of the entities at the class level. The Entity class rules option is displayed under Lists in the workspace view. Select an Entity class rule to display its details.
+When you create an entity for a table, the class associated with that table automatically gets assigned to the entity. You can set a new rule for the entity class. Entity class rules provide the categories of the entities at the class level. The Entity class rules option is displayed under Lists in the workspace view. Click an Entity class rule to display its details.
 
 The **Details** tab in the Entity class rules form displays the following information:
 

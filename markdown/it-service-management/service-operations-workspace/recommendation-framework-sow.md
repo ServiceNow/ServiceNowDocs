@@ -7,18 +7,18 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Recommendation Framework in Service Operations Workspace
 
 An agent can view dynamic and contextual recommendations and perform a relevant action.
 
-Recommendation Framework is now deprecated and no longer supported or available for new activation. Recommended Actions for ITSM feature provides the latest experience for this functionality. To get the advanced version, you must install the Advanced Recommended actions for ITSM \(com.snc.uib.sow\_itsm\_ra\_advanced\) plugin and you must procure ITSM Pro package subscription.
+Recommendation Framework is deprecated and no longer supported or available for new activation. Recommended Actions for ITSM feature provides the latest experience for this functionality. To get the advanced version, you must install the Advanced Recommended actions for ITSM \(com.snc.uib.sow\_itsm\_ra\_advanced\) plugin and you must procure ITSM Pro package subscription.
 
-**Note:** The best practice to get the advanced version is to install the Task Intelligence for ITSM \(com.snc.itsm\_ml\_task\) plugin and procure the ITSM Pro package subscription. For more information, see [Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md).
+**Note:** To get the advanced version, a general guideline is to install the Task Intelligence for ITSM \(com.snc.itsm\_ml\_task\) plugin and procure the ITSM Pro package subscription. For more information, see [Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md).
 
 Recommendations are available in multiple areas for an incident in Service Operations Workspace.
 
@@ -31,11 +31,11 @@ From the sidebar of an incident, you can access the **Recommendations** panel wh
 
 **Note:** All cards of the same recommendation rule are grouped. For example, for the Similar open incidents rule for an incident in Service Operations Workspace, all relevant incidents are grouped as cards under **Similar open incidents**.
 
-\[Omitted image "image.recommendation-panel"\] Alt text: Recommendations from the sidebar
+\[Omitted image "recommendation-panel.png"\] Alt text: Recommendations from the sidebar
 
 For information on available card groups for an incident and their dependencies on recommendation rules, see [Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommendation-rules.md).
 
-When you click a card or its record number, detailed information about that card and its actions is displayed in a new tab.
+When you select a card or its record number, detailed information about that card and its actions is displayed in a new tab.
 
 Every card has a primary action and multiple other actions. For every action you perform on the card, the recommendations are recomputed. You can discard a recommendation if not relevant. Also, when you perform a primary action on a card, it moves from the **Current** tab to the **History** tab.
 
@@ -49,9 +49,9 @@ A predicted value is displayed for these fields in the **Details** tab of an inc
 -   Configuration item
 -   Service
 
-These values are predicted based on a recommendation rule for each field. For information about these rules, see [Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommendation-rules.md). When a threshold value is configured, the recommended value can be stamped or auto-populated as the field value. For information about this configuration, see .
+These values are predicted based on a recommendation rule for each field. For information about these rules, see [Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommendation-rules.md). When a threshold value is configured, the recommended value can be stamped or auto-populated as the field value.
 
-\[Omitted image "image.field-recommendation"\] Alt text: Recommendations at field level
+\[Omitted image "field-recommendation.png"\] Alt text: Recommendations at field level
 
 -   **[Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommendation-rules.md)**  
 Recommendations for an incident are based on rules defined in Recommendation Framework.

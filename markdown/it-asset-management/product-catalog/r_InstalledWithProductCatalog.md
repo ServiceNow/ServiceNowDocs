@@ -7,9 +7,9 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product Catalog, IT Asset Management]
+breadcrumb: [Product Catalog, Common applications, Asset Management]
 ---
 
 # Components installed with Product Catalog

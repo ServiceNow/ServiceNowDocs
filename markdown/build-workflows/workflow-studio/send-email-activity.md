@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Send Email activity
@@ -110,8 +110,13 @@ List of Users
 
 </td><td>
 
-Recipient list for the email. There are two ways to configure this field:-   Static recipient — Select the same user record every time. Use this when emails must go to the same addresses in every instance.
--   Dynamic recipient — Use the pill picker to reference a user field dot-walked from the trigger record or a related record. Use this when the recipient varies based on record data. For example, when automatically notifying credit card applicants of a rejection, dot-walk to the applicant's email address from the customer record linked to the application.
+Recipient list for the email. There are 2 ways to configure this field:-   Enter email addresses as strings if you want the emails to go to the same addresses every time.
+-   When the email address value varies, use the pill picker to indicate where to find the recipient email address. For example, you would use the pill picker if you wanted to automatically notify credit card applicants of a rejection, because each applicant has a different email.
+
+You would select the customer record from the trigger \(when the application was submitted\), because that is where the applicant's email address is found.
+
+\[Omitted image "send-to-customer-pillpicker.png"\] Alt text: Using the pill picker to reference the email address.
+
 
 </td></tr><tr><td>
 
@@ -344,6 +349,4 @@ These outputs can provide data to other activities in your playbook. You can acc
 |Automated|True/False|Whether the flow automatically completes or requires user input. If set to **True**, the activity card in Playbook Experience displays a **Automated Task** tagline.|
 |Record|Reference.Task\[task\]|Reference to record created.|
 |Email|Reference.Notification\[sysevent\_email\_action\]|Reference to the newly created email notification record|
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

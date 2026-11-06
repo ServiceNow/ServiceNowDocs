@@ -1,89 +1,52 @@
 ---
 title: Resource Management Workspace release notes
-description: The ServiceNow Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Zurich release.The ServiceNow Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Zurich release.The ServiceNow Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Zurich release.
+description: The ServiceNow Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.Resource Management Workspace enables resource managers set a precise end date for resource assignments directly from the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/resource-management-workspace-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [resource management workspace, capacity planning, resource allocation, workforce planning, project resources, demand management, resource management workspace, end assignment, resource assignment]
+breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Resource Management Workspace release notes
 
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Zurich release.
+The ServiceNow® Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.
 
 ## About Resource Management Workspace
 
--   Move an assigned or unassigned resource assignment to a different start date to align the work with your organization's prioritization cycle.
--   View the type of operational work assigned to a resource in the resource board drill-down view.
--   Allocate effort from unassigned resource assignments using the following ways — auto-assign work among all the available resources, or partially assign work among for selected resources.
+-   Optimize resource allocation by matching the right people with the right primary attributes to planning items and business priorities.
+-   Improve capacity planning with real-time visibility into resource availability, utilization, and workload across the organization.
+-   Streamline workforce planning by consolidating resource requests, assignments, and scheduling into a unified workspace.
 
-See [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-rmw.md) for more information.
+See the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/explore-rmw.md) documentation for more information.
 
 ## Activation and other requirements
 
-**Important:** Resource Management Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    The Resource Management Workspace is available to download from ServiceNow Store. Install and activate the plugin to enable the workspace and related features.
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-business-management-rn-landing.md)
 
-## December 2025
+## Version 5.11.1
 
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Assign resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/allocate-resources-rmw.md)**
-
-    Allocate effort from unassigned resource assignments using the following ways:
-
-    -   Auto-assign work among all the available resources.
-    -   Partially assign work among for selected resources.
-
-## Zurich
-
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Zurich release.
+Resource Management Workspace enables resource managers set a precise end date for resource assignments directly from the workspace.
 
 ### What's new
 
--   **[Move a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/move-ra-rmw.md)**
+-   **End assignment action in Resource Management Workspace**
 
-    Move any assigned resource assignment without actuals or an unassigned resource assignment to a different date to align the work with your project realignment, prioritization, or resource availability. You can move individual resource assignments based on your project or organizational priorities.
+    End resource assignments at a precise date without modifying the original task plan. Select **End Assignment** from the row context menu of a resource assignment.
 
-
--   **[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-rmw.md)**
-    -   View the type of operational work that is assigned to a resource using the resource board drill-down view.
-    -   Filter your resource board using data grid filters to easily navigate and modify the resource assignments in the top tray.
-    -   Sync the resource assignments to align them with change in planning item dates.
-    -   Override resource rate for each assignment from the assigned work in the top tray.
-    -   Apply filters using string-type and boolean field values across the resource card top tray to view the required dataset.
 
 ### What's changed
 
--   **[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-rmw.md)**
-    -   Added the new **Move** option in the row context menu in the top and bottom tray of the resource board view.
-    -   Added sub-labels for the row context menu options in the resource board to better estimate the actions.
-    -   Updated **Assign modal** with options to auto-assign and manually assign the available resources
-    -   New **Preview** button in the Assign modal to see the real-time simulation of allocations for an assignment.
-    -   Added **Resource not synced** icon to identify and sync the resources assignments which are not aligned with the changes to planning item timelines.
-    -   New **Rate override** field to enable editing of resource rate using the inline editing feature.
-    -   New **Resource rate** field to edit resource rate from the workspace view for each resource.
--   **Coral theme**
+-   **End assignment UI option**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    Added **End assignment** option in row context menu for assignments.
 
 

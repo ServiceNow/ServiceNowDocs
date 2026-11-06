@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ You can copy an assessment template that is in the Draft or Published state. The
 
 2.  Open the existing assessment template that you want to copy.
 
-3.  Select the \[Omitted image "copy-icon.png"\] Alt text: copy-icon. icon.
+3.  To copy the template, select **Options** icon \[Omitted image "ellipsis-vertical-outline-24.svg"\]&gt; **Create a copy**.
 
     -   The user is navigated to the copied template, and the copying process begins, which may take some time.
     -   While the copy is in progress, both the source and copy template are locked for editing.

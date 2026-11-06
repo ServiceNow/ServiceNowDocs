@@ -1,20 +1,20 @@
 ---
-title: Universal Request versus Interaction Record
-description: Universal requests and interaction records \(New Call records\) are created and used by agents of various departments. However, they differ in the way they are handled. The following information provides an overview of both the records and how they differ from each other.
+title: Universal Request versus Interaction Records \(New Call record\)
+description: Universal request and interaction records are created and used by agents of various departments. However, they differ in the way they are handled. The following information provides an overview of both the records and how they differ from each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-versus-ir.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Universal Request, Employee Service Management]
+breadcrumb: [Exploring Universal Request, Universal Request, Employee Service Management]
 ---
 
-# Universal Request versus Interaction Record
+# Universal Request versus Interaction Records \(New Call record\)
 
-Universal requests and interaction records \(New Call records\) are created and used by agents of various departments. However, they differ in the way they are handled. The following information provides an overview of both the records and how they differ from each other.
+Universal request and interaction records are created and used by agents of various departments. However, they differ in the way they are handled. The following information provides an overview of both the records and how they differ from each other.
 
 ## Interaction Record
 

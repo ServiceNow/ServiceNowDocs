@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-enable-full-view-search-page.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -44,7 +44,7 @@ Use the following steps to define the full view search page in a configurable wo
 
 1.  Navigate to UI Builder and select your workspace experience.
 
-2.  Create a new page with the following URL path: **ra-expanded-search**.
+2.  Create a page with the following URL path: **ra-expanded-search**.
 
     This is the path that you will use in the above script to open the full view search page. For more information, see [Create a blank page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/learn-by-example-create-blank-page.md) in the UI Builder documentation.
 

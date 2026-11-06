@@ -7,7 +7,7 @@ release: zurich
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -71,6 +71,22 @@ Type
 </td><td>
 
 **JDBC**.
+
+</td></tr><tr><td>
+
+Use import connection alias
+
+</td><td>
+
+Option to use per-configured connection details.
+
+</td></tr><tr><td>
+
+Import connection alias
+
+</td><td>
+
+Connection alias to use to connect to this data source. For additional details, see [Create an import connection alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
 
 </td></tr><tr><td>
 

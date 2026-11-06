@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/resolve-cases-consumer-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Accept or reject a case solution from the Consumer Service Portal
@@ -34,7 +34,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d106234e118">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d119478e118">
 
 **Accept Solution**
 
@@ -42,7 +42,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d106234e130">
+</td></tr><tr><td id="d119478e130">
 
 **Reject Solution**
 
@@ -52,3 +52,8 @@ Rejects the solution proposed by the agent after entering the reason for rejecti
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-cases-consumer-portal.md)
+

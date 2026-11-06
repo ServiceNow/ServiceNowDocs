@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Following the CSDM framework ensures that you meet your primary goal of consiste
 
 ## The CSDM data framework
 
-The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
 ## Activating CSDM
 
@@ -26,13 +26,13 @@ The CSDM is the data model that admins should follow when they set up ServiceNow
 
     Activate the CSDM plugin so you can begin implementing the CSDM data model.
 
--   **[Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)**
+-   **[Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)**
 
-    You can align life-cycle values for each product instance on the asset, CI, and IBI tables. A one-time process moves legacy status values for asset and CI across the platform to standard CSDM life-cycle value pairs \(*life cycle stage* and *life cycle stage status*\). Business rules then run regularly to set identical IBI, asset, and CI life-cycle data for each product instance.
+    You can align life-cycle values for each product instance on the asset, CI, and IBI tables. A one-time process moves legacy status values for asset and CI across the platform to standard CSDM life-cycle value pairs \(*life cycle stage* and *life cycle stage status*\). Business rules then run regularly to promote identical IBI, asset, and CI life-cycle data for each product instance.
 
--   **[Migrate and sync existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)**
+-   **[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)**
 
-    You complete several tasks to migrate your existing application data to the required tables in the CMDB.
+    You complete several tasks to confirm that your existing application data migrates successfully to the required tables in the CMDB.
 
 
 ## Implementing the CSDM framework
@@ -41,11 +41,11 @@ It's best to use a staged approach when you implement the CSDM framework. Each i
 
 \[Omitted image "csdm-phases.png"\] Alt text: CSDM stages: foundation, crawl, walk, run, and fly.
 
-**Note:** Business applications reference information objects in the information portfolio. You might implement the Information Object \[cmdb\_ci\_information\_object\] table earlier than the Fly stage. Your business requirements determine the right stage for implementing the table.
+**Note:** Business applications reference information objects in the information portfolio. You might implement the Information Object \[cmdb\_ci\_information\_object\] table earlier than the Fly stage. Your business requirements determine the correct stage for implementing the table.
 
 -   **[CSDM implementation stage — Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md)**
 
-    In the Foundation stage of implementing the CSDM framework, you prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
+    In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
 
 -   **[CSDM implementation stage — Crawl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-crawl-stage.md)**
 
@@ -77,12 +77,12 @@ It's best to use a staged approach when you implement the CSDM framework. Each i
 
 The CSDM Assessment provides Impact Customers with leading practices and prescriptive guidance on the CSDM and how it supports processes on the ServiceNow AI Platform. To help your organization plan for and implement CSDM, the assessment includes interactions with ServiceNow CSDM experts and personalized content. See [Common Service Data Model \(CSDM\) Assessment Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/CSDM-assessment.md).
 
--   **[Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)**  
-You can align life-cycle values for each product instance on the asset, CI, and IBI tables. A one-time process moves legacy status values for asset and CI across the platform to standard CSDM life-cycle value pairs \(*life cycle stage* and *life cycle stage status*\). Business rules then run regularly to set identical IBI, asset, and CI life-cycle data for each product instance.
+-   **[Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)**  
+You can align life-cycle values for each product instance on the asset, CI, and IBI tables. A one-time process moves legacy status values for asset and CI across the platform to standard CSDM life-cycle value pairs \(*life cycle stage* and *life cycle stage status*\). Business rules then run regularly to promote identical IBI, asset, and CI life-cycle data for each product instance.
 -   **[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)**  
 The type of service determines how you use dynamic CI groups.
 -   **[CSDM implementation stage — Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md)**  
-In the Foundation stage of implementing the CSDM framework, you prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
+In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
 -   **[CSDM implementation stage — Crawl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-crawl-stage.md)**  
 In the Crawl stage, you work on base-system CMDB tables that are associated with IT Service Management \(ITSM\).
 -   **[CSDM implementation stage — Walk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-walk-stage.md)**  

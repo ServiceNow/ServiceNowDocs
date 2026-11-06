@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Installing Enterprise Asset Management for Providers, Enterprise Asset Management for Providers, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Installing Enterprise Asset Management for Providers, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install Enterprise Asset Management for Providers from the Admin Home page
@@ -18,7 +18,7 @@ You can install the Enterprise Asset Management for Providers application \(com.
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Install the Enterprise Asset Management application \(com.sn\_eam\) or one of the following Enterprise Asset Management-dependent applications on your ServiceNow instance:
 
     **Note:** For instructions on how to install the Enterprise Asset Management application, see [Installing Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installing-eam.md).

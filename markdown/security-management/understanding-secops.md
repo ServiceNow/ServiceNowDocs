@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/understanding-secops.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Security Operations]
 ---

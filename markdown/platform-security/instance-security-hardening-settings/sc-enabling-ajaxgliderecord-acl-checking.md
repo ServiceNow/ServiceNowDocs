@@ -1,5 +1,5 @@
 ---
-title: Require AJAXGlideRecord ACL checking \[Updated in Security Center 1.3\]
+title: Require AJAXGlideRecord ACL checking
 description: Use the glide.script.secure.ajaxgliderecord property to perform access control rule \(ACL\) validation when server-side records, such as tables, are accessed using GlideAjax APIs within a client script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.html
@@ -7,22 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Require AJAXGlideRecord ACL checking \[Updated in Security Center 1.3\]
+# Require AJAXGlideRecord ACL checking
 
 Use the **glide.script.secure.ajaxgliderecord** property to perform access control rule \(ACL\) validation when server-side records, such as tables, are accessed using GlideAjax APIs within a client script.
 
-From client scripts, it is possible to query arbitrary data from the server using the AJAXGlideRecord \([GlideAjax - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_GlideAjaxAPI.md)\) API, by using a syntax such as a server-side glide record. It is a powerful and useful tool in many deployments.
+The **glide.script.secure.ajaxgliderecord** systm property toggles ACL validation for GlideAjax API calls. If **glide.script.secure.ajaxgliderecord** is not set to the recommended value of **true**, then ACL validation will not be completed for GlideAjax requests.
 
-If you choose to apply Access Control Lists \(ACL\) to GlideAjax API calls, you can only query data to which the currently connected user has access. For example, if an ESS user who has no rights to read the cmn\_location table is logged in, any GlideAjax API call to that table would fail.
-
-If the ServiceNow AI Platform is running without GlideAjax ACL call checking, an API can return information that the currently logged in user could not otherwise access.
-
-Use GlideRecordSecure when querying data to ensure the highest level of security. GlideRecord relies on ACL enforcement through configurations whereas GlideRecordSecure applies stricter security controls. GlideRecordSecure offers a more secure, out-of-the-box solution for handling sensitive data.
+Ensure that the property **glide.script.secure.ajaxgliderecord** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -38,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -54,19 +50,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-Ensure security ACLs are checked and validated even when the records are accessed through Client Side APIs.
+Boolean
 
 </td></tr><tr><td>
 
@@ -86,19 +74,19 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-8.1
+true
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-This remediation enforces the ACL relationship with server-side records when the requests are made using the AJAXGlideRecord API calls. If the ACL configuration is not properly configured, then there is potential impact. For more details on its impact, and how to identify it, see Refer to the [Audit and review client-side GlideRecord \(AJAXGlideRecord\) transactions \[KB0550828\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0550828) article in the HI Knowledge Base.
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -106,27 +94,25 @@ Security risk
 
 </td><td>
 
-\(High\) Through client scripts, it is possible to query arbitrary data from the server through the GlideAjax API. Server-side resources can be accessed without proper authorization, so using ACL validation helps the application validate the request based on the configured authorization.
+-   Severity score: 8.1
+-   CVSS rating: High
+-   Security risk details: This could lead to server-side resources being accessed by users without proper authorization.
 
 </td></tr><tr><td>
 
-Workaround
+Functional impact
 
 </td><td>
 
-Ensure that proper ACLs are created for script includes, processors, and other entities used by a GlideAjax \(AJAXGlideRecord\) API so that it executes under proper authorization.
-
- Implement methods like `canRead ()`, `canWrite()`, `canCreate ()`, and `canDelete ()` to perform user authorization before accessing table records using GlideRecord.
-
- Another method is to use GlideRecordSecure. The class is inherited from the GlideRecord Server that performs the same functions as GlideRecord, and also enforces ACLs.
+This remediation enforces the ACL relationship with server-side records when the requests are made using the AJAXGlideRecord API calls. If the ACL configuration is not properly configured, then there is potential impact. For more details on its impact, and how to identify it, see Refer to [Audit and review client-side GlideRecord \(AJAXGlideRecord\) transactions \[KB0550828\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0550828).
 
 </td></tr><tr><td>
 
-References
+Dependencies and prerequisites
 
 </td><td>
 
-[Apply ACLs to AJAXGlideRecord \(client-side Glide record\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/r_ApplyACLsToAJAXGlideRecord.md) This property belongs to the same family of properties that secure and restrict execution of scripts originating from the client, such as **glide.script.allow.ajaxevaluate**. For more information, see [Enable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
+None
 
 </td></tr></tbody>
 </table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).

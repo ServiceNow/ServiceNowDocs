@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/product-adoption-roadmap-capabilities-map-mapping.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Table and field level mapping, Impact reference, Impact]
+breadcrumb: [Table and field level mapping, Data synchronization reference, Impact reference, Impact]
 ---
 
 # Product Adoption Roadmap and Capabilities Map tables

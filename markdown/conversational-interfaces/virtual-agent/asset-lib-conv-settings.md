@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Conversational settings for assets in the Asset library
@@ -27,7 +27,7 @@ Use the conversational settings module to edit the settings depending on your as
 |Topics|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
 |Subflows|Assistants, Roles|
 |Actions|Assistants, Roles|
-|Now Assist Custom skills|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
+|Custom skills|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
 |AI Agents|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
 
 \[Omitted image "asset-lib-conv-set-02.png"\] Alt text: Conversational settings module.
@@ -102,5 +102,5 @@ If an asset is selected as Visible, it appears whenever the **Show me everything
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+</table>**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

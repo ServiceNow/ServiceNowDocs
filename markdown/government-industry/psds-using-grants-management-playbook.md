@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
 keywords: [Using grants management, setup grants, configure grants]
-breadcrumb: [Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Grants Management
@@ -21,7 +21,7 @@ The Grants Application Workflow in the Public Sector Digital Services \(PSDS\) G
 
 The Grants Management experience begins on the Grants Management landing page for grants agents and grants program managers. Grants organizations may customize their landing pages with branding colors or other display changes, but the components may remain the same.
 
-The following is an example of how the default landing page appears in the CRM Workspace Grants Management workspace for a grant agents or grant program manager.
+The following is an example of how the default landing page appears in the Public Sector Workspace Grants Management workspace for a grant agents or grant program manager.
 
 \[Omitted image "psds\_gmp\_landing\_page.png"\] Alt text: grants management landing page view for agents or managers
 
@@ -35,13 +35,13 @@ The process begins with program definition, where agencies establish milestones,
 
 \[Omitted image "psds\_gmp\_program\_setup\_playbook\_initial\_view.png"\] Alt text: grants management playbook setup initial view for agents or managers
 
-This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program, from defining key details, to creating the announcement, to defining budget and milestones, to defining eligibility, to publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gmp-grant-pgr-setup.md).
+This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program. The process includes defining key details, creating the announcement, defining budget and milestones, defining eligibility, and publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gmp-grant-pgr-setup.md).
 
 Once you create a Grant program and publish it using the Program Setup Playbook, you can view the details on the program information record page.
 
 ## Grants Management Program Record page
 
-Once grant program set-up is complete, you can see every case detail \(narrative, evidence, entities, tasks, and case team\) organized into a single grant program record, even before you publish the opportunity to the portal for applicants to submit. And you publish the opportunity, the state will display as **Accepting Proposals** in this view, and you may see all active proposals for the grant program by selecting the **Proposal** tab, and edit some program details by selecting the corresponding tabs.
+After grant program set-up is complete, you can see every case detail \(narrative, evidence, entities, tasks, and case team\) organized into a single grant program record. This view is available even before you publish the opportunity to the portal for applicants to submit. After you publish the opportunity, the state displays as **Accepting Proposals** in this view. You can see all active proposals for the grant program by selecting the **Proposal** tab, and edit some program details by selecting the corresponding tabs.
 
 \[Omitted image "psds\_gmp-case-view-workspace.png"\] Alt text: case record view for agent
 
@@ -59,7 +59,7 @@ For more information on how applicants can use the Grants Management to view gra
 
 ## Grants Management Application Screening
 
-For grants program managers \(case agents\) and directors, the application screening feature provides visibility across all proposal and submission details related to the grant program. This visibility is available once an applicant submits a proposal for an active grant program. The feature provides tools for agents to streamline the screening of submissions. The Grants Proposal Workflow in Public Sector Digital Services Grants Management provides a structured process for managing grant proposals from submission for the pre-award phase.
+For grants program managers \(case agents\) and directors, the application screening feature provides visibility across all proposal and submission details related to the grant program, once an applicant submits a proposal for an active grant program created by the grant program manager. Tools for agents to streamline the screening of submissions. The Grants Proposal Workflow in Public Sector Digital Services Grants Management provides a structured process for managing grant proposals from submission for the pre-award phase.
 
 Using the Grants Management Screening feature, managers can:
 
@@ -70,15 +70,15 @@ Using the Grants Management Screening feature, managers can:
 
 \[Omitted image "psds-gmp-rev-prop-details.png"\] Alt text: Enter Applicant information view
 
-For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal application in the Grants Management Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gmp-grant-proposal-screen.md).
+For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gmp-grant-proposal-screen.md).
 
 ## Grants Management Application Evaluation
 
-Grant proposals that pass the screening stage enter the evaluation phase. The grants program manager creates and assigns proposal evaluation tasks to a group of external evaluators known as merit reviewers. Once all evaluation tasks are completed, the application is ready for the funding proposal phase, where certain grant applications will be selected for approval.
+Grant proposals that pass the screening stage enter the evaluation phase, where the grants program manager creates and assigns proposal evaluation tasks to a group of external evaluators known as merit reviewers. Once all evaluation tasks are completed, the application is ready for the funding proposal phase, where certain grant applications will be selected for approval.
 
-\[Omitted image "psds\_gmp\_proposal-playbook\_evaluation\_view.png"\] Alt text: Grant manager evaluation agent view
+\[Omitted image "psds\_gmp\_proposal-playbook\_evaluation\_view.png"\] Alt text: GM evaluation agent view
 
-The funding proposal workflow involves the assessment of the evaluations conducted by the merit reviewers, and the definition of a proposal which will be sent to the Grant Program Director \(GPD\) for final approval. The funding proposal contains the individual grant applications which the grants program manager has selected for approval, as well as the proposed award amount for each.
+The funding proposal workflow involves the assessment of the evaluations conducted by the merit reviewers, and the definition of a proposal which will be sent to the Grant Program Director \(GPD\) for final approval. The funding proposal contains the individual grant applications which the grants program manager has selected for approval, and the proposed award amount for each.
 
 **Note:** A grants program director can only approve or decline the entire funding proposal, not the individual grant proposals \(applications\) contained within it. A decline involves the creation of a new funding proposal which must be submitted again for approval.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,12 +25,13 @@ Role required: Any role containing sn\_cmdb\_user \(sn\_cmdb\_user, sn\_cmdb\_ed
 ## Insights dashboards
 
 -   [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbhealth.md)
--   [CMDB Get Well](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbgetwell.md)
--   [CSDM Get Well](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-csdmgetwell.md)
+-   [CMDB Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbgetwell.md)
+-   [CSDM Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-csdmgetwell.md)
 -   [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-sa.md)
 -   [Feature adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-featadoption.md)
--   [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-perfinsight.md)
--   [Service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md)
+-   [Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-perfinsight.md)
+-   [Cloud vs Non-cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cloud.md)
+-   [Service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md)
 -   [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md)
 
 -   **[CMDB Health insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbhealth.md)**  
@@ -48,7 +49,7 @@ Use the Performance insights page in CMDB Workspace to analyze performance of ke
 -   **[Cloud vs Non-cloud insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cloud.md)**  
 Charts showing counts and details for resources that are hosted on various cloud services versus those resources that aren't, with breakdown by key CI classes such as applications, databases, and datacenters.
 -   **[Service instances insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md)**  
-Use the Service instances page in CMDB Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
+Use the Service instances page in Service Graph Workspace to see counts, trends, and health of Service instances \(application services\) in your organization.
 -   **[CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md)**  
 The CMDB 360 insights dashboard provides aggregations and analysis of CMDB 360 data, where you can track activities and identify potential issues of discovery sources.
 

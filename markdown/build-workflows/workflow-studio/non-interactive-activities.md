@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Playbooks reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Non-Interactive activities
@@ -25,19 +25,4 @@ When non-interactive activities run, they automatically proceed to completion or
 Non-interactive activities turn into activity cards that are collapsed and marked complete in a playbook. The playbook continues running without any input from the playbook agent.
 
 To learn how to design a playbook with non-interactive activities, see [design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/design-automated-process.md).
-
--   **[Automated Create Record activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/automated-create-record-activity.md)**  
-Create a record without pausing the playbook to ask for user input. When the activity runs, it immediately creates the record and continues to the next activity in the playbook. The record must meet server-side validation rules such as data policies, business rules and dictionary-defined mandatory fields but ignores UI policies.
--   **[Automated Send Email activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/automated-send-email-activity.md)**  
-Create an email from previously gathered or generated data without pausing the playbook to ask for user input. When the activity runs, it immediately sends the email and continues to the next activity in the playbook.
--   **[Automated Update Record activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/automated-update-record-activity.md)**  
-Update a record without pausing the playbook to ask for user input. When the activity runs, it immediately updates the record and continues to the next activity in the playbook. The record must meet server-side validation rules such as data policies, business rules and dictionary-defined mandatory fields but ignores UI policies.
--   **[Autocompleting User Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/autocompleting-user-form.md)**  
-Display a form during runtime to collect input values for your playbook.
--   **[Look Up Records activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/look-up-records-activity.md)**  
-Find system records that match a set of conditions.
--   **[Make a Decision-First Match activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/make-decision-first-match-activity.md)**  
-Execute rules in a decision table. When this activity runs, it will immediately finish and continue the process execution. The activity returns the result of the first matching decision rule, based on the rank of the rules. To return results from all matching rules, add the decision table to a subflow.
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [With Process Configuration Builder, Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure improvement opportunities
@@ -18,7 +18,7 @@ Create a library of inefficiencies to identify the improvement opportunities for
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -48,9 +48,9 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
     \[Omitted image "improve-opp-pro-config.png"\] Alt text: Improvement opportunities in process configuration
 
-6.  Select **Add new** to create an improvement.
+6.  Select **Add new** to create an improvement opportunity.
 
-    The improvement opportunity definition page is displayed. For more information, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/rule-based-builder.md) and [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md).
+    The improvement opportunity definition page is displayed. For more information, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/rule-based-builder.md) and [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md).
 
     Select the **Get recommendations** button to get recommendations for the automated improvement opportunities based on the configuration you have set in the Process perspectives section of the Process details page.
 

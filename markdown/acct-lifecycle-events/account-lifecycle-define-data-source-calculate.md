@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Define the data source, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Define the data source, Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # Define a calculated metric data source
@@ -76,7 +76,14 @@ Define dynamic metrics using formulas based on other metrics.
 
     -   Metric: Select a PA Indicator, External, or Calculated metric from the list.
 
-        **Note:** You can’t select a metric that has already been defined for the parent Segment.
+        **Note:**
+
+        -   You can’t select a metric that has already been defined for the parent Segment.
+        -   Only published data sources are available for selection. If a published data source that is part of a segment configuration is later moved to a non-published state, you will see the following message:
+
+            `This data source is referenced by at least one other published data source's segment configuration. Moving into non-published state may impact those references.`
+
+            The calculated metric will not work as expected as the data source is no longer in a published state.
 
     -   Weight: The weight or percentage assigned to this metric in calculating the overall score. If you’re defining two or more data sources for the health definition, the total weight across all the data sources should be equal to 100. For example, for these data sources, you can specify the Weight as follows:
         -   Daily collection of CSAT: 40
@@ -112,6 +119,4 @@ To calculate the product adoption score for two or more products, you can config
 ## What to do next
 
 After defining the segments and segment configurations, the next step is to configure the context engine mapper. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
-
-**Parent Topic:**[Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-data-source.md)
 

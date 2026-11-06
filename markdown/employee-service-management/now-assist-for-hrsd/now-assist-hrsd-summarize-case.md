@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -49,15 +49,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
     -   Canceled or Suspended: Summary isn’t visible
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d497553e170">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d506590e170">
 
 Option
 
-</th><th align="left" id="d497553e173">
+</th><th align="left" id="d506590e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d497553e179">
+</th></tr></thead><tbody><tr><td id="d506590e179">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d497553e209">
+</td></tr><tr><td id="d506590e209">
 
 **Expand or collapse the summary**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the **Show more** or **Show less** button to see more or fewer summary details.
 
-</td></tr><tr><td id="d497553e224">
+</td></tr><tr><td id="d506590e224">
 
 **Provide feedback for the summary**
 
@@ -84,7 +84,7 @@ Select the **Show more** or **Show less** button to see more or fewer summary de
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d497553e247">
+</td></tr><tr><td id="d506590e247">
 
 **Copy the case summary**
 
@@ -92,7 +92,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d497553e263">
+</td></tr><tr><td id="d506590e263">
 
 **View the information about the case summary**
 
@@ -102,7 +102,7 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
@@ -119,9 +119,9 @@ If you want to check some details about the summary, select the more info icon \
 
 [Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
-[Summarize an ER case using ServiceNow Otto for HRSD]()
-
 [Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -138,6 +138,8 @@ If you want to check some details about the summary, select the more info icon \
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

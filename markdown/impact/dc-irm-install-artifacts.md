@@ -1,16 +1,16 @@
 ---
-title: Review IRM artifacts
+title: Review Governance, Risk, and Compliance artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-irm-install-artifacts.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for IRM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Review IRM artifacts
+# Review Governance, Risk, and Compliance artifacts
 
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
@@ -67,4 +67,6 @@ The app contains the following artifacts for each of the above-specified artifac
 |Automated|Impact VM - \# of Minor Risk Events|
 |Manual|Outsourced risk mgmt. spend as % of avg. risk mgmt. spend|
 |Manual|Legacy IRM and privacy systems annual run-rate|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-irm.md)
 

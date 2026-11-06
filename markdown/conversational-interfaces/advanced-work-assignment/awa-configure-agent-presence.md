@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -22,17 +22,12 @@ Role required: awa\_admin or admin. Users with the awa\_manager and awa\_agent r
 
 ## About this task
 
-The default presence states are Available, Away, and Offline. For the Available state, be sure to enable it \(using the Active check box\) so that AWA can route work to agents.
+The default presence states are Available, Away, AI Available, and Offline. For the Available state, be sure to enable it \(using the Active check box\) so that AWA can route work to agents.
 
 ## Procedure
 
-1.  Navigate to the presence states settings through one of the following navigation paths:
+1.  Navigate to **All** &gt; **Advanced Work Assignment** &gt; **Home** &gt; **Settings** &gt; **Presence States**.
 
-    -   **All** &gt; **Advanced Work Assignment** &gt; **Home**.
-
-        In the Additional settings section, select **Set up presence states**.
-
-    -   **All** &gt; **Advanced Work Assignment** &gt; **Presence States**.
 2.  Choose a situation.
 
     -   To create a presence state, select **New**.
@@ -53,7 +48,7 @@ Name
 
 </td><td>
 
-Name of the presence state, for example: Out of office. The default presence states are Available, Away, or Offline.
+Name of the presence state, for example: Out of office. The default presence states are Available, Away, AI Available, and Offline.
 
 </td></tr><tr><td>
 
@@ -140,6 +135,4 @@ Selected groups that can use this presence state. To select a group, move the gr
 
     The presence state is added to or updated in the Presence States \[awa\_presence\_state\] table. The presence state is also listed in the Availability section of the Agent Workspace Inbox for the agents belonging to the groups and channels that use this state.
 
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

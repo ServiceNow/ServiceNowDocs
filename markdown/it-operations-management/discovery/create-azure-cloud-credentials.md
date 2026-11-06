@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Discovery for Microsoft Azure Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Create Azure cloud credentials
@@ -94,15 +94,15 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     -   Management group: Use this option to grant Reader access to all subscriptions under the management group
     -   Individual subscription: Use this option to grant Reader access to a specific subscription only
-<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d643136e354">
+<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d691129e356">
 
 Option
 
-</th><th align="left" id="d643136e357">
+</th><th align="left" id="d691129e359">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d643136e363">
+</th></tr></thead><tbody><tr><td id="d691129e365">
 
 **Management group**
 
@@ -120,7 +120,7 @@ Steps
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d643136e435">
+</td></tr><tr><td id="d691129e437">
 
 **Individual subscription**
 

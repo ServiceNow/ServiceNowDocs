@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/otm-licensing-dashboard.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -72,7 +72,7 @@ The first area displays the daily raw resource counts, which means all the detec
 
 Hover over the bars to see the table of resource types. Each type is shown with an absolute number of resources and a share it takes among others.
 
-The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per OT application.The dashboard also displays the brown line that represents the UsageAnalytics counts for table. This count is based on average consumption of subscription units for the last 90 days using SU ratios where one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
+The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per OT application.The dashboard also displays the brown line that represents the UsageAnalytics counts for table. This count is based on average consumption of subscription units for the last 90 days. A SU ratio is used where one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
 
 Hover over the vertical bar in the Subscription units area for the desired day to open the Available CIs list. The table shows each CI category included in the daily CI count, along with an absolute number of resources and a share it takes among others.
 

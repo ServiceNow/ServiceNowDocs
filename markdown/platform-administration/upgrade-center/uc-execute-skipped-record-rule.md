@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Upgrade Center, Upgrade, Administer]
+breadcrumb: [Administering Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Execute a skipped record rule
@@ -47,15 +47,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d292166e144">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d303878e144">
 
 Option
 
-</th><th align="left" id="d292166e147">
+</th><th align="left" id="d303878e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d292166e153">
+</th></tr></thead><tbody><tr><td id="d303878e153">
 
 **Using Run Now**
 
@@ -66,7 +66,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d292166e179">
+</td></tr><tr><td id="d303878e179">
 
 **Using View Latest Upgrade History tab**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Use, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Create decision table code snippets
@@ -20,7 +20,7 @@ Create code snippets of published decision tables in Workflow Studio to execute 
 
 If you have draft authoring enabled, you must publish your decision table to be able to copy a code snippet of the table. If draft authoring is not enabled, save your decision table to access this feature.
 
-The ability to copy code snippets for a decision table enables you to quickly insert the table into your script without having to author the code using API documentation. For more information about the Decision table API, see .
+The ability to copy code snippets for a decision table enables you to quickly insert the table into your script without having to author the code using API documentation. For more information about the Decision table API, see [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
 
 Role required: none
 

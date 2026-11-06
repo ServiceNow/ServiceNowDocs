@@ -1,31 +1,33 @@
 ---
 title: Exploring Health Log Analytics
-description: ServiceNow Health Log Analytics predicts IT issues before they affect your users by collecting, analyzing, and correlating machine-generated log data in real time. It discovers anomalies and alerts you to potential issues.
+description: ServiceNow Health Log Analytics \(HLA\) predicts IT issues before they affect your users by collecting, analyzing, and correlating machine-generated log data in real time. It discovers anomalies and alerts you to potential issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-exploring.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Exploring Health Log Analytics
 
-ServiceNow Health Log Analytics predicts IT issues before they affect your users by collecting, analyzing, and correlating machine-generated log data in real time. It discovers anomalies and alerts you to potential issues.
+ServiceNow Health Log Analytics \(HLA\) predicts IT issues before they affect your users by collecting, analyzing, and correlating machine-generated log data in real time. It discovers anomalies and alerts you to potential issues.
 
 ## Health Log Analytics overview
 
 Health Log Analytics typically receives and processes log data and sends events to ServiceNow Event Management. The application discovers anomalies as they happen. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data.
 
-Health Log Analytics can handle any kind of machine-generated textual log data. It can process application, infrastructure, and network logs, as well as other types of textual log data. Although a configuration management database \(CMDB\) can be helpful to generate high-quality events and alerts, it is not necessary.
+Health Log Analytics can handle any kind of machine-generated textual log data. It can process application, infrastructure, and network logs, as well as other types of textual log data. Although a Configuration Management Database \(CMDB\) can be helpful to generate high-quality events and alerts, it is not necessary.
 
 **Note:**
 
 -   Health Log Analytics supports only UTF-8 logs. It does not support binary logs.
 -   If you are sending logs in a language other than English, additional configuration may be required.
+
+For a brief explanation of key terms and concepts used in HLA, see the [Health Log Analytics terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-glossary.md).
 
 ## Health Log Analytics users
 
@@ -117,12 +119,12 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
 
 |Benefit|Feature|User|
 |-------|-------|----|
-|Simplify data input setup using the guided setup.|[Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-guided.md)|Administrator|
+|Use predictiveLog Analytics alerts to handle emerging IT issues before they escalate and impact users.|[Analyzing and resolving Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-analyzing-resolving-hla-alert.md)|Operator|
 |Set up log data connector integrations quickly and conveniently from the Integrations Launchpad.|[Log data connector integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)|Administrator|
 |Shorten onboarding time by installing content packs.|[Content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-content-packs.md)|Administrator|
 |Save time and reduce errors by migrating data input configurations between instances.|[Data input migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-migration.md)|Administrator|
 |Identify the root cause of an alert by analyzing the logs that surround the anomaly.|[Surrounding logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept.md)|Operator|
-|Visualize anomalous log data on the Log viewer.|[Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)|Operator|
+|Visualize anomalous log data.|[Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)|Operator|
 |Detect relationships in log data.|[Log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)|Operator|
 |Assign higher or lower significance to alerts.|[Mute alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-significance.md)|Operator|
 |Reduce noise by creating log filters.|[Log alert filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-adv-alert-filtering.md)|Operator|
@@ -133,4 +135,6 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
 
 -   [Health Log Analytics architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-architecture.md)
 -   [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md)
+-   [Types of anomalous behavior in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.md)
+-   [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md)
 

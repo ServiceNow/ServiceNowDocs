@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ConfigEntityToUseSHNotes.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure special handling notes, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Configuring an entity to use special handling notes adds the **Create Special Ha
 
 1.  Navigate to **All** &gt; **Special Handling Notes** &gt; **Configuration**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Select a table in the **Table name** field.
 
@@ -34,7 +34,7 @@ Configuring an entity to use special handling notes adds the **Create Special Ha
 
     You can also display notes from related entities by including those fields in the configuration. For example, you can display notes for the account and contact associated with a customer service case by selecting the **Account** and **Contact** fields on the Case form.
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
     The configuration is added to the Special Handling Configuration list.
 

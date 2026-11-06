@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-01-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Publishing content, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Publishing content, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Scheduling the delivery of content
@@ -18,11 +18,11 @@ After you create content in Content Publishing, use **Schedule Content** to post
 
 ## Before you begin
 
-Role required: sn\_cd.content\_manager, sn\_cd.content\_approver
+Role required: sn\_cd.content\_manager
 
 You can also schedule content after creating and saving it from the related list of the content. See the following:
 
--   [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ecpro-content-delivery-mobile.md)
+-   [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)
 -   [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
 -   [Create email, SMS, or push notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-notification-content.md)
 -   [Create to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-manage-content-to-do.md)

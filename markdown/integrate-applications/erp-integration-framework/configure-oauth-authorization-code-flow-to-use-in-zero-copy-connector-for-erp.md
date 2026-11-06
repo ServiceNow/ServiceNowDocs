@@ -1,5 +1,5 @@
 ---
-title: Configure OAuth authorization code flow to use in Zero Copy Connector for ERP
+title: Configure OAuth authorization code flow for Zero Copy Connector for ERP
 description: Configure OAuth authorization code flow for SAP and use OAuth to authenticate and authorize users for OData endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp.html
@@ -7,40 +7,40 @@ release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, oauth, odata, configure, code, provider]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [OData, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Configure OAuth authorization code flow to use in Zero Copy Connector for ERP
+# Configure OAuth authorization code flow for Zero Copy Connector for ERP
 
 Configure OAuth authorization code flow for SAP and use OAuth to authenticate and authorize users for OData endpoints.
 
 ## Before you begin
 
-Role required: admin
-
-**Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). At this time, OAuth cannot be used for tables, BAPI, or RFC.
+**Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). Currently, OAuth can't be used for tables, BAPI, or RFC.
 
 To understand OAuth, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_SettingUpOAuth.md) and [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-inbound.md).
 
 Consult with your SAP administrator:
 
 -   Obtain the client ID and client secret. You need this information for the application registry form.
--   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ManageTokens.md).
--   Ask them to enable the gateway services to expose the OData endpoints you want to use.
+-   Ask whether the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ManageTokens.md).
+-   Ask them to enable the gateway services to expose the OData endpoints to use.
 -   Ask them to create a scope in SAP for the exposed OData endpoints and give you the name and OAuth scope. You need this to configure the scope on the application registry form.
+
+If you have already set up OAuth \(for example, with REST through platform features\), you can use it in Zero Copy Connector for ERP and skip to step 2 in the procedure.
+
+Role required: sn\_erp\_integration.erp\_admin
 
 ## Procedure
 
-1.  If you have already set up OAuth \(for example, with REST via platform features\), you can use it in Zero Copy Connector for ERP and skip to step 3.
-
-2.  To set up OAuth, register your application by navigating to **All** &gt; **System OAuth** &gt; **Application Registry**.
+1.  To set up OAuth, register your application by navigating to **All** &gt; **System OAuth** &gt; **Application Registry**.
 
     1.  Select **New**.
 
-    2.  Select **Connect to a third party OAuth Provider**
+    2.  Select **Connect to a third party OAuth Provider**.
 
         Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connect-3rd-party-oauth-provider.md).
 
@@ -52,19 +52,19 @@ Consult with your SAP administrator:
 
     6.  Unlock the **Authorization URL** and **Token URL** fields to enter the URLs.
 
-        \[Omitted image "image.erp-oauth-usage-flow1"\] Alt text: Application registry form with fields containing information.
+        \[Omitted image "erp-oauth-usage-flow1.png"\] Alt text: Application registry form with fields containing information.
 
     7.  Select the **OAuth Entity Scopes** tab.
 
-    8.  Double-click in the **Name** and **OAuth scope** columns to enter the scope information you obtained from your SAP administrator.
+    8.  Double-click \(or use the keyboard shortcut\) in the **Name** and **OAuth scope** columns to enter the scope information you obtained from your SAP administrator.
 
         You can add multiple scopes.
 
-        \[Omitted image "image.erp-oauth-usage-flow2"\] Alt text: OAuth entity scopes tab on the application registry form.
+        \[Omitted image "erp-oauth-usage-flow2.png"\] Alt text: OAuth entity scopes tab on the application registry form.
 
     9.  Select **Submit**.
 
-3.  Create a credential by navigating to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+2.  Create a credential by navigating to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
 
     1.  Select **New**.
 
@@ -78,28 +78,28 @@ Consult with your SAP administrator:
 
     5.  In **Integration type**, select **Personal**.
 
-        In most cases, it is acceptable to use system-based credentials. However, if you are trying to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/personal-auth-dashboard.md).
+        In most cases, it is acceptable to use system-based credentials. However, to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/personal-auth-dashboard.md).
 
-        \[Omitted image "image.erp-oauth-usage-flow3"\] Alt text: Oauth 2.0 credentials form with fields containing information.
+        \[Omitted image "erp-oauth-usage-flow3.png"\] Alt text: Oauth 2.0 credentials form with fields containing information.
 
     6.  Select **Submit**.
 
-4.  Add a connection to the **Zero Copy Connector for ERP HTTP** alias by navigating to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
+3.  Add a connection to the correct alias, for example, the following steps use the **Zero Copy Connector for ERP HTTP** alias.
 
-    1.  In **Name**, search for and select **Zero Copy Connector for ERP HTTP**.
+    1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
 
-    2.  On the **Connections** tab, select **New**.
+    2.  In **Name**, search for and select **Zero Copy Connector for ERP HTTP**.
+
+    3.  On the **Connections** tab, select **New**.
 
         For detailed information about the fields on this form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md).
 
-    3.  Enter a **Name**.
+    4.  Enter a **Name**.
 
-    4.  In **Credential**, specify the OAuth credential you created in step 3.
+    5.  In **Credential**, specify the OAuth credential you created in step 2.
 
-    5.  Enter the **Connection URL**.
+    6.  Enter the **Connection URL**.
 
-    6.  Select **Submit**.
+    7.  Select **Submit**.
 
-
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

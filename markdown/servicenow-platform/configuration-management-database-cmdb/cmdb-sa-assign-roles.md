@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [assign CMDB success advisor roles, CMDB success advisor role requirements, sn\_cmdb\_admin sn\_cmdb\_user roles, scope\_user scope\_editor roles]
 breadcrumb: [Configure, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

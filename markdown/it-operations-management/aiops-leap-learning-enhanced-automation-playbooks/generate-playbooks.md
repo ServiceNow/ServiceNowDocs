@@ -7,9 +7,9 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Generate LEAP playbooks
@@ -30,15 +30,15 @@ Role required: LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d779365e103">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d843323e105">
 
 UI option
 
-</th><th align="left" id="d779365e106">
+</th><th align="left" id="d843323e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d779365e112">
+</th></tr></thead><tbody><tr><td id="d843323e114">
 
 **Actions**
 
@@ -46,13 +46,13 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\], and select **Create Playbook**.
 
-</td></tr><tr><td id="d779365e126">
+</td></tr><tr><td id="d843323e128">
 
 **Ask Otto**
 
 </td><td>
 
-1.  Select \[Omitted image "Otto-01.svg"\] Alt text: Ask Otto button button.
+1.  Select \[Omitted image "Otto-01.svg"\] Alt text: Ask Otto button.
 2.  In the ServiceNow Otto panel, select **Create playbook**.
 
 

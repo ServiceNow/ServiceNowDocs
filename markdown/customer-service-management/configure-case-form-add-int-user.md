@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-case-form-add-int-user.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a case form view, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure a Case form view, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add the Internal User field to the Case form
@@ -16,13 +16,13 @@ Add the **Internal user** field to the Case form for the Case view and the Works
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
 The **Internal User** field displays the name of an internal user. When an agent is creating a case on behalf of someone else, they can use this field to identify the person requesting assistance. This user can be an internal employee asking for help for an account, consumer, or service organization, or for themselves.
 
-With the Customer Service Management plugin \(com.sn\_customerservice\), agents can create cases for internal employees or on behalf of their accounts and consumers. Additional plugins provide additional functionality for the **Internal User** field. For more information, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-contributor-users.md).
+With the Case Management Core plugin \(com.sn\_customerservice\), agents can create cases for internal employees or on behalf of their accounts and consumers. Additional plugins provide additional functionality for the **Internal User** field. For more information, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-contributor-users.md).
 
 ## Procedure
 
@@ -30,9 +30,9 @@ With the Customer Service Management plugin \(com.sn\_customerservice\), agents 
 
 2.  In the Case Management category, click **Get Started**.
 
-3.  Select **Add Internal User Field to the Case Form View**.
+3.  Click **Add Internal User Field to the Case Form View**.
 
-4.  Add the **Internal user** field to the case form for these views: Case and Workspace.
+4.  Add the **Internal user** field to the Case form for these views: Case and Workspace.
 
 
 **Related topics**  

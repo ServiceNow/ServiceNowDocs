@@ -1,0 +1,93 @@
+---
+title: IT Service Management AI agents
+description: The following AI agents are available for IT Service Management.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/itsm-ai-agents-overview.html
+release: zurich
+topic_type: concept
+last_updated: "2026-08-04"
+reading_time_minutes: 5
+breadcrumb: [IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# IT Service Management AI agents
+
+The following AI agents are available for IT Service Management.
+
+**Important:** For a list of agentic workflows for ServiceNow Otto for IT Service Management \(ITSM\), see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md).
+
+-   **[Additional incident context AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-additional-incident-context-agent-ai-agent.md)**  
+This AI agent retrieves information beyond the incident itself and presents the output in a readable format. This agent is strictly read-only; it can only retrieve and present information. It cannot update, modify, or perform any write operations on any records \(such as adding comments, changing fields, reassigning, resolving, or closing incidents\).
+-   **[Agent client collector \(ACC\) diagnostic AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-acc-agent-client-collector-acc-diagnostic-agent-ai-agent.md)**  
+This agent assists users in resolving ACC errors by providing suggestions based on the error codes found in the ACC Error Reports. It aims to help users resolve errors efficiently and effectively.
+-   **[Categorize ITSM incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-categorize-itsm-incident-ai-agent.md)**  
+This AI agent assigns the appropriate category and subcategory to an incident.
+-   **[Create change request AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-create-change-ai-agent-auto.md)**  
+This AI agent creates structured change requests from conversational input by autonomously selecting the appropriate change model and template.
+-   **[Change CI suggestion AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-ci-suggestion-ai-agent.md)**  
+This AI agent recommends a list of relevant configuration items \(CIs\) that can be added as Affected CIs to the current change request.
+-   **[Change CI suggestion AI agent \(latest\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-ci-suggestion-ai-agent-auto.md)**  
+This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request without requiring multiple user interactions.
+-   **[Change conflict assessor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-conflict-assessor-ai-agent.md)**  
+This AI agent can assess conflicts for changes. This includes checking mandatory fields and trigger conflict detection, and updating worknotes.
+-   **[Change outage assistant AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-outage-assistant-ai-agent.md)**  
+This AI agent creates outage records for the change request based on the impacted CIs.
+-   **[Change quality assessor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-quality-assessor-ai-agent.md)**  
+This AI agent provides suggestions to improve inputs for a change form.
+-   **[Change request plans AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-request-plans-ai-agent.md)**  
+This AI agent helps change owners and approvers by drafting high-quality, context-aware change request content.
+-   **[Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md)**  
+This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
+-   **[Change template suggestion AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-change-template-suggestion-ai-agent-auto.md)**  
+This AI agent identifies the most relevant change template and model for new change requests by analyzing request details and comparing them against available templates and historical data.
+-   **[Classify service and CI AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-classify-service-and-ci-ai-agent.md)**  
+This AI agent assigns the appropriate service and offering to an incident. It can also assign the appropriate configuration item.
+-   **[Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-create-incident-ai-agent.md)**  
+Use this AI agent to log IT support requests. It responds to requests such as "create an incident," "raise an incident," "open an IT ticket," or "raise an IT support ticket."
+-   **[Create incident AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-create-incident-with-voice-ai-voice-agent.md)**  
+This AI agent creates new incidents when the user explicitly mentions they want to create a new incident or report a new issue.
+-   **[DEX diagnosis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-dex-dex-diagnosis-ai-agent.md)**  
+This AI agent specializes in structured root cause diagnosis of device and application performance issues through a step-by-step process. This agent aggregates device health metrics, event logs and historical incident data, then systematically evaluates each source to isolate relevant evidence.
+-   **[DEX remediation trigger AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-dex-dex-remediation-trigger-ai-agent.md)**  
+This AI agent receives a resolution plan, checks for remedial actions, and executes the supported ones on end-user devices \(Windows OS and MacOS endpoints\) to resolve common device and application issues. Remedial actions are concrete, executable fix steps such as restarting services, clearing cache, or cleaning up temporary files.
+-   **[DEX resolution plan AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-dex-dex-resolution-plan-ai-agent.md)**  
+This AI agent generates a resolution plan for the given issue based strictly on the root cause provided. The agent ensures all suggested steps are evidence-based, actionable, and aligned with the diagnosed root cause. No resolution is proposed outside these defined sources.
+-   **[Incident category configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-incident-category-configuration-ai-agent.md)**  
+This AI agent orchestrates the complete lifecycle of incident category and subcategory configuration for the Choices \[sys\_choice\] table. It supports three interaction modes: guided conversation, file upload \(CSV/XLSX\), and industry-based recommendations.
+-   **[Incident context AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-incident-context-ai-agent.md)**  
+This AI agent helps users answer questions related to a given incident using information from the incident record and its related records. This agent is strictly read-only — it can only retrieve and present information.
+-   **[Incident knowledge article AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-incident-knowledge-article-ai-agent.md)**  
+This AI agent can resolve incidents by finding existing similar knowledge articles and attaching them to the incident. It can also create a knowledge article for the incident.
+-   **[Incident known error article AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-incident-known-error-article-ai-agent.md)**  
+This AI agent can find similar known error articles for an incident and attach them to the incident. It can also resolve the incident.
+-   **[Incident resolution details AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-incident-resolution-details-ai-agent.md)**  
+This AI agent suggests resolution notes for an incident.
+-   **[Incident routing configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-incident-routing-configuration-agent-ai-agent.md)**  
+This AI agent creates, modifies, and deactivates assignment rules for incident routing.
+-   **[ITSM incident resolution plan investigation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-itsm-incident-resolution-plan-investigation-ai-agent.md)**  
+This AI agent gets incident details, reviews similar incidents and knowledge articles, and then generates an incident resolution plan.
+-   **[Link major incident or problem AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-link-major-incident-or-problem-ai-agent.md)**  
+This AI agent automatically identifies and links the most relevant major incident or problem with an incident.
+-   **[Manage ticket AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-manage-ticket-ai-voice-agent.md)**  
+This AI voice agent assists users with managing their active incidents and requested items.
+-   **[Microsoft 365 group membership AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-microsoft-365-group-membership-ai-agent.md)**  
+The agent helps users add or remove members of Microsoft 365 distribution list groups. It finds the group, validates the people to add or remove, confirms the action with the user, and records the request in an incident.
+-   **[Password reset AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-password-reset-with-voice-ai-voice-agent.md)**  
+This AI voice agent helps users reset their password during phone-based interactions.
+-   **[Post incident review AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-post-incident-review-ai-agent.md)**  
+This AI agent generates a post-incident review report for the user to review and revise after a major incident report.
+-   **[Request catalog item AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-request-catalog-item-with-voice-ai-voice-agent.md)**  
+This AI voice agent assists users in finding and delivering catalog items. If the item is not categorized as software, then the catalog link is sent through approved channels such as email or SMS. If the item is software, this agent will help create the request.
+-   **[Schedule change request AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-schedule-change-request-ai-agent.md)**  
+This AI agent schedules a change request.
+-   **[Standard change template proposal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-standard-change-template-proposal-ai-agent.md)**  
+Provided with a change request, this AI agent searches for similar changes and returns a list of similar changes to use for a proposal record.
+-   **[Standard change template recommender AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-standard-change-template-recommender-ai-agent.md)**  
+This AI agent helps users create and submit change requests. Invoke it whenever the user asks to log, create, submit, initiate, or help with a change record of any type \(standard, routine, scheduled, maintenance, infrastructure, software, database, security, or any changes specific to IT service management\).
+-   **[Submit account unlock catalog AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-submit-account-unlock-catalog-with-voice-ai-voice-agent.md)**  
+This AI voice agent helps users unlock accounts by invoking a tool call to submit an account-unlock catalog request.
+-   **[Troubleshoot Outlook issue AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itsm-troubleshoot-outlook-issue-with-voice-ai-voice-agent.md)**  
+This AI voice agent troubleshoots Microsoft Outlook issues. It also sends a troubleshooting article link to the user by email when requested.
+
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-landing-page.md)
+

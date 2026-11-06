@@ -1,5 +1,5 @@
 ---
-title: Perform CRI tiering questionnaire to determine the tier value of entity
+title: Perform CRI tiering questionnaire
 description: Perform CRI tiering questionnaire on an entity to determine its tier, evaluation controls associated with the tier will be created or updated. Based on the response to the CRI questionnaire from the assessor, the compliance status of each mapped control to a question is determined and the overall compliance score of the entity is calculated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage control objectives and policies, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Perform CRI tiering questionnaire to determine the tier value of entity
+# Perform CRI tiering questionnaire
 
 Perform CRI tiering questionnaire on an entity to determine its tier, evaluation controls associated with the tier will be created or updated. Based on the response to the CRI questionnaire from the assessor, the compliance status of each mapped control to a question is determined and the overall compliance score of the entity is calculated.
 
@@ -80,6 +80,10 @@ The CRI assessment is done in two steps:
 12. Enter a message in the **Message** field and select the **Initiate tiering questionnaire** button in the CRI tiering questionnaire pop-up.
 
     After you initiate the tiering questionnaire the **CRI tiering questionnaire** related list appears in the Entity record.
+
+    When a CRI tiering questionnaire is initiated, the assessment is generated using the latest published version of the template.
+
+    For more information, see [Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 
 13. Select the **CRI tiering questionnaire** related list and click the assessment instance link.
 

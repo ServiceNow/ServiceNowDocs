@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/convert-rfq-quote-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Create quotes from request for quotes \(RFQs\)
@@ -24,7 +24,7 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -60,6 +60,8 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 ## What to do next
 
 View quotes, generate PDFs share to share quotes with customers for acceptance, create sales agreements, or convert quotes to orders to continue the sales process. For more information, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-mgmt-using.md).
+
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rfq-business-portal.md)
 
 **Related topics**  
 

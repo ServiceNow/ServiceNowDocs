@@ -1,18 +1,18 @@
 ---
-title: Creating or updating an app file with Build Agent
+title: Creating or updating an app file with Build Agent default mode
 description: Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/creating-or-updating-an-app-file.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: programmer
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Creating or updating an app file with Build Agent
+# Creating or updating an app file with Build Agent default mode
 
 Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 
@@ -26,7 +26,7 @@ Continue the conversation just like you did with creating an application, using 
 
 Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
-When you're ready, deploy the app. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
+For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 
 **Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/use-build-agent.md)
 

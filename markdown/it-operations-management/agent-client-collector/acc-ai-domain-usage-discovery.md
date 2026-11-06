@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI domain usage discovery, shadow AI, Agent Client Collector for Visibility Content]
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Domain usage discovery and categorization
@@ -41,4 +41,9 @@ Domain usage discovery runs inline as part of existing web usage processing:
 -   Existing web usage data collection and storage are unaffected. This classification happens in addition to, not instead of, standard web usage tracking.
 -   The system records each endpoint, domain, and user combination only one time. It doesn't update or duplicate existing records.
 -   The system loads the active domain signatures fresh each time it processes web usage data, so newly activated signatures are detected without requiring a restart.
+
+-   **[Categorize domain usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-discover-ai-domain-usage.md)**  
+Group the domains that users visit in your environment by business relevance, such as AI tools, productivity applications, or security services.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

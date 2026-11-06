@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a child alias to set up multiple Cisco Webex integration profiles
@@ -18,7 +18,7 @@ Create a child alias to set up multiple Cisco Webex integration profiles.
 
 ## Before you begin
 
-Role required: admin
+Role required: sam\_integrator
 
 ## Procedure
 
@@ -98,6 +98,4 @@ Role required: admin
 [Delete an integration profile]()
 
 [Subscription identifiers for SaaS and SSO applications]()
-
-[Subscription exclusions for SaaS and SSO applications]()
 

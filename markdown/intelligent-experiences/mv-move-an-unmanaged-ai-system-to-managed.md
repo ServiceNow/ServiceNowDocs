@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [AI Control Tower, move to managed, unmanaged AI system, AI asset inventory]
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Move an unmanaged AI system to managed
@@ -37,7 +37,7 @@ The value dashboard shows insights only for managed AI systems. Move an unmanage
 
 4.  From the **Action** list, select **Move to Managed**.
 
-    \[Omitted image "image.mv-move-to-managed"\] Alt text: Action menu in AI Control Tower with the Move to Managed option highlighted.
+    \[Omitted image "mv-move-to-managed.png"\] Alt text: Action menu in AI Control Tower with the Move to Managed option highlighted.
 
     A confirmation message appears, confirming the AI system is now managed.
 

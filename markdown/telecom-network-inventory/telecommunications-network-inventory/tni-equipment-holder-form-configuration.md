@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -331,5 +331,5 @@ Unit in which weight of the asset is measured. Select any one of the following.-
 **Related topics**  
 
 
-[ef50e6a82895815b2866410c0972666bc0a3bad3.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
+[97cbb0ebaaf9181e528f50a636a270ad5566c3e1.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
 

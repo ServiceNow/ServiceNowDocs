@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-approve-unassign-requests.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -30,6 +30,8 @@ By default, an approval configuration is provided and an unassign approval group
 -   **Application vulnerability field change request** for an application vulnerable item \(AVIT\).
 -   **Approval for container management** for a container vulnerable item \(CVIT\).
 
+For more information on approval rules and configurations, see [Approval workflow configurations for unassign request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-unassign-approval-rules.md).
+
 **Important:** You can approve or reject requests in the Vulnerability Manager Workspace. .
 
 ## Procedure
@@ -42,6 +44,4 @@ By default, an approval configuration is provided and an unassign approval group
 
 3.  Approve or reject the request by adding the appropriate comments.
 
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-rules-manage-findings.md)
 

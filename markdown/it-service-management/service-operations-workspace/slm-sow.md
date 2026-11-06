@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Service Level Management in Service Operations Workspace
@@ -18,7 +18,7 @@ You can access the service level agreement \(SLA\) information for an incident o
 
 ## SLA information on the Service Operations Workspace landing page
 
-On the Service Operations Workspace landing page, you can click the **Incident SLAs** card to view incidents grouped by their SLAs. This card displays SLA details only for incidents assigned to the agent. For information on possible customizations for this card, see [Configure the donut color in the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-donut-color.md).
+On the Service Operations Workspace landing page, you can select the **Incident SLAs** card to view incidents grouped by their SLAs. This card displays SLA details only for incidents assigned to the agent. For information on possible customizations for this card, see [Configure the donut color in the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-donut-color.md).
 
 \[Omitted image "overview-section.png"\] Alt text: Overview section
 

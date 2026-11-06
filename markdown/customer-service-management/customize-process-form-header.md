@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customize-process-form-header.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Overview information for a record is available in the page header.
 
 1.  Navigate to **All** &gt; **Now Experience Framework ** &gt; **Configuration Settings** &gt; **UX Header Configurations**.
 
-2.  Select the **CSM/FSM Configurable Workspace Header Config** header configuration.
+2.  Select the CRM Workspace header configuration.
 
 3.  Select a table from the UX Form Headers list.
 

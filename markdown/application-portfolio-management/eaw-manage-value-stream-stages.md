@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-manage-value-stream-stages.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage value stream stages
@@ -20,7 +20,7 @@ You can view the list of all available value streams stages in the Enterprise Ar
 Create or edit a value stream stage to improve the efficiency of a value stream and verify each step adds value to the output of the value stream.
 -   **[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)**  
 You can add an existing business process to a value stream stage to map your enterprise architecture workflows to the stages of your value streams. You can also remove associated business processes if they are no longer relevant for the value stream stage.
--   **[Add or remove business capabilities from value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)**  
+-   **[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)**  
 You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 
 **Parent Topic:**[Using business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-using-business-architecture.md)

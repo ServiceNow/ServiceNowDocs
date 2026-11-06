@@ -1,20 +1,20 @@
 ---
 title: Reestablish connection after a clone for a consumer
-description: After you clone Service Exchange, you must reestablish the connection between the consumer and provider instances.
+description: After you clone your instance, you must reestablish the connection between the consumer and provider instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-cloning-instances-con.html
 release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Reestablish connection after a clone for a consumer
 
-After you clone Service Exchange, you must reestablish the connection between the consumer and provider instances.
+After you clone your instance, you must reestablish the connection between the consumer and provider instances.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ The clone must be completed. For more information on cloning, see [Instance Clon
 
 ## About this task
 
-After you clone your Service Exchange, the inbound and outbound connections move to an error state. You must reestablish the connection between provider and consumer target instances to promote proper functionality.
+After you clone your Service Exchange, the inbound and outbound connections move to an error or down state. You must reestablish the connection between provider and consumer target instances to promote proper functionality.
 
 ## Procedure
 
@@ -39,6 +39,8 @@ After you clone your Service Exchange, the inbound and outbound connections move
 4.  In the Process Sync Remote System Provider Instance page, select the **Validate and Activate Remote System** related links.
 
 5.  Activate inactive Capture Definitions.
+
+    **Note:** When the connection goes down after the clone, automatic mitigation can activate inactive capture definitions. Check the state of each capture definition before you change it.
 
     1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Remote Process Sync** &gt; **Process Sync Definitions**.
 

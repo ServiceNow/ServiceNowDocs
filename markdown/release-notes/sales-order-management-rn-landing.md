@@ -1,70 +1,55 @@
 ---
 title: Sales Customer Relationship Management release notes
-description: ServiceNow Sales Customer Relationship Management is a set of new and updated applications and features in the Zurich release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+description: ServiceNow Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization. Supported processes include leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/sales-order-management-rn-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-28"
-reading_time_minutes: 5
-breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-10-08"
+reading_time_minutes: 3
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Sales Customer Relationship Management release notes
 
-ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Zurich release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization. Supported processes include leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 
-[Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
+**Note:**
 
-ServiceNow Otto is the new AI experience brand. This change is reflected in the name of the following ServiceNow products. Your product entitlements remain unchanged. There is no change to functionality or existing customer configurations. Check your entitlements to determine your access to specific features.
+Sales Customer Relationship Management includes workflows for Customer Lifecycle Operations \(Customer Life Cycle Management\). For details on these features in the Brazil release, see the [Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-service-mgmt-rn-landing.md).
 
-|Existing name|New name|
-|-------------|--------|
-|Now Assist for Sales Force Automation \(SFA\)|ServiceNow Otto for Sales Automation|
-|Now Assist for Configure, Price, Quote \(CPQ\)|ServiceNow Otto for Configure, Price, Quote \(CPQ\)|
-|Now Assist for Order Management|ServiceNow Otto for Order Management|
+Agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases in CRM Workspace. Case line items are also visible in this view. The Case lines and workflows application supports referencing multiple order line items on a case record.
 
-[Zurich Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md)
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md).
 
-Sales and Order Management \(SOM\) is now known as Sales Customer Relationship Management \(Sales CRM\) to align with the updated product taxonomy. There is no change to functionality or existing customer configurations.
-
-**Note:** Sales Customer Relationship Management includes workflows for Customer Lifecycle Operations \(Customer Life Cycle Management\) and Customer Contracts and Entitlements. For details on these features in the Zurich release, see the following Customer Service Management \(CSM\) release notes.
-
--   [Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/data-management-rn.md) \(Customer Life Cycle Management\)
--   [Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-contracts-entitlements-csm-rn.md)
-
-Also, agents can use the Case Management for Order Operations application to display order cases and order case line items in CRM Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
-
--   **[CPQ Configurator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-cpq-rn.md)**  
-The ServiceNow® CPQ Configurator interface streamlines the configuration and pricing of customizable products that are added to opportunities, quotes, and orders. It also supports product configuration when modifying sold products and contracts. CPQ Configurator is a new feature in the Zurich release.
+-   **[CRM API Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/crm-api-core-rn.md)**  
+The ServiceNow® CRM API Core application tracks and manages Sales CRM workflows with configurable request processing and Service Order Management integration. See the following sections for release notes by version.
+-   **[CRM Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/crm-core-rn.md)**  
+The ServiceNow® CRM Core application manages the complete product life cycle from lead to cash. The application provides workflows, configurable entity mappings, and declarative actions such as suspend, resume, and disconnect on sold products. See the following sections for release notes by version.
+-   **[CRM Outlook Add-in release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/crm-outlook-add-in-rn.md)**  
+The ServiceNow® CRM Outlook Add-in application captures and logs email interactions into CRM directly from Microsoft Outlook. See the following sections for release notes by version.
+-   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-self-service-sales-crm-rn.md)**  
+The ServiceNow® Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.
+-   **[Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-contracts-entitlements-rn.md)**  
+The ServiceNow® Customer Contracts and Entitlements application enables users to manage contracts from the initial offer to contract finalization, directly within the CSM Configurable Workspace. See the following sections for release notes by version.
 -   **[Customer Engagement Sequences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-engagement-sequences-rn.md)**  
-The ServiceNow® Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities to engage customers throughout the time they’re associated with your business. Customer Engagement Sequences is a new application in the Zurich release.
--   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-self-service-som-rn.md)**  
-The ServiceNow® Business Portal is a self-service web portal that supports your B2B customers by providing integrated access to knowledge articles, community forums, service catalogs, and chatbots. Business Portal was enhanced and updated in the Zurich release.
--   **[Lead-to-Cash Process Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/lead-cash-process-management-rn.md)**  
-The ServiceNow® Lead-to-Cash Process Management application provides sales managers and contract administrators with a real-time, consolidated view of critical sales data, activities, and status related to sales entities such as opportunities, quotes, and orders. Lead-to-Cash Process Management is a new application in the Zurich release.
--   **[ServiceNow Otto for Configure, Price, Quote \(CPQ\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-cpq-rn.md)**  
-The ServiceNow® ServiceNow Otto for CPQ application brings platform AI capabilities to Sales and Order Management. ServiceNow Otto for CPQ is a new application in the Zurich release.
--   **[ServiceNow Otto for Order Management release notes]()**  
-The ServiceNow® ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Zurich release.
--   **[ServiceNow Otto for Sales Automation release notes]()**  
-The ServiceNow® ServiceNow Otto for Sales Automation application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Sales Automation is a new application in the Zurich release.
+The ServiceNow® Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities that engage customers throughout their relationship with your business. See the following sections for release notes by version.
 -   **[Opportunity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/opportunity-management-rn.md)**  
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. ServiceNow® Opportunity Management is a new application in the Zurich release.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.
 -   **[Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/order-management-rn.md)**  
-The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Zurich release.
+The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. See the following sections for release notes by version.
 -   **[Partner Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/partner-relationship-management-rn.md)**  
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
--   **[Product Catalog Management and Pricing Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/product-catalog-pricing-management-rn.md)**  
-The ServiceNow® Sales Customer Relationship Management applications include the ServiceNow® Product Catalog Management and ServiceNow® Pricing Management features, which enable you to create and manage the product offerings, catalogs, pricing, and discounting strategies used in your organization. These foundational features were enhanced and updated in the Zurich release.
--   **[Quote Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/quote-management-rn.md)**  
-The ServiceNow® Quote Management application enables your sales agents to generate and manage sales quotes for your customers. Quote Management was enhanced and updated in the Zurich release.
--   **[Return Merchandise Authorization release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/return-merchandise-authorization-rn.md)**  
-The ServiceNow® RMA Case Management application enables customers to create cases for install base item. It offers simplified processes, decreased turnaround time, and a unified workflow. RMA Case Management is a new application in the Zurich release.
--   **[Sales Forecasting release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-forecasting-rn.md)**  
-The ServiceNow® Sales Forecasting application enables you to project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Zurich release.
--   **[Sales Territory Management​ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-territory-management-rn.md)**  
-The ServiceNow® Sales Territory Management​ application structures and optimizes the sales efforts of your organization based on territories. It involves overseeing daily sales activities, adjusting team assignments to verify complete customer coverage, monitoring sales performance against goals, and updating territory assignments as markets change. Sales Territory Management​ is a new application in the Zurich Patch 3 release.
+The ServiceNow® Partner Relationship Management application provides a unified solution for sales, delivery, marketing, and operations to manage the entire partner life cycle. See the following sections for release notes by version.
+-   **[Pricing Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/price-management-rn.md)**  
+The ServiceNow® Pricing Management application enables your organization to create, manage, and optimize pricing and discounting strategies, so your sales team can generate opportunities, quotes, and orders with accurate, competitive pricing. See the following sections for release notes by version.
+-   **[Product Catalog Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/product-catalog-management-rn.md)**  
+The ServiceNow® Product Catalog Management application helps your organization manage product offerings by grouping them into catalogs and categories, which streamlines the ordering process for leads, opportunities, quotes, and orders. See the following sections for release notes by version.
+-   **[Sales Agreement release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-agreement-rn.md)**  
+The ServiceNow® Sales Agreement Management captures the scope and conditions from a quote between a buyer and a seller.​ See the following sections for release notes by version.
+-   **[Sales CRM Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-crm-mobile-rn.md)**  
+The ServiceNow® Sales CRM Mobile application enables sales representatives and managers to access and manage customer information, sales pipeline, opportunities, and more from a mobile device. See the following sections for release notes by version.
+-   **[ServiceNow Quote Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cpq-rn.md)**  
+The ServiceNow Quote Experience application is enhanced to manage complete lifecycle of Subscription Management workflows, and productized pricing across contract, sales product, and purchase item scenarios. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

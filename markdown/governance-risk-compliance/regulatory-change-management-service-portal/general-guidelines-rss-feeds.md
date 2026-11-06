@@ -7,9 +7,9 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Overview of RSS feeds, Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+breadcrumb: [Overview of RSS feeds, Integrate, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # General guidelines for RSS feeds

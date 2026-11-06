@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage GRC tasks from Employee Center, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -177,7 +177,7 @@ Users that are notified when the request is updated.
 
 9.  Select **Request Approval** from the **Actions** list if the request is in **Analyze** state.
 
-    If you raise a policy exception from Employee Center and if verification rules are not configured, then the policy exception moves to the Analyze state. However, if verification rules are configured for the policy exception, then the policy exception moves to the New state and the verification approval process is triggered. As verification rules are configured the approver is required to verify the policy exception and approve it, only then the policy exception moves to Analyze state.
+    If you raise a policy exception from Employee Center and if verification rules are not configured, then the policy exception moves to the Analyze state. However, if verification rules are configured for the policy exception, then the policy exception moves to the New state and the verification approval process is triggered. As verification rules are configured, the approver is required to verify the policy exception and approve it, only then the policy exception moves to Analyze state.
 
 10. After the policy exception is approved, you can request extension of your policy exception, select **Request extension** from the **Actions** list.
 

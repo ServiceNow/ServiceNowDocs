@@ -7,10 +7,10 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, Now Assist]
-breadcrumb: [Configuring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Configuring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Configure LLM for Knowledge Graph

@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Enable manage contract repository agentic workflow, Enable agentic workflows in Now Assist in Contract Management]
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Activate business rules for the Manage contract repository agentic workflow
@@ -33,6 +33,8 @@ Role required: admin
 
 4.  Select the **Active** check box.
 
+    \[Omitted image "cmpro-agentic-ai-br.png"\] Alt text: Activate Agentic AI - Set reminders for contract business rule.
+
 5.  Select **Update**.
 
     The Business Rules table appears.
@@ -43,14 +45,16 @@ Role required: admin
 
 8.  Select the **Active** check box.
 
+    \[Omitted image "cmpro-agentic-ecntract-br.png"\] Alt text: Activate Agentic AI Set reminders for Econtract.
+
 9.  Select **Update**.
 
 
 ## Result
 
-The Manage contract repository agentic workflow is activated for Now Assist in Contract Management.
+The Manage contract repository agentic workflow is activated for ServiceNow Otto for Contract Management Pro.
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Operational Technology Visibility dashboard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -40,8 +40,15 @@ The job logs may include errors that aren't about the indicator sources. You mus
 
     -   `[Application] [is] [Operational Technology Manager]`
     -   `[Facts table] [is] [cmdb_ci]`
-    After applying the filters, the table shows seven device indicator records.\[Omitted image "device-indicator-records.png"\] Alt text: Device indicator records after applying the filters.
+    After applying the filters, the table shows the following device indicator records:
 
+    -   Benchmark: Inactive OT Devices
+    -   Benchmark: Industrial loT
+    -   Benchmark: New OT Devices Discovered
+    -   Benchmark: OT Computer and Servers
+    -   Benchmark: OT Devices
+    -   Benchmark: OT Network Gear
+    -   Benchmark: Unmapped OT Devices
 3.  Select the indicator source record that you need to change.
 
     You can find which indicator source needs to be adjusted from the job logs link in the error message.

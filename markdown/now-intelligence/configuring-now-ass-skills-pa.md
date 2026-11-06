@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configuring-now-ass-skills-pa.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -21,7 +21,7 @@ The Query Generation skills "analytics query generation" and "analytics insight 
 
 -   **[Activate the data visualization generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-analytics-assist.md)**  
 Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the data visualization generation skill.
--   **[The dashboard and visualization export skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-db-dv-export-skill.md)**  
+-   **[Dashboard and visualization export skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/activate-db-dv-export-skill.md)**  
 Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the dashboard and visualization export skill.
 
 **Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)

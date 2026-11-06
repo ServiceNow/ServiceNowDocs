@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating Interactive Filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ A choice list interactive filter enables users to filter report widgets based on
 
 ## Before you begin
 
-Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
+Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience. It isn't possible to create Core UI interactive filters in net new instances from Yokohama forward.
 
 Choice lists contain a limited number of specified values to choose from. Status and Priority are two examples of choice lists. User and location are not usually choice list selections. For more information, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ChoiceLists.md).
 
@@ -47,13 +47,13 @@ Choice list filter - Check boxes
 
 1.  Check the existing interactive filters on the same table.
 
-    1.  Navigate to **sys\_ui\_hp\_publisher.list** and select an interactive filter based on the same table you want to filter.
+    1.  Navigate to **All** &gt; **Performance Analytics Administration** &gt; **Core UI Artifacts** &gt; **Interactive Filters** and select an interactive filter based on the same table you want to filter.
 
     2.  Under Related Links, select **Other filters on Table**.
 
     3.  Review the other filters that are available on the same table to see if the filter you want already exists.
 
-2.  Navigate to **sys\_ui\_hp\_publisher.list**.
+2.  Navigate to **All** &gt; **Performance Analytics Administration** &gt; **Core UI Artifacts** &gt; **Interactive Filters**.
 
 3.  Select **New**.
 

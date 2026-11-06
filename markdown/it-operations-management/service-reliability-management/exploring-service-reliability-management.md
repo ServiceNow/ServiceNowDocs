@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -148,7 +148,7 @@ Inherits 17 roles including the following:
 |Team-based experience|[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-teams.md)|SRM administrators, managers, and responders|
 |Service registration|[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-services.md)|SRM administrators, managers, and responders|
 |Prebuilt integrations|[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-integrations.md)|SRM administrators, managers, and responders|
-|Measure service health|[Working with reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)|SRM administrators, managers, and responders|
+|Measure service health|[Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)|SRM administrators, managers, and responders|
 |On-call coverage|[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)|SRM administrators, managers, and responders|
 |Remediate high severity alerts and incidents|[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)|SRM administrators, managers, and responders|
 

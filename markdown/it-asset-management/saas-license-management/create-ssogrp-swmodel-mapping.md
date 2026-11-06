@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an SSO group software model mapping

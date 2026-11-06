@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-unassign-approval-rules.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -32,5 +32,5 @@ You can design the approval workflow for the removal of assignments from vulnera
 |AVIT|Application vulnerable item field change request|Application vulnerability field change request|Unassign app vulnerability item|
 |CVIT|Approval for container management|Default Configuration Unassign CVIT|CVIT unassign approval level - 1|
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-rules-manage-findings.md)
+For more information on how to approve unassign requests, see [Approve or reject an unassign request in Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-approve-unassign-requests.md).
 

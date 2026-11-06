@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ For information on creating a top level investment and allocating funds, see the
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d334325e106">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d358961e106">
 
 Location
 
-</th><th align="left" id="d334325e109">
+</th><th align="left" id="d358961e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d334325e115">
+</th></tr></thead><tbody><tr><td id="d358961e115">
 
 **From application navigator**
 
@@ -54,7 +54,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d334325e148">
+</td></tr><tr><td id="d358961e148">
 
 **From the portfolio list**
 
@@ -62,7 +62,7 @@ Steps
 
 1.  Navigate to **Project** &gt; **Portfolios** &gt; **All**.
 2.  Open the portfolio that you want to perform the planning for.
-3.  In the Portfolio form, select the **Portfolio Planning** related link.
+3.  In the Portfolio form, click the **Portfolio Planning** related link.
 
 
 </td></tr></tbody>
@@ -72,11 +72,11 @@ Steps
 
 3.  Set or update the target budget amount.
 
-    -   If you're planning for the selected fiscal year for the first time, select **Set Target**.
-    -   If you have already set the target budget amount for the selected fiscal year and you want to change the amount, select **Edit Target**.
+    -   If you are planning for the selected fiscal year for the first time, click **Set Target**.
+    -   If you have already set the target budget amount for the selected fiscal year and you want to change the amount, click **Edit Target**.
 4.  In the Set Target dialog box, enter the amounts for **Capex Target** and **Opex Target**.
 
-5.  Select **Save**.
+5.  Click **Save**.
 
 
 ## Result

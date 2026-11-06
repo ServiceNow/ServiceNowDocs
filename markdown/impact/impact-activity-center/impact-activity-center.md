@@ -7,9 +7,9 @@ release: zurich
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Impact, Impact]
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Activity Center
@@ -28,4 +28,11 @@ Review outstanding notifications for your key Impact activities and deliverables
 |Files|Access Impact related documents in one place. View, edit, and upload files for you and your team.|
 
 **Note:** Activities available may differ between Impact subscription levels.
+
+-   **[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-activity-center/conversations.md)**  
+Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
+-   **[Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-activity-center/recommendations-value-journey.md)**  
+View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
+
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-reference.md)
 

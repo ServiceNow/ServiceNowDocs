@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configuring-ot-employee-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Employee Center for OT, Operational Technology]
@@ -31,7 +31,7 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
 3.  Add more connected content to the Employee Center for OT.
 
-    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see .
+    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-menu-items.md).
 
 
 **Parent Topic:**[Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-employee-portal-landing.md)

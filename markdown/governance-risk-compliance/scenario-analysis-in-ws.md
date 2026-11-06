@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/scenario-analysis-in-ws.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Conducting a scenario analysis
@@ -193,13 +193,13 @@ As a scenario analysis owner, when you create a scenario event and add a partici
 
 On the **Responses** tab, the details of the response task such as the response task number, name of the assigned participant, and state of the response task are displayed.
 
-The owner of the scenario event can add a service and a dependency to the response task. The assignee of the response task can complete the response task, add their notes about the scenario event, and update the impact duration of the scenario event as shown in the following example.
+The owner of the scenario event can add a service and a dependency to the response task. The assignee of the response task can complete the response task and add their notes about the scenario event. The assignee can also update the impact duration of the scenario event as shown in the following example.
 
 \[Omitted image "sce-event-notes.png"\] Alt text: Notes about the scenario event.
 
 ## Known issue for upgrading from Release 15.x.x to Release 16.x.x
 
-While upgrading from Release 15.x.x to Release 16.x.x, if you have a scenario analysis in the **Analyze** state and a participant is already added to the scenario analysis, a response task is not created automatically. This is a known issue.
+While upgrading from Release 15.x.x to Release 16.x.x, a response task is not created automatically if a participant is already added to a scenario analysis in the **Analyze** state. This is a known issue.
 
 As a workaround for this issue, the Operational Resilience manager must remove the participants from the scenario analysis and add them to the same scenario analysis. The Operational Resilience application then automatically creates a response task for the scenario analysis.
 

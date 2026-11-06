@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-gmp-grant-pgr.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -22,10 +22,10 @@ Define the scoring framework that a merit reviewer should follow as they review 
 Configure the budget categories that appear in the Program budget activity of the playbook.
 4.  [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-calendar-period.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-calendar-period.md)  
 
-5.  [Configure point-in-time content for a grants program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-point-in-time-content.md)  
-Establish point-in-time content, such as disclaimers, which are crucial for the Grants Management Sign and Submit Playbook Activity.
-6.  [Configure the applicant information form for a grant program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-applicant-info-form.md)  
-Select the form that the Applicant must submit when creating a proposal.
+5.  [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-point-in-time-content.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-point-in-time-content.md)  
+
+6.  [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-applicant-info-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-applicant-info-form.md)  
+
 7.  [Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gm-config-spending-overview-widget.md)  
 Use script includes to configure the **Spending Overview** widget and filter pills on the **Funding Allocation** tab for the rolling grant approvals feature. Admins can add, remove, relabel, and reorder chart widgets and filter pills, and create custom ones to match program requirements.
 8.  [Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)  

@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-ir-playbook-using-contextual-side-panel.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the contextual side panel in Information Request Administration
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
-The contextual side panel in the CRM Workspace gives you access to information that can help you resolve information request cases.
+The contextual side panel in the Public Sector Workspace gives you access to information that can help you resolve information request cases.
 
 It includes a column of icons that you can select to access different types of information.
 
@@ -30,11 +30,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record information icon \[Omitted image "contextual-side-panel-record-info.jpg"\] Alt text: Record information icon
+Record information icon \[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon
 
 </td><td>
 
-Relevant information about a record. In Service Request Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbook-viewing-ribbon.md).
+Relevant information about a record. In Service Request Administration, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbook-viewing-ribbon.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Related records in the contextual side panel that dynamically change based on th
 
 </td></tr><tr><td>
 
-Activity stream icon \[Omitted image "image.activity-stream-icon-psds-playbooks"\] Alt text: Activity stream icon
+Activity stream icon \[Omitted image "activity-stream-icon.png"\] Alt text: Activity stream icon
 
 </td><td>
 

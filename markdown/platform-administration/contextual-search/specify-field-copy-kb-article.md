@@ -7,9 +7,9 @@ release: zurich
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Attach a Knowledge article, Manage, Contextual search, Search administration, Configure core features, Administer]
+breadcrumb: [Attach a Knowledge article, Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Specify field for attached Knowledge article links

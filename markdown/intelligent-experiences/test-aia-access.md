@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/test-aia-access.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Test user access to an AI agent
@@ -16,7 +16,7 @@ Run a manual test to verify that only the users you want to access the AI agent 
 
 ## Before you begin
 
-Role required: sn\_aia\_admin and either admin or at least one role required by the ACL of the AI agent being testing and each of the ACLs of its downstream components
+Role required: sn\_aia.admin and either admin or at least one role required by the ACL of the AI agent being testing and each of the ACLs of its downstream components
 
 ## About this task
 

@@ -1,24 +1,24 @@
 ---
 title: Schedule a horizontal discovery
-description: A discovery schedule determines what horizontal discovery runs, when it runs, and which MID Servers to use. Create a discovery schedule for your local environment or for discovering the resources in your cloud service account.Quick Discovery, or DiscoverNow, allows an administrator to run a CI Configuration discovery on a single IP address without requiring a schedule.You can run DiscoverNow from a script, such as a background job, a business rule, or web services.Validate the results of your discovery by accessing the ECC queue, analyzing the XML payload, and checking the Discovery log.The Discovery application follows this sequence to find a MID Server.
+description: A discovery schedule determines what horizontal discovery searches for, when it runs, and which MID Servers are used. Create a discovery schedule for your local environment or a schedule for discovering the resources in your cloud service account.Quick Discovery, or DiscoverNow, allows an administrator to run a CI Configuration discovery on a single IP address without requiring a schedule.You can run DiscoverNow from a script, such as a background job, a business rule, or web services.Validate the results of your discovery by accessing the ECC queue, analyzing the XML payload, and checking the Discovery log.The Discovery application follows this sequence to find a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_CreateADiscoverySchedule.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Schedule a horizontal discovery
 
-A discovery schedule determines what horizontal discovery runs, when it runs, and which MID Servers to use. Create a discovery schedule for your local environment or for discovering the resources in your cloud service account.
+A discovery schedule determines what horizontal discovery searches for, when it runs, and which MID Servers are used. Create a discovery schedule for your local environment or a schedule for discovering the resources in your cloud service account.
 
 ## Before you begin
 
-Ensure that your discovery schedule conforms to security best practices, such as limiting the range of discovery targets and using the most secure credentials.
+Ensure that your Discovery schedule conforms to security best practices, such as limiting the range of discovery targets and using the most secure credentials.
 
 Make sure to [test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_CreateCredential.md) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
 
@@ -26,9 +26,9 @@ Roles required: discovery\_admin or admin
 
 ## About this task
 
-You can use a discovery schedule to launch horizontal discovery, which uses probes, sensors, and pattern operations to scan your network for CIs. Use this procedure to create a schedule manually from the **Discovery Schedules** form.
+You can use a Discovery schedule to launch horizontal discovery, which uses probes, sensors, and pattern operations to scan your network for CIs. Use this procedure to create a schedule manually from the **Discovery Schedules** form.
 
-Service Mapping also provides a discovery schedule for top-down discovery. See [Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md) for more information.
+Service Mapping also provides a Discovery schedule for top-down discovery. See [Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md) for more information.
 
 Use the **Discovery Schedules** module in the Discovery application to:
 
@@ -54,7 +54,7 @@ Use the **Discovery Schedules** module in the Discovery application to:
     -   **New**: Creates a new horizontal schedule for discovering components in your network.
     -   **Quick Discovery**: Runs a horizontal discovery on a single IP address without requiring a schedule.
     -   **Create a Cloud Discovery schedule**: Creates a schedule, using the Discovery Manager wizard, for discovering resources in a cloud service account.
-3.  Complete the discovery schedule form, using the fields in the table.
+3.  Complete the Discovery schedule form, using the fields in the table.
 
     For more information, see [Discovery Schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-schedule-form.md).
 
@@ -66,6 +66,14 @@ Use the **Discovery Schedules** module in the Discovery application to:
 
 6.  Define the frequency of schedule running as described in [Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/discovery-schedule-run-options.md).
 
+
+## What to do next
+
+After you create and save a Discovery schedule, you can optionally configure the following settings:
+
+-   Define IP addresses or ranges to exclude from all Discovery schedules. See [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/global-exlude-list.md).
+-   Define Discovery schedule attributes to automatically set CI field values such as location or asset tag on discovered CIs. You can define attributes at the schedule, range set, or IP address range level. See [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/define-ci-attributes.md).
+-   Configure Discovery behaviors to use multiple MID Servers for load balancing or to scan with multiple credentials. See [Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryBehaviors.md).
 
 ## Run a Quick Discovery
 
@@ -144,7 +152,7 @@ Validate the results of your discovery by accessing the ECC queue, analyzing the
 
 ### Before you begin
 
-Role required: discovery\_admin
+Role required: discovery\_admin or discovery\_operator
 
 ### About this task
 
@@ -252,16 +260,16 @@ The Discovery application follows this sequence to find a MID Server.
 
 Discovery follows this sequence when you select **Auto-Select MID Server** for the **MID Server selection method** on the Discovery Schedule form.
 
-**Note:** MID Server auto-select is not supported with IPv6.
+**Note:** MID Server auto-select isn’t supported with IPv6.
 
 1.  Discovery looks for a MID Server that also has an appropriate IP range configured.
 2.  If no MID Servers meet these criteria, it looks for a MID Server that has the **ALL** application that also has an appropriate IP range configured.
 3.  If more than one MID Server meet the criteria, Discovery chooses the first MID Server with the status of **Up**. If more than one MID Server is up, it randomly picks one.
-4.  If none are up, it uses the default MID Server specified for the Discovery application, assuming it is up.
-5.  If no default MID Server is specified, it uses the default MID Server specified for the **ALL** application, assuming it is up.
+4.  If none are up, it uses the default MID Server specified for the Discovery application, assuming it’s up.
+5.  If no default MID Server is specified, it uses the default MID Server specified for the **ALL** application, assuming it’s up.
 6.  If no default MID Server is specified, Discovery cycles through the previous steps and looks for MID Servers with the status of **Paused** or **Upgrading**.
 
-    **Note:** When a MID Server is paused or upgrading, it does not actually process commands until it returns to the status of **Up**.
+    **Note:** When a MID Server is paused or upgrading, it doesn’t actually process commands until it returns to the status of **Up**.
 
 
 ### MID Server clusters
@@ -269,7 +277,7 @@ Discovery follows this sequence when you select **Auto-Select MID Server** for t
 These steps are followed when you select **Specific MID Cluster** for the **MID Server selection method** on the **Discovery** form, and the cluster is a load balancing cluster:
 
 1.  **Discovery** uses the first MID Server in the cluster that it finds with the status of **Up**.
-2.  If more than one MID Server is up, it randomly picks one. If it cannot find any MID Servers, it looks for MID Servers in the cluster with the status of **Paused** or **Upgrading**.
+2.  If more than one MID Server is up, it randomly picks one. If it can’t find any MID Servers, it looks for MID Servers in the cluster with the status of **Paused** or **Upgrading**.
 
 These steps are followed when the cluster is a failover cluster:
 
@@ -282,11 +290,11 @@ These steps are followed when the cluster is a failover cluster:
 
 During the port scan phase, Discovery collects all the target IP addresses. It splits them equally between MID Servers matching the criteria \(MID Servers are qualified to do the port scan\). The Shazzam batch size, which you configured on the Discovery schedule, determines the number of IP addresses that each Shazzam probe can scan. This phase helps determine how much work each MID Server does during the port scan phase.
 
-For example, you have 16,000 IP addresses to scan among three qualified MID Servers, and you use the default Shazzam batch size of 5000. Two of the MID Servers handle 5000 IP address scans \(one Shazzam probe each\). The other MID Server handles 6000 IP address scans by launching two Shazzam probes.
+For example, you have 16,000 IP addresses to scan among three qualified MID Servers, and you use the default Shazzam batch size of 5,000. Two of the MID Servers handle 5,000 IP address scans \(one Shazzam probe each\). The other MID Server handles 6,000 IP address scans by launching two Shazzam probes.
 
 **Note:**
 
-Shazzam can process IP lists containing up to of 5000 addresses that include both IPv4 and IPv6 types. If your schedule contains an IP list with more than 5000 IPv6 IP addresses, the Discovery gets cancelled. If you are using only IPv6 addresses, you must use a list and not an IP address range. IPv6 address ranges and networks are not supported and will be ignored.
+Shazzam can process IP lists containing up to 20,000 addresses that include both IPv4 and IPv6 types. If a schedule contains any IPv6 addresses \(&gt; 0\), the combined total of IPv4 + IPv6 addresses must not exceed 20,000 or else the Discovery fails. If you’re using only IPv6 addresses, you must use a list and not an IP address range. IPv6 address ranges and networks aren't supported and are ignored.
 
 **Related topics**  
 

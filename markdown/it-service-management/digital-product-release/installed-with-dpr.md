@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
@@ -220,7 +220,6 @@ Accesses Digital Product Release Workspace to view release details and update an
 -   sn\_devops.viewer
 -   sn\_dpr\_model.product\_feature\_read
 -   sn\_dpr\_workspace.workspace\_user
--   sn\_gf.goal\_user\_read
 -   sn\_incident\_read
 -   sn\_pace.policy\_reader
 -   sn\_problem\_read
@@ -361,6 +360,14 @@ Product Feature
 A product feature is a function or capability that adds value to a product or service for the customer.
 
  You can break down a product feature into product enhancements to release it in phases across multiple versions.
+
+</td></tr><tr><td>
+
+Product Model Settings \[sn\_dpr\_model\_product\_settings\]
+
+</td><td>
+
+Stores product-level release settings that defines the readiness target date, templates, change models, and CI classes for each product or service.These settings are applied whenever a release is created or executed for that product or service.
 
 </td></tr><tr><td>
 

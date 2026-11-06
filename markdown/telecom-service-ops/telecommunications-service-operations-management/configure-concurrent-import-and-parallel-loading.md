@@ -1,5 +1,5 @@
 ---
-title: Configure concurrent import and parallel loading for Nokia Altiplano
+title: Configure concurrent import and parallel loading
 description: Improve the efficiency of large data imports from Nokia Altiplano by configuring concurrent imports and enabling parallel loading. This configuration allows the platform to run multiple data import and transformation jobs simultaneously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Nokia Altiplano SGC, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Configure concurrent import and parallel loading for Nokia Altiplano
+# Configure concurrent import and parallel loading
 
 Improve the efficiency of large data imports from Nokia Altiplano by configuring concurrent imports and enabling parallel loading. This configuration allows the platform to run multiple data import and transformation jobs simultaneously.
 
@@ -37,15 +37,15 @@ Use the following guidance to optimize performance:
 
 2.  Configure concurrent import or concurrent import
 
-<table id="choicetable_mpn_2vz_yfc"><thead><tr><th align="left" id="d29306e103">
+<table id="choicetable_mpn_2vz_yfc"><thead><tr><th align="left" id="d35258e107">
 
 To
 
-</th><th align="left" id="d29306e106">
+</th><th align="left" id="d35258e110">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d29306e112">
+</th></tr></thead><tbody><tr><td id="d35258e116">
 
 **To enable concurrent import**
 
@@ -57,7 +57,7 @@ Do the following
 4.  In the **Partition size**e field, enter the number of records per partition \(for example, 1000\).
  **Note:** The system splits the dataset into import sets based on the partition size. Each import set is processed in parallel, improving the speed of data transformation.
 
-</td></tr><tr><td id="d29306e154">
+</td></tr><tr><td id="d35258e158">
 
 **Configure parallel loading in the data source**
 

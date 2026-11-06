@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sla-targets-vr-aiagent.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -119,6 +119,4 @@ End the conversation.
 
     The VR.System role also inherits these granular roles so background job execution for the workflow can occur.
 
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
 

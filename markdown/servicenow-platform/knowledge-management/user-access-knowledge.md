@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -126,7 +126,7 @@ Manager of a knowledge base
 -   Contribute to and read that knowledge base.
 -   Modify the definition of that knowledge base and assign user criteria to it.
 
- **Note:** If the article versioning feature is enabled, the manager of a knowledge base can't modify knowledge articles of other authors that are in the **Draft** state. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/article-versioning.md).
+ **Note:** If the article versioning feature is enabled, the manager of a knowledge base can’t modify knowledge articles of other authors that are in the **Draft** state. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/article-versioning.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Read, modify, approve, and retire that knowledge article \(see [Ownership groups
 </td></tr></tbody>
 </table>## Explicit roles and user criteria
 
-Explicit roles \(snc\_external and snc\_internal\) are added to your instance when your administrator installs a plugin, such as the Customer Service plugin \(com.sn\_customerservice\), that also activates the Explicit Roles plugin \(com.glide.explicit\_roles\). If you create a knowledge base with the Explicit Roles plugin \(com.glide.explicit\_roles\) activated, the application automatically adds the following predefined user criteria at the knowledge base level:
+Explicit roles \(snc\_external and snc\_internal\) are added to your instance when your administrator installs a plugin, such as the Case Management Core plugin \(com.sn\_customerservice\), that also activates the Explicit Roles plugin \(com.glide.explicit\_roles\). If you create a knowledge base with the Explicit Roles plugin \(com.glide.explicit\_roles\) activated, the application automatically adds the following predefined user criteria at the knowledge base level:
 
 -   **Users with 'snc\_internal' role** – Added to the Can Read user criteria enabling only users with the snc\_internal role have read access to the knowledge base.
 -   **Users with snc\_internal' and another role** – Added to the Can Contribute user criteria enabling only users with the snc\_internal role and at least one additional role have contribute access to the knowledge base.
@@ -148,7 +148,7 @@ When you upgrade to product versions \(from Rome onwards\) that offer the Explic
 
 ## Determining contribute access to a knowledge base and its articles using user criteria
 
-When either Cannot Contribute isn't set or a user doesn't match Cannot Contribute and additionally Can Contribute is not set, the **glide.knowman.block\_access\_with\_no\_user\_criteria** property value is further evaluated to determine contribute access, as explained in the following table.
+When either Cannot Contribute isn’t set or a user doesn’t match Cannot Contribute and additionally Can Contribute is not set, the **glide.knowman.block\_access\_with\_no\_user\_criteria** property value is further evaluated to determine contribute access, as explained in the following table.
 
 <table id="table_z2b_hrp_qjb"><thead><tr><th>
 
@@ -186,7 +186,7 @@ All users, including unauthenticated users, with at least one role can contribut
 
 ## Determining read access to articles in a knowledge base using user criteria
 
-When either Cannot Read isn't set or a user doesn't match Cannot Read and additionally Can Read is not set, the **glide.knowman.block\_access\_with\_no\_user\_criteria** property value is further evaluated to determine read access, as explained in the following table.
+When either Cannot Read isn’t set or a user doesn’t match Cannot Read and additionally Can Read is not set, the **glide.knowman.block\_access\_with\_no\_user\_criteria** property value is further evaluated to determine read access, as explained in the following table.
 
 <table id="table_gmk_z5s_tjb"><thead><tr><th>
 

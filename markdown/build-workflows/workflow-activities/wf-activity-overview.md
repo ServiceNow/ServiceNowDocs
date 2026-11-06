@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -139,5 +139,5 @@ The following activities are included with Orchestration.
 
 ## Templates provided for creating custom activities
 
-If Orchestration is active on your system, users with the proper roles can create custom activities using the ServiceNow . For information about the templates Orchestration provides for creating custom activities that you can upload to the ServiceNow Store, see 
+If Orchestration is active on your system, users with the proper roles can create custom activities using the ServiceNow [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_WorkflowActivityDesigner.md). For information about the templates Orchestration provides for creating custom activities that you can upload to the ServiceNow Store, see [Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ActivityDesignerComponents.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-07"
-reading_time_minutes: 35
+last_updated: "2026-03-12"
+reading_time_minutes: 34
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v3.1.1 is the latest version.
+Workday HR spoke v3.1.1 is the latest version. For version history of the spoke, see [Workday HR spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-hr.html).
 
 ## Supported versions
 
@@ -74,22 +74,6 @@ WQL for Workday Extend
 </td><td>
 
 System
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Reports: Matrix Manager
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
 
 </td></tr><tr><td>
 
@@ -141,6 +125,223 @@ Staffing
 
 </td></tr><tr><td>
 
+View Only
+
+</td><td>
+
+Reports: Manager
+
+</td><td>
+
+ 
+
+</td><td>
+
+Staffing
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Reports: Matrix Manager
+
+</td><td>
+
+ 
+
+</td><td>
+
+Staffing
+
+</td></tr><tr><td>
+
+View and Modify
+
+</td><td>
+
+Business Process Administration
+
+</td><td>
+
+Business Process Delegation
+
+</td><td>
+
+System
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Worker Data: Benefits
+
+</td><td>
+
+-   Worker Data: Beneficiaries and Dependents
+-   Worker Data: Benefit Annual Credit
+-   Worker Data: Benefit Eligibility
+-   Worker Data: Benefits Annual Rate
+-   Worker Data: Court Order Details
+-   Worker Data: Retirement Details
+-   Worker Data: Wellness
+
+
+</td><td>
+
+-   Benefits
+-   Personal Data
+
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Reports: Learning Record
+
+</td><td>
+
+ 
+
+</td><td>
+
+Learning Core
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Worker Data: Funded Plan Assignments
+
+</td><td>
+
+ 
+
+</td><td>
+
+Advanced Compensation
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Business Process Reporting
+
+</td><td>
+
+ 
+
+</td><td>
+
+System
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Workday Accounts
+
+</td><td>
+
+ 
+
+</td><td>
+
+System
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Person Data: Gender
+
+</td><td>
+
+ 
+
+</td><td>
+
+Personal Data
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Manage: Organization Roles
+
+</td><td>
+
+ 
+
+</td><td>
+
+Organizations and Roles
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Person Data: Work Address
+
+</td><td>
+
+ 
+
+</td><td>
+
+Contact Information
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Person Data: Home Phone
+
+</td><td>
+
+ 
+
+</td><td>
+
+Contact Information
+
+</td></tr><tr><td>
+
+View Only
+
+</td><td>
+
+Person Data: Work Phone
+
+</td><td>
+
+ 
+
+</td><td>
+
+Contact Information
+
+</td></tr><tr><td>
+
 Get and Put
 
 </td><td>
@@ -169,7 +370,7 @@ Person Data: Personal Data
 -   Person Data: Licenses
 -   Person Data: Other IDs
 -   Person Data: Passports and Visas
--   Person Data: Universal ID
+-   Worker Data: Tobacco Use
 
 
 </td><td>
@@ -219,7 +420,7 @@ Worker Data: Beneficiaries
 </td><td>
 
 -   Worker Data: Beneficiary Additional Address
--   Worker Data: Beneficiary Additional Email
+-   Worker Data: Beneficiary Additional email
 -   Worker Data: Beneficiary Additional Instant Messenger
 -   Worker Data: Beneficiary Additional Phone
 -   Worker Data: Beneficiary Additional Web Address
@@ -228,10 +429,10 @@ Worker Data: Beneficiaries
 -   Worker Data: Beneficiary Government IDs
 -   Worker Data: Beneficiary National IDs
 -   Worker Data: Beneficiary Other IDs
--   Worker Data: Beneficiary Primary Address
--   Worker Data: Beneficiary Primary Email
+-   Worker Data: Beneficiary primary Address
+-   Worker Data: Beneficiary Primary email
 -   Worker Data: Beneficiary Primary Instant Messenger
--   Worker Data: Beneficiary Primary Phone
+-   Worker Data: Beneficiary primary Phone
 -   Worker Data: Beneficiary Primary Web Address
 
 
@@ -288,6 +489,22 @@ Set Up: Calendar
 </td><td>
 
 System
+
+</td></tr><tr><td>
+
+Get Only
+
+</td><td>
+
+Job Information
+
+</td><td>
+
+ 
+
+</td><td>
+
+Jobs &amp; Profile
 
 </td></tr><tr><td>
 
@@ -359,7 +576,32 @@ Get Only
 
 </td><td>
 
-Worker Data: Project Timesheet and Worksheet
+Worker Data: Benefits
+
+</td><td>
+
+-   Worker Data: Beneficiaries and Dependents
+-   Worker Data: Benefit Annual Credit
+-   Worker Data: Benefit Eligibility
+-   Worker Data: Benefits Annual Rate
+-   Worker Data: Court Order Details
+-   Worker Data: Retirement Savings
+-   Worker Data: Wellness
+
+
+</td><td>
+
+-   Benefits
+-   Personal Data
+
+
+</td></tr><tr><td>
+
+Get Only
+
+</td><td>
+
+Worker Data: Project time sheet and Worksheet
 
 </td><td>
 
@@ -407,6 +649,25 @@ Get Only
 
 </td><td>
 
+Reports: Pay Calculation Results for Worker
+
+</td><td>
+
+-   Reports: Pay Calculation Results for Worker \(Audits\)
+-   Reports: Pay Calculation Results for Worker \(Payslips\)
+-   Reports: Pay Calculation Results for Worker \(Results\)
+
+
+</td><td>
+
+Core Payroll
+
+</td></tr><tr><td>
+
+Get Only
+
+</td><td>
+
 Manage: Organization Integration
 
 </td><td>
@@ -416,6 +677,24 @@ Manage: Organization Integration
 </td><td>
 
 Organizations and Roles
+
+</td></tr><tr><td>
+
+Get Only
+
+</td><td>
+
+Worker Data: Benefit Elections
+
+</td><td>
+
+ 
+
+</td><td>
+
+-   Benefits
+-   Personal Data
+
 
 </td></tr><tr><td>
 
@@ -455,6 +734,22 @@ Get Only
 
 </td><td>
 
+Worker Data: Compensation by Organization
+
+</td><td>
+
+ 
+
+</td><td>
+
+Core Compensation
+
+</td></tr><tr><td>
+
+Get Only
+
+</td><td>
+
 Integration Build
 
 </td><td>
@@ -471,7 +766,7 @@ Get Only
 
 </td><td>
 
-Worker Data: Time Off \(Time Off Balances\)
+Worker Data: Time Off \(Time-Off Balances\)
 
 </td><td>
 
@@ -503,9 +798,7 @@ View Only
 
 </td><td>
 
--   Worker Data: Public
--   Worker Reports
-
+Worker Data: Public Worker Reports
 
 </td><td>
 
@@ -547,1365 +840,6 @@ Integration Event
 
 Integration
 
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Person Data: Gender
-
-</td><td>
-
- 
-
-</td><td>
-
-Personal Data
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Workday Accounts
-
-</td><td>
-
- 
-
-</td><td>
-
-System
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Manage: Organization Roles
-
-</td><td>
-
- 
-
-</td><td>
-
-Organizations and Roles
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Beneficiaries and Dependents
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Beneficiaries and Dependents
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Set Up: Calendar
-
-</td><td>
-
- 
-
-</td><td>
-
-System
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Total Rewards
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Retirement Savings
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Retirement Savings
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Wellness
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Wellness
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Person Data: Work Phone
-
-</td><td>
-
- 
-
-</td><td>
-
-Contact Information
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Person Data: Work Address
-
-</td><td>
-
- 
-
-</td><td>
-
-Contact Information
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Person Data: Home Phone
-
-</td><td>
-
- 
-
-</td><td>
-
-Contact Information
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: All Positions
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Step Progression Target
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Worker Data: Tobacco Use
-
-</td><td>
-
- 
-
-</td><td>
-
-Personal Data
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Person Data: Name Pronunciation
-
-</td><td>
-
- 
-
-</td><td>
-
-Personal Data
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Benefits
-
-</td><td>
-
--   Worker Data: Benefit Annual Credit
--   Worker Data: Benefit Eligibility
--   Worker Data: Benefits Annual Rate
--   Worker Data: Court Order Details
-
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Benefit Elections
-
-</td><td>
-
- 
-
-</td><td>
-
--   Benefits
--   Personal Data
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Workers
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Active and Terminated Workers
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Compensation
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Compensation Change: Guidelines
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Compensation Basis
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Compensation Change
-
-</td><td>
-
--   Compensation Change: Allowance
--   Compensation Change: Calculated
--   Compensation Change: Commission
--   Compensation Change: Future Changes
--   Compensation Change: Period Salary
--   Compensation Change: Unit Salary
-
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Reports: Pay Calculation Results for Worker \(Results\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Job Postings: External
-
-</td><td>
-
- 
-
-</td><td>
-
-Recruiting
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Job Postings: Internal
-
-</td><td>
-
- 
-
-</td><td>
-
-Recruiting
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Job Requisition Data
-
-</td><td>
-
- 
-
-</td><td>
-
-Pre-Hire Process
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Set Up: Compensation Packages
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Candidate Data: Job Application
-
-</td><td>
-
--   Candidate Data: Bundle Resumes
--   Candidate Data: Eligibility Results
--   Candidate Data: Interview Feedback Comments
--   Candidate Data: Interview Feedback Results
--   Candidate Data: Offer Details
--   Candidate Data: Quick Stats
--   Candidate Data: Sharing
-
-
-</td><td>
-
-Recruiting
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Historical Staffing Information
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Employee Goals
-
-</td><td>
-
- 
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Role Requested Feedback
-
-</td><td>
-
- 
-
-</td><td>
-
--   Performance Enablement
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Anytime Feedback
-
-</td><td>
-
- 
-
-</td><td>
-
--   Performance Enablement
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Self Requested Feedback
-
-</td><td>
-
- 
-
-</td><td>
-
--   Performance Enablement
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-View: Account Provisioning Integration Document
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-View: Core Connector Integration Document
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-View: Social Security Number Verification Integration Document
-
-</td><td>
-
- 
-
-</td><td>
-
-Personal Data
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Unistaff Inbound Documents
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Kenexa Hire Inbound Documents
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Kenexa Foundation Data Documents
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Kenexa User Provisioning Documents
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Unistaff Foundation Data Documents
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Job Information
-
-</td><td>
-
- 
-
-</td><td>
-
-Jobs &amp; Positions
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Payroll \(Payroll Input\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Reports: Pay Calculation Results for Worker \(Results\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Reports: Pay Calculation Results for Worker
-
-</td><td>
-
-Reports: Pay Calculation Results for Worker \(Audits\)
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Reports: Pay Calculation Results for Worker \(Payslips\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Reports: Pay Calculation Results for Pay Group
-
-</td><td>
-
--   Reports: Pay Calculation Results for Pay Group \(Accounting Results\)
--   Reports: Pay Calculation Results for Pay Group \(Audits\)
--   Reports: Pay Calculation Results for Pay Group \(Results\)
-
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-HCM All Organizations
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Employee Reviews
-
-</td><td>
-
- 
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Anytime Feedback
-
-</td><td>
-
- 
-
-</td><td>
-
--   Performance Enablement
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Role Requested Feedback
-
-</td><td>
-
- 
-
-</td><td>
-
--   Performance Enablement
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Self Requested Feedback
-
-</td><td>
-
- 
-
-</td><td>
-
--   Performance Enablement
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Manage: Matrix Organizations
-
-</td><td>
-
- 
-
-</td><td>
-
-Organizations and Roles
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Headcount Reports
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Person Data: Name
-
-</td><td>
-
--   Person Data: Legal Name
--   Person Data: Preferred Name
-
-
-</td><td>
-
-Contact Information
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Mentoring
-
-</td><td>
-
- 
-
-</td><td>
-
--   Career and Development Planning
--   Worker Profile and Skills
-
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Audit: Compensation for Organizations
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Compensation by Organization
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Skills and Experience
-
-</td><td>
-
--   Person Data: Achievements
--   Person Data: Languages
--   Person Data: Professional Affiliations
--   Worker Data: Accomplishments \(Do Not Use\)
--   Worker Data: Internal Project Experience
-
-
-</td><td>
-
-Worker Profile and Skills
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Payroll \(Company Specific\) - CAN
-
-</td><td>
-
- 
-
-</td><td>
-
-CAN Payroll
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Project Tracking
-
-</td><td>
-
- 
-
-</td><td>
-
-Project Tracking
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Manage: Advanced Project Resource Management
-
-</td><td>
-
- 
-
-</td><td>
-
-Projects
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Manage: Project Resources
-
-</td><td>
-
- 
-
-</td><td>
-
-Project Tracking
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Management Dashboard: Resource Manager
-
-</td><td>
-
- 
-
-</td><td>
-
-Projects
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Project Timesheet and Worksheet
-
-</td><td>
-
- 
-
-</td><td>
-
-Project Tracking
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Payroll \(Timesheets\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Core Payroll
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Contingent Worker Assignment Details
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Succession
-
-</td><td>
-
- 
-
-</td><td>
-
-Talent Pipeline
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Talent Pool: View and Edit
-
-</td><td>
-
- 
-
-</td><td>
-
-Talent Pipeline
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Process: Spend Authorization
-
-</td><td>
-
--   Process: Spend Authorization - Cancel
--   Process: Spend Authorization - Change
--   Process: Spend Authorization - Close
--   Process: Spend Authorization - Core
--   Process: Spend Authorization - Reporting
--   Process: Spend Authorization - View
-
-
-</td><td>
-
-Expenses
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Time Off \(Time Off\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Time Off and Leave
-
-</td></tr><tr><td>
-
-Get Only
-
-</td><td>
-
-Worker Data: Time Off \(Time Off\)
-
-</td><td>
-
- 
-
-</td><td>
-
-Time Off and Leave
-
-</td></tr><tr><td>
-
-View and Modify
-
-</td><td>
-
-Set Up: Skills and Experience
-
-</td><td>
-
- 
-
-</td><td>
-
-Worker Profile and Skills
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Worker Data: Current Staffing Information
-
-</td><td>
-
- 
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-View Only
-
-</td><td>
-
-Person Data: Skills
-
-</td><td>
-
- 
-
-</td><td>
-
-Worker Profile and Skills
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Set Up: Skills and Experience
-
-</td><td>
-
- 
-
-</td><td>
-
-Worker Profile and Skills
-
-</td></tr><tr><td>
-
-Get and Put
-
-</td><td>
-
-Manage: External Skills
-
-</td><td>
-
- 
-
-</td><td>
-
-Worker Profile and Skills
-
 </td></tr></tbody>
 </table>        **Note:** Ensure that the domain security policies are activated for the security group.
 
@@ -1925,7 +859,7 @@ Functional Area
 
 </th></tr></thead><tbody><tr><td>
 
-Initiate \(Assign Roles Web Service\)
+Initiate \(Assign Roles \(web service\)\)
 
 </td><td>
 
@@ -1937,31 +871,7 @@ Organizations and Roles
 
 </td></tr><tr><td>
 
-Initiate \(Change Beneficiary Web Service\)
-
-</td><td>
-
-Change Beneficiary
-
-</td><td>
-
-Benefits
-
-</td></tr><tr><td>
-
-Initiate \(Change Job Web Service\)
-
-</td><td>
-
-Change Job
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Change Organization Assignments Web Service\)
+Initiate \(Change Organization Assignments \(web service\)\)
 
 </td><td>
 
@@ -1973,19 +883,7 @@ Organizations and Roles
 
 </td></tr><tr><td>
 
-Initiate \(Close Position Web Service\)
-
-</td><td>
-
-Close Position
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Maintain Contact Information Web Service\)
+Initiate \(Maintain Contact Information \(Web Service\)\)
 
 </td><td>
 
@@ -1997,31 +895,7 @@ Contact Information
 
 </td></tr><tr><td>
 
-Initiate \(Contract Contingent Worker Web Service\)
-
-</td><td>
-
-Contract Contingent Worker
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Create Position Web Service\)
-
-</td><td>
-
-Create Position
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Add Dependent - Web Service\)
+Initiate \(Add Dependent \(web service\)\)
 
 </td><td>
 
@@ -2029,33 +903,9 @@ Dependent Event
 
 </td><td>
 
-Benefits
+-   Benefits
+-   Personal Data
 
- Personal Data
-
-</td></tr><tr><td>
-
-Initiate \(Edit Hiring Restrictions \(Web Service\)\)
-
-</td><td>
-
-Edit Hiring Restrictions
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Edit Position \(Web Service\)\)
-
-</td><td>
-
-Edit Position
-
-</td><td>
-
-Staffing
 
 </td></tr><tr><td>
 
@@ -2064,30 +914,6 @@ Initiate \(Edit Worker Additional Data \(Web Service\)\)
 </td><td>
 
 Edit Worker Additional Data Event
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Hire Employee \(Web Service\)\)
-
-</td><td>
-
-Hire
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Initiate \(Set Hiring Restrictions \(Web Service\)\)
-
-</td><td>
-
-Hiring Restrictions
 
 </td><td>
 
@@ -2143,7 +969,7 @@ Time Off and Leave
 
 </td></tr><tr><td>
 
-Initiate \(Enter Time Off \(Web Service\)\)
+Initiate \(Enter Time off \(Web Service\)\)
 
 </td><td>
 
@@ -2165,346 +991,6 @@ Termination
 
 Staffing
 
-</td></tr><tr><td>
-
-Initiate \(Create Job Requisition \(Web Service\)\)
-
-</td><td>
-
-Job Requisition
-
-</td><td>
-
-Pre-Hire Process
-
-</td></tr><tr><td>
-
-Initiate \(Edit Job Requisition \(Web Service\)\)
-
-</td><td>
-
-Job Requisition Change
-
-</td><td>
-
-Pre-Hire Process
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Complete Additional Evaluation for Performance Review
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Complete Employee Plan for Performance Improvement Plan
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Complete Manager Evaluation for Performance Review
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Complete Manager Plan for Performance Improvement Plan
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Complete Self Evaluation for Performance Review
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Get Additional Manager Evaluation for Performance Review
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Set Plan Content for Performance Improvement Plan
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Set Review Content for Performance Review
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Start Performance Improvement Plan
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Start Performance Review
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Talent Review
-
-</td><td>
-
-Talent Pipeline
-
-</td></tr><tr><td>
-
-View All
-
-</td><td>
-
-Update Performance Review Ratings for Manager Evaluation
-
-</td><td>
-
-Performance Enablement
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Change Default Compensation
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Change Job
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Correct Time Off
-
-</td><td>
-
-Time Off and Leave
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Enter Time
-
-</td><td>
-
-Time Tracking
-
- Time Tracking Hub
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Job Requisition
-
-</td><td>
-
-Pre-Hire Process
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Propose Compensation Change
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Request Compensation Change
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Request Leave of Absence
-
-</td><td>
-
-Time Off and Leave
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Request Time Off
-
-</td><td>
-
-Time Off and Leave
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Requisition Compensation
-
-</td><td>
-
-Core Compensation
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Spend Authorization
-
-</td><td>
-
-Expenses
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Submit Resignation
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Termination
-
-</td><td>
-
-Staffing
-
-</td></tr><tr><td>
-
-Approve
-
-</td><td>
-
-Timesheet Event
-
-</td><td>
-
-Core Payroll
-
- Project Tracking
-
 </td></tr></tbody>
 </table>        **Note:** Confirm that the business process security policies are activated for the security group.
 
@@ -2521,6 +1007,7 @@ If you’re having trouble installing the app, confirm that these dependent plug
 -   ServiceNow Flow Designer - Dynamic Outputs \(com.glide.hub.dynamic\_outputs\)
 -   Complex Object \(com.glide.cobject\)
 -   System Import Data Source \(glide.system\_import\_data\_source\)
+-   ServiceNow Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)​
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -2548,7 +1035,11 @@ The Workday HR spoke provides sample subflows to demonstrate automating Workday 
 
 Workday itself organizes its APIs into two major categories: SOAP Public API and REST API. Thus, the Workday HR spoke also reflects the same. You can use the spoke by using one of these two APIs, but not necessarily both, depending on the spoke actions you must use.
 
-The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance. Available actions include:
+The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance.
+
+**Note:** The legacy SOAP actions are deprecated but remain fully functional with Basic Authentication and System Authentication.
+
+Available actions include:
 
 **Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/soap-wd-hr-spoke.md).
 
@@ -2580,7 +1071,7 @@ Look up Skills
 
 Retrieves the details of the skills from Workday.
 
-</td></tr><tr><td rowspan="4">
+</td></tr><tr><td rowspan="8">
 
 Absence Management
 
@@ -2616,7 +1107,39 @@ Request Time Off
 
 Creates a short-term leave request.
 
-</td></tr><tr><td rowspan="2">
+</td></tr><tr><td>
+
+Get Time off Balances By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the time off plan balance for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Time Off Balance \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the time off balance, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Request Leave Of Absence \(Deprecated\)
+
+</td><td>
+
+Creates a long leave absence request or updates an existing request.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Request Time Off \(Deprecated\)
+
+</td><td>
+
+Creates a short-term leave request.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="4">
 
 Approval Management
 
@@ -2636,7 +1159,23 @@ Reject Business Process
 
 Rejects the specified business process in Workday.
 
-</td></tr><tr><td rowspan="2">
+</td></tr><tr><td>
+
+Reject Business Process \(Deprecated\)
+
+</td><td>
+
+Rejects the specified business process in Workday. **Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Approve Business Process \(Deprecated\)
+
+</td><td>
+
+Approves the specified business process in Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="4">
 
 Benefits Administration
 
@@ -2658,6 +1197,22 @@ Updates beneficiary details of the specified worker.
 
 </td></tr><tr><td>
 
+Add Dependent \(Deprecated\)
+
+</td><td>
+
+Adds a dependent to the specified worker.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Beneficiaries \(Deprecated\)
+
+</td><td>
+
+Updates beneficiary details of the specified worker.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="2">
+
 Cash Management
 
 </td><td>
@@ -2668,7 +1223,15 @@ Update Direct Deposit Information
 
 Updates details of the current payment elections.
 
-</td></tr><tr><td rowspan="8">
+</td></tr><tr><td>
+
+Update Direct Deposit Information \(Deprecated\)
+
+</td><td>
+
+Updates details of the current payment elections.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="11">
 
 Metadata Retrieval
 
@@ -2736,7 +1299,31 @@ Get Access Token
 
 Retrieves the access tokens for authenticating SOAP-based actions using OAuth 2.0.
 
-</td></tr><tr><td rowspan="13">
+</td></tr><tr><td>
+
+Get Dynamic Response Schema
+
+</td><td>
+
+Retrieves the output schema for the specified query from Workday.
+
+</td></tr><tr><td>
+
+Get Reference ID List \(Deprecated\)
+
+</td><td>
+
+Retrieves values of the Reference ID, based on its reference type.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get References WID \(Deprecated\)
+
+</td><td>
+
+Retrieves reference IDs for the specified reference type.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="26">
 
 Payroll Management
 
@@ -2844,7 +1431,111 @@ Look up Tax Withholding Information Details US
 
 Retrieves all types of income withholding orders from US for the required employees, based on the provided filter criteria.
 
-</td></tr><tr><td rowspan="26">
+</td></tr><tr><td>
+
+Get My Tax Withholding Information Canada By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from Canada for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Tax Withholding Information US By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from US for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Payroll Federal W4 Tax Elections By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves federal W-4 tax election data for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Payroll Payee FUTAs By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves FUTA tax election data for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Payroll USA And Local Tax Elections By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves information about the tax elections for state and local tax authorities, for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Direct Deposit Information Details \(Deprecated\)
+
+</td><td>
+
+Retrieves information about the specified payee, who belongs to an external pay group.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll Federal W4 Tax Elections \(Deprecated\)
+
+</td><td>
+
+Retrieves the federal W-4 tax election details for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll Payee FUTAs Details \(Deprecated\)
+
+</td><td>
+
+Retrieves the payroll payee FUTA details for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll Results \(Deprecated\)
+
+</td><td>
+
+Retrieves payroll results for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Payroll USA And Local Tax Elections \(Deprecated\)
+
+</td><td>
+
+Retrieves details of worker tax elections for state and local tax authorities for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Tax Elections Ongoing Work Jurisdiction Details \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the ongoing work jurisdiction tax election for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Tax Withholding Information Details Canada \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from Canada for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Tax Withholding Information Details US \(Deprecated\)
+
+</td><td>
+
+Retrieves all types of income withholding orders from US for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="51">
 
 Resource Management
 
@@ -3006,7 +1697,7 @@ Look up Worker Job History Report
 
 </td><td>
 
-Retrieves the job history of a worker.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for worker job history report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-worker-job-history.md).
+Retrieves the job history of a worker.
 
 </td></tr><tr><td>
 
@@ -3034,11 +1725,19 @@ Retrieves details such as, position, position organizations, position management
 
 </td></tr><tr><td>
 
-Update My Address
+Update My Contact Info
 
 </td><td>
 
 Updates employees details, such as address, phone number, email address, instant messenger, and web address.
+
+</td></tr><tr><td>
+
+Update My Contact Info \(Deprecated\)
+
+</td><td>
+
+Updates employees details, such as address, phone number, email address, instant messenger, and web address. **Note:** This action uses WS-Security policy.
 
 </td></tr><tr><td>
 
@@ -3056,7 +1755,199 @@ Look up Professional Profiles Stream
 
 Retrieves professional workers profile information from Workday.
 
-</td></tr><tr><td rowspan="13">
+</td></tr><tr><td>
+
+Change Legal Name \(Deprecated\)
+
+</td><td>
+
+Changes or sets the legal name for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Personal Information \(Deprecated\)
+
+</td><td>
+
+Changes the personal information of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Employee Documents By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves documents of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Compensation Details By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves the compensation details of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Contact Details By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves contact information of the specified employee, such as address, phone number, email address, and beneficiaries.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get My Org Structure By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the org structure for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Total Benefit Enrollments By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the benefit enrollments for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Get Total Rewards By Employee ID \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the total rewards for the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Compensation Details \(Deprecated\)
+
+</td><td>
+
+Retrieves compensation details for the required employees, based on filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Contact Details \(Deprecated\)
+
+</td><td>
+
+Retrieves contact details for the required employees, such as address, phone number, email address, and beneficiaries, based on filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Employee Documents \(Deprecated\)
+
+</td><td>
+
+Retrieves documents of the required employees, based on the filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Holiday Calendars \(Deprecated\)
+
+</td><td>
+
+Retrieves the details of the holiday calendars.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Job Profiles \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the job profile, based on the specified criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Location Details \(Deprecated\)
+
+</td><td>
+
+Retrieves location details, based on the specified criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Organizations \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the organizations, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Timesheet Details \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the timesheets, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Total Benefit Enrollments \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the benefit enrollments, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Total Rewards \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the employee rewards, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Work Schedule Calendars \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the work schedule calendars.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Worker Profile \(Deprecated\)
+
+</td><td>
+
+Retrieves details of the employee profiles, based on worker type.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Workers \(Deprecated\)
+
+</td><td>
+
+Retrieves details such as, first name, last name, address, phone number, email address, instant messenger, worker position, and management chain, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Workers Employment Data \(Deprecated\)
+
+</td><td>
+
+Retrieves details such as, position, position organizations, position management chains, and worker status, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Workers And Employment Info \(Deprecated\)
+
+</td><td>
+
+Retrieves worker profile information from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Professional Profiles Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves professional workers profile information from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="26">
 
 Staffing
 
@@ -3164,7 +2055,111 @@ Contract Contingent Worker
 
 Hires a user to a contingent position or job.
 
-</td></tr><tr><td rowspan="5">
+</td></tr><tr><td>
+
+Change Organization \(Deprecated\)
+
+</td><td>
+
+Assigns values for company, cost center, region, and so on that are configured for staffing usage to a filled position.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Roles \(Deprecated\)
+
+</td><td>
+
+Changes roles of the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+No Show \(Deprecated\)
+
+</td><td>
+
+Rescinds the hiring process if a hired employee doesn't show on joining date.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Offboard Employee \(Deprecated\)
+
+</td><td>
+
+Offboards the specified employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Hire Employee \(Deprecated\)
+
+</td><td>
+
+Hires a user as an employee to the specified job.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Set Hiring Restrictions \(Deprecated\)
+
+</td><td>
+
+Creates hiring restrictions for a job management supervisory organization.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Create Position \(Deprecated\)
+
+</td><td>
+
+Creates or opens a position for a supervisory organization using the position management staffing model.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Positions \(Deprecated\)
+
+</td><td>
+
+Retrieves position-related details based on the position ID from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Edit Position \(Deprecated\)
+
+</td><td>
+
+Edits a position that is already filled.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Edit Hiring Restrictions \(Deprecated\)
+
+</td><td>
+
+Edits the hiring restrictions for a job management supervisory organization.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Change Job \(Deprecated\)
+
+</td><td>
+
+Changes the job of an employee or a contingent worked. The types of changes include transfer, promotion, demotion, lateral moves, and any other change in the information on the job.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Close Position \(Deprecated\)
+
+</td><td>
+
+Closes a position.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Contract Contingent Worker \(Deprecated\)
+
+</td><td>
+
+Hires a user to a contingent position or job.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="10">
 
 Talent Management
 
@@ -3210,6 +2205,46 @@ Updates the proficiency level of a specified user skill in Workday.
 
 </td></tr><tr><td>
 
+Create External Skill \(Deprecated\)
+
+</td><td>
+
+Creates a new external skill in Workday and associates it with the specified skill vendor.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up External Skills Mapping Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves the external skill mapping records from Workday for the specified skill vendor or mapping criteria.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up User Skills Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves skill details for a specified employee from Workday, including associated skills and proficiency attributes.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Manage External Skill Mapping \(Deprecated\)
+
+</td><td>
+
+Manages external skill mapping records in Workday, including creating, updating, or removing skill associations.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Update User Skill Proficiency \(Deprecated\)
+
+</td><td>
+
+Updates the proficiency level of a specified user skill in Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="2">
+
 Time Tracking
 
 </td><td>
@@ -3220,7 +2255,15 @@ Update Reported Time Blocks
 
 Updates details of reported time blocks.
 
-</td></tr><tr><td rowspan="2">
+</td></tr><tr><td>
+
+Update Reported Time Blocks \(Deprecated\)
+
+</td><td>
+
+Updates details of reported time blocks.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="3">
 
 Skill Management
 
@@ -3240,7 +2283,15 @@ Look up Employee Skills
 
 Retrieves employees skills from Workday for the specified date range.
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td>
+
+Manage Employee Skills \(Deprecated\)
+
+</td><td>
+
+Adds or removes skills associated with an employee.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td rowspan="12">
 
 Jobs Management
 
@@ -3292,6 +2343,54 @@ Update Job Requisition
 
 Updates the specified job requisition.
 
+</td></tr><tr><td>
+
+Create Job Requisition \(Deprecated\)
+
+</td><td>
+
+Creates a job requisition in Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Candidates Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves the candidates information like candidate data, social media account data and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Compensation Grades Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves compensation details like the default minimum and maximum of the compensation pay range and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Job Postings Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves job post details like job posting title, job posting description, education data, certification data, and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Look up Job Requisitions Stream \(Deprecated\)
+
+</td><td>
+
+Retrieves job requisition details like recruiting start date, target hire date and others from Workday.**Note:** This action uses WS-Security policy.
+
+</td></tr><tr><td>
+
+Update Job Requisition \(Deprecated\)
+
+</td><td>
+
+Updates the specified job requisition.**Note:** This action uses WS-Security policy.
+
 </td></tr></tbody>
 </table>## Spoke actions that use Workday REST APIs
 
@@ -3327,7 +2426,7 @@ Look up Worker Time Off and Leave Of Absence Request
 
 </td><td>
 
-Retrieves the time off and leave of absence details of the worker using RaaS report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for worker time-off and leave of absence request report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-timeoff-absence-req-rep.md).
+Retrieves the time off and leave of absence details of the worker using RaaS report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see .
 
 </td></tr><tr><td>
 
@@ -3339,17 +2438,7 @@ Look up In-Progress Approval Requests
 
 </td><td>
 
-Retrieves the approval requests that are in progress from Workday for the specified date range.**Important:** Before executing this action, you must set up reports. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the required reports, see:
-
--   [Business process change for the approval use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-bp-approval-usecase.md)
--   [Workday configuration for change job event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-conf-change-job-rep.md)
--   [Workday configuration for compensation change event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-conf-comp-chng-event-rep.md)
--   [Workday configuration for job requisition event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-job-req-event-rep.md)
--   [Workday configuration for leave of absence event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-leave-of-absence-event-rep.md)
--   [Workday configuration for spend authorization report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-spend-auth-rep.md)
--   [Workday configuration for termination event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-termination-event-rep.md)
--   [Workday configuration for time off correction event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-time-off-correction-event-rep.md)
--   [Workday configuration for time off event report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-time-off-event-rep.md)
+Retrieves the approval requests that are in progress from Workday for the specified date range.
 
 </td></tr><tr><td rowspan="3">
 
@@ -3395,7 +2484,7 @@ Look up Payslip
 
 </td><td>
 
-Retrieves payslip details of the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for payslip report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-payslip.md).
+Retrieves payslip details of the specified employee.
 
 </td></tr><tr><td>
 
@@ -3415,7 +2504,7 @@ Look up Employee Goals
 
 </td><td>
 
-Retrieves the employee goals from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for performance goals report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-performance-goals-rep.md).
+Retrieves the employee goals from Workday.
 
 </td></tr><tr><td>
 
@@ -3427,7 +2516,7 @@ Look up Feedback Received
 
 </td><td>
 
-Retrieves the feedback requests from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for feedback received report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-feedback-received-report.md).
+Retrieves the feedback requests from Workday.
 
 </td></tr><tr><td rowspan="4">
 
@@ -3447,7 +2536,7 @@ Look up Employee Performance Review Historical Data
 
 </td><td>
 
-Pulls the historical data on the employee performance review Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for workers performance review historical data report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-worker-perf-review-hist-rep.md).
+Pulls the historical data on the employee performance review Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Worker's Historical Performance Review report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-the-workers-historical-performance-review-report.md).
 
 </td></tr><tr><td>
 
@@ -3486,7 +2575,7 @@ Look up Skills
 
 </td><td>
 
-Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wd-hr-lookup-skills.md) and [Workday configuration for skill details report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-skill-details-report.md).
+Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wd-hr-lookup-skills.md).
 
 </td></tr><tr><td rowspan="9">
 
@@ -3506,7 +2595,7 @@ Look up Holiday Calendars Of An Employee
 
 </td><td>
 
-Retrieves details of the holiday calendar for the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the holiday calendar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-the-holiday-calendar-report.md).
+Retrieves details of the holiday calendar for the specified employee.
 
 </td></tr><tr><td>
 
@@ -3514,7 +2603,7 @@ Look up Holiday Calendars Reference WID Of An Employee
 
 </td><td>
 
-Retrieves details of the holiday calendar WID for the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the holiday calendar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-the-holiday-calendar-report.md).
+Retrieves details of the holiday calendar WID for the specified employee.
 
 </td></tr><tr><td>
 
@@ -3522,7 +2611,7 @@ Look up Inbox Items
 
 </td><td>
 
-Retrieves inbox items from Workday for the specified date range.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Look up inbox items report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-look-up-inbox-item-report.md).
+Retrieves inbox items from Workday for the specified date range.
 
 </td></tr><tr><td>
 
@@ -3538,7 +2627,7 @@ Look up Schedule Calendars Reference WID Of An Employee
 
 </td><td>
 
-Retrieves work schedule calendars for the required employees.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure work schedule calendar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-work-schedule-calendar-report.md).
+Retrieves work schedule calendars for the required employees.
 
 </td></tr><tr><td>
 
@@ -3546,15 +2635,15 @@ Look up Total Rewards using Report
 
 </td><td>
 
-Retrieves the total rewards for the specified report owner and report.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Total Rewards Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-total-rewards-report.md).
+Retrieves the total rewards for the specified report owner and report.
 
 </td></tr><tr><td>
 
-Look Up Termination Details Action
+Look up Holiday Calendars Of An Employee \(Deprecated\)
 
 </td><td>
 
-Retrieves termination details for a specified employee from Workday.
+Retrieves details of the holiday calendar for the specified employee.
 
 </td></tr><tr><td>
 
@@ -3564,11 +2653,19 @@ Look up Authenticated User and Reportees Information
 
 Retrieves the authenticated worker's details and, if available, their direct reportees from Workday, including employee ID, worker ID, and worker name.
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td rowspan="7">
 
 Metadata Retrieval
 
 </td><td>
+
+Look up Using WQL Stream
+
+</td><td>
+
+Retrieves Workday HR data using a WQL \(Workday Query Language\) stream query.
+
+</td></tr><tr><td>
 
 Look up Data Source
 

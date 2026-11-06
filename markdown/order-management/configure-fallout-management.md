@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-fallout-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -17,6 +17,13 @@ As a provider, you can use Fallout Management to identify, investigate, and reso
 The fallout type is a category that indicates the type of fallout activity. Billing Issue, Inventory Allocation Failure, and Provisioning Failure fallout types are standard in the ServiceNow AI Platform. You can define additional ones, according to the requirements of your enterprise. To learn more about managing order task fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/fallout-management-overview.md).
 
 **Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
+
+[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/fallout-management-overview.md)
 
 ## Create additional fallout types
 
@@ -44,4 +51,11 @@ The fallout type is a category that indicates the type of fallout activity. Bill
 
 6.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Order management]()
+
+[Managing order fallout]()
 

@@ -1,5 +1,5 @@
 ---
-title: Scheduled Script Execution form to generate labor costs for planning items
+title: Scheduled Script Execution form to generate labor costs
 description: Use the Scheduled Script Execution form to enable Generate Labor Costs and Generate Labor Costs For Epic scheduler jobs for your planning items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.html
@@ -7,12 +7,12 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Scheduled Script Execution form to generate labor costs for planning items
+# Scheduled Script Execution form to generate labor costs
 
 Use the Scheduled Script Execution form to enable Generate Labor Costs and Generate Labor Costs For Epic scheduler jobs for your planning items.
 
@@ -56,7 +56,7 @@ Time interval to use for running the scheduled job:
 -   **On Demand**: Runs immediately on demand.
 -   **Business Calendar: Entry Start**: Runs on the starting entry dates for the business calendar that you select in the **Business Calendar** field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar.
 
-For example, if the business calendar represents a fiscal year, and the starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
+For example, consider a business calendar representing a fiscal year. Starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
 
 -   **Business Calendar: Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar: Entry Start**, but for the end dates of the associated business calendar entries.
 

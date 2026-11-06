@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-ir-playbook-create-record.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Create an information request record using Information Request Administration
@@ -16,19 +16,17 @@ Create an information request record in the Public Sector Digital Services appli
 
 ## Before you begin
 
-**Note:** Before you start this procedure, verify that the Information Request Administration application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CRM Workspace. For instructions, see [Install Information Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/install-psds-information-request-playbook.md).
+**Note:** Before you start this procedure, verify that the Information Request Administration application, which is separate from Public Sector Digital Services Core, is installed and enabled in the Public Sector Workspace. For instructions, see [Install Information Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/install-psds-information-request-playbook.md).
 
 Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, and sn\_gsm.service\_manager
 
 ## About this task
 
-If a constituent hasn't submitted a case on their own, you can start an IR case using details you have.
-
 If a playbook is configured to use a record generator, you can create a record by using a playbook activity. If a case is already associated with a playbook, a new information request case type is opened in a new tab, with Playbook as the default tab. Creating a record from a list or form, or from an activity in another playbook, opens the Information Request Administration and initiates the first activity. This activity, the first step of the Intake stage, guides you through the record creation process.
 
 ## Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
 
 2.  Select **New**.
 

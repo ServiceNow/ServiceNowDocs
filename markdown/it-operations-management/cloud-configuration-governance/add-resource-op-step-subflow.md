@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add operation steps to a resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Invoke a subflow by adding an operation step to a resource and linking it to a n
 
 Make sure the Orchestration application is installed.
 
-Role required: Designer or admin
+Role required: Cloud user, designer, or admin
 
 ## Procedure
 

@@ -1,21 +1,21 @@
 ---
-title: AI Experiences
-description: Explore ServiceNow Otto panel and ServiceNow Otto context menu under the AI Experiences tab of AI Admin Hub.
+title: ServiceNow Otto Experiences
+description: Explore ServiceNow Otto panel and ServiceNow Otto context menu under the ServiceNow Otto Experiences tab of ServiceNow Otto Admin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-experiences.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# AI Experiences
+# ServiceNow Otto Experiences
 
-Explore ServiceNow Otto panel and ServiceNow Otto context menu under the **AI Experiences** tab of AI Admin Hub.
+Explore ServiceNow Otto panel and ServiceNow Otto context menu under the **ServiceNow Otto Experiences** tab of ServiceNow Otto Admin.
 
 -   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md)**  
-With the ServiceNow Otto panel, you can get assistance from AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 -   **[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-write-overview.md)**  
 The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/disable-experimentation-framework.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Experimentation framework, Basic system configuration, Get started, Administer]
+breadcrumb: [Experimentation framework, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Turn off experimentation framework

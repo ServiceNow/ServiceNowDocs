@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-08"
 reading_time_minutes: 3
-breadcrumb: [Using Planning console - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Gantt chart
@@ -18,11 +18,13 @@ A Gantt chart on the planning console is a visual representation of a project ti
 
 Use Gantt charts to add and delete tasks, change task dates and dependencies, and assess the progress of the overall project.
 
+**Note:** The Gantt chart doesn't limit the number of rows \(tasks\) that it displays.
+
 ## The critical path
 
 The critical path is highlighted in red on the Gantt chart to differentiate critical path tasks from standard tasks in blue. Not all tasks are part of the critical path, only those tasks that directly affect the finish date. Use the critical path to determine which tasks are driving the finish date. If schedule adjustments are necessary, consider making resource or other changes to those tasks on the critical path.
 
-The tasks that are not part of the critical path and can therefore be delayed are commonly called **slack** or **float** tasks. The Gantt chart shows the slack/float tasks by default. However, calculations that deal with these tasks, such as how long they can be delayed without impacting the project, are not available.
+The tasks that aren't part of the critical path and can therefore be delayed are commonly called **slack** or **float** tasks. The Gantt chart shows the slack/float tasks by default. However, calculations that deal with these tasks, such as how long they can be delayed without impacting the project, aren't available.
 
 ## Milestones
 

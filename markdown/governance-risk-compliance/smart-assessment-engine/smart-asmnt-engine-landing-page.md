@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -38,11 +38,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Reference \[Omitted image "bus-profile.svg"\] Alt text:Components installed with Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-ref.md)
+[ServiceNow Otto\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto for Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.md)
 
 </td><td>
 
- 
+[Reference \[Omitted image "bus-profile.svg"\] Alt text:Components installed with Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-ref.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

@@ -1,16 +1,16 @@
 ---
-title: Initiate the connection to the Impact Delivery Instance with manual registration
+title: Initiate the connection to Impact data with manual registration
 description: Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiate-the-connection-impact-delivery-instance.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Use manual registration to IDI, Impact reference, Impact]
+breadcrumb: [Use manual registration to configure the Impact Store Application, Data synchronization reference, Impact reference, Impact]
 ---
 
-# Initiate the connection to the Impact Delivery Instance with manual registration
+# Initiate the connection to Impact data with manual registration
 
 Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 
@@ -18,7 +18,6 @@ Establish a connection between your Impact Store Application and the Impact Deli
 
 **Important:** A named contact administrator must be allocated to perform the installation and implementation of the Impact Store Application. The person initiating registration may not be the named contact administrator.
 
--   The named contact administrator must have an Impact role for both the Impact Store Application and the Impact Delivery Instance to configure the integration of data.
 -   The named contact administrator performs the configuration starting with a registration email sent from the Impact Squad.
 -   The registration email contains a direct link to the IDI provider connection form.
 
@@ -26,7 +25,7 @@ Role required: An Impact role
 
 ## Procedure
 
-1.  [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/install-impact-innovation-lab.md).
+1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/install-impact-innovation-lab.md).
 
 2.  Log in to the Impact Store Application.
 
@@ -106,4 +105,8 @@ Contact \(administrator who receives the email to complete setup\)
 The named contact administrator will [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/connect-instance-impact-store-app.md).
 
 **Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use_manual_registration_configure_impact_store_application.md)
+
+**Previous topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use_manual_registration_configure_impact_store_application.md)
+
+**Next topic:**[Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/connect-instance-impact-store-app.md)
 

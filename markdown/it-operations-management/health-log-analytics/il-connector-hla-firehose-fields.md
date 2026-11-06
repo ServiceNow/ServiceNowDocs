@@ -7,17 +7,17 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AWS Firehose, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Amazon Data Firehose integration configuration fields
 
 Description of the fields on the Amazon Data Firehose integration configuration forms for Health Log Analytics.
 
-For the Amazon Data Firehose integration setup procedure, see [Set up an Amazon Data Firehose \(MID-less\) integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-firehose.md).
+For the Amazon Data Firehose integration setup procedure, see [Set up an Amazon Data Firehose integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-firehose.md).
 
 <table id="table_dsj_f1f_52c"><thead><tr><th>
 
@@ -52,5 +52,5 @@ Description
 Option to add a brief description of the integration to help identify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

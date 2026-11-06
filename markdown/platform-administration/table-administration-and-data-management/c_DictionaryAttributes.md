@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 27
-breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Altering tables and fields using dictionary attributes
@@ -393,6 +393,23 @@ If present or true, causes an icon \(an envelope\) to appear in the more options
 
 </td></tr><tr><td>
 
+enforce\_dot\_walk\_cross\_scope\_access
+
+</td><td>
+
+true/false
+
+</td><td>
+
+any table
+
+</td><td>
+
+This attribute enforces dot-walk cross-scope access restrictions for individual tables. The attribute must be added to the dictionary record for the table \(the record in sys\_dictionary with Type = “Collection” for the specific table\).-   To enable enforcement, add **enforce\_dot\_walk\_cross\_scope\_access** or **enforce\_dot\_walk\_cross\_scope\_access=true**.
+-   To turn off enforcement, add **enforce\_dot\_walk\_cross\_scope\_access=false**.
+
+</td></tr><tr><td>
+
 exclude\_auto\_recovery
 
 </td><td>
@@ -569,6 +586,22 @@ any table
 </td><td>
 
 Instructs the workflow engine to listen for changes to the table and fires events to a workflow when a record associated with a particular workflow has changed.
+
+</td></tr><tr><td>
+
+hide\_email\_icon
+
+</td><td>
+
+true/false
+
+</td><td>
+
+email field
+
+</td><td>
+
+If true, the default email icon does not display. The default value is false.
 
 </td></tr><tr><td>
 
@@ -942,7 +975,7 @@ positive integer
 
 </td><td>
 
-any table affected by the table cleaner.
+any table affected by the table cleaner
 
 </td><td>
 
@@ -958,7 +991,7 @@ true/false
 
 </td><td>
 
-any table affected by the table cleaner.
+any table affected by the table cleaner
 
 </td><td>
 
@@ -1922,6 +1955,22 @@ any field of date type \(glide\_date\_time, glide\_date, due\_date, date, or dat
 </td><td>
 
 If present or true, enables the production of time dimension data for use by OLAP \(to produce reports based on quarters, weeks, or other time periods\). **Note:** OLAP functionality has been deprecated.
+
+</td></tr><tr><td>
+
+track\_record\_for\_unauthenticated\_user
+
+</td><td>
+
+true/false
+
+</td><td>
+
+any table
+
+</td><td>
+
+Enables record tracking within Web Embeddables components. This attribute is set as needed through the Web Embeddables capability.For more information about how Web Embeddables are configured and used, see .
 
 </td></tr><tr><td>
 

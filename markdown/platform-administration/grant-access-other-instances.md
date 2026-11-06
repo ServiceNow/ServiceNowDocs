@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/grant-access-other-instances.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Multi-instance Management, Get started, Administer]
+breadcrumb: [Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Basic trust configuration for data sync applications
@@ -61,6 +61,4 @@ To revoke access from Sub-prod2 to Prod1 for the Subscription Management applica
 In the following example, you’re logged in to Sub-prod3. Sub-prod4 has granted access to the instance Sub-prod3 for the application Subscription Management, as indicated by the `True` value in the **Is granting access** column. Sub-prod3 has also granted access to Sub-prod4, as indicated by the `True` value in the **Grant access** column.
 
 \[Omitted image "eg-4.png"\] Alt text: The configurations in the MIF table.
-
-**Parent Topic:**[Configuring Multi-instance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-sync-configure.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-10-23"
-reading_time_minutes: 1
-breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Skill sensing for learning content
@@ -22,4 +22,30 @@ You can add skills to the learning courses using skill sensing in two ways:
 
 -   Add skills at the individual course level. For more information, see [Add skills to a course with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/add-skill-course-skill-sensing.md).
 -   Add multiple skills automatically using the skill sensing configuration or you can review the skills manually. For more information, see [Configuration for bulk skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/skill-sensing-configuration.md) and [Add or discard multiple skills with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/bulk-skill-sensing.md).
+
+-   **[Add skills to a course with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/add-skill-course-skill-sensing.md)**  
+Add skills to a course manually using the Large Language Model \(LLM\) skills recommendations based on the title and description of the course.
+-   **[Configuration for bulk skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/skill-sensing-configuration.md)**  
+Define conditions to create a sub set of learning courses on which you can run the scheduled job enabling you to accept multiple recommended skills.
+-   **[Add or discard multiple skills with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/bulk-skill-sensing.md)**  
+Review and approve the Large Language Model \(LLM\) recommended skills before tagging​ them to the learning courses.
+
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+
+**Related topics**  
+
+
+[Enroll in a course collection on My Learning]()
+
+[Resume a course]()
+
+[Create a personal course collection]()
+
+[Create a Learning challenge]()
+
+[View recent activity]()
+
+[Assign Learning to your team]()
+
+[Manage Learning]()
 

@@ -7,26 +7,30 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Create and associate policy texts, Policy authoring and redlining, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create and associate a policy text document in Google Drive
 
 Create a policy text document in Google Drive and enable document editing with the approvers, reviewers, and contributors. You can share the document with your stakeholders and collaborate on the document editing in real-time.
 
+## About this task
+
+When personal authentication is enabled, the create, connect, and upload operations run under your personal Google account credentials. This allows documents to be registered in Google Drive under your individual identity, enabling audit traceability. Document access permissions and content sync operations continue to run under the system account credentials. Ensure that the system account user has sharing access to the Google Drive folder where documents are hosted.
+
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 **Important:** Google document creation support is enabled from 19.1.1 version of Policy and Compliance Management application
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **Compliance Workspace**.
+1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select \[Omitted image "lists-icon.png"\] from the sidebar.
+2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -38,7 +42,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     1.  Select the **Enable document editing** button.
 
-        If the policy is in **Draft** state, only the policy owner can create or associate a Word document from Microsoft OneDrive. This enables approvers, reviewers, and contributors to edit the policy text.
+        If the policy is in **Draft** state, then the policy owner can alone create a document or associate a document from Google Drive to enable the policy text for editing by the approvers, reviewers, and contributors.
 
     2.  To create a document as a policy owner, select **Create new document** in the **Enable document editing** list.
 
@@ -66,6 +70,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     -   To create another document, select **Create new document** that opens the Create a document pop-up.
     -   To connect to a different document, select **Connect existing document** that opens a Connect existing document pop-up.
+    -   When you connect to a different document, the access on the previous document is removed and access on the new document is granted. Because document access updates run asynchronously, there may be a short delay before the updated access is reflected.
 8.  To update the content of the document in the **Policy text** field, select the Update link below the document link.
 
 9.  If the policy has been drafted and is complete, the policy owner can request a review by selecting the **Request review** button.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/recover-from-account-lockout.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register your instance, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Register your instance, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Recover from account lockout
@@ -44,4 +44,6 @@ The integration user account is unlocked and the password reset flag is cleared.
 ## What to do next
 
 Before retrying validation, resolve the root cause of the failed attempts. See [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/validate-instance-connection.md) for the full validation troubleshooting checklist.
+
+**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md)
 

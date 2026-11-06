@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure FDS as a consumer, Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Configure inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Accept a foundation data sync subscription
@@ -34,6 +34,6 @@ After the subscription item is validated, you must accept the subscription to co
 
 4.  Select **Accept**.
 
-    If you reject the subscription by selecting **Reject**, your provider needs to resend the sample files, and you must reconfigure the subscription items before you can accept the subscription again.
+    If you reject the subscription by selecting **Reject**, your provider needs to resend the sample files. You must reconfigure the subscription items before you can accept the subscription again.
 
 

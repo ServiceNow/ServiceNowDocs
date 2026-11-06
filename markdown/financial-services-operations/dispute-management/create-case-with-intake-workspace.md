@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ You can dispute one or more transactions that are associated with an account by 
 
 3.  Create a case from the dispute service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d33910e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d34833e124">
 
 Option
 
-</th><th align="left" id="d33910e127">
+</th><th align="left" id="d34833e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d33910e133">
+</th></tr></thead><tbody><tr><td id="d34833e133">
 
 **Dispute case from the dispute case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d33910e163">
+</td></tr><tr><td id="d34833e163">
 
 **Dispute case from an interaction record**
 
@@ -74,15 +74,15 @@ Steps
 
 7.  Under the **Initiate** playbook stage, fill in the required fields and any other related information.
 
-<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d33910e252">
+<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d34833e252">
 
 Activity
 
-</th><th align="left" id="d33910e255">
+</th><th align="left" id="d34833e255">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33910e261">
+</th></tr></thead><tbody><tr><td id="d34833e261">
 
 **Select transaction**
 
@@ -101,7 +101,7 @@ Provide information on the account or consumer and the dispute, such as:
 
  **Note:** If the transaction is part of another dispute case, it is flagged with a link to the case and information on the case outcome.
 
-</td></tr><tr><td id="d33910e302">
+</td></tr><tr><td id="d34833e302">
 
 **Select dispute reason**
 
@@ -111,7 +111,7 @@ Fill out a series of questions to arrive at the category and reason code.
 
  **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it and then select **Retrigger** to reload the activity.
 
-</td></tr><tr><td id="d33910e329">
+</td></tr><tr><td id="d34833e329">
 
 **Add more transactions**
 
@@ -138,7 +138,7 @@ The **Fill additional transaction questions** activity is displayed if you add a
 
 **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it, then select **Continue** to proceed to the next activity.
 
-</td></tr><tr><td id="d33910e401">
+</td></tr><tr><td id="d34833e401">
 
 **Resume dispute case**
 
@@ -148,7 +148,7 @@ This activity is displayed if the case was created using ServiceNow Otto for Fin
 
 If the conversation ends before the case is submitted, an agent can resume the intake and review or select the dispute's account and transaction details in this activity.
 
-</td></tr><tr><td id="d33910e424">
+</td></tr><tr><td id="d34833e424">
 
 **Fill dispute questionnaire**
 
@@ -156,7 +156,7 @@ If the conversation ends before the case is submitted, an agent can resume the i
 
 Continue completing the dispute questionnaire in this activity.
 
-</td></tr><tr><td id="d33910e433">
+</td></tr><tr><td id="d34833e433">
 
 **Fill additional transaction questions**
 
@@ -164,7 +164,7 @@ Continue completing the dispute questionnaire in this activity.
 
 This activity displays if multiple transactions are selected.
 
-</td></tr><tr><td id="d33910e442">
+</td></tr><tr><td id="d34833e442">
 
 **Document upload**
 
@@ -172,7 +172,7 @@ This activity displays if multiple transactions are selected.
 
 Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-</td></tr><tr><td id="d33910e451">
+</td></tr><tr><td id="d34833e451">
 
 **Customer signature required**
 
@@ -180,9 +180,7 @@ Upload any supporting documentation at this step, such as order details, invoice
 
 **Note:** This activity only occurs for ACH transactions with specified reason codes.
 
- For compliance purposes, inform the customer to sign a written statement for the unauthorized ACH debit and submit the document emailed to them.
-
- According to NACHA guidelines, customer must send a signed acknowledgment to the bank acknowledging they are disputing an unauthorized ACH debit transaction under certain reason codes.
+ For compliance purposes, inform the customer to sign a Written Statement of Unauthorized Debit \(WSUD\) for the unauthorized ACH debit and submit the document emailed to them.
 
  According to Nacha guidelines, customers must send a signed acknowledgment to the bank acknowledging they are disputing an unauthorized ACH debit transaction.
 
@@ -192,13 +190,13 @@ Upload any supporting documentation at this step, such as order details, invoice
 
  **Note:** In order for users to view the Written Statement of Unauthorized Debit \(WSUD\) document, the Document Templates \[sn\_doc\] plugin must be activated.
 
-</td></tr><tr><td id="d33910e485">
+</td></tr><tr><td id="d34833e486">
 
 **Submit dispute**
 
 </td><td>
 
-Confirm the dispute amount and add any other comments regarding the disputed transaction.For those using a Dispute Content Pack for US Regulations pack, there might be an option to indicate whether this is a new financial account, which impacts the applicability of the Service Level Agreement \(SLA\).
+Confirm the dispute amount and add any other comments regarding the disputed transaction.If you are using the Dispute Content Pack for US Regulations pack, an option may appear to indicate whether this is a new financial account, which impacts the applicability of the Service Level Agreement \(SLA\).
 
 Select the checkbox to acknowledge that you have read and understood the disclaimer.
 

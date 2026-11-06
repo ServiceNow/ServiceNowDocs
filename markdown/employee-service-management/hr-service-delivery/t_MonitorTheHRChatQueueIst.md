@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR chat from lists and forms, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Connect Support will be deprecated. For similar capabilities, please move to Adv
 
 By default, all members of the HR group monitor the HR chat queue. When a question is submitted to the queue, a pop-up notification appears.
 
-
+\[Omitted image "HRChatQueueNotification.png"\] Alt text: Alert chat queue message that a customer has joined queue.
 
 ## Procedure
 
@@ -44,15 +44,15 @@ By default, all members of the HR group monitor the HR chat queue. When a questi
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d534417e150">
+<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d543738e151">
 
 Option
 
-</th><th align="left" id="d534417e153">
+</th><th align="left" id="d543738e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d534417e159">
+</th></tr></thead><tbody><tr><td id="d543738e160">
 
 **Accept a conversation from a queue**
 
@@ -60,7 +60,7 @@ Description
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d534417e179">
+</td></tr><tr><td id="d543738e180">
 
 **Accept a transfer request**
 

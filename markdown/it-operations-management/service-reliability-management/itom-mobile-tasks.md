@@ -7,9 +7,9 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Working with tasks on mobile
@@ -27,7 +27,7 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 [View catalog tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/catalog-tasks.md)
 
-**Parent Topic:**[Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
+**Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
 **Previous topic:**[Working with On-Call Scheduling on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-on-call-scheduling.md)
 

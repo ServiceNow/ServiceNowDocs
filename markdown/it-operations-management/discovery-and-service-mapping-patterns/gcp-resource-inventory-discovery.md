@@ -1,20 +1,20 @@
 ---
 title: Google Cloud Platform \(GCP\) resource inventory discovery with Patterns
-description: The ServiceNow Discovery application uses the Google Cloud Platform \(GCP\) asset inventory pattern to find GCP resources and policies. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Google Cloud Platform \(GCP\) Resource Inventory pattern to find GCP resources and policies. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Google Cloud Platform \(GCP\) resource inventory discovery with Patterns
 
-The ServiceNow Discovery application uses the Google Cloud Platform \(GCP\) asset inventory pattern to find GCP resources and policies. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Google Cloud Platform \(GCP\) Resource Inventory pattern to find GCP resources and policies. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The pattern provides visibility for services supported by the Asset Inventory API, as well as collecting inventory data on the deployed GCP services and updating the CMDB.
 
@@ -22,7 +22,7 @@ The pattern collects inventory data either for all GCP-supported resources or fo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Starting with Discovery and Service Mapping Patterns version 1.18.1, you can discover the GCP storage by two types of discovery: Serverless and Cloud Discovery. Running Cloud Discovery schedules enables you to run one schedule per all your GCP projects without manually configuring separate schedules. You can also continue using Serverless discovery as before.
 

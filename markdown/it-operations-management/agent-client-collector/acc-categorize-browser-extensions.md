@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [browser extension categorization, browser extension signatures, ACC-VC]
-breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Categorize discovered browser extensions
@@ -196,4 +196,6 @@ When selected, activates the signature.
 The categorized browser extensions in your environment appear in the **Browser Extension Catalogs** \(sn\_acc\_vis\_content\_browser\_extension\_catalog\) table. Each entry in the table shows the browser extension, its assigned category, extension ID, version, and the signature that matched. Filter by category to see all the browser extensions in the group.
 
 The **Device Browser Extensions** \(sn\_acc\_vis\_content\_device\_browser\_extension\) table shows the mapping of the discovered browser extensions for each browser and device, and their profile and status.
+
+**Parent Topic:**[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)
 

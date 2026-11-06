@@ -7,9 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform Analytics Solutions for HLA, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure the Platform Analytics Solution for Health Log Analytics

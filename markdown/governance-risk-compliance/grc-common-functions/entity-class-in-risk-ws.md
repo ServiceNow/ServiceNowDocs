@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Entity classes are used to add a conceptual information about the entity or to t
 
 To understand the concept of entity class, consider an example. A company has office branches in three cities. The office space is considered as an entity and the entity class for these entities would be the location. For example, Risk as an entity could be a process or it could be the department in an organization. The entity class defines whether it belongs as a process or as a class in this example.
 
-Entity classes are listed under Lists in the workspace view. Select an entity class in the List view to display its details.
+Entity classes are listed under Lists in the workspace view. Click an entity class in the List view to display its details.
 
 The **Details** tab in the Entity classes form displays the following fields:
 
@@ -59,7 +59,7 @@ Information on the child classes:-   Name
 -   Is root check box
 
 </td></tr></tbody>
-</table>To save the newly created entity class configuration, select **Save**.
+</table>To save the newly created entity class configuration, click **Save**.
 
 -   **[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md)**  
 Create an entity class that is associated with an entity. Entity classes are used to add a conceptual information about the entity and classify the entities. They represent a collection of entities that have the same attributes such as Department, Business Unit, or Business Service. You can gather data about the entities based on the entity class.

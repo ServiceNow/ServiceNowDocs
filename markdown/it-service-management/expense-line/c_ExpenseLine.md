@@ -7,7 +7,7 @@ release: zurich
 product: Expense Line
 classification: expense-line
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -40,7 +40,7 @@ Domain separation is unsupported in Expense Line processing. Domain separation e
 **Related topics**  
 
 
-[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management/c_AssetManagement.md)
+[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/c_AssetManagement.md)
 
 [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ITILConfigurationManagement.md)
 

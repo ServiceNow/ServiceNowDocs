@@ -1,16 +1,16 @@
 ---
-title: Customize a page variant in UI Builder
+title: Design a page variant in UIB
 description: Configure a UI Builder page variant to pass from a workspace modal into the variant. This step acts as part of the process to configure an action button to open a custom modal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/design-a-page-variant-in-uib.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a custom form modal, Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Customize a page variant in UI Builder
+# Design a page variant in UIB
 
 Configure a UI Builder page variant to pass from a workspace modal into the variant. This step acts as part of the process to configure an action button to open a custom modal.
 
@@ -19,14 +19,13 @@ Configure a UI Builder page variant to pass from a workspace modal into the vari
 Complete the following actions:
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/create-a-new-form-action.md)
--   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md)
--   Open your record page in UI Builder or [create a page variant in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-variant.md)
+-   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-variant.md)
 
 Role required: admin
 
 ## Procedure
 
-1.  Open your page variant.
+1.  Open a page variant in UI Builder.
 
 2.  Add components to display on the page by selecting **+Add component** under the Body element.
 

@@ -1,20 +1,20 @@
 ---
 title: Applying CSDM guidelines to your product — product views
-description: ServiceNow products are CSDM-aware — they expect that CMDB data is organized according to CSDM guidelines and they benefit from that organization.
+description: ServiceNow products expect that CMDB data is organized according to CSDM guidelines and they benefit from that organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/use-cases.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Applying CSDM guidelines to your product — product views
 
-ServiceNow products are CSDM-aware — they expect that CMDB data is organized according to CSDM guidelines and they benefit from that organization.
+ServiceNow products expect that CMDB data is organized according to CSDM guidelines and they benefit from that organization.
 
 The topics in the next section identify the specific CMDB tables that the products update and obtain data from. The topics provide practical instructions for implementing the CSDM guidelines.
 
@@ -47,9 +47,9 @@ The topics do not address the following information:
 
     [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/dpm-csdm.md)
 
--   **Enterprise Architecture \(EA\) \[formerly Application Portfolio Management\]**
+-   **Enterprise Architecture**
 
-    [Applying the CSDM guidelines to Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/apm-use-case-product-view.md)
+    [Enterprise Architecture \(EA\) \(formerly Application Portfolio Management\) and the CSDM framework - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/apm-use-case-product-view.md)
 
 -   **HR Service Delivery for Healthcare**
 
@@ -63,7 +63,7 @@ The topics do not address the following information:
 
     [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csdm-framework-for-install-base-management.md)
 
--   **ITOM Health**
+-   **ITOM AIOps**
 
     [Applying the CSDM guidelines to ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-health-use-case-product-view.md)
 

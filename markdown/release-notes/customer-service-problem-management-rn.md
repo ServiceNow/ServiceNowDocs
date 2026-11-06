@@ -1,76 +1,58 @@
 ---
 title: Customer Service Problem Management release notes
-description: The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Customer Service Problem Management application helps customer to identify and resolve service problems. See the following sections for release notes by version.Map Test Group characteristics to Test Definition characteristics and run test definitions conditionally, so Test Run data flows through automatically to support fault isolation and repair decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/customer-service-problem-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-30"
+reading_time_minutes: 1
+breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Customer Service Problem Management release notes
 
-The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.
+The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. See the following sections for release notes by version.
 
 ## About Customer Service Problem Management
 
--   Run the diagnostics from the contextual panel in the Customer Service Problem Management playbook.
--   As an agent, use the Test group to help group test definitions. The Test group contains multiple test definitions.
--   Enables your customer to modify the visibility of the **Diagnose** tab and run diagnostics from the contextual panel in the Decisions table.
+-   Identify and resolve service problems that customers experience, using a structured approach to customer-reported issues.
+-   Define tests that diagnose service problems, then apply targeted solutions based on the results.
+-   Resolve broadband and internet issues with AI-driven workflows that track network tickets and create actionable tasks for customer agents.
 
-See [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/cspm-landing-page.md), [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/setting-test-group.md), and [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/settingup-test-specifications.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Customer Service Problem Management and Service Test Management by requesting it from the ServiceNow® Store.
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Install Customer Service Problem Management by requesting it from the ServiceNow Store.
 
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/technology-industry-rn-landing.md)
 
-## December 2025
+## Version 8.2.0
 
-The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Components installed with Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/spm-components.md)**
-
-    The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Service Problem Management without requiring the full admin role.
-
-
-## Zurich
-
-The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.
+Map Test Group characteristics to Test Definition characteristics and run test definitions conditionally, so Test Run data flows through automatically to support fault isolation and repair decisions.
 
 ### What's new
 
--   **[Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/setting-test-group.md)**
+-   **Service Lifecycle Request**
 
-    Enables the system to trigger the required tests for service problem cases, incidents, and change request, helping to identify the root cause of the problem. Test group includes test definitions.
-
--   **[Diagnose and resolve a service problem case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/work-on-service-problem-case.md)**
-
-    Review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.
+    Create cases for customer-initiated changes to the ownership of an existing service. A new case type, Account change request, extends the Customer Service base case and includes child tables to support use cases such as transfer of responsibility.
 
 
 ### What's changed
 
--   **Coral theme**
+-   ****
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    Add characteristics directly to Test Groups, map product specifications to the Test Group that should run. Propagate those values to Test Definitions through attribute mapping and decomposition rules. The right tests run with the correct inputs for each product, reducing manual configuration and errors.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    Service Lifecycle Request \(com.sn\_slc\): Provides Service Lifecycle Request management.
 
 

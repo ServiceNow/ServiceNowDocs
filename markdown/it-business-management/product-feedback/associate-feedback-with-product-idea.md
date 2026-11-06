@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Associate feedback with a product idea
@@ -40,5 +40,5 @@ Role required: pf\_user
 
 [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
 
-[Associate feedback or product idea with non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 

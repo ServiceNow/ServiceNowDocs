@@ -1,48 +1,56 @@
 ---
-title: Managing the growth of data on your instance
-description: Manage the growth and storage of data on your instance using data management policies.
+title: Managing data growth in Core UI
+description: Manage the growth and storage of data on your instance by creating data management rules in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-management-policies.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Managing the growth of data on your instance
+# Managing data growth in Core UI
 
-Manage the growth and storage of data on your instance using data management policies.
+Manage the growth and storage of data on your instance by creating data management rules in Core UI.
 
 ## Overview of managing data growth
 
-Data management policies streamline administration by allowing you to define multiple archive and table cleaner rules for a table within a single policy record. Additionally, you can easily activate or deactivate all rules simultaneously from the data management policy record.
+Create and manage Data Management rules in Core UI.
 
--   [Create a data management policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-data-management-policy.md)
+-   [Create a data management policy in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-data-management-policy.md)
 
     Create a data management policy for any table that accumulates data that you want to archive or delete periodically.
 
--   [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md)
+-   [Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)
 
     Move records in a primary table to an archive table, including any records in other tables that reference those records.
 
--   [Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md)
+-   [Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)
 
     Prevent data from growing exponentially by implementing table cleanup rules.
 
--   [Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ActivateDatabaseRotation.md)
+-   [Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)
 
-    Preserve instance performance and mitigate risks associated with querying growing data sets.
+    Update several records simultaneously without using scripts by creating and executing a batch update job.
+
+-   [Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
+
+    Safely delete records from a table without using scripts and without deleting the table by creating and executing delete jobs.
 
 
--   **[Create a data management policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-data-management-policy.md)**  
+-   **[Create a data management policy in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-data-management-policy.md)**  
 Define a set of rules for managing table data on your instance.
--   **[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)**  
+-   **[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)**  
 Manage table size growth and improve query performance by archiving records.
--   **[Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)**  
+-   **[Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)**  
 Delete older, expired, or unwanted records from tables automatically.
--   **[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_DatabaseRotation.md)**  
-Manage table size growth, archive data, and boost query performance by configuring database rotation.
+-   **[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)**  
+Update several records simultaneously without using scripts by creating and executing a batch update job.
+-   **[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)**  
+Safely delete records from a table without using scripts and without deleting the table by creating and executing delete jobs.
+-   **[Migrating non-reference fields to reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archive-reference-migration.md)**  
+Manually preserve sys\_ids in reference fields instead of storing the display name as a string.
 
 **Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_DataManagement.md)
 

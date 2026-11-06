@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings to monitor asset KPIs, Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure asset performance KPI settings, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Map hardware assets to an operational schedule
@@ -110,4 +110,6 @@ Indicates whether the asset schedule is active.
 
 6.  To sync the mapping between the assets and the operational schedules on demand, select **Sync KPI records**.
 
+
+**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-kpi-settings-ham.md)
 

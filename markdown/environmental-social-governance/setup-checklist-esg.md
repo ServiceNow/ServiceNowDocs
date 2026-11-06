@@ -1,16 +1,16 @@
 ---
-title: Setup checklist for the ESG Management \(formerly ESG Management\) application
+title: Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
 description: This checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/setup-checklist-esg.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ESG Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Setup checklist for the ESG Management \(formerly ESG Management\) application
+# Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
 
 This checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
 
@@ -34,7 +34,7 @@ Checklist
 
 </td><td>
 
-A user with the sn\_esg.program\_manager role, can download and install the ESG Management application. For details, see [Install ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-esg.md).
+A user with the sn\_esg.program\_manager role, can download and install the Operational Sustainability Management application. For details, see [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-esg.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ A user with the sn\_esg.data\_owner role can provide data for the manual metrics
 
 </td><td>
 
-A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager roles can create disclosure. Disclosures enable the investors to make informed decisions about the companies, their risk posture, sustainability standards, and ESG Management compliance.
+A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager roles can create disclosure. Disclosures enable the investors to make informed decisions about the companies, their risk posture, sustainability standards, and Operational Sustainability Management compliance.
 
 </td></tr><tr><td>
 
@@ -91,8 +91,8 @@ A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager
 
 </td><td>
 
-Optionally, users of the [Install ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-esg.md) application can integrate with other applications such as Project Portfolio Management and Integrated Risk Management. These integrations provide more features and capabilities. For more information, see [Integrating ESG Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
+Optionally, users of the [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-esg.md) application can integrate with other applications such as Project Portfolio Management and Integrated Risk Management. These integrations provide more features and capabilities. For more information, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ESG Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-implementation.md)
+</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-implementation.md)
 

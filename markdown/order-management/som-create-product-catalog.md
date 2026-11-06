@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-product-catalog.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering catalog
@@ -16,7 +16,7 @@ Create a product catalog that lists the product offerings available to your cust
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
@@ -116,6 +116,14 @@ Code
 
 System-generated product code for the catalog. The system automatically generates a code based on the catalog **Name** entered, but you can change the value to any desired alphanumeric string.
 
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Number that sets where this catalog appears relative to other catalogs. Catalogs display in ascending order by this number, then alphabetically. Leave this field empty to sort the catalog alphabetically with other unordered catalogs.
+
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
@@ -129,4 +137,11 @@ System-generated product code for the catalog. The system automatically generate
 ## What to do next
 
 Create product offering categories.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

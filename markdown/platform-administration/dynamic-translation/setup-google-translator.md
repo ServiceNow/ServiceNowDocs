@@ -7,9 +7,9 @@ release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Google Cloud Translator Service Spoke, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer]
+breadcrumb: [Google Cloud Translator Service Spoke, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up the Google Cloud Translator Service spoke

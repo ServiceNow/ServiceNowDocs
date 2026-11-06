@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-09"
 reading_time_minutes: 2
-breadcrumb: [Cisco AI Defense Integration for AI Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Cisco AI Defense Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install the Vulnerability Response Integration with Cisco AI Defense
@@ -93,6 +93,4 @@ Scheduled execution:
 5.  Save the integration.
 
 You're now ready to view your Cisco AI Defense data in your instance.
-
-**Parent Topic:**[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-cisco-ai-defense-integration.md)
 

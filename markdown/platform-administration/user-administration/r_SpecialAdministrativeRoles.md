@@ -1,15 +1,15 @@
 ---
 title: Special administrative roles
-description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rules.Create, modify, and delete Business rules./&gt;.Create, modify, and delete client scripts.Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete Script Includes.Create, modify, and delete UI actions.Create, modify, and delete UI macros.Create, modify, and delete UI pages.Create, modify, and delete using UI policies.Create, modify, and delete UI scripts.
+description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rulesThe instance can automatically assign a task to a user or group based on pre-defined conditions by using data lookup rules and assignment rules..Create, modify, and delete Business rules./&gt;.Create, modify, and delete client scripts.Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete Script Includes.Create, modify, and delete UI actions.Create, modify, and delete UI macros.Create, modify, and delete UI pages.Create, modify, and delete using UI policies.Create, modify, and delete UI scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/user-administration/r\_SpecialAdministrativeRoles.html
 release: zurich
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Base system roles, Managing roles, User admin, Configure core features, Administer]
+breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Special administrative roles
@@ -26,7 +26,7 @@ These roles don’t change the behavior of the admin role, which grants full adm
 
 ## Assignment rule administrator \[assignment\_rule\_admin\]
 
-Create, modify, and delete assignment rules.
+Create, modify, and delete [assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
 
 ### Contains Roles
 

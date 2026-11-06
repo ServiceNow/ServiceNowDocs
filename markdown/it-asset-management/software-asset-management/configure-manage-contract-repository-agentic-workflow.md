@@ -1,0 +1,63 @@
+---
+title: Configure the manage contract repository agentic workflow for Software Asset Management
+description: Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.html
+release: zurich
+product: Software Asset Management
+classification: software-asset-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use manage contract repository agentic workflow, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
+---
+
+# Configure the manage contract repository agentic workflow for Software Asset Management
+
+Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
+
+## Before you begin
+
+Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
+
+## Procedure
+
+1.  Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\).
+
+    For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+2.  Navigate to **All** &gt; **Admin Hub** &gt; **Skills**.
+
+3.  Access the **AI Skills** tab of the AI Admin Hub console.
+
+4.  Navigate to **Employee** &gt; **CM Pro**.
+
+5.  Select the **Activate skill** on the skill that you want to activate.
+
+    \[Omitted image "sam-cmpro-now-assist-skills-activate.png"\] Alt text: AI skills available for Contract Management Pro
+
+6.  In the skill guided setup, configure the use cases and other mappings for the Contract obligation extraction and Contract metadata extraction skills.
+
+    For more information on configuring contract metadata extraction skill, see [Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-conf-metadata-extraction.md).
+
+    **Note:** For the Contract metadata extraction skill, complete the [creation of use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-usecase-me.md), [mapping use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-usecase-mappings-me.md), and [enable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-config-notf-na-metadata.md) setup.
+
+    For more information on configuring Contract obligation extraction skill, see [Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-conf-obligation-extraction.md).
+
+    **Note:** When adding a new use case mapping record for the contract metadata extraction and contract obligation extraction skills, clear the **Contracts created from contract request** check box.
+
+7.  In the Define access page, select **Save and continue**.
+
+8.  In the Review and activate page, select **Activate**.
+
+
+## Result
+
+When a software contract record is created, the **Initiate contract extraction** button is displayed on the contract form.
+
+## What to do next
+
+[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)
+
+**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
+

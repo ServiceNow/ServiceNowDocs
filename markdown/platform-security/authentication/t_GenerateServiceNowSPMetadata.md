@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an external identity provider, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [Create an external identity provider, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Generate instance service provider \(SP\) metadata for SAML
@@ -18,7 +18,7 @@ As part of your SSO configuration, you can generate the instance SP metadata to 
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 
@@ -28,7 +28,7 @@ The IdP needs the instance SP metadata to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d49219e71">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d51679e74">
 
 **Multi-Provider SSO**
 
@@ -36,7 +36,7 @@ The IdP needs the instance SP metadata to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d49219e92">
+</td></tr><tr><td id="d51679e95">
 
 **SAML 2 SSO**
 

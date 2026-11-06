@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a data table
@@ -18,7 +18,7 @@ Create a table to store the data for your application.
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.admin, sn\_app\_eng\_studio.user, or delegated\_developer
+Role required: admin, sn\_app\_eng\_studio.user, or delegated developer
 
 ## About this task
 
@@ -84,7 +84,7 @@ Follow along to create a table for the employee travel request application.
 
 4.  Select **Create a blank table**.
 
-    A blank table enables you to create the fields, rows, and columns in your table from scratch. You can import existing data, such as spreadsheets or PDFs, to create the table for your application.
+    A blank table enables you to create the fields, rows, and columns in your table from scratch. You can import existing data, such as spreadsheets, to create the table for your application.
 
 5.  Select **Continue**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-data-model-relationships.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -17,6 +17,8 @@ Use relationships to provide internal and external users with additional access 
 ## Before you begin
 
 Role required: admin
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
 ## About this task
 
@@ -108,7 +110,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 2.  Select the desired relationship.
 
-<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d107868e259">
+<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d121175e275">
 
 **Account Team Members**
 
@@ -116,7 +118,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 Create a relationship between an internal user and an account.
 
-</td></tr><tr><td id="d107868e268">
+</td></tr><tr><td id="d121175e284">
 
 **Consumer Team Members**
 
@@ -124,7 +126,7 @@ Create a relationship between an internal user and an account.
 
 Create a relationship between an internal user and a consumer.
 
-</td></tr><tr><td id="d107868e277">
+</td></tr><tr><td id="d121175e293">
 
 **Household Team Members**
 
@@ -132,7 +134,7 @@ Create a relationship between an internal user and a consumer.
 
 Create a relationship between an internal user and a household.
 
-</td></tr><tr><td id="d107868e286">
+</td></tr><tr><td id="d121175e302">
 
 **Consumer Relationships**
 
@@ -140,7 +142,7 @@ Create a relationship between an internal user and a household.
 
 Create a relationship between two consumers, regardless of household.
 
-</td></tr><tr><td id="d107868e295">
+</td></tr><tr><td id="d121175e311">
 
 **Household Relationships**
 
@@ -149,7 +151,7 @@ Create a relationship between two consumers, regardless of household.
 Create a relationship between two consumers within a household.
 
 </td></tr></tbody>
-</table>3.  From the selected relationship list, click **New**.
+</table>3.  From the selected relationship list, select **New**.
 
 4.  Fill in the following fields for the selected relationship.
 
@@ -167,11 +169,11 @@ Account Team Member
 
 </td><td>
 
--   **Account**: select the account to which the internal user is assigned.
--   **Responsibility**: select the **Account Manager** responsibility.
--   **User**: select the internal user to fulfill the responsibility.
--   **Type**: select the type from the list of related party configurations.
--   **Order**: select the order that specifies the sequence in which records are displayed, organized according to business preferences.
+-   **Account**: Select the account to which the internal user is assigned.
+-   **Responsibility**: Select the **Account Manager** responsibility.
+-   **User**: Select the internal user to fulfill the responsibility.
+-   **Type**: Select the type from the list of related party configurations.
+-   **Order**: Select the order that specifies the sequence in which records are displayed, organized according to business preferences.
 
 
 </td></tr><tr><td>
@@ -180,10 +182,10 @@ Consumer Team Member
 
 </td><td>
 
--   **Consumer**: select the consumer to which the internal user is assigned.
--   **Responsibility**: select the **Relationship Manager** responsibility.
--   **User**: select the internal user to fulfill the responsibility.
--   **Order**: select the order that specifies the sequence in which records are displayed, organized according to business preferences.
+-   **Consumer**: Select the consumer to which the internal user is assigned.
+-   **Responsibility**: Select the **Relationship Manager** responsibility.
+-   **User**: Select the internal user to fulfill the responsibility.
+-   **Order**: Select the order that specifies the sequence in which records are displayed, organized according to business preferences.
 
 
 </td></tr><tr><td>
@@ -192,10 +194,10 @@ Household Team Member
 
 </td><td>
 
--   **Household**: select the household to which the internal user is assigned.
--   **Responsibility**: select the **Relationship Manager** responsibility.
--   **User**: select the internal user to fulfill the responsibility.
--   **Order**: select the order that specifies the sequence in which records are displayed, organized according to business preferences.
+-   **Household**: Select the household to which the internal user is assigned.
+-   **Responsibility**: Select the **Relationship Manager** responsibility.
+-   **User**: Select the internal user to fulfill the responsibility.
+-   **Order**: Select the order that specifies the sequence in which records are displayed, organized according to business preferences.
 
 
 </td></tr><tr><td>
@@ -204,9 +206,9 @@ Consumer to Consumer Relationship
 
 </td><td>
 
--   **Consumer is**: select the consumer to fulfill the responsibility on behalf of another consumer.
--   **Responsibility**: select the **Authorized Representative** responsibility.
--   **of Consumer**: select the consumer who is being represented by the consumer in the **Consumer is** field.
+-   **Consumer is**: Select the consumer to fulfill the responsibility on behalf of another consumer.
+-   **Responsibility**: Select the **Authorized Representative** responsibility.
+-   **of Consumer**: Select the consumer who is being represented by the consumer in the **Consumer is** field.
 
 
 </td></tr><tr><td>
@@ -215,20 +217,20 @@ Household Member Relationship
 
 </td><td>
 
--   **Household**; select the desired household.
--   **Consumer is**: select the consumer in the household to fulfill the responsibility on behalf of another consumer within the same household.
--   **Responsibility**: select the **Authorized Representative** responsibility.
--   **of Consumer**: select the consumer who is being represented by the consumer in the **Consumer is** field.
--   **Type**: select the type from the list of related party configurations.
--   **Order**: select the order that specifies the sequence in which records are displayed, organized according to business preferences.
+-   **Household**: Select the desired household.
+-   **Consumer is**: Select the consumer in the household to fulfill the responsibility on behalf of another consumer within the same household.
+-   **Responsibility**: Select the **Authorized Representative** responsibility.
+-   **of Consumer**: Select the consumer who is being represented by the consumer in the **Consumer is** field.
+-   **Type**: Select the type from the list of related party configurations.
+-   **Order**: Select the order that specifies the sequence in which records are displayed, organized according to business preferences.
 
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
     The relationship is added to the relationship list.
 
-    Account, Consumer, and Household Team Member relationships are also added to the corresponding related lists on the Business Location form.
+    Account, Consumer, and Household Team Member relationships are also added to the corresponding related lists on the Business Organization \(formerly Business Location\) form.
 
     -   Account Staff Relationships
     -   Consumer Staff Relationships

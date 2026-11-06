@@ -1,13 +1,13 @@
 ---
 title: Exploring the 360º view
-description: After you have successfully set up your data registries for the tables you use, you can use the 360º view feature to view the relationships between a selected record and related objects, such as controls, risks, and entity types.After data registries have been set up, you can launch 360º view from any record screen in any GRC workspace application to view relationships between the various types of data associated with the selected record.In the 360º view, you can select any relationship to view details.As you navigate through 360º view relationship visualizations, the breadcrumbs along the top edge keep track of where you've been and allow you to return to previously viewed information.If you have defined different views, you can select them from any 360º view visualization.You can configure some functionality enhancements for the 360º view of each record as part of the GRC updates.
+description: After you have successfully set up your data registries for the tables you use, you can use the 360º view feature to view the relationships between a selected record and related objects, such as controls, risks, and entity types.After data registries have been set up, you can launch 360º view from any record screen in any GRC workspace application to view relationships between the various types of data associated with the selected record.In the 360º view, you can click on any relationship to view details.As you navigate through 360º view relationship visualizations, the breadcrumbs along the top edge keep track of where you've been and allow you to return to previously viewed information.If you have defined different views, you can select them from any 360º view visualization.You can configure some functionality enhancements for the 360º view of each record as part of the GRC updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.html
 release: zurich
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [360° Relationship Visualization, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [360° Relationship Visualization, Common GRC features, Governance, 
 
 After you have successfully set up your data registries for the tables you use, you can use the 360º view feature to view the relationships between a selected record and related objects, such as controls, risks, and entity types.
 
-When you launch the 360º view from a particular record, the relationships between the selected record and all associated objects are displayed in a distinctive visualization that allows you to instantly understand how the objects interact with one another. The visualization is directly linked to your data, making it easy to navigate and analyze relationships in context. You can interact with the displayed records to explore additional details, such as drilling down into them for deeper insights.
+When you launch the 360º view from a particular record, the relationships between the selected record and all associated objects are displayed in a distinctive visualization that allows you to instantly understand how the objects interact with one another. The relationships are linked to your data so you can perform actions on the displayed records, such as drilling down into them to view additional details or creating new records.
 
 \[Omitted image "360-rel-viz.png"\] Alt text: 360º view
 
@@ -40,22 +40,22 @@ Role required: data registry reader
 
     \[Omitted image "360-button.png"\] Alt text: Record in workspace
 
-    **Note:** Depending on the record screen, you may have to select the ellipsis icon to view the **360º view** button.
+    **Note:** Depending on the record screen, you may need to click the ellipsis icon to view the **360º view** button.
 
-3.  Select **360º view**.
+3.  Click **360º view**.
 
     \[Omitted image "360-rel-viz.png"\] Alt text: Relationship visualization
 
-    **Note:** If you launch the 360º view before configuring your data registries, or if you select an object within the 360º view that has not been configured, the visualization screen opens in fallback \(or unconfigured\) mode. All one-to-many and many-to-many relationships for the object are automatically calculated and displayed in the view.
+    **Note:** If you launch the 360º view prior to configuring your data registries, or if you click on an object within the 360º view that has not been configured, the visualization screen opens in fallback \(or unconfigured\) mode. All one-to-many and many-to-many relationships for the object are automatically calculated and displayed in the view.
 
     A system property called `sn_data_registry.max_count_of_fallback_relationships` allows you to define the maximum number of relationships to display in the 360º view. The default is 25.
 
 
 ## Drilling-down for 360º details
 
-In the 360º view, you can select any relationship to view details.
+In the 360º view, you can click on any relationship to view details.
 
-For example, you can select the **Risks** relationship to view details on four risks.
+For example, you can click on the **Risks** relationship to view details on four risks.
 
 \[Omitted image "drill-down.png"\] Alt text: Drilling down on Risks
 

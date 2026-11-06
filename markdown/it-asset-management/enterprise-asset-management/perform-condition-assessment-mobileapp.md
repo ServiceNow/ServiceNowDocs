@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Perform condition evaluation from the Mobile Agent application
@@ -24,9 +24,9 @@ Role required: sn\_eam.asset\_technician
 
 ## About this task
 
-**Note:** Starting with Enterprise Asset Management version 10.0, work order task can be associated with multiple assets, either through an asset group or by assets added to the Affected assets list. When a work order task has multiple assets, the technician must assess the condition of each asset within the same work order task. After completing all condition evaluations, the condition results are recorded for each asset and are available for the enterprise asset manager to review.
+A work order task can be associated with multiple assets, either through an asset group or by assets added to the Affected assets list. When a work order task has multiple assets, the technician must assess the condition of each asset within the same work order task. After completing all condition evaluations, the condition results are recorded for each asset and are available for the enterprise asset manager to review.
 
-These steps detail the process of performing the condition evaluation from a mobile application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md).
+These steps detail the process of performing the condition evaluation from the Mobile Agent application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md).
 
 ## Procedure
 
@@ -40,13 +40,13 @@ These steps detail the process of performing the condition evaluation from a mob
 
 4.  On the **Details** tab, tap **Start Work**.
 
-5.  Tap the **View asset conditions** tab to see all the condition lines associated with the asset.
+5.  Tap the **View asset conditions** tab.
 
-    In Enterprise Asset Management version 10.0 and later, the **Assessment lines** screen opens and shows condition lines for all assets in the Affected assets list. A condition evaluation is created for each asset, and you must complete all condition lines to complete and close the task. The asset associated with the condition line is shown.
+    The **Assessment lines** screen opens and shows condition lines for all assets in the Affected assets list. A condition evaluation is created for each asset, and you must complete all condition lines to complete and close the task.
 
     -   The **Open** tab displays all condition lines associated with the assets that are not yet completed.
     -   The **Completed** tab displays all completed asset condition lines.
-    Initially all the condition lines are in an open state and each condition line is associated with a template.
+    Initially all the condition lines are in an open state and each condition line is associated with a template. The asset associated with the condition line is shown.
 
 6.  Tap a condition line record.
 
@@ -58,7 +58,7 @@ These steps detail the process of performing the condition evaluation from a mob
 
     The score gets calculated and populated on the condition line record that moves to the completed state, and a pass or fail determination is made based on the scores. If the pass and fail criteria wasn’t defined on a condition line, then the score displays as NA.
 
-9.  In Enterprise Asset Management version 10.0 and later, repeat steps 6 through 8 for each condition line for all assets in the work order task.
+9.  Repeat steps 6 through 8 for each condition line for all assets in the work order task.
 
     After all condition lines are completed, the **Close** button appears on the work order task.
 

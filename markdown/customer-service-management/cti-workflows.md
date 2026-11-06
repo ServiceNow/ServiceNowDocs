@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cti-workflows.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -36,7 +36,7 @@ The following workflow describes the logical sequence of actions when an incomin
 
 ## CTI call interactions operations
 
-CTI integration with IMS and OF uses the `OpenframeInteractionUtility` script. You can use the`createOrUpdateInteractionForOpenframe` method from the utility script to create an interaction. For more information about creating interaction using APIs, see Understanding the Interaction Management API see the [Understanding the Interaction Management API \[KB1941272\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1941272) article in the Now Support Knowledge Base.
+CTI integration with IMS and OF uses the `OpenframeInteractionUtility` script. You can use the`createOrUpdateInteractionForOpenframe` method from the utility script to create an interaction. For more information about creating interaction using APIs, see Interaction Management API.
 
 \[Omitted image "cti-legend.png"\] Alt text: FMS and CTI integration legend.
 

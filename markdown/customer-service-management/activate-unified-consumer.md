@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-unified-consumer.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up a user as a Unified Consumer, Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -44,7 +44,7 @@ To enable access to sys\_users \(internal users\), add the sys\_user to the user
     });
     ```
 
-    **Note:** While creating a consumer user from the consumer form, you are redirected to the interceptor form to select the user type.
+    **Note:** While creating a consumer user from the consumer form, you’re redirected to the interceptor form to select the user type.
 
 3.  Select **Update**.
 

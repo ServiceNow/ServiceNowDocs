@@ -1,22 +1,22 @@
 ---
-title: Install Document designer with Microsoft Word
+title: Install the Document designer with Word application
 description: Install the ServiceNow Document designer with Word \(sn\_grc\_doc\_design\) application. It extracts metadata from ServiceNow tables, including fields, related lists, and reference fields with their associated elements. It enables the insertion of repeating content blocks based on record count \(for example, 10 blocks for 10 issues\). When applied to specific records, the template generates a Microsoft Word document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/generate-word-report-of-action-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Install Document designer with Microsoft Word
+# Install the Document designer with Word application
 
 Install the ServiceNow Document designer with Word \(sn\_grc\_doc\_design\) application. It extracts metadata from ServiceNow® tables, including fields, related lists, and reference fields with their associated elements. It enables the insertion of repeating content blocks based on record count \(for example, 10 blocks for 10 issues\). When applied to specific records, the template generates a Microsoft Word document.
 
 ## Before you begin
 
-Role required: sn\_oper\_res.admin
+Role required: sys\_admin
 
 ## Procedure
 

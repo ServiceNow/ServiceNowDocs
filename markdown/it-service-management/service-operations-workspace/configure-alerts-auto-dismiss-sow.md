@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure alerts in Service Operations Workspace
@@ -20,7 +20,7 @@ Configure the alert and notification messages in Service Operations Workspace \(
 
 The UI Builder bundle must be installed or updated to version 28.1.
 
-Role required: sn\_sow\_admin.sn\_sow\_admin or admin
+Role required: admin
 
 ## About this task
 

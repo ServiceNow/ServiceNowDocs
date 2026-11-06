@@ -7,10 +7,10 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create prompt assets
@@ -31,7 +31,7 @@ A prompt is the instructive input that you provide to AI models to elicit specif
 
 2.  From the AI Control Tower, open the AI assets view.
 
-3.  From the navigation menu of the AI assets view, navigate toeither **AI asset inventory - Managed** &gt; **Prompts**or **AI asset inventory - Unmanaged** &gt; **Prompts**.
+3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **Prompts** or **AI asset inventory - Unmanaged** &gt; **Prompts**.
 
 4.  Select **Add prompt**.
 

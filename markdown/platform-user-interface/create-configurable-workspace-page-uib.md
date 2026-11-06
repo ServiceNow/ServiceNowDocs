@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-configurable-workspace-page-uib.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -61,5 +61,5 @@ Role required: ui\_builder\_admin, admin
 
 Your Configurable Workspace page opens in UI Builder.
 
-\[Omitted image "configurable-workspace-standard-record-page-uib.png"\] Alt text: Ready for fulfillment details
+\[Omitted image "configurable-workspace-standard-record-page-uib.png"\] Alt text: Standard record page in Configurable Workspace
 

@@ -7,7 +7,7 @@ release: zurich
 product: Task Outage
 classification: task-outage
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Task-Outage Relationship, Task Outage, IT Service Management]
 ---
@@ -17,6 +17,12 @@ breadcrumb: [Activate Task-Outage Relationship, Task Outage, IT Service Manageme
 The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
+
+## Roles installed
+
+|Role title|Description|Contains roles|
+|----------|-----------|--------------|
+|sn\_task\_outage\_admin|Configure all Task Outage features including the mapping between the Task \[task\] table and the Outage \[cmdb\_ci\_outage\] table.| |
 
 ## Table installed
 

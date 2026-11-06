@@ -7,18 +7,18 @@ release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 30
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Operational Technology \(OT\) extension classes
 
 The CMDB CI Class Models app adds or updates classes for Operational Technology \(OT\).
 
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the CMDB CI Class Models release notes.
+See the release notes for all CMDB CI class models.
 
 ## Operational Technology \(OT\) data model
 
@@ -40,7 +40,10 @@ In the following example, HMI might be software installed on an IT class CI or m
 
 You can use this to derive a list of HMIs and a list of all computers in an enterprise. For more information about the OT data model, see [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/ot-use-case-product-view.md).
 
-You can use the added classes as any other CMDB class. Products and applications such as Discovery for OT and Service Graph Connector for Microsoft Excel use these class extensions to populate CIs and discover various technologies and software. To learn more, see [Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/service-graph-connector-for-OT-excel.md).
+You can use the added classes as any other CMDB class. Products and applications such as Discovery for OT and Service Graph Connector for Microsoft Excel use these class extensions to populate CIs and discover various technologies and software. To learn more, see the following:
+
+-   [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-discovery-landing.md)
+-   [Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/service-graph-connector-for-OT-excel.md)
 
 **Note:** CIs used on an OT network to automate an industrial process are often referred to as  OT devices. This term shouldn’t be confused with a device record commonly used in Asset Management.
 
@@ -50,7 +53,7 @@ You can use the added classes as any other CMDB class. Products and applications
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. See the class columns table for further details about the columns added for each class. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 CMDB CI Class Models: Release 1.69.0 adds the following classes for OT.
 
@@ -1001,9 +1004,9 @@ Tips:
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-The [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) app adds class models that extend the CMDB class hierarchy, including:
+The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) app adds class models that extend the CMDB class hierarchy, including:
 
 -   Class descriptions
 -   Identification rules

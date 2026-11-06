@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Explore, Process Mining, Platform Analytics]
 ---
 
 # Key features of Process Mining
@@ -69,7 +69,9 @@ Some key features of Process Mining are listed in this topic.
 **Related topics**  
 
 
-[Evaluating Process Mining]()
+[Process Mining architecture]()
+
+[Evaluation projects]()
 
 [Process Mining workspace]()
 

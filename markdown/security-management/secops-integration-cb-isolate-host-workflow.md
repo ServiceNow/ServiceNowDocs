@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/secops-integration-cb-isolate-host-workflow.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Isolate Host capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_si.analyst
 The flow process activities include:
 
 -   [Legacy: Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/execution-tracking-begins-cis-activity.md)
--   [Get IP from CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/get-ip-from-ci-activity.md)
+-   [Get IP from CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 -   [Collect Carbon Black configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/collect-cb-config-activity.md)
 -   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/capability-execution-tracking-failure.md)
 -   [Get Sensor ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/get-sensor-id-activity.md)

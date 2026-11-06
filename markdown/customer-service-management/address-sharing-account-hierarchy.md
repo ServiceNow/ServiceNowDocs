@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/address-sharing-account-hierarchy.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reusing addresses between multiple accounts, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,14 @@ You can reuse the same address between multiple accounts within the account hier
 
 ## Before you begin
 
-Role required: admin or sn\_customerservice\_manager
+Role required: One of the following roles:
+
+-   admin
+-   sn\_customerservice\_manager
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
 
 ## Procedure
 
@@ -31,6 +38,8 @@ Role required: admin or sn\_customerservice\_manager
     **Note:** The **Account** field is already populated with the name of the account.
 
 5.  In the Locations pop up, select the location that you want to reuse.
+
+    \[Omitted image "account\_hierarchy.png"\] Alt text: Locations dialog box displaying the addresses associated with the selected account in the account hierarchy.
 
 6.  Select **Submit**.
 

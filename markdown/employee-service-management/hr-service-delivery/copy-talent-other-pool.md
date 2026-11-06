@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Talent Profile, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ Copy the suitable talent profiles to associate them to your pool from another ta
 
 2.  Go to the **Talent pool** tab.
 
-<table id="choicetable_m2k_wlt_zbc"><thead><tr><th align="left" id="d274851e79">
+<table id="choicetable_m2k_wlt_zbc"><thead><tr><th align="left" id="d280388e79">
 
 Selection
 
-</th><th align="left" id="d274851e82">
+</th><th align="left" id="d280388e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d274851e88">
+</th></tr></thead><tbody><tr><td id="d280388e88">
 
 **Copy talent from one pool to another pool**
 
@@ -46,7 +46,7 @@ Action
 
 Copy talent from one pool to the other from the **Talent pool** tab. Go to the talent pool and in the **Talent** tab, select the profiles to view the **Copy to another pool** button and select it.
 
-</td></tr><tr><td id="d274851e108">
+</td></tr><tr><td id="d280388e108">
 
 **Copy talent profile to a pool**
 

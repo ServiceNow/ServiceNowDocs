@@ -1,20 +1,20 @@
 ---
-title: Expanded Model and Asset Classes Store application
-description: The Expanded Model and Asset Classes Store application adds model and asset classes that extend out-of-the-box classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships. The application also adds model categories and API categories.
+title: Expanded Model and Asset Classes
+description: The Expanded Model and Asset Classes application adds model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships. The application also adds model categories and API categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 12
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
-# Expanded Model and Asset Classes Store application
+# Expanded Model and Asset Classes
 
-The Expanded Model and Asset Classes Store application adds model and asset classes that extend out-of-the-box classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships. The application also adds model categories and API categories.
+The Expanded Model and Asset Classes application adds model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships. The application also adds model categories and API categories.
 
 **Note:** This application is compatible with the Rome and later family releases.
 
@@ -24,230 +24,11 @@ In addition to extending CMDB model and asset classes, the Expanded Model and As
 
 The Expanded Model and Asset Classes application also adds the API and Managed API model categories, which allow the Configuration Management Database \(CMDB\) application to create and associate application models with API and Managed API CMDB CI classes. API CMDB CI classes provide classifications for APIs \(application programming interfaces\), which are sets of definitions and protocols that enable computer programs to communicate with each other. Managed API CMDB CI classes provide classifications for APIs that are discovered through gateways or management services, such as Amazon API Gateway. By associating application models with these CMDB CI classes, the Configuration Management Database \(CMDB\) application can create version-agnostic representations of your APIs. These representations can then provide a more holistic view of each API during reporting and analysis. For more information on API and Managed API CMDB CI classes, see [API extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-api.md).
 
-## Enterprise model classes added by the application
+## Enterprise model and asset classes added by the application
 
-The Expanded Model and Asset Classes application adds the Enterprise good model \[sn\_ent\_model\] class, Firmware model \[sn\_ent\_firmware\_model\] class, and Discovered firmware model \[sn\_ent\_discov\_firmware\_model\] class, which extend the base Product model \[cmdb\_model\] class. The Enterprise good model \[sn\_ent\_model\] class includes classifications for various enterprise model types, which are categorized into the following industry-based child classes:\[Omitted image "enterprise-model-classes-hierarchy.png"\] Alt text: Enterprise good model classes hierarchy.
+The Expanded Model and Asset Classes application adds enterprise model classes that extend the base Product model \[cmdb\_model\] class and enterprise asset classes that extend the Base asset \[alm\_base\] class. For more information on these enterprise model and asset classes, see [Enterprise model and asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes.md).
 
-<table id="table_o2v_sy5_25b"><thead><tr><th>
-
-Enterprise good model child class
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Medical model\[sn\_ent\_medical\_model\]
-
-</td><td>
-
-Classifies medical-based enterprise models, such as ER Medical Cart Kit and ECG Electrodes.
-
-</td></tr><tr><td>
-
-Medical device model\[sn\_ent\_medical\_device\_model\]
-
-</td><td>
-
-Classifies medical device-based enterprise models, such as Blood Pressure Monitor and MRI Patient Table.**Note:** When you upgrade to version 1.2.0 or later of the Expanded Model and Asset Classes application, the application automatically runs the `Update medical device category` fix script to associate the Medical Device model \[sn\_ent\_medical\_device\_model\] class with the existing Medical device model category. However, you may need to manually reclassify existing enterprise models under the Medical device model category from the Medical model \[sn\_ent\_medical\_model\] class to the Medical Device model \[sn\_ent\_medical\_device\_model\] class. Refer to [KB1182183](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB1182183) for detailed instructions.
-
-Product Instance Identifier \(PID\) which is a unique and common identifier that links the asset, CI, and IBI classes is generated for the assets of Medical Device model category. PID is generated based on the PID configurations applicable for the Medical Device model category.
-
-The Product Instance Identifier Configurations \[product\_instance\_identifier\_configuration\] table stores the PID configurations. By default, the following configurations are available:
-
--   **PID - Serial number** that includes a parameter defined based on the Serial number field of the Asset \[alm\_asset\] table.
--   **PID - Parent** that includes parameters defined based on the Parent and Model Component ID fields of the Asset \[alm\_asset\] table.
-
-When many PID configurations are associated with the Medical Device model category, the configuration with the highest priority is considered first during the generation of the PID. The PID - Serial number configuration is mostly given the highest priority.
-
-</td></tr><tr><td>
-
-Medical drug model\[sn\_ent\_drug\_model\]
-
-</td><td>
-
-Classifies medical drug-based enterprise models, such as Amoxicillin and Prilosec.
-
-</td></tr><tr><td>
-
-Facility model \[sn\_ent\_facility\_model\]
-
-</td><td>
-
-Classifies facility-based enterprise models, such as HVAC Split System and Wire Shelf.
-
-</td></tr><tr><td>
-
-Transportation model \[sn\_ent\_transportation\_model\]
-
-</td><td>
-
-Classifies transportation-based enterprise models, such as Disc Brake Rotor Front and Fuel Cell Car.
-
-</td></tr><tr><td>
-
-Industrial model \[sn\_ent\_industrial\_model\]
-
-</td><td>
-
-Classifies industrial-based enterprise models, such as CNC Milling Machine and Laser Cutting Machine.
-
-</td></tr><tr><td>
-
-Retail model \[sn\_ent\_retail\_model\]
-
-</td><td>
-
-Classifies retail-based enterprise models, such as Retail Counter Scale and 80mm Thermal Receipt Printer.
-
-</td></tr><tr><td>
-
-Tactical equipment model \[sn\_ent\_tactical\_model\]
-
-</td><td>
-
-Classifies tactical equipment-based enterprise models, such as K19 Plate Carrier and Triple Mag Pouch.
-
-</td></tr><tr><td>
-
-Construction model \[sn\_ent\_construction\_model\]
-
-</td><td>
-
-Classifies construction-based enterprise models, such as Excavator and Hex Breaker Hammer Kit.
-
-</td></tr><tr><td>
-
-Wearable model\[sn\_ent\_wearable\_model\]
-
-</td><td>
-
-Classifies wearable asset-based enterprise models, such as N95 Respirator and High-vis Safety Vest.
-
-</td></tr><tr><td>
-
-Multimedia production equipment model\[sn\_ent\_mm\_prod\_equip\_model\]
-
-</td><td>
-
-Classifies multimedia production equipment-based enterprise models, such as Production Camera and Modular Broadcast Console.
-
-</td></tr><tr><td>
-
-System and smart card model\[sn\_ent\_system\_smart\_card\_model\]
-
-</td><td>
-
-Classifies system card- and smart card-based enterprise models, such as Smart Card and Magnetic Stripe Card.
-
-</td></tr><tr><td>
-
-Payment card model\[sn\_ent\_payment\_card\_model\]
-
-</td><td>
-
-Classifies payment card-based enterprise models, such as Debit Card and Credit Card.
-
-</td></tr></tbody>
-</table>**Important:** In the Zurich release, the Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
-
-Reports in the Enterprise Asset Workspace that previously referred to the Classification column in the Enterprise good model table now reference the new Classification \(classification\_code\) column in the Product model table.
-
-## Enterprise asset classes added by the application
-
-The Expanded Model and Asset Classes application adds the Enterprise asset \[sn\_ent\_asset\] class, which extends the Base asset \[alm\_base\] class. The Enterprise asset \[sn\_ent\_asset\] class includes classifications for various enterprise asset types, which are categorized into the following industry-based child classes:\[Omitted image "enterprise-asset-classes-hierarchy.png"\] Alt text: Enterprise asset classes hierarchy.
-
-<table id="table_kw5_dfv_25b"><thead><tr><th>
-
-Enterprise asset child class
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Medical asset \[sn\_ent\_medical\_asset\]
-
-</td><td>
-
-Classifies medical-based enterprise assets, such as hospital beds and X-ray machines.
-
-</td></tr><tr><td>
-
-Facility asset \[sn\_ent\_facility\_asset\]
-
-</td><td>
-
-Classifies facility-based enterprise assets, such as coffee makers and HVAC systems.
-
-</td></tr><tr><td>
-
-Transportation asset \[sn\_ent\_transportation\_asset\]
-
-</td><td>
-
-Classifies transportation-based enterprise assets, such as airplanes and brake pads.
-
-</td></tr><tr><td>
-
-Industrial asset \[sn\_ent\_industrial\_asset\]
-
-</td><td>
-
-Classifies industrial-based enterprise assets, such as forklifts and casting machines.
-
-</td></tr><tr><td>
-
-Retail asset \[sn\_ent\_retail\_asset\]
-
-</td><td>
-
-Classifies retail-based enterprise assets, such as display cases and clothing racks.
-
-</td></tr><tr><td>
-
-Tactical equipment asset \[sn\_ent\_tactical\_asset\]
-
-</td><td>
-
-Classifies tactical equipment-based enterprise assets, such as hydration carriers and tactical plate carriers.
-
-</td></tr><tr><td>
-
-Construction asset \[sn\_ent\_construction\_asset\]
-
-</td><td>
-
-Classifies construction-based enterprise assets, such as sledgehammers and hand saws.
-
-</td></tr><tr><td>
-
-Wearable asset \[sn\_ent\_wearable\_asset\]
-
-</td><td>
-
-Classifies wearable enterprise assets, such as helmets and uniforms.
-
-</td></tr><tr><td>
-
-Multimedia production equipment asset\[sn\_ent\_mm\_prod\_equip\_asset\]
-
-</td><td>
-
-Classifies multimedia production equipment, such as video mixers and broadcast sync generators.
-
-</td></tr><tr><td>
-
-System and smart card asset\[sn\_ent\_sys\_smart\_card\_asset\]
-
-</td><td>
-
-Classifies system cards and smart cards, such as magnetic stripe cards.
-
-</td></tr></tbody>
-</table>## Service model classes added by the application
+## Service model classes added by the application
 
 The Expanded Model and Asset Classes application adds the following child classes to the base Service model \[cmdb\_service\_product\_model\] class. These child classes provide classifications for various service model types.
 
@@ -539,40 +320,4 @@ AI prompt digital asset\[alm\_ai\_prompt\_digital\_asset\]
 Classifies the prompts, or instructions, that are given to AI models to generate AI system responses without any human intervention. Examples include sets of instructions to generate x-char summaries for given inputs in specific tones or voices.
 
 </td></tr></tbody>
-</table>## Requesting the Expanded Model and Asset Classes application
-
-You must request the Expanded Model and Asset Classes application from the ServiceNow Store.
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all available applications and for information about submitting requests to the Store. For cumulative release notes information for all released applications, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-1.  From a web browser, go to the [ServiceNow Store](https://store.servicenow.com/).
-2.  Log in using your HI credentials.
-3.  In the search bar, enter `Expanded Model and Asset Classes` and then click **Search**.
-4.  Select the result called **Expanded Model and Asset Classes**.
-5.  On the Expanded Model and Asset Classes page, click **Request Install**.
-
-    The ServiceNow Request for App Installation - Expanded Model and Asset Classes dialog box opens.
-
-6.  In the dialog box, fill in the fields.
-
-    |Field|Description|
-    |-----|-----------|
-    |Instance Name|Name of the instance on which you want to install the application. After you enter the instance name, click **Validate Instance** to verify that the instance exists.|
-    |Reason for request|Reason for requesting the application.|
-
-7.  Click **Request**.
-8.  Click **Close**.
-
-If your request is approved, you will receive an email with detailed instructions on how to install the application. You can then install the application according to the instructions in the email.
-
-## Verifying successful application installation
-
-After you request and install the Expanded Model and Asset Classes application, verify that all enterprise model and asset classes have been added to the CMDB class hierarchy successfully.
-
-1.  From your ServiceNow instance, navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
-2.  Click **Hierarchy** to display the CI Classes list, where you can view all classes within the CMDB class hierarchy.
-3.  Verify that all enterprise model and asset classes have been added to the list.
-4.  \(Optional\) Select a class to verify the corresponding class description, identification rules, identifier entries, and dependent relationships.
-
-**Warning:** Uninstalling the Expanded Model and Asset Classes application may compromise the integrity of the Enterprise Asset Management application, resulting in unexpected behavior.
-
+</table>

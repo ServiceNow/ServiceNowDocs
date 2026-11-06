@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Working on scheduled tasks in Dispatcher Workspace
@@ -35,15 +35,15 @@ Role required: wm\_dispatcher, wm\_admin, and wm\_agent
 
 1.  You can view tasks in the Scheduled state in one of the following roles​.
 
-<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d148977e113">
+<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d164175e113">
 
 role
 
-</th><th align="left" id="d148977e116">
+</th><th align="left" id="d164175e116">
 
 steps
 
-</th></tr></thead><tbody><tr><td id="d148977e122">
+</th></tr></thead><tbody><tr><td id="d164175e122">
 
 **wm\_dispatcher**
 
@@ -53,7 +53,7 @@ steps
 2.  View the list of scheduled tasks in the dispatcher group.
 
 
-</td></tr><tr><td id="d148977e152">
+</td></tr><tr><td id="d164175e152">
 
 **wm\_admin**
 
@@ -63,7 +63,7 @@ steps
 2.  View the list of all scheduled tasks.
 
 
-</td></tr><tr><td id="d148977e182">
+</td></tr><tr><td id="d164175e182">
 
 **wm\_agent**
 

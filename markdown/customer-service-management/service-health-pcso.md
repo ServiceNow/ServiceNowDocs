@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/service-health-pcso.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Event Management, Proactive Customer Service Operations, Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---

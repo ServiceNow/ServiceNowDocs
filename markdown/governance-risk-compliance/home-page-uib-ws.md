@@ -1,22 +1,22 @@
 ---
 title: Home page view
-description: The Home page in Business Continuity Workspace serves as the landing page of the BCM application.
+description: The Home page in Business Continuity Workspace provides an interactive dashboard that summarizes the status of continuity activities across crisis events, business impact analyses, plans, and exercises.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/home-page-uib-ws.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [BCM Configurable Workspace, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Home page view
 
-The Home page in Business Continuity Workspace serves as the landing page of the BCM application.
+The Home page in Business Continuity Workspace provides an interactive dashboard that summarizes the status of continuity activities across crisis events, business impact analyses, plans, and exercises.
 
 ## Home page in Business Continuity Workspace
 
-The Home page in Business Continuity Workspace provides an interactive dashboard that summarizes the status of continuity activities. The visualizations help the Workspace users to act on their assigned tasks in an organized manner. The Home page includes these tabs:
+The Home page in Business Continuity Workspace provides an interactive dashboard that summarizes the status of continuity activities. The visualizations help you act on your assigned tasks. The Home page includes these tabs:
 
 -   **Crisis events**
 -   **Business impact analysis**
@@ -27,11 +27,11 @@ Each tab shows cards that highlight key states, detailed views, and visualizatio
 
 ## Crisis events tab
 
-The **Crisis events** tab in the Home page displays various cards that offer information on the crisis events. You can review the crisis events in various states, details of the selected crisis events, and monitoring and tracking of the crisis events. The example shows the cards in the **Crisis events** tab. You can select **Report crisis** to start a new crisis event.
+The **Crisis events** tab in the Home page displays various cards that offer information on the crisis events. You can review the crisis events in various states, details of the selected crisis events, and monitoring and tracking of the crisis events. The example shows the cards in the **Crisis events** tab. You can select **Report crisis** to start a crisis event.
 
 \[Omitted image "bcm-manager-homepage-view.png"\] Alt text: Crisis events tab in the Home page.
 
-See the table for the description of the cards in the **Crisis events** tab:
+The following table describes the cards in the **Crisis events** tab:
 
 <table id="table_kq2_wb4_byb"><thead><tr><th>
 
@@ -49,27 +49,27 @@ Crisis events overview
 
 Overview of the crisis events in different states. You can view the details of the crisis events in these states:-   **In progress**
 
-Number of the crisis events that are in the **In progress** state.
+Number of crisis events that are in the **In progress** state.
 
 -   **Pending**
 
-Number of the crisis events that are in the **Pending** state.
+Number of crisis events that are in the **Pending** state.
 
 -   **Returned**
 
-Number of the crisis events that are in the **Returned** state.
+Number of crisis events that are in the **Returned** state.
 
 -   **Pending approval**
 
-Number of the crisis events that are in the **Pending approval** state.
+Number of crisis events that are in the **Pending approval** state.
 
 -   **Approved**
 
-Number of the crisis events that are in the **Approved** state.
+Number of crisis events that are in the **Approved** state.
 
 -   **Closed**
 
-Number of the crisis events that are in the **Closed** state.
+Number of crisis events that are in the **Closed** state.
 
 
 </td></tr><tr><td>
@@ -80,7 +80,7 @@ Details of the selected event card
 
 Details of the crisis events for the selected state of the card. For example, if you selected **In progress** in **Crisis events overview**, then details of the crisis events that are in the **In progress** state are displayed in this panel. You can view details on the crisis events:-   **Active**
 
-State of the crisis event. The state can be **True** or **False**. You can select the link to open the crisis event record.
+State of the crisis event. The state can be True or False. You can select the link to open the crisis event record.
 
 -   **Activity due**
 
@@ -100,7 +100,7 @@ Approval history of the crisis event.
 
 -   **Assigned to**
 
-Name of the assignee responsible to respond to the crisis event. When you select the assignee name in the column, it opens the record form where these tabs are displayed:
+Name of the assignee responsible for responding to the crisis event. When you select the assignee name in the column, it opens the record form where these tabs are displayed:
 
     -   **Details**
     -   **Roles**
@@ -127,7 +127,7 @@ Monitoring and tracking of ongoing events
 
 Graphical representation of all crisis events. You can filter the information based on their associated assets, plans, and tasks in a pie chart format:-   **Assets by recovery status**
 
-Shows the number of the assets by their recovery status for ongoing events. The details are displayed on the asset in a pie chart:
+Shows the number of assets by recovery status for ongoing events in a pie chart:
 
     -   Not recovered
     -   Recovered
@@ -135,14 +135,14 @@ The example in the image shows that out of the total 18 assets, 17 assets are no
 
 -   **Plans by status**
 
-Shows the plans by their status of the ongoing events:
+Shows the plans by status for ongoing events:
 
     -   Pending
     -   Work in Progress
     -   Closed Complete
 -   **Tasks by status**
 
-Shows the tasks by their status of the ongoing events:
+Shows the tasks by status for ongoing events:
 
     -   Open
     -   Pending
@@ -152,20 +152,20 @@ Shows the tasks by their status of the ongoing events:
 
 </td></tr><tr><td>
 
-**Report crisis** action button
+**Report crisis**
 
 </td><td>
 
-Action button to report a crisis and create a crisis event from the **Crisis events** tab. When you select **Report crisis**, it launches the **Create New Event** form where you can fill in the details of the crisis event.
+Action button to report a crisis and create a crisis event from the **Crisis events** tab. When you select **Report crisis**, it launches the Create New Event form where you can enter the details of the crisis event.
 
 </td></tr></tbody>
 </table>## Business impact analysis tab
 
-The **Business impact analysis** tab displays various cards that offer information on the business impact analyses. You can review the business impact analyses in various states, details of the selected analyses, and monitoring and tracking of the analyses. The example shows the cards in the **Business impact analysis** tab. You can select **Create BIA** to start a new analysis.
+The **Business impact analysis** tab displays various cards that offer information on the business impact analyses. You can review the business impact analyses in various states, details of the selected analyses, and monitoring and tracking of the analyses. The example shows the cards in the **Business impact analysis** tab. You can select **Create BIA** to start an analysis.
 
 \[Omitted image "bia-home-page.png"\] Alt text: Business impact analysis tab in the Home page.
 
-See the table for the description of the cards in the **Business impact analysis** tab:
+The following table describes the cards in the **Business impact analysis** tab:
 
 <table id="table_hny_dh4_byb"><thead><tr><th>
 
@@ -181,37 +181,37 @@ Business impact analysis overview
 
 </td><td>
 
-Overview of the business impact analysis in different states. You can view the details of the business impact analysis in the states:-   **All**
+Overview of business impact analyses in different states. You can view the details of business impact analyses in these states:-   **All**
 
 Total number of the business impact analyses in the BCM application.
 
 -   **Draft**
 
-Number of the business impact analyses in the **Draft** state.
+Number of business impact analyses in the **Draft** state.
 
 -   **In review**
 
-Number of the business impact analyses in the **In review** state.
+Number of business impact analyses in the **In review** state.
 
 -   **Returned**
 
-Number of the business impact analyses in the **Returned** state.
+Number of business impact analyses in the **Returned** state.
 
 -   **Pending approval**
 
-Number of the business impact analyses in the **Pending approval** state.
+Number of business impact analyses in the **Pending approval** state.
 
 -   **Expired**
 
-Number of the business impact analyses in the **Expired** state.
+Number of business impact analyses in the **Expired** state.
 
 -   **Approved**
 
-Number of the business impact analyses in the **Approved** state.
+Number of business impact analyses in the **Approved** state.
 
 -   **Archived**
 
-Number of the business impact analyses in the **Archived** state.
+Number of business impact analyses in the **Archived** state.
 
 
 </td></tr><tr><td>
@@ -220,7 +220,7 @@ Details of the selected business impact analysis card
 
 </td><td>
 
-Details of the business impact analyses for the selected state of the card. For example, if you selected **In progress** in **Crisis events overview**, then details of the business impact analyses that are in the **In progress** state are displayed in this panel. You can view these details on the business impact analyses in a tabular format:-   **Name**
+Details of the business impact analyses for the selected state of the card. For example, if you selected **Draft** in **Business impact analysis overview**, then details of the business impact analyses that are in the **Draft** state are displayed in this panel. You can view these details on the business impact analyses in a tabular format:-   **Name**
 
 Name of the business impact analysis.
 
@@ -234,9 +234,9 @@ Service, process, or company that the business impact analysis applies to.
 
 -   **Finalized RTO**
 
-Finalized RTO populated from the BIA record. If you open the column chart in 'Assets by RTO', the revised column name 'Finalized RTO' is displayed.
+Finalized RTO populated from the BIA record. If you open the column chart in Assets by RTO, the revised column name 'Finalized RTO' is displayed.
 
-\[Omitted image "bia-rto.png"\] Alt text: RTO.\[Omitted image "rto-home-page.png"\] Alt text: Column.
+\[Omitted image "bia-rto.png"\] Alt text: Business impact analysis table on the Home page with the Finalized RTO column.\[Omitted image "rto-home-page.png"\] Alt text: Assets by RTO list with the Finalized RTO column.
 
 -   **State**
 
@@ -244,7 +244,7 @@ State of the business impact analysis.
 
 -   **Updated**
 
-Date and time when the business impact analysis gets updated.
+Date and time when the business impact analysis is updated.
 
 
 </td></tr><tr><td>
@@ -264,20 +264,20 @@ Shows the number of assets that have different recovery tiers. The image shows a
 
 </td></tr><tr><td>
 
-**Create BIA** action button
+**Create BIA**
 
 </td><td>
 
-Action button to create a business impact analysis from the **Business impact analysis** tab. When you select **Create BIA**, it launches the **Create New Impact Analysis** form where you can fill in the details of the business impact analysis.
+Action button to create a business impact analysis from the **Business impact analysis** tab. When you select **Create BIA**, it launches the Create New Impact Analysis form where you can enter the details of the business impact analysis.
 
 </td></tr></tbody>
 </table>## Planning tab
 
-The **Planning** tab in the Home page displays various cards that offer information on the business continuity plans. You can review the business continuity plans, details of the selected plans, and monitoring and tracking of the plans. The example shows the cards in the **Business continuity plan** tab. You can select **Create BCP** to create a new plan.
+The **Planning** tab in the Home page displays various cards that offer information on the business continuity plans. You can review the business continuity plans, details of the selected plans, and monitoring and tracking of the plans. The example shows the cards in the **Planning** tab. You can select **Create BCP** to create a new plan.
 
 \[Omitted image "bcp-homepage-uib.png"\] Alt text: Planning tab in the Home page.
 
-See the table for the description of the cards in the **Planning** tab:
+The following table describes the cards in the **Planning** tab:
 
 <table id="table_kxj_sm4_byb"><thead><tr><th>
 
@@ -293,7 +293,7 @@ Business continuity plan overview
 
 </td><td>
 
-Overview of the business continuity plans in different states. You can view the business continuity plans in the states:-   **All**
+Overview of the business continuity plans in different states. You can view the business continuity plans in these states:-   **All**
 
 All business continuity plans in the BCM application.
 
@@ -319,7 +319,7 @@ Business continuity plans that are in the **Approved** state.
 
 -   **Archived**
 
-Business continuity plans that are in the **Closed** state.
+Business continuity plans that are in the **Archived** state.
 
 
 </td></tr><tr><td>
@@ -328,7 +328,7 @@ Details of the selected business continuity plans card
 
 </td><td>
 
-Details of the business continuity plans for the selected state of the card. For example, if you selected **In progress** in **Business continuity plan overview**, then details of the business continuity plans that are in the **In progress** state are displayed in this panel. You can view these details on the business impact analyses in a tabular format:-   **Name**
+Details of the business continuity plans for the selected state of the card. For example, if you selected **Draft** in **Business continuity plan overview**, then details of the business continuity plans that are in the **Draft** state are displayed in this panel. You can view these details on the business continuity plans in a tabular format:-   **Name**
 
 Name of the business continuity plan.
 
@@ -342,7 +342,7 @@ State of the business continuity plan.
 
 -   **Updated**
 
-Date and time when the business continuity plan gets updated.
+Date and time when the business continuity plan is updated.
 
 
 </td></tr><tr><td>
@@ -357,7 +357,7 @@ You can select the card to view the plans with exercises.
 
 -   **Plans without exercises**
 
-You can select the card to view without exercises.
+You can select the card to view the plans without exercises.
 
 -   **Plans with events**
 
@@ -370,11 +370,11 @@ You can select the card to view the plans without events.
 
 </td></tr><tr><td>
 
-**Create BCP** action button
+**Create BCP**
 
 </td><td>
 
-Action button to create a business continuity plan from the **Planning** tab. When you select **Create BCP**, it launches the **Create New Plan** form where you can fill in the details of the business continuity plan.
+Action button to create a business continuity plan from the **Planning** tab. When you select **Create BCP**, it launches the Create New Plan form where you can enter the details of the business continuity plan.
 
 </td></tr></tbody>
 </table>## Exercises tab
@@ -383,7 +383,7 @@ The **Exercises** tab in the Home page displays various cards that offer informa
 
 \[Omitted image "exercises-homepage.png"\] Alt text: Exercises tab in the Home page.
 
-See the table for the description of the cards in the **Exercises** tab:
+The following table describes the cards in the **Exercises** tab:
 
 <table id="table_kjl_bp4_byb"><thead><tr><th>
 
@@ -432,7 +432,7 @@ Overview of the exercises for the selected state
 
 Details of the exercise events for the selected state of the card. For example, if you selected **In progress** in **Exercises overview**, then details of the exercise events that are in the **In progress** state are displayed in this panel. You can view these details on the exercise events in a tabular format:-   **Active**
 
-State of the exercise event. The state can be **True** or **False**. You can select the link to open the exercise event record.
+State of the exercise event. The state can be True or False. You can select the link to open the exercise event record.
 
 -   **Activity due**
 
@@ -452,7 +452,7 @@ Approval history of the exercise event.
 
 -   **Assigned to**
 
-Name of the assignee responsible for the crisis event. When you select the assignee name in the column, it opens the record form where these tabs are displayed:
+Name of the assignee responsible for the exercise event. When you select the assignee name in the column, it opens the record form where these tabs are displayed:
 
     -   **Details**
     -   **Roles**
@@ -479,7 +479,7 @@ Monitoring and tracking of ongoing exercises
 
 Graphical representation of all active exercises in a pie chart format:-   **Assets by recovery status**
 
-Shows the number of the assets by the recovery status for ongoing events. Details are displayed on the asset in a pie chart:
+Shows the number of assets by recovery status for ongoing events in a pie chart:
 
     -   Not recovered
     -   Recovered
@@ -487,14 +487,14 @@ The example in the image shows that out of the total 18 assets, 17 assets are no
 
 -   **Plans by status**
 
-Shows the plans by status of the ongoing events:
+Shows the plans by status for ongoing events:
 
     -   Pending
     -   Work in Progress
     -   Closed Complete
 -   **Tasks by status**
 
-Shows the tasks by status of the ongoing events:
+Shows the tasks by status for ongoing events:
 
     -   Open
     -   Pending
@@ -504,14 +504,14 @@ Shows the tasks by status of the ongoing events:
 
 </td></tr><tr><td>
 
-**Create exercise** action button
+**Create exercise**
 
 </td><td>
 
-Action button to create an exercise event from the **Exercises** tab. When you select **Create exercise**, it launches the **Create New Event** form where you can fill in the details of the exercise event.
+Action button to create an exercise event from the **Exercises** tab. When you select **Create exercise**, it launches the Create New Event form where you can enter the details of the exercise event.
 
 </td></tr></tbody>
-</table>## Home page views for BCM Manager and BCM Planner
+</table>## Home page views for BCM manager and BCM planner
 
 When you log in to the BCM application, the Home page view is displayed according to your user role, responsibilities, and the assigned tasks.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Revoke a ServiceNow® instance-signed certificate so that it can't be used in se
 
 ## Before you begin
 
-Role required: hermes\_admin or sn\_kmf.cryptographic\_manager
+Role required: hermes\_admin and sn\_kmf.cryptographic\_manager
 
 ## Procedure
 
@@ -45,4 +45,8 @@ The certificates are revoked and can no longer be used in secure connections to 
 [Activating the Hermes Messaging Service]()
 
 [Set up a secure connection to the Hermes Messaging Service]()
+
+[Restricting access to Hermes]()
+
+[Enable encryption at rest for a Hermes topic]()
 

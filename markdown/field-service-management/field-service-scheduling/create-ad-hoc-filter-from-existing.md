@@ -1,20 +1,20 @@
 ---
-title: Create an ad-hoc filter from an existing filter
-description: Create ad-hoc filters from existing filters from Dispatcher Workspace.
+title: Create an ad hoc filter from an existing filter
+description: Create ad hoc filters from existing filters from Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-ad-hoc-filter-from-existing.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Ad-hoc filters, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Managing ad hoc filters, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Create an ad-hoc filter from an existing filter
+# Create an ad hoc filter from an existing filter
 
-Create ad-hoc filters from existing filters from Dispatcher Workspace.
+Create ad hoc filters from existing filters from Dispatcher Workspace.
 
 ## Before you begin
 
@@ -24,21 +24,21 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click the **Dispatcher Workspace**.
+2.  Select the **Dispatcher Workspace**.
 
 3.  Select a filter from the drop-down of the filter search field.
 
-4.  Click **Filter**.
+4.  Select **Filter**.
 
 5.  Set up the conditions for the filter.
 
-6.  To save this filter for future use, click **Save filter**.
+6.  To save this filter for future use, select **Save filter**.
 
     1.  Enter a **Filter Name**.
 
-    2.  Click **Save**.
+    2.  Select **Save**.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 ## Result

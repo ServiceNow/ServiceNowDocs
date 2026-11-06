@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing workplace tasks, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -33,15 +33,15 @@ You can also create checklists for individual workplace task records.
 
 1.  Create a checklist to be included in all tasks using the same template or add a checklist to a specific task.
 
-<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d493543e68">
+<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d502223e68">
 
 Option
 
-</th><th align="left" id="d493543e71">
+</th><th align="left" id="d502223e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d493543e77">
+</th></tr></thead><tbody><tr><td id="d502223e77">
 
 **Checklist for workplace task template**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the list, select to open the template to which you want to add the checklist.
 
 
-</td></tr><tr><td id="d493543e107">
+</td></tr><tr><td id="d502223e107">
 
 **Checklist in a specific workplace task**
 

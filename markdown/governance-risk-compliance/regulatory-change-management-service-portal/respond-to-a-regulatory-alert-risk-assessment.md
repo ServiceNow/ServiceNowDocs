@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -51,5 +51,5 @@ When you receive an assessment, if you're not the rightful responder of the asse
 
 ## Result
 
-If approvers are not specified, the assessment moves to the Monitor state. The requestor responsible for initiating the assessment can monitor the progress activity by accessing the Risk Assessment related list of a regulatory alert. If approvers are defined, the assessment moves ahead for review.
+If approvers are not specified, the assessment moves to the Monitor state. The requester responsible for initiating the assessment can monitor the progress activity by accessing the Risk Assessment related list of a regulatory alert. If approvers are defined, the assessment moves ahead for review.
 

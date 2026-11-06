@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -23,10 +23,12 @@ As an admin or asset viewer, you can access the home page in either of two ways.
 -   Navigate to **All** &gt; **Cloud Workspace**
 -   Navigate to **Workspaces** &gt; **Cloud Workspace**
 
-\[Omitted image "cam-workspace-dashboard.png"\] Alt text: Admin dashboard view
+\[Omitted image "cam-workspace-dashboard.png"\] Alt text: Cloud Workspace home page
 
 **Note:**
 
 -   The Needs attention widget appears only for admins with the Cloud Account Management entitlement.
 -   The Other cloud tools widget displays the applications installed on your instance. Cloud Discovery is a prerequisite for installing Cloud Account Management.
+
+**Parent Topic:**[Viewing Cloud Account Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/about-cam-dashboard.md)
 

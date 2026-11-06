@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Visualize your network infrastructure, Explore, Telecommunications Network Inventory]
+breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
 
 # Geo map

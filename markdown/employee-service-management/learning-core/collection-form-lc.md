@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Learning Core overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Collection form

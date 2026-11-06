@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Reassign overdue Policy and Compliance Management attestations with the GRC Mobile application
@@ -58,15 +58,15 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     \[Omitted image "mobile-attest-record.jpg"\] Alt text: Attestation record.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d261030e224">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d366049e224">
 
 Option
 
-</th><th align="left" id="d261030e227">
+</th><th align="left" id="d366049e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d261030e233">
+</th></tr></thead><tbody><tr><td id="d366049e233">
 
 **Tap the top menu icon**
 
@@ -74,7 +74,7 @@ Description
 
 Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the attestation.
 
-</td></tr><tr><td id="d261030e248">
+</td></tr><tr><td id="d366049e248">
 
 **Screen icons at the bottom of the screen.**
 
@@ -89,5 +89,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

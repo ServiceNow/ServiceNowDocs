@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/export-import-event-tasks-using-excel.html
 release: zurich
 topic_type: task
-last_updated: "2025-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [BCM, import, export, Excel, event task, bulk update]
 breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -84,4 +84,9 @@ The export and import feature is available from the Event tasks related list on 
 
 
 **Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-export-import-feature-event-tasks.md)
+
+**Related topics**  
+
+
+[Import data from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/import-data-from-excel.md)
 

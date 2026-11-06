@@ -1,22 +1,22 @@
 ---
-title: Report types
-description: Learn about the different types of reports that you can create, and when and how to create them.
+title: Core UI Report types
+description: Learn about the different types of Core UI reports that you can create, and when and how to create them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/report-types-creation-details-rd.html
 release: zurich
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Report types
+# Core UI Report types
 
-Learn about the different types of reports that you can create, and when and how to create them.
+Learn about the different types of Core UI reports that you can create, and when and how to create them.
 
-Watch this four-minute video to learn how to create and configure a report visualization.
+Watch this four-minute video to learn how to create and configure a Core UI report.
 
 \[Omitted video\] Description: How to create, style, and share reports in Core UI
 

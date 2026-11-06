@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Microsoft 365 for Employee Experience, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating ServiceNow with Microsoft 365 applications for Employee Experience, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Create and download manifest file for Employee Center and Microsoft 365 integration
@@ -175,6 +175,4 @@ Option to enable activity feed to receive campaign notifications in Microsoft Te
 ## Result
 
 An application registry is created.
-
-**Parent Topic:**[Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md)
 

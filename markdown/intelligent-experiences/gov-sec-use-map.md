@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-sec-use-map.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-02"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Discover your agent network with the map
@@ -71,7 +71,9 @@ The user of the AI agent or model.
 The creator of the AI agent or model.
 
 </td></tr></tbody>
-</table><table><thead><tr><th>
+</table>    **Note:** If you haven't yet authenticated with Veza, or your access token has expired, you're prompted to select **Re-Authenticate** to reconnect before you can view risk score and other access intelligence information.
+
+<table><thead><tr><th>
 
 Node
 

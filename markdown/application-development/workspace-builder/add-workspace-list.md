@@ -7,9 +7,9 @@ release: zurich
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create lists for a workspace in Workspace Builder
@@ -161,7 +161,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 7.  Complete any additional actions on the list.
 
-<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d273807e590">
+<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d211135e590">
 
 **Edit a list category**
 
@@ -172,7 +172,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d273807e617">
+</td></tr><tr><td id="d211135e617">
 
 **Change how the filtered list appears by selecting the list in the navigation panel**
 
@@ -183,7 +183,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Refresh the canvas preview by selecting the refresh icon \(\[Omitted image "workspace-list-refresh-icon-purple.png"\] Alt text: Refresh icon on preview canvas\) in the canvas header.
 
 
-</td></tr><tr><td id="d273807e656">
+</td></tr><tr><td id="d211135e656">
 
 **Delete a list category**
 
@@ -194,7 +194,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  In the confirmation dialog, select **Delete**.
 
 
-</td></tr><tr><td id="d273807e683">
+</td></tr><tr><td id="d211135e683">
 
 **Delete a filtered list**
 

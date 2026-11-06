@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/predictive-intelligence-fsm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Predictive Intelligence for Field Service Management, Setting up FSM reports and analytics, Configure, Field Service Management]
+breadcrumb: [Predictive Intelligence for Field Service Management, FSM reports and analytics, Configure, Field Service Management]
 ---
 
 # Predictive Intelligence for defining work order solutions

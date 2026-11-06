@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/inst
 release: zurich
 topic_type: task
 last_updated: "2026-09-09"
-reading_time_minutes: 3
-breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+reading_time_minutes: 2
+breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install the Vulnerability Response integration with Palo Alto Prisma AIRS
@@ -98,6 +98,4 @@ Scheduling integrations:
 4.  Configure your desired frequency, for example, daily or hourly.
 5.  Save the integration record.
 6.  Perform these steps for each integration.
-
-**Parent Topic:**[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prisma-airs-integration.md)
 

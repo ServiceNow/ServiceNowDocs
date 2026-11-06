@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/t\_ConSysTablDelAud.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Auditing]
+breadcrumb: [Configuring auditing for a table, Auditing]
 ---
 
 # Enable auditing for a system table
@@ -24,11 +24,9 @@ Role required: admin
 
 2.  Locate the **List of system tables \(beginning with "sys\_", comma separated\) that will have the delete audited** property.
 
-3.  Add or remove table names.
+3.  Add or remove table names. Table names should be separated by commas, without any spaces.
 
-    Table names should be separated by commas, without any spaces.
-
-4.  Select **Save**.
+4.  Click **Save**.
 
     **Note:** For more information about auditing, see [Understanding the sys audit Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_UnderstandingTheSysAuditTable.md).
 

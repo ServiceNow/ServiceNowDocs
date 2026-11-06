@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-custom-filters-consolidated-tasks-evam.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing the sales process dashboard, Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/create-group-life-service-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ Contributors and processors can submit group policy service requests for custome
 
 3.  Create a case from the group life service case list or an interaction record.
 
-<table><thead><tr><th align="left" id="d43807e125">
+<table><thead><tr><th align="left" id="d45133e125">
 
 Option
 
-</th><th align="left" id="d43807e128">
+</th><th align="left" id="d45133e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43807e134">
+</th></tr></thead><tbody><tr><td id="d45133e134">
 
 **Group life case from the group life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d43807e164">
+</td></tr><tr><td id="d45133e164">
 
 **Group life case from an interaction record**
 

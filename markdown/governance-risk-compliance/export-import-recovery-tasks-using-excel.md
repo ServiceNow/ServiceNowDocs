@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/export-import-recovery-tasks-using-excel.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [BCM, import, export, Excel, recovery task]
 breadcrumb: [Import and export recovery tasks, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]

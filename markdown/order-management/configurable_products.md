@@ -1,24 +1,35 @@
 ---
 title: Setting up configurable products
-description: A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in a headless or Salesforce-integrated environment.
+description: A configurable product links a blueprint to the configuration experience for the product. You can set up configurable products in headless environments using CSV uploads or in Salesforce-integrated environments through product associations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configurable\_products.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting up configurable products
 
-A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in a headless or Salesforce-integrated environment.
+A configurable product links a blueprint to the configuration experience for the product. You can set up configurable products in headless environments using CSV uploads or in Salesforce-integrated environments through product associations.
 
-## Salesforce setup
+Configurable products serve as the bridge between ServiceNow CPQ blueprints and the configuration experiences that end users interact with. The setup process varies depending on your environment type.
 
-In Salesforce-integrated use cases, the configurable product is the link between the ServiceNow CPQ blueprint and a Salesforce Product2 record. In the context of Salesforce CPQ, a configurable product is the entry point to a ServiceNow CPQ configuration experience. After the configurable product is defined, the end user will be shown the appropriate ServiceNow CPQ configuration experience when the user selects the Product2 record from the Product Selection step in Salesforce CPQ.
+## Headless environment setup
 
-Multiple Salesforce Product2 records can be linked to one blueprint, but a configurable product cannot be associated to more than one blueprint.
+In headless environments, configurable products link blueprints to configurations that launch when end users select products. You set up configurable products by uploading a CSV file with product information through the Products tab in the Utilities section of the ServiceNow CPQ navigation pane. When you set the "configurable" field to TRUE in the CSV file, the configurable product is automatically created in the ServiceNow CPQ environment.
+
+## Salesforce integrated environment setup
+
+In Salesforce-integrated environments, configurable products link ServiceNow CPQ blueprints to Salesforce Product2 records. In the context of Salesforce CPQ, a configurable product serves as the entry point to a ServiceNow CPQ configuration experience. After you define the configurable product, end users see the appropriate ServiceNow CPQ configuration experience when they select the Product2 record from the Product Selection step in Salesforce CPQ.
+
+The setup process depends on when your ServiceNow CPQ Salesforce Managed Package was installed:
+
+-   June 2022 or later: Associate Product2 records with blueprints through the SFDC Products tab and the Associate Blueprint function.
+-   Before June 2022: Enable external configuration on the Salesforce Configurable Products tab and add blueprints through the View Setup link.
+
+Multiple Salesforce Product2 records can be linked to one blueprint, but a configurable product cannot be associated with more than one blueprint.
 
 **Related topics**  
 

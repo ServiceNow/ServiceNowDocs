@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/configure-fso-integ-with-friss.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -32,25 +32,25 @@ In this procedure, you can select either the **Look up Claim Fraud Score via Spo
 
 3.  Depending on which subflow option you select, complete the following actions.
 
-<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d115623e112">
+<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d127249e108">
 
 Option
 
-</th><th align="left" id="d115623e115">
+</th><th align="left" id="d127249e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115623e121">
+</th></tr></thead><tbody><tr><td id="d127249e117">
 
 **Look up Claim Fraud Score**
 
 </td><td>
 
-1.  In the **Application** search field, search for **Financial Services Operations Integration with FRISS**.
+1.  In the **Application** search field, search for Financial Services Operations Integration with FRISS.
 2.  From the list of saved subflows, look for the **Look up Claim Fraud Score** option and open it.
 
 
-</td></tr><tr><td id="d115623e148">
+</td></tr><tr><td id="d127249e144">
 
 **Look up Claim Fraud Score via Spoke selector**
 

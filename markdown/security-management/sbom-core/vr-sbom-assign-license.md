@@ -7,9 +7,9 @@ release: zurich
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2025-09-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Classifying licenses and resolving component licenses, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Resolve licenses to components in the Software Bill of Materials Workspace
@@ -45,15 +45,15 @@ Role required: sn\_sbom\_response.licenseresolver
 
 3.  Choose one to resolve a license.
 
-<table id="choicetable_b3f_2f1_zcc"><thead><tr><th align="left" id="d432777e188">
+<table id="choicetable_b3f_2f1_zcc"><thead><tr><th align="left" id="d437585e176">
 
 Option
 
-</th><th align="left" id="d432777e191">
+</th><th align="left" id="d437585e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d432777e197">
+</th></tr></thead><tbody><tr><td id="d437585e185">
 
 **Assign an existing license to a component.**
 
@@ -70,7 +70,7 @@ Description
 9.  Refresh the page to update it.
 
 
-</td></tr><tr><td id="d432777e243">
+</td></tr><tr><td id="d437585e231">
 
 **Change a license for a component that already has one.**
 
@@ -86,7 +86,7 @@ You might choose this option if you determine a license has been incorrectly ass
 6.  Refresh the page to update it.
 
 
-</td></tr><tr><td id="d432777e283">
+</td></tr><tr><td id="d437585e271">
 
 **Create a license.**
 
@@ -109,7 +109,7 @@ You might use this option if you know a specific license is used in your organiz
 8.  Select **Save**. This license is added to your database, is displayed on the License Classification page, and can now be detected on components during SBOM uploads.
 
 
-</td></tr><tr><td id="d432777e353">
+</td></tr><tr><td id="d437585e341">
 
 **Upload multiple licenses and classifications.**
 

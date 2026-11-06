@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-managem
 release: zurich
 topic_type: task
 last_updated: "2026-09-09"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -20,7 +20,9 @@ Role required: admin
 
 ## About this task
 
-Records are displayed in the Customer Information view in Agent Workspace.
+Records are displayed in the Customer Information view in CRM Workspace.
+
+\[Omitted image "customer-records.jpg"\] Alt text: Contact section displaying the contact details of the customer.
 
 ## Procedure
 

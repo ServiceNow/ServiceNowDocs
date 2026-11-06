@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Mana
 # DPM Portfolio Builder Overview
 
 Enterprise portfolios are created directly in the DPM Portfolio Builder. Before May 2025, they were created using Service Portfolio Management tables. Enterprise portfolios for business applications and service instances were created from enterprise portfolio tables.
-
-\[Omitted video\] Description: Create and edit portfolios in enterprise portfolio builder.
 
 **Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 

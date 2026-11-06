@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/please\_share\_your\_feedback\_on\_admin\_assist\_responses.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -46,25 +46,12 @@ To edit a user, click a username in the table.
 -   Users are created and show up on the User screen in ServiceNow CPQ the first time they access a ServiceNow CPQ instance and go through the authorization provider.
 -   All existing users of a ServiceNow CPQ instance have END\_USER and ADMIN access. Admin access can be removed from users that do not require it.
 -   Newly created users have END\_USER permissions only. The access level can be changed by an administrator following the above steps.
--   If you need additional assistance, please contact support or log a case.
+-   If you need additional assistance, open a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
-## Troubleshooting
+**Related topics**  
 
-If you have Area Based Access Controls enabled. see [ServiceNow CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/logik_admin_user_access_control.md).
 
-Before being able to access ServiceNow CPQ Admin, new users may need to restart their browser, clear their browser cache, or remove any ServiceNow CPQ session cookies.
+[Using CPQ user access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-using-uam.md)
 
-If users experience login issues after a CSV import, verify that the user names in the CSV match the case used in the user records. If ServiceNow CPQ is integrated with Salesforce, user names should be all lowercase to align with system requirements. Salesforce does not allow uppercase in user names.
-
-For example, suppose a user's name is lower case in Salesforce but was imported with an uppercase letter in ServiceNow CPQ, as in the following image.
-
-\[Omitted image "cpq-user-access-troubleshooting-1.png"\] Alt text: User access
-
-The user would face this issue on login with ServiceNow CPQ:
-
-\[Omitted image "cpq-user-access-troubleshooting-2.png"\] Alt text: URL
-
-After the user is reimported with the user name in the correct case, the issue is rectified.
-
-\[Omitted image "cpq-user-access-troubleshooting-3.png"\] Alt text: List of Blueprints
+[User Access Control reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-user-access-control-ref.md)
 

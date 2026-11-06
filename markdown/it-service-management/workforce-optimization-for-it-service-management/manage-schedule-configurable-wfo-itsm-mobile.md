@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Requesting time-off using the ITSM Mobile Agent, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_shift\_planning.agent
 
 2.  Request time off.
 
-<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d475686e84">
+<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d438592e84">
 
 To
 
-</th><th align="left" id="d475686e87">
+</th><th align="left" id="d438592e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d475686e93">
+</th></tr></thead><tbody><tr><td id="d438592e93">
 
 **Request time off after reviewing your schedule**
 
@@ -53,7 +53,7 @@ Do this
 6.  In the **Description** field, enter a reason requesting time off.
 
 
-</td></tr><tr><td id="d475686e141">
+</td></tr><tr><td id="d438592e141">
 
 **Request time off after reviewing your time-off requests**
 

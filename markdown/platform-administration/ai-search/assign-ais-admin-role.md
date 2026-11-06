@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Assign roles to AI Search administrators and users
@@ -62,6 +62,7 @@ Accesses High Security settings for AI Search, including the following:
 
 -   Bypasses all search filters from search sources and content security in the Search Preview UI, viewing all search query results available in the AI Search index
 -   Reads external content user mapping import history records
+-   Reads indexed content item records in the index inspector tool for External Content Connectors
 
  This is an elevated privilege role. Elevated privilege roles aren't assigned to users or groups, and must be used by elevation. For more information on elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_ElevatedPrivilege.md). To learn about elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 

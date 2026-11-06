@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-11-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Create a case based on service definition recommendations
@@ -24,7 +24,7 @@ Role required: sn\_esm\_agent
 
 ## Procedure
 
-1.  Navigate to an interaction record in the CSM/FSM Configurable Workspace or Core UI where you want to create a case based on a service recommendation using ServiceNow Otto.
+1.  Navigate to an interaction record in the CRM Workspace or Core UI where you want to create a case based on a service recommendation using ServiceNow Otto.
 
 2.  Select **Create Case.**
 

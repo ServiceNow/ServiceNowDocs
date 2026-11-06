@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Communicate, Problem Management, IT Service Management]
+breadcrumb: [Communicating the outcome of a problem, Problem Management, IT Service Management]
 ---
 
 # Knowledge articles from problems

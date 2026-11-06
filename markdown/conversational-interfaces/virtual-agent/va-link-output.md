@@ -7,16 +7,16 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Link bot response control
 
 Use the Link bot response control in a Virtual Agent topic to present a bot response. The response contains a header prompt with either a single URL link to an item or multiple URL links for up to three items.
 
-**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the [MobileDeepLinkGenerator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.md) API.
+**Note:** If you're using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the [MobileDeepLinkGenerator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.md) API.
 
 ## Link bot response control properties
 
@@ -114,19 +114,11 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Supported|The web link appears as a [URL button](https://developers.facebook.com/docs/messenger-platform/send-messages/buttons#url) in the conversation.|
 |SMS Twilio|Supported|None|
-|LINE|Supported|None|
-|WhatsApp \(powered by Twilio\)|Supported|None|
-|WhatsApp|Supported|The header, label, and link combined have a limit of 4,096 characters.|
-|Apple Messages for Business|Supported|Any URLs must be added to the allowed domain list \[sys\_cs\_hostname\_allow\_list\] table.|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|WhatsApp|Supported|None|
+|Google Chat|Supported|None|
 
 ## Example single-link bot response control
 
@@ -146,7 +138,7 @@ Link bot response output
 
 </td><td>
 
- 
+\[Omitted image "va-link-output-web.png"\] Alt text: In this simple example, the header reads, "Here is a link," followed by a hyperlink that reads, "Click Here."
 
 </td></tr></tbody>
 </table>## Example multiple-link bot response control properties
@@ -165,8 +157,10 @@ Link bot response output
 
 </td><td>
 
-**Note:** Multi-link bot output is also supported in Microsoft Teams, Slack, Workplace, and Facebook Messenger.
+\[Omitted image "va-multilink-web-output.png"\] Alt text: Example output that reads, "I found some information that might help you," followed by 3 links with titles and short descriptions.
+
+ **Note:** Multi-link bot output is also supported in Microsoft Teams and Slack.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

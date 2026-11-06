@@ -1,34 +1,30 @@
 ---
 title: Restrict unauthenticated access to attachments
-description: Use the glide.image\_provider.security\_enabled property to control the security settings for images. If set to true, images are visible only to authenticated and authorized users. If set to false, images are visible to anyone with a URL to the attachment.
+description: Restrict unauthenticated access to image attachments using a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-unauthenticated-access-attachments.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
 # Restrict unauthenticated access to attachments
 
-Use the **glide.image\_provider.security\_enabled** property to control the security settings for images. If set to **true**, images are visible only to authenticated and authorized users. If set to **false**, images are visible to anyone with a URL to the attachment.
+Restrict unauthenticated access to image attachments using a system property.
 
-Secure the images on your instance to prevent sensitive information leak. Images on your instance are accessible via urls that end in `.iix`.
+Use the **glide.image\_provider.security\_enabled** property restrict unauthenticated access to image attachments. If set to `true`, images are visible to any authenticated user but no unauthenticated user. If set to `false`, images are visible to anyone with a URL to the attachment. Thumbnails of an attached image maintain the same policy as the original attached image and are accessible to the same set of users as the original attached image. When this property is enabled, more fine grained access control for unauthenticated users is obtained through entries in the Security Allow/Deny List Entities \[sys\_security\_restricted\_list\] table and through the declaration of public KB articles for those images attached to KB articles. These exceptions to the default policy for unauthenticated users when this property is `true` are applied in the following order.
 
-Set the **glide.image\_provider.security\_enabled** system property to **true** to prevent access to your images via these URLs.
+**Note:** In these exceptions, "parent table" refers to the table of the original image attachment from which a thumbnail is generated.
 
-**Note:**
+1.  If the table of an attached image or parent table of a thumbnail image is deny-listed in the Security Allow/Deny List Entities \[sys\_security\_restricted\_list\] table, access is denied to the image/thumbnail.
+2.  If the table of an attached image or parent table of a thumbnail image is allow-listed in the Security Allow/Deny List Entities \[sys\_security\_restricted\_list\] table, access is granted to the image/thumbnail.
+3.  If the table of an attached image or parent table of a thumbnail image is included in a public KB article, access is granted to the image/thumbnail.
 
-This property is not honored for images from the attachment table if the origin table is one of:
-
--   Stationeries \[sysevent\_email\_style\]
--   Welcome Page Sections \[sys\_home\]
--   System Properties \[sys\_properties\]
-
-Restriction should be applied for unauthenticated users as some attachments might contain sensitive information.
+Ensure that the property **glide.image\_provider.security\_enabled** is set to `true`. If the property does not exist on the System Properties \[sys\_properties\] table, the default value is `false`.
 
 ## More information
 
@@ -66,14 +62,6 @@ Category
 
 </td></tr><tr><td>
 
-Purpose
-
-</td><td>
-
-To prevent unauthenticated access of attachment when rendered using the `.iix`format.
-
-</td></tr><tr><td>
-
 Recommended value
 
 </td><td>
@@ -86,6 +74,14 @@ Default value
 
 </td><td>
 
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
 false
 
 </td></tr><tr><td>
@@ -94,7 +90,7 @@ Functional impact
 
 </td><td>
 
-No significant impact on the functionality. User experience might be affected a bit because the user who formerly directly accessed .iix must go through authentication.
+If the property was previously `false` and then is set to `true`, unauthenticated users can no longer be able to access image attachments unless explicitly allowed using one of the exclusion procedures.
 
 </td></tr><tr><td>
 
@@ -103,7 +99,11 @@ Security risk
 </td><td>
 
 -   Severity Score: 6.5
--   Security Risk Details: Restriction must be applied for unauthenticated users as some attachment might contain sensitive information.
+-   CVSS Rating: Medium
+-   Security Risk Details:
+
+If the property is set to `false`, image attachments are visible to anyone authenticated or unauthenticated with a URL to the attachment. This may lead to sensitive information leaks. To avoid these, set the property to `true` and ensure any exceptions to the default policy when the property is `true` are properly configured.
+
 
 </td></tr><tr><td>
 

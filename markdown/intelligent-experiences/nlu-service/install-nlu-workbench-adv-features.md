@@ -1,5 +1,5 @@
 ---
-title: Install NLU Workbench - Advanced Features
+title: \(Legacy\) Install NLU Workbench - Advanced Features
 description: You can install the NLU Workbench - Advanced Features application \(com.snc.nlu.workbench.advanced\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.html
@@ -7,18 +7,18 @@ release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Install NLU Workbench - Advanced Features
+# \(Legacy\) Install NLU Workbench - Advanced Features
 
 You can install the NLU Workbench - Advanced Features application \(com.snc.nlu.workbench.advanced\) if you have the admin role.
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [NLU Workbench - Advanced Features](https://store.servicenow.com/sn_appstore_store.do#!/store/application/31f5f491c3a710100bf407720f40ddf4) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   NLU Workbench - Advanced Features requires the following plugins. Ensure that these plugins are activated before you install NLU Workbench - Advanced Features.
     -   **Required ServiceNow plugins**
@@ -28,20 +28,22 @@ You can install the NLU Workbench - Advanced Features application \(com.snc.nlu.
 
         -   **NLU Workbench - Core \(com.glide.nlu\)**
 
-            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
+            Adds NLU Model capabilities. See [\(Legacy\) Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
 
         -   **NLU Workbench \(com.snc.nlu\_studio\)**
 
-            Create and train NLU models. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+            Create and train NLU models. See [\(Legacy\) Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 
 Role required: admin
 
 ## About this task
 
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Tables are installed with NLU Workbench - Advanced Features.
 
-For more information, see [Components installed with NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.md).
+For more information, see [\(Legacy\) Components installed with NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.md).
 
 ## Procedure
 
@@ -51,7 +53,7 @@ For more information, see [Components installed with NLU Workbench - Advanced Fe
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -66,6 +68,6 @@ The following available ServiceNow Store application is installed separately fro
 
 -   **Intent Discovery**
 
-    Discover user intents from requests, incidents, or cases to help maximize deflection with Virtual Agent and NLU. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/install-intent-discovery.md).
+    Discover user intents from requests, incidents, or cases to help maximize deflection with Virtual Agent and NLU. For more information, see [\(Legacy\) Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/install-intent-discovery.md).
 
 

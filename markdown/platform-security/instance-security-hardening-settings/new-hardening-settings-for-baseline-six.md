@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [New hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -21,7 +21,7 @@ New hardening settings have been released with Security Center baseline version 
 -   [Display recommendations for high risk UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-display-recommendations-for-high-risk-ui-pages.md)
 -   [Enforce current password policy compliance requirements on login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-enforce-current-password-policy-compliance-requirements-on-login.md)
 -   [Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)
--   [Set minimal password length \[Updated in Security center 2.2\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-set-minimal-password-length.md)
+-   [Require Minimum and Maximum Password Length](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-set-minimal-password-length.md)
 -   [Limit session length for high assurance sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-limit-session-length-for-high-assurance-sessions.md)
 -   [Disable deprecated TLS versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disable-deprecated-tls-versions.md)
 -   [Disable local login for users with Single Sign-On \(SSO\) enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disable-local-login-for-users-with-single-sign-on-sso-enabled.md)

@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-10-05"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -28,7 +28,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle EBS spoke v1.15.0 is the latest version.
+Oracle EBS spoke v1.15.0 is the latest version. For version history of the spoke, see [Oracle EBS spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-ebs.html).
 
 ## Supported versions
 

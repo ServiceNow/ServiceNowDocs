@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-virtualagent-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -274,7 +274,7 @@ Select AI agents to handle tasks in the AI Connector utility. For more informati
 
 -   **[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked agentic AI messages to the server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=zurich&ft:locale=en-US).
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=zurich&ft:locale=en-US).
 -   **[Create a Virtual Agent asset](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&family=zurich&ft:locale=en-US)**
 
 Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.

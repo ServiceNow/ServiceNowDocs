@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with job architecture, Skills Workspace, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Creating a role group through the Skills Workspace
@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 5.  Either create your role group manually or by copying data from an existing group.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d405711e127">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d411215e127">
 
 Method
 
-</th><th align="left" id="d405711e130">
+</th><th align="left" id="d411215e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d405711e136">
+</th></tr></thead><tbody><tr><td id="d411215e136">
 
 **Manually**
 
@@ -55,7 +55,7 @@ Actions
 3.  Select **Save and continue**.
 
 
-</td></tr><tr><td id="d405711e172">
+</td></tr><tr><td id="d411215e172">
 
 **Copy the data from an existing role group**
 

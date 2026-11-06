@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-tech-kpis.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Diagnose with tech KPIs
@@ -31,7 +31,7 @@ Tech KPIs empowers you with a easy to use visualizations of your organizations t
 
 ## Monitor
 
-As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md) for more information.
+As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md) for more information.
 
 ## Support
 
@@ -39,5 +39,14 @@ Get a dashboard view of your company's cases, case response time, case trends, a
 
 \[Omitted image "platform-health-charts.png"\] Alt text: Cases and trends charts
 
-Receive developer support to help troubleshoot custom code and configurations. View the consumption report to see named contacts who can request developer support. See [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md) for more information.
+Receive developer support to help troubleshoot custom code and configurations. View the consumption report to see named contacts who can request developer support. See [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md) for more information.
+
+-   **[Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/health-assessment-dashboard.md)**  
+View detailed Health Assessment results closer collaboration with the Impact squad to prioritize, review, and address best practice platform health findings.​
+-   **[Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/monthly-health-assessment.md)**  
+The Monthly Health Assessment feature provides Impact Guided customers with a self-service capability that automates Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
+-   **[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/healthscan-definitions.md)**  
+Some HealthScan definitions are deprecated or updated between releases.
+
+**Parent Topic:**[HealthScan for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/healthscan.md)
 

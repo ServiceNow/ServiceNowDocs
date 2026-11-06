@@ -7,9 +7,9 @@ release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Install the Industrial Process Manager
@@ -18,7 +18,7 @@ If you have the required entitlement and the Administrator \[admin\] role, you c
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 Role required: admin
 
@@ -48,7 +48,7 @@ You should upgrade to the latest versions so you have access to the Operational 
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -61,5 +61,5 @@ You should upgrade to the latest versions so you have access to the Operational 
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

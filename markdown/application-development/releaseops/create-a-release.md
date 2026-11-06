@@ -7,10 +7,10 @@ release: zurich
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Use, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create a release
@@ -41,9 +41,9 @@ Role required: release\_admin
 
     A freeze date is the date by which all changes for the release must be submitted via deployment requests and ready for deployment. Any changes that aren’t ready for deployment are deferred at the time of the freeze date.
 
-    1.  Select the Select freeze date and time icon \(\[Omitted image "inline-data-vis-96px-calendar-days.png"\] Alt text:\).
+    1.  Select the Select freeze date and time icon \[Omitted image "inline-data-vis-96px-calendar-days.png"\] Alt text:.
 
-    2.  Select the Previous month icon \(\[Omitted image "releaseops-previous-month-icon.png"\]\) or Next month icon \(\[Omitted image "releaseops-next-month-icon.png"\]\) to locate the month and year for your intended freeze date.
+    2.  Select the Previous month icon \[Omitted image "releaseops-previous-month-icon.png"\] or Next month icon \[Omitted image "releaseops-next-month-icon.png"\] to locate the month and year for your intended freeze date.
 
     3.  Select your freeze date by selecting the date.
 
@@ -51,7 +51,7 @@ Role required: release\_admin
 
     4.  Set the time for the freeze date by entering a time in the **Time** fields.
 
-    5.  Select the Enter icon \(\[Omitted image "crs-save-check.png"\]\).
+    5.  Select the Enter icon \[Omitted image "releaseops-save-enter-icon.png"\] Alt text:.
 
 8.  Set a release date for the release.
 
@@ -59,15 +59,15 @@ Role required: release\_admin
 
     **Note:** If your release is associated with a change request, the **Release date** field is automatically populated by the scheduled date in the change request.
 
-    1.  Select the Select release date and time icon \(\[Omitted image "inline-data-vis-96px-calendar-days.png"\] Alt text:\).
+    1.  Select the Select release date and time icon \[Omitted image "inline-data-vis-96px-calendar-days.png"\] Alt text:.
 
-    2.  Select the Previous month icon \(\[Omitted image "releaseops-previous-month-icon.png"\]\) or Next month icon \(\[Omitted image "releaseops-next-month-icon.png"\]\) to locate the month and year for your intended release date.
+    2.  Select the Previous month icon \[Omitted image "releaseops-previous-month-icon.png"\] or Next month icon \[Omitted image "releaseops-next-month-icon.png"\] to locate the month and year for your intended release date.
 
     3.  Select the date for your release date by selecting the date.
 
     4.  Set the time for the release date by entering a time in the **Time** fields.
 
-    5.  Select the Enter icon \(\[Omitted image "crs-save-check.png"\]\).
+    5.  Select the Enter icon \[Omitted image "releaseops-save-enter-icon.png"\] Alt text:.
 
 9.  Select **Activate release** to activate the release.
 

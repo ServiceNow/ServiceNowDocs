@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
@@ -70,6 +70,14 @@ Default value
 
 </td><td>
 
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
 false
 
 </td></tr><tr><td>
@@ -88,7 +96,7 @@ Security risk
 
 -   Severity score: 4.4
 -   CVSS score: Medium
--   Security risk details: If this property is set to **false**, ACLs are not checked against incoming queries which can lead to information disclosure.
+-   Security risk details: This can result in information disclosure to unauthorized parties.
 
 </td></tr><tr><td>
 

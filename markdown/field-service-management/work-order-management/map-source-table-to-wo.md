@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data mapping, Template Management, Work orders, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure data mapping, Template Management, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create field mapping from a source table to a work order
@@ -20,7 +20,7 @@ Create a table map to configure the fields that are copied from a source table t
 
 You must activate the Template Management for Field Service plugin \(com.snc.fsm\_template\_management\).
 
-Role required: admin
+Role required: wm\_admin
 
 ## About this task
 

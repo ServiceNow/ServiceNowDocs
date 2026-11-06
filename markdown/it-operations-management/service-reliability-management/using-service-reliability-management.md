@@ -1,28 +1,28 @@
 ---
 title: Using Service Reliability Management
-description: Service Reliability Management \(SRM\) enables you to register services, monitor service health, respond to service degradations with on-call shifts and escalation policies, and onboard distributed teams.
+description: Service Reliability Management \(SRM\) enables you to register services, monitor service health, and respond to service degradations with on-call shifts and escalation policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/using-service-reliability-management.html
 release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Using Service Reliability Management
 
-Service Reliability Management \(SRM\) enables you to register services, monitor service health, respond to service degradations with on-call shifts and escalation policies, and onboard distributed teams.
+Service Reliability Management \(SRM\) enables you to register services, monitor service health, and respond to service degradations with on-call shifts and escalation policies.
 
 ## Basic Tasks in SRM
 
--   **[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-services.md)**  
+1.  [Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-services.md)  
 A service represents a functional outcome like networking, payments, or HR services, that is owned by a team. To deliver that outcome, a service can contain one or more technical components like a user authentication service, or a piece of shared infrastructure like a database.
--   **[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-teams.md)**  
+2.  [Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-teams.md)  
 Manage schedules and define escalation policies for your team. That way, your team sees who is on call and accountable and can have the confidence that critical alerts or incidents are acknowledged in a timely manner.
--   **[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)**  
+3.  [Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)  
 Alerts, incidents, and change requests are reliability tasks. From creation to resolution, SRM helps you manage your alerts throughout the response life cycle.
 
 **Parent Topic:**[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-landing-page.md)

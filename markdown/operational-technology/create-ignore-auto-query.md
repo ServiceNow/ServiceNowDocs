@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/create-ignore-auto-query.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Auto Query page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create an Auto Query ignore list
@@ -44,10 +44,10 @@ Role required: admin
 
 8.  To create the ignore list, select the Ignore Networks filter.
 
-    -   To ignore an IP Address Range, enter an IP Range in the IP Address Range section, and select the add icon \[Omitted image "image.add-ip-address"\] Alt text: Add IP.
+    -   To ignore an IP Address Range, enter an IP Range in the IP Address Range section, and select the add icon \[Omitted image "add-ip-address.png"\] Alt text: Add IP.
     -   To ignore one individual IP address, enter an IP address in the Ignore IP Address section.
     -   To ignore multiple IP addresses, select the multiple selection icon \[Omitted image "add-multiIP-icon.png"\] Alt text: Add Multiple IPs in the Ignore IP Address section, and use commas to separate the entries.
-    \[Omitted image "image.ignore-list"\] Alt text: Displaying selections
+    \[Omitted image "ignore-list.png"\] Alt text: Displaying selections
 
 9.  Select **Next**
 
@@ -62,7 +62,7 @@ Role required: admin
 
 13. In the **Confirmation** section, set the schedule, recursion, and duration.
 
-    \[Omitted image "image.auto-query-confirmation"\] Alt text: Confirmation settings
+    \[Omitted image "auto-query-confirmation.png"\] Alt text: Confirmation settings
 
 14. Select the **Create Auto Query** button to create the Auto Query ignore list.
 
@@ -71,5 +71,7 @@ Role required: admin
 
 The Auto Query results are added to the Auto Query page. The **Ignored** column displays the number of IP addresses that were ignored.
 
-\[Omitted image "image.auto-query-ignore-columns"\] Alt text: Number of ignored IP addresses
+\[Omitted image "auto-query-ignore-columns.png"\] Alt text: Number of ignored IP addresses
+
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/auto-query-console.md)
 

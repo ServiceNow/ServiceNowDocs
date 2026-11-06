@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setting-up-a-user.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -25,9 +25,11 @@ The following table describes how to set up the tasks for activating a Unified C
 |Task|Description|
 |----|-----------|
 |Activate a Unified Consumer|Activate a Unified Consumer by updating the ConsumerImpl script include to display other sys\_user records in the reference list for the csm\_consumer table. For more information, see [Activate a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-unified-consumer.md).|
-|Assign a role to a user|Assign the Unified Consumer \(sn\_customerservice.unified\_consumer\) role to the user. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md).|
 |Create a consumer record|Create a consumer record with the user, designating that user as a consumer. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-consumer-record.md).|
+|Assign a role to a user|Assign the Unified Consumer \(sn\_customerservice.unified\_consumer\) role to the user. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md).|
 |Associate an existing user with a consumer record|Associate a Unified Consumer user with a consumer record by creating a consumer user and then linking the user with a consumer record. For more information, see [Associate an existing user to a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associating-users-to-a-consumer-record.md).|
+
+**Note:** Both a consumer record and the Unified Consumer role are required for consumer functionality. Create the consumer record before assigning the role. If the role is assigned without a linked consumer record, the user cannot perform consumer activities and may experience unexpected behavior. If the consumer record exists but the role is missing, the user cannot access consumer features such as cases, sold products, or install base items.
 
 **Related topics**  
 

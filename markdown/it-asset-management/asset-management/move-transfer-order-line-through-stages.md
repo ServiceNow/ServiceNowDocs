@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-04-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Close transfer order line task
@@ -50,7 +50,7 @@ Keep closing each task until you reach the last stage **Received**. After you cl
 
 [Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-a-transfer-order.md)
 
-[Create a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line.md)
+[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line.md)
 
 [Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/r_SummaryOfTransferOrderStages.md)
 

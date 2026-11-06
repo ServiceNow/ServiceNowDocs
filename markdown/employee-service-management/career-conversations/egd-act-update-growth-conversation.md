@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Update a growth conversation in Career Conversations
@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d111493e155">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d112632e155">
 
 Role
 
-</th><th align="left" id="d111493e158">
+</th><th align="left" id="d112632e158">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d111493e164">
+</th></tr></thead><tbody><tr><td id="d112632e164">
 
 **Employee**
 
@@ -51,7 +51,7 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d111493e173">
+</td></tr><tr><td id="d112632e173">
 
 **Manager**
 

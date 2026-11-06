@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/conv-ab-schedule.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Conversational Appointment Booking, Customer communication, Use, Customer Service Management]
 ---
@@ -32,12 +32,18 @@ You can only schedule one appointment per location. Only logged-in users can sch
 
 3.  Enter `schedule appointment`.
 
+    \[Omitted image "conv-ab-sched3.png"\] Alt text: Virtual Agent chat window with the user selecting a reason for the appointment.
+
 4.  Choose a date from the calendar.
+
+    \[Omitted image "conv-ab-sched2.png"\] Alt text: Virtual Agent chat window with dates and times that are available for the appointment being scheduled.
 
 
 ## Result
 
 The appointment is scheduled and the chat is complete.
+
+\[Omitted image "conv-ab-schedule.png"\] Alt text: Virtual Agent chat window with the details of the scheduled appointment.
 
 **Related topics**  
 

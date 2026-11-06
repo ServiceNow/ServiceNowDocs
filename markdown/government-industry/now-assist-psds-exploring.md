@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/now-
 release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -46,7 +46,7 @@ The ServiceNow Otto for PSDS application includes the following AI features that
     -   Additional comments
     -   Email
     -   Service level agreement \(SLA\)
-    \[Omitted image "image.psds-otto-case-summary"\] Alt text: AI-generated summary for a case record.
+    \[Omitted image "psds-otto-case-summary.png"\] Alt text: AI-generated summary for a case record.
 
 -   **Chat summarization skill**
 
@@ -58,7 +58,7 @@ The ServiceNow Otto for PSDS application includes the following AI features that
 
 -   **Fee waiver AI Agent skill**
 
-    Determines the fee breakdown for an information request. The skill provides a subtotal fee estimate and a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection. It also provides a total fee estimate with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see [Agentic AI for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/agentic-ai-psds-explore.md).
+    Determines the fee breakdown for an information request. The skill provides a subtotal fee estimate and a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection. It also provides a total fee estimate with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see .
 
 
 **Important:**
@@ -83,9 +83,9 @@ For information about AI assets that are available on the ServiceNow AI Platform
 -   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)
 -   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
-## ServiceNow Otto panel in CRM Workspace
+## ServiceNow Otto panel in Public Sector Workspace
 
-An agent can use the ServiceNow Otto panel in CRM Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+An agent can use the ServiceNow Otto panel in Public Sector Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 **Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 
@@ -132,9 +132,9 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
 
 **Related topics**  
 

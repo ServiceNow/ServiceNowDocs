@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-28"
 reading_time_minutes: 4
 keywords: [SAM advisor dashboard indicators, software install data quality metrics, duplicate software installs, server installs missing cloud license, virtual server host relationship indicators]
-breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Indicators used in the CMDB success advisor for SAM dashboard

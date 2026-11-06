@@ -8,9 +8,9 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-09-30"
-reading_time_minutes: 10
+reading_time_minutes: 11
 keywords: [SAM advisor dashboard, monitor SAM data quality, software install data quality metrics, software installs missing edition version, duplicate software installs, virtual server host CI relationships]
-breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM
@@ -268,6 +268,18 @@ Software installs on Windows Server or Linux Server virtual CIs that don't have 
 </td><td>
 
 [Virtual machines without host CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+
+</td></tr><tr><td>
+
+Virtual CIs on hosts without cluster relationships
+
+</td><td>
+
+Software installs on virtual server CIs whose host server has no cluster relationship, broken down by virtualization technology. Covers VMware ESX Server, Microsoft Hyper-V, and Nutanix virtualization, leading to gaps in licensing compliance tracking.**Note:** This card doesn't depend on the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job used by other cards in this section. Instead, the **CMDB Advisor - SAM Daily Data Collection** scheduled job populates it after three CMDB Query Builder saved queries run.
+
+</td><td>
+
+[Virtual CIs on hosts without cluster relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 

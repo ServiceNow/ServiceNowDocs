@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/components-installed-sales-agreement.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -67,22 +67,6 @@ sn\_sales\_agmt\_core.sales\_agreement\_viewer
 
 -   Sales agent
 -   Sales manager
-
-</td></tr><tr><td>
-
-sn\_sales\_agmt\_core.sales\_agreement\_admi
-
-</td><td>
-
-Provides create/read/update/delete access to sales agreements.
-
-</td><td>
-
-sn\_sales\_agmt\_core.sales\_agreement\_writer
-
-</td><td>
-
-Sales agreement admin
 
 </td></tr></tbody>
 </table>## Tables installed

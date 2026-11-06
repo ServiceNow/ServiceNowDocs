@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [PPM integration with Strategic Planning, SAFe execution from alignment planner, Agile 2.0 delivery, epic delivery in SAFe, strategic planning to PPM sync, planning to execution integration]
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -37,7 +37,7 @@ To get started on integrating Strategic Planning with PPM, Agile 2.0, and SAFe, 
 
 ## Frequently asked questions about execution integration
 
--   **Can I use PPM Standard for project execution without Agile or SAFe?**
+-   **Can I use PPM Standard for project execution without Agile 2.0 or SAFe?**
 
     Yes. If your teams follow waterfall or traditional Project Management methodology, use PPM Standard \(Project Portfolio Management\) as your execution system. Planning items created in Strategic Planning can be exported to PPM as projects. Changes in PPM \(project status, costs, resources\) sync back to Strategic Planning automatically.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rule-based alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,13 +22,11 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Grouping automation helps you manage alerts more effectively by collecting similar alerts together. This makes it easier to see patterns, quickly identify issues, and respond efficiently. For more information on how to group alerts easily, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+Grouping automation helps you manage alerts more effectively by collecting similar alerts together. This makes it easier to see patterns, quickly identify issues, and respond efficiently. For more information on how to group alerts easily, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Alert Correlation Rules**.
-
-    You can also [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md)
 
 2.  Select **New**.
 
@@ -41,5 +39,5 @@ Grouping automation helps you manage alerts more effectively by collecting simil
 
 ## Result
 
-A rule-based alert group is created when a new alert is generated or when an existing alert status changes from Closed or Flapping to Open or Reopened. The filter criteria must be matched.
+A rule-based alert group is created when a new alert is generated. An alert group is also created when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
 

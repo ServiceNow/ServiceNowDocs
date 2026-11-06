@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # View customizations and compare with current version
@@ -22,39 +22,20 @@ Role required: admin
 
 ## About this task
 
-The Customer Update **\[sys\_update\_xml\]** table contains one record per customized object.
-
-The customer update record specifies:
-
--   The update set containing the customized object.
--   The type of action applied to the customized object.
-    -   INSERT
-    -   INSERT\_OR\_UPDATE
-    -   UPDATE
-    -   DELETE
--   The type of object customized.
--   The target object of the update.
--   The sys\_id of the customized object \(if it is a change to a particular record\).
--   The user who customized the object.
--   The date and time the object was customized.
+The customer updates table contains one record per customized object.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Update Sets** &gt; **Local Update Sets**.
 
-2.  Click the update set name.
+2.  Select an update set.
 
-3.  View the Customer Updates related list.
+3.  View the customer updates related list.
 
-    You can compare any update to the current version. Right-click the update record and select **Compare to Current**.
+    \[Omitted image "update-set-record.png"\] Alt text: Update set with addition of the 'Incident Table' table
 
-    \[Omitted image "image.update-set-record"\] Alt text: Update set with addition of the 'Incident Table' table
-
-
-**Related topics**  
+4.  Select and hold \(or right-click\) the update record and select **Compare to Current** to compare to the current version.
 
 
-[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/compare-two-article-versions.md)
-
-[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-resolve-conflict.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Usage Insights client-side storage cookies
@@ -20,7 +20,7 @@ The SNAnalytics SDK uses a combination of session storage and local storage vari
 
 For more information on session storage and local storage, refer to the [JavaScript.Info](https://javascript.info/localstorage) documentation.
 
-For more information on SNAnalytics SDK, see   and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
+For more information on SNAnalytics SDK, see [SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/SNAnalyticsClientAPI.md)  and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
 
 ## Key structure
 
@@ -57,17 +57,15 @@ The table lists the keys and values stored on local storage.
 
 ## Deleting local storage
 
-To delete local storage variables, you must clear the browsing data from your browser. For example, in the Chrome browser, select **History** &gt; **Show Full History** &gt; **Clear browsing data**. In the Clear browsing data window, select **Cookies and other site data** and then select **Clear data**.
+To delete local storage variables, you must clear the browsing data. For example, in the Chrome browser, select **History** &gt; **Show Full History** &gt; **Clear browsing data**. In the Clear browsing data window, select **Cookies and other site data** and then select **Clear data**.
 
 \[Omitted image "clear-local-storage-cookies.png"\] Alt text: Settings to clear local storage cookies.
 
 ## Data storage
 
-Data is encrypted at rest. It’s stored in a central ServiceNow® multitenant repository closest to you, in either AMS \(Canada\), EMEA \(Germany\), or APAC \(Japan\).
+Data is encrypted at rest. It’s stored in a central ServiceNow® multitenant repository closest to the instance's region, in either AMS \(Canada\), EMEA \(Germany\), or APAC \(Japan\).
 
 Data is anonymized before it’s sent to storage, and deleted at the database level after a retention period of two years.
-
-For the Zurich release and onwards, backups are stored regionally on the new architecture only and don’t use the additional backup copy stored in a central repository in Canada.
 
 **Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
 

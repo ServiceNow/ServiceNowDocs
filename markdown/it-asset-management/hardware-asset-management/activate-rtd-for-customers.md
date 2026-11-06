@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange configuration for Zero Touch Refresh, Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Service Exchange configuration for Zero Touch Refresh, Configure Zero Touch Refresh flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Activate the remote task definitions

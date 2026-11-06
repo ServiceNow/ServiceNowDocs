@@ -7,9 +7,9 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage schedules and shifts, On-Call Scheduling, IT Service Management]
+breadcrumb: [Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
 
 # Set a shift to Draft mode while waiting for info

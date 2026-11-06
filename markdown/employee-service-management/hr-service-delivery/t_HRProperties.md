@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **HR Administration** &gt; **Properties**.
+1.  Navigate to **All** &gt; **HR Administration**.
 
     Some HR properties are found under **sys\_properties.list**.
 
@@ -127,9 +127,9 @@ sn\_hr\_core.duplicate\_hr\_case\_time\_out
 
 The number of days that must pass before a duplicate case warning appears when an HR case is created for the same HR service and subject person in HR Agent Workspace.The base system value is three \(3\) days.
 
- For example, if an agent creates an HR case for a General Benefits Inquiry \(HR service\) for Abel Tuter and another General Benefits case is created in HR Agent Workspace within three days, a message appears notifying the user of a potential duplicate case. A list of similar cases also appears. The agent can continue to create a new case or cancel.
+For example, if an agent creates an HR case for a General Benefits Inquiry \(HR service\) for Abel Tuter and another General Benefits case is created in HR Agent Workspace within three days, a message appears notifying the user of a potential duplicate case. A list of similar cases also appears. The agent can continue to create a new case or cancel.
 
-**Note:** This property only affects possible duplicate HR cases for the same HR service and subject person in HR Agent Workspace. For more information, see .
+**Note:** This property only affects possible duplicate HR cases for the same HR service and subject person in HR Agent Workspace.
 
 </td></tr><tr><td>
 

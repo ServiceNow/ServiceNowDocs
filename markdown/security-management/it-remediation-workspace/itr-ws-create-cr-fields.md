@@ -7,7 +7,7 @@ release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -113,9 +113,7 @@ Implementation plan
 Pre-populated with preferred solution information if it is available. View the solution or enter a justification plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[IT Remediation Workspace reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/it-remediation-workspace-reference.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Create a change request in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/vr-ws-CRs.md)

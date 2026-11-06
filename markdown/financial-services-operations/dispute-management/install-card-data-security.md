@@ -7,9 +7,10 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+keywords: [install card data security, sn\_data\_sec installation, servicenow store install, activate card data security, card data security application install, store application install, install sn\_data\_sec]
+breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Install Card Data Security
@@ -18,9 +19,9 @@ If you have the admin role, you can install the Card Data Security application \
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Ensure that you're provisioned with our tokenizer service and that you have completed the onboarding procedure. For more information, see [Initial steps to setup schema and connections for Card data security \(KB2238661\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2238661).
+-   Ensure that you're provisioned with the tokenizer service, completed the onboarding procedure, and set up the card vault table, service accounts, and other configurations as required. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
 
 Role required: admin
 
@@ -42,8 +43,4 @@ Role required: admin
 
 5.  Select **Install**.
 
-
-## What to do next
-
-After installing Card Data Security, continue setting up the card vault table and connections in our tokenizer service. For more information, see [Create the card vault table in the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-tokenization-vault.md) and [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
 

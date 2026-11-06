@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configuring-byog.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configuring a Guardrail Service Provider
@@ -20,22 +20,18 @@ AI Guardian includes default guardrails to detect offensive content, block promp
 
 Custom guardian evaluates prompts and responses in real time, just like the default guardrails. You can set each custom guardrail to log events, block content, or both based on your specific security or content policies.
 
-## Supported guardrail service providers
+## ServiceNow supported third-party guardrail service providers
 
-AI Guardian supports the following guardrail service provider types:
+AI Guardian supports the following cloud AI service providers:
 
--   **ServiceNow Guardrail**
+-   ServiceNow guardrail: The default provider built into the platform. No additional configuration is required.
+-   Third-party providers: Integrate with supported cloud AI safety services. Following are the supported providers:
+    -   Microsoft Azure Content Safety
+    -   Amazon Bedrock
+    -   Google Model Armor
+-   Custom \(BYOG\): Create your own guardrail to apply your organization's specific compliance, security, or content policies.
 
-    The default provider built into the platform. No additional configuration is required.
-
--   **Third-party providers**
-
-    Supported cloud AI safety services that you can integrate with AI Guardian. Supported providers include Microsoft Content Safety, Amazon Bedrock, and Google Model Armor.
-
--   **Custom guardrail**
-
-    A guardrail you create using the Bring Your Own Guardrail \(BYOG\) feature to apply your organization's specific compliance, security, or content policies.
-
+Only one guardrail service provider can be active at a time. The selected provider monitors and evaluates all Now Assist interactions for harmful, offensive, or prompt injection content.
 
 ## Custom guardrails for AI Guardian
 

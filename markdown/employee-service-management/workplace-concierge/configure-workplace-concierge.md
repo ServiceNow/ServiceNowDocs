@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Workplace Concierge, Workplace Service Delivery, Employee Service M
 Install and configure the Workplace Concierge application.
 
 -   **[Install Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/install-workplace-concierge.md)**  
-Install the Workplace Concierge application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Concierge application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 -   **[Configure calendar sections on the Presence dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/configure-presence-dashboard-sections.md)**  
 As an admin, add or remove calendar sections from the Presence dashboard.
 -   **[Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/configure-workplace-suggestions.md)**  

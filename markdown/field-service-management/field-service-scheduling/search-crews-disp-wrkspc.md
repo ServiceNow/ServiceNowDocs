@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Search for crews on Dispatcher Workspace
@@ -24,12 +24,12 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
-3.  Type the search term in the **Search resources** field and click the Search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon.\).
+3.  Type the search term in the **Search resources** field and select the Search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon.\).
 
 
 ## Result
 
-A list of crews appears based on the filter criteria. If crews are not available for the selected time period, a message displays.
+A list of crews appears based on the filter criteria. If crews aren’t available for the selected time period, a message displays.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/features-supp-and-unsupp-by-unified-consumer.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -64,7 +64,7 @@ Internal employee \[snc\_internal\]**Note:** Can have other internal roles acros
 
 </td><td>
 
-Unified consumer \[sn\_customerservice.unified\_consumer
+Unified consumer \[sn\_customerservice.unified\_consumer\]
 
  **Note:** The unified consumer role doesn't contain snc\_external roles.
 

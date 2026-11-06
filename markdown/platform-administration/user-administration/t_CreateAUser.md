@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Creating users, Creating users, companies, departments, User admin, Configure core features, Administer]
+breadcrumb: [Creating users, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a user
@@ -190,7 +190,33 @@ Date format
 
 </td><td>
 
-Select the user's preferred format for dates.
+Select the user's preferred format for dates. The following date formats are supported:-   08/19/26
+-   19/08/26
+-   08-19-2026
+-   08/19/2026
+-   19-08-2026
+-   19/08/2026
+-   19.08.2026
+-   2026/08/19
+-   2026.08.19
+-   2026-08-19
+For more information, see [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
+
+</td></tr><tr><td>
+
+Time format
+
+</td><td>
+
+Select the user's preferred format for time. The following time formats are supported:-   16:30:45
+-   16.30.45
+-   04:30:45 PM
+-   04.30.45 PM
+-   16:30
+-   16.30
+-   04:30 PM
+-   04.30 PM
+For more information, see [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr><tr><td>
 

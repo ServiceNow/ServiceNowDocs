@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring Upgrade Console
@@ -22,15 +22,15 @@ The following steps are in a nutshell to explain the overall configuration exper
 
 ## Configuring Upgrade Console
 
-Implement the following steps to configure Upgrade Management.
+Implement the following steps to configure Upgrade Console.
 
-1.  Navigate to **Admin** &gt; **Upgrade Management** &gt; **Guided upgrade**.
+1.  Navigate to **Admin** &gt; **Upgrade Console** &gt; **Guided upgrade**.
 
     **Note:** The **Guided upgrade** tab shows up only when the upgrade is in progress. If there is no ongoing upgrade, you can select the required upgrade version and select **Get started** in the Get started with your upgrade section.
 
 2.  Complete the **Pre-upgrade** tasks to move to the Instance upgrade tasks.
 
-    **Note:** Select either **Mark as complete** or **Skip** to move to the next task in the Pre-upgrade section. Once the step completes, you can either select **Previous step** or **Next** depending on if you want to review the previous step or move to the next step.
+    **Note:** Select either **Mark as complete** or **Skip** to move to the next task in the Pre-upgrade section.
 
 3.  Complete the **Instance upgrade** tasks.
 4.  Complete the **Post-upgrade** tasks to complete the guided upgrade.
@@ -46,6 +46,8 @@ Implement the following to experience the guided upgrade for a seamless upgrade 
 Follow the guided upgrade steps to experience the seamless upgrade on your non-production instance.
 -   **[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)**  
 Follow the guided upgrade steps to experience the seamless upgrade on your production instance.
+-   **[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um_bulk_app_update_desc.md)**  
+The bulk application update console enables you to review, select, and update multiple applications in a single workflow, improving efficiency compared to updating applications individually through the Application Manager.
 
 **Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-landing-page.md)
 

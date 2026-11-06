@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Process Mining, Activating Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
 
 # Integration with Continual Improvement Management
@@ -53,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d104101e216">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d109024e231">
 
 From where
 
-</th><th align="left" id="d104101e219">
+</th><th align="left" id="d109024e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104101e225">
+</th></tr></thead><tbody><tr><td id="d109024e240">
 
 **Continual Improvement Workbench**
 
@@ -73,7 +73,7 @@ Steps
 
 **Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d104101e276">
+</td></tr><tr><td id="d109024e291">
 
 **Improvement Initiative**
 
@@ -90,7 +90,7 @@ Steps
 
 Understand how you can create or track an improvement request.
 
-As an improvement manager, you use your Continual Improvement Management Workbench dashboard daily to view operational work and initiatives in progress. You have an open initiative to optimize the incident process and reduce mean time to resolve \(MTTR\).
+As an improvement manager, you use your Continual Improvement Management Workbench dashboard daily to view operational work and initiatives in progress. You have an open initiative to optimize the incident process and reduce the mean time to resolve \(MTTR\).
 
 From the initiative form, you select **Go to Process Mining**. The action navigates you to a generated project in the Process Mining Analyst workbench showing cases that were closed in the last three months.
 

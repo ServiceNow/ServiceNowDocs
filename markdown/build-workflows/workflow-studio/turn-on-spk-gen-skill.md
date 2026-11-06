@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Use, Workflow Studio, Build workflows]
+breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Turn on the spoke generation skill
@@ -37,7 +37,5 @@ Role required: admin
 
 ## Result
 
-You can now create spoke and actions using Now Assist in Spoke Generator.
-
-**Parent Topic:**[Use ServiceNow Otto to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
+You can now create spoke and actions using ServiceNow Otto in Spoke Generator.
 

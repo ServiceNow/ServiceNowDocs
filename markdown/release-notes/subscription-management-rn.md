@@ -1,126 +1,56 @@
 ---
 title: Subscription Management release notes
-description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. See the following sections for release notes by version.Version 6.5 improves cloud capacity storage flexibility by pooling storage entitlements at the account level, enabling any instance to draw from your total available storage as needed.Starting in version 6.1, Moveworks consumption can be reported as part of your Assist meter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/subscription-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Subscription Management release notes
 
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
+The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. See the following sections for release notes by version.
 
 ## About Subscription Management
 
--   Manage custom applications and table mapping through the custom application list and custom table inventory list.
--   View and filter subscribers by domain for user-based subscriptions in domain-separated instances.
--   View and filter Now Assist usage by domain in domain-separated instances.
--   Monitor Workflow Data Fabric usage and view token use rate of each capability.
-
-Zurich Path 11
-
--   Automatically manage user-based allocations by user roles if you have never used the manual allocation workflow before.
+-   Gain visibility and control of your product subscriptions and their applications.
+-   Access a real-time view of your entitlement data.
+-   Maximize subscription usage and make informed decisions about purchases by viewing insights.
+-   Stay in compliance and avoid unexpected costs by tracking subscription usage and allocations over time.
 
 See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/subscription-management-landing-page-v2.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Subscription Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Subscription Management is a ServiceNow AI Platform feature that is active by default.Updates for Subscription Management are available through the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For cumulative release notes information for applications available on the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Upgrade information**
-
-    Subscription Management version 5.0 is active by default on all instances of the Zurich release. Update to Subscription Management version 6.1 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
+    Subscription Management is a ServiceNow AI Platform feature that is active by default. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-admin-rn-landing.md)
 
-## September 2026
+## Version 6.5
 
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
+Version 6.5 improves cloud capacity storage flexibility by pooling storage entitlements at the account level, enabling any instance to draw from your total available storage as needed.
+
+### What's changed
+
+-   **[Account-level cloud capacity storage pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-cloud-entitlements.md)**
+
+    Cloud capacity storage is now pooled at the account level rather than capped at the instance level. This means your total storage entitlement can be used more flexibly, wherever it's needed across your environment.
+
+
+## Version 6.1
+
+Starting in version 6.1, Moveworks consumption can be reported as part of your Assist meter.
 
 ### What's changed
 
 -   **[Support for Moveworks consumption tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting in Zurich patch 13, Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
-
-
-## July 2026
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Streamlined user-based subscription allocation starting in Zurich Path 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md)**
-
-    To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions has been removed for administrators who have never used it. Administrators who have manually allocated user-based subscriptions before can still make manual allocations.
-
-
-## March 2026
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Hidden user-based subscription allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/subscriptions-overview-v2.md)**
-
-    To help prevent inaccuracy when allocations aren't complete, allocation details for user-based subscriptions are now hidden from the Subscription Management overview. Contact your account executive for user-based subscription allocation details.
-
-
-## January 2026
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
-
-    Now Assist usage measurement is evolving. If your instances are below Zurich Patch 6, update Subscription Management to version 6.0.2 or later on all instances to avoid mixed measurement states. For more information, see [Now Assist Usage - Overview &amp; New Measurement Logic \[KB2704710\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
-## Zurich Early Availability
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Monitor Workflow Data Fabric usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-wdf-capability-use.md)**
-
-    Monitor and track Workflow Data Fabric capability usage and view the relative token use rate of each capability.
-
-
-## Zurich
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Manage custom applications and table mapping through the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)**
-
-    Map any missing custom application and tables in Subscription Management to a subscription directly from the Custom Applications list or Custom Table Inventory list.
-
--   **[Support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/domain-separation-subscription-mgmt.md)**
-
-    View and filter subscribers by domain for user-based subscriptionsand view Now Assist usage by domain.
-
-
-### What's changed
-
--   **Coral theme**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
-
-
--   **[Assist usage excludes demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
-
-    Demonstration instances are excluded from the total Assist usage count to improve tracking of Assist consumption.
+    Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
 
 

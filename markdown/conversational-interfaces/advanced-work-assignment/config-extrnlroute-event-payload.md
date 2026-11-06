@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -88,6 +88,4 @@ After the configuration, all the incoming chats are routed to the external queue
 To view the execution details of the event payload, open an event record from the Flow engine contexts \[sys\_flow\_context\] table and select **Open in Operations View**. You will see the AWA Post External Routing Events flow with the payload.
 
 \[Omitted image "executed-external-routing.png"\] Alt text: Executed external event payload.
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

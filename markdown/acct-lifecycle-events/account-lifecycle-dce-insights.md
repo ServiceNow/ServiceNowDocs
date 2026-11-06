@@ -5,18 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-dce-insights.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Explore, Customer Success Management]
+breadcrumb: [Data Context Engine, Customer success, Explore, Customer Success Management]
 ---
 
 # Data Context Engine \(DCE\) Insights
 
 DCE Insights is a Data Context Engine feature that enables the visualization of identified metrics for product and capability usage records.
 
-You can configure DCE Insights to display contextually by using relevant attributes of an engagement, product, and more to determine the correct metrics, thresholds, and values to display. For example, you can display 10 key indicators on an account record page and a different set on a sold product page. Additionally, you can define targets and baselines for each data source and specify conditions that determine when the data appears.
-
-You can configure visualizations and associate them with entities in the DCE Insights table, which tracks usage data. Each entity in the DCE Insights table links to one or more entities in the DCE Insight Items table. The DCE Insights table can be configured to specify where the associated DCE Insight Items appear. The following entities and insight items are available with the base system:
+Configure DCE Insights to display contextually using relevant attributes of an engagement, product, and more to determine the correct metrics, threshold, and values to display. You can configure visualizations and associate them with a DCE Insight entity. DCE Insight entities used to track usage data are defined in the DCE Insights table. Each entity in the DCE Insights table is associated with entities present in the DCE Insight Items table. DCE Insights are configured to display on DCE entities where the associated DCE Insight items are shown. The following entities and insight items are included as part of the base system:
 
 -   Product usage: Enables you to track usage data at the product level. It includes the following DCE Insight Items:
     -   Adoption score

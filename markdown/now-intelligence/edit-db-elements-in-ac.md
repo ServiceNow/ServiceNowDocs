@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/edit-db-elements-in-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Performance Analytics widgets, add Performance Analytics widgets, reports, add reports to dashboard]
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -17,23 +17,23 @@ You can edit the contents of a dashboard or dashboard tab, including data visual
 
 ## Before you begin
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-2.  Open the dashboard you want to edit.
+2.  Open the dashboard that you want to edit.
 
 3.  Select **Edit** to put the dashboard into edit mode.
 
-4.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
+4.  If you're in a different application scope than the dashboard, use the application picker to select the correct scope.
 
     \[Omitted image "app-scope-picker.png"\] Alt text: Application scope picker
 
 5.  Focus on the element you want to edit.
 
-    A menu appears in the element header. The selection of actions to take depends upon your roles.
+    A menu appears in the element header. The selection of actions to take depends on your roles.
 
     \[Omitted image "db-element-menu-itil.png"\] Alt text: Menu in header of data visualization with Add to library, Duplicate, and Delete actions.
 
@@ -41,15 +41,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 6.  Perform any of the following actions on the element.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d90512e169">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d95049e173">
 
 Action
 
-</th><th align="left" id="d90512e172">
+</th><th align="left" id="d95049e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d90512e178">
+</th></tr></thead><tbody><tr><td id="d95049e182">
 
 **Configure an element**
 
@@ -57,9 +57,9 @@ Steps
 
 Focus on the element and select **Configure**. The configuration panel opens.Configuration options depend on the element type. For data visualizations and filters, they also depend on the visualization or filter type, respectively. For more information, see [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
-**Note:** There are role and ownership requirements for editing a component that is shared from a library. If you see a message in the configuration panel that you are not allowed to edit an element, you might be able to create a local version that is not linked to the library and edit it. For more information, see [Edit a copy of a shared dashboard element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/editing-local-copy-saved-dv.md).
+**Note:** There are role and ownership requirements for editing a component that is shared from a library. If you aren’t allowed to edit an element, create a local version that is not linked to the library and edit that one. For more information, see [Edit a copy of a shared dashboard element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/editing-local-copy-saved-dv.md).
 
-</td></tr><tr><td id="d90512e215">
+</td></tr><tr><td id="d95049e219">
 
 **Resize the element**
 
@@ -67,7 +67,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 Focus on the element. To increase its height, press **Resize**. To decrease its height, press Shift-**Resize**. To change its width or overall size, select a corner of the element and drag it.
 
-</td></tr><tr><td id="d90512e230">
+</td></tr><tr><td id="d95049e234">
 
 **Add an element to the Library**
 
@@ -84,7 +84,7 @@ Role required for data visualization: itil, report\_user, viz\_creator, or highe
 4.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d90512e276">
+</td></tr><tr><td id="d95049e280">
 
 **Delete an element from the dashboard**
 
@@ -97,7 +97,7 @@ The data visualization is available in the Visualization library for use on othe
 
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d90512e312">
+</td></tr><tr><td id="d95049e316">
 
 **Move an element between or above tabs**
 
@@ -106,12 +106,12 @@ The data visualization is available in the Visualization library for use on othe
 When you have multiple tabs, you can move elements from tab to another or to the pane above the tabs.1.  Focus on the element that you want to delete.
 2.  In the header, select the More actions menu icon \(\[Omitted image "context-menu-db-element-ac.png"\] Alt text: More actions icon\) and select **Move above the tabs** or **Move to a different tab**.
 
-\[Omitted image "db-element-menu-admin.png"\] Alt text: Menu in header of filter with Move above the tabs, Move to a different tab, Add to library, Duplicate, and Delete actions.
+\[Omitted image "db-element-menu-itil.png"\] Alt text: Menu in header of filter with Move above the tabs, Move to a different tab, Add to library, Duplicate, and Delete actions.
 
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d90512e355">
+</td></tr><tr><td id="d95049e359">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -119,14 +119,14 @@ When you have multiple tabs, you can move elements from tab to another or to the
 
 Data visualizations follow filters by default. A data visualization follows filters in the same tab as itself or above the tabs. Data visualizations either follow all such tabs that target their data sources, or none.For configuration instructions, see [Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-dv-follow-filters-or-not.md).
 
-</td></tr><tr><td id="d90512e373">
+</td></tr><tr><td id="d95049e377">
 
 **Set drilldown options**
 
 </td><td>
 
-Choose what happens when a user selects a visualization or one of its segments. The procedure depends on the type of dashboard. The default drilldown from a dashboard opened in Platform Analytics experience or any other workspace/experience is to Core UI artifacts.-   For a dashboard created in the inline editor and viewed in Platform Analytics experience, choose a preconfigured Chart Interaction. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).
--   For a dashboard created in the inline editor and viewed in a workspace/experience other than the Platform Analytics experience, see [Configure custom redirection from a dashboard component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-custom-redirection-from-db.md). The inline dashboard first has to be enabled to be viewed in the workspace, and then has to be referenced from a page built from the Dashboards page template, as described in [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dashboard-to-workspace.md).
+Choose what happens when you select a visualization or one of its segments. The procedure depends on the type of dashboard. The default drilldown from a dashboard opened in Platform Analytics experience or any other workspace/experience is to Core UI artifacts.-   For a dashboard created in the inline editor and viewed in Platform Analytics experience, choose a preconfigured Chart Interaction. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).
+-   For dashboards created in the inline editor and viewed in a workspace/experience other than the Platform Analytics experience, see [Configure custom redirection from a dashboard component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-custom-redirection-from-db.md). The inline dashboard first has to be enabled to be viewed in the workspace. It then has to be referenced from a page built from the Dashboards page template, as described in [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-dashboard-to-workspace.md).
 -   For a technical dashboard, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-custom-drilldown-event.md).
 
 

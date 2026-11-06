@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Suggested steps generation in ServiceNow Otto for Customer Service Management \(CSM\)
@@ -25,11 +25,11 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
 
 The system uses data from the **Short description** field and the filter conditions set in the case input table to generate the suggested actions based on similar past resolved cases. These steps outline the next best actions that agents can take as part of resolving cases.
 
-If suggested steps are available for a case, ServiceNow Otto for CSM generates and displays these steps in a card at the top of the Recommended Actions tab in the contextual side panel.
+If suggested steps are available for a case, ServiceNow Otto for CSM generates them automatically. The steps display in a card at the top of the Recommended Actions tab in the contextual side panel.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Using the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of cases, open a case that is not in **Closed** or **Complete** state.
 
@@ -37,9 +37,11 @@ If suggested steps are available for a case, ServiceNow Otto for CSM generates a
 
     The system displays the **Suggested steps by Now Assist** card at the top of the tab.
 
-4.  In the **Suggested steps by Now Assist** card, select **Generate**.
+4.  In the **Suggested steps by AI** card, select **Generate**.
 
     The steps to resolve the case appears in the **Recommendations** window in the case record. This action may take a few minutes.
+
+    \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by to resolve the issue
 
     **Note:**
 

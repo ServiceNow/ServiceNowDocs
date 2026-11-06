@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-config-zoom-sum.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Touchpoint home page, Customer success, Use, Customer Success Management]
+breadcrumb: [Zoom and touchpoint integration, Customer success, Configure, Customer Success Management]
 ---
 
 # Configure Zoom to create a touchpoint meeting summary
@@ -118,8 +118,5 @@ Name of the webhook registry.
 
 When these steps have been completed, you can generate the meeting summary for touchpoint meetings that have been created using Zoom.
 
--   **[Generate summary for Zoom meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-zoom-meeting-summary.md)**  
-Generate the meeting summary for virtual meetings conducted using Zoom.
-
-**Parent Topic:**[Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-touchpoint-home.md)
+**Parent Topic:**[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)
 

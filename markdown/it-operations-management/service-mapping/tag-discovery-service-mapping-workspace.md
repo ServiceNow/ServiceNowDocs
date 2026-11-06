@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ For information about the traditional tag-based discovery process, see [Tag-base
 
 **Note:**
 
-Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3.
+Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 1.  Discovery and Cloud Provisioning and Governance discover tags for cloud and resource configuration items \(CIs\) and then populate data for discovered tags into the Key Value \[cmdb\_key\_value\] table.
 2.  The administrator creates CI tag categories and defines tag keys that the categories contain. Tag categories contain tags with similar use. For example, if your organization has production and staging environments, you could create "production" and "staging" tag values.

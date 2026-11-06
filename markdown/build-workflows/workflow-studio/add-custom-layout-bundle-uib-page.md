@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize the Playbook Experience, Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add a custom layout bundle to a UI Builder page
@@ -28,7 +28,7 @@ Templates are page level, they are meant to be used when you create a completely
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder** and select **Playbook Experience Builder**.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see .
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-experiences.md).
 
 2.  Select **+** next to **Pages and variants** to create a new page.
 
@@ -136,6 +136,4 @@ You've added a bundle and all its components, presets, and controller to your ne
 ## What to do next
 
 Edit test values and controller inputs.
-
-**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-customize-playbook.md)
 

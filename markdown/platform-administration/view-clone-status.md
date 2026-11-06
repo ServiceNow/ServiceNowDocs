@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/view-clone-status.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer]
+breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # View clone status \(legacy\)
@@ -32,6 +32,4 @@ Role required: clone\_admin
 
     If an error occurs, you might [roll back clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) and [schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/schedule-cloning.md). For more information see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-states.md).
 
-
-**Parent Topic:**[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-instance-clone.md)
 

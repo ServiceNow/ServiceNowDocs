@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Convert business services to application services
@@ -43,14 +43,14 @@ During conversion, the following changes and processes occur:
 -   The system adds related items from the business service to the converted service instance, up to the specified level.
 -   The system queries the CMDB for the latest CI changes.
 -   Event Management, if activated, applies CI impact rules to CIs that are associated with alerts and that are part of the service instance. Event Management deploys CI impact rules for alert monitoring.
--   You can edit a converted application service of the manually created type by navigating to **CSDM** &gt; **Manage Technology Management Services** &gt; **Application Service**. Then select a converted application service. The service population method for a converted application service, is set to **Converted Business Service**. For more information about editing application services, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+-   You can edit a converted application service of the manually created type by navigating to **CSDM** &gt; **Manage Technology Management Services** &gt; **Application Service**. Then select a converted application service. The service population method for a converted application service, is set to **Converted Business Service**. For more information about editing application services, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
     **Note:** You can't edit a dynamic application service by adding or removing CIs from it. The system automatically modifies an application service of the dynamic type when you modify relevant relationships for CIs that are part of that application service.
 
 
 ## Non-compliant CIs
 
-A conversion might involve adding CIs of the following CI types, which cannot be added to an service instance:
+A conversion might involve adding CIs of the following CI types, which cannot be added to a service instance:
 
 -   NAT \[cmdb\_ci\_translation\_rule\]
 -   Endpoint \[cmdb\_ci\_endpoint\]
@@ -71,7 +71,7 @@ Convert a subset of business services to application services, in bulk and autom
 
 ### Before you begin
 
-Role required: app\_service\_admin, ecmdb\_admin, or itil\_admin
+Role required: app\_service\_admin, ecmdb\_admin, sn\_cmdb\_admin, or itil\_admin
 
 ### About this task
 
@@ -206,5 +206,5 @@ If the service is too large, perform the following actions:
 **Related topics**  
 
 
-[Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md)
+[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md)
 

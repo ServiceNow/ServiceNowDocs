@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -79,6 +79,8 @@ Create reservation
 The following restrictions apply when creating reservations from theWorkplace Service Delivery \(WSD\) portal, Event planner, Quick Reservation, and Now Mobile:-   **In Personal mode**
 
 If the requested-for user doesn’t match the session user, the reservation can’t be created.
+
+**Note:** When the integration mode is Personal Authentication and reservations are created through non-ServiceNow interfaces such as IDEA panels or the Reservation REST APIs, the reservation is created in the Delegated User's mailbox, with the requestor added as an attendee. This behavior is the same as Strict mode.
 
 -   **In Strict or Normal mode**
 

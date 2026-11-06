@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-set-date-range-for-historical-job.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Set look back date range for unmanaged AI systems
@@ -32,7 +32,7 @@ This setting applies to all AI systems that you mark as managed again. It also c
 
 2.  Navigate to **Settings** &gt; **Rules and Templates** &gt; **Templates** &gt; **Value controls**.
 
-3.  Select **look\_back\_data\_value\_calc**.\[Omitted image "image.mv-historical-jobs-date-range"\] Alt text: Value controls page in AI Control Tower Rules and templates, with the look\_back\_data\_value\_calc control selected and its details panel open.
+3.  Select **look\_back\_data\_value\_calc**.\[Omitted image "mv-historical-jobs-date-range.png"\] Alt text: Value controls page in AI Control Tower Rules and templates, with the look\_back\_data\_value\_calc control selected and its details panel open.
 
 4.  In the **Value** field, enter the number of days of value data to fill in.
 

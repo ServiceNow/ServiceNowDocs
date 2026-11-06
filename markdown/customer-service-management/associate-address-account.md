@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-address-account.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -18,7 +18,15 @@ You can associate addresses to an account using the Account Address related list
 
 **Note:** You must possess the Update privilege, or the authority to grant Update access to account information, to enable the association of locations \(account addresses\) with the account.
 
-Role required: admin or customer\_admin or sn\_customerservice\_manager
+Role required: One of the following roles:
+
+-   admin
+-   customer\_admin
+-   sn\_customerservice\_manager
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
 
 ## Procedure
 

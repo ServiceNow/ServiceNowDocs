@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [theme.js configuration reference, Scaffolded theme file, Fields, Applying the theme, Precedence, Generated color scales, Custom fonts, token\_overrides, Key to selector, Key resolution, Application CSS precedence, Storage and request flow, Switching light and dark at runtime, Reacting to the theme mode, Related]
-breadcrumb: [Lux Reference, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux Reference, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # theme.js configuration reference

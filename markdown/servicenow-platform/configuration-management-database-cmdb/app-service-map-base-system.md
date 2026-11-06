@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View an application service map in base system
@@ -18,7 +18,7 @@ An application service map provides a visualization of data for the CIs comprisi
 
 ## Before you begin
 
-Role required: app\_service\_user to view the map in View mode, and app\_service\_admin to modify services in Edit mode.
+Role required: app\_service\_user to view the map in View mode, app\_service\_admin to modify services in Edit mode, and itil to view incident/problem/change data in the map.
 
 ## About this task
 

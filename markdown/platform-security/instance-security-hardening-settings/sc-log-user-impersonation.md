@@ -1,5 +1,5 @@
 ---
-title: Log user impersonation \[Updated in Security Center 1.3 and 2.0\]
+title: Log user impersonation
 description: Configure glide.sys.log\_impersonation to control if user-impersonating events are logged in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-log-user-impersonation.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Log user impersonation \[Updated in Security Center 1.3 and 2.0\]
+# Log user impersonation
 
 Configure **glide.sys.log\_impersonation** to control if user-impersonating events are logged in your instance.
 
-If this property is not set to the recommended value of **true**, user-impersonating events are no longer logged. The absence of logging could impact the automated security detection and investigation capabilities on your instance. Ensure the property **glide.sys.log\_impersonation** exists and is set to true. If the property does not appear in the sys\_properties table, add a new record.
+If **glide.sys.log\_impersonation** is not set to the recommended value of **true**, then user-impersonating events are no longer logged.
+
+Ensure that the property **glide.sys.log\_impersonation** exists in the System Properties \[sys\_properties\] table and is set to **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
 
 ## More information
 
@@ -70,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 6.4
 -   CVSS score: Medium
--   Security risk details: If this property is not set to **true**, user-impersonating events are no longer logged which could impact your instance's security detection and investigation capabilities.
+-   Security risk details: ServiceNow's automated security detections and security investigation capabilities effectiveness is reduced.
 
 </td></tr><tr><td>
 

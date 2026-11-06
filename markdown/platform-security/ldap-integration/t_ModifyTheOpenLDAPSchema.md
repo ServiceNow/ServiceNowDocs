@@ -7,9 +7,9 @@ release: zurich
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OpenLDAP minor schema modification, LDAP integration, Access Management]
+breadcrumb: [OpenLDAP minor schema modification, LDAP integration, Authentication, Access Management]
 ---
 
 # Modify the OpenLDAP schema

@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Enable service principal authentication for Power BI read-only APIs
@@ -26,7 +26,7 @@ Power BI Role required: Power platform administrator
 
 ## About this task
 
-Service principal is an authentication method that enables your application to access secure Microsoft Entra ID resources, such as Power BI service content and APIs. The service principal setup is required only in case of application permissions.
+Service principal is an authentication method that enables your application to access secure Microsoft Entra ID resources, such as Power BI service content and APIs.
 
 ## Procedure
 
@@ -153,7 +153,7 @@ Method in which members can be added to or removed from the group.Set this field
 
         The Power BI portal opens.
 
-    3.  On the page header of the Power BI portal, select the Settings icon \[Omitted image "gear-icon.png"\] Alt text: Personalize list icon. and then select **Admin portal**.
+    3.  On the page header of the Power BI portal, select the Settings icon \[Omitted image "gear-icon.png"\] and then select **Admin portal**.
 
         The Power BI Admin portal opens.
 

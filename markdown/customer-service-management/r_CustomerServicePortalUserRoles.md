@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/r\_CustomerServicePortalUserRoles.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Portal reference, Reference, Customer Service Management]
 ---
 
@@ -92,4 +92,8 @@ Partner administrator \[sn\_customerservice.partner\_admin\]
 -   Manage users for this account and for customer accounts.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Multi-factor authentication for Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-multifactor-auth.md)
+

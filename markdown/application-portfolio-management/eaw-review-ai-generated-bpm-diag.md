@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-review-ai-generated-bpm-diag.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Review an AI-generated business process map diagram

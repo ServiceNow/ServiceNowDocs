@@ -7,8 +7,8 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Foundation tab on the dashboard, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -28,7 +28,7 @@ Application, service, and software class instance CIs are not created through Di
 
 -   Service Offering
 -   Technology Management Service \(formerly Technical service\)
--   Service Instance \(called application service before CSDM v5\): The script adds the version \(as it relates to the business application\) to the associated software model name. For example, the software model for the MyAppService service instance CI might be **MyAppService - version: 2.1**.
+-   Service Instance \(formerly Application Service\): The script adds the version \(as it relates to the business application\) to the associated software model name. For example, the software model for the MyAppService service instance CI might be **MyAppService - version: 2.1**.
 -   Business Service
 -   Business Application
 
@@ -65,7 +65,7 @@ Operation of the script:
 
     The script runs and generates the product models.
 
-3.  Review the created product models to ensure that the new **Model ID \[model\_id\]** values are correct.
+3.  Review the created product models to verify that the new **Model ID \[model\_id\]** values are correct.
 
     Use:
 

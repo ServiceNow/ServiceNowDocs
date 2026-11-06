@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -36,15 +36,15 @@ Ensure to install the following plugins
 
 1.  Create the work order.
 
-<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d43969e94">
+<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d47858e103">
 
 Option
 
-</th><th align="left" id="d43969e97">
+</th><th align="left" id="d47858e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43969e103">
+</th></tr></thead><tbody><tr><td id="d47858e112">
 
 **Create a new work order**
 
@@ -58,7 +58,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d43969e150">
+</td></tr><tr><td id="d47858e159">
 
 **Create a work order from an incident, problem, change, project task, or another work order.**
 
@@ -116,7 +116,7 @@ Asset
 
 </td><td>
 
-The asset tag number or the serial number of the asset involved in this case. If there are multiple assets, provide the details of the primary asset and add the rest under **Affected Products** in the **Related Links** panel.You can select linear asset only if Enterprise Asset Management is installed.
+The asset tag number or the serial number of the asset involved in this case. If there are multiple assets, provide the details of the primary asset and add the rest under **Affected Products** in the **Related Links** panel. You can select linear asset only if Enterprise Asset Management is installed.
 
 </td></tr><tr><td>
 
@@ -350,7 +350,7 @@ Ready for Approval
 
 </td><td>
 
-Click **Ready for Approval** to move the work order to the Waiting for Approval state. This option appears only when **Approval for new request required** is enabled in the configuration for Field Service Management.
+Click **Ready for Approval** to move the work order to the Waiting for Approval state.
 
 </td></tr><tr><td>
 

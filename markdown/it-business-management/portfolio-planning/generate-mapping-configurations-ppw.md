@@ -1,20 +1,20 @@
 ---
 title: Generate default mapping configurations
-description: Generate default mapping configurations to create table maps for Project Portfolio Management \(PPM\).
+description: Generate default mapping configurations to automatically create table maps, field maps, and choice maps for projects and demands, or customize mappings for specific integration needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/generate-mapping-configurations-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Portfolio Planning with PPM, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Generate default mapping configurations
 
-Generate default mapping configurations to create table maps for Project Portfolio Management \(PPM\).
+Generate default mapping configurations to automatically create table maps, field maps, and choice maps for projects and demands, or customize mappings for specific integration needs.
 
 ## Before you begin
 
@@ -24,9 +24,9 @@ Role required: sn\_align\_core\_apw.admin
 
 1.  Navigate to **All** &gt; **Portfolio Planning** &gt; **Integrations**.
 
-2.  Click **ServiceNow Internal** to view the alignment integrations for the internal applications.
+2.  Select **ServiceNow Internal** to view the alignment integrations for the internal applications.
 
-3.  Click **Generate Default Mapping Configurations** to create the table maps for projects and demands.
+3.  Select **Generate Default Mapping Configurations** to create the table maps for projects and demands.
 
     **Note:** Mapping configurations consist of table, field, and choice maps.
 

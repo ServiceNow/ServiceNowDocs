@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -41,5 +41,5 @@ When an agent closes a task, the task will be sent to you for review. You can cl
 
 If the task details are sufficient, the task is closed.
 
-If more information was required, the task is sent back to the agent and the substate is set to Needs information. The agent will receive a notification that the selected work order task needs more information. In the Mobile Agent® application, the agent can update the work order task with the requested details and send the task back to the reviewer. For more information, see [Respond to a reviewed task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/close-wo-wot-mobile.md).
+If more information was required, the task is sent back to the agent and the substate is set to Needs information. The agent will receive a notification that the selected work order task needs more information. In the Mobile Agent® application, the agent can update the work order task with the requested details and send the task back to the reviewer. For more information, see [Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/close-wo-wot-mobile.md).
 

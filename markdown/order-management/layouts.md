@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/layouts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Layouts
@@ -27,7 +27,7 @@ When a blueprint has multiple layouts, end users can rotate through them using t
 
 ## How layouts fit into the configuration model
 
-Layouts are placed at the presentation layer of the CPQ configuration stack:
+Layouts are placed at the presentation layer of the ServiceNow CPQ configuration stack:
 
 -   Fields collect and display data.
 -   Rules control behavior \(visibility, messaging, calculations, product inclusion, and more\).

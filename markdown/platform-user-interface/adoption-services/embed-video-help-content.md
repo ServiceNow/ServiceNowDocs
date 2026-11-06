@@ -1,20 +1,20 @@
 ---
 title: Embed video content in help topics
-description: You can embed a link to video content in a custom Embedded Help topic. YouTube and Vimeo video content is supported.
+description: You can embed a link to video content in a custom embedded help topic. YouTube and Vimeo video content is supported.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embed-video-help-content.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Embed video content in help topics
 
-You can embed a link to video content in a custom Embedded Help topic. YouTube and Vimeo video content is supported.
+You can embed a link to video content in a custom embedded help topic. YouTube and Vimeo video content is supported.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ The administrator can disable the ability for users to see embedded video in the
 
     2.  Open the **Share** option for the video.
 
-        In YouTube, the text appears below the video. In Vimeo, select the share icon beside the video.
+        In YouTube, the text appears below the video. In Vimeo, click the share icon beside the video.
 
     3.  Under **Embed**, select the code and paste it into a text editor.
 
@@ -71,16 +71,16 @@ The administrator can disable the ability for users to see embedded video in the
 
 2.  Navigate to **Embedded Help** &gt; **Help Content**, and then open the custom help topic to embed a video.
 
-3.  Select the source code icon \(**&lt;&gt;**\).
+3.  Click the source code icon \(**&lt;&gt;**\).
 
 4.  Position your cursor at the end of the line above the location of the video.
 
 5.  Press the Enter key to move to a blank line enter the embed code you modified.
 
-6.  Select **OK**, and then select **Update**.
+6.  Click **OK**, and then click **Update**.
 
 7.  To test that the video appears, open the page that displays the content you just updated, and then open the help panel.
 
 
-**Parent Topic:**[Configure Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
+**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

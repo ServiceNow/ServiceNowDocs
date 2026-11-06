@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-dashboards.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with Dashboards
@@ -16,7 +16,7 @@ Dashboards in Enterprise Architecture Workspace is a central, visual interface f
 
 -   **[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-insights-ea-dashboard.md)**  
 You can use the conversational interface provided by AI Data Explorer ServiceNow Otto skill to query and analyze data from Enterprise Architecture Workspace dashboards. Instead of manually reviewing dashboard visualizations, you can use the AI Data Explorer to ask natural language questions to retrieve insights and identify trends.
--   **[View application performance in Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)**  
+-   **[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)**  
 Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 -   **[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)**  
 Use the Application 360 dashboard to analyze indicator scores and identify business applications that require attention.
@@ -25,6 +25,8 @@ Use the Application 360 dashboard to analyze indicator scores and identify busin
 
 **Related topics**  
 
+
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-insights-ea-dashboard.md)
 
 [Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
 

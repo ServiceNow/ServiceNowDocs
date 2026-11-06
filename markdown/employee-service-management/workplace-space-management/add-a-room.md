@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,8 +28,6 @@ Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
 
 2.  Select **Rooms**.
 
-    To see all workplace rooms for making a reservation, navigate to **All** &gt; **Workplace Reservation Management** &gt; **Workplace Rooms**
-
 3.  Click **New**.
 
 4.  Open the form in the Space Management view.
@@ -38,9 +36,9 @@ Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
 
     2.  Select **View** &gt; **Space Management**.
 
-5.  On the form, fill in the fields.
+        The form view changes.
 
-    \[Omitted image "outlook-room-email-id.png"\] Alt text: Workplace Room showing mail configuration for the selected location.
+5.  On the form, fill in the fields.
 
 <table id="table_rv3_g3d_rpb"><thead><tr><th>
 
@@ -122,7 +120,7 @@ Is reservable
 
 </td><td>
 
-Option to indicate whether the room can be reserved for meetings or events. The check box should be selected if you want to make a workplace reservation. If this option is selected, only reservable items are displayed for a selected location. For more information, see [Create a reservation]().
+Option to indicate whether the room and the spaces that are located in the room are available for reservation.
 
 </td></tr><tr><td>
 
@@ -283,7 +281,7 @@ You can add an allocation if there is none. For more information on how to add a
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

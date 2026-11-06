@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/exploring-column-level-encryption.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-26"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Column Level Encryption, Encryption]
 ---
 
@@ -22,9 +22,9 @@ Column Level Encryption enables you to encrypt selected database fields and stor
 
 After the context is created, you can associate it to a user role. Users assigned to this role, either directly of through a group, are able to access the encrypted data.
 
-Because Column Level Encryption bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ua-creating-roles.md).
+Because Column Level Encryption bases access to data on role assignment, it's important to be familiar with administering roles on your instance. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ua-creating-roles.md).
 
-## Field Encryption benefits
+## Column Level Encryption benefits
 
 <table id="table_hb1_1br_ryb"><thead><tr><th>
 
@@ -92,7 +92,7 @@ security admin
 
 </td></tr><tr><td>
 
-Choose between standard and equality preserving encryption. When enabled, equality preserving encryption ensures that the encrypted value of a field is the same when the field value remains the same. This type of encryption enables equality comparisons and group by operations on a field.**Note:** Non-deterministic encryption isn’t supported.
+Choose between standard and equality preserving encryption. When enabled, equality preserving encryption ensures that the encrypted value of a field is the same when the field value remains the same. This type of encryption enables equality comparisons and group by operations on a field.**Note:** Non-deterministic encryption isn't supported.
 
 </td><td>
 
@@ -183,7 +183,7 @@ security admin
 
 </td></tr><tr><td>
 
-Ephemeral keys are cryptographic keys that are generated for each execution of a cryptographic process. These keys more secure because they’re generated for use in a single session.
+Ephemeral keys are cryptographic keys that are generated for each execution of a cryptographic process. These keys more secure because they're generated for use in a single session.
 
 </td><td>
 
@@ -216,6 +216,8 @@ To restore access to encrypted fields on the target instance, complete a key exc
 
 -   **[Column Level Encryption Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cle-tour.md)**  
 The tour gives a brief overview of the Column Level Encryption setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Overview course.​
+-   **[Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/now-platform-encryption-2.md)**  
+Column Level Encryption Enterprise uses the Key Management Framework \(KMF\) to enable you to customize and manage how fields and attachments are encrypted and decrypted on your instance. A subscription is required to use Column Level Encryption Enterprise.
 
 **Parent Topic:**[Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/column-level-encryption-landing.md)
 

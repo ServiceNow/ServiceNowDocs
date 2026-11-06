@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ You cannot extend an allocation beyond the parent record's end date without firs
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **Resource Management Workspace**.
 
 2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu and open a resource card.
 
@@ -39,15 +39,15 @@ You cannot extend an allocation beyond the parent record's end date without firs
 
 4.  Edit the following allocation details in the resource board drill-down view.
 
-<table id="choicetable_sbf_jjn_bfc"><thead><tr><th align="left" id="d202940e113">
+<table id="choicetable_sbf_jjn_bfc"><thead><tr><th align="left" id="d216605e116">
 
 Choice
 
-</th><th align="left" id="d202940e116">
+</th><th align="left" id="d216605e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202940e122">
+</th></tr></thead><tbody><tr><td id="d216605e125">
 
 **Manage the assigned task details using inline editing**
 
@@ -55,7 +55,7 @@ Description
 
 Manage the Start date, End date, Task efforts, and Resource status.Example: For a task which is assigned from August to November, you can move the start date to September, freeing up the allocations of that users for August. To adjust any changes to the priority, you can change back the Start date to August. Once changed, the efforts for August will be empty and you can enter the required efforts in the right grid using the inline editing feature.
 
-</td></tr><tr><td id="d202940e133">
+</td></tr><tr><td id="d216605e136">
 
 **Extend a resource allocation**
 
@@ -66,7 +66,7 @@ Extend the duration of non-child assignments to extend the resource allocation f
 3.  Select **Extend**.
 Entered duration for the selected task and time is allocated.
 
-</td></tr><tr><td id="d202940e167">
+</td></tr><tr><td id="d216605e170">
 
 **Effort type view**
 
@@ -74,7 +74,7 @@ Entered duration for the selected task and time is allocated.
 
 Use the inline editing feature to change the effort for any assigned task. The edited values will honor the effort type selection in the board view.After adjusting the allocation efforts, you can change the view to FTE, Person Days, or Hours. The changed allocation efforts will reflect the respective selected value.
 
-</td></tr><tr><td id="d202940e178">
+</td></tr><tr><td id="d216605e181">
 
 **Edit child assignments details in the Group Assignment modal**
 

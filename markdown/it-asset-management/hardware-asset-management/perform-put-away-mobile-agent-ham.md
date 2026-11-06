@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset put away task, put away asset]
-breadcrumb: [Manage asset put away using the ServiceNow Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away using the ServiceNow Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Put away assets using the ServiceNow Agent application
@@ -42,9 +42,7 @@ The inventory user can scan the available assets in the inventory and put them a
 
     \[Omitted image "asset-putaway-scan.png"\] Alt text: Scan asset serial number
 
-    You can scan multiple assets at a time. All the scanned asset serial numbers are listed in the **Review** tab.
-
-    \[Omitted image "asset-putaway-review-tab.png"\] Alt text: Review scanned assets
+    You can scan multiple assets at a time. All the scanned asset serial numbers are listed in the **Review** tab. \[Omitted image "asset-putaway-review-tab.png"\] Alt text: Review scanned assets
 
 4.  Enter or scan the drop-off location and tap **Submit**.
 

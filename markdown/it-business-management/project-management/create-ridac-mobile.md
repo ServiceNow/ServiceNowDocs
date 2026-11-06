@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-13"
 reading_time_minutes: 3
-breadcrumb: [Manage status of your projects using Project Status application, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage status of your projects using Project Status application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create RIDAC records
@@ -57,8 +57,9 @@ Analyze the impact of the risks on the project and create RIDAC records to track
 5.  Alternatively, open a RIDAC record and create a new RIDAC record.
 
     -   1.  Tap the **RIDAC** tab.
-2.  Tap the right arrow for a RIDAC record to view its details, tap the more action icon \(\[Omitted image "more\_action\_icon.png"\] Alt text: more option icon\), and then tap **New Risk**, **New Issue**, **New Decision**, **New Action**, or **New Request Changes** option based on the selected record.
-3.  Fill in the fields on the form.
+2.  Tap the right arrow for a RIDAC record to view its details.
+3.  Tap the more action icon \(\[Omitted image "more\_action\_icon.png"\] Alt text: more option icon\), and then tap **New Risk**, **New Issue**, **New Decision**, **New Action**, or **New Request Changes** option based on the selected record.
+4.  Fill in the fields on the form.
 
 **Related topics**  
 

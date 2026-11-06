@@ -1,20 +1,20 @@
 ---
 title: MID Server certificate check policies
-description: MID Server uses three kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, and OCSP validation to improve security. Control these security checks with the MID Server certificate check policies table.
+description: MID Server uses four kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, Certificate Revocation List \(CRL\), and Online Certificate Status Protocol \(OCSP\) validation to improve security. Control these security checks with the MID Server certificate check policies table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid-security-checks.html
 release: zurich
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # MID Server certificate check policies
 
-MID Server uses three kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, and OCSP validation to improve security. Control these security checks with the MID Server certificate check policies table.
+MID Server uses four kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, Certificate Revocation List \(CRL\), and Online Certificate Status Protocol \(OCSP\) validation to improve security. Control these security checks with the MID Server certificate check policies table.
 
 To access the **Certificate Check Policies** table, navigate to **All** &gt; **Mid Server** &gt; **MID Security Policy**.
 
@@ -46,6 +46,14 @@ An OCSP responder \(a server typically run by the certificate issuer\) returns a
 The certificate's issuer may delegate another authority to be the OCSP responder. This creates a chain of certificates that must be verified. The responder's certificate must be issued by the issuer of the certificate in question. The responder’s certificate must include a certain extension that marks it as an OCSP signing authority.
 
 **Note:** OCSP checks are secondary HTTP calls made to an OCSP responder. The primary call may discontinue the connection based on the response from the OCSP responder.
+
+## Certificate Revocation List \(CRL\)
+
+CRL checking provides an alternative to OCSP for verifying certificate revocation status. Rather than querying a live OCSP responder, the MID Server downloads and caches Certificate Revocation Lists \(CRLs\) from URLs provided by the Certificate Authority \(CA\). The MID Server then checks the revocation status of certificates against the locally cached CRL during the SSL/TLS handshake. If a certificate appears on the CRL, the MID Server rejects the connection and logs the event.
+
+CRLs are cached locally and updated periodically based on the CA's update schedule. If a CRL download fails, the system retries according to a configurable retry policy.
+
+**Note:** As of May 7, 2025, Let's Encrypt no longer includes OCSP URLs in issued certificates and has deprecated its OCSP responders in favor of CRLs, following the CA/Browser Forum ballot SC-063, which made OCSP optional for Certificate Authorities and mandated CRL support. CRL checking ensures continued certificate revocation validation for certificates issued by CAs that no longer support OCSP.
 
 ## MID Server security policy
 
@@ -108,6 +116,8 @@ Self-hosted or on-prem instances must add the following parameter for the **conf
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -122,8 +132,6 @@ Self-hosted or on-prem instances must add the following parameter for the **conf
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
@@ -131,4 +139,6 @@ Self-hosted or on-prem instances must add the following parameter for the **conf
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 

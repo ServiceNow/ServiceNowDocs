@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Upgrade an agent in an instance
@@ -49,7 +49,7 @@ CentOS,Red Hat
 -   `/usr/bin/systemctl start acc`
 -   `/usr/bin/systemctl stop acc`
 -   `<systemctl location> daemon-reload` \(default location is `/usr/bin`\)
--   `/usr/bin/rpm -Uv <cache dir location>/upgrade/agent-client-collector-upgrade.rpm`
+-   `/usr/bin/rpm/systemd-run -Uv <cache dir location>/upgrade/agent-client-collector-upgrade.rpm`
 
  Default cache directory location: `/var/cache/servicenow/agent-client-collector`
 
@@ -83,7 +83,7 @@ Debian, Ubuntu
 -   `/usr/bin/systemctl start acc`
 -   `/usr/bin/systemctl stop acc`
 -   `<systemctl location> daemon-reload` \(default location is `/usr/bin`\)
--   `/usr/bin/dpkg --install --refuse-downgrade --skip-same-version <cache dir location>/upgrade/agent-client-collector-upgrade.deb`
+-   `/usr/bin/dpkg/systemd-run --install --refuse-downgrade --skip-same-version <cache dir location>/upgrade/agent-client-collector-upgrade.deb`
 
  Default cache directory location: `/var/cache/servicenow/agent-client-collector`
 
@@ -157,6 +157,10 @@ Role required:
 -   Linux: sudo rpm/dpkg/systemd-run
 -   macOS: sudo pkg
 
+## About this task
+
+Selective upgrade doesn't support Agent Client Collector to MID Server communication via mTLS.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agents**.
@@ -179,6 +183,8 @@ Role required:
         -   ACC logs: `ACC_Upgrade.log`
         -   MSI logs: `MSI_ACC_Upgrade.log`
     -   For a failed upgrade on a macOS machine, check the log file, located at `/Library/Application Support/servicenow/agent-client-collector/log/upgrade.log`.
+
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -40,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d406952e130">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d308199e130">
 
 Approval action
 
-</th><th align="left" id="d406952e133">
+</th><th align="left" id="d308199e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d406952e139">
+</th></tr></thead><tbody><tr><td id="d308199e139">
 
 **Accept a request**
 
@@ -69,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d406952e209">
+</td></tr><tr><td id="d308199e209">
 
 **Reject a request**
 

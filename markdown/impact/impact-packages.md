@@ -1,20 +1,26 @@
 ---
 title: Impact packages
-description: ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you depending on the level of Impact package procured.
+description: Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-packages.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact operating model, Exploring Impact, Impact]
+breadcrumb: [General reference, Impact reference, Impact]
 ---
 
 # Impact packages
 
-ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you depending on the level of Impact package procured.
+Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
 
-There are two subscription packages for Impact: Guided and Total. Regardless of the package, all Impact customers get:
+Impact has the following subscription packages:
+
+-   Guided
+-   Total
+-   Integrated Success
+
+Regardless of the package, all Impact customers get:
 
 -   A great digital experience with value realization dashboards and intuitive journey builders.
 -   Personalized learning and coaching with curated content and tailored learning aligned to your roadmap and role.
@@ -22,27 +28,77 @@ There are two subscription packages for Impact: Guided and Total. Regardless of 
 
 ## Descriptions
 
-If you have purchased an Impact offering, the applicable Impact Package description applies to your purchase. See the Legal Schedules for Impact for additional information at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
+If you have purchased an Impact offering, the applicable Impact Package description applies to your purchase.
 
 -   **Guided**
     -   Entry-level offerings including the Premium digital experience, enhanced technical support, and curated content.
-    -   Impact Squad: Customer Success Manager
 -   **Total**
     -   The complete solution with a designated expert team, personalized recommendations, preventative tools, and much more.
-    -   Impact Squad Team: Customer Success Executive, Platform Architect, Customer Success Manager, and Support Account Manager
+    -   Impact Squad Team: Customer Success Executive, Platform Architect, , and Support Account Manager
+-   **Integrated Success**
+    -   Includes all benefits in Impact Total along with expert-led support for Program Delivery \(EM\), Design \(BPC\), and Architecture \(SA\) and Technical Implementation Services
+    -   Expert Team: Engineering Manager \(EM\), Business Process Consultant\(BPC\), Solution Architect\(SA\)
+
+**Note:**
+
+See the Legal Schedules for Impact for additional information at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Accelerator consumption per Impact package
 
-Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-catalog that can be consumed consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
+According to the Impact package you have purchased, there’s an allotment of Accelerators from each sub-catalog that you can consume consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
 
-The below consumption allocations apply to all variations \(for example, US PubSec, MSP Dedicated\) and versions \(for example, V3 &amp; V4\) of Impact packages, unless otherwise specified.
+The following consumption allocations apply to all variations \(for example, US PubSec, MSP Dedicated\) and versions \(for example, V3 &amp; V4\) of Impact packages, unless otherwise specified.
 
-|Package|Description|Accelerator Consumption|
-|-------|-----------|-----------------------|
-|Guided|Entry-level offerings including the Premium digital experience, enhanced technical support, Impact Squad Customer Service Manager \(CSM\), and curated content|1 at a time across all sub-catalogs|
-|Total|The complete Impact solution with a designated expert team, personalized recommendations, preventative tools, and much more.|6 total \(2 of each sub-catalog concurrently at a time\)|
+<table id="table_qld_2xg_sxb"><thead><tr><th>
 
-## Customer agreements and terms
+Package
+
+</th><th>
+
+Description
+
+</th><th>
+
+Accelerator Consumption
+
+</th></tr></thead><tbody><tr><td>
+
+Guided
+
+</td><td>
+
+Entry-level offerings including the Premium digital experience, enhanced technical support, , and curated content
+
+</td><td>
+
+1 at a time across all sub-catalogs
+
+</td></tr><tr><td>
+
+Total
+
+</td><td>
+
+The complete Impact solution with a designated expert team, personalized recommendations, preventative tools, and much more.
+
+</td><td>
+
+7 total \(2 of each sub-catalog concurrently for Architecture, Strategy and Technical accelerator sub-catalogs, 1 concurrently for Optimization sub-catalog\). Access to Optimization sub-catalog only applies to the newest version of Total \(v4, MSP Dedicated v4, MSP Domain Separated v2, USPS v5\).
+
+</td></tr><tr><td>
+
+Integrated Success
+
+</td><td>
+
+Comprehensive Impact solution that provides designated teams, personalized recommendations, and preventative tools with expert Services. It offers advisory services associated with transformation services in conjunction with implementation credit. The Integrated Success is initiated through Free Form initiative in Impact.
+
+</td><td>
+
+Customers effectively get access to the full suite of accelerators including the Platform Optimization accelerators delivered through Expert Services.
+
+</td></tr></tbody>
+</table>## Customer agreements and terms
 
 For customer agreements and terms, refer to the applicable Impact Accelerator description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -65,8 +121,7 @@ Strategic Value
 </td><td align="left">
 
 -   Upgraded Value IDI
--   Two additional Strategy Accelerator Catalog concurrencies
--   Additional CSM coverage
+-   Two additional Strategy Accelerator catalog concurrencies
 
 </td></tr><tr><td>
 
@@ -76,7 +131,14 @@ Platform Governance
 
 -   Upgraded Health IDI
 -   Two additional Architecture Accelerator catalog concurrencies
--   Additional CSM coverage
+
+</td></tr><tr><td>
+
+Platform Optimization
+
+</td><td>
+
+One additional Optimization Accelerator catalog concurrency
 
 </td></tr><tr><td>
 
@@ -86,11 +148,11 @@ Managed Support
 
 -   Upgraded P1/P2 level issue initial target response times
 -   Additional SAM coverage on 1 instance
--   Five [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md) seats
+-   Five [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md) seats
 
 </td></tr><tr><td>
 
-[Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md) Features
+[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md) Features
 
 </td><td align="left">
 
@@ -103,7 +165,7 @@ Instance Observer Seats
 
 </td><td align="left">
 
-Ten Instance Observer seats, in addition to the procured Impact packageFor more information, see [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md).
+Ten Instance Observer seats, in addition to the procured Impact package
 
 </td></tr><tr><td>
 
@@ -111,7 +173,7 @@ Ten Instance Observer seats, in addition to the procured Impact packageFor more 
 
 </td><td align="left">
 
-Bi-annual deep-dive into the health of production instances-   Performance Engineer-led diagnostic
+Bi-annual in-depth view into the health of production instances-   Performance Engineer-led diagnostic
 -   Presentation to customer stakeholders
 -   Guided Remediation
 
@@ -128,6 +190,7 @@ Platform Health
 </table>**Note:**
 
 -   IDI = Impact Delivery Instance
--   CSM = Customer Support Manager
 -   SAM = Support Account Manager
+
+**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/general-reference.md)
 

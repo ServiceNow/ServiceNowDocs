@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-mobile-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Care Team Mobile, Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Explore, Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Care Team Mobile overview
@@ -23,6 +23,10 @@ The following quick actions are available directly from the Care Team landing pa
 -   **Create a request**: Enables care team users to generate a support request for supporting departments.
 -   **Scan asset**: Enables care team users to scan a QR code then generate a request with information about the associated medical device.
 -   **Browse locations**: Helps care team users find and select healthcare locations they’re associated with to create requests specific to those locations.
+
+## ServiceNow Otto
+
+When the **Care Team Operations AI Chat Assistant** is activated, it appears in Care Team Mobile automatically in its own tab in the navigation bar, so care team members can create support requests conversationally. No additional mobile configuration is required. See [Care Team Operations AI Chat Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-care-team-chat-assistant.md) and [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md).
 
 ## Recent updates
 

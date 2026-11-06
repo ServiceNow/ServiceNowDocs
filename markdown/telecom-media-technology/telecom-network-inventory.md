@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/telecom-network-inventory.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -40,15 +40,14 @@ Watch this short video for an introduction to the Telecommunications Network Inv
 
 </td><td>
 
- 
+Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate TNI tasks.
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-network-inventory-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-network-inventory-rn.md)
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
+-   Learn more about what's new and changed, see the 
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Network Inventory features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=Telecommunications%20Network%20inventory&spa=1)
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University.](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=Telecommunications%20Network%20inventory&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
--   Connect with other Telecommunications Network Inventory users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication)
+-   Connect with other Telecommunications Network Inventory users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
 

@@ -1,18 +1,18 @@
 ---
 title: Set up a sales team for forecast hierarchy
-description: The system administrator can create groups, sales teams, associating them with specific managers. The sales hierarchy determines how the forecast rolls up in your company and how it can be viewed.
+description: The system administrator can create groups, sales teams, associating them with specific managers. The sales hierarchy determines how the forecast rolls up within your company and how it can be viewed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/setup-sales-group.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales forecasting, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a sales team for forecast hierarchy
 
-The system administrator can create groups, sales teams, associating them with specific managers. The sales hierarchy determines how the forecast rolls up in your company and how it can be viewed.
+The system administrator can create groups, sales teams, associating them with specific managers. The sales hierarchy determines how the forecast rolls up within your company and how it can be viewed.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Once the users, teams, and opportunity data are added, along with selection of category, you can view the sales forecast for any group or specific sales team on the Sales Forecast dashboard on the CSM workspace.
+Once the users, teams, category, and opportunity data are added, you can view the sales forecast for any group or specific sales team on the Sales Forecast dashboard.
 
 ## Procedure
 
@@ -45,4 +45,11 @@ Once the users, teams, and opportunity data are added, along with selection of c
 
     The new team is created and added on the Groups page.
 
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-forecasting.md)
 

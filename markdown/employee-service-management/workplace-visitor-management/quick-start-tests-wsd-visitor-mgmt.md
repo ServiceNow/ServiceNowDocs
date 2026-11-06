@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -48,7 +48,13 @@ Workplace Visitor Management provides quick start test that you can run on your 
 
 [Create a record producer for visitor management]()
 
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
 [Create a visitor badge template]()
+
+[Configure the frequency of email notifications]()
 
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

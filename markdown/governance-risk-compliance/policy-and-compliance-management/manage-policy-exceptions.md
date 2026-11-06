@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -31,5 +31,5 @@ From the ServiceNow® Portal, anyone who has requested a policy exception can re
 -   **[Policy Exception Integration with Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/request-pe-from-vr.md)**  
 Starting with Version 10.1, you can request policy exceptions using the GRC policy exception management capability inherent in the Policy and Compliance Management application from within version 10.3 of the Vulnerability Response application.
 
-**Parent Topic:**[Classic UI for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

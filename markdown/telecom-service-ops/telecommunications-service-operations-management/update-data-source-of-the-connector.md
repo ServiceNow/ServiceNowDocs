@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Telecom Discovery Builder, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Update the data source of the connector
@@ -40,5 +40,5 @@ The following screenshot can help you to replace the default source with your co
 **Related topics**  
 
 
-[Deploy a new service graph connector with existing ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.md)
+[Deploy service graph connector with existing ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.md)
 

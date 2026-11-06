@@ -111,7 +111,7 @@ Role required: awa\_admin
 
 6.  In the same tab, select **Prioritize AI agents**.
 
-    Choosing to prioritize AI agents routes possible relevant work to the AI specialist first. This allows the AI specialist to triage the task and evaluate its ability to propose an acceptable solution. If it isn't confident, or if the work is outside its expertise, it can reassign to a human agent or different assignment group. For steps on configuring the routing criteria for reassignment, see [Edit the tasks of an AI specialist in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aiw-tasks-new.md).
+    Choosing to prioritize AI agents routes possible relevant work to the AI specialist first. This allows the AI specialist to triage the task and evaluate its ability to propose an acceptable solution. If it isn't confident, or if the work is outside its expertise, it can reassign to a human agent or different assignment group. For steps on configuring the routing criteria for reassignment, see .
 
     If you don't choose to prioritize AI agents, the AI specialist can still be assigned work from the work item queue.
 
@@ -128,5 +128,5 @@ Your L1 IT Service Desk AI Specialist is added to the AWA assignment rule as an 
 
 ### What to do next
 
-You can track the L1 IT Service Desk AI Specialist's performance and which records an AI specialist works on in AI Agent Studio. See [Review the performance of an AI specialist in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/view-aiw-performance-new.md) and [View the activity of an AI specialist in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/view-aiw-activity-new.md).
+You can track the L1 IT Service Desk AI Specialist's performance and which records an AI specialist works on in AI Agent Studio. See  and .
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the Government case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
@@ -30,7 +30,7 @@ Role required: admin
 
 2.  In the dropdown, select **Customer** &gt; **PSDS**.
 
-    \[Omitted image "image.psds-otto-ai-admin-hub"\] Alt text: AI skills for PSDS Customer workflow
+    \[Omitted image "psds-otto-ai-admin-hub.png"\] Alt text: AI skills for PSDS Customer workflow
 
 3.  On the Government case feature card, select **View Details**, then select **Case Summarization** under Active Skills.
 

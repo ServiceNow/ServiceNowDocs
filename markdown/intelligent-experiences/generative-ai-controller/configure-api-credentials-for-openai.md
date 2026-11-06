@@ -1,20 +1,20 @@
 ---
 title: Configure API credentials for OpenAI
-description: Configure your API credentials to use OpenAI in custom workflows and Virtual Agent Designer topics.
+description: Configure your API credentials to use OpenAI as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-openai.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure API credentials for OpenAI
 
-Configure your API credentials to use OpenAI in custom workflows and Virtual Agent Designer topics.
+Configure your API credentials to use OpenAI as your LLM provider for Generative AI Controller capabilities.
 
 ## Before you begin
 
@@ -45,11 +45,13 @@ To use models with Azure OpenAI as your LLM provider for Generative AI Controlle
 
 ## Result
 
-You can now use capabilities labeled with OpenAI in Flow Designer, Virtual Agent Designer, and scripts like background scripts and business rules to create custom experiences with generative AI.
+You can now use capabilities labeled with OpenAI as your LLM provider for Generative AI Controller capabilities.
 
 \[Omitted image "gai-created-connection.png"\] Alt text: Complete connection for OpenAI.
 
 ## What to do next
 
 If you want to use generative AI capabilities through your MID Server, open the new Connection record, select the **Use MID server** check box, and save the record.
+
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md).
 

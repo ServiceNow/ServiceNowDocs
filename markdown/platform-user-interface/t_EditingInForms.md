@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_EditingInForms.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -59,7 +59,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 3.  Right-click the form header and select one of the following options.
 
-<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d143874e223">
+<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d142538e223">
 
 **Insert**
 
@@ -67,7 +67,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 Saves the item as a new record and returns to the previously viewed page.
 
-</td></tr><tr><td id="d143874e232">
+</td></tr><tr><td id="d142538e232">
 
 **Insert and Stay**
 

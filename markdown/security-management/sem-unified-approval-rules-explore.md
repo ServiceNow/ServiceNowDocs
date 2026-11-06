@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-unified-approval-rules-explore.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -19,7 +19,7 @@ The Approvals landing page provides a comprehensive view of all approval request
 -   **Today’s approvals**: Approvals due for action today \(e.g., an unassignment request expiring by end of day\).
 -   **Pending approvals**: Approvals awaiting action beyond today across all request types.
 -   **Exception approvals**: Approvals specifically for exception requests \(e.g., a request to allow delayed patching of a high-risk vulnerability\).
--   **False positive approvals**: Approvals for requests flagged as false positives \(e.g., scanner incorrectly reporting a vulnerability on a host\).\[Omitted image "approvals\_view.png"\] Alt text:
+-   **False positive approvals**: Approvals for requests flagged as false positives \(e.g., scanner incorrectly reporting a vulnerability on a host\).
 -   **All approvals**: Consolidated list of all approvals, including exception, false positive, risk reduction, and unassignment \(e.g., a single view of everything awaiting your approval\).
 -   **Overdue approvals**: Approvals that have crossed their due date \(e.g., a risk reduction request that was supposed to be approved yesterday\).
 -   **Expiring exceptions**: Exceptions scheduled to expire within the next 7 days.

@@ -7,7 +7,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -34,6 +34,8 @@ Create a workflow state for a compliance case or request to define the life cycl
 Define the transition conditions to control how a compliance case traverses through the different workflow states by using the GRC: Compliance Case Management application.
 -   **[Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md)**  
 Create an assessment template to request responses from the assessor or reviewer. You can create this template by using the assessment metric type form in the GRC: Compliance Case Management application.
+-   **[Update a compliance case assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/update-ccm-asmt-template.md)**  
+Publish a new version of an assessment template in Compliance Case Management to revise its questionnaire and response options.
 
 **Parent Topic:**[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
 

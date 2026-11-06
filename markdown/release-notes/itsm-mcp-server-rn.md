@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/itsm-mcp-server-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ITSM MCP Server, Model Context Protocol, incident management, change management, ITSM MCP Server, ITSM MCP Server, change management, service catalog, change.query, change.relation, change.analyze]
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ITSM MCP Server release notes
@@ -44,7 +44,7 @@ See [ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-service-management-rn-landing.md)
 
-## Zurich Patch 13 and Version 3.3
+## Brazil Patch 1 and Version 3.3
 
 Some of the ITSM MCP tools have been renamed and have also been made available to fulfillers and requesters in ITSM MCP Server in this release.
 
@@ -66,7 +66,7 @@ Some of the ITSM MCP tools have been renamed and have also been made available t
     The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
 
 
-## Zurich Patch 11 and Version 3.2
+## Brazil Patch 0 and Version 3.2
 
 Manage incidents, change requests, request items, and on-call schedules with the ITSM MCP Server. Empower requesters to handle their own tickets and access shared tools for approvals and ITSM data queries.
 
@@ -117,6 +117,6 @@ Manage incidents, change requests, request items, and on-call schedules with the
     For example:
 
     -   Answer structured natural language questions about ITSM data, including details on incidents, change requests, and active catalog items using `itsm_knowledge_graph`.
-    -   Approve or reject your oldest pending approval for a change or request items using `task_approval_decision`.
+    -   Approve or reject your oldest pending approval for a change request or an incident using `task_approval_decision`.
     -   Get the authenticated user's current session time zone and the current date and time in that time zone using `get_session_timezone`.
 

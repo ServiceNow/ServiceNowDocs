@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-aws-shapes.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Amazon Web Services \(AWS\) shapes
@@ -67,7 +67,7 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |VPN Gateway \[Omitted image "modeling-aws-vpn-gateway.png"\] Alt text: VPM Gateway|A Virtual Private Network \(VPN\) Gateway enables secure connectivity between your AWS Virtual Private Cloud \(VPC\) and on-premises networks over an IPsec VPN tunnel. Place inside the VPC boundary to show hybrid connectivity.|
 |API Gateway \[Omitted image "modeling-aws-api-gateway.png"\] Alt text: API Gateway|Amazon API Gateway is a fully managed service for creating, publishing, and securing APIs at scale. Represented as the entry point for REST, HTTP, or WebSocket APIs, often linked to Lambda or backend services.|
 |Customer Gateway \[Omitted image "modeling-aws-customer-gateway.png"\] Alt text: Customer Gateway|Represents the on-premises endpoint for a VPN connection to AWS. Shown outside the AWS cloud, connected to VPN Gateway.|
-|Route 53 \[Omitted image "modeling-aws-route-53.png"\] Alt text: Route 53|AWS Route 53 is a scalable DNS and domain name management service. Typically placed at the edge for routing traffic to AWS resources or external endpoints.|
+|Route 53 \[Omitted image "modeling-aws-route-53.png"\] Alt text:|AWS Route 53 is a scalable DNS and domain name management service. Typically placed at the edge for routing traffic to AWS resources or external endpoints.|
 |Network ACL \[Omitted image "modeling-aws-network-acl.png"\] Alt text: Network ACL|A Network Access Control List provides stateless filtering of inbound and outbound traffic at the subnet level. Attach to subnets inside a VPC to indicate additional security.|
 |Internet Gateway \[Omitted image "modeling-aws-internet-gateway.png"\] Alt text: Internet gateway|Enables communication between resources in a VPC and the internet.Shown at the VPC edge for public connectivity|
 |VPN Connection \[Omitted image "modeling-aws-vpn-connection.png"\] Alt text: VPN connection|Represents the secure IPsec tunnel between AWS VPN Gateway and Customer Gateway. Connects hybrid environments for secure data transfer.|

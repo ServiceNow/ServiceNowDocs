@@ -1,20 +1,20 @@
 ---
-title: Transaction Manager use case: Calculate prices for line-level fields
-description: Transaction Manager can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
+title: ServiceNow Quote Experience use case: Calculate prices for line-level fields
+description: ServiceNow Quote Experience can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/transaction-manager-use-case-calculate-prices-for-line-level-fields.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Transaction Manager: Use cases, Transaction Manager, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager use case: Calculate prices for line-level fields
+# ServiceNow Quote Experience use case: Calculate prices for line-level fields
 
-Transaction Manager can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
+ServiceNow Quote Experience can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
 
-In the Transaction Manager, we can apply rules on line-level fields to cover various price calculations relevant to selected products. These calculations adapt dynamically to changes, such as the addition or removal of products. This article outlines a use case involving three types of price calculations and the steps required to configure them.
+In the ServiceNow Quote Experience, we can apply rules on line-level fields to cover various price calculations relevant to selected products. These calculations adapt dynamically to changes, such as the addition or removal of products. This article outlines a use case involving three types of price calculations and the steps required to configure them.
 
 The use case involves three types of price calculations:
 
@@ -25,7 +25,7 @@ The use case involves three types of price calculations:
 ## Step 1: Create Custom Fields
 
 -   Navigate to ServiceNow CPQ Admin &gt; Transaction &gt; Associated Fields.
--   Create all the custom fields required for your use case. For the detailed steps on how to create fields, see [Transaction Manager: Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-fields.md).
+-   Create all the custom fields required for your use case. For the detailed steps on how to create fields, see [Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-tm-fields.md).
 
 In this example, we intend to use the following fields:
 
@@ -39,7 +39,7 @@ In this example, we intend to use the following fields:
 
 -   **Subscription Term \(Months\)**
 
-    Custom header \(Number type\) field that calculates the difference between the start date and end date, displaying the subscription term. For the detailed steps on how to do DateTime field calculations, see [Transaction Manager: Date and Time Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-date-and-time-fields.md).
+    Custom header \(Number type\) field that calculates the difference between the start date and end date, displaying the subscription term. For the detailed steps on how to do DateTime field calculations, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-tm-date-time-field-behavior.md).
 
 -   **Target Line Item Discount**
 
@@ -74,7 +74,7 @@ In this example, we intend to use the following fields:
 
 ## Step 2: Add fields to layout
 
-Map the configured fields into the appropriate layout for visibility. For the detailed steps, see [Transaction Manager: Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-layouts.md).
+Map the configured fields into the appropriate layout for visibility. For the detailed steps, see [Set up layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/layout_csv_101.md).
 
 ## Step 3: Create the rules
 
@@ -86,24 +86,24 @@ Three rules are to be created:
 
 Follow these steps:
 
-1.  Navigate to Related Rules &gt; New Rule.
-2.  Enter the name of the rule and select Transaction Line as the rule type.
-3.  Save the rule.
+1.  In **Related Rules**, click **New Rule**.
+2.  Enter the name of the rule and select **Transaction Line** as the rule type.
+3.  Click **Save**.
 
 \[Omitted image "cpq-txn-mgr-use-case-calc-prices-new-rule.jpeg"\] Alt text: Steps to Configure Line-Level Price Calculations
 
 ## Step 4: Create and configure rule actions
 
-1.  Select Determination as the action type for the rule.
+1.  Select **Determination** as the action type for the rule.
 2.  Define the rule’s conditions and action items.
 3.  Add the advanced script to perform the calculation for Use Case 1 \(Annual List Price\). Refer to the snapshot below.
 
     \[Omitted image "cpq-txn-mgr-use-case-calc-prices-case-1.jpeg"\] Alt text: Steps to Configure Line-Level Price Calculations
 
-4.  Save the rule.
-5.  Repeat steps 1 through 3 to configure rules for Use Case 2 \(Unit Net\) and Use Case 3 \(Extended Net\). Refer to the snapshots below.
+4.  Click **Save**.
+5.  Repeat steps 1 through 4 to configure rules for Use Case 2 \(Unit Net\) and Use Case 3 \(Extended Net\). Refer to the snapshots below.
 
-Use Case 2 \(Unit Net\) - Edit Net pricing calc:
+Use Case 2 \(Unit Net\) - Edit Net pricing calculation:
 
 \[Omitted image "cpq-txn-mgr-use-case-calc-prices-case-2.jpeg"\] Alt text: Use Case 2 \(Unit Net\): Edit Net pricing calc
 
@@ -113,7 +113,7 @@ Use Case 3 \(Extended Net\) - Edit Calculate annual extended net price:
 
 ## Step 5: Associate rules to rule groupings
 
-1.  Navigate to the Transaction Admin page → Rule Groupings → Add Rule Grouping. Enter the variable name as the stage in which rule should run \(Draftstage\), and then click **Save**.
+1.  On the Admin page, click **Rule Groupings**, and then click **Add Rule Grouping**. Enter the variable name as the stage in which rule should run \(Draftstage\), and then click **Save**.
 
     \[Omitted image "cpq-txn-mgr-use-case-calc-prices-new-rule-grouping.png"\] Alt text: Edit Calculate annual extended net price
 
@@ -124,7 +124,7 @@ Use Case 3 \(Extended Net\) - Edit Calculate annual extended net price:
     3.  Click **Done**.
     \[Omitted image "cpq-txn-mgr-use-case-calc-prices-associate-rule.png"\] Alt text: Edit Calculate annual extended net price
 
-3.  To actually link the newly created rule grouping with the stage \(Draft in the sample use case\) where your rules should run, Navigate to Transaction → Stages → Draft → Rule groupings. Search the new rule grouping, select, and then click **Save**.
+3.  To link the newly created rule grouping with the stage \(Draft in the sample use case\) where your rules should run, click **Stages** on the transaction page. Click **Draft**, and then click **Rule groupings**. Search the new rule grouping, select, and then click **Save**.
 
     \[Omitted image "cpq-txn-mgr-use-case-calc-prices-draft.png"\] Alt text: Edit Calculate annual extended net price
 
@@ -141,5 +141,5 @@ Below is an example of the final implementation:
 
 [Final output](https://api.media.atlassian.com/file/0b8f679f-9b7c-4588-945d-7175d097d500/artifact/video_1280.mp4/binary/cdn?client=71a95134-cb5f-4d3c-a7e7-bf5197602cec&collection=contentId-1923481616&max-age=2592000&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3MWE5NTEzNC1jYjVmLTRkM2MtYTdlNy1iZjUxOTc2MDJjZWMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xOTIzNDgxNjE2IjpbInJlYWQiXX0sImV4cCI6MTc2MzQwMjI3MiwibmJmIjoxNzYzMzk5MzkyLCJhYUlkIjoiNzEyMDIwOmE3MmMwNDYwLWM0OWEtNDAyZS1iNWJjLWE5NWIxZjk4ZjMxNCJ9.j9CHqPDPWPN-towOqICAF484FBEZOzgkFg9upnWT7js)
 
-**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-use-cases.md)
 

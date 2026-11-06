@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Integrating Proactive Service Experience Workflows with southbound external systems
@@ -22,7 +22,7 @@ When the tests are executed, requests are sent to the southbound test and diagno
 
 Using this integration, a Communications Service Provider \(CSP\) can do the following tasks:
 
--   Trigger outbound requests for one or more service test runs by using the TeleManagement Forum \(TMF\) 653 Open POST order API. To learn more, see [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-test-management-api.md).
+-   Trigger outbound requests for one or more service test runs by using the TeleManagement Forum \(TMF\) 653 Open POST order API.
 -   Share updates with the external systems about the inflight changes to the existing test runs that have outbound requests.
 -   Manage the inbound response of the outbound requests for the test run.
 -   Manage the errors and exceptions for the outbound requests and inbound responses.
@@ -38,7 +38,7 @@ The integration process for with the external service test management systems is
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.
 
-        For more information on setting up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/settingup-test-specifications.md).
+        For more information on setting up test definitions, see .
 
     2.  The generated payload is sent to the endpoint of the external fulfillment system.
 

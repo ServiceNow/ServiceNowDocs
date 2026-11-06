@@ -7,9 +7,9 @@ release: zurich
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Virtual Agent Conversations, Setting up Field Service Mobile Agent, Configure, Field Service Management]
+breadcrumb: [Set up Virtual Agent conversations, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Activate required Virtual Agent conversation topics for Field Service Management

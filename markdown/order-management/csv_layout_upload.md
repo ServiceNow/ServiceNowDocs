@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/csv\_layout\_upload.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Set up layouts, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # CSV layout upload
@@ -28,7 +28,7 @@ Access a layout from its corresponding blueprint administration page.
 
 \[Omitted image "cpq-csv-layout-upload-layouts-tab.png"\] Alt text: CSV layout upload
 
-To start a new layout, click **Add Layout**. To edit an existing layout, click the name of a layout in the list.
+To start a new layout, click **Create Layout**. To edit an existing layout, click the name of a layout in the list.
 
 You can also edit a layout in the Layout Wizard. After you redeploy your blueprint, the new UI changes appear on the buyside.
 

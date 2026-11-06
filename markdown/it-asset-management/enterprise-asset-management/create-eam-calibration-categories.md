@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a calibration category for your enterprise asset calibrations
@@ -28,25 +28,25 @@ For more details on calibration attributes, see [Add calibration attributes to a
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Admin center view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Admin center view, navigate to **Calibration configuration** &gt; **Category**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Category**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of the calibration category.|
     |Description|Detailed description of the calibration category.|
 
-5.  Select **Save**.
+6.  Select **Save**.
 
 
 ## Result
 
 The calibration category is available to use in your calibration attributes.
-
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

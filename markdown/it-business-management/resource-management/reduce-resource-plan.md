@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ You're encouraged [migrate your existing resource plans](https://raw.githubuserc
 
 Resource requester can [move an assigned or unassigned resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/move-ra-rmw.md) using Resource Management Workspace.
 
-Role required: resource\_manager
+Role required: resource\_user, resource\_manager
 
 ## About this task
 
@@ -79,7 +79,7 @@ Say a resource plan was created for 1 FTE from January 1, 2021, to December 31, 
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

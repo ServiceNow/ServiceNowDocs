@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-task-plan-template-exec.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

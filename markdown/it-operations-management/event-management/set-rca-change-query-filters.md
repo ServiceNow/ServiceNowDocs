@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Probable Root Cause Analysis \(RCA\), Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -58,7 +58,7 @@ Default value
 
 </th></tr></thead><tbody><tr><td>
 
-sa\_analytics.rca.filter\_category
+**sa\_analytics.rca.filter\_category**
 
 </td><td>
 
@@ -74,7 +74,7 @@ string
 
 </td></tr><tr><td>
 
-sa\_analytics.rca.filter\_type
+**sa\_analytics.rca.filter\_type**
 
 </td><td>
 
@@ -90,7 +90,7 @@ string
 
 </td></tr><tr><td>
 
-sa\_analytics.rca.filter\_state
+**sa\_analytics.rca.filter\_state**
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development, Strategic Portfolio Management]
 ---
 
 # Performance Analytics Content Pack for Agile 2.0
@@ -42,8 +42,6 @@ The Platform Analytics Content Pack for Agile 2.0 includes the following preconf
 
 For more information about using these dashboards, see [Agile Development process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-development-process-flow.md).
 
--   **[Install Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/install-configure-agile-dashboard.md)**  
-Install the Performance Analytics Content Pack for Agile 2.0 application from the ServiceNow Store.
 -   **[Enable daily data collection for Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/enable-daily-data-collection.md)**  
 Enable scheduled data collection to begin collecting scores on new data automatically. Data collection jobs automatically collect scores for automated indicators and breakdowns.
 -   **[Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md)**  
@@ -63,7 +61,7 @@ Team Dashboard provides a visualization of the team's progress on stories over a
 -   **[Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/customizing-dashboard-reports.md)**  
 Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your Agile 2.0 dashboards according to the custom states of your scrum stories.
 
-**Parent Topic:**[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md)
+**Parent Topic:**[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-development.md)
 
 **Related topics**  
 

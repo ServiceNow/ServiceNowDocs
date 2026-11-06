@@ -1,32 +1,32 @@
 ---
 title: Select a table data source for a data visualization
-description: Select a table whose records you wish to display. Filter by predefined or custom conditions. Preview a list of records.
+description: Select a table whose records you want to display. Filter by predefined or custom conditions. Preview a list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/select-table-data-source.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Selecting data sources, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Select a table data source for a data visualization
 
-Select a table whose records you wish to display. Filter by predefined or custom conditions. Preview a list of records.
+Select a table whose records you want to display. Filter by predefined or custom conditions. Preview a list of records.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
-This procedure assumes you are in the process of creating or editing a data visualization and need more information about selecting the data source. It also assumes you are working in either the Visualization Designer or the inline dashboard editor. More options are available in the UI Builder.
+This procedure assumes you're in the process of creating or editing a data visualization and need more information about selecting the data source. It also assumes you're working in either the Visualization Designer or the inline dashboard editor. More options are available in the UI Builder.
 
 \[Omitted image "dv-table-data-source-ex.png"\] Alt text: A completed Add data source form for a table data source, with a predefined filter selected.
 
 ## Procedure
 
-1.  Start to create a new data visualization, or open an existing visualization for editing.
+1.  Start to create a data visualization, or open an existing visualization for editing.
 
     For more information, see [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md).
 
@@ -71,7 +71,9 @@ This procedure assumes you are in the process of creating or editing a data visu
 
 [Select an indicator data source for a data visualization]()
 
-[User Experience Analytics data sources for data visualizations]()
+[Select a Workflow Data Fabric data source for a data visualization]()
+
+[Usage Insights data sources for data visualizations]()
 
 [Multiple data sources]()
 

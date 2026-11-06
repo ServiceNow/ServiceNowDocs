@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/console-onboarding-wizard.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -28,25 +28,21 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
 
 2.  When the name displays, select the tool.
 
-    \[Omitted image "image.onboarding-tab"\] Alt text: Onboarding tool
-
-    \[Omitted image "image.new-config-wizard-tool"\] Alt text: Configuration Wizard
+    \[Omitted image "new-config-wizard-tool.png"\] Alt text: Configuration Wizard
 
 3.  The configuration wizard opens in the Console.
 
-    \[Omitted image "image.wizard-intro-screen"\] Alt text: Configuration wizard panel
+    \[Omitted image "wizard-intro-screen.png"\] Alt text: Configuration wizard panel
 
-    \[Omitted image "image.new-config-wizard-tool-window"\] Alt text: Configuration Wizard panel
+    \[Omitted image "new-config-wizard-tool-window.png"\] Alt text: Configuration Wizard panel
 
-4.  You can collapse the wizard to the right side of the Console screen by selecting the \[Omitted image "image.move"\] Alt text: Collapse icon in the top, right corner of your screen.
+4.  You can collapse the wizard to the right side of the Console screen by selecting the \[Omitted image "move.png"\] Alt text: Collapse icon in the top, right corner of your screen.
 
     Move the wizard to the right \(collapse\) to improve Console visibility.
 
-    To expand and center the wizard on the screen, select the \[Omitted image "image.widen"\] Alt text: expand icon.
+    To expand and center the wizard on the screen, select the \[Omitted image "widen.png"\] Alt text: expand icon.
 
-    \[Omitted image "image.wizard-collapsed-to-right"\] Alt text: Wizard collapsed
-
-    \[Omitted image "image.new-config-wiz-folded"\] Alt text: Wizard collapsed
+    \[Omitted image "new-config-wiz-folded.png"\] Alt text: Wizard collapsed
 
 5.  The wizard steps you through tasks such as configuring your Console, connecting the Sensor and Collector, creating a site, and creating Auto Queries.
 
@@ -56,4 +52,6 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
 
 8.  You can open the configuration wizard on any Console page by selecting the **Tool** wand.
 
+
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-console-landing.md)
 

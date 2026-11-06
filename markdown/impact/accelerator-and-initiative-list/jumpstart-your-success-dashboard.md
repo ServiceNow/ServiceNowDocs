@@ -7,20 +7,24 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Success Dashboard
 
 Demonstration of what is possible with the Success Dashboard using your data via a temporary instance.
 
-## Overview
+## Accelerator Overview
 
 The Jumpstart Your Success Dashboard provides Impact Customers with an overview of the Success Dashboard, which aims to help Customers gain visibility into their ITSM and/or HR product success metrics. It includes an applied demonstration of the Success Dashboard, a guided tour of its features and benefits via a temporary instance containing your cloned data, and leading practices on getting started.
 
-Offered pursuant to the applicable [Impact Accelerator Description](https://www.servicenow.com/legal/servicenow-impact.html)
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 

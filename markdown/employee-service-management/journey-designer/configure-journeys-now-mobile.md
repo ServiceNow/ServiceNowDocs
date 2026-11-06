@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Configure Journey designer in Now Mobile to enable managers, mentors, and employ
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_jny.admin
 
 Plugins: Journey designer \(sn\_jny\), Journey Accelerator \(sn\_ja\), HR Service Delivery for mobile \(sn\_hr\_mobile\)
 

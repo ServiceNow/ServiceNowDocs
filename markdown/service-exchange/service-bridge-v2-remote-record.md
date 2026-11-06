@@ -7,9 +7,10 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create remote catalogs, Install and configure for provider, Service Exchange for Providers, Service Exchange]
+keywords: [remote record producer, service catalog, provider task, consumer request]
+breadcrumb: [Remote catalogs, Explore, Service Exchange]
 ---
 
 # Remote record producers in Service Exchange
@@ -18,7 +19,7 @@ Remote record producers in Service Exchange for Providers are service requests p
 
 ## Overview of record producers
 
-Remote record producers contain the variables that determine the information that a consumer can or must provide to submit a request. When a remote record producer is submitted from the consumer's service catalog, it generates a Provider Task record on the provider's instance and triggers a Create Case, Create Incident, or Create Change Request fulfillment task.
+Remote record producers contain the variables that determine the information that a consumer can or must provide to submit a request. When a remote record producer is submitted from the consumer's service catalog, it generates a Provider Task record on the provider's instance. System also triggers a Create Case, Create Incident, or Create Change Request fulfillment task.
 
 As the task moves through the fulfillment flow in the provider's instance, updates are visible in both the provider and the consumer's ServiceNow instances.
 

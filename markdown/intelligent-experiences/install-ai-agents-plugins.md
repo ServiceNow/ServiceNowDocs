@@ -1,18 +1,18 @@
 ---
-title: Install ServiceNow Otto AI agents
-description: Install ServiceNow Otto AI agents on your ServiceNow instance to enable the agentic AI experience.
+title: Install ServiceNow Otto AI Agents
+description: Install ServiceNow Otto AI Agents on your ServiceNow instance to enable the agentic AI experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/install-ai-agents-plugins.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Install ServiceNow Otto AI agents
+# Install ServiceNow Otto AI Agents
 
-Install ServiceNow Otto AI agents on your ServiceNow instance to enable the agentic AI experience.
+Install ServiceNow Otto AI Agents on your ServiceNow instance to enable the agentic AI experience.
 
 ## Before you begin
 
@@ -20,13 +20,13 @@ To get started with AI agents, you must have:
 
 -   **License requirements**: A ServiceNow Otto Pro Plus or Enterprise Plus license.
 
-    **Note:** A ServiceNow Otto License is required. ServiceNow Otto AI Agents is available to all users who have ServiceNow Otto.
+    **Note:** A ServiceNow Otto License is required. ServiceNow Otto AI Agents is available to all instances that have who have ServiceNow Otto.
 
--   **Instance requirements**: An instance on Zurich Patch 2 or later.
+-   **Instance requirements**: An instance on Australia Patch 1 or later.
 -   **Application requirements**: The following store applications and all the dependency applications must be installed and updated:
     -   ServiceNow Otto for IT or HRSD \(or other workflows\).
 
-        **Note:** ServiceNow Otto AI agents aren’t standalone applications that you can install directly. To enable AI agents on your instance, you must install and activate other ServiceNow Otto applications that include AI agents, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
+        **Note:** ServiceNow Otto AI Agents aren’t standalone applications that you can install directly. To enable AI agents on your instance, you must install and activate other ServiceNow Otto applications that include AI agents, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
 
     -   ServiceNow Otto AI Agents store application
 -   AI Search enabled on your instance.

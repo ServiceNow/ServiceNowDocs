@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/secondary-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ServiceNow AI agents as secondary agents
@@ -26,9 +26,9 @@ You can also choose between **Synchronous** and **Asynchronous** communication b
 
 You can connect your ServiceNow agent to other agentic AI model providers using the Agent2Agent protocol.
 
-After creating your AI agent in AI Agent Studio, you can direct to the Agent Card URL that is displayed for secondary agents for easy access so the admins can view, copy, and consume the URL.
+After creating your AI agent in AI Agent Studio, you can point to the Agent Card URL that is displayed for secondary agents for easy access so the admins can view, copy, and consume the URL.
 
-The endpoint to direct to the actual execution of the AI agent is in the format `{{instance}}.service-now.com/api/sn_aia/a2a/v2/agent/id/{{agent-id}}`.
+The endpoint to point to for the actual execution of the AI agent is in the format `{{instance}}.service-now.com/api/sn_aia/a2a/v2/agent/id/{{agent-id}}`.
 
 You can use the same OAuth or API key for authenticating the agent discovery and the agent execution.
 

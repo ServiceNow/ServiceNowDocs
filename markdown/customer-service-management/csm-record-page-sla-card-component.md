@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-record-page-sla-card-component.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Front-line case page, CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Task SLA cards component
@@ -20,7 +20,7 @@ The Task SLA cards component can display multiple SLAs. The cards are displayed 
 
 \[Omitted image "component-sla-card.png"\] Alt text: SLA card component with three SLA cards displayed in a carousel. Cards include the SLA name, time remaining and current status.
 
-The Task SLA cards component is available on the Front-line case page. Previously, the SLA information appeared in the Record Information tab in the contextual side panel. Agents can find SLA information in the left column above the contact and consumer lookup components.
+The Task SLA cards component is available on the Front-line case page in the contextual side panel. The SLA cards appear in the Record Information tab below below the record information card.
 
 The SLA cards display a visual presentation of SLA information that agents can use to check quickly where they are in the life cycle of the SLA.
 

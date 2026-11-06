@@ -7,8 +7,8 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Dispute Content Pack for US Regulations, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -29,15 +29,15 @@ The Dispute Content Pack for US Regulations plugin installs components such as S
 
 The Dispute Content Pack for US Regulations application includes no new tables.
 
-## Decision tables
-
-|Decision table|Description|
-|--------------|-----------|
-|Reg E resolution days |Determines the Reg E resolution days for a case. The default duration is set to 45 days.|
-
 ## Service Level Agreement \(SLA\) definitions installed
 
-The following SLA definitions are added with Dispute Content Pack for US Regulations.
+The following SLA definitions are preconfigured with Dispute Content Pack for US Regulations.
+
+**Note:** Billing cycle date and Statement date are retrieved from the financial account via core banking integrations.
+
+An SLA will not trigger if the billing cycle days or statement generation date are empty.
+
+SLA durations are calculated from key regulatory dates — primarily the dispute reported date, and, for Reg Z, the statement date and billing cycle date. When a task is created after the dispute is reported \(for example, provisional credit\), the elapsed time between the reported date and task creation is accounted for so the SLA still reflects the regulatory window.
 
 <table id="table_w3s_lxz_zbc"><thead><tr><th>
 
@@ -47,6 +47,10 @@ SLA
 
 Table \[name\]
 
+</th><th>
+
+SLA duration
+
 </th></tr></thead><tbody><tr><td>
 
 Reg E 10day provisional limit
@@ -54,6 +58,10 @@ Reg E 10day provisional limit
 </td><td>
 
 Card Disputes Task \[sn\_bom\_credit\_card\_disputes\_task\]
+
+</td><td>
+
+10 days minus &lt;Days elapsed between dispute reported date and task creation date&gt;
 
 </td></tr><tr><td>
 
@@ -63,13 +71,21 @@ Reg E 20day provisional limit
 
 Card Disputes Task \[sn\_bom\_credit\_card\_disputes\_task\]
 
+</td><td>
+
+20 days minus &lt;Days elapsed between dispute reported date and task creation date&gt;
+
 </td></tr><tr><td>
 
 Reg E 45day resolution limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
+
+</td><td>
+
+45 days from dispute reported date
 
 </td></tr><tr><td>
 
@@ -77,7 +93,11 @@ Reg E 90day resolution limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
+
+</td><td>
+
+90 days from dispute reported date
 
 </td></tr><tr><td>
 
@@ -85,7 +105,11 @@ Reg E acknowledgement limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
+
+</td><td>
+
+10 days from dispute reported date
 
 </td></tr><tr><td>
 
@@ -95,13 +119,21 @@ Reg E PC reversal limit
 
 Card Disputes Task \[sn\_bom\_credit\_card\_disputes\_task\]
 
+</td><td>
+
+5 days minus &lt;Days elapsed between dispute reported date and task creation date&gt;
+
 </td></tr><tr><td>
 
 Reg Z acknowledgement limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
+
+</td><td>
+
+30 days, starts from dispute reported date \(stops when Acknowledgement is marked "yes"\)
 
 </td></tr><tr><td>
 
@@ -109,7 +141,11 @@ Reg Z resolution limit
 
 </td><td>
 
-Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
+Card Disputes Transaction\[sn\_bom\_credit\_card\_disputes\_transaction\]
+
+</td><td>
+
+Starts from dispute reported date. Two complete billing cycles, no later than 90 calendar days from date of notice.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)

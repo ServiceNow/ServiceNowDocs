@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing agents and tasks from Workforce, Workforce, Use, Field Service Management]
+breadcrumb: [Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---
 
 # Using the map
@@ -26,6 +26,8 @@ The map uses icons to display:
 -   Agent home location
 -   Assignment group locations
 -   Task locations
+-   Event locations
+-   Personal event locations when Workforce Optimization for Field Service is enabled
 
 |Icon|Description|
 |----|-----------|
@@ -52,4 +54,6 @@ The map uses icons to display:
 |\[Omitted image "home-location-multi.png"\] Alt text: Home location task.|Multiple tasks are assigned at the agent's home location.|
 |\[Omitted image "colocated-multi.png"\] Alt text: Co-located multiple.|More than one task, agent, or crew is at this location.|
 |\[Omitted image "colocted-P1.png"\] Alt text: Co-located P1.|More than one task, agent, or crew is at this location. At least one of the tasks at this location is a priority-1 task.|
+|\[Omitted image "personal-event.png"\] Alt text: Personal event|Indicates the location that a meeting or training personal event is located.|
+|\[Omitted image "colocated-event.png"\] Alt text: co-located event|Indicates the location that more than one meeting or training personal event is located.|
 

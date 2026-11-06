@@ -1,18 +1,18 @@
 ---
-title: Create an Operational Technology Discovery schedule and run the Discovery process
-description: Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+title: Create and run the OT Discovery schedule and the Discovery process
+description: Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/run-discovery-for-operational-technology.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [IT Discovery for Operational Technology \(OT\) Networks, Operational Technology Discovery, Operational Technology]
 ---
 
-# Create an Operational Technology Discovery schedule and run the Discovery process
+# Create and run the OT Discovery schedule and the Discovery process
 
-Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 
 ## Before you begin
 
@@ -28,57 +28,57 @@ Role required: ot\_discovery\_admin
 
 1.  Navigate to **All** &gt; **OT Discovery** &gt; **OT Discovery Schedules**.
 
-2.  Run Quick Discovery or select or create an OT discovery schedule.
+2.  Run Quick Discovery or select or create an OT Discovery schedule.
 
-<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26692e152">
+<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26587e154">
 
 Task
 
-</th><th align="left" id="d26692e155">
+</th><th align="left" id="d26587e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26692e161">
+</th></tr></thead><tbody><tr><td id="d26587e163">
 
 **Run an immediate Quick Discovery**
 
 </td><td>
 
-Click **Quick Discovery** and do the following actions:1.  In the **Target IP** field, enter the IP address in which the Discovery for the OT process should run.
+Select **Quick Discovery** and do the following actions:1.  In the **Target IP** field, enter the IP address in which the Discovery for the OT process should run.
 2.  In the **MID Server** field, select the MID Server in which the Discovery process should run.
-3.  Click **OK**.
+3.  Select **OK**.
 
 
-</td></tr><tr><td id="d26692e203">
+</td></tr><tr><td id="d26587e205">
 
-**Select or create an OT discover schedule**
+**Select or create an OT Discovery schedule**
 
 </td><td>
 
-1.  Select an existing OT discovery schedule or click **New** to create a new one.
+1.  Select an existing OT Discovery schedule or select **New** to create a new schedule.
 2.  Perform the steps that follow to create the OT discovery schedule record in the OT Discovery Schedule form.
 
 
 </td></tr></tbody>
 </table>3.  In the form, fill in the OT Discovery Schedule fields.
 
-<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26692e236">
+<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26587e244">
 
 Field
 
-</th><th align="left" id="d26692e239">
+</th><th align="left" id="d26587e247">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26692e245">
+</th></tr></thead><tbody><tr><td id="d26587e253">
 
 **Name**
 
 </td><td>
 
-Unique, descriptive name for your OT discovery schedule.
+Unique, descriptive name for your OT Discovery schedule.
 
-</td></tr><tr><td id="d26692e254">
+</td></tr><tr><td id="d26587e265">
 
 **Discover**
 
@@ -92,7 +92,7 @@ Uses Discovery identifiers to match devices with configuration items \(CIs\) in 
 
 Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but do not update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
 
-</td></tr><tr><td id="d26692e308">
+</td></tr><tr><td id="d26587e316">
 
 **Default Purdue level**
 
@@ -107,11 +107,13 @@ Purdue level that you want the OT discovery schedule to run in or select **--Non
 
     |Task|Description|
     |----|-----------|
-    |**Run Discovery immediately**|Click the **Discover now** related link.|
-    |**Run Discovery at the time designated in the OT discovery schedule**|Click **Update**.|
+    |**Run Discovery immediately**|Select the **Discover now** related link.|
+    |**Run Discovery at the time designated in the OT discovery schedule**|Select **Update**.|
 
 
 ## Result
 
 When the IT Discovery for OT Networks process runs, it creates a history record in the Discovery Status related list.
+
+**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/discovery-for-operational-technology.md)
 

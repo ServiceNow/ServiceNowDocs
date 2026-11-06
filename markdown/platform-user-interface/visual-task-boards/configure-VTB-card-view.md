@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with VTB cards, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Configure the card view on a Visual Task Board
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the form you want to configure fields for.
 
-2.  Select the Additional actions icon from the header\(\[Omitted image "additionalIcon.png"\] Alt text: Additional actions icon\), and then select **Configure** &gt; **Form Layout**.
+2.  Select the Additional actions icon from the header\(\[Omitted image "additionalIcon.png"\] Alt text: Additional icon\), and then select **Configure** &gt; **Form Layout**.
 
 3.  Under the Form view and section, select the VTB view.
 

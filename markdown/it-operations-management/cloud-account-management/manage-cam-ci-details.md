@@ -1,28 +1,28 @@
 ---
-title: Managing the Cloud Workspace asset details
-description: This page allows the user to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
+title: Managing the Cloud Account Management cloud asset details
+description: Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/manage-cam-ci-details.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Managing the Cloud Workspace asset details
+# Managing the Cloud Account Management cloud asset details
 
-This page allows the user to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
+Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 
-The cloud asset page is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this page to examine and edit cloud asset attributes, relationships, tags, services and offerings, and account health. You can also view data associated with the cloud asset, resources, activities, and related services.
+The cloud asset form is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this form to examine and edit cloud asset attributes, relationships, tags, services and offerings, and account health. You can also view data associated with the cloud asset, resources, activities, and related services.
 
-The following sections describe the various sections of the cloud asset page.
+The following sections describe the various sections of the cloud asset form.
 
 ## Summary
 
-The Summary section provides a consolidated view of key information for the selected configuration item \(CI\). This page helps you quickly access metadata, ownership details, operational status, discovery timestamps, and critical attributes required for monitoring and decision-making.
+The Summary section provides a consolidated view of key configuration item \(CI\) information for a Virtual Machine \(VM\) instance. This page helps you quickly access metadata, ownership details, operational status, discovery timestamps, and critical attributes required for monitoring and decision-making.
 
 ## Attributes
 
@@ -72,5 +72,5 @@ This section shows aggregations from the latest CMDB Health test results for the
 
 **Note:** For more information on each section, see [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ci-form-cmdb-workspace.md).
 
-**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cam-reference.md)
+**Parent Topic:**[Viewing the cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md)
 

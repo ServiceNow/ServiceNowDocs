@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto Chat Integration, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Upload Java KeyStore certificate
@@ -56,7 +56,7 @@ Certificate authentication creates encrypted communication between your ServiceN
 
     2.  Select the info icon \(\[Omitted image "info-icon.png"\] Alt text: preview icon\), select **Open Record** in the pop-up, and select Global scope.
 
-        \[Omitted image "mw-jws-key.png"\] Alt text: Moveworks JWT key password
+        \[Omitted image "image.mw-jws-key"\] Alt text: Moveworks JWT key password
 
     3.  In the Moveworks JWT key window, enter the same **Key Store Password** in the **Signing Key** field.
 
@@ -76,5 +76,5 @@ Upload the `.crt` file to Moveworks in the **Webchat Credentials** field under *
 **Related topics**  
 
 
-[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

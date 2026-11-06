@@ -7,7 +7,7 @@ release: zurich
 product: Legal Simple Privacy
 classification: legal-simple-privacy
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -35,7 +35,7 @@ The privacy assessment legal request that was part of Legal Request Management h
 
     2.  From the list, select **Privacy Assessment**
 
-    3.  In the **Request record producer** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\)
+    3.  In the **Request record producer** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\)
 
     4.  If you aren’t able to edit the form in the current application scope, select the word **here** in the message at the top of the page.
 
@@ -61,7 +61,7 @@ The privacy assessment legal request that was part of Legal Request Management h
 
     3.  Select **Open Record**.
 
-    4.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\).
+    4.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
         If you are unable to edit the record, select **here** in the access message at the top of the form.
 
@@ -85,7 +85,7 @@ The privacy assessment legal request that was part of Legal Request Management h
 
         The Connected Content Catalog Item: Privacy Assessment form is displayed.
 
-    2.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\).
+    2.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
     3.  In the catalog items list, select the show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 

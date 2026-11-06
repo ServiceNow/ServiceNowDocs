@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 # Household widget
 
 The Household widget displays a list of household members that the logged in user is authorized representative for.
-
-\[Omitted image "hcls-widget-household.png"\] Alt text: Infographic widget displays people and their information that belongs toHousehold.
 
 ## Key features
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-skill-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a generative AI skill to an AI agent
@@ -28,7 +28,7 @@ Role required: sn\_aia.admin
 
 2.  Open the AI agent that you want to add a skill to and navigate to the Add tools and information section.
 
-3.  In the Add tool drop-down list, select **AI skill**.
+3.  In the Add tool drop-down list, select **Generative AI skill**.
 
 4.  On the form, fill in the fields.
 
@@ -131,6 +131,6 @@ Message to display to users during tool execution.-   In-progress message: Write
 </td></tr></tbody>
 </table>5.  Select **Add**.
 
-    A generative AI skill tool is added in the AI Skills section on the Add tools and information page.
+    A generative AI skill tool is added in the Skills section on the Add tools and information page.
 
 

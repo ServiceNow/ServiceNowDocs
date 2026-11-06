@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ The Case and Knowledge Management application enables you to standardize the doc
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-ckm.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 </td></tr></tbody>
 </table>## Additional resources

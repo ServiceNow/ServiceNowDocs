@@ -5,44 +5,60 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/Clone-UI.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Instance Clone, Configure core features, Administer]
+breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Clone Admin Console
 
 The Clone Admin Console is the user interface where administrators can manage, request, and monitor their instance clones.
 
-## Clone Home
+## Clone Activity
 
-The home page displays the current clones in your instance. Use the search bar to locate your clone.
+The Clone Activity tab is the default view when you open the Clone Admin Console. This tab displays a table of clone requests sorted by most recent, showing:
 
-Filter options enable you to locate a clone based on its status. To view a list of statuses, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-states.md).
+-   **CHG** — Change request number
+-   **Source Instance** — The instance being cloned from
+-   **Target Instance** — The instance being cloned to
+-   **State** — Clone status \(WIP, Complete, Error, Canceled, etc.\)
+-   **Scheduled Date/Time** — When the clone is scheduled to run
+-   **Started** — When the clone began
+-   **Completed** — When the clone finished
+-   **Duration** — How long the clone took
+-   **Profile Name** — The clone profile used
 
-**Note:** The clone home page displays clones requested through the Clone Admin Console. You can't view clones requested through the legacy request page `(clone_instance.do)` in the dashboard. To view legacy clones in either a grid or list view, navigate to **All** &gt; **Instance Clone** &gt; **Live Clones** &gt; **Clone History**.
+Use the search bar to locate a specific clone. Filter options enable you to locate clones based on their status. To view a list of statuses, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-states.md).
 
-\[Omitted image "cac-dashboard.png"\] Alt text: clone home dashboard.
+The **Request Clone** button in the upper right allows you to initiate a new clone request.
 
-## Configurations
+## Instance Overview
 
-The configurations tab displays an overview and information about clone instances and clone profiles. See [Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-configurations-tab.md) for more information.
+The Instance Overview tab lists all your instances and the date each instance was last cloned. Unlike Clone Activity, which lists every clone request, Instance Overview shows each instance only once, with the last clone date in a column. Use this page to quickly identify stale environments and prioritize refreshes.
 
-## Definitions
+## Help
 
-The definitions tab displays an overview for exclusions, preservers, and cleanup scripts. See [Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-exclusions-preservers-cleanupscripts.md) for more information.
+The Help tab provides access to Now Assist for Clone, links to clone-related knowledge base articles, and the installed version of the Clone Admin Console app. Now Assist for Clone is available starting with the Australia Patch 2 release. For more information, see [Clone help resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-help-resources.md).
 
-## Request clone
+## Configuration
 
-The clone request page contains guidance and explanations for how the various clone settings affect your clone. You can use the scheduling calendar to help to prevent timing conflicts with ServiceNow maintenance windows. To learn more about how to request a clone see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md).
+The Configuration tab consolidates all clone-related settings in a single menu, including:
 
-## Deprecated Clone Options
+-   **Overview** — Summary of clone instances and clone profiles
+-   **Exclusions** — Tables not copied during a clone
+-   **Preservers** — Data protected from being overwritten on the target instance
+-   **Cleanup Scripts** — Automated post-clone tasks
+-   **Clone Profiles** — Reusable templates for clone settings
+-   **Clone Instances** — Registered instances and their URLs
+-   **Multi-Instance View** — Consolidated clone activity across linked instances
 
-The clone option check box **Preserve users and related tables** was removed from the [Clone options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-options.md) in the Utah release. In some cases, past customizations to the clone request page or related to clone, may cause this field to remain on your form.
+For more information, see [Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-configurations-tab.md).
 
-**Important:** Selecting this deprecated field doesn't effect the user, role, or related tables during your clone.
+## Request a clone
 
-**Note:** Beginning with the Australia release, users attempting to access the legacy Instance Clone page, **clone\_instance.do**, are redirected instead to the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/Clone-UI.md). To view clone history for clones prior to the Australia release, view the legacy Clone History \[clone\_instance\] table.
+The clone request page contains guidance and explanations for how the various clone settings affect your clone. You can use the scheduling calendar to help prevent timing conflicts with ServiceNow maintenance windows.
 
-For more information about using Clone Admin Console instead of the legacy Instance Clone, see [KB1425858: Clone Admin Console: Quick Start Guide &amp; Instructions](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1425858).
+The **Request Clone** button allows you to initiate a new clone request.
+
+To learn more about how to request a clone see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md).
 

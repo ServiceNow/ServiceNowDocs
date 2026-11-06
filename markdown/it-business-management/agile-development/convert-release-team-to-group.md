@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Assignment groups in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Assignment groups in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Convert a release team to a group in Agile Development 2.0

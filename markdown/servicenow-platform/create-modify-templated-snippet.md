@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/create-modify-templated-snippet.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -98,14 +98,6 @@ Indicates what groups have access to the response template.Adding groups filters
 
 </td></tr><tr><td>
 
-Language
-
-</td><td>
-
-Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
-
-</td></tr><tr><td>
-
 Template body
 
 </td><td>
@@ -132,6 +124,8 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 </table>    The following GIF shows an example of an HR manager in the HR Service Delivery application creating a response template to escalate payroll discrepancy cases. The template is associated with the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, and a condition is set to filter on cases that match the Payroll Discrepancy HR service. The template text is pasted into the body, and then a variable for the subject person is added to the salutation.
 
     \[Omitted image "response-template.png"\] Alt text: Response Template
+
+    \[Omitted image "response-template-example.gif"\] Alt text: How you can create a response template with conditions and variables.
 
 4.  Click **Submit** or **Update**.
 

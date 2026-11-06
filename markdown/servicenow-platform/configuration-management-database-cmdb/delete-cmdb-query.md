@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Delete a CMDB query that is no longer used or needed.
 
 The query that you want to delete must be already saved.
 
-Role required: cmdb\_query\_builder \(contained for itil, itil\_admin, and asset\). Authorized users can delete a query created by another user.
+Role required: cmdb\_query\_builder. Authorized users can delete a query created by another user.
 
 ## Procedure
 

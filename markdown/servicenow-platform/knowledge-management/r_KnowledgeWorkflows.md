@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -108,8 +108,6 @@ You can send email notifications for approval workflows.
 -   Notify authors about the approval status of their knowledge articles.
 
 To send email notifications for approval workflows, enable the **Send notification to approvers and authors in article approval workflow** property \(**glide.knowman.enable\_approval\_notification**\). Beginning with New York, the property is enabled by default. Existing customers on release versions prior to New York can enable this property to send email notifications. Disable any custom notifications for article approvals before enabling this property. If the **glide.knowman.enable\_approval\_notification** property is not available, an administrator can create the property and set its value to `true`. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 
 **Related topics**  
 

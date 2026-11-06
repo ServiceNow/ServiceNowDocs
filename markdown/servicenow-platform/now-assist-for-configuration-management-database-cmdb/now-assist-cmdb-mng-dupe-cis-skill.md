@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: cmdb\_dedup\_admin and now\_assist\_panel\_user
 
 This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
 
-When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] appears in the toolbar of the workspace.
+When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] icon appears in the toolbar of the workspace.
 
 ## Procedure
 
@@ -71,15 +71,15 @@ Without actually running the remediation process, ServiceNow Otto generates a pr
 </td></tr></tbody>
 </table>3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d516004e234">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d521076e234">
 
 Option
 
-</th><th align="left" id="d516004e237">
+</th><th align="left" id="d521076e237">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d516004e243">
+</th></tr></thead><tbody><tr><td id="d521076e243">
 
 **Provide feedback for the summary**
 
@@ -87,7 +87,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d516004e258">
+</td></tr><tr><td id="d521076e258">
 
 **Copy the summary**
 
@@ -95,7 +95,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d516004e269">
+</td></tr><tr><td id="d521076e269">
 
 **Refresh the summary**
 

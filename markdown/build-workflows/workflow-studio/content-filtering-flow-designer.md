@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [User access to flows, Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [User access to flows, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Content filtering for Workflow Studio flows
@@ -224,10 +224,4 @@ Transform functions
 -   Any flow, subflow, or action that includes a transform function can be modified. The transform function is read-only.
 
 </td></tr></tbody>
-</table>-   **[Configure content filtering definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-content-filtering.md)**  
-Specify which content a user can access by creating content definitions.
--   **[Configure content filtering rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-content-filtering-rules.md)**  
-Use content filtering rules to specify the role a user must have to access content.
-
-**Parent Topic:**[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/user-access-flow-designer.md)
-
+</table>

@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Third party LMS integrations, Configure, Learning Core overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrate with third-party systems, Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Learning Core flows

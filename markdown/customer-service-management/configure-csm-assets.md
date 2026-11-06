@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-csm-assets.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -25,5 +25,5 @@ You can either import your existing assets using guided setup or create new asse
 **Related topics**  
 
 
-[Configure Install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-install-base.md)
+[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-install-base.md)
 

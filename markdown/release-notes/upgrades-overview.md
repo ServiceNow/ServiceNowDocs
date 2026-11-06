@@ -1,16 +1,16 @@
 ---
-title: Upgrade to the Zurich release
+title: Upgrade to the Brazil release
 description: Upgrading and patching your instance requires planning, testing, and validation. To ensure a safe and effective upgrade, read the release notes, create upgrade plans, and test your upgrade on non-production instances before upgrading your production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Zurich release notes]
+breadcrumb: [Brazil release notes]
 ---
 
-# Upgrade to the Zurich release
+# Upgrade to the Brazil release
 
 Upgrading and patching your instance requires planning, testing, and validation. To ensure a safe and effective upgrade, read the release notes, create upgrade plans, and test your upgrade on non-production instances before upgrading your production instance.
 

@@ -1,5 +1,5 @@
 ---
-title: Review CMDB Data Manager attestation tasks in CMDB Workspace
+title: Review attestation tasks in CMDB Workspace
 description: Review attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies. Check the physical existence of IT infrastructure or applications associated with CIs in the attestation task and then process those CIs as appropriate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [CIs attestation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Review CMDB Data Manager attestation tasks in CMDB Workspace
+# Review attestation tasks in CMDB Workspace
 
 Review attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies. Check the physical existence of IT infrastructure or applications associated with CIs in the attestation task and then process those CIs as appropriate.
 
@@ -31,13 +31,13 @@ Canceling an attestation task is available only for tasks that are in the 'In pr
 
 ## About this task
 
-After you receive notifications about attestation tasks assigned to you, check the actual IT infrastructure or applications that you own, and then process the CIs in the task accordingly. Initially, all the CIs in the attestation task are listed in a Not Yet Reviewed list and therefore require a review. Attested CIs are then moved to an Attested CIs list, while CIs you reject are moved to a separate Rejected CIs list. After processing all the CIs in the task, you can submit and complete the task. For general information about attestation and the flow of attestation, see [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md).
+After you receive notifications about CMDB Data Manager attestation tasks assigned to you, check the actual IT infrastructure or applications that you own, and then process the CIs in the task accordingly. Initially, all the CIs in the attestation task are listed in a Not Yet Reviewed list and therefore require a review. Attested CIs are then moved to an Attested CIs list, while CIs you reject are moved to a separate Rejected CIs list. After processing all the CIs in the task, you can submit and complete the task. For general information about attestation and the flow of attestation, see [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md).
 
 As you process the CIs in the task, only the fields **Attestation Status** \(values: **Attested**, **Rejected**, **Not Yet Reviewed**\), **Attested By**, and **Attested Date** are automatically updated. Also, details of your activities are captured in the activity stream of the task.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, in the navigation panel select the Tasks icon, and then, in the Tasks navigation panel, select **Attestation**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. In the navigation panel select the Tasks icon, and then, in the Tasks navigation panel select **Attestation**.
 
     Any attestation tasks that are assigned to you or to assignment groups you belong to, appear in the **Attestation tasks** tab in the My tasks section. Attestation tasks are associated with details such as the due dates and short descriptions for those tasks. Assignment groups that you are a member of, are also listed.
 
@@ -81,9 +81,9 @@ As you process the CIs in the task, only the fields **Attestation Status** \(val
 
     Use the following cards on the right hand bar to get help and status:
 
-    -   Select Attestation actions \(\[Omitted image "workspace-attestation-actions.png"\] Alt text: CMDB Workspace attestation actions.\) to get help on the possible actions you can take while reviewing CIs.
-    -   Select Attestation status \(\[Omitted image "workspace-attestation-status.png"\] Alt text: CMDB Workspace attestation status.\) to see your progress in reviewing and attesting CIs.
-    -   Select Smart detection status \(\[Omitted image "workspace-auto-attest-status.png"\] Alt text: CMDB Workspace smart detection status.\) to see if any CIs are candidates for auto-attestation and to apply auto-attestation if applicable.
+    -   Select Attestation actions \(\[Omitted image "workspace-attestation-actions.png"\] Alt text: Workspace attestation actions.\) to get help on the possible actions you can take while reviewing CIs.
+    -   Select Attestation status \(\[Omitted image "workspace-attestation-status.png"\] Alt text: Workspace attestation status.\) to see your progress in reviewing and attesting CIs.
+    -   Select Smart detection status \(\[Omitted image "workspace-auto-attest-status.png"\] Alt text: Workspace smart detection status.\) to see if any CIs are candidates for auto-attestation and to apply auto-attestation if applicable.
 6.  In the **Details** tab of the Attestation Review CIs pane, select the CIs that you are ready to process and select an action to apply to all selected CIs.
 
     -   Select the CIs that you can attest their existence and select **Attest** to move them to the Attested list.
@@ -100,7 +100,7 @@ As you process the CIs in the task, only the fields **Attestation Status** \(val
 
     -   Select any CIs that you identify as duplicates of other CIs and select **Remove duplicates from task**. In the Confirm removing duplicate CIs dialog box, enter an explanation and then select **Proceed**.
 
-        Those duplicate CIs are removed from the attestation task and a de-duplication task is generated for them, which is similar to the de-duplication tasks created by the Identification and Reconciliation Engine \(IRE\). For more details about how to process and remediate de-duplication tasks, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
+        Those duplicate CIs are removed from the attestation task and a de-duplication task is generated for them, which is similar to the de-duplication tasks created by the Identification and Reconciliation Engine \(IRE\). For more details about how to process de-duplication tasks to remediate duplicate CIs, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
         **Note:** Only an admin can undo this operation.
 

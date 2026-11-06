@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/run-scheduled-job-prod-offer-categories.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search for product catalog, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [AI Search for product catalog, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Run scheduled job to populate product offering categories
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Run the scheduled job called **Scheduled job to populate product\_offering\_categories glide list for product offerings** only if you've upgraded from a release before the Zurich release. This job adds the product offering categories field to the Product Offering table. If you're a new customer using the Zurich release or Zbooted, do not run this job.
+Run the scheduled job called **Scheduled job to populate product\_offering\_categories glide list for product offerings** only if you've upgraded from a release before the Brazil release. This job adds the product offering categories field to the Product Offering table. If you're a new customer using the Brazil release or Zbooted, do not run this job.
 
 ## Procedure
 
@@ -33,5 +33,12 @@ Run the scheduled job called **Scheduled job to populate product\_offering\_cate
 
 ## What to do next
 
-[Run the scheduled job to publish the stop words dictionary, search profiles, and index tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/run-sched-job-index-stopwords-profile.md).
+Run the scheduled job to index the tables, publish the stop word dictionary, and publish search profiles.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

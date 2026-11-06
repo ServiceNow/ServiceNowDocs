@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [HR services, HR Administration, Configure, Case and Knowledge Manag
 
 HR services are the requests and assistance an HR organization provides its employees. You can configure an HR service to define the request to fulfillment process for that case type.
 
-You can configure an HR case template to automatically populate fields on the HR case form when a request for that service is made. And if you need to make an existing HR service available for employee self-service, you can configure a record producer to make the service available as an HR catalog item in the HR service catalog.
+Configure an HR case template to auto-populate fields on the HR case form. To enable employee self-service, configure a record producer to add the service to the HR service catalog.
 
 For best results, do not configure multiple record producers to invoke a single HR service.
 

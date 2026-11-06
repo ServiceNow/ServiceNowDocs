@@ -7,20 +7,25 @@ release: zurich
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+keywords: [large scale deployment ServiceNow, ReleaseOps guided setup]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Complete ReleaseOps guided setup
 
 Starting with version 1.2.1 of ReleaseOps, guided setup helps to make the initial configuration of ReleaseOps easier. Follow the steps in guided setup to begin using ReleaseOps quickly.
 
+## About this task
+
+For more complex setup scenarios, or when making changes to your existing ReleaseOps ecosystem, use the procedure outlined in [ReleaseOps manual setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configure-new-releaseops-ecosystem.md).
+
+When completing guided setup, you define several kinds of instances for your ReleaseOps pipeline. To learn more about each instance, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/instances-in-releaseops-configuration.md).
+
 ## Before you begin
 
 Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
-
-When completing ReleaseOps guided setup, you define several kinds of instances for your ReleaseOps pipeline. To learn more about each instance, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/instances-in-releaseops-configuration.md).
 
 ## Procedure
 
@@ -122,4 +127,6 @@ When completing ReleaseOps guided setup, you define several kinds of instances f
 ## Result
 
 You have completed guided setup for ReleaseOps. You can start using ReleaseOps to manage your deployments. For more information, see [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/using-releaseops-to-manage-deployments.md).
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configuring-releaseops.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-10-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RMF step 0 - Prepare the authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -45,5 +45,5 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 
 This completes the procedure for defining the authorization boundary. The next step is to create the authorization package that will be processed through approvals. You can initiate the process by clicking the **Authorization Packages** tab or via the navigation pane. For details, see [Create an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/create-auth-package.md).
 
-**Parent Topic:**[Risk Management Framework \(RMF\) step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
+**Parent Topic:**[RMF step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
 

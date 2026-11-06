@@ -1,5 +1,5 @@
 ---
-title: Managing appointments in the CRM Workspace
+title: Managing appointments in the CSM Configurable Workspace
 description: Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers for the associated work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/managing-appts-from-csm-workspace.html
@@ -7,12 +7,12 @@ release: zurich
 product: Appointment Booking
 classification: appointment-booking
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments on behalf of a customer, Appointment booking, Use, Field Service Management]
+breadcrumb: [Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
-# Managing appointments in the CRM Workspace
+# Managing appointments in the CSM Configurable Workspace
 
 Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers for the associated work orders.
 

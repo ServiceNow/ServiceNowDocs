@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-internal-business-location.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up dealer, Configure, Manufacturing Commercial Operations]
 ---
@@ -46,8 +46,6 @@ The manager of an internal business location can access all the cases for accoun
 
     After creating an internal business location, you can add staff members to the location and create relationships between staff members and accounts, households, and consumers. You can track the list of customers serviced by a business location.
 
-
-**Parent Topic:**[Set up dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/set-up-dealer.md)
 
 **Related topics**  
 

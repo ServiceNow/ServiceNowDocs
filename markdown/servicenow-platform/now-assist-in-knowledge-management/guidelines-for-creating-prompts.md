@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: reference
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure custom prompts for knowledge article templates, Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,9 +38,9 @@ Use the following prompt draft structure to create a prompt:
 -   Initial header instructions \(the purpose of the prompt\)
 -   Input source data
 -   Guidelines for generating the article
--   Output structure along with mapping details, according to your requirements.
+-   Output structure along with mapping details, according to your requirements
 
-    **Note:** When mapping, confirm that the mapping key matches the article template's field key. The value must contain the sections that you intend to add.
+    **Note:** When mapping, it’s important that the mapping key matches with the article template’s field key. The value must contain the sections that you intend to add.
 
 
 ## Sample prompt for generating a single KB how-to template article
@@ -95,8 +95,8 @@ Generate a JSON response in the following format:
 "kb_instructions": { 
   "Steps To Resolve": "string" 
 }, 
-"short_description": { 
-  "Title": "string" 
+“short_description”: { 
+  “Title”: “string” 
 } 
 }
 
@@ -141,8 +141,8 @@ Generate a JSON response in the following format:
 "kb_instructions": { 
   "Steps To Resolve": "string" 
 }, 
-"short_description": { 
-  "Title": "string" 
+“short_description”: { 
+  “Title”: “string” 
 } 
 }
 

@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-01-09"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Using the workplace collaboration Agent for space suggestions, Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -160,4 +160,6 @@ I have reserved this space for you.
 
 8.  When the request is complete, Virtual Agent displays a message to confirm if any additional help is required.
 
+
+**Parent Topic:**[Using the workplace collaboration Agent for space suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/suggest-space-agent.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Security roles for the Install base characteristics
-description: You can assign functional and granular roles to Customer Service Management \(CSM\) users and administrators so that they can access the different capabilities and features of the Install base characteristics.
+title: Security roles for the install base characteristics
+description: You can assign functional and granular roles to Customer Service Management \(CSM\) users and administrators so that they can access the different capabilities and features of the install base characteristics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/security-roles-for-install-base-attributes.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install base characteristics, Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Install base characteristics, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Security roles for the Install base characteristics
+# Security roles for the install base characteristics
 
-You can assign functional and granular roles to Customer Service Management \(CSM\) users and administrators so that they can access the different capabilities and features of the Install base characteristics.
+You can assign functional and granular roles to Customer Service Management \(CSM\) users and administrators so that they can access the different capabilities and features of the install base characteristics.
 
-Functional and granular roles come with varying levels of permissions for the configuration of Install base characteristics on the Customer Service Management \(CSM\) application.
+Functional and granular roles come with varying levels of permissions for the configuration of install base characteristics on the Customer Service Management \(CSM\) application.
 
 The following tables describe the different functional and granular roles and their descriptions.
 
@@ -44,11 +44,11 @@ sn\_install\_base.install\_base\_viewer
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core\] \[sn\_prd\_pm plugin
+Customer Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core\] \[sn\_prd\_pm plugin
 
 </td><td>
 
-This role provides read access to an Install base item, its characteristics, and all the product model characteristics. This role is intended for internal users only.
+This role provides read access to an install base item, its characteristics, and all the product model characteristics. This role is intended for internal users only.
 
 </td><td>
 
@@ -66,11 +66,11 @@ sn\_install\_base.customer\_install\_base\_viewer
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core \[sn\_prd\_pm plugin\]
+Customer Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core \[sn\_prd\_pm plugin\]
 
 </td><td>
 
-This role provides read access to an Install base item, its characteristics, and only the customer visible product model characteristics. This role is intended for external users only.
+This role provides read access to an install base item, its characteristics, and only the customer visible product model characteristics. This role is intended for external users only.
 
 </td><td>
 
@@ -88,11 +88,11 @@ sn\_install\_base.install\_base\_manager
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base\_characteristics\]
+Customer Install Base Management \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
-This role provides access to manage the Install base items and their characteristics. This role is intended for internal users only.
+This role provides access to manage the install base items and their characteristics. This role is intended for internal users only.
 
 </td><td>
 
@@ -131,11 +131,11 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_read\_granular
 
 </td><td>
 
-Customer Service Install Base Characteristics \[com.snc.install\_base\_characteristics\]
+Customer Install Base Characteristics \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
-This role provides granular read access to Install base item characteristics.
+This role provides granular read access to install base item characteristics.
 
 </td><td>
 
@@ -154,11 +154,11 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_create\_granular
 
 </td><td>
 
-Customer Service Install Base Characteristics \[com.snc.install\_base\_characteristics\]
+Customer Install Base Characteristics \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
-This role provides granular create access to Install base item characteristics.
+This role provides granular create access to install base item characteristics.
 
 </td><td>
 
@@ -174,11 +174,11 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_write\_granular
 
 </td><td>
 
-Customer Service Install Base Characteristics \[com.snc.install\_base\_characteristics\]
+Customer Install Base Characteristics \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
-This role provides granular write access to Install base item characteristics.
+This role provides granular write access to install base item characteristics.
 
 </td><td>
 
@@ -189,4 +189,9 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_read\_granular
 sn\_install\_base.install\_base\_manager
 
 </td></tr></tbody>
-</table>
+</table>|Role title|Required Plugin|Description|Contains roles|Added to role|
+|----------|---------------|-----------|--------------|-------------|
+|sn\_customerservice.customer|Case Management Core \[com.sn\_customerservice\]|This role provides access to research and manage install base items and their associated characteristics. Users with this role can view install base items, including all related characteristics and assets associated with their accounts. This role is intended for external users only.|sn\_esm\_user,snc\_external|None|
+
+For more information on the customer roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md).
+

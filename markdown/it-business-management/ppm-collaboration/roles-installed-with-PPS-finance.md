@@ -7,9 +7,9 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Roles installed with PPM Standard \(Project Portfolio Management\)
@@ -55,7 +55,7 @@ PPS admin\[it\_pps\_admin\]
 
 </td><td>
 
-Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, agile development, and timeline visualization.
+Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, and agile development.
 
 </td><td>
 
@@ -414,7 +414,7 @@ Rate model user\[rate\_model\_user\]
 
 </td><td>
 
-View rate model and rate lines.
+View rate model and rate lines. This is a read-only role.
 
 </td><td>
 

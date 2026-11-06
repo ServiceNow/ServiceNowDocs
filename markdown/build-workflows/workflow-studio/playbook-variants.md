@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook variants
@@ -59,20 +59,5 @@ Change the order in which playbook variants are evaluated.
 -   **[Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/bookmark-playbook-variant.md)**  
 Save a playbook variant as a favorite for quick reference.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Create a playbook]()
-
-[Test a playbook]()
-
-[Enabling playbook restart]()
-
-[Duplicate Playbooks]()
-
-[Add translations for playbooks]()
-
-[View all buttons without hover]()
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-building-blocks.md)
 

@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/ea-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture]
 ---
 
 # Enterprise Architecture Workspace
 
 The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive interface for enterprise architects to manage tasks, gain insights, and monitor portfolio health.
 
-\[Omitted video\] Description: Enterprise Architecture Workspace Overview.
+\[Omitted video\] Description: Enterprise Architecture Workspace Overview
 
 ## Get started
 
@@ -64,8 +64,6 @@ Use the Enterprise Architecture Workspace \(EAW\) for managing portfolios, model
 Understand the process required to set up Enterprise Architecture Workspace to work with key applications in the ServiceNow platform to provide a deep insight into the applications.
 -   **[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)**  
 Reference topics that provide additional details about Enterprise Architecture Workspace such as the field descriptions, user roles, tables, guidelines, and domain separation information.
--   **[Document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/document-template-form.md)**  
-Use the document template form to create document template that can be used in the Enterprise Architecture Workspace.
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-portfolio-management-landing-page.md)
+**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-portfolio-management-landing-page.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -131,7 +131,7 @@ This field is automatically set to the last error message.
 
     4.  On the Kafka SSL Authentication screen, fill in the Kafka SSL credentials fields.
 
-        For the Kafka SSL credentials field descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
+        For the Kafka SSL credentials fields descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
         **Note:** If you clear the **Disable hostname verification** field, then in the **Additional Kafka consumer properties** field, enter the value of the **ssl.endpoint.identification.algorithm** parameter the same as of the Kafka server parameter value. For example:
 
@@ -143,19 +143,9 @@ This field is automatically set to the last error message.
 
     5.  Select **Submit**.
 
-6.  To use SASL\_SSL with OAuthbearer, perform the following steps:
+6.  Right-click the form header and select **Save**.
 
-    -   Select the value of the **Security protocol** field as **SASL\_SSL**
-    -   Select the value of the field **SASL mechanism** as `OAUTHBEARER`
-    -   For **User name** field, provide the &lt;client id value&gt;.
-    -   For the **Password** field, provide the &lt;client\_secret&gt;.
-    -   For the **SASL JAAS config template** field, enter the value as `org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required clientId="${user_name}" clientSecret="${password}" scope="openid";`
-
-        **Note:** OAuth authentication for the Kafka Event Connector is supported only in the Australia release and later. Ensure your instance is upgraded to Australia or a newer version before configuring OAuth.
-
-7.  Right-click the form header and select **Save**.
-
-8.  Verify the connector instance values based on your Kafka setup and the JSON payload from the Kafka topic.
+7.  Verify the connector instance values based on your Kafka setup and the JSON payload from the Kafka topic.
 
     Change the connector instance values if necessary.
 
@@ -265,18 +255,16 @@ topic
 
 The Kafka topic from which the messages are fetched.
 
- This field is required.
-
 </td></tr></tbody>
-</table>9.  In the **MID Servers for Connectors** section, specify a MID Server that is up and is valid.
+</table>8.  In the **MID Servers for Connectors** section, specify a MID Server that is up and is valid.
 
     **Note:** You can configure several MID Servers. If the first server is down, the next MID Server is used. If that MID Server isn’t available, the next is selected, and so on. MID Servers are sorted according to the order that their details were entered into the **MID Servers for Connectors** section.
 
     If you do not specify a MID Server, an available MID Server that has a matching IP range is used.
 
-10. Right-click the form header and select **Save**.
+9.  Right-click the form header and select **Save**.
 
-11. Test the connection between the MID Server and the Kafka Consumer connector.
+10. Test the connection between the MID Server and the Kafka Consumer connector.
 
     1.  Select **Test Connector**.
 
@@ -284,9 +272,9 @@ The Kafka topic from which the messages are fetched.
 
         **Note:** Kafka topic name validation occurs only in **Test Connector** validation.
 
-12. After a successful test, make the connector instance active by selecting the **Active** check box.
+11. After a successful test, make the connector instance active by selecting the **Active** check box.
 
-13. Select the **Update** button.
+12. Select the **Update** button.
 
 
 ## What to do next

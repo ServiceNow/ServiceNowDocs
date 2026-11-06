@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage the smart assessment for safety inspections and audits from mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -32,10 +32,10 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit
 
 3.  Tap the smart assessment record.
 
-4.  Complete the questionnaire.
+4.  Answer the questions in the questionnaire.
 
     -   Tap **Next** to complete all sections of the questionnaire.
-    -   If the questionnaire is long or if more information is needed, tap the \[Omitted image "hs-partial-save-icon.png"\] Alt text: partial save icon to save the partially filled questionnaire and complete it later.
+    -   If the questionnaire is long or if more information is needed, tap the **Partial save** icon \(\[Omitted image "hs-partial-save-icon.png"\] Alt text: partial save icon\) to save the partially filled questionnaire and complete it later.
     -   You can also create actions or findings for each question in the smart assessment questionnaire. For more information, see [Create actions or findings for the smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
 5.  Tap on the **Submit** button.
 

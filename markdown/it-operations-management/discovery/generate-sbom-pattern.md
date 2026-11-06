@@ -7,10 +7,10 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SBOM, Pattern, Container Image, Docker, Kubernetes, Discovery]
-breadcrumb: [Container image scanning for software decomposition, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Container image scanning for software decomposition, Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Download a software bill of materials \(SBOM\)

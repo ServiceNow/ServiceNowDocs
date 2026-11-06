@@ -1,20 +1,20 @@
 ---
-title: Add translations for playbooks
-description: Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+title: Add translations for Playbooks
+description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/system-localization/add-translations-playbooks.html
 release: zurich
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Translating individual UI strings, Translating custom content, System Localization, Translation and localization, Configure core features, Administer]
+breadcrumb: [Translating individual UI strings, Translating custom content, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Add translations for playbooks
+# Add translations for Playbooks
 
-Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 
 ## Before you begin
 

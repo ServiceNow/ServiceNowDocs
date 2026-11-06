@@ -41,7 +41,7 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
 
     -   **1. requester.create\_incident: Create an incident through a guided workflow that searches for self-service solutions, redirects to matching catalog items, and detects duplicate incidents before creating a ticket.**
 
-        **Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/configure-ai-agent-as-mcp-tool.md).
+        **Note:** This tool uses the  as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/configure-ai-agent-as-mcp-tool.md).
 
         Example prompts:
 

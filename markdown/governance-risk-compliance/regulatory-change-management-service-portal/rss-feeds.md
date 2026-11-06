@@ -7,9 +7,9 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Integrate, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # RSS feeds overview
@@ -59,27 +59,8 @@ The following image shows the workflow of RSS feeds are set up to ensure they pu
 
 -   **[General guidelines for RSS feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.md)**  
 When an RSS feed isn't working, common errors or issues often stem from improper formatting, server issues, or misconfiguration. An RCM administrator can remediate some of the common errors that users may encounter.
--   **[Regulatory taxonomy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-taxonomy-overview.md)**  
-Regulatory taxonomy simplifies identifying necessary changes in a customer’s regulatory library by enabling algorithms to match incoming regulatory intelligence to existing content using taxonomy terms.
+-   **[Regulatory taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-taxonomy-overview.md)**  
+Regulatory taxonomy simplifies identifying necessary changes in a customer's regulatory library by enabling algorithms to match incoming regulatory intelligence to existing content using taxonomy terms.
 
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
-
-**Related topics**  
-
-
-[Regulatory Change Management application landing page]()
-
-[Tasks page in the Compliance Workspace]()
-
-[Source document import tasks]()
-
-[Regulatory process flow and tasks]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
-
-[Next Experience Discuss and Chat Collaboration]()
-
-[Regulatory Change Management application in the Compliance Workspace]()
+**Parent Topic:**[Integrating RCM with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/integrating-with-rcm.md)
 

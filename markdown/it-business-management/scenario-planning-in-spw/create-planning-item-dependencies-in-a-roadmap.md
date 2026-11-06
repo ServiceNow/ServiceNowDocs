@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -33,15 +33,15 @@ The dependency for a planning item on your roadmap can be on an item from the sa
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d141503e107">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d149805e107">
 
 Roadmap type
 
-</th><th align="left" id="d141503e110">
+</th><th align="left" id="d149805e110">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d141503e116">
+</th></tr></thead><tbody><tr><td id="d149805e116">
 
 **Portfolio plan roadmap**
 
@@ -51,7 +51,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d141503e137">
+</td></tr><tr><td id="d149805e137">
 
 **Free-form roadmap**
 

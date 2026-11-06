@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Identify and resolve log streaming issues, ACC Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Identify and resolve log streaming issues, ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # ACC data input streaming sources
@@ -57,4 +57,5 @@ Preprocessed log lines/sec
 The average number of preprocessed log lines that streamed to the MID Server per second in the last one-minute interval. **Note:** This value can differ from the number of raw log lines per second. For example, the difference can be a result of logs having been dropped during preprocessing.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-verify-log-streaming.md)
+

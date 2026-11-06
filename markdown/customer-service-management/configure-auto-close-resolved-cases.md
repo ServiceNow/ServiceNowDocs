@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-auto-close-resolved-cases.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Use the auto close resolved cases feature to close cases automatically in the Re
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user and admin
 
 ## About this task
 
@@ -40,7 +40,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Activate Auto Close Resolved Case Flow**
+Activate Auto Close Resolved Case Flow
 
 </td><td>
 
@@ -50,21 +50,21 @@ Activate the Auto Close Resolved Cases Flow Designer Flow, which identifies case
 
 </td></tr><tr><td>
 
-**Configure Business Rules for Auto Close** Field
+Configure Business Rules for Auto Close Field
 
 </td><td>
 
-Configure the following business rules to enable or disable the **Auto Close** field on the case form:-   Mark for Auto Close
+Configure the following business rules to enable or disable the **Auto Close** field on the Case form:-   Mark for Auto Close
 -   Clear Auto Close
 
 
 </td></tr><tr><td>
 
-**Configure Auto Close Flag**
+Configure Auto Close Flag
 
 </td><td>
 
-The **Auto Close Resolved Cases** Flow Designer flow uses the **Auto Close** flag to exclude cases from auto closure. This flag is hidden by default. To use this flag, configure the case form to display the **Auto Close** field.
+The **Auto Close Resolved Cases** Flow Designer flow uses the **Auto Close** flag to exclude cases from auto closure. This flag is hidden by default. To use this flag, configure the Case form to display the **Auto Close** field.
 
 </td></tr></tbody>
 </table>4.  To perform a task, select **Configure**.

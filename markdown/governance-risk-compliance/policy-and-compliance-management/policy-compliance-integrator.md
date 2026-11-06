@@ -7,16 +7,16 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # GRC: Policy and Compliance integrator
 
 The GRC: Policy and Compliance integrator application provides a common framework so that your content providers can push their content into the GRC applications. The application also enables you to review, approve, and import the data into the Policy and Compliance Management tables.
 
-Starting in Zurich, you can use the GRC: Policy and Compliance integrator application with the GRC: integrations with third-party content application.
+Starting in Brazil, you can use the GRC: Policy and Compliance integrator application with the GRC: integrations with third-party content application.
 
 For more information on how to complete the data import process, see [Workflow for GRC: Policy and Compliance integrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/integrator-workflow.md) and [Using the GRC: Policy and Compliance integrator to display batch records and import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/integrator-in-classic-ui.md).
 

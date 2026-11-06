@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Select a tag category source
@@ -30,15 +30,15 @@ The tag category source determines how spend tags are derived during billing dow
 
 2.  In the **Tag source category** field, select the tag category source that matches your environment.
 
-<table><thead><tr><th align="left" id="d184252e84">
+<table><thead><tr><th align="left" id="d195635e84">
 
 Tag category source
 
-</th><th align="left" id="d184252e87">
+</th><th align="left" id="d195635e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d184252e93">
+</th></tr></thead><tbody><tr><td id="d195635e93">
 
 **Cloud provider tags**
 
@@ -46,7 +46,7 @@ Description
 
 Uses native cloud provider resource tags that are defined and managed in the Cloud Cost Management application.
 
-</td></tr><tr><td id="d184252e105">
+</td></tr><tr><td id="d195635e105">
 
 **CMDB-driven cloud mapping**
 
@@ -61,7 +61,7 @@ Maps billing data to CMDB CI entities for cost attribution. You must take the fo
 -   **Select tags**: The tag name to look for in each billing line item. When this tag name is found, the Cloud Cost Management application looks up the matching entity in the selected table and column and associates it with the spend record.
 
 
-</td></tr><tr><td id="d184252e174">
+</td></tr><tr><td id="d195635e174">
 
 **ServiceNow-managed dimensions**
 

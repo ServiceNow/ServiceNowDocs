@@ -1,26 +1,26 @@
 ---
 title: Integrate Dynatrace platform events
-description: Integrate Dynatrace with Event Management by adding the Dynatrace Monitor as an authenticated data source.
+description: Integrate Dynatrace with Event Management by adding Dynatrace as an authenticated data source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/dynatrace-events-integration.html
 release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Dynatrace platform events
 
-Integrate Dynatrace with Event Management by adding the Dynatrace Monitor as an authenticated data source.
+Integrate Dynatrace with Event Management by adding Dynatrace as an authenticated data source.
 
 ## What authentication is used
 
 There are two methods of authentication:
 
--   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Dynatrace Monitor V1 or V2 access tokens. For more information, see [Integrate Dynatrace with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-oauth-authentication.md).
+-   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Dynatrace access tokens. For more information, see [Integrate Dynatrace with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-oauth-authentication.md).
 -   Basic webhook authentication: Provides a basic standard of authentication, without the need for Dynatrace Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate Dynatrace with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-events-webhook.md).
 
 **Note:** When a problem is reopened in Dynatrace, the original start time is retained and not updated to the time of reopening. This behavior is intentional and reflects how Dynatrace manages the problem lifecycle. Problems reopened within the defined reopening period \(typically 30 minutes\) are treated as a continuation of the original issue. The start time continues to reflect the timestamp of the earliest triggering event, even after reopening.

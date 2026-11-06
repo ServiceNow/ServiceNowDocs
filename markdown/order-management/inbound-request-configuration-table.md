@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/inbound-request-configuration-table.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Inbound Request, Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Inbound Request, CRM API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Inbound Request Configuration
@@ -16,7 +16,7 @@ Enables you to define the configurations to determine how each flow is processed
 
 ## Overview of the Inbound Request Configuration table
 
-The Sales and Service Core API \(com.sn\_tmt\_core\) plugin is required to use the Inbound Request Configuration table \(sn\_tmt\_core\_inbound\_queue\_config\).
+The CRM API Core \(com.sn\_tmt\_core\) plugin is required to use the Inbound Request Configuration table \(sn\_tmt\_core\_inbound\_queue\_config\).
 
 The Inbound Request Configuration table is a metadata table that must be configured to decide how a particular flow is executed, whether synchronous or asynchronous.
 

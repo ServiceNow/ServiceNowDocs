@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Investigate, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -50,7 +50,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 9.  In the **Pursue recovery** drop-down, select one of the following.
 
-<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d92834e217">
+<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d102213e217">
 
 **Yes**
 
@@ -58,7 +58,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 The relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-</td></tr><tr><td id="d92834e229">
+</td></tr><tr><td id="d102213e229">
 
 **No**
 
@@ -71,7 +71,7 @@ The **Deny dispute** drop-down is displayed. Select one of the following options
 </td></tr></tbody>
 </table>10. Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 11. Select **Continue**.
 

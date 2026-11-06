@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a bulk case request, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a bulk case request using Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Specify user segment groups for bulk case requests
@@ -71,15 +71,15 @@ Further details about the user segment.
 
 8.  Indicate how you will indicate which users the bulk case request will create cases for in the **Filter by** field.
 
-<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d439449e185">
+<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d446231e185">
 
 Data source
 
-</th><th align="left" id="d439449e188">
+</th><th align="left" id="d446231e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d439449e194">
+</th></tr></thead><tbody><tr><td id="d446231e194">
 
 **File**
 
@@ -93,7 +93,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 4.  Select **Process file**.
 
 
-</td></tr><tr><td id="d439449e245">
+</td></tr><tr><td id="d446231e245">
 
 **HR criteria**
 
@@ -101,7 +101,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 
 Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables.
 
-</td></tr><tr><td id="d439449e254">
+</td></tr><tr><td id="d446231e254">
 
 **User criteria**
 
@@ -109,7 +109,7 @@ Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\]
 
 Criteria based on role, department, group, location, or company.
 
-</td></tr><tr><td id="d439449e263">
+</td></tr><tr><td id="d446231e263">
 
 **HR profile**
 
@@ -117,7 +117,7 @@ Criteria based on role, department, group, location, or company.
 
 Condition based on the HR profile \[sn\_hr\_core\_profile\] table.
 
-</td></tr><tr><td id="d439449e273">
+</td></tr><tr><td id="d446231e273">
 
 **Users**
 

@@ -1,24 +1,24 @@
 ---
 title: Queue a local change for a push
-description: Application developers can queue a local change for a push to confirm that the changes are available to other developers.
+description: Application developers can queue a local change for a push to ensure the changes are available to other developers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_QueueALocalChangeForAPush.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Queue a local change for a push
 
-Application developers can queue a local change for a push to confirm that the changes are available to other developers.
+Application developers can queue a local change for a push to ensure the changes are available to other developers.
 
 ## Before you begin
 
-Role required: user
+Role required: none
 
 ## Procedure
 
@@ -26,18 +26,35 @@ Role required: user
 
 2.  Filter the Local Changes list to show only the changes that are ready to push.
 
-3.  Select **Queue All For Push**.
+    For example, filter the list to show only the changes associated with a particular application.
 
-4.  Review the Ready to Push list to confirm that the correct changes are in the queue.
+    \[Omitted image "QueueChangesApplication.png"\] Alt text: Queue changes application
 
-5.  To remove changes from the queue.
+3.  Click **Queue All For Push**.
 
-    1.  Select the changes to remove.
-    2.  Select **Do Not Push** from the Actions list.
-6.  To ignore changes from the queue.
+4.  Review the Ready to Push list to ensure that the correct changes are in the queue.
 
-    1.  Select the changes to ignore.
-    2.  Select **Ignore This Change** from the Actions list.
+    This step is a recommended best practice.
 
-**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
+<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d275136e118">
+
+**To remove changes from the queue**
+
+</td><td>
+
+Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list.
+
+</td></tr><tr><td id="d275136e136">
+
+**To remove changes from the queue and choose to ignore them instead**
+
+</td><td>
+
+Select the check boxes beside the rows and select **Ignore This Change** from the Actions choice list.
+
+</td></tr></tbody>
+</table>    \[Omitted image "ReadytoPush.png"\] Alt text: Ready to push
+
+    **Note:** For the Local Changes list, click **Reset Filter** to remove any filter conditions you added and see all the local changes that have not been queued or ignored.
+
 

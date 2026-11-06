@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Calculator rules, Creating Calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configuration Compliance calculators and calculator rules, Create a Configuration Compliance calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Edit risk rollup calculators for Configuration Compliance

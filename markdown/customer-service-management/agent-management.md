@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Customer Service Management]
 ---
@@ -85,14 +85,6 @@ Approve a service contract for a customer account.
 </td><td>
 
 Manage various tasks as an Outsourced Service Provider \(OSP\) Manager, including onboarding Outsourced Service Provider agents, viewing unassigned cases, and assigning cases to groups or agents under your supervision.
-
-</td></tr><tr><td>
-
-[Decouple Channel Management dependencies from WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/decouple-channel-management-dependencies-from-wfo.md)
-
-</td><td>
-
-Unlink/ Decouple Channel Management from core Workforce Optimization \(WFO\) modules supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement.
 
 </td></tr></tbody>
 </table>

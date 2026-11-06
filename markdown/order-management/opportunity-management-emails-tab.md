@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management-emails-tab.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Compose emails
@@ -23,6 +23,8 @@ Role required: sales\_agent
 1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text:and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Emails** tab.
+
+    **Note:** The **Meetings** tab displays both meetings linked directly to the opportunity and meetings linked to the opportunity's touchpoints.
 
 3.  Select **Compose Email** button from the top right corner to start a new email or select an existing email to make changes.
 
@@ -40,5 +42,10 @@ Role required: sales\_agent
 5.  Select **Send email** to send the email or close the email form to save it in the **Draft Emails** tab.
 
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

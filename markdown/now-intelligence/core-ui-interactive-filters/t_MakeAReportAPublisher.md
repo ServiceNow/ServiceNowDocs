@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Interactive Filters on dashboards, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,28 +18,28 @@ You can configure an existing report widget to filter other report widgets on th
 
 ## Before you begin
 
-Role required: itil, report\_user.
+Role required: report\_admin
 
 Only reports with a **Type** value of pie, donut, semi donut, funnel, or pyramid can act as interactive filters.
 
 **Note:**
 
+-   This documentation refers to Core UI reports and responsive dashboards. For information about making Platform Analytics data visualizations act as filters on dashboards, see [Make a data visualization act as a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/make-dv-act-as-filter.md).
 -   When a report is acting as an interactive filter, it is not possible to drill down into the report's segments.
--   This documentation refers to Core UI reports and interactive dashboards. For information about making Platform Analytics data visualizations act as filters on dashboards, see [Make a data visualization act as a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/make-dv-act-as-filter.md).
 
 ## Procedure
 
-1.  Navigate to a dashboard.
+1.  Navigate to a Core UI dashboard.
 
 2.  Put the dashboard into Edit mode.
 
-    -   On a non-responsive dashboard, select **Edit**.
-    -   On a responsive dashboard, click the sharing icon \(\[Omitted image "SharingIcon.png"\] Alt text:\).
-3.  Point to the top of the report widget, and click the Edit widget icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text:\).
+    Select the sharing icon \(\[Omitted image "SharingIcon.png"\] Alt text:\).
+
+3.  Point to the top of the report widget, and select the Edit widget icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text:\).
 
 4.  Select **Act as interactive filter**.
 
-    This field is only available on reports that can act as filters. Only reports with a **Type** value of pie, donut, semi donut, funnel, or pyramid can act as filters.
+    This field is only available on reports that can act as filters. Only reports with a **Type** value of pie, donut, semi-donut, funnel, or pyramid can act as filters.
 
     **Note:** When responsive canvas functionality is inactive, there’s no delay in filtering when a user clicks segments of a report that acts an interactive filter in quick succession.
 

@@ -1,18 +1,18 @@
 ---
-title: Configure the fields to appear on task cards or in the contextual side panel
-description: Add fields to task cards or the contextual side panel so more information is available to dispatchers so they can make decisions faster.
+title: Configure the fields to appear on task cards or in the Contextual Side Panel
+description: Add fields to task cards or the Contextual Side Panel \(CSP\) so more information is available to dispatchers so they can make decisions faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configuring-popover-fields.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
-# Configure the fields to appear on task cards or in the contextual side panel
+# Configure the fields to appear on task cards or in the Contextual Side Panel
 
-Add fields to task cards or the contextual side panel so more information is available to dispatchers so they can make decisions faster.
+Add fields to task cards or the Contextual Side Panel \(CSP\) so more information is available to dispatchers so they can make decisions faster.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: admin, wm\_admin
 
 Task cards provide a brief summary of the work order task in the Dispatcher Workspace. By default, these details include the work order task number, short description, scheduled start, assignment group, location, and SLA value.
 
-**Note:** If you add a field to the contextual side panel that contains date or time information, then it shows in the Planned/ Actual times section in the contextual side panel.
+**Note:** If you add fields to the CSP that contains date or time information, then it shows in the Planned/ Actual times section in the CSP.
 
 ## Procedure
 
@@ -39,16 +39,16 @@ Task cards provide a brief summary of the work order task in the Dispatcher Work
 
 2.  Choose the following:
 
-    -   To add a new field, select **New.**
-    -   To edit an existing field, select the field you want to edit.
+    -   Select **New** to add a new field.
+    -   Select the field that you want to edit.
 3.  Fill in the form.
 
     |Field|Description|
     |-----|-----------|
-    |Field name|Field that to be displayed on the card or contextual side panel.|
+    |Field name|Field that to be displayed on the card or CSP.|
     |Name|Name for the field.|
-    |Always show|Option for determining whether the field displays on the task card or contextual side panel and can’t be removed by the dispatcher in the Dispatcher Workspace.|
-    |Default show field|Option for determining whether the field shows by default in the task card or contextual side panel. The dispatcher won’t be able to remove this field in the Dispatcher Workspace.|
+    |Always show|Option for determining whether the field displays on the task card or CSP and can’t be removed by the dispatcher in the Dispatcher Workspace.|
+    |Default show field|Option for determining whether the field shows by default in the task card or CSP. The dispatcher can't remove this field in Dispatcher Workspace.|
     |Order|The order number for the field. Fields assigned lower-order numbers appear higher in the order.|
 
 4.  Select **Submit**.

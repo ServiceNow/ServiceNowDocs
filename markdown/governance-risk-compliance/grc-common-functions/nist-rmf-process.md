@@ -7,9 +7,9 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [\(Deprecated\) NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # NIST RMF process overview
@@ -44,5 +44,5 @@ Within the NIST RMF application, the **Authorize** section involves the authoriz
 -   **[Monitor security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/rmf-monitor.md)**  
 Within the NIST RMF application, the **Monitor** section involves the on-going monitoring of the security controls for targets documenting changes to them or their environments of operation, conducting security impact analyses of the associated changes, and reporting their security state to designated officials.
 
-**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

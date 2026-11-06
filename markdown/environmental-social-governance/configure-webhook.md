@@ -1,18 +1,18 @@
 ---
 title: Generate Webhook URL
-description: Define a Webhook registry for generating the Webhook URL. Urjanet uses the Webhook URL to send real time data to the ESG Management application when an Urjanet statement data is either generated or modified.
+description: Define a Webhook registry for generating the Webhook URL. Urjanet uses the Webhook URL to send real time data to the Operational Sustainability Management application when an Urjanet statement data is either generated or modified.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/configure-webhook.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Urjanet, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Generate Webhook URL
 
-Define a Webhook registry for generating the Webhook URL. Urjanet uses the Webhook URL to send real time data to the ESG Management application when an Urjanet statement data is either generated or modified.
+Define a Webhook registry for generating the Webhook URL. Urjanet uses the Webhook URL to send real time data to the Operational Sustainability Management application when an Urjanet statement data is either generated or modified.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_esg.admin
 
 ## About this task
 
-A statement in Urjanet refers to a bill. Whenever a new statement is generated in Urjanet, using the defined Webhook, the ESG Management application is notified about the new statement generation and the data is fetched into the ESG Management application without any manual intervention.
+A statement in Urjanet refers to a bill. Whenever a new statement is generated in Urjanet, using the defined Webhook, the Operational Sustainability Management application is notified about the new statement generation and the data is fetched into the Operational Sustainability Management application without any manual intervention.
 
 ## Procedure
 
@@ -46,5 +46,5 @@ A statement in Urjanet refers to a bill. Whenever a new statement is generated i
 
 Paste the URL that is generated in the Urjanet console to get real-time Urjanet statement data. For more information, contact your system administrator.
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring log levels, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Set log levels, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # View Schedule Optimization logs
@@ -18,7 +18,7 @@ View the Schedule Optimization logs to gather insights from each optimization at
 
 ## Before you begin
 
-Role required: admin
+Role required: wm\_admin
 
 [Set the Schedule optimization logging level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/set-the-schedule-optimization-log-level.md).
 

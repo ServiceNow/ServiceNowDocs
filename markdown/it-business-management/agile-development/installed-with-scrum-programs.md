@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Scrum Programs, Scrum Programs for Agile Development 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Components installed with Scrum Programs
@@ -86,4 +86,6 @@ Contains customizable TEAM\_LIMIT and STORY\_LIMIT properties.
 </table>The default value for the TEAM\_LIMIT property is 15 and STORY\_LIMIT property is 1000. You can change these values according to your preferences.
 
 **Note:** Increasing the values might result in longer loading times and degraded performance of the scrum program planning board.
+
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/scrum-programs-concept.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 12
-breadcrumb: [OT Asset Management, Explore, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # OT Asset Workspace
@@ -262,7 +262,7 @@ Hardware models and OT hardware assets are also integrated into the following En
     **Note:** Starting with the Zurich release, the Download template for Advanced Shipment Notification includes the **OT entity** column. When this column is set to **TRUE** for hardware models, it creates OT hardware assets in the OT Asset Workspace.
 
 -   [Asset audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)
--   [Asset Total Cost of Ownership \(TCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-tco-eam.md)
+-   [Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
     **Note:** You can create a TCO report using a hardware model as a benchmark model, by selecting **Hardware** in the Report table field and then selecting the required hardware model in the **Benchmark model** field.
 
@@ -270,7 +270,7 @@ Hardware models and OT hardware assets are also integrated into the following En
 
     **Note:** The **Begin lease-end process** option is available if the contract includes OT hardware assets.
 
--   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/risk-scoring-eam.md)
+-   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
     **Note:** The Enterprise asset risk heat map in the OT asset estate view and the Enterprise model risk heat map in the OT model management view also include hardware models with OT entity flag set to **TRUE**.
 
@@ -321,9 +321,11 @@ Any consumable model that you create in the OT Asset Workspace, has the consumab
 **Related topics**  
 
 
-[OT Asset Management licensing]()
+[Installing OT Asset Management]()
 
-[View the license report for the OT Asset Management application]()
+[Installed with OT Asset Management]()
+
+[OT Asset Management licensing]()
 
 [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 

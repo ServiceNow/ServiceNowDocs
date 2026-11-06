@@ -1,5 +1,5 @@
 ---
-title: Configure Workplace Services Kiosk
+title: Configuring Workplace Services Kiosk
 description: Plan and configure your Workplace Services Kiosk installation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Configure Workplace Services Kiosk
+# Configuring Workplace Services Kiosk
 
 Plan and configure your Workplace Services Kiosk installation.
 
@@ -27,7 +27,7 @@ Plan and configure your Workplace Services Kiosk installation.
 
 
 -   **[Install Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/install-workplace-kiosk.md)**  
-Install the Workplace Services Kiosk application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Services Kiosk application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 -   **[Create a kiosk configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.md)**  
 Create a kiosk configuration, assign a homepage, and link a kiosk device module.
 -   **[Create a kiosk homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/create-kiosk-homepage.md)**  

@@ -1,24 +1,24 @@
 ---
-title: Use an enterprise asset request flow
-description: Use an enterprise asset request flow for requesting, sourcing, and deploying catalog items from the Service Catalog application.
+title: Manually fulfill enterprise asset requests by using the enterprise asset request flow
+description: Use the enterprise asset request flow to request, source, and deploy catalog items from the Service Catalog application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-assetrequest.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use Service Catalog for requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
-# Use an enterprise asset request flow
+# Manually fulfill enterprise asset requests by using the enterprise asset request flow
 
-Use an enterprise asset request flow for requesting, sourcing, and deploying catalog items from the Service Catalog application.
+Use the enterprise asset request flow to request, source, and deploy catalog items from the Service Catalog application.
 
 ## Before you begin
 
-Before requesting for an enterprise asset, ensure that you have already created a model for that asset in the Enterprise Asset Workspace and published that model to the Service Catalog application.
+Before requesting for an enterprise asset, confirm that you have already created a model for that asset in the Enterprise Asset Workspace and published that model to the Service Catalog application.
 
 Role required:
 
@@ -91,4 +91,6 @@ The Workflow Studio application is used to create the Standard Enterprise Asset 
 
     If it's a serialized asset, it's marked as **In use** state. If it’s a consumable asset, it’s marked as **Consumed** state. In the Standard Enterprise Asset Request flow, the action that is associated with deploying the assets is now complete.
 
+
+**Parent Topic:**[Fulfilling enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.md)
 

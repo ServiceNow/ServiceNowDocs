@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Target breakdowns in Strategic Planning, Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,19 +26,21 @@ Updating the actual value of a target breakdown automatically updates the actual
 
 **Note:** Only the owner or contributors of the goal can update the target breakdowns.
 
+If the target is stale, you can't update its breakdown actuals until an administrator resets the target. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/stale-targets.md).
+
 ## Procedure
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d91228e68">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d95907e84">
 
 Option
 
-</th><th align="left" id="d91228e71">
+</th><th align="left" id="d95907e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91228e77">
+</th></tr></thead><tbody><tr><td id="d95907e93">
 
 **From the Goals and targets tab or Target breakdown side panel**
 
@@ -54,7 +56,7 @@ The target breakdown side panel opens with the **Check-in actuals** window.
 
 Alternatively, you can select the cell in the Actual column of the target breakdown and enter the actual value on the **Goals and targets** tab.
 
-</td></tr><tr><td id="d91228e141">
+</td></tr><tr><td id="d95907e157">
 
 **From the Target breakdowns tab**
 

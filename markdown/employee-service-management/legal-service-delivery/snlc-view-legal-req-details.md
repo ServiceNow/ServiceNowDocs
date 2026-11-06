@@ -1,5 +1,5 @@
 ---
-title: View and track non-disclosure agreement requests as a legal user
+title: View and track NDA requests
 description: View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.html
@@ -7,12 +7,12 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# View and track non-disclosure agreement requests as a legal user
+# View and track NDA requests
 
 View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** option on the header menu.
 

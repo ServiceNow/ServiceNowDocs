@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -143,4 +143,12 @@ After creating an end page configuration, you can add further steps for the visi
 [Kiosk Page Configuration form]()
 
 [Location Policy form]()
+
+[New visit form]()
+
+[Additional requirement form]()
+
+[About visit-related tables]()
+
+[Differences between Workplace Visitor Management versions]()
 

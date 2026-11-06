@@ -1,0 +1,18 @@
+---
+title: Working with alert groups in Express List
+description: Learn how to manage alert groups.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/working-with-alert-groups.html
+release: zurich
+product: Event Management
+classification: event-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Express List, Event Management, ITOM AIOps, IT Operations Management]
+---
+
+# Working with alert groups in Express List
+
+Learn how to manage alert groups.
+

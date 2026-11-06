@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-application-portfolio.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with an application portfolio
@@ -66,24 +66,24 @@ You can add existing architectural artifacts to business applications in the EA 
 You can remove the architectural artifacts associated with business applications in the EA Workspace, ensuring that only relevant and current architectural artifacts are associated with the business applications.
 -   **[View Technology Reference Model products associated with business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-trm-products-assoc-with-ba.md)**  
 You can view the list of Technology Reference Model \(TRM\) products associated with business applications, in the Enterprise Architecture Workspace \(EA Workspace\).
--   **[View TRM technical debts for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tech-debts-of-ba.md)**  
-View Technology Reference Model \(TRM\) associated to a business application in the Enterprise Architecture Workspace.
 -   **[Create and associate TRM products with business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-trm-products-and-assoc-ba.md)**  
 You can create a Technology Reference Model \(TRM\) products and associate it with business applications in the Enterprise Architecture Workspace.
 -   **[Add TRM products to business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-existing-trm-products-to-ba.md)**  
 You can add existing Technology Reference Model \(TRM\) product to business applications in the Enterprise Architecture Workspace.
 -   **[Remove TRM products from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-trm-products-assoc-with-ba.md)**  
 You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
--   **[Add AI systems to business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-ai-systems.md)**  
-You can add AI system product models to business applications in the Enterprise Architecture Workspace. This association enables enterprise architects to monitor AI usage alongside business applications, improving lifecycle visibility, tracking, compliance, and decision making.
--   **[Remove AI systems associated with business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.md)**  
-Remove AI system product models associated with business applications in the Enterprise Architecture Workspace. You can remove multiple AI system product models simultaneously.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-ai-systems.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-ai-systems.md)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.md)**  
+
 -   **[Working with product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-working-with-product-capabilities.md)**  
 Add or edit product capabilities in the Enterprise Architecture Workspace.
 -   **[View all application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-app-services.md)**  
 View the list of all application services in the Enterprise Architecture Workspace.
 -   **[Add or edit an application service in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-appl-service.md)**  
 Add or edit an application service of your organization in the Enterprise Architecture Workspace.
+-   **[Generate an application model for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-gen-model-id-ba.md)**  
+Execute a script to generate the application model for existing business applications. An application model is a structured representation of a business application's components and their relationships and interactions within your application landscape.
 
 **Parent Topic:**[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-portfolio-list-view.md)
 

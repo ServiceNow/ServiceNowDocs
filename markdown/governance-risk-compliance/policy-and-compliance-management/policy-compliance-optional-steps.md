@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -24,19 +24,17 @@ Usually, authority documents, citations, and control objectives are downloaded f
 After an acknowledgement request has been sent to an audience, different reminder notifications are sent based on the timeliness and state of the response. Properties allow you to configure the notifications.
 -   **[Set up GRC Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.md)**  
 Set up the Governance, Risk, and Compliance Virtual Agent to request an exception to a policy or a control objective from the Service Portal.
--   **[Set up dynamic approval configuration on a policy record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/dynamic-approval-config-for-a-policy.md)**  
-A policy is a set of guidelines and rules established by a business organization to govern its operations. Creating an approval configuration record for a policy enables you to define one or more approval levels and approval rules based on various dynamic conditions.
 -   **[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)**  
 Starting with Version 10.1, you can leverage new policy exception capabilities in Policy and Compliance Management from within other applications.
--   **[Define policy exceptions and extensions with the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
-If you're a compliance manager, you can define the policy exceptions and extensions for granular, multi-level approval workflows by using the GRC Approval Configurator. The GRC Approval Configurator is a tool within the Governance, Risk, and Compliance application.
+-   **[GRC Approval Configurator for approving policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.md)**  
+Users can now manage policy exceptions and extensions with granular, multi-level approval flows using the GRC Approval Configurator.
 
 **Parent Topic:**[Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md)
 
 **Related topics**  
 
 
-[Manage mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 
 [Create a GRC article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_CreateArticleTemplate.md)
 

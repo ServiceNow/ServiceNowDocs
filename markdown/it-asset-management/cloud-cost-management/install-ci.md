@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Install Cloud Cost Management
@@ -18,7 +18,7 @@ You can install the Cloud Cost Management application \(sn\_clin\) if you have t
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Cloud Cost Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8d562e6253131300f521ddeeff7b125d/) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Discovery \(com.snc.discovery\) and Discovery and Service Mapping Patterns \(sn\_itom\_pattern\) must be installed.
 

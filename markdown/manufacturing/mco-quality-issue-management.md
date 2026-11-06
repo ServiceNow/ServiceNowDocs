@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-quality-issue-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
@@ -18,7 +18,7 @@ Quality Issue Management \(QIM\) comprises two integrated applications that work
 
 Manufacturing quality management enables teams to track and resolve Non-Conformances \(NCs\) and Quality Issues \(QIs\) across products, assets, and operations. It does this by capturing problems, coordinating investigations, and fostering stakeholder collaboration.
 
-\[Omitted image "image.mco-quality-management-wf"\] Alt text: Workflow for the Quality Management
+\[Omitted image "mco-quality-management-wf.png"\] Alt text: Workflow for the Quality Management
 
 ## Product non-conformance \(PNC\) management
 

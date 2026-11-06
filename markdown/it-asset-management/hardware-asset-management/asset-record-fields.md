@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset record fields
@@ -95,7 +95,7 @@ Assigned to
 
 </td><td>
 
-The person using or primarily responsible for this item. This field appears when the **State** is **In Use**.**Note:** When the **State** field value is updated from **In Use** to **On Order**, **In Stock**, or **In Transit**, this field value is automatically cleared. For more information about the business rules for updating the **Assigned to** field, see the [https://support.servicenow.com/nav\_to.do?uri=%2Fkb%3Fid%3Dkb\_article\_view%26sysparm\_article%3DKB0719392](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0719392) article in the Now SupportKnowledge Base.
+The person using or primarily responsible for this item. This field appears when the **State** is **In Use**.**Note:** When the **State** field value is updated from **In Use** to **On Order**, **In Stock**, or **In Transit**, this field value is automatically cleared. For more information about the business rules for updating the **Assigned to** field, see the [https://support.servicenow.com/nav\_to.do?uri=%2Fkb%3Fid%3Dkb\_article\_view%26sysparm\_article%3DKB0719392](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0719392) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 

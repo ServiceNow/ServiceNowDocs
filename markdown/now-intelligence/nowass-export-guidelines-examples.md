@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/nowass-export-guidelines-examples.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/list-of-reponsibilities-provided-with-base-system.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Used in Relationship
 
 </th><th>
 
-Role Required
+Role required
 
 </th><th>
 
@@ -83,7 +83,7 @@ Authorized Account
 
 </td><td rowspan="2">
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -111,7 +111,7 @@ Authorized Representative
 
 </td><td rowspan="5">
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -167,7 +167,7 @@ Preferred Technician
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -175,7 +175,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-NA
+None
 
 </td><td>
 
@@ -187,7 +187,7 @@ Primary Support Agent
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -195,7 +195,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-NA
+None
 
 </td><td>
 
@@ -207,7 +207,7 @@ Support Manager
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -215,7 +215,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-NA
+None
 
 </td><td>
 
@@ -227,7 +227,7 @@ Asset Contact
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -235,7 +235,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-NA
+None
 
 </td><td>
 
@@ -271,7 +271,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -291,7 +291,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -311,7 +311,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -331,7 +331,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -351,7 +351,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -371,7 +371,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -391,7 +391,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 

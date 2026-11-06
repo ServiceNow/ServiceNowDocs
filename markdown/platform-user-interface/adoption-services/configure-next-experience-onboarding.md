@@ -1,20 +1,20 @@
 ---
-title: Edit default Onboarding modals
-description: Customize and edit default templates to optimize the onboarding experience and personalize content for your users.
+title: Edit the default onboarding modal
+description: Edit the default onboarding modal to personalize content for your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/configure-next-experience-onboarding.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---
 
-# Edit default Onboarding modals
+# Edit the default onboarding modal
 
-Customize and edit default templates to optimize the onboarding experience and personalize content for your users.
+Edit the default onboarding modal to personalize content for your users.
 
 ## Before you begin
 

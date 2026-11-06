@@ -1,22 +1,24 @@
 ---
-title: Communication contact definition
-description: Communication contact definition helps you to define the recipients of a particular communication plan. The contact determines the target audience involved in each communication task and the responsibilities they are expected to handle. A notification for a task is sent to all individuals specified for that task. You can add or remove any particular communication contact manually.
+title: Communication contact definitions
+description: Communication contact definitions identify the recipients of a communication plan and the responsibilities they handle for each communication task. Notifications for a task go to all contacts specified for that task, and you can add or remove contacts manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/communication-contact-definition.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Incident Communications Management, IT Service Management]
+breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
-# Communication contact definition
+# Communication contact definitions
 
-Communication contact definition helps you to define the recipients of a particular communication plan. The contact determines the target audience involved in each communication task and the responsibilities they are expected to handle. A notification for a task is sent to all individuals specified for that task. You can add or remove any particular communication contact manually.
+Communication contact definitions identify the recipients of a communication plan and the responsibilities they handle for each communication task. Notifications for a task go to all contacts specified for that task, and you can add or remove contacts manually.
 
-For information on how to create a communication contact definition, refer to [Create communication contact definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-comm-contact-definition.md) .
+For instructions on creating a communication contact definition, see [Create communication contact definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-comm-contact-definition.md).
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
+**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

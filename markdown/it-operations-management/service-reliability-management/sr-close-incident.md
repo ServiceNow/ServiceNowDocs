@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -32,15 +32,15 @@ Role required: srm\_responder, srm\_manager, or srm\_admin
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d674480e95">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d727281e97">
 
 Option
 
-</th><th align="left" id="d674480e98">
+</th><th align="left" id="d727281e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d674480e104">
+</th></tr></thead><tbody><tr><td id="d727281e106">
 
 **In the incident list view**
 
@@ -50,7 +50,7 @@ Steps
 2.  Select **OK**.
  **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-</td></tr><tr><td id="d674480e140">
+</td></tr><tr><td id="d727281e142">
 
 **In the incident form**
 

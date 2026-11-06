@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -30,7 +30,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ### About this task
 
-JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see Script includes.
+JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 This table lists the operators supported by each field type that supports JavaScript filters. Field types that are not in this table do not support JavaScript filters and the **Value** field in the condition builder for those field types does not have the option to paste your own statements.
 
@@ -260,8 +260,8 @@ Textual representation of a complete or partial field name value.For the "is one
 1.  Perform one of the following actions:
 
     -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **View / Run**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports**.
-2.  Open the report visualization that you want to add the dynamic filter to.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library**.
+2.  Open the Core UI report visualization that you want to add the dynamic filter to.
 
 3.  Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text:\) to expand the condition builder.
 

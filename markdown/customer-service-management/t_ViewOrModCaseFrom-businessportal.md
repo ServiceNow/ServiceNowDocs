@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ViewOrModCaseFrom-businessportal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View or modify a case from the Business Portal
@@ -17,14 +17,6 @@ View or modify the information in a customer service case.
 ## Before you begin
 
 Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.partner\_admin
-
-## About this task
-
-Depending on the role of the current user, the Case list displays:
-
--   Cases created by the current user \(sn\_customerservice.customer\)
--   Cases related to the current user's account \(sn\_customerservice.customer\_admin\)
--   Cases related to the current user's account as well as partner accounts \(sn\_customerservice.partner, sn\_customerservice.partner\_admin\)
 
 ## Procedure
 
@@ -38,4 +30,11 @@ Depending on the role of the current user, the Case list displays:
 
 4.  Select **Send**.
 
+
+**Related topics**  
+
+
+[Close a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-close-case-from-businessportal.md)
+
+[Complete a customer service satisfaction survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ComACustServSatSurvey-businessportal.md)
 

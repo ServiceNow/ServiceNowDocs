@@ -7,9 +7,9 @@ release: zurich
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Zing generates search results in four phases
@@ -77,6 +77,8 @@ The system merges the document scores into a single index and sorts the document
 [Zing can expand search results with synonyms]()
 
 [Zing displays search suggestions as users enter search terms]()
+
+[Verify that user roles have access to your searchable tables]()
 
 [Installed with Zing]()
 

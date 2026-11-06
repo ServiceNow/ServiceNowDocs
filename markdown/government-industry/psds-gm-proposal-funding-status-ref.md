@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gm-proposal-funding-status-ref.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Grants Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

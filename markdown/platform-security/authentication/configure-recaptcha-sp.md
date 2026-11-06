@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a user registration configuration for external users, Self-register to ServiceNow instance, Access Management]
+breadcrumb: [Configure a user registration configuration for external users, Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Configure Google reCAPTCHA for external user self-registration
@@ -19,7 +19,7 @@ To use the Google reCAPTCHA service, you must request an API key pair from Googl
 ## Before you begin
 
 -   Request an API key pair \(a site key and a secret\) from Google at [https://www.google.com/recaptcha](https://www.google.com/recaptcha).
--   Role required: admin
+-   Role required: external\_user\_self\_registration\_admin
 
 ## About this task
 
@@ -63,7 +63,7 @@ glide.user.registration.captcha.widget
 
 </td><td>
 
-The Sys\_ID of the Captcha Widget.
+The sys\_id of the Captcha Widget.
 
  Type: String
 

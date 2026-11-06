@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Collaboration services, IT Service Management]
+breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
 
 # Open slack from an incident
@@ -36,6 +36,4 @@ The slack icon appears for the fields that you include in the fix script. For ex
 
     A direct message with the user on slack or a slack channel opens for the group.
 
-
-**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

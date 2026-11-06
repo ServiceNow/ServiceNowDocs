@@ -19,7 +19,7 @@ Classic approvals are records that store the authorization tasks that must be do
 Administrators create approval logic from Workflow Studio flows or classic workflows.
 
 -   Create a Workflow Studio flow that contains an [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/ask-approval-flow-designer.md).
--   Create a classic workflow that contains either an [Approval - Group workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_ApprovalGroup.md) or an [Approval - User workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_ApprovalUser.md).
+-   Create a classic workflow that contains either an [Approval - Group workflow activity]() or an [Approval - User workflow activity]().
 
 In either case, the approval record defines this information.
 

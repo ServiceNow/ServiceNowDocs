@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -258,7 +258,7 @@ Option to select how long, in minutes, the system keeps your evidence files befo
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

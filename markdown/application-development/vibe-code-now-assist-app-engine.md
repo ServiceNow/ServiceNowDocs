@@ -1,16 +1,16 @@
 ---
-title: AI-assisted development with ServiceNow Otto for App Engine
+title: Agentic development with ServiceNow Otto for App Engine
 description: ServiceNow Otto for App Engine enables you to embed AI functionality into an application that you built on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-code-now-assist-app-engine.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# AI-assisted development with ServiceNow Otto for App Engine
+# Agentic development with ServiceNow Otto for App Engine
 
 ServiceNow Otto for App Engine enables you to embed AI functionality into an application that you built on the ServiceNow AI Platform.
 
@@ -31,7 +31,7 @@ Common capabilities for ServiceNow Otto for App Engine include:
 
 For more information on ServiceNow Otto for App Engine, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
 
-With ServiceNow Otto for App Engine, you have access to Now Assist AI assets, such as Platform skills, AI agents, and agentic workflows, as well as the tools for developing custom AI assets using AI Skill Kit and AI Agent Studio.
+With ServiceNow Otto for App Engine, you have access to ServiceNow Otto AI assets, such as Platform skills, AI agents, and agentic workflows, as well as the tools for developing custom AI assets using AI Skill Kit and AI Agent Studio.
 
 For a list of all the tools available in ServiceNow Otto for App Engine, see [Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md).
 

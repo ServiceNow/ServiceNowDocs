@@ -1,23 +1,23 @@
 ---
-title: Zero Copy Connector for ERP Quote to Cash data product models
-description: The Zero Copy Connector for ERP Quote to Cash data product contains models that you may need when interacting with an SAP system.
+title: Zero Copy Connector for ERP Quote to Cash content pack models
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you might need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-models.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-keywords: [erp, canvas, erp canvas, content, pack, content pack, model]
-breadcrumb: [Quote to Cash data product, Data products, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, model, integration, data hub, zero, copy, connector, sap]
+breadcrumb: [Quote to Cash, Available SAP content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP Quote to Cash data product models
+# Zero Copy Connector for ERP Quote to Cash content pack models
 
-The Zero Copy Connector for ERP Quote to Cash data product contains models that you may need when interacting with an SAP system.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you might need when interacting with an SAP system.
 
-## Quote to Cash data product models
+## Quote to Cash content pack models
 
 <table id="table_ilz_cpl_1fc"><thead><tr><th>
 
@@ -33,7 +33,7 @@ Model type
 
 </th><th>
 
-Protocol
+Methods
 
 </th></tr></thead><tbody><tr><td>
 
@@ -59,7 +59,7 @@ Credit Memo Request - List
 
 </td><td>
 
-Retrieve a list of credit requests.
+Retrieve a list of credit memo requests.
 
 </td><td>
 
@@ -103,7 +103,23 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Customer Invoice - header \(available starting in the Zurich Patch 4 release\)
+Customer Invoice
+
+</td><td>
+
+Retrieve a list of customer invoices.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Customer Invoice - Header
 
 </td><td>
 
@@ -115,11 +131,27 @@ Platform
 
 </td><td>
 
-RFC/BAPI and OData V2
+OData V2
 
 </td></tr><tr><td>
 
-Customer Invoice - item \(available starting in the Zurich Patch 4 release\)
+Customer Invoice - Header
+
+</td><td>
+
+Retrieve an overview of a customer invoice based on a billing document number.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Customer Invoice - Item
 
 </td><td>
 
@@ -131,11 +163,27 @@ Platform
 
 </td><td>
 
-RFC/BAPI and OData V2
+OData V2
 
 </td></tr><tr><td>
 
-Outbound Deliveries \(available starting in the Zurich Patch 4 release\)
+Customer Invoice - Item
+
+</td><td>
+
+Retrieve detailed information about a customer invoice based on a billing document number.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Outbound Deliveries
 
 </td><td>
 
@@ -152,7 +200,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Outbound Deliveries - List \(available starting in the Zurich Patch 4 release\)
+Outbound Deliveries - List
 
 </td><td>
 
@@ -168,7 +216,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders
+Sales Order
 
 </td><td>
 
@@ -186,7 +234,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders - Search by Customer
+Sales Order - Search by Customer
 
 </td><td>
 
@@ -202,7 +250,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders - Search by Status
+Sales Order - Search by Status
 
 </td><td>
 
@@ -218,7 +266,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders - Search by Status
+Sales Order - Search by Status
 
 </td><td>
 
@@ -234,7 +282,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Service Notification \(Customer\) - List \(available starting in the Zurich Patch 4 release\)
+Service Notification - List
 
 </td><td>
 
@@ -249,5 +297,4 @@ ERP
 RFC/BAPI
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
-
+</table>

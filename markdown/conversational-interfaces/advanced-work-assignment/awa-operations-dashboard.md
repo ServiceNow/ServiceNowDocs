@@ -7,8 +7,8 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytics &amp; Reporting Solutions, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
@@ -20,11 +20,19 @@ This dashboard is available in the Performance Analytics - Content Pack - Advanc
 
 The Overview tab of the Operations dashboard displays information across all queues, teams, and channels.
 
+\[Omitted image "awa-operations-dashboard-update.png"\] Alt text: The overview tab of the dashboard displays indicators and reports to track agent operations with customers.
+
 The Queue Manager tab of the Operations dashboard displays overall queue information. You can select the queue you want to look at from the left-hand panel.
+
+\[Omitted image "awa-operations-dashboard-queue-manager.png"\] Alt text: The queue manager tab of the dashboard displays indicators and reports to track agent operations with customers.
 
 The Team Manager tab of the Operations dashboard displays information at a group level. You can select the group you want to look at from the left-hand panel.
 
+\[Omitted image "awa-operations-dashboard-team-manager.png"\] Alt text: The team manager tab of the dashboard displays indicators and reports to track agent operations with customers.
+
 The Channel Owner tab of the Operations dashboard displays overall channel data, depending on the service channel you select from the drop-down list.
+
+\[Omitted image "awa-operations-dashboard-channel-owner.png"\] Alt text: The channel owner tab of the dashboard displays indicators and reports to track agent operations with customers.
 
 ## End users and roles
 
@@ -166,5 +174,4 @@ Count and list of agents in an assignment group with their current presence stat
 -   Max Universal Capacity
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-content-pack.md)
-
+</table>

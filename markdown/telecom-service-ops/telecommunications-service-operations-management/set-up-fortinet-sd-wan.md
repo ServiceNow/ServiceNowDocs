@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-10-27"
-reading_time_minutes: 3
-breadcrumb: [Configure Fortinet SGC, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Set up the Service Graph Connector for Fortinet schedule
@@ -18,7 +18,11 @@ Set up and configure the Service Graph Connector for Fortinet SD-WAN. The proces
 
 ## Before you begin
 
--   Verify the active application scope is Service Graph Connector \(SGC\) for Fortinet.
+Verify the active application scope is Service Graph Connector \(SGC\) for Fortinet.
+
+1.  Select the application picker \(\[Omitted image "globe-outline-24.svg"\]\) in the header.
+2.  Search for **Fortinet**.
+3.  Select Service Graph Connector for Fortinet from the list.
 
 Role required: TSOM Visibility admin
 
@@ -32,15 +36,17 @@ Role required: TSOM Visibility admin
 
     **Note:** For more information on how to activate and configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-mid-server.md).
 
-    1.  Select **Configure**.
+    1.  Select **Get Started**.
 
-    2.  Follow the on-screen instructions to download and install the appropriate MID Server installer archive for the operating system.
+    2.  Select **Configure**.
 
-    3.  Select **Mark as Complete** when done.
+    3.  Follow the on-screen instructions to download and install the appropriate MID Server installer archive for the operating system.
+
+    4.  Select **Mark as Complete** when done.
 
         Once all MID Server steps are complete, proceed to **Configure Connectivity**.
 
-4.  Enable the Service Graph Connector to reference the Fortinet connection by name, extracting active aliases from the CMDB, and initiate data collection on the associated HTTP connection by creating connection aliases, credentials, and HTTP connections.
+4.  Create connection aliases, credentials, and HTTP connections to enable data collection.
 
     1.  Select **Get Started**.
 
@@ -95,7 +101,7 @@ Role required: TSOM Visibility admin
             2.  From the **Connection** drop-down list, select the connection alias. For example, sn\_sgc\_fortinet.Fortinet\_Alias.
     4.  Set specific filter criteria for each connection alias.
 
-        1.  Ensure that the \[FIELD NAME FOR DATA SOURCE\] field is set to the data source SGC-Fortinet Filtering Discovery.
+        1.  Verify that the \[FIELD NAME FOR DATA SOURCE\] field is set to the data source SGC-Fortinet Filtering Discovery.
         2.  In the **Connection Alias** field, choose a connection alias.
         3.  Set the filtering parameters.
             -   To filter by IP address, in the **Filtered IPs** field, add IP filters in the desired format.

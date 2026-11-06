@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [license key discovery, ACC-VC, Windows registry, software license, agent client collector]
-breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # License key discovery

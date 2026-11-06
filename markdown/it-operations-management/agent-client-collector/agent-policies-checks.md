@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 35
-breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring default checks and policies
@@ -2433,8 +2433,6 @@ Agent Client Collector provides the following additional check for HTTP response
 The following table lists the metrics that are gathered as output from IIS checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 -   **[Linux default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/linux-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Linux Metrics monitoring.
--   **[Linux log monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/linux-log-monitoring-policy.md)**  
-Agent Client Collector provides the following policy for Linux log monitoring.
 -   **[Linux metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/linux-metrics.md)**  
 The following table lists the metrics that are gathered as output from Linux checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 -   **[MongoDB default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/mongodb-checks-policies.md)**  
@@ -2481,6 +2479,8 @@ Agent Client Collector provides the following default checks and policies for Wi
 The following table lists the metrics that are gathered as output from Windows checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 -   **[Windows log monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/windows-log-monitoring-policy.md)**  
 Agent Client Collector provides the following policy for Windows log monitoring.
+-   **[Linux log monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/linux-log-monitoring-policy.md)**  
+Agent Client Collector provides the following policy for Linux log monitoring.
 
 **Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

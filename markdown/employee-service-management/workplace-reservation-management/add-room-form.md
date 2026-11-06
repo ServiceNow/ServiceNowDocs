@@ -1,20 +1,20 @@
 ---
 title: Add a room form
-description: Add a room to allow employees to make workplace reservation. To view workplace reservation rooms, navigate to All Administration Workplace Rooms .
+description: Use the room form to add a room for workplace reservation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/add-room-form.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Reservation Management - Field descriptions, Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a room form
 
-Add a room to allow employees to make workplace reservation. To view workplace reservation rooms, navigate to **All** &gt; **Administration** &gt; **Workplace Rooms**.
+Use the room form to add a room for workplace reservation.
 
 <table id="table_dvg_zqg_5mb"><thead><tr><th>
 
@@ -182,15 +182,7 @@ Image
 
 </td><td>
 
-Upload an image that you want to add for a room. The supported ratio of an image is: 26:17.
-
-</td></tr><tr><td>
-
-Banner image
-
-</td><td>
-
-Upload a banner image that you want to add for a room.
+Upload an image of the room. The supported ratio of an image is: 26:17.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Reservation Management - Field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/workplace-reservation-management-field-descriptions.md)

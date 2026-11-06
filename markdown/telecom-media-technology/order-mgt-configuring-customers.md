@@ -1,16 +1,16 @@
 ---
-title: Configuring Order Management for customers using Service Bridge
+title: Configuring Order Management for Service Exchange Consumers
 description: As a customer, you must complete some configuration tasks so that you can set up the Order Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/order-mgt-configuring-customers.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Configuring Order Management for customers using Service Bridge
+# Configuring Order Management for Service Exchange Consumers
 
 As a customer, you must complete some configuration tasks so that you can set up the Order Management application.
 

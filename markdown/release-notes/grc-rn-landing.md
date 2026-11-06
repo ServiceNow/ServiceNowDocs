@@ -1,49 +1,45 @@
 ---
 title: Governance, Risk, and Compliance release notes
-description: The Governance, Risk, and Compliance application has new and updated features in the Zurich release.
+description: The Governance, Risk, and Compliance application has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/grc-rn-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Governance, Risk, and Compliance release notes
 
-The Governance, Risk, and Compliance application has new and updated features in the Zurich release.
+The Governance, Risk, and Compliance application has new and updated features in the Brazil release.
+
+ServiceNow Governance, Risk, and Compliance \(GRC\) helps organizations identify, assess, manage, and monitor risk and compliance activities while improving resilience and governance through an integrated platform.
+
+Release notes are available for the following GRC products and shared capabilities.
 
 -   **[Advanced Risk release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-advanced-risk-rn.md)**  
-The ServiceNow® Advanced Risk application enables you to identify, analyze, evaluate, treat, and monitor risks that could impact your organization in achieving its business objectives. Advanced Risk was enhanced and updated in the Zurich release.
--   **[Audit Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-audit-rn.md)**  
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.
+The ServiceNow® Advanced Risk application enables you to identify, analyze, evaluate, treat, and monitor risks that could impact your organization in achieving its business objectives. Release notes are organized by version.
 -   **[AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-ai-risk-and-compliance-rn.md)**  
-The ServiceNow® AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and ensure compliance. AI Risk and Compliance was enhanced and updated in the Zurich release.
--   **[Business Continuity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-business-continuity-management-rn.md)**  
-The ServiceNow® Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. Business Continuity Management was enhanced and updated in the Zurich release.
--   **[Common Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-rn.md)**  
-The ServiceNow® Integrated Risk Management \(IRM\) application enables your organization to continue to provide its business services during adverse operational events, such as a pandemic, extreme weather, or hacking. Integrated Risk Management was enhanced and updated in the Zurich release.
--   **[Continuous Authorization and Monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-continuous-authorization-monitoring-rn.md)**  
-The ServiceNow® Continuous Authorization and Monitoring application provides a standardized approach to defining an authorization package and walking through the seven stages of the National Institute of Standards and Technology \(NIST\) Risk Management Framework \(RMF\). CAM was enhanced and updated in the Zurich release.
--   **[Model Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-model-risk-management-rn.md)**  
-The ServiceNow® Model Risk Management application helps to identify, assess, validate, and address model risks throughout their life cycle. Model Risk Management is a new application in the Zurich release.
+The ServiceNow® AI Risk and Compliance application provides a centralized process for assessing AI assets, scoring risk, and driving remediation. Release notes are organized by version.
+-   **[Audit Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-audit-rn.md)**  
+The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.
+-   **[Business Continuity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-business-continuity-management-rn.dita.md)**  
+The ServiceNow® Business Continuity Management application enables your organization to deliver products and services at an acceptable level during disruptive incidents. See the following sections for release notes by version.
+-   **[Common Governance, Risk, and Compliance features release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/common-grc-features-rn.md)**  
+Common Governance, Risk, and Compliance features provide shared capabilities for governance, access controls, workflows, regulatory resources, integrations, reporting, and user experiences across ServiceNow Governance, Risk, and Compliance applications. See the following sections for release notes by version.
+-   **[Continuous Authorization and Monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-cam-rn.md)**  
+The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and completing the seven stages of the NIST Risk Management Framework. Release notes are organized by version.
 -   **[Operational Resilience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-or-rn.md)**  
-The ServiceNow® Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Zurich release.
--   **[Policy and Compliance Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-policy-compliance-rn.md)**  
-The ServiceNow® Policy and Compliance Management application provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Policy and Compliance Management was enhanced and updated in the Zurich release.
+The ServiceNow® Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. See the following sections for release notes by version.
 -   **[Privacy Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-privacy-management-rn.md)**  
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.
+The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. See the following sections for release notes by version.
 -   **[Regulatory Change Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-regulatory-change-management-rn.md)**  
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Zurich release.
+The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Brazil release.
 -   **[Smart Assessment Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-smart-assessment-engine-rn.md)**  
-The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.
+The ServiceNow® Smart Assessment Engine application enables you to create customizable assessment templates with instructions and questions to gather information from assessors.
 -   **[Third-party Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-tprm-rn.md)**  
-The ServiceNow® Third-party Risk Management \(TPRM\) application provides a centralized process for managing your portfolio of third parties and their engagements, assessing and scoring risk, and performing remediation. TPRM was enhanced and updated in the Zurich release.
--   **[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-irm-rn.md)**  
-The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) application brings generative AI to Governance, Risk, and Compliance. ServiceNow Otto for Integrated Risk Management \(IRM\) was enhanced and updated in the Zurich release.
--   **[ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-tprm-rn.md)**  
-The ServiceNow® Now Assist for TPRM application brings generative AI to Third-party Risk Management. ServiceNow Otto for Third-party Risk Management \(TPRM\) is a new application in the Zurich release.
+The ServiceNow® Third-party Risk Management application provides a centralized process for managing third-party engagement portfolios, assessing and scoring risk, and driving remediation. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

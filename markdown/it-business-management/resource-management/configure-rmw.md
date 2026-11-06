@@ -1,35 +1,29 @@
 ---
 title: Configure Resource Management Workspace
-description: Configure Resource Management Workspace.
+description: Install and configure Resource Management Workspace to manage efforts and allocations of your resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/configure-rmw.html
 release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure Resource Management Workspace
 
-Configure Resource Management Workspace.
+Install and configure Resource Management Workspace to manage efforts and allocations of your resources.
 
 ## Configuration workflow
 
-1.  Install the Resource Management Workspace product from ServiceNow Store.
-
-    For more information, see [Install Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-rmw.md).
-
-2.  Define custom statuses for resource assignments.
-
-    For more information, see [Define custom statuses for resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/define-custom-status-ra.md)
-
+1.  Install [Install Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-rmw.md) from ServiceNow Store.
+2.  [Define custom statuses for resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/define-custom-status-ra.md).
 
 ## Guided setup for Resource Management Workspace
 
-Guided Setup provides a sequence of tasks to help you with the required configuration on your ServiceNow instances. After [installing Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-rmw.md), navigate to **All** &gt; **Resource** &gt; **Resource Management Guided Setup**.
+Guided Setup provides a sequence of tasks to help you with the required configuration on your ServiceNow instances. After installing Resource Management Workspace, navigate to **All** &gt; **Resource** &gt; **Resource Management Guided Setup**.
 
 -   **[Install Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-rmw.md)**  
 Install the Resource Management Workspace application from the ServiceNow Store.

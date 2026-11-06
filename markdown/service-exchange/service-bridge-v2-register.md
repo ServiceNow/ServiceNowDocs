@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Connect to a provider
@@ -27,7 +27,7 @@ Before proceeding, the provider should have requested the contact details of an 
 
 ## Procedure
 
-1.  Click the **Connect to Provider** link sent in the provider's registration email or follow the link given to you directly by the provider’s admin.
+1.  Select the **Connect to Provider** link sent in the provider's registration email or follow the link given to you directly by the provider’s admin.
 
     This link will generate the Provider connection record.
 
@@ -35,18 +35,39 @@ Before proceeding, the provider should have requested the contact details of an 
 
 2.  Navigate to **All** &gt; **Service Exchange Consumer** &gt; **Provider Connections**.
 
-3.  On the Provider Connection form in the consumer instance, select the name of the Company that the provider is associated with and click **Save**.
+3.  On the Provider Connection form in the consumer instance, select the name of the Company that the provider is associated with and select **Save**.
 
-    The Provider Connection record is displayed.
+    After you save the provider connection record, the state changes to Awaiting Validation while the pre-onboarding scan suite runs validation checks on the background.
 
-4.  Click **Connect to Provider** in the Provider connection record page.
+    -   If all validation checks pass, the state changes to Validated.
+    -   If any validation checks fail, the state changes to Validation Failed. A banner appears at the top of the provider connection record. Indicates that one or more pre-onboarding suite checks did not pass, along with a link to the Health Dashboard. Review the Health Dashboard to fix the issues. When the all the issues are resolved, the connection automatically moves to Validated.
+4.  Select **Connect to Provider** in the Provider connection record page.
 
-5.  Click **Authenticate** when the Service Exchange registration message appears.
+    The **Connect to Provider** button is not available if there are any unresolved validation errors. Resolve all pre-onboarding scan issues before proceeding.
+
+5.  Select **Authenticate** when the Service Exchange registration message appears.
 
     The OAuth authentication page appears.
 
-6.  Click **Allow** and then click **Submit** to proceed with the registration.
+6.  Select **Allow** and then select **Submit** to proceed with the registration.
 
-    You are redirected to the Registration task where you can view the status. When registration is completed, a connection is established between the provider and the consumer instances, and the registration task State is set to **Closed Complete** on the provider's instance.
+    You are redirected to the Registration task where you can view the state. When registration is completed, a connection is established between the provider and the consumer instances, and the registration task State is set to **Closed Complete** on the provider's instance.
 
+
+If the state is **Validation Failed**, you must resolve all issues identified during the pre-onboarding checks.
+
+1.  Select the **Health Dashboard** link in the Validation Failed banner at the top of the Provider Connection record.
+2.  Review and resolve all the pre-onboarding scan issues.
+
+    After all issues are resolved, the state automatically changes to Open and the registration process resumes.
+
+
+**Related topics**  
+
+
+[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/se-se-center.md)
+
+[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-scan-checks.md)
+
+[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-onboarding.md)
 

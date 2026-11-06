@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use the Dynamic Service method to populate application services
@@ -22,7 +22,7 @@ The Dynamic Service is one of several methods for populating an application serv
 
 New dynamic application services initially don't contain any CIs \(unless they were converted from legacy business services or legacy manual services\). Dynamic application services are automatically populated when CIs that are contained in the service, get connected to other CIs by CMDB relationships. Entry points are automatically created when a relationship between a dynamic application service CI and other CIs is created.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Dynamic Service, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Dynamic Service, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 Role required: app\_service\_admin
 

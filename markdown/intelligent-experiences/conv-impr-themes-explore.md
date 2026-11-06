@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/conv-impr-themes-explore.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Conversation Improvement Themes, Enable AI experiences]
+breadcrumb: [Conversation Improvement Themes, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Exploring Conversation Improvement Themes

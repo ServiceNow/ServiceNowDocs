@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -54,9 +54,9 @@ Plan and allocate resources using the Project Workspace application to enable op
 -   **[Financials in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/financial-planning-in-pw.md)**  
 Plan, re-forecast, track the financials, and create baselines for projects and demands.
 -   **[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/status-reporting-in-pw.md)**  
-A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health . These areas include cost, resources, milestones, health, and more.
+A status report in Project Workspace provides a snapshot of your project health across key areas such as cost, resources, milestones, and schedule.
 -   **[Project types in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-types-in-pw.md)**  
-Project Workspace supports that let administrators define custom fields and form layouts for each project type. This enables configuration independence across different types of projects without affecting default fields or other project types.
+Administrators can define custom fields, a form view, and visible modules for each project type in Project Workspace without affecting default settings or other project types.
 -   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/better-together-with-itam.md)**  
 Integrate Hardware Asset Management \(HAM\) with Project Workspace to track which HAM requests or refreshes belong to an SPM project. Provide portfolio and project managers visibility into request status without leaving Project Workspace.
 

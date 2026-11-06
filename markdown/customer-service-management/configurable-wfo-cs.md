@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Customer Service Management]
 ---
@@ -14,17 +14,15 @@ breadcrumb: [Explore, Customer Service Management]
 
 Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for Customer Service. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 
-Watch this short video to see how managers use Workforce Optimization for Customer Service.
-
-\[Omitted video\] Description: Workforce Optimization for Customer Service
+Watch this short video to see how managers use Workforce Optimization for Customer Service.\[Omitted video\] Description: Workforce Optimization for Customer Service
 
 The application is available on configurable workspaces. Administrators can configure and customize the workspace using the application capabilities to complete the service objectives efficiently.
 
-Workforce Optimization for Customer Serviceenables you to:
+Workforce Optimization for Customer Service enables you to:
 
 -   Assess real-time operations and performance of teams and agents across different channels and queues.
--   Keep track of ongoing work and provide real-time help to team members for better customer experience.
--   Helps organizations ensure that their managers only see the data and views of relevant teams
+-   Keep track of ongoing work and provide real-time help to team members for a better customer experience.
+-   Ensure that managers only see the data and views of relevant teams.
 -   Monitor and measure team performance and provide feedback using assessments.
 -   Predict and recommend skills for agents.
 -   Identify opportunities to coach and train your teams.
@@ -39,11 +37,11 @@ As an agent, you can manage your own schedule, access the schedule of your peers
 
 ## Manager workspace landing page
 
-The landing page offers a real-time view of key performance metrics, team updates, and real-time alerts that improve collaboration. View metrics using various score cards, donuts, gauges, line charts, and bar charts with multiple data sets. For more information, see .
+The landing page offers a real-time view of key performance metrics, team updates, and real-time alerts that improve collaboration. View metrics using various score cards, donuts, gauges, line charts, and bar charts with multiple data sets. For more information, see [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md).
 
 ## Channel management
 
-Manage pending work items from customers, manage the daily work routine of agents, balance the workload between agents adhering to promised SLAs, and automatically route and assign work items to agents based on their availability, capacity, and skills. Monitor your teams in real time and join their chat conversations to help when there is a need.
+Manage pending work items from customers, manage the daily work routine of agents, and balance the workload between agents adhering to promised SLAs. Automatically route and assign work items to agents based on their availability, capacity, and skills. Monitor your teams in real time and join their chat conversations to help when there is a need.
 
 Using Channel Management, you can also:
 
@@ -121,4 +119,11 @@ Using Coaching, you can also:
 -   Assign courses to agents from third-party learning management systems \(LMS\), such as Udemy, Pluralsight, and Cornerstone OnDemand.
 
 For more information, see: [Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/explore-coaching-configurable-wfo-cs.md).
+
+**Related topics**  
+
+
+[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setup-configurable-wfo-cs.md)
+
+[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 

@@ -1,32 +1,30 @@
 ---
 title: Configure API credentials for Azure OpenAI
-description: Configure your API credentials to use Azure OpenAI in custom workflows and Virtual Agent Designer topics.
+description: Configure your API credentials to use Azure OpenAI as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-azure-openai.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure API credentials for Azure OpenAI
 
-Configure your API credentials to use Azure OpenAI in custom workflows and Virtual Agent Designer topics.
+Configure your API credentials to use Azure OpenAI as your LLM provider for Generative AI Controller capabilities.
 
 ## Before you begin
 
-You must have access to the supported Azure OpenAI models through AI Admin Hub, or an active Azure OpenAI account and a valid API key to securely connect ServiceNow to Azure OpenAI.
+To use generative AI capabilities with Azure OpenAI, you must have an Azure resource with an API key.
 
 Role required: admin
 
 ## About this task
 
-Enable Generative AI Controller capabilities by connecting ServiceNow to Azure OpenAI model with your API key. This involves configuring your API credentials for secure access to Azure OpenAI models.
-
-For end-to-end configuration of Azure OpenAI in ServiceNow using your API key \(BYOK\), establish a secure connection that enables customized AI capabilities while maintaining flexibility, control, and conformance. For more information, see [KB2663518](https://support.servicenow.com/kb?sys_kb_id=af559cd64769b29477748d01426d4353&id=kb_article_view) article in the Now Support Knowledge Base.
+To use models with Azure OpenAI as your LLM provider for Generative AI Controller capabilities, you must have an active connection configured.
 
 ## Procedure
 
@@ -51,11 +49,13 @@ For end-to-end configuration of Azure OpenAI in ServiceNow using your API key \(
 
 ## Result
 
-You can now use capabilities labeled with Azure OpenAI in Flow Designer, Virtual Agent Designer, and scripts like background scripts and business rules to create custom experiences with generative AI.
+You can now use capabilities labeled with Azure OpenAI as your LLM provider for Generative AI Controller capabilities.
 
 \[Omitted image "gai-created-connection-azure.png"\] Alt text: Complete connection for Azure OpenAI.
 
 ## What to do next
 
 If you want to use generative AI capabilities through your MID Server, open the new Connection record, select the **Use MID server** check box, and save the record.
+
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md).
 

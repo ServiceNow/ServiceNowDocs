@@ -1,0 +1,32 @@
+---
+title: Insights card
+description: The card provides AI-generated customer health insights and recent customer issue insights for a consumer or a customer account.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/c360-insights-card.html
+release: zurich
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Home page, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
+---
+
+# Insights card
+
+The card provides AI-generated customer health insights and recent customer issue insights for a consumer or a customer account.
+
+The following insights are displayed on the card:
+
+-   Customer health: Displays the overall customer health trend based on cases and sentiment data analyzed over the past 30 days. If no sentiment data or closed cases are available, the card displays a message indicating that no data is available for analysis.
+-   Top recent customer issues: Displays a summary of recent customer issues based on open cases and service problem cases associated with the consumer or customer account. The summary includes:
+    -   A one to two line overview of the most common or significant issues.
+    -   A list of individual issues, each showing the case or service problem number, opened date, priority, status, assigned to, and details.
+
+\[Omitted image "c360-insights.jpg"\] Alt text: Customer 360 insights
+
+You can configure variables such as tables, display fields, and query conditions. See [Configure the insights card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-configure-insights-card.md) for details.
+
+-   **[Generate Telecom customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-ai-insights.md)**  
+Generate customer health insights and recent customer issue insights for a customer or consumer account.
+
+**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-home-page.md)
+

@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ The Knowledge Demand Insights feature requires the Predictive Intelligence for K
 
 You can use a demand insights dashboard for your tasks to analyze candidate knowledge gaps and create knowledge gap feedback tasks. By default, the Knowledge Demand Insights feature includes **Demand Insights for Incidents**, **Demand Insights for Cases**, and **Demand Insights: Similar HR Cases and Knowledge** dashboards for incidents, customer service cases, and HR cases, respectively. For other tasks, you can create a dashboard. To access a demand insights dashboard, you must have read access to the tasks and the sn\_km\_ml.knowledge\_curation\_user role. For more information, see [Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md).
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management.md)
 
 **Related topics**  
 

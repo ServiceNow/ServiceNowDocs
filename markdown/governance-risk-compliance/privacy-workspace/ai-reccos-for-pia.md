@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [recommendations, control objectives, risk statements]
 breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]

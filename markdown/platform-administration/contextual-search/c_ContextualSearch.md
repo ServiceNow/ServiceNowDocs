@@ -7,9 +7,9 @@ release: zurich
 product: Contextual Search
 classification: contextual-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Search administration, Configure core features, Administer]
+breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Contextual search
@@ -27,20 +27,20 @@ Contextual search helps with incident deflection for the following areas:
 -   Incident forms: helping service desk staff resolve incidents quickly by providing relevant knowledge.
 -   Incident email notifications: helping end users resolve their incidents themselves without requiring manual intervention from service desk staff.
 
+-   **[Contextual search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/contextual-search-plugins.md)**  
+Contextual search plugin is activated in the base system.
 -   **[Contextual search concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/contextual-search-concepts.md)**  
 Contextual search concepts help you to understand different contextual search components that are used in the documentation, configuration, and user interface. Understanding of the concepts makes it easier for you to comprehend the interconnection between the components.
 -   **[Contextual search components diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/contextual-search-flow-diagram.md)**  
 The contextual search components diagram helps you to understand how contextual search concepts work together to perform a search and from which module you can configure the components.
 -   **[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/configuring-contextual-search.md)**  
 You can configure different components of contextual search.
--   **[Contextual search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/contextual-search-plugins.md)**  
-Contextual search plugin is activated in the base system.
--   **[Contextual Search roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/roles-contextual-search.md)**  
-Contextual Search is installed with these roles.
 -   **[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/working-with-contextual-search.md)**  
 Contextual search provides a way to display results that can be relevant to the issue for which you are creating an incident or requesting a service.
 -   **[Domain separation and Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/domain-separation-contextual-search.md)**  
 Domain separation is supported in Contextual Search. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Contextual Search roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/roles-contextual-search.md)**  
+Contextual Search is installed with these roles.
 
 **Parent Topic:**[Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/search-administration.md)
 

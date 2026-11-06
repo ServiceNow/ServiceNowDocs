@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Access Management]
+breadcrumb: [Knowledge-based authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure knowledge-based authentication
@@ -29,7 +29,7 @@ Role required: auth\_factors\_admin
     -   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-knowledge-based-questions.md)
     -   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-knowledge-based-answers.md)
     -   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-kba-answer-mappings.md)
-    -   [AI voice agent service mapping with KBA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-kba-service-mappings.md)
-    After creating the KBA configurations, you can use it as an identification and authentication method.
+    -   [Specify knowledge-based questions for an AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-kba-service-mappings.md)
+    After creating the KBA configurations, you can use them as an identification and authentication method.
 
 

@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ Use core features such as CMDB Health, CMDB Identification and Reconciliation, a
 
 </td><td>
 
-[CMDB 360 / Multisource CMDB\[Omitted image "bus-project.svg"\] Alt text:Track and manage how multiple sources populate the same CI attributes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
+[CMDB 360\[Omitted image "bus-project.svg"\] Alt text:Track and manage how multiple sources populate the same CI attributes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
 </td><td>
 

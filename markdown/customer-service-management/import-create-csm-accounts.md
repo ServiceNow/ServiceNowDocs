@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-create-csm-accounts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,14 @@ An account is a supported external customer. Use the Customer Service Management
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager or admin
+Role required: One of the following roles:
+
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Create an event profile, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -180,15 +180,15 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
 12. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d289605e666">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d292775e666">
 
 Option
 
-</th><th align="left" id="d289605e669">
+</th><th align="left" id="d292775e669">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d289605e675">
+</th></tr></thead><tbody><tr><td id="d292775e675">
 
 ** **
 
@@ -196,7 +196,7 @@ Description
 
  
 
-</td></tr><tr><td id="d289605e682">
+</td></tr><tr><td id="d292775e682">
 
 **Continue**
 
@@ -204,7 +204,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d289605e699">
+</td></tr><tr><td id="d292775e699">
 
 **Update**
 
@@ -212,7 +212,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d289605e711">
+</td></tr><tr><td id="d292775e711">
 
 **Previous**
 
@@ -220,7 +220,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Alert Selection form is displayed.
 
-</td></tr><tr><td id="d289605e721">
+</td></tr><tr><td id="d292775e721">
 
 **Delete**
 

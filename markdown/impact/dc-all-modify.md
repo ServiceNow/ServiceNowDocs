@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-all-modify.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Modifying the Data Collection configuration
@@ -34,4 +34,6 @@ The alterations for this change in metric definition would imply the following c
     -   Change the Indicator Source field to **Impact VM - Incidents Closed This Month** on both indicators.
     -   Change the Additional Conditions to add a filter for **Priority 1** on both indicators.
     -   For Time to Restore, as the duration field may not be in use, you can use a scripted calculation for the duration. You can re-use the script from the automate indicator **Impact VM - Average Time to Close an Incident \(hrs\)** for this.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md)
 

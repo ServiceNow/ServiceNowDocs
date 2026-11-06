@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/t\_TakeASurvey.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Survey questionnaires, Use, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey questionnaires, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Take a survey
@@ -40,7 +40,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 4.  Complete one of the following steps.
 
-<table id="choicetable_qrt_jms_nt"><tbody><tr><td id="d113523e127">
+<table id="choicetable_qrt_jms_nt"><tbody><tr><td id="d112405e127">
 
 **Save your responses without submitting them**
 
@@ -48,7 +48,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 Click **Save**. You can close the questionnaire and access it later from your queue.**Note:** The system doesn't save the survey when there are invalid responses, such as a letter in a date field. You must enter valid responses or remove invalid responses before you can save the survey.
 
-</td></tr><tr><td id="d113523e142">
+</td></tr><tr><td id="d112405e142">
 
 **Submit the survey after answering all questions**
 

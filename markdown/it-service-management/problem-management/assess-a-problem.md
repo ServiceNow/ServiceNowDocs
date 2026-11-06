@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Problem Management, IT Service Management]
+breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
 
 # Assess a problem
@@ -33,15 +33,15 @@ Assessing a problem involves analyzing the scale and extent of the problem, as w
 
     After assessing the problem, you can perform any one of the following actions:
 
-<table id="choicetable_fnv_jzj_wfb"><thead><tr><th align="left" id="d117097e93">
+<table id="choicetable_fnv_jzj_wfb"><thead><tr><th align="left" id="d184162e93">
 
 Option
 
-</th><th align="left" id="d117097e96">
+</th><th align="left" id="d184162e96">
 
 Action to be taken
 
-</th></tr></thead><tbody><tr><td id="d117097e102">
+</th></tr></thead><tbody><tr><td id="d184162e102">
 
 **If the problem is valid and requires a resolution**
 
@@ -49,7 +49,7 @@ Action to be taken
 
 Click **Confirm**.
 
-</td></tr><tr><td id="d117097e114">
+</td></tr><tr><td id="d184162e114">
 
 **If there is an existing problem with similar issue**
 
@@ -61,7 +61,7 @@ Click **Mark Duplicate**.**Note:**
 -   The **List of related task records \(comma-separated\) to move over when a problem is marked as a duplicate of another** \(**problem.duplicate.records\_to\_move**\) problem management property controls the related records that are copied from the existing to the original problem.
 
 
-</td></tr><tr><td id="d117097e142">
+</td></tr><tr><td id="d184162e142">
 
 **If the problem is not a valid problem**
 

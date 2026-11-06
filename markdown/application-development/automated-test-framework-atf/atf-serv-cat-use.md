@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Automated Test Framework use case examples, Reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework use case examples, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Automated Test Framework use case: test a Service Catalog request
@@ -22,7 +22,7 @@ Role required: atf\_test\_admin
 
 ## About this task
 
-With the Replay Request Item test step, you can test the service catalog ordering process once a request exists and has a record in the request item table. In the Zurich release, you cannot create an automated test for the process by which the user creates a new request.
+With the Replay Request Item test step, you can test the service catalog ordering process once a request exists and has a record in the request item table. In the Brazil release, you cannot create an automated test for the process by which the user creates a new request.
 
 \[Omitted image "atf-use-serv-cat.png"\] Alt text: Test steps
 
@@ -36,7 +36,7 @@ With the Replay Request Item test step, you can test the service catalog orderin
 
     This insertion triggers the Service Catalog Request workflow, which checks the price of the item, determines that it exceeds $1000.00, and therefore generates approval records for users belonging to the Catalog Request Approvals group. In this example, only one user– Eric Schroeder – belongs to this group.
 
-
+    \[Omitted image "atf-use-sc-scrwf-a.png"\] Alt text: Service catalog request workflow
 
 2.  Impersonate Eric Schroeder, the user who needs to approve this Service Catalog Request.
 
@@ -54,15 +54,15 @@ With the Replay Request Item test step, you can test the service catalog orderin
 
     The Service Catalog Request workflow sees that all required approval records have the state of Approved and transitions to the Approval Action which marks the request record \[sc\_request\] as Approved.
 
-
+    \[Omitted image "atf-use-sc-scrwf-b.png"\] Alt text: Sc workflow with approval portion highlighted
 
     When the record in \[sc\_request\] changes to the Approved state, an associated business rule generates request items \[sc\_request\_item\] for each item in the request. In this example, the request contains only one item, so the business rule inserts one record into the \[sc\_request\_item\] table. This insertion triggers the Service Catalog Item Request workflow.
 
-
+    \[Omitted image "atf-use-sc-item-wf.png"\] Alt text: Service catalog item request workflow
 
     The first activity in the Service Catalog Item Request workflow generates an approval record for the head of the department in which the requesting user works. In this example, the department head is Natasha Ingram.
 
-
+    \[Omitted image "atf-use-sc-ir-01.png"\] Alt text: Service catalog item workflow
 
 5.  The workflow does not continue until the department head approves it, so the next test step impersonates Natasha Ingram.
 
@@ -80,7 +80,7 @@ With the Replay Request Item test step, you can test the service catalog orderin
 
     Note how Step 7 refers to the **First record**output variable from Step 6 to specify which record to approve. When the record is approved, the workflow transitions to the next Approval - User activity, which generates an approval record for the CIO. In this example, the CIO is Bow Ruggeri.
 
-
+    \[Omitted image "atf-use-sc-ir-02.png"\] Alt text: Service catalog item workflow
 
 8.  Impersonate Bow Ruggeri.
 
@@ -90,7 +90,7 @@ With the Replay Request Item test step, you can test the service catalog orderin
 
     When the record is approved, the workflow transitions to the Approval Action activity which sets the record for this item in the \[sc\_request\_item\] table to **Approved**. The workflow transitions to the Catalog Task activity labelled Asset Mgmt. Fulfills Order. This Catalog Task activity generates a new record in the \[sc\_task\] table that instructs a user in the Fulfillment group to order the item.
 
-
+    \[Omitted image "atf-use-sc-ir-03.png"\] Alt text: Service catalog item workflow
 
 11. Impersonate a user in the Fulfillment group, in this example ATF.User.
 
@@ -110,7 +110,7 @@ With the Replay Request Item test step, you can test the service catalog orderin
 
     When the record is marked **Closed Complete**, the workflow exits the Catalog Task activity along the In Stock exit path.
 
-
+    \[Omitted image "atf-use-sc-ir-04.png"\] Alt text: Service catalog item request workflow
 
     The workflow transitions to the Notification activity, then to the Catalog Task activity labelled Deploy Item to User.The Deploy Item to User Catalog Task activity inserts a new record into the \[sc\_task\] table that instructs a user in the Deployment group to deliver the item.
 
@@ -128,7 +128,7 @@ With the Replay Request Item test step, you can test the service catalog orderin
 
     When the record is marked Closed Complete, the workflow exits the Catalog Task activity, logs a message, and exits.
 
-
+    \[Omitted image "atf-use-sc-ir-05.png"\] Alt text: Service catalog item request workflow
 
 16. Verify that the request item in \[sc\_request\_item\] has the state Closed Complete.
 

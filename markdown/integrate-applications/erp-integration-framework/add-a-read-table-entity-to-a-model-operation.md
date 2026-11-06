@@ -1,65 +1,63 @@
 ---
 title: Add a read table entity to a model operation
-description: Specify the read table entity that a Zero Copy Connector for ERP model uses for a read, update, or create operation.
+description: Specify the read table entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/add-a-read-table-entity-to-a-model-operation.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-07"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, read, table, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Add entity to model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a read table entity to a model operation
 
-Specify the read table entity that a Zero Copy Connector for ERP model uses for a read, update, or create operation.
+Specify the read table entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 
 ## Before you begin
 
-Role required: sn\_erp\_integration.erp\_admin
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
-You must have already added the read operation before you can add an entity to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+Role required: sn\_erp\_integration.erp\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
-3.  Select the model that you want to add an operation entity to.
+3.  Select the model to add an operation entity to.
 
 4.  Select the **Manage model** button.
 
-5.  Select the **Read** operation.
+5.  Select an operation, for example, a **Read** operation.
 
-6.  For help finding relevant entities using the **Ask AI** button, see [Use generative AI to help add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/use-ai-to-help-add-an-entity-to-a-model.md).
+6.  Select **Select entity** on the **Manage entities** tab.
 
-7.  Select **Select entity** on the **Manage entities** tab.
+    \[Omitted image "erpc-manage-entities-manager-ys22.png"\] Alt text: Add operation entities on the manage models tab.
 
-    \[Omitted image "image.erpc-manage-entities-manager-ys22"\] Alt text: Add operation entities on the manage models tab.
+7.  Select a type, for example, **Read table**.
 
-8.  In **Select type**, select **Read table**.
-
-    \[Omitted image "image.erpc-add-entity-manager-ys2"\] Alt text: Select the type of entity you're adding.
+    \[Omitted image "erpc-add-entity-manager-ys2.png"\] Alt text: Select the type of entity you're adding.
 
     You can select **Preview table data** to view table details before specifying an entity. For more information, see [Preview read table entities in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-preview-entity.md).
 
-9.  In **Select entity**, specify the read table to use.
+8.  Select an entity, for example, a read table name.
 
-    The AI Search for this field can help you find what you're looking for faster, for example by entering `Countries` instead of `T005`.
+    The AI Search for this field helps you find entities faster, for example, by entering `Countries` instead of `T005`.
 
-    For table read operations, you may need to check the **Model entities** tab of the current or another related model to get the table name. Alternatively, ask your SAP admin. For more information, see [View and edit the foundation of ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
+    For table read operations, you may need to check the **Model entities** tab of the current or another related model to get the table name. Alternatively, ask your SAP administrator. For more information, see [View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
-10. When you're finished, select **Add entity**.
+9.  Select **Add entity**.
 
-    The entity card shows the date and time information was last retrieved.
+    The entity card shows the date and time when the information was last retrieved.
 
-    \[Omitted image "image.erp-add-read-entity-to-model1"\] Alt text: Manage model tab with entity card showing retrieval date and time.
+    \[Omitted image "erp-add-read-entity-to-model1.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
-11. Rearrange and delete table entities as needed.
+10. Rearrange and delete table entities as needed.
 
     **Important:** Reordering deletes any existing table joins for the reordered entities.
 
@@ -69,6 +67,4 @@ You must have already added the read operation before you can add an entity to i
 
         Deleting an entity removes all of its related field mappings and table joins.
 
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

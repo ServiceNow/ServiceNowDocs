@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platfor
 # Disable AJAXEvaluate
 
 Use the **glide.script.allow.ajaxevaluate** to protect the system API from vulnerabilities of Client script execution through AJAX calls.
+
+The AjaxEvaluator processor executes these scripts in sandbox however there are several additional properties which can allow the scope of activities in the sandbox to expand or be turned off entirely. In a worst case scenario a user can easily execute scripts as an admin privilege.
+
+Ensure that the **glide.script.allow.ajaxevaluate** system property is set to **false**.
 
 Elevation to the security\_admin role is required to edit the property.
 
@@ -32,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -48,19 +52,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To prevent a user from executing scripts as an admin privilege.
+Boolean
 
 </td></tr><tr><td>
 
@@ -80,19 +76,19 @@ false
 
 </td></tr><tr><td>
 
-Configuration type
+Fallback value
 
 </td><td>
 
-Boolean
+false
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-This remediation forces the AJAXEvaluate processor to be turned off. It could impact functionality if you are explicitly using the AJAX evaluate processor as part of any customized scripts.
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -100,26 +96,26 @@ Security risk
 
 </td><td>
 
-\(High\) The AjaxEvaluator processor executes Client scripts in sandbox, however there are several additional properties which can allow the scope of activities in the sandbox to expand.
+-   Severity score: 7.3
+-   CVSS rating: High
+-   Security risk details: If this property is not set to **false**, then the system API can be vulnerable to client script execution through AJAX calls.
 
 </td></tr><tr><td>
 
-Security risk rating
+Functional impact
 
 </td><td>
 
-7.3
+None
 
 </td></tr><tr><td>
 
-References
+Dependencies and prerequisites
 
 </td><td>
 
-This property belongs to the same family of properties that secure and restrict execution of scripts originating from the client, such as **glide.script.allow.ajaxevaluate**. For more information, see [Enable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

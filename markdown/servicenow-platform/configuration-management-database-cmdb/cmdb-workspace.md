@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 The CMDB Workspace is an efficient, central, and modernized way for you to work. Use CMDB Workspace to search and explore the CMDB, examine health and recent activities, and access CMDB dashboards and tools to support tasks in your organization.
 
-Watch the following video to get started with CMDB Workspace. Depending on the version of your CMDB Workspace, some UI elements and features might differ.\[Omitted video\] Description: Introduction to CMDB Workspace
+Watch the following video to get started with CMDB Workspace. Depending on the version of your CMDB Workspace, some UI elements and features might differ.
 
 ## Get started
 
@@ -46,10 +46,10 @@ Learn more about CMDB Workspace, its different views, and its benefits when usin
 Plan and configure your implementation of CMDB Workspace.
 -   **[Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md)**  
 Create a new CI in CMDB Workspace, while applying Identification and Reconciliation Engine \(IRE\) processes and other requirements for the CI's class. IRE identification rules enforce the new CI to be unique and to comply with other class requirements.
--   **[Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)**  
+-   **[Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)**  
 Use CI Form in CMDB Workspace or in another workspace, to view, edit, and manage a comprehensive set of details of a CI such as its attributes, related lists, and CMDB 360 records. When updating CIs, IRE rules are applied to avoid potential issues such as duplicate CIs. CI Form supports derivation of form configurations throughout the CMDB hierarchy.
 -   **[Resume a disabled Cloud vs Non-cloud resources scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.md)**  
-Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart in CMDB Workspace.
+Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 -   **[Edit a related table from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/insights-update-record-rltd-table.md)**  
 Edit a related table on the Related Entries \[cmdb\_related\_entry\] table directly from the CMDB performance insights tool in the CMDB Workspace Insights view. Update the related table to correctly reference another CI in the Referenced field when a reference is missing from the related table.
 -   **[Edit a data source from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/insights-update-data-source.md)**  

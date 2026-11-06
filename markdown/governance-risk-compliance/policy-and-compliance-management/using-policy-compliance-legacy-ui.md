@@ -1,5 +1,5 @@
 ---
-title: Classic UI for Policy and Compliance Management
+title: Classic UI for Policy and Control Management
 description: You can continue to use the Classic environment to perform all Policy and Compliance Management activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.html
@@ -7,12 +7,12 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Classic UI for Policy and Compliance Management
+# Classic UI for Policy and Control Management
 
 You can continue to use the Classic environment to perform all Policy and Compliance Management activities.
 

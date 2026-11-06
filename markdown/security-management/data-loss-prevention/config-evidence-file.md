@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a profile for Symantec DLP integration, Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -24,7 +24,7 @@ Verify that the Symantec user that you are configuring for ServiceNow Symantec D
 
 ## About this task
 
-You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance, ensuring that files are stored and encrypted using ServiceNow's Field Encryption. For more information, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/field-encryption.md).
+You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance, ensuring that files are stored and encrypted using ServiceNow's Field Encryption.
 
 When DLP analyst performs the Download evidence files for DLP Incidents action from analyst workspace, the file will be downloaded from the selected storage if evidence file storage option is enabled. Otherwise, the file will be downloaded directly from the Symantec source and will not be persisted in ServiceNow instance.
 
@@ -40,15 +40,15 @@ When DLP analyst performs the Download evidence files for DLP Incidents action f
 
 4.  Select the preferred storage type.
 
-<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d471648e124">
+<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d476176e111">
 
 Type
 
-</th><th align="left" id="d471648e127">
+</th><th align="left" id="d476176e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d471648e133">
+</th></tr></thead><tbody><tr><td id="d476176e120">
 
 **Evidence File Storage**
 
@@ -56,7 +56,7 @@ Description
 
 Option to enable the Evidence file storage.
 
-</td></tr><tr><td id="d471648e142">
+</td></tr><tr><td id="d476176e129">
 
 **Storage Type**
 

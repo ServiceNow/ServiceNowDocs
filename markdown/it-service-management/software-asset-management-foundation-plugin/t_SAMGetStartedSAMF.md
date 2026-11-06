@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Setting up Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Setting up Basic Software Asset Management plugin, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Get started with Basic Software Asset Management
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-After you have [Setting up Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md), get started by completing these steps for basic configuration.
+After you have [Setting up Basic Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md), get started by completing these steps for basic configuration.
 
 ## Procedure
 
@@ -39,5 +39,5 @@ After you have [Setting up Basic Software Asset Management](https://raw.githubus
 
 Depending on the compliance status of your software installations, you can choose to optimize your environment further.
 
-**Parent Topic:**[Setting up Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Basic Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

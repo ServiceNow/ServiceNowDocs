@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-use-repair-claim.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -28,6 +28,8 @@ Create a repair claim for the products under warranty or recall.
 View the repair claim cases.
 -   **[Reviewing and approving repair claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-approve-repair-claims.md)**  
 Agents portal or workspace enables you to review and approve the claims submitted by a dealer.
+-   **[Summarize fraudulent claim detection using agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-summarize-fraudulent-claim-detection.md)**  
+Automatically detect fraudulent claims by identifying duplicates, similar claim patterns, reused dealer images, mismatched or incomplete supporting documents, usage inconsistencies, and abnormal claim spikes.
 
 **Parent Topic:**[Using MCO workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agent-management.md)
 

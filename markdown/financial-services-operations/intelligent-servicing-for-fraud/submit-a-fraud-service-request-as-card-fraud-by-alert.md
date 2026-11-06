@@ -7,8 +7,9 @@ release: zurich
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [submit a fraud case request, create a fraud case, card fraud by alert, fraud case fulfillment, collect customer documents, document verification tasks, fraud case workflow, fraud types, sn\_bom\_fraud.agent]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 

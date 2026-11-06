@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage the safety inspection and audit surveys through mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -42,15 +42,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d795142e147">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d806644e147">
 
 Section
 
-</th><th align="left" id="d795142e150">
+</th><th align="left" id="d806644e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d795142e156">
+</th></tr></thead><tbody><tr><td id="d806644e156">
 
 **My Surveys**
 
@@ -58,7 +58,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d795142e170">
+</td></tr><tr><td id="d806644e170">
 
 **Inspections**
 
@@ -84,7 +84,7 @@ Tap **My Assessments and Surveys**.All surveys that were downloaded before you w
 
 ## Result
 
-The action created appears in the **Actions** tab of the inspection record and can be edited or deleted by using the More actions \[Omitted image "more-button-icon.png"\] Alt text: more actions icon Icon.
+The action created appears in the **Actions** tab of the inspection record and can be edited or deleted by using the More actions \(\[Omitted image "more-button-icon.png"\] Alt text: more actions icon\) icon.
 
 **Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
 

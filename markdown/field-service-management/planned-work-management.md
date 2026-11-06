@@ -1,22 +1,35 @@
 ---
 title: Planned Work Management
-description: The Planned Work Management application works with Field Service Management to help organizations to create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
+description: The Planned Work Management application works with Field Service Management to help organizations create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/planned-work-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
 # Planned Work Management
 
-The Planned Work Management application works with Field Service Management to help organizations to create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
+The Planned Work Management application works with Field Service Management to help organizations create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
 
 With Planned Work Management, organizations can configure recurring activities based on time intervals, meter readings, or specific conditions, ensuring that critical maintenance work is executed consistently and proactively. The application also provides forecasting capabilities and access to maintenance cycle history, enabling better resource planning and improved operational visibility.
 
 Planned Work Management enhances maintenance operations by supporting dynamic scheduling, multi‑asset maintenance plans, and automated adjustments when exceptions occur.
+
+## Example: Quarterly HVAC Maintenance
+
+An organization needs recurring maintenance, inspections, and audits to run consistently without manual scheduling effort. Planned Work Management generates work orders automatically on defined schedules and adjusts future work orders when exceptions occur.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician or Admin|Creates work plan|
+|2|System|Attaches predefined inspection checklist tasks to work plan|
+|3|System|Schedules automatically|
+|4|Technician|Performs inspection|
+|5|Technician|Updates results|
+|6|Technician|Closes work order|
 
 ## Key benefits
 
@@ -47,14 +60,14 @@ Planned Work Management enhances maintenance operations by supporting dynamic sc
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 
 
 [Configuring Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configuring-planned-work-management.md)
 
-[Manage a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
+[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 
 [Work plan example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/example-planned-work.md)
 

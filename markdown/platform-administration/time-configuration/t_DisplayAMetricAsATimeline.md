@@ -7,28 +7,24 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer]
+breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Display a metric as a timeline
 
 Administrators can enable users to display any metric on a timeline by activating the Timeline Metrics UI action.
 
-## Before you begin
-
-Role required: none
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Metrics** &gt; **Definitions**.
 
-2.  Select the metric you want to display on a timeline, such as **Problem State Duration**.
+2.  Select the metric you want to display on a timeline. For example, Problem State Duration.
 
 3.  Select the **Timeline** check box.
 
-4.  Select **Update**.
+4.  Click **Update**.
 
 
 **Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_TimelinePages.md)

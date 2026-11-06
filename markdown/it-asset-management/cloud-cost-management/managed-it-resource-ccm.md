@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Cloud Cost Management subscriptions, Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Manage Cloud Cost Management subscriptions, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Managed IT Resource types

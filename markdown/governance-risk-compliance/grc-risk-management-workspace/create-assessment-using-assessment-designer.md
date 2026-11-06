@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assess risks, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -57,7 +57,7 @@ Role required: sn\_risk.asmt\_creator, sn\_risk.manager
 
 5.  Click one of the following tabs to change the view in the canvas.
 
-<table id="choicetable_lvf_45v_lz"><tbody><tr><td id="d179670e347">
+<table id="choicetable_lvf_45v_lz"><tbody><tr><td id="d319000e347">
 
 **Design**
 
@@ -65,7 +65,7 @@ Role required: sn\_risk.asmt\_creator, sn\_risk.manager
 
 Add categories and questions, and configure the properties of each. This is the default view of the canvas when you open the designer.
 
-</td></tr><tr><td id="d179670e356">
+</td></tr><tr><td id="d319000e356">
 
 **Configuration**
 
@@ -73,7 +73,7 @@ Add categories and questions, and configure the properties of each. This is the 
 
 Create introductions and end notes for attestations, and select a signature.
 
-</td></tr><tr><td id="d179670e365">
+</td></tr><tr><td id="d319000e365">
 
 **Availability**
 
@@ -86,7 +86,7 @@ Select the recipients for each category in the attestation.
 
     **Note:** The availability of each option depends on the status of the assessment that is opened in the designer.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d179670e390">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d319000e390">
 
 **Save**
 
@@ -94,7 +94,7 @@ Select the recipients for each category in the attestation.
 
 Save the current assessment.
 
-</td></tr><tr><td id="d179670e399">
+</td></tr><tr><td id="d319000e399">
 
 **Preview**
 
@@ -102,7 +102,7 @@ Save the current assessment.
 
 Display a preview to the selected recipients.
 
-</td></tr><tr><td id="d179670e408">
+</td></tr><tr><td id="d319000e408">
 
 **Publish**
 
@@ -110,7 +110,7 @@ Display a preview to the selected recipients.
 
 Distributes the assessment to the selected recipients.
 
-</td></tr><tr><td id="d179670e417">
+</td></tr><tr><td id="d319000e417">
 
 **Save and Publish**
 
@@ -118,7 +118,7 @@ Distributes the assessment to the selected recipients.
 
 Saves and distributes the assessment in one step.
 
-</td></tr><tr><td id="d179670e426">
+</td></tr><tr><td id="d319000e426">
 
 **New Attestation**
 
@@ -126,7 +126,7 @@ Saves and distributes the assessment in one step.
 
 Opens a fresh canvas for a new assessment.
 
-</td></tr><tr><td id="d179670e436">
+</td></tr><tr><td id="d319000e436">
 
 **Load Attestation**
 

@@ -1,44 +1,45 @@
 ---
 title: Configuring ServiceNow Vault
-description: Learn how to install and configure ServiceNow Vault
+description: Learn how to install and configure ServiceNow Vault.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configuring-servicenow-vault.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Vault]
 ---
 
 # Configuring ServiceNow Vault
 
-Learn how to install and configure ServiceNow Vault
+Learn how to install and configure ServiceNow Vault.
 
 ## Configuration overview
 
--   [Install Vault plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/install-vault-plugins.md)
+-   [Install ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/install-vault.md)
 
-    Learn how to install ServiceNow Vault for your instance.
+    Install the ServiceNow Vault application and assign the required roles to users who need access to the Vault console.
 
--   
+-   [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/install-vault-suite.md)
 
-    Learn and setup the roles necessary to use ServiceNow Vault
+    Install all ServiceNow Vault capabilities in a single step, from either the Application Manager or the ServiceNow Vault tile on Admin Home.
+
+-   [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/vault-roles.md)
+
+    Learn about the roles necessary to use ServiceNow Vault and elevate to them so that you can access the full range of Vault capabilities.
 
 -   [Install Vault plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/install-vault-plugins.md)
 
     Install and verify the plug-ins needed to make the most of ServiceNow Vault.
+
+-   [Install ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-now-assist-vault.md)
+
+    Install ServiceNow Otto for Vault to make use of generative and agentic AI capabilities within ServiceNow Vault.
 
 
 ## Using guided setup to implement ServiceNow Vault
 
 Guided setup provides a sequence of tasks that help you configure ServiceNow Vault on your ServiceNow instance. To open guided setup for ServiceNow Vault, navigate to **All** &gt; **Vault** &gt; **Vault console**.
 
-For more information, see[Guided Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/guided-vault.md).
-
--   **[Install Vault plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/install-vault-plugins.md)**  
-Learn how to review and install the necessary plugins for ServiceNow Vault.
--   **[Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/use-vault-guided-setup.md)**  
-Use guided setup to begin using an application with ServiceNow Vault easily.
-
-**Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-vault-landing.md)
+For more information, see [Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/use-vault-guided-setup.md).
 

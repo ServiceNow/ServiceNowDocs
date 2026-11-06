@@ -1,5 +1,5 @@
 ---
-title: Minimize absolute session timeout duration \[Updated in Security Center 1.3\]
+title: Minimize absolute session timeout duration
 description: Use the glide.ui.user\_cookie.max\_life\_span\_in\_days property to set a maximum life span for user cookies created when users log in with the Remember Me checkbox selected. When the cookie expires, users who have selected the Remember Me checkbox are forced to reauthenticate into the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Minimize absolute session timeout duration \[Updated in Security Center 1.3\]
+# Minimize absolute session timeout duration
 
 Use the **glide.ui.user\_cookie.max\_life\_span\_in\_days** property to set a maximum life span for user cookies created when users log in with the **Remember Me** checkbox selected. When the cookie expires, users who have selected the **Remember Me** checkbox are forced to reauthenticate into the instance.
 
-It enables the user cookie to be valid for the duration of specified days, starting when the cookie was first issued. The default value is 30 days, and the maximum cap is at 365 days.
+If the **glide.ui.user\_cookie.max\_life\_span\_in\_days** system property is not set to the recommended value of `30` or other appropriate value, then a very long life session could be more vulnerable to session hijack attacks.
+
+Ensure that the property **glide.ui.user\_cookie.max\_life\_span\_in\_days** is set to `30` or less.
 
 **Note:** To enforce a maximum session time for any active user sessions, see [Managing user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ManageUserSessions.md).
 
@@ -32,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -48,6 +50,38 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
+Data type
+
+</td><td>
+
+Integer
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+30 or less
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+30
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+30
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -56,27 +90,13 @@ Category
 
 </td></tr><tr><td>
 
-Purpose
+Security risk
 
 </td><td>
 
-To force users who have selected the **Remember Me** checkbox to reauthenticate after specific days.
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-Less than or equal to 30
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
-30 days
+-   Severity score: 4.2
+-   CVSS rating: Medium
+-   Security risk details: A long session lifespan extends the window of opportunity for attackers to hijack active sessions, increasing the likelihood of unauthorized access if credentials or session tokens are compromised.
 
 </td></tr><tr><td>
 
@@ -84,34 +104,16 @@ Functional impact
 
 </td><td>
 
-This property enforces mandatory relogin by avoiding any sort of cookie rotation after a given timeframe.
+This property enforces mandatory re-login by avoiding any sort of cookie rotation after a given time frame.
 
 </td></tr><tr><td>
 
-Security risk rating
+Dependencies and prerequisites
 
 </td><td>
 
-4.2
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
-\(Medium\) The user cookies being active for an indefinite amount of time is a security risk and should expire on a time-based configuration.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md) [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

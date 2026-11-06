@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-26"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Discovery error messages, Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -29,7 +29,7 @@ Role required: admin
 
 Use the sensor name and stack trace you identified in [Find the cause of a sensor error message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_FindTheCauseOfASensorErrorMessage.md) to locate the failing code. The stack trace provides the line number and function name where the error occurred.
 
-**Note:** The exact fix depends on the specific sensor and payload. This topic describes where and how to fix the error, not specific code changes. Contact ServiceNow Support for complex cases.
+**Note:** The exact fix depends on the specific sensor and payload. This topic describes where and how to fix the error, not specific code changes. For errors with a refined code, you can view the root cause and remediation steps directly on the [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/daw-error-details.md) page.
 
 ## Procedure
 

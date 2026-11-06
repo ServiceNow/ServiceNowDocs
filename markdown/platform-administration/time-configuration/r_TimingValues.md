@@ -7,16 +7,16 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client transaction timings, Reference, Time configuration, Configure core features, Administer]
+breadcrumb: [Client transaction timings, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Timing values
 
 Timing values are broken down into several sections.
 
-
+\[Omitted image "ClientTransactionTimingDiagram.png"\] Alt text:
 
 The variables in this diagram are defined as follows:
 

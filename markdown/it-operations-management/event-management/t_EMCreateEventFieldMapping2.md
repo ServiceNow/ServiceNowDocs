@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Create the rule to match the event by its class and original values. Also, specify the new values to replace the original values in the event.
 
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 
@@ -620,9 +620,6 @@ Transform Value Pairs
 </table>## What to do next
 
 Test an event field mapping by sending an event that includes a field that is present in the event field mapping.
-
--   **[Create event field mappings with advanced mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-field-mappings-advanced-mapping-script.md)**  
-Create event field mappings with advanced mapping scripts to transform raw event data into structured, meaningful information. This method goes beyond basic configurations, aligns fields with business context, and improves event correlation. By reducing alert noise and enhancing visibility, it helps teams respond faster and manage incidents more effectively.
 
 **Parent Topic:**[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMEventFieldMapping.md)
 

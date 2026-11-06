@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-11-13"
-reading_time_minutes: 6
-breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Search Preview UI for AI Search
@@ -62,7 +62,7 @@ Select the search mode you want to use for your search query.-   **Keyword searc
     -   Catalog Item Table indexed source \[sc\_cat\_item table\]
     -   Skills indexed source \[sys\_gen\_ai\_skill table\]
     -   All External Content Connectors indexed sources \[connector-specific tables\]
-You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well.
+You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well. For details on this procedure, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
 
 </td></tr><tr><td>

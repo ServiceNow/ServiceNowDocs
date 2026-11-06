@@ -7,8 +7,8 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-02-18"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Anonymous Reporting Center, Common GRC features, Governance, Risk, and Compliance]
 ---
 

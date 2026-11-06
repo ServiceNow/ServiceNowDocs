@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/asssociate-service-offering-sold-prod.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sold products, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Associate service offerings with sold products
@@ -18,7 +18,7 @@ Associate a service offering with a sold product giving customer service agents 
 
 Role required: sn\_customerservice\_manager or admin
 
-Verify that the Customer Service with Service Portfolio Management \(SPM\) plugin \(com.snc.csm\_spm\) is installed.
+Ensure that the Customer Service with Service Portfolio Management \(SPM\) plugin \(com.snc.csm\_spm\) is installed.
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Verify that the Customer Service with Service Portfolio Management \(SPM\) plugi
 
 3.  In the **Service Offering** field, select an existing service offering.
 
-    **Note:** The **Service Offering** field might not appear by default in the user interface. If the field doesn't appear, add **Service Offering** field using the form layout.
+    **Note:** The **Service Offering** field may not appear by default in the user interface. If this happens, add **Service Offering** field using the form layout.
 
 4.  Select **Update**.
 

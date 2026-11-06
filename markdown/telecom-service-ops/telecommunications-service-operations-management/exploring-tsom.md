@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Telecommunications Service Operations Management]
 ---
@@ -20,30 +20,30 @@ Telecommunications Service Operations Management is a solution for telecom provi
 
 ## How TSOM works
 
+\[Omitted image "telecom-discovery.png"\] Alt text: Diagram: TSOM architecture showing Service Graph Connectors, TSOM Visibility CMDB, Horizontal Discovery patterns, and IT/Cloud Discovery patterns integrated with MID Server
+
 Telecommunications Service Operations Management simplifies telecom operations by connecting with existing monitoring and telemetry platforms, identifying actionable patterns, and automating resolution workflows. It leverages:
 
 -   External event management via Telecommunications API notifications for standardized alarm ingestion.
 -   Event Management for event correlation, suppression, and prioritization.
--   Metric Intelligence to detect threshold breaches, performance degradation, and anomalous behavior in real-time.
+-   Metric Intelligence to detect threshold breaches, performance degradation, and anomalous behavior in real time.
 -   Health Log Analytics to analyze log data, triage related issues, and identify root causes before users are impacted.
 -   Service Impact Analysis to assess and trace service disruptions based on impacted infrastructure and business services.
 -   Service Graph Connectors and Discovery to build a dynamic, telecom-aware CMDB.
-
-## TSOM Architecture and Telecom Applications
 
 ## Key features
 
 |Capability|Description|
 |----------|-----------|
 |Real-time event monitoring|Ingest alarms and events from multi-domain network monitoring systems using External event management via Telecommunications API notifications.|
-|Event correlation &amp; analysis|Leverage Event Management and Metric Intelligence to correlate related events, reduce noise, and detect anomalies. For more information, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/event_open-api.md).|
+|Event correlation &amp; analysis|Use Event Management and Metric Intelligence to correlate related events, reduce noise, and detect anomalies. For more information, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/event_open-api.md).|
 |Telecom Visibility|Gain end-to-end visualization of network and service health, including impact traceability.|
 |Service Impact Analysis|Understand how network or infrastructure issues affect services and prioritize remediation based on business impact.|
 |Metric Intelligence|Monitor performance trends, detect threshold breaches and anomalies in metrics to proactively identify issues. For more information, see [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/operational-metrics.md).|
-|Health Log Analytics|The ServiceNow Health Log Analytics application helps avoid IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-landing-page.md)|
+|Health Log Analytics|The ServiceNow Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-landing-page.md)|
 |Automated remediation|Use guided workflows and playbooks to drive fast, consistent, and auditable issue resolution.|
 |Telecom-aware CMDB|Link infrastructure, services, and physical/logical configuration items \(CIs\) using a telecom-specific model for accurate root cause analysis.|
-|Alert Management|Manage alerts efficiently with correlation, grouping, and automated response actions. For more information, see [Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_EMAlert.md).|
+|Alert Management|Manage alerts efficiently with correlation, grouping, and automated response actions. For more information, see [Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_EMAlert.md) and [Fault Management: Events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/fault-management-events-and-alerts.md).|
 
 ## Key benefits
 
@@ -51,7 +51,7 @@ Telecommunications Service Operations Management simplifies telecom operations b
 -   Improve operational efficiency: Noise reduction and streamline operations with guided workflows.
 -   Gain End-to-End Visibility: Understand how infrastructure issues impact customer-facing services.
 -   Integrate seamlessly: Ingest data from legacy and modern NMS/EMS tools with open standards.
--   Promote conformance: Align with TM Forum standards for telecom service assurance.
+-   Verify compliance: Align with TM Forum standards for telecom service assurance.
 
 ## Key personas
 
@@ -62,7 +62,7 @@ Telecommunications Service Operations Management simplifies telecom operations b
 
 ## Integration with the ServiceNow AI Platform
 
-TSOM is embedded into the Now Platform and integrates seamlessly with core capabilities such as:
+TSOM is embedded into the ServiceNow AI Platform and integrates seamlessly with core capabilities such as:
 
 -   Discovery
 -   Service Mapping

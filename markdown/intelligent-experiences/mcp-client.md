@@ -1,19 +1,19 @@
 ---
 title: Model Context Protocol Client
-description: The ServiceNow Model Context Protocol \(MCP\) client enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP server in the ServiceNow AI Agent Studio.
+description: The ServiceNow Model Context Protocol Client \(MCP Client\) enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server in the ServiceNow AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mcp-client.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-02"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Model Context Protocol Client, MCP Client, AI Agents]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Model Context Protocol Client
 
-The ServiceNow® Model Context Protocol \(MCP\) client enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP server in the ServiceNow® AI Agent Studio.
+The ServiceNow® Model Context Protocol Client \(MCP Client\) enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server in the ServiceNow® AI Agent Studio.
 
 ## Get started
 
@@ -27,7 +27,7 @@ The ServiceNow® Model Context Protocol \(MCP\) client enables you to access the
 
 </td></tr><tr><td>
 
-[Add MCP server in AI Agent Studio\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-mcp-client-on-ai-agent-studio.md)
+[Add MCP Server in AI Agent Studio\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP Servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-mcp-client-on-ai-agent-studio.md)
 
 </td><td>
 
@@ -53,5 +53,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md).
 

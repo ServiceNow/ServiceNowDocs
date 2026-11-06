@@ -4,7 +4,7 @@ description: Integrate the ServiceNow instance with your UiPath account using AP
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 

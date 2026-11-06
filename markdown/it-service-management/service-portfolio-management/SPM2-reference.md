@@ -7,7 +7,7 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Portfolio Management, IT Service Management]
 ---

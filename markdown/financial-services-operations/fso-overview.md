@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/fso-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
@@ -43,7 +43,7 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 
 </td><td>
 
-[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI to enhance user productivity and efficiency through proactive experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI to enhance user productivity and efficiency through proactive experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
 
 </td><td>
 

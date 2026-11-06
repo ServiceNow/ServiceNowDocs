@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a custom search matcher for global search
@@ -62,7 +62,7 @@ To learn how AI Search evaluates global search queries for exact matches, see [U
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `m2m_search_context_config_custom_matcher.list`.
+    2.  In the navigation field, enter `m2m_search_context_config_custom_matcher.list`.
 
     3.  Press Enter.
 

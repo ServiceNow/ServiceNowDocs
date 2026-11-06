@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Content filtering, User access to flows, Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Content filtering, User access to flows, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure content filtering rules
@@ -51,6 +51,4 @@ Workflow Studio includes several content definitions and filtering rules by defa
 
 4.  Click **Submit**.
 
-
-**Parent Topic:**[Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/content-filtering-flow-designer.md)
 

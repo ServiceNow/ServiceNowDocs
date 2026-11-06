@@ -1,20 +1,20 @@
 ---
 title: Data Privacy
-description: Use Data Privacy to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances.
+description: Use Data Privacy to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances. Once anonymized, the user data is no longer considered regulated private information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/data-privacy-landing.html
 release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Privacy]
 ---
 
 # Data Privacy
 
-Use Data Privacy to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances.
+Use Data Privacy to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances. Once anonymized, the user data is no longer considered regulated private information.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

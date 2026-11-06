@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Get started, Administer]
+breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Admin Center
@@ -58,7 +58,7 @@ Take control of your daily administrative tasks with our intuitive dashboard. Qu
 Adoption blueprints provide a roadmap of applications and features, along with suggested solutions to help you reach your business objectives.
 -   **[Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-configuration-hub.md)**  
 Experience the ability to zoom into an application or a group of applications and view all the relevant tables and records on a single page using the Configuration Hub. As an admin you can access all relevant details related to the selected application\(s\).
--   **[Admin Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)**  
+-   **[Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)**  
 Find all the miscellaneous information about Admin Center and its applications in the reference section.
 
 **Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/get-started-now-platform.md)

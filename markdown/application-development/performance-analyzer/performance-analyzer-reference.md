@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Performance Analyzer, Testing and debugging applications, Building applications]
+breadcrumb: [Performance Analyzer, Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Performance Analyzer reference

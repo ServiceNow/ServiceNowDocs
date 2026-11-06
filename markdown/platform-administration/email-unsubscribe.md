@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/email-unsubscribe.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email unsubscribe links
@@ -119,11 +119,11 @@ Manage your ${NOTIF_PREFS} or ${NOTIF_PREFS+link_text="click here"}.
 
 When rendered in an email notification, the unsubscribe links display only the link text.
 
-\[Omitted image "example-unsubscribe-links.png"\] Alt text: An email with unsubscribe and notification preferences links
+\[Omitted image "example-unsubscribe-links.png"\] Alt text: An email wiith unsubscribe and notification preferences links.
 
 If the **Unsubscribe** link is selected, the email client creates a message similar to the one shown in the following figure.
 
-\[Omitted image "example-unsubscribe-by-email.png"\] Alt text: An email that shows how the email client works after the unsubscribe link is selected
+\[Omitted image "example-unsubscribe-by-email.png"\] Alt text: An email that shows how the email client works after the unsubscribe link is selected.
 
 **Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateANotification.md)
 

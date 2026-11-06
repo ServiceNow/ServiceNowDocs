@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/use-quick-message-mini-composer.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Compose emails from the mini email composer, Communicating via email in Workspace, Responding to issues in an open record in Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Mini email composer, Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Insert a quick message from the mini email composer

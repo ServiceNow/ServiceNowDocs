@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
@@ -16,15 +16,13 @@ breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 
 Help prevent access to sensitive information by reducing verbose HTTP request logging.
 
-Control the level of logging for outbound HTTP requests to help prevent access to sensitive information, such as authorization headers or cookies. This information can be used like credentials to access the requested resource.
+The two properties **glide.outbound\_http\_log.override** and **glide.outbound\_http\_log.override.level** work together to control the level of logging for outbound HTTP requests. When **glide.outbound\_http\_log.override** is set to **true**, the log level for requests and responses is controlled by **glide.outbound\_http\_log.override.level**. If the override level is set to **all** or **elevated**, then request and response headers are logged.
 
-The logging level for these requests is controlled by the **glide.outbound\_http\_log.override** and **glide.outbound\_http\_log.override.level** properties. When **glide.outbound\_http\_log.override** is set to **true**, the log level for requests and responses is controlled by the **glide.outbound\_http\_log.override.level** property. If **glide.outbound\_http\_log.override.level** is set to **all** or **elevated**, then request and response headers are logged.
-
-Set **glide.outbound\_http\_log.override** to **false** and **glide.outbound\_http\_log.override.level** to **basic**. If these properties don’t appear in the System Properties \[sys\_properties\] table, they are in a secure state by default.
+Ensure that **glide.outbound\_http\_log.override** is not set to **true** and that **glide.outbound\_http\_log.override.level** is not set to **all** or **elevated**. If these properties do not appear in the System Properties \[sys\_properties table\], they are in a secure state.
 
 ## More information
 
-<table id="table_zyc_nlf_32c"><thead><tr><th>
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
 Attribute
 
@@ -34,20 +32,64 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Technical configuration name
+Configuration name
 
 </td><td>
 
--   glide.outbound\_http\_log.override
--   glide.outbound\_http\_log.override.level
+-   **glide.outbound\_http\_log.override**
+-   **glide.outbound\_http\_log.override.level**
 
 </td></tr><tr><td>
 
-Plugin applicability
+Configuration type
 
 </td><td>
 
-None
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+-   Boolean
+-   String
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+-   false
+-   basic
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+-   false
+-   &lt;blank&gt;
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+-   false
+-   &lt;blank&gt;
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 
 </td></tr><tr><td>
 
@@ -55,25 +97,9 @@ Security risk
 
 </td><td>
 
-Outbound HTTP request headers logged with verbose settings can include sensitive information such as Authorization headers or cookies. This information can be used like credentials to access the requested resource.
-
- Users with access to the Outbound HTTP Logs \[sys\_outbound\_http\_log\] table can view this information. The severity depends on what type of outbound requests are made.
-
-</td></tr><tr><td>
-
-Common Vulnerability Scoring System \(CVSS\) score
-
-</td><td>
-
-5
-
-</td></tr><tr><td>
-
-Common Vulnerability Scoring System \(CVSS\) rating
-
-</td><td>
-
-Medium
+-   Severity score: 5.0
+-   CVSS rating: Medium
+-   Security risk details: The headers logged through verbose settings for these properties can include sensitive information such as Authorization headers or cookies which can be used like credentials to access the requested resource. Any user who has access to the Outbound HTTP Logs table \(sys\_outbound\_http\_log\) can view this information changing their scope of access. The severity would depend on what type of outbound requests are made.
 
 </td></tr><tr><td>
 
@@ -94,42 +120,6 @@ Dependencies and prerequisites
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-Data type
-
-</td><td>
-
--   Boolean
--   String
-
-</td></tr><tr><td>
-
-Base system value
-
-</td><td>
-
--   false
--   &lt;blank&gt;
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
--   false
--   &lt;blank&gt;
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
--   false
--   basic
 
 </td></tr></tbody>
 </table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).

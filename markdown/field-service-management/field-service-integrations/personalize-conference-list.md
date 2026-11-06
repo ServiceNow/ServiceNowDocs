@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Field Service Management Virtual Conferencing Integration, Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
+breadcrumb: [Set up Virtual Conferencing Integration, Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Customize the display of conference recording information

@@ -1,16 +1,16 @@
 ---
-title: Approve registration for a new business contact or organization in Grants Management Portal
+title: Approve registration for a business contact or organization in Grants Management Portal
 description: As an admin, you can approve or reject the registration of a new business contact or organization, submitted through the Grants Management Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gmp-approve-new-business-org-contact-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Grants Management Portal, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management Portal, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Approve registration for a new business contact or organization in Grants Management Portal
+# Approve registration for a business contact or organization in Grants Management Portal
 
 As an admin, you can approve or reject the registration of a new business contact or organization, submitted through the Grants Management Portal.
 
@@ -30,10 +30,4 @@ Role required: admin
 
     Your selection will be reflected in the **State** field.
 
-
-**Parent Topic:**[Configure the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-grants-management-portal.md)
-
-**Previous topic:**[Configure the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-grants-management-portal.md)
-
-**Next topic:**[Extend capabilities of Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-advanced-cap.md)
 

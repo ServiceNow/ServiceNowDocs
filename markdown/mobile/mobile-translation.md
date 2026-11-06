@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-translation.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Server-side localization, Localization on mobile devices, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Server-side localization, Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Create translation records for mobile
@@ -22,7 +22,7 @@ Use these steps to add translations for your mobile device that aren't already t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Localization** &gt; **Translated Name / Fields** &gt; **.**
+1.  Navigate to **All** &gt; **System Localization** &gt; **Translated Name / Fields**
 
 2.  Select **New** to create a Translated Name / Fields record.
 

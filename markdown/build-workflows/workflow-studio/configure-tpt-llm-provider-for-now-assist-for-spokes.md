@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-08-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Use, Workflow Studio, Build workflows]
+breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Configure a third-party LLM provider as default for ServiceNow Otto for Spokes
@@ -26,8 +26,6 @@ ServiceNow provides multiple third-party LLM providers that can generate a spoke
 
 -   From the AI Admin Hub panel.
 -   After installing the AI Skill Kit.
-
-**Parent Topic:**[Use ServiceNow Otto to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 
 ## Use the AI Admin Hub panel
 

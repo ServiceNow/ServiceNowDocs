@@ -7,7 +7,7 @@ release: zurich
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tests, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -29,13 +29,13 @@ Create a test with the details of an existing test.
 
 3.  From the **Tests** related list, open the test that you want to duplicate.
 
-4.  Select the **Create Duplicate** related link.
+4.  Click the **Create Duplicate** related link.
 
     A new test is created with details from the old test.\[Omitted image "new-duplicate-test.png"\] Alt text: New test duplicated from an existing test.
 
 5.  Make any necessary changes to details of the new test.
 
-6.  Select **Update**.
+6.  Click **Update**.
 
 
 **Parent Topic:**[Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/c_Tests.md)

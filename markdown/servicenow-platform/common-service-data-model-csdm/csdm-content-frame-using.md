@@ -1,26 +1,26 @@
 ---
 title: Access CSDM features
-description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Access CSDM features
 
-The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
 ## CSDM modules
 
 Navigate to the modules that assist you in implementing and managing the CSDM domains and their components.
 
-\[Omitted image "nav-pane.png"\] Alt text: Navigating to CSDM modules.
+\[Omitted image "csdm-nav-pane-v5.png"\] Alt text: Navigating to CSDM modules.
 
 -   **CSDM Data Foundations Dashboard**
 
@@ -34,15 +34,15 @@ Navigate to the modules that assist you in implementing and managing the CSDM do
 
     Use the Service Instance Settings module to specify the attributes and relationships that are required when a user creates a service instance. For more information, see [Modify the attributes and relationships required for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.md).
 
-    See [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   **Service instances Dashboard**
 
-    The Application Services dashboard enables you to monitor and manage service instances \(service instances were formerly called application services\) to verify that they are fully configured and are populated in the CMDB. See [Monitoring and managing Configuring service instance settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md).
+    The Service instance dashboard enables you to monitor and manage service instances \(service instances were formerly called application services\) to confirm that they are fully configured and are populated in the CMDB. See [Monitoring and managing service instance settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md).
 
 -   **Life Cycle Mapping**
 
-    Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(**life cycle stage** and **life cycle stage status**\). You map both asset and CI legacy status values to life-cycle value pairs. See [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+    Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(**life cycle stage** and **life cycle stage status**\). You map both asset and CI legacy status values to life-cycle value pairs. See [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 -   **Design**
 
@@ -67,8 +67,8 @@ Navigate to the modules that assist you in implementing and managing the CSDM do
 
 -   **[CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md)**  
 The CSDM Data Foundations dashboard displays key CSDM indicators on a single page to help you get the full benefit from your ServiceNow AI Platform products.
--   **[Monitoring and managing Configuring service instance settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md)**  
-The Application Services dashboard enables you to monitor and manage service instances \(service instances were formerly called application services\) to verify that they are fully configured and are populated in the CMDB.
+-   **[Monitoring and managing service instance settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md)**  
+The Service instance dashboard enables you to monitor and manage service instances \(service instances were formerly called application services\) to confirm that they are fully configured and are populated in the CMDB.
 
 **Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

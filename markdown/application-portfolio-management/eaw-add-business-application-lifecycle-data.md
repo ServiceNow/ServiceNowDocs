@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-business-application-lifecycle-data.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use bubble chart view, Working with application rationalization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add business application lifecycle data using bubble chart
@@ -16,7 +16,7 @@ Create or edit the life cycle of a business application to manage the business a
 
 ## Before you begin
 
-The application model \(field name: Model ID\) is required to create an application model lifecycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Generate application models - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-job-gen-model-id-ba.md).
+The application model \(field name: Model ID\) is required to create an application model lifecycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Generate an application model for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-gen-model-id-ba.md).
 
 Role required: sn\_apm.apm\_analyst
 
@@ -30,15 +30,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the bubble for the relevant application that you want to add business application life-cycle data for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d97219e111">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d87225e111">
 
 Bubble type
 
-</th><th align="left" id="d97219e114">
+</th><th align="left" id="d87225e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d97219e120">
+</th></tr></thead><tbody><tr><td id="d87225e120">
 
 **Single bubble**
 
@@ -49,7 +49,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-add-lifecycle-data.png"\] Alt text: Add lifecycle data button highlighted.
 
-</td></tr><tr><td id="d97219e158">
+</td></tr><tr><td id="d87225e158">
 
 **Grouped bubble**
 

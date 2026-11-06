@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -71,6 +71,8 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 5.  Select one or more Word files to import.
 
 6.  Click **Import**.
+
+    \[Omitted image "import-word-article.png"\] Alt text: Import word document\(s\) to create knowledge base articles
 
     An article is created in the selected knowledge base and category using the content from the uploaded document.
 

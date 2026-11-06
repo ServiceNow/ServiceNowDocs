@@ -9,7 +9,7 @@ classification: change-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Business Stakeholder, Plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Activate Business Stakeholder, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Installed with Business Stakeholder

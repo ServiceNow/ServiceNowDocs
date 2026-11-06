@@ -1,18 +1,18 @@
 ---
 title: Configuring search in Next Experience
-description: Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
+description: Customize Next Experience search settings. Add searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configuring-search-next-experience.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configuring search in Next Experience
 
-Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
+Customize Next Experience search settings. Add searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu.
 
 Next Experience search is enabled by default in the Unified Navigation.
 
@@ -22,7 +22,7 @@ A search source specifies a table to include in Next Experience search. The sear
 
 \[Omitted image "pol-search-general-filter.png"\] Alt text: Table filter list from search results page.
 
-To make a table searchable in Next Experience, add it as a new search source. For details on this procedure, see [Add a search source for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-settings-filter-group-table.md).
+To make a table searchable in Next Experience, add it as a new search source. See [Add a search source for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-settings-filter-group-table.md).
 
 For the list of tables searchable by default in the base system, see [Default global search sources for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-settings-filter-group-table.md).
 

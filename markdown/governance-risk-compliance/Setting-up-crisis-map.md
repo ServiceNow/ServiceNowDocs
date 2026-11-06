@@ -1,18 +1,18 @@
 ---
 title: Setting up the crisis map
-description: Before you integrate the crisis management map with the geographical locations of your assets, there are certain configurations that you must do to display the active alerts in the crisis map.
+description: Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/Setting-up-crisis-map.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Setting up the crisis map
 
-Before you integrate the crisis management map with the geographical locations of your assets, there are certain configurations that you must do to display the active alerts in the crisis map.
+Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 
 ## Understanding feed, alert, and event
 

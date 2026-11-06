@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 32
-breadcrumb: [References, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 33
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software model fields
@@ -274,22 +274,6 @@ Language of the software product to use when searching for the normalized discov
 
 </td></tr><tr><td>
 
-Asset tracking strategy
-
-</td><td>
-
-Option to override the way assets are tracked for the model.
-
-</td></tr><tr><td>
-
-Asset tracking unit
-
-</td><td>
-
-Unit of measure for asset.
-
-</td></tr><tr><td>
-
 Cost
 
 </td><td>
@@ -322,7 +306,7 @@ If the removal candidates don't exist, a scheduled job runs nightly that creates
 
 </td></tr><tr><td>
 
-License all installs accessed by clients**Note:** This field appears only on software models that are associated with [client access records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md), except for Oracle Database software models.
+License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle Database software models.
 
 </td><td>
 
@@ -473,11 +457,11 @@ Inference Option: **Number** and **Percent**
 
 **Note:** For any new software models being created with suite components, the **Number** option is selected by default.
 
- **Percent**: Specifies what percentage of the components must be installed for the suite.
+ **Percent**: Specifies the percentage of the components that must be installed for the suite.
 
 **Note:** For existing software models with suite components that were using the inference percent, the **Percent** option is selected by default. However, you can choose to use the **Number** option.
 
- If the system property **Use component licenses to optimize compliance when suite licenses run out** is set to true, Inference percent specifies a threshold to determine whether the suite or component licensing is optimal.
+ If the system property **com.snc.sam.auto\_suite\_inference** is set to true, the Inference number and percent is automatically determined and the parent software model suite is automatically inferred for a software model based on its child software models.
 
 </td></tr><tr><td>
 
@@ -486,6 +470,14 @@ Allow automated content update
 </td><td>
 
 Option to enable automatic content changes to software models.
+
+</td></tr><tr><td>
+
+Automatic determination of inference
+
+</td><td>
+
+Option to enable automatic determination of the inference number and percent. You can override this option to continue with the manual calculation of Inference percent.
 
 </td></tr></tbody>
 </table>## Suite Parents tab
@@ -669,7 +661,7 @@ Description of the software product life cycle.
 </td></tr></tbody>
 </table>## Software Entitlements tab
 
-This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 <table id="table_erg_3b1_vzb"><thead><tr><th>
 
@@ -1107,7 +1099,7 @@ Count
 
 </td><td>
 
-Number of unique users or devices that are granted access to the associated server.**Note:** If you are using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
+Number of unique users or devices that are granted access to the associated server.**Note:** If you're using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
 
 </td></tr><tr><td>
 
@@ -1121,7 +1113,7 @@ Type of CAL that is associated with the client access record.-   **User CAL**: L
 
 -   **User/Device CAL**: Licenses each user or device that accesses the associated server.
 
-**Note:** If you are using a Citrix software model, the User/Device CAL type is based on the user/device licenses that are assigned to your users or shared devices.
+**Note:** If you're using a Citrix software model, the User/Device CAL type is based on the user/device licenses that are assigned to your users or shared devices.
 
 -   **Reserved Hourly Average Sensor**: This metric counts the number of unique active endpoints per clock-hour and averages them over a rolling 28-day period. The count of Reserved Hourly Average Sensor Licenses resets at the start of each clock-hour.
 -   **Sensor Subscription**: This metric calculates license usage by averaging endpoint counts over four consecutive weeks. Weekly endpoint counts are based on the total number of endpoints consumed in the previous seven days.

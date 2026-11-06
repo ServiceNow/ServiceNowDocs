@@ -7,8 +7,8 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Create a composite entity, Composite entity, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -68,7 +68,7 @@ Applicable entities
 
 </td><td>
 
-Option to select the entities for each entity class. Select the Add \[Omitted image "plus-icon.png"\] Alt text: icon. When you search for an entity, the application displays the entity hierarchy, and you can also view the complete content tree.
+Option to select the entities for each entity class. Select the Add \[Omitted image "plus-icon.png"\] Alt text: Add icon icon. When you search for an entity, the application displays the entity hierarchy, and you can also view the complete content tree.
 
 </td></tr><tr><td>
 
@@ -85,6 +85,22 @@ Description
 </td><td>
 
 Information about the composite entity.
+
+</td></tr><tr><td>
+
+Target
+
+</td><td>
+
+Option to mark the entity as one that participates in ESG target tracking. When selected, the entity can be linked to operational sustainability targets, such as measurable progress milestones toward goals like emissions reduction.
+
+</td></tr><tr><td>
+
+Framework
+
+</td><td>
+
+ESG reporting framework associated with the entity, such as GRI or SASB. This field appears only when the Target check box is selected. Selecting a framework scopes the entity's target and metric reporting to that disclosure standard.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

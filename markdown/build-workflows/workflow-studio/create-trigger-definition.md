@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Triggers, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a trigger definition
@@ -67,11 +67,4 @@ Define the type of trigger that determines when to start running your playbook.
 Your trigger definition is added to the Trigger Definition \[sys\_pd\_trigger\_definition\] table. You can now select your preset trigger when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-process-definition.md).
 
 **Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-triggers.md)
-
-**Related topics**  
-
-
-[Add and configure a trigger in a playbook]()
-
-[Create a scheduled trigger for playbook]()
 

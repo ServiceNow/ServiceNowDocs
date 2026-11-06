@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-configure-approval-view.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -49,6 +49,5 @@ Role required: Admin
 
         **Note:** Admins can see additional filtering options and widgets such as: **Pending approvals**, **Today's approvals**, **Exception Approvals**, **False Positive Approvals**
 
-
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-approval-view.md)
+    5.  **Additional request attributes**: Each change approval record also displays **Risk Rating** \(Critical, High, Medium, Low, None\), **Remediation Status** \(No Target, In-flight, Approaching Target, Target Missed, Target Met\), **Decision date**, **Resubmission context** \(After Approval, After Rejection\), and **Approval levels**.
 

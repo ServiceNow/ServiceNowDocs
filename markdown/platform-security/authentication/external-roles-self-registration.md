@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate External User Self-Registration, Self-register to ServiceNow instance, Access Management]
+breadcrumb: [Activate External User Self-Registration, Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # External roles in self-registration

@@ -7,9 +7,9 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product catalog items, Product Catalog, IT Asset Management]
+breadcrumb: [Product catalog items, Product Catalog, Common applications, Asset Management]
 ---
 
 # Deactivate a product catalog item
@@ -30,7 +30,7 @@ You can deactivate the item from either the list view or the record.
 
 2.  Complete one of the following steps.
 
-<table id="choicetable_pxn_313_wt"><tbody><tr><td id="d276849e92">
+<table id="choicetable_pxn_313_wt"><tbody><tr><td id="d293292e92">
 
 **Deactivate from the list view**
 
@@ -38,7 +38,7 @@ You can deactivate the item from either the list view or the record.
 
 Select the check box next to one or more items in the record list and click **Deactivate** below the list.
 
-</td></tr><tr><td id="d276849e104">
+</td></tr><tr><td id="d293292e104">
 
 **Deactivate from the record**
 

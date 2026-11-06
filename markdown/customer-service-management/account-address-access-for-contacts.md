@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/account-address-access-for-contacts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Account Address table, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -38,6 +38,19 @@ This feature extends account address and location access to external roles such 
 -   Roles that inherit the Contact \[sn\_customerservice.customer\] role
 
 Each of these external roles already has access to their associated accounts. However, they didn't previously have access to the associated account addresses and locations. With this enhancement, they can access the related account addresses and location records for those accounts.
+
+This feature extends account address and location access to following granular admin roles with create, update, view, and delete privileges:
+
+-   Account data manager \[sn\_crm\_account\_data\_manager\]
+-   Account relationship data manager \[sn\_crm\_account\_relationship\_data\_manager\]
+-   CRM foundation data manager \[sn\_crm\_foundation\_data\_manager\]
+-   CRM foundation admin \[sn\_crm\_foundation\_admin\]
+
+This feature extends account address and location access to following granular admin roles with read-only access:
+
+-   Account viewer \[sn\_crm\_account\_viewer\]
+-   Account relationship viewer \[sn\_crm\_account\_relationship\_viewer\]
+-   CRM foundation data viewer \[sn\_crm\_foundation\_data\_viewer\]
 
 ## Contact access to account-related addresses
 

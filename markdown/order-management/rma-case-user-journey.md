@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/rma-case-user-journey.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Return Merchandise Authorization, Order operations, Explore, Sales Customer Relationship Management]
 ---
@@ -41,8 +41,8 @@ This approach confirms that every request is handled smoothly, with clear commun
 
 \[Omitted image "RMA-user-journey.png"\] Alt text: This infographic displays the RMA case user journey for reporting a product issue.
 
-**Related topics**  
+## What to explore next
 
-
-[Return Merchandise Authorization case end-to-end workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rma-case-end-to-end-flow.md)
+-   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/activate-return-merchandise-authorization-plugin.md)
+-   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization-case-management-reference.md)
 

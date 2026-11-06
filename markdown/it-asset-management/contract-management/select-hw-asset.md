@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Contract renewal workflow, Contract Management, IT Asset Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Common applications, Asset Management]
 ---
 
 # Add or remove assets for a contract renewal
@@ -20,7 +20,7 @@ Add or remove hardware or enterpriseassets from the contract renewal process. Yo
 
 To add or remove hardware assets from the contract renewal process, request the Hardware Asset Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).To add or remove enterprise assets from the contract renewal process, request the Enterprise Asset Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-Role required: asset, contract\_manager\(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
+Role required: contract\_system\_admin, asset, contract\_manager\(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
 
 ## About this task
 
@@ -53,15 +53,15 @@ Invalid assets are not carried over to the draft contract and you must add them 
 
 4.  Update the hardware or enterpriseassets in the contract.
 
-<table id="choicetable_ftz_d1c_qtb"><thead><tr><th align="left" id="d106952e172">
+<table id="choicetable_ftz_d1c_qtb"><thead><tr><th align="left" id="d113117e172">
 
 Interface
 
-</th><th align="left" id="d106952e175">
+</th><th align="left" id="d113117e175">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d106952e181">
+</th></tr></thead><tbody><tr><td id="d113117e181">
 
 **Core UI**
 
@@ -69,7 +69,7 @@ Action
 
 Indicate the assets that you want to cover by moving assets to the **Assets Covered List** or removing them.
 
-</td></tr><tr><td id="d106952e193">
+</td></tr><tr><td id="d113117e193">
 
 **Hardware Asset Workspace**
 
@@ -81,7 +81,7 @@ Add or remove assets from the existing list to indicate the assets you want to c
 -   To remove an asset, select it and select **Remove**.
 
 
-</td></tr><tr><td id="d106952e220">
+</td></tr><tr><td id="d113117e220">
 
 **Enterprise Asset Workspace**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add questions to an exam, Create an exam, Use, Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Add questions to an exam, Create an exam, Using Career Assessment, Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add options to a question

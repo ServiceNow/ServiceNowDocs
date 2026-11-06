@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-create-security-tag-rules.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -56,6 +56,4 @@ Security tag rules provide filtering for security tag access.
 
 10. Select **Submit**
 
-
-**Parent Topic:**[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-create-class-group-and-tags.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configure Accelerate Complaint Case Handling workflow
+title: Configure the Accelerate Complaint Case Handling agentic workflow
 description: Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
@@ -7,12 +7,12 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-01-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Accelerate complaint case handling collection, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure Accelerate Complaint Case Handling workflow
+# Configure the Accelerate Complaint Case Handling agentic workflow
 
 Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 
@@ -57,7 +57,7 @@ Role required: admin
 
 5.  Add triggers.
 
-    Add triggers if you want an agentic workflow or AI agent to launch according to pre-defined rules. Triggers spare your users the effort of reaching out for help.
+    You can add triggers if you want an agentic workflow or AI agent to launch according to pre-defined rules, and you want to spare your users the effort of reaching out for help, add a trigger.
 
     If you do not add triggers, the workflow executes only in response to users' requests for help.
 
@@ -65,7 +65,7 @@ Role required: admin
 
     Select the channels where you want this agentic workflow to be available for users.
 
-    -   Engage via the Now Assist panel: When users send a message to ServiceNow Otto, they can discover and use this workflow.
+    -   Engage via the ServiceNow Otto panel: When users send a message to ServiceNow Otto, they can discover and use this workflow.
 
     -   Engage via UI actions on specific records: When users select a UI action displayed on certain records, this workflow is activated.
 7.  Select **Save and test**.

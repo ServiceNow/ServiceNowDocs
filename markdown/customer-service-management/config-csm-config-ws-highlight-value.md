@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-config-ws-highlight-value.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
 1.  Create a highlighted value.
 
-    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
+    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
 
     2.  Select **New**.
 
@@ -60,7 +60,7 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
 2.  Add the highlighted value to the highlighted value configuration.
 
-    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
+    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
 
     2.  Select the configuration.
 

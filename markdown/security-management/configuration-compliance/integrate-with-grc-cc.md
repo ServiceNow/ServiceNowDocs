@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Requesting and approving an exception for a remediation task, Remediation, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Requesting and approving an exception for a remediation task, Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Request an exception for remediation tasks using GRC: Policy and Compliance Management

@@ -7,10 +7,10 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, Otto, Service Mapping, AI]
-breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+keywords: [Now Assist, generative AI, Service Mapping, AI agent, agentic workflow, MCP Server, service map]
+breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # AI in Service Mapping
@@ -104,7 +104,7 @@ Business App Mapping AI Agent
 
 </td><td>
 
-Automatically creates CSDM "Consumes::Consumed by" relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/feature-preview-program.md).
+Automatically creates CSDM Consumes::Consumed by relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/feature-preview-program.md).
 
 </td><td>
 
@@ -129,16 +129,18 @@ An operator or change manager wants to assess the risk of a change request befor
 
 </td><td>
 
--   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.md)
--   [Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidate-skill.md)
--   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidates-impact-skill.md)
+-   [Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)
+-   [Assess a change request with the Analyze potential impact workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/use-now-assist-analyze-impact-agentic-workflow.md)
+-   [Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-candidate-skill.md)
+-   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.md)
 
 </td></tr></tbody>
 </table>-   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md)**  
 The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 -   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
 The Service Mapping tools expose live application service data and enable AI clients to query service topology, identify mapping gaps, and create application services in natural language.
+-   **[Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)**  
+The Analyze potential impact agentic workflow analyzes how a change request might impact servers and services. This analysis helps you make informed decisions about the next steps regarding the change request.
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

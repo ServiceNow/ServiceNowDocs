@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-09-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Exploring Conversational Integration with Microsoft Teams
@@ -47,7 +47,8 @@ Ensure that you have a Microsoft 365 account with admin privileges \(admin.micro
 To learn more about configuring and using Conversational Integration with Microsoft Teams, see:
 
 -   [Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md).
--   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md).
+-   [Enable ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-teams.md).
+-   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/integrating-now-assist-va-msteams.md).
 -   [Integrate Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ms-copilot-na-va.md).
 
 For more information about integrating Microsoft Copilot with Now Assist, see the following ServiceNow blog and community articles:

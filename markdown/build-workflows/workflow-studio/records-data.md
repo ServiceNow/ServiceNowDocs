@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Input and output data variables, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Input and output data variables, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Records.\[Table\] data type
@@ -34,7 +34,7 @@ Stores one or more Sys ID references to records in a specific table. The Records
 
 ## Script support
 
-The records data type is supported in script by the GlideRecord class, which can produce an array containing one or more sys\_id values. For more information about the GlideRecord class and its available methods, see .
+The records data type is supported in script by the GlideRecord class, which can produce an array containing one or more sys\_id values. For more information about the GlideRecord class and its available methods, see [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md).
 
 ## Output of a Look Up Records action
 

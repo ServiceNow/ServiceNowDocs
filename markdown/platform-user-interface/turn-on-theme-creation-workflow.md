@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/turn-on-theme-creation-workflow.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,17 +16,19 @@ Turn on the theme creation workflow to generate themes using the ServiceNow Otto
 
 ## Before you begin
 
-Install the Now Assist for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md).
+The ServiceNow Otto for Creator application must be installed. See .
 
-Turn on the ServiceNow Otto® panel. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md)
+The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
-This workflow is required to use the AI feature within the ServiceNow Otto® panel.
+The theme creation workflow enables AI-powered theme generation in the ServiceNow Otto® panel.
 
-**Important:** The theme creation workflow requires a separate subscription to ServiceNow Otto for Creator.
+**Note:** Check your entitlements to determine whether you have access to ServiceNow Otto for Creator.
 
 ## Procedure
 

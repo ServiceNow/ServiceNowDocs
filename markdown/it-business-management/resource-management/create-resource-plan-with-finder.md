@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ In the Resource Finder, search for the resources that you need, and create a pla
 
 1.  Open the Resource Plans page for a project or demand.
 
-<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d122003e118">
+<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d128635e118">
 
 Option
 
-</th><th align="left" id="d122003e121">
+</th><th align="left" id="d128635e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d122003e127">
+</th></tr></thead><tbody><tr><td id="d128635e127">
 
 **From a project**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the **Resource Plan** related list, select **Manage** to open the Resources tab.
 
 
-</td></tr><tr><td id="d122003e166">
+</td></tr><tr><td id="d128635e166">
 
 **From a demand**
 
@@ -113,7 +113,7 @@ View the availability of the resources for an extended duration
 
 Use the options from the date range selector.
 
- From the Zurich release onwards, you can select a custom date range.
+ From the Brazil release onwards, you can select a custom date range.
 
  The value of the property **Maximum time duration in Resource Finder in months** determines the maximum duration for which the resource details are displayed in the resource finder.
 
@@ -127,7 +127,7 @@ Use the Configuration menu to analyze different constraints such as the capacity
 
  By default, only the Availability hours are displayed. To view other details, select Detailed View , and select the required columns from the Configuration menu .
 
- Displaying the requested hours for a user group or role helps you understand immediately if you need to fulfill any resource requests. It also shows whether you have enough capacity for that user group or role.
+ Displaying the requested hours for a user group or role helps you understand immediately if you need to fulfill any resource requests and to do so, if you have enough capacity for that user group or role.
 
  The **Requested** column would not be available in the Configuration menu under the following conditions.
 
@@ -184,7 +184,7 @@ Right-click on the user and select **Update Capacity**.
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-importance-impact-rating-scale.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -43,10 +43,10 @@ A user with the sn\_oper\_res.admin role can change the rating scale for the ind
 
 2.  Click **New**.
 
-    You can define new parameters such as the importance, impact tolerance, impact tolerance icon and its color, minimum and maximum tolerance value, and the tolerance order for your business service.
+    You can define new parameters such as the importance, impact tolerance, impact tolerance icon and its color, and the tolerance order. You can also set minimum and maximum tolerance values for your business service.
 
 3.  On the form, fill in the fields and click **Submit**.
 
-    For a description of the field values on the Rating Scale New Record form, see [Rating Scale New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/importance-and-impact-rating-scale-reference.md).
+    For a description of the field values on the Rating Scale New Record form, see [Rating Scale Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/importance-and-impact-rating-scale-reference.md).
 
 

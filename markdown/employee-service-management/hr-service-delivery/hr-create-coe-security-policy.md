@@ -7,8 +7,8 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -18,13 +18,11 @@ Use **COE Security Configuration** to define group restrictions for a COE and fo
 
 ## Before you begin
 
-Role required: sn\_hr\_core.admin
+Role required: admin, sn\_hr\_er.admin
 
 Certain users will be able to access a COE even it is restricted. For example, Opened for, Opened by, Watch List and Collaborators get access to a restricted COE irrespective of its security policies.
 
 COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control-rules.md).
-
-**Note:** When COE Security Policies restrict an agent's access to a limited number of cases, list pages with broad filters such as All Cases, Open Cases may yield many pages with empty results with a message indicating that rows are hidden due to security constraints. As a result, agents may struggle to locate the cases they have access to, as these cases might be scattered across multiple pages. This behavior is expected, as COE Security Policies are essentially Access Control Lists \(ACLs\) that filter data accordingly. To overcome this issue, agents can create custom lists with more targeted filters, such as My Group Cases, to easily find the cases they are authorized to access.
 
 ## Procedure
 
@@ -60,19 +58,19 @@ Center of Excellence \(COE\) that you want to create a security policy for.**Not
 
 </td></tr><tr><td>
 
-Applies to all services
-
-</td><td>
-
-Option to apply all HR services for the COE security policy.
-
-</td></tr><tr><td>
-
 Applies to all child COEs
 
 </td><td>
 
 Option to apply the security policy on child COEs of the parent COE.
+
+</td></tr><tr><td>
+
+Applies to all services
+
+</td><td>
+
+Option to apply all HR services for the COE security policy.
 
 </td></tr><tr><td>
 

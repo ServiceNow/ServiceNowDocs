@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Operating system and application monitoring using Agent Client Collector
@@ -118,13 +118,4 @@ No special configuration required. Accessed via a JMX port. Default port is **70
 </table>When using the **Microsoft SQL Server**, **Oracle Database**, and **Oracle WebLogic** applications, you must run Discovery to configure CI fields on the instance. Ensure that the Discovery plugin \(com.snc.discovery\) is installed to enable running Discovery.
 
 When the application is running on a port other than the default, ensure that you update the port number in the check instance's parameters.
-
--   **[Configure Agent Client Collector Apache HTTP server monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-apache-http-server.md)**  
-To configure the Agent Client Collector to perform Apache HTTP server monitoring, set the following configurations in the Apache HTTP server application.
--   **[Configure Agent Client Collector Apache Tomcat monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.md)**  
-To configure the Agent Client Collector to perform Apache Tomcat monitoring, set the following configurations in the Apache Tomcat application.
--   **[Monitor HTTP points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-entrypoints.md)**  
-Use the **Monitoring HTTP Entry Points** and **Monitoring HTTP Entry Points Metrics** policies that come with the ITOM Monitoring scoped app to monitor `http` and `https` entry points and entry points metrics. You can customize these policies as needed, or you can configure a new policy to monitor service entry points.
-
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/explore-mobile-platform-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Platform]
 ---
@@ -37,7 +37,7 @@ Select one of the tiles to learn about these ServiceNow mobile apps and how you 
 
 Now Mobile is used by general employees or the requester persona. This app enables employees to work with requests, find information or people across the organization, and interacts with Virtual Agent.
 
-Now Mobile includes workflows for [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_ITServiceManagement.md), [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-service-management-overview.md), [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/it-asset-management.md), [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/r_ITBusinessManagement.md), [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md), [Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/workplace-service-delivery-suite-landing-page.md), [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-management-overview.md), and [Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace.md). Navigate to these documentation sets for information about using Now Mobile for these workflows. The Mobile Platform documentation provides information about configuring Now Mobile to use your ServiceNow instance.
+Now Mobile includes workflows for [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_ITServiceManagement.md), [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-service-management-overview.md), [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/it-asset-management.md), [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/r_ITBusinessManagement.md), [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md), , [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-management-overview.md), and [Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace.md). Navigate to these documentation sets for information about using Now Mobile for these workflows. The Mobile Platform documentation provides information about configuring Now Mobile to use your ServiceNow instance.
 
 \[Omitted image "homepage-alp.png"\] Alt text: Now mobile applet launcher
 

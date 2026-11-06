@@ -7,9 +7,9 @@ release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Universal Request, Configure, Universal Request, Employee Service Management]
+breadcrumb: [Configuring Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
 # Standard Ticket page for Universal Request

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Require a maintenance token for Windows uninstalls, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Require a maintenance token for Windows uninstalls, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable uninstall validation during agent upgrade
@@ -34,4 +34,6 @@ Role required: sn\_agent.token\_admin
 ## Result
 
 The property is invoked for both selective upgrade and high volume upgrade, and the uninstall feature is enabled on Windows agents.
+
+**Parent Topic:**[Require a maintenance token for Windows uninstalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/require-maintenance-token-uninstall.md)
 

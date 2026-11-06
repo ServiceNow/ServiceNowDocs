@@ -7,9 +7,9 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Get started with Advanced Work Assignment, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
+breadcrumb: [Get started, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
 # Activate related plugins for Advanced Work Assignment
@@ -92,5 +92,4 @@ Performance Analytics Content Pack – Advanced Work Assignment \[com.snc.pa.awa
 Activates the Performance Analytics Content Pack for AWA. Provides base system KPIs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/implement-awa.md)
-
+</table>

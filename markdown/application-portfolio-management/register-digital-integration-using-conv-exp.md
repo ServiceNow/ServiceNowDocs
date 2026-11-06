@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/register-digital-integration-using-conv-exp.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Register a digital integration conversationally
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a digital integration** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d41656e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38424e162">
 
 Instruction
 
-</th><th align="left" id="d41656e165">
+</th><th align="left" id="d38424e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41656e171">
+</th></tr></thead><tbody><tr><td id="d38424e171">
 
 **Short: Request a digital integration**
 
@@ -65,7 +65,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. \[Omitted image "register-digital-integration.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the requesting a digital integration.
 
-</td></tr><tr><td id="d41656e224">
+</td></tr><tr><td id="d38424e224">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 

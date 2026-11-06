@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -32,7 +32,7 @@ You can do these actions by using ServiceNow Otto icon:
 
 **Note:** The Chat reply recommendation skill is on the Chat skill card in the Technology group.
 
-The Chat reply recommendation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+The Chat reply recommendation skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -50,15 +50,15 @@ The Chat reply recommendation skill is turned on by default. The skill will be a
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with ServiceNow Otto option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d289067e200">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d97368e200">
 
 Chat message window
 
-</th><th align="left" id="d289067e203">
+</th><th align="left" id="d97368e203">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d289067e211">
+</th></tr></thead><tbody><tr><td id="d97368e211">
 
 **Typed response**
 
@@ -70,7 +70,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d289067e231">
+</td></tr><tr><td id="d97368e231">
 
 **Left blank**
 
@@ -81,7 +81,7 @@ Generates a recommended reply based on the context of the conversation up to thi
 </td></tr></tbody>
 </table>    The reply response appears in the ServiceNow Otto context menu modal.
 
-    \[Omitted image "now-assist-itsm-generate-reply.png"\] Alt text: Now Assist context menu modal.
+    \[Omitted image "now-assist-itsm-generate-reply.png"\] Alt text: ServiceNow Otto context menu modal.
 
 5.  Review the generated reply and select **Refine** to modify the response, or select **Insert** to paste the response into the chat message window.
 

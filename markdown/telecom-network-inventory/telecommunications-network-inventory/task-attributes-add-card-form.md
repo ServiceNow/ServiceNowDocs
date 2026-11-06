@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -78,5 +78,5 @@ Multiple slot selector to select multiple slots if it's required for the selecte
 **Related topics**  
 
 
-[Create an IP Subnetwork Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Add a card to equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/add-card-equipment-design-assign-function.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Granular Delegation
 classification: granular-delegation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Granular Delegation, Employee Service Management]
+breadcrumb: [Setting up Granular Delegation, Granular Delegation, Employee Service Management]
 ---
 
 # Add delegation rule tables
@@ -28,7 +28,7 @@ Role required: delegation\_admin
 
 2.  Select **New**.
 
-    **Note:** Ensure you are in the correct scope you want to create delegation rules for. Only tables for the scope you are in appear.
+    Verify the Application scope is set to the application for which you want to create delegation rules. Only tables belonging to that application appear in the **Table** list.
 
 3.  From the **Table** list, select a task table from your current scope that supports delegation.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/setting-up-task-state-colors.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Define colors for work order states so that you can have a visual indication of 
 
 Role required: wm\_admin, admin
 
-You must have the property `work.management.task_state_color.use_hex` enabled to change work order tasks state colors.
+The property `work.management.task_state_color.use_hex` must be enabled to change work order tasks state colors.
 
 \[Omitted video\] Description: Define colors for work order states
 
@@ -34,8 +34,8 @@ You can display events in their selected default color on Dispatcher Workspace c
 
 2.  Either select an existing task state or create a new one.
 
-    -   To select the task state whose colors you want to change, click the task state name.
-    -   To create a new task state, click **New**.
+    -   To select the task state whose colors you want to change, select the task state name.
+    -   To create a task state, select **New**.
 3.  On the form, fill in the form.
 
     |Field|Description|
@@ -46,7 +46,7 @@ You can display events in their selected default color on Dispatcher Workspace c
     |Color|Hexadecimal color code.|
     |Active|Option to see the changes in Dispatcher Workspace.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

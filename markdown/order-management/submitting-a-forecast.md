@@ -1,18 +1,18 @@
 ---
 title: Submitting a forecast
-description: Sales agents and managers can finalize and submit forecasts within defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit them within the specified time frame.
+description: Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/submitting-a-forecast.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Forecasting, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Submitting a forecast
 
-Sales agents and managers can finalize and submit forecasts within defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit them within the specified time frame.
+Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -47,8 +47,15 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 9.  Select **Submit Forecast** to submit your forecast.
 
-    The forecast has been submitted. The forecast values have been locked and cannot be changed.
+    The forecast has been submitted and the state changes to Completed. The forecast values have been locked and cannot be changed. If your forecast model allows resubmission, you can reopen the submitted forecast and modify values within the current submission window. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-forecast-model.md).
 
 
 **Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)
+
+**Related topics**  
+
+
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-forecasting.md)
 

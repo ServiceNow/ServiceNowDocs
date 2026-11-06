@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complex data, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Save data structure
@@ -19,7 +19,6 @@ Save the data structure of child variables within an Object variable for later r
 ## Before you begin
 
 -   Role required: action\_designer, flow\_designer, or admin
--   Set up an application in Guided Application Creator to store Workflow Studio content.
 -   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-subflow.md)
 
 ## Procedure

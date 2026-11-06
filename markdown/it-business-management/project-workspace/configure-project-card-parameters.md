@@ -1,5 +1,5 @@
 ---
-title: Configure project card parameters in classic Project Workspace
+title: Configure parameters on project cards in Project Workspace
 description: Configure the parameters that are displayed on a project card in My Projects Space page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/configure-project-card-parameters.html
@@ -7,12 +7,12 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure project card parameters in classic Project Workspace
+# Configure parameters on project cards in Project Workspace
 
 Configure the parameters that are displayed on a project card in **My Projects Space** page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 

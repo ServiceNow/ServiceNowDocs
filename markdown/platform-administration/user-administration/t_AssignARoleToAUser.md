@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Create a role, Managing roles, User admin, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Assign a role to a user
@@ -28,7 +28,7 @@ To grant the admin role to a user, you must also have the admin role. To grant t
 
 You can't delete roles that are assigned to the group from the user record. You must remove the user from the group record.
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see .
 
 ## Procedure
 
@@ -42,7 +42,7 @@ You can't delete roles that are assigned to the group from the user record. You 
 
     **Note:**
 
-    The System administrator\(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available.
+    The System administrator \(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to users when more targeted roles are available.
 
 4.  Select **Save**.
 

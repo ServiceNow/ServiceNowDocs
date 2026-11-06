@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
@@ -182,13 +182,53 @@ Stores the Microsoft Teams channel configuration.
 
 </td></tr><tr><td>
 
-Certificate Notification Policysn\_disco\_certmgmt\_notification\_policy
+Certificate Notification Policy\[sn\_disco\_certmgmt\_notification\_policy\]
 
 \(Version 4.2.0 Certificate Inventory and Management\)
 
 </td><td>
 
 Stores the Microsoft Teams channel notification settings for certificate events.
+
+</td></tr><tr><td>
+
+Certificate Metadata \[sn\_disco\_certmgmt\_certificate\_metadata\]
+
+\(Version \[OXY-PLACEHOLDER\] Certificate Inventory and Management\)
+
+</td><td>
+
+Stores one record for each certificate in the Unique Certificate \[cmdb\_ci\_certificate\] table. Each record contains the private key vault reference \(HashiCorp Vault or Azure Key Vault\), the certificate format used at issuance \(PEM, DER, or PKCS12\), and the auto-renewal settings. Auto-renewal settings include whether auto renewal is enabled, the number of days before expiry to trigger renewal \(default 30\), the renewal date, and the renewal state \(ready, processing, processed, or error\). The settings also store the retry count and the Renew Certificate Task \[sn\_disco\_certmgmt\_renew\_task\] used to renew the certificate.
+
+</td></tr><tr><td>
+
+DNS Task \[sn\_disco\_certmgmt\_dns\_task\]
+
+\(Version \[OXY-PLACEHOLDER\] Certificate Inventory and Management\)
+
+</td><td>
+
+Extends from Task \[task\] and tracks the DNS validation for a certificate request in the Automated Certificate Task \[sn\_disco\_certmgmt\_task\] table. Contains the reference to the certificate task, the order URL, the finalize URL that is called after all domains are validated, and the state of the DNS task \(Work in Progress, Completed, or Failed\).
+
+</td></tr><tr><td>
+
+DNS Challenge \[sn\_disco\_certmgmt\_dns\_challenge\]
+
+\(Version \[OXY-PLACEHOLDER\] Certificate Inventory and Management\)
+
+</td><td>
+
+Contains the DNS challenges for a DNS task \[sn\_disco\_certmgmt\_dns\_task\]. Each record stores the domain that the challenge belongs to, the DNS key and DNS value to add to the DNS record, and the challenge URL that is called to validate the challenge.
+
+</td></tr><tr><td>
+
+Certificate Request UID to Task Map \[sn\_disco\_certmgmt\_uid\_to\_task\_map\]
+
+\(Version \[OXY-PLACEHOLDER\] Certificate Inventory and Management\)
+
+</td><td>
+
+Maps a certificate request UID to the Automated Certificate Task \[sn\_disco\_certmgmt\_task\] created for it. Each record contains the certificate request UID, the certificate task, and whether the mapping is active.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-invt-mgmt-references.md)

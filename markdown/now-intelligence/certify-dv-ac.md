@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/certify-dv-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Certify a data visualization]
-breadcrumb: [Edit a data visualization in the Visualization Designer, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Edit a data visualization in the library, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Certify a data visualization in the Visualization Designer
@@ -40,5 +40,5 @@ The Certified badge appears next to the visualization's name in the Visualizatio
 
 On the Data Visualizations tab, the visualization is listed under Certified data visualizations. The visualization is also marked True in the Certified column. This column may not be visible. Select the Edit columns icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) to add it.
 
-**Parent Topic:**[Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-dv-ac-center.md)
+**Parent Topic:**[Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-dv-ac-center.md)
 

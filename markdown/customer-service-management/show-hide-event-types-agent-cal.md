@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/show-hide-event-types-agent-cal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
+breadcrumb: [Use agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
 ---
 
 # Show or hide event types on the agent calendar

@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_ni\_core.dc\_ops\_agent or sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-Data center infrastructure allocation reserves rack unit space in a data center based on the requirements you provide in a change request and the placement policies you have defined.
+Data center infrastructure allocation reserves rack unit space in a data center. The allocation is based on the requirements you provide in a change request and the placement policies you have defined.
 
 ## Procedure
 
@@ -66,9 +66,11 @@ Data center infrastructure allocation reserves rack unit space in a data center 
     -   **Affected CIs tab** shows the allocated slot and rack. Base rack-unit slots are marked as Reserved. Device-specific allocations are linked to the device record.
 12. Select the rack in the Affected CIs tab to open the rack record.
 
-    Reserved slots display the change request number. Select the number to view change request details without leaving the rack view.
+    Reserved slots display the change request number. Select the number to view change request details without leaving the rack view. \[Omitted image "rack-allocation.png"\] Alt text: Reserved slots in the rack view showing the change request number
 
 13. If the change request already has Affected CIs, review the dialog and select an option.
+
+    \[Omitted image "re-run-allocation.png"\] Alt text: Dialog asking whether to continue or finish when Affected CIs already exist
 
     **Note:** Selecting **Continue** treats the slots marked as reserved from the previous run as occupied. This reduces available contiguous space and may affect which racks are eligible for the new run. Selecting **Finish** exits without making changes. You can update your requirements and re-run to find a new allocation.
 

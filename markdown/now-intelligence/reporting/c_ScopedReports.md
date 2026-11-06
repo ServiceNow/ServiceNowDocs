@@ -7,14 +7,16 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Scoped reports
 
 When editing a report from a different application scope than the current scope, actions modifying the original report are unavailable.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 To modify the original report, change the current application scope to the report's scope and make any changes.
 

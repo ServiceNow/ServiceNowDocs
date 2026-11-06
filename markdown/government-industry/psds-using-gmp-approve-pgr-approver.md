@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Publish a grant program, Grants Management Program Setup, Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Publish a grant program, Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Approve publishing of a grant opportunity
@@ -18,7 +18,7 @@ As the designated approver of an internal program team, you can approve a grant 
 
 Role required: gmp director?
 
-In order to do this, you need to be added as an approver in the internal program team in the program setup. For more information on how to create an interrnal program team and designate an approver, see [Add members to a Grant Program internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gmp-using-add-members-internal-program-team.md)
+In order to do this, you need to be added as an approver in the internal program team in the program setup. For more information on how to create an internal program team and designate an approver, see [Add members to a Grant Program internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gmp-using-add-members-internal-program-team.md)
 
 ## Procedure
 

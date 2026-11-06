@@ -7,10 +7,10 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [dashboard, delete a dashboard, how to clone a dashboard, duplicate a dashboard, copy a dashboard, set a dashboard favorite, bookmark a dashboard, favorite a dashboard]
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Manage responsive dashboards
@@ -33,9 +33,9 @@ Inform any users that you have shared the dashboard with that you are deleting i
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards** or **All** &gt; **Performance Analytics** &gt; **Dashboards**.
 
-2.  Select the dashboard that you want to delete.
+2.  Select the boxes next to the names of dashboards that you want to delete.
 
-3.  Click the context menu \(\[Omitted image "icon-context-p.png"\] Alt text: Context menu icon\) and choose **Delete Dashboard**.
+3.  Select **Delete** and confirm the deletion.
 
 
 ### Result
@@ -100,7 +100,7 @@ Provide a more useful name for your dashboard by renaming it.
 
 ### Before you begin
 
-Role required: Users can edit dashboards that they own, or ones that they have the right to edit. See [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md) for more information about viewing and editing rights on dashboards.
+Role required: Users can edit dashboards that they own, or ones that they have the right to edit. See [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md) for more information about viewing and editing rights on dashboards.
 
 ### Procedure
 
@@ -129,7 +129,7 @@ Users with the dashboard\_admin or admin role can remove users, groups, or roles
 
 Users with the pa\_admin or pa\_power\_user role can remove users, groups, or roles from any dashboard that they can edit. These dashboards include dashboards that a user owns, and dashboards to which they have been granted edit rights.
 
-For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md).
+For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 ### Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/resolve-infected-file.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Antivirus Scanning]
 ---
@@ -44,7 +44,5 @@ The system asks for confirmation and performs the selected action per your input
 **Related topics**  
 
 
-[Instance Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-center.md)
-
-[Antivirus metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-sec-center-antivirus-metrics.md)
+[instance-security-center]
 

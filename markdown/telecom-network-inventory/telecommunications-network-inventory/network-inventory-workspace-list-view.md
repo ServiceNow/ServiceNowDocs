@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
@@ -40,7 +40,7 @@ Sites
 
 </td><td>
 
-View listings of network sites and data centers. Update or create site details. To learn more about network site, see [7176d9244e4c99a58be815bfcc9221b388f9fe35.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
+View listings of network sites and data centers. Update or create site details. To learn more about network site, see [3d2dc458bf22efbd7c1c286263fac682f2fa02b4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Inventory
 
 </td><td>
 
-Manually create the individual instances of your network assets and define their relationships to each other. To learn more, see [Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md).
+Manually create the individual instances of your network assets and define their relationships to each other. To learn more, see [Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Import
 
 </td><td>
 
-Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md).
+Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md).
 
 </td></tr><tr><td>
 

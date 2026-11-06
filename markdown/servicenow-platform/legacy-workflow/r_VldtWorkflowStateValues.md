@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,7 +48,7 @@ Use the following procedure to troubleshoot this validator:
 
 4.  If the same stage name or value apprears more than once, remove one of the rows. It is then very important to go through the workflow and reassign stages in the activities that used the removed stage.
 
-    \[Omitted image "image.ValidateWorkflowStateValues"\] Alt text: Workflow Stages record showing the Request Cancelled and Closed Incomplete stage names with a value of closed\_complete.
+    \[Omitted image "ValidateWorkflowStateValues.png"\] Alt text: Workflow Stages record showing the Request Cancelled and Closed Incomplete stage names with a value of closed\_complete.
 
 
 Tip: Make a list of which activities assign which stages.

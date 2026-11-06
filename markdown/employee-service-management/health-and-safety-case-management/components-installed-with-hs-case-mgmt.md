@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Health and Safety Case Management, Health and Safety, Employee Service Management]
 ---

@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -141,7 +141,7 @@ Source type
 Type of policy exception that you want to create. The options are:-   Policy: Create a policy exception based on a policy.
 -   Control objective: Default is a single control objective on which the policy exception is created.
 
-When you select a control objective, the **Impacted controls** tab appears, where you can select controls associated to the control objective.
+When you select a control objective, the**Impacted controls** tab appears, where you can select controls associated to the control objective.
 
 -   Controls: Option to create a policy exception on multiple controls.
 
@@ -149,7 +149,6 @@ Select **Control** to associate multiple controls from different control objecti
 
 -   Issue: Issue associated with this policy exception.
 
-The issue must have at least one control associated with it, and the control must not be in draft or retired state.
 
 </td></tr><tr><td>
 

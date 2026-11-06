@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -41,7 +41,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 4.  Select the location record in the **CMN Location Campus** field.
 
-    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [348ff8633d50f1aa08cb5174f0a17a139951c483.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [449481304bb85a1f15bf5745c92aef511887f8fa.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 5.  Select **Update** to map the campus with the location record.
 
@@ -62,7 +62,7 @@ The Indoor Mapping campus record including buildings, floors, places are mapped 
 
 ## What to do next
 
-View the details of your datacenter infrastructure using the floor map. To learn more, see [View floor map details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md).
+View the details of your datacenter infrastructure using the floor map. To learn more, see [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md).
 
 **Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

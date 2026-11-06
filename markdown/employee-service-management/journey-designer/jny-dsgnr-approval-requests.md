@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Journey designer plan configuration approvers, Plan configuration components, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -51,15 +51,15 @@ Role required: assigned as approver for a plan configuration
 
 3.  Review the changes.
 
-<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d643439e114">
+<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d654654e114">
 
 Options
 
-</th><th align="left" id="d643439e117">
+</th><th align="left" id="d654654e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d643439e123">
+</th></tr></thead><tbody><tr><td id="d654654e123">
 
 **Approve or Reject changes**
 
@@ -69,7 +69,7 @@ Description
 -   **Reject**:
 
 
-</td></tr><tr><td id="d643439e145">
+</td></tr><tr><td id="d654654e145">
 
 **View comment added by the owner**
 

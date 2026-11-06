@@ -1,21 +1,44 @@
 ---
-title: Configuring business locations serviced by a business location
-description: You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business locations.
+title: Configuring business organizations serviced by a business organization
+description: You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business organizations \(formerly business locations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configuring-business-locations-serviced-by-a-business-location.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up inter-organization support, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Configuring business locations serviced by a business location
+# Configuring business organizations serviced by a business organization
 
-You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business locations.
+You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business organizations \(formerly business locations\).
 
-|Task|Description|
-|----|-----------|
-|[Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customer-criteria-to-service-organization.md)|Define the configuration type for the business location served to provide access to the location support agents.|
-|[Associate customers or business locations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customers-or-bus-loc-to-so.md)|Associate business locations to service organizations using the service organization customer criteria \[service\_organization\_customer\_criteria\] table.|
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
+<table id="table_lwc_szp_1cc"><thead><tr><th>
+
+Task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customer-criteria-to-service-organization.md)
+
+</td><td>
+
+Define the configuration type for the business organization served to provide access to the location support agents.
+
+</td></tr><tr><td>
+
+[Associate customers or business organizations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customers-or-bus-loc-to-so.md)
+
+</td><td>
+
+Associate business organizations to service organizations using the organization customer criteria \[service\_organization\_customer\_criteria\] table.
+
+</td></tr></tbody>
+</table>

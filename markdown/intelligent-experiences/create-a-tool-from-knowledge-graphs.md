@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 4
 keywords: [Create tool Knowledge graph for MCP]
-breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a tool from a Knowledge Graph

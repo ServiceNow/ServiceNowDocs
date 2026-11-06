@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Consumables life cycle, Use, Asset Management, IT Asset Management]
+breadcrumb: [Consumables life cycle, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Dispose of consumable assets

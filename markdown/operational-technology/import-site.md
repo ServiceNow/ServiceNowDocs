@@ -1,18 +1,18 @@
 ---
-title: Import sites
-description: Import existing sites to the Discovery Console for OT.
+title: Import Sites
+description: Import existing Sites to the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/import-site.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sites page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Import sites
+# Import Sites
 
-Import existing sites to the Discovery Console for OT.
+Import existing Sites to the Discovery Console for OT.
 
 ## Before you begin
 
@@ -22,14 +22,30 @@ Role required: admin
 
 1.  Navigate to the Sites page.
 
-2.  Select the **Actions** button.
+2.  Import Sites
+3.  Select the **Actions** button.
 
-3.  Select **Import Sites**.
+4.  Select **Import Sites**.
 
-    \[Omitted image "image.sites-action-menu"\] Alt text: Sites Action menu
+    \[Omitted image "sites-action-menu.png"\] Alt text: Sites Action menu
 
-4.  In the Import Sites window, choose the type of site and the file that you want to import, and select **Save**.
+5.  In the Import Sites window, choose the type of site and the file that you want to import, and select **Save**.
 
-    \[Omitted image "image.import-sites"\] Alt text: Import Sites
+    \[Omitted image "import-sites.png"\] Alt text: Import Sites
 
+6.  Export Sites
+7.  Select the **Actions** button.
+
+8.  Select **Export Sites**.
+
+
+## Result
+
+For the exported site, the Sites information is downloaded in the CSV format.
+
+**Note:** The CVS file includes an Ignored IPs column when applicable to the Site.
+
+\[Omitted image "export-ignore.png"\] Alt text: Export CVS
+
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sites-page.md)
 

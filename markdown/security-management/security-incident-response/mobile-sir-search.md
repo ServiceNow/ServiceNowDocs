@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -139,15 +139,15 @@ Select one from the list or tap the search icon and type an entry in the search 
 </td></tr></tbody>
 </table>    For Android devices, with the Search Incidents screen displayed and all your criteria entered, choose one to continue.
 
-<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d366556e309">
+<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d369281e309">
 
 Option
 
-</th><th align="left" id="d366556e312">
+</th><th align="left" id="d369281e312">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d366556e318">
+</th></tr></thead><tbody><tr><td id="d369281e318">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -158,7 +158,7 @@ To clear all entered criteria, with the Search Incidents screen displayed, tap t
 -   Tap the check mark icon to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d366556e348">
+</td></tr><tr><td id="d369281e348">
 
 **Submit a search**
 
@@ -169,15 +169,15 @@ With the Search Incidents screen displayed with your entered search criteria, ta
 </td></tr></tbody>
 </table>4.  For iOS devices, with the Search Incidents screen displayed, choose one to continue.
 
-<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d366556e378">
+<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d369281e378">
 
 Option
 
-</th><th align="left" id="d366556e381">
+</th><th align="left" id="d369281e381">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d366556e387">
+</th></tr></thead><tbody><tr><td id="d369281e387">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -188,7 +188,7 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 -   Tap **Done** to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d366556e417">
+</td></tr><tr><td id="d369281e417">
 
 **Submit a search**
 

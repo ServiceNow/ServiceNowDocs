@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create and manage reports in workspace
@@ -18,7 +18,7 @@ Create and manage your report tiles in the Software Asset Workspace.
 
 ## Before you begin
 
-Role required: sam\_admin or admin
+Role required: sam\_admin
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Understanding user criteria for event types, Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_shift\_planning.admin​
 
 3.  Exclude or Include specific CRUD access for users to events.
 
-<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d347402e101">
+<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d201122e101">
 
 To
 
-</th><th align="left" id="d347402e104">
+</th><th align="left" id="d201122e104">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d347402e110">
+</th></tr></thead><tbody><tr><td id="d201122e110">
 
 **Exclude users for which you do not want to enable specific access to event types.__Important:__ For exclusion, a __Create__ access will deny the user from creating events because it excludes that access for the user. The same principle applies to any of the CRUD operations.
 
@@ -57,7 +57,7 @@ Do this
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d347402e167">
+</td></tr><tr><td id="d201122e167">
 
 **Include users for which you want to enable specific access to event types.__Important:__
 

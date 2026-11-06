@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, HR Service Delivery integration with Oracle Cloud HCM, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference - HR Service Delivery integration with Oracle Cloud HCM, HR Service Delivery integration with Oracle Cloud HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with HR Service Delivery integration with Oracle Cloud HCM
@@ -66,7 +66,7 @@ Pull data from Oracle HCM Cloud to a ServiceNow® instance. By default, the flow
 
 The tables required for HR Service Delivery integration with Oracle Cloud HCM are obtained from the Enterprise Service Management Integrations Framework. The tables get auto-installed with the Enterprise Service Management Integrations Framework installation when you activate the HR Service Delivery integration with Oracle Cloud HCM application. For more information, see [Components installed with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/installed-with-hr-int-fra.md).
 
-**Parent Topic:**[HR Service Delivery integration with Oracle Cloud HCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.md)
+**Parent Topic:**[Reference - HR Service Delivery integration with Oracle Cloud HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.md)
 
 **Related topics**  
 

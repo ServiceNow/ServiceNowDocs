@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Workplace Core, Workplace Core, Workplace Service Delivery, Employe
 
 The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 
-**Note:**
+**Note:** In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for the Workplace Service Portal is not available in the application context menu search **All** &gt; **Workplace Core**. You can access the Workplace Service Portal from the Employee Center portal home page. For more information, [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
 
-In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for the Workplace Service Portal is not available in the application context menu search **All** &gt; **Workplace Core**. The Workplace Services Portal is currently being deprecated. You can access the Workplace Service Portal capabilities from the Employee Center portal home page **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services**. For more information, [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
+In Workplace Core starting with version 2.18.1, the navigation path is available in the application context menu search and you can access the Workplace Service Portal from **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services**.
 
 From the Workplace Service Portal, you can do the following:
 

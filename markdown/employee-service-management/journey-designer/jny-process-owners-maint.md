@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Journey plan configuration template management is a collaborative effort that in
 
 Creating and managing journeys needs the knowledge and skills of many people. Responsibilities for keeping journey stages and task current aren’t always clearly defined. Journey designer enables a journey administrator to orchestrate and delegate all the activities needed to create and maintain journeys.
 
-**Note:** An administrator must assign owners and approvers to Journey designer plan configurations. For more details, read [Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
+**Note:** An administrator must assign owners and approvers to Journey designer plan configurations. For more details, read [Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 
 -   **ServiceNow application administrator**
     -   [Sets up, configures, and maintains your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-configuration.md), including features such as creating and updating [plan configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md).
@@ -43,7 +43,7 @@ Plan configuration approvers review and approve plan configurations.
 **Related topics**  
 
 
-[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
+[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 
 [Assign owners and approvers to a journey configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.md)
 

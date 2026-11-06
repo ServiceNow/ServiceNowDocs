@@ -1,78 +1,24 @@
 ---
 title: Team Development roles
-description: Team Development is installed with these roles.Configures a managed instance for use in Team Development.Performs operations, such as pushing, pulling, comparing, and reconciling changes.Review, approve, and reject a pushed code change.
+description: To use Team Development, developers must have admin access to their development instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_TeamDevelopmentRoles.html
 release: zurich
 product: Team Development
 classification: team-development
-topic_type: reference
-last_updated: "2025-09-30"
+topic_type: concept
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [\[teamdev\_configure\_instance\], teamdev\_configure\_instance, teamdev\_user, teamdev\_code\_reviewer]
-breadcrumb: [Team Development Reference, Team Development, Planning your application, Building applications]
+breadcrumb: [Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Team Development roles
 
-Team Development is installed with these roles.
+To use Team Development, developers must have admin access to their development instance.
 
-**Parent Topic:**[Team Development Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/team-development-reference.md)
+To allow pushes to the parent instance, a [remote instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md) must be defined with a user account that has admin access to the parent instance.
 
-## Configure instance \[teamdev\_configure\_instance\]
+To limit developer access to the parent instance, see [Granting Access Rights to Developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
 
-Configures a managed instance for use in Team Development.
-
-### Contains Roles
-
-teamdev\_configure\_instance
-
-### Groups
-
-Team development.
-
-### Special considerations
-
-This role shouldn’t be granted on the managing instance.
-
-## User \[teamdev\_user\]
-
-Performs operations, such as pushing, pulling, comparing, and reconciling changes.
-
-### Contains Roles
-
--   soap\_create
--   soap\_update
--   soap\_query
-
-### Groups
-
-Team development.
-
-### Special considerations
-
-None.
-
-## Code reviewer \[teamdev\_code\_reviewer\]
-
-Review, approve, and reject a pushed code change.
-
-Is able to read records from
-
--   sys\_sync\_history
--   sys\_sync\_history\_version
--   sys\_update\_version
--   sys\_update\_set\_source
-
-### Contains Roles
-
-None.
-
-### Groups
-
-Team development.
-
-### Special considerations
-
-None.
+To use code review features, users must have the teamdev\_code\_reviewer role. See [Code Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md).
 

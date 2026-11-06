@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/localization-client.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Localization on mobile devices, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Client-side localization

@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with version records, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Compare to peer instances
@@ -18,34 +18,36 @@ You can compare the local instance to any other remote instance and commit any c
 
 ## Before you begin
 
-Role required: admin
+Role required: none.
 
 ## About this task
 
-Comparing enables you to share code between instances without pushing to a common parent instance. Comparing instances doesn’t automatically commit any versions on the local instance. Instead a full comparison of all changes on the remote instance and on the local instance. A report is generated of customized records that have different current versions.
+Comparing allows you to share code between instances without pushing to a common parent.
 
-You can selectively commit a version from the remote instance or compare it with the version on your local instance. You can delete the instance comparison record when you finish evaluating the differences.
+Comparing instances does not automatically commit any versions on the local instance. It initiates a full comparison of all changes on the remote instance and all changes on the local instance, and then reports which customized records have different current versions. You can selectively commit a version from the remote instance or compare it with the version on your local instance. You can delete the instance comparison record when you finish evaluating the differences.
+
+To compare the local instance to a peer instance:
 
 ## Procedure
 
-1.  Confirm that the peer instance is [defined as a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md).
+1.  Ensure that the peer instance is [defined as a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md).
 
 2.  Navigate to **Team Development** &gt; **Team Dashboard**.
 
-3.  In the control panel, select **Compare to**.
+3.  In the control panel, click **Compare to**.
 
-4.  Select the peer instance that you want to compare to the local instance and select **Compare**.
+4.  Select the peer instance you want to compare to the local instance and click **Compare**.
 
-5.  On the completion page, select **Show Results**.
+5.  On the completion page, click **Show Results**.
 
     The instance comparison record opens.
 
-6.  Review the On Remote and not Local related list, which shows the customized records where the current version on the peer instance isn’t on the local instance.
+    \[Omitted image "CompareInstance.png"\] Alt text: Compare instance
+
+6.  Review the On Remote and not Local related list, which shows the customized records where the current version on the peer instance is not on the local instance.
 
     For each customized record, you can:
 
-    -   Compare the current remote version to the current local version by select and hold \(or right-click\) a row and selecting **Compare to Current**.
-    -   Load the current remote version as the current local version by select and hold \(or right-click\) a row and selecting **Load This Change**.
-
-**Parent Topic:**[Working with version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
+    -   Compare the current remote version to the current local version by right-clicking a row and selecting **Compare to Current**.
+    -   Load the current remote version as the current local version by right-clicking a row and selecting **Load This Change**.
 

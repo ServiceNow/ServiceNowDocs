@@ -1,16 +1,16 @@
 ---
-title: Review ITSM artifacts
+title: Review IT Service Management artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-itsm-install-artifacts.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Impact Value Management Data Collection Content Pack for ITSM, Impact Value Management data collection apps, Configuring Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Service Management, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Review ITSM artifacts
+# Review IT Service Management artifacts
 
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
@@ -32,58 +32,78 @@ The content pack comes with the following artifact types. For configuring the pr
 
 The app contains the following artifacts for each of the above specified types.
 
-|Artifact type|Description|
-|-------------|-----------|
-|Indicator Source|Impact VM - Changes Closed This Month|
-|Indicator Source|Impact VM - Group Members|
-|Indicator Source|Impact VM – Active Users|
-|Indicator Source|Impact VM - Incidents Closed This Month|
-|Indicator Source|Impact VM - Outage Ended on This Month|
-|Indicator Source|Impact VM - Requested Items Closed This Month|
-|Indicator Source|Impact VM - Requests Fulfilled in the This Month|
-|Automated|Impact VM - ITSM - Mean Time to Restore - Unplanned Outages \(hrs\)|
-|Automated|Impact VM - ITSM - Average Time to Close an Incident \(hrs\)|
-|Automated|Impact VM - Number of Closed Incident Originating from Phonecalls|
-|Automated|Impact VM - Average Time to Close a Request \(hrs\)|
-|Automated|Impact VM - Number of Closed Standard Changes|
-|Automated|Impact VM - ITSM - \# of Tier 2+ Agents|
-|Automated|Impact VM - \# of Unplanned Outages This Month|
-|Automated|Impact VM - ITSM - Average Time To Close a Change in Hours|
-|Automated|Impact VM - ITSM - \# of Tier 1 Agents|
-|Automated|Impact VM - \# Requested Items Closed This Month|
-|Automated|Impact VM - \# of Requests Fulfilled This Month|
-|Automated|Impact VM - ITSM - \# of L1 Incidents Closed This Month|
-|Automated|Impact VM - \# of Changes Closed This Month|
-|Automated|Impact VM - ITSM - \# of L2+ Incidents Closed This Month|
-|Automated|Impact VM - ITSM - \# of Incidents Closed This Month|
-|Automated|Impact VM - \# Automated Requested Items Closed This Month|
-|Automated|Impact VM - ITSM - Number of Active Users|
-|Manual|Impact VM - Legacy ITSM Systems Annual Run-Rate|
-|Formula|Impact VM - ITSM - Ratio of Incidents Closed per Tier 2+ Service Desk Agent This Month|
-|Formula|Impact VM - % of Requested Items Fuflfilled that were Automated This Month|
-|Formula|Impact VM - % of Changes that are Standard Closed This Month|
-|Formula|Impact VM - % of Closed Incidents Originating from Phone Call This Month|
-|Formula|Impact VM – ITSM - Ratio of Incidents Closed per Tier 1 Service Desk Agent This Month|
-|Data Collection Job|Impact VM – ITSM - Monthly Data Collection|
-|Data Collection Job|Impact VM – ITSM – Historical Data Collection|
-|Widget|% Closed Changes that were Standard|
-|Widget|% Closed Incidents Originating from Phone Call|
-|Widget|% of Fulfilled Requested Items that were Automated|
-|Widget|Average Time to Close a Change \(hrs\)|
-|Widget|Average Time to Close a Request \(hrs\)|
-|Widget|Average Time to Close an Incident \(hrs\)|
-|Widget|Legacy ITSM System Monthly Run-Rate|
-|Widget|Mean Time to Restore Unplanned Outages \(hrs\)|
-|Widget|Number of Changes Closed|
-|Widget|Number of Incidents Closed|
-|Widget|Number of Incidents Closed at Tier 1|
-|Widget|Number of Requests Fulfilled|
-|Widget|Number of Tier 2+ Incidents Closed|
-|Widget|Number of Unplanned Outages|
-|Widget|Ratio of Closed Incident per Tier 2+ Agent|
-|Widget|Ratio of Closed Incidents per Tier 1 Service Desk Agent|
-|Widget|Number of Active Users|
-|Dashboard|Impact VM - ITSM|
-|Group Type|Tier 1|
-|Group Type|Tier 2+|
+|Artifact type|Description| |
+|-------------|-----------|---|
+|Indicator Source|Impact VM IT Service Management - User active last 365 days|Enhanced|
+|Indicator Source|Impact VM - IT Service Management - \# of Incidents Closed This Month |Enhanced|
+|Indicator Source|Impact VM - IT Service Management- Change request closed This month |Enhanced|
+|Indicator Source|Impact VM - IT Service Management - Request item closed This month |Enhanced|
+|Indicator Source|Impact VM - Group Members|Standard|
+|Indicator Source|Impact VM – Active Users|Standard|
+|Indicator Source|Impact VM - Incidents Closed This Month|Standard|
+|Indicator Source|Impact VM - Outage Ended on This Month|Standard|
+|Indicator Source|Impact VM - Changes Closed This Month|Standard|
+|Indicator Source|Impact VM - Requested Items Closed This Month|Standard|
+|Indicator Source|Impact VM - Requests Fulfilled in the This Month|Standard|
+|Automated|Impact VM IT Service Management - Count of Human active users logged in per last  365 days |Enhanced|
+|Automated|Impact VM IT Service Management - \# of incidents closed in This month |Enhanced|
+|Automated|Impact VM - IT Service Management- Number of standard changes closed |Enhanced|
+|Automated|Impact VM - IT Service Management - Number of changes closed |Enhanced|
+|Automated|Impact VM - IT Service Management - Number of RITMs closed |Enhanced|
+|Automated|Impact VM - IT Service Management - Mean Time to Restore - Unplanned Outages \(hrs\)|Standard|
+|Automated|Impact VM - IT Service Management - Mean Time to Restore - Unplanned Outages \(hrs\)|Standard|
+|Automated|Impact VM - IT Service Management - Average Time to Close an Incident \(hrs\)|Standard|
+|Automated|Impact VM - Number of Closed Incident Originating from Phonecalls|Standard|
+|Automated|Impact VM - Average Time to Close a Request \(hrs\)|Standard|
+|Automated|Impact VM - Number of Closed Standard Changes|Standard|
+|Automated|Impact VM - IT Service Management - \# of Tier 2+ Agents|Standard|
+|Automated|Impact VM - \# of Unplanned Outages This Month|Standard|
+|Automated|Impact VM - IT Service Management - Average Time To Close a Change in Hours|Standard|
+|Automated|Impact VM - IT Service Management - \# of Tier 1 Agents|Standard|
+|Automated|Impact VM - \# Requested Items Closed This Month|Standard|
+|Automated|Impact VM - \# of Requests Fulfilled This Month|Standard|
+|Automated|Impact VM - IT Service Management - \# of L1 Incidents Closed This Month|Standard|
+|Automated|Impact VM - \# of Changes Closed This Month|Standard|
+|Automated|Impact VM - IT Service Management - \# of L2+ Incidents Closed This Month|Standard|
+|Automated|Impact VM - IT Service Management - \# of Incidents Closed This Month|Standard|
+|Automated|Impact VM - \# Automated Requested Items Closed This Month|Standard|
+|Automated|Impact VM - IT Service Management - Number of Active Users\*|Standard|
+|Manual|Impact VM - Legacy IT Service Management Systems Annual Run-Rate|Standard|
+|Formula|Impact VM IT Service Management - Incidents closed per active user |Enhanced|
+|Formula|Impact VM- IT Service Management- Ratio of Incidents Closed per Tier 2+ Service Desk Agent This Month|Standard|
+|Formula|Impact VM IT Service Management- Incidents closed per active user |Enhanced|
+|Formula|Impact VM- IT Service Management- Changes that are standard |Enhanced|
+|Formula|Impact VM- IT Service Management- RITMs closed per active user |Enhanced|
+|Formula|Impact VM- % of Requested Items Fulfilled that were Automated This Month|Standard|
+|Formula|Impact VM - % of Changes that are Standard Closed This Month|Standard|
+|Formula|Impact VM- % of Closed Incidents Originating from Phone Call This Month|Standard|
+|Formula|Impact VM – IT Service Management - Ratio of Incidents Closed per Tier 1 Service Desk Agent This Month|Standard|
+|Data Collection Job|Impact VM – IT Service Management - Monthly Data Collection|Standard|
+|Data Collection Job|Impact VM – IT Service Management – Historical Data Collection|Standard|
+|Widget|Incidents closed per active user|Enhanced|
+|Widget|RITMs closed per active user|Enhanced|
+|Widget|Changes that are standard|Enhanced|
+|Widget|Incidents Closed per active user|Enhanced|
+|Widget|% Closed Changes that were Standard|Enhanced|
+|Widget|% Closed Incidents Originating from Phone Call|Standard|
+|Widget|% of Fulfilled Requested Items that were Automated|Standard|
+|Widget|Average Time to Close a Change \(hrs\)|Standard|
+|Widget|Average Time to Close a Request \(hrs\)|Standard|
+|Widget|Average Time to Close an Incident \(hrs\)|Standard|
+|Widget|Legacy IT Service Management System Monthly Run-Rate|Standard|
+|Widget|Mean Time to Restore Unplanned Outages \(hrs\)|Standard|
+|Widget|Number of Changes Closed|Standard|
+|Widget|Number of Incidents Closed|Standard|
+|Widget|Number of Incidents Closed at Tier 1|Standard|
+|Widget|Number of Requests Fulfilled|Standard|
+|Widget|Number of Tier 2+ Incidents Closed|Standard|
+|Widget|Number of Unplanned Outages|Standard|
+|Widget|Ratio of Closed Incidents per Tier 2+ Agent|Standard|
+|Widget|Ratio of Closed Incidents per Tier 1 Service Desk Agent|Standard|
+|Widget|Number of Active Users|Standard|
+|Dashboard|Impact VM- IT Service Management|Standard|
+|Group Type|Tier 1|Standard|
+|Group Type|Tier 2+|Standard|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itsm.md)
 

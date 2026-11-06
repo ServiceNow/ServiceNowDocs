@@ -7,9 +7,10 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management]
+keywords: [software spend detection, software asset management software spend detection, software spend transaction, software spend detection user roles]
+breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Installed with Software Spend Detection
@@ -20,7 +21,8 @@ User roles and tables are installed with Software Spend Detection. Demo data is 
 
 |Role|Description|
 |----|-----------|
-|sam\_spend\_import|Role required to import financial transaction data into Software Spend Detection. Users with this role can view all modules in Software Spend Detection except **Content Service Setup**. Users with this role cannot view Software Asset Management.|
+|sam\_user|Role required to import financial transaction data into Software Spend Detection. Users with this role can view all modules in Software Spend Detection except **Content Service Setup**. Users with this role cannot view Software Asset Management.|
+|sam\_admin|Role required to opt in to Content Service Setup for the Software Asset Management application|
 
 ## Tables
 

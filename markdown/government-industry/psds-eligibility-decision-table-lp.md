@@ -1,18 +1,18 @@
 ---
-title: Create a Pre-Eligibility Decision Table in License and Permit Playbook
-description: The License and Permit Playbook incorporates the use of pre-eligibility criteria, a series of questions that may be posed to an applicant to determine whether they are eligible to apply for a license/permit. This aims to deflect applications in which the applicant is not eligible to obtain a license/permit.
+title: Create a Pre-Eligibility Decision Table in License and Permit Administration
+description: The License and Permit Administration incorporates the use of pre-eligibility criteria, a series of questions that may be posed to an applicant to determine whether they are eligible to apply for a license/permit. This aims to deflect applications in which the applicant is not eligible to obtain a license/permit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-eligibility-decision-table-lp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create a Pre-Eligibility Decision Table in License and Permit Playbook
+# Create a Pre-Eligibility Decision Table in License and Permit Administration
 
-The License and Permit Playbook incorporates the use of pre-eligibility criteria, a series of questions that may be posed to an applicant to determine whether they are eligible to apply for a license/permit. This aims to deflect applications in which the applicant is not eligible to obtain a license/permit.
+The License and Permit Administration incorporates the use of pre-eligibility criteria, a series of questions that may be posed to an applicant to determine whether they are eligible to apply for a license/permit. This aims to deflect applications in which the applicant is not eligible to obtain a license/permit.
 
 ## About this task
 
@@ -79,11 +79,11 @@ Pre-eligibility criteria is established by performing the following activities:
 
 12. Select the field below the newly created condition column, and enter the value **Yes** or **No** depending on the expected response for eligibility.
 
-13. Select the \[Omitted image "plus-icon-2.png"\] Alt text: Plus icon. icon and select **Add condition column**.
+13. Select the \[Omitted image "psdsplusiconlp.png"\] Alt text: Plus icon. icon and select **Add condition column**.
 
 14. Repeat steps 10-13 for all input values that determine an applicant's eligibility.
 
-15. Select the \[Omitted image "plus-icon-2.png"\] Alt text: Plus icon. icon and select **Add result column**.
+15. Select the \[Omitted image "psdsplusiconlp.png"\] Alt text: Plus icon. icon and select **Add result column**.
 
 16. On the form, fill in the fields with the following information:
 
@@ -108,7 +108,7 @@ Pre-eligibility criteria is established by performing the following activities:
 
 23. Select **Create Draft** to edit the table.
 
-24. Select the \[Omitted image "plus-icon-2.png"\] Alt text: Plus icon. icon to add a new decision row.
+24. Select the \[Omitted image "psdsplusiconlp.png"\] Alt text: Plus icon. icon to add a new decision row.
 
     This decision row maps the extended License &amp; Permit case table with its corresponding Product Model, as well as the eligibility decision table that was created above.
 

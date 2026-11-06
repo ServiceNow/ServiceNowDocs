@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cce-resume-entitlement.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
@@ -18,13 +18,13 @@ Resume an entitlement by creating an order on the CRM Workspace. By resuming an 
 
 You can resume an entitlement when the associated root sold product is in Inactive, Cancelled, or Suspended state. For product inventory records, you can resume an entitlement when the associated product inventory record is in Suspended state.
 
-**Note:** You can only resume entitlements associated with an account. You cannot resume entitlements associated to service contract lines.
+**Note:** You can only resume entitlements associated with an account. You cannot resume entitlements associated to customer contract lines.
 
 Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 

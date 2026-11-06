@@ -7,9 +7,9 @@ release: zurich
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2025-09-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reviewing reports and dashboards, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Viewing reports and dashboards in the Software Bill of Materials workspace, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # View upload status for Software Bill of Materials files

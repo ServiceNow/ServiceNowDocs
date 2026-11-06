@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated breakdowns, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -54,7 +54,7 @@ An automated breakdown uses a breakdown source to determine selectable elements.
 
 ## What to do next
 
-Create breakdown mappings and associate indicators with the breakdown. You can do this from the indicator, using a graphical tool \(see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+Create breakdown mappings and associate indicators with the breakdown. You can do this from the indicator, using a graphical tool. For more information, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
 **Parent Topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/automated-breakdowns.md)
 

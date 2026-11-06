@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-plan-templates-roles.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-04"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -34,7 +34,7 @@ sn\_task\_plan.admin​
 
 </td><td>
 
-Can create, view, update and delete records in the following tables:​
+Can create, view, update and delete records in the following table:​
 
  ​
 
@@ -107,6 +107,8 @@ sn\_task\_plan.creator
 Can create records in the following tables:-   Task Plan Template \[sn\_task\_plan\_template\]
 -   Template Item \[sn\_task\_plan\_template\_item\]
 -   Template Item Condition \[sn\_task\_plan\_template\_item\_condition\]
+
+This role is also required to run the task plan template creation AI agent.
 
 </td><td>
 

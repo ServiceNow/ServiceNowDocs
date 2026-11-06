@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [manage HAM advisor scope, edit model categories, HAM advisor scope management]
-breadcrumb: [Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage HAM advisor scope in CMDB success advisor

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-email-reminders-interaction.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure notifications and reminders for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure email reminders for an interaction

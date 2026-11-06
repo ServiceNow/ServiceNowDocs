@@ -1,5 +1,5 @@
 ---
-title: Agent Client Collector deployment - shared between servers and endpoints
+title: Deploying Agent Client Collector on both servers and endpoints
 description: When deploying the Agent Client Collector, there are components which are shared between servers and endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.html
@@ -7,12 +7,12 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Agent Client Collector deployment - shared between servers and endpoints
+# Deploying Agent Client Collector on both servers and endpoints
 
 When deploying the Agent Client Collector, there are components which are shared between servers and endpoints.
 
@@ -22,16 +22,14 @@ A check is a combination of a command and its configuration. The check is execut
 Configuration data files store dynamic instance data, such as virtual machine details, that check definitions use during execution. This ensures that checks are executed with up-to-date and accurate information about the instance being monitored.
 -   **[Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-api.md)**  
 Use the Agent Client Collector \(ACC\) API to create a flow that executes an `osquery` command on agents and processes the results. By leveraging the ACC API, you can automate the querying of agent data and streamline the processing of results, making it easier to monitor and manage system performance.
--   **[Agent Client Collector health instance scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-suite.md)**  
-The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
 -   **[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-certificates.md)**  
 Agent Client Collector certificates verify the authenticity of your agents, servers, and users. Using Agent Client Collector certificates ensures the safety of your environment.
 -   **[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/logs-acc.md)**  
 Use Agent Client Collector logs to track events in your system. Log levels indicate the severity of each event.
--   **[Configure the Google Cloud Platform \(GCP\) configuration data file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/gcp-config-data-file.md)**  
-Configure the Google Cloud Platform \(GCP\) configuration data file to monitor metrics in your GCP environment.
 -   **[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/software-filter.md)**  
 The Software filter lets you define rules to automatically exclude irrelevant entries from your Software Asset Management \(SAM\) inventory. At the same time, it keeps a complete, auditable record of everything filtered so that nothing disappears silently.
+-   **[Configure the Google Cloud Platform \(GCP\) configuration data file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/gcp-config-data-file.md)**  
+Configure the Google Cloud Platform \(GCP\) configuration data file to monitor metrics in your GCP environment.
 -   **[Configure the action level for anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-level-anomaly-detection.md)**  
 Create a configuration setting rule that refines the level of anomaly detection processing and analysis that is applied to specific CIs and metrics. Set a processing level that reflects the importance of metrics at different stages of implementation, to reduce data load if needed.
 -   **[Create Azure policies for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-policies-azure.md)**  
@@ -50,6 +48,8 @@ Portable applications are those applications that don’t need to be installed o
 Cloud Native Operations for Visibility \(CNO for Visibility\) has been renamed Agent Client Collector for Kubernetes – Visibility. The term Cloud Native Operations for Visibility has been deprecated.
 -   **[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collection-enabling.md)**  
 You can perform actions which enhance data collection from the hosts on which Agent Client Collector is running.
+-   **[Create a golden image for a virtual machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-vdi-golden-image.md)**  
+Create a golden image to run on a VIrtual Desktop Infrastructure \(VDI\) machine. The golden image enables installing a virtual agent on VDI virtual machine, which generates data quicker than standard agents.
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
 

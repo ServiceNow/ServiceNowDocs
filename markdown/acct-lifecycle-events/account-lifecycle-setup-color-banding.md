@@ -1,16 +1,16 @@
 ---
-title: Setup the color banding table
+title: Set up the color banding table
 description: Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-setup-color-banding.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage engagements, Customer success, Configure, Customer Success Management]
+breadcrumb: [Engagements, Customer success, Configure, Customer Success Management]
 ---
 
-# Setup the color banding table
+# Set up the color banding table
 
 Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
 
@@ -20,9 +20,9 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Success Configurations** &gt; **Color Bandings**.
+1.  Navigate to **All** &gt; **Success Configurations** &gt; **All Color Bandings**.
 
-2.  Click **New** to create a new color banding and enter the following details:
+2.  Select **New** to create color banding and enter the following details:
 
 <table id="table_cnr_qkd_zdc"><thead><tr><th>
 
@@ -89,5 +89,5 @@ This is the color used to highlight the health score and perceived health of an 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
+**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
 

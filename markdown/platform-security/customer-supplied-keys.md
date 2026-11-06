@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/customer-supplied-keys.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using customer supplied keys with Field Encryption Enterprise, Using Field Encryption, Field Encryption, Encryption]
+breadcrumb: [Using customer-supplied keys with Field Encryption Enterprise, Using Field Encryption, Field Encryption, Encryption]
 ---
 
 # Configure properties for customer-supplied keys
@@ -30,7 +30,7 @@ After the data encryption key is imported to the instance, a secure wrapping key
 
 Continue to [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/wrap-customer-supplied-key.md).
 
-**Parent Topic:**[Using customer supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/csk-landing.md)
+**Parent Topic:**[Using customer-supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/csk-landing.md)
 
 **Parent Topic:**[Using customer supplied keys with Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/csk-landing-2.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -82,7 +82,7 @@ Analytics Center
 
 </td><td>
 
-The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics. For more information, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center.md).
+The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center.md).
 
 </td></tr><tr><td>
 
@@ -147,6 +147,8 @@ Displays a graphical representation of the data related to the teams you belong 
 
 </td></tr></tbody>
 </table>## My team
+
+\[Omitted image "my-teams-tab.png"\] Alt text: My teams tab
 
 Information related to the teams your HR agents belong to display in the **My team** section.
 

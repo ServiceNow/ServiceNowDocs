@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/generating\_documents\_with\_logik\_io\_configuration\_data.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using ServiceNow CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Document generation
@@ -18,7 +18,7 @@ Document generation allows you to create professionally formatted documents usin
 
 ## Prerequisites
 
-ServiceNow CPQ does not directly interface with any document generation tools; however, ServiceNow CPQ configuration information can be pushed to Salesforce and used in documents from there. This can be accomplished by enabling **Push Config Data to Logik Salesforce Object** in the Admin Settings if you have not done so already; this will create the Configuration Field Data and Configuration Line Items objects in Salesforce and generate records containing ServiceNow CPQ configuration data.
+ServiceNow CPQ does not directly interface with any document generation tools; however, ServiceNow CPQ configuration information can be pushed to Salesforce and used in documents from there. This can be accomplished by enabling **Push Config Data to ServiceNow CPQ Salesforce Object** in the Admin Settings if you have not done so already; this will create the Configuration Field Data and Configuration Line Items objects in Salesforce and generate records containing ServiceNow CPQ configuration data.
 
 \[Omitted image "cpq-settings-push-config-data-to-SO.png"\] Alt text: Admin settings
 

@@ -1,18 +1,18 @@
 ---
 title: Add the Timeline component as a standalone component
-description: Add the Timeline component as a standalone component to a record page by using the Task activity timeline preset and controller.
+description: Add the Timeline component as a standalone component to a record page by using the Task activity timeline reset and controller.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-timeline-component-as-standalone.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add the Timeline component as a standalone component
 
-Add the Timeline component as a standalone component to a record page by using the Task activity timeline preset and controller.
+Add the Timeline component as a standalone component to a record page by using the Task activity timeline reset and controller.
 
 ## Before you begin
 
@@ -22,7 +22,10 @@ Role required: admin
 
 The Timeline component displays activities for task-based records such as cases or incidents in a timeline view. It uses the resolution shaper configuration to automatically fetch and organize your data.
 
-To add the Timeline component to a record page as a standalone component, the admin can select the Task activity timeline preset and controller and complete the component configuration.
+To add the Timeline component to a record page as a standalone component, the admin can do the following:
+
+-   Select the Task activity timeline controller and preset.
+-   Complete the component configuration.
 
 ## Procedure
 
@@ -42,7 +45,7 @@ To add the Timeline component to a record page as a standalone component, the ad
 
 6.  Select **Task activity timeline controller preset** and then select **Apply**.
 
-    This auto-populates the necessary properties such as the table and sys ID.
+    This auto populates the necessary properties such as the table and sys ID.
 
 7.  In the Configure tab, select a role in the **Fulfiller Role** field.
 

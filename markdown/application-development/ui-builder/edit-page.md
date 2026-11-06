@@ -1,20 +1,20 @@
 ---
 title: Edit a page
-description: Edit a page to change the page name, path, and parameters.
+description: Edit a page to change the page name, path, type, and parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/edit-page.html
 release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a page
 
-Edit a page to change the page name, path, and parameters.
+Edit a page to change the page name, path, type, and parameters.
 
 ## Before you begin
 

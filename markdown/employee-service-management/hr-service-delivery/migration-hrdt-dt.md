@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [HR document templates, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Migrating from HR Document Templates to Document Templates
@@ -18,7 +18,7 @@ Review these guidelines to successfully migrate from HR Document Templates to Do
 
 **Important:**
 
-Starting with the Zurich release, HR Document Templates is deprecated and no longer supported or available for new activation.
+Starting with the Brazil release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
 Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-data-model-svc-app-in-tables.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Applicant, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---

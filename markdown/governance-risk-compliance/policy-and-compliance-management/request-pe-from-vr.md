@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -36,6 +36,8 @@ The following diagram illustrates the steps performed by the compliance manager 
 
 1.  When the Vulnerability Response application was installed, two policy exception integration records are automatically created and added to the Integration Registry, one for a vulnerability group and one for a vulnerable item.
 
+    \[Omitted image "pe-integ-reg.png"\] Alt text: Policy exception integration Register.
+
     To configure the vulnerable item record, the compliance manager performs the following steps.
 
     1.  [Identifies the mapping of tables used to integrate the two applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md).
@@ -46,6 +48,8 @@ The following diagram illustrates the steps performed by the compliance manager 
 3.  In Vulnerability Response, the remediation owner [Request an exception using GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/integration-with-grc.md) .
 4.  If a verification rule was defined for the application, the designated approvers are notified that their approval is required. If any fields in the policy exception request were not filled in by the requester \(for example, the Policy or Control Objective\), those fields become mandatory for the approvers. When the approvers have reviewed, completed, and approved the request, it transitions to the Analyze state and is assigned to the compliance manager for further analysis and approval.
 5.  In Policy and Compliance Management, the compliance manager receives the approved request, and assigns a risk rating to the policy exception request on the **Risk assessment** tab.
+
+    \[Omitted image "risk-assess.png"\] Alt text: Risk assessment
 
     When the policy exception record is saved, information in the **Source** tab, including the source application and source record, as well as information in the **Vulnerable Items** related list are auto-populated. The compliance manager now has access to all the data needed to review and approve the policy exception.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -38,6 +38,12 @@ Admins and reception staffs can manage and update visitor registrations. Using t
 
 -   **[Visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/register-visitors.md)**  
 As an employee, the Workplace Visitor Management application enables you to register visitors in advance.
+-   **[Host portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/host-portal.md)**  
+Use the host portal to manage visits and visitors.
+-   **[Receptionist portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/receptionist-portal.md)**  
+Use the receptionist portal to view and manage visitor activity in your organization.
+-   **[Visitor portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/visitor-portal.md)**  
+Use the visitor portal to manage your visits, complete pre-check tasks, and manage personal data.
 
 **Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
 

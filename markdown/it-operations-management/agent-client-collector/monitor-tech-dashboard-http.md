@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Monitoring Technology Dashboard for HTTP
@@ -50,4 +50,6 @@ Point to the relevant widget to view a specific datapoint and all of its details
 Use the **Time range filter** to filter the time range for which you want metric data to display on the dashboard.
 
 You can customize the appearance of the individual widgets on the HTTP Monitoring Technology Dashboard. For example, you could change the data parameters that display for the Response Time metric, like the time range that the response time is displayed. You can also include the customized widgets when you’re creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
+
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

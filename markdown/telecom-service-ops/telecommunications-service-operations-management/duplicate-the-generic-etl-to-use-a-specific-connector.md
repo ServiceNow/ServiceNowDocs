@@ -1,5 +1,5 @@
 ---
-title: Duplicate the Telecom Discovery Builder framework ETL into a connector scope
+title: Duplicate the Telecom Discovery Builder ETL
 description: The Telecom Discovery Builder framework ETL enables Service Graph Connector \(SGC\) teams to rapidly adopt a standardized, schema-compliant data ingestion pipeline without building ETL logic from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configure Telecom Discovery Builder, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Duplicate the Telecom Discovery Builder framework ETL into a connector scope
+# Duplicate the Telecom Discovery Builder ETL
 
 The Telecom Discovery Builder framework ETL enables Service Graph Connector \(SGC\) teams to rapidly adopt a standardized, schema-compliant data ingestion pipeline without building ETL logic from scratch.
 

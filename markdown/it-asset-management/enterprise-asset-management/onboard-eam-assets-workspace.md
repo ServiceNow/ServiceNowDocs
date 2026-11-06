@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an onboarding order for enterprise assets in the Enterprise Asset Workspace
@@ -67,15 +67,15 @@ Date by when the asset onboarding should be complete.This field is optional.
 </td></tr></tbody>
 </table>5.  Determine whether you want to onboard assets of an existing model or a new model.
 
-<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d79525e170">
+<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d83893e170">
 
 Type of asset model
 
-</th><th align="left" id="d79525e173">
+</th><th align="left" id="d83893e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d79525e179">
+</th></tr></thead><tbody><tr><td id="d83893e179">
 
 **Existing model**
 
@@ -83,7 +83,7 @@ Action
 
 In the **Model** field, select the asset model.
 
-</td></tr><tr><td id="d79525e191">
+</td></tr><tr><td id="d83893e191">
 
 **New model**
 

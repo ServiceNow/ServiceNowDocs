@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/extract-data-from-utility-invoices.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Use generative AI skills, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Extract data from utility invoices
@@ -24,8 +24,6 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
 -   To avoid utility bill extraction failures, the system must have a valid entity mapping. This mapping links source data such as billing address or utility type to the correct entity in the metric definition.
 
 **Important:** Be sure to check AI-extracted information for accuracy.
-
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -63,5 +61,5 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
     The fields extracted by AI must be verified for accuracy before use.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

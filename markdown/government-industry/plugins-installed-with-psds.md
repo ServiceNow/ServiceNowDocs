@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/plugins-installed-with-psds.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

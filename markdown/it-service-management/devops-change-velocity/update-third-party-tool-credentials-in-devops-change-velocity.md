@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_devops.admin
 
 1.  Update your tool credentials using one of the following methods.
 
-<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d45732e66">
+<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d48372e66">
 
 Option
 
-</th><th align="left" id="d45732e69">
+</th><th align="left" id="d48372e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45732e75">
+</th></tr></thead><tbody><tr><td id="d48372e75">
 
 **From Workspace**
 
@@ -59,7 +59,7 @@ Steps
 8.  Select **Connect** to establish the connection.
 
 
-</td></tr><tr><td id="d45732e153">
+</td></tr><tr><td id="d48372e153">
 
 **From Classic**
 

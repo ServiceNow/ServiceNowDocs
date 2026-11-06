@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing and configuring VTB, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Configure a Visual Task Board with swimlanes
@@ -73,7 +73,7 @@ When you select swimlanes in Visual Task Boards, you can do the following:
 
 <table id="table_qsc_2yv_hhb"><tbody><tr><td>
 
-\[Omitted image "swimlanedata.png"\] Alt text: Activate a data driven swim lane
+\[Omitted image "swimlanedata.png"\] Alt text: Activate swimlanes for a data driven flexible board
 
 </td><td>
 

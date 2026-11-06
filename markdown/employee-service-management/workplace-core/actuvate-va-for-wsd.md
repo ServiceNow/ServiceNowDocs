@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Activate Virtual Agent for Workplace Service Delivery

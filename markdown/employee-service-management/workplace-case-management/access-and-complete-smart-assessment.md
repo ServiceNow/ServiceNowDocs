@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-01-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Smart Assessment for Workplace Case and Task, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 ## About this task
 
-Workplace agent must open the case or task from **Workplace Central** &gt; **Lists**. For mandatory assessments, agents must complete the assessment before they can close the case to one of the states in the Close before field.
+Workplace agent must open the case or task from **Workplace Central** &gt; **Lists**. For mandatory assessments, agents must complete the assessment before they can close the case to one of the states in the **Close before** field.
 
 ## Procedure
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-escalation-template.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure escalation management, Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a case or account escalation template
@@ -16,7 +16,7 @@ Create a template for each type of case or account escalation.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_crm\_foundation\_admin or sn\_crm\_escalation\_admin oradmin
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Zebra MotionWorks RFID integration for Enterprise Asset Management
@@ -46,4 +46,6 @@ You can view your asset records in the [Enterprise asset estate view](https://ra
 
 -   If a child enterprise asset contains an RFID tag, RFID location data for that asset is based on that RFID tag.
 -   If a child enterprise asset does not contain an RFID tag, RFID location data for that asset is based on the RFID tag of the parent enterprise asset. If you remove the parent enterprise asset, all RFID location data is cleared for the child enterprise asset.
+
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

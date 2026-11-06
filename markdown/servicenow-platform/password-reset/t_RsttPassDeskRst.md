@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Enrolling in the Password Reset application to reset your password, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Enrolling in the Password Reset application to reset your password, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Reset your password on Windows systems
@@ -42,19 +42,4 @@ Role required: none
     -   If your account is locked, the page displays the **Reset Password** and **Unlock Account** buttons.
         -   You can enter a new password and click **Reset password** to reset the password and unlock the account.
         -   If your administrator has selected **Enable account unlock** for the password process, you can unlock the account without resetting the password by clicking **Unlock account**.
-
-**Parent Topic:**[Enrolling in the Password Reset application to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/c_EnrollInPasswordReset.md)
-
-**Related topics**  
-
-
-[Enroll for the Password Reset program using an authenticator]()
-
-[Enroll for the Password Reset program using SMS codes]()
-
-[Enroll for the Password Reset program using emailed codes]()
-
-[Enroll for the Password Reset program using questions and answers]()
-
-[Enroll for the Password Reset program using Soft PIN]()
 

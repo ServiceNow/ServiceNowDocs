@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-11-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,16 +18,8 @@ Select investment currency as an additional currency, which can be different fro
 
 ## Before you begin
 
--   You can define investment currency for planning items which do not have any financials records, such as cost plans, expense lines, benefit plans, and actual benefits. To define a investment currency for existing work, you should delete all the financial records and configure the investment currency.
 -   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   Role required: admin
-
-## About this task
-
-Following are the current limitations for multicurrency.
-
--   Multicurrency for cost plans that are bundled with project tasks. This feature is scheduled to be available starting with the January patch update.
--   Financial baselines do not capture investment currency fields. This feature will be available with the March store release.
 
 ## Procedure
 
@@ -39,15 +31,15 @@ Following are the current limitations for multicurrency.
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d238733e127">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d257068e110">
 
 Planning item type
 
-</th><th align="left" id="d238733e130">
+</th><th align="left" id="d257068e113">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d238733e136">
+</th></tr></thead><tbody><tr><td id="d257068e119">
 
 **Demands**
 
@@ -64,7 +56,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifacts using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d238733e185">
+</td></tr><tr><td id="d257068e165">
 
 **Project, Epic, Feature, and Capability**
 
@@ -80,4 +72,8 @@ Edit investment currency modal is displayed with options to select investment cu
 </td></tr></tbody>
 </table>4.  Select **Confirm** to save the investment currency selection.
 
+
+## What to do next
+
+Activate and run a the **Update multi-currency fields to investment currency for existing demands and projects** scheduled job to reflect the investment currenct configuration. For more information on how to activate and schedule this job, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 

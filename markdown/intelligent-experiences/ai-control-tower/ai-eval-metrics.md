@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2025-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard References, Reference, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation metrics and calculations
@@ -72,6 +72,4 @@ Calculation of Auto eval user satisfaction score, Human user satisfaction score,
 
 -   The evaluator provides aggregated score per chat, even if there are multiple different requests made by user.
 -   Performance Analytics indicators are used to calculate the average score over time. If you run batch jobs on historical data, then by the definition of Performance Analytics indicators, these evaluations are counted on the evaluation date in aggregated scores and not counted for scores on the actual chat date.
-
-**Parent Topic:**[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

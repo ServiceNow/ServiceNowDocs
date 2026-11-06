@@ -7,7 +7,7 @@ release: zurich
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Delegation, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ If you're out of the office, you can delegate responsibilities to another active
 
 ## Before you begin
 
-Role required: none
+Role required: none to delegate approvals to another user
 
 Ensure that the Delegates related list displays on the form. If the Delegates related list is not visible, do one of the following:
 
@@ -34,7 +34,9 @@ Ensure that the Delegates related list displays on the form. If the Delegates re
 
 2.  In the **Delegates** related list, click **New**.
 
-3.  Select an active user as your Delegate.
+3.  Select an active user as your delegate.
+
+    **Note:** For a delegate to approve on your behalf from a Service Portal, they must have the approval\_admin or approver\_user role.
 
 4.  Select date values from the **Starts** and **Ends** fields to set the period of time during which a delegate can work on your behalf.
 

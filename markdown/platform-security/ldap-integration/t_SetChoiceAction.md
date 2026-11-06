@@ -7,9 +7,9 @@ release: zurich
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Import and map data, LDAP integration, Access Management]
+breadcrumb: [Import and map data, LDAP integration, Authentication, Access Management]
 ---
 
 # Set choice action for reference field imports

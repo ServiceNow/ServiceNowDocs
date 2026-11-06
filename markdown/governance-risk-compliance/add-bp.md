@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-bp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
     -   Business Services
     -   Service Offerings
     -   Business Process
-2.  To add a business process to the Operational Resilience application, select **New** in the Business processes list view and fill in the details regarding the business process on the [Create New Business Process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-business-process-form.md).
+2.  To add a business process to the Operational Resilience application, select **New** in the Business processes list view and fill in the details regarding the business process on the [Create Business Process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-business-process-form.md).
 
 3.  Select **Save**.
 

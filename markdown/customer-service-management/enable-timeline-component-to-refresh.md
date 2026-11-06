@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-timeline-component-to-refresh.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Enable the Timeline component to refresh
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Open a page variant in UI Builder.
 
-2.  In the Data and scripts section in the left column, select **Record Watcher 1**.
+2.  Select **Record Watcher 1** in the Data and scripts section in the left column.
 
     This opens the Record Watcher 1 pop-up window.
 

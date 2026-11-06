@@ -7,9 +7,9 @@ release: zurich
 product: Natural Language Query
 classification: natural-language-query
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Natural Language Query, Enable AI experiences]
+breadcrumb: [Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Natural Language Query References
@@ -21,5 +21,5 @@ The Natural Language Query \(NLQ\) properties control how and where NLQ operates
 -   **[Natural Language Query roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/natural-language-query/natural-language-query-roles.md)**  
 Natural Language Query \(NLQ\) is installed with these roles.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md)
+**Parent Topic:**[Machine learning and natural language capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platai-machine-learning-natural-language-capabilities.md)
 

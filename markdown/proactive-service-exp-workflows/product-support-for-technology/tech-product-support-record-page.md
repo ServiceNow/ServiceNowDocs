@@ -1,35 +1,35 @@
 ---
-title: Product Support for Technology record page
-description: The Product Support for Technology record page provides a simplified case view in CSM Configurable Workspace that enables agents to research and resolve technology cases.
+title: Technology Product Support record page
+description: The Technology product support record page provides a simplified case view in CSM Configurable Workspace that enables agents to research and resolve technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
-# Product Support for Technology record page
+# Technology Product Support record page
 
-The Product Support for Technology record page provides a simplified case view in CSM Configurable Workspace that enables agents to research and resolve technology cases.
+The Technology product support record page provides a simplified case view in CSM Configurable Workspace that enables agents to research and resolve technology cases.
 
-\[Omitted image "tech-product-support-record-page.png"\] Alt text: The Product Support for Technology record page enables agents to focus on case details, the activity stream, and information in the contextual side panel.
+\[Omitted image "tech-product-support-record-page.png"\] Alt text: The Technology product support record page enables agents to focus on case details, the activity stream, and information in the contextual side panel.
 
-The Product Support for Technology record page focuses on the essential functionality that agents need:
+The Technology product support record page focuses on the essential functionality that agents need:
 
 -   Looking up and verifying customer information
 -   Scanning the activity stream
 -   Viewing related information
 -   Searching for knowledge articles
 
-The Product Support for Technology record page is included with the Technology Product Support Case application \(sn\_tech\_product\_support\).
+The Technology product support record page is included with the Technology Product Support Case application \(sn\_tech\_product\_support\).
 
 ## Technology product support record page variant
 
-The Product Support for Technology record page variant is included with the Technology Product Support Case application. A page variant is a version of a page that has unique settings. This page variant includes the following settings.
+The Technology product support record page variant is included with the Technology Product Support Case application. A page variant is a version of a page that has unique settings. This page variant includes the following settings.
 
 <table id="table_jcm_z3m_bbc"><thead><tr><th>
 
@@ -45,9 +45,9 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Product Support for Technology record page is active by default.
+Enabling the **Active** check box makes the page variant available to the selected audience. The technology product support record page is active by default.
 
-The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see .
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Order
 
 </td><td>
 
-Each record page has an order which indicates the page priority. The lower the number, the higher the priority.The default order for the Product Support for Technology record page variant is -1000.
+Each record page has an order which indicates the page priority. The lower the number, the higher the priority.The default order for the Technology product support record page variant is -1000.
 
 </td></tr><tr><td>
 
@@ -63,9 +63,9 @@ Conditions
 
 </td><td>
 
-Conditions determine when a page variant is displayed. The Product Support for Technology record page has the following condition:**table=sn\_tech\_product\_support\_case**
+Conditions determine when a page variant is displayed. The Technology product support record page has the following condition:**table=sn\_tech\_product\_support\_case**
 
-This condition limits the use of the page variant to records from the Product Support for Technology \[sn\_tech\_product\_support\_case\] table.
+This condition limits the use of the page variant to records from the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Product Support for Technology record page variant audience doesn’t specify any user roles so all users can see this variant.
+The audience determines who can see the page variant. The Technology product support record page variant audience doesn’t specify any user roles so all users can see this variant.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -83,9 +83,9 @@ The audience determines who can see the page variant. The Product Support for Te
 3.  In the Record section of the Pages and variants list, select **Technology product support record page**.
 4.  Select **Settings** at the top of the page.
 
-## Product Support for Technology record page components
+## Technology product support record page components
 
-The Product Support for Technology record page includes the following components.
+The Technology product support record page includes the following components.
 
 <table id="table_fkk_jlm_bbc"><thead><tr><th>
 
@@ -109,7 +109,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_Tags.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ The case summarization component appears above the activity stream. When an agen
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-**Note:** The case summarization component requires the [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) application to be activated and configured.
+**Note:** The case summarization component requires the  application to be activated and configured.
 
 </td></tr><tr><td>
 
@@ -192,7 +192,7 @@ The activity stream component displays a list of activities occurring on a case 
 
 </td><td>
 
-The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Product Support for Technology record page includes the following tabs.-   Activity Stream
+The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Technology product support record page includes the following tabs.-   Activity Stream
 -   Recommended Actions search
 -   Related Items
 -   Attachments
@@ -209,11 +209,11 @@ For more information, see the following sections:
 </td></tr></tbody>
 </table>## Actions available in the action bar
 
-The following actions are available on the Product Support for Technology record page action bar. The specific actions that are available are determined by factors such as the user role, case state, and other attributes.
+The following actions are available on the Technology product support record page action bar. The specific actions that are available are determined by factors such as the user role, case state, and other attributes.
 
 |Action|Description|
 |------|-----------|
-|In-progress Actions|Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.|
+|In-progress Actions|Provides a list of minimized modeless dialogs and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.|
 |Submit Case|Moves the case from the Draft state to the New state.|
 |Assign to me|Assigns the case to the logged-in user and moves the case to Work in Progress.|
 |Accept|Assigns the case to the logged-in user and moves the case to Work in Progress.|
@@ -224,13 +224,13 @@ The following actions are available on the Product Support for Technology record
 |Reject Solution|The agent can reject the proposed solution on behalf of the customer. Moves the case to Work in Progress.|
 |Save|Saves changes to the case record.|
 |Cancel|Cancels changes to the case record.|
-|Compose|Compose comments, work notes, and emails in [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).|
+|Compose|Compose comments, work notes, and emails in modeless dialogs.|
 |Create|Create records such as work orders, incidents, and requests.|
 |More Actions|Perform additional actions such as proposing a major case or reporting a knowledge gap.|
 
 ## Modeless dialogs
 
-The Product Support for Technology record page uses modeless dialogs to create comments, work notes, and email messages. The following actions are available from the **Compose** button in the form header:
+The Technology product support record page uses modeless dialogs to create comments, work notes, and email messages. The following actions are available from the **Compose** button in the form header:
 
 -   **Compose &gt; Comment**: Opens the Compose a comment modeless dialog.
 -   **Compose &gt; Work note**: Opens the Compose a work note modeless dialog.
@@ -272,7 +272,7 @@ Agents can apply templates to emails in a modeless dialog:
 
 Agents can also toggle the **Rich text editor** button in the email modeless dialog to show or hide the TinyMCE formatter.
 
-For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
+For more information, see .
 
 ## Account and contact lookup components
 
@@ -306,10 +306,10 @@ Using this component, agents can:
 
 **Note:** If the case doesn’t contain enough text to summarize, the system displays the following message: "This case doesn't have the minimum number of words required for summarization yet."
 
-To use the case summarization component with the Product Support for Technology record page variant, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
+To use the case summarization component with the Technology product support record page variant, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-configuring.md).
+-   Activate Now Assist for Customer Service Management \(CSM\)
+-   Configure the case summarization skill in the Now Assist Admin console.
 
 ## Activity stream component
 
@@ -377,7 +377,7 @@ The activity stream component displays a list of the activities occurring on a c
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes AI search functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -390,9 +390,9 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md).
+For more information, see .
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the Recommended Actions application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -400,7 +400,7 @@ For more information, see [Use AI search in Recommended Actions to resolve cases
 
 </td><td>
 
-The Related Items tab provides access the case-related lists.The Product Support for Technology record page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
+The Related Items tab provides access the case-related lists.The Technology product support record page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
@@ -434,10 +434,7 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the following:-   recipients \(email addresses in the To, Cc, and Bcc fields\)
--   sender
--   subject of the email
--   text to include in the message body
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the email subject, and text included in the message body.
 
 </td></tr></tbody>
 </table>## Recommended Actions search component
@@ -451,11 +448,11 @@ For knowledge articles, an agent can view an article and attach the article to t
 -   Selecting **Review and attach article** displays the article in the contextual side panel.
 -   Selecting **Attach this article** attaches the knowledge article to the current case.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the Recommended Actions application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 ## Related Items component
 
-The Product Support for Technology record page incorporates related items functionality into the contextual side panel. The Related Items tab provides agents with access to the case-related lists. These lists are displayed in an accordion format that agents can expand and collapse as needed.
+The Technology product support record page incorporates related items functionality into the contextual side panel. The Related Items tab provides agents with access to the case-related lists. These lists are displayed in an accordion format that agents can expand and collapse as needed.
 
 \[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The technology product support record page related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
@@ -492,9 +489,9 @@ The items in an expanded list are displayed as cards. An expanded list shows one
 
 ## Creating a case
 
-Agents can create a Product Support for Technology case by selecting **Create case** from the More Actions menu in the action bar.
+Agents can create a technology product support case by selecting **Create case** from the More Actions menu in the action bar.
 
-Creating a case opens a service selector modal and displays the services defined for the Product Support for Technology case type. From this modal, agents can:
+Creating a case opens a service selector modal and displays the services defined for the Technology Product Support case type. From this modal, agents can:
 
 -   Search for a service.
 -   Select a service.
@@ -504,17 +501,17 @@ The system creates the case and displays the new case record.
 
 **Note:** This action is active by default for the Technology product support record page.
 
-## Using Now Assist for CSM to generate resolution notes for a case
+## Using Servicenow Otto for CSM to generate resolution notes for a case
 
-Agents can automatically generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record. This is done by using the resolution notes generation skill in the Now Assist for Customer Service Management \(CSM\) application.
+Agents can automatically generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record.
 
-Selecting the **Propose Solution** UI action on a case record displays the Propose Solution modal. If the **Resolution notes** field on the case record is empty, the resolution notes that generation skill adds the information to this field in the modal. For more information, see [Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-generate-resolution.md).
+Selecting the **Propose Solution** UI action on a case record displays the Propose Solution modal. If the **Resolution notes** field on the case record is empty, the resolution notes that generation skill adds the information to this field in the modal. For more information, see .
 
 **Note:** The resolution notes that generation skill requires a minimum of 200 words in the case record to generate the resolution notes. If the resolution notes can’t be generated, the system displays a message below the **Resolution notes** field.
 
 To use the resolution notes generation skill with the Technology product support record page variant:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-supporting-info.md).
--   [Configure the resolution notes generation skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-configuring.md).
--   [Configure Propose Solution actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-config-propose-solution.md).
+-   Activate Now Assist for Customer Service Management \(CSM\).
+-   Configure the resolution notes generation skill in the Now Assist Admin console.
+-   .
 

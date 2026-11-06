@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create new table from extensible table and spreadsheet import
@@ -20,7 +20,7 @@ Create a new table by extending an existing table, and then using a Microsoft Ex
 
 -   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
 
-Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, delegated developer permissions for "Integration" must be present to view data import and mapping options. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, sn\_app\_eng\_studio.user, delegated developer permissions for "Integration" must be present to view data import and mapping options. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -127,7 +127,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 10. You have the following choices available to you during this step.
 
-<table id="choicetable_ats_cqp_vvb"><tbody><tr><td id="d47550e379">
+<table id="choicetable_ats_cqp_vvb"><tbody><tr><td id="d50530e379">
 
 **Batch map fields using Automap**
 
@@ -135,7 +135,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 Select **Automap** to automatically map your spreadsheet fields to displayed fields in the selected target table. Automap maps source entities to similarly named target entities. For a target entity that has already been mapped, selecting **Automap** doesn't change its value. An automapped field has a wand icon on its data pill.
 
-</td></tr><tr><td id="d47550e394">
+</td></tr><tr><td id="d50530e394">
 
 **Map fields by dragging and dropping**
 
@@ -143,7 +143,7 @@ Select **Automap** to automatically map your spreadsheet fields to displayed fie
 
 Map fields from your import to your target table by dragging data pills representing columns in the imported spreadsheet to the **Value** column in the target table. You can also map fields by using the pill picker to the right of each target table field.
 
-</td></tr><tr><td id="d47550e409">
+</td></tr><tr><td id="d50530e409">
 
 **Map fields using the data picker**
 
@@ -151,7 +151,7 @@ Map fields from your import to your target table by dragging data pills represen
 
 Map data by using the pill picker \(\[Omitted image "pill-picker-green.png"\] Alt text: Pill picker.\) on the right side of the target table. You can enter more than one value in the **Value** column, you can also enter text.
 
-</td></tr><tr><td id="d47550e430">
+</td></tr><tr><td id="d50530e430">
 
 **Add transform options**
 
@@ -161,7 +161,7 @@ Add transform options for each of the individual mapped spreadsheet fields by cl
 
 **Note:** Not all the transform functions available in Flow Designer are available.
 
-</td></tr><tr><td id="d47550e454">
+</td></tr><tr><td id="d50530e454">
 
 **Activate data record matching**
 
@@ -173,7 +173,7 @@ Specify fields where the system should check for matching data and, if found, up
 -   If the **Match** toggle switch for the **Order number** field is off, the system doesn't check for matching data. If the source data has a record with the same order number, the system creates a new record in the target table. In this case, the target table will have two records, both with an order number of 743.
 
 
-</td></tr><tr><td id="d47550e493">
+</td></tr><tr><td id="d50530e493">
 
 **Configure reference and choice field behavior**
 
@@ -188,7 +188,7 @@ Configure behavior for **Choice** and **Reference** field types.1.  Click the ge
 4.  Click **Done**.
 
 
-</td></tr><tr><td id="d47550e555">
+</td></tr><tr><td id="d50530e555">
 
 **Add new field columns to target table**
 

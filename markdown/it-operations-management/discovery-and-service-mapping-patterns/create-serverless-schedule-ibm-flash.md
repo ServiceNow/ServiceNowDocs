@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IBM Flash System, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ Create a serverless discovery schedule to run IBM Flash System storage discovery
     -   `POST /rest/v1/lsdrive`
     -   `POST /rest/v1/lsfabric`
 -   Create an alias for a basic authentication credential. For more information, see [Create an alias for a basic authentication credential for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.md).
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Retrieve the following values from your IBM Flash System array:
     -   Management IP address
     -   REST API port \(typically 7443\)
@@ -46,14 +46,66 @@ Role required: discovery\_admin
 
     2.  On the form, fill in the fields.
 
-        |Field|Description|
-        |-----|-----------|
-        |Name|Unique name for this discovery schedule.|
-        |Discover|Scan type, which should be `Serverless`.|
-        |MID server|Name of the MID Server to use for this schedule.|
-        |Active|Option to enable this schedule for discovery.|
+<table id="create-serverless-schedule-ibm-flash-table-1"><thead><tr><th>
 
-    3.  Select **Submit**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name for this discovery schedule.
+
+</td></tr><tr><td>
+
+Discover
+
+</td><td>
+
+Scan type, which should be `Serverless`.
+
+</td></tr><tr><td>
+
+MID Server selection method
+
+</td><td>
+
+Method that Discovery uses to select a MID Server:-   `Specific MID Cluster`: Use a preconfigured cluster of MID Servers. The MID Server can’t be part of multiple clusters
+-   `Specific MID Server`: Use only one MID Server. If that MID Server is part of a cluster, only that MID Server is used. The cluster isn’t used.
+
+
+</td></tr><tr><td>
+
+MID server
+
+</td><td>
+
+Name of the MID Server to use for this schedule. This field is available if **MID Server selection method** is set to `Specific MID Server`.
+
+</td></tr><tr><td>
+
+MID Server cluster
+
+</td><td>
+
+Name of the MID Server cluster to use for this schedule. This field is available if **MID Server selection method** is set to `Specific MID Cluster`.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option to enable this schedule for discovery.
+
+</td></tr></tbody>
+</table>    3.  Select **Submit**.
 
 3.  Create the execution pattern.
 

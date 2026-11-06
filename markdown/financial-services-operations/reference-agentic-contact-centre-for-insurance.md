@@ -1,0 +1,22 @@
+---
+title: Agentic Contact Center for Insurance reference
+description: Learn about the components and properties that are installed with Agentic Contact Center for Insurance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/reference-agentic-contact-centre-for-insurance.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [agentic contact centre insurance reference]
+breadcrumb: [Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
+---
+
+# Agentic Contact Center for Insurance reference
+
+Learn about the components and properties that are installed with Agentic Contact Center for Insurance.
+
+-   **[Components installed with Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/components-installed-with-agentic-contact-centre-for-insurance.md)**  
+Review the roles and other components installed when you activate Agentic Contact Center for Insurance.
+
+**Parent Topic:**[Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/landing-agentic-contact-centre-for-insurance.md)
+

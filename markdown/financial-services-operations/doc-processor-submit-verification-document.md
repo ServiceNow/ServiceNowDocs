@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/doc-processor-submit-verification-document.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -66,5 +66,5 @@ If Document Intelligence is integrated, once a document verification task is cre
 
 ## What to do next
 
-A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/doc-processor-work-on-doc-verification-task.md).
 

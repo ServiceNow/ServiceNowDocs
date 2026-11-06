@@ -7,9 +7,9 @@ release: zurich
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments as a customer, Appointment booking, Use, Field Service Management]
+breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # View work order and appointment details as a customer

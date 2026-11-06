@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_PushNotificationSetupSN.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Push notification setup with the ServiceNow mobile app
@@ -21,7 +21,7 @@ Setting up push notifications involves both the system administrator and users.
 -   Admin creates or updates push notifications for the ServiceNow mobile app. The admin does not need to set up the mobile devices for users nor update their user preferences for receiving push notifications.
 -   Users install the ServiceNow mobile mobile on their iOS or Android mobile devices and set their preferences for receiving notifications on the ServiceNow mobile app.
 
-\[Omitted image "push-notification-SN-setup.png"\] Alt text: Workflow diagram showing push notification setup for ServieNow mobile app
+\[Omitted image "PushNotificationSNSetup.png"\] Alt text: Push notification setup tasks for the ServiceNow mobile app
 
 ## What to do — admins
 

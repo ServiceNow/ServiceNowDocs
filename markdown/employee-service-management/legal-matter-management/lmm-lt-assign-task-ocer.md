@@ -7,7 +7,7 @@ release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approve or reject outside counsel engagement request, Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d654604e78">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d664903e78">
 
 Method
 
-</th><th align="left" id="d654604e81">
+</th><th align="left" id="d664903e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d654604e87">
+</th></tr></thead><tbody><tr><td id="d664903e87">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d654604e131">
+</td></tr><tr><td id="d664903e131">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d654604e191">
+</td></tr><tr><td id="d664903e191">
 
 **Using platform view**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Install Conversational Integration with Microsoft Teams
@@ -27,7 +27,7 @@ You can install the Microsoft Teams \(sn\_va\_teams\) application to integrate w
         **Note:** These aren’t necessarily required. Microsoft allows non-admin users to give consent to some or all requested permissions. Granting non-admin consent is not recommended, as this may cause unexpected behavior in the Now Now Virtual Agent application. Please review your user consent policies by consulting: https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/configure-user-consent?pivots=portal
 
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   If you're using an earlier release of Virtual Agent, you must upgrade to the 2023, February store release to use the features supported in this channel integration.
 -   Conversational Integration with Microsoft Teams requires the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) to activate full functionality in Virtual Agent or the Virtual Agent Lite plugin \(com.glide.cs.chatbot.lite\) to activate a limited version of Virtual Agent. Activate the appropriate plugin before you install the integration.
 -   Install the Conversational Integration with Microsoft Teams app from the ServiceNow® Store.
@@ -78,10 +78,10 @@ Review these guidelines for using Virtual Agent with Microsoft Teams.
 
 [Integrate ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.md).
 
--   **[Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
-Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 -   **[Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/uninstall_va_msteams.md)**  
 Remove the integrations between your ServiceNow Virtual Agent bot or the Self-configured bots and Microsoft Teams to disassociate the app with your ServiceNow instance.
+-   **[Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
+Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 
 **Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

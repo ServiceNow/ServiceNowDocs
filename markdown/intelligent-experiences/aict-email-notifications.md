@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-email-notifications.html
 release: zurich
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Control Tower, notifications, email, approval request]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Control Tower email notifications

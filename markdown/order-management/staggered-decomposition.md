@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/staggered-decomposition.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-03"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -37,4 +37,11 @@ When you approve an order, the order decomposition process starts. The decomposi
 When the characteristic values are available either from a user’s action or from an attribute propagation rule, the decomposition process is retriggered. The process then creates the required domain orders and completes the order decomposition. If you again update the characteristic value after the order decomposition is complete, it does not trigger the decomposition for the domain order.
 
 To understand staggered decomposition with the help of an example, see [Customer order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/customer-order-decomposition.md).
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

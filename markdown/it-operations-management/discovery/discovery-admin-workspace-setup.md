@@ -1,13 +1,13 @@
 ---
 title: Discovery Admin Workspace Settings
-description: The Settings page enables you to customize and manage high-level Discovery properties so they’re tailored to meet your specific needs.
+description: The Settings page enables you to customize and manage high-level Discovery properties so they're tailored to meet your specific needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Vis
 
 # Discovery Admin Workspace Settings
 
-The Settings page enables you to customize and manage high-level Discovery properties so they’re tailored to meet your specific needs.
+The Settings page enables you to customize and manage high-level Discovery properties so they're tailored to meet your specific needs.
 
 To access the Discovery Admin Workspace Settings page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings**.
 
@@ -133,7 +133,7 @@ Discovery notifications enable administrators to receive real-time alerts or dai
 
     Select **Send test notification** to validate the integration. A failed test displays an error message, while a successful test sends a notification to your Teams channel. After you send the test notification and select **Save**, the connection status updates. A successfully validated channel URL displays a **Connected** status. If validation fails, the status changes to **Disconnected** and includes a timestamp for the last attempted connection.
 
-    For email, enter a valid email address in the text box and select **Add**. There’s no limit to the number of recipients that you can add. To remove a recipient, select **X**. Recipients can opt out of email notifications by selecting the **Unsubscribe** link in the email and sending the auto-generated response.
+    For email, enter a valid email address in the text box and select **Add**. There's no limit to the number of recipients that you can add. To remove a recipient, select **X**. Recipients can opt out of email notifications by selecting the **Unsubscribe** link in the email and sending the auto-generated response.
 
     **Note:** The **Unsubscribe** option is available only if the recipient's email address is associated with a sys\_user record.
 
@@ -156,7 +156,7 @@ Discovery notifications enable administrators to receive real-time alerts or dai
 
 ## URL discovery
 
-The URL Discovery settings control how Agent Client Collector for Visibility \(ACC-VC\) collects web usage data from managed Windows and macOS devices. You can enable broad URL monitoring and manage targeted URLs to monitor from this page.
+The URL discovery settings control how Agent Client Collector for Visibility \(ACC-VC\) collects web usage data from managed Windows and macOS devices. You can enable broad URL monitoring and manage targeted URLs to monitor from this page.
 
 **Important:** This feature requires the ServiceNow AI Platform to be running on the Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6. Other app dependencies include:
 

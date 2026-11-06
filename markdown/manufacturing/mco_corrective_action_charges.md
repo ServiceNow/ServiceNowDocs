@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco\_corrective\_action\_charges.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Actions** &gt; **Corrective Action Charges**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Actions** &gt; **Corrective Action Charges**.
 
 2.  Select **New**.
 
@@ -34,4 +34,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     **Note:** At least one "In use" corrective action is required to initiate the recall campaign to In-progress.
 
+
+**Parent Topic:**[Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-corrective-actions.md)
 

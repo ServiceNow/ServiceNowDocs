@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/glossary.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -183,5 +183,5 @@ A list of terms used in ServiceNow CPQ
     Also known as end-user testing, this is a phase near the end of implementation and before going live. A small group of the end-users will run through various scenarios to validate the desired end-user experience and address any issues or bugs before the full launch.
 
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

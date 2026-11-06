@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a flow from scratch
@@ -98,10 +98,6 @@ Roles that the flow runs with. This option is available only when **Run as** is 
 
 </td></tr></tbody>
 </table>7.  On the summary screen, select **Edit this flow** to open your flow.
-
-
-
-    For an example of how to build a flow, see [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/build-your-first-flow.md).
 
 8.  Add a trigger to your flow.
 

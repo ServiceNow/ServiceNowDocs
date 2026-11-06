@@ -1,18 +1,18 @@
 ---
 title: Launching the simulator
-description: This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads. The Voice Controls Simulator is only available in the CRM Workspace.
+description: This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/launch-voice-controls-simulator.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Launching the simulator
 
-This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads. The Voice Controls Simulator is only available in the CRM Workspace.
+This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CRM Workspace.
 
 ## Before you begin
 
@@ -21,8 +21,6 @@ Role required: CCaaS admin
 ## Procedure
 
 1.  Select the phone icon in the header to open the Voice Controls Simulator tool.
-
-    If the simulator doesn’t display, refresh your page.
 
 2.  Select **Launch test tool** to open the simulator in a new tab to begin configuration.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Search Suggestions
 classification: search-suggestions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Search Suggestions, Search administration, Configure core features, Administer]
+breadcrumb: [Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Search Suggestions reference

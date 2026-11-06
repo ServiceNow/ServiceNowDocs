@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Tables installed with TLM in the EA Workspace
@@ -71,7 +71,7 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 Stores the TPM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-perform.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,17 +20,17 @@ Role required: To perform the full migration and activate Platform Analytics exp
 
 ## About this task
 
-This topic assumes that your instance is not a net new Xanadu, Yokohama, or Zurich instance. The Migration Center is only available on upgrading instances.
+This topic assumes that your instance is not a net new Xanadu, Yokohama, Zurich or Brazil instance. The Migration Center is only available on upgrading instances.
 
 Run and test the migration on a single, non-production instance. After you’re satisfied with the results of a full test migration, launch the migration on the production instance. Select **Try your content** to test the output on a limited number of dashboards.
 
 **Note:**
 
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+
 If you change a Core UI dashboard after migration and migrate it again, the changed dashboard overwrites the originally migrated dashboard.
 
 If you change a report, and perform full data migration again, the changed Core UI report overwrites the originally migrated content, and any changes you have made to the associated Platform Analytics experience visualization. Changed Core UI reports do not overwrite changes when you perform a partial migration of Core UI dashboards.
-
-You cannot move the migrated material from a non-production instance to a production instance.
 
 Dashboards migrated in compatibility mode may experience performance issues.
 

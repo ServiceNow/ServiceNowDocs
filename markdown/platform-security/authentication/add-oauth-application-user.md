@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client Credentials, Old inbound integrations experience, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Client credentials, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Add the OAuth Application User
@@ -18,7 +18,7 @@ Add the OAuth Application User field on the OAuth Entity form to use the Client 
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 Plugin required: OAuth 2.0.
 
@@ -28,7 +28,7 @@ You must create an OAuth client. For more information, see [Create an endpoint f
 
 1.  Open the OAuth client record that was created.
 
-2.  Select more options icon on the page header.
+2.  Select the more options icon on the page header.
 
 3.  Select **Configure** &gt; **Form Design**.
 
@@ -40,7 +40,7 @@ You must create an OAuth client. For more information, see [Create an endpoint f
 
     For example, System Administrator.\[Omitted image "add-oauth-application-user.png"\] Alt text: OAuth Application User
 
-    **Note:** You must use the REST API Auth Scope with client credentials grant type to control the access provided to the 3rd party client.
+    **Note:** You must use the REST API Auth Scope with client credentials grant type to control the access provided to the third-party client.
 
 7.  Save or Update the form.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configurable-workspace-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 keywords: [dashboard]
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,6 +30,10 @@ Component that appears in the contextual sidebar and enables agents to add, prev
 ## admin
 
 A user with the admin \(administrator\) role in ServiceNow has permission to perform almost all functions. The term "admin" usually includes both the global admin and the admin for a given application. For example, both the admin and catalog\_admin roles have rights to administer the service catalog.
+
+## Agent assist
+
+Component that provides agents with automatic search results with possible solutions relevant to the open record.
 
 ## Agent chat
 
@@ -62,14 +66,6 @@ Reusable subject line and message body content for email notifications.
 ## form
 
 A content page that displays fields and values for a single record from a database table.
-
-## form action layout group
-
-A combination of multiple actions into a split or menu button.
-
-## form action layout item
-
-A record that defines the look and feel of an action button.
 
 ## form header
 
@@ -137,16 +133,5 @@ The version of a UI Builder page with access controlled by role or condition. Cr
 
 ## workspace
 
-Unified interface that consolidates multiple tools and data views into a single screen, enabling customer service agents to efficiently manage cases, interactions, and tasks.
-
-To learn more about the workspace, see .
-
--   **Also known as**
-
-    CSM workspace
-
-    Agent workspace
-
-    Configurable workspace
-
+Suite of tools in a single focused work area that enables a user to efficiently complete an entire job.
 

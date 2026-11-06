@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/administer-lists-configurable-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,6 +18,8 @@ Administer list features that aren't configured in UI Builder with components.
 
     Configure live updates for lists by adding the **glide.lists.live\_list\_enabled** system property.
 
+-   **[Configure live updates for a list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/live-list-updates-page-level.md)**
+
     Configure live updates at the list page level without affecting other lists in your Configurable Workspace.
 
 -   **[Export to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/exporting-lists-google-spreadsheets.md)**
@@ -27,5 +29,13 @@ Administer list features that aren't configured in UI Builder with components.
 -   **[Configure record count background loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/fetch-list-record-count-asynchronously.md)**
 
     Configure lists created from large tables to load the list record count in the background by using the **glide.ui.fetch.list.record.count.asynchronously** property.
+
+-   **[Configure related list background loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/set-up-asynchronous-record-addition.md)**
+
+    Configure large selections of records added to a related list to load in the background for your entire workspace experience.
+
+-   **[Group a related list by a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-related-list-grouping.md)**
+
+    Configure a related list to group by a field.
 
 

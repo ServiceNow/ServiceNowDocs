@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/open-email-customer-360.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ You can compose large emails easily in a full screen view which opens up in a ne
 
 3.  In the ribbon component, click the contact's email address.
 
-    The New Email screen opens in full screen in a new tab. The **To** field is pre-filled with the customer's email id and the **Subject** field contains the original case number and issue. For more information, see [Compose an email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-email.md).
+    The New Email screen opens in full screen in a new tab. The **To** field is pre-filled with the customer's email id and the **Subject** field contains the original case number and issue..
 
 4.  Compose your email and click **Send**.
 

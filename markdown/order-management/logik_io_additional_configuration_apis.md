@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/logik\_io\_additional\_configuration\_apis.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
-reading_time_minutes: 2
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Additional configuration APIs
@@ -26,13 +26,13 @@ ServiceNow CPQ configurations can be retrieved from the ServiceNow CPQ servers b
 
 |HTTP method|GET|
 |-----------|---|
-|URL|https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/&lt;uuid&gt;|
+|URL|https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/&lt;uuid&gt;|
 |Path parameters|&lt;uuid&gt;|32 character ServiceNow CPQ configuration UUID|required|
 |Query parameters|N/A|
 
 Sample URL:
 
-[https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae](https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae)
+[https://dev1.test.cpq/api/71e62fe7-e59b-4a91-94af-64718e0d4eae](https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae)
 
 Sample response:
 
@@ -66,9 +66,7 @@ ServiceNow CPQ configurations can be deleted, but it is not typically necessary.
 |Path parameters|&lt;uuid&gt;|32 character ServiceNow CPQ configuration UUID|required|
 |Query parameters|N/A|
 
-Sample URL:
-
-https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae
+Sample URL: [https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae](https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae)
 
 Sample response:
 

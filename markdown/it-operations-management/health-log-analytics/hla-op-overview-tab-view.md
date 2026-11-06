@@ -7,8 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [alert remediation, log analytics alert, overview tab, health log analytics, alert resolution, service operations workspace, alert investigation, remediation process, alert troubleshooting, log analytics operator, alert management, playbook remediation, alert response, anomaly remediation, operator workflow]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -17,8 +18,6 @@ breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, I
 Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, the log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
 ## Before you begin
-
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace.
 
 Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
@@ -32,7 +31,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
     All Health Log Analytics alerts have the value **Log Analytics** in the **Source** column. The value in the **Group** column identifies the type of Log Analytics alert. See [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md) for a more detailed description of each type of alert or group.
 
-    **Tip:** To preview an alert in the list, click its info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon.\).
+    **Tip:** To preview an alert in the list, select its info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon.\).
 
 4.  Select the alert number.
 
@@ -55,5 +54,5 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
     When the action is complete, it appears in the **Completed** card.
 
 
-**Parent Topic:**[Analyzing and resolving Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-analyzing-resolving-hla-alert.md)
+**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-health-landing-page.md)
 

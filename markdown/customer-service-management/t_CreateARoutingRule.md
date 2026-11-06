@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateARoutingRule.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a matching rule for case routing
@@ -16,21 +16,21 @@ Create a matching rule for a customer service case that identifies the case attr
 
 ## Before you begin
 
-Role required: admin
+Role required: assignment\_rule\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Routing and Assignment** &gt; **Matching Rules**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Fill in the fields on the Matching Rule form.
 
     This form contains the following sections:
 
     -   Basic rule information
-    -   Applies to: Use this section to create rule conditions
-    -   Resource: Use this section to create agent and agent group conditions
+    -   Applies to: use this section to create rule conditions
+    -   Resource: use this section to create agent and agent group conditions
 <table id="table_czw_ftc_nr"><thead><tr><th>
 
 Field
@@ -81,7 +81,7 @@ Conditions
 
 </td><td>
 
-Use the buttons in this field to build one or more conditions on the selected table. A condition is made up of a selected field, an operator, and a value. Add conditions using the **AND** and **OR** buttons. Delete conditions by selecting the **X** icon.
+Use the buttons in this field to build one or more conditions on the selected table. A condition is made up of a selected field, an operator, and a value. Add conditions using the **AND** and **OR** buttons. Delete conditions by clicking the **X** to the right of a condition.
 
 </td></tr><tr><td class="subhead" colspan="2">
 
@@ -95,10 +95,10 @@ Matching
 
 The type of resource matching method to use for this rule: Simple, Advanced, Scripted, Selection Criteria. Select **Simple** to assign a task to a specific user.
 
-1.  Select the lookup icon next to the **Resource** field.
+1.  Click the lookup icon next to the **Resource** field.
 2.  Select a **Table name**.
 3.  Select a **Document** from the table.
-4.  Select **OK**.
+4.  Click **OK**.
  Select **Advanced** to create a specific set of resource conditions. Then use the condition builder in the **Resource** field to identify these conditions.
 
  Select **Scripted** to create a customized script for identifying resources, with the goal of returning a list of users that have the same skills as the task. The task under consideration is set in the context of the script. For example:
@@ -124,7 +124,7 @@ This field changes depending on the resource matching type selected in the **Mat
 
 </td></tr><tr><td>
 
-Schedule-based filtering
+Schedule based filtering
 
 </td><td>
 
@@ -136,22 +136,22 @@ Script
 
 </td><td>
 
-For **Scripted** matching. Use this field to create a customized script for identifying resources. An example script is included. The expected return from a customized script is an array of resource sys\_ids.
+For **Scripted** matching. use this field to create a customized script for identifying resources. An example script is included. The expected return from a customized script is an array of resource sys\_ids.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
     The rule appears in the Matching Rules list.
 
 5.  Open the newly created rule from the Matching Rules list and add the desired matching criteria.
 
-6.  From the **Select Criteria** related list, select **New**.
+6.  From the **Select Criteria** related list, click **New**.
 
 7.  Select a **Criterion**.
 
 8.  In the **Use for** field, specify how you want the matching criterion to be used.
 
-<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d112843e355">
+<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d127080e355">
 
 **Ranking and display**
 
@@ -159,7 +159,7 @@ For **Scripted** matching. Use this field to create a customized script for iden
 
 Use the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d112843e364">
+</td></tr><tr><td id="d127080e364">
 
 **Display only**
 
@@ -167,7 +167,7 @@ Use the criterion to determine agent ranking and displays it in a column on the 
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d112843e373">
+</td></tr><tr><td id="d127080e373">
 
 **Ranking only**
 
@@ -178,7 +178,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>9.  Select a **Ranking Method**.
 
-<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d112843e394">
+<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d127080e394">
 
 **More is better**
 
@@ -186,7 +186,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d112843e403">
+</td></tr><tr><td id="d127080e403">
 
 **Less is better**
 
@@ -195,7 +195,7 @@ For example, more availability is better when determining the agent ranking.
 For example, fewer assigned cases are better when determining agent ranking.
 
 </td></tr></tbody>
-</table>10. Select **Submit**.
+</table>10. Click **Submit**.
 
     The criterion appears on the Matching Rule form in the **Select Criteria** related list.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/guided-tours-theme-builder.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Guided tours in Theme Builder
@@ -36,5 +36,5 @@ After a tour starts automatically or manually, you're led through a series of st
 
 To stop a tour at any time, select **Skip tour** on a tour step. At the end of the guided tour, select **Done**.
 
-**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configuring-next-experience-with-theme-builder.md)
+**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-theming.md)
 

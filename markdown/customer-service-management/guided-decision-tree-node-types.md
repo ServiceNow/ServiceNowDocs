@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/guided-decision-tree-node-types.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Decision trees in Guided decision, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -19,7 +19,7 @@ A decision tree begins with a start node, which presents the first set of questi
 You can enable agents to modify their responses in previous nodes:
 
 -   Agents can go back to the previous node by selecting the **Back** button.
--   Agents can jump to any previous node by selecting the Edit icon \[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) in the View my responses tab.
+-   Agents can jump to any previous node by selecting the Edit icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) in the View my responses tab.
 
 For more information, see [Create a decision tree in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-decision-trees-gdb.md) and [Add questions or instructions to a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-start-node-gdb.md).
 

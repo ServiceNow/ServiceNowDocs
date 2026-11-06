@@ -1,20 +1,20 @@
 ---
 title: Monitor my tasks in the Tasks page in the workspace
-description: Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
+description: Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the GRC Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/configure-my-tasks-in-ws.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [My tasks in the workspace, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Monitor my tasks in the Tasks page in the workspace
 
-Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
+Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the GRC Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Navigate to the individual workspaces to view the tasks, items, and watchlist fo
     -   **All** &gt; **Risk** &gt; **Risk workspace**.
     -   **All** &gt; **Risk** &gt; **Risk Portal**.
     -   **All** &gt; **Vendor Management** &gt; **Workspace**.
-2.  To navigate to the Tasks page, select the tasks icon \(\[Omitted image "tasks-icon-new.png"\] Alt text: Tasks icon\).
+2.  To navigate to the Tasks page, select the tasks icon \(\[Omitted image "tasks-icon-new.png"\] Alt text: tasks icon in workspace.\).
 
 3.  Navigate to the tab that you want to view, and monitor the tasks.
 

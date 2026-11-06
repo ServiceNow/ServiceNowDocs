@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -19,7 +19,7 @@ Reference information to provide additional details about Demand Management such
 -   **[Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-task.md)**  
 A demand task is a unit of work created within a demand. Use demand tasks to break down planning activities before converting the demand into a project, change, enhancement, or defect.
 -   **[Actual cost and effort calculation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/actual-cost-effort-calculation-demand.md)**  
-The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Actual cost and effort are calculated based on the approved time cards and hourly rate for the resources and vary based on how the hourly rate for the resource is derived.
+The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Calculations are based on approved time cards and the hourly rate for each resource. The hourly rate determines how actual cost and effort vary.
 -   **[Demand Management key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/r_DemandManagementKeyTerms.md)**  
 Important terms in Demand Management are listed in the table.
 -   **[Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/inputs-for-ai-skills-ppm.md)**  

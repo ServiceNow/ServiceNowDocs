@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Track shipments using the integration framework, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View hardware asset shipment details
@@ -24,13 +24,11 @@ Role required: inventory\_user \(read\) or inventory\_admin
 
 The Shipment list shows all the shipment records initiated by the shipment tasks of various flows. For details, see [Task closures that create shipment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/shipment-record-sources.md).
 
-**Note:** The Shipment \[sn\_itam\_common\_shipment\] table also has the Currency, Delivery services cost, and Parcel weight fields. However, these fields aren’t shown on the Shipment form.
-
 A shipment record is created automatically whenever a shipment task of a flow or process is closed.
 
-**Important:** When using the Sourcing and Procurement Operations application with the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) installed, the IT Asset Management application shares shipment details with the Sourcing and Procurement Operations application. To enable the Sourcing and Procurement Operations application to view shipment and tracking numbers associated with Purchase Orders, read-only access has been provided to the Shipment \[sn\_itam\_common\_shipment\] and Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\] table.
+**Note:**
 
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/spo-itam-better-together.md). For more information about Asset Management Integration for Sourcing and Procurement Operations better together feature, see [Enhancing the asset procurement experience using IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/better-together/use-ham-spo-for-po-creation.md).
+The Shipment \[sn\_itam\_common\_shipment\] table also has the Currency, Delivery services cost, and Parcel weight fields. However, these fields aren’t shown on the Shipment form.
 
 ## Procedure
 
@@ -116,18 +114,6 @@ The date corresponds to the date on which the ship task of the source is closed.
 
 </td></tr><tr><td>
 
-Shipment quantity
-
-</td><td>
-
-Quantity of assets shipped for the shipment record.This field value is automatically populated when the assets are shipped to the destination.
-
-The shipment quantity is the sum of the asset quantities shipped for each shipment line.
-
-**Important:** The **Shipment quantity** field is available with Hardware Asset Management version 14.0.0 onwards.
-
-</td></tr><tr><td>
-
 Receive date
 
 </td><td>
@@ -199,19 +185,7 @@ Option that indicates whether the shipment record is stale. This option is read-
 **Related topics**  
 
 
-[Creating an integration script include for third-party carrier applications]()
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
 [View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
 
 [Stale shipments]()
 

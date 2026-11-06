@@ -1,18 +1,18 @@
 ---
 title: Mobile application management \(MAM\) integration
-description: Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
+description: Use Microsoft Intune to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-mam.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mobile application management \(MAM\) integration
 
-Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
+Use Microsoft Intune to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
 
 Use Microsoft Intune to control, secure, and enforce policies for ServiceNow mobile apps. These tools provide a central point of control for securing your data on mobile apps, even in scenarios where you are not the owner of the mobile device.
 
@@ -37,18 +37,6 @@ Now Mobile
 </th></tr></thead><tbody><tr><td>
 
 Microsoft Intune
-
-</td><td>
-
-Available in Madrid and later releases.
-
-</td><td>
-
-Available in New York and later releases.
-
-</td></tr><tr><td>
-
-BlackBerry Dynamics
 
 </td><td>
 

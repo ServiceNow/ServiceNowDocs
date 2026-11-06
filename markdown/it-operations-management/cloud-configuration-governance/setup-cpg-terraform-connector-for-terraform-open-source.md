@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Starting this release, you can use OpenTofu with Cloud Provisioning and Governan
 
 ## Before you begin
 
--   Ensure that a supported Terraform Open Source version is installed in the server. Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher.
+-   Ensure that a supported Terraform Open Source version is installed in the server. Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher
 -   If you want to use a minor or patch version of the Terraform Open Source CLI, ensure that the minor or patch version is added to the workload config provider. For more information, see [Add support for minor or patch versions of the Terraform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/terraform-use-minor-patch-version-cli.md).
 -   Ensure that the MID Server can access the Terraform server.
 -   Ensure that the MID Server has Terraform capability.

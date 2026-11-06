@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/healthscan-definitions-may-store.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 8
-breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Healthscan definitions updates: May 2025 store
@@ -1048,4 +1048,5 @@ Security
 -   Altered documentation link to be more specific to this issue​
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/healthscan-definitions.md)
+

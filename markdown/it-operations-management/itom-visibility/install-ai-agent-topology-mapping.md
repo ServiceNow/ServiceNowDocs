@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can install the AI Agent Topology Mapping application \(sn\_itom\_agnt\_ptrn
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [AI Agent Topology Mapping](https://store.servicenow.com/store/app/7972bf079380035857e1f0cc5cba1007) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Verify that you have at least version 1.30.2 of Discovery and Service Mapping Patterns.
 

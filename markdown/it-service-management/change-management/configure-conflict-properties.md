@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
 
@@ -24,13 +24,13 @@ Role required: admin
 
 Conflict detection compares a change request schedule against blackout windows, maintenance windows, and other change requests for the same configuration item \(CI\) or assignee. By default, not all properties are selected on the Change Management Conflict Analysis Properties page. Configure the properties to match your organization's scheduling rules.
 
-For example, set **change.conflict.mode** to **Advanced**. This checks both the current CI and its affected CIs against other change requests, and set **change.conflict.show\_conflict\_message** to **Always** to display a message whenever a scheduling conflict is detected. For the conflict detection concept, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ConflictDetection.md).
+For example, set **change.conflict.mode** to **Advanced** to check both the current CI and its affected CIs against other change requests. Set **change.conflict.show\_conflict\_message** to **Always** to display a message whenever a scheduling conflict is detected. For the conflict detection concept, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ConflictDetection.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Conflict Properties**.
 
-2.  In the Change Management Conflict analysis properties page, enter the roles that have access to the conflict detection feature.
+2.  On the Change Management Conflict Analysis Properties page, enter the roles that have access to the conflict detection feature.
 
     Enter a comma-separated list of roles in the **change.conflict.role** property. Include roles that already have access to the change\_request record. For example, enter `itil`. For the complete property list, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-conflict-properties.md).
 
@@ -47,6 +47,8 @@ For example, set **change.conflict.mode** to **Advanced**. This checks both the 
 
 
 [Create blackout and maintenance schedules in Change Management]()
+
+[Schedule types in conflict detection]()
 
 [Configure a change request to monitor outside maintenance schedule conflicts]()
 
@@ -158,7 +160,7 @@ Checks whether a change request that falls within the maintenance or blackout wi
 
 </td><td>
 
-Checks whether any other change request is assigned to the same change request assigned to a user. For example, if you assign a change request to a user who is already scheduled to implement another change request at that date and time, a conflict error will be displayed.
+Checks whether the user assigned to the change request is also assigned to another change request at the same time. For example, if you assign a change request to a user who is already scheduled to implement another change request at that date and time, a conflict error is displayed.
 
 </td></tr><tr><td>
 
@@ -175,7 +177,7 @@ Determines the conflict mode for a CI. The available values are:-   Basic: Check
 
 </td><td>
 
-Refreshes and run conflict detection automatically when any of the following field values are changed:-   Configuration item
+Refreshes and runs conflict detection automatically when any of the following field values are changed:-   Configuration item
 -   Planned start date
 -   Planned end date
 
@@ -201,7 +203,7 @@ Identifies the most affected business or application services that have a relate
 
 </td><td>
 
-Factors from the scheduled planned start date or end date of the change request to find the next available time, enter the number of days. -   Type: Integer
+Number of days from the planned start or end date of the change request within which to find the next available time. -   Type: Integer
 -   The default value is 90.
 
 </td></tr><tr><td>
@@ -219,7 +221,7 @@ The number of suggestions to calculate and display for the next available time. 
 
 </td><td>
 
-The logging levels for change conflicts: The available options are:-   Emergency
+The logging level for change conflicts. The available options are:-   Emergency
 -   Alert
 -   Critical
 -   Error
@@ -265,7 +267,39 @@ Displays only conflicts that result from a combination of the conflict type and 
 </td><td>
 
 The maximum number of conflict records that can be generated for each conflict type when conflict detection runs. Create this system property if it is not already present.-   Type: Integer
--   The minimum value is 1000. If you set a lesser number, 1000 is displayed as the default value.
+-   The minimum value is 1000. If you set a smaller number, 1000 is displayed as the default value.
+
+</td></tr><tr><td>
+
+`change.conflict.lockdown`
+
+</td><td>
+
+Determines whether conflict detection evaluates change lockdowns as a conflict type.**Note:** To learn more about change lockdown, see [Change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-lockdown.md).
+
+</td></tr><tr><td>
+
+**change.conflict.information**
+
+</td><td>
+
+Includes information windows when checking change request conflicts. Conflict detection doesn't create conflict records for information schedules. For more information, see [Schedule types in conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/schedule-types-conflict-detection.md).This property is active by default.
+
+</td></tr><tr><td>
+
+**change.conflict.relatedchildinformation**
+
+</td><td>
+
+Checks whether the change request falls within the information windows of any of the child CIs.This property is inactive by default.
+
+</td></tr><tr><td>
+
+**change.conflict.relatedparentinformation**
+
+</td><td>
+
+Checks whether the change request falls within the information windows of the parent CI.This property is inactive by default.
 
 </td></tr></tbody>
 </table>

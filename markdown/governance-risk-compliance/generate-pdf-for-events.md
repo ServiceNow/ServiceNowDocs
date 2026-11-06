@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/generate-pdf-for-events.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -28,6 +28,8 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 -   Include details of the asset owner and the description from the Business Impact Analysis.
 -   Display a table that outlines the dependencies of the plan assets.
 -   Mark the date of the PDF creation on the front page.
+
+Starting with BCM Core version 12.x.x and later, the **General Information** section of the PDF includes the event's **Level** field, and the generated PDF also includes a numbered **Collaboration Threads** section. Each numbered thread block, sorted by creation date, lists its **Created** date, description, impacted assets, recovery teams, and state, followed by any action items linked to that thread.
 
 ## Procedure
 
@@ -60,6 +62,8 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
     Generate a report of the event or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
     For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/integrating-document-designer-with-bcm.md).
+
+    For instructions on customizing a collaboration section into a formatted block, see [Add a collaboration block to the Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-collaboration-block-docudesigner.md).
 
 8.  To print the report, open the saved PDF or Microsoft Word copy and select **Print**.
 

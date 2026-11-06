@@ -7,9 +7,9 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Models, Product Catalog, IT Asset Management]
+breadcrumb: [Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Create application models
@@ -38,5 +38,5 @@ Role required: model\_manager
 **Related topics**  
 
 
-[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-landing-page.md)
+[bundle-itbm.agile-development]
 

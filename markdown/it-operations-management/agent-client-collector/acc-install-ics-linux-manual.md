@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Installing MID-less ACC, Configuring MID-less ACC, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Installing MID-less ACC, Configuring MID-less ACC, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Install MID-less Agent Client Collector manually in a Linux environment
@@ -25,7 +25,7 @@ Install MID-less Agent Client Collector manually on a Linux machine to enable se
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/dex-architecture.md).
+For details on sending data through the cloud in a MID-less deployment, see [DEX architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 

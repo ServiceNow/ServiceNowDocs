@@ -7,9 +7,9 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing system events, System Events, Configure core features, Administer]
+breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Reprocess an event
@@ -30,4 +30,6 @@ Role required: admin
 
     The event returns to the event queue.
 
+
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/managing-system-events.md)
 

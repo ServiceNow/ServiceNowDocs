@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration with KeyFactor EJBCA automated flows, Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Integration with KeyFactor EJBCA, Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Validate EJBCA ACME base API URL

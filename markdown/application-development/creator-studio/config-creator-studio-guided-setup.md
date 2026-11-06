@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Configure, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure Creator Studio using Guided Setup
@@ -304,7 +304,7 @@ The app must already be created before you can change the table for it.
 
 For more information on changing an app's table, see [Changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table-about.md).
 
-Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/roles-within-platform-security.md).
+Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see .
 
 ### Procedure
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/review-address-proactive-code-check-findings.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive Code Check, Platform Health, Using Impact, Impact]
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
 # Proactive Code Check analytics for the Impact Store Application
@@ -53,4 +53,6 @@ Role required: Impact\_platform\_owner, sn.mif\_mif\_read
         |Count of Findings New|New and Updated on Today|
         |Count of Findings Muted|Muted and Updated on Today|
 
+
+**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/proactive-code-check.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Add a regulatory agency in Compliance Workspace to identify the relevant regulat
 
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
+Role required: compliance\_case\_manager
 
 ## About this task
 

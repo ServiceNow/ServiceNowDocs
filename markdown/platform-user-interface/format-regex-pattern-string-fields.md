@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/format-regex-pattern-string-fields.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -45,7 +45,7 @@ The process for configuring string fields with guidance text and inline validati
 
             Create a descriptive name for the regex pattern. For example, if you're creating a regex pattern for an account number, enter `Account Number`.
 
-        -   **Pattern**
+        -   **Regex pattern**
 
             Enter the regex pattern that defines the required input format. This field is required. For example, you might use `^\d{10}$` to require a 10-digit number.
 
@@ -75,17 +75,13 @@ The process for configuring string fields with guidance text and inline validati
 
             Enter sample text to display in the field as an example of the required format.
 
-        -   **Guidance Text**
+        -   **Field message**
 
             Enter guidance text that explains the format requirement or gives additional instructions.
 
-        -   **Type**
+        -   **Field message type**
 
             Select the type of guidance text to indicate whether it's a suggestion, information, warning, positive message, or critical.
-
-        -   **Pattern**
-
-            Select the regex pattern that matches the required format.
 
         -   **Order**
 
@@ -99,6 +95,85 @@ The process for configuring string fields with guidance text and inline validati
 
             Select this check box to apply the validation and guidance text to child tables with the same field.
 
-    4.  Select **Submit**.
+    4.  From the Input Validation Rules section, complete the following fields:
+
+        -   **Regex Pattern**
+
+            Select the regex pattern that matches the required format.
+
+        -   **Input Format**
+
+            Use the Input Format Guide to enter an input format.
+
+<table id="table_esy_ggz_m3c"><thead><tr><th>
+
+Symbols
+
+</th><th>
+
+Input Format
+
+</th></tr></thead><tbody><tr><td>
+
+`0`
+
+</td><td>
+
+Accepts any digit \(0-9\)
+
+</td></tr><tr><td>
+
+`a`
+
+</td><td>
+
+Accepts any letter \(A-Z or a-z\)
+
+</td></tr><tr><td>
+
+`*`
+
+</td><td>
+
+Accepts any characters, letters, digits, or symbols.
+
+</td></tr><tr><td>
+
+`[]`
+
+</td><td>
+
+Makes input optional
+
+</td></tr><tr><td>
+
+`{}`
+
+</td><td>
+
+Includes a fixed part in an unmasked value
+
+</td></tr><tr><td>
+
+```
+
+</td><td>
+
+Prevents symbols from shifting back
+
+</td></tr><tr><td>
+
+`\\`
+
+</td><td>
+
+Shows a symbol as-isFor example, `\\0` requires the number zero as 0.
+
+</td></tr></tbody>
+</table>            For example, to accept a phone number in the format +91-12345-67890, enter the input format as `{+91-}00000-00000`.
+
+            To accept an ID in the format EMP-1234, enter the input format as `{EMP-}0000`
+
+    5.  Select **Submit**.
 
 

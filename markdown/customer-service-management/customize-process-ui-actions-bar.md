@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customize-process-ui-actions-bar.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/platform-support-functions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Function field
@@ -24,17 +24,17 @@ You want to identify all incidents with a probably useless short description of 
 
 Instead of querying all records to determine which record meets a given criteria, create a function field or function script that retrieves only the records that meet the criteria.
 
-For a simple computation, it is better to use a function field or function script rather than store a computed value. The value is calculated on retrieval. Another benefit of using function fields is that the database server performs the transformation rather than the application node.
+For a simple computation, it is better to use a function field or function script rather than store a computed value. The value is always calculated on retrieval. Another benefit of using function fields is that the database server performs the transformation rather than the application node.
 
-## Function fields vs. calculated fields
+## Function fields versus calculated fields
 
-The values of the calculated fields are stored in the database. The values of function fields or function scripts are not stored in the database, but are calculated at the time of retrieval. Function field values are up to date.
+The values of the calculated fields are stored in the database. The values of function fields or function scripts are not stored in the database, but are calculated at the time of retrieval. Function field values are always up to date.
 
-## Function fields vs. business rules
+## Function fields versus business rules
 
 Use function fields or scripts when business logic is based on a simple transformation of one or more existing fields. Function fields and scripts let you implement business logic without storing and maintaining the result of a transformation.
 
-## Function fields vs. filters, query strings, and Rhino
+## Function fields versus filters, query strings, and Rhino
 
 Rather than calling Rhino to perform string transformations, you can use a function field or function script to perform the transformations for you. Function fields and function scripts are more efficient and result in up-to-date values that do not have to be stored or maintained.
 
@@ -48,7 +48,7 @@ Because function field calculations are not stored in the database, some operati
 
 -   Function fields cannot be encrypted, since a function field value is never stored in the database.
 -   Function fields cannot be converted to regular fields or vice versa.
--   Function fields that you create in the &lt;ph keyref="var.reporting"/&gt; UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/configure-function-fields.md).
+-   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/configure-function-fields.md).
 -   Security is evaluated on the components of the function and on the calculated value of the field. When used in visualizations, sections that contain information that the user is not permitted to see are hidden from the user.
 -   Field function names must be unique.
 

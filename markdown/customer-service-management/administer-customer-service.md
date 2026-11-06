@@ -1,18 +1,18 @@
 ---
 title: Administer Customer Service Management
-description: Use a number of features and tools to administer the Customer Service Management application.
+description: Customer Service Management provides various administrative features and tools to configure and manage the application effectively. These include case routing, assignment workbenches, escalation management, domain separation, and knowledge base administration capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/administer-customer-service.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Customer Service Management]
 ---
 
 # Administer Customer Service Management
 
-Use a number of features and tools to administer the Customer Service Management application.
+Customer Service Management provides various administrative features and tools to configure and manage the application effectively. These include case routing, assignment workbenches, escalation management, domain separation, and knowledge base administration capabilities.
 
 |Feature or application|Description|
 |----------------------|-----------|
@@ -27,7 +27,7 @@ Use a number of features and tools to administer the Customer Service Management
 |[Assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/case-assignment-workbench.md)|Customer service managers can use the assignment workbench to view a list of agents,evaluate skills and availability, and assign tasks efficiently and intelligently.|
 |[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_OnScreenAlerts.md)|Use the Special Handling Notes application to create notes that bring important information about individual records to the user's attention.|
 |[Case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-escalation.md)|Use the escalation feature to highlight specific cases or accounts and raise awareness of important customer issues.|
-|[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)|Use the case action status feature to indicate the status of cases in the Case list. Agents can easily identify cases that need attention and quickly prioritize their work.|
+|[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)|Use the case action status feature to indicate the status of cases in the Case list. Agents can easily identify cases that need attention and quickly prioritize their work.|
 |[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/major-issue-management.md)|Major issue management enables customer communication for issues that impact a wider audience. Use this feature to proactively identify impacted customers, provide information to these customers, and manage the resolution process.|
 |[Automatically close customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/auto-close-customer-service-case.md)|Automatically close cases in the Resolved state if customers do not take any action.|
 |[Administer Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/administer-pss.md)|Customer service managers can perform tasks to maintain service contracts, contract lines, and entitlements.|

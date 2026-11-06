@@ -7,9 +7,9 @@ release: zurich
 product: Application Manager
 classification: application-manager
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering applications, Get started, Administer]
+breadcrumb: [Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Application Manager

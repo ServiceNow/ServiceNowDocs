@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -70,18 +70,6 @@ Included with the Conversational Messaging plugin \(com.glide.messaging.awa\).
 
 </td></tr><tr><td>
 
-Facebook Messenger
-
-</td><td>
-
-Routes requests from the Facebook Messenger chat conversations.
-
-</td><td>
-
-Included with the [Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm.md) store application.
-
-</td></tr><tr><td>
-
 Incident
 
 </td><td>
@@ -91,18 +79,6 @@ Routes and assigns incidents.
 </td><td>
 
 Included with the Advanced Work Assignment for incidents plugin \(com.snc.incident.awa\).
-
-</td></tr><tr><td>
-
-Line
-
-</td><td>
-
-Routes requests from LINE chat conversations.
-
-</td><td>
-
-Included with the [Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-line.md) store application.
 
 </td></tr><tr><td>
 
@@ -154,6 +130,4 @@ For each service channel, you also:
 -   Create the agent inbox card layout used in Agent Workspace.
 -   Set capacity overrides for specific agents.
 -   Review and modify associated work item queues. For the Chat service channel, you can create queues using the **Queues** related list.
-
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

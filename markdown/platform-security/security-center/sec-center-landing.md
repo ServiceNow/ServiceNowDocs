@@ -7,7 +7,7 @@ release: zurich
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Center, Platform Security]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Security Center, Platform Security]
 # Security Center landing page
 
 Use the Security Center landing page to find the information and tools you need to secure your instance.
+
+\[Omitted image "sec-center-home-1.png"\] Alt text: Security Center homepage
 
 ## My Security Tasks
 
@@ -24,9 +26,13 @@ The my Security Tasks section displays a list of Security Tasks assigned to you.
 
 The instance summary displays a high-level overview of the state of your instance's security. Select the info \(\[Omitted image "info-icon.png"\] Alt text: info icon\) icon on any card for details on what each represents. You can also select any card to navigate to the relevant area of Security Center.
 
-## Identity and Access Management
+## Access management
 
-Use the tools in the Identity and Access Management \(IAM\) section verify that your data is only accessible to the users and processes that need it. For details on these tools, see [Identity and Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/identity-and-access-management.md).
+View access issues and misconfiguration on your instance. You can information about access findings and evaluate permissions for users, roles, and groups. You can also review additional resources to learn about user administration on ServiceNow instances. To learn more, see [Explore Access management console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-controls-console.md).
+
+## Machine identity
+
+Manage service accounts and third-party integrations. To learn more, see [Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/machine-identity-console.md).
 
 ## Security consoles
 

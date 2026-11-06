@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Request-based chat on the Microsoft Azure portal, Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Request-based chat on the Microsoft Azure portal, Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Add permissions to the Microsoft Azure application
@@ -51,7 +51,7 @@ Role required: Microsoft Azure admin
 
 9.  Select **Yes** on the pop-up dialog box.
 
-10. As an OAuth admin\(oauth\_admin\), After upgrading an Azure application, remove the user tokens and reauthorize the users to fetch a token with the added permissions.
+10. After upgrading an Azure application, remove the user tokens and reauthorize the users to fetch a token with the added permissions.
 
     1.  Log in to your ServiceNow instance.
 

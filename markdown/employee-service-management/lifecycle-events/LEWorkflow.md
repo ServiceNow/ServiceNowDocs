@@ -7,10 +7,10 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Lifecycle Event Workflow]
-breadcrumb: [Activate Lifecycle Events, Configure, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Activate Lifecycle Events, Configuring Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Lifecycle Events workflows

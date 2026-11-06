@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure exception approvals, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configure approval rules for Exception Management in Configuration Compliance, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Create configurations for an approval rule in Configuration Compliance

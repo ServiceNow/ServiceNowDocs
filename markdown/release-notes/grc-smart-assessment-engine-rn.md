@@ -1,82 +1,71 @@
 ---
 title: Smart Assessment Engine release notes
-description: The ServiceNow Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.The ServiceNow Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.The ServiceNow Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.
+description: The ServiceNow Smart Assessment Engine application enables you to create customizable assessment templates with instructions and questions to gather information from assessors.Smart Assessment Engine, version 23.0, introduces a centralized question bank, assessment delegation, question-level change history, and UX enhancements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/grc-smart-assessment-engine-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [smart assessment engine, smart assessment engine, question bank, delegation, change history]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Smart Assessment Engine release notes
 
-The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.
+The ServiceNow® Smart Assessment Engine application enables you to create customizable assessment templates with instructions and questions to gather information from assessors.
 
 ## About Smart Assessment Engine
 
--   Collaborate on assessments in real time with multiple contributors.
--   Normalize assessment question scores to a common scale for fair comparison.
--   Capture data from physical documents quickly and accurately with barcode and QR code scanning.
--   Migrate question dependencies with an improved migration utility.
--   Simplify your workflow by combining assessments from different templates in a single and unified view.
+-   Create customizable assessment templates with structured instructions and questions to gather information from assessors.
+-   Reuse questions across multiple assessment templates with a centralized question bank.
+-   Collaborate on assessments with question-level comments, work notes, flags, and change history, and delegate assessments to another user when needed.
+-   Score and report on assessment results to gain actionable insights.
 
 See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Additional requirements**
-
-    Check your entitlements to determine whether you have access to the collaboration features in the SAE application.
+    Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-rn-landing.md)
 
-## December 2025
+## September 2026
 
-The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/combine-assessments.md)**
-
-    Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
-
-
-## Zurich
-
-The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessment creation, distribution, and management. It enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision making. SAE was enhanced and updated in the Zurich release.
+Smart Assessment Engine, version 23.0, introduces a centralized question bank, assessment delegation, question-level change history, and UX enhancements.
 
 ### What's new
 
--   **[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/collaboration-in-assessments.md)**
+-   **[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/question-bank.md)**
 
-    Enhance assessments with the new collaboration feature, enabling owners to add multiple contributors to work together in real time. This update enables assessors to collaborate efficiently by adding several contributors to an assessment. Real-time updates reflect each contributor's changes, and presence indicators show who is present on the assessment.
+    With Smart Assessment version 23.0.2, you can create, manage, and reuse questions across multiple assessment templates with a centralized question bank. Questions move through a Draft, Ready to publish, Published, and Retired lifecycle. Add published questions to assessment templates as independent copies. Changes to the original or the copy don't affect each other.
 
--   **[Normalization in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/normalization-in-assessment.md)**
+-   **[Migrate a classic question bank or assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-asmnt-migrate-question-bank.md)**
 
-    Adjust assessment scores to a common scale to promote fair comparison and prioritization. This normalization process helps standardize these measurements, enabling different metrics or scores to be evaluated on the same scale.
+    With Smart Assessment Migration Tools version 23.0.3, you can migrate an existing classic question bank or the sections and questions of a Smart Assessment template into a new or existing question bank. Track migration status and review errors from the Question Bank Migrations list.
 
--   **[Creating code questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-q-code-create.md)**
+-   **[Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/delegation-in-sae.md)**
 
-    Capture data quickly and accurately from physical documents using a new barcode and QR code question type for assessments. By scanning barcodes or entering QR codes, the system can instantly retrieve and input relevant information.
+    With Smart Assessment version 23.0.2, you can delegate your assessments to another user for a set period using the platform delegation feature. A delegate of the primary responder can respond to and submit the assessment; a delegate of the requestor can cancel, reassign, and edit the due date. Delegation is off by default and is enabled from the template category.
 
--   **[Creating an assessment template from legacy metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-asmnt-template-migrating.md)**
+-   **[Question change history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-question-change-history.md)**
 
-    Migrate question dependencies with an improved migration utility, which now supports the check box question type and conditional visibility criteria defined on templates.
+    With Smart Assessment version 23.0.2, you can review a log of every response, justification, and flag-state change made to a question throughout the lifecycle of an assessment, including who made each change and when. Consecutive changes to the same field by the same user within a configurable time window are merged into a single entry, while flag-state changes are logged individually.
 
 
 ### What's changed
 
--   **[Template category field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-assessment-template-form.md)**
+-   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-asmnt-template-category-create.md)**
 
-    The **Purpose** field has replaced the **Template category** field. This single select option streamlines the user experience and improves the accuracy of template categorization.
+    With Smart Assessment version 23.0.2, the assessment template category form includes two new fields: **QB category roles**, which controls access to the question banks associated with the category, and **Allow user delegation**, which lets users delegate their assessments in the category.
 
+-   **UX improvements to assessment questions and responses**
+    -   [Drop-down list question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-q-drop-down-create.md) — With Smart Assessment Designer version 23.0.5, reopening a drop-down list question now shows all response options again, not just the ones you previously selected.
+    -   [Reference question search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-respond-to-asmnt.md) — With Smart Assessment Core version 23.0.2, for single-select and multi-select reference questions, when a table has more than 10 matching records, select the search icon to browse the full set. This replaces the default behavior of showing only the first 10 records.
+    -   [Default focus when opening or reopening an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-respond-to-asmnt.md) — With Smart Assessment Core version 23.0.2, the view defaults to the assessment instructions, if configured, or the first question of the first section or subsection. This applies even if you, a collaborator, or response automation has already answered later questions.
 

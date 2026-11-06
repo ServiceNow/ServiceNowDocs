@@ -1,16 +1,16 @@
 ---
-title: Customer Success Management roles
+title: Customer success management roles
 description: Roles added with Customer Success Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-roles.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Reference, Customer Success Management]
 ---
 
-# Customer Success Management roles
+# Customer success management roles
 
 Roles added with Customer Success Management.
 
@@ -93,6 +93,22 @@ Enables read, create, and update access to engagements, objectives, outcomes, in
 </td><td>
 
 Customer Success Manager
+
+</td></tr><tr><td>
+
+sn\_acct\_lc.customer\_success\_application\_admin
+
+</td><td>
+
+Enables read, create, and update access to engagements, objectives, outcomes, initiatives, internal plays, customer plays, touchpoints, and any related tasks within customer success.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -1134,6 +1150,70 @@ Provides delete access to risk\_signal\_solution\_relationship\_delete role
 
 </td></tr><tr><td>
 
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Read
+
+</td><td>
+
+Provides read access to sn\_acct\_lc.customer\_success\_viewer role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Create/Write
+
+</td><td>
+
+Provides create and write access to sn\_acct\_lc.agent role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Delete
+
+</td><td>
+
+Provides delete access to sn\_acct\_lc.agent role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Report View
+
+</td><td>
+
+Provides report view access to sn\_acct\_lc.agent role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 sn\_acct\_lc\_data\_validation\_assist
 
 </td><td>
@@ -1514,6 +1594,136 @@ Granular role used to create and manage touchpoint meetings.
 </td><td>
 
  
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_read
+
+</td><td>
+
+Read access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_write
+
+</td><td>
+
+Create and write access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table. Includes read privileges.
+
+</td><td>
+
+sn\_sch\_plus.agenda\_item\_read
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_delete
+
+</td><td>
+
+Delete access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_admin
+
+</td><td>
+
+Admin access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table. Includes write and delete privileges.
+
+</td><td>
+
+-   sn\_sch\_plus.agenda\_item\_write
+-   sn\_sch\_plus.agenda\_item\_delete
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_read
+
+</td><td>
+
+Read access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_write
+
+</td><td>
+
+Create and write access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table. Includes read privileges.
+
+</td><td>
+
+sn\_sch\_plus.next\_step\_read
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_delete
+
+</td><td>
+
+Delete access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_admin
+
+</td><td>
+
+Admin access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table. Includes write and delete privileges.
+
+</td><td>
+
+-   sn\_sch\_plus.next\_step\_write
+-   sn\_sch\_plus.next\_step\_delete
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,11 +16,13 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 Baseline CMDB provides capabilities that help you understand and control the changes that have been made to your configuration items \(CIs\) in the CMDB.
 
+**Note:** Starting with the Brazil release, Baseline CMDB is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-landing-page.md) provides the latest experience for this functionality. For more information, refer to the [Application/Plugin Deprecation Process \[KB05484748\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 -   You can create a baseline, which is a snapshot of your configuration items in the CMDB. You can review the changes that have been made to that configuration item since a previous baseline. Multiple baselines may be created and the system tracks the changes that have been made per baseline.
 
-    Creating a baseline captures the attributes of the CI as well as all first-level relationships for the CI. Any changes to the base CI or to any related CIs are captured and displayed. Newly created CIs are not automatically added to a baseline.
+    Creating a baseline captures the attributes of the CI and all first-level relationships for the CI. Any changes to the base CI or to any related CIs are captured and displayed. Newly created CIs aren't automatically added to a baseline.
 
--   Associate a configuration item with a task, a change or change task, and to propose changes to the CI after the change is complete. You can record changes, and these changes are not applied to the CI immediately but are delayed until the change is complete.
+-   Associate a configuration item with a task, a change or change task, and to propose changes to the CI after the change is complete. You can record changes, and these changes aren't applied to the CI immediately but are delayed until the change is complete.
 
     When the change is complete, you can choose to apply the proposed changes which makes all changes previously proposed and associates the changes with the task.
 
@@ -33,7 +35,7 @@ You can create a baseline for a CI to track updates to the CI over time.
 
 ### Before you begin
 
-Role required: ecmdb\_admin and itil
+Role required: ecmdb\_admin, and sn\_cmdb\_editor or itil
 
 ### Procedure
 
@@ -60,7 +62,7 @@ You can see the changes that have been made to a CI or any first level related C
 
 ### Before you begin
 
-Role required: itil
+Role required: sn\_cmdb\_editor or itil
 
 ### About this task
 
@@ -97,7 +99,7 @@ To improve performance and prevent memory issues when showing large amounts of b
 
 Use the baseline CMDB properties to configure how many changes and relationships for a CI can appear in the baseline diff for the CI.
 
-These properties are available for baseline CMDB. To view and edit these properties, the admin role is required.
+These properties are available for baseline CMDB. To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
 <table id="table_uwy_fwz_mhb"><thead><tr><th>
 

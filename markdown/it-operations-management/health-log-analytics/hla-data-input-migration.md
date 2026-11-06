@@ -7,8 +7,8 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, source types, migration, configuration, update set, import, settings, mapping]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ The migrated configuration includes mapping and all other relevant settings, exc
 
 This feature is supported in the Health Log Analytics application, Version 25.0.17 - November 2022 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-Starting with Health Log Analytics Version - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see
+Starting with Health Log Analytics Version 38.0.17 - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see [Export source types by log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md).
 
 For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets.md).
 

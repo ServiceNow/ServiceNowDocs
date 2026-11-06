@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/extension-points-field-service.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Plan implementation, Configure, Field Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Plan implementation, Configure, Field Service Management]
 
 Use extension points to customize various configurations.
 
-In the application navigator, enter `sys_extension_point.list` and click **Enter** to view the extension points used in the Field Service Management application.
+In the application navigator, enter `sys_extension_point.list` and select **Enter** to view the extension points used in the Field Service Management application.
 
 You can create multiple implementations for each extension point and provide an order number for each implementation. The implementation that has the lowest order number is executed.
 
@@ -148,6 +148,14 @@ sn\_apptmnt\_booking.AppointmentRecommendationExtPoint
 
 Customize the proximity and recommendation criteria for recommending appointments.
 
+</td></tr><tr><td>
+
+sn\_apptmnt\_booking.AppointmentSeismicUI
+
+</td><td>
+
+Fetches appointment booking configuration details based on the task table selected in the configuration.
+
 </td></tr></tbody>
 </table>|Extension Point Name|Description|
 |--------------------|-----------|
@@ -172,7 +180,7 @@ Extension Point Name
 
 </th><th>
 
-Description
+ 
 
 </th></tr></thead><tbody><tr><td>
 
@@ -222,9 +230,7 @@ sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks
 
 </td><td>
 
-Customize CRUD operations for the tasks, cases, or incidents created from task plan templates linked to a work plan.For example, for a business unit of your organization, you can customize the extension point to create cases for a work plan and link them to schedule occurrences through a new field in the Cases record.
-
-For another business unit, you can customize the extension point to create cases and link them to the schedule occurrences through a new table.
+Customize CRUD operations for the tasks, cases, or incidents created from task plan templates linked to a work plan.
 
 </td></tr></tbody>
 </table>**Related topics**  

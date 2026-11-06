@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_ConvEmailNotifToRichHTML.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Convert legacy email notifications to rich HTML
@@ -22,11 +22,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**.
 
-2.  On the **Email Notifications** list screen, select the name of the email notification you want to convert.
+2.  On the **Email Notifications** list screen, click the name of the email notification you want to convert.
 
 3.  Click the **What it will contain** tab.
 
-4.  Select **Switch to Rich HTML Editor**.
+4.  Click **Switch to Rich HTML Editor**.
 
     The system copies any raw HTML from the **Message** field and converts it to rich HTML in the **Message HTML** field. Additionally, any mail scripts in the body are automatically saved to the Email Script `[sys_script_email]` table and are replaced in the notification body with an embedded script tag. This makes the notification body easier to read.
 

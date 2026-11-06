@@ -1,18 +1,18 @@
 ---
 title: Share a task plan template with other users or groups
-description: Share templates and grant access to the template with specific users, groups, or service organization or service organization criteria and member type.
+description: Share templates and grant access to the template with specific users, groups, or service organization or organization criteria and member type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/share-task-plan-template-with-user-groups-serviceorg.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sharing task plan templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Share a task plan template with other users or groups
 
-Share templates and grant access to the template with specific users, groups, or service organization or service organization criteria and member type.
+Share templates and grant access to the template with specific users, groups, or service organization or organization criteria and member type.
 
 ## Before you begin
 

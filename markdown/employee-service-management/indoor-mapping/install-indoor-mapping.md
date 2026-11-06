@@ -7,7 +7,7 @@ release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Install the Indoor Mapping application \(sn\_map\_core\) with dependent plugins.
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Indoor Mapping application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 **Note:** The application includes demo data and installs related applications and plugins. For Indoor Mapping map objects and map data to work with Workplace Service Delivery\[workplace-service-delivery\], install both Workplace Indoor Mapping\[workplace-indoor-mapping\] and Indoor Mapping\[indoor-mapping\] in your instance.

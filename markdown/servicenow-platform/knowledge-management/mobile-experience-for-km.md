@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The Information applet is available on the Now Mobile app. The ServiceNow Mobile
 
 -   **[View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/access-articles-now-mobile.md)**  
 The Information applet on the Now Mobile app enables you to access knowledge articles from a mobile device.
--   **[Browse articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/browse-articles-now-mobile.md)**  
+-   **[Browse articles in the Now Mobile Information applet]()**  
 You can browse articles within a category in the Now Mobile Information applet to see articles related to a particular subject or grouping.
 -   **[Search for an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/search-article-now-mobile.md)**  
 You can search for an article in the Now Mobile Information applet.

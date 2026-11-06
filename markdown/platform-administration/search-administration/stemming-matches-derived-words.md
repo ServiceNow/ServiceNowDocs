@@ -7,9 +7,9 @@ release: zurich
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer]
+breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Zing matches derived words with stemming
@@ -52,6 +52,8 @@ The stemming language determines how the system generates indexes of record data
 [Zing can expand search results with synonyms]()
 
 [Zing displays search suggestions as users enter search terms]()
+
+[Verify that user roles have access to your searchable tables]()
 
 [Installed with Zing]()
 

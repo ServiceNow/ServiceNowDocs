@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Field Service Management]
 ---
@@ -20,11 +20,11 @@ Create, approve, qualify, or close work orders and manage SLAs using the Field S
 
 ## Using overview
 
-he steps for preparing work orders are:
+The steps for preparing work orders are:
 
 1.  [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/c_ManageWorkOrders.md)
 
-    Managing work orders includes the creation, assignment, and tracking or work orders through their completion.
+    Managing work orders includes the creation, assignment, and tracking of work orders through their completion.
 
 2.  [Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

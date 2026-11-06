@@ -7,8 +7,8 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -84,6 +84,8 @@ Add the following Hermes tables to the Clone Exclude Tables list if they're miss
 
 **Related topics**  
 
+
+[Managing Hermes settings]()
 
 [Check the status of and connection to the Hermes Kafka cluster]()
 

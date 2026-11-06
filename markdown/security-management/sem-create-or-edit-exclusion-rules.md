@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-create-or-edit-exclusion-rules.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring exclusion rules, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -46,6 +46,4 @@ Role required: admin
 
 7.  To edit, select the rule name and update the required fields and select **Update**.
 
-
-**Parent Topic:**[Configuring exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-exclusion-rules.md)
 

@@ -7,8 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [enrichment actions within case, case enrichment, enrichment results]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -60,11 +61,15 @@ Role required: sn\_sec\_tisc.admin
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case using generative AI]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
 [Add artifacts to cases or case tasks]()
+
+[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

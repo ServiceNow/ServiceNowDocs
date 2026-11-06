@@ -7,8 +7,8 @@ release: zurich
 product: Interaction Management
 classification: interaction-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Interaction wrap up, Configuring Interaction Management, Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -24,13 +24,19 @@ Role required: admin
 
 Creating a configuration automatically enables the interaction wrap up feature and adds the Wrap Up state for interactions that match the configuration settings.
 
-Navigate to **All** &gt; **Interactions** &gt; **Wrap Up Configuration** to display the list of wrap up configuration records. These configurations are stored in the Interaction Wrap Up Configuration \(interaction\_wrap\_up\_configuration\) table.
+Wrap up configuration records include the following form sections:
+
+-   **Duration**: Contains fields for configuring the wrap up duration and timer.
+-   **Codes**: Contains fields for configuring wrap up codes that the agent can select, including a default code.
+-   **AI**: Contains fields for enabling and configuring AI interaction wrap up.
+
+Wrap up configuration records are stored in the Interaction Wrap Up Configuration \(interaction\_wrap\_up\_configuration\) table.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Interactions** &gt; **Wrap Up Configuration**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the Interaction Wrap Up Configuration form.
 
@@ -144,8 +150,40 @@ Default wrap up code
 
 The default wrap up code that is used if an agent does not select a code before the wrap up duration ends.
 
+</td></tr><tr><td>
+
+Enable AI code
+
+</td><td>
+
+Enables AI wrap up codes in CRM Workspace. When wrapping up an interaction, the system uses AI to recommend a wrap up code. In the Wrap up modeless dialog, this code appears at the top of the **Wrap up code** dropdown list under the AI Recommendation heading.
+
+</td></tr><tr><td>
+
+Enable AI notes
+
+</td><td>
+
+Enables AI notes in CRM Workspace. When wrapping up an interaction, the system uses AI to generate the wrap up notes and add that content to the **Wrap up notes** field in the Wrap up modeless dialog.
+
+</td></tr><tr><td>
+
+Use third party AI
+
+</td><td>
+
+Enables the system to use a third-party AI tool.
+
+</td></tr><tr><td>
+
+Use AI code as default
+
+</td><td>
+
+Enable this check box to use the AI-recommended code as the default code in place of the code selected in the **Default wrap up code** field.
+
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-state.md)

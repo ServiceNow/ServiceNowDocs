@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure batch import for data, Configuring data import, Create an automation source, Working with Connection manager, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Configure batch import for data, Configuring data import, Create an automation source, Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Edit flow in Workflow Studio

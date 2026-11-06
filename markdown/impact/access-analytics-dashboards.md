@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/access-analytics-dashboards.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics Dashboards, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
 
 # Accessing Analytics Dashboards
@@ -43,8 +43,8 @@ Role required: Executive, Platform Owner, Team Lead, or Developer.
     -   **Time**: Each definition includes an estimated time to resolve based on expert-driven recommendations. These estimates serve as practical guidelines to help teams estimate how long an issue should take to fix on average, promoting better planning and prioritization.
 5.  On Executive  and  Team Lead  dashboards, select a date range for trend chart data:
 
-    -   Pre-defined range
-    -   ​Custom  range: Select start and end dates. Enter  the start and end dates directly into the range textbox, then select **Apply**.
+    -   Predefined range
+    -   ​Custom  range: Select start and end dates. Enter  the start and end dates directly into the range text box, then select **Apply**.
     **Note:** The amount of historical data stored and displayed in these metrics varies depending on the data restrictions associated with your Platform Analytics package.
 
 6.  On Team Lead and Developer dashboards, select the download button to save a CSV file of the currently displayed data in a table.

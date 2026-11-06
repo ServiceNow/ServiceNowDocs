@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Conversational Integration with Microsoft Teams
@@ -53,7 +53,7 @@ Select a tile to get started.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Exploring Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-ci-microsoft-teams.md)**  
 Use the Conversational Integration with Microsoft Teams application to connect your end users with Virtual Agent or live agents through your company’s Microsoft Teams account.
@@ -66,7 +66,7 @@ Configure your Microsoft Teams bots that are integrated with Virtual Agent to en
 -   **[Using ServiceNow Otto for Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/na-va-llm-teams.md)**  
 The ServiceNow Otto provides you with the large language model \(LLM\)-based conversational experience during your conversations with a Now Virtual Agent bot or a Self-configured bot that is integrated with Microsoft Teams.
 -   **[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-teams-other-features.md)**  
-The Microsoft Teams app supports Virtual Agent features, such as Assistant Designer Asset library controls for creating conversations, notifications, AI Search results, and more.
+The Microsoft Teams app supports Virtual Agent features, such as Assistant Designer controls for creating conversations, notifications, AI Search results, and more.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

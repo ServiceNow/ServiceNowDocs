@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Embed the playbook in Service Portal, Playbooks in Service Portal, Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Configure a playbook for Service Portal, Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Portal Playbook Widget
@@ -70,7 +70,7 @@ Application
 
 </td><td>
 
-Choose an application scope that you want your widget to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.
+Choose an application scope that you want your widget to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +188,7 @@ Option schema
 
 </td><td>
 
-Allows a Service Portal admin to configure a widget. To learn more about the Option schema field, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/widget-dev-guide.md#section_gpd_lkw_h1b) and [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_WidgetInstanceOptions.md).
+Allows a Service Portal admin to configure a widget. To learn more about the Option schema field, [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_WidgetInstanceOptions.md).
 
 </td></tr><tr><td>
 
@@ -200,6 +200,4 @@ Select a Service Portal documentation link.
 
 </td></tr></tbody>
 </table>Check for errors in the UI Builder Playbook Experience Portal page config and events properties, e.g. disable the Open Record event as a maint user.
-
-**Parent Topic:**[Embed the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/embed-playbook-service-portal.md)
 

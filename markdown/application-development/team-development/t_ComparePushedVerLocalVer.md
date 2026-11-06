@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Compare a pushed version to a local version
@@ -18,7 +18,7 @@ Code reviewers can compare the pushed versions to the local versions to see the 
 
 ## Before you begin
 
-Role required: teamdev\_code\_reviewer
+Role required: none
 
 ## Procedure
 
@@ -30,10 +30,25 @@ Role required: teamdev\_code\_reviewer
 
 4.  Review the changes in the Push or Pull Versions related list.
 
-5.  Select and hold \(or right-click\) a row in the list and select **Compare to Current**.
+5.  Right-click a row in the list and click **Compare to Current**.
 
     A comparison of the differences between the pushed and local versions appears.
 
 
-**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
+**Related topics**  
+
+
+[Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/diff-merge-tool.md)
+
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToCurrentVersion.md)
+
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/compare-two-article-versions.md)
+
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-resolve-conflict.md)
+
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md)
+
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_RevertAChange.md)
+
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/view-customer-update-records.md)
 

@@ -1,20 +1,20 @@
 ---
 title: CSDM implementation stage — Foundation
-description: In the Foundation stage of implementing the CSDM framework, you prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
+description: In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CSDM implementation stage — Foundation
 
-In the Foundation stage of implementing the CSDM framework, you prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
+In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
 
 ## Benefits of preparing the data in the Foundation stage
 
@@ -105,7 +105,7 @@ The basis of any good data model is the foundational data that is referenced thr
 
     **Note:** The \[life\_cycle\_control\] table uses the type of CI \(tangible/physical, document and contract, location and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
 
-    To take full advantage of the CSDM life-cycle standards, you can map legacy status data to the life-cycle value pairs. See [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+    To take full advantage of the CSDM life-cycle standards, you can map legacy status data to the life-cycle value pairs. See [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
     The following assets can use life-cycle value pairs:
 

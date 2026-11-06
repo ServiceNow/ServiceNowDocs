@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/approving-rejecting-orders-som.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-10"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -17,6 +17,8 @@ Fulfillment managers bridge the gap between order intake and execution by review
 ## Approval workflow
 
 To begin the approval process, start by reviewing the order and its line items thoroughly. Verify that all required fields such as order number, customer account details, contact information, pricing, critical dates, and product or service specifications are complete and accurate. The order must be in a New state to be eligible for approval.
+
+As part of this review, the system validates key order details such as contract dates to ensure the order meets approval criteria before it can proceed.
 
 Next, validate the order against your organization’s approval criteria. The approval criteria could include checks such as:
 
@@ -43,4 +45,11 @@ Once a rejection decision is made, update the order status to Rejected in the sy
 ## Reevaluating rejected orders
 
 A rejected order can be corrected and resubmitted for reevaluation by the order agent. If all issues are resolved and the order meets approval criteria, you can approve the order. Approving a rejected order updates the status back to In progress, enabling fulfillment to resume.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

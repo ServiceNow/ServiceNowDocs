@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-touchpoint-home.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Customer success, Use, Customer Success Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Touchpoints, Customer success, Use, Customer Success Management]
 ---
 
 # Touchpoint home page
@@ -16,12 +16,17 @@ During the engagement lifecycle, customer success agents schedule regular touchp
 
 Touchpoints enhance communication between customer success teams and customer throughout the engagement lifecycle. Regular touchpoints ensure that the internal and external teams are aligned on the objectives and outcomes of the engagement.
 
+Internal touchpoints ensure that only internal teams are involved in that particular touchpoint.
+
 \[Omitted image "customer-success-touchpoints.png"\] Alt text: Touchpoint home page
 
 The following options are available:
 
 -   Discuss: Select **Discuss** to start a sidebar discussion about this touchpoint. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this touchpoint. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
 -   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md).
+
+    The success play created using this UI action button is stored in Touchpoint applicable records table and the type of association is the action item.
+
 -   Close touchpoint: Select **Close touchpoint** option from the More Actions drop down menu. You’re prompted to enter the required fields. Select the **Edit** icon in the Touchpoint details panel, enter the required fields and select **Save**. Select **Close touchpoint** after filling in the required fields. Select the Closure code and Close notes and select **Close** to close the touchpoint.
 -   Cancel touchpoint: Select the **Cancel touchpoint** option from the More Actions drop down menu. The Closure code is automatically updated to reflect the State change. Enter the Close notes and select **Cancel**. If all other required fields have been filled in, you see a confirmation message indicating that the touchpoint has been canceled. If any required fields haven’t been filled in, select the **Edit** icon in the Touchpoint details panel, enter the required fields and select **Save** to cancel the touchpoint.
 
@@ -34,6 +39,17 @@ The Touchpoint home page contains the following tabs:
 -   Success tasks
 
 On the left pane, you can see the details of the account with which the touchpoint is associated. The details of the Touchpoint record are also displayed. Select the pencil icon to modify the details and select **Save** to update the record.
+
+When a non internal touchpoint is changed to internal only or a new internal touchpoint is created. This message is displayed:
+
+The internal touchpoint has been configured for internal use only, As a result, external users can’t be assigned or included in the following fields:
+
+-   Touchpoint: Assigned To, Squad
+-   Success Task: Assigned To, Squad
+-   Meeting Invitee: Invitee
+-   Email: Recipients
+
+The internal touchpoint can be marked as true, when all the related record does not contain any external users in the restricted field.
 
 ## Meetings
 
@@ -155,6 +171,14 @@ Select one or more locations from the drop-down list.
 
 </td></tr><tr><td>
 
+Process transcript
+
+</td><td>
+
+Select this check box to process the transcript and make it available in future related meetings.
+
+</td></tr><tr><td>
+
 Agenda
 
 </td><td>
@@ -204,7 +228,7 @@ You can do the following:
     -   Existing scheduled meetings are still available, but you can’t schedule any new meetings.
     -   Emails and success tasks can’t be added for the closed or canceled touchpoint.
 
-**Important:** The following changes have been made in the Touchpoint tables in the Zurich release:
+**Important:** The following changes have been made in the Touchpoint tables in the Brazil release:
 
 <table id="table_rp5_knl_zfc"><thead><tr><th>
 
@@ -257,11 +281,11 @@ Meeting Details \(sn\_meeting\_mgmt\_meeting\_details\)
 Deprecated
 
 </td></tr></tbody>
-</table>Run the **Migrate Meeting Fields** script to migrate the Meeting Id, Meeting link and Meeting password fields data from the Virtual Meeting Details table to the Meeting Details table.
+</table>Run the **Migrate Meeting Fields** script to migrate the Meeting Id, Meeting link, and Meeting password fields data from the Virtual Meeting Details table to the Meeting Details table.
 
 ## Emails
 
-In this tab, the customer success agent can send email to the users specified in the Contact field in the Touchpoint. By default, the email header is auto populated with the email address of the Contact and the subject of the account.
+In this tab, the customer success agent can send email to the users specified in the Contact field in the Touchpoint. By default, the email header is auto- populated with the email address of the Contact and the subject of the account.
 
 You can:
 
@@ -274,17 +298,34 @@ You can:
 
 Select **Send email**. Navigate to the `Emails` tab to see the email you have sent. You can also view the list of emails sorted in descending order of sent date. You can use the Search option to view emails meeting a specific criteria, filter the list by the type of emails, flagged emails, and create additional filter sets. You can also view the sent and received emails in the Emails under the Related Items section.
 
+When an email is sent from an internal touchpoint, this message is shown in the footer of the email: This communication is part of an internal touchpoint and is intended solely for internal use. Please do not share with customers.
+
 ## Success tasks
 
 You can view the success tasks associated with this touchpoint.
 
-1.  Select **New** to create a new success task for this touchpoint. The Create a new success task page is displayed.
+1.  Select **New** to create success task for this touchpoint. The Create success task page is displayed.
 2.  Enter the details on this page and select **Save**. The newly created success task now appears on the `Success tasks` page.
 
--   **[Touchpoint planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-touchpoint-planner.md)**  
-The touchpoint planner shows a calendar view of different touchpoints across all accounts associated with the customer success manager.
--   **[Configure Zoom to create a touchpoint meeting summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-config-zoom-sum.md)**  
-Set up the Zoom spoke integration and the bi-directional web hook to generate summaries for virtual touchpoint meetings.
+## Related Items
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
+The Related Items component uses an expandable accordion format. You can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
+
+Related lists include the following actions:
+
+-   Create: Opens a empty record in a sub tab that the agent can use to create item.
+-   View all: Opens a list of records in a subtab.
+-   Show more: Is displayed for lists that have more than five items.
+
+**Note:** The `Documents` related items are displayed only if you have installed the `com.snc.platform_document_management` plugin.
+
+\[Omitted image "customer-success-touchpoint-related-item.png"\] Alt text: touchpoint-related-item.
+
+The touchpoint applicable record associates touchpoint that are applicable to this touchpoint. By default, you can set the type of applicability into these categories:
+
+-   Trigger
+-   Action item
+-   Reference
+
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 

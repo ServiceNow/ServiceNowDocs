@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-case-case-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Account onboarding, Explore, Customer Success Management]
 ---
@@ -25,4 +25,6 @@ Customer success managers can use the onboarding case record to:
 -   Manage new products and services.
 
 Onboarding case tasks are used to capture and track specific tasks associated with the customer account during each stage of the onboarding process. Customer success managers can track task progress across accounts and verify that important items haven’t been missed. See [Create an account onboarding case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-case.md) for more details.
+
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-playbook-overview.md)
 

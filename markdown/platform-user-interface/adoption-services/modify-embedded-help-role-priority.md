@@ -1,20 +1,20 @@
 ---
 title: Modify embedded help role priority
-description: You can modify the default order of priority that is assigned to a role in the Embedded Help role priority \[sys\_embedded\_help\_role\] table. The priority order determines what Embedded Help content a user accesses on a UI page, based on roles assigned to the user.
+description: You can modify the default order of priority that is assigned to a role in the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table. The priority order determines what embedded help content a user accesses on a UI page, based on roles assigned to the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/modify-embedded-help-role-priority.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Embedded Help roles, Embedded Help planning, Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Embedded Help roles, Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Modify embedded help role priority
 
-You can modify the default order of priority that is assigned to a role in the Embedded Help role priority \[sys\_embedded\_help\_role\] table. The priority order determines what Embedded Help content a user accesses on a UI page, based on roles assigned to the user.
+You can modify the default order of priority that is assigned to a role in the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table. The priority order determines what embedded help content a user accesses on a UI page, based on roles assigned to the user.
 
 ## Before you begin
 
@@ -28,9 +28,9 @@ When you add a role, such as a role for a custom application, it is automaticall
 
 1.  Navigate to **All** &gt; **Embedded Help** &gt; **Role Priority** and locate the role to modify the priority.
 
-2.  Select the value in the **Order** column to open the list editor.
+2.  Double-click the value in the **Order** column to open the list editor.
 
-3.  Enter the new priority order number and select the green check mark to save it.
+3.  Enter the new priority order number and click the green check mark to save it.
 
 
 **Parent Topic:**[Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-roles.md)

@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing Enterprise Asset Management for DCNAM, Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Installing Enterprise Asset Management for DCNAM, Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) from the ServiceNow Store
@@ -18,7 +18,7 @@ You can install the Enterprise Asset Management for DCNAM application \(com.sn\_
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Enterprise Asset Management for DCNAM](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1f294027ffb62210883dffffffffffbd/1.0.0) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

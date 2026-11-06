@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Require a maintenance token for Windows uninstalls
@@ -22,7 +22,7 @@ Role required: sn\_agent.token\_admin
 
 ## Procedure
 
-1.  Navigate to the Agent Client Collector Setup wizard, as described in [Install Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-windows.md).
+1.  Navigate to the Agent Client Collector Setup wizard, as described in [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-windows.md).
 
 2.  Select the **Require maintenance token for uninstall** check box on the Agent Client Collector Configuration page.
 
@@ -34,4 +34,9 @@ Role required: sn\_agent.token\_admin
     msiexec /i <msi_file_path> /quiet /qn /norestart ACC_API_KEY=<key_value> ACC_MID=wss://<mid_ip>:<websocket_port>/ws/events ACC_ALLOW_LIST=False UNINSTALLVALIDATION=1
     ```
 
+
+-   **[Enable uninstall validation during agent upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/require-token-uninstall-upgrade.md)**  
+Configure requiring a maintenance token to uninstall agents during agent upgrade. A maintenance token provides a layer of administrative control so that unauthorized personnel can't perform the uninstall.
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define escalation process, On-Call Scheduling, IT Service Management]
+breadcrumb: [Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Create a shift template to simplify configuring shifts

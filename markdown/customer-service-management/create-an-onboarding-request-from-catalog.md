@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-an-onboarding-request-from-catalog.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Playbooks for Portals, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
 ---
 
 # Create an onboarding request from the service catalog
@@ -16,13 +16,13 @@ Create a new onboarding request from the Customer or Consumer Service Portals by
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact, admin
+Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont, admin
 
 ## Procedure
 
 1.  Create a request by going to either the portal landing page or the portal menu header and then doing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d223640e63">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d253662e63">
 
 **__Request Something__**
 
@@ -30,7 +30,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_c
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d223640e76">
+</td></tr><tr><td id="d253662e76">
 
 **__Requests__**
 

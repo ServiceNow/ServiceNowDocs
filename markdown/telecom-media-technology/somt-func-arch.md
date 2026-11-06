@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/somt-func-arch.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -54,7 +54,7 @@ This phase covers the customer acquisition and order capture process:
 
 During this phase, Sales CRM for Telecommunications integrates with digital apps, self-care portals, account managers, product catalogs, and service feasibility systems.
 
-\[Omitted image "mmasset0021737-telecomm-selling-phase-horizontal.svg"\] Alt text: Sales CRM for Telecommunications selling phase
+\[Omitted image "mmasset0021737-telecomm-selling-phase-horizontal.svg"\] Alt text: Sales CRM for Telecommunications: Selling phase
 
 ## Fulfillment phase
 
@@ -66,7 +66,7 @@ After order submission, the next phase is the fulfillment process:
 
 During this phase, Sales CRM for Telecommunications coordinates with Field Service Management for Telecommunication, external inventory systems, and network activation platforms.
 
-\[Omitted image "mmasset0021738-telecomm-fulfillment-phase-horizontal.svg"\] Alt text: Sales CRM for Telecommunications fulfillment phase
+\[Omitted image "mmasset0021738-telecomm-fulfillment-phase-horizontal.svg"\] Alt text: Sales CRM for Telecommunications: Fulfillment phase
 
 **Note:** Sales CRM for Telecommunications orchestrates the order management process and submits service orders to downstream activation systems but does not perform network activation or provisioning.
 
@@ -76,9 +76,9 @@ The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open
 
 -   Product catalog management API: Manage product catalog information from external systems. See [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-catalog-open-api.md).
 -   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-inventory-open-api.md).
--   Service catalog API: For synchronizing technical specifications with other network domain specific provisioning catalogs. See [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-catalog-open-api.md).
+-   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-catalog-open-api.md).
 -   Service order API: Use when a customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager. Also use when the marketplace owner handles decomposition and orchestration and sends the order to Sales CRM for Telecommunications for fulfillment. See [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-order-open-api.md).
--   Technical service qualification API: Checks availability of resources and services before an order is submitted for fulfillment. See [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/ts-qualification-api.md).
+-   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/ts-qualification-api.md).
 -   Quote management API: Based on the TMF 648 API. See [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/quote-management-api.md).
 
 ## Non-TMF APIs
@@ -86,5 +86,18 @@ The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open
 -   Entitlement API: Create and fetch entitlements. See [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/entitlement-api.md).
 -   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/lead-api.md).
 -   Order API: See [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/order_csm-api.md).
--   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/sales_agreement-api.md).
+-   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/sales_agreement-api.md)
+
+## What to explore next
+
+To learn more about configuring and using, see:
+
+-   [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-integrate-southbound.md)
+-   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/configuring-product-offerings-catalog.md)
+-   [Configuring Order Management for Service Bridge consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-configuring-customers.md)
+-   [Task plan templates driven order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/somt-flow-action-catalog-task.md)
+-   [Approving and fulfilling customer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-fulfillment-processing.md)
+-   [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md)
+-   [Revising an outbound request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-revise-outbound-request.md)
+-   [Sales CRM for Telecommunications PSR catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/somt-psr-catalog.md)
 

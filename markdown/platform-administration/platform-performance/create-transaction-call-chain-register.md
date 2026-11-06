@@ -7,9 +7,9 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transaction call chains, Monitor, Platform performance, Maintain and monitor, Administer]
+breadcrumb: [Transaction call chains, Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Create a transaction call chain register
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Navigate to the Transaction Log or Slow Transactions list, select the problematic transaction, and enable recording of the call chain.
 
-<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d126771e54">
+<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d132482e54">
 
 Type of Log
 
-</th><th align="left" id="d126771e57">
+</th><th align="left" id="d132482e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d126771e63">
+</th></tr></thead><tbody><tr><td id="d132482e63">
 
 **Transaction Log**
 
@@ -44,7 +44,7 @@ Steps
 4.  In the Transaction Log Entry form, select **Open Record**, then select **Record call chain of next occurrence**.
 
 
-</td></tr><tr><td id="d126771e101">
+</td></tr><tr><td id="d132482e101">
 
 **Slow Transactions**
 

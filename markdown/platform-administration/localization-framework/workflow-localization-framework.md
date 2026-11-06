@@ -1,20 +1,26 @@
 ---
 title: Workflows in the Localization Framework
-description: Workflows define actions for completing a localization task. Each localization task undergoes the workflow configured for its target language to complete the task.
+description: Workflows in the Settings table define the process for a localization task, including steps for approval and methods for translating and publishing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/workflow-localization-framework.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Explore Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Workflows in the Localization Framework
 
-Workflows define actions for completing a localization task. Each localization task undergoes the workflow configured for its target language to complete the task.
+Workflows in the Settings table define the process for a localization task, including steps for approval and methods for translating and publishing.
+
+## Overview of workflows in the Settings table of Localization Framework
+
+You can configure the path you want your localization task to follow, with available steps for approval, translation, and publishing. You can define these workflows for each language and artifact configured on your instance.
+
+For more information about navigating to the configuration web form for these workflows, see [Configure the Localization Framework preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/define-translation-preferences.md).
 
 <table id="table_mfm_th2_qnb"><thead><tr><th>
 
@@ -30,7 +36,7 @@ Translation → Publish
 
 </td><td>
 
-The localization task undergoes translation manually or by using one of the translation modes. After translation, the content gets published manually. **Note:** Ensure that you assign the **Localization Fulfiller Group** for the workflow to localize the content.
+The localization task is translated manually or by using one of the translation modes. After translation, the content is published manually.Group needed: Assign the **Localization Fulfiller Group**.
 
 </td></tr><tr><td>
 
@@ -38,7 +44,7 @@ Translation → Translation Approval → Auto Publish
 
 </td><td>
 
-The localization task undergoes translation manually or by using one of the translation modes. After translation, the task undergoes translation approval and gets auto-published.**Note:** Ensure that you assign the **Localization Fulfiller Group** and **Translation Approver Group** for the workflow to localize the content.
+The localization task is translated manually or by using one of the translation modes. After translation the task undergoes translation approval, then is auto-published.Groups needed: Assign the **Localization Fulfiller Group** and **Translation Approver Group**.
 
 </td></tr><tr><td>
 
@@ -46,7 +52,9 @@ Auto Translation → Translation Approval → Auto Publish
 
 </td><td>
 
-The localization task undergoes auto-translation. After translation, the task undergoes translation approval and gets auto-published.**Note:** Ensure that you assign the **Localization Fulfiller Group**, **Auto Translation Mode**, and **Translation Approver Group** for the workflow to localize the content.
+The localization task undergoes auto-translation. After translation, the task undergoes translation approval, then is auto-published.Groups needed: Assign the **Localization Fulfiller Group**, **Auto Translation Mode**, and **Translation Approver Group**.
+
+Select an [Auto Translation Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +62,9 @@ Auto Translation → Publish
 
 </td><td>
 
-The localization task undergoes auto-translation and gets published manually.**Note:** Ensure that you assign the **Localization Fulfiller Group** and **Auto Translation Mode** for the workflow to localize the content.
+The localization task undergoes auto-translation and is published manually.Groups needed: Assign the **Localization Fulfiller Group** and **Auto Translation Mode**.
+
+Select an [Auto Translation Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +72,9 @@ Auto Translation → Auto Publish
 
 </td><td>
 
-The localization task undergoes auto-translation and gets auto-published.**Note:** Ensure that you assign the **Localization Fulfiller Group** and **Auto Translation Mode** for the workflow to localize the content.
+The localization task undergoes auto-translation then is auto-published.Group needed: Assign the **Localization Fulfiller Group**.
+
+Select an [Auto Translation Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +82,7 @@ Business Approval → Translation → Publish
 
 </td><td>
 
-The localization task needs business approval for localization. The content gets translated manually or translated by using one of the translation modes. The content gets manually published.**Note:** Ensure that you assign the **Business Approver Group** and **Localization Fulfiller Group** for the workflow to localize the content.
+The localization task first requires business approval for localization. Next the content is translated manually or translated by using one of the translation modes. Finally the content is manually published.Groups needed: Assign the **Business Approver Group** and **Localization Fulfiller Group**.
 
 </td></tr><tr><td>
 
@@ -78,7 +90,7 @@ Business Approval → Translation → Translation Approval → Auto Publish
 
 </td><td>
 
-The localization task needs business approval for localization, and the content gets translated manually or by using one of the translation modes. After translation, the task undergoes translation approval and gets auto-published.**Note:** Ensure that you assign the **Business Approver Group**,**Localization Fulfiller Group**, and **Translation Approver Group** for the workflow to localize the content.
+The localization task first requires business approval for localization. Next the content is translated manually or by using one of the translation modes. After translation, the task undergoes translation approval then is auto-published.Groups needed: Assign the **Business Approver Group**,**Localization Fulfiller Group**, and **Translation Approver Group**.
 
 </td></tr><tr><td>
 
@@ -86,7 +98,9 @@ Business Approval → Auto Translation → Translation Approval → Auto Publish
 
 </td><td>
 
-The localization task needs business approval for localization, and the content gets auto-translated. After translation, the task undergoes translation approval and gets auto-published.**Note:** Ensure that you assign the **Business Approver Group**,**Localization Fulfiller Group**, **Auto Translation Mode**, and **Translation Approver Group** for the workflow to localize the content.
+The localization task first requires business approval for localization. Next the content is auto-translated. After translation, the task undergoes translation approval then is auto-published.Groups needed: Assign the **Business Approver Group**,**Localization Fulfiller Group**, and **Translation Approver Group**.
+
+Select an [Auto Translation Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +108,9 @@ Business Approval → Auto Translation → Publish
 
 </td><td>
 
-The localization task needs business approval for localization. The content gets auto-translated but gets manually published.**Note:** Ensure that you assign the **Business Approver Group**,**Localization Fulfiller Group**, and **Auto Translation Mode** for the workflow to localize the content.
+The localization task first requires business approval for localization. Next the content is auto-translated but is manually published.Groups needed: Assign the **Business Approver Group** and **Localization Fulfiller Group**.
+
+Select an [Auto Translation Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +118,9 @@ Business Approval → Auto Translation → Auto Publish
 
 </td><td>
 
-The localization task needs business approval for localization. The content gets auto-translated and auto-published.**Note:** Ensure that you assign the **Business Approver Group**, **Localization Fulfiller Group**, and **Auto Translation Mode** for the workflow to localize the content.
+The localization task first requires business approval for localization. The content is auto-translated then auto-published.Groups needed: Assign the **Business Approver Group** and **Localization Fulfiller Group**.
+
+Select an [Auto Translation Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)

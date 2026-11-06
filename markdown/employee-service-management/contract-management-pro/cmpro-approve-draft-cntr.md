@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Contract amendments, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -26,9 +26,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller and contract manger
 
 2.  Open the contract repository record that is in Draft state and Awaiting Review substate.
 
-3.  Select **Approve Contract**.
-
-    \[Omitted image "cmpro-amend-approve-cntr.png"\] Alt text: Contract in Draft state
+3.  Select **Mark as active**.
 
 
 ## Result

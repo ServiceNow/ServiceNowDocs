@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Forecast method used, Forecasting method used, Selecting the forecast method, Forecasting and targets, Forecasting with time series]
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
@@ -89,7 +89,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which scores to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d226286e300">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d238052e308">
 
 **All scores**
 
@@ -97,7 +97,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All the scores that have been collected for this indicator
 
-</td></tr><tr><td id="d226286e309">
+</td></tr><tr><td id="d238052e317">
 
 **Previous periods**
 
@@ -105,7 +105,7 @@ All the scores that have been collected for this indicator
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Periods to forecast**.If you select Previous periods, also specify the number of periods in the **Periods** field.
 
-</td></tr><tr><td id="d226286e326">
+</td></tr><tr><td id="d238052e334">
 
 **Fixed start**
 

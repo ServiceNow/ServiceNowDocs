@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # App Engine and App Engine Studio
@@ -40,13 +40,17 @@ Learn more about App Engine
 
 Additional ServiceNow resources
 
-</th></tr></thead><tbody><tr><td rowspan="3">
+</th></tr></thead><tbody><tr><td rowspan="4">
 
 ServiceNow provides several additional resources on App Engine.
 
 </td><td>
 
 \[Omitted image "bus-dollar-sign.svg"\] Alt text: [App Engine product page](https://www.servicenow.com/products/now-platform-app-engine.html)
+
+</td></tr><tr><td>
+
+\[Omitted image "bus-datasheet.svg"\] Alt text: [App Engine Enterprise data sheet \(PDF\)](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/other-document/entitlements/sn-app-engine.pdf)
 
 </td></tr><tr><td>
 

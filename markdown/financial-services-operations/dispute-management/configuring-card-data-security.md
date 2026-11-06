@@ -7,8 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [configure card data security, card data security setup steps, install card data security, provision tokenizer service, card vault setup, set up oauth card data security, tokenizer route configuration, tokenizer resource configurations, card data security configuration checklist, set up connections card data security]
 breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -20,36 +21,133 @@ Plan and configure your implementation of Card Data Security by following the ta
 
 Refer to the following steps to set up and configure Card Data Security for the first time.
 
-1.  [Set up spoke integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/spokes.md)
+<table id="table_gsz_1jw_33c"><thead><tr><th>
 
-    Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly.
+Step
 
-2.  [Provision our tokenizer service and complete the onboarding procedure](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2238661)
+</th><th>
 
-    Ensure that you have provisioned our tokenizer service and that you have completed the onboarding procedure. For more information, contact your ServiceNow account representative.
+Description
 
-3.  [Install Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/install-card-data-security.md)
+</th><th>
 
-    Install Card Data Security \(sn\_data\_sec\) from the ServiceNow Store.
+Where to perform
 
-4.  [Create the card vault table in the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-tokenization-vault.md)
+</th></tr></thead><tbody><tr><td>
 
-    Create the card vault table in our tokenizer service. This contains the tokenized values from Third-Party Systems.
+[Provision our tokenizer service and complete the onboarding procedure](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577)
 
-5.  [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md)
+</td><td>
 
-    Set up the connections between your ServiceNow instance, our tokenizer service, and the Third-Party System.
+Ensure that you have provisioned our tokenizer service and that you have completed the onboarding procedure. Tokenizer service accounts are hosted on multi-tenant shared infrastructure, isolated by account and vault boundaries.
 
-6.  [Set up tokenized HTTP connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-a-new-tokenizer-route.md)
+ For more information, contact your ServiceNow account representative.
 
-    Define the connection and credentials in ServiceNow to communicate to the Third-Party System via our tokenizer service.
+</td><td>
 
-7.  [Set up tokenized REST message record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-a-rest-message-function.md)
+Tokenizer service
 
-    Create or update REST message records for your Third-Party Systems.
+</td></tr><tr><td>
 
-8.  [Manage Tokenizer Resource Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
+[Create tokenizer service vault](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577)
 
-    Review the entries for each endpoint that sends and receives tokenized data, confirming that it is set up for our tokenizer service.
+</td><td>
 
+Create the tables in our tokenizer service. These tables will contain the PCI data from Third-Party Systems.
 
+</td><td>
+
+Tokenizer service
+
+</td></tr><tr><td>
+
+[Set up connections, service accounts, and context-aware authorization in the tokenizer service](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577)
+
+</td><td>
+
+Set up the connections, service accounts, and context-aware authorization to enable communication between your ServiceNow instance, the tokenizer service, and the Third-Party System.
+
+</td><td>
+
+Tokenizer service
+
+</td></tr><tr><td>
+
+[Set up Visa integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.md)
+
+ [Set up Mastercard integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.md)
+
+</td><td>
+
+Install and set up integrations to the Third-Party Systems \(such as Financial Services Operations Integration with Visa, and Financial Services Operations Integration with Mastercard\). Card Data Security requires these integrations to function correctly.
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+[Install Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/install-card-data-security.md)
+
+</td><td>
+
+Install Card Data Security \(sn\_data\_sec\) from the ServiceNow Store.
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+[Set up OAuth for Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md)
+
+</td><td>
+
+For OAuth authentication, follow these steps to set up connectivity with your ServiceNow instance. These connections are required to get file metadata and download URLs from files hosted in the tokenizer service vault.
+
+**Note:** You must set up OAuth to use the Card Data Security container components, including the [PAN reveal components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/reveal-a-pan-using-card-data-security.md) and the [file viewing component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+[Set up tokenized HTTP connection &amp; credential aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-a-new-tokenizer-route.md)
+
+</td><td>
+
+For API authentication, define the connection and credentials in ServiceNow to communicate to the Third-Party System via our tokenizer service.
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+[Manage Tokenizer Resource Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
+
+</td><td>
+
+Review the entries for each endpoint that sends and receives tokenized data.
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+[Customize your card disputes workflow with the Card Data Security container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/card-data-security-component.md)
+
+</td><td>
+
+Card Data Security includes a [PAN reveal component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/reveal-a-pan-using-card-data-security.md) and a [document viewing component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+
+ To make changes, you can modify the preconfigured Card Data Security components using UI Builder.
+
+</td><td>
+
+ServiceNow
+
+</td></tr></tbody>
+</table>

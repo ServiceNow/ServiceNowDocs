@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Starting with Discovery and Service Mapping Patterns version 1.29.0, the Amazon 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -158,7 +158,7 @@ Concatenate of API ID + ".execute-api." + region + ".amazonaws.com".For example:
 |Name \[name\]|Unique name or IP address of the DNS host.|
 |IP Address \[ip\_address\]|IP address of the DNS host.|
 
-\[Omitted image "aws-api-gateway-dependency-view.png"\] Alt text: aWS API gateway CIs and connections on a Dependency Views map
+\[Omitted image "aws-api-gateway-dependency-view.png"\] Alt text: AWS API gateway CIs and connections on a Dependency Views map
 
 ## Relationships
 

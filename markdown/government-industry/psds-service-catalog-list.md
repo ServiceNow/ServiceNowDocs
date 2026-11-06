@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-service-catalog-list.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ The following services are base system public service catalog items offered in t
 
 These services display automatically for registered users. When a user uses one of these catalog items to submit a request, it automatically maps the case to certain pre-built requests. .
 
-For information on how to set up and customize the public services offered by your agency \(and displayed in your Government Service Portal service catalog\), see [Configure the service catalog for a constituent, business, or agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configure-services-offered.md).
+For information on how to set up and customize the public services offered by your agency \(and displayed in your Government Service Portal service catalog\), see [Configure the portal service catalog for a constituent, business, or agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configure-services-offered.md).
 
 A user can go to the service catalog and create a case using the categories and sub-categories outlined in the following table.
 
@@ -38,7 +38,7 @@ A user can go to the service catalog and create a case using the categories and 
 |Illegal Dumping|Report report large amounts of trash bags or more, bulk items, or building materials that appeared overnight or a witnessed act of dumping from a vehicle|
 |Missed Residential Garbage|Report missed residential garbage collection|
 |Recycling|Missed Recycling|Report missed residential recycling collection|
-|Grafitti|Graffiti Removal|Report graffiti on private or public property|
+|Graffiti|Graffiti Removal|Report graffiti on private or public property|
 |Parks and Trees|Parks|Park Cans|Request to have overflowing trash cans and trash around cans removed from Recreation &amp; Parks properties|
 |Park Maintenance|Request maintenance at within public park or at a park structure \(e.g., pavilion or gazebo\). Typical park maintenance requests include trash on grounds, basketball replacement, tennis/basketball court repairs, fences repairs, bench repairs, masonry work, water fountain repairs and other outside water leaks.|
 |Trees|Street Tree Down|Report a loose or fallen limb from a city street tree that is a hazard to transit or public safety|

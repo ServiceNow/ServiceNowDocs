@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-catalog-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a catalog item to an AI agent
@@ -91,7 +91,7 @@ If you want the AI agent to work in Off Glide architecture with Premium Chat exp
 
 </td></tr><tr><td colspan="2">
 
-Advanced settings
+zz
 
 </td></tr><tr><td>
 

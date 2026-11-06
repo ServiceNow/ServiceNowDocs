@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -26,21 +26,19 @@ The video is recorded using the Project Workspace view. Navigate to your portfol
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** and select portfolio plan.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** and open a planning item.
 
-2.  Select a planning item from the Planning module.
+2.  Select the **Financials** tab.
 
-3.  Select the **Financials** tab.
-
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d265410e98">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d285877e92">
 
 Choice
 
-</th><th align="left" id="d265410e101">
+</th><th align="left" id="d285877e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d265410e107">
+</th></tr></thead><tbody><tr><td id="d285877e101">
 
 **To create a cost plan**
 
@@ -57,7 +55,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d265410e157">
+</td></tr><tr><td id="d285877e151">
 
 **To edit a cost plan**
 
@@ -68,7 +66,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 
 **Tip:** Use Tab key to navigate to next fiscal period and continue editing.
 
-</td></tr><tr><td id="d265410e182">
+</td></tr><tr><td id="d285877e176">
 
 **To delete a cost plan**
 

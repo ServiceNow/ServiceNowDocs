@@ -7,7 +7,7 @@ release: zurich
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery policy, Data Discovery Store, Data Discovery, Platform Privacy]
 ---
@@ -19,8 +19,6 @@ Create a Data Discovery policy to begin scanning tables for data patterns.
 ## Before you begin
 
 Role required: discovery.admin
-
-**Note:** All customers with data discovery configurations using active data patterns and target tables have been migrated to the new data discovery policy process with an automatic default policy created.
 
 ## Procedure
 
@@ -73,7 +71,7 @@ Selected tables and columns
 Displays a list of currently selected tables and columns for the policy
 
 </td></tr></tbody>
-</table>4.  Select the arrow \[Omitted image "dds-arrow-icon.png"\] Alt text: A right facing arrow icon to view and select specific columns of the table.
+</table>4.  Select the arrow \[Omitted image "dds-arrow-icon.png"\] Alt text: Select the arrow icon to view and select specific columns of the table.
 
 5.  Select **Save**.
 

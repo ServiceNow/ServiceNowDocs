@@ -1,25 +1,23 @@
 ---
 title: Create an IDoc outbound message configuration in Zero Copy Connector for ERP
-description: Use IDoc outbound message configurations to create and change some SAP business entities.
+description: Use IDoc outbound message configurations to create and change certain SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/create-an-idoc-outbound-message-configuration.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message]
-breadcrumb: [Create and change SAP business entities with IDoc, Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an IDoc outbound message configuration in Zero Copy Connector for ERP
 
-Use IDoc outbound message configurations to create and change some SAP business entities.
+Use IDoc outbound message configurations to create and change certain SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
-
-This feature is available starting with the Zurich Patch 4 release.
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -27,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "image.erp-outbound-messages-icon"\] Alt text: in the side panel.
+2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "erp-outbound-messages-icon.png"\] Alt text: in the side panel.
 
 3.  Select **New**.
 
@@ -39,14 +37,12 @@ Role required: sn\_erp\_integration.erp\_admin
 
 7.  Based on the system, specify a **Partner Profile**.
 
-8.  Specify the **Message type**.
+8.  Specify the **Message type**, for example, `ORDERS`.
 
-    \[Omitted image "image.erp-create-idoc-outbound-message1"\] Alt text: New outbound message configuration record with fields completed.
+    \[Omitted image "erp-create-idoc-outbound-message1.png"\] Alt text: New outbound message configuration record with fields completed.
 
     For a detailed description of the field values, see [Outbound message configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-add-new-outbound-message-configuration-fields.md).
 
 9.  Select **Save**.
 
-
-**Parent Topic:**[Create and change SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
 

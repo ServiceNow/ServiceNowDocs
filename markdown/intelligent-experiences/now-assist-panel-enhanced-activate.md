@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-panel-enhanced-activate.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-26"
-reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate ServiceNow Otto panel enhanced chat
@@ -30,7 +30,7 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
-2.  On the Assistants page, select **ServiceNow Otto - Platform \(default\)**.\[Omitted image "now-assist-panel-assistants-screen.png"\] Alt text: Assistants screen for selecting ServiceNow Otto panel
+2.  On the Assistants page, select **ServiceNow Otto Panel - Platform \(default\)**.\[Omitted image "now-assist-panel-assistants-screen.png"\] Alt text: Assistants screen for selecting ServiceNow Otto panel
 
 3.  On the ServiceNow Otto Panel - Platform \(default\) page, select **Display experience**.\[Omitted image "now-assist-panel-display-experience.png"\] Alt text: ServiceNow Otto panel - Platform \(default\) screen.
 
@@ -46,12 +46,12 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 
 8.  If you want to use assistants, you must activate them.
 
-    See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md) for information on activating assistants.
+    See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
 
 
 ## What to do next
 
-For help with installation, see [Solving installation and configuration issues with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
+For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
 
 For examples of the ServiceNow Otto panel in action for ServiceNow Otto applications, see the following topics:
 
@@ -60,5 +60,5 @@ For examples of the ServiceNow Otto panel in action for ServiceNow Otto applicat
 -   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/summarize-an-issue.md)
 -   [Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/gen-kb-now-assisthr.md)
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
 

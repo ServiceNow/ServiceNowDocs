@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 12
-breadcrumb: [Access guided upgrade on a non-production instance, Configure, Upgrade Console, Upgrade, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Access guided upgrade on a non-production instance, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Implement pre-upgrade activities on a non-prod instance
@@ -20,7 +20,7 @@ Complete the pre-upgrade tasks for a successful upgrade experience on your insta
 
 **Note:** For each step, you will have the option to either skip the step or mark complete and only then move to the next guided upgrade step.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 
@@ -161,6 +161,29 @@ Role required: admin
         -   Apps to be upgraded: Total number of existing apps whose version need to be upgraded
 
             **Note:** If you have disabled Upgrade store applications to the latest version previously, the value for Apps to be upgraded depends on the manual selection of the Upgrade store applications section.
+
+    -   Update Otto App Suite: Use the Update Otto App Suite section to manage application version compatibility. When you upgrade an application in the compatibility matrix, the system automatically updates all related applications to compatible versions.
+
+        Select **Suite Version** to select a suite version from the dropdown menu. The dropdown menu shows the suite versions available in the selected version. For example, if you want to upgrade your instance to Australia, only the suite versions available in Australia are shown in the dropdown menu options.
+
+        **Note:** Select None as the Suite Version option if you don’t want to update Otto App Suite.
+
+        Select Execution tracker link to track the progress of the list. The Execution tracker form shows up. Select Show status related link to see the current status.
+
+        **Note:** Only the applications whose upgraded versions are available to be upgraded in the selected suite version are shown in the list. No new applications can be installed here.
+
+        -   Application: Name of the application within the selected suite version
+        -   Status: Status of the application
+        -   Current Version: Current version of the application
+        -   Latest Version: Latest available version of the application
+        -   Selected Version: Configured version of the application in the selected suite version
+        **Note:** Downgrading of application versions is not allowed.
+
+        Select **Dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Otto App Suite applications list.
+
+        \[Omitted image "uc-dependent-apps.png"\] Alt text:
+
+        For example, if you have 5 applications in the selected version of Otto App Suite, the Otto App suite dependencies modal lists only the dependencies of these 5 applications.
 
     -   Upgrade store applications
 

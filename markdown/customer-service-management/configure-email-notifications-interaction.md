@@ -1,19 +1,19 @@
 ---
 title: Configure email notifications for an interaction
-description: Set up email notification to determine whether they should be sent to the contact, consumer, or guest.
+description: Configure email notification to determine whether they should be sent to the contact, consumer, or guest.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-email-notifications-interaction.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure notifications and reminders for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure email notifications for an interaction
 
-Set up email notification to determine whether they should be sent to the contact, consumer, or guest.
+Configure email notification to determine whether they should be sent to the contact, consumer, or guest.
 
 ## Before you begin
 
@@ -33,14 +33,14 @@ You can customize the existing notification or create a notification. For more i
 
 1.  Navigate to **All** &gt; **System Notifications ** &gt; **Email** &gt; **Notifications**.
 
-2.  Select the Show column search row icon \(\[Omitted image "Search\_icon\_eaaI.jpg"\] Alt text: Show column search icon\).
+2.  Select the Show column search row icon \(\[Omitted image "Search\_icon\_eaai\_new.png"\] Alt text: Search icon\[Omitted image "Search\_icon\_eaaI-new.png"\] Alt text: Show columns icon\).
 
-3.  In the  **Name** column, search and select for any of the following notification.
+3.  In the  **Name** column, search for any of the following notification.
 
     -   Interaction created for consumer
     -   Interaction created for guest
     -   Interaction created for contact
-4.  To disable notifications, update **Active** to False.
+4.  If you want to disable notifications, update **Active** to False.
 
     1.  Select **here**.
 
@@ -48,11 +48,11 @@ You can customize the existing notification or create a notification. For more i
 
     3.  Select **Update**.
 
-5.  To include different content, update the email template.
+5.  If you want to include different content, update the email template.
 
     1.  Select **What it will contain**.
 
-    2.  Remove the exiting template from the **Email template** field.
+    2.  From the **Email template** field, remove the existing template.
 
     3.  Search and select the email template.
 
@@ -60,4 +60,8 @@ You can customize the existing notification or create a notification. For more i
 
     4.  Select **Update**.
 
+
+## Result
+
+Email notifications are disabled for contact, consumer, or guest.
 

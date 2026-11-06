@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -52,9 +52,6 @@ Case
 -   Trending topics dashboard
 -   Activity response generation
 -   Sentiment analysis dashboard
--   Automated quality assurance
--   Special handling notes summarization
--   Customer summarization
 
 </td></tr><tr><td>
 

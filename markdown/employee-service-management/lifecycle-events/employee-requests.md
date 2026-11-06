@@ -7,7 +7,7 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ You can create and track requests that are opened by users from within Lifecycle
 
 If you have the sn\_hr\_le.admin or admin role, you can configure employee requests from the Human Resources \(HR\) app. Your users can open requests in the Employee Center from an activity set that is assigned to them.
 
--   **[Configure Lifecycle Events Employee Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-employee-request.md)**  
+-   **[Configure Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-employee-request.md)**  
 Enable your managers and employees to open employee requests directly from Lifecycle events so that they don't have to create a new HR case or request.
 -   **[Verify Lifecycle Events Employee requests configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/test-verify-employee-request.md)**  
 Use the Preview and Test capabilities to verify that the employee request activity has been configured correctly.

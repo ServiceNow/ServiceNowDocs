@@ -7,7 +7,7 @@ release: zurich
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrading Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-If an upgrade fails when using the scheduled upgrade feature in the Zurich release, the proxy server will automatically roll back to the old version. The old proxy server is stored unmodified in a backup directory.
+If an upgrade fails when using the scheduled upgrade feature in the Brazil release, the proxy server will automatically roll back to the old version. The old proxy server is stored unmodified in a backup directory.
 
 If you would like to roll back a manual upgrade, you can follow these steps.
 

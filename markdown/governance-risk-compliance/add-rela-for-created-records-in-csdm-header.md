@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-rela-for-created-records-in-csdm-header.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "main-node-configs.png"\] Alt text: Main node configurations.
 
-2.  Verify that and CI and non-CI relationships are configured in CMDB, Main node configurations and node relationship configurations are set up, and entities are generated in Operational Resilience.
+2.  Verify that CI and non-CI relationships are configured in CMDB, Main node configurations and node relationship configurations are set up, and entities are generated in Operational Resilience.
 
 
 ## What to do next

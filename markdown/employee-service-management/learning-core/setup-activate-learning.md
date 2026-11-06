@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Install and configure Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate and setup Learning
@@ -34,11 +34,11 @@ Learning leverages the new, Talent Development licensing module. This licensing 
 
 Learning comes with optional demo data.
 
-For more information, see [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/configure-learning.md) and [Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-experience-reference.md).
+For more information, see [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/configuring-learning.md) and [Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-experience-reference.md).
 
 ## Skills Foundation integration with Learning
 
 Learning integrates Skills Foundation to skill based recommendations for a learner. Learning admins can add skills to a learning course by searching and selecting skills using the skills Intelligent widget.
 
-For more information, see [Using Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md).
+For more information, see [Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md).
 

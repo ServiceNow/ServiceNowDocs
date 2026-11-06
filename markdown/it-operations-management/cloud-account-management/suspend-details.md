@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -31,14 +31,6 @@ Cloud provider
 </td><td>
 
 Name of the cloud provider platform. The entries are retrieved from the CMDB records.
-
-</td></tr><tr><td>
-
-This is a GovCloud config \(applicable only for AWS\)
-
-</td><td>
-
-Option to enable GovCloud settings for an AWS configuration.
 
 </td></tr><tr><td>
 
@@ -72,7 +64,7 @@ Suspension SCP policy ID \(applicable only for AWS\)
 
 The AWS suspension policy ID. This policy ID is used to suspend the AWS account. Service control policies limit the resources, services, and API operations.
 
- This field is automatically set to the ID retrieved from the suspension service control policy. For more information, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configure-suspension-policy.md).
+ To configure AWS suspend policy, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configure-suspension-policy.md).
 
 </td></tr><tr><td>
 

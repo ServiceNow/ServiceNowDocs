@@ -7,20 +7,22 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Data Management and Governance
 
 This Accelerator provides insights and guidance to assess and improve your data management and data governance practices.
 
-## Overview
+## Accelerator Overview
 
 The Data Management and Governance Accelerator provides Impact Customers with a self-assessment, leading practice content, and advisory guidance for managing and governing the data in your ServiceNow implementation to achieve high levels of data quality.
 
-**Note:** This Accelerator is available in Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
 ## What You Get
 
@@ -87,8 +89,8 @@ Customers must provide the following supporting documentation from their Service
 -   Define your data strategy
 -   Define your data design
 -   Define, document or both, of your data architecture
--   Assess or troubleshoot your CMDB \(Refer to the [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) Accelerator
--   Assess or troubleshoot your implementation of the CSDM framework \(Refer to the [Common Service Data Model \(CSDM\) Assessment - Foundation Data - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/csdm-assessment-foundation-data-advanced.md) Accelerator\)
+-   Assess or troubleshoot your CMDB \(Refer to the [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) Accelerator\)
+-   Assess or troubleshoot your implementation of the CSDM framework \(Refer to the  Accelerator\)
 -   Define your data and integrations with external systems or applications
 -   Assess or troubleshoot your data integrations
 

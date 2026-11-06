@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-09-23"
 reading_time_minutes: 3
-breadcrumb: [Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer]
+breadcrumb: [Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Computer Telephony Integration

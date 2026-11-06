@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/contact-seller.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, message seller, contact app provider, message app provider, app provider contact info, app seller contact info]
-breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer]
+breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Contact a seller
@@ -31,15 +31,15 @@ If you have questions about an app offered by ServiceNow, contact your account e
 
 2.  On the contact form, fill in the fields, which depend on whether you're logged in with your Now Support credentials.
 
-<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d301929e155">
+<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d314590e155">
 
 Logged in status
 
-</th><th align="left" id="d301929e158">
+</th><th align="left" id="d314590e158">
 
 Fields displayed
 
-</th></tr></thead><tbody><tr><td id="d301929e164">
+</th></tr></thead><tbody><tr><td id="d314590e164">
 
 **Logged in**
 
@@ -47,7 +47,7 @@ Fields displayed
 
 Provide the reason for contacting the seller and your message.
 
-</td></tr><tr><td id="d301929e173">
+</td></tr><tr><td id="d314590e173">
 
 **Not logged in**
 

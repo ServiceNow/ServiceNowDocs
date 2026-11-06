@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/r\_TableInstallWFieldServMgmnt.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
@@ -102,7 +102,7 @@ Work Order Task Potential Assignment Groups\[wm\_work\_order\_task\_potential\_a
 
 Calculates and stores the potential assignment group if there are multiple assignment groups that can be serviced for a work order task. **Note:** This is applicable only when:
 
--   The **sn\_fsm.update\_potential\_assignment\_groups** system property is set to true.
+-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
 -   More than one assignment group is found for the location.
 -   Territory model is inactive.
 
@@ -128,7 +128,7 @@ Resource Schedule Attributes\[wm\_agent\_schedule\_attribute\_plan\]
 
 </td><td>
 
-Stores the attributes like start date, end date, start location, end location, shift hours etc of agents.
+Stores the attributes like start date, end date, start location, end location, shift hours, and pre-break and post-break buffers of agents. The buffers set for an agent override the global break buffer.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md)

@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -28,9 +28,13 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use the Regulatory Change Management application in the classic user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Regulatory Change Management capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/integrating-with-rcm.md)
 
 </td></tr><tr><td>
+
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use the Regulatory Change Management application in the classic user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.md)
+
+</td><td>
 
 [Manage \[Omitted image "bus-manage.svg"\] Alt text: Manage the regulatory change tasks in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/manage-tasks-compliance-workspace.md)
 
@@ -38,14 +42,10 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 [Reference \[Omitted image "bus-profile.svg"\] Alt text: Components, like tables and roles, installed with Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 
-</td><td>
-
- 
-
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

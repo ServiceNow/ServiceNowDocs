@@ -7,9 +7,9 @@ release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile experience, Walk-up Experience, IT Service Management]
+breadcrumb: [Walk-up Experience on Now Mobile, Walk-up Experience, IT Service Management]
 ---
 
 # Book an appointment at a Walk-up Experience Tech Lounge

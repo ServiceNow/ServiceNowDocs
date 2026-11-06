@@ -7,9 +7,9 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Change Management - Standard Change Catalog, Plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Activate Change Management - Standard Change Catalog, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Installed with Change Management - Standard Change Catalog
@@ -36,7 +36,7 @@ Change request\[change\_request\]
 
 </td><td>
 
-Adds the standard change template version to the table
+Adds the standard change template version to the table.
 
 </td></tr><tr><td>
 

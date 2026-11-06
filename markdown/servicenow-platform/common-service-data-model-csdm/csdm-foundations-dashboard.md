@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,8 +22,8 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](http
 
 -   Before you use the dashboard for the first time, populate the CSDM metrics: Navigate to **All** &gt; **System Scheduler** &gt; **Scheduled Jobs** and run the **CSDM Get Well Metric Collection** job.
 -   The CSDM Data Foundations dashboard adds the following scheduled jobs that must be running:
-    -   **CSDM Get Well Metric Collection**: Calculates and stores details for compliant CIs associated with metrics. Data appears on the dashboard only after the first run of this scheduled job. metrics' scores are stored in the CSDM Data Foundations Metric Scores \[sn\_getwell\_csdm\_score\] table. The job runs daily by default.
-    -   **CSDM Data Foundations PA Metric Collection**: Calculates the total count of non-compliant CIs that are associated with each metric. It also provides trending data over time for the non-compliant CIs associated with metrics.
+    -   **CSDM Get Well Metric Collection**: Calculates and stores details for conforming CIs associated with metrics. Data appears on the dashboard only after the first run of this scheduled job. metrics' scores are stored in the CSDM Data Foundations Metric Scores \[sn\_getwell\_csdm\_score\] table. The job runs daily by default.
+    -   **CSDM Data Foundations PA Metric Collection**: Calculates the total count of non-conforming CIs that are associated with each metric. It also provides trending data over time for the non-conforming CIs associated with metrics.
     -   **CMDB Get Well CIs Processed Via IRE Metric Batch Collection**: Invoked once a day \(by default\) by the **CMDB Get Well Metric Collection** job. Repeatedly executes a 10-minute run/one-minute pause cycle to process as many batch files as possible.
 -   Role required: app\_service\_admin, app\_service\_user, asset, cmdb\_read, itil\_admin, portfolio\_admin, service\_viewer, or technology\_service\_owner
 
@@ -39,7 +39,7 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](http
 
     Note the percentages and color-coding in the **Result** column for each metric.
 
-    -   If the percentage is 100%, the CSDM framework has the information it needs. No action is needed.
+    -   If the percentage is 100%, the CSDM framework has the information it needs. No other action is needed.
     -   Otherwise, required information is missing and additional actions are required. Continue with [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md).
     Note the metrics on the **Foundation** tab:
 
@@ -49,7 +49,7 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](http
 
         -   **Status** = **In production**
         -   **Name** and **Owner** is not empty
-    -   **Configuration Item Status Values**
+    -   **CI Status Values**
 
         Shows the percentage of CIs with default status values.
 
@@ -74,9 +74,9 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](http
         -   **Location** and **Location.parent** is not empty
 4.  Select the tiles associated with the foundational metrics to access Performance Analytics widgets.
 
-    [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_Widgets.md) are provided by the **CSDM PA Metric Collection** scheduled job. These widgets provide trending data over time for the non-compliant CIs associated with the metric.
+    [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_Widgets.md) are provided by the **CSDM PA Metric Collection** scheduled job. These widgets provide trending data over time for the non-conforming CIs associated with the metric.
 
-    -   Verify that the real-time option is selected \(\[Omitted image "RealTimeFoundationsDashboard.png"\] Alt text: real-time option.\) and then select **Show Records** to view the list of CIs.
+    -   Verify that the **Real-time** option is selected \(\[Omitted image "RealTimeFoundationsDashboard.png"\] Alt text: real-time option.\) and then select **Show Records** to view the list of CIs.
     -   Select the **Breakdowns** context menu to view available breakdowns.
 5.  Scroll to the list of CIs in the **Custom Status Values** related list.
 

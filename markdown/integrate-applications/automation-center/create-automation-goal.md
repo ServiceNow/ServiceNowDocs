@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an automation goal
@@ -37,7 +37,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 6.  Select **Save**.
 
 
-**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-and-define.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
 
 **Related topics**  
 

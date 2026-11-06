@@ -7,9 +7,9 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Manage nodes in a Knowledge Graph schema
@@ -34,7 +34,7 @@ Role required: kg\_admin
 
     The Edit Knowledge Graph Schema details form is displayed.
 
-4.  In the Add nodes to Knowledge Graph schema​ window, enter or search for the nodes that you want to add to the Knowledge Graph schema.
+4.  In the Add nodes to Knowledge graph schema​ window, enter or search for the nodes that you want to add to the Knowledge Graph schema.
 
     \[Omitted image "add-nodes.png"\] Alt text: Add nodes.
 

@@ -1,5 +1,5 @@
 ---
-title: Fortinet Service Graph Connector API Endpoints
+title: Fortinet Service Graph Connector API endpoints
 description: The Service Graph Connector for Fortinet integrates Fortinet Dashboard API data into ServiceNow AI PlatformConfiguration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/fortinet-service-graph-connector-api-endpoints.html
@@ -7,22 +7,24 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
-# Fortinet Service Graph Connector API Endpoints
+# Fortinet Service Graph Connector API endpoints
 
-The Service Graph Connector for Fortinet integrates Fortinet Dashboard API data into ServiceNow AI Platform®Configuration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
+The Service Graph Connector for Fortinet integrates Fortinet Dashboard API data into ServiceNow AI PlatformConfiguration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
+
+**Note:** The `meta fields` values in the ADOM and device requests are configurable. Define the meta field names that match your Fortinet deployment. If you don't configure any meta fields, the connector omits the `meta fields` parameter from the request, and Fortinet returns standard data. The values shown in the following examples are sample meta fields and are required for discovery.
 
 <table id="table_akk_j2d_phc"><thead><tr><th>
 
-Example description
+Description
 
 </th><th>
 
-Example schema values
+API response
 
 </th></tr></thead><tbody><tr><td>
 

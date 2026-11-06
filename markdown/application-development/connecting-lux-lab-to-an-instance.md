@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Connect Lux Lab to an instance, When to connect]
-breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Connect Lux Lab to an instance

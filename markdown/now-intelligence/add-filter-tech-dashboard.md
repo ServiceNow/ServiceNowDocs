@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-filter-tech-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -30,7 +30,7 @@ Role required: ui\_builder\_admin, admin
 
 3.  Select **Edit in UI Builder**.
 
-4.  Add layout elements and a filter component as described in Add and configure components.
+4.  Add layout elements and a filter component as described in [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-components.md).
 
 5.  Configure the filter as described in the [Filter component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-component-filter/overview) on the Developer Site.
 

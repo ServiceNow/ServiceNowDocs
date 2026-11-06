@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Learning reference, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Life-cycle stages of a content collection in Learning Core

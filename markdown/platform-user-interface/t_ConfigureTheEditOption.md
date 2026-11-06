@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_ConfigureTheEditOption.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -35,7 +35,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d119784e126">
+<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d117559e126">
 
 **Show the Edit option**
 
@@ -43,7 +43,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 Clear the **Omit edit button** check box.
 
-</td></tr><tr><td id="d119784e138">
+</td></tr><tr><td id="d117559e138">
 
 **Hide the Edit option**
 
@@ -51,7 +51,7 @@ Clear the **Omit edit button** check box.
 
 Select the **Omit edit button** check box.
 
-</td></tr><tr><td id="d119784e150">
+</td></tr><tr><td id="d117559e150">
 
 **Show the Edit option if the check box is cleared and the button does not appear.**
 

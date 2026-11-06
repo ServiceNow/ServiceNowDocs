@@ -7,7 +7,7 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -84,5 +84,5 @@ Select the COE you want the HR service to be categorized under.**Note:** An HR s
 
 **Previous topic:**[Configure an HR service for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/create-hr-service-for-lifecycle-event.md)
 
-**Next topic:**[Using the Test Activity Sets tool for aLifecycle Events activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
+**Next topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
 

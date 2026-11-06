@@ -1,20 +1,20 @@
 ---
 title: Configure a PDF document template
-description: Upload an editable, fillable PDF template and customize the template according to your business needs.
+description: Upload an editable, fillable PDF template and customize the template as per your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-editable-pdf.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configure, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a PDF document template
 
-Upload an editable, fillable PDF template and customize the template according to your business needs.
+Upload an editable, fillable PDF template and customize the template as per your business needs.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ Role required: sn\_hr\_core.admin and Delegated developer
 
 1.  Navigate to **All** &gt; **Document Templates** &gt; **All Document Templates**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Select **PDF Document Template**.
 
@@ -170,7 +170,7 @@ End date
 
 </td><td>
 
-Date until which the PDF document template is valid. **End date** helps in maintaining multiple versions of same template.By default, if values in **Start date** and **End date** are empty it will imply that the template will always be valid.
+Date until which the PDF document template is valid. **End date** helps in maintaining multiple versions of same template.By default, if values in **Start date** and **End date** are blank it will imply that the template will always be valid.
 
 If you specify an end date, you must also specify a start date.
 
@@ -215,14 +215,14 @@ Source template
 Source template from which you created a copy of current template.
 
 </td></tr></tbody>
-</table>5.  Select **Submit** or **Save**.
+</table>5.  Click **Submit** or **Save**.
 
 
 ## What to do next
 
--   Select the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
+-   Click the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
 -   In the **Participants** related list, [create participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
 -   In the **PDF Template Mappings** related list, [define field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/edit-pdf-mappings.md).
--   Select [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participant.md).
+-   Click [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/mark-signature-doctemp.md).
 -   Publish the template. Flows using the template might get effected in case you want to edit a published template.
 

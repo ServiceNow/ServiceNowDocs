@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_EmailTemplates.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email templates
@@ -59,5 +59,5 @@ With email notifications, you can use import export maps to leverage information
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

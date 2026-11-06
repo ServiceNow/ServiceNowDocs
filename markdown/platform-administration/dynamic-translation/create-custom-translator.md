@@ -7,9 +7,9 @@ release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrate with a translation service provider, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer]
+breadcrumb: [Integrate with a translation service provider, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a custom translator configuration

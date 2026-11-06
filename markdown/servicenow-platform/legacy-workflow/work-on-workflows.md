@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,11 +65,11 @@ Running a workflow on a new node automatically attempts to validate the workflow
 
     When the workflow is loaded, the workflow validator icon appears in the toolbar.
 
-    \[Omitted image "image.ItsaHelp"\] Alt text: Workflow validator
+    \[Omitted image "ItsaHelp.png"\] Alt text: Workflow validator
 
 2.  Click the validator icon to run a series of validation tests on the current workflow version and generate a report.
 
-    \[Omitted image "image.WorkflowValidationReport"\] Alt text: Workflow validation report
+    \[Omitted image "WorkflowValidationReport.png"\] Alt text: Workflow validation report
 
 3.  Complete the following steps to generate a workflow validation report from the Workflow Version form
 

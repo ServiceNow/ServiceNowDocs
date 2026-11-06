@@ -7,16 +7,16 @@ release: zurich
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Results, Reviewing of scans, Use, Instance Scan, Maintain and monitor, Administer]
+breadcrumb: [Results, Reviewing of scans, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Scan results
 
 Scan Results dashboard helps you with an overview of all details of an executed scan.
 
-Navigate to **All** &gt; **Instance Scan** &gt; **Results**. Select a scan result from the Scan Results list. Click the **Results Dashboard**link on the Scan Result form.
+Navigate to **All** &gt; **Instance Scan** &gt; **Results**. Select a scan result from the Scan Results list. Click Results Dashboard link on the Scan Result form.
 
 \[Omitted image "hc-scan-results-dashboard.png"\] Alt text: Image showing scan results dashboard
 

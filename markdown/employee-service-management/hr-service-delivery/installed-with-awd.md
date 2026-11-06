@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, HR Service Delivery Advanced Integration with Workday, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with HR Service Delivery Advanced Integration with Workday
@@ -174,5 +174,5 @@ Total Rewards Template Setup\[sn\_hr\_workday\_adv\_total\_rewards\_template\_se
 Store details of Total Rewards templates with sections and plans associated to it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery Advanced Integration with Workday Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
 

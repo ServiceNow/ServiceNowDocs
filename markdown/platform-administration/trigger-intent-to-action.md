@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/trigger-intent-to-action.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Now Assist in Notifications, Configure core features, Administer]
+breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Enable intent to action workflow from triggers
@@ -52,6 +52,4 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 ## What to do next
 
 [Create email intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-email-intent.md)
-
-**Parent Topic:**[Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-agentic-workflows-in-notifications.md)
 

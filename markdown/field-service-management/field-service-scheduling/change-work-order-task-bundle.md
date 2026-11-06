@@ -1,20 +1,20 @@
 ---
 title: Change a work order task bundle
-description: Update a work order task bundle with any changes so that agents and dispatchers stay synchronized.
+description: Update a work order task bundle’s details, such as its schedule, assignment, or dispatch settings, so agents and dispatchers stay synchronized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/change-work-order-task-bundle.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Bundling WOTs, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Bundling WOTs, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Change a work order task bundle
 
-Update a work order task bundle with any changes so that agents and dispatchers stay synchronized.
+Update a work order task bundle’s details, such as its schedule, assignment, or dispatch settings, so agents and dispatchers stay synchronized.
 
 ## Before you begin
 

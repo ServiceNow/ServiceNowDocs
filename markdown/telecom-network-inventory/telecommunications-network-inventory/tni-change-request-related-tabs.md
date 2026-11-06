@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -26,14 +26,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Details
-
-</td><td>
-
-This tab displays the change request details, service design inputs, provisioning parameters, and implementation planning details that are required to design, provision, and track the GPON broadband service through its lifecycle.
-
-</td></tr><tr><td>
-
 Affected CIs
 
 </td><td>
@@ -43,8 +35,8 @@ List of configuration items \(CI\). These items \(from the CMDB\) are affected b
  **Note:**
 
 -   The **Affected CIs** tab of the Change Request form lists all CIs that are created through the change tasks of that change request. This tab also lists all the affected CIs of the change tasks.
--   If a CI in the affected CIs list of a change task is manually \(or through an API\) changed to another CI, the affected CI list of the corresponding change request is also updated.
--   If a CI in the affected CI list of a change task is manually \(or through an API\) deleted, the same CI is also deleted from the affected CI list of the corresponding change request.
+-   If a CI in the affected CIs list of a change task is manually \(or through an API\) changed to another CI, the corresponding change request is also updated. The affected CI list reflects this change.
+-   If a CI in the affected CI list of a change task is manually \(or through an API\) deleted, the change is reflected in the corresponding change request. The same CI is removed from the affected CI list of the change request.
 
 </td></tr><tr><td>
 

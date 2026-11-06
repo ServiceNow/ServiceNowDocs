@@ -1,11 +1,11 @@
 ---
 title: Impact reference
-description: Several types of components are installed with activation of the Impact plugin, including tables, user roles, and scheduled jobs.
+description: Reference information for Impact, organized by data synchronization, Scan Engine, Impact Delivery Instance, and general topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Impact reference, Tables in Impact application, Roles in Impact application]
 breadcrumb: [Impact]
@@ -13,22 +13,33 @@ breadcrumb: [Impact]
 
 # Impact reference
 
-Several types of components are installed with activation of the Impact plugin, including tables, user roles, and scheduled jobs.
+Reference information for Impact, organized by data synchronization, Scan Engine, Impact Delivery Instance, and general topics.
 
--   **[Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-roles.md)**  
-Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
--   **[Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-sync-idi-store.md)**  
-Following is a comprehensive overview of the dependent apps that are included with the installation of the Impact Store Application Each section delineates the features that activate event-based synchronization within the various product capabilities.
--   **[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/table-field-level-mapping.md)**  
-Following is information on the data that is synchronized between the Impact Delivery Instance and the Impact Store Application.
--   **[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/service-bridge-overview.md)**  
-Data transfer between the Impact Delivery Instance and Impact Store Application is facilitated via Service Bridge.
--   **[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use_manual_registration_configure_impact_store_application.md)**  
-Manual registration is generally used by advanced users or to obtain configuration support from your Impact Squad. Regulated and GCC customers are also required to use manual registration.
--   **[Domain Separation in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-domain-separation.md)**  
-Domain separation is unsupported for Impact. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Impact storage estimation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-store-app-storage-estimation.md)**  
-The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
+<table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td align="center">
+
+[Data synchronization reference\[Omitted image "bus-transaction-data.svg"\] Alt text:Reference information for data synchronization, including field mappings, storage estimation, and data sync processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-synchronization-reference.md)
+
+</td><td align="center">
+
+[Scan Engine reference\[Omitted image "esg-reskilling.svg"\] Alt text:Reference information for Scan Engine, including API field references.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/scan-engine-reference.md)
+
+</td></tr><tr><td align="center">
+
+[Impact Delivery Instance reference\[Omitted image "bus-service-portal.svg"\] Alt text:Reference information for Impact Delivery Instance, including configuration, user management, roles, features, and reporting.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-reference.md)
+
+</td><td align="center">
+
+[General reference\[Omitted image "bus-service-catalog.svg"\] Alt text:General Impact reference information including roles, packages, domain separation, Service Bridge, and API endpoints.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/general-reference.md)
+
+</td></tr></tbody>
+</table>-   **[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/general-reference.md)**  
+General reference information for Impact, including packages, roles, domain separation, and pro-code development.
+-   **[Data synchronization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-synchronization-reference.md)**  
+Reference information for data synchronization features in Impact.
+-   **[Scan Engine reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/scan-engine-reference.md)**  
+Reference information for Scan Engine features in Impact.
+-   **[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-reference.md)**  
+Reference information for Impact Delivery Instance features and configuration.
 
 **Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-landing-page.md)
 

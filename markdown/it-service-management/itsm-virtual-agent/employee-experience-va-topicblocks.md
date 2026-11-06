@@ -7,9 +7,9 @@ release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reusable ITSM Virtual Agent pre-built topic blocks, Use pre-built topics, ITSM Virtual Agent, IT Service Management]
+breadcrumb: [Reusable ITSM Virtual Agent pre-built topic blocks, Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT Service Management]
 ---
 
 # Employee Experience topic blocks

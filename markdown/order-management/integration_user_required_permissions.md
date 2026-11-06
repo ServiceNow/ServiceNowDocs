@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/integration\_user\_required\_permissions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Required permissions for the integration user
@@ -18,6 +18,7 @@ The refresh token user \(or integration user\) is the user name that ServiceNow 
 
 -   The user must be API enabled
 -   The LGKConfigurationLineItemc and LGK ConfigurationFieldDatac objects must have Create access
+-   The user must have permission to read all fields and objects that are referenced in the SOQL queries of Salesforce external connections
 -   The objects Product2, Pricebook2, and PricebookEntry must have Read/View access, including access to the following fields:
 
     Product2:
@@ -35,6 +36,7 @@ The refresh token user \(or integration user\) is the user name that ServiceNow 
     Pricebook2:
 
     -   Id
+    -   Name
     -   Description
     -   IsActive
     -   IsStandard

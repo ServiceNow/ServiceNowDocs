@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/add-a-capability.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the business portfolio module, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a business capability
@@ -16,7 +16,7 @@ Add a business capability to the capability hierarchy map.
 
 ## Before you begin
 
-Role required: sn\_apm.apm\_analyst
+Role required: sn\_apm.apm\_user
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Role required: sn\_apm.apm\_analyst
 
 4.  On the form, fill in the fields.
 
-    For a description of field values, see [Business capability record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/business-capability-new-record-form.md).
+    For a description of field values, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-cap-form.md).
 
 5.  Select **Create**.
 

@@ -1,20 +1,20 @@
 ---
 title: Change your development experience in ServiceNow Studio
-description: Use the best tool for your app development by switching between development environments using the experience switcher in ServiceNow Studio.
+description: Switch between development environments in ServiceNow Studio using the experience switcher to use the best tool for each stage of your app development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/change-your-development-experience.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Change your development experience in ServiceNow Studio
 
-Use the best tool for your app development by switching between development environments using the experience switcher in ServiceNow Studio.
+Switch between development environments in ServiceNow Studio using the experience switcher to use the best tool for each stage of your app development.
 
 ## Before you begin
 
@@ -22,7 +22,13 @@ Role required: admin or delegated\_developer
 
 ## About this task
 
-At some point in your app development, you may need to create an app in one development environment \(for example, Creator Studio\) and continue working on it in another \(for example, ServiceNow Studio\). Using the experience switcher, you can easily navigate between Creator Studio, ServiceNow Studio, and ServiceNow IDE.
+Use the experience switcher when you need to continue app development in a different environment. For example, create an app in Creator Studio and continue working on it in ServiceNow Studio. The experience switcher provides access to Creator Studio, ServiceNow Studio, and ServiceNow IDE.
+
+**Important:**
+
+As of version 30.1.1, the experience switcher has been removed from ServiceNow Studio. Each development tool can still be accessed separately through the ServiceNow AI Platform.
+
+As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 ## Procedure
 
@@ -42,7 +48,7 @@ At some point in your app development, you may need to create an app in one deve
 The new development environment opens and you can begin working. For more information, see [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-landing.md) and [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md).
 
 -   **[Viewing app origination information in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/viewing-app-origination-information-in-sns.md)**  
-Select the best environment for app development and deployment by seeing where your app was created. View app origination information on the App details page in ServiceNow Studio.
+View app origination information on the App details page in ServiceNow Studio to determine where an app was created and which environment to use for editing and deployment.
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

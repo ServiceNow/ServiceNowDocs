@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Viewing or editing a scenario, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -21,6 +21,8 @@ Edit a scenario using the stack plan to allocate spaces to departments, cost cen
 Ensure that you have created a scenario, and it is in the Draft state. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 **Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+
+\[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
 Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reader \(read only; to view a scenario\)
 
@@ -51,15 +53,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
     -   When you select a bar or space to view the number of allocated spaces, the borders of the selected bar or space are highlighted.
 5.  Edit the stack plan based on your requirement.
 
-<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d166293e190">
+<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d168680e195">
 
 Action
 
-</th><th align="left" id="d166293e193">
+</th><th align="left" id="d168680e198">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d166293e199">
+</th></tr></thead><tbody><tr><td id="d168680e204">
 
 **Zoom in or out on the stack plan**
 
@@ -67,7 +69,7 @@ Steps
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the stack plan.
 
-</td></tr><tr><td id="d166293e214">
+</td></tr><tr><td id="d168680e219">
 
 **Resize a bar**
 
@@ -84,7 +86,7 @@ This step is applicable if the Group by option is Workplace Entity.
 
 5.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d166293e260">
+</td></tr><tr><td id="d168680e265">
 
 **Move a bar to a different floor**
 
@@ -107,7 +109,7 @@ This field is applicable if the Group by option is Workplace Entity.
 
 6.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d166293e329">
+</td></tr><tr><td id="d168680e334">
 
 **Drag a bar to a different floor**
 

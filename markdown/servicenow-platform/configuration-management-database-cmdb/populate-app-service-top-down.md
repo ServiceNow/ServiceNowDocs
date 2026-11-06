@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use top-down discovery to populate application services
@@ -23,7 +23,7 @@ Use top-down discovery to populate an application service. This discovery method
 -   [Verify that Service Mapping is set up properly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/check-service-mapping-readiness-for-mapping.md).
 -   Ensure you know which entry point to use for this application service and which attributes you must be able to define for this entry point. Learn about [Entry point attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_EntryPointsforBizSvcDef.md) available with Service Mapping.
 
-For information about the different types of application services and the different methods you can use to populate application services, including using top-down discovery, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including using top-down discovery, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 Role required: sm\_admin
 

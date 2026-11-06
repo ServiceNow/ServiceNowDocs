@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Smart Assessment for Workplace Case and Task, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---

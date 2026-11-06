@@ -1,5 +1,5 @@
 ---
-title: Maximize reset password request retry window duration \[Updated in Security Center 1.3\]
+title: Maximize reset password request retry window duration
 description: The password\_reset.request.retry\_window property controls the number of minutes before the count for password reset attempts refreshes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-request-retry-window.html
@@ -7,30 +7,113 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Maximize reset password request retry window duration \[Updated in Security Center 1.3\]
+# Maximize reset password request retry window duration
 
 The **password\_reset.request.retry\_window** property controls the number of minutes before the count for password reset attempts refreshes.
 
+The **password\_reset.request.retry\_window** system property specifies the length of time before the count for password reset attempts refreshes.
+
+Ensure that the property **password\_reset.request.retry\_window** is set to `1440` or more.
+
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**password\_reset.request.retry\_window**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
-|Purpose|Denotes the length of time in minutes before the count for password attempts refreshes from the last request before the retry count is reset to zero.|
-|Recommended value|Set to a positive integer value of **1440** or more. The default value is **1440** minutes.|
-|Configuration type|Positive integer values.|
-|Security risk|\(High\) If the property is not set to the recommended value of 1440 or more, then it could be possible to perform account brute force against password reset process.|
-|Security risk rating|7.5|
-|References|[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_SetPwdResetProps.md)|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**password\_reset.request.retry\_window**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Integer
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+An integer greater than or equal to 1440
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+1440
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+1440
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.5
+-   CVSS rating: High
+-   Security risk details: If the value is too low, then it will make brute forcing against password reset process attacks much faster.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

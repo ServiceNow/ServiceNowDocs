@@ -1,17 +1,17 @@
 ---
-title: Performance insights in user-configurable dashboard
+title: Performance insights
 description: The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-performance-insights.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Performance insights, User configurable dashboard]
-breadcrumb: [Instance Observer user configurable dashboard, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User configurable dashboard, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Performance insights in user-configurable dashboard
+# Performance insights
 
 The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 
@@ -25,7 +25,7 @@ The performance summary of the instances as a feature exists in the:
 
 ## Performance insights widget in the user-configurable dashboard
 
-\[Omitted image "image.io-performance-insights-widget"\] Alt text: Performance summary of the instances in the user configurable dashboard.
+\[Omitted image "io-performance-insights-widget.png"\] Alt text: Performance summary of the instances in the user configurable dashboard.
 
 The ML model fetches these data and categorizes them as Critical, Warning, or Optimal based on the metrics score in the Performance widget.
 
@@ -72,7 +72,7 @@ You can also delete any of the components and customize it as you like.
 
 If you select the **Analytics** menu and click the **Instances Summary** option, you have another option of viewing the performance status of your instances.
 
-\[Omitted image "image.io-performance-inst-analytics"\] Alt text: Instances summary in Analytics page.
+\[Omitted image "io-performance-inst-analytics.png"\] Alt text: Instances summary in Analytics page.
 
 The instances performance summary in the **Analytics** tab is similar to the one in the user configurable dashboard. The dial component and the performance status counts are all similar, however there’s a **Root Cause &amp; Fixes** tile to generate the root cause details.
 
@@ -87,4 +87,6 @@ If the report is already generated, then you can view the report by selecting th
 The root cause report opens in a separate page with the **Root cause summary and resolutions** tab that lists the **Summary** and **Recommended resolutions**. The **Slow Transactions** tab gives the categories.
 
 Select the instance name in the Instance column that opens a slider page displaying the instance name, instance type, and instance status. If the instance performance status is Optimal, then you wouldn't see any data fetched from the back end. The columns in the slider page are sortable and filterable, and selecting the links in the **Metrics Affected** column takes you to the respective performance page. The trend in data is displayed in the **Trend** column.
+
+**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-configurable-dashboard.md)
 

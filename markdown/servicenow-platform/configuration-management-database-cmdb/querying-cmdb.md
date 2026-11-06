@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ There are several types of CMDB queries:
 
     A query type that queries the infrastructure for CI classes and the relationships and references that connect them. You can optionally add the context of non-CMDB tables to a CMDB query.
 
-    You can include [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md) in a CMDB query, to find, for example:
+    You can include [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md) in a CMDB query, to find, for example:
 
     -   All critical application services in your database.
     -   All infrastructure in a particular application service.

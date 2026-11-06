@@ -7,7 +7,7 @@ release: zurich
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---
@@ -18,7 +18,7 @@ End users can request published services through the service catalog.
 
 ## Before you begin
 
-Role required: none
+Role required: none.
 
 ## About this task
 
@@ -40,6 +40,6 @@ Questions for a particular service and the answers entered by the requesting use
 
 5.  Set the **State** of the service request record to **Closed Complete**.
 
-6.  Select **Update**.
+6.  Click **Update**.
 
 

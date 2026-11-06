@@ -48,7 +48,7 @@ You can:
 
 -   **[Enable embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-embeddables.md)**  
 Before you can use embeddables in Service Portal, you must install the required plugins and enable the feature on your portal record.
--   **[Configure theme mapping for embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+-   **[Configure theme mapping for embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-theme-mapping-embeddables.md)**  
 Apply a custom UI Builder theme that matches your ServiceNow® NOW experience.
 -   **[Embeddable APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/embeddable-apis.md)**  
 Service Portal automatically loads the Seismic framework and embeddable APIs when you enable embeddables. To access these APIs in your Service Portal widget scripts, call the `spEmbeddables` AngularJS service.

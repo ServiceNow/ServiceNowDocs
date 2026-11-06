@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/location-tracking-enable.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Location tracking, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Location tracking in the Now Mobile Agent app, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Enabling and selecting location tracking options
@@ -32,15 +32,15 @@ Role required: admin
 
 4.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) in the **Location Tracking Options** field to edit the field, and select from the following location tracking options.
 
-<table id="choicetable_dn4_2vy_2wb"><thead><tr><th align="left" id="d46097e127">
+<table id="choicetable_dn4_2vy_2wb"><thead><tr><th align="left" id="d48200e127">
 
 Tracking options
 
-</th><th align="left" id="d46097e130">
+</th><th align="left" id="d48200e130">
 
 Behavior in the Mobile Agent
 
-</th></tr></thead><tbody><tr><td id="d46097e139">
+</th></tr></thead><tbody><tr><td id="d48200e139">
 
 **Manual tracking**
 
@@ -50,7 +50,7 @@ Displays the manual location tracking option to the user.**Note:** Manual locati
 
  \[Omitted image "location-tracking-manual.png"\] Alt text: Manual tracking option.
 
-</td></tr><tr><td id="d46097e164">
+</td></tr><tr><td id="d48200e164">
 
 **Action-based tracking**
 
@@ -60,7 +60,7 @@ Displays the action-based location tracking option.**Note:** Action-based locati
 
  \[Omitted image "location-tracking-action.png"\] Alt text: Action-based tracking option.
 
-</td></tr><tr><td id="d46097e189">
+</td></tr><tr><td id="d48200e189">
 
 **Action-based and manual tracking option**
 

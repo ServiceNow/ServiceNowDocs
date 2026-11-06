@@ -7,8 +7,8 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-05-26"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Import tasks using ServiceNow Otto, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -19,14 +19,15 @@ Bring existing work from a spreadsheet or document into a CWM Board. Column mapp
 ## Before you begin
 
 -   Prepare a source file that meets these conditions:
-    -   One of these file types: .doc, .docx, .pdf, .xls, .xlsx, .png, .jpg, or .jpeg
-    -   10 MB or less
-    -   A maximum of 100 rows and 50 columns
+    -   One of these file types: .doc, .docx, .pdf, .xls, .xlsx, .png, .jpg, or .jpeg.
+    -   10 MB or less.
+    -   A maximum of 100 rows and 50 columns of task data.
     -   Includes a column that contains a task title or name, used as the short description during import.
     -   For Excel files \(.xls or .xlsx\): place the column names in the first row. The AI always treats the first row as the header row.
     -   If your file contains dates, the dates must match the format set in the `glide.sys.date_format` system property. Dates in other formats are silently left blank after import.
--   Verify that ServiceNow Otto for CWM is active on your instance.
--   Role required: sn\_cwm\_ai.cwm\_ai\_user or lens\_user
+-   Verify that ServiceNow Otto for Collaborative Work Management \(CWM\), including its prerequisites, is configured on your instance. See [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md).
+
+Role required: sn\_cwm\_ai.cwm\_ai\_user or lens\_user
 
 ## Procedure
 
@@ -34,9 +35,9 @@ Bring existing work from a spreadsheet or document into a CWM Board. Column mapp
 
 2.  From a Space, select a Board to import tasks into.
 
-3.  From the Board header, select **Import**.
+3.  From the Board header, select **Create with Otto**, and then select **Import tasks**.
 
-    \[Omitted image "cwm-import-board-header.png"\] Alt text: Board header showing the Import button.
+    \[Omitted image "cwm-generate-tasks-option.png"\] Alt text: Board header showing the Create with Otto menu with the Import tasks option.
 
     The import wizard opens with three steps: **Upload file**, **Field mapping**, and **Preview board**.
 
@@ -47,6 +48,8 @@ Bring existing work from a spreadsheet or document into a CWM Board. Column mapp
 5.  Upload your file by dragging it onto the upload area or by selecting **Select file**.
 
     The file is processed and the wizard advances to the **Field mapping** step automatically.
+
+    **Note:** Dates that don't match the format set in the `glide.sys.date_format` system property are left blank after import.
 
     \[Omitted image "cwm-import-upload-file.png"\] Alt text: Upload file step with AI scanning the uploaded file.
 

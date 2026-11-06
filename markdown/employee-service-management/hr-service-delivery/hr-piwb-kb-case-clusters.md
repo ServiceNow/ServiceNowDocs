@@ -1,5 +1,5 @@
 ---
-title: PIWB template: Predict knowledge case clusters and demand insights
+title: HR PIWB template: Predict knowledge case clusters and demand insights
 description: Use the classic setup template to configure and train your Cluster solution template with machine learning model to predict the case clusters that do not have knowledge, identify knowledge demand, and improve the knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-piwb-kb-case-clusters.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Predict knowledge gaps and insights, Implement, HR Predictive Intelligence Workbench, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
-# PIWB template: Predict knowledge case clusters and demand insights
+# HR PIWB template: Predict knowledge case clusters and demand insights
 
 Use the classic setup template to configure and train your Cluster solution template with machine learning model to predict the case clusters that do not have knowledge, identify knowledge demand, and improve the knowledge articles.
 
@@ -60,7 +60,7 @@ Review the corresponding use case information from [Machine learning solutions f
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR PIWB template: Predict knowledge gaps and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-kb-gaps-insights.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 

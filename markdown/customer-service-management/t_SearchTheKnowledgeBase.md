@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_SearchTheKnowledgeBase.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search for information, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ The customer service portal includes a link to the knowledge base that you can u
 
 1.  Navigate to the customer service portal.
 
-2.  Click **Knowledge**.
+2.  Select **Knowledge**.
 
     The knowledge page displays a separate category for each of the products purchased by this customer. It also displays lists of articles by:
 
@@ -35,7 +35,7 @@ The customer service portal includes a link to the knowledge base that you can u
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d257815e109">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d292368e109">
 
 **Click a product to display more specific information**
 
@@ -43,7 +43,7 @@ The customer service portal includes a link to the knowledge base that you can u
 
 Displays a list of categories on the left and articles on the right. Click a category to drill down even further.
 
-</td></tr><tr><td id="d257815e118">
+</td></tr><tr><td id="d292368e118">
 
 **Click a link from one of the lists**
 
@@ -51,7 +51,7 @@ Displays a list of categories on the left and articles on the right. Click a cat
 
 Displays the article.
 
-</td></tr><tr><td id="d257815e127">
+</td></tr><tr><td id="d292368e127">
 
 **Type a topic in the __Search__ field and press the Enter key**
 
@@ -61,3 +61,10 @@ Displays a list of related articles. Click a link to display the desired article
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchForInfoUsingThePortal.md)
+
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchTheCommunity.md)
+

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure employee communications widgets, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure employee communications widgets, Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the Featured News widget

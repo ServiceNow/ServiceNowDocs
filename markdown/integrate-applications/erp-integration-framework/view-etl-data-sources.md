@@ -1,6 +1,6 @@
 ---
 title: View ERP extraction tables
-description: Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
+description: Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to extract large amounts of data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/view-etl-data-sources.html
 release: zurich
@@ -8,14 +8,14 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table, etl, transform]
-breadcrumb: [Extracting and transforming data, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View ERP extraction tables
 
-Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
+Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to extract large amounts of data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 
 ## Before you begin
 
@@ -29,9 +29,9 @@ ERP extraction tables extract and save data to a transform table on the ServiceN
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "image.erpc-extraction-table-icon"\] Alt text: in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
 
-    \[Omitted image "image.erpc-extraction-tables-ys2"\] Alt text: ERP extraction tables list.
+    \[Omitted image "erpc-extraction-tables-ys2.png"\] Alt text: ERP extraction tables list.
 
 3.  View the list of ERP extraction tables.
 
@@ -67,7 +67,7 @@ ERP model
 
 </td><td>
 
-ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit the foundation of ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
+ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
 </td></tr><tr><td>
 
@@ -92,6 +92,4 @@ Date and time the extraction table record was last saved.
 ## What to do next
 
 After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/import-sets-landing-page.md).
-
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing and configuring VTB, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Modify the query or lane field for an existing Visual Task Board
@@ -36,7 +36,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d129844e83">
+<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d127466e77">
 
 **Edit the board query**
 
@@ -47,7 +47,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d129844e113">
+</td></tr><tr><td id="d127466e107">
 
 **Change the lane field**
 

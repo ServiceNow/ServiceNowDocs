@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Managing Feedback application in Strategic Planning
@@ -40,7 +40,7 @@ Get insights of feedback, number of product ideas linked to feedback, top tags, 
 -   Identify the overall sentiment distribution across your feedback data.
 -   Analyze the sentiments of the feedback received over the past nine months.
 
-The following figure shows a sample overview of customer feedback and indicates the different features on the overview tab. For example, know which customer has provided the maximum feedback by viewing the feedback count based on top customers. Use the filters at the top of the page to view feedback information on the Feedback application. For more information on filters, see [Configure filters for feedback or idea overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md).
+The following figure shows a sample overview of customer feedback and indicates the different features on the overview tab. For example, know which customer has provided the maximum feedback by viewing the feedback count based on top customers. Use the filters at the top of the page to view feedback information on the Feedback application. For more information on filters, see [Configure filters for feedback or product idea overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md).
 
 \[Omitted image "feedback-overview.png"\] Alt text: Feedback overview page in Feedback.
 

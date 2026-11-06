@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create report, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,8 +24,6 @@ Role required:
 
 -   To create: cmdb\_query\_builder and report\_user
 -   To view: Reporting role requirements might apply, see [Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_AdminsteringReports.md) for Reporting role requirements.
-
-In the base system, the cmdb\_query\_builder role is contained in the itil and asset roles.
 
 ## About this task
 

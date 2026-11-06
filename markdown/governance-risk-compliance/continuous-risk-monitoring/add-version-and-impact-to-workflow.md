@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Workflow configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -44,15 +44,56 @@ Workflow versions and impacts work together to filter control objectives:
 
 4.  On the form, fill the fields.
 
-    |Fields|Descriptions|
-    |------|------------|
-    |Name|Enter the version name \(For example, Revision 4, Revision 5, Version 2.0, or 2025 Edition\).|
-    |Workflow configuration|The workflow configuration is automatically populated based on the workflow that you have selected.|
-    |Active|Select the **Active** option to activate the version.|
-    |Order|The order in which you want to list the versions in the authorization package.|
-    |Filter condition|Enter the condition to filter control objectives for this version.|
+<table id="table_g5w_4rz_thc"><thead><tr><th>
 
-    \[Omitted image "WF-version-and-impact3.png"\] Alt text: New version fields.
+Fields
+
+</th><th>
+
+Descriptions
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Enter the version name \(For example, Revision 4, Revision 5, Version 2.0, or 2025 Edition\).
+
+</td></tr><tr><td>
+
+Workflow configuration
+
+</td><td>
+
+The workflow configuration is automatically populated based on the workflow that you have selected.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Select the **Active** option to activate the version.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+The order in which you want to list the versions in the authorization package.
+
+</td></tr><tr><td>
+
+Filter condition
+
+</td><td>
+
+Enter the condition to filter control objectives for this version.**Note:** When configuring filter conditions for impact, the version filter conditions now appear on the same screen for reference.
+
+</td></tr></tbody>
+</table>    \[Omitted image "WF-version-and-impact3.png"\] Alt text: New version fields.
 
 5.  Select **Submit** to add the new version to the selected workflow configuration.
 

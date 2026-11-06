@@ -1,29 +1,31 @@
 ---
-title: Using the Business Location Service Portal
-description: Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external business locations.
+title: Using the Business Organization Support Portal
+description: Use the Business Organization Support Portal \(formerly Business Location Service Portal\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/using-blsp-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
-# Using the Business Location Service Portal
+# Using the Business Organization Support Portal
 
-Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external business locations.
+Use the Business Organization Support Portal \(formerly Business Location Service Portal\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
 
-As a user with the sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and admin role, you can use the Business Location Service Portal page to:
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
--   Get a 360º view of a business location.
+As a user with the sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and admin role, you can use the Business Organization Support Portal page to:
+
+-   Get a 360º view of a business organization \(formerly business location\).
 -   Add and manage staff members.
--   Submit cases against business locations, sold products, or install base items deployed at a service organization.
+-   Submit cases against business organizations, sold products, or install base items deployed at a service organization.
 -   Access Knowledge Base articles and engage with the community.
 
 \[Omitted image "patient-portal.png"\] Alt text: Landing page for Business Location Service Portal. For more information, refer to information that follows.
 
-From the Business Location Service Portal, you can access and use the following features:
+From the Business Organization Support Portal, you can access and use the following features:
 
 <table id="table_fp4_mby_25b"><thead><tr><th>
 
@@ -63,7 +65,53 @@ Your Information
 
 </td><td>
 
-Navigate to business locations, sold products, install base items, projects, and customer orders.
+View the list:-   Business Organizations - Here, you can view the list of:
+    -   Details
+        -   Organization number
+        -   Organization name
+        -   Manager name
+        -   City
+        -   Street
+        -   Parent Organization
+    -   Related Actions
+        -   Create Case
+        -   Add Member
+    -   Business Organization Details
+        -   Cases Requested
+        -   Members
+        -   Products
+        -   Install Base
+        -   Child Business Organizations
+        -   Child Business Locations
+    -   Cases Requested
+-   Install Base- Here, you can view the list of:
+    -   Details
+        -   Name
+        -   Created
+        -   Buyer Organization
+        -   Buyer Organization Members
+    -   Related Actions
+        -   Create Case
+        -   Assign member
+
+**Note:** Only users assigned with the manager role within their respective buyer organization can assign members. Once assigned, the member is displayed in the Buyer organization member field. Confirm that the Buyer organization field is filled.
+
+    -   Affected Install Bases
+-   Products
+    -   Details
+        -   Product
+        -   Buyer Organization
+        -   Buyer Organization Member
+    -   Related Actions
+        -   Create Case
+        -   Assign member
+
+**Note:** Only users assigned with the manager role within their respective buyer organization can assign members. Once assigned, the member is displayed in the Buyer organization member field. Confirm that the Buyer organization field is filled.
+
+    -   Child Sold Products
+    -   Product Information
+    -   Cases
+    -   Install Base
 
 </td></tr><tr><td>
 
@@ -100,7 +148,7 @@ Browse Services
 
 </td><td>
 
-Select **Browse Services** to report an issue or request a service. Use the service to register a member at an external business location.
+Select **Browse Services** to report an issue or request a service. Use the service to register a member at an external organization.
 
 </td></tr><tr><td>
 
@@ -120,14 +168,14 @@ Provides access to the Community home page. You can use the community to ask que
 
 </td></tr><tr><td>
 
-My Business Locations
+My Business Organizations
 
 </td><td>
 
-Get the 360º view of the business location. Use the feature to:-   Add a member to an external business location.
+Get the 360º view of the business organization. Use the feature to:-   Add a member to an external organization.
 -   Report cases on behalf of a business location.
 -   Report cases against sold products deployed at a business location.
--   Report cases against install base items deployed at a business location.
+-   Report cases against install base items deployed at a business organization.
 
 </td></tr><tr><td>
 
@@ -146,20 +194,20 @@ Most Viewed articles
 View a list of the most viewed articles.
 
 </td></tr></tbody>
-</table>Depending on the configuration set by your administrator, you can perform the following tasks from the Business Location Service Portal:
+</table>Depending on the configuration set by your administrator, you can perform the following tasks from the Business Organization Support Portal:
 
--   Register and assign staff members to a business location
--   Report cases on behalf of a business location
--   Report cases against sold products deployed at a business location
--   Report cases against install base items deployed at a business location
+-   Register and assign staff members to a business organization
+-   Report cases on behalf of a business organization
+-   Report cases against sold products deployed at a business organization
+-   Report cases against install base items deployed at a business organization
 -   Access knowledge base articles and frequently asked questions
 
 **Related topics**  
 
 
-[Add staff members to a business location in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-staff-memers-to-biz-location.md)
+[Add staff members to a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-staff-memers-to-biz-location.md)
 
-[Create cases for a business location in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/report-cases-on-behalf-of-biz-location.md)
+[Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/track-cases-for-blsp-portal.md)
 

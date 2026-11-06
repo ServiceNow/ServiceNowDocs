@@ -1,0 +1,145 @@
+---
+title: Configure change model states
+description: Configure states for change models and define transition between multiple states.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/configure-change-model-states.html
+release: zurich
+product: Change Management
+classification: change-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create a Change model, Configure, Change Management, IT Service Management]
+---
+
+# Configure change model states
+
+Configure states for change models and define transition between multiple states.
+
+## Before you begin
+
+Role required: change\_manager
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Change Models**.
+
+2.  Select the change model for which you want to define states.
+
+3.  Navigate to **Model States**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |State|State that you want to include in your model.|
+    |Initial State|Option to enable this state as the initial state for your model. This field is automatically selected when you add the first state to your model.|
+
+6.  Save the state and return to the Change Model form by selecting **Submit**.
+
+7.  Add a transition between the available states by selecting the display/hide hierarchical lists icon \[Omitted image "display-hide-hierarchial-lists.png"\] Alt text: for the model state that you want to apply the transition to.
+
+    1.  Select **New**.
+
+        The Model State Transitions page is displayed.
+
+    2.  On the form, fill in the fields.
+
+        |Field|Description|
+        |-----|-----------|
+        |From|State that the change request is moving from.|
+        |To|State that the change request is moving to.|
+        |Automatic Transition|Option for enabling automatic transition of the change request when the defined conditions are met. When this option is selected, you don't need to update the **State** field on the change request form manually.|
+
+    3.  Select the form context menu icon \[Omitted image "form-context-menu.png"\] Alt text: and select **Save**.
+
+    4.  Select **New** to add conditions for transition between states.
+
+    5.  On the form, fill in the fields.
+
+<table id="table_jdx_tpy_m3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name for the condition.
+
+</td></tr><tr><td>
+
+State Transition
+
+</td><td>
+
+State transition that the condition applies to. This field is set automatically.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Detailed description of the condition.
+
+</td></tr><tr><td>
+
+Requires
+
+</td><td>
+
+Condition for your transition.The available options are:
+
+-   **Mandatory Fields**: Requires specified fields to be populated before the model state transitions.
+
+State field policies create and maintain conditions named **State Field Policy Managed**. To update the fields in these conditions, update the state field policies for the destination state. For more information, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/define-state-field-policies.md).
+
+-   **Transition Condition**: Enables you to define a more granular condition.
+
+For more information, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-predefined-transition-condition-type.md).
+
+</td></tr><tr><td>
+
+Condition \(condition builder\)
+
+</td><td>
+
+Condition that must be fulfilled to enable the state transition.This field is available only when **Transition Condition** is selected from the **Requires** field.
+
+</td></tr><tr><td>
+
+Condition \(script\)
+
+</td><td>
+
+Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.This field is available only when **Transition Script** is selected from the **Requires** field.
+
+**Note:** To edit this field, you must have the change\_model\_script\_admin role. Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/model-script-editor-roles.md).
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option to make the condition active.
+
+</td></tr></tbody>
+</table>    6.  Select **Save**.
+
+
+## What to do next
+
+Define which fields are mandatory or read-only in each state. For more information, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/define-state-field-policies.md).
+
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-a-change-model.md)
+

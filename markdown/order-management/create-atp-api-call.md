@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-atp-api-call.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure scripted extension points for the manage order operations AI agent
@@ -131,7 +131,7 @@ To enable real-world functionality such as querying on-hand quantities, delivery
     For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/request-order-changes-now-assist.md).
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

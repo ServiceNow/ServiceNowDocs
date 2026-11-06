@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Manage builds, users, settings, and jobs on the Jenkins server. Retrieve Jenkins
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -30,7 +30,7 @@ All versions between 1.651.1 and 2.150.3.
 
 ## Spoke version
 
-Jenkins spoke v2.3.1 is the latest version.
+Jenkins spoke v2.3.1 is the latest version. For version history of the spoke, see [Jenkins spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jenkins.html).
 
 ## Spoke actions
 

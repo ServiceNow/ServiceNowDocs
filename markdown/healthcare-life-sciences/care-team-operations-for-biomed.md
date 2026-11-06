@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/care-team-operations-for-biomed.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -43,7 +43,7 @@ Care Team Operations for Biomed contains the case types to report and fulfill bi
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Ask questions and explore other resources for  in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Ask questions and explore other resources for Care Team Operations for Biomed in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

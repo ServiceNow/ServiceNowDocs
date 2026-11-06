@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateAContactRelationship.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Contact relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,17 @@ Create a contact relationship for an account by selecting a contact and then ass
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager or admin
+Role required: One of the following roles:
+
+-   sn\_crm\_foundation\_admin
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 
-Starting with the Zurich release, Customer Service Management \(CSM\) introduced the `Prevent duplicate for account-contact`business rule. By using this business rule, an administrator can assign multiple responsibilities per account for a contact.
+Starting with the Brazil release, Customer Service Management \(CSM\) introduced the `Prevent duplicate for account-contact`business rule. By using this business rule, an administrator can assign multiple responsibilities per account for a contact.
 
 ## Procedure
 

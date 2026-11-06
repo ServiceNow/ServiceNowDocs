@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/working-with-image-styles.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [theme builder, image, image styles]
 breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,13 +17,14 @@ Image styles enable you to experiment with different color schemes for illustrat
 
 ## Image styles categories
 
-As of Theme Builder version 6.1, the following image styles are available for editing:
+The following image styles are available for editing:
 
 -   Empty state illustrations
 -   Banners
 -   Cards
 -   Modals
 -   Tile icons
+-   Icons
 
 -   **[Banner illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/banners-in-tb.md)**  
 Banner illustrations are used to increase user engagement or announce overall product experiences.
@@ -35,6 +36,8 @@ Modal illustrations accompany user guidance or support messaging about added fea
 Empty state illustrations in Theme Builder provide visually engaging placeholders for situations when content is missing.
 -   **[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tile-icons-in-tb.md)**  
 Tile icon illustrations are used to communicate a tile’s purpose using visual metaphors.
+-   **[Icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-icon-illustrations.md)**  
+Icons are used to visually represent actions and concepts through simple, themed graphics.
 
 **Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-theme.md)
 

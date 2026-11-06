@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2024-03-12"
 reading_time_minutes: 2
 keywords: [calendar management, scheduling, holiday widget, time management]
-breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Calendar and schedule management

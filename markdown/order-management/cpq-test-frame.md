@@ -1,18 +1,18 @@
 ---
 title: The test frame
-description: Use a test frame to quickly validate the behavior of a configurator without creating a web page or running the full quoting flow. This lightweight test page lets you load a product and pass key parameters to preview the configuration in an iframe, either from on-page inputs or directly from URL parameters.
+description: Use a test frame to quickly validate the behavior of a configurator without creating a web page or running the full quoting flow. Load a product and pass key parameters to preview the configuration in an iframe.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-test-frame.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The test frame
 
-Use a test frame to quickly validate the behavior of a configurator without creating a web page or running the full quoting flow. This lightweight test page lets you load a product and pass key parameters to preview the configuration in an iframe, either from on-page inputs or directly from URL parameters.
+Use a test frame to quickly validate the behavior of a configurator without creating a web page or running the full quoting flow. Load a product and pass key parameters to preview the configuration in an iframe.
 
 The test frame streamlines testing by providing a lightweight interface to preview configuration behavior before deploying changes.
 
@@ -21,7 +21,7 @@ The test frame streamlines testing by providing a lightweight interface to previ
 To access the test frame page in ServiceNow CPQ, navigate to the appropriate URL, replacing `{tenant}` and `{sector}` with values for your instance:
 
 ```
-https://{tenant}.{sector}.logik/ui/configure/testFrame.html
+https://{tenant}.{sector}.logik.io/ui/configure/testFrame.html
 ```
 
 Typically, the value of `{sector}` is `test` for sandbox or `prod` for production.
@@ -36,10 +36,10 @@ The testFrame HTML provides easy inputs to a variety of parameters that can be s
 
 1.  Product ID: Product ID of the configurable product to load
 2.  Pricebook ID: Salesforce Pricebook ID
-3.  Reconfigure ID: Logik UUID of existing configuration to load for reconfiguration
+3.  Reconfigure ID: ServiceNow CPQ UUID of existing configuration to load for reconfiguration
 4.  Quote Line ID: Salesforce Quote Line ID
 5.  Layout: Name of the Layout to load from the Blueprint of the Configurable Product
-6.  Runtime Token: Runtime Token from Logik Admin Setup
+6.  Runtime Token: Runtime Token from ServiceNow CPQ Admin Setup
 7.  Runtime Client API: Needs to be encoded and URL-safe. Highly recommended if using the Runtime Token parameter
 8.  Config Editability: Control the ability to save a configuration
     -   Active: Displays the Quote button on the configuration page

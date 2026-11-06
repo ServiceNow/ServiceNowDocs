@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_StartAChatWithAnAgent-business-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Chat with an agent from the Business Portal
@@ -32,4 +32,11 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 ## What to do next
 
 If the agent creates a case or links the discussion to an existing case, you can view these cases from the business portal. To display the case list, select **Requests** &gt; **View submitted requests** &gt; **View cases &amp; tasks**.
+
+**Related topics**  
+
+
+[Get help using virtual agent conversations from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/business-portal-virtual-agent-conversation.md)
+
+[Create a product case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateACaseFrom-businessportal.md)
 

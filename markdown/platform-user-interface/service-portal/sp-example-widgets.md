@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
 breadcrumb: [Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -70,6 +70,8 @@ The My Requests widget stores all of your open requests in one place. You can us
 Use the My Requests widget \(my-requests-v2\) to enable requesters to view open or closed requests in Service Portal.
 -   **[Organization Chart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/org-chart-widget.md)**  
 The Organization Chart widget shows employees in a tree structure relative to their manager. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
+-   **[New Organization Chart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/new-organization-chart-widget.md)**  
+The New Organization Chart widget shows employees in a tree structure relative to their manager. You can use this widget in your portal or duplicate it to suit your own business needs.
 -   **[Simple List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/simple-list-widget.md)**  
 The Simple List widget can be used to display any list in the system within Service Portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 -   **[Sample Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/sample-footer-widget.md)**  

@@ -7,7 +7,7 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 # Data privacy clone
 
 As customer data are cloned from a source to a target instance, typically from production to non-production, sensitive data are de-identified on the target instance.​
-
-**Important:** This section is for Data Privacy\(Classic\). See [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) for the latest up to date store version.
 
 A data privacy administrator configures post-clone policies.​ After the post-clone script completes on the target instance, the users will see de-identified data and will not have access to the original data. Data privacy administrators can configure de-identification policies to apply on the target instance when cloning to ensure that the target instance will not have original sensitive data.​ An order is specified for the policy relative to other policies to be executed.
 

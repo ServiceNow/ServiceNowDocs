@@ -7,18 +7,18 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Telecommunications Network Inventory function catalog, Reference, Telecommunications Network Inventory]
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Cascade Update function
 
 The Cascade Update function enables you to update a configuration item \(CI\) attribute in the Telecommunications Network Inventory application and cascade the change in all related CIs. You can use this function to automatically cascade the field values in related CIs when you use Workflow Studio.
 
-You can use the Cascade Update function to update any field in the inventory record and cascade the changes all the way down to the hierarchy mentioned in the inventory record.
+You can use the Cascade Update function to update any field in the inventory record. The changes cascade all the way down to the hierarchy mentioned in the inventory record.
 
-If there’s a conflict, such as any discrepancies found in the related CIs, this function returns an error. For example, if you pass a change request and CI but the CI isn’t in the affected CI list, the function returns a sort error with the conflict information.
+If there’s a conflict, such as any discrepancies found in the related CIs, this function returns an error. For example, let's say that you pass the change request and CI but the CI isn’t added to the affected CI list of the change request. Instead, it returns a sort error with the conflict information in execution.
 
 **Note:** This function doesn’t work on **Life Cycle Stage** and **Life Cycle Status** fields.
 
@@ -38,7 +38,7 @@ The following table lists the input fields in the Cascade Update function and th
 |CI|CI where you want to update the field.|Reference.Configuration Item|No|
 |Field|Attribute in the CI that you want to cascade.|String|No|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 

@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Demo data is available for this plugin.
 
 ## Roles installed
 
-**Note:** To view the Robotic Process Automation \(RPA\) data, RPA roles are required. For more information about RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/installed-with-rpa-hub.md) .
+**Note:** To view the Robotic Process Automation \(RPA\) data, RPA roles are required. For more information about RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/installed-with-rpa-hub.md) .
 
 <table id="table_ddp_3pg_wtb"><thead><tr><th>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/handle-ccaas-callback-gvc.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CCaaS callback requests in the Configurable Workspace, Customer communication, Use, Customer Service Management]
 ---
@@ -36,15 +36,15 @@ The callback interaction is either routed in the customer-first or agent-first m
     -   Reason for callback
 2.  Perform one of the following in your inbox when you receive a callback interaction request.
 
-<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d150157e120">
+<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d170301e120">
 
 Action
 
-</th><th align="left" id="d150157e123">
+</th><th align="left" id="d170301e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d150157e129">
+</th></tr></thead><tbody><tr><td id="d170301e129">
 
 **Accept**
 
@@ -52,7 +52,7 @@ Description
 
 Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md).
 
-</td></tr><tr><td id="d150157e144">
+</td></tr><tr><td id="d170301e144">
 
 **Reject**
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/monitoring-wdf-capability-use.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [token ratio]
-breadcrumb: [Viewing product subscription details, Explore, Subscription Management, Get started, Administer]
+breadcrumb: [Viewing product subscription details, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Monitoring Workflow Data Fabric capability usage with Subscription Management
@@ -32,7 +32,7 @@ The following table shows definitions of the entries in the **Column names** col
 |capability\_id|A unique identifier for each Workflow Data Fabric capability.|
 |exchange\_value|The number of tokens expended when the associated capability is used.|
 
-The **Column values** column has two comma-separated entries per row. The first entry corresponds to the capabilitiy\_id, while the second entry corresponds to the exchange\_value.
+The **Column values** column has two comma-separated entries per row. The first entry corresponds to the capability\_id, while the second entry corresponds to the exchange\_value.
 
 ## Workflow Data Fabric token ratio tab
 

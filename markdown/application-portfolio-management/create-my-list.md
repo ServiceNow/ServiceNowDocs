@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/create-my-list.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-18"
-reading_time_minutes: 2
-breadcrumb: [Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create my list
@@ -87,8 +87,6 @@ Add conditions to narrow which records appear in the list. The selected list’s
         |Select Source|Select the table that provides the records for this list.|
         |Select columns|Choose which fields appear as columns. By default, columns are displayed from an existing workspace list view \(if available\). Otherwise, columns are displayed from the table’s default list view.|
         |Add filters|Add conditions to narrow which records appear in the list. For details, see [Filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-filter-conditions-reference.md).|
-
-    When creating a custom list, you can combine multiple filter conditions using AND or OR. These options control how records are included in the list. Use AND when all conditions must be true for a record to appear in the list. Use OR when any one of the conditions can be true for a record to appear in the list.
 
 6.  Select **Create**.
 

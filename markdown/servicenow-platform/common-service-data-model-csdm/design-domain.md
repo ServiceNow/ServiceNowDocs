@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -70,7 +70,7 @@ Use the Business Capability form to create, modify, and extend business capabili
 
 \[Omitted image "business-capability-form.png"\] Alt text: Business capability form.
 
-To update capabilities, select the **Update Capability Level and HierarchyID** related link. Follow these guidelines when you update capabilities to verify that the capability map reflects the change:
+To update capabilities, select the **Update Capability Level and HierarchyID** related link. Follow these guidelines when you update capabilities to confirm that the capability map reflects the change:
 
 -   If the parent capability is updated in the hierarchy, the levels of all its leaf node capabilities are recalculated.
 -   The total number of leaf node levels in a hierarchy can’t exceed six.

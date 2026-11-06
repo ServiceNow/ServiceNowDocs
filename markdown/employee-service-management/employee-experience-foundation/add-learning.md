@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and associate topics, Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Create and associate topics, Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Associate learning content to a topic
@@ -24,7 +24,7 @@ User Criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 
 Do the following steps:
 
-1.  Install the Learning \[sn\_lep\] application: 
+1.  Install the Learning \[sn\_lep\] application: [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/configuring-learning.md)
 2.  Provide employees with the Talent Development license to enable access to the learning content: [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-employee-profile-licensing.md)
 3.  Navigate to the **Scheduled jobs** &gt; **Refresh access to all apps** and click **Execute Now**.
 

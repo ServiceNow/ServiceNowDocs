@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [App creation, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [App creation, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit an app's settings in Creator Studio
@@ -36,7 +36,7 @@ There are some things you can't change after you've created the app, like its ta
 
 3.  Open the App settings modal.
 
-    1.  Select the more actions icon \(\[Omitted image "sn-studio-more-options-icon.png"\]\) in the navigation panel.
+    1.  Select the more actions icon \[Omitted image "sn-studio-more-options-icon.png"\] in the navigation panel.
 
     2.  Select **App settings**.
 

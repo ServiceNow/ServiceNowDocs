@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -76,6 +76,4 @@ Details of the filter. For example, Active is True.
 </table>## Useful references
 
 [Create a consumer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-consumer-criteria.md).
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-reference.md)
 

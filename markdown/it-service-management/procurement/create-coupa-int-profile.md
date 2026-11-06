@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrating with Coupa, Integrating with external procurement applications, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Integrating with Coupa, Integrating with external procurement applications, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create a Coupa integration profile

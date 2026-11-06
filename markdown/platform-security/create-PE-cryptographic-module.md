@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/create-PE-cryptographic-module.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Create a Field Encryption cryptographic module to define the mechanisms used for
 
 ## Before you begin
 
-Role required: sn\_kmf.cryptographic\_manager or sn\_kmf\_admin, security\_admin, admin
+Role required: security\_admin  and sn\_kmf.cryptographic\_manager  or sn\_kmf.admin
 
 ## About this task
 
@@ -24,24 +24,17 @@ This procedure describes options that are available with Field Encryption with t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption Modules** &gt; **New**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption Experience** &gt; **Create new module**.
 
-    \[Omitted image "parent-crypto-module.png"\] Alt text: Shows new crypto module form for Field Encryption Enterprise.
+2.  Enter the module name and select the algorithm.
 
-2.  On the form, fill in the fields.
+    \[Omitted image "fe-create-crypto-module.png"\] Alt text: Shows new crypto module creation.
 
-    |Field|Description|
-    |-----|-----------|
-    |Module name|Alphanumeric string to be referenced when running scripts.|
-    |Crypto spec template|Default template used to create the cryptographic module that contains mappings of many crypto purposes to crypto specifications and recommended algorithms.|
-    |Application|The selected application scope.|
-    |Name|Encryption module name is prepended with application scope name to avoid conflict with other scoped applications on module creation. For example, if you created a module with the name `my_crypto_module` in the global application scope, the name is saved as `global.my_crypto_module`.|
-    |Crypto module lifecycle state|The term lifecycle refers to the creation, use, and deactivation of a cryptographic module. Set to **Draft** initially during configuration. When using the module, set to **Published**. The Default template is automatically set to **Published**.|
-    |Parent crypto module|The parent is populated automatically as **column\_level\_encryption**.|
+3.  Select **Create**.
 
-3.  Click **Submit**.
+4.  Click **Submit**.
 
-    After submitting successfully, your cryptographic module is listed in the Cryptographic Modules table.
+    After submitting successfully, your cryptographic module is listed in the Field Encryption modules overview.
 
     **Warning:**
 
@@ -53,12 +46,29 @@ This procedure describes options that are available with Field Encryption with t
 
     A default cryptographic specification is created with the crypto purpose set to Symmetric Data Encryption/Decryption and the algorithm as AES 256 CBC. Select the algorithm for updates.
 
-4.  To open the configuration options, click the newly created cryptographic module.
+5.  To open the configuration options, click the newly created cryptographic module.
 
     **Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. An error message displays and you are prevented from adding additional cryptographic modules. \[Omitted image "cle\_limits-modules.png"\] Alt text: Error message for maximum modules created in FEE.
 
 
+## Result
+
+After submitting successfully, your cryptographic module is listed on the Field Encryption modules overview page of Field Encryption Experience.
+
+**Warning:**
+
+-   **For legacy encryption support users:**
+
+    If you're using the non-enterprise version of Field Encryption, you're limited to five fields. If you've exceeded this limit, you receive the following warning:
+
+    This insertion exceeds the number of published fields limit for Field Encryption  entitled with the Subscription Product. The Enterprise subscription for Field Encryption is required for additional fields. Please reach out to your Account team.
+
+
 ## What to do next
+
+To open the configuration options, click the newly created cryptographic module.
+
+**Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. A message displays at the top stating the allowance and the number of encrypted fields that you currently have is listed. Once that maximum allowance is met, the **Create new** button is grayed out and you are prevented from adding additional cryptographic modules. \[Omitted image "fe-efc-limit.png"\] Alt text: Shows encrypted fields limit reached.
 
 [Create a cryptographic specification for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/create-crypto-spec-pe.md).
 

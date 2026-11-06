@@ -7,9 +7,9 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Establish MS Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Establish Microsoft Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Using Client Secret value
@@ -36,5 +36,5 @@ Establish a connection between newly created Microsoft Teams graph application w
 -   **[Activate MS Teams chat connector for MS Teams Graph Spoke user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/activate-microsoft-teams-chat-connector-for-existing-users.md)**  
 If you are an existing user, then follow the procedure in this section to activate Microsoft Teams chat connector for MS Teams Graph Spoke user.
 
-**Parent Topic:**[Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
+**Parent Topic:**[Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 

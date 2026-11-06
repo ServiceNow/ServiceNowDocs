@@ -7,8 +7,9 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [AI Risk and Compliance Content, EU AI Act, NIST AI RMF, SB 53, Colorado AI Act]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -24,14 +25,16 @@ The application contains the following frameworks and authority documents:
 
 -   EU Artificial Intelligence Act
 -   NIST Risk Management Framework
+-   Transparency in Frontier Artificial Intelligence Act \(SB 53\)
+-   Colorado Artificial Intelligence Act \(SB 205\)
 
 \[Omitted image "ai-risk-compliance-content.png"\] Alt text: Available AI Risk and Compliance content packs.
 
 **Note:** The list of frameworks supported isn’t exhaustive and may evolve in future releases.
 
-## Benefits of the ESG content accelerator application
+## Benefits of the AI Risk and Compliance Content application
 
-The following are the benefits of the ESG content accelerator application:
+The following are the benefits of the AI Risk and Compliance Content application:
 
 -   Provides the ability to choose the framework you want to use and activate.
 -   Helps you to choose the citations that are associated with a particular framework and install them in the active state in your instance.
@@ -41,7 +44,13 @@ The following are the benefits of the ESG content accelerator application:
 **Related topics**  
 
 
-[Activate or update NIST Risk Management Framework using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
+[Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
 
-[Activate or update EU Artificial Intelligence Act using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)
+[Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)
+
+[Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md)
+
+[Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md)
+
+[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -53,11 +53,11 @@ Name of the Kafka stream.
 
 </td></tr><tr><td>
 
-Topic
+Topic Alias
 
 </td><td>
 
-Name of the topic to monitor for messages.
+Name of the topic alias for the topic to monitor for messages.
 
 </td></tr><tr><td>
 

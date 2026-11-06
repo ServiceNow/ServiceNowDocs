@@ -1,23 +1,23 @@
 ---
 title: Using scheduling assistant via GenAI in Virtual Agent
-description: Book, reschedule, and cancel appointments with Virtual Agent conversations using ServiceNow Otto Setup a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
+description: Book, reschedule, and cancel appointments with Virtual Agent conversations using ServiceNow Otto. Setup a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/using-scheduling-assistant-via-genai-in-virtual-agent.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Using scheduling assistant via GenAI in Virtual Agent
 
-Book, reschedule, and cancel appointments with Virtual Agent conversations using ServiceNow Otto Setup a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
+Book, reschedule, and cancel appointments with Virtual Agent conversations using ServiceNow Otto. Setup a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
 
-Virtual Agent conversations supported by ServiceNow Otto uses large language model \(LLM\) to communicate with customers.
+Virtual Agent conversations supported by AI uses large language model \(LLM\) to communicate with customers.
 
 ## Booking Appointments
 
@@ -47,7 +47,7 @@ To cancel an appointment:
 2.  Identify the Appointment: User chooses the date and time of the appointment they want to cancel.
 3.  Confirm Cancellation: The Virtual Agent removes the appointment from the user’s calendar and confirm the cancellation.
 
-LLM service verifies that these interactions are smooth and efficient, allowing you to manage your schedule with ease.
+LLM service confirms that these interactions are smooth and efficient, allowing you to manage your schedule with ease.
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

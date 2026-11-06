@@ -1,18 +1,28 @@
 ---
 title: Indicator data options for single score visualizations
-description: When you select an indicator data source for a single score visualization, the following Data configuration options are available.
+description: When you select an indicator data source for a single score visualization, the following data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-dv-sing-sc-ind-data.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Indicator data options for single score visualizations
 
-When you select an indicator data source for a single score visualization, the following Data configuration options are available.
+When you select an indicator data source for a single score visualization, the following data configuration options are available.
+
+**Note:** Fields that apply to Data snapshots indicators apply only to native Data snapshots indicators, not classic indicators with Data snapshots enabled.
+
+The data source for a native Data snapshots indicator has the indicator type **Automated - Data Snapshots** or **Formula - Data Snapshots**.
+
+\[Omitted image "ds-source-native.png"\] Alt text: Data source properties for a native Data snapshots indicator
+
+The data source for a classic indicator with Data snapshots enabled has the indicator type of either **Automated** or **Formula**.
+
+\[Omitted image "ds-source-enabled.png"\] Alt text: Data source properties for an enabled Data snapshots indicator
 
 <table id="simpletable_wqy_sjr_qtb"><thead><tr><th>
 
@@ -53,6 +63,30 @@ Time aggregation
 </td><td>
 
 Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
+
+</td></tr><tr><td>
+
+Select an aggregation \(Data snapshots indicators only\)
+
+</td><td>
+
+The aggregation is based on the Data snapshots indicator's configuration. You can't change it in the context of creating a data visualization. **Count** counts the number of records. **Count distinct** counts the number of unique values rather than the total number of records. For example, if the name of a user appears more than once in a list, the user is only counted once. Other choices perform the specified aggregate operation, such as summing the values in a field across records.
+
+</td></tr><tr><td>
+
+Field \(Data snapshots indicators only\)
+
+</td><td>
+
+The field on the Data snapshot's source to which the aggregate is applied. Required for all aggregates except Count.
+
+</td></tr><tr><td>
+
+Show incomplete periods \(Data snapshots indicators only\)
+
+</td><td>
+
+Select to display values from the period in progress. Clear this check box to show only the values for completed periods.
 
 </td></tr><tr><td>
 
@@ -175,8 +209,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -198,7 +236,7 @@ Show metric label
 
 </td><td>
 
-Option to show the metric label. In donut charts, the value is not shown if it cannot fit the donut.
+Option to show the metric label. In donut charts, the value is not shown if it can't fit the donut.
 
 </td></tr><tr><td>
 
@@ -255,6 +293,19 @@ Show score date
 </td><td>
 
 Display the date of the score.
+
+</td></tr><tr><td>
+
+Wrap elements
+
+</td><td>
+
+Wraps the following elements when container width is lesser than the element's width:-   Change and Change Percentage
+-   Target and Gap
+-   Metric Label
+-   Score Date
+
+If not selected, these elements are truncated.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

@@ -7,16 +7,16 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Exploring Software Asset Management
 
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 
-Beginning with the ServiceNow AI Platform Zurich release, we will provide limited support for the Software Asset Management classic user interface. While it will remain active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience.
+Beginning with the ServiceNow AI Platform Brazil release, we will provide limited support for the Software Asset Management classic user interface. While it will remain active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience.
 
 The Software Asset Management application's core functionality remains the same in both the user interfaces.
 
@@ -24,7 +24,7 @@ The Software Asset Management application's core functionality remains the same 
 
 The Software Asset Management application is available with activation of the new Activate all Software Asset Management Professional plugins including Software Asset Workspace \(com.sn\_samp\_master\_ws\). Activating this plugin automatically activates the Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\) and the Software Asset Workspace \(sn\_sam\_workspace\) store application . After the new plugin is activated, you can't access the classic user interface.
 
-For releases prior to Zurich, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Software Asset Workspace Workspace plugin is activated, you can't revert to the classic Software Asset Management application.
+For releases prior to Brazil, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Software Asset Workspace Workspace plugin is activated, you can't revert to the classic Software Asset Management application.
 
 **Note:** After the Software Asset Workspace is activated, the menus in the classic Software Asset Management application are hidden for the features that have been moved to the Software Asset Workspace.
 
@@ -42,13 +42,19 @@ For detailed information on configuring and using the classic Software Asset Man
 
 Even after you activate the Software Asset Workspace \(sn\_sam\_workspace\) store application, the following menus continue to remain in the classic framework:
 
-**Software Asset Demand**:
+<table id="table_bzc_2xr_spb"><thead><tr><th colspan="3">
+
+Software asset
+
+</th></tr></thead><tbody><tr><td>
+
+Software Asset Demand
 
 -   Create New
 -   Demands
 -   Demand Requirement
 
-**Administration**:
+ Administration
 
 -   Custom Products
 -   Custom part Numbers
@@ -64,29 +70,40 @@ Even after you activate the Software Asset Workspace \(sn\_sam\_workspace\) stor
 -   Revert Customizations
 -   Software Model with De-activated Discovery Maps
 
-**SaaS License**:
+ SaaS License
 
 -   Unrecognized Subscription Identifier
 -   SSO Integration Profiles
 -   Direct Integration Profiles
 
-**SAP Compliance and Optimization**:
+ SAP Compliance and Optimization
 
 -   SAP Connections
 -   Connection Setup
 -   Scheduled Import
 -   Transform History
 
--   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMOverview.md)**  
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>-   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMOverview.md)**  
 An overview of the functionality of the Software Asset Management application.
+-   **[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/exploring-now-assist-sam.md)**  
+ServiceNow Otto for Software Asset Management \(SAM\) uses AI to automate software asset management operations, improve compliance, and optimize license management.
 -   **[Now Mobile app for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/now-moile-app-for-sam.md)**  
 Use the Now Mobile app to view the hardware and software assets that are assigned to you.
 -   **[Virtual Agent for software requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.md)**  
 You can implement ServiceNow® Virtual Agent to enable your employees to request software through a predefined conversational interface that is powered by artificial intelligence. Virtual Agent helps address software requests automatically so that your IT fulfillment professionals can focus on more complex requests and incidents.
 -   **[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMContentService.md)**  
 Opt in to the Software Asset Management Content Service to share unnormalized software installation data from your organization with ServiceNow® to improve the normalization process.
--   **[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
-A software model is a profile of the software that you've purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you've purchased.
+-   **[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
+A software model is a profile of the software that you have purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you have purchased.
 -   **[Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMMigration.md)**  
 Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 -   **[Software model relationship to software installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/swmodel-swinstall-rel.md)**  
@@ -96,7 +113,7 @@ The Software Component Model \[cmdb\_software\_component\_model\] table stores c
 -   **[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)**  
 License metrics are set in software entitlements and used for reconciliation in various metric groups and software model combinations.
 -   **[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMDiscovery.md)**  
-After you've imported your entitlements, use ServiceNow Discovery or Microsoft SCCM to discover software installations in your environment and transfer that data into the ServiceNow AI Platform.
+Identify all software installed within your organization's IT environment, including details such as publisher, product, and version. Then, standardize and validate this discovered data to ensure accuracy and consistency through software normalization.
 -   **[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-suites.md)**  
 Software Suites is a way for a software publisher to group related applications as a set.
 -   **[Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_DiscoveryModels.md)**  
@@ -118,19 +135,23 @@ Share entitlements across different entities within your organization by creatin
 -   **[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMReconciliation.md)**  
 Automated license reconciliation keeps license positions accurate and up-to-date without manual calculations. Reconciliation runs weekly or on demand.
 -   **[Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sw-reclamation-rules.md)**  
-Reclamation rules aggregate usage over time and specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
+Reclamation rules aggregate usage over time. These rule also specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
 -   **[Microsoft SCCM software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sccm-software-usage.md)**  
 Activate the Microsoft SCCM software usage plugin to integrate your software usage data with the ServiceNow AI Platform.
 -   **[Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMOptimization.md)**  
 You can optimize your environment by reclaiming unused software as well as removing unauthorized software.
 -   **[Allocation management on Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/allocation-management-sam.md)**  
 Software Asset Management \(SAM\) offers optimal license assignment confirming that licensing entities are allocated according to the available entitlements.
+-   **[Licensing support for Microsoft SQL Server enterprise on Server+ CAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-sql-server-enterprise-edition-licensing-modal.md)**  
+Leverage the enhanced licensing rule to optimize licensing for legacy  Microsoft SQL Server Enterprise edition licenses under the Server + CAL licensing model with Software Assurance \(SA\).
 -   **[License usage analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/install-licenseusage-journey.md)**  
 Gain visibility into the end-to-end journey from installing software to consuming licenses.
 -   **[Employee off-boarding process for asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/itasset-offboarding.md)**  
 Coordinate an employee's off-boarding process via a workflow that lets you request, assess, and remove assets.
 -   **[Windows Server cluster license optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/windows-cluster-optimization.md)**  
 Optimize rights used for Windows Server clustering based on costs and compliance criteria.
+-   **[Microsoft Server Infrastructure and License Consumption report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/device-license-consumption-report.md)**  
+Get a unified overview of your Microsoft server products, including their infrastructure, license usage, and exemptions, with detailed justifications for exemptions.
 -   **[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/byol-concepts.md)**  
 Bring your own license \(BYOL\) support enables you to determine the license compliance of your Microsoft and Oracle software products across hybrid infrastructures. Bring your own subscription \(BYOS\) support enables you to determine the license compliance of your Red Hat Enterprise Linux \(RHEL\) software products across hybrid infrastructures.
 -   **[Understanding your cluster infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/understand-sam-cluster.md)**  
@@ -147,8 +168,12 @@ Use the Software Asset Management application in conjunction with the Governance
 Use the Agent Client Collector application to collect software inventory and usage data for the Software Asset Management application.
 -   **[Use Software Asset Management and Application Portfolio Management to manage technology onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-tpm.md)**  
 Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
+-   **[Guided Experience for Lifecycle Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedplaybook-sw-lifecycle-reports.md)**  
+Use a guided walk-through playbook to achieve audit readiness and regulatory compliance through accurate lifecycle reporting.
 -   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
+-   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
+Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
 -   **[Consumption rule evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/consumption-rule-evaluation.md)**  
 Consumption rules control which installations or users can consume a license. After you link a consumption rule to an entitlement, the license metric type determines how the system evaluates the rule during allocation.
 

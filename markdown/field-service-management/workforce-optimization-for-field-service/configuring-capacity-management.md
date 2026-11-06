@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
@@ -24,7 +24,7 @@ The steps for configuring Field Service Capacity and Reservations Management are
 
     You can activate the Field Service Capacity and Reservations Management plugin \(com.snc.fsm\_capacity\_management\) for Field Service Management if you have the admin role.
 
-2.  [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md) to have the Capacity Console in the CSM/FSM Configurable workspace for capacity planners.
+2.  [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md) to have the Capacity Console in the CSM/FSM Configurable workspace for capacity planners.
 3.  [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md)
 
     Create capacity reservation rules to use in the capacity definition.

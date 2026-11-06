@@ -1,18 +1,18 @@
 ---
 title: Add constituents to a household in Public Sector Digital Services
-description: Add constituents as members of a household.
+description: Add consumers as members of a household.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-households-add-constituents.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure households, Customer data, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Add constituents to a household in Public Sector Digital Services
 
-Add constituents as members of a household.
+Add consumers as members of a household.
 
 ## Before you begin
 

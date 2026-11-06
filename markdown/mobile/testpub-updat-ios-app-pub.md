@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/testpub-updat-ios-app-pub.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -61,9 +61,9 @@ Role required: admin
     -   See [KB1649415](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1649415) for ServiceNow's Apple App Store listing guidance.
     -   See [Apple documentation](https://developer.apple.com/ios/submit/) that explains how to list a public app on the Apple App Store.
     -   For information about ServiceNow mobile apps version history and changes, see:
-        -   Now Mobile
-        -   ServiceNow Agent
-        -   Custom app
+        -   [Now Mobile](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
+        -   [ServiceNow Agent](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
+        -   [Custom app](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)
 7.  Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features.
 
     For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-supported-devices.md).

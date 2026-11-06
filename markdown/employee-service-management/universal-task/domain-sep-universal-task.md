@@ -7,9 +7,9 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Universal Task, Employee Service Management]
+breadcrumb: [Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Domain separation and Universal Task
@@ -53,7 +53,7 @@ The following Data tables are data separated.
 -   sn\_uni\_task\_template
 -   sn\_uni\_task\_employee\_form
 
-**Parent Topic:**[Configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
 
 **Related topics**  
 

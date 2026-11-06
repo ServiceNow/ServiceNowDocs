@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/assessment-metric-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Assessments reference, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Assessment Metric form
@@ -237,7 +237,7 @@ Show Benchmarks
 Opens the Benchmarks Dashboard that provides visibility into your key performance indicators \(KPIs\) and trends.**Note:**
 
 -   This related link is available only for survey\_admin, assessment\_admin and survey\_reader with bm\_viewer role.
--   You must opt in to Benchmarks to view the dashboard.
+-   You must opt in to Benchmarks to view the dashboard. See Enable Benchmarks
 -   This is applicable only for a published survey.
 
 </td></tr><tr><td>

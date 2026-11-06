@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/messg-integrate-line-csm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Service Management]
 ---
@@ -51,5 +51,7 @@ Users with the roles listed in the following table can use the Conversational In
 |-----|-----|
 |agent\_workspace\_user|Accept an ongoing LINE chat conversation with a customer through the LINE service channel in Advanced Work Assignment.|
 |sn\_customerservice\_manager|View details of a LINE chat conversation by using interaction records of type **Messaging** and subtype **Line**.|
-|sn\_customerservice.consumer, sn\_customerservice.customer|Initiate LINE chat conversations with a virtual agent or live agent so that you can search for articles in Communities and Knowledge Management, access service catalogs, and create a customer service case.|
+|sn\_customerservice.consumer, sn\_customerservice.customer|Initiate LINE chat conversations with a virtual agent or live agent. Search for articles in Communities and Knowledge Management, access service catalogs, and create a customer service case.|
+
+For configuration information, see [Configure LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/omnichannel-consumer-messaging-line.md).
 

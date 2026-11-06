@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build triggers, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Edit a saved trigger
@@ -50,7 +50,7 @@ You can't modify the trigger type and the table.
 
     For instructions on how to detach a trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/detach-saved-trigger.md).
 
-9.  Update the trigger properties, such as the trigger name, by selecting the More Actions menu \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to open the more actions menu.\) and then selecting **Properties**.
+9.  Update the trigger properties, such as the trigger name, by selecting the More Actions menu icon \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to select more actions menu.\) and then selecting **Properties**.
 
 10. On the Trigger properties pop-up window, update the properties as needed and select **Update**.
 

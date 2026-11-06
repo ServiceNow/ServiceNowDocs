@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute and monitor, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # View the available robots
@@ -20,7 +20,7 @@ View a list of available robots in Automation Center for reference purpose.
 
 Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin
 
-In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/installed-with-rpa-hub.md).
+In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/installed-with-rpa-hub.md).
 
 ## About this task
 
@@ -41,5 +41,5 @@ You can't create a robot.
 5.  Review the information on the robot page.
 
 
-**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/execute-and-monitor.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
 

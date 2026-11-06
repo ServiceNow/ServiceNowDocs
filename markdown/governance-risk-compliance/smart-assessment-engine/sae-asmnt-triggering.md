@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Smart Assessment Engine, Governance, Risk, and Complianc
 
 You can trigger a Smart Assessment Engine assessment from the Workflow Studio or from a script. With either method, you specify a published assessment template, the assessors who respond, and other optional inputs.
 
-**Important:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
+**Important:** You can create an assessment only from a published assessment template.
 
 -   **Trigger an assessment from Workflow Studio**
 

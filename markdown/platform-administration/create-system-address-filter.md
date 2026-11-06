@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-system-address-filter.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Email service, Create, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Email service, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a system address filter

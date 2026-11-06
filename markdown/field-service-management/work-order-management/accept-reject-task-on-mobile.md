@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject a work order task
@@ -32,15 +32,15 @@ Unlike other work order tasks, the task card for a work order task related to a 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d108855e95">
+<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d119258e95">
 
 Option
 
-</th><th align="left" id="d108855e98">
+</th><th align="left" id="d119258e98">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d108855e104">
+</th></tr></thead><tbody><tr><td id="d119258e104">
 
 **Accept a task**
 
@@ -55,7 +55,7 @@ Do one of the following:
     -   Tap **Accept**.
 When you accept a task, the work order task state changes to **Accepted**.
 
-</td></tr><tr><td id="d108855e145">
+</td></tr><tr><td id="d119258e145">
 
 **Reject a task**
 

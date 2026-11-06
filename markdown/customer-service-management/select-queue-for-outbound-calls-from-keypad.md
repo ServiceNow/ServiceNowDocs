@@ -1,16 +1,16 @@
 ---
-title: Select queues for outbound calls from keypad, phone directory, and Interaction record
+title: Select queues from keypad, directory, and Interaction record
 description: This procedure describes how to select a queue and place outbound calls using the Global Call keypad and phone directory in the CCaaS platform. It covers both standard and mandatory queue selection scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-02"
-reading_time_minutes: 1
-breadcrumb: [Selecting queues for outbound calls, ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Queue selection, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Select queues for outbound calls from keypad, phone directory, and Interaction record
+# Select queues from keypad, directory, and Interaction record
 
 This procedure describes how to select a queue and place outbound calls using the Global Call keypad and phone directory in the CCaaS platform. It covers both standard and mandatory queue selection scenarios.
 
@@ -39,7 +39,7 @@ Follow these steps to select a queue and place an outbound call using the keypad
 
 3.  The selected queue displays in the search field, confirming your choice.
 
-4.  If you set a queue as default, it applies to all your outbound calls.
+4.  If you enable the toggle for **Select option to use queue for all outbound calls**, and set the queue as default, it applies to all your outbound calls.
 
     \[Omitted image "int-set-queue-to-default.png"\] Alt text: Enable the toggle to set a queue to default for all outbound calls
 
@@ -52,7 +52,7 @@ Follow these steps to select a queue and place an outbound call using the keypad
 7.  After the call ends, complete any required wrap up activities, such as selecting a wrap-up code and adding notes, and select **Submit &amp; close**.
 
 
-## What to do next
+## Result
 
 The queue you selected remains active for your next outbound call. You can change the queue at any time by repeating steps 2 and 3, or you can continue using the same queue for subsequent calls.
 

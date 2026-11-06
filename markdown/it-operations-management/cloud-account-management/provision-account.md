@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,34 +26,30 @@ Role required: sn\_itom\_cam.cw\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Requests**.
+1.  On the Account requests page, select the **Approved requests** tile.
 
-2.  On the Account requests page, select the **Approved requests** tile.
+2.  Select the account to provision.
 
-3.  Select the account to provision.
-
-4.  In the **Select cloud context** section, fill in the fields.
+3.  In the **Select cloud context** section, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Cloud Provider|This field is automatically set to the cloud provider platform in the request.|
     |CAM configuration|Configuration name of the cloud organization.|
     |Organizational unit \(appears for AWS\)|Organizational unit \(OU\) are the list of units populated automatically after discovery is run.|
-    |GovCloud Organization \(appears for AWS GovCloud requests\)|The AWS GovCloud organization to which the GovCloud account will be invited.|
-    |GovCloud Organizational unit \(appears for AWS GovCloud requests\)|The Organizational unit \(OU\) to which the GovCloud account will be moved.|
     |Management group \(appears for Azure\)|Management groups help you manage multiple subscriptions by applying governance settings that automatically apply to all subscriptions within them. This field is automatically set to the management group found after discovery is performed.|
 
-5.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
+4.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
 
-<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d144863e217">
+<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d157092e182">
 
 Option
 
-</th><th align="left" id="d144863e220">
+</th><th align="left" id="d157092e185">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d144863e226">
+</th></tr></thead><tbody><tr><td id="d157092e191">
 
 **Add an existing billing account**
 
@@ -61,7 +57,7 @@ Action
 
 Select an existing account from the drop-down list.
 
-</td></tr><tr><td id="d144863e235">
+</td></tr><tr><td id="d157092e200">
 
 **Create and add a new single account**
 
@@ -74,7 +70,7 @@ Select an existing account from the drop-down list.
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d144863e280">
+</td></tr><tr><td id="d157092e245">
 
 **Create and add new bulk accounts**
 
@@ -91,19 +87,19 @@ Select an existing account from the drop-down list.
 
 
 </td></tr></tbody>
-</table>6.  If you are provisioning an Azure account, determine whether to use an existing enrollment account or create and add a new enrollment account.
+</table>5.  If you are provisioning an Azure account, determine whether to use an existing enrollment account or create and add a new enrollment account.
 
     An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\). It organizes and controls Azure subscriptions and resources.
 
-<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d144863e370">
+<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d157092e335">
 
 Option
 
-</th><th align="left" id="d144863e373">
+</th><th align="left" id="d157092e338">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d144863e379">
+</th></tr></thead><tbody><tr><td id="d157092e344">
 
 **Enrollment account**
 
@@ -111,7 +107,7 @@ Action
 
 Select an existing account.
 
-</td></tr><tr><td id="d144863e388">
+</td></tr><tr><td id="d157092e353">
 
 **Create and add a new single account**
 
@@ -125,7 +121,7 @@ Select an existing account.
 6.  Select **Add**.
 
 
-</td></tr><tr><td id="d144863e437">
+</td></tr><tr><td id="d157092e402">
 
 **Create and add new bulk accounts**
 
@@ -142,18 +138,22 @@ Select an existing account.
 
 
 </td></tr></tbody>
-</table>7.  Provide a comment.
+</table>6.  Provide a comment.
 
     1.  In the **Work notes** section, enter your comments in the **Comments** text field.
 
     2.  Select **Post Comment**.
 
-8.  At the top-right corner of the screen, select **Provision**.
+7.  At the top-right corner of the screen, select **Provision**.
 
-9.  In the dialog box, confirm the provisioning request by selecting **Yes**.
+8.  In the dialog box, confirm the provisioning request by selecting **Yes**.
 
 
 ## Result
 
-Based on the defined context, Cloud Account Management creates a subscription account within the specified cloud organization and AWS organization unit or Azure management group.
+-   Based on the defined context, Cloud Account Management creates a subscription account within the specified cloud organization and AWS organization unit or Azure management group
+-   When an Azure subscription is requested through Cloud Account Management, an alias is appended to the request name. The alias consists of an 8-character randomly generated suffix. For example: `CWSAREQ0000001-businessapp1-UEFwnlF8`.
+
+
+**Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/creating-an-account.md)
 

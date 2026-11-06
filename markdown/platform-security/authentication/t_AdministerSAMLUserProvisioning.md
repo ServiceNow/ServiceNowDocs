@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAML user provisioning, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [SAML user provisioning, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Administer SAML user provisioning
@@ -20,7 +20,7 @@ Update the User table with the users in your IdP by first setting up field mappi
 
 Set up your IdP mapping to identify which fields in the IdP are mapped to the correct fields in the User table.
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cust-central-configure-info-tab.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Configure the display of the Customer Information view using CRM Workspace.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
@@ -30,7 +30,7 @@ The Customer Information view displays all touch points that a customer has had 
 
 2.  On the Getting Started page of the guided setup, select **Get Started**
 
-3.  In the Customer Central - Customer Information for CSM Configurable Workspace category, view the list of tasks to configure the feature.
+3.  In the Customer Central - Customer Information for CRM Workspace category, view the list of tasks to configure the feature.
 
     |Task|Description|
     |----|-----------|

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configuring-dashboards.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Configure your dashboard and perform admin tasks. Most tasks are performed in ei
 
 ## Common configuration tasks
 
-The following tasks do not require a special role, though they may be limited to the dashboard owner or a user with editing rights.
+The following tasks do not require a special role, though they may be limited to the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) owner or a user with editing rights.
 
 -   [Change dashboard name or description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md)
 

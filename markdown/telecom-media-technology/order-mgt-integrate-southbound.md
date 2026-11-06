@@ -1,18 +1,18 @@
 ---
 title: Integrating Order Management with southbound external systems
-description: If you have a Telecommunications Service Management subscription, you can submit outbound service order requests to various external systems by integrating the Order Management application with the external southbound systems.
+description: Submit outbound service order requests to external systems by integrating Order Management with southbound systems. This integration enables automated order fulfillment across your service provider ecosystem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/order-mgt-integrate-southbound.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Integrating Order Management with southbound external systems
 
-If you have a Telecommunications Service Management subscription, you can submit outbound service order requests to various external systems by integrating the Order Management application with the external southbound systems.
+Submit outbound service order requests to external systems by integrating Order Management with southbound systems. This integration enables automated order fulfillment across your service provider ecosystem.
 
 After the decomposition of an order, the Order Management application requires support from external systems. These systems manage the fulfillment life cycle of the order. They include network activation, network configuration, and resource management.
 

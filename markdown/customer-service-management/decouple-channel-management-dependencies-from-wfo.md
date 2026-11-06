@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/decouple-channel-management-dependencies-from-wfo.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---

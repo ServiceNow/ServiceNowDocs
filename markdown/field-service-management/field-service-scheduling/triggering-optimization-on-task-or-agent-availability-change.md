@@ -1,32 +1,44 @@
 ---
 title: Optimizing technician schedules in response to urgent events
-description: Prioritized event optimization is a mode of intraday optimization that aims to run a faster, more focused intraday process. This mode specifically targets the most critical events.
+description: Resolve urgent scheduling changes quickly and efficiently by configuring prioritized event optimization. Prioritized event optimization responds immediately to critical events and targets only the specific technicians and tasks affected, without reoptimizing all tasks and qualifiers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Optimizing technician schedules, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Optimizing technician schedules in response to urgent events
 
-Prioritized event optimization is a mode of intraday optimization that aims to run a faster, more focused intraday process. This mode specifically targets the most critical events.
+Resolve urgent scheduling changes quickly and efficiently by configuring prioritized event optimization. Prioritized event optimization responds immediately to critical events and targets only the specific technicians and tasks affected, without reoptimizing all tasks and qualifiers.
 
 ## About intraday optimization for prioritized events
 
-Prioritized event optimization enables same-day, event-driven schedule adjustments. It runs shortly after a prioritized event occurs. This mode enables targeted optimization of a specific group of Field Service technicians and tasks without adjusting the entire qualifier. The buffer window property determines the number of minutes to collect priority events before running the optimization job. If the buffer is set to one minute, the system waits one minute after a priority event to collect any additional events before optimizing.
+Prioritized event optimization enables same-day, event-driven schedule adjustments that run shortly after a prioritized event occurs. This mode targets a specific group of Field Service technicians and tasks without adjusting the entire qualifier.
 
-For technicians, the optimization engine considers all those who have the qualifier role for optimization. Differing from default intraday optimization, the optimization engine ignores overlapping territories and only includes the territories directly impacted by the events.
+The buffer window property determines how many minutes the system waits to collect additional priority events before running optimization. For example, with a one-minute buffer, the system waits one minute after detecting a priority event to capture any other events before starting optimization.
 
-For tasks, if the affected record is an active task that is not schedule-locked, the optimization engine considers it for optimization. If the affected record is a technician, the optimization engine considers any pending dispatch tasks that have an SLA breach or are due to end within the next hour. Additionally, for all tables, the optimization engine includes all currently scheduled or assigned tasks of the technicians being considered.
+## Technician selection
 
-To set up intraday optimization for prioritized events, see [Configure immediate optimization for prioritized events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-immediate-optimization.md).
+The optimization engine considers technicians directly affected by events, such as those running late or early. The system also considers technicians already assigned to affected tasks.
 
-Custom event types and flows for intraday must be migrated to the new Intraday Event Type table. To create records for custom options, you must update the flows to populate the event type field with the corresponding references, converting from a drop-down to a new table.
+**Note:** Task filters configured in the scheduling attribute configuration don’t apply to prioritized intraday optimization.
+
+## Task Selection
+
+When only task-related events occur without technician events, the engine includes only existing task assignees. If no assignees exist, no technicians are considered.
+
+To set up intraday optimization for prioritized events, see [Configure optimization for prioritized events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-immediate-optimization.md).
+
+## Optimization with matching rules
+
+You can apply matching rules to prioritized event optimization for improved control over job assignments. Matching rules are available only when Territory-Based Optimization is enabled and can't be used with optimization configurations that use assignment groups.
+
+Matching rules identify a subset of relevant tasks and technicians to optimize based on criteria such as skills, search radius, and time thresholds. For detailed information about how matching rules work and the available matching dimensions, see [Matching rules for prioritized intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/matching-rules-for-prioritized-intraday-optimization.md).
 
 **Related topics**  
 

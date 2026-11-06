@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use\_case\_embed\_logik\_io\_ui\_in\_an\_html\_page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use cases, Using ServiceNow CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Embed ServiceNow CPQ UI in an HTML page
@@ -106,6 +106,8 @@ Replace the `<BASE_LOGIK_URL>` placeholder with the base URL of the ServiceNow C
 ## Content security policy settings
 
 To embed the ServiceNow CPQ application in an iframe, you must configure it to allow the host application’s domain. Log a case with ServiceNow CPQ support, describe your intent to embed ServiceNow CPQ UI in an HTML page, and request that your ServiceNow CPQ server CSP settings be configured to accommodate the parent application’s domain URL.
+
+**Note:** To create a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ## The EasyXDM library
 

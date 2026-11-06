@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configure-email-digest.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure email digests
@@ -35,15 +35,15 @@ When you [create or update a notification](https://raw.githubusercontent.com/Ser
 
 3.  Select the **Digest type**.
 
-<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d258294e165">
+<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d267663e165">
 
 Digest Type
 
-</th><th align="left" id="d258294e168">
+</th><th align="left" id="d267663e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d258294e174">
+</th></tr></thead><tbody><tr><td id="d267663e174">
 
 **Single target record**
 
@@ -51,7 +51,7 @@ Description
 
 Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a single target record, for example INC001 only.
 
-</td></tr><tr><td id="d258294e190">
+</td></tr><tr><td id="d267663e190">
 
 **Multiple target record**
 

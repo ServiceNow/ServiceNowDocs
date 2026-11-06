@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-csdm-modules.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -44,7 +44,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     **Note:** You must have the itil user role to create a service. If you do not have the itil user role, the **New** button for creating a service is not displayed.
 
-    For a description of the field values on the Service form, see [Create New Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/service-form-lists-ws-reference.md).
+    For a description of the field values on the Service form, see [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/service-form-lists-ws-reference.md).
 
     The Create New Service form is displayed.
 
@@ -58,7 +58,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     \[Omitted image "saved-service-form.png"\] Alt text: Sample form for a service.
 
-    In releases prior to 20.x.x, a single level of hierarchy was supported, such as from a parent service to the child service, from the child service to the process, and from the process to a dependency. This hierarchy is supported for services for existing customers and it is displayed in the Services form, as shown in the example.
+    In releases prior to 20.x.x, a single level of hierarchy was supported. For example, from a parent service to the child service, from the child service to the process, and from the process to a dependency. This hierarchy is supported for services for existing customers. It is displayed in the Services form, as shown in the example.
 
 5.  To add the selected service to Operational Resilience reporting, select **Add to OpRes reporting**.
 

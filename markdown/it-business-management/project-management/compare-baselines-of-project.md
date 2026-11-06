@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
-breadcrumb: [Create baseline of a project, Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create baseline of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Compare financial baselines of a project
@@ -22,21 +22,21 @@ Role required: it\_project\_manager
 
 ## About this task
 
-You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectBaseline.md) multiple baselines at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the project at a moment, providing a basis from which you can identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
+You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectBaseline.md) multiple baselines at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the financial data of the project at a particular moment. This provides a basis from which you can identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
 
 ## Procedure
 
 1.  To compare the financial baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d219412e83">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d234248e78">
 
 Option
 
-</th><th align="left" id="d219412e86">
+</th><th align="left" id="d234248e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219412e92">
+</th></tr></thead><tbody><tr><td id="d234248e87">
 
 **From the Project Workspace**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select the **Baselines** from header and then select **Compare baselines**.
 
 
-</td></tr><tr><td id="d219412e140">
+</td></tr><tr><td id="d234248e135">
 
 **From the Project form**
 
@@ -61,7 +61,7 @@ Steps
 5.  On the **Financials** tab, select the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Baseline information icon\) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d219412e203">
+</td></tr><tr><td id="d234248e198">
 
 **From the Baseline form**
 
@@ -83,7 +83,7 @@ Steps
 
     The comparative data of the baselines display in the following two sections:
 
-    -   The **Financial Baseline Summary** section displays four widgets. The first two widgets contain the financial data of the two baselines, the third widget contains their variance, and the fourth widget contains the actual costs to date.
+    -   The **Financial Baseline Summary** section displays four widgets. The first two widgets contain the financial data of the two baselines. The third widget contains their variance, and the fourth widget contains the actual costs to date of the project.
     -   The **Financial Baseline Details** section displays the cost plans and benefit plans of the two baselines in two different grids. Each plan type has two rows corresponding to each baseline data.
 
         **Note:** Select the baseline legend icon \(\[Omitted image "compare-baselines-legend-icon.png"\] Alt text: Baseline Legend info icon.\) to see the color code of rows representing each baseline.

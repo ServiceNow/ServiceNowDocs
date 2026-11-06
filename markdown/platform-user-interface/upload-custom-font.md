@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/upload-custom-font.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [theme builder, custom font, upload custom font, upload font]
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,7 +17,9 @@ Upload and preview up to 10 custom font families and an unlimited number of asso
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
@@ -25,7 +27,11 @@ A font family is a grouping of fonts that share a common design and may include 
 
 Upload only one font family at a time. Theme Builder does not support variable type fonts.
 
-**Note:** Only upload a font that you're licensed to use. Depending on their size, custom fonts can inadvertently adjust the amount of text on the page. Test and preview your fonts before publishing your theme to your instance.
+**Note:** Only upload a font that you're licensed to use.
+
+You can also watch a short video on how to upload a custom font to your theme.
+
+\[Omitted video\] Description: Upload a custom font to your theme.
 
 ## Procedure
 
@@ -37,7 +43,7 @@ Upload only one font family at a time. Theme Builder does not support variable t
 
     \[Omitted image "tb-editor-page-list.png"\] Alt text: Page drop-down list with Editor selected.
 
-3.  From the Theme drop-down list, select the theme that you want to edit.
+3.  From the Theme drop-down list located in the header bar, select the theme that you want to edit.
 
     The **Global styles** tab opens automatically with the Overview panel displayed.
 
@@ -46,10 +52,6 @@ Upload only one font family at a time. Theme Builder does not support variable t
 4.  From the Overview panel, navigate to the Typography section and select **Add custom font family**.
 
     \[Omitted image "tb-overview-add-custom-font.png"\] Alt text: Overview panel Typography section with Add custom font family selected.
-
-    **Note:** You can also upload a font directly from the Typography panel.
-
-    \[Omitted image "tb-typography-panel.png"\] Alt text: Global styles Typography panel.
 
     The Add custom font family modal appears.
 
@@ -71,18 +73,14 @@ Upload only one font family at a time. Theme Builder does not support variable t
 
 7.  Select **Save**.
 
-    Your new font family appears in the Typography section under **Manage custom fonts**, along with the associated font faces.
-
-    \[Omitted image "tb-typography-font-family.png"\] Alt text: Typography section with new custom font family and font faces listed.
-
-8.  Preview how your selected font family or font face appears using any of the following options.
-
-    -   Use the **UI styles preview** or **Experience preview** tabs on the main stage to view how your new font appears globally throughout your theme.
-    -   Open the preview modal by selecting the custom font family or font face name that you want to preview listed beneath the **Manage custom fonts** header.
 
 ## Result
 
-After you upload your custom font, you can select it as your default font and apply it to your theme. For information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-font.md). The most recently added font family appears at the bottom of the **Manage custom fonts** list.
+Your new font family appears in the Typography section under **Manage custom fonts**, along with the associated font faces. The most recently added font family appears at the bottom of the **Manage custom fonts** list.
+
+## What to do next
+
+After you upload your custom font, you can select it as your default font and apply it to your theme. See [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-font.md).
 
 -   **[Add a font face](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/add-font-face.md)**  
 Add a new style such as bold or italic to your custom font family in Theme Builder.

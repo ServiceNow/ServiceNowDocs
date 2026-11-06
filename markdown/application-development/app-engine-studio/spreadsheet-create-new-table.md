@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create new table from spreadsheet import
@@ -20,7 +20,7 @@ Create new tables directly from a Microsoft Excel spreadsheet import.
 
 -   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
 
-Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 

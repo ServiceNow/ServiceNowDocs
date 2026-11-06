@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-optional-activity-for-a-case-type-playbook.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Playbooks for Customer Service Management, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Although you can insert global optional activities anywhere in the playbook, you
 
 ## Procedure
 
-1.  Navigate to**All** &gt; **Process Automation** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 2.  Select the Playbooks tab at the top of the page.
 
@@ -36,32 +36,30 @@ Although you can insert global optional activities anywhere in the playbook, you
 
 4.  See the optional activities under all the stages by turning on the toggle for **Optional activities**.
 
-5.  Select **Add optional activity** at any stage or globally.
-
-6.  Under **Add activity**, select **Playbook for Customer Service Management** &gt; **Approval Request**.
+5.  Under **Add activity**, select **Playbook for Customer Service Management** &gt; **Approval Request**.
 
     A new approval request optional activity is created.
 
-7.  Select the **Approval Request** optional activity.
+6.  Select the **Approval Request** optional activity.
 
-8.  Under **Edit activity properties**, in the **Details** tab, add a **Label**, **Description**, **Activity Definition**, and set **Start Rule** to **Manual**.
+7.  Under **Edit activity properties**, in the **Details** tab, add a **Label**, **Description**, **Activity Definition**, and set **Start Rule** to **Manual**.
 
     This setting is the Optional Activity indicator.
 
-9.  Save the new activity record.
+8.  Save the new activity record.
 
-10. Select **View all properties**.
+9.  Select **View all properties**.
 
-11. Navigate to **Automation tab** &gt; **parent records** and select the parent record.
+10. Navigate to **Automation tab** &gt; **parent records** and select the parent record.
 
-12. Go to the **Automation** tab and set the values of the starting state and ending state.
+11. Go to the **Automation** tab and set the values of the starting state and ending state.
 
     The values for the starting and ending states are derived from the value field of the sys\_choice table.
 
     To create a custom state flow, see [Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateAStateFlow.md). Ensure that the class of the state flow is “Customer Service Case Flow." You can also configure more declarative actions for the optional activity. For more information, see [Creating new declarative action assignments](https://www.servicenow.com/community/next-experience-articles/creating-new-declarative-action-assignments-in-the-sys/ta-p/2394930).
 
-13. Select **Done**.
+12. Select **Done**.
 
-14. Select **Activate**.
+13. Select **Activate**.
 
 

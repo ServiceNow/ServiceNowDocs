@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 11
-breadcrumb: [Explore, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Product life cycles
@@ -96,7 +96,7 @@ Software publishers offer various add-ons and optional support that can extend t
 
 The scheduled job **SAM - Generate Software Lifecycle Report** aggregates life cycle data for all normalized software products which have non- zero installation counts. Each record on the Software Lifecycle Report table displays all life cycle phase columns along with their corresponding phase start dates, if the date is available. Life cycle codes can also be displayed to indicate whether the record is an approximated life cycle or not.
 
-The Software Lifecycle Report table also displays the Current Phase and Upcoming Phase columns along with their corresponding dates. For further details about these columns, see [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+The Software Lifecycle Report table also displays the Current Phase and Upcoming Phase columns along with their corresponding dates. For further details about these columns, see [Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 Another scheduled job, **SAM - Create Calculated Software Lifecycles**, checks for all records on the Software Lifecycle Report table which have GA dates but are missing EOS, EOES, or EOL dates and creates calculated life cycles for them based on the definitions that you have created on Software Lifecycle Averages table.
 

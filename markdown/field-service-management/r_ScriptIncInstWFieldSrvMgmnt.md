@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/r\_ScriptIncInstWFieldSrvMgmnt.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
@@ -34,6 +34,11 @@ Field Service Management adds the following geolocation script includes.
 |WMGeolocationAJAX|Automatically routes tasks from the Field Service Management mobile dispatch map.|
 |WMGeolocationUtils|Provides utilities for Field Service Management geolocation maps.|
 |WorkTaskRouting|Routing functionality for work order tasks.|
+
+-   **[Advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/customizations.md)**  
+Describes the customization extension model for separating default functionality from custom scripts using read-only SNC and exposed includes.
+-   **[Field Service Manager Mobile script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/manager-mobile-ref.md)**  
+Update the script includes if you want to change the base system value.
 
 **Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md)
 

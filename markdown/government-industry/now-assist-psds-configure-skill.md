@@ -20,8 +20,8 @@ Each skill is configured separately, and tailored to support agents across vario
 
 |Skill|Description|
 |-----|-----------|
-|Document screening|Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission. For more info, see Configure Document screening.|
-|Investigative case summarization|Synthesize narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case contexts and respond to inquiries. Generate detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record. For more info, see Configure Investigative case summarization.|
+|Document screening|Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission. For more info, see [Configure Document screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ai-skill-doc-screening.md).|
+|Investigative case summarization|Synthesize narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case contexts and respond to inquiries. Generate detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record. For more info, see [Configure Investigative case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-config-inv-case-summ.md).|
 |Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-customize-case-summ.md).|
 |Chat summarization|Auto-generate summaries of agent-facing chats. Summaries capture the essence of conversations between agents and constituents or virtual agents, highlighting key points. Critical information from interactions is readily accessible for future reference and actions. For more information, see [Configure Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-customize-chat-summ.md).|
 
@@ -51,7 +51,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** to access the **AI Skills** tab of the AI Admin Hub console.
 
-    \[Omitted image "image.psds-ai-admin-hub"\] Alt text: AI skills
+    \[Omitted image "psds-ai-admin-hub.png"\] Alt text: AI skills
 
 2.  Activate and configure the skills for the ServiceNow Otto for PSDS.
 
@@ -61,7 +61,7 @@ Role required: admin
     -   Chat Summarization
     These features are grouped under the **Customer** workflow group. Select **PSDS** in the dropdown to access the skills for ServiceNow Otto for Public Sector Digital Services \(PSDS\). Each feature has its associated skills.
 
-    \[Omitted image "image.psds-otto-ai-admin-hub"\] Alt text: AI skills for PSDS Customer workflow
+    \[Omitted image "psds-otto-ai-admin-hub.png"\] Alt text: AI skills for PSDS Customer workflow
 
 3.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
@@ -71,7 +71,7 @@ Role required: admin
 
 5.  Select the inputs or triggers for the selected skill.
 
-    \[Omitted image "image.psds-otto-chat-summ-define"\] Alt text: Example Define triggers screen for the chat skill.
+    \[Omitted image "psds-otto-chat-summ-define.png"\] Alt text: Example Define triggers screen for the chat skill.
 
 6.  After you configure all inputs or triggers for the selected skill, select **Save and continue** to go to the next step.
 
@@ -90,13 +90,13 @@ Role required: admin
     -   **In-product**: When selected, the ServiceNow Otto skills are displayed on forms and workspaces. For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
     -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md). For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
-        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the CRM Workspace. For Government case summarization, select **In-product**.
+        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the Public Sector Workspace. For Government case summarization, select **In-product**.
 
 10. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 
 11. Review your choices and select **Activate** to complete the configuration.
 
-    \[Omitted image "image.psds-activate-ai-skills"\] Alt text: Modal showing Activate option for the government case summarization skill
+    \[Omitted image "psds-activate-ai-skills.png"\] Alt text: Modal showing Activate option for the government case summarization skill
 
 
 ## Result

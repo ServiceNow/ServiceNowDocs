@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -152,14 +152,6 @@ Enables journey owners to add mentors to a journey. Mentors can have tasks assig
 </td><td>
 
 Enables journey owners to edit and add Journey Accelerator tasks and stages in a journey.**Note:** Journey owners and mentors can't modify stages, cases, or tasks coming from the **Lifecycle Event**.
-
-</td></tr><tr><td>
-
-**Can view satisfaction score**
-
-</td><td>
-
-Enables journey owners to see the pulse survey results tied to this journey.**Note:** This feature requires integration with Listening Posts. See, .
 
 </td></tr><tr><td>
 

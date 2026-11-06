@@ -1,5 +1,5 @@
 ---
-title: Collecting data from your system devices
+title: Collect data from your system devices
 description: Run a check command on your server or database to gather data from those devices. Depending on the check that is invoked, collected data may be monitoring data, visibility data, log data, or user metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/checks-policies-working-with.html
@@ -7,12 +7,12 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Collecting data from your system devices
+# Collect data from your system devices
 
 Run a check command on your server or database to gather data from those devices. Depending on the check that is invoked, collected data may be monitoring data, visibility data, log data, or user metrics.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-12-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Preparing for Agent Client Collector implementation

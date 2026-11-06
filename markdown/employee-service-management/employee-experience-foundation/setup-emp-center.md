@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configuring Employee Center
@@ -40,5 +40,5 @@ In the links below, Employee Center features are organized into categories, each
 **Related topics**  
 
 
-[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
+[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

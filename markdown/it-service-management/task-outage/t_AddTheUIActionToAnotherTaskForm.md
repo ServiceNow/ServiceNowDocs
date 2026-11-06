@@ -7,7 +7,7 @@ release: zurich
 product: Task Outage
 classification: task-outage
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Outage, IT Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 3.  Modify the **Conditions** field as described in the following examples.
 
-<table id="choicetable_ayx_s1b_h5"><tbody><tr><td id="d169749e97">
+<table id="choicetable_ayx_s1b_h5"><tbody><tr><td id="d288521e97">
 
 **To add this UI action to the Ticket \[ticket\] table**
 
@@ -40,7 +40,7 @@ Role required: admin
 
 `current.getRecordClassName() == 'incident' || current.getRecordClassName() == 'problem' || current.getRecordClassName() == 'ticket'`
 
-</td></tr><tr><td id="d169749e109">
+</td></tr><tr><td id="d288521e109">
 
 **To use the UI action on only the Problem \[problem\] table**
 

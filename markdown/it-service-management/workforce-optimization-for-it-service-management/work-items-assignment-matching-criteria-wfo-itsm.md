@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create a criteria for a matching rule in Work scheduler, Assigning work, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---

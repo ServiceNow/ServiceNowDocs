@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DevOps Change Velocity, IT Service Management]
 ---
@@ -36,6 +36,8 @@ Use the DevOps Insights application with ServiceNow Performance Analytics to gai
 View the list of scan checks available in DevOps Change Velocity to get recommendations on fixing any errors that might exist.
 -   **[DevOps Change Velocity APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-change-velocity-apis.md)**  
 The DevOps Change Velocity APIs provides endpoints that enable the interaction with external DevOps tools.
+-   **[DevOps Change Velocity glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/glossary-landing-dcv.md)**  
+Learn about the terms and concepts in DevOps Change Velocity.
 
 **Parent Topic:**[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-landing-page-new.md)
 

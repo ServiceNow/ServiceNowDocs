@@ -1,20 +1,20 @@
 ---
 title: An overview of alerts for Event Management operators
-description: As an Event Management operator, you need to understand how an alert is generated from an event and what to look for in an alert. You also need to understand how alerts can be grouped together.
+description: As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/operator-events-alerts.html
 release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # An overview of alerts for Event Management operators
 
-As an Event Management operator, you need to understand how an alert is generated from an event and what to look for in an alert. You also need to understand how alerts can be grouped together.
+As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 
 This is the first lesson in the Event Management tutorial.
 
@@ -71,7 +71,7 @@ Lesson 4
 
 \[Omitted image "operator-event-management-overview.png"\] Alt text: An operator view of Event Management
 
-As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. Later in this tutorial, you see the phases of a typical alert management process.
+As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. Later in this tutorial, you will see the phases of a typical alert management process.
 
 ## Alert priority and severity
 

@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, HR Service Delivery Integration with SuccessFactors, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using HR Service Delivery Integration with SuccessFactors, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Use HCM AI agents for HR Service Delivery Integration with SuccessFactors

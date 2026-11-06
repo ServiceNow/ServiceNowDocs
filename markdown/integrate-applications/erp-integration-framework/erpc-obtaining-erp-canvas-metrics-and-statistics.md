@@ -1,30 +1,31 @@
 ---
 title: Obtaining Zero Copy Connector for ERP metrics and statistics
-description: Use the Zero Copy Connector for ERP home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
+description: Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erpc-obtaining-erp-canvas-metrics-and-statistics.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, metrics, statistic, kpi, dashboard, log]
+breadcrumb: [Exploring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtaining Zero Copy Connector for ERP metrics and statistics
 
-Use the Zero Copy Connector for ERP home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
+Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 
 View statistics, metrics, and debug information for Zero Copy Connector for ERP on the dashboard. Open links to related Zero Copy Connector for ERP properties, logs, events, and editors.
 
 You must have the sn\_erp\_mining.erp\_admin or sn\_erp\_mining.erp\_user role to view the dashboard.
 
-To view the dashboard, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**..
+To view the dashboard, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
 Select areas or items in the charts, graphs, and lists on the dashboard to view the underlying records. For example, select a section of a donut chart to see a list of the records for that section.
 
-\[Omitted image "image.erpc-home-page-records"\] Alt text: Donut chart with one section selected.
+\[Omitted image "erpc-home-page-records.png"\] Alt text: Donut chart with one section selected.
 
 ## Dashboard tabs
 
@@ -32,7 +33,7 @@ The **Recent overview** tab contains information obtained in the last 24 hours.
 
 The **Historical overview** tab contains all information.
 
-\[Omitted image "image.erpc-home-page-dashboard"\] Alt text: Zero Copy Connector for ERP dashboard with recent overview tab open.
+\[Omitted image "erpc-home-page-dashboard.png"\] Alt text: Zero Copy Connector for ERP dashboard with recent overview tab open.
 
 |Title|Type|Description|
 |-----|----|-----------|
@@ -42,7 +43,5 @@ The **Historical overview** tab contains all information.
 |Top 10 slowest synchronous transactions|Bar|Synchronous transactions ordered by slowest response time.|
 |Asynchronous transactions by entity type|Bar|Asynchronous transactions organized by entity type \(for example, read\).|
 |Synchronous transactions by entity type|Bar|Synchronous transactions organized by entity type \(for example, read\).|
-|Users grouped by role \(available on the **Recent overview** tab for users with the sn\_erp\_mining.erp\_admin role\)|Donut|Users that have initiated a job, organized by role.|
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
+|Users grouped by role \(available on the **Recent overview** tab for users with the sn\_erp\_mining.erp\_admin role\)|Donut|Users who have initiated a job, organized by role.|
 

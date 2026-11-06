@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Software asset analytics view, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Lifecycle management dashboard
@@ -24,7 +24,7 @@ Access the Lifecycle management dashboard by navigating to **Workspaces** &gt; *
 
 You can filter the dashboard reports based on a publisher or product. Select any report to view more information on product life cycles.
 
-\[Omitted image "lifecycle-management-dashboard.png"\] Alt text: Lifecycle management dashboard view displaying product lifecycles.
+\[Omitted image "lifecycle-management-dashboard-updated.png"\] Alt text: Lifecycle management dashboard view displaying product lifecycles
 
 <table id="table_cs4_3k1_t1c"><thead><tr><th>
 
@@ -61,6 +61,22 @@ Software Lifecycle Report\[sam\_sw\_product\_lifecycle\_report\]
 </td><td>
 
 Software product life-cycles in your environment that are based on their EOL timelines.The chart displays data from the current year and the previous 15 years.
+
+</td></tr><tr><td>
+
+Lifecycle data completeness
+
+</td><td>
+
+Software Lifecycle Playbook\[sam\_sw\_lifecycle\_playbook\]
+
+</td><td>
+
+Lists all the open lifecycle playbooks that have been created.
+
+ You can open any of the existing playbooks to update or complete them.
+
+ You can select **Add to lifecycle data** to create a playbook for lifecycle data. For details on creating the playbook, see [Create a comprehensive lifecycle report using a guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.md).
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/r\_InstalledWithGeolocation.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Geolocation, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -154,7 +154,7 @@ glide.geolocation.proximity
 Minimum distance an agent must move to be considered in a new location \(in meters\). This setting establishes a geolocation perimeter that prevents ServiceNow from creating unnecessary history records when an agent has multiple tasks in the same vicinity. An example of this might be when an agent has several tasks in one building. The system assumes that all task activity within the specified radius is part of a single record and does not create additional records when the agent moves from task to task around the building.-   **Type**: Integer
 -   **Default value**: 500
 
- For an explanation of how location tracking works, using both the frequency and criteria properties, see the section How location tracking works, at the end of the table.
+For an explanation of how location tracking works, using both the frequency and criteria properties, see the section How location tracking works, at the end of the table.
 
 **Note:** The iOS version of the app updates geolocation only when the mobile device detects a significant location change, which is determined by the your device's operating system. When the operating system updates its location, your app updates with that location change. Distance and time property values are not honored for the iOS version of ServiceNow apps.
 

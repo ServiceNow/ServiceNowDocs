@@ -1,21 +1,23 @@
 ---
 title: Customize an order summarization skill in ServiceNow Otto for Order Management
-description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Customize an order summarization skill in ServiceNow Otto for Order Management
 
-Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
 
 ## Before you begin
+
+**Note:** Microsoft Azure, Amazon bedrock, Now LLM, Now LLM LTS, and Google Cloud vertex AI are currently the providers for this ServiceNow Otto application's skills.
 
 Role required: admin
 
@@ -23,7 +25,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for Order Management under SOM.
+2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for Order Management under Sales CRM.
 
 3.  Copy the order summarization skill for customization.
 
@@ -139,7 +141,7 @@ Description of the base input field value.
 
 9.  Configure the **In-product desktop** field to display the order summarization for Order Management.
 
-    1.  Display AI skills on the forms and workspaces by selecting the **In-product desktop** field.
+    1.  Display Now Assist skills on the forms and workspaces by selecting the **In-product desktop** field.
 
         For the skills that appear in-product, select the arrow to identify the roles that can use the skill.
 
@@ -152,5 +154,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
 

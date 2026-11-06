@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Project workbench - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project workbench - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Access the project workbench
@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Access the project workbench in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d298244e62">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d320453e62">
 
 Option
 
-</th><th align="left" id="d298244e65">
+</th><th align="left" id="d320453e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d298244e71">
+</th></tr></thead><tbody><tr><td id="d320453e71">
 
 **From Planning Console**
 
@@ -43,7 +43,7 @@ Steps
 3.  Select the **Planning Console** selection arrow on the banner and select **Project Workbench**.
 
 
-</td></tr><tr><td id="d298244e108">
+</td></tr><tr><td id="d320453e108">
 
 **From a project record**
 

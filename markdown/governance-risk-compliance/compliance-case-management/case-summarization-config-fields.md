@@ -7,7 +7,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate GRC case summarization, Case summarization for compliance cases, AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -85,4 +85,5 @@ Review and activate
 Summary of the skill configuration.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)
+

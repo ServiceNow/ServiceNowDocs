@@ -7,9 +7,9 @@ release: zurich
 product: Search Suggestions
 classification: search-suggestions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer]
+breadcrumb: [Using Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Use the GraphQL REST API to view suggestions created from external user searches

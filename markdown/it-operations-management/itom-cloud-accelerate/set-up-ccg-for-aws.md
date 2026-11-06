@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -199,15 +199,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d162459e633">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d175164e643">
 
 Option
 
-</th><th align="left" id="d162459e636">
+</th><th align="left" id="d175164e646">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162459e642">
+</th></tr></thead><tbody><tr><td id="d175164e652">
 
 **Create an assume role configuration for the management account**
 
@@ -225,7 +225,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
-</td></tr><tr><td id="d162459e699">
+</td></tr><tr><td id="d175164e709">
 
 **Configure the trusting account for Cloud Configuration Governance**
 
@@ -253,7 +253,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 -   **[Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/configure-trusting-account-for-ccg.md)**  
 Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
 -   **[Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md)**  
-Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account. All the related member accounts or trusted accounts are automatically loaded avoiding the need to add them individually.
+Create a service account assume role configuration to facilitate cross-account access. This supports access from a management account to a member account, or from a trusted account to a trusting account. All related accounts are automatically loaded, avoiding the need to add them individually.
 
 **Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

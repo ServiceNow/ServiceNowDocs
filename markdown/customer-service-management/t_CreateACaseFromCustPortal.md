@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateACaseFromCustPortal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
@@ -113,4 +113,11 @@ A detailed description of the customer question, issue, or problem.
 ## Result
 
 The case is created, assigned a case number, and added to the creator's case list. To view this list, select the **My Lists** tab on the Customer Service Portal header and select **All Cases** in the left pane.
+
+**Related topics**  
+
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+
+[Chat with an agent from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_StartAChatWithAnAgent.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Authentication, Access Management]
 
 Authentication configurations for API.
 
-API based Authentication in ServiceNow®'s validates the identity of a user who accesses an instance, and then authorizes the user to features that match the user's role or job function while making an API call to the ServiceNow® instance.
+API based authentication in ServiceNow validates the identity of a user who accesses an instance, and then authorizes the user to features that match the user's role or job function while making an API call to the ServiceNow instance.
 
-Following are the types of API Authentication in ServiceNow®:
+Following are the types of API authentication in ServiceNow:
 
 -   [Certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/certificate-api-auth.md)
 -   [OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/oauth-inbound-and-outbound.md)

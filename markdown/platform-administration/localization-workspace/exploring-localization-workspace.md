@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2025-12-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring Localization Workspace
@@ -30,23 +30,23 @@ Localization Workspace is available for on-premise \(self-hosted\) customers. It
 
 |User|Description|
 |----|-----------|
-| | |
 |Localization administrator|localization\_admin|
 |Localization editor|localization\_editor|
 |Localization fulfiller|localization\_fulfiller|
 |Localization manager|localization\_manager|
 |Localization requester|localization\_requestor|
 |Localization Workspace user|sn\_lw.user|
+|Terminology Manager|sn\_lw.terminology\_manager|
 
-Many of the user roles in Localization Workspace are derived from roles in Localization Framework. For more information see [Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/roles-localization-framework.md).
+For more information see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/localization-workspace-roles.md).
 
 ## Localization Workspace benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Submit and manage translation requests from a single interface.|The Localization Workspace homepage enables you to request translations into multiple languages, using multiple different providers.|Localization requester.|
-|Select multiple types of content for translation.|When you select types of content to translate, Localization Workspace automatically identifies and collects all untranslated or partially translated content in scope.|Localization requester.|
-|Generate an informational cost estimate.|Informational cost estimates enable you to plan and control your localization budget.|Localization requester.|
+|Submit and manage translation requests from a single interface.|Localization Workspace enables you to request translations into multiple languages, using multiple different providers.|Localization Workspace user.|
+|Select multiple types of content for translation.|When you select types of content to translate, Localization Workspace automatically identifies and collects all untranslated or partially translated content in scope.|Localization Workspace user.|
+|Generate an informational cost estimate.|Informational cost estimates enable you to plan and control your localization budget.|Localization Workspace user.|
 
 ## What to explore next
 

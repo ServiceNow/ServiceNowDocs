@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/platform-analytics-roles.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Reference, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -171,7 +171,7 @@ dashboard\_admin
 
 </td><td>
 
-Can create, edit, duplicate, share, and delete any dashboard. These rights extend to both Platform Analytics and responsive dashboards. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md).Can schedule the export of all dashboards on an instance. Can also delete scheduled exports.
+Can create, edit, duplicate, share, and delete any dashboard. These rights extend to both Platform Analytics and responsive dashboards. For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_DashboardRoles.md).Can schedule the export of all dashboards on an instance. Can also delete scheduled exports.
 
 </td><td>
 
@@ -685,7 +685,7 @@ analytics\_filter\_admin or higher
 
 [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 
-[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-roles.md)
+[Core UI Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-roles.md)
 
 [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dashboard-tasks.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+breadcrumb: [Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # Configure the Context Engine Mapper
@@ -127,9 +127,12 @@ If you cannot query the context table through dot walking, you can define a scri
 
 4.  Select **Submit** to save the context mapping.
 5.  Navigate to **All** &gt; **Data Context Engine** &gt; **Data Sources**.
+
+    \[Omitted image "account-lifecycle-data-source.png"\] Alt text: Metric data collection data source
+
 6.  Open the data source you had created earlier and select **Publish**.
 
-    Data will now be collected based on the predefined schedule and the context engine data record is created and stored in the **Context Engine Data** table.
+    Data will now be collected according to the defined schedule and the context engine data record is created and stored in the **Context Engine Data** table.
 
 
 The following examples show how to set up the different types of mapping:
@@ -146,6 +149,4 @@ The following examples show how to set up the different types of mapping:
 
     \[Omitted image "account-lifecycle-context-engine-mapping-2.png"\] Alt text: Context engine mapping with script
 
-
-**Parent Topic:**[Set up the Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-dce.md)
 

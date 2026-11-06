@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ Internal claims can also be created by inquiry agents if the investigation of an
 
 3.  Create a claim from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d67504e116">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d72991e116">
 
 Option
 
-</th><th align="left" id="d67504e119">
+</th><th align="left" id="d72991e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d67504e125">
+</th></tr></thead><tbody><tr><td id="d72991e125">
 
 **Create a claim from a consumer record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Click the customer that you want to create a claim for.
 
 
-</td></tr><tr><td id="d67504e152">
+</td></tr><tr><td id="d72991e152">
 
 **Create a claim from a business account record**
 
@@ -62,7 +62,7 @@ Steps
 2.  Click the account that you want to create a claim for.
 
 
-</td></tr><tr><td id="d67504e179">
+</td></tr><tr><td id="d72991e179">
 
 **Create a claim from an interaction record**
 

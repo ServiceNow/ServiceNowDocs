@@ -1,25 +1,23 @@
 ---
 title: Debug Zero Copy Connector for ERP models
-description: Use the debug models option in Zero Copy Connector for ERP to see a log capturing the probe payload, payload response, status, and other information.
+description: Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/debug-zero-copy-connector-for-erp-models.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-08"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, model, log, payload, status]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Debug Zero Copy Connector for ERP models
 
-Use the debug models option in Zero Copy Connector for ERP to see a log capturing the probe payload, payload response, status, and other information.
+Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
 
 ## Before you begin
-
-This feature is available starting with the Zurich Patch 4 release.
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -30,20 +28,20 @@ View debug logs from within Zero Copy Connector for ERP to obtain information ab
 Keep the following guidance in mind when debugging Zero Copy Connector for ERP models:
 
 -   Turn debugging on and off as needed.
--   Debug logs are stored and accessible for the current session only.
--   Debug logs are cleared on a daily basis automatically.
--   When probe executions happen outside of "Use ERP Data" flows, only transaction IDs are stored. Flow context IDs are not stored.
--   For probe executions triggered via "Use ERP" flows, flow context IDs are stored.
+-   Debug logs persist for the current session only.
+-   The system clears debug logs automatically each day.
+-   For probe executions triggered through **Use ERP Data** flows, the system stores flow context IDs.
+-   For probe executions outside of **Use ERP Data** flows, the system stores only transaction IDs, not flow context IDs.
 
 ## Procedure
 
-1.  To turn on debugging, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Enable Data Product Debugging**.
+1.  To turn on debugging, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Enable ERP Models Debugging**.
 
 2.  Select **Confirm**.
 
 3.  To view the logs, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Open Debug Logs**.
 
-    Debug logs enable you to see information about flow engine context, probe communication, probe payload, payload response, status, and more.
+    Debug logs show flow engine context, probe communication, probe payload, payload response, status, and more.
 
     For details about the columns in debug logs, see [Zero Copy Connector for ERP debug logs field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-debug-logs-columns.md).
 
@@ -51,6 +49,4 @@ Keep the following guidance in mind when debugging Zero Copy Connector for ERP m
 
 5.  Select **Confirm**.
 
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

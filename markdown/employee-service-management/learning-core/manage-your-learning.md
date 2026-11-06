@@ -1,5 +1,5 @@
 ---
-title: Using Learning
+title: Using My Learning
 description: Use My Learning in Employee Center to access your learnings and achievements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/manage-your-learning.html
@@ -7,26 +7,31 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [use]
 breadcrumb: [Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Using Learning
+# Using My Learning
 
 Use My Learning in Employee Center to access your learnings and achievements.
 
-## Overview of Using Learning
+-   **[Enroll in a course collection on My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/enroll-course-lxp.md)**  
+Enroll in a course collection to pursue courses that can enhance your skills.
+-   **[Resume a course](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/resume-course.md)**  
+Use this widget to easily access and resume any course that you may have left mid-way.
+-   **[Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-personal-collection.md)**  
+Create personal collections to include the courses and paths that you would like to access easily.
+-   **[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-challenge.md)**  
+Create a Learning challenge to challenge yourself to complete a particular number of courses within a time frame that you choose.
+-   **[View recent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/view-recent-activity-lxp.md)**  
+Review your recent learning activity with easy access to your assigned, saved, shared with, and history tabs.
+-   **[Assign Learning to your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/assign-learning-lxp.md)**  
+As a manager, assign Learning to your team members to enhance their skills.
+-   **[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-learning-achievements.md)**  
+Using Learning, learning administrators can manage user activities. To aid the users learning journey, learning admins can create achievements, define achievement rules, and monitor the overall learning activity of a user.
+-   **[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/skill-sensing-for-learning-content.md)**  
+Skill sensing is an automated approach to identify and extract skills from the title and description of a course so that the admin can associate the skills to a course.
 
-Learning workflow helps you build and track learning journeys. You can enroll in or create course collections, resume courses, and review recent activity. To stay motivated, set Learning challenges, and as a manager, assign courses to your team.
-
-1.  [Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-learning-achievements.md)
-
-    Using Learning, learning administrators can manage user activities. To aid the users learning journey, learning admins can create achievements, define achievement rules, and monitor the overall learning activity of a user.
-
-2.  [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/create-personal-collection.md)
-
-    Create personal collections to include the courses and paths that you would like to access easily.
-
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

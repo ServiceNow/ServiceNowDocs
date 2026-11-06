@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Response templates, Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Response templates in Agent Workspace for HR Case Management, Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Use response templates in HR cases or tasks
@@ -28,15 +28,15 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d308293e83">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d313813e83">
 
 Item
 
-</th><th align="left" id="d308293e86">
+</th><th align="left" id="d313813e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d308293e92">
+</th></tr></thead><tbody><tr><td id="d313813e92">
 
 **HR case**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d308293e119">
+</td></tr><tr><td id="d313813e119">
 
 **HR task**
 
@@ -57,7 +57,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>4.  From the contextual side panel, select the Response templates icon \(\[Omitted image "response-template-icon.png"\]\).
+</table>4.  From the contextual side panel, select the Response templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\).
 
 5.  Select the View response templates icon \(\[Omitted image "view-response-templates.png"\] Alt text: View response templates icon\) to display templates based on the language preference of the selected user.
 

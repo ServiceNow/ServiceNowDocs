@@ -1,0 +1,118 @@
+---
+title: CMDB search AI agent
+description: Searches for CIs in the CMDB. It builds queries from the request, runs them, and returns a link or summary for the matched CIs. The agent supports multi-table searches with joins and can be consumed through MCP.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/cmdb-cmdb-search-ai-agent.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# CMDB search AI agent
+
+Searches for CIs in the CMDB. It builds queries from the request, runs them, and returns a link or summary for the matched CIs. The agent supports multi-table searches with joins and can be consumed through MCP.
+
+## Workflow
+
+The agent helps users complete tasks related to CMDB search.
+
+1.  Receive the request and validate required inputs.
+2.  Execute the appropriate tools to perform the requested action.
+3.  Return the results or update the relevant record.
+
+After the results are shown, you can refine the search with more detail or start a new one.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Script**
+
+Execute search queries
+
+Load initial context
+
+Single CI Record Processor
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+sn\_cmdb\_user
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+sn\_cmdb\_user
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+Search on CMDB
+
+</td></tr></tbody>
+</table>Learn more about Configuration Management Database \(CMDB\) at [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ITILConfigurationManagement.md).
+
+**Parent Topic:**[CMDB AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/cmdb-ai-agents-overview.md)
+

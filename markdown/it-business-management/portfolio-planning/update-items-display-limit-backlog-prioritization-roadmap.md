@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -46,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d89222e144">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d93913e144">
 
 Field
 
-</th><th align="left" id="d89222e147">
+</th><th align="left" id="d93913e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89222e153">
+</th></tr></thead><tbody><tr><td id="d93913e153">
 
 **Name**
 
@@ -65,7 +65,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d89222e179">
+</td></tr><tr><td id="d93913e179">
 
 **Type**
 
@@ -73,7 +73,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d89222e188">
+</td></tr><tr><td id="d93913e188">
 
 **Value**
 

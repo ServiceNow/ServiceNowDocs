@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-sls-pro-clm-mgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [sales promotion claim, sales promotion claim case, claim management, Manufacturing Commercial Operations]
 breadcrumb: [Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Identify and resolve log streaming issues
@@ -42,4 +42,13 @@ For example, if the last event time for a data input's endpoint server is yester
 
     1.  Navigate to **All** &gt; **ACC Log Analytics** &gt; **ACC Log Alerts**.
     2.  Open alerts and address the specified issues.
+
+## What to do next
+
+Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see [Set up additional ACC data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-data-input-setup.md).
+
+-   **[ACC data input streaming sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-streaming-sources-ref.md)**  
+In the ACC data input record, the Streaming Sources related list shows the streaming data of that data input's sources.
+
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-setup.md)
 

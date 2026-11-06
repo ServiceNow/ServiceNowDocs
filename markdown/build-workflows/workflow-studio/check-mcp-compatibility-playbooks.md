@@ -8,9 +8,9 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-09-21"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [MCP, playbooks, compatibility, tools]
-breadcrumb: [Playbooks as an MCP tool, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks as an MCP tool, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Check the compatibility of playbooks
@@ -52,6 +52,4 @@ When you try to [Add a playbook as an MCP tool](https://raw.githubusercontent.co
 ## What to do next
 
 Add the playbook as an MCP tool to an MCP server. For more information, see [Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md).
-
-**Parent Topic:**[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-as-mcp-tool.md)
 

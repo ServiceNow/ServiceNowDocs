@@ -1,171 +1,232 @@
 ---
-title: Virtual Agent release notes
-description: The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.Use automated evaluations to test your conversational assistant.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for Virtual Agent release notes
+description: The ServiceNow Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The September 2026 release deprecated Virtual Agent for NLU and keywords and added several features including upload file size improvements and embed enhanced chat capabilities.HEIDI BETH FEEL FREE TO UPDATE AS WELL. THIS MIMICS OLD HIGHLIGHTS SECTION.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/virtual-agent-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-09-04"
-reading_time_minutes: 6
-breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Virtual Agent release notes
+# ServiceNow Otto for Virtual Agent release notes
 
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
+The ServiceNow® Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.
 
-## About Virtual Agent
+## About ServiceNow Otto for Virtual Agent
 
-[Zurich Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-13.md)
-
--   Use automated evaluations to test your conversational assistant.
-
-[Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
-
--   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
-
-[Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
-
--   Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience.
--   [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md):
-    -   View an updated UI for Virtual Agent Designer topics in the new Assistant Designer Asset library page.
-    -   Navigate between Assistants, Asset library, and Analytics tabs in the Assistant Designer UI.
-    -   Disconnect an LLM Assistant from a given asset with the Actions on Row icon \[Omitted image "kebab-menu.png"\] Alt text:in the Asset library.
-    -   See descriptions of each LLM asset type when selecting **Create asset** in the Asset library.
-    -   Read a tooltip that appears when you edit an LLM assistant under the Assistans tab and try to promote more than 6 topics associated with an LLM assistant.
-
-[Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
-
--   Google Workspace chat now works with the ServiceNow® conversational interface features, including Virtual Agent, Natural Language Understanding \(NLU\), Notifications, and live agents.
--   Start the create flow for all supported conversational assets directly from Virtual Agent Designer.
+-   Use a conversation designer to build and test conversations without scripting or advanced skills.
+-   Empower users to self-serve with AI agents, enhanced or premium chat with AI Search, conversational catalog skills, and more.
+-   Seamlessly transfer the entire conversation history and context to the right human agent so they can quickly address any escalations and resolve user issues.
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
+
+**Note:** ServiceNow Otto for Virtual Agent is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Virtual Agent is a ServiceNow AI Platform feature that is active by default.
+    Virtual Agent is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. For details, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/activate-virtual-agent.md). Once activated, you can install ServiceNow Otto for Virtual Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Upgrade information**
+
+    You can upgrade ServiceNow Otto for Virtual Agent from the ServiceNow Store.
+
+-   **Browser requirements**
+
+    Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/browser-support.md).
+
+-   **Additional requirements**
+
+    ServiceNow Otto for Virtual Agent requires at least one ServiceNow Otto product or the Requestor Agents - Foundation plugin.
 
 
 ## Accessibility and localization
 
--   **Accessibility information**
-    -   **Dark theme**
+-   **Localization information**
 
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see .
 
 
 **Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/conversational-interfaces-rn-landing.md)
 
-## October 2026
+## November 2026
 
-Use automated evaluations to test your conversational assistant.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.
 
 ### What's new
+
+-   ****
+-   **[New features for premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    These features were added to premium chat:
+
+    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down list in the interactive view header. Return to a knowledge article, catalog form, or other content you opened earlier without searching for it again.
+    -   Preview files in the interactive view when ServiceNow Otto generates them, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
+    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
+    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
+    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+
+### What's changed
+
+-   ****
+
+-   **[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md)**
+
+    Existing and newly created assistants now run on the latest version of Agentic Orchestrator \(v2\), and administrators don’t need to take further action.
+
+
+## October 2026
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.
+
+### What's new
+
+
+
+-   **[Cancel live agent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    In premium chat, select the **Cancel** button on the banner while a live agent request is in process to cancel the request. After the request is cancelled or the live agent connects to the chat, the banner disappears from chat.
+
+-   **[Configure voice settings for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/manage-chat-voice-exp.md)**
+
+    Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
+
+    **Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/additional-chat-features.md).
+
+-   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-nap-assistant.md)**
+
+    For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
+
+-   **[Non-English language recognition for voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    When you speak in the default language selected in your profile, even if this language is non-English, your speech is transcribed into text in that same language.
 
 -   **[Testing assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/evaluations-ad.md)**
 
     Measure the quality of your conversational assistant at scale with automated evaluations in Assistant Designer. Choose the metrics that define success for you, such as conversation success, conversation fluency, faithfulness, skill selection accuracy, and turn count. You can run them against your own test data set and ground truth.
 
 
-## August 2026
-
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
-
 ### What's changed
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+-   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/additional-chat-features.md)**
 
-    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills \(for example, a knowledge base article and an AI agent that both answer the same question\), this setting lets you decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
 
+-   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-sys-props.md)**
 
-## December 2025
+    The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously let admins show or hide chat personalization options \(agent persona, tone, and response length\) when [branding an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/brand-assistant.md). By default, all settings are shown.
 
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/assistant-designer.md)**
-
-    Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library \(previously Virtual Agent Designer\), and Analytics.
-
--   **[Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/asset-lib-conv-settings.md)Conversational settings**
-
-    Manage the settings for an asset directly from the Asset library page.
-
-
-## Zurich General Availability
-
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Integrating with Google Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/integrate-with-gsuite.md)**
-
-    Integrate Google Workspace chat with the ServiceNow® conversational interface features, including Virtual Agent, Natural Language Understanding \(NLU\), Notifications, and live agents.
-
--   **[AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-ai-connector-utility.md)**
-
-    Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/managing-use-cases-ai-agents.md) and [AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ai-agent-custom-skill.md).
-
--   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md) server**
-    -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked agentic AI messages to the server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-conversational-chat-surveys.md).
--   **[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/create-virtual-agent-topic.md)**
-
-    Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
-
--   **[Assistants in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)**
-
-    The Now Assist Panel - Platform \(default\) assistant is now available in Virtual Agent Designer.
-
--   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ms-copilot-na-va.md)**
-
-    Custom Engine Agent \(CEA\) is replacing the legacy Microsoft bot framework, allowing Microsoft Copilot to discover Virtual Agent, Now Assist, and use multi-turn conversations.
-
-
-### What's changed
-
--   **[Next Experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/set-up-preferences-next-experience.md)**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
-
--   **[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md)**
-    -   Tabs have replaced pills in the Virtual Agent Designer list view.
-    -   Hover over the tooltip icon \(\[Omitted image "i-tooltip.png"\] Alt text:\) to see information about the assistant you have selected from the drop-down menu.
-    -   Use the new **AI agents** and **Agentic workflows** tabs to select from the types of topics on the home page, along with **Topics**, **Subflows**, **Actions**, and **Custom skills**.
--   **Virtual Agent Designer [Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/table-bot-response.md)**
-
-    Slide the new Show links for each record toggle switch to activate links for each record in the output in your Virtual Agent conversation.
-
-
--   **[Test assistant options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/test-llm-topics.md)**
-
-    The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
-
-
-## Zurich Early Availability
-
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/table-bot-response.md)**
-
-    Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
-
-
-## Zurich
-
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Zurich release.
 
 ### What's deprecated or removed
 
--   Starting with the Zurich release, [Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ac-sensitive-data-overview.md) and Sensitive Data Masking capability are being prepared for future deprecation. They will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+-   **Agentic support page**
 
-    Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-landing.md).
+    The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/additional-chat-features.md).
 
--   Starting with the Zurich release, Microsoft LUIS is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+## September 2026 \| Early Availability
+
+The September 2026 release deprecated Virtual Agent for NLU and keywords and added several features including upload file size improvements and embed enhanced chat capabilities.
+
+### What's new
+
+-   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-nap-assistant.md)**
+
+    For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM Service provider, the premium chat option isn't available.
+
+-   **[Embed on third-party sites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-portable-va-client-website.md)**
+
+    Embed the chat widget for enhanced chat on third-party websites.
+
+-   **[View all topics on the premium chat greeting screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    Select **View all topics** on the chat’s greeting screen to show all promoted topics in premium chat.
+
+
+### What's changed
+
+-   ****
+
+    Role-based configuration is no longer stored or managed within Assistant Designer.
+
+-   **[Upload files improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/upload-documents-na-va.md)**
+
+    Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, PNG for premium chat in ServiceNow Otto for Virtual Agent and Otto panel.
+
+-   **[Updated ServiceNow Otto processing animation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    View an updated ServiceNow Otto processing animation.
+
+
+### What's deprecated or removed
+
+-   **Deprecation of Virtual Agent for NLU and keywords**
+
+    Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **Deprecation of Virtual Agent channel integrations applications**
+
+    Starting with the Brazil release, the following Virtual Agent channel integration applications are being prepared for future deprecation:
+
+    -   [Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conv-integ-alexa.md)
+    -   [Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-ivr-voice.md)
+    -   [IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-ibm-watson-assistant-config.md)
+    They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md)**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+### Plugin information
+
+-   **Plugins planned for deprecation**
+
+    Conversational Analytics \(com.sn.conversational.analytics\): Replace with Assistant Analytics.
+
+    Conversational Integration with Alexa \(com.sn.va.alexa\): There is no replacement for this plugin.
+
+    Conversational IVR with Amazon Connect \(com.sn\_va\_amz.connect\): There is no replacement for this plugin.
+
+    Glide Virtual Agent Lite \(com.glide.cs.chatbot.lite\): Replace with Requestor Agents - Foundation \(direct migration options\), EmployeeWorks - User, EmployeeWorks for GovCloud - User.
+
+    HR Service Delivery NLU Model for Virtual Agent Conversations \(com.sn\_hr\_nlu\_model\): There is no replacement for this plugin.
+
+    HR Service Delivery Virtual Agent Conversations \(com.sn\_hr\_virtual\_agent\): There is no replacement for this plugin.
+
+    IBM Watson integration \(com.glide.cs.ibm.watson.assistant, com.glide.nlu.ibmwatson.intent.discovery, com.glide.cs.ibm.watson.assistant.topic, com.glide.cs.ibm.watson.assistant.topicV2\): There is no replacement for these plugins.
+
+    Intent Discovery \(sn\_nlu\_discovery\): There is no replacement for this plugin.
+
+    Issue Auto Resolution \(com.glide.cs.auto\_resolution\): There is no replacement for this plugin.
+
+    Issue Auto resolution for HR \(com.snc.hr.issue\_auto\_resolution\): There is no replacement for this plugin.
+
+    ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\): There is no replacement for this plugin.
+
+    NLU Workbench-Advanced Features \(com.snc.nlu.workbench.advanced\): There is no replacement for this plugin.
+
+    Topic Recommendations \(com.sn\_topic\_recommend\): There is no replacement for this plugin.
+
+-   **Renamed or changed plugins**
+
+    Conversational Integration with Apple Messages for Business \(com.sn.va.abc.adapter\): Deprecation of NLU functionality and migration to LLM support.
+
+    Conversational Integration with AWS End User Messaging \(com.sn\_sms\_aws\_adapter\): Deprecation of Virtual Agent NLU functionality and migration to LLM support.
+
+    Conversational Integration with Facebook Messenger \(com.sn.va.fb.messenger\): Deprecation of Virtual Agent NLU functionality and migration to LLM support.
+
+    Conversational Integration with LINE \(com.sn.va.line\): Deprecation of NLU functionality and migration to LLM support.
+
+    Conversational Interfaces - Diagnostics \(com.sn.ci.diagnostics\): Deprecation of Virtual Agent NLU functionality. There is no replacement.
+
+    Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\): Deprecation of NLU functionality and migration to LLM support.
+
+    Virtual Agent NLU \(com.glide.cs.chatbot\): Deprecation of Virtual Agent NLU functionality. [Migrate NLU topics to LLM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/llm-topic-migration.md)
 
 

@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Test your application
@@ -200,7 +200,11 @@ Follow along with the tutorial to test the employee travel request application.
 
     1.  Select the action that is in the **Waiting** state to view the action details.
 
+        \[Omitted image "app-tutorial-test-action-waiting-state.png"\] Alt text: You can view and change the state of actions within your flow.
+
     2.  In the action details, select the test record.
+
+        \[Omitted image "app-tutorial-test-open-record.png"\] Alt text: You can open, view, and edit test records within your flow by selecting the record number, then selecting Open Record.
 
     3.  Select **Open Record**.
 
@@ -229,7 +233,7 @@ Your have tested the employee travel request application and verified that it fu
 
 ## What to do next
 
-Congratulations! You have completed the app creation tutorial by planning, building, and testing an application. You're ready to start building your own applications in App Engine Studio.
+Congratulations! You have completed the app creation tutorial by planning, building, and testing an application.You are ready to start building your own applications in App Engine Studio.
 
 To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/publish-your-app.md).
 

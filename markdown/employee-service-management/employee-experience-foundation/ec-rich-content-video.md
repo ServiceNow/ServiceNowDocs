@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-08-17"
-reading_time_minutes: 5
-breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a Video with the Rich Content Editor
@@ -33,17 +33,13 @@ The **Rich Content Editor** supports the following types of video:
 
 -   HTML5
 
-    **Note:** Hover-text or tool tips aren't supported for HTML5 at this time.
+    **Note:** Hover text or tool tips are not supported for HTML5 at this time.
 
 -   YouTube
 -   Vimeo
 -   Video streaming service
 
     **Note:** You must configure a content provider to use videos from a video streaming service. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/content-providers.md).
-
--   Other
-
-    **Note:** Additionally, if you want to add videos hosted on other sites that are public and require no authentication, you can add a video component and set the **Provider** to **Other**.
 
 
 ## Procedure
@@ -56,27 +52,7 @@ The **Rich Content Editor** supports the following types of video:
 
 4.  Use any of the following styling settings:
 
-    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, and additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
-
-5.  Use the following steps to set up provider Other:
-
-6.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
-
-7.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
-
-8.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
-
-9.  Create [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md) or [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md) and open the **Rich Content Editor**.
-
-10. Add a **video component** and set **Provider** to **Other**.
-
-11. Paste your public video URL from an allowed domain.
-
-12. Save video.
-
-13. Confirm that the video renders in **Rich Content Editor**.
-
-14. Follow the additional setting options to configure video settings, as needed.
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacities and shadows, improved cells and buttons allow additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -144,7 +120,6 @@ Where the video is hosted. Choose from:-   HTML5 Source
 -   Vimeo
 -   Youtube
 -   Video streaming content providers
--   Other
 
 
 </td></tr><tr><td>
@@ -164,10 +139,10 @@ Show controls \(Youtube and HTML5 Source\)
 
 </td><td>
 
-Check this box to display the video player control. Users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
+Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
-</table>15. Select **Save** or **Save and Finish**.
+</table>5.  Select **Save** or **Save and Finish**.
 
     Selecting **Save** saves your content and you remain on the **Rich Content Editor** canvas. Selecting **Save and Finish** saves your record and returns you to the **New content** form.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Provide your agents with the flexibility to add adhoc approvers to a case that i
 
 ## Before you begin
 
-For example, if an employee's requests falls outside the bounds of the standard process, or if the agent need to make additional approval, then the HR agent may need to request for an adhoc approval before proceeding with its fulfillment.
+For example, in certain scenarios where in an employee's requests falls outside the bounds of the standard process or the agent needs to take an additional approval, an HR agent might need to request an adhoc approval before proceeding with its fulfillment.
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -28,7 +28,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Open the case that is assigned to you.
 
-3.  Select **More actions** and select **Add an approval**.
+3.  Click **More actions** and select **Add an approval**.
 
     **Note:**
 
@@ -58,9 +58,9 @@ Wait for
 
 </td><td>
 
-Conditions that you want to set for the approval flow. -   **Anyone to approve**: If any one of the approvers approves the request, the approval flow is complete.
--   **Everyone to approve**: Only if all the approvers approve the request, the approval flow is complete.
--   **First response from anyone**: The first response of any one approver is considered. For example, if one of the approvers rejects the request first, then the flow is rejected. If one of the approvers approves the request first, then the flow is approved.
+Conditions that you want to set for the approval flow. -   **Anyone to approve**: If any one of the approvers approves the request, the approval flow will be complete.
+-   **Everyone to approve**: Only if all the approvers approve the request, the approval flow will be complete.
+-   **First response from anyone**: The first response of any one approver is taken into consideration. For example, if one of the approvers first rejects the request, the flow will be rejected; if one of the approvers first approves the request, the flow will be approved.
 
 
 </td></tr><tr><td>
@@ -88,6 +88,6 @@ Additional Comments
 Any other information that you want to share with the approvers.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>5.  Click **Submit**.
 
 

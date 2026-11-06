@@ -1,5 +1,5 @@
 ---
-title: Lux Widgets
+title: Lux widgets
 description: A widget in Lux is a custom UI unit authored for a specific application. The platform ships no widgets; every widget on an instance was authored for an app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/widgets.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [Widgets, Project shape, Choosing a base class, The extends chain may be transitive, Discoverability, Metadata decorators, requiresPageType, Resolving a widget at runtime, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
-# Lux Widgets
+# Lux widgets
 
 A widget in Lux is a custom UI unit authored for a specific application. The platform ships no widgets; every widget on an instance was authored for an app.
 

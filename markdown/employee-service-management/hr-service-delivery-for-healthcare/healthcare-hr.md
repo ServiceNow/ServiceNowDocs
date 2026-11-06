@@ -1,20 +1,20 @@
 ---
 title: HR Service Delivery for Healthcare
-description: The ServiceNow HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Zurich release.
+description: The ServiceNow HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery-for-healthcare/healthcare-hr.html
 release: zurich
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
 # HR Service Delivery for Healthcare
 
-The ServiceNow® HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Zurich release.
+The ServiceNow® HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Brazil release.
 
 ## Get started
 
@@ -35,7 +35,12 @@ The ServiceNow® HR Service Delivery for Healthcare application creates a standa
 [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)\[Omitted image "bus-learn.svg"\] Alt text:Get details about component like fields, tables and properties.
 
 </td></tr></tbody>
-</table>## Additional resources
+</table>## Troubleshoot and get help
+
+-   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
+-   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+
+## Additional resources
 
 -   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).

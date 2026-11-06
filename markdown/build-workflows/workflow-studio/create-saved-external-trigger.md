@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Build triggers, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a saved external trigger
@@ -100,7 +100,7 @@ For more information about creating an event source, see [Create an external eve
 
 9.  In **Condition editor**, drag and drop the data pills to create a condition set.
 
-    Use **and** or **or** operators to add more conditions to the condition set.
+    Use **and** or **or** operator to add more conditions to the condition set.
 
 10. Select **+New condition set** to add additional condition sets, as required.
 
@@ -108,6 +108,10 @@ For more information about creating an event source, see [Create an external eve
 
     **Note:** Once the trigger is published, you can edit only the output **Label** fields.
 
+
+## Result
+
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-saved-trigger.md)
 
 -   **[Managing external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-external-event-sources.md)**  
 Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance.

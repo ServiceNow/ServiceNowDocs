@@ -7,9 +7,9 @@ release: zurich
 product: Appointment Booking
 classification: appointment-booking
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Appointment booking, Use, Field Service Management]
+breadcrumb: [Managing appointments, Use, Field Service Management]
 ---
 
 # Managing appointments on behalf of a customer

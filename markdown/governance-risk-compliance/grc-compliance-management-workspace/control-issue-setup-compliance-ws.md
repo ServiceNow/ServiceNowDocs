@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage issues, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Linking issues to multiple objects using Many-to-many table relationship
@@ -40,7 +40,7 @@ For more information, see:
 -   [Tables installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md) for descriptions of the m2m tables.
 -   [Create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.md) for the different compliance objects that are linked to the issue.
 -   [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) using the Compliance Workspace to link issues to a control.
--   [Linking automatically generated issues to a control in many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/originator-automatic-issues-ws.md) to know how multiple issues linked to a control are categorized as automatically generated or manually created.
+-   [Linking automatically generated issues to a control in Many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/originator-automatic-issues-ws.md) to know how multiple issues linked to a control are categorized as automatically generated or manually created.
 -   [Create an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-authority-doc-ws.md) using the Compliance Workspace to link issues to an authority document.
 -   [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-objective-ws.md) using the Compliance Workspace to link issues to a control objective.
 -   [Create an audit engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-engagement-ws.md) in Audit Workspace to link issues to an engagement.

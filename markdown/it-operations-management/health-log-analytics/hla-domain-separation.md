@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -34,9 +34,9 @@ Domain separation is present in all aspects of the Health Log Analytics applicat
 
 ## How domain separation works in Health Log Analytics
 
-When data is domain separated using a Health Log Analytics server, each Managed Service Provider \(MSP\) can see log data only in its own domain. MSPs can also see data in child domains below their domain.
+When data is domain separated using a single Health Log Analytics server, each Managed Service Provider \(MSP\) can see log data only in its own domain. MSPs can also see data in child domains below their domain.
 
-Users can view alerts that Health Log Analytics generates only in their own domain. Actions to remediate the alerts apply only for the scope of that domain.
+Each MSP can view alerts that Health Log Analytics generates only in their domain. Actions to remediate the alerts apply only for the scope of that domain.
 
 By default, all users and records are set to the parent domain. The admin can assign them to a specific domain.
 

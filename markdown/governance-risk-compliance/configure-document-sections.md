@@ -1,18 +1,18 @@
 ---
 title: Configure a documentation section
-description: Configure a documentation section of a plan to describe the plan in structured sections providing a checklist of high level details, purpose of the plan, scope describing purpose of the plan and coverage areas, its goals and success criteria.
+description: Configure a documentation section with structured sections that include high-level details, purpose, scope, coverage areas, goals, and success criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-document-sections.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configure a documentation section
 
-Configure a documentation section of a plan to describe the plan in structured sections providing a checklist of high level details, purpose of the plan, scope describing purpose of the plan and coverage areas, its goals and success criteria.
+Configure a documentation section with structured sections that include high-level details, purpose, scope, coverage areas, goals, and success criteria.
 
 ## Before you begin
 

@@ -7,15 +7,16 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search configuration
 
 Search administrators configure AI Search indexing and search settings in indexed sources, search sources, search profiles, and search application configurations.
+
+\[Omitted image "ai-search-configuration-diagram.png"\] Alt text: Diagram showing details and relationships for AI Search indexed source, search source, search profile, and search application configuration.
 
 **Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-ais.md)
 

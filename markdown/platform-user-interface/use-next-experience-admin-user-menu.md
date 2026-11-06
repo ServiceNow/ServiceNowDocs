@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/use-next-experience-admin-user-menu.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [next experience admin, admin functions, admin user functions]
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **User Menu**\[Omitted image "pol-user-menu.png"\] Alt text: User menu.
+1.  Navigate to **User Menu**\[Omitted image "pol-user-menu.png"\] Alt text: User menu..
 
 2.  Select one of these user menu options for admins.
 

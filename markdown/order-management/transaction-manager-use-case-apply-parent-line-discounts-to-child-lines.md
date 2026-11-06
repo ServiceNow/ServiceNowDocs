@@ -1,18 +1,18 @@
 ---
-title: Transaction Manager use case: Apply parent line discounts to child lines
-description: Transaction Manager can help manage transactions whose configurable products have many child and grandchild transaction line items.
+title: ServiceNow Quote Experience use case: Apply parent line discounts to child lines
+description: ServiceNow Quote Experience can help manage transactions whose configurable products have many child and grandchild transaction line items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/transaction-manager-use-case-apply-parent-line-discounts-to-child-lines.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Transaction Manager: Use cases, Transaction Manager, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager use case: Apply parent line discounts to child lines
+# ServiceNow Quote Experience use case: Apply parent line discounts to child lines
 
-Transaction Manager can help manage transactions whose configurable products have many child and grandchild transaction line items.
+ServiceNow Quote Experience can help manage transactions whose configurable products have many child and grandchild transaction line items.
 
 A single transaction may include multiple configurable products, and each configurable product may have more than 100 child, grandchild, or other descendant transaction line items.
 
@@ -22,9 +22,9 @@ Using the `.parent` system field enables the look up of a parent line-item field
 
 \[Omitted image "cpq-txn-mgr-use-case-apply-line-discounts-1.png"\] Alt text: Discounting at the transaction header
 
-When “Parent Line Discounting” is selected, a rule is executed that sets the descendant line’s discount field equal to that of its parent line.
+When **Parent Line Discounting** is selected, a rule sets the descendant line’s discount field equal to that of its parent line.
 
 \[Omitted image "cpq-txn-mgr-use-case-apply-line-discounts-2.png"\] Alt text: Discounting at the transaction header
 
-**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/transaction-manager-use-cases.md)
 

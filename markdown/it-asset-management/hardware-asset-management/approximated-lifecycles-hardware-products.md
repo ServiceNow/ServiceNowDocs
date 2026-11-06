@@ -7,16 +7,14 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-08-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Approximated lifecycle and lifecycle code
 
 Leverage the expanded lifecycle coverage for hardware and consumable models available in the ServiceNow® Content library portal when explicit dates from the manufacturer aren’t available. Hardware models with approximated lifecycle dates contain a lifecycle code that indicates the dates are approximate.
-
-**Important:** The approximated lifecycle feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 When manufacturers don’t publish official life cycle dates for certain hardware models and consumables, the  ServiceNow® Content Service generates approximated life cycle dates. The approximated lifecycle dates are derived using data-driven approximation logic to determine the most likely life cycle phase dates for the hardware and consumable models.
 
@@ -47,4 +45,6 @@ In both the Hardware Model Lifecycles \[cmdb\_hardware\_model\_lifecycle\] and C
 -   If the Lifecycle code column contains a value, and the model's lifecycle phase and dates are empty, the Lifecycle code column indicates the reason for the absence of these dates.
 
 **Note:** When manually adding a new lifecycle record, such as a custom lifecycle or calculated lifecycle, you can't add a lifecycle code value. The lifecycle code is only available for lifecycle records that come directly from the ServiceNow Content Service and can’t be set for the user created lifecycle records.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 

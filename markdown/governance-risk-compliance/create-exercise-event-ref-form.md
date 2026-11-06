@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-exercise-event-ref-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an exercise, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -82,6 +82,14 @@ Measure of the business criticality of the affected service. Available options a
 
 </td></tr><tr><td>
 
+Level
+
+</td><td>
+
+Escalation level of the crisis event: **1-Site**, **2-Regional**, **3-Corporate**, or **4-Global**. Defaults to **-- None --** until selected manually. Read-only for the BCM viewer role.
+
+</td></tr><tr><td>
+
 Priority
 
 </td><td>
@@ -92,6 +100,18 @@ Sequence in which an Incident or Problem needs to be resolved, based on impact a
 -   **4 - Low**
 -   **5 - Planning**
 -   **None**
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Assignment details
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+User or users from the Assignment group. If the **Assignment group** field is empty, then select any user.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -282,6 +302,18 @@ Ad-hoc action items of task and assessment type, associated with the event and t
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
+Issues
+
+</td></tr><tr><td>
+
+Issues
+
+</td><td>
+
+GRC issues that can be created or added from an event.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
 Similar tasks groups
 
 </td></tr><tr><td>
@@ -291,6 +323,18 @@ Group of similar tasks associated with the event
 </td><td>
 
 Group of similar tasks, their names, and original tasks associated with the event.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Collaborations
+
+</td></tr><tr><td>
+
+Collaborations
+
+</td><td>
+
+Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

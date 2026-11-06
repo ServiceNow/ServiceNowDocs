@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -59,7 +59,7 @@ Details
 Knowledge article content and its metadata.**Note:** If the article versioning feature is enabled, the default value of the **Valid to** date in the updated article version is automatically set based on the following criteria:
 
 -   If the **Article Validity** field in the knowledge base associated with the article is empty, the **Valid to** date value from the earlier version of the article is retained.
--   If the **Article Validity** field in the knowledge base associated with the article isn't empty, the **Valid to** date is automatically updated to start from the date the article was updated until the number of days specified in the **Article Validity** field \(Article updated date + article validity\).
+-   If the **Article Validity** field in the knowledge base associated with the article isn’t empty, the **Valid to** date is automatically updated to start from the date the article was updated until the number of days specified in the **Article Validity** field \(Article updated date + article validity\).
 If you move a knowledge article to another knowledge base, the default value of the **Valid to** date in the updated article is automatically set based on the following criteria:
 
 -   If the **Article Validity** field in the selected knowledge base is empty, the earlier **Valid to** date value is retained for the knowledge article.
@@ -179,7 +179,7 @@ Products mapped to the knowledge article. For more information, see [Add an affe
 
         **Note:** With an ownership group associated with a knowledge article, ownership group members can approve self-authored articles for publication. An administrator can override this behavior by disabling the **glide.knowman.ownership\_group.enable\_self\_approval** property. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
-    For more information, see [Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md).
+    For more information, see [Schedule a knowledge article for publishing in Agent Workspace]().
 
     When published, the knowledge article appears in the My Articles - Published and All Articles lists. If the article versioning feature is enabled, the version number of the knowledge article increments to the next whole number \(for example, from 2.02 to 3.0\). For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 
@@ -189,7 +189,7 @@ Products mapped to the knowledge article. For more information, see [Add an affe
 
 [Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
 
-[Create a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-article-feedback-agent.md)
+[Create a knowledge article from a feedback task in Agent Workspace]()
 
 [View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/view-article-agent.md)
 

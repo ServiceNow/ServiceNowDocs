@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-cont-ent-workflows-csm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring Contracts and Entitlement Workflows
@@ -21,7 +21,7 @@ The following plugins are prerequisites for activating the Contracts and Entitle
 |Plugin|Description|
 |------|-----------|
 |Product Configuration UI \(com.sn\_prd\_config\_ui\)|Graphical interface that enables to configure complex products or services according to specific needs and requirements.|
-|Order Management \(com.sn\_ind\_tmt\_orm\)|Captures, enhances, and oversees the complete life cycle of the product and service orders. With this plugin, you can efficiently handle the order orchestration, data enrichment, and composition to ensure an accurate and timely fulfilment.|
+|Order Management \(com.sn\_ind\_tmt\_orm\)|Captures, enhances, and oversees the complete life cycle of the product and customer orders. With this plugin, you can efficiently handle the order orchestration, data enrichment, and composition to ensure an accurate and timely fulfillment.|
 
 After installing the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\)​, the following plugins are automatically installed:
 

@@ -8,8 +8,8 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
+reading_time_minutes: 3
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Installed with OT Asset Management
@@ -94,56 +94,16 @@ Industrial Core\(sn\_ot\_core\)
 Enables the packaging of prerequisite tables for integrations and OT licensing.For more information on Industrial Core, see [Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/industrial-core-plugin.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 
 
-[Domain separation and Enterprise Asset Management]()
+[Installing OT Asset Management]()
 
-[Components installed with Enterprise Asset Management]()
+[OT Asset Workspace]()
 
-[OT Asset Workspace roles]()
+[OT Asset Management licensing]()
 
-[Asset fields for enterprise assets]()
-
-[Asset audit fields for enterprise assets]()
-
-[Audit results]()
-
-[Enterprise model categories and corresponding classes]()
-
-[Mandatory fields in the bulk import spreadsheets]()
-
-[Normalization status for enterprise models]()
-
-[Model fields for Enterprise Asset Management]()
-
-[Contract fields for Enterprise Asset Management]()
-
-[Maintenance plan fields for Enterprise Asset Management]()
-
-[Maintenance schedule fields for Enterprise Asset Management]()
-
-[Work plan fields for Enterprise Asset Management]()
-
-[Work plan schedule fields for Enterprise Asset Management]()
-
-[Expense line fields for Enterprise Asset Management]()
-
-[Fields inherited from a parent asset group to a sub group]()
-
-[Enterprise asset disposal order stages]()
-
-[Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
-
-[Scheduled jobs and tables installed with normalization of firmware models]()
-
-[Asset put away task fields]()
+[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 

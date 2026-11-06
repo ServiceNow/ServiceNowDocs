@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/results-page-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Results page
@@ -16,7 +16,9 @@ The Results page provides the results from your queries in the Discovery Console
 
 The Results page contains a list with all the scan results in the system. Each scan is displayed along with the associated Device, IP Address, Network Zone, Scan Type, Asset Type, Asset OS Details, Started On, and Log. The following image shows an example of the Results page.
 
-\[Omitted image "image.results-page"\] Alt text: Results page
+**Note:** You can't export RAW XML results if your Console license is invalid \(absent or expired\).
+
+\[Omitted image "results-page.png"\] Alt text: Results page
 
 To access the Results page, navigate to **Assets &gt; Results**.
 
@@ -26,26 +28,13 @@ To find a specific scan, you can enter text into the Search bar on the top of th
 
 Use the filter panel to select which queries display in the results list. To filter the scan results, select the Add Filter icon \[Omitted image "add-filter-msi-console.png"\] Alt text: in the filter panel. Put your cursor in the filter field and select a filter from the pop-up menu.
 
-\[Omitted image "image.filter-on-result-page"\] Alt text: Filter panel
+\[Omitted image "filter-on-result-page.png"\] Alt text: Filter panel
 
 See [Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/filtering-results.md) for more information.
 
 ## Viewing results
 
 On the Results page, you can view details of a result by selecting column entries.
-
--   **Asset**
-
-    Selecting an asset name in the Asset column opens the asset editing window. This view has three tabs, Details, Image, and Module On the Details tab you see Identification, Classification, Timeline, and other detailed sections. You can select Edit if you need to change any of these settings. If there is an image attached, it displays in the Detail and Images tabs. The Modules tab displays specific information about system modules, such as if the asset is a CPU or PLC, and the manufacturer's name.
-
--   **Device**
-
-    The Device column lists the name of the Sensor used during the query. Selecting the Sensor name from this column allows you to edit the information and configuration of the query Sensor.
-
--   **Log**
-
-    Select View in the Log column and the query log displays. You can copy the log for later use and for troubleshooting.
-
 
 -   **Asset**
 
@@ -64,9 +53,14 @@ On the Results page, you can view details of a result by selecting column entrie
 
 The Results page **Action** button lets you export the scan results. You can **Export Results** in JSON format or **Export RAW** in XML format.
 
-\[Omitted image "image.results-export-raw"\] Alt text: Results page Action button
+\[Omitted image "results-export-raw.png"\] Alt text: Results page Action button
 
 The RAW data format is useful for debugging and verification.
 
-**Note:** You cannot export RAW XML results if your Console license is invalid \(absent or expired\).
+-   **[Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/filtering-results.md)**  
+The Results page provides a filter to find specific types of queries of information.
+-   **[Filter results for Host Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/results-filter-host-status.md)**  
+Filter your query results by Host Status. Verify whether devices were reachable when the query was executed.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

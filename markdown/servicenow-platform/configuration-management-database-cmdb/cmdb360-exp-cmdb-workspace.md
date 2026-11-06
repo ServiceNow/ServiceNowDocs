@@ -1,22 +1,22 @@
 ---
-title: CMDB 360 experience in CMDB Workspace
-description: The CMDB 360 view in CMDB Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
+title: CMDB 360 experience in CMDB Workspace and in Service Graph Workspace
+description: The CMDB 360 view in CMDB Workspace and in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [CMDB 360/Multisource CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB 360 experience in CMDB Workspace
+# CMDB 360 experience in CMDB Workspaceand in Service Graph Workspace
 
-The CMDB 360 view in CMDB Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
+The CMDB 360 view in CMDB Workspaceand in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 
-Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or the CMDB 360 insights page in , to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 **Note:** Most cards on the CMDB 360 dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
@@ -24,10 +24,13 @@ Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/Serv
 
 Requirements:
 
--   Role requirement: sn\_cmdb\_user \(CMDB user\) or any role containing sn\_cmdb\_user
+-   Role required: sn\_cmdb\_user \(CMDB user\) or any role containing sn\_cmdb\_user
 -   Additional requirement: [Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
-To access the CMDB 360 view experience: Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
+To access the CMDB 360 experience:
+
+-   In Service Graph Workspace: Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
+-   In CMDB Workspace: Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 
 ## Potential issues
 
@@ -64,12 +67,12 @@ Cards on the Potential issues tile show details about CIs with discovery sources
 
 The Saved queries card shows up to 20 of your CMDB 360 queries. You can use the card to edit and run those queries, or create new queries. Saved queries are sorted on both the card and list view by the most recently created or updated queries.
 
-If your instance has been upgraded from an instance that contained Multisource Report Builder queries, then those queries appear on the Saved queries card.
+You can:
 
--   Click a saved query to modify or view it before running.
--   Click a query's action icon and then select **Run**.
--   Click **View All Queries** to see all the Saved queries where you can examine or run a query.
--   Click **Create Query** to create a query of one of the following types:
+-   Select a saved query to modify or view it before running.
+-   Select a query's action icon and then select **Run**.
+-   Select **View All Queries** to see all the Saved queries where you can examine or run a query.
+-   Select **Create Query** to create a query of one of the following types:
     -   [Get Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md): Creates a query that you can use to explore your CMDB 360 data. It queries your CMDB 360 for CIs matching your criteria that are reported by specified discovery sources.
     -   [Find Gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md): Creates a query that you can use to analyze gaps in discovery sources reporting your CMDB 360 data. It queries discovery sources that report CIs against discovery sources that don't report those same CIs.
     -   [Compare Attribute Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md): Creates a query that you can use to identify CIs with attribute values that differ across multiple discovery sources or against the CMDB. It queries at least two discovery sources and/or the CMDB for CIs that match your criteria.

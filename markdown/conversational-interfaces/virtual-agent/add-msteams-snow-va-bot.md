@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-02-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Integrate, Virtual agent, MSTeams, Microsoft, Teams, sn\_va\_teams]
-breadcrumb: [Integrate VA with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrate ServiceNow Virtual Agent with Microsoft Teams
@@ -56,6 +56,8 @@ Any time you create and publish a bot, every user receives all changes you've ma
 8.  If the selected tenant has already been assigned to Virtual Agent, you must first uninstall from the previously associated instance.
 
     **Note:** Starting from Tokyo release, if your Microsoft Teams tenant is already associated with another ServiceNow instance. If you intend to associate it with a new instance, then you're asked to contact the administrator to first uninstall it from the previously associated instance. For more information, see [Override Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/override-msteams-install.md).
+
+    \[Omitted image "msteams-new-proceed-uninstall.png"\] Alt text: Microsoft Teams integration tenant association removal message.
 
     Installation starts in the background. After the installation completes, a message confirms that you successfully installed the Now Virtual Agent integration for Microsoft Teams.
 

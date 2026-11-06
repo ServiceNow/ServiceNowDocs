@@ -1,0 +1,102 @@
+---
+title: Search for information using Consumer Portal
+description: Search the Consumer Portal to find knowledge articles and information related to your question or issue.Search the knowledge base from the Consumer Portal to find articles, browse by product category, or view featured and popular content.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_SearchForInfoUsingThe-consumer-Portal.html
+release: zurich
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
+---
+
+# Search for information using Consumer Portal
+
+Search the Consumer Portal to find knowledge articles and information related to your question or issue.
+
+## Before you begin
+
+Role required: sn\_customerservice.case\_authorized\_consumer or sn\_customerservice.consumer
+
+## About this task
+
+The portal has a search feature that you can use to search for information across several repositories. You can use the search feature on the home page or on the Consumer Portal header.
+
+## Procedure
+
+1.  Navigate to the Consumer Portal.
+
+2.  Enter a search term into the **Search** field.
+
+3.  Select the search icon.
+
+    A list of articles related to the search term is displayed.
+
+4.  Select a link to view an article.
+
+
+**Related topics**  
+
+
+[Search the Knowledge Base on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
+
+[View common questions on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-faqs-consumer-portal.md)
+
+## Search the Knowledge Base on Consumer Portal
+
+Search the knowledge base from the Consumer Portal to find articles, browse by product category, or view featured and popular content.
+
+### Before you begin
+
+Role required: sn\_customerservice.case\_authorized\_consumer or sn\_customerservice.consumer
+
+### About this task
+
+The Consumer Portal includes a link to the knowledge base that you can use to search for information, read and rate articles, and submit feedback. Under this link, the portal displays a list of popular knowledge base articles. If the information that you need isn’t included in this list, you can search the knowledge base for the desired information.
+
+### Procedure
+
+1.  Navigate to the Consumer Portal.
+
+2.  Navigate to **Resources** &gt; **Knowledge**.
+
+    The knowledge page displays a separate category for each of the products purchased by this customer. It also displays lists of articles by:
+
+    -   Featured content
+    -   Most useful
+    -   Most viewed
+3.  Do one of the following,
+
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d121728e240">
+
+**Select a product to display more specific information**
+
+</td><td>
+
+Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
+
+</td></tr><tr><td id="d121728e249">
+
+**Select a link from one of the lists**
+
+</td><td>
+
+Displays the article.
+
+</td></tr><tr><td id="d121728e258">
+
+**Type a topic in the __Search__ field and press the Enter key**
+
+</td><td>
+
+Displays a list of related articles. Select a link to display the desired article.
+
+</td></tr></tbody>
+</table>
+**Related topics**  
+
+
+[Search for information using Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
+
+[View common questions on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-faqs-consumer-portal.md)
+

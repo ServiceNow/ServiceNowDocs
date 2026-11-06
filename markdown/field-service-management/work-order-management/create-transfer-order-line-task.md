@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create, Transfer orders, Inventory, Manage work order tasks, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Create a transfer order, Manage transfer orders, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Move an asset through the transfer process
@@ -48,15 +48,15 @@ Closing a transfer order line completes the task, moves the transfer order line 
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d108660e155">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d119063e152">
 
 To
 
-</th><th align="left" id="d108660e158">
+</th><th align="left" id="d119063e155">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d108660e164">
+</th></tr></thead><tbody><tr><td id="d119063e161">
 
 **Prepare for shipment**
 
@@ -98,7 +98,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d108660e246">
+</td></tr><tr><td id="d119063e243">
 
 **Drop off**
 

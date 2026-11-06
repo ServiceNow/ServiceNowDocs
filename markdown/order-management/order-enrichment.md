@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-enrichment.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -46,4 +46,11 @@ The fulfillment agent or manager can now approve or reject the order.
 ## Configuration requirements
 
 Order enrichment tasks are only created if the enrichment process is explicitly configured in the Order Enrichment Flow Policy in the decision tables for a product or service offering. This process ensures that enrichment is applied selectively and only when necessary. For more information, see [Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-enrichment.md).
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

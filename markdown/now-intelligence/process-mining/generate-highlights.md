@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow Otto for Process Mining, ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
 # Generate highlights for improvement opportunities
@@ -18,7 +18,7 @@ Generate highlights for the improvement opportunities to optimize your processes
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin and you must have the `now.assist.creator` role.
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 **Important:** Assists are charged dynamically.
 

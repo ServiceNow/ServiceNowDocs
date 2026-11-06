@@ -68,7 +68,7 @@ Typically, you set up access to the AWS accounts in your organization using the 
     \[Omitted image "aws-any-account-trusted-with-credentials.png"\] Alt text: Set up the IAM role of the trusting AWS account to trust the user of the trusted AWS account for access
 
     -   Configure any type of account—discrete \(independent\), management, or member—to rely on a trusted account with AWS credentials for access.
-    -   Configuring an IAM role belonging to the trusting accounts to trust the user of the trusted account enables using only one set of AWS credentials for providing access to multiple AWS accounts.
+    -   Configure an IAM role in each trusting account to trust the user of the trusted account. This lets you use one set of AWS credentials to access multiple AWS accounts.
     For more information, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/configure-iam-role-aws-account.md).
 
 -   **Configuring access for an account that trusts an accessor account without AWS credentials**
@@ -96,12 +96,12 @@ Typically, you set up access to the AWS accounts in your organization using the 
     Cloud Discovery uses the following logic to determine which credentials to use to discover AWS cloud resources in member accounts:
 
     1.  If permanent credentials are defined for the member account in the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table, Discovery uses those credentials. The Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\] table contains the information on the service account types, like management or member, and their credentials.
-    2.  If no permanent credentials are defined for the member account, Discovery checks the Cloud Service Account AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table for any special parameters associated with the member account. If parameters exist in that table, Discovery uses the temporary credentials acquired from specifying a role and its parameters in the AWS Security Token Service API AssumeRole action.
+    2.  If no permanent credentials are defined for the member account, Discovery checks the Cloud Service Account AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table for special parameters associated with the member account. If parameters exist in that table, Discovery uses the temporary credentials acquired from specifying a role and its parameters in the AWS Security Token Service API AssumeRole action.
     3.  If no special parameters are associated with the member account in the \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table, Discovery checks that table for parameters associated with the management account. If parameters exist that define a role for the management account, Discovery uses the temporary credentials provided by that role.
     4.  If no special parameters are present in the \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table for either management or member accounts, Discovery uses the defaults defined for the `OrganizationAccountAccessRole` role.
 -   **Member or management account trusts accessor account**
     1.  If permanent credentials are defined for the member or management account in the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table, Discovery uses those credentials. The Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\] table contains the information on the service account types, like management or member, and their credentials.
-    2.  If no permanent credentials are defined for the account, Discovery checks the Cloud Service Account AWS Cross Assume Role Params \[cloud\_service\_account\_aws\_cross\_assume\_role\_params\] table for any special parameters associated with the account. If parameters exist in that table, Discovery uses the temporary credentials acquired from specifying a role and its parameters in the AWS Security Token Service API AssumeRole action.
+    2.  If no permanent credentials are defined for the account, Discovery checks the Cloud Service Account AWS Cross Assume Role Params \[cloud\_service\_account\_aws\_cross\_assume\_role\_params\] table for special parameters associated with the account. If parameters exist in that table, Discovery uses the temporary credentials acquired from specifying a role and its parameters in the AWS Security Token Service API AssumeRole action.
 
 **Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
 

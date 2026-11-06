@@ -1,28 +1,28 @@
 ---
-title: Create an Install base item
-description: Create an Install base item in the Customer Service Management application that represents the instance of the product that has been configured for a customer. The Install base item enables you to track all the purchases that were made by a customer.
+title: Create an install base item
+description: Create an install base item in the Customer Service Management application that represents the instance of the product that has been configured for a customer. The install base item enables you to track all the purchases that were made by a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-install-base-item.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Create an Install base item
+# Create an install base item
 
-Create an Install base item in the Customer Service Management application that represents the instance of the product that has been configured for a customer. The Install base item enables you to track all the purchases that were made by a customer.
+Create an install base item in the Customer Service Management application that represents the instance of the product that has been configured for a customer. The install base item enables you to track all the purchases that were made by a customer.
 
 ## Before you begin
 
-Verify that the Customer Service Install Base Management plugin \(com.snc.install\_base\) is installed.
+Verify that the Customer Install Base Management plugin \(com.snc.install\_base\) is installed.
 
 Role required: sn\_customerservice\_manager or admin
 
 ## About this task
 
-An Install base item is any configuration item \(CI\) that has been made accessible to customers. For Software as a Service \(SaaS\) products, an Install base item refers to an application service configuration item. Each Install base item references the configuration item record for the customer. If issues arise with a configuration item, customer service agents can trace which install base items that the case is affecting.
+An install base item is any configuration item \(CI\) that has been made accessible to customers. For Software as a Service \(SaaS\) products, an install base item refers to an application service configuration item. Each install base item references the configuration item record for the customer. If issues arise with a configuration item, customer service agents can trace which install base items that the case is affecting.
 
 ## Procedure
 
@@ -46,7 +46,7 @@ Number
 
 </td><td>
 
-Unique ID of the Install base item. This field is automatically filled in, but you can change it.
+Unique ID of the install base item. This field is automatically filled in, but you can change it.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Name
 
 </td><td>
 
-Name of the Install base item.
+Name of the install base item.
 
 </td></tr><tr><td>
 
@@ -62,17 +62,17 @@ Configuration Item
 
 </td><td>
 
-Configuration item that is associated with the Install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/application-services.md).
+Configuration item that is associated with the install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/application-services.md).
 
 Service models have a model category called the Application Service, which links a service model to the Application Service CI class. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/c_Models.md) and [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/c_ModelCategories.md).
 
 </td></tr><tr><td>
 
-Service Organization
+Buyer Organization
 
 </td><td>
 
-Internal or external entity that is involved in providing service to the customer.**Note:** If you select a service organization, the **Account**, **Contact**, and **Consumer** fields are hidden. The **Service Organization** field is active only when the Service Organization \(com.snc.service\_organization\) plugin is installed.
+Internal or external entity that is involved in providing service to the customer.**Note:** If you select a buyer organization, the **Account**, **Contact**, and **Consumer** fields are hidden. The **Buyer Organization** field is active only when the Service Organization \(com.snc.service\_organization\) plugin is installed.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Account
 
 </td><td>
 
-Account that is associated with the Install base item.**Note:** If you enter an account, the **Consumer** field is hidden. The Consumer field is active only when the B2B2C plugin is installed.
+Account that is associated with the install base item.**Note:** If you enter an account, the **Consumer** field is hidden. The Consumer field is active only when the B2B2C plugin is installed.
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Consumer
 
 </td><td>
 
-Consumer that is associated with the install base item. **Note:** If the **Consumer** field is entered first, the Account field is hidden.
+Consumer that is associated with the install base item. **Note:** The Account field is hidden if the **Consumer** field is entered first.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Service Context
 
 </td><td>
 
-Service that is associated with the underlying CI for calculating the impact severity from Event Management. For more information, see [Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/service-health-pcso.md).**Note:** This field is only available if you have the Proactive Customer Service Operations with Event Management plugin installed. The health status of an install base item appears only if an Install base item has a CI and a service context that is associated with it.
+Service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see [Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/service-health-pcso.md).**Note:** This field is only available if you have the Proactive Customer Service Operations with Event Management plugin installed. The health status of an install base item appears only if an install base item has a CI and a service context that is associated to it.
 
 Configure the form layout to add this field.
 
@@ -146,7 +146,7 @@ Household
 
 </td><td>
 
-Household that is associated with the install base item.**Note:** This field is available only when the Customer Service Household \(com.snc.household\) plugin is installed.
+Household that is associated with the install base item.**Note:** This field is available only when the Customer Household Data Model \(com.snc.household\) plugin is installed.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Product
 
 </td><td>
 
-Product model that is associated with an install base and is used to identify the services that are associated with any product model.**Note:** A product model must have a single specification. The specification that is associated with the product model appears only on the install base form.
+Product model that is associated with an install base and is used to identify the services that are associated with any product model.**Note:** A product model must have a single specification. The specification that is associated to the product model appears only on the install base form.
 
 </td></tr><tr><td>
 
@@ -186,7 +186,7 @@ Life cycle stage
 
 </td><td>
 
-CSDM \(Common Service Data Model\) life cycle stage of an install base item.
+CSDM life cycle stage of an install base item.
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ Active
 
 </td><td>
 
-Option that represents whether the install base is active or inactive. If the state is active, related cases for a product can be created.**Note:** A synchronization between the active state, install date, and uninstall date is present. On the install base form, if the **State** is **In Use**, it means that the **Active** option is selected. If the **State** is set to **Inactive**, the **Active** option remains unselected.
+Option that represents whether the install base is active or inactive. If the state is active, related cases for a product can be created.**Note:** A sync between the active state, install date, and uninstall date is present. On the install base form, if the **State** is **In Use**, it means that the **Active** option is selected. The **Active** option remains unselected if the **State** is set to **Inactive**.
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Install date
 
 </td><td>
 
-Date on which the install base becomes active.
+Date on which the install base is active.
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ Uninstall date
 
 </td><td>
 
-Date on which the install base becomes inactive.
+Date on which the install base is inactive.
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Identify finished goods in the system using their unique identifier.
 
 </td></tr><tr><td>
 
-Provider service organization
+Provider organization
 
 </td><td>
 
@@ -255,7 +255,7 @@ The service organization that sells and supports the products or services owned 
 </td></tr></tbody>
 </table>    **Note:** In the List view of the install base item, you can filter the data by Condition, Active, Uninstall Date, and Asset.
 
-4.  Select and hold \(or right-click\) the form header and select **Save**.
+4.  Right-click the form header and select **Save**.
 
     The Sold Products, Entitlements, and Cases related lists are displayed.
 
@@ -326,7 +326,7 @@ Install Base Related Parties
 List of contacts, consumers, accounts, members, contributors, and service organizations that have access to an install base. For more information on Install Base Related Parties, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/adding-related-party-config-to-case.md).
 
 </td></tr></tbody>
-</table>    For more information on related lists, see [Related list for an Install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-base-related-list.md).
+</table>    For more information on related lists, see [Related list for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-base-related-list.md).
 
 6.  Select **Update**.
 
@@ -342,5 +342,5 @@ List of contacts, consumers, accounts, members, contributors, and service organi
 **Related topics**  
 
 
-[Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-ib-items-for-business-locations.md)
+[Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-ib-items-for-business-locations.md)
 

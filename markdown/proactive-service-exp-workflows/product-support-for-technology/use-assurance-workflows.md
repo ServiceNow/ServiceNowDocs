@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive Service Experience Workflows]
+breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Using Proactive Service Experience Workflows
@@ -20,8 +20,8 @@ By using ServiceNow® Proactive Service Experience Workflows, you can help resol
 An incident record is created when an event management system generates an alert and the affected accounts can be viewed in the Service Operations Workspace.
 -   **[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)**  
 An escalation can be triggered when an incident is created with the appropriate category and sub category and the **Escalate UI** option is triggered within the Service Operations Workspace.
--   **[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)**  
-Learn how your Technical Support teams \(e,g. Cloud Ops, Server, or Network operations teams\) can use the Operations Account 360 view in the Proactive Service Experience Workflows application to get insight about your customer's or partner's accounts.
+-   **[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)**  
+Use the Technology Account 360 view to get insight about your customer's or partner's accounts.
 -   **[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)**  
 Cases are created from the incidents.
 -   **[Diagnose and resolve a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-case-change-request.md)**  
@@ -34,8 +34,6 @@ Multiple messages that are used within the incident escalation flows are availab
 As a customer service agent, review, diagnose, and resolve, and close an incident for the service-related issue experienced by the customer.
 -   **[Run diagnostics tests for a CI or a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-cmdb-ci.md)**  
 As a customer service agent, review, diagnose, resolve, and close a service case for the service-related issue experienced by the customer.
--   **[Handling API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md)**  
-Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance. The customer will receive notifications regarding updates on the incident.
 
-**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
+**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

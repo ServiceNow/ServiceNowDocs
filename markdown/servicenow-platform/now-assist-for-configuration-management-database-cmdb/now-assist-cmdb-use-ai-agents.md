@@ -1,6 +1,6 @@
 ---
 title: Using AI agents in ServiceNow Otto for CMDB
-description: Users with the cmdb\_dedup\_admin role can access ServiceNow Otto for CMDB agents.
+description: Users with the cmdb\_dedup\_admin role can access ServiceNow Otto for CMDBagents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-use-ai-agents.html
 release: zurich
@@ -14,5 +14,5 @@ breadcrumb: [ServiceNow Otto for Configuration Management Database \(CMDB\), Con
 
 # Using AI agents in ServiceNow Otto for CMDB
 
-Users with the cmdb\_dedup\_admin role can access ServiceNow Otto for CMDB agents.
+Users with the cmdb\_dedup\_admin role can access ServiceNow Otto for CMDBagents.
 

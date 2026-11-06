@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Use Notify connector for Microsoft Teams
@@ -24,8 +24,6 @@ Use Notify with an incident communication plan to start conference calls.
 Initiate a conference call from the major incident workbench by inviting one or more users to join a call. The conference doesn't start until at least two participants join.
 -   **[Manage calls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/manage-calls-ms-teams.md)**  
 Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.
--   **[Download a Microsoft Teams meeting transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-teams-meeting-transcript.md)**  
-Download a Microsoft Teams meeting transcript from a ServiceNow record to view the meeting content offline.
 
 **Parent Topic:**[Use Microsoft Teams integration for Agent Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_agent_ex_use.md)
 

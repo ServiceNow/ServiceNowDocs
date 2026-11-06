@@ -1,5 +1,5 @@
 ---
-title: Using the content management system with the Service Catalog
+title: Using the content management system with the service catalog
 description: Use the content management system \(CMS\) to create a custom interface for the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/p\_ConfigureContentManagementSystem.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Using the content management system with the Service Catalog
+# Using the content management system with the service catalog
 
 Use the content management system \(CMS\) to create a custom interface for the service catalog.
 

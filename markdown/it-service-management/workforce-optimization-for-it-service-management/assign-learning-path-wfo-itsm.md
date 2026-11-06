@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Learning, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -42,15 +42,15 @@ Role required: sn\_wfo\_cfg\_itsm.manager
 
 6.  In the **Assign learning path** screen, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d344296e168">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d195912e168">
 
 To
 
-</th><th align="left" id="d344296e171">
+</th><th align="left" id="d195912e171">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d344296e177">
+</th></tr></thead><tbody><tr><td id="d195912e177">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -58,7 +58,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d344296e189">
+</td></tr><tr><td id="d195912e189">
 
 **Assign the path to specific groups or team members**
 

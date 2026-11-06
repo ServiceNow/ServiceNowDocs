@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiate-instance-scans.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Running on-demand scans, Platform Health, Using Impact, Impact]
+breadcrumb: [Initiate and monitor scans, Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Initiate instance scans

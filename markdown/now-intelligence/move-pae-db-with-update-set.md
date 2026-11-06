@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/move-pae-db-with-update-set.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -48,7 +48,7 @@ Additional steps may be necessary if you are moving a dashboard in a scoped appl
 
 6.  On the target instance, move the update using standard update set functionality.
 
-    For more information, see Retrieve an update set.
+    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
     On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**.
 

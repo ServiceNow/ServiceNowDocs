@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -93,14 +93,12 @@ Manage journey headers or customize journey headers for different journey types 
 Create plan types to manage the top-level classification for stages and tasks for Journey types, as well as the header views for users.
 -   **[Create and manage plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-manage-plans.md)**  
 Create plan types to manage the top-level classification for stages and tasks in a Journey designer plan.
--   **[Create and manage plan configurations in Journey designer version 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-manage-plan-configuration.md)**  
-Create and manage plan configurations that are based on a plan type in Journey designer version 1. Plan configurations are customized for specific employee audiences.
--   **[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
+-   **[Create and manage plan configurations in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-manage-plan-configuration.md)**  
+Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
+-   **[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
 ServiceNow administrators configure the Journey designer plan configuration feature and process.
 -   **[Enable the Now Assist Journey generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/enable-jny-gen.md)**  
 Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
--   **[Enable team tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/enable-team-tasks.md)**  
-Enable team tasks to allow managers to add tasks to the Lifecycle Events activity sets that appear in the Skills widget on the Journey detail page. Enabling this feature gives managers and AI agents the flexibility to tailor journeys to individual employee needs.
 -   **[Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-manage-stages.md)**  
 Create and manage stages that are contained inside a plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete.
 -   **[Add stage configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-stage-configuration.md)**  

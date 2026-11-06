@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ Export a saved CMDB or Service Mapping query definition to an XML file which you
 -   You must save a query before you can export it.
 -   Domain in an exported query must be visible in both, source and destination instances.
 
-Role required: cmdb\_query\_builder \(contained in itil, itil\_admin, and asset\).
+Role required: cmdb\_query\_builder
 
 ## About this task
 

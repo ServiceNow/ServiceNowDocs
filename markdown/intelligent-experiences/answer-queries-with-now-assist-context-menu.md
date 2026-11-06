@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/answer-queries-with-now-assist-context-menu.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [now assist]
-breadcrumb: [ServiceNow Otto context menu, AI Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Improve Docs content in Strategic Portfolio Management with ServiceNow Otto context menu
@@ -19,7 +19,7 @@ You can now interact with ServiceNow Otto directly from the docs section in Stra
 
 To access this feature, go to any doc page within Strategic Portfolio Management, Portfolio Planning Workspace or Project Workspace.
 
-Select the ServiceNow Otto icon \(\[Omitted image "icon-otto-outline-24.svg"\] Alt text: ServiceNow Otto context menu icon\) and enter your query.
+Select the ServiceNow Otto icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) and enter your query.
 
 \[Omitted image "open-prompt-nacm.png"\] Alt text: nacm menu spm\[Omitted image ""\]
 
@@ -27,9 +27,9 @@ The query response is generated in a new ServiceNow Otto window. You can use the
 
 \[Omitted image "na-modal-spm.png"\] Alt text: nacm window spm
 
-You can also select the ServiceNow Otto icon \(\[Omitted image "icon-otto-outline-24.svg"\] Alt text: ServiceNow Otto context menu icon\) and use the **Summarize** option from the drop-down menu to use generative AI for generating a record summary.
+You can also select the ServiceNow Otto icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) and use the **Summarize** option from the drop-down menu to use generative AI for generating a record summary.
 
-The ServiceNow Otto icon \(\[Omitted image "icon-otto-outline-24.svg"\] Alt text: ServiceNow Otto context menu icon\) along with the text input field is also displayed when you select any text from the docs page.
+The ServiceNow Otto icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) along with the text input field is also displayed when you select any text from the docs page.
 
 You can also see the option to **Summarize**, **shorten**, **elaborate**, or **change tone** for the selected content.
 

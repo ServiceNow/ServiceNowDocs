@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a software removal candidate in workspace
@@ -24,7 +24,7 @@ Role required: sam\_admin or sam\_user
 
 Software reclamation is integrated with Workflow and Client Software Distribution to automate the process of uninstalling software from devices and reclaiming software rights. However, you can also create a removal candidate manually. The following steps are for manually creating a removal candidate.
 
-Starting from the Zurich release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application with additional error handling functionality.
+Starting from the Brazil release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application with additional error handling functionality.
 
 ## Procedure
 
@@ -272,14 +272,55 @@ Used to track the actions that have been performed on this task.
     -   Software model
     You may select any action button on the form to further configure the removal candidate. Action buttons are dependent on the removal candidate's justification and state.
 
-    |Action|Description|
-    |------|-----------|
-    |Update|Update the removal candidate.|
-    |Resume Reclaim|Verify the completeness of data for processing.|
-    |Close Complete|Reclaim rights and close the removal candidate.|
-    |Close Skipped|Close the removal candidate without reclaiming rights.|
-    |Delete|Delete removal candidate.|
+<table id="table_bb5_hq2_kxb"><thead><tr><th>
 
+Action
 
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Update
+
+</td><td>
+
+Update the removal candidate.
+
+</td></tr><tr><td>
+
+Resume Reclaim
+
+</td><td>
+
+Verify the completeness of data for processing.This button is displayed when the state of the reclamation candidate is **Error**.
+
+</td></tr><tr><td>
+
+Close Complete
+
+</td><td>
+
+Reclaim rights and close the removal candidate.
+
+</td></tr><tr><td>
+
+Close Skipped
+
+</td><td>
+
+Close the removal candidate without reclaiming rights.
+
+</td></tr><tr><td>
+
+Delete
+
+</td><td>
+
+Delete removal candidate.
+
+</td></tr></tbody>
+</table>
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)
 

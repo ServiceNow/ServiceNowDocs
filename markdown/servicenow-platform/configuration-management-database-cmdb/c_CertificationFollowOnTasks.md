@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [CMDB Compliance, Configuration Management Database \(CMDB\), Config
 The ServiceNow system can automatically generate and assign follow-on tasks to correct discrepancies detected during compliance audits.
 
 The system property **glide.allow.new.cert\_follow\_on\_task** is set to true by default, allowing for new follow on tasks to be created for the same failure, at each audit run. You can set this property to false, to configure audit to use the same follow-on task for the same audit failure across multiple runs.
-
-The system property **glide.allow.new.cert\_follow\_on\_task** applies only to audits which aren't scripted.
 
 The system property **glide.allow.new.cert\_follow\_on\_task** applies only to audits which aren't scripted.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/set-up-na-aia.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up AI agents
@@ -25,10 +25,10 @@ Role required: sn\_aia\_admin
 -   **Platform version:**
     -   Minimum: Yokohama Patch 1+ or Xanadu Patch 7+
     -   Recommended: Yokohama Patch 8 or Zurich Patch 4
-    -   Latest: Zurich Patch 12 or Australia patch 5
+    -   Latest: Zurich Patch 12 or Australia Patch 5
 -   **Required plugins and store Apps**
 
-    -   ServiceNow Otto AI agents store app \(version 8.2 as of Zurich Patch 12\)
+    -   ServiceNow Otto AI agents store app \(version 8.2 as of Australia Patch 5.\)
     -   At least one ServiceNow Otto workflow plugin:
         -   ServiceNow Otto for ITSM
         -   ServiceNow Otto for HRSD
@@ -43,7 +43,7 @@ Role required: sn\_aia\_admin
 
 -   **Required User Roles**
     -   sn\_aia.admin - Provides access to AI Agent Studio
-    -   sn\_nowassist\_admin.nsa\_admin - Enables AI Admin Hub administration
+    -   sn\_nowassist\_admin.nsa\_admin - Enables ServiceNow Otto administration
 
 ## Procedure
 
@@ -53,7 +53,7 @@ Role required: sn\_aia\_admin
     2.  Verify that AI Search is enabled.
 2.  Enable ServiceNow Otto panel.
 
-    1.  Navigate to **AI Admin Hub** &gt; **Experiences**.
+    1.  Navigate to **Now Assist admin** &gt; **Experiences**.
     2.  Turn on the **Panel** option.
 3.  Access the AI Agent Studio.
 
@@ -74,7 +74,7 @@ Role required: sn\_aia\_admin
 
     1.  Navigate to **Conversational Interfaces** &gt; **Assistants**.
     2.  Determine which chat assistants can access your AI agents.
-    3.  Complete the configuration wizards for ServiceNow Otto panel or ServiceNow Otto for Virtual Agent.
+    3.  Complete the configuration wizards for ServiceNow Otto panel or ServiceNow Otto ServiceNow Otto for Virtual Agent.
 6.  Configure LLM Connections \(optional\).
 
     If using external LLM providers instead of the default OpenAI GPT-4.1:

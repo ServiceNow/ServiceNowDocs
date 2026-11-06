@@ -7,7 +7,7 @@ release: zurich
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Employee Health Screening, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -39,15 +39,15 @@ A visitor must be invited before they can be screened for entry. If an uninvited
 
 3.  Take one of the following actions to perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d579700e164">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d590304e164">
 
 Option
 
-</th><th align="left" id="d579700e167">
+</th><th align="left" id="d590304e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d579700e173">
+</th></tr></thead><tbody><tr><td id="d590304e173">
 
 **Smartphone or tablet**
 
@@ -55,7 +55,7 @@ Action
 
 Tap **Screening** &gt; **Request Visitor Entry**.
 
-</td></tr><tr><td id="d579700e191">
+</td></tr><tr><td id="d590304e191">
 
 **Computer**
 

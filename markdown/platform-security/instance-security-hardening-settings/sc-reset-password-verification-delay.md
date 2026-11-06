@@ -1,5 +1,5 @@
 ---
-title: Maximize reset password verification delay duration \[Updated in Security Center 1.3\]
+title: Maximize reset password verification delay duration
 description: Configure the delay, in milliseconds, that a user must wait before submitting a new password reset request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-verification-delay.html
@@ -7,16 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Maximize reset password verification delay duration \[Updated in Security Center 1.3\]
+# Maximize reset password verification delay duration
 
 Configure the delay, in milliseconds, that a user must wait before submitting a new password reset request.
 
-A bad actor could attempt to brute force login credentials by using automation tools like bots which the **reset password verification delay** property helps defend against. The property value represents the delay, in milliseconds, that a user must wait before they can place a request to reset the password. If this property is not set to the recommended value of **1000** or more, the login is more vulnerable to brute force attacks.
+If **password\_reset.verification.delay** isn't set to the recommended value of `1000` or more, then password reset verification codes will be susceptible to brute force attacks.
 
 ## More information
 
@@ -50,7 +50,7 @@ Data type
 
 </td><td>
 
-string
+String
 
 </td></tr><tr><td>
 
@@ -58,11 +58,19 @@ Recommended value
 
 </td><td>
 
-1000
+An integer greater than or equal to 1000
 
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+1000
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -83,8 +91,16 @@ Security risk
 </td><td>
 
 -   Severity score: 5.9
--   CVSS score: Medium
--   Security risk details: Setting the property value to less than 1000 makes your login more vulnerable to brute force attacks.
+-   CVSS rating: Medium
+-   Security risk details: The milliseconds delay limits the ability of a malicious actor to attempt to guess users identification or verification details, by using automation tools \(bots\).
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -93,14 +109,6 @@ Dependencies and prerequisites
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/reset-your-password.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)

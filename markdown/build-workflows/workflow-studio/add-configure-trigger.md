@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Triggers, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add and configure a trigger in a playbook
@@ -78,7 +78,7 @@ Scheduled
 
 1.  Select **Add trigger** &gt; **Scheduled**.
 2.  Specify the scheduling details and the conditions for the trigger and select **Save and close**.
-For more information about scheduling a trigger, see [Create a scheduled trigger for playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
+For more information about scheduling a trigger, see [Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
 
 </td></tr></tbody>
 </table>
@@ -91,11 +91,4 @@ The trigger is configured.
 [Add and configure your stages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-configure-stage.md)
 
 **Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-triggers.md)
-
-**Related topics**  
-
-
-[Create a trigger definition]()
-
-[Create a scheduled trigger for playbook]()
 

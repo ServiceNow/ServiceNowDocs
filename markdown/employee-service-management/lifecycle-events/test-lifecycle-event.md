@@ -7,9 +7,9 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use the Activity Sets tool, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the Test Activity Sets tool for a lifecycle event activity set, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Preview and test a lifecycle event
@@ -51,5 +51,5 @@ Role required: sn\_hr\_le.admin
     An HR case for the lifecycle event for the selected subject person is created.
 
 
-**Parent Topic:**[Using the Test Activity Sets tool for aLifecycle Events activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
+**Parent Topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
 

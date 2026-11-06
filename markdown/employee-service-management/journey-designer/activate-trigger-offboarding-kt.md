@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -65,7 +65,7 @@ Role required: admin \[virtual\_agent\_admin\]
 
 ## Result
 
-The offboarding knowledge transfer trigger is now active. When an employee's offboarding journey begins, the system automatically initiates the knowledge transfer process with the manager through ServiceNow Otto.
+The offboarding knowledge transfer trigger is now active. When an employee's offboarding journey begins, the system automatically initiates the knowledge transfer process with the manager through Now Assist in Virtual Agent.
 
 **Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

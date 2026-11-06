@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a success initiative, Basic setup, Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create an applicable success outcome
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** &gt; **All** &gt; **All Initiatives**.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **All** &gt; **All Initiatives**.
 
 2.  Open the success initiative for which you want to add success outcome.
 
@@ -41,5 +41,5 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 7.  Select **Save**.
 
 
-**Parent Topic:**[Create a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-initiative.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

@@ -7,8 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [service map, system health alerts, configuration items, core components, self-health checks, alert criticality, colored bars, critical alerts, major alerts, minor alerts, component monitoring, log ingestion process, data inputs, log sources, HLA AI Engine, Metric Base, impact visualization]
 breadcrumb: [Viewing system features and health alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -18,7 +19,7 @@ The ServiceNow Event Management service map includes a model of the Health Log A
 
 Health Log Analytics and the Event Management application form a single service. Viewing the configuration items \(CIs\) that comprise Health Log Analytics and their relationships helps you visualize the impact of HLA system health issues on the service.
 
-\[Omitted image "hla-system-health-service-map.png"\] Alt text: HLA core components on the Event Management service instance map.
+\[Omitted image "hla-system-health-service-map.png"\] Alt text: HLA core components on the Event Management service map.
 
 Health Log Analytics uses self-health checks to monitor the health of its components. When it discovers a system health issue, a notification triggers an alert. System health alerts display on the affected CIs on the service map. A colored bar on an affected CI indicates the criticality level of the alert: A red bar signifies a critical alert, an orange bar a major alert, and a yellow bar a minor alert.
 

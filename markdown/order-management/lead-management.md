@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Lead Management
@@ -28,7 +28,7 @@ As sales agents move through the lead workflow and recognize interest from custo
 
 \[Omitted image "lead-management-som.svg"\] Alt text: Lead Management workflow that shows the lead entry to lead conversion.
 
-## What to do next
+## What to explore next
 
-To learn about setting up Lead Management, see [Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md).
+To learn about setting up Lead Management, see [Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md).
 

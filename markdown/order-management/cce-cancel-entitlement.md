@@ -1,30 +1,30 @@
 ---
 title: Cancel an entitlement
-description: Cancel an entitlement by creating an order on the CSM Configurable Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
+description: Cancel an entitlement by creating an order on the CRM Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cce-cancel-entitlement.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Cancel, Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Cancel an entitlement
 
-Cancel an entitlement by creating an order on the CSM Configurable Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
+Cancel an entitlement by creating an order on the CRM Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
 
 ## Before you begin
 
 You can cancel an entitlement when the associated root sold product is in Active or Suspended state. For product inventory records, you can cancel an entitlement when the associated product inventory record is in Active or Suspended state.
 
-**Note:** You can only cancel entitlements associated with an account. You cannot cancel entitlements associated to service contract lines.
+**Note:** You can only cancel entitlements associated with an account. You cannot cancel entitlements associated to customer contract lines.
 
 Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 
@@ -50,6 +50,4 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 ## Result
 
 The entitlement is permanently cancelled and will move to Cancelled state.
-
-**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-cnt-ent-wf.md)
 

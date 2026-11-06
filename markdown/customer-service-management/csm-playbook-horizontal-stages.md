@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-horizontal-stages.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -66,7 +66,7 @@ The audience determines who can see the page variant. The Case playbook: horizon
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 3.  In the Record section of the Pages and variants list, select **Case playbook: horizontal stages**.
 4.  Select **Settings** at the top of the page.
 
@@ -99,7 +99,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.
 
 </td></tr><tr><td>
 

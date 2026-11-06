@@ -1,6 +1,6 @@
 ---
 title: Configure an SNC connection in Zero Copy Connector for ERP
-description: Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
+description: Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, snc, configure, test, connection, kerberos, security, sn\_erp\_integration.ERP\_Canvas\_RFC]
-breadcrumb: [Use an SNC connection, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [SAP SNC, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure an SNC connection in Zero Copy Connector for ERP
 
-Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
+Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Confirm that you have the following:
 
 3.  In **Related Links**, select **Create New Connection &amp; Credential**.
 
-    \[Omitted image "image.erpc-snc-connection1"\] Alt text: Alias record with name, ID, and related link option highlighted.
+    \[Omitted image "erpc-snc-connection1.png"\] Alt text: Alias record with name, ID, and related link option highlighted.
 
 4.  Complete the form.
 
@@ -52,7 +52,7 @@ Confirm that you have the following:
 
     3.  Hover over the **Name** column and select the filter icon.
 
-        \[Omitted image "image.erpc-snc-connection2"\] Alt text: Workflow Studio actions tab with name column filter icon highlighted.
+        \[Omitted image "erpc-snc-connection2.png"\] Alt text: Workflow Studio actions tab with name column filter icon highlighted.
 
     4.  Filter for **contains** and type `heartbeat`.
 
@@ -64,7 +64,7 @@ Confirm that you have the following:
 
     8.  Specify a **system** and then select **Run Test**.
 
-        \[Omitted image "image.erpc-snc-connection3"\] Alt text: Test action window with system field and run test button highlighted.
+        \[Omitted image "erpc-snc-connection3.png"\] Alt text: Test action window with system field and run test button highlighted.
 
     9.  When the test is complete, select the link **Your test has finished running. View the Action execution details**.
 
@@ -77,6 +77,4 @@ Confirm that you have the following:
 -   Verify that the SNC parameters are correctly set. For more information, see [Setting the SNC Parameters](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2f64847a81a84bda878e32d5a4dae0a2/ce1dfd3d4aefd95ee10000000a114084.html) on the SAP help site.
 -   Check the SNC PSE for validity and correct DN entries. For more information, see [Creating or Replacing a PSE](https://help.sap.com/doc/saphelp_nw73ehp1/7.31.19/en-US/59/6b653a0c52425fe10000000a114084/content.htm?no_cache=true) on the SAP help site.
 -   Confirm that the SAP clients are properly configured to use SNC. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-mid-server.md).
-
-**Parent Topic:**[Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.md)
 

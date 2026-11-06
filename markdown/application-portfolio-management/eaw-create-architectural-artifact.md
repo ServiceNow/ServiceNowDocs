@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-architectural-artifact.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage architectural artifacts, Working with information portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage architectural artifacts, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create or edit an architectural artifact from Portfolio page
@@ -42,10 +42,8 @@ Role required: sn\_apm.apm\_user to add an architectural artifact.
 
 7.  Select **Create**.
 
-    The architectural artifact is created.
+    The architectural artifact is created. You are redirected to the architectural version record of the newly created architectural artifact.
 
-    -   For file type **Architectural decision record**, you are redirected to the newly created architectural decision record page.
-    -   For file type **URL** or **Attachment**, you are redirected to the architectural version record of the newly created architectural artifact.
 
 **Parent Topic:**[Manage architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-arch-artifacts.md)
 

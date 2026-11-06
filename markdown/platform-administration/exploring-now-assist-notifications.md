@@ -1,31 +1,31 @@
 ---
-title: Explore Now Assist in Notifications
+title: Explore AI in Notifications
 description: Automates inbound email processing and enables the creation and modification of email notifications, templates, and layouts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/exploring-now-assist-notifications.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Now Assist in Notifications, Configure core features, Administer]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Now Assist in Notifications
+# Explore AI in Notifications
 
 Automates inbound email processing and enables the creation and modification of email notifications, templates, and layouts.
 
-## Now Assist in Notifications overview
+## Overview of the Notification agent and agentic workflows in Notifications
 
-Email Agents automate the triage of inbound emails by identifying intent, executing actions, and drafting responses. Notification Agents create and update email notifications, templates, and layouts to support consistent communication.
+Email Agents help automate the triage of tasks that are created via inbound emails by identifying intent, executing actions, &amp; drafting appropriate email responses. The Email Agentic Workflow is designed to intelligently process and respond to various inbound email requests.
 
-## Now Assist in Notifications users
+## Users
 
 |User|Role|Description|
 |----|----|-----------|
 |Admin|sn\_notif\_agents.notification\_ai\_admin|Admins activate, enable, and create intents for email agents.|
 
-## Now Assist in Notifications benefits
+## Benefits
 
 <table id="table_amf_g24_3hc"><thead><tr><th>
 
@@ -66,9 +66,8 @@ Admin
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist in Notifications, see:
+To learn more about configuring and using the Notification agent and agentic workflows with email notifications, see:
 
 -   [Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-agentic-workflows-in-notifications.md)
 -   [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/guidelines-creating-intent.md)
--   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/notification-creation-agent.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Tables used by consumer profiles
-description: Customer Service Management \(CSM\) introduced consumer profile \(sn\_csm\_consumer\_profile\) column on Case, Sold Product, Install Base Item, and Interaction tables to identify and differentiate profile-specific data to be used by industries for different use-cases.
+description: Consumer profile \(sn\_csm\_consumer\_profile\) column on case, sold product, install base, and interaction tables is introduced to identify and differentiate profile-specific data to be used by industries for different use-cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/consumer-profiles-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Tables used by consumer profiles
 
-Customer Service Management \(CSM\) introduced consumer profile \(sn\_csm\_consumer\_profile\) column on Case, Sold Product, Install Base Item, and Interaction tables to identify and differentiate profile-specific data to be used by industries for different use-cases.
+Consumer profile \(sn\_csm\_consumer\_profile\) column on case, sold product, install base, and interaction tables is introduced to identify and differentiate profile-specific data to be used by industries for different use-cases.
 
 <table id="table_zl3_thz_cwb"><thead><tr><th>
 

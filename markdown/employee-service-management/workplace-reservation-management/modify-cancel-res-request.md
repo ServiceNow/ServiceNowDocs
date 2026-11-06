@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ You can also update the reserved workplace item in your reservation and change t
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d248400e91">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d253211e91">
 
 Location
 
-</th><th align="left" id="d248400e94">
+</th><th align="left" id="d253211e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d248400e100">
+</th></tr></thead><tbody><tr><td id="d253211e100">
 
 **From application navigator**
 
@@ -52,7 +52,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d248400e121">
+</td></tr><tr><td id="d253211e121">
 
 **From Workplace Service Portal**
 
@@ -176,9 +176,9 @@ The reservation is updated with your changes and an email notification is sent w
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -205,4 +205,6 @@ The reservation is updated with your changes and an email notification is sent w
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

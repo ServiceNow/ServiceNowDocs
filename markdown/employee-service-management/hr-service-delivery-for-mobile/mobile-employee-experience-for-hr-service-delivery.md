@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -69,5 +69,5 @@ If you're using the Now Mobile app with the Lifecycle Events for Enterprise \[co
 
 [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 
-[Now Mobile experience for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/emp-center-mobile-exp.md)
+[Now Mobile experience for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.md)
 

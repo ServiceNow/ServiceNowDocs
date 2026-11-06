@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manually create issues, Manage issues, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manually create GRC issues using the Compliance Workspace, Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Group similar issues under a parent issue using the Compliance Workspace
@@ -43,9 +43,9 @@ Grouping issues under a parent can save you valuable time. For example, assume y
 
     **Note:** Standalone issues are similar to the current issue, but that are not assigned to a parent issue group. The Confidence score is calculated using a similarity definition included in the GRC: Predictive Intelligence application base system.
 
-4.  You can click the Information icon to view details for any similar issues in order to help determine whether they should be grouped with the current issue.
+4.  You can click the Information icon to view details for any similar issues to help determine whether they should be grouped with the current issue.
 
-5.  Select the similar issues you want to group with the current issue, and click **Group**.
+5.  Select the similar issues you want to group with the current issue, and select **Group**.
 
     \[Omitted image "group-ssues.png"\] Alt text: Group issues
 
@@ -92,7 +92,7 @@ Assigned to
 This field displays only if you selected **Create a new group**. Select the user to whom the group is assigned.
 
 </td></tr></tbody>
-</table>7.  Click **OK**.
+</table>7.  Select **OK**.
 
     The selected issues are added to a new or existing group.
 

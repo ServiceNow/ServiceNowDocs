@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Browser Extension for Employee Center
@@ -70,11 +70,11 @@ You can configure aspects like the number of options displayed within a widget, 
 
 Leverage the Now Assist search on the Browser Extension for Employee Center. For more information, see [Set up Now Assist search in Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-now-assist-search-ecbe.md).
 
-Along with the ServiceNow® Store, also get the Browser Extension for Employee Center for Google Chrome and Microsoft Edge in the Chrome web store and the Microsoft Edge Add-ons store. For more information, see the helpful resources section.
+Along with the ServiceNow® Store, get the Browser Extension for Employee Center for Google Chrome and Microsoft Edge in the Chrome web store and the Microsoft Edge Add-ons store. For more information, see the helpful resources section.
 
 ## Helpful resources
 
-Some ServiceNow and other helpful resources are as follows:
+Here are some helpful resources:
 
 -   **Chrome web store for the ServiceNow Employee Center Browser Extension**
 

@@ -1,45 +1,47 @@
 ---
 title: Publish app changes to the Application Repository from ServiceNow Studio
-description: Publish changes that you have made to an app in ServiceNow Studio to the Application Repository \(App Repo\).
+description: Publish app changes from ServiceNow Studio to the Application Repository \(App Repo\) so your updates are available to all instances of your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/qs-publish-changes-to-app-using-app-repo.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Application Repository in ServiceNow Studio, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Publish app changes to the Application Repository from ServiceNow Studio
 
-Publish changes that you have made to an app in ServiceNow Studio to the Application Repository \(App Repo\).
+Publish app changes from ServiceNow Studio to the Application Repository \(App Repo\) so your updates are available to all instances of your application.
 
 ## Before you begin
 
-Role required: admin or delegated developer
+Role required: admin or delegated\_developer
 
 ## About this task
 
-The App Repo is one option ServiceNow offers for app deployment. You can also [create update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-create-update-set.md) to publish changes, or if your company has a deployment pipeline set up, you can deploy changes through the pipeline in ServiceNow Studio. For more information about the App Repo, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/app-repo.md).
+The App Repo is one deployment option available in ServiceNow. You can also [create update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-create-update-set.md) to publish changes. If your company has a deployment pipeline configured, you can deploy changes through the pipeline in ServiceNow Studio. For more information about the App Repo, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open the **App details** page for the application that you want to update from either the ServiceNow Studio home page or the Navigator panel.
+2.  Open the **App details** page for the application you want to update.
 
-    -   On the ServiceNow Studio home page, select the **Deployment** tab. Then select **Applications** and select your application from the **Name** column.
-    -   In the Navigator panel, select the Apps icon \(\[Omitted image "sn-studio-app-nav-icon.png"\] Alt text: Apps icon\). Then select your application and select **App details**.
+    -   On the ServiceNow Studio home page, select the **Deployment** tab, select **Applications**, then select your application from the **Name** column.
+    -   In the Navigator panel, select the Apps icon \[Omitted image "sn-studio-apps-icon.png"\] Alt text:, select your application, then select **App details**.
 3.  On the App details page, select **Publish**.
 
 4.  In the **New version** field, enter a version number for the changes.
 
-5.  In the **Release notes** field, add notes about the changes that you’re publishing.
+5.  In the **Release notes** field, enter notes about the changes you are publishing.
 
 6.  Select **Publish**.
 
-    You have submitted your changes for review and approval. Once your changes are approved, your updates are accessible to all instances of your application.
+    Your changes are submitted for review and approval. After approval, your updates are available to all instances of your application.
 
+
+**Parent Topic:**[Application Repository in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-the-app-repo-in-servicenow-studio.md)
 

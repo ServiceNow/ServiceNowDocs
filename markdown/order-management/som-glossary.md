@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-13"
-reading_time_minutes: 17
+last_updated: "2026-09-10"
+reading_time_minutes: 16
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
 
@@ -52,15 +52,13 @@ A request to modify an existing order, such as changing quantity, product, or fu
 
 External organizations like resellers or system integrators that collaborate with an enterprise to sell products and services, and can be managed through Partner Relationship Management.
 
-To learn more about channel partners, see [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md).
-
 ## characteristics and characteristic options
 
 Characteristics define product attributes, while characteristic options are the available values for these attributes, based on customer preferences.
 
 ## commit
 
-Sales opportunities that representatives are confident will close within the current forecast period.
+Sales opportunities that representatives are confident will close in the current forecast period.
 
 ## committed time frame
 
@@ -374,7 +372,7 @@ Analyzing sales pipeline progression.
 
 The point after which orders can't be changed or canceled.
 
-For more information, see [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/inflight-order-change-mgt-overview.md).
+For more information, see .
 
 ## price list
 
@@ -386,7 +384,7 @@ Specifying conditions for default price list usage.
 
 ## price list line
 
-Entries in price lists identifying list prices.
+Entries within price lists identifying list prices.
 
 ## price point \(pricing plan\)
 
@@ -403,14 +401,6 @@ Price adjustments defined for product offerings when they are sold as part of a 
 ## pricing engine
 
 A component calculating and applying pricing strategies.
-
-## pricing engine parallel execution
-
-A system property that enables the pricing engine to process transaction lines in parallel to optimize performance, especially for large sets of transaction lines \(typically 100 or more\).
-
-## pricing engine parallelism lines threshold
-
-The minimum lines required for parallel processing with the default value being 100.
 
 ## pricing entities
 
@@ -430,7 +420,7 @@ A customizable sequence of steps that determine the final price of a product or 
 
 ## pricing plan step
 
-Stages in pricing plans applying specific calculations.
+Stages within pricing plans applying specific calculations.
 
 ## pricing strategies
 
@@ -450,7 +440,7 @@ A user interface embedded within various ServiceNow Sales CRM applications \(Opp
 
 ## product hierarchy \(product configurator\)
 
-A section in the product configurator that lists the parent and child product relationships for configurable products, helping agents navigate nested bundles.
+A section within the product configurator that lists the parent and child product relationships for configurable products, helping agents navigate nested bundles.
 
 ## product data model
 
@@ -470,7 +460,7 @@ The top-level entity in the catalog hierarchy. Catalogs can contain categories, 
 
 ## product offering category
 
-Logical groupings of product offerings in a catalog, making it easier for agents to browse and navigate product offerings.
+Logical groupings of product offerings within a catalog, making it easier for agents to browse and navigate product offerings.
 
 ## product offering recommendations
 

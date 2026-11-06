@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RMF step 2 - Select controls for an authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ After you have created a common control, you can identify other controls that ca
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.system owner, sn\_irm\_cont\_auth.info\_system\_sec\_officer, or sn\_irm\_cont\_auth.admin
+Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_system\_sec\_officer, sn\_irm\_cont\_auth.info\_system\_sec\_manager
 
 ## About this task
 
@@ -37,9 +37,7 @@ You are aware that the facility has a fire suppression system, fire alarms, and 
 
 3.  Select a control that you want to inherit from a common control.
 
-4.  Select **Inherit from Provider**.
-
-    \[Omitted image "inherit-confirm.png"\] Alt text: Inherit from Common Control
+4.  Select **Inherit from Common Control**.
 
 5.  Select the common control you want to inherit protections from and select **Confirm**.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add or modify content type for Content Publishing
@@ -28,15 +28,15 @@ The base system provides content types and content that you can use.
 
 2.  Click **New** or an existing content type to edit.
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d145987e78">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d147977e77">
 
 Field
 
-</th><th align="left" id="d145987e81">
+</th><th align="left" id="d147977e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145987e87">
+</th></tr></thead><tbody><tr><td id="d147977e86">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d145987e96">
+</td></tr><tr><td id="d147977e95">
 
 **Category**
 
@@ -58,7 +58,7 @@ The content type category. The types are:-   Portal Content
 
 See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td></tr><tr><td id="d145987e135">
+</td></tr><tr><td id="d147977e134">
 
 **Associated widgets**
 
@@ -66,7 +66,7 @@ See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d145987e144">
+</td></tr><tr><td id="d147977e143">
 
 **Active**
 
@@ -74,7 +74,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d145987e154">
+</td></tr><tr><td id="d147977e153">
 
 **Value**
 

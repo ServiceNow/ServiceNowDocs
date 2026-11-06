@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/credits.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Workflow Data Fabric]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Workflow Data Fabric]
 
 Workflow Data Fabric Credits let you monitor and track Workflow Data Fabric product usage through a dashboard showing credit usage, usage measurements, and thresholds that trigger alerts.
 
-For more information about Workflow Data Fabric benefits, the workflow for the solution, and requirements for integrating the solution, see [Accelerating and automating your repetitive tasks by using Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/accelerate-automate-engine-rpa.md).
+For more information about Workflow Data Fabric benefits, the workflow for the solution, and requirements for integrating the solution, see .
 
 ## Exploring Workflow Data Fabric Credits
 

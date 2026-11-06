@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  Select **All Cases**.
 
@@ -32,15 +32,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 5.  Select the Issues related list and do one of the following.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d174344e100">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d103973e102">
 
 Option
 
-</th><th align="left" id="d174344e103">
+</th><th align="left" id="d103973e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d174344e109">
+</th></tr></thead><tbody><tr><td id="d103973e111">
 
 **To add an existing issue**
 
@@ -51,7 +51,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d174344e135">
+</td></tr><tr><td id="d103973e137">
 
 **To create an issue**
 

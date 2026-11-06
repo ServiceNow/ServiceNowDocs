@@ -7,8 +7,8 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
 
@@ -17,8 +17,6 @@ breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 You can activate the data privacy plugin \(com.glide.data\_privacy\) for Platform Security if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
 
 ## Before you begin
-
-**Important:** This section is for Data Privacy\(Classic\). See [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) for the latest up to date store version.
 
 Data privacy requires a separate subscription from the rest of the ServiceNow AI Platform®.
 
@@ -48,7 +46,7 @@ For more information, see [Installed with data privacy \(Classic\)](https://raw.
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

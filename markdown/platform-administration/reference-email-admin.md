@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/reference-email-admin.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Reference
@@ -20,6 +20,8 @@ To prevent issues with large email messages, the system enforces configured limi
 Choose the email address record that you want to modify, and update the state field as needed.
 -   **[User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-criteria-form-notifications.md)**  
 User criteria enables you to allow access to users based on role, department, group, location, or company. Administrators can control access by creating and applying user criteria. User criteria records define conditions that are evaluated against user records. When user criteria is defined, records are only visible to users who pass the defined conditions.
+-   **[Granular admin roles for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/granular-admin-roles-notifications.md)**  
+Granular admin roles enable organizations to assign specific administrative permissions based on functional responsibilities, replacing broad admin access with targeted role assignments. Use the new admin roles to grant users administrative capability without using the admin role.
 
 **Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/email-administration-landing.md)
 

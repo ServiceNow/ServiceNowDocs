@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-facilities-assign-roles\_0.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Facilities, Configure, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---

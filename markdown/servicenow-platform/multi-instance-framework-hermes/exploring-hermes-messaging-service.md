@@ -7,7 +7,7 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -90,8 +90,9 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 
 -   Maximum message size: 2 MB
 -   Maximum message size per second: 2 MB \(produced or consumed\)
--   Number of topics: 30 topics per instance
--   Maximum number of partitions: 32 partitions per topic
+-   Number of topics: No limit
+-   Maximum number of partitions per topic: 32 partitions
+-   Maximum number of partitions: 960 \(across all external topics and internal topics used by Stream Connect, Log Export Service, and other ServiceNow® apps\)
 -   Retention policy: 36 hours
 -   Supported compression types for producing messages to Hermes: GZIP, LZ4, and NONE.
 

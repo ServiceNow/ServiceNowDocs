@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ The Guided Tour Designer has accessibility features so that users can design tou
 
 ## Before you begin
 
-Role required: guided\_tour\_admin or admin
+Role required: guided\_tour\_admin
 
 ## About this task
 

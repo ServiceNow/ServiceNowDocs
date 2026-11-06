@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/ctwm-roles-installed.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -59,8 +59,6 @@ Care Team Location Support Agent
 Contains:
 
  sn\_hco.loc\_support\_agent
-
- wm\_read \(if Field Service Management is installed\)
 
 </td><td>
 
@@ -189,6 +187,38 @@ Support Agent Department Manager
 </td><td>
 
 Tracks and manages all the tasks and cases for support departments.
+
+</td></tr><tr><td>
+
+**sn\_hco\_orc.loc\_contributor**
+
+</td><td>
+
+Healthcare Orchestration Location Contributor
+
+</td><td>
+
+ 
+
+</td><td>
+
+Provides create access for orchestration cases. Reports, views, tracks, and responds to orchestration cases.
+
+</td></tr><tr><td>
+
+**sn\_hco\_orc.loc\_manager**
+
+</td><td>
+
+Healthcare Orchestration Location Manager
+
+</td><td>
+
+ 
+
+</td><td>
+
+Responsible for assigning and overseeing tasks, tracking their completion status, and ensuring compliance.
 
 </td></tr><tr><td>
 

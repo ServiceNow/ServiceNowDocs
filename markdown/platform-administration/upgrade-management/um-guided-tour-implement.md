@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Access guided upgrade on a non-production instance
@@ -18,37 +18,37 @@ Follow the guided upgrade steps to experience the seamless upgrade on your non-p
 
 ## Before you begin
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 
 1.  Access Upgrade Console in one of the following ways.
 
-<table id="choicetable_jnj_mj1_ndc"><thead><tr><th align="left" id="d232641e57">
+<table id="choicetable_jnj_mj1_ndc"><thead><tr><th align="left" id="d241547e57">
 
 Option
 
-</th><th align="left" id="d232641e60">
+</th><th align="left" id="d241547e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d232641e66">
+</th></tr></thead><tbody><tr><td id="d241547e66">
 
 **Using the application navigator**
 
 </td><td>
 
-Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management**.
+Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d232641e87">
+</td></tr><tr><td id="d241547e87">
 
 **Using Admin tab option**
 
 </td><td>
 
-Navigate to **Admin** &gt; **Upgrade Management**.
+Navigate to **Admin** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d232641e105">
+</td></tr><tr><td id="d241547e105">
 
 **Using Admin tab and Admin Home option.**
 
@@ -65,15 +65,15 @@ Navigate to **Admin** &gt; **Upgrade Management**.
 
 2.  Access the guided upgrade in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d232641e156">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d241547e156">
 
 Option
 
-</th><th align="left" id="d232641e159">
+</th><th align="left" id="d241547e159">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d232641e165">
+</th></tr></thead><tbody><tr><td id="d241547e165">
 
 **Using Get started button__Note:__ This option is available only when you haven't started the upgrade yet.
 
@@ -85,7 +85,7 @@ Steps
 2.  Select the Guided upgrade version that you want to implement on your instance.
 
 
-</td></tr><tr><td id="d232641e188">
+</td></tr><tr><td id="d241547e188">
 
 **Using Guided upgrade tab option__Note:__ This tab is visible only if there’s an ongoing upgrade in the instance.
 
@@ -93,7 +93,7 @@ Steps
 
 </td><td>
 
-1.  Select the **Guided upgrade** tab on the top of the Upgrade Management landing page.
+1.  Select the **Guided upgrade** tab on the top of the Upgrade Console landing page.
 2.  Select **Resume upgrade** to continue with the upgrade process. You can also select **End session** if you want to cancel the ongoing upgrade process.
 
 
@@ -114,4 +114,6 @@ Implement the post-upgrade tasks for a successful upgrade completion on your ins
 
 
 [Access guided upgrade on a production instance]()
+
+[Bulk application updates]()
 

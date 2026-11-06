@@ -7,10 +7,10 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Admin Workspace status details
@@ -115,8 +115,20 @@ Cloud-based
 
 Displays the number of cloud resources that were discovered during the run.
 
+</td></tr><tr><td>
+
+Total Certificates
+
+</td><td>
+
+Certificate
+
+</td><td>
+
+Displays the number of certificates that were collected during the run.
+
 </td></tr></tbody>
-</table>    Selecting an indicator reveals related information in a table. By default, detected errors display, sorted by priority. Each error card includes details such as the Error Code, Operating System, and, when available, a link to supporting documentation. If a task has been created, task-related information is shown on the card, along with the option to edit the task. For errors without an associated task, you can choose to either create a task or ignore the error. Selecting the **Total Errors** hyperlink opens the Error Stats Page, where you can view instructions and take action based on the error.
+</table>    Selecting an indicator reveals related information in a table. By default, detected errors display, sorted by priority. Each error card includes details such as the error title, severity, refined code, occurrence count, and error category. Selecting an error card or the **Occurrences** link opens the Error Details page, where you can view the root cause, remediation steps, and individual error instances. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/daw-error-details.md).
 
     For IP-based schedules, the **Total Devices**, **New Devices**, and **Duplicate IPs** tables provide additional details such as the Source, Classification probe, and Scan status. Selecting the **Source** hyperlink opens a page where you can view more information about the device, apply tags, and access the Discovery Log and ECC Queue details. Selecting the **Total IPs** indicator opens the Shazzam Summary table, where you can access details such as IP addresses, IP Range, and Network Range. To learn more about a specific item, select its hyperlink in the table.
 

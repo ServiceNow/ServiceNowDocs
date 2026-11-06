@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [Palo Alto Prisma AIRS, data mapping, field mapping, AI models, vulnerability scans, red teaming]
-breadcrumb: [AI Service Graph Connector for Palo Alto Prisma AIRS, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [AI Service Graph Connector for Palo Alto Prisma AIRS, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Palo Alto Prisma AIRS to ServiceNow data mapping
@@ -109,6 +109,4 @@ Each imported AI model also creates a linked digital asset \(ALM\) record for ap
 |compliance\_frameworks.id|compliance\_framework\_id|
 |compliance\_frameworks.techniques.id|technique\_id|
 |compliance\_frameworks.techniques.description|technique\_description|
-
-**Parent Topic:**[Palo Alto Prisma AIRS AI Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/palo-alto-prisma-airs-ai-sgc.md)
 

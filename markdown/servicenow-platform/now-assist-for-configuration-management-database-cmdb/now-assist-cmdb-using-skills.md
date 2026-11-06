@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Note:** To enable a subset of users to access ServiceNow Otto for CMDB skills, create a role or a group for the users. For more information, see [Create a role or a group to access ServiceNow Otto skills](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2078019).
+**Note:** To enable a subset of users to access skills, create a role or a group for the users. For more information, see [Create a role or a group to access ServiceNow Otto skills](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2078019).
 
 -   **CI summarization skill**
 
@@ -34,9 +34,25 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
     View an AI-generated summary of the CMDB success advisor for HAM or CMDB success advisor for Data Foundations dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and recommends remediation actions to address the findings. For more information, see [Summarize CMDB readiness with the ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.md).
 
--   **Manage duplicate CIs skill**
+-   **Search the Service Graph database using natural language**
 
-    Resolve deduplication tasks with support from the ServiceNow Otto Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template. For more information, see [Let ServiceNow Otto help you to manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.md).
+    ServiceNow Otto for CMDB uses the search result classifier skill to analyze your search criteria, identify and apply implicit filters, determine the optimum search method \(keyword search or query generation\), query Service Graph data, and then display the results. You then have the option to refine the search using natural language in the ServiceNow Otto panel.
+
+-   **View CI attribute descriptions on CI forms**
+
+    ServiceNow Otto answers your questions on CI classes and attributes to help you work in CI forms, dashboards, home pages, and other views on the workspace.
+
+-   **View CI details on the Explore CI view**
+
+    ServiceNow Otto answers your questions on CI classes and attributes to help you work in CI forms, dashboards, home pages, and other views on the workspace.
+
+-   **Let AI help you to manage duplicate CIs**
+
+    Resolve deduplication tasks with support from the ServiceNow Otto Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template.
+
+-   **Resolve deduplication tasks with AI**
+
+    Resolve deduplication tasks with the help of agentic AI.
 
 -   **Service Graph Connector diagnosis skill**
 

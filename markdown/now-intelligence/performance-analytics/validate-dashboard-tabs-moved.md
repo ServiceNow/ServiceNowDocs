@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Move a Core UI dashboard with an update set, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Move a Core UI dashboard with an update set, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Validate that tabs are moved to a target dashboard
@@ -74,6 +74,6 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     5.  Move the update set to another instance using standard update set functionality.
 
-        For more information, see Retrieve an update set.
+        For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
 

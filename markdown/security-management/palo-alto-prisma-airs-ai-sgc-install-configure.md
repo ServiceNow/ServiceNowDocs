@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/palo
 release: zurich
 topic_type: task
 last_updated: "2026-10-06"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Palo Alto Prisma AIRS, AI Service Graph Connector, configuration, installation]
-breadcrumb: [AI Service Graph Connector for Palo Alto Prisma AIRS, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [AI Service Graph Connector for Palo Alto Prisma AIRS, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install the AI Service Graph Connector for Prisma AIRS
@@ -77,6 +77,4 @@ Import schedules are inactive by default. Activate the ones you need from the Im
 Adding another connection for a different Prisma AIRS tenant automatically creates its own set of data sources and import schedules.
 
 Navigate to **All** &gt; **Service Graph Connectors** &gt; **Prisma AIRS** to access Setup, Connections, Data Sources, and Import Schedules. The cmdb\_inst\_admin role is required to configure settings. The SGC viewer role allows view-only access.
-
-**Parent Topic:**[Palo Alto Prisma AIRS AI Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/palo-alto-prisma-airs-ai-sgc.md)
 

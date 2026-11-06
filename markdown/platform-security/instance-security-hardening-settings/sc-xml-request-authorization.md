@@ -1,5 +1,5 @@
 ---
-title: Require authorization for XML requests \[Updated in Security Center 1.3\]
+title: Require authorization for XML requests
 description: Use the glide.basicauth.required.xml property to designate if incoming XML requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-xml-request-authorization.html
@@ -7,18 +7,20 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for XML requests \[Updated in Security Center 1.3\]
+# Require authorization for XML requests
 
 Use the **glide.basicauth.required.xml** property to designate if incoming XML requests should require basic authentication.
 
-## More information
+If the **glide.basicauth.required.xml** system property is not set to the recommended value of **true**, then Basic Authentication is disabled for the XML format export processor. This also happens when combined with a wrong role within the **guest\_user** related property \(For example a high privileged user such as Admin\). This leads to unauthenticated access to instance data.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+
+## More information
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -30,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,27 +48,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To enforce basic authentication on XML requests.
-
-</td></tr><tr><td>
-
-Security risk rating
-
-</td><td>
-
-7.5
+Boolean
 
 </td></tr><tr><td>
 
@@ -78,14 +64,27 @@ true
 
 </td></tr><tr><td>
 
-Functional impact
+Default value
 
 </td><td>
 
-This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while retrieving data from tables/pages in the form of XML data on the instance.
--   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
+true
 
- To learn more, see [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/xml-parser-step-action-designer.md).
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -93,15 +92,25 @@ Security risk
 
 </td><td>
 
-\(High\) Without appropriate authorization configured on the incoming XML requests, an unauthorized user can get access to sensitive content/data on the target instance.
+-   Severity score: 7.5
+-   CVSS rating: High
+-   Security risk details: Unauthenticated access to XML export data, when combined with misconfigured guest user role, poses a significant risk of unauthorized data exposure.
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_Authentication.md)
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

@@ -1,26 +1,26 @@
 ---
-title: Upgrade Management roles
-description: Upgrade Management is installed with these roles.
+title: Upgrade Console roles
+description: Upgrade Console is installed with these roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-roles.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Reference, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Upgrade Management roles
+# Upgrade Console roles
 
-Upgrade Management is installed with these roles.
+Upgrade Console is installed with these roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-## System administrator \[admin\]
+## Administrator \[upgrade\_admin\]
 
-Access all tables, tools and information within Upgrade Management Console on your instance.
+Access all tables, tools and information within Upgrade Console on your instance.
 
 -   **Contains Roles**
 
@@ -48,5 +48,5 @@ Access all tables, tools and information within Upgrade Management Console on yo
     None.
 
 
-**Parent Topic:**[Upgrade Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-references.md)
+**Parent Topic:**[Upgrade Console references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-references.md)
 

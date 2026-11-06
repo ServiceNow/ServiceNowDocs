@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/chart-options.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # Chart options in KPI Details
@@ -16,7 +16,7 @@ The KPI Details **Chart options** menu enables you to show, hide, or change aspe
 
 ## Analysis options
 
-**Note:** Targets, thresholds, trends, and comments are not supported in KPI Details when indicator scores are aggregated on multiple elements.
+**Note:** For native Data snapshots indicators, only targets, thresholds, and labels are supported. For classic indicators with Data snapshots enabled, all Analysis options except Comments are supported, unless scores are aggregated on multiple elements. Indicators with scores aggregated on multiple elements do not support targets, thresholds, or comments.
 
 -   **Targets**
 
@@ -96,6 +96,8 @@ Not all statistics are applicable to every indicator. On the indicator record, y
 
 The time series options set the kind of measurements that the chart displays. All measurements can be shown together.
 
+**Note:** Native Data snapshots indicators support only Score time series.
+
 -   Score \(default\)
 -   Change
 -   Change %
@@ -132,7 +134,13 @@ Select from the following chart visualizations:
 
 [Select time aggregation in KPI Details]()
 
-[Filter KPI Details by breakdown elements]()
+[Configure trend for a native Data snapshots indicator in KPI Details]()
+
+[Configure display properties for a Data snapshots indicator]()
+
+[Filter indicator scores by breakdown elements in KPI Details]()
+
+[Filter native Data snapshots indicator scores in KPI Details]()
 
 [Access indicator record or scoresheet from KPI Details]()
 

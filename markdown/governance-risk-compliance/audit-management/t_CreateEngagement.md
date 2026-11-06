@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -21,6 +21,8 @@ Audit managers create engagements to manage audit information and collect entiti
 Role required: sn\_audit.admin or sn\_audit.manager
 
 **Note:** For more information on engagements, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md).
+
+Starting with Audit Management version 23.x.x, you can store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## About this task
 
@@ -119,7 +121,7 @@ Auditors
 
 </td><td>
 
-Auditors were assigned to the engagement.
+Auditors assigned to the engagement.
 
 </td></tr><tr><td>
 
@@ -148,22 +150,6 @@ Stated objectives of the engagement.
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Schedule
-
-</td></tr><tr><td>
-
-Audit Period Start
-
-</td><td rowspan="2">
-
-**Note:** The Audit period start and end is available from Yokohama patch 10 and Zurich patch 4 release. To enable this feature, see [Schedule job for audit date enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/schedule-job-for-audit-date.md).
-
-To enable Audit period start and end for older version, see [Create exclusion table for audit date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-exclusion-table-for-audit-date.md).
-
-Enables auditing of past or future periods within an ongoing engagement. Only indicator results falling within the specified audit period will be displayed. These fields enable you to specify the time period being audited, separate from the overall Engagement time frame.
-
-</td></tr><tr><td>
-
-Audit Period End
 
 </td></tr><tr><td>
 
@@ -352,11 +338,14 @@ Option to enable confidentiality of the record. Only the assigned users or group
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
+4.  Attach a document with the record in the Document panel.
 
--   **[Schedule job for audit date enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/schedule-job-for-audit-date.md)**  
-Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule. Execute this scheduled job to enable enhanced audit date behavior. The audit date enhancements provide improved handling of fieldwork dates at the engagement level, making them independent of child audit task dates.
--   **[Create exclusion table for audit date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-exclusion-table-for-audit-date.md)**  
-Create exclusion lists for the various policy types used in Audit Management.
+5.  Ask questions about the document in the ServiceNow Otto® panel.
+
+6.  Use voice assist to navigate documents with voice commands and receive audio summaries.
+
+    For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/manage-documents-panel.md).
+
 
 **Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md)
 

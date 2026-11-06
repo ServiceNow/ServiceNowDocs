@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversion funnels, Use, Usage Insights, Platform Analytics]
+breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Edit a conversion funnel
@@ -22,7 +22,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 ## Procedure
 
-1.  Navigate to **Platform Analytics** &gt; **User Experience Analytics**.
+1.  Navigate to **Platform Analytics** &gt; **Usage Insights**.
 
 2.  From the Applications list, select the application with the funnel you want to edit.
 

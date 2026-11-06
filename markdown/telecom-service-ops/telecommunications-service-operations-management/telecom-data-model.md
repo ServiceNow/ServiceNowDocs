@@ -1,32 +1,52 @@
 ---
 title: Telecom data model
-description: The telecom data model serves as a comprehensive framework that organizes and interconnects data within telecommunications networks. It covers a broad range of elements, including the underlying network infrastructure, the services offered, and the data related to network operations.
+description: The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core configuration item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/telecom-data-model.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 2
+breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom data model
 
-The telecom data model serves as a comprehensive framework that organizes and interconnects data within telecommunications networks. It covers a broad range of elements, including the underlying network infrastructure, the services offered, and the data related to network operations.
+The Telecom data model defines a structured framework for representing telecommunications networks within the CMDB. It extends the core configuration item \(CI\) model to describe telecom‑specific infrastructure, connections, and relationships in a consistent and scalable way.
 
-The SD-WAN data model is a focused subset of a much larger, more generic Telecom data model. The full Telecom data model is extensive and built to cover a very broad range of telecommunications aspects. Our SD-WAN data model acts as your practical guide. Instead of navigating the entire, generic Telecom model, it provides clear actionable guidelines on which specific classes from the broader Telecom model are relevant to SD-WAN and how these classes should be related to accurately represent SD-WAN technology.
+At its core, the Telecom data model organizes network elements such as equipment, interfaces, ports, sites, and connections, and defines how these elements relate to one another. The model captures both physical and logical aspects of the network and uses containment and consumption relationships to represent how network components are assembled and interconnected. This structure enables accurate modeling of complex telecom environments while remaining aligned with the standard CMDB architecture.
 
-**Note:** The SD-WAN data model is a specialized framework that manages multiple wide-area network \(WAN\) connections. For more information, see [SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md).
+The Telecom data model is extensible and technology‑agnostic. It provides a common foundation that supports multiple telecommunications domains by reusing existing CMDB classes where possible and introducing new classes only when telecom‑specific representation is required.
 
 ## Key components
 
--   Network assets: Information about the physical and virtual components of the network, such as equipment, connections, and configurations.
--   Services: Details about the services provided over the network, including voice, data, and multimedia services.
--   Operational data: Data related to the performance, usage, and management of the network.
+-   Network equipment and hardware: Physical and logical equipment, along with the components they contain, such as interface cards and ports.
+-   Interfaces and ports: Network interfaces and ports that enable connectivity between devices and services.
+-   Sites and locations: Logical and physical locations used to group and organize network infrastructure.
+-   Links, circuits, and connections: Physical and logical connections that describe how network elements communicate and exchange data.
+
+## Network equipment classes
+
+The Telecom data model includes network equipment classes that represent specialized telecommunications hardware as children of the Telco Equipment \(`cmdb_ci_telco_equipment`\) class. The following table describes these classes.
+
+|Class|Description|
+|-----|-----------|
+|Network Packet Broker \(`cmdb_ci_network_packet_broker`\)|A specialized device that sits between network TAPs or SPAN ports and security and monitoring tools. A network packet broker aggregates, filters, and distributes traffic. Each connected tool receives only the data it needs, which optimizes monitoring performance across high-speed, complex, and hybrid cloud networks. Example devices include the Iris Packet Broker IPB220 and IPB420, and APCON IntellaFlex XR monitoring switches. This class is a child of the Telco Equipment \(`cmdb_ci_telco_equipment`\) class.|
 
 ## Benefits
 
-The telecom data model is crucial for efficient network management, service provisioning, and data analysis. It enables effective maintenance of complex networks, a clear explanation of network capabilities, and informed decision-making. By providing a unified view of network assets and services, it improves operational efficiency. Additionally, it enhances the customer experience through better service provisioning and management. The model also facilitates decision-making by providing data for the analysis of operational data, ultimately supporting the delivery of high-quality telecom services.
+By providing a consistent way to model telecom infrastructure and relationships, the Telecom data model enables accurate network inventory, impact analysis, and operational insight. The shared structure supports integration across systems, improves data consistency, and simplifies analysis of network topology and dependencies. This common modeling approach helps teams manage complex networks more effectively and supports use cases such as service visibility, operational monitoring, and lifecycle management.
+
+## Domain‑specific data models
+
+Domain‑specific data models build on the Telecom data model by refining and specializing its classes for particular network technologies. These models reuse the core structure of the Telecom data model while introducing domain‑specific attributes and relationships as needed. The SD‑WAN data model is one example of a domain‑specific data model. It focuses on the subset of Telecom data model concepts that are relevant to SD‑WAN environments. It applies them to represent SD‑WAN topology, services, and operations while remaining consistent with the broader Telecom data model.
+
+**Related topics**  
+
+
+[SD-WAN data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.md)
+
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-network-inventory/uses-for-network-inventory-data.md)
 

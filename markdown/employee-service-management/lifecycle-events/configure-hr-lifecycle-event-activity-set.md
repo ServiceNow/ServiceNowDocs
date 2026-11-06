@@ -7,7 +7,7 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Create or modify a lifecycle event activity set to define a container for a grou
 
 Role required: sn\_hr\_le.admin or sn\_hr\_le.activity\_set\_manager
 
-Activity sets represent different stages in the lifecycle event process, and you must define when the activity set is triggered, such as immediately upon creation of the lifecycle event case or after the completion of another activity set. Each activity set is associated with a single lifecycle event.
+Activity sets represent different stages in the lifecycle event process. You must define each the activity set is triggered. It can trigger immediately when the lifecycle event case is created, or after another activity set is completed. Each activity set is associated with a single lifecycle event.
 
 ## Procedure
 
@@ -56,7 +56,7 @@ Display title
 
 </td><td>
 
-Display title of the activity set. The display title is employee-facing only, and appears on the activity sets timeline on the HR ticket page in both portal and mobile. For example, an employee-facing title for the preboarding activity set could be "Get ready for day one." If no display title is provided, the default activity set name will be used instead.
+Display title of the activity set. The display title is employee-facing only. It appears on the activity sets timeline on the HR ticket page in both portal and mobile. For example, an employee-facing title for the preboarding activity set could be “Get ready for day one". If no display title is provided, the default activity set name is used instead.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Audience
 
 </td><td>
 
-The specific audience the activity set targets. Setting an audience for an activity set allows you to create activities within an activity set for a specific group of people. If the audience field is empty, the activity set applies to all employees.You can also use audience as a filter when using the Test Activity Sets tool. For more information, see [Using the Test Activity Sets tool for aLifecycle Events activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md).
+The specific audience the activity set targets. Setting an audience for an activity set allows you to create activities within an activity set for a specific group of people. If the audience field is empty, the activity set applies to all employees.You can also use audience as a filter when using the Test Activity Sets tool. For more information, see [Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md).
 
  **Note:** You can also define an audience at the activity level. The audience criteria for an activity set overrides the audience criteria for an activity.
 

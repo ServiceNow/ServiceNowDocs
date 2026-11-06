@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [add product to multi-product release, catalog request add product, Integration Hub add product]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
@@ -40,6 +40,8 @@ Role required: sn\_dpr\_model.release\_admin or sn\_dpr\_model.product\_manager
 6.  In the **Version** field, provide the version of the selected product.
 
     You can select an existing version or enter a new version.
+
+    **Note:** When **Validates product or service version** is selected, the new version number must be unique for the product or service.
 
 7.  Select **Add**.
 

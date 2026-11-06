@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bcm-lite-operators.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [BCM and ServiceNow Store, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -143,7 +143,7 @@ Yes
 
 </td><td>
 
- 
+A BCM lite operator can update the assigned record.
 
 </td><td align="center">
 
@@ -157,6 +157,7 @@ Business continuity exercises
 
 -   View the exercise details.
 -   Participate in the recovery tasks.
+-   Participate in the exercise results workflow.
 -   Review and approve or reject the assigned record.
 
 </td><td>

@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Importing and exporting projects
@@ -34,11 +34,11 @@ Some calendar elements are not imported from Microsoft Project into Project Mana
 
 If you have the it\_project\_manager role, you can export project data. The project data, such as project tasks and task constraints, can be exported as an export file. Use this export file to import the projects into other ServiceNow instances.
 
-If you are managing your projects using Microsoft Project, you can export your ServiceNow projects using the export functionality.
+If you're managing your projects using Microsoft Project, you can export your ServiceNow projects using the export functionality.
 
 You can choose to export the project data in MPP, XML, or CSV file formats. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
 
-If your project in the ServiceNow instance contains dates with any of the supported constraint types. Then these constraints are also exported when you export the project and project tasks. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
+If your project in the ServiceNow instance contains dates with any of the supported constraint types, these constraints are also exported. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
 
 ## Supported versions
 

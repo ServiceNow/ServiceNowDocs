@@ -1,124 +1,93 @@
 ---
 title: Customer Success Management release notes
-description: The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. See the following sections for release notes by version.The October 2026 release includes structured meeting agenda and follow-up tracking, support for linking a single engagement to multiple onboarding cases, and improved AI-generated touchpoint meeting assistance.The September 2026 release adds AI-generated engagement updates, success play recommendations, and automated meeting preparation for touchpoint meetings to Customer Success Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/account-lifecycle-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-10-04"
+reading_time_minutes: 2
+breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Customer Success Management release notes
 
-The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. See the following sections for release notes by version.
 
 ## About Customer Success Management
 
--   Account Lifecycle Events has been renamed to Customer Success Management.
--   Enable managers to see a high-level aggregate view of their entire customer portfolio.
--   Monitor adoption scores for sold products and track implementation progress for customer engagements.
--   View the engagement hierarchy and timeline of events.
--   Use the new metrics data source to calculate metric values dynamically based on the weighted sums of other metrics.
--   View the detailed information of risk level records in the risk occurrence timeline.
--   The activity stream component displays a list of the activities occurring on a risk signal and issue record.
--   The **Related Items** tab provides access to the Risk Signal and Issue related lists.
--   Determine the engagement health score from the Calculated data source.
--   Retrieve data from internal and external tables with the Table type data source.
+-   Capture meeting agenda items and follow-up next steps as structured records instead of freeform text.
+-   Associate a single engagement with multiple onboarding cases.
 
 See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Customer Success Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/technology-industry-rn-landing.md)
 
-## December 2025
+## Version 2.0
 
-The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Calculate health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-setup-health-defn.md)**
-
-    Starting with Customer Success Management 5.3.11, you can use the **Calculated** metric data source to determine the health score for an engagement. If you are upgrading from Customer Success Management 5.3.10 or earlier versions, you must run the `Set health migration status` script to enable the health score calculation using this data source.
-
-
--   **[Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-table.md)**
-
-    Starting with Customer Success Management 5.3.11, you can use the **Table** type data source to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Workflow Data Fabric Hub application and create data fabric tables.
-
-
--   **[Risk and issues page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-risk-issues-page.md)**
-
-    Use the risk timeline visualization to manage the risk occurrences.
-
-
--   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-success-roles.md)**
-
-    The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Success Management without requiring the full admin role.
-
-
--   **[Read-only field enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-read-only.md)**
-
-    Read-only field protections have been moved from the client side to the server side. This move prevents users from updating read-only fields through client-side methods.
-
-
-## Zurich
-
-The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.
+The October 2026 release includes structured meeting agenda and follow-up tracking, support for linking a single engagement to multiple onboarding cases, and improved AI-generated touchpoint meeting assistance.
 
 ### What's new
 
--   **[Success report dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md)**
+-   **Meeting agenda items and next steps**
 
-    Use the Success report dashboard to see the overall view of all the engagements under your hierarchy and manage your entire customer portfolio. Monitor engagement metrics, risk indicators, and get insights into onboarding and adoption status, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
+    Capture structured meeting agendas and follow-ups instead of relying on a single freeform text field. Record each agenda topic as a Meeting Agenda Item with a state \(Planned, Discussed, or Deferred\), allotted time, presenter, and decision. Capture unresolved follow-ups from a meeting as Meeting Next Steps, and later triage each one by converting it to an action item or dropping it.
 
+-   **Engagement onboarding links**
 
--   **[Product adoption and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-product-adopt.md)**
-
-    Measure product adoption trends and proactively guide users to achieve desired outcomes using products and services that have been purchased. Identify active and power users and areas where additional training or support is required due to low engagement.
-
-
--   **[Implementation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-imp-record.md)**
-
-    Track the progress of a partner or customer implementing a product or a service. Get a centralized view of the implementation status, identify risks, and run playbooks to mitigate issues.
-
-
--   **[Engagement hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-view-engage.md)**
-
-    View aggregate hierarchical data for an engagement. Make informed decisions, improve customer satisfaction through detailed tracking, identify risks early, and help prevent escalations.
-
-
--   **[Engagement timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-planner.md)**
-
-    View a chronological list of critical events related to an engagement. Review timelines to recall past events, customer interactions, and identify any issues.
-
-
--   **[Contextual color bands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-setup-color-banding.md)**
-
-    Associate thresholds and visual representations to health metric data. View product adoption and usage information relative to a specific product.
+    Associate a single engagement with multiple onboarding cases directly in the platform, without manual workarounds. A new many-to-many relationship connects engagements to onboarding cases. The **Applicable Onboarding Cases** related list appears on the Engagement record, and the **Applicable Engagements** related list appears on the Onboarding Case record.
 
 
 ### What's changed
 
--   **Coral theme**
+-   **Meeting page**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    The prep brief now uses real meeting data for its AI-generated summary, fixing issues that caused fabricated citations and inaccurate sentiment claims.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    Meeting Scheduler Plus \(app-meeting-sch-plus\): Deploys structured meeting agenda item and next step tracking alongside the existing meeting management app.
+
+
+## Version 1.0
+
+The September 2026 release adds AI-generated engagement updates, success play recommendations, and automated meeting preparation for touchpoint meetings to Customer Success Management.
+
+### What's new
+
+-   **Touchpoint meetings**
+
+    Automate the generation, updating, and enrichment of conversation briefs by integrating meeting transcripts, emails, and notes. Identify key discussion topics, risks, issues, and action items.
+
+-   **AI recommended success plays**
+
+    Guide customer success managers by recommending AI-generated success plays for users in neutral or positive states. Examples include sustained adoption, high CSAT or NPS scores, or value realization milestones.
+
+-   **AI powered executive briefings**
+    -   Monitor individual engagement health from the Engagement Record Page with a daily AI-generated summary. The summary synthesizes risk, declining metrics, opportunities, team activity changes, and upcoming changes into a prioritized, digestible brief.
+    -   Review recent account activity from the Account 360 Overview tab with a daily AI-generated account briefing.
+    -   Track prioritized activities across accounts from the Executive Portfolio dashboard with an AI-generated portfolio briefing.
+-   ****
+
+    Use the Technology Account 360 to get a unified view of customer or partner account details combining account health, financial, product usage, and open tasks.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    Technology Account Management Experiences \(sn\_tech\_exp\): View account 360 and executive portfolio page of the customer or partner account.
+
+    AI Agents for Meetings\(sn\_meeting\_ai\_ag\): Automates meeting preparation by reading relevant records, proposing agendas, and coordinating logistics for review and confirmation.
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgcc-configure-site-mappings.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure site mappings
@@ -16,7 +16,7 @@ Importing the site data must be complete before you can move onto configure site
 
 ## About this task
 
-Before proceeding, review and configure imported ServiceNow OT discovery site mapping records and verify that the site data has been fully imported via the site scheduled data import. The site mapping records will not be available unit the import is complete.
+Before proceeding, review and configure imported ServiceNow OT Discovery site mapping records and verify that the site data has been fully imported via the site scheduled data import. The site mapping records will not be available unit the import is complete.
 
 ## Before you begin
 
@@ -26,11 +26,11 @@ Role required: admin
 
 1.  In the **Configure site mappings** task, scroll down to review the list of imported sites.
 
-    \[Omitted image "image.sgcc-configure-site-mappings"\] Alt text:
+    \[Omitted image "sgcc-configure-site-mappings.png"\] Alt text: Configure site mappings
 
 2.  Select the first site and in the form that opens, fill in the fields as follows.
 
-    \[Omitted image "image.window-confgurei-site-mappings-1"\] Alt text: Configure site mappings
+    \[Omitted image "window-confgurei-site-mappings-1.png"\] Alt text: Configure site mappings window
 
     1.  All field titles with \* \(asterick\) next to them are mandatory and should be filled in.
 
@@ -50,4 +50,6 @@ Role required: admin
 
 3.  Select **Continue** to move to the next step.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

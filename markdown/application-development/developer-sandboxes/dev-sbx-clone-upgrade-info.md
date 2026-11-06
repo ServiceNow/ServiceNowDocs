@@ -1,56 +1,61 @@
 ---
 title: Cloning and upgrading considerations for Developer Sandboxes
-description: You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Always back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
+description: You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.html
 release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-05-11"
-reading_time_minutes: 1
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+last_updated: "2026-10-20"
+reading_time_minutes: 3
+breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Cloning and upgrading considerations for Developer Sandboxes
 
-You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Always back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
+You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
 
-**Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading. You must manually recreate sandboxes after an upgrade or clone.
+**Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading or cloning.
 
--   For Zurich Patch 5 or later, uncommitted work in existing sandboxes is automatically exported as remote update sets on the base instance, which you must commit to sandboxes created after the upgrade.
+-   For upgrades, you can restore work from the remote update sets that Developer Sandboxes automatically created from prior sandboxes.
 -   For clones, you must manually save and restore all work in sandboxes.
 -   Any custom table configuration changes or fixes must be reapplied after an upgrade. Contact Now Support to open a case.
 
 ## Upgrading instances with Developer Sandboxes
 
-Family, patch, and security upgrades retire all existing sandboxes from an instance. After an upgrade, you can immediately begin creating sandboxes without contacting Support.
+Family, patch, and security upgrades automatically retire all existing sandboxesbefore the Brazil Patch 3 release. Sandboxes are recreated, but any changes from pre-existing sandboxes must be manually restored from the automatic backup created.
 
-As of Zurich Patch 5, Developer Sandboxes will back up any update sets from the sandboxes and export them to the main instance. The following rules apply:
+After an upgrade, sandbox recreation occurs automaticallyin releases before Brazil Patch 3, but sandboxes may not be available immediately. A status banner at the top of the Sandbox Management Home dashboard indicates when recreation is in progress.
+
+Beginning with the Brazil Patch 3 release, upgrades keep existing sandboxes instead of retiring them. Retained sandboxes aren't upgraded with the base instance, so they might be out of date or lose some functionality. Out-of-date, retained sandboxes are identified on the Sandbox Management Home dashboard with a badge for family upgrades only.
+
+**Note:** If a retained sandbox doesn't work as expected, back up your work by exporting the update sets or committing to source control, and then create a new sandbox.
+
+Developer Sandboxes automatically backs up any update sets from the sandboxes and exports them to the base instancewhen an upgrade retires sandboxes. The following rules apply:
 
 -   The update set must contain at least one change since the sandbox was created for it to be backed up.
 -   Incomplete update sets are backed up as long as there's at least one change.
--   If you install Developer Sandboxes on an instance after Zurich Patch 5, update sets are automatically backed up.
--   If you install Developer Sandboxes on an instance before Zurich Patch 5, you must add the `export_state` column to the sys\_dsb table:
 
-    ```
-    <element name="export_state" label="Export State" type="choice" default="not_exported">
-        <choice>
-           <element label="Not Exported" sequence="-1" value="not_exported"/>
-           <element label="Requested" sequence="0" value="requested"/>
-           <element label="Scheduled" sequence="1" value="scheduled"/>
-           <element label="In Progress" sequence="2" value="in_progress"/>
-           <element label="Completed" sequence="3" value="completed"/>
-        </choice>
-    </element>
-    ```
+**Note:** When using sandboxes, make sure to save or back up work consistently. Automatic backups are available beginning with Australia Patch 3.
 
+Backups are found in the retrieved update sets table, identified by the name of the sandbox they were backed up from. For example, "DSB \[sandboxname\] \(backup date\): \[Original update set name\]". For more information, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md) and [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
-**Note:** When using sandboxes, make sure to save or backup work consistently. Automatic backups are available only for instances on Zurich Patch 10 and higher.
+Review the update sets, then preview and commit them in each sandbox as needed.
+
+**Note:** If you're using source control, you should restore your work to the sandbox from there. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
 
 ## Cloning instances with Developer Sandboxes
 
-When you clone an instance, the sandboxes on the target instance are deleted and thus not available. You must open a support case to re-enable sandboxes after a clone.
+**Note:** Sandboxes are not automatically recreated after a clone. You should save your work from a sandbox before the clone so you can recreate it.
 
-**Note:** You must always save your work in a sandbox before the clone.
+Install the Dev Sandboxes CC \(com.glide.dsb.cc\) plugin on the source instance to enable clone preservers that protect Developer Sandboxes feature enablement on your target instance. For more information on clone preservers, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-new-clone-preserver.md).
+
+If you have a custom clone profile, these records should be linked so that cloning over a sandbox instance maintains sandbox functionality:
+
+-   clone\_cleanup\_script: `/clone_cleanup_script.do?sys_id=2b5e8051ff03221016abffffffffff58`
+-   clone\_data\_exclude: `/clone_data_exclude_list.do?sysparm_query=nameSTARTSWITHsys_dsb`
+-   clone\_data\_preserver: `/clone_data_preserver_list.do?sysparm_query=tableSTARTSWITHsys_dsb%5ENQname%3DDSB%20Properties`
+
+**Parent Topic:**[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md)
 

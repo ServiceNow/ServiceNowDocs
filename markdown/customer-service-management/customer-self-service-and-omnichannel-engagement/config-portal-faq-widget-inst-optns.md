@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portal FAQ widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ The UI Components for Customer Portals plugin must have been activated. For more
 
 If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
-Role required: sp\_admin or admin
+Role required: sp\_admin
 
 ## Procedure
 

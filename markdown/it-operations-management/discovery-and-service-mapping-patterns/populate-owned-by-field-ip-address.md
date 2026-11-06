@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [IP address discovery, cmdb\_ci\_ip\_address, owned by configuration item, AIX discovery]
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Populate the **Owned By Configuration Item** field on discovered IP address reco
 
 ## Before you begin
 
-Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: discovery\_admin
 
@@ -50,7 +50,7 @@ Run Discovery again to apply the change.
 
 **Previous topic:**[Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
 
-**Next topic:**[AI Agent Topology Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
+**Next topic:**[Cryptographic Asset Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/CAC-landing-page.md)
 
 **Related topics**  
 

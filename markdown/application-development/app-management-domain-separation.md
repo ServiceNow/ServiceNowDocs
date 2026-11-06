@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-management-domain-separation.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Domain separation and Creator Workflow apps

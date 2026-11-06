@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Use, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -262,6 +262,8 @@ View the available reservations using a floor map view instead of a list view. T
 18. Click **Submit**.
 
     In personal authentication mode, to reserve a sync-enabled room, you must check your email and click the link to log in to Microsoft Exchange. After logging in and obtaining the token through the redirect link, you can return to the reservation screen and submit the reservation.
+
+    **Note:** In personal authentication mode, to reserve a sync-enabled room in Google Calendar, open your email and use the provided link to log in with your Google Calendar credentials. Once you have logged in and received the token via the redirect link, you can go back to the reservation screen and submit the reservation.
 
 19. The Reservation Information screen shows the **Details** tab with reservation details.
 

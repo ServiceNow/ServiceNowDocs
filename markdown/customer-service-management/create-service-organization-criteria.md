@@ -1,26 +1,28 @@
 ---
 title: Create the criteria for a service organization
-description: Define the criteria in the service organization criteria \[service\_organization\_criteria\] table so that you can later associate your service organizations to a service or your customers to a service organization. You do this task in the Customer Service Management \(CSM\) application.
+description: Define the criteria within organization criteria \[service\_organization\_criteria\] table so that you can later associate your service organizations to a service or your customers to a service organization. You do this task in the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-service-organization-criteria.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create the criteria for a service organization
 
-Define the criteria in the service organization criteria \[service\_organization\_criteria\] table so that you can later associate your service organizations to a service or your customers to a service organization. You do this task in the Customer Service Management \(CSM\) application.
+Define the criteria within organization criteria \[service\_organization\_criteria\] table so that you can later associate your service organizations to a service or your customers to a service organization. You do this task in the Customer Service Management \(CSM\) application.
 
 ## Before you begin
 
 Role required: admin
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Administration** &gt; **Service Organization Criteria**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Administration** &gt; **Organization Criteria**.
 
 2.  Select **New**.
 
@@ -62,9 +64,9 @@ Table Name
 
 Table where you must define the criteria.
 
- To establish customer associations, you must select **Account**, **Consumer**, or **Household** from the drop-down list in the **Table** field. Similarly, for associating products and services, you must choose **Internal Business Location** from the drop-down list in the **Table** field.
+ To establish customer associations, you must select **Account**, **Consumer**, or **Household** from the drop-down list in the **Table** field. Similarly, for associating products and services, you must choose **Internal Organization \(formerly Internal Business Location\)** from the drop-down list in the **Table** field.
 
- Selecting **Business Location** or **Service Organization** from the drop-down list in the **Table** field leads to an error because the system currently doesn’t support fulfillment capabilities for external business locations when resolving a case.
+ Selecting **Business Location** or **Service Organization** from the drop-down list in the **Table** field leads to an error because the system currently doesn’t support fulfillment capabilities for external organizations \(formerly external business locations\) when resolving a case.
 
 **Note:** Support can be extended to other tables by configuring them in the `SOCriteriaTableScript` script include.
 

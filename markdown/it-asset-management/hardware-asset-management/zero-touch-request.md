@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Zero Touch request flow
@@ -59,5 +59,7 @@ The Zero Touch request flow has the following basic requirements:
     **Note:** Receipt of the consumable asset can't be confirmed on a mobile device. The asset manager takes the necessary actions based on the email notifications received and confirms on behalf of the employee.
 
 
-For more details on creating and fulfilling hardware asset requests through the Zero Touch request flow, see [Manage hardware asset requests using the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
+For more details on creating and fulfilling hardware asset requests through the Zero Touch request flow, see [Use Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 

@@ -1,24 +1,24 @@
 ---
 title: CAM OSCAL
-description: Continuous Authorization and Monitoring supports Open Security Controls Assessment Language \(OSCAL\) version 1.1.2 for importing and exporting security control data in JSON format.
+description: Open Security Controls Assessment Language \(OSCAL\) provides a standardized way to express control-related information, enabling interoperability, consistency, and automation in IT security. It supports the JSON format only. CAM supports OSCAL version 1.1.2.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # CAM OSCAL
 
-Continuous Authorization and Monitoring supports Open Security Controls Assessment Language \(OSCAL\) version 1.1.2 for importing and exporting security control data in JSON format.
+Open Security Controls Assessment Language \(OSCAL\) provides a standardized way to express control-related information, enabling interoperability, consistency, and automation in IT security. It supports the JSON format only. CAM supports OSCAL version 1.1.2.
 
-OSCAL provides a standardized way to express control-related information, enabling interoperability, consistency, and automation in IT security. The National Institute of Standards and Technology \(NIST\) developed OSCAL to support automated security control assessments, compliance reporting, and risk management processes using machine-readable formats. CAM supports OSCAL version 1.1.2 and accepts only JSON format files.
+OSCAL is a set of machine-readable formats developed by the National Institute of Standards and Technology \(NIST\). It’s designed to support the automation of security control assessments, compliance reporting, and risk management processes.
 
-CAM supports Catalog, Profile, System Security Plan \(SSP\), and Plan of Action and Milestones \(POA&amp;M\) models for importing and exporting OSCAL data. The Catalog model provides a structured representation of security controls. The SSP model enables system owners to document system implementation within a specific baseline or OSCAL profile. The POA&amp;M model tracks security weaknesses and remediation activities.
+CAM supports the export and import of OSCAL data for both Catalog and System Security Plan \(SSP\) models.
 
 ## CAM supported OSCAL models
 
@@ -26,52 +26,63 @@ CAM OSCAL supports the following models:
 
 -   **Catalog**
 
-    According to NIST, the catalog model provides a structured, machine-readable representation of a catalog of controls. Therefore, as part of the catalog model, using CAM you can get the following control-related information:
+    According to NIST, the catalog model provides a structured, machine-readable representation of a catalog of controls. As part of the catalog model, using CAM you can get the following control-related information:
 
-    -   Control objectives: These are mapped to controls. The **Reference** field in a control objective maps to the NIST control. The requirements of a control objective map to the statements of the NIST's control. Therefore, each part of the **Description** field in a control objective align with the sub-part of the NIST's control. The child control objectives of each control objective are mapped to the control field. Related control objectives of the control objective are mapped to the links field.
-    -   Control objective requirements: Statements or control requirements that are further broken down from a control objective's description.
+    -   Control objectives: These are mapped to controls. The Reference field in a control objective maps to the NIST control. The requirements of a control objective map to the statements of the NIST's control. Each part of the Description field in a control objective aligns with the sub-part of the NIST's control. Child control objectives are mapped to the control field. Related control objectives are mapped to the links field.
+    -   Control objective requirements: Statements or control requirements further broken down from a control objective's description.
     -   Test templates: Tests done on controls. Each control has at least one test template, which has one assessment objective.
-    -   Assessment Procedures: These are assessment objectives of a test template or the tests done on controls.
+    -   Assessment Procedures: Assessment objectives of a test template or the tests done on controls.
 -   **Overlay catalog**
 
-    Overlay controls: These are policies that consist of control objectives and are not part of NIST but can be in an authorization package.
+    Policies that consist of control objectives and aren't part of NIST but can be included in an authorization package.
 
 -   **Profile**
 
-    According to NIST, the profile model provides a structured, machine-readable representation of a baseline. The profile model also represents a baseline of selected controls from one or more control catalogs.
+    According to NIST, the profile model provides a structured, machine-readable representation of a baseline. The profile model represents a baseline of selected controls from one or more control catalogs.
 
-    Baseline controls: Small set of control objectives that are auto-populated based on the impact. Impact is decided based on the Information Type of an authorization package.
+    -   Baseline controls: Small set of control objectives that are auto-populated based on the impact level, which is determined by the Information Type of an authorization package.
+    -   Include-controls: Baseline controls that are part of the authorization package.
+    -   Exclude-controls: Baseline controls marked as Not Applicable.
+    A Profile consists of both Catalog and Overlay Catalog.
 
-    -   Include-controls: These are baseline controls, which are part of the authorization package.
-    -   Exclude-controls: These are baseline controls that have been marked as Not Applicable.
-    Profile consists of both Catalog and Overlay Catalog.
+-   ****
 
--   **System Security Plan \(SSP\)**
+    According to NIST, the OSCAL SSP model enables a system owner to express the system implementation of an information system within the context of a specific baseline or OSCAL profile. It represents a description of the control implementation of an information system.
 
-    According to NIST, OSCAL SSP model enables a system owner to express the system implementation of an information system within the context of a specific baseline or OSCAL profile. Or, it represents a description of the control implementation of an information system.
-
-    -   Authorization boundary: An authorization boundary defines the scope of a particular system that can be continuously managed and monitored using the CAM application.
-    -   Authorization package: Created for the purpose of processing the assets or systems through the seven steps mandated by the RMF. For more information, see [NIST RMF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/nist-rmf-process.md).
-    -   Information type: Information type defines the impact level of the package, which is based on the criticality of the information system defined in the Categorize step.
+    -   Authorization boundary: Defines the scope of a particular system that can be continuously managed and monitored using the CAM application.
+    -   Authorization package: Created for processing assets or systems through the seven steps mandated by the RMF. For more information, see NIST RMF process overview.
+    -   Information type: Defines the impact level of the package based on the criticality of the information system defined in the Categorize step.
     -   Control: When control objectives move to Implementation state, they become controls.
-    -   Control requirement: When control objectives move to Implementation state, they become controls. Correspondingly, the control objective requirements convert to control requirement.
-    -   Inherited Control: Controls that are entirely inherited from parent authorization package. Then, it means that all the control requirements of each such control are also inherited completely.
-    -   Hybrid Control: These are partially inherited from the parent authorization package.
--   **Plan of Action and Milestones**
+    -   Control requirement: When control objectives move to Implementation state, control objective requirements convert to control requirements.
+    -   Inherited Control: Controls entirely inherited from parent authorization package, including all control requirements.
+    -   Hybrid Control: Controls partially inherited from the parent authorization package.
+-   **Assessment Plan \(AP\)**
 
-    The Plan of Action and Milestones \(POA&amp;M\) model provides a structured representation of identified security weaknesses, planned remediation activities, and associated milestones according to National Institute of Standards and Technology \(NIST\) specifications. This model enables organizations to track and document the resolution of security findings and compliance gaps.
+    The Assessment Plan model represents the testing plan for an engagement: what needs to be tested and how testing will be performed. It supports the Assess step of the RMF process.
 
-    Plan of Action and Milestones \(POA&amp;M\) records link to authorization packages and contain structured lists of issues, milestones, and acceptance tasks. Each POA&amp;M entry identifies a specific weakness or finding, documents the remediation plan, assigns responsibility for resolution, and tracks completion milestones. POA&amp;M items can map to specific controls, control requirements, or control tests within the authorization package, establishing traceability between findings and affected controls.
+    Using CAM you can export and import the following AP-related information:
 
-    Acceptance tasks within POA&amp;M records define discrete actions required to remediate the identified weakness. Milestones track progress toward completion and provide target dates for remediation activities. The POA&amp;M model supports both inherited and unique findings, enabling organizations to track weaknesses that span multiple authorization packages or system boundaries.
+    -   Engagement metadata: Name, state, objectives, progress, timeline, and budget information
+    -   Control tests: Tests specified for the engagement with assessment procedures and methods
+    -   Users and roles: Assessors, auditors, approvers, and control test owners assigned to the engagement
+    -   Test scope: System elements and components under assessment
+-   **Assessment Results \(AR\)**
 
+    The Assessment Results model represents completed engagement outcomes, including control test results, findings, and attestations. It captures assessment findings from the Assess step of the RMF process.
+
+    Using CAM you can export and import the following AR-related information:
+
+    -   Assessment outcomes: Test results \(effective/ineffective status\) and engagement findings
+    -   Control findings: Weaknesses and observations identified during assessment
+    -   POA&amp;M data: Plan of Action and Milestones items linked to findings
+    -   Users and roles: Assessment team members and their assigned responsibilities
+
+## Catalog
 
 -   **[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)**  
-Continuous Authorization and Monitoring supports the Open Security Controls Assessment Language \(OSCAL\) used by the National Institute of Standards and Technology \(NIST\) that provides control-related information in standardized machine-readable formats. CAM supports Catalog, Profile, System Security Plan \(SSP\), and Plan of Action and Milestones \(POA&amp;M\) models.
+CAM supports the Open Security Controls Assessment Language \(OSCAL\) used by the National Institute of Standards and Technology \(NIST\) that provides control-related information in standardized machine-readable formats. CAM supports Catalog, Profile, SSP, Assessment Plan \(AP\), Assessment Results \(AR\), and Control Tailoring Request data.
 -   **[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)**  
-Import Open Security Controls Assessment Language \(OSCAL\) formatted Catalog, System Security Plan \(SSP\), and Plan of Action and Milestones \(POA&amp;M\) into Continuous Authorization and Monitoring using a guided playbook experience that validates data and manages conflicts.
--   **[OSCAL namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-namespace.md)**  
-To include CAM specific information, custom properties with a unique namespace are used to add impact and tailor the content as needed.
+The CAM OSCAL import offers a playbook-style experience designed to streamline the integration of security control data.
 
 **Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

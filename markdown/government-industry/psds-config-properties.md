@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-properties.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

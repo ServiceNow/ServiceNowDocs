@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Stages group tasks or to-do lists for managers, mentors, or employees as part of
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: admin \[sn\_jny.admin\]
 -   Create a stage: [Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-manage-stages.md)
 
 

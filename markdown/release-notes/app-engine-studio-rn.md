@@ -1,59 +1,53 @@
 ---
 title: App Engine Studio release notes
-description: The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.
+description: The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.App Engine Studio was updated in the October 2026 release for the deprecation of the PDF Extractor tool \(table creation from PDFs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/app-engine-studio-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [App Engine Studio, App Engine Studio release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # App Engine Studio release notes
 
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.
+The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.
 
 ## About App Engine Studio
 
-## Activation and other requirements
+-   Build applications to store information, automate business processes, and solve business problems using a low-code, wizard interface.
+-   Leverage a suite of powerful development tools, including guided workflows and templates.
+-   Use app templates, such as the Time Off template, to build applications, or create your own templates.
+-   Publish apps using the App Engine Management Center.
 
-**Important:** App Engine Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+See [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-overview.md) for more information.
+
+## Activation and other requirements
 
 -   **Activation information**
 
-    Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
 
-## December 2025
+## Version 30.1.2
 
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-personas-roles.md)**
-
-    Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
-
-
-## Zurich Early Availability
-
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.
+App Engine Studio was updated in the October 2026 release for the deprecation of the PDF Extractor tool \(table creation from PDFs\).
 
 ### What's deprecated or removed
 
-The ui\_builder\_admin role was removed from the AES Portal UI Template plugin in the Zurich release. Admin and delegated developer roles can still access the AES Portal UI Template plugin \(sn\_portal\_starte\_0\).
+-   **PDF Extractor tool \(table creation from PDFs\)**
 
-## Zurich
+    The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent.md).
 
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Zurich release.
 
-### What's changed
+### Plugin information
 
--   **[Separate App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/aemc-rn.md)**
+-   **Deprecated plugins**
 
-    The App Engine Management Center \(AEMC\) release notes now appear separately from the App Engine Studio release notes because you can use AEMC to manage app development for apps built in App Engine Studio, Creator Studio, and ServiceNow Studio. For information about AEMC, see [App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/aemc-rn.md).
+    PDF Extractor tool \(sn\_pdf\_table\_bldr\): To create tables from PDFs, migrate to Build Agent.
 
 

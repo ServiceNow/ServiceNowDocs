@@ -1,5 +1,5 @@
 ---
-title: Activate the SCIM plugin
+title: Activate the SCIM
 description: For SCIM activation, install the SCIM v2 - ServiceNow Cross-domain Identity Management \(com.snc.integration.scim2\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/activate-scim-plugin.html
@@ -7,12 +7,12 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Activate the SCIM plugin
+# Activate the SCIM
 
 For SCIM activation, install the SCIM v2 - ServiceNow Cross-domain Identity Management \(com.snc.integration.scim2\) plugin.
 
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

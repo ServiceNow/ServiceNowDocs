@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -23,11 +23,15 @@ Manage work assigned to your team as tasks and track them to completion using cu
 -   **[Duplicate a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/duplicate-board-in-cwm.md)**  
 Save time by duplicating an existing Board to copy all the task and collaborator details without having to copy the information manually in the Collaborative Work Management workspace.
 -   **[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)**  
-Start planning work on your Board by adding tasks and assigning them to team members in Collaborative Work Management workspace.
+Add tasks to a CWM Board and assign them to team members to plan and track work in a Collaborative Work Management workspace.
+-   **[Generate child tasks for CWM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.md)**  
+Use AI to create child tasks for a large and complex CWM task in the List view. Child tasks are generated from the task's short description and description, reducing manual work breakdown effort.
 -   **[Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md)**  
 Create custom item types for Boards in Collaborative Work Management, so that you can organize and manage multiple types of tasks from a single location, regardless of the workflow.
 -   **[Add custom columns for tasks in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.md)**  
 Create custom fields in a Board so that you can organize all details of tasks at a single location. This improves task management and saves time by reducing dependency on system admin.
+-   **[Add a formula column in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)**  
+Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values for your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.
 -   **[Add a goal to CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-goal-to-cwm-board.md)**  
 Associate a goal to your Board so that you can plan and track all the tasks and activities that contribute to this goal directly from the Collaborative Work Management workspace.
 -   **[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/board-views-in-cwm.md)**  

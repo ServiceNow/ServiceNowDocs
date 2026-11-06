@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/use-agentic-ai-notifications.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-20"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, Agentic workflow, Intent to action]
-breadcrumb: [Now Assist in Notifications, Configure core features, Administer]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Use email agentic workflow
@@ -44,9 +44,7 @@ Triages tasks that are created via inbound emails by identifying intent, executi
 -   Email Generator Agent
 
 </td></tr></tbody>
-</table>Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
-
-## Role permissions and access
+</table>## Role permissions and access
 
 The execution role provides the minimum required permissions to execute intents. Additional intent execution roles can be added as needed to extend permissions for specific actions. Without these, the execution may fail due to insufficient permissions.
 
@@ -61,13 +59,4 @@ The execution role provides the minimum required permissions to execute intents.
 **Email Generation for Reply Email Action**
 
 After you connect an AI Search profile to the reply-email action, users can submit queries that can be answered using the profile’s content. AI Search check the sender’s permissions and returns only the information permitted for their role.
-
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
-
--   **[Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/email-agentic-workflow.md)**  
-The Email agentic workflow automates inbound email processing by intelligently interpreting requests, extracting required information, performing actions, and generating responses.
--   **[Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-agentic-workflows-in-notifications.md)**  
-Configure email agentic workflow in Notifications for email agentic workflow.
-
-**Parent Topic:**[Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/now-assist-notifications.md)
 

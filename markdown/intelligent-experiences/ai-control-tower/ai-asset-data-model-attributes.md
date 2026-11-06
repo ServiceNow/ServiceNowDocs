@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Reference, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI asset data model attributes
@@ -200,5 +200,4 @@ AI model
 Reference to the AI model for which the prompt is created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
-
+</table>

@@ -7,7 +7,7 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Service Portfolio Management, IT Service Management]
 ---
@@ -23,6 +23,8 @@ The support level is Basic but has some exceptions or special conditions.
 -   Business logic: Ensure that data goes into the proper domain for the application’s service provider \(SP\) use cases.
 -   The user interface, cache keys, reporting, rollups, and aggregations all use the domain at production run time.
 -   The owner of the instance must be able to set up the application to function across multiple tenants.
+
+Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 

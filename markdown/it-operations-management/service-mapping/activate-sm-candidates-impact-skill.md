@@ -1,0 +1,66 @@
+---
+title: Activate the Service Mapping Candidates Impact skill
+description: The Service Mapping Candidates Impact skill analyzes connections and effects on servers. It enables generating an impact summary, using ServiceNow Otto. The skill is active by default. If needed, administrators can activate or deactivate the skill.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.html
+release: zurich
+product: Service Mapping
+classification: service-mapping
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Generate description, Find processes, Classify application service candidates, Now Assist skill, Now Assist, generative AI, generative AI, ITOM, IT Operations management]
+breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+---
+
+# Activate the Service Mapping Candidates Impact skill
+
+The Service Mapping Candidates Impact skill analyzes connections and effects on servers. It enables generating an impact summary, using ServiceNow Otto. The skill is active by default. If needed, administrators can activate or deactivate the skill.
+
+## About this task
+
+The Service Mapping agentic workflow, Analyze potential impact, uses two ServiceNow Otto skills:
+
+-   Service Mapping Candidate
+-   Service Mapping Candidates Impact
+
+The Service Mapping Candidates Impact skill enables the agent to create a summary of impacted components, following a change request.
+
+## Before you begin
+
+Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-now-assist-itom.md).
+
+You must configure the following setting:
+
+-   ITOM pro plus SKU
+-   ServiceNow Otto for ITOM
+-   Service Mapping Plus \(minimum version 1.16.3\)
+-   ServiceNow Otto for ITSM
+-   ServiceNow Otto®
+
+**Important:** This skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
+
+-   **New customers**
+
+    When you install an AI product, designated skills will turn on automatically.
+
+-   **Existing customers who are upgrading**
+
+    Any previously unconfigured skill will turn on automatically \(the skill was never turned on, then off again\).
+
+    There is no change to skills that are currently enabled and customized.
+
+    Previously configured skills that were turned on, then off, will remain inactive.
+
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
+
+2.  On the navigation panel, select **ITOM**.
+
+3.  On the Service Mapping Candidates Impact tile, select **Activate**.
+
+

@@ -1,20 +1,20 @@
 ---
-title: Access Federated ID Criteria
-description: Access Federated ID Criteria to know about the ID fields used to generated Federated ID.
+title: Configure Federated ID Criteria
+description: Access and configure Federated ID Criteria to see the ID fields selected to generate the Federated ID unique identifier. The default setting is User ID and email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-federated-id-criteria.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Global Identity, Identity]
 ---
 
-# Access Federated ID Criteria
+# Configure Federated ID Criteria
 
-Access Federated ID Criteria to know about the ID fields used to generated Federated ID.
+Access and configure Federated ID Criteria to see the ID fields selected to generate the Federated ID unique identifier. The default setting is User ID and email.
 
 ## Before you begin
 
@@ -24,18 +24,22 @@ Role required: iamsync\_admin
 
 1.  Navigate to **All** &gt; **Manage Federated ID** &gt; **Federated ID Criteria**.
 
-2.  The Federated ID Criterias page, displays the record with the following details:
+    The **Federated ID Criteria** page displays Role and User records.
+
+2.  Select the record to view the following details:
 
     -   Type Name: **User**
     -   Table Name: **User \[sys\_user\]**
-    -   ID Fields: **user\_name \(User ID\), email** \(default fields that are used for Federated ID generation\).
+    -   ID Fields: **user\_name \(User ID\), email** \(default\). Any fields listed as **Selected** are those fields that can be used for Federated ID generation.
+    -   ID Fields: **user\_name \(User ID\), email** \(default\). Any fields listed as **Selected** are those fields that can be used for Federated ID generation. You can change these fields, as long as the selection includes at least one unique field.
     -   Status: **Completed** \(Federated ID generation status\). Available Status: **Ready**, **Running**, **Completed**, **Error**.
     **Note:**
 
-    -   User name is required for generating Federated IDs.
-    -   User name and email are used to generate Federated IDs by default.
+    -   The ID fields must include at least one unique field. User ID is no longer mandatory — it qualifies as a unique field, but you can select any other unique field instead.
+    -   Only a field marked unique in the dictionary or a field with a single-column unique database index can be selected as a unique field.
+    -   User ID and email are used to generate Federated IDs by default.
     \[Omitted image "federated-id.png"\] Alt text: Federated ID Criterias page
 
-    **Note:** Only the ID fields can be updated to generate a new Federated ID for the existing records. To know more, see [Update ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/updating-id-fields.md).
+    **Note:** You can only change ID fields when generating new Federated IDs for the existing records. To learn more, see [Update ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/updating-id-fields.md).
 
 

@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-15"
 reading_time_minutes: 3
 keywords: [Prisma AIRS field mapping]
-breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Field mapping for the Prisma AIRS integration
@@ -162,6 +162,4 @@ Tables populated by validation findings:
 |config|sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails|policy\_config|
 
 Tables populated by Red Team scan guardrails: Prisma AIRS Red Team Scan Guardrails \[sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails\].
-
-**Parent Topic:**[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prisma-airs-integration.md)
 

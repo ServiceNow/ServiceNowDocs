@@ -1,24 +1,26 @@
 ---
 title: Workplace PPE Inventory Management
-description: Use the ServiceNow Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety  of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
+description: Use the ServiceNow Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/ppe-inventory-management.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Workplace PPE Inventory Management
 
-Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety  of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
+Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
 
 \[Omitted image "ppe.png"\] Alt text: PPE setup and use
 
-PPE supplies can easily be ordered from the self-service portal via mobile or desktop.  A dashboard provides  a comprehensive view  of inventory  by facility, an  aggregate look at the  entire workplace, and  historical data on how  equipment  levels have changed over time.  Inventory levels can be updated  daily for accurate, real-time inventory management.
+**Note:** Starting with the Brazil release, Workplace PPE Inventory Management is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+
+PPE supplies can be ordered from the self-service portal via mobile or desktop. A dashboard provides a comprehensive view of inventory by facility and an aggregate look at the entire workplace. Historical data shows how equipment levels have changed over time. Inventory levels can be updated daily for accurate, real-time inventory management.
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
@@ -93,6 +95,14 @@ Organizations remain solely responsible for complying with their legal obligatio
 ServiceNow is offering this application to government agencies and their authorized users, not to employees of government agencies in their individual capacities. Use of this application is being offered free of charge for a limited or extended time period and with no expectation of payment from the government agency to ServiceNow for use during that time period, nor does usage create an actual or implied future obligation on behalf of the government. ServiceNow hereby expressly waives any future claims for payment from the agency in connection with usage of the application. Government customers are solely responsible to confirm with the agency’s Ethics Office or its authorized representative that acceptance and usage of the application is permissible.
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
+
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
 -   **[Install Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/install-ppe-inventory.md)**  
 You can install Workplace PPE Inventory Management if you have the admin role.

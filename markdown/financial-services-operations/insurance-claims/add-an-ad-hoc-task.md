@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add an ad-hoc task for an Insurance claims case
@@ -30,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d101452e89">
+<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d111863e89">
 
 Option
 
-</th><th align="left" id="d101452e92">
+</th><th align="left" id="d111863e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101452e98">
+</th></tr></thead><tbody><tr><td id="d111863e98">
 
 **From the landing page**
 
@@ -46,7 +46,7 @@ Steps
 
 From a claims list, select the claim case that you want to create a task for.
 
-</td></tr><tr><td id="d101452e107">
+</td></tr><tr><td id="d111863e107">
 
 **From the applicable case/tasks list**
 

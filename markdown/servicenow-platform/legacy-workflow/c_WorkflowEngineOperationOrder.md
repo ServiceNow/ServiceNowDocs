@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow concepts, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,6 +19,8 @@ The workflow engine runs in a predefined order relative to business rules and da
 The **Run after bus. rules run** workflow property defines if a workflow is **Default** or **Deferred**.
 
 The diagram below shows the workflow engine order of operations and when Default and Deferred flows are executed. For a more general overview of engine operation order, see [Execution order of scripts and engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_ExecutionOrderScriptsAndEngines.md).
+
+\[Omitted image "WFEngineOrderDiagram.png"\] Alt text:
 
 ## Workflow caching
 

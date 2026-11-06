@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-10-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Campaign overview and Campaign analytics dashboards
@@ -32,8 +32,6 @@ Dashboards display data visualizations for specific parameters, such as user int
 -   An impression is an instance of content appearing for a user. Each time a user views the content, it is counted as an interaction.
 
 Content Analytics tracks the following user interactions \(depending on content type\). When content is rendered in the portal, the system counts that as an impression. When an employee clicks on content, the system counts that as a clickthrough, download, or played \(depending on the content type\).
-
-**Note:** The Rich Content Clickthrough feature counts any click within rich content areas, including links, but does not distinguish between link clicks and other clicks. For example, clicking a link or an image in the rich content area both count as clicks, but the feature does not specify which was clicked.
 
 -   Banner clickthrough
 -   Banner impression

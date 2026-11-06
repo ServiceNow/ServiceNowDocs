@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Summarize an incident, Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -31,15 +31,15 @@ You can reassign an incident in Core UI and Service Operations Workspace for ITS
 
 2.  Perform one of the following steps.
 
-<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d101800e106">
+<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d153053e106">
 
 Option
 
-</th><th align="left" id="d101800e109">
+</th><th align="left" id="d153053e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d101800e115">
+</th></tr></thead><tbody><tr><td id="d153053e115">
 
 **From the Overview tab of an incident in Service Operations Workspace for ITSM**
 
@@ -47,7 +47,7 @@ Description
 
 Select **Reassign**.
 
-</td></tr><tr><td id="d101800e132">
+</td></tr><tr><td id="d153053e132">
 
 **From the Details tab of an incident in Service Operations Workspace for ITSM**
 
@@ -57,7 +57,7 @@ Select **Reassign**.
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d101800e164">
+</td></tr><tr><td id="d153053e164">
 
 **Core UI**
 

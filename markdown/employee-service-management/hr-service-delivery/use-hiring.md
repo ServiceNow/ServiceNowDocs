@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -28,6 +28,8 @@ Track an application on a job requisition and view its corresponding details as 
 Collaborate with the recruiter for the job requisition on the activity stream.
 -   **[View hiring content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/view-hiring-content.md)**  
 See different hiring materials available in the Hiring tab.
+-   **[Use AI agents to create job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-ai-agents-to-create-job-req.md)**  
+Use AI agents to automate the job requisition creation process from the Virtual Agent chat window and use the inputs from the hiring manager to create a refined job requisition.
 
 **Parent Topic:**[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hiring-landing.md)
 

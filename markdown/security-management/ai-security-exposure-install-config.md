@@ -62,7 +62,7 @@ Role required: admin
 
     The Application installation dialog is displayed. Any dependencies that are installed are displayed.
 
-    **Note:** The AI guardrails helper is a Now Assist skill that is activated by default. See [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-skills-now-assist-vulnerability-response.md) and [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-skills-vulnerability-response.md) for more information about skills and agents.
+    **Note:** The AI guardrails helper is a Now Assist skill that is activated by default. See [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-skills-now-assist-vulnerability-response.md) and [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-skills-vulnerability-response.md) for more information about skills and agents.
 
 9.  Select **Close** after the application is successfully installed.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-11-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Work Assignment for SIR, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

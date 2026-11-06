@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and edit plugins, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Create and edit plugins, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Secure a custom plugin with a certificate
@@ -25,4 +25,6 @@ When the agent's current certificates can't validate a plugin, Agent Client Coll
 You can manually save the certificates in a directory on the MID Server that is connected to the installed agents. Any agent that's installed in your environment can then access the certificates from that MID Server.
 
 For details on how to configure the certificate synchronization properties, see [Synchronization properties for validating Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/plugin-validation-reference.md).
+
+**Parent Topic:**[Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-assets.md)
 

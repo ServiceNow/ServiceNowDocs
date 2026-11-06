@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Work items, Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -50,6 +50,4 @@ Select an agent assignment rule and any eligibility time constraints for each gr
 ## Create a sort order for a queue
 
 Use the Work Item Sort Order related list to create one or more sort conditions for work items in a queue. For each sort condition, specify a field from the selected service channel table and the direction to sort, either ascending or descending. Items in the queue are sorted and assigned to agents based on these conditions.
-
-**Parent Topic:**[Work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-work-items.md)
 

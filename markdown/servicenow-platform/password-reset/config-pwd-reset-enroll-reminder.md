@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send email to remind users to enroll for Password Reset
@@ -27,7 +27,7 @@ The default email content is:
 -   Subject: Reminder: Enroll in the Password Reset program
 -   Body: Select here to enroll in the Password Reset program.
 
-To customize the email, see [Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md).
+To customize the email, see [Customize the Password Reset enrollment reminder email]().
 
 ## Procedure
 
@@ -85,7 +85,7 @@ Date and time to send the first message. Click the calendar button to specify th
 
 </td></tr></tbody>
 </table>
--   **[Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md)**  
+-   **[Customize the Password Reset enrollment reminder email]()**  
  The email message that reminds users to enroll for the Password Reset process is based on an email template. To customize the message, you can modify the default template or create a custom template.
 
 **Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)

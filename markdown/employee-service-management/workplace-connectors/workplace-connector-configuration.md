@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_wsd\_wc.admin
 
 4.  In the **Target table** field, select the target table for the badging spoke data.
 
-    In this case, it’s the Employee Attendance Data table. For more information, see [Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/attendance-analytics.md).
+    In this case, it’s the Employee Attendance Data table. For more information, see [Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/employee-attendance.md).
 
 5.  In the **Type** field, select the type of data the connector processes from the drop-down list.
 

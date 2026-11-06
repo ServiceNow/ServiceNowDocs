@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -27,9 +27,9 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon \[Omitted image "task-icon.png"\] Alt text:.
-    3.  Select the Control attestations on the left panel.
-    4.  In the My pending tasks related list, the assessments are displayed.
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
+    3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
+    4.  The smart assessments list is displayed.
 2.  Select the assessments in which you want to add the attachments.
 
 3.  From the contextual sidebar, select the **Attachment** icon \[Omitted image "adding-attachments.png"\] Alt text:.

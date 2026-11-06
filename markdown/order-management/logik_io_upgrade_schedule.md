@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/logik\_io\_upgrade\_schedule.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -25,5 +25,5 @@ Customer environments are upgraded according to the following table:
 
 To determine which version of ServiceNow CPQ your environment is on, first determine the sector of your environment by inspecting its URL. The sector precedes "logik.io" in the URL. For example, in the URL https://customName.prod.logik.io, the sector is prod. Then, find the current day in the [Upgrade Calendar](https://calendar.google.com/calendar/embed?src=c_ucaqgepi0m001s34faoai41n4g%40group.calendar.google.com&ctz=America%2FChicago). Review the corresponding test or prod entry for this day.
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

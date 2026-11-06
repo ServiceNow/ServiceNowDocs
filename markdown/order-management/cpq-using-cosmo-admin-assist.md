@@ -1,20 +1,20 @@
 ---
 title: Cosmo Admin Assist
-description: Cosmo Admin Assist delivers conversational, AI-powered guidance to help admins quickly find answers and best practices. Using Retrieval-Augmented Generation \(RAG\) and ServiceNow knowledge articles, it provides context-aware, actionable support directly in the CPQ Admin interface.
+description: Cosmo Admin Assist delivers conversational, AI-powered guidance to help admins quickly find answers and general guidelines. Using Retrieval-Augmented Generation \(RAG\) and ServiceNow knowledge articles, it provides context-aware, actionable support directly in the CPQ Admin interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-using-cosmo-admin-assist.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Cosmo Admin Assist
 
-Cosmo Admin Assist delivers conversational, AI-powered guidance to help admins quickly find answers and best practices. Using Retrieval-Augmented Generation \(RAG\) and ServiceNow knowledge articles, it provides context-aware, actionable support directly in the CPQ Admin interface.
+Cosmo Admin Assist delivers conversational, AI-powered guidance to help admins quickly find answers and general guidelines. Using Retrieval-Augmented Generation \(RAG\) and ServiceNow knowledge articles, it provides context-aware, actionable support directly in the CPQ Admin interface.
 
-Admin Assist significantly reduces the time it takes for product administrators \(admins\) to find answers about features and best practices. Admin Assist is especially useful for scenario-based questions, providing guidance you can immediately act upon and pointing to the most relevant articles for more information.
+Admin Assist significantly reduces the time it takes for product administrators \(admins\) to find answers about features and general guidelines. Admin Assist is especially useful for scenario-based questions, providing guidance you can immediately act upon and pointing to the most relevant articles for more information.
 
 Admin Assist helps admins find answers and get guidance by using a Retrieval-Augmented Generation \(RAG\) approach. By leveraging ServiceNow's support and knowledge articles, Admin Assist lets admins ask both specific and scenario-based questions directly in the CPQ Admin interface. This feature streamlines the processes of learning about CPQ's capabilities and troubleshooting issues, reducing the time needed to find relevant information.
 

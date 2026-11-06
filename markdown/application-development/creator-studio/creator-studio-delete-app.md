@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [App creation, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [App creation, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete an app in Creator Studio
@@ -26,7 +26,7 @@ To delete an app, you must be given permission to delete apps. For more informat
 
 2.  Open the app you want to delete.
 
-3.  Select the more actions icon \(\[Omitted image "sn-studio-more-options-icon.png"\]\) in the navigation panel.
+3.  Select the more actions icon \[Omitted image "sn-studio-more-options-icon.png"\] in the navigation panel.
 
 4.  Select **Delete** from the menu that appears.
 

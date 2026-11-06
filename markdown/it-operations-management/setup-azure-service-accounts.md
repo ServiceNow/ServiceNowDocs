@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/setup-azure-service-accounts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -133,5 +133,5 @@ Not applicable for Azure service accounts.
 **Related topics**  
 
 
-[Discovery for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/azure-cloud-discovery.md)
+[Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/azure-cloud-discovery.md)
 

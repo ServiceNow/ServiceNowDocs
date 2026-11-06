@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -340,7 +340,7 @@ IsVirtual
 
 </td><td>
 
-Option for indicating whether the device is running on a virtual machine instance.​
+Option to indicate if the device is running on a virtual machine instance.​
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-reference.md)

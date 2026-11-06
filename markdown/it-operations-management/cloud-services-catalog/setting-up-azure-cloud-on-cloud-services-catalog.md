@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Cloud Services Catalog setup for the Day 1 configuration task, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setup for the Day 1 configuration task, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Microsoft Azure Cloud on Cloud Services Catalog

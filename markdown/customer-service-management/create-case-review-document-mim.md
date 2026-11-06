@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-review-document-mim.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -32,15 +32,15 @@ You can create a post case review document for a resolved major case if the **sn
 
 3.  Select one of the following options.
 
-<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d85106e87">
+<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d94795e87">
 
 Option
 
-</th><th align="left" id="d85106e90">
+</th><th align="left" id="d94795e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d85106e96">
+</th></tr></thead><tbody><tr><td id="d94795e96">
 
 **Publish to Case**
 
@@ -63,7 +63,7 @@ The system performs the following actions:1.  Syncs the child case PCR record wi
 3.  Adds a link to the PCR document to the **Additional Comments** field on the child case form.
 
 
-</td></tr><tr><td id="d85106e160">
+</td></tr><tr><td id="d94795e160">
 
 **Copy to Child Cases**
 

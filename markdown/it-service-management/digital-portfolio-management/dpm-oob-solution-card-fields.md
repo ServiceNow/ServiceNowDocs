@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
@@ -89,7 +89,7 @@ You can personalize your DPM homepage to adjust the solution card count. For exa
 
 The DPM application uses certain fields to auto-generate a set of default solution cards to display when you first login to DPM \(before you personalize\).
 
-**Note:** Starting with the Zurich release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technology management service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technology management service offering\).
+**Note:** Starting with the Brazil release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technology management service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technology management service offering\).
 
 <table id="table_cft_ksw_2zb"><thead><tr><th>
 

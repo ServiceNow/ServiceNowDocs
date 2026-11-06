@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -36,15 +36,15 @@ If you have the srm\_admin or admin role, you can set up teams using a different
 
 3.  Create a new team or add an existing one.
 
-<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d428714e116">
+<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d466609e118">
 
 Option
 
-</th><th align="left" id="d428714e119">
+</th><th align="left" id="d466609e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d428714e125">
+</th></tr></thead><tbody><tr><td id="d466609e127">
 
 **Add a new team**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Create team form](https://r
 3.  Select **Add team**.
 
 
-</td></tr><tr><td id="d428714e164">
+</td></tr><tr><td id="d466609e166">
 
 **Register an existing team**
 

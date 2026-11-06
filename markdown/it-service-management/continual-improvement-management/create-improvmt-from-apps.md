@@ -7,9 +7,9 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrated applications, Overview, Continual Improvement Management, IT Service Management]
+breadcrumb: [Create an improvement request, Continual Improvement Management, IT Service Management]
 ---
 
 # Create improvement initiatives from integrated applications
@@ -20,10 +20,6 @@ Create improvement initiatives from applications integrated with Continual Impro
 
 Role required: sn\_cim.improvement\_requester
 
-## About this task
-
-Records of applications integrated with CIM display the **Create Improvement Initiative** link in the Related Links section.
-
 ## Procedure
 
 1.  Navigate to the application's records list.
@@ -31,6 +27,8 @@ Records of applications integrated with CIM display the **Create Improvement Ini
     For example, navigate to **All** &gt; **Benchmarks** &gt; **Recommendation Setup** &gt; **All** to open the Benchmarks records list.
 
 2.  Find and open the record from which you want to create an improvement.
+
+    **Note:** Records of applications integrated with CIM display the **Create Improvement Initiative** link in the Related Links section.
 
 3.  Select **Create Improvement Initiative** in the Related Links section.
 
@@ -45,5 +43,5 @@ Records of applications integrated with CIM display the **Create Improvement Ini
 
 The improvement initiative is created and UI changes display on the source application record and on the initiative record. For more information, see [Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md).
 
-**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)
+**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-cim-request.md)
 

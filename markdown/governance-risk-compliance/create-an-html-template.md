@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-an-html-template.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,7 @@ Creating a customized HTML document template is optional.
 
     \[Omitted image "html-document-template.png"\] Alt text: HTML template.
 
-4.  On the form, fill in the fields and select **Submit**.
+4.  On the form, fill in the fields and click **Submit**.
 
     The new template is displayed in the Document Templates list.​ For descriptions of the field values, see [HTML Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/html-template-reference-form.md).
 

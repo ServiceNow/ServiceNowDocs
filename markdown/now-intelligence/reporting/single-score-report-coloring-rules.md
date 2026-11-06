@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create coloring rules for single score reports
@@ -23,6 +23,10 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 This task is part of configuring the style options of a single score report.
 
 See [Single score data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-single-score.md) for example steps to implement a coloring rule.
+
+## About this task
+
+**Important:** This topic refers to Core UI reports. For information about color rules in Platform Analytics single score data visualizations, see [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-sing-sc-ac.md) and [Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
 
 ## Procedure
 
@@ -94,5 +98,5 @@ A numerical value that determines the order in which the color rules apply. Rule
 
 The colors you specify in the rules apply to the single score report that you’re editing.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
 

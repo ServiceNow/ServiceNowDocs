@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-crm-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Configure, Customer Success Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
     **Note:** If you modify or update Priority or Status fields in the task that was created, the updates are displayed as worknotes in your ServiceNow instance.
 
-5.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+5.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 
 6.  Navigate to **Customer Success** &gt; **All Risks and Issues** and open an risk record.
 
@@ -46,7 +46,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
     -   The Microsoft Dynamics CRM update mechanism \(so that Microsoft Dynamics CRM can access the Microsoft Dynamics spoke webhook\) when the configured event occurs in the task table. See [Set up Microsoft Dynamics CRM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-ms-dynamics-crm.md) for details.
     -   Microsoft Dynamics CRM spoke \(see [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)\).
-        -   Decision table as per the requirement
+        -   Decision table according to the requirement
         -   Webhook \(Dynamics Webhook Callbacks\)
     -   Customer Success Management application has been configured for Microsoft Dynamics CRM integration. See [Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details.
 

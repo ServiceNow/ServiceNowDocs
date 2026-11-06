@@ -7,9 +7,9 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrated applications, Overview, Continual Improvement Management, IT Service Management]
+breadcrumb: [Create an improvement request, Continual Improvement Management, IT Service Management]
 ---
 
 # Configure CIM integration property
@@ -41,5 +41,5 @@ Role required: admin
     -   Type \(type\)
     -   Service offering \(service\_offering\)
 
-**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)
+**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-cim-request.md)
 

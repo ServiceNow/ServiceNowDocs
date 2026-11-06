@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-01-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---

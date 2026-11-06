@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Schedule a Process Mining job
@@ -18,7 +18,7 @@ Schedule a Process Mining job to mine one or more projects later.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 **Note:** You can create only one scheduled job for each project. You can, however, associate multiple projects to a job. If there are several projects scheduled for mining within a job, the projects execute sequentially. For example, a job which has Projects 1 and 2 scheduled within it will mine Project 1 first. Then, it begins mining Project 2 after mining of Project 1 completes.
 

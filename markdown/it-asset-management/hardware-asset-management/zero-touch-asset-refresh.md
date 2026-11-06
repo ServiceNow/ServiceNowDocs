@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Zero Touch Refresh
@@ -50,5 +50,7 @@ The various stages in the asset refresh process are as follows:
 
 The Zero Touch Refresh flow requires the Service Exchange application to be configured on the ServiceNow instance of both the provider and the employee's organization.
 
-For more details, see [Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md).
+For more details, see [Configure Zero Touch Refresh flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-ztrefresh-flow.md) and [Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 

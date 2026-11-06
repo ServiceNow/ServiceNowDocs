@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/spc-install-config-f5-controls.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploit protection \(WAF\), Use mitigation controls, Security Posture Control, Security Operations]
 ---
@@ -41,7 +41,7 @@ Roles required: admin for installation of plugins and creating system properties
 
     This tab lists the mitigation controls sources \(CrowdStrike and F5 Big Ip, and SCCM\), and the tab is displayed in the workspace only if you have installed the Mitigation Controls Monitoring application.
 
-    On the source cards, you can view the status of the mitigation source \(`Active` or `Inactive`.
+    On the source cards, you can view the status of the mitigation source \(`Active` or `Inactive`\).
 
 3.  Select **Next**.
 

@@ -1,20 +1,22 @@
 ---
 title: Managing indicators from the Platform Analytics library
-description: The indicator library lists all the Performance Analytics indicators/KPIs to which you have access. Users who can create or edit indicators or Performance Analytics collection jobs have additional information.
+description: The indicator library lists all the Performance Analytics indicators or KPIs to which you have access. Users who can create or edit indicators or Performance Analytics collection jobs have additional information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/your-kpis.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
 
 # Managing indicators from the Platform Analytics library
 
-The indicator library lists all the Performance Analytics indicators/KPIs to which you have access. Users who can create or edit indicators or Performance Analytics collection jobs have additional information.
+The indicator library lists all the Performance Analytics indicators or KPIs to which you have access. Users who can create or edit indicators or Performance Analytics collection jobs have additional information.
 
-Open the list of indicators at **Platform Analytics** &gt; **Library** &gt; **Indicators**. The configuration of the Indicators page and the data access depends on your roles. All users with at least read access to an indicator get the basic indicator management functionality that is included in the default view.
+Open the list of indicators at **Platform Analytics** &gt; **Library** &gt; **Indicators**. You can also navigate to this library from other Platform Analytics library pages. The configuration of the Indicators page and the data access depends on your roles. All users with at least read access to an indicator get the basic indicator management functionality that is included in the default view.
+
+Library pages like this one include a navigation pane that provides access to the other libraries and the Usage Insights page. Use it to navigate between the libraries without interrupting your workflow.
 
 ## Basic indicator management
 
@@ -42,14 +44,15 @@ Sort the records according to a column's values by selecting the column label. R
 
 Privileged users have the following extra functionality:
 
--   Creating indicators: Press **Create indicator** to open a blank Indicator form. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md) or [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
--   Editing indicators: Select the pencil icon next to an indicator to open that indicator's record. Security restrictions may apply.
--   Deleting indicators: Select one or more indicators by ticking the box in its row, then press **Delete**. The **Delete** button shows you how many indicators are selected for deletion.
--   Indicator health: A row of tiles shows you useful statistics about the health of your indicators, such as how many automated and formula indicators do not have active collection jobs. The No active data collection job, Not viewed in 6 months, and Not viewed in one year tiles suggest how many indicators you may be able to delete. Conversely, Updated in the last 30 days gives you an idea how many indicators are truly active. Press a tile to filter the indicator list by that statistic.
+1.  Application navigator: Additional navigation destinations.
+2.  Creating indicators: Press **Create indicator** to open an empty Indicator form. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md) or [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
+3.  Indicators you created: You have an additional **Filter by** option, to see only the indicators you have created.
+4.  Indicator health: A row of tiles shows you useful statistics about the health of your indicators, such as how many automated and formula indicators do not have active collection jobs. The No active data collection job, Not viewed in 6 months, and Not viewed in one year tiles suggest how many indicators you may be able to delete. Conversely, Updated in the last 30 days gives you an idea how many indicators are truly active. Press a tile to filter the indicator list by that statistic.
 
     **Note:** Filters on the list of indicators do not currently filter the tiles.
 
--   Indicators you created: You have an additional **Filter by** option, to see only the indicators you have created.
+5.  Deleting indicators: Select one or more indicators by ticking the box in its row, then press **Delete**. The **Delete** button shows you how many indicators are selected for deletion.
+6.  Editing indicators: Select the pencil icon next to an indicator to open that indicator's record. Security restrictions may apply.
 
 Privileged users also see a different set of default columns. In place of the Description field, you see the following information:
 
@@ -58,19 +61,21 @@ Privileged users also see a different set of default columns. In place of the De
 -   The last time the indicator was viewed
 -   How many times in total it was viewed in the last year
 
-## Indicator management for admin users with data snapshots enabled
+**Note:** A user with the pa\_admin role or higher might also see a panel with recommendations about problematic indicators. For more information, see [Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pa-library-recommendations.md).
 
-If you have not tried to enable data snapshots on your instance, you have a banner at the top of KPI Details.
+## Indicator management for admin users with Data snapshots enabled
 
-\[Omitted image "datasnap-eligibility-banner.png"\] Alt text: Banner for checking data snapshots eligibility.
+If you have not tried to enable Data snapshots on your instance, you have a banner at the top of KPI Details.
 
-Press **Check instance eligibility** to see if your instance is eligible for data snapshots and, if not, why. For more information, see [Activate data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
+\[Omitted image "datasnap-eligibility-banner.png"\] Alt text: Banner for checking Data snapshots eligibility.
 
-When your instance is eligible for data snapshots, you have a banner announcing this fact and two new tiles, Data snapshots enabled and Data snapshots supported. You can select one or more indicators in the list and press **Enable Data Snapshots \(quantity of indicators selected\)**.
+Press **Check instance eligibility** to see if your instance is eligible for Data snapshots and, if not, why. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
 
-**Tip:** If you show the data snapshot status column, you can see which indicators support data snapshots.
+When your instance is eligible for Data snapshots, you have a banner announcing this fact and two new tiles, Data snapshots enabled and Data snapshots supported. You can select one or more indicators in the list and press **Enable Data Snapshots \(quantity of indicators selected\)**.
 
-\[Omitted image "kpis-ds-enabled.png"\] Alt text: Indicator library with data snapshots eligible on the instance.
+**Tip:** If you show the Data snapshots status column, you can see which indicators support Data snapshots.
+
+\[Omitted image "kpis-ds-enabled.png"\] Alt text: Indicator library with Data snapshots eligible on the instance.
 
 **Related topics**  
 

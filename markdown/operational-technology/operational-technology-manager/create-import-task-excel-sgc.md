@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-10-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using the Service Graph Connector for Microsoft Excel through import tasks, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -40,7 +40,7 @@ Watch this short video to learn how to create an import task in the Industrial W
 
 6.  Refresh the form to access the Microsoft Excel template.
 
-7.  From the **Attachments** panel, download the Microsoft Excel template by selecting the **Actions** \[Omitted image "more-actions-vertical.png"\] Alt text: icon next to the **sg\_ot\_excel\_staging.xlsx** template and clicking **Download**.
+7.  From the **Attachments** panel, download the Microsoft Excel template by selecting the **Actions** \[Omitted image "more-actions.png"\] Alt text: icon next to the **sg\_ot\_excel\_staging.xlsx** template and clicking **Download**.
 
 8.  Save the template locally on your computer.
 
@@ -69,7 +69,7 @@ Watch this short video to learn how to create an import task in the Industrial W
 
 ## Result
 
-After the import process is complete and the Microsoft Excel spreadsheet has been successfully imported, you can view the staging records for your Operational Technology \(OT\) device data by selecting the **Staging Records** tab.
+After the import process is complete and the Microsoft Excel spreadsheet has been successfully imported, select the **Staging Records** tab to view the staging records for your Operational Technology \(OT\) device data.
 
 ## What to do next
 

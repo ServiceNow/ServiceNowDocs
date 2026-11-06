@@ -1,130 +1,111 @@
 ---
 title: Privacy Management release notes
-description: The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. See the following sections for release notes by version.Privacy Management, version 23.0.1, introduces data transfers to record the movement of personal data, transfer mechanisms to associate legal safeguards with those movements, AI-recommended control objectives and risk statements during privacy assessment reviews, and multi-language support for the Personal Data Rights \(PDR\) external-facing form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/grc-privacy-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+keywords: [privacy management, data transfer, personal data rights, reviewer assist]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Privacy Management release notes
 
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.
+The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. See the following sections for release notes by version.
 
 ## About Privacy Management
 
--   A new external Personal data rights \(PDR\) request form enables customers, ex-employees, and third parties to submit PDR requests from a website with email verification.
--   Access Control by Legal Entity feature enables teams to access only processing activities relevant to their legal entity, maintaining privacy by design principle.
--   Now Assist for Privacy Management plugin uses Generative AI to streamline privacy workflows by summarizing assessments, condensing issues, and merging control objectives.
--   Reporting privacy incidents through email feature enables employees to report privacy incidents directly through email.
--   Impacted and related areas configuration allows privacy case managers to add custom business area types to privacy cases for better context.
--   Revamped Processing Activity overview page provides a unified dashboard showing key compliance and risk metrics for processing activities.
+-   Identify, assess, and mitigate privacy risk across your organization's processing activities.
+-   Maintain a central record of processing activities, entities, and privacy elements such as information objects and data subjects.
+-   Maintain a library of authority documents, citations, control objectives, and risk statements with [Privacy content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-content-accelerator.md).
+-   Manage data subject rights requests from intake through fulfillment with Personal Data Rights.
+-   Track and resolve privacy issues from assessments, processing activities, and incidents with Privacy Case Management.
 
 See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-management.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Privacy Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Privacy Management is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-rn-landing.md)
 
-## December 2025
+## Version 23.0.1
 
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.
+Privacy Management, version 23.0.1, introduces data transfers to record the movement of personal data, transfer mechanisms to associate legal safeguards with those movements, AI-recommended control objectives and risk statements during privacy assessment reviews, and multi-language support for the Personal Data Rights \(PDR\) external-facing form.
 
 ### What's new
 
--   **[Data subjects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/data-subjects.md)**
+-   **[AI-reviewer assist for control objective and risk statement recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-reccos-for-pia.md)**
 
-    Select and define the multiple data subject types for each processing activity. You can capture the volume of data subjects that were processed, the specific data elements that were collected from the users, and the user locations. With this feature, you get a realistic, granular, and scalable representation of your processing activities.
+    When a privacy assessment task moves to the Review state, the assigned reviewer can generate AI-recommended control objectives and risk statements for the associated processing activity.
 
--   **[Privacy management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-manager-dashboard.md)**
+    The Control Objective Recommender and Risk Statement Recommender skills analyze completed assessment responses and surface relevant records from the privacy library. Each recommendation includes an AI suggestion guide that explains why the record was suggested, citing the specific response or record detail that triggered it.
 
-    Get an overview of your complete privacy risk and compliance posture from the Privacy Management dashboard so that you can quickly prioritize and remediate your processing activities. By looking at the Processing Activities, Risk &amp; Compliance, and Operations &amp; Case management sections, you can see the overall compliance score, trends, privacy criticality assessment scores, and risk heatmap. From the dashboard, you can also see information about the global legal framework to understand the regional obligations and the built-in risk metrics that automatically assess each processing activity.
+    Each risk statement recommendation also surfaces related control objectives that serve as mitigating controls for the identified risks. When you accept a risk statement, this control-to-risk mapping is carried over to the processing activity.
 
--   **[New screening and PIA templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-mgmt-workflow.md)**
+    Accepted records are automatically added to the Applicable scope tab on the assessment task. After you close the task, the corresponding controls and risks are automatically scoped to the processing activity.
 
-    Use the new Privacy Impact Assessments \(PIAs\) and Screening Assessment templates that provide standardized questions, evaluation criteria, and workflows so that you can perform a processing activity criticality and privacy risk assessment. With these new templates, you can ensure consistency, reduce manual effort, and support compliance with regulatory and organizational requirements.
+-   **[Record data transfers in processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/data-transfers.md)**
 
+    Data transfer records capture the movement of personal data between hierarchy nodes in a processing activity. These records are generated automatically from a privacy assessment when a business user defines relationships that send or receive personal data. Adding data subject types and their locations to these relationships generates additional transfer records, which capture each distinct movement between nodes and data subject locations.
 
--   **[Personal Data Rights \(PDR\) external-facing form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/pdr-external-facing.md)**
+    You can review the records in the Data transfers tab of the privacy assessment task and remove those that don't apply. After you close the assessment task, the remaining transfer records appear in the **Regulatory details** &gt; **Data transfers** tab of a processing activity. You can also manually add or remove data transfers from this tab.
 
-    A new external-facing form for personal data rights \(PDR\) requests is now available, enabling customers, ex-employees, and third party individuals to initiate PDR requests directly from a company's website, without needing Employee Center access. The form allows users to submit various requests, including Right to Know, Right to Delete, Right to Correct, and Right to Opt-Out, with the flexibility to add additional request types as required. An email-based verification process ensures security before processing the PDR request. The PDR form is customizable and can be easily embedded on external sites.
+-   **[Transfer mechanisms for data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/transfer-mechanisms.md)**
+    -   Privacy analysts can add a transfer mechanism to a data transfer record to associate the legal safeguard that regulate the movement of personal data.
+    -   Privacy managers can add new transfer mechanisms in the Privacy Workspace or update existing ones.
+-   **Multi-language support in the Personal Data Rights \(PDR\) external-facing form**
 
+    The external-facing PDR form now supports translations in multiple languages. The selected language drives the form text, including labels, instructions, options, and error messages.
 
--   **[Accessing control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/access-control-by-legal-entity.md)**
+-   **Mandatory fields in the Personal Data Rights \(PDR\) external-facing form**
 
-    The Access control by legal entity feature allows teams to access processing activities relevant only to their legal entity. This ensures teams view only their own records, maintaining adherence to the privacy by design principle. By limiting access according to legal entities, this feature reduces operational risks and enables organizations to manage privacy requests and regulatory compliance effectively.
-
-
--   **[ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-privacy-management.md)**
-
-    Now Assist for Privacy Management leverages GenAI to support privacy workflows by summarizing risk assessments, condensing issue details, and identifying redundant control objectives and merging them into a common control objective. Now Assist for Privacy Management is delivered as a separate plugin, requiring administrators to activate specific skills and assign the new sn\_prm\_gen\_ai.user role to access these features.
-
-
--   **[Report a privacy case through email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/add-issues-email.md)**
-
-    Employees can now report privacy incidents directly through email, eliminating the need for complex forms or portals. This enhancement simplifies the reporting process, enabling faster case handling and efficient tracking of privacy issues.
-
-
--   **[Impacted and related areas configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-record-type-area.md)**
-
-    The Record Type Configuration feature allows privacy case managers or analysts to add additional relevant business area types in impacted and related areas. When creating or updating a privacy case, users can select from pre-defined options to add these areas, ensuring that each case accurately reflects its business context.
+    Configure mandatory and optional fields for each request type. Requesters must complete all mandatory fields on the external-facing PDR form to submit their request.
 
 
 ### What's changed
 
--   **[Some generative AI skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **[Data lineage map UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/editing-data-lineage.md)**
 
-    The new default behavior works as follows:
+    When you select the relationship line between two nodes in the data lineage map, a side pane opens with the relationship details, where you can edit or remove a relationship.
 
-    -   New customers: When you install an AI product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Node location fields in the hierarchy modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/new-relationship-forms.md)**
 
-## Zurich General Availability
+    The hierarchy modal now includes node location fields. The Define relationship step includes a **Primary node location** field, and the Relationship details step includes a **Related node location** field.
 
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.
+-   **[Data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/config-ds-sys-property-hierarchy.md)**
 
-### What's changed
+    Privacy admins can enable data subject selection for custom relationship types in a hierarchy by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property.
 
--   **[Processing activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/processing-activity-tab.md)**
+-   **[Applicable scope tab in a privacy assessment task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-reccos-for-pia.md#applicable-scope-tab-pia)**
 
-    The revamped Processing Activity overview page provides a unified dashboard that displays key compliance and risk metrics, such as risk scores, compliance scores, and criticality scores. This update makes it easier for privacy managers and analysts to assess the status of each processing activity, track open issues, and prioritize actions.
+    The Applicable scope tab on the assessment task record replaces the former Outcomes tab. It lists the control objectives and risk statements that have been scoped to the processing activity through manual addition, automation rules, or AI-assisted recommendations.
 
+-   **[External-facing Personal Data Rights \(PDR\) form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/submit-privacy-request-external-pdr.md)**
 
-## Zurich
-
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **Coral theme**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    The external-facing PDR form layout is updated to support mobile screens.
 
 
--   **[Layout for processing activity record view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/processing-activity-homepage.md)**
+### What's deprecated or removed
 
-    The vertical layout of a processing activity enables you to see the information in a top-down linear flow. With this layout, you can see the sequential representation of a data processing workflow.
+-   **Now LLM service deprecation**
 
--   **[Privacy management home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-mgmt-ws-privacy-compliance-manager.md)**
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
-    The enhanced Privacy Management home page now has dedicated tabs for Processing Activity, Risk and compliance, Operations, and Privacy Cases. This updated layout helps to improve readability by organizing your reports into clearly defined sections.
+
+### Plugin information
+
+-   **New plugins**
+
+    AI Data Explorer \(sn\_pa\_ai\_canvas\): Install the plugin to enable privacy managers and analysts to analyze privacy data, explore trends across sources, and surface actionable recommendations using natural language queries. Use the **Explore** button on the home pages of the Privacy Workspace and Personal Data Rights Workspace to open AI Data Explorer. For information on installing, configuring and using it, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/ai-data-explorer.md).
+
+    GRC Issue Management \(sn\_grc\_issue\_mgmt\): Install the plugin to enable a redesigned issue management experience with configurable workflows, custom state models, issue approvals, and centralized administration. For more information, see .
 
 

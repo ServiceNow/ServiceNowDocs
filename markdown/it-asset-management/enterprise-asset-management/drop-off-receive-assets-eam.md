@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Delivering enterprise assets in your personal stockroom through Drop off tasks
@@ -85,5 +85,5 @@ As an asset manager, confirm that you received the enterprise assets that were d
 -   **[Record time worked on Drop off and Receive tasks for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/record-time-drop-receive.md)**  
 Manage and record time worked on Drop off and Receive asset tasks in the Enterprise Asset Workspace. After you start work on a task, you can pause and resume work. You can also record the time worked manually.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

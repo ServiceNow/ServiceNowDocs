@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the AI guardrails helper skill and agentic workflow, AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
+breadcrumb: [AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
 ---
 
 # Components installed with AI Security Exposure Management
@@ -80,6 +80,4 @@ AISEM guardrail skill scheduled job
 
 </td></tr></tbody>
 </table>See the [AI security exposure management](https://www.servicenow.com/community/secops-articles/reduce-ai-attack-surface-with-ai-security-exposure-management/ta-p/3563696) article in the Security Operations Community for more information about AI Security Exposure Management.
-
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-skill-agent.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [Explore, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio quick start
@@ -99,7 +99,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 3.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions for the form you want. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use Now Assist, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -111,7 +111,7 @@ Your system administrator must add you to the Creator Studio Users group.
         |Short description|Some information on what the form is used for.|
         |Long description|Additional details for the form. You can include content like images and links to other sources of information \(for example, a knowledge base article\).|
 
-    If you don't see the option to **Build with Now Assist** tab, you need to check with your admin. To install Now Assist for Form generation, see [Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-configure-now-assist.md).
+    If you don't see the option to **Build with AI** tab, you need to check with your admin. To install AI for Form generation, see [Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-configure-now-assist.md).
 
 4.  Select **Save and edit form**.
 
@@ -174,7 +174,7 @@ Select the value field
 
 </td><td>
 
-Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon and navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_DotWalking.md).
+Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\] Alt text:\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and close** when you finish modifying the question.

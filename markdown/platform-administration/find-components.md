@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/find-components.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Basic system configuration, Get started, Administer]
+breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Find components installed with an application

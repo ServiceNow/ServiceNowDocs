@@ -7,8 +7,8 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -29,6 +29,10 @@ The Target generation skill leverages the goal’s details and provided context 
 
 The skill automatically populates key fields in the Target form, ensuring accuracy and alignment with the goal. This helps teams define clear, measurable outcomes and speeds up the target-setting process.
 
+The skill suggests the target type based on the goal’s details and the context that you enter in the Provide context to generate a target window. Depending on that context, the type can be **Maximize**, **Minimize**, **Milestone**, **Maintain above**, **Maintain below**, or **Maintain constant**. For goals about sustaining a level rather than changing one, such as keeping service uptime at or above a threshold, staying within a cost ceiling, or holding headcount steady, the skill suggests one of the Maintain types. For a description of each target type, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/target-types-overview.md).
+
+The skill also sets the check-in frequency from the context. It sets a frequency only from those that the active calendar supports. If the context asks for a frequency that the calendar doesn't support, the skill sets a supported frequency instead. For example, a monthly request on a 4-4-5 fiscal calendar sets Period, and a Period request on the Gregorian calendar sets Monthly or Quarterly.
+
 **Note:** Only the owner or contributors of the goal can create targets for the goal.
 
 \[Omitted video\] Description: Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM
@@ -47,9 +51,11 @@ The skill automatically populates key fields in the Target form, ensuring accura
 
     **Tip:** The more specific the input, the stronger the recommendations.
 
-6.  On the form, verify the filed values and update them as needed.
+6.  On the form, verify the field values and update them as needed.
 
     For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/target-form-egm.md).
+
+    The **Type** field is set based on the goal and the context that you provide. The skill can suggest **Maximize**, **Minimize**, **Milestone**, **Maintain above**, **Maintain below**, or **Maintain constant**. If the suggested type doesn’t fit your goal, select a different type before you save. For a Maintain type, the **Final target value** is the threshold to maintain. For example, 99.5 for an uptime target that must stay at or above 99.5%.
 
 7.  Select **Save**.
 
@@ -70,4 +76,6 @@ The target progress records are automatically created when you save the target p
 
 
 [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md)
+
+[Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/target-types-overview.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [low-code, no-code, app development, workflow automation, digital transformation, App Engine, App Engine Studio, App Engine Management Center, Automated Test Framework, Build Agent, Creator Studio, Guided Application Creator, Mobile App Builder, Now Assist for Creator, Performance Analytics, Predictive Intelligence, Playbooks, Service Portal, ServiceNow IDE, ServiceNow Studio, UI Builder, Virtual Agent, Workflow Studio, developer sandboxes, vibe coding, agentic development]
 audience: administrator
@@ -47,7 +47,7 @@ The following table lists the products and features that you can use to develop 
 |[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sandboxes-landing.md)|Provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance.|
 |[Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/guided-app-creator.md)|Get guidance to rapidly create applications, define data, and configure user experiences.|
 |[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mab-concept.md)|Create and deploy native mobile experiences using an intuitive designer.|
-|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md)|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
+|ServiceNow Otto for Creator|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
 |[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/pa-overview.md)|Anticipate and continuously improve with real-time analytics.|
 |[Prebuilt Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/use-app-template.md)|Accelerate development with templates that satisfy a variety of use cases|
 |[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence-landing.md)|Simplify and accelerate everyday work with built-in machine learning.|

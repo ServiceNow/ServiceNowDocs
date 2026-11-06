@@ -7,9 +7,9 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Service Catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure search and navigation
@@ -63,5 +63,5 @@ When you search for a catalog item by a keyword in Service Catalog, the search r
 -   **[Configure AI-based catalog search experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/config-ai-search-cat.md)**  
 Improve employee engagement with an AI-based catalog search experience in Service Portal and Now Mobile. Intelligent query features enable users to quickly and easily find the answers they need.
 
-**Parent Topic:**[Service Catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 

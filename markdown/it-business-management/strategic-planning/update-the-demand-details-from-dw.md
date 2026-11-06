@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [demand details, demand update, scope, priority, capacity]
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -33,7 +33,7 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 5.  Make the required changes.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-form-dw.md).
+    For information on the field values, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-form-dw.md).
 
 6.  Change the form view to view the demand details in a different layout.
 

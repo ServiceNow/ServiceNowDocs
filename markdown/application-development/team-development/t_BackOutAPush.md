@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Back out a push
@@ -18,7 +18,7 @@ Application developers can back out a push to remove unwanted changes.
 
 ## Before you begin
 
-Role required: developer
+Role required: none.
 
 ## Procedure
 
@@ -26,10 +26,8 @@ Role required: developer
 
 2.  Select the push to back out.
 
-3.  Select **Back Out**.
+3.  Click **Back Out**.
 
-4.  Select **OK** when the confirmation message appears.
+4.  Click **OK** when the confirmation message appears.
 
-
-**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

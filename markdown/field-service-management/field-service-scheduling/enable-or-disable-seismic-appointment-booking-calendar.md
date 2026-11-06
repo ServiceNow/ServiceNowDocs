@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Enable or disable seismic appointment booking calendar
@@ -18,7 +18,7 @@ Use the seismic appointment booking calendar across all user interfaces to ensur
 
 ## Before you begin
 
-Role required: admin
+Role required: appointment\_booking\_admin
 
 ## About this task
 

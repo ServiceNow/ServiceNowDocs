@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\), Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -85,7 +85,7 @@ Complete these steps from your Azure portal. See the [Microsoft identity platfor
 
 12. Click **Add a permission** to add the required permissions to access the APIs.
 
-    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
+    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
 
     \[Omitted image "ms-azure-ad-api-perm.png"\] Alt text: Add API permissions.
 

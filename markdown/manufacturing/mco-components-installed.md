@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-components-installed.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [installed components, roles installed, tables installed, plugins installed, business rules installed, Manufacturing Commercial Operations roles, Quality Issue Management roles]
 breadcrumb: [Reference, Manufacturing Commercial Operations]

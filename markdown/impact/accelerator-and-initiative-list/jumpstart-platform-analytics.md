@@ -7,20 +7,22 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Platform Analytics
 
 The Jumpstart Your Platform Analytics Accelerator provides a demonstration of the possibilities and capabilities of Platform Analytics.
 
-## Overview
+## Accelerator Overview
 
 Jumpstart Your Platform Analytics provides Impact customers with an overview of Platform Analytics and the ability to greatly improve service delivery quality, efficiency, and cost. An applied demonstration of reporting and Performance Analytics configuration, capabilities, and analytics via a temporary instance as well as leading practices on getting started is included.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -35,7 +37,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 
     -   Platform Analytics overview and demonstration
     -   Review Platform Analytics architecture
-    -   Leading and lagging indicator best practices
+    -   Leading and lagging indicator general guidelines
     -   Discuss differences between reporting and Performance Analytics
     -   Thirty days of access to the temporary instance
 -   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**

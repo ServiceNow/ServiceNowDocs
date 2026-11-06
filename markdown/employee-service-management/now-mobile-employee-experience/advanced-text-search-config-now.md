@@ -7,9 +7,9 @@ release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [AI Search in mobile, Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [AI Search in mobile, Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure AI Search for mobile devices
@@ -100,4 +100,6 @@ Role required: admin
 The Global Search Configuration page should contain the items shown in the following figure.
 
 \[Omitted image "ais-search-final-config-screen.jpg"\] Alt text: Global search item configuration page with all listed items after successful configuration.
+
+**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
 

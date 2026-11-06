@@ -1,18 +1,18 @@
 ---
 title: Respond to a risk assessment
-description: Conduct risk assessments to assess risks in the ESG Management application.
+description: Conduct risk assessments to assess risks in the Operational Sustainability Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/respond-to-a-risk-asmt.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Advanced risk assessment, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Respond to a risk assessment
 
-Conduct risk assessments to assess risks in the ESG Management application.
+Conduct risk assessments to assess risks in the Operational Sustainability Management application.
 
 ## Before you begin
 
@@ -62,5 +62,5 @@ Role required: sn\_esg.data\_owner
     |**Reassign**|If the assessment must be assigned to someone else, select this option.|
 
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-risk-management.md)
 

@@ -1,34 +1,34 @@
 ---
-title: Configure Personal Authentication
-description: You can configure personal OAuth authentication with the REST step in Flow Designer.
+title: Configure personal authentication
+description: Configure personal OAuth authentication with the REST step in Flow Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-personal-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Personal authentication, Access Management]
+breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
 
-# Configure Personal Authentication
+# Configure personal authentication
 
-You can configure personal OAuth authentication with the REST step in Flow Designer.
+Configure personal OAuth authentication with the REST step in Flow Designer.
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
-Ensure that you install the IntegrationHub Starter Pack Installer \(com.glide.hub.integrations\) or a higher version.
+The IntegrationHub Starter Pack Installer \(com.glide.hub.integrations\) or a higher version must be installed.
 
 ## About this task
 
 This task guides you through configuring personal OAuth authentication for REST steps in ServiceNow® Flow Designer. It enables REST calls to run using the session user's credentials, ensuring secure and personalized API access.
 
-For information on how to check if a personal OAuth token exists for a user, see [Get Personal OAuth Token \(using GlideOAuthClient\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/personal-oauth-token.md).
+For information on how to check if a personal OAuth token exists for a user, see [Get personal OAuth token \(using GlideOAuthClient\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/personal-oauth-token.md).
 
-For information to generate the initial token for a user, who doesn’t have access to the credentials page, see [Generate Personal Auth Initiator URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/generate-initial-token.md).
+For information on how to generate the initial token for a user, who doesn’t have access to the credentials page, see [Generate personal auth initiator URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/generate-initial-token.md).
 
 ## Procedure
 
@@ -66,7 +66,7 @@ For information to generate the initial token for a user, who doesn’t have acc
 
     Select the connection alias created in Step 2.
 
-    **Note:** Test the action with the REST outbound call. The credential is marked to be used for personal integration. The REST step might display an error since the action runs with the System integration role.
+    **Note:** Test the action with the REST outbound call. The credential is marked to be used for personal integration. The REST step might display an error because the action runs with the System integration role.
 
 10. Create a new subflow, and add the action created in Step 8.
 

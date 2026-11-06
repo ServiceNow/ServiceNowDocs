@@ -7,16 +7,16 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # ServiceNow Governance
 
 Guidance on building ServiceNow Governance boards and policies.
 
-## Overview
+## Accelerator Overview
 
 ServiceNow Governance provides Impact Customers with a framework that streamlines the decision-making required to define how your organization should use and manage the ServiceNow AI Platform. This includes setting up governance across strategy, portfolio, and technical domains. This Impact Accelerator aims to assist Customers in driving their transformation vision, delivering the right work at the right time, and maintaining the technical integrity of their ServiceNow implementation.
 
@@ -51,6 +51,10 @@ ServiceNow Governance provides Impact Customers with a framework that streamline
     -   Opportunity for Q&amp;A related to governance deliverables
     -   Opportunity to run through additional governance simulations to test the Customer’s new governance structure
     -   Provide additional guidance on leading practice
+
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value\), and Total Packages.
 
 ## Requested Customer Resources
 

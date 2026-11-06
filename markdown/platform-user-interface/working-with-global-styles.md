@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/working-with-global-styles.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [theme builder, global styles]
 breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -31,6 +31,10 @@ Edit and update your theme's core colors to create visual consistency and align 
 Edit and change the corner shapes applied globally to components such as buttons, modals, and drop-down menus throughout your Theme Builder theme.
 -   **[Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-font.md)**  
 Edit your default font family and choose from the predefined options in Theme Builder or your own custom fonts.
+-   **[Assign fonts by component category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/assign-fonts-by-category.md)**  
+Assign fonts to specific component categories to create a clearer visual hierarchy and ensure consistent typography across related UI elements.
+-   **[Edit font size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-font-size.md)**  
+Adjust font sizes at the theme or component category level to refine default or custom fonts and keep your brand consistent across all experiences.
 -   **[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/upload-custom-font.md)**  
 Upload and preview up to 10 custom font families and an unlimited number of associated font faces in your Theme Builder theme.
 -   **[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-upload-logo.md)**  

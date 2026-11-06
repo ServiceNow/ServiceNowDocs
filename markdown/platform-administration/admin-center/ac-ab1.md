@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discover, Admin Center, Get started, Administer]
+breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Deliver extraordinary employee experiences, resiliency and productivity blueprint
@@ -475,4 +475,9 @@ nlu\_admin
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-select-business-objective.md)
+
+**Related topics**  
+
+
+[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
 

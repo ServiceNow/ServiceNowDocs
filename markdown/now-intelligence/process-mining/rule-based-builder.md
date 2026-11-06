@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Setting improvement opportunity from Project Builder, Setting improvement opportunity for projects, Working with improvement opportunities, Using Process Mining, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Setting improvement opportunities, Use, Process Mining, Platform Analytics]
 ---
 
 # Set rule-based improvement opportunity
@@ -18,7 +18,10 @@ Rule-based finding definition is a custom rule that displays improvement opportu
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required:
+
+-   The sn\_process\_mining\_admin and sn\_process\_mining\_power\_user roles can create an improvement opportunity for a project.
+-   The sn\_process\_mining\_analyst role can view an improvement opportunity for a project, but can’t create, edit, or delete an improvement opportunity.
 
 By setting up your own rules, you can focus on specific areas of the process that you'd want to know more about, thus identifying improvement opportunities for a given use case.
 
@@ -34,7 +37,7 @@ For example, you can set up a rule to display records that took more than 7 days
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form from Finding Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
+    For details, see [Rule-based finding definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
@@ -42,138 +45,60 @@ For example, you can set up a rule to display records that took more than 7 days
 
     \[Omitted image "rule-find-config-builder.png"\] Alt text: Configure rule-based finding in Finding Builder
 
+    The predicates available are:
+
+    -   is
+    -   is not
+    -   is empty
+    -   is not empty
+    -   is anything
+    -   is one of: When you select "is one of", you can select multiple values at once. Type the first two letters, and select the **Select all** icon to select all matching values.
+    -   is not one of: When you select "is not one of", you can select multiple values at once. Type the first two letters, and select the **Select all** icon to select all matching values.
 5.  Fill the details on the form.
 
-    1.  Define a filter by adding conditions that contain a field, operator, and values.
+    1.  Define an activity by adding conditions that contain a field, operator, and values.
 
-        Use the **Occurrence is** field to define whether the filter applies to the first, last, or all occurrences of this condition.
+        Use the **Occurrence** field to define whether the filter applies to the first, last, or all occurrences of this condition.
 
-    2.  Use the **Add contextual condition** button to define additional contextual conditions for this filter.
+    2.  Use the **Add step criteria** button to include and set threshold across the steps.
 
-        Use the **and** and **or** buttons to create as many contextual conditions as needed.
+        Step criteria are conditions that apply to more than one step allowing to narrow results beyond single-step criteria. Some examples are time spent to complete a task, or any event that happened before or after the task, and so on.
 
-    3.  Select **Add next step** to define another filter within this chain.
+    3.  Select **Add next step** to define another activity within this sequence.
 
         After creating a filter, a relationship section appears between the two filters. This section defines the relationship between the activities immediately above and below it.
 
-    4.  Select a relationship between your filters.
+    4.  Select a relationship between your activities.
+
         -   Directly followed by
-        -   Eventually followed by
+        -   At some point followed by
         -   Not directly followed by
-        -   Not eventually followed by
+        -   Never followed by
     5.  Select the **Track duration** field.
 
         This field tracks the time between the specified finding steps to calculate the total duration of the finding process, which is displayed on the improvement opportunity.
 
-    6.  Select **+ Add Chain** \(on the top right\) to create an additional chain of filters.
+    6.  Select **Criteria between steps** to create further filters, and then select**Apply** to set the criteria between steps filter.
 
-        A chain is a set of linked filters. Create a chain to define a separate set of related filters that must also evaluate to true, but doesn’t have a relationship with the filters in another chain. After you create a chain, you can navigate between chains using the **Chain &lt;number&gt;** tabs at the top of the window.
+        The options available are:
 
-    7.  Select **Add constraint**.
+        -   Time between steps
+        -   While attribute remained
+        -   Touchpoints between steps
+    7.  Select an option for **Apply to map view**.
 
-        The constraints panel is displayed to the right. Use the Finding Constraint to set specific conditions between finding definitions steps, such as duration and relation constraints between certain steps, which help narrow down their scope beyond the basic finding rules.
+        If you select **With all activities**, it will consider the view of the project. If you select **Matching the rules**, it will consider only the filter that is set. The view of the project will not be considered.
 
-    8.  Select **Add constraint**, provide all details and select **Add constraint**.
+    8.  You can copy or paste a single filter by selecting the **Copy** or **Paste** option from the list.
 
-        \[Omitted image "finding-constraint.png"\] Alt text: Finding Definition constraint
+        \[Omitted image "copy-process-filter.png"\] Alt text: Copy or paste a filter
 
-<table id="table_gwq_33h_1cc"><thead><tr><th>
+6.  Select **Create a copy** from the **Actions** list to copy the entire improvement opportunity.
 
-Field
+    \[Omitted image "imp-opp-copy.png"\] Alt text: Create a copy of the improvement opportunity
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name of the constraint
-
-</td></tr><tr><td>
-
-Start
-
-</td><td>
-
-Event that triggers the finding constraint. The options available are the steps provided in the filters.
-
-</td></tr><tr><td>
-
-End
-
-</td><td>
-
-Event that concludes the finding constraint. The options available are the steps provided in the filters.
-
-</td></tr><tr><td>
-
-Min duration
-
-</td><td>
-
-Specifies the minimum duration between when the event defined in the **Start** field and event defined in the **End** field. The event in the **End** field must occur after the amount of time specified in this field.
-
-</td></tr><tr><td>
-
-Max duration
-
-</td><td>
-
-The maximum duration between when the event defined in the **Start** field and event defined in the **End** field. The event in the **End** field must occur before the amount of time specified in this field.
-
-</td></tr><tr><td>
-
-Relation constraint type
-
-</td><td>
-
-Optional constraint conditions to further define when the constraint triggers.-   **None**
-
-No relation constraint
-
--   **Same**
-
-Records must have the same value in a specific field. Specify this field in the **Relation constraint field** field.
-
--   **Different**
-
-Records must have different values in a specific field. Specify this field in the **Relation constraint field** field.
-
--   **Same user**
-
-Start and end conditions must be triggered by the same user.
-
--   **Different user**
-
-Start and end conditions must be triggered by different users.
-
--   **Same event**
-
-Indicates that the start and stop steps are identical, while intermediate steps can differ. This helps identify Ping-Pong patterns, such as A -&gt; B -&gt; A, where only the first and last steps need to match.
-
--   **Different event**
-
-Indicates that the start and stop steps are distinct from each other, while intermediate steps can vary or be the same. This helps identify sequences where the initial and final activities are not the same, such as A -&gt; B -&gt; C, ensuring that the process begins and ends with different events.
-
-</td></tr><tr><td>
-
-Relation constraint field
-
-</td><td>
-
-Field associated with the relation constraint type.
-
- This field appears when **Same** or **Different** is selected in the **Relation constraint type** field.
-
- **Note:** The available relation constraint field will appear empty if there are no selections in the **Start Condition** or **End Condition** fields.
-
-</td></tr></tbody>
-</table>6.  Select **Save and exit**.
+7.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting improvement opportunity from Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/setting-impr-opp-proj-build.md)
+**Parent Topic:**[Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/working-with-imp-opp.md)
 

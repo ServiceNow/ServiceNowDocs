@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/c\_UseLists.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Users can search, sort, filter, and edit data in lists. Lists may be embedded in
 
 The list interface consists of a title bar, filters and breadcrumbs, columns of data, and a footer. Each column in a list corresponds to a field on the table.
 
-A [Response time indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_ResponseTimeIndicator.md) \(\[Omitted image "Response\_time\_indicator\_UI15.png"\] Alt text: Response time indicator\) may appear at the bottom right of some lists to indicate the processing time required to display the list.
+A [Response time indicator icon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_ResponseTimeIndicator.md) \(\[Omitted image "Response\_time\_indicator\_UI15.png"\] Alt text: Response time indicator\) may appear at the bottom right of some lists to indicate the processing time required to display the list.
 
 \[Omitted image "800px-UI16\_list\_view.png"\] Alt text: Record list
 

@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Although the activities detected in this validator do no harm to the execution o
 
 This example workflow appears to be perfectly valid. Under closer inspection, however, we see that the transition from **Set Values** does not stop at **Approval - User** \(there is no arrow end\). Instead, that transition goes directly to **End**. As a result, **Approval - User** cannot execute. Because there is an activity in the workflow based on the approval's condition routing, it appears that the designer intended for the approval to execute and that a correction is needed.
 
-\[Omitted image "image.TransitionInInvalid"\] Alt text:
+\[Omitted image "TransitionInInvalid.png"\] Alt text:
 
 This validator directs the designer to the specific activity and condition that has no inbound transition. The designer should establish a transition or remove the activity.
 

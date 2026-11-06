@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-onboarding.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure]
-breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Onboarding for agentic development
@@ -19,12 +19,15 @@ The following checklist helps to ensure your environment is properly configured,
 
 1.  Ensure you have credentials for the development instance.
 2.  Confirm that you have the appropriate license for the tools you want to use, for example for Build Agent or ServiceNow Otto for Creator.
+
+    **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
     -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-build-agent.md)
 
         **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
 
-    -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
+    -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md).
 
 ServiceNow Studio and ServiceNow IDE are automatically available on every instance, so you don't need to confirm their installation.
@@ -52,4 +55,6 @@ See [General guidelines for agentic development](https://raw.githubusercontent.c
 ## Engage with the development community
 
 Check out [ServiceNow Community](https://www.servicenow.com/community/) to connect with other developers and share ideas.
+
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-landing.md)
 

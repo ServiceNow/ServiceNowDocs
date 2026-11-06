@@ -7,7 +7,7 @@ release: zurich
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Test Board in Test Management 2.0, Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ Use the **Planning** tab to manage this hierarchy from a single view. For more i
 
 4.  Add or modify test plans and test execution suites in the Test plan work item hierarchy.
 
-<table id="choicetable_lwp_mjz_sfb"><thead><tr><th align="left" id="d311542e111">
+<table id="choicetable_lwp_mjz_sfb"><thead><tr><th align="left" id="d334612e111">
 
 Option
 
-</th><th align="left" id="d311542e114">
+</th><th align="left" id="d334612e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d311542e120">
+</th></tr></thead><tbody><tr><td id="d334612e120">
 
 **To add a test cycle**
 
@@ -54,7 +54,7 @@ Description
 2.  Right-click and select **Add Test Cycle**, or click the add icon \(\[Omitted image "add.png"\] Alt text: Add icon\).
 
 
-</td></tr><tr><td id="d311542e147">
+</td></tr><tr><td id="d334612e147">
 
 **To edit a test cycle in a form**
 
@@ -64,7 +64,7 @@ Description
 2.  Right-click and select **Edit**.
 
 
-</td></tr><tr><td id="d311542e168">
+</td></tr><tr><td id="d334612e168">
 
 **To delete a test cycle with its test execution suites**
 
@@ -74,7 +74,7 @@ Description
 2.  Right-click and select **Delete**.
 
 
-</td></tr><tr><td id="d311542e189">
+</td></tr><tr><td id="d334612e189">
 
 **To add a test execution suite**
 
@@ -84,7 +84,7 @@ Description
 2.  Right-click and select **Add Execution Suite**, or click the add icon \( \[Omitted image "add.png"\] Alt text: Add icon\).
 
 
-</td></tr><tr><td id="d311542e217">
+</td></tr><tr><td id="d334612e217">
 
 **To edit a test execution suite in a form**
 
@@ -94,7 +94,7 @@ Description
 2.  Right-click and select **Edit**.
 
 
-</td></tr><tr><td id="d311542e238">
+</td></tr><tr><td id="d334612e238">
 
 **To add tests to a test execution suite**
 
@@ -104,7 +104,7 @@ Description
 2.  Right-click and select **Add tests**.
 
 
-</td></tr><tr><td id="d311542e259">
+</td></tr><tr><td id="d334612e259">
 
 **To add test sets to a test execution suite**
 
@@ -114,7 +114,7 @@ Description
 2.  Right-click and select **Add test sets**.
 
 
-</td></tr><tr><td id="d311542e280">
+</td></tr><tr><td id="d334612e280">
 
 **To hide or display columns**
 
@@ -127,15 +127,15 @@ Description
 </td></tr></tbody>
 </table>5.  View the summary or adjust the duration of a task in the Gantt chart.
 
-<table id="choicetable_kbs_3kz_sfb"><thead><tr><th align="left" id="d311542e313">
+<table id="choicetable_kbs_3kz_sfb"><thead><tr><th align="left" id="d334612e313">
 
 Option
 
-</th><th align="left" id="d311542e316">
+</th><th align="left" id="d334612e316">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d311542e322">
+</th></tr></thead><tbody><tr><td id="d334612e322">
 
 **To view the summary of a task**
 
@@ -143,7 +143,7 @@ Description
 
 Point to a task to see the details of the task in a pop-up.
 
-</td></tr><tr><td id="d311542e343">
+</td></tr><tr><td id="d334612e343">
 
 **To change the planned start or end dates of a task**
 
@@ -151,7 +151,7 @@ Point to a task to see the details of the task in a pop-up.
 
 Click the task, and drag the left or right edge of the task bar to the required date.
 
-</td></tr><tr><td id="d311542e352">
+</td></tr><tr><td id="d334612e352">
 
 **To move a task to a new date**
 
@@ -159,7 +159,7 @@ Click the task, and drag the left or right edge of the task bar to the required 
 
 Click the task, and drag the whole task bar to a new date.
 
-</td></tr><tr><td id="d311542e361">
+</td></tr><tr><td id="d334612e361">
 
 **To zoom the calendar in or out**
 

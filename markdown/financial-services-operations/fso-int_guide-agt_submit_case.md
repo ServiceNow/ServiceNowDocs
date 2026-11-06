@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/fso-int\_guide-agt\_submit\_case.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
 
@@ -18,6 +18,8 @@ In this scenario, from within an FSO complaint form, an agent looks up a custome
 
 **Note:** This scenario assumes the bank application exposes two REST endpoints GET /api/getConsumerDetails and GET /api/getFinancialAccounts that return the requested consumer details and their associated financial account information.
 
+\[Omitted image "fso-agent\_submit-flow\_diagram.png"\] Alt text: Flow diagram shows a case, where an agent references the customer's record, which has Consumer and Financial Accounts integrated.
+
 The ServiceNow tables that are accessed in this scenario are the following:
 
 -   Consumer \[csm\_consumer\]: Contains customer record.
@@ -28,9 +30,15 @@ The ServiceNow tables that are accessed in this scenario are the following:
 
 The following is an example of a ServiceNow complaint form \(case form\) that walks an agent through filing a complaint on behalf of a customer. In this form, the agent clicks the Account Search button on the form to locate the customer's account information.
 
+\[Omitted image "fso-account\_lookup\_form.png"\] Alt text: Account lookup form shows step one of completing complaint form fields such as product, and customer and dissatisfaction type.
+
 When the agent clicks the **Account Search** a pop-up similar to the following appears. The pop-up allows the agent to lookup the customer's account using any of the displayed search parameters. You can create your own search criteria based on your specific web service. These web services generally come from Customer Master and Account Master systems, CRMs, core banking mainframes, and APIs from core banking software providers such as Fiserv, FIS, Jack Henry, Finastra and others.
 
+\[Omitted image "fso-account\_search\_form.png"\] Alt text: Account search form shows fields name, customer number, and account fields to fill in for search.
+
 The search returns the following accounts for this customer.
+
+\[Omitted image "fso-account\_search\_results.png"\] Alt text: Account search results shows active accounts returned in a search for the specified customer.
 
 The agent selects the appropriate account and the necessary account information is automatically populated in the case form. The agent then adds any additional information needed to submit the customer case and clicks the **Submit** button to save the complaint in the ServiceNow instance.
 
@@ -38,7 +46,7 @@ The following diagram shows the flow of the REST API calls for this use case and
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
-
+\[Omitted image "fso-agent\_submit-swim\_diagram.png"\] Alt text: Swim diagram showing six steps in the bank application agent submittal process, getting customer records from Consumer and Loan Account tables, subsequent data responses, and storing updated information in tables.
 
 </td><td>
 

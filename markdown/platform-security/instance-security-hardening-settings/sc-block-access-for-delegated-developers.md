@@ -7,8 +7,8 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
@@ -16,7 +16,9 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 This configuration affects access for delegated developers that are updating user roles through script. When the configuration is compliant, the developer will not be able to update or insert records into the sys\_user\_has\_role table without also having the user\_admin role.
 
-The value of this property affects whether a delegated developer is allowed to grant or receive unexpected access to functionality in the instance. When the property contains roles, only those roles may execute script modules.
+This property determines whether a delegated developer can give assign roles to users through scripts. If **com.glide.sys.security.delegateddev.block\_grant\_roles** is not set to the recommended value of **true**, then a delegated developer could assign roles to any user. This could lead to unapproved privilege escalation.
+
+Ensure that the property **com.glide.sys.security.delegateddev.block\_grant\_roles** is set to **true**.
 
 ## More information
 
@@ -30,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,35 +48,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-The value of this property affects whether a delegated developer is allowed to grant or receive unexpected access to functionality in the instance.
-
-</td></tr><tr><td>
-
-Type
-
-</td><td>
-
-toggle switch
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
-true
+Boolean
 
 </td></tr><tr><td>
 
@@ -86,27 +64,27 @@ true
 
 </td></tr><tr><td>
 
-Security Dependencies
+Default value
 
 </td><td>
 
-none
+true
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-6.7
+true
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-When a user with the delegated\_developer role is attempting to modify a record in the sys\_user\_has\_role table, this property enables additional security checks against the operation. The additional security checks validate that the user has been granted the user\_admin role if they're trying to create or update the sys\_user\_has\_role table. If they do not have the user\_admin role, the access will be denied. When the property is false, these additional checks are not validated.
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -114,18 +92,26 @@ Security risk
 
 </td><td>
 
-\(Moderate\) Without appropriate authorization, unauthorized users may access sensitive content/data on the instance.
+-   Severity score: 6.7
+-   CVSS rating: Medium
+-   Security risk details: Delegated developers may assign roles to any user via scripts, posing a significant security risk of unauthorized privilege escalation.
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+When a user with the delegated\_developer role is attempting to modify a record in the User Roles \[sys\_user\_has\_role\] table, this property enables additional security checks against the operation. The additional security checks validate that the user has been granted the user\_admin role if they're trying to create or update the User Roles \[sys\_user\_has\_role\] table. If they do not have the user\_admin role, the access will be denied. When the property is false, these additional checks are not validated.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

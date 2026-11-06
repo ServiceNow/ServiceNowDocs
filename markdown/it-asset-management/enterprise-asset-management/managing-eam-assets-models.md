@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
 # Managing enterprise models and assets
@@ -84,7 +84,7 @@ Create and import classification codes
 
 </td><td>
 
--   [Create classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-classification-codes.md)
+-   [Create a classification code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-classification-codes.md)
 -   [Import classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/import-class-codes-eam.md)
 
 </td></tr><tr><td>
@@ -139,7 +139,7 @@ sn\_eam.enterprise\_asset\_manager
 
 </td><td>
 
-[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
+[Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ sn\_eam.enterprise\_admin
 
 </td><td>
 
-[Managing risks scores in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
+[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
 </td></tr><tr><td>
 

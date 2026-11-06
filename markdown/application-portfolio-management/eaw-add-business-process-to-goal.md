@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-business-process-to-goal.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business process, goal, business architecture, enterprise architecture workspace]
-breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a business process to a goal
@@ -21,7 +21,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-Link business processes to goals to document which processes contribute to achieving specific strategic objectives. You can add existing business processes or create new ones directly from the goal record.
+Link business processes to goals to document which processes contribute to achieving specific strategic objectives. You can add existing business processes or create ones directly from the goal record.
 
 A goal is mapped to a business process using the relationship type **Realizes :: Realized by**.
 

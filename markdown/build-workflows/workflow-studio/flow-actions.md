@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Workflow Studio actions
@@ -67,7 +67,7 @@ Removes one or all attachments associated with a record and deletes the attachme
 -   **[Delete Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/delete-record-flow-designer.md)**  
 Deletes a record on any table.
 -   **[Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/execute-skill-action.md)**  
-Run a published Now Assist skill and use the skill outputs in a flow or subflow.
+Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.
 -   **[Fire Event action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/fire-event-action.md)**  
 Create a system event record in the Event \[sysevent\] table to be processed by a scheduled event handler. Pass event parameters using flow data.
 -   **[Get Attachments on Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/get-attachments-rec.md)**  
@@ -94,6 +94,8 @@ Associates a record from the Attachment \[sys\_attachment\] table with a target 
 Move attachments from an email to a record so that the files are available to your users when they view the record.
 -   **[Record Producer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/record-producer-flow-designer.md)**  
  Create a Task record from a Record Producer Catalog Item \[sc\_cat\_item\]. The Task record inherits values from the catalog item's variable values.
+-   **[Run script action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/run-script-action.md)**  
+Run custom JavaScript code within a reusable action.
 -   **[Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/send-email-flow-designer.md)**  
 Send an email to specified users or groups as an action in a flow.
 -   **[Send Notification action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/send-notification-action.md)**  

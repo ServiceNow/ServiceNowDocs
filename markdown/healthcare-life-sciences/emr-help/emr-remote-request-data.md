@@ -7,7 +7,7 @@ release: zurich
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -48,6 +48,8 @@ String
 </td><td>
 
 This field is used to store any additional sensitive information when submitting a request from the EMR.
+
+ This field has column-level encryption.
 
 </td></tr><tr><td>
 

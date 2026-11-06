@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-risk-frmwrk.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -19,13 +19,13 @@ Risks can affect the health of an engagement and jeopardize the chances of expan
 Risk signals can be:
 
 -   Created manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
--   Generated automatically by a risk definition when a threshold value is breached or a specific condition is met. See [Create a risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
+-   Generated automatically when a threshold value is breached or a specific condition is met. See [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
 
 The following list shows a few sample use cases when risk signals are generated:
 
 -   Customer satisfaction \(CSAT\) survey results declined by X% for a product
 -   NPS dropped to 7
--   License utilization is below 50%
+-   License utilization is less than 50%
 -   The number of P1 cases for a product / account increased by x%
 -   Success outcome deadline missed
 -   The Net ACV for the opportunity is reduced by X%

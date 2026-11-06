@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Logic, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Business Logic, Hardening settings, Platform Security]
 
 Configure the **sn\_kb\_social\_qa.max\_subscriptions\_per\_user\_daily** property to limit the max number subscriptions a user can subscribe to in a day.
 
-If this property is not set to the recommended value of **500** or less, there is no restriction on the maximum number of Q&amp;A questions that a user can subscribe to in a day. This no limitation could lead to resource exhaustion and impact the availability of your instance.
+If the **sn\_kb\_social\_qa.max\_subscriptions\_per\_user\_daily** system property is not set to the recommended value of `500` or less, then there will be no restriction on the maximum number of Social Q&amp;A questions to which a user can subscribe to in a day.
+
+Ensure the property **sn\_kb\_social\_qa.max\_subscriptions\_per\_user\_daily** is set to `500` or less.
 
 ## More information
 
@@ -58,11 +60,19 @@ Recommended value
 
 </td><td>
 
-500
+An integer less than or equal to 500
 
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+500
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 

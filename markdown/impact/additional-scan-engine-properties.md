@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/additional-scan-engine-properties.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Manage definition properties
 
 You can configure additional capabilities and configuration options for the definition ruleset.
 
-For these options to be editable, at least one instance itself must be defined under My instances. Users can synchronize definition overrides and custom definitions between non-production and production instances. Ensuring a consistent ruleset is being applied throughout the instance stack.
+For these options to be editable, at least one instance itself must be defined under My instances. Users can synchronize definition overrides and custom definitions between non-production and production instances. Ensuring a consistent ruleset is being applied throughout the instance stack. See [Define My SN Instance environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/add-view-scan-engine-related-lists.md) for additional information.
 
 Scan Engine admins can remove the checkbox on the active field, or, change the value of the boolean Active field to false without requiring an override.
 
@@ -64,5 +64,5 @@ Entitlement hashing integrity
 -   No regressions occur for states that existed before this feature was introduced.
 
 </td></tr></tbody>
-</table>**Note:** Deactivating a definition does not remove it from the system. It only changes the active status. If you need to completely remove a definition, contact your system administrator.
+</table>**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md)
 

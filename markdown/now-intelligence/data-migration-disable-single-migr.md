@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-disable-single-migr.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [How to migrate a few dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]

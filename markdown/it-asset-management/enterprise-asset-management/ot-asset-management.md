@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # OT Asset Management
@@ -20,14 +20,25 @@ OT Asset Management is a licensable application that helps you to manage assets 
 
 The OT Asset Management application provides the functionalities, features, and workflows of Enterprise Asset Management that support roles related to Operational Technology.
 
--   **[OT Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/licensing-ot-asset-management.md)**  
-The ServiceNow® platform uses a licensing method where your organization is charged for using the OT Asset Management application. In this licensing model, all assets of the Industrial and Hardwaremodel categories are charged based on the Subscription unit ratio.
--   **[View the license report for the OT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-license-report-otam.md)**  
-View details of the subscriptions consumed by your organization for the OT Asset Management application by using the ITAM License Report.
+-   **[Installing OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installing-otam.md)**  
+Install the OT Asset Management application so that you can manage the life cycles of your Operational Technology \(OT\) assets. You can install the application from either the ServiceNow® Store or the Admin Home page.
+-   **[Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-otam.md)**  
+Several types of components are installed with activation of the com.sn\_otam plugin, including user roles and applications.
 -   **[OT Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.md)**  
 The OT Asset Workspace is the intuitive and streamlined user interface of the OT Asset Management application to manage your Operational Technology \(OT\) and Operational Equipment \(OE\) assets.
+-   **[OT Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/licensing-ot-asset-management.md)**  
+The ServiceNow® platform uses a licensing method where your organization is charged for using the OT Asset Management application. In this licensing model, all assets of the Industrial and Hardwaremodel categories are charged based on the Subscription unit ratio.
 -   **[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-ci-sync-ot-assets.md)**  
 Maintain synchronization between asset and CI for OT assets through MAC address on the asset and the Network Adapter CI.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-related-apps.md)
+
+**Related topics**  
+
+
+[Enterprise Asset Management for Healthcare]()
+
+[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
+
+[Enterprise Asset Management for Providers]()
 

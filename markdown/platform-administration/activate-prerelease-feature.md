@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/activate-prerelease-feature.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [What's New, feature preview]
-breadcrumb: [Feature Preview Program, Basic system configuration, Get started, Administer]
+breadcrumb: [Feature Preview Program, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Activate a pre-release feature

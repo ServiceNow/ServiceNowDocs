@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/select-time-series-aggregation.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # Select time aggregation in KPI Details
@@ -15,6 +15,8 @@ breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analyt
 You can aggregate changes in indicators into discrete time intervals. A time aggregation consists of an AVG or SUM function combined with a time series, such as By quarter.
 
 ## Before you begin
+
+**Note:** Native Data snapshots indicators do not have time aggregations. Instead, you can select an aggregation period to trend by. For more information, see [Configure trend for a native Data snapshots indicator in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-trend-ds-indicator.md)
 
 Role required: None. However, upgraded instances may require pa\_viewer.
 
@@ -39,21 +41,23 @@ For more information about the use, behavior, and limitations of time aggregatio
 
 ## Procedure
 
-1.  In KPI Details, expand the time aggregation menu on the indicator visualization.
+1.  Open KPI Details for an indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/view-kpi-details.md).
+
+2.  Expand the time aggregation menu, which has a label matching the currently selected aggregation period, usually Daily.
 
     \[Omitted image "kpi-details-open-time-aggregate.png"\] Alt text: The control for expanding the time aggregation menu
 
     **Note:** Time aggregations are not available for real-time scores. When you select a time aggregation, real-time scores are disabled. If you return to the default frequency, real-time scores are re-enabled but turned off. You can turn them on if you want.
 
-2.  Select either a **Running**, a **Period**, or a **To date** aggregation to configure.
+3.  Select either a **Running**, a **Period**, or a **To date** aggregation to configure.
 
-3.  Select a time period.
+4.  Select a time period.
 
     Invalid and excluded time periods for the indicator frequency are not enabled. For more information about excluded time periods, see [Exclude time series from an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_ExcludingTimeSeriesFromIndicators.md).
 
-4.  Select either the average or the sum function.
+5.  Select either the average or the sum function.
 
-5.  If you have selected a **Period** aggregation, decide whether to **Include partial periods**.
+6.  If you have selected a **Period** aggregation, decide whether to **Include partial periods**.
 
     If you include partial periods, you show a score for the current period even when it has not yet completed. Use caution because including partial periods can skew averages.
 
@@ -79,7 +83,13 @@ In the following time aggregation menu, the daily indicator Number of open incid
 
 [Chart options in KPI Details]()
 
-[Filter KPI Details by breakdown elements]()
+[Configure trend for a native Data snapshots indicator in KPI Details]()
+
+[Configure display properties for a Data snapshots indicator]()
+
+[Filter indicator scores by breakdown elements in KPI Details]()
+
+[Filter native Data snapshots indicator scores in KPI Details]()
 
 [Access indicator record or scoresheet from KPI Details]()
 

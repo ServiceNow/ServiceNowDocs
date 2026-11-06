@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-17"
 reading_time_minutes: 1
 keywords: [Business portfolio, business applications, AI system association]
-breadcrumb: [Product Owner portal, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Product Owner portal, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Business portfolio tab in AI Control Tower

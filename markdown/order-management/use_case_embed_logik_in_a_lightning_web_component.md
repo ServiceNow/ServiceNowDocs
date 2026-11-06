@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use\_case\_embed\_logik\_in\_a\_lightning\_web\_component.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use cases, Using ServiceNow CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Embed ServiceNow CPQ UI in a Lightning Web Component
@@ -35,7 +35,7 @@ You can embed ServiceNow CPQ in a Lightning Web Component \(LWC\) in a Salesforc
 
     \[Omitted image "cpq-embed-logik-lightning-edit-page.png"\] Alt text: User interface
 
-5.  Drag the Logik LWC from the menu at the bottom left into the page layout where you want to embed ServiceNow CPQ.
+5.  Drag the ServiceNow CPQ LWC from the menu at the bottom left into the page layout where you want to embed ServiceNow CPQ.
 
     \[Omitted image "cpq-embed-logik-lightning-drag.png"\] Alt text: Menu bar
 

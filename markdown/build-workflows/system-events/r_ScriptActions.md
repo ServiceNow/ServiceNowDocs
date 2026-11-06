@@ -7,7 +7,7 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System events reference, System Events, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [System events reference, System Events, Build workflows]
 
 You can use script actions to create server-side scripts that perform a variety of tasks, such as modifying a configuration item \(CI\), or managing failed login attempts. Script actions are triggered by events only.
 
-## Configuration
+Role required: sysevent\_script\_action\_admin or admin
 
 To create a new script action, navigate to **System Policy** &gt; **Events** &gt; **Script Actions** and click **New**.
 

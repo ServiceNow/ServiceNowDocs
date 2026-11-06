@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ If Domain Support - Domain Extensions is activated, then you can configure aggre
 
 Toggle the **Use legacy calculation methods** switch on the CMDB Health Dashboard to use legacy calculation methods. Custom weight settings are used in aggregated score calculations only if using legacy calculation methods is in effect.
 
-Role required: itil or itil\_admin
+Role required: sn\_cmdb\_editor, sn\_cmdb\_admin, itil, or itil\_admin
 
 ## Procedure
 

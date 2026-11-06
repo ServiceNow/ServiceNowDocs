@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Make a form change based on responses in Creator Studio
@@ -94,7 +94,7 @@ A different way that you can make a form change is to have questions automatical
 
 ## Result
 
-The question appears with a dynamic icon \(\[Omitted image "crs-dynamic-indicator.png"\] Alt text:\) to indicate that it has dynamic behavior.
+The question appears with a dynamic icon \[Omitted image "crs-dynamic-indicator.png"\] Alt text: to indicate that it has dynamic behavior.
 
 The dynamic behavior appears in a card on the **Behavior** tab of the settings panel. You can select the card at any time to view or edit its details, or select the **Add behavior** button to add another dynamic behavior.
 

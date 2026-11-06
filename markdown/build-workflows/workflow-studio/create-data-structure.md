@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complex data, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create data structure
@@ -19,7 +19,6 @@ Organize multiple data variables into a structure to process them as a unit and 
 ## Before you begin
 
 -   Role required: action\_designer, flow\_designer, or admin
--   Set up an application in Guided Application Creator to store Workflow Studio content.
 -   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-subflow.md)
 
 ## About this task
@@ -34,7 +33,7 @@ A data structure is a collection of related data elements organized into a hiera
     |---|---|
     |**Action or subflow input**|Click **Create Input**|
     |**Action or subflow output**|Click **Create Output**|
-    |**XML parser step**|See XML parser step|
+    |**XML parser step**|See [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/xml-parser-step-action-designer.md)|
 
 2.  Set **Type** to **Object**.
 
@@ -46,7 +45,7 @@ A data structure is a collection of related data elements organized into a hiera
 
     **Note:** You can insert a child item variable between existing variables by hovering your mouse pointer between two variables, and click the insert item icon \(\[Omitted image "insert-child-icon.png"\] Alt text: Insert item icon\) that appears.
 
-    **Note:** When hovering your mouse pointer between a child and sibling variable, you will see a add child icon \(\[Omitted image "insert-item-icon.png"\] Alt text: Insert child item icon\). Click the left side of the icon to add a new sibling variable to the child's parent, or the right side to add another child variable under the current variable.
+    When hovering your mouse pointer between a child and sibling variable, you will see a add child icon \(\[Omitted image "insert-item-icon.png"\] Alt text: Insert child item icon\). Click the left side of the icon to add a new sibling variable to the child's parent, or the right side to add another child variable under the current variable.
 
 4.  Set the child variable **Label** and **Type**.
 

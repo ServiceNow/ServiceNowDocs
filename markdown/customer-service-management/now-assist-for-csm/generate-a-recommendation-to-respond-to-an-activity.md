@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-11-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Generate activity stream responses
@@ -20,7 +20,7 @@ Generate recommendations for work notes or comments in a case record using Servi
 
 These skills are inactive by default. Your administrator must enable the skills that you want to use.
 
-Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
+Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
 ## Procedure
 
@@ -40,7 +40,7 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
         -   **Summarize actions taken**: Create a summary of all steps taken to resolve the case.
         **Note:** The options display based on the configurations by your admin. Under work notes only 3 options are available – Post response, Summarize actions taken and Follow up.
 
-    2.  Select one of the options based on the type of response you want Now Assist to generate.
+    2.  Select one of the options based on the type of response you want AI to generate.
 
         The response appears in the ServiceNow Otto Context Menu \(NACM\).
 

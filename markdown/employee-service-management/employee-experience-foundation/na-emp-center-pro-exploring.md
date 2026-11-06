@@ -1,6 +1,6 @@
 ---
 title: Exploring ServiceNow Otto for Employee Center Pro
-description: ServiceNow Otto for Employee Center Pro is a multi-application that provides a digital front-door for employee self-service capabilities, request support and conversational assistance, and powerful enterprise search capabilities.
+description: ServiceNow Otto for Employee Center Pro provides a clean employee engagement layer, and offers self-service capabilities, conversational assistance, and enterprise search across multiple applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.html
 release: zurich
@@ -9,17 +9,17 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-08-06"
 reading_time_minutes: 2
-keywords: [ServiceNow Otto for Employee Center Pro, ServiceNow Otto, Agentic AI]
-breadcrumb: [ServiceNow Otto for Employee Center Pro, Unified Employee Experience, Employee Service Management]
+keywords: [Now Assist for Employee Center Pro, Now Assist, Agentic AI]
+breadcrumb: [ServiceNow Otto for Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring ServiceNow Otto for Employee Center Pro
 
-ServiceNow Otto for Employee Center Pro is a multi-application that provides a digital front-door for employee self-service capabilities, request support and conversational assistance, and powerful enterprise search capabilities.
+ServiceNow Otto for Employee Center Pro provides a clean employee engagement layer, and offers self-service capabilities, conversational assistance, and enterprise search across multiple applications.
 
 ## ServiceNow Otto for Employee Center Pro overview
 
-ServiceNow Otto for Employee Center Pro is layered with Employee Center Pro, a multi-department employee destination site that drives employee engagement and productivity. ServiceNow Otto, which improves productivity, efficiency, and self-service while empowering your users to search more effectively. AI Search, which enables your users to have a powerful consumer-grade search experience.
+ServiceNow Otto for Employee Center Pro is layered with Employee Center Pro, a multi-department employee destination site that drives employee engagement and productivity. This layer improves productivity, efficiency, and self-service while empowering your users to search more effectively. AI Search, which enables your users to have a powerful consumer-grade search experience.
 
 \[Omitted image "emp-center-pro-plus-exploring.png"\] Alt text: landing page features for ServiceNow Otto for Employee Center Pro.
 
@@ -41,15 +41,15 @@ ServiceNow Otto for Employee Center Pro is layered with Employee Center Pro, a m
 
 -   **ServiceNow Otto**
 
-    ServiceNow Otto is a growing cross-platform family of generative AI features, which are tasks that a large language model \(LLM\) can perform. generative AI features are based on the initial training and architecture.
+    ServiceNow Otto is a growing cross-platform family of generative AI features, which are tasks that a large language model \(LLM\) can perform.
 
-    A skill delivers a feature plus the use case to the user. An example of a skill is chat summarization within a customer workspace. ServiceNow Otto products provide features and skills that are tailored to meet the needs of users in different workflows.
+    A skill delivers a feature plus the use case to the user. An example of a skill is chat summarization within a customer workspace. These products provide features and skills that are tailored to meet the needs of users in different workflows.
 
--   **ServiceNow Otto Framework**
+-   **Now Assist Framework**
 
-    The ServiceNow Otto framework is supported across the ServiceNow AI Platform.
+    The Now Assist framework is supported across the ServiceNow AI Platform.
 
-    **Note:** ServiceNow Otto for Employee Center Pro only provides employee or requester conversations and might require other ServiceNow Otto products to deliver AI agents or other related features.
+    **Note:** Now Assist for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.
 
 -   **AI Search**
 

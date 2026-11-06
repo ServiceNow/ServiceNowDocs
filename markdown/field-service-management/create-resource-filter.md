@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/create-resource-filter.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced resource filters, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring advanced resource filters for Dispatcher Workspace, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Create an advanced resource filter for dispatchers
@@ -40,15 +40,15 @@ When administrators create an advanced resource filter for dispatchers they show
 
 7.  Fill in the fields on the form.
 
-<table id="choicetable_s3x_q1x_vfc"><thead><tr><th align="left" id="d32197e158">
+<table id="choicetable_s3x_q1x_vfc"><thead><tr><th align="left" id="d33791e155">
 
 Field
 
-</th><th align="left" id="d32197e161">
+</th><th align="left" id="d33791e158">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32197e167">
+</th></tr></thead><tbody><tr><td id="d33791e164">
 
 **Table**
 
@@ -60,7 +60,7 @@ Select the view. The choices are:-   agent\_filter\_config\_view
 -   contractor\_filter\_config\_view
 
 
-</td></tr><tr><td id="d32197e190">
+</td></tr><tr><td id="d33791e187">
 
 **Filter**
 

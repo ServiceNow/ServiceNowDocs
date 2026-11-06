@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -40,15 +40,15 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 6.  Add a new service or register an existing one.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d257200e133">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d277421e135">
 
 Option
 
-</th><th align="left" id="d257200e136">
+</th><th align="left" id="d277421e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d257200e142">
+</th></tr></thead><tbody><tr><td id="d277421e144">
 
 **Add a new service**
 
@@ -62,7 +62,7 @@ For more information on the field descriptions, see [Add service form](https://r
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d257200e184">
+</td></tr><tr><td id="d277421e186">
 
 **Register an existing service**
 
@@ -82,15 +82,15 @@ For more information on the field descriptions, see [Add service form](https://r
 
 8.  Finish setting up your service or do it later.
 
-<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d257200e250">
+<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d277421e252">
 
 Option
 
-</th><th align="left" id="d257200e253">
+</th><th align="left" id="d277421e255">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d257200e259">
+</th></tr></thead><tbody><tr><td id="d277421e261">
 
 **Finish setting up your service**
 
@@ -101,7 +101,7 @@ Steps
 3.  Select **Add SLO &amp; SLI** and create a service level objective and measure your service health with a service level indicator.
 
 
-</td></tr><tr><td id="d257200e289">
+</td></tr><tr><td id="d277421e291">
 
 **Do it later**
 

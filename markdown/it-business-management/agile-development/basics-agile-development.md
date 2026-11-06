@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Explore, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Exploring Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Basics of Agile Development
@@ -76,7 +76,7 @@ Familiarize yourself with the terminology and artifacts used in Agile Developmen
 
 -   **[Defects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/defect-reports.md)**
 
-    Defects can be used to report and track the resolution of issues that are noticed during the development of a new feature, or as feedback for existing features. Product owners then review these defects and decides on creating stories for them, which are assigned to the relevant assignment groups.
+    Defects can be used to report and track the resolution of issues noticed during the development of a new feature, or as feedback for existing features. Product owners then review these defects and decides on creating stories for them, which are assigned to the relevant assignment groups.
 
     Using the Agile Development — Unified Backlog, you can set up a triage board to maintain a centralized backlog for records of different task types, such as defects, stories, and enhancements. For more information, see [Agile Development — Unified Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/unified-backlog.md).
 

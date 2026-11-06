@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/upgrade-to-next-family.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations and the ServiceNow Store, Security Operations]
 ---

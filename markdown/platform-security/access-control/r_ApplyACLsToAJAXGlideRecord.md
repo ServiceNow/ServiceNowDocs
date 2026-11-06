@@ -7,9 +7,9 @@ release: zurich
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced ACL configuration, Access Control List Rules, Access Management]
+breadcrumb: [Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Apply ACLs to AJAXGlideRecord \(client-side Glide record\)
@@ -30,5 +30,5 @@ Use GlideRecordSecure when querying data to ensure the highest level of security
 
 **Warning:** The `sys_class_name, sys_id` and `sys_domain` are ignored for ACL checks.
 
-To learn more about this property, see [Require AJAXGlideRecord ACL checking \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md) in Instance Security Hardening Settings.
+To learn more about this property, see [Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md) in Instance Security Hardening Settings.
 

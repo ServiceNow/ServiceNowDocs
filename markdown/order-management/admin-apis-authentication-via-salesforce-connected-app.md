@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/admin-apis-authentication-via-salesforce-connected-app.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Admin APIs: Authentication using a Salesforce-connected app

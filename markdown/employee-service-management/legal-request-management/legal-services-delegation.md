@@ -7,7 +7,7 @@ release: zurich
 product: Legal Request Management
 classification: legal-request-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---

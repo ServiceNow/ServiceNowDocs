@@ -34,8 +34,3 @@ Role required: admin
     -   **Widgets**: Use [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal-widgets.md) to define the content in your portal.
     -   **Roles**: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
 
-1.  [Approve registration for a new business contact or organization in Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gmp-approve-new-business-org-contact-portal.md)  
-As an admin, you can approve or reject the registration of a new business contact or organization, submitted through the Grants Management Portal.
-
-**Parent Topic:**[Set up constituent self-service in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-set-up-self-service.md)
-

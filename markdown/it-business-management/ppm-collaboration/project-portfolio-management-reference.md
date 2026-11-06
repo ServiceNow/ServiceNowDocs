@@ -7,7 +7,7 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---

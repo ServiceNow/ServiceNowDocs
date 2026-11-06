@@ -7,10 +7,10 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2025-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [import product catalog item]
-breadcrumb: [Product catalog items, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Product catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Import a Product Catalog item
@@ -31,15 +31,15 @@ To import hardware or software product catalog items from one ServiceNow instanc
 
 1.  In the source ServiceNow instance, export the hardware or software product model record XML file.
 
-<table id="choicetable_c1z_jby_3gc"><thead><tr><th align="left" id="d89863e110">
+<table id="choicetable_c1z_jby_3gc"><thead><tr><th align="left" id="d124376e110">
 
 Option
 
-</th><th align="left" id="d89863e113">
+</th><th align="left" id="d124376e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89863e119">
+</th></tr></thead><tbody><tr><td id="d124376e119">
 
 **To export hardware product model record XML file**
 
@@ -47,11 +47,11 @@ Description
 
 1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
 2.  Select the required hardware model name link.
-3.  On the hardware model form, select the Additional actions \[Omitted image "additional-actions.png"\] Alt text: Additional actions icon and then select **Export XML \(This record\)**.
+3.  On the hardware model form, select the \[Omitted image "additional-actions.png"\] Alt text: Additional actions Additional actions icon and then select **Export XML \(This record\)**.
 4.  Save the exported hardware model XML file on your local system.
 
 
-</td></tr><tr><td id="d89863e167">
+</td></tr><tr><td id="d124376e167">
 
 **To export software product model record XML file**
 
@@ -59,7 +59,7 @@ Description
 
 1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Software Models**.
 2.  Select the required software model name link.
-3.  On the software model form, select the Additional actions \[Omitted image "additional-actions.png"\] Alt text: Additional actions icon and then select **Export XML \(This record\)**.
+3.  On the software model form, select the \[Omitted image "additional-actions.png"\] Alt text: Additional actions Additional actions icon and then select **Export XML \(This record\)**.
 4.  Save the exported software model XML file on your local system.
 
 
@@ -72,15 +72,15 @@ Description
     4.  Save the exported update set XML file on your local system.
 3.  In the target ServiceNow instance, import the hardware or software product model record XML file.
 
-<table id="choicetable_z4t_ldy_3gc"><thead><tr><th align="left" id="d89863e281">
+<table id="choicetable_z4t_ldy_3gc"><thead><tr><th align="left" id="d124376e281">
 
 Option
 
-</th><th align="left" id="d89863e284">
+</th><th align="left" id="d124376e284">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89863e290">
+</th></tr></thead><tbody><tr><td id="d124376e290">
 
 **To import hardware model record XML file**
 
@@ -88,12 +88,12 @@ Description
 
 1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
 2.  Hover over any column header in the Hardware Models list to display the Column Options \[Omitted image "image.column-options"\] Alt text: Column options icon.
-3.  Select Column options \[Omitted image "image.column-options"\] Alt text: Column options icon and then select **Import XML**.
+3.  Select Column options \[Omitted image "image.column-options"\] Alt text: Column optionsicon and then select **Import XML**.
 4.  Select **Choose File** and select the hardware model record XML file saved previously in Step 1.
 5.  Select **Upload**.
 
 
-</td></tr><tr><td id="d89863e353">
+</td></tr><tr><td id="d124376e353">
 
 **To import software model record XML file**
 
@@ -101,7 +101,7 @@ Description
 
 1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Software Models**.
 2.  Hover over any column header in the Software Models list to display the Column Options \[Omitted image "image.column-options"\] Alt text: Column options icon.
-3.  Select Column options s \[Omitted image "image.column-options"\] Alt text: Column options icon and then select **Import XML**.
+3.  Select Column options \[Omitted image "image.column-options"\] Alt text: Column options icon and then select **Import XML**.
 4.  Select **Choose File** and select the software model record XML file saved previously in Step 1.
 5.  Select **Upload**.
 

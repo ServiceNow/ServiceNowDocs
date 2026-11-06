@@ -1,20 +1,20 @@
 ---
 title: Journey Accelerator reference
-description: Reference topics provide additional information about the lists and forms that you use to configure and use Journey Accelerator.
+description: Reference topics provide additional information about the lists and forms that you use to configure and use Journey Accelerator .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/ja-reference.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey Accelerator reference
 
-Reference topics provide additional information about the lists and forms that you use to configure and use Journey Accelerator.
+Reference topics provide additional information about the lists and forms that you use to configure and use Journey Accelerator .
 
 -   **[Journey Accelerator task template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/journey-accelerator-task-template.md)**  
 To make a task template, fill in the Journey Accelerator task template fields.

@@ -1,24 +1,25 @@
 ---
 title: Next Experience release notes
-description: The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Zurich release.The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Zurich release.The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Zurich release.
+description: The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. See the following sections for release notes by version.The September release gives you a clearer introduction to AI on the platform with the new ServiceNow Otto name and onboarding slide. The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours have been removed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/next-experience-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow AI Platform user interface release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-10-16"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow AI Platform user interface release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Next Experience release notes
 
-The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Zurich release.
+The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform®. See the following sections for release notes by version.
 
 ## About Next Experience
 
--   Customize the visual experience of the Now Assist menu by using the new toggle to switch between standard or wide view.
--   Manage the visibility of page alerts with a new accessibility user preference.
--   Access usage analytic data for applications and web pages directly with the new Usage Analytics utility menu.
+-   Increase productivity by accessing app shell items, including menus, notifications, and search, from one unified navigation pane, no matter which application you’re in.
+-   Find your favorite pages quickly by organizing them into folders, and pin navigation menus to keep the ones you use most within reach.
+-   Start each day with the information you need by using role-specific landing pages that bring your tasks and analytics into one location.
+-   Switch easily between classic environment applications and configurable workspaces.
 
 See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
@@ -26,36 +27,20 @@ See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 -   **Activation information**
 
-    Next Experience is a ServiceNow AI Platform feature that is active by default when the user loads or upgrades to the Zurich release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
+    Next Experience is a ServiceNow AI Platform® feature that is active by default. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
 
     Theme Builder comes with the Next Experience and is active by default.
 
 -   **Browser requirements**
 
-    The Zurich release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-    -   **[New Accessibility preference added for page alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
-
-        Turn on the **Do not auto-dismiss page alerts** preference to keep page alerts visible until you manually close them.
-
-    -   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-workspace-preferences.md)**
-
-        A new Workspace preference lets you turn off lazy loading for workspace pages. When you turn off lazy loading, the entire page loads at once. This action improves compatibility with screen readers and provides a more consistent and reliable reading experience.
+    Next Experience doesn’t support Internet Explorer 11. The iOS version of Firefox is also not supported.
 
 
 **Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-ui-rn-landing.md)
 
-## August 2026
+## Brazil Early Availability
 
-The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Zurich release.
+The September release gives you a clearer introduction to AI on the platform with the new ServiceNow Otto name and onboarding slide. The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours have been removed.
 
 ### What's changed
 
@@ -63,40 +48,15 @@ The ServiceNow® Next Experience application delivers an intuitive, personalized
 
     ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
+-   **ServiceNow Otto® onboarding slide added**
 
-## Zurich
-
-The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Lazy loading of Workspace pages user preference available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-workspace-preferences.md)**
-
-    Control how your Workspace pages are loaded, either all at once or as needed, by using the new Workspace lazy load user preference. Lazy loading is enabled by default and displays content dynamically, reducing page load times. See the Accessibility information section for additional details.
-
--   **[Use the menu toggle to view the Now Assist menu in wide mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
-
-    View the Now Assist menu in wide mode to reduce the need for scrolling and truncating content.
-
--   **[Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
-
-    Use a new accessibility preference to keep page alerts visible. See the Accessibility information section for additional details.
-
--   **[Usage Analytics utility menu available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
-
-    Obtain usage analytic data for your applications and web pages with the Usage Analytics utility menu. The Usage Analytics menu appears for those users with the analytics\_viewer role.
-
--   **[View the number of active calls from the OpenFrame phone icon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
-
-    View the number of active calls from the numbered badge on the OpenFrame phone icon.
+    Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
 
 
-### What's changed
+### What's deprecated or removed
 
--   **Coral theme**
+-   **The Unified Navigation onboarding modals are removed.**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
-
-    For existing customers who upgrade to Zurich, use [Theme Builder to publish Coral theme to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/tb-apply-theme.md) or [add Coral theme to the Next Experience UX Parent App Theme table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-presentation-order-of-themes.md). Once enabled by a system administrator, Coral is available for [selection in the user's Theme preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/select-a-theme-in-next-experience.md).
+    The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and all associated steps, are no longer available.
 
 

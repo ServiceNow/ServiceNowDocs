@@ -1,20 +1,20 @@
 ---
-title: Limitations and requirements for data snapshots
-description: Several features of indicators and breakdowns are not supported with data snapshots and multiple breakdowns.
+title: Limitations and requirements for Data snapshots
+description: Several features of indicators and breakdowns are not supported with Data snapshots and multiple breakdowns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/limitations-mlb.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
-# Limitations and requirements for data snapshots
+# Limitations and requirements for Data snapshots
 
-Several features of indicators and breakdowns are not supported with data snapshots and multiple breakdowns.
+Several features of indicators and breakdowns are not supported with Data snapshots and multiple breakdowns.
 
 ## Instance-level limitations
 
@@ -23,14 +23,13 @@ Several features of indicators and breakdowns are not supported with data snapsh
 |Database requirements|Only instances with the [RaptorDB Professional \(PostgreSQL\) database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/raptordb.md) are supported, not Oracle or MariaDB/MySQL. \(Checked when plugin is activated.\)|
 |Domain separation|Domain-separated instances are not supported.|
 
+Instances with RaptorDB Professional have the Data Snapshots \(com.snc.pa.mlb\) plugin installed automatically. If the instance is domain separated, the Data snapshots feature is turned off.
+
 ## Table-level limitations
 
 |Limitation or unsupported feature|Notes|
 |---------------------------------|-----|
 |System tables|System tables \(named `sys_*`\) are not supported.|
-|Technical limitations on table size|Change data capture \(CDC\) works by determining and tracking the data that has changed \(the "deltas"\). If an indicator source is too large for data snapshots to track the deltas, multiple breakdowns are not supported for that indicator.|
-|Licensing limitations on table size|Data sources with more than 30 million records are not supported.|
-|High volume of changes|If any table that contributes to an indicator, either as a data source or through breakdowns or conditions, has had more than 1 million changes in the last month, data snapshots are not enabled for that indicator.|
 |Benchmarking indicators|Not supported|
 
 ## Indicator- and breakdown-level limitations
@@ -93,7 +92,7 @@ Formula indicators
 
 </td><td>
 
-All [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) must support data snapshots.
+All [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) must support Data snapshots.
 
 </td></tr><tr><td>
 
@@ -137,11 +136,11 @@ Only 250 levels of breakdown are supported.
 
 </td></tr><tr><td>
 
-Indicators whose collection jobs have more than one timezone
+Converted indicators whose collection jobs have more than one timezone
 
 </td><td>
 
-Only daily collection and only one timezone are supported.
+If the indicator time zone and the source time zone do not match, the source time zone is used. If possible, an All Activity source is used, thus supporting intraday data collection.
 
 </td></tr><tr><td>
 
@@ -165,23 +164,23 @@ Collection periods set on data collector
 
 </td><td>
 
-All collections are daily.
+All collections are daily or intraday, depending on the Data snapshots source.
 
 </td></tr></tbody>
 </table>## Field-level limitations \(Indicator, breakdown, source, and data collector fields\)
 
 |Limitation or unsupported feature|Notes|
 |---------------------------------|-----|
-|Label for unmatched|The **Label for unmatched** option on breakdown sources is ignored with data snapshots.|
-|Value when nil|The **Value when nil** option on automated indicators is ignored with data snapshots.|
+|Label for unmatched|The **Label for unmatched** option on breakdown sources is ignored with Data snapshots.|
+|Value when nil|The **Value when nil** option on automated indicators is ignored with Data snapshots.|
 |Security type|Data snapshots does not support the security type defined in the breakdown source.|
-|Data collection job settings|Start/end periods, specific time configurations, and other settings do not affect data snapshots. All data collection is daily. Only the timezone set on the data collection record has an effect.|
+|Data collection job settings|Start/end periods, specific time configurations, and other settings do not affect Data snapshots. All data collection is daily. Only the timezone set on the data collection record has an effect.|
 |Bucket groups|Not supported|
-|Related list conditions|Related list conditions do not apply with data snapshots|
+|Related list conditions|Related list conditions do not apply with Data snapshots|
 |Targets and Thresholds|Support only up to two filters.|
 |KPI Signals|Support only one filter.|
 |Indicator scorecard visualizations|Support only up to two filters.|
-|Scoresheets|Manual changes to scoresheets for indicators that are enabled for data snapshots have no effect.|
+|Scoresheets|Manual changes to scoresheets for indicators that are enabled for Data snapshots have no effect.|
 |String fields in indicator or source conditions|4000-character limit|
 
 **Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md)

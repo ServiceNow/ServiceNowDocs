@@ -1,18 +1,18 @@
 ---
 title: Import meter details from Urjanet
-description: Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the ESG Management application for reporting purposes. The details are imported in the form of entities.
+description: Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the Operational Sustainability Management application for reporting purposes. The details are imported in the form of entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/import-data-from-urjanet.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Urjanet, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Import meter details from Urjanet
 
-Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the ESG Management application for reporting purposes. The details are imported in the form of entities.
+Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the Operational Sustainability Management application for reporting purposes. The details are imported in the form of entities.
 
 ## Before you begin
 
@@ -37,5 +37,5 @@ The entities are created with the following details.
 -   Location: Service address of the Urjanet meter.
 -   Description: Provider of the Urjanet meter.
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 The **Command List** form contains all commands used in discovery by infrastructure or application type patterns.
 
-For information on viewing a list of commands used by a pattern, see [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/view-command-pattern-discovery.md).
+For information on viewing a list of commands used by a pattern, see [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/view-command-pattern-discovery.md)and [View Patterns commands through the Command List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/view-pattern-command-in-command-list.md).
 
 <table id="table_brg_3yh_fwb"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -78,7 +78,7 @@ Migrate the parent workflow and all dependent workflows to a new instance togeth
     **Note:** This action forces an entry into the current update set.
 
 3.  Complete the update set with all dependencies.
-4.  Follow standard procedures for migrating update sets to local instances. For information about update sets, see System update sets.
+4.  Follow standard procedures for migrating update sets to local instances. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets.md).
 
 Solution 2
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-product-info-csp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -42,11 +42,11 @@ If product catalog items have been set up in your instance, you can use the **Se
 
 1.  Navigate to the Customer Service homepage.
 
-2.  Click **Support** &gt; **Products** in the header menu.
+2.  Select **Support** &gt; **Products** in the header menu.
 
     The system displays a list of products or services sold to your account.
 
-3.  Click a product to view the details and any cases created on the product in the last 30 days.
+3.  Select a product to view the details and any cases created on the product in the last 30 days.
 
 4.  View all active contracts and entitlements for the sold product.
 
@@ -54,4 +54,11 @@ If product catalog items have been set up in your instance, you can use the **Se
 
 6.  View all catalog items associated to sold products and request additional services, as required.
 
+
+**Related topics**  
+
+
+[View asset information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ViewAssetAndProductInformation.md)
+
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateACaseFromCustPortal.md)
 

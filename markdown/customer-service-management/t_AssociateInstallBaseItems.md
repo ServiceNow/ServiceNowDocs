@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_AssociateInstallBaseItems.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using customer data models for B2B2C, Customer management, Use, Customer Service Management]
 ---
@@ -46,7 +46,7 @@ Add an existing consumer
 
 </td></tr><tr><td>
 
-Add a new consumer
+Add a consumer
 
 </td><td>
 

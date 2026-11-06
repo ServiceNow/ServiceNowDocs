@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Use recommended actions
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
 
 ## About this task
 
-**Note:** If there are any existing guided decisions, add those decisions within the HR case context in .
+**Note:** If there are any existing guided decisions, add those decisions within the [HR case context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.md) in [Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.md).
 
 ## Procedure
 
@@ -42,8 +42,8 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
     |**KB search**|Use the following options as needed: Attach and add link in comment, Read article, Attach and add link in email, Add link in worknote, and Copy link.|
     |**Suggested actions**|Use the Create an HR approval option to add an approval to the case as needed.|
 
-    \[Omitted image "image.recommendation-hrsd"\] Alt text: Recommendations panel showing similar cases, KB search results, and suggested actions for HR case
+    \[Omitted image "recommendation-hrsd.png"\] Alt text: Recommendations panel showing similar cases, KB search results, and suggested actions for HR case
 
-    \[Omitted image "image.rec-hr-case-approval"\] Alt text: Create HR approval dialog with approval details and assignment options
+    \[Omitted image "rec-hr-case-approval.png"\] Alt text: Create HR approval dialog with approval details and assignment options
 
 

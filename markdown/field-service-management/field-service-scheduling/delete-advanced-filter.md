@@ -1,20 +1,20 @@
 ---
 title: Delete an advanced filter
-description: You can delete an advanced filter in Dispatcher Workspace if you want to remove it after you create it.
+description: You can delete an advanced filter in Dispatcher Workspace to remove it after you create it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/delete-advanced-filter.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced Filtering, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Advanced Filtering, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Delete an advanced filter
 
-You can delete an advanced filter in Dispatcher Workspace if you want to remove it after you create it.
+You can delete an advanced filter in Dispatcher Workspace to remove it after you create it.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: wm\_dispatcher
 
 3.  Navigate to **Saved Filters** &gt; **Resource filters**.
 
-4.  Select the filter you want to delete.
+4.  Select the filter that you want to delete.
 
 5.  Select the ellipses icon \[Omitted image "three\_dot\_square.png"\] Alt text: three dot ellipses.
 

@@ -1,5 +1,5 @@
 ---
-title: Script execution and system log
+title: Script execution and system log for LogRhythm
 description: If you are troubleshooting an alarm ingestion issue, you can override the default five-minute polling interval to view results immediately. In this scenario, call the script execution manually to execute polling. This execution is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/script-execution-logrhythm.html
@@ -7,12 +7,12 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Troubleshoot, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Troubleshooting the LogRhythm integration, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Script execution and system log
+# Script execution and system log for LogRhythm
 
 If you are troubleshooting an alarm ingestion issue, you can override the default five-minute polling interval to view results immediately. In this scenario, call the script execution manually to execute polling. This execution is optional.
 

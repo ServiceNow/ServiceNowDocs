@@ -1,20 +1,20 @@
 ---
-title: Trusted Mobile App troubleshooting
-description: Review these troubleshooting scenarios to resolve issues with Trusted Mobile App.
+title: Trusted Mobile app troubleshooting
+description: Review these troubleshooting scenarios to resolve issues with Trusted Mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/troubleshooting-trusted-device.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adaptive Authentication for Trusted Mobile Apps, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Adaptive authentication for Trusted mobile apps, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Trusted Mobile App troubleshooting
+# Trusted Mobile app troubleshooting
 
-Review these troubleshooting scenarios to resolve issues with Trusted Mobile App.
+Review these troubleshooting scenarios to resolve issues with Trusted Mobile app.
 
 The following sections describe some troubleshooting scenarios and ways to troubleshoot.
 
@@ -24,7 +24,7 @@ If there is a clock-skew, you can adjust or reset the clock on your mobile devic
 
 ## QR code expiry within five minutes
 
-The QR code for Trusted device feature expires within five minutes. In such a case, you can click for a new QR code.
+The QR code for Trusted device feature expires within five minutes. In such a case, you can request a new QR code.
 
 **Note:** The QR code expiry can be extended. To extend the code expiry, contact your admin.
 

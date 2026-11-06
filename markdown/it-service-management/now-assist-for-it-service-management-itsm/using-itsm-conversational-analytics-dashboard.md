@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -49,4 +49,8 @@ The ITSM Virtual Agent analytics dashboard displays.
 \[Omitted image "now-assist-itsm-assistant-designer-analytics.png"\] Alt text: ITSM Virtual Agent analytics Assistant Designer
 
 </td></tr></tbody>
-</table>
+</table>-   **[ITSM Virtual Agent Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-va-analytics-reference.md)**  
+Reference information for scheduled jobs that collect ITSM Virtual Agent analytics data and scripts that configure topic clustering.
+
+**Parent Topic:**[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+

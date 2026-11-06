@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-tool-aia.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add tools and information to an AI agent
@@ -16,13 +16,13 @@ Add a tool to an AI agent to enable different functionalities and help your AI a
 
 ## Tool overview
 
-Tools provide your AI agents with the capabilities necessary to complete their tasks. When adding tools, consider how the AI agent uses them to achieve its objectives as well as how those tools interact with each other. Providing your AI agents with the appropriate tools help promote the robustness and quality of their performance.
+Tools provide your AI agents with the capabilities necessary to complete their tasks. When adding tools, consider how the AI agent uses them to achieve its objectives and how those tools interact with each other. Providing your AI agents with the appropriate tools help promote the robustness and quality of their performance.
 
 Some additional guidelines for adding and creating tools are the following:
 
 -   Design tools to work together. Your AI agent should solve a specific, discrete task, and the tools should give the AI agent the capabilities necessary to achieve its goal.
 -   Write detailed tool descriptions. Tool descriptions are used by the AI agent to determine a tool's function. Thorough descriptions about what the tools are and how they work give the AI agent the best chance to succeed.
--   Consider the outputs of tools when creating them. Use the tool description or output transformation strategy fields to describe how to process the tool outputs. For example, if you have a tool that gathers records from a large number of tables, provide the tool with plans for how to handle the large number of records.
+-   Consider the outputs of tools when creating them. Use the tool description or output transformation strategy fields to describe how to process the tool outputs. For example, if you have a tool that gathers records from many tables, provide the tool with plans for how to handle the large number of records.
 
 **Note:** If you select Google as your web search tool provider, the web search tool leverages [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding isn’t [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global datacenter for each web search request. This processing may be different than your data processing location chosen for your ServiceNow instance. Consider your organization's data policies before enabling AI agents that use Google web search tools.
 

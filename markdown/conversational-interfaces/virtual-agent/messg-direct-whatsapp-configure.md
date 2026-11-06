@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-01-09"
-reading_time_minutes: 1
-breadcrumb: [Conversational Integration with WhatsApp \(WhatsApp Cloud API\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
@@ -36,4 +36,19 @@ This task provides the general steps to integrate the WhatsApp messaging app wit
 
 5.  [Integrate WhatsApp with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-integrating-apps.md).
 
+
+-   **[Install Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-install.md)**  
+Install the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) so that your business can interact with requesters on the WhatsApp app. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+-   **[Set up Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-setup.md)**  
+Set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can engage requesters in bot conversations. Integrating with ServiceNowVirtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or live agent.
+-   **[Set the URL navigation for WhatsApp chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-urlnav.md)**  
+When agents share links in their WhatsApp chat conversations, customize the portal that those links point to. For example, you can configure links to point to your brand’s portal, or to the ServiceNow portal.
+-   **[Closing idle WhatsApp chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-open-conv.md)**  
+Enable agents to effectively manage their active WhatsApp chat conversations by automatically closing idle conversations after they’ve been inactive for a preconfigured amount of time.
+-   **[Integrating the WhatsApp messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-integrating-apps.md)**  
+Other ServiceNow applications and features can use the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application.
+-   **[Configure WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-whatsapp-cloud-api-provider-properties.md)**  
+You can customize the behavior of the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application by configuring its provider properties.
+
+**Parent Topic:**[Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp.md)
 

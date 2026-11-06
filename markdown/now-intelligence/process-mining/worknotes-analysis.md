@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Work notes analysis
@@ -18,13 +18,13 @@ Work notes analysis helps you understand the operational reasons behind activity
 
 To better understand the reasons behind a transition, work notes from both agents and requesters are analyzed. This involves extracting notes recorded immediately before and after the transition event. These notes are then grouped using clustering techniques to identify patterns and categorize similar records.
 
-There are two types of work notes analysis. You can do a clustering with or without the AI capability. For information on using work notes analysis with AI capability, see [Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md).
+There are two types of work notes analysis. You can do a clustering with or without AI. For information on using work notes analysis with AI, see [Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md).
 
 **Note:** Work notes analysis is available for a record count between 100 and 300,000.
 
-You can use the AI feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
+You can use the ServiceNow Otto feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
 
--   **[Configure worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-worknotes-analysis.md)**  
+-   **[Configure work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-worknotes-analysis.md)**  
 Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
 -   **[Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/perform-worknotes-analysis.md)**  
 Generate a work notes analysis on a transition.

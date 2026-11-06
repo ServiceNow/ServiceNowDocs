@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -34,15 +34,15 @@ The task must be in **Assigned** state for an agent to accept or reject the task
 
 3.  Accept or reject the task.
 
-<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d106435e116">
+<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d116673e116">
 
 To
 
-</th><th align="left" id="d106435e119">
+</th><th align="left" id="d116673e119">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d106435e125">
+</th></tr></thead><tbody><tr><td id="d116673e125">
 
 **Accept the task**
 
@@ -50,7 +50,7 @@ Do the following
 
 Click **Accept**. The work order task moves to **Accepted** state.
 
-</td></tr><tr><td id="d106435e140">
+</td></tr><tr><td id="d116673e140">
 
 **Reject the task.**
 

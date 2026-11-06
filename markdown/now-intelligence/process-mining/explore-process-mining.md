@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ Process Mining enables you to find answers to process improvement questions such
 -   What's the estimated cost and potential savings for each activity within a process?
 -   How much deviation is the business seeing in its process?
 
-\[Omitted image "process-optimization-explore-overview.gif"\] Alt text: Explore Process Mining - Overview
+\[Omitted video\] Description: Process Mining Overview
 
 As an analyst, you can:
 
@@ -37,10 +37,12 @@ As a process owner, you can:
 -   Get visibility into processes and start collaboration.​
 -   Assess process bottlenecks, find areas of weakness, and find potential areas to optimize.​
 
+-   **[Process Mining architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-architecture.md)**  
+Understand the basic attributes of the Process Mining architecture.
 -   **[Key features of Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/key-features.md)**  
 Some key features of Process Mining are listed in this topic.
--   **[Evaluating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/evaluate-pm.md)**  
-Evaluate Process Mining with some supported business processes.
+-   **[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/evaluate-pm.md)**  
+Process Mining offers four evaluation projects to help you understand the product functionality with your own data. The Process Mining plugin \(sn\_po\) is activated by default in all your production instances enabling you to use the evaluation projects.
 -   **[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyst-workbench-overview.md)**  
 See your business processes and workflows as visualizations from the Process Mining workspace.
 

@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [View package details in CAM Workspace, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [View package details in CAM Workspace, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Apply overlays to the baseline controls
@@ -18,13 +18,13 @@ You can include overlays to the baseline control objectives in the Authorization
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.information\_owner, sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.info\_system\_sec\_officer, sn\_irm\_cont\_auth.sec\_control\_assessor, sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.scheduler, sn\_irm\_cont\_auth.system\_user, sn\_irm\_cont\_auth.executive\_read, and sn\_irm\_cont\_auth.admin
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  To navigate to the Lists page, select the lists icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon\).
+2.  To navigate to the Lists page, select the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
 
 3.  From the Authorization packages in the RMF list, select an authorization package record.
 

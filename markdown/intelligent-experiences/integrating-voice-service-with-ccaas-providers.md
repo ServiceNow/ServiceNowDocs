@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/integrating-voice-service-with-ccaas-providers.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrating voice assistant with CCaaS provider
@@ -115,6 +115,8 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Five9 voice service.
 -   **[Integrate ServiceNow voice assistant with Nice CXone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/integrate-voice-service-with-nice.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Nice CXone.
+-   **[Integrate ServiceNow voice assistant with a custom SIP provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/integrate-voice-service-with-custom-sip.md)**  
+Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with a custom Session Initiation Protocol \(SIP\) provider.
 
 **Parent Topic:**[Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/deploy-ai-agents-for-voice.md)
 

@@ -1,12 +1,12 @@
 ---
-title: Zurich Service Management
+title: Brazil Service Management
 locale: en-US
 release: zurich
 bundle: sm4e
 doc_type: toc
 ---
 
-# Zurich Service Management
+# Brazil Service Management
 
 - [Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/c_ServiceManagement.md) -- Service Management (SM) refers to the ServiceNow service management applications you install, such as Facilities Service Management. Each of these applications allow you to manage business functions that require a request-type workflow where requests are approved, qualified, assigned, and completed.
   - [Activate Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/t_ActivateServiceManagement.md) -- The Service Management Core plugin is activated automatically when you activate any service management application.

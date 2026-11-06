@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/add-transient-attributes.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with attributes transiently, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Working with attributes transiently, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add transient attributes to a record
@@ -32,15 +32,15 @@ After creating a dynamic attribute store field on a table, you can immediately s
 
 3.  Add one or more attributes directly on the form using JSON or via the API.
 
-<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d83912e78">
+<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d87799e78">
 
 Option
 
-</th><th align="left" id="d83912e81">
+</th><th align="left" id="d87799e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d83912e87">
+</th></tr></thead><tbody><tr><td id="d87799e87">
 
 **Enter JSON on the form**
 
@@ -53,7 +53,7 @@ Description
 "screen_resolution":"2160p","screen_size":"75","screen_type":"OLED"
     ```
 
-</td></tr><tr><td id="d83912e107">
+</td></tr><tr><td id="d87799e107">
 
 **Call setValue\(\)**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/track-tasks-teams-wfo-cs.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Assigning work using Work Scheduler, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Assigning work using Work Scheduler, Workforce Optimization for Cus
 Plan your teams' work and assign work items such as incidents, problems, change requests, or interactions to them based on their skills, availability, and capacity. View your teams' shifts, events, and work assignments and assign or reassign the work items from a central location.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Note:** Your administrator must add sys ids for event categories that you want to display in the calendar to the **sn\_wfo\_work\_sched.shift\_data\_categories** system property. For more information, see [Work Scheduler components in Workforce Optimization for Customer Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/work-scheduler-wfo-cs-reference.md).
 
@@ -91,7 +95,7 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
 
     2.  Select an agent from the work scheduler calendar to whom you want to assign the task.
 
-    3.  Select and drag your mouse device for the time span on the calendar for which you want the agent to work on the task.
+    3.  Click and drag your mouse device for the time span on the calendar for which you want the agent to work on the task.
 
         The task is assigned to that agent. You can also edit the duration of the time span or drag the time span and reassign the task to another agent.
 

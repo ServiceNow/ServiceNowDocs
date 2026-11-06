@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ The system tracks workflows in update sets differently than other records becaus
 
 Changes made to a workflow version are not added to the update set until the [workflow is published](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/work-on-workflows.md), at which point the entire workflow is added into the update set. Update sets store workflows as a single Workflow \[wf\_workflow\] record and only retain the latest version with the update type of Workflow.
 
-For information about update sets, see System update sets.
+For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets.md).
 
 **Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Install a MID Server on Windows
@@ -25,7 +25,7 @@ Install MID Servers with the MID Server guided Windows installation package. The
 -   The MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1.
 -   Verify that the Microsoft Application Experience Lookup Service \(**AeLookupSvc**\) is enabled on the MID Server host. If you disable this service, the MID Server auto-upgrade might fail and cause the MID Server to go down. On Windows Server 2022 and later, Microsoft removed the standalone **AeLookupSvc** service and built application compatibility into the operating system. The related Application Experience tasks now run under **Task Scheduler** rather than through a dedicated service. For information on managing issues with the Application Experience service, see [KB0597552](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0597552).
 
-Java 17.0.12 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 17.0.12 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 17.0.12. If you are using a lower version than 17.0.10, you may see encryption related issues.
+Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
 **Note:** ServiceNow no longer supports new installations of 32-bit MID Servers or upgrades to version Rome. New MID Server installation are blocked through RPM and MSI installer on the following operating systems:
 
@@ -345,7 +345,11 @@ Role required: admin
 
 If you installed the MID Server using the native installer, you will not need to complete this procedure. However, to change the service user after the installation for any reason, use this procedure.
 
-Windows service credentials control the level of privilege on the device. The user should not be a local system or an administrator level account \(local admin, domain admin, etc.\) The service account provided should have the **log on as service** right, which is a requirement for an account to be used as the **log on user** for a service.
+Windows service credentials control the level of privilege on the device. The service account must meet the following requirements:
+
+-   The account cannot be a local system or an administrator-level account \(local admin, domain admin, and so on\).
+-   The account must have the **Log on as a service** right, which is required for an account to be used as the log on user for a service.
+-   The account must have the **Increase a process working set** privilege, which is required for the MID Server to manage its memory allocation.
 
 **Note:**
 
@@ -463,8 +467,6 @@ Install MID Servers with the ZIP file installation package and verify it is acti
 Role required: admin or mid\_server
 
 ### About this task
-
-Click this link to view the installation video:
 
 MID Servers can be configured to run using non-administrative accounts. Using non-admin accounts in conjunction with file permission enforcement can improve security by restricting access to MID Server files. sIf you choose to run a MID Server with a non-admin account, there are limitations that change the behavior of other applications. The following behavior changes can occur:
 

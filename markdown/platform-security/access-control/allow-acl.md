@@ -1,0 +1,20 @@
+---
+title: Allow ACL
+description: Learn about Allow ACLs \(access control lists\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/allow-acl.html
+release: zurich
+product: Access Control
+classification: access-control
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure an ACL, Access Control Lists \(ACLs\), Access Management]
+---
+
+# Allow ACL
+
+Learn about Allow ACLs \(access control lists\).
+
+Allow ACLs are designed to grant access to resources by default unless a specific rule denies it. This is the opposite of a "Deny-Unless" model.
+

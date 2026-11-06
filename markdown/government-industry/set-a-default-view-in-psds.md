@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/set-a-default-view-in-psds.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optional configuration steps, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

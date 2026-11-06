@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [My Demands widget, Employee Work, demand tracking, Demand Management]
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]

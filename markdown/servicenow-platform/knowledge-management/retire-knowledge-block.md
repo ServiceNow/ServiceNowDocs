@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a knowledge block, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: user must have contributor access to the knowledge base.
 
     **Note:**
 
-    -   Starting from the Zurich release, you can retire the knowledge block attached to an article by setting the \(**glide.knowman.allow\_retire\_block**\) system property to true.
+    -   Starting from the Brazil release, you can retire the knowledge block attached to an article by setting the \(**glide.knowman.allow\_retire\_block**\) system property to true.
     -   Any additional steps required to retire the knowledge block, such as approvals, depend on the workflow for the knowledge base. See [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for more information.
     -   A knowledge block can only be deleted if it's not being used in any knowledge article, including any retired article or previous version of an article.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-base-existing-cases.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a case for a new install base item, Case form, Customer Service forms, Reference, Customer Service Management]
+breadcrumb: [Create a case for install base items, Case form, Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Migrating the install base information for existing cases
@@ -21,5 +21,5 @@ var installBaseMigrationUtil = new sn_install_base.InstallBaseMigrationUtils();â
 installBaseMigrationUtil.populateInstallBaseOnCases(); 
 ```
 
-The migration script populates cases with the install base information, only if the case is associated with the install base item. To associate a case to an install base item, see [Associate multiple Install base items to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-multiple-install-base-items-case.md).
+The migration script populates cases with the install base information, only if the case is associated with the install base item. To associate a case to an install base item, see [Associate multiple install base items to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-multiple-install-base-items-case.md).
 

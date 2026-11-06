@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/build-workflows.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 ---
 
@@ -27,11 +27,11 @@ Increase the impact of your cross‑enterprise workflows by automating manual pr
 
 </td><td>
 
-[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
+[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 
 </td></tr><tr><td>
 
-[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-ui.md)
+[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 
 </td><td>
 
@@ -78,7 +78,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them. You can replace classic approvals with Workflow Studio flows or classic workflows.
 
--   **Classic Business Rules**
+-   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md)**
 
     A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried. You can replace classic business rules with Workflow Studio flows.
 
@@ -99,7 +99,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)**
 
-    Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
+    Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 
 -   **[Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)**
 
@@ -113,7 +113,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Workflow Studio decision tables enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
--   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-ui.md)**
+-   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)**
 
     Interact with a business workflow in real time from within Workspace. Agents can use Playbook to update records, upload attachments, and complete tasks across multiple workflow activities.
 
@@ -125,7 +125,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them.
 
--   **Classic Business Rules**
+-   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md)**
 
     A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried.
 
@@ -140,23 +140,20 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 ## Related ServiceNow applications and features
 
--   **App Engine Studio**
+-   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-overview.md)**
 
     ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
 
--   ****
+-   **[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-overview.md)**
 
     Work with remote tables in the ERP system of record, such as SAP, as well as APIs and ETLs, to create ERP data models to use as data sources for ServiceNow AI Platform applications.
 
--   **ERP Customization Mining**
-
-    Identify ERP customization apps that are candidates to migrate to the ServiceNow AI Platform. Use the ServiceNow AI Platform to build applications and features to automate ERP processes and workflows.
-
--   **Integration Hub**
+-   **[ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-customization-mining-overview.md)**
+-   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md)**
 
     Automate integration tasks using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
 
--   **Integration Hub available spokes**
+-   **[Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/spokes-list.md)**
 
     Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
 
@@ -164,11 +161,11 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
 
--   **Robotic Process Automation \(RPA\) Hub**
+-   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-explore.md)**
 
     Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
--   **Virtual Agent Designer**
+-   **[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)**
 
     The Assistant Designer Asset library includes a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 

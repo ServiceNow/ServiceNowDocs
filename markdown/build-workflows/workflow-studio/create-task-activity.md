@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Playbooks reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create Task activity
@@ -246,6 +246,4 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Table|Table Name|Table containing new record.|
 |Record|Reference.Task\[task\]|Reference to record created.|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

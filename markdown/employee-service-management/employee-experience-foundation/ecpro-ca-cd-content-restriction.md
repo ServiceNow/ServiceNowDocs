@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-10-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Content Ownership, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Content Ownership, Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Assign ownership of content
@@ -32,7 +32,7 @@ Alternatively, use a content item as a template that can be repeatedly cloned an
 
 1.  Navigate to **All** &gt; **Content Publishing** &gt; **Content Library** &gt; **View All**.
 
-2.  Select content.
+2.  Select a topic.
 
 3.  From the top-left menu \(\[Omitted image "menu-outline-24.svg"\] Alt text: Menu icon\), select **View content record**.
 

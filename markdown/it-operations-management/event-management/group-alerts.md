@@ -49,7 +49,7 @@ Alert grouping rules automatically combine related alerts that represent the sam
 
     \[Omitted image "ai-specialist-group-now-assist-chatbot.png"\] Alt text: ServiceNow Otto chatbot to help you automatically create a group automation.
 
-    For more information on group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+    For more information on group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/group-alert-sow-itom.md).
 
 5.  To complete the setup, select **Mark as configured**.
 

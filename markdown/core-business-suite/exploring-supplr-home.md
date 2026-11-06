@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/exploring-supplr-home.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [Core Business Suite]
@@ -37,7 +37,7 @@ CBS admin\[sn\_cbs.admin\]
 
 </td><td>
 
-Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.
+Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.**Note:** CBS admins require the sn\_ia\_config.ia\_admin role for the overall permission to configure and manage the application.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Manually assigned to users by the admin who has access to the Supplier Collabora
 
 To learn more about configuring and using Core Business Suite, see:
 
--   [Configuring Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-configure.md)
+-   
 -   [Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-using-parent.md)
 -   [Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-reference-parent.md)
 

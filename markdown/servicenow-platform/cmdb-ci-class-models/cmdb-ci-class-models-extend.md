@@ -1,26 +1,26 @@
 ---
 title: Extend classes and rules for third-party integrations
-description: Extend and update CMDB CI Class Models store app classes and rules when using third-party integration tools.
+description: Extend and update CMDB CI Class Models app classes and rules when using third-party integration tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-extend.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Extend classes and rules for third-party integrations
 
-Extend and update CMDB CI Class Models store app classes and rules when using third-party integration tools.
+Extend and update CMDB CI Class Models app classes and rules when using third-party integration tools.
 
 When using a third-party tool to integrate with ServiceNow apps, gaps can occur between the integration and different CIs. Some of the integrated tables and classes may be missing classes and rules that are not included with the CMDB CI Class Models store app.
 
-See the CMDB CI Class Models release notes.
+See the release notes for all CMDB CI class models.
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. The classes and rules in the following table enable you to add and extend the CMDB CI Class Models store app for integrations.
+This section lists the classes that the CMDB CI Class Models app adds or updates. The classes and rules in the following table enable you to add and extend the CMDB CI Class Models store app for integrations.
 
 <table id="table_usq_ttl_fnb"><thead><tr><th>
 

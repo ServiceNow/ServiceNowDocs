@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/now-mobile-app.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Exploring the Mobile Platform, Mobile Platform]
 ---
@@ -80,7 +80,7 @@ Use the **Settings** to set preferences and review information about the app. Th
         -   Use the **Notifications** section to enabled or disable notifications from the app.
         -   Use the **Security** section to create or change the PIN to access the app. If allowed by your administrator, you can also allow the app to be unlocked with your device's biometric sensors.
         -   Use the **Theme** option to enable the dark theme or the default theme on your mobile app.
-        -   Use the **Analytics** section to enabled or disable analytics from the app. Enabling this option allows analytics tracking of your user journey. For more details, see [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-landing.md).
+        -   Use the **Analytics** section to enabled or disable analytics from the app. Enabling this option allows analytics tracking of your user journey. For more details, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/user-exp-analytics-landing.md).
     -   Use the **Legal** section review ServiceNow's privacy policy, open-source disclosure, and end user license agreement.
     -   Use the Give feedback option to provide feedback on your ServiceNow mobile app experience.
 For more details on setting in your mobile apps, see [Mobile app settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/manager-user-settings.md).

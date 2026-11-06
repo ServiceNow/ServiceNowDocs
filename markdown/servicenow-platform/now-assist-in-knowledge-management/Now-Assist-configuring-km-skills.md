@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Before configuring the KB generation skill, the following applications and their
 
 -   Install the latest ServiceNow Otto for Knowledge Management and Knowledge Capabilities in UI Builder store apps before completing the following configuration steps.
 
--   For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+-   For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     **Note:** To access knowledge articles created with TinyMCE, enable the KB generation skill. See [Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, activate the knowledge content recommendation skill. See [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 

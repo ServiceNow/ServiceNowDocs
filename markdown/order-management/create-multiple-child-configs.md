@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-multiple-child-configs.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create multiple configurations
@@ -20,7 +20,7 @@ Role required:sales\_agent or sn\_ind\_tmt\_orm.order\_agent
 
 ## About this task
 
-If your product catalog admin has enabled multiple configurations for child offerings in a bundled product, you can create multiple child offering configurations for selected child offerings using the legacy product configurator. When creating multiple configurations of child offering, you can do the following:
+If your product catalog admin has enabled multiple configurations for child offerings in a bundled product, you can create multiple child offering configurations for selected child offerings using the product configurator. When creating multiple configurations of child offering, you can do the following:
 
 -   Change the quantity of a child offering that can have multiple configurations.
 -   Clone a child offering or split a child offering that has a quantity greater than 1.
@@ -47,7 +47,7 @@ If your product catalog admin has enabled multiple configurations for child offe
 
 5.  Select the configurable product by choosing **Customize** in the appropriate product offering card.
 
-    The product configurator displays the product offering configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations are identified by Information icons. Select the Information icon to view a message indicating that the offering can have multiple configurations and that the offering quantity shown is aggregated across the configurations.
+    The product configurator displays the product offering configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations are identified by information \[Omitted image "icon-more-info.png"\] Alt text: icons. Select the information icon to view a message indicating that the offering can have multiple configurations and that the offering quantity shown is aggregated across the configurations.
 
     \[Omitted image "multi-config-msg-order.png"\] Alt text: Information message displayed for a child offering in a configurable product. The message indicates that multiple configurations can be created for the offering.
 
@@ -102,5 +102,5 @@ Removes an existing child offering instance.
 8.  When you finish configuring the child offerings, select **Add** to add each configuration as a separate line item to your opportunity, quote, or order.
 
 
-**Parent Topic:**[Using the legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-som-product-configurator.md)
+**Parent Topic:**[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-som-product-configurator.md)
 

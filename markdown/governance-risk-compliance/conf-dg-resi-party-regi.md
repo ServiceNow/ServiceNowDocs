@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/conf-dg-resi-party-regi.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ The following applications are used in the background for the Digital resilience
 -   Digital Operational Resilience Management: This application is used for uploading and downloading of all individual DORA tables. It is automatically installed when the Digital Resilience Third-party Information Register is activated.
 
 -   **[Creating and reviewing the records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/order-for-creating-records.md)**  
-The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. For best results, it is important to create or update the records such as legal entities, branches, functions, contracts, and so on in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
+The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. Create or update records such as legal entities, branches, functions, and contracts in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
 -   **[Create records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-records-in-bulk.md)**  
 Create records in bulk from the Digital resilience third-party registers rather than creating one record at a time for single or multiple entities. You can save time and effort by working on multiple records at a time.
 -   **[Update existing records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-existing-records-in-bulk.md)**  

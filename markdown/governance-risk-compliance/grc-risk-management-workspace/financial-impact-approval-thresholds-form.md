@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Define a threshold amount for the risk event response template, Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---

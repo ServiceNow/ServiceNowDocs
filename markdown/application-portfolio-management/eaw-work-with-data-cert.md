@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-data-cert.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-22"
-reading_time_minutes: 1
-breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with data certification
@@ -18,31 +18,35 @@ In the Enterprise Architecture Workspace, enterprise architects can manage certi
 
 ## Action and required role mapping for certification policies in the Enterprise Architecture Workspace
 
-|Action|System admin|cmdb admin + analyst|com.snc\_apm\_analyst|
-|------|------------|--------------------|---------------------|
-|View list of policies|Yes|Yes|Yes|
-|View track progress|Yes|Yes|Yes|
-|View policy by clicking a link to the policy|Yes|Yes|No|
-|Create policy|Yes|Yes|No|
-|Edit policy|Yes|Yes|No|
-|Delete policy|Yes|Yes|Yes|
-|Activate policy|Yes|Yes|Yes|
-|Deactivate policy|Yes|Yes|Yes|
-|Run certification|Yes|Yes|Yes|
-|Complete certification through Track progress page|Yes|Yes|No|
+|Action||cmdb admin + sn\_apm.apm\_analyst|sn\_apm.apm\_analyst|
+|------|---|---------------------------------|--------------------|
+|View list of policies||Yes|Yes|
+|View track progress||Yes|Yes|
+|View policy by clicking a link to the policy||Yes|No|
+|Create policy||Yes|No|
+|Edit policy||Yes|No|
+|Delete policy||Yes|Yes|
+|Activate policy||Yes|Yes|
+|Deactivate policy||Yes|Yes|
+|Run certification||Yes|Yes|
+|Complete certification through Track progress page||Yes|No|
 
 -   **[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-policy.md)**  
 Creating a data certification policy serves as a governance mechanism to ensure that the data used in enterprise architecture models and visualizations is accurate, complete, and trustworthy.
 -   **[Edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-edit-policy.md)**  
-Update an certification existing policy details. You can edit the draft or inactive certification policies.
+Update an existing certification policy details.
 -   **[View certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-view-policy.md)**  
 View details of a published policy.
 -   **[Publish a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-publish-policy.md)**  
 Publish a draft policy to activate it and enable certifications to be issued under that policy.
 -   **[Run certification for a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-run-certification.md)**  
 Run certification for published policies to generate a new certification instance for an active policy.
+-   **[Data certification task notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-notification.md)**  
+When a data certification policy runs in the Enterprise Architecture Workspace, the system automatically sends email notifications to task assignees as due dates approach. This notification behavior is provided by the CMDB Data Manager and does not require additional configuration in the Enterprise Architecture Workspace.
 -   **[Track progress of a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-track-progress.md)**  
 Monitor and review the certification policy status to track completion progress and view details such as total tasks, completed tasks, open tasks, and unassigned tasks.
+-   **[Review and certify data certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-approve-data-cert-tasks.md)**  
+You can review and complete data certification tasks to confirm that records meet the standards defined in a certification policy. Certification tasks are generated when a policy is run and are assigned based on the policy's assignment configuration.
 -   **[Activate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-activate.md)**  
 Activate a certification policy to add it to the active certification runs. This process ensures that the policy is active and can be used for certifications.
 -   **[Deactivate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-cert-deactivate.md)**  

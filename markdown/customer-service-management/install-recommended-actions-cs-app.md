@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-recommended-actions-cs-app.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ You can install the Recommended Actions application \(sn\_cs\_nb\_action\) if yo
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Recommended Actions](https://store.servicenow.com/sn_appstore_store.do#!/store/application/427fe83177221010d7159b71a91061e1/28.0.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Drecommended%2520actions&sl=sh) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -30,6 +30,8 @@ The following items are installed with Recommended Actions:
 -   Tables
 
 For more information, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-installed-components.md).
+
+To create recommendations based on Artificial Intelligence and Machine Learning models developed using ServiceNow® Predictive Intelligence, install Recommended Actions - Advanced.
 
 ## Procedure
 

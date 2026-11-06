@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Procurement purchase order management for assets, Procurement, IT Asset Management]
+breadcrumb: [Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---
 
 # View and edit a catalog task

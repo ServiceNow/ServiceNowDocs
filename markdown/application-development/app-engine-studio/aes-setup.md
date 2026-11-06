@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring App Engine Studio and related apps

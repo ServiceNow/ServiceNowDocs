@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Indexing content from indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Indexing content from indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Perform a full table index or reindex for multiple AI Search indexed sources

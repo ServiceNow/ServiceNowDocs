@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector check definition page
@@ -87,6 +87,14 @@ Command
 
     -   Simple template: `{{.labels.params_field_name}}`: Takes values from entries in the **Parameters** tab. For example, a string of `{{.labels.params_warning}}` means that the value of the **warning** parameter is used \(provided it has been configured on the **Parameters** tab\).
     -   Monitored CI: `{{.labels.params_ci_field_name}}`: Takes values automatically from the monitored CI, where `field_name` is replaced with the exact name of the required field in the CI table.
+
+</td></tr><tr><td>
+
+Configuration Data Files
+
+</td><td>
+
+Select the configuration data files to be downloaded when the check runs.
 
 </td></tr><tr><td>
 
@@ -206,6 +214,26 @@ Plugins
 </td><td>
 
 Select the plugins to be associated with the check. Once this is done, the plugins download before the check executes.
+
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Advanced Check Configuration
+
+</td></tr><tr><td>
+
+Run check in the background
+
+</td><td>
+
+Select the checkbox for the check to run in the background, without the agent waiting for the check's process to finish.
+
+</td></tr><tr><td>
+
+Disable Token replacement
+
+</td><td>
+
+Select to disable token replacement if the command contains tokens designated within \{\{ \}\} that should pass through as command parameters.
 
 </td></tr></tbody>
 </table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  

@@ -1,27 +1,27 @@
 ---
-title: Manually create and review your network asset instances
-description: A key function that you can perform in the network inventory workspace is to manually create your network assets. You can also build a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
+title: Manually creating and reviewing your network asset instances
+description: A key function in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
-# Manually create and review your network asset instances
+# Manually creating and reviewing your network asset instances
 
-A key function that you can perform in the network inventory workspace is to manually create your network assets. You can also build a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
+A key function in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
 
-To manually create and review your individual network inventory records, access the appropriate forms from the workspace landing page. For example, you can select the **Interface cards** count in the Network entities by categories widget on the Network Inventory Workspace landing page to create an interface card instance.
+To manually create and to review your individual network inventory records, access the appropriate forms from the workspace landing page. You can also define the relationships between each asset from there. For example, you can select the **Interface cards** count in the Network entities by categories widget on the Network Inventory Workspace landing page to create an interface card instance.
 
 **Note:** As an alternative to manually creating individual network asset instances, you can instead use a more automated, and potentially less labor-intensive method to do so. To learn more, see the following:
 
 -   [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
--   [Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
+-   [Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 -   [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 -   [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 -   [Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
@@ -30,9 +30,9 @@ To manually create and review your individual network inventory records, access 
 
 To manually create a comprehensive digital model of your telecommunications network, access the following forms from the Network Inventory Workspace landing page and the Lists view. To learn more, see [Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
 
-1.  In the Network Site or Data Center form, create the site records for the individual locations that house your network equipment. To learn more about network site, see [7176d9244e4c99a58be815bfcc9221b388f9fe35.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
-2.  In the Telco Equipment form, create the individual network asset instances for your telecommunications equipment. To learn more, see [7caa6327c2947bf4e3fc7e6fbe4cac73b55e16d5.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
-3.  In the Equipment Holder form, create the individual network asset instances for your equipment holders. To learn more, see [ef50e6a82895815b2866410c0972666bc0a3bad3.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
+1.  In the Network Site or Data Center form, create the site records for the individual locations that house your network equipment. To learn more about network site, see [3d2dc458bf22efbd7c1c286263fac682f2fa02b4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
+2.  In the Telco Equipment form, create the individual network asset instances for your telecommunications equipment. To learn more, see [7a0aa4debbdbeebbcfbf23ab94704afff3cba5aa.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
+3.  In the Equipment Holder form, create the individual network asset instances for your equipment holders. To learn more, see [97cbb0ebaaf9181e528f50a636a270ad5566c3e1.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
 4.  In the Interface Cards form, create the individual network asset instances for your interface cards. To learn more, see [Define the card details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-interface-cards.md).
 5.  In the Network Interface form, create the individual network asset instances for your network interfaces. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
 6.  In the Physical connection form, create the individual network asset instances for each physical or wired connection. To learn more, see [Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md).

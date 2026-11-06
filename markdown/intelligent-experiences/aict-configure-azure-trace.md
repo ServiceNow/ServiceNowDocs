@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-configure-azure-trace.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an Azure trace connection
@@ -41,15 +41,15 @@ Role required: sn\_ai\_governance.ai\_steward
     -   **Application Insights** — collects traces from Azure Monitor Application Insights.
 4.  Fill in the credentials for the source system you selected.
 
-<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d233907e175">
+<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d325572e175">
 
 Source system
 
-</th><th align="left" id="d233907e178">
+</th><th align="left" id="d325572e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d233907e184">
+</th></tr></thead><tbody><tr><td id="d325572e184">
 
 **Classic Foundry**
 
@@ -72,7 +72,7 @@ The MID Server must be active and validated. Select **Go to Mid server installat
 6.  Select **Active** to begin collecting traces when you save. Clear this option to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d233907e236">
+</td></tr><tr><td id="d325572e236">
 
 **New Foundry**
 
@@ -99,7 +99,7 @@ The default is 30. Set a lower value to return results sooner or set a higher va
 7.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d233907e296">
+</td></tr><tr><td id="d325572e296">
 
 **Application Insights**
 

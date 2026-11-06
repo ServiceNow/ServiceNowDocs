@@ -7,7 +7,7 @@ release: zurich
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [sidebar, Virtual Agent, activity stream, Polaris, Core UI, discussion, tile]
 breadcrumb: [Exploring Sidebar, Sidebar, Conversational Interfaces]
@@ -22,6 +22,10 @@ If Sidebar is integrated with the activity stream, you can create links to discu
 When a Sidebar discussion is created, a corresponding Sidebar discussion tile is automatically added to the activity stream. Users who have access to the record can also access the discussion from the activity stream. Sidebar users can post messages from discussions into the activity stream as Sidebar posted messages. These messages can be posted to the activity stream as editable entries that can be added and removed as necessary. For generalized information about activity streams, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_activity-streams.md).
 
 When you start a Sidebar discussion, a tile corresponding to the discussion is automatically added to the activity stream.
+
+\[Omitted image "sidebar-activity-stream-example-1.png"\] Alt text: Sidebar tile, indicated by an arrow, within the activity stream.
+
+\[Omitted image "sidebar-activity-stream-tile-example.png"\] Alt text: Sidebar tile
 
 | | |
 |---|---|

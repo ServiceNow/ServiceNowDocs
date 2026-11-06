@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/manage-touchpoints-opportunity.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Manage touchpoints on an opportunity
@@ -45,15 +45,12 @@ The **Touchpoints** tab on an opportunity record displays all touchpoints associ
 
 Changes are saved to the opportunity. The Touchpoints tab reflects the current state of all linked touchpoints.
 
--   **[Create a touchpoint from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-touchpoint-opportunity.md)**  
-Create a touchpoint to log a customer interaction directly from an opportunity record.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 
 [Schedule a meeting from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/schedule-meeting-opportunity.md)
 
-[manage-touchpoints-lead]
+[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/manage-touchpoints-lead.md)
+
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-crm-touchpoints.md)
 

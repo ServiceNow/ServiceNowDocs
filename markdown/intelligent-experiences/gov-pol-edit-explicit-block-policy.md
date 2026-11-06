@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-25"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, edit]
-breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit an Explicit Block policy
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-Narrow or widen an existing block by editing the policy instead of replacing it. Editing keeps the same policy record, along with its enforcement history. The policy type is read only. To use a different policy type, create a new policy instead.
+Narrow or widen an existing block by editing the policy instead of replacing it. Editing keeps the same policy record, along with its enforcement history.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Narrow or widen an existing block by editing the policy instead of replacing it.
 
     Change the type between **User** and **Department**, remove a selection, or search for another one. Leave the search field empty to apply the block to everyone.
 
-6.  In the Block section, update what they're blocked from using.
+6.  In the Block section, update what they are blocked from using.
 
     For an AI agent, adjust the field, operator, or value of each condition, or add and remove conditions. For a model or a domain, update the comma-separated list.
 
@@ -52,7 +52,7 @@ The policy takes effect with your changes at every enforcement point it applies 
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
 To try a variant of a policy without changing what's already published, clone it instead of editing it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-clone-policy.md).
 

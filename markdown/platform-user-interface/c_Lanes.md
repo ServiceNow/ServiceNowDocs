@@ -1,18 +1,18 @@
 ---
 title: Lanes, markers, and panels
-description: Lanes, markers, and panels are the fundamental elements of a timeline visualization. appear in the 3D view only.
+description: Lanes, markers, and panels are the fundamental elements of a timeline visualization appear in the 3D view only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/c\_Lanes.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Timeline Visualization, Timeline Visualizations, Personalize your experience, Configure user experiences]
 ---
 
 # Lanes, markers, and panels
 
-Lanes, markers, and panels are the fundamental elements of a timeline visualization. appear in the 3D view only.
+Lanes, markers, and panels are the fundamental elements of a timeline visualization appear in the 3D view only.
 
 **Note:** Lanes and markers are available in the 3D view only. A panel in the 2D view always represents a single record, while panels in 3D view may represent one or more records.
 
@@ -27,6 +27,8 @@ A lane is a channel in which activities are grouped. A visualization can display
 Markers are horizontal lines that cross all lanes and identify a transition to the next month.
 
 ## Panels
+
+Panels in both 2D and 3D views are color coded according to values that the administrator selects during the initial setup.
 
 In 2D view, panels are grouped by month and stacked in chronological order, from the earliest date to the latest date. By default, the 2D view opens with the current month displayed on the left side of the visualization. You can print visualizations from the 2D view using the browser's print option. In 3D view, panels are grouped in lanes and ordered by date, from earliest to latest. The date that appears on the panel determines its placement in 2D and 3D view. The date displayed is based on a value the timeline administrator selects during initial setup.
 

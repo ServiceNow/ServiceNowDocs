@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Generative AI skills, Explore, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)

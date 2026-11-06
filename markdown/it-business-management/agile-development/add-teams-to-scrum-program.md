@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Assign teams to a scrum program
@@ -40,4 +40,6 @@ Role required: it\_program\_manager
 ## What to do next
 
 [Plan a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/plan-scrum-program.md).
+
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/scrum-programs-concept.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Implement, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Determine control effectiveness of a control test
@@ -42,12 +42,12 @@ Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_syst
 
 
 
-    The values of the operating effectiveness of a control test are:
+    The operating effectiveness of a control test have the following values:
 
     -   None
     -   Ineffective
     -   Effective
-    The values of the objective effectiveness of an assessment objective are:
+    The objective effectiveness of an assessment objective have the following values:
 
     -   None: Indicates that the assessment procedure hasn’t been analyzed or assessed yet.
     -   Effective

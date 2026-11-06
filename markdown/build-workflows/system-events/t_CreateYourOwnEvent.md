@@ -7,8 +7,8 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Managing system events, System Events, Build workflows]
 ---
 
@@ -60,7 +60,7 @@ Queue
 
 </td><td>
 
-Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See .
+Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/useful-server-side-scripts.md).
 
 </td></tr><tr><td>
 
@@ -233,6 +233,8 @@ Add custom script that:
 ## What to do next
 
 Create a script action or notification to process the event.
+
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/system-events/managing-system-events.md)
 
 **Related topics**  
 

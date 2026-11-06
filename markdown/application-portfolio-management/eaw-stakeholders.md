@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-stakeholders.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [stakeholder, driver, goal, Enterprise Architecture Workspace, enterprise architecture, influence level, interest level]
-breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring stakeholders

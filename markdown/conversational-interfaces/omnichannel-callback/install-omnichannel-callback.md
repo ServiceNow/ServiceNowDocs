@@ -7,9 +7,9 @@ release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Omnichannel Callback, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Install Omnichannel Callback
@@ -18,7 +18,7 @@ You can install the Omnichannel Callback application \(sn\_omni\_callback\) if y
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Omnichannel Callback](https://store.servicenow.com/sn_appstore_store.do#!/store/application/aeaed24c87478510b4eb52093cbb3563/1.5.2?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3Domnichannel%2520callback&sl=sh) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

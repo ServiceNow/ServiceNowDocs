@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/fields\_101.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure fields
@@ -84,5 +84,5 @@ The following blueprint includes all the different field options and display var
 
 [Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
 
-[Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/boundaries-and-limits.md)
+[Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

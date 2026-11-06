@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # AES user interface
@@ -68,7 +68,7 @@ Some objects require access depending on your role. You can request access by se
 
 View general settings of your application such as the name, description, and logo. You can also open your application in ServiceNow Studio or delete your application.
 
-\[Omitted image "aes-app-properties-purple.png"\] Alt text:
+\[Omitted image "aes-app-properties-purple.png"\] Alt text: View and update the application settings.
 
 ## Repository configuration
 

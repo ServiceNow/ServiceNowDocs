@@ -1,21 +1,21 @@
 ---
 title: Consuming data export results
-description: Consume the results of usage data exported via REST API, from the Kafka topic.
+description: Consume the results of usage insights data exported via REST API, from the Kafka topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/usage-insights/consuming-data-export-results.html
 release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Consume data export results]
-breadcrumb: [Bulk export of Usage Insights data via REST API, Use, Usage Insights, Platform Analytics]
+breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Consuming data export results
 
-Consume the results of usage data exported via REST API, from the Kafka topic.
+Consume the results of usage insights data exported via REST API, from the Kafka topic.
 
 ## Before you begin
 

@@ -1,20 +1,20 @@
 ---
-title: ESG content accelerator
-description: The ESG content accelerator application is a centralized repository of frameworks, citations, metric definitions, and emission factors. Using this application accelerates the adoption of operational sustainability frameworks.
+title: Unified content management
+description: The Unified content management application is a centralized repository of frameworks, citations, metric definitions, and emission factors. Using this application accelerates the adoption of operational sustainability frameworks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/esg-content-accelerator.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# ESG content accelerator
+# Unified content management
 
-The ESG content accelerator application is a centralized repository of frameworks, citations, metric definitions, and emission factors. Using this application accelerates the adoption of operational sustainability frameworks.
+The Unified content management application is a centralized repository of frameworks, citations, metric definitions, and emission factors. Using this application accelerates the adoption of operational sustainability frameworks.
 
-You can install ESG content accelerator from the ServiceNow Store. After installation, you can launch the application by selecting the ESG content accelerator icon \(\[Omitted image "esg-content-accelerator.jpg"\] Alt text: Unified content management icon.\).
+You can install Unified content management from the ServiceNow Store. After installation, you can launch the application by selecting the Unified content management icon \(\[Omitted image "esg-content-accelerator.jpg"\] Alt text: Unified content management icon.\).
 
 ## Frameworks and regulations
 
@@ -33,22 +33,22 @@ The application contains the following frameworks and regulations.
 
 ## Emission factors
 
-An emission factor is a coefficient that quantifies the emissions released per unit of activity or output. It is used extensively in environmental science, engineering, and regulatory contexts to estimate the amount of pollutants or greenhouse gases emitted into the atmosphere from various sources. The ESG content accelerator also contains several emission factors. For more information on emission factors, refer to [Emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/emission-factor-library.md).
+An emission factor is a coefficient that quantifies the emissions released per unit of activity or output. It is used extensively in environmental science, engineering, and regulatory contexts to estimate the amount of pollutants or greenhouse gases emitted into the atmosphere from various sources. The Unified content management also contains several emission factors. For more information on emission factors, refer to [Emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/emission-factor-library.md).
 
-Emission factors are sourced from certain standard content providers. These content providers publish the emission factors for a variety of industries and geographies. As an ESG administrator, while you can create your own [emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-emission-factor.md) to calculate your emissions, you can also use the emission factors provided through the ESG content accelerator application. Using the emission factors through the ESG content accelerator application saves your time and effort. The following emission factors are provided by this application.
+Emission factors are sourced from certain standard content providers. These content providers publish the emission factors for a variety of industries and geographies. As an ESG administrator, while you can create your own [emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-emission-factor.md) to calculate your emissions, you can also use the emission factors provided through the Unified content management application. Using the emission factors through the Unified content management application saves your time and effort. The following emission factors are provided by this application.
 
 -   eGRID
 -   GHG Emission Factors by US EPA
 -   UK GHG factors \(From DEFRA and DESNZ\)
 -   US Environmentally-Extended Input-Output \(USEEIO\)
 
-You can activate or update the ones that meet your requirement. Whenever there is a latest version of the emission factors available, you can update it using the ESG content accelerator application.
+You can activate or update the ones that meet your requirement. Whenever there is a latest version of the emission factors available, you can update it using the Unified content management application.
 
 **Note:** Selecting the information icon on any tile displays the description of the framework or the emission factor.
 
-## Benefits of the ESG content accelerator application
+## Benefits of the Unified content management application
 
-The following are the benefits of the ESG content accelerator application:
+The following are the benefits of the Unified content management application:
 
 -   Provides the ability to choose the framework you want to use.
 -   Facilitates the alignment of the metric definitions with the relevant citations from different frameworks. This helps achieve interoperability between citations of different frameworks and ensures consistent reporting of operational sustainability performance across various standards and regulations.
@@ -58,13 +58,13 @@ The following are the benefits of the ESG content accelerator application:
 -   Enables the users to edit the metric definitions.
 -   Aims to integrate updates as they become available and are listed in the versions under the respective frameworks and regulations.
 
-## Workflow of the ESG content accelerator application
+## Workflow of the Unified content management application
 
-The following figure displays the life cycle of the ESG content accelerator application.
+The following figure displays the life cycle of the Unified content management application.
 
 \[Omitted image "esg-unified-content-management.png"\] Alt text: Workflow of how the Unified content management application works.
 
-For more information see, [Activate or update a framework and install citations using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.md).
+For more information see, [Activate or update a framework and install citations using the Unified content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.md).
 
 **Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-new-explore.md)
 

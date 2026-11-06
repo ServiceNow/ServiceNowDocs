@@ -1,20 +1,20 @@
 ---
-title: Manually normalize a software model in workspace
-description: You can manually normalize a software discovery model that has not been fully normalized \(partially normalized, publisher normalized, or match not found\) in order to reconcile it.
+title: Manually normalize a software model in the Software Asset Workspace
+description: You can manually normalize a software discovery model that hasn’t been fully normalized \(partially normalized, publisher normalized, or match not found\) to reconcile it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/manual-normalize-swmodel-workspace.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Manually normalize a software model in workspace
+# Manually normalize a software model in the Software Asset Workspace
 
-You can manually normalize a software discovery model that has not been fully normalized \(partially normalized, publisher normalized, or match not found\) in order to reconcile it.
+You can manually normalize a software discovery model that hasn’t been fully normalized \(partially normalized, publisher normalized, or match not found\) to reconcile it.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sam\_admin or sam\_user
 
 1.  Navigate to **All** &gt; **Software asset** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Discovery models**.
 
-2.  Select a discovery model record that has a normalization status of**Partially Normalized**, **Publisher Normalized**, or **Match Not Found**.
+2.  Select a discovery model record that has a normalization status of **Partially Normalized**, **Publisher Normalized**, or **Match Not Found**.
 
 3.  Select the ellipsis icon on the right hand side of the page.
 

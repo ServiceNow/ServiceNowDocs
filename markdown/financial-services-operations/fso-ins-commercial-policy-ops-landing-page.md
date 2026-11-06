@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ ServiceNow® Commercial Lines Servicing enables underwriters and processors in y
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

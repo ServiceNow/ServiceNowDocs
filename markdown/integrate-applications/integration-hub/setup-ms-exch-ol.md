@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Microsoft Exchange Online Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -51,7 +51,7 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 The ServiceNow application is created with Microsoft Azure AD.
 
-## Configure connection records for the Microsoft Exchange Online spoke
+## Configure a connection for the Microsoft Exchange Online spoke
 
 Perform actions in Microsoft Exchange Online by configuring connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.
 

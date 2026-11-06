@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Lux Lab development server, Starting the development server, Monitoring the development server, Hot Module Replacement, Stopping the development server, Build errors, Production build]
-breadcrumb: [Using Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Using Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Lux Lab development server

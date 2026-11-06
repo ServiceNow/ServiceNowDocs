@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/voice-agent-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI voice agent reference
@@ -357,7 +357,7 @@ async function getCallContext(accessToken, contactData, voiceServiceId) {
 			'Content-Length': Buffer.byteLength(payload)
 		}
 	};
-
+    
 	log('INFO', 'Requesting call context', { contactId: contactData.ContactId, voiceServiceId });
 
 	const RETRY_DELAYS_MS = [500, 800, 1000];

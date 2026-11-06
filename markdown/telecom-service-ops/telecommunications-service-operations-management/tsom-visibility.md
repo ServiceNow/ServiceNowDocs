@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Explore, Telecommunications Service Operations Management]
 
 Telecom Visibility extends the discovery and reconciliation capabilities of ITOM Visibility to meet the specific needs of telecom service providers. It enables accurate, telecom-aware network inventory by discovering real-time network data, reconciling mismatches, and maintaining a consistent telecom model in your CMDB and TNI \(Telecommunications Network Inventory\).
 
-Discover physical and logical network components across telecom domains, reconcile discrepancies between discovery and inventory data, and maintain a telecom-specific CMDB structure to support advanced automation and assurance use cases.
+Discover physical and logical network components across telecom domains and reconcile discrepancies between discovery and inventory data. Maintain a telecom-specific CMDB structure to support advanced automation and assurance use cases.
 
 ## Telecom Visibility overview
 
-Telecom Visibility is a unified solution for discovering and managing telecom network resources. It leverages proven discovery technologies such as Horizontal Discovery, Telecommunications Discovery Patterns, and Service Graph Connectors \(SGC\) to bring network data from various systems \(for example, CLI/SNMP-based standalone devices or API-driven EMS/NMS/controllers\) into your CMDB.
+Telecom Visibility is a unified solution for discovering and managing telecom network resources. It leverages proven discovery technologies such as Horizontal Discovery, Telecommunications Discovery Patterns, and Service Graph Connectors \(SGC\). These technologies bring network data from various systems \(for example, CLI/SNMP-based standalone devices or API-driven EMS/NMS/controllers\) into your CMDB.
 
 Telecom Visibility helps communication service providers \(CSPs\) and telecom operators:
 
@@ -43,14 +43,14 @@ Telecom Visibility helps communication service providers \(CSPs\) and telecom op
 1.  Telecommunications Horizontal Discovery Patterns: Discovers telecom devices \(xNFs\) such as routers and switches using SNMP/CLI. Enables accurate inventory updates by scanning live network infrastructure. Supports vendor-specific patterns including:
     -   Cisco \(ASR1K, 7613, Nexus 9000, Nexus 3548\)
     -   Juniper \(MX80, MX104, MX240, MX460\)
-2.  Service Graph Connectors \(SGCs\) for TSOM: Prebuilt integrations with EMS/NMS/controllers to import inventory data via APIs. Supports:
+2.  Service Graph Connectors \(SGC s\) for TSOM: Prebuilt integrations with EMS/NMS/controllers to import inventory data via APIs. Supports:
     -   Scheduled or on-demand discovery
     -   Multi-instance configurations
     -   Integration with systems like Nokia Altiplano \(GPON networks\)
 3.  Telecom Visibility Plugin: Provides shared logic and foundational components for both discovery and discrepancy reconciliation. Ensures:
     -   Consistent behavior across TSOM workflows
     -   Reusable components for reconciliation and remediation
-4.  CMDB CI Class Models for Telecom \(Required version: 1.69.0\): Extends the CMDB to include telecom-specific classes and relationships, including:
+4.  CMDB CI Class Models for Telecom \(Required version: 1.82 or later\): Extends the CMDB to include telecom-specific classes and relationships, including:
     -   Interface cards
     -   Slots and subslots
     -   Network interfaces
@@ -106,7 +106,7 @@ CMDB 360 - Visualize:
 **Related topics**  
 
 
-[Set up Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom-visibility.md)
+[Configure Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom-visibility.md)
 
 [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-admin-workspace.md)
 

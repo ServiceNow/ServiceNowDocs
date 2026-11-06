@@ -116,7 +116,7 @@ Case \[sn\_customerservice\_case\]
 
 </td></tr><tr><td>
 
-Requester fields
+requester fields
 
 </td><td>
 

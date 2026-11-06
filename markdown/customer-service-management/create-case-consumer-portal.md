@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-consumer-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a case from the Consumer Service Portal
@@ -44,4 +44,11 @@ Role required: sn\_customerservice.consumer
 ## Result
 
 The new case is created and added to the Cases list. To view the case, select the link in the case creation message or select **Cases** in the portal header, and then select the case number.
+
+**Related topics**  
+
+
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-cases-consumer-portal.md)
+
+[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/start-chat-agent-consumer-portal.md)
 

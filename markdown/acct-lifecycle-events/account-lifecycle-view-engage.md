@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-view-engage.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 9
-breadcrumb: [Customer success, Use, Customer Success Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Engagement home page
@@ -17,15 +17,15 @@ This page provides detailed information of an engagement including internal and 
 To view this page, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
-3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record. You can also navigate to this page from the [Success portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-landing.md).
+2.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
+3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record. You can also navigate to this page from the [Success portfolio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-landing.md).
 
 The following options are available:
 
 -   Discuss: Select **Discuss** to start a sidebar discussion about this engagement. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this engagement. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Refresh Health: Select this option to update the health score for this engagement.
--   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md)
--   Internal play: See [Create an internal play playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md).
+-   Customer play: See [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
+-   Internal play: See [Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md).
 -   Risk signal: See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
 -   Success case: See [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
 -   Touchpoint: See [Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-touchpoint.md).
@@ -47,16 +47,17 @@ This tab provides a high-level overview of the engagement. It includes the follo
 
 -   Header: The header section shows the health score of the engagement over the last six weeks and the last active touchpoint.
 -   Engagement details: Shows the contract value, engagement stage, go-live date, account with which it’s associated, and the renewal date. Select the Edit icon to modify the engagement details and select **Save**.
--   Customer team: Shows the key customer contact that you have specified for this engagement. This information is also displayed in the Related Items section under Applicable Customer Teams.
+-   Customer team: The key customer contacts for this engagement are available in the contextual side panel. Select the **Customer contacts** icon in the contextual side panel to view contact details.
 -   Squad: Shows the squad members associated with the engagement.
 -   Account team: The team members handling the account. This information is also displayed in the Related Items section under Applicable Account Teams.
+-   Engagement updates: An AI-generated brief that summarizes recent signals for this engagement, organized by category such as Risks, Declining metrics, and Opportunities. The brief loads automatically on page open and is cached for 15 days. Select the refresh icon to generate a new brief. For more information, see [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md).
 -   Upcoming touchpoints: Shows any upcoming touchpoints for this engagement. Select the link to drill down to the Touchpoint record page.
 -   Risk signals and issues: Shows any new, overdue, high priority, or unaddressed risks or issues.
 -   Work items: This section shows the activities and tasks associated with this engagement. You can sort the list by Priority or Due Date. You can view all the work items or view items belonging to a specific category by selecting one of the following filters from the **View** drop-down list:
 
     -   Internal plays
     -   Internal play tasks
-    -   Success case
+    -   Customer play
     -   Success initiative
     -   Success task
     To filter this list further, select one of the work items filters like New, Blocked to view specific items in the list.
@@ -72,7 +73,7 @@ In the Indicators section, you see the metrics used to calculate the health scor
 
 ## Success blueprint
 
-In this tab, you can view the success objectives associated with this engagement. You can view the high-level details of each success objective including Due date, Start date, Key contact, Assigned to, and Products. If the success blueprint hasn’t been defined, select **Create success blueprint**. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint.md) for instructions on creating a success blueprint. You can do the following:
+In this tab, you can view the success objectives associated with this engagement. You can view the high-level details of each success objective including Due date, Start date, Key contact, Assigned to, and Products. If the success blueprint hasn’t been defined, select **Create success blueprint**. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md) for instructions on creating a success blueprint. You can do the following:
 
 -   Sort by: You can sort the list by Due date of the objectives.
 -   View by State: Select one of the states from the drop-down list. This can be:
@@ -91,13 +92,11 @@ In this tab, you can view the success objectives associated with this engagement
 
 In this tab, you can view the product adoption score for all applicable sold products associated with this engagement. The adoption score is determined using the calculated metrics that have been configured for the sold products. See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for more details.
 
-\[Omitted image "product-adopt.jpg"\] Alt text: product adoption
-
 The following details are included:
 
 -   The chart displays product adoption scores across the past 12 weeks, broken down by week. By hovering over data points, you can view the quantity of products sold within each adoption category \(Low, Medium, High, and None\) for any given week.
 -   The pie chart shows a snapshot of current adoption score distribution as of today's date. Select Total products to drill down to view the Product Usage list. You can drill down to a specific product usage record.
--   The list of sold products associated with this engagement is displayed. Select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to drill down to the [Product usage record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) page.
+-   Sold products: The list of sold products associated with this engagement is displayed. Select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to drill down to the [Product usage record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) page.
     -   View by: You can filter the list displayed by:
         -   All
         -   Activated
@@ -109,6 +108,9 @@ The following details are included:
         -   Adoption score
         -   Business criticality
         -   Activation status
+-   Product adoption roadmaps: The list of product adoption roadmaps that have been created for this engagement. You can do the following:
+    -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the Product adoption roadmap page. See [View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md) for details.
+    -   Select **New product adoption roadmap** to create roadmap. See [Create a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-par-roadmap.md) for details.
 
 ## Renewal and expansion
 
@@ -149,24 +151,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Recommended Actions**
+**Recommendations**
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
-
-From the list of search results, agents can do the following:
-
--   Select a source to see search results of that type.
--   Filter the list of search results.
--   Sort the list of search results.
--   Open the search results in full view in a record subtab.
--   Take the following actions:
-    -   View and attach article
-    -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
--   View successful actions by selecting the Actions history icon.
-
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md).
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues. The following options are available:-   Suggested actions: A list of recommended success plays available for the engagement are displayed. See [View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md) for details.
+-   **Search**: The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. You can enter different search keywords and repeat the search and do the following:
+    -   Select a source to see search results of that type.
+    -   Filter and sort the list of search results.
+    -   Open the search results in full view in a record subtab.
+    -   Take the following actions:
+        -   View and attach article
+        -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
+    -   **Actions History**: Select the History icon to view actions that have been successfully completed.
 
 **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
@@ -202,7 +199,7 @@ The Attachments tab provides access to case-related attachments. From this tab, 
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. Default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject, and message body text.
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. Default values can include recipients \(email addresses in the To, Cc, and Bcc fields\), sender, subject, and message body text.
 
 </td></tr><tr><td>
 
@@ -229,10 +226,12 @@ The Record Information tab shows overview of the engagement record.
 The Customer timeline tab shows visual display of the Engagement records activities.
 
 </td></tr></tbody>
-</table>-   **[Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-view-success-object.md)**  
-This page provides a detailed view of the success objective and its related outcomes and initiatives as defined in the success blueprint.
--   **[Primary success outcome record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-view-sucess-outcome.md)**  
-A primary success outcome refers to the result or goal that is used to measure the achievement of a success objective.
+</table>-   **[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)**  
+The engagement brief summarizes recent signals across risk, adoption, and market activity for a specific engagement.
+-   **[View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md)**  
+Open the **Recommendations** panel from an engagement record to review AI-generated success play suggestions and execute or dismiss a recommended play without leaving the engagement context.
+-   **[Summarize an engagement using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/now-assist-tmt-summarize-engagement.md)**  
+Generate a summary from the fields you select on the engagement record. Get up to speed on success initiatives, outcomes, risks, and internal plays associated with an engagement.
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

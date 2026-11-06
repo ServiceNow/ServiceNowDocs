@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/logik\_ai\_support\_team\_access\_to\_customer\_salesforce\_sites.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ This document outlines the standard processes for ServiceNow CPQ support team me
 
 ## Salesforce user access
 
-When support requires access to a customer's Salesforce environment, customers can create a Salesforce user with an email address of provisioning@logik.io and system administrator permissions. This ensures that every member of our support team has access, not just the one currently working on your case.
+When support requires access to a customer's Salesforce environment, customers can create a Salesforce user with an email address of provisioning@ServiceNow CPQ.io and system administrator permissions. This ensures that every member of our support team has access, not just the one currently working on your case.
 
 For assistance with this process, see Salesforce's official documentation: [Adding New Users in Salesforce](https://help.salesforce.com/s/articleView?id=platform.adding_new_users.htm&type=5)
 
@@ -36,5 +36,5 @@ In test environments, many customers let our provisioning user stay active indef
 
 During a support case, disabled user accounts can be reactivated upon request.
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

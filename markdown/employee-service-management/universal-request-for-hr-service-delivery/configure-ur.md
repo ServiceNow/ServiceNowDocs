@@ -7,9 +7,9 @@ release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Universal Request, Employee Service Management]
+breadcrumb: [Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
 # Configuring Universal Request
@@ -20,6 +20,8 @@ Set up the Universal Request features, components, and integrations that you nee
 A user is an individual who can access your instance and a group is a set of users who share a common purpose. The users associated with a group are listed as group members.
 -   **[Assign roles to UR users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-assign-roles.md)**  
 Roles control access to features, capabilities, and data in the Universal Request application.
+-   **[Assign delegated developer role to Universal Request administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/assign-delegated-developer-role.md)**  
+For a Universal Request administrator \[sn\_uni\_req.ur\_admin\] to perform some platform duties, the delegated developer role must be added.
 -   **[Service Level Agreement configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-sla-config.md)**  
 View, modify, or create Service Level Agreement \(SLA\) definitions that is provided for the Universal Request application to make sure that the requests are closed within a defined time frame.
 -   **[Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md)**  

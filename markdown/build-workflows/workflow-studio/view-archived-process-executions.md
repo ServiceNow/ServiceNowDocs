@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Archive process contexts, Administering playbooks, Playbooks, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # View archived process contexts
@@ -46,6 +46,10 @@ To view the archived context records for a process execution record, you must co
 
     You can view the JSON record of the archived context records for the process execution in the Archive field.
 
+
+## Add the Archive field to the form
+
+\[Omitted image "view-archived-json.gif"\] Alt text: Adding the Archive field to the form layout
 
 **Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/archive-process-executions.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/les-roles.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Log Export Service \(LES\), Platform Security]
 ---
@@ -76,4 +76,11 @@ Admin role is required for the setup of the LES store application.
 
 
 **Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-references.md)
+
+**Related topics**  
+
+
+[Log Export Service actions and required roles]()
+
+[Properties installed with Log Export Service]()
 

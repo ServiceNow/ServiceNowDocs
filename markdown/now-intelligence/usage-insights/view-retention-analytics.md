@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use, Usage Insights, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # User retention
@@ -27,17 +27,17 @@ View data such as how many new users you have, how many never returned, and how 
 -   Use cohort analysis to identify a month, week, or day with poor retention.
 -   Compare retention analytics across versions and devices.
 
-\[Omitted image "uxa-retention-overview.png"\] Alt text: Analytics module - User Retention screen
+\[Omitted image "uxa-retention-overview-australia.png"\]
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Usage Insights**.
 
 2.  Choose the application that you want to review retention for from the **All Applications** list.
 
 3.  Filter the data.
 
-    The default filters are **Aggregation** \(daily, weekly, or monthly\), **Date Range**, and **Country**. For more information on filters in Usage Insights, see [Filter data in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/filter-user-list.md).
+    The default filters are **Aggregation** \(daily, weekly, or monthly\), **Date Range**, and **Country**. For more information on filters in Usage Insights, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/filter-user-list.md).
 
     |KPI|Description|
     |---|-----------|

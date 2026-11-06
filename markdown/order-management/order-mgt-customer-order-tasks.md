@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-customer-order-tasks.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -27,13 +27,13 @@ When you create a manual fallout record, or an automated one is generated, the f
 -   Its **State** field changes to On hold, with a comment on which logged-in user caused it to change.
 -   In the Activity section, a work order note indicates that the order task state has changed from its former state, usually In Progress, to On hold. A work order note with the message `A fallout record FOnnnn has been created` also appears.
 
-If you create a manual fallout record or an automated one is generated for the order tasks, fallout records are created for the order. You can easily review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
+If you create a manual fallout record or an automated one is generated for order tasks, you can review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
 To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/fallout-management-overview.md).
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -73,4 +73,11 @@ After your agents complete all fulfillment tasks for the entire customer order, 
 Create MACD orders directly from the sold products. For more information, see [Request post-sale change orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-macd-orders.md).
 
 **Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

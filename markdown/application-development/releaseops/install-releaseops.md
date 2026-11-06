@@ -7,10 +7,10 @@ release: zurich
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Install ReleaseOps
@@ -35,7 +35,7 @@ Because ReleaseOps involves a multi-instance ecosystem, you must complete this p
 
 5.  Sign in with your ServiceNow user ID.
 
-6.  Run the installation on your instance and accept all of the plugins.
+6.  Run the installation on your instance, and accept all of the plugins.
 
     For more information about installing a ServiceNow® Store application on your instance, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
@@ -43,4 +43,6 @@ Because ReleaseOps involves a multi-instance ecosystem, you must complete this p
 ## Result
 
 ReleaseOps is installed on your instance.
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configuring-releaseops.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Create a renewal playbook
+title: Create a renewal play
 description: Create a renewal playbook to define processes to simplify contract renewals and identify expansion opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-renewal-playbook.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage playbooks, Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
-# Create a renewal playbook
+# Create a renewal play
 
 Create a renewal playbook to define processes to simplify contract renewals and identify expansion opportunities.
 
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Select **Customer Success** &gt; **All Engagements** and select an engagement in the list.
 
@@ -28,7 +28,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 4.  Select **Success Support** from the Category drop down list.
 
-5.  In the subcategory section, select **Simple renewal play** and select **Next**.
+5.  In the subcategory section, select the **Internal play** and **Simple renewal play** and select **Next**.
 
 6.  Specify the Due Date and select the user in the Assigned to field and select **Finish**.
 
@@ -52,9 +52,9 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
         **Note:**
 
-        -   This activity creates an internal play task that is displayed as a worknote in the Activity Stream. Select the internal play task link to view the record. When you select **Send Email**, the status of this task is set to `Closed`. The Closure code and Close notes fields are updated to indicate that the email has been sent.
+        -   This activity creates an internal play task that is displayed as a worknote in the Activity stream. Select the internal play task link to view the record. When you select **Send Email**, the status of this task is set to `Closed`. The Closure code and Close notes fields are updated to indicate that the email has been sent.
         -   If you select **Skip email**, the status of the internal play task is set to `Canceled` and the internal play task is canceled.
-    -   Create opportunity: In this activity, you can create a new opportunity for your contract. This activity creates an internal play task. Update the task details as required to move to the next stage. Select **Open record** to view the internal play task. Review the opportunity details, update the status to Closed or Canceled, and select **Close** this activity and move on to the next stage.
+    -   Create opportunity: In this activity, you can create opportunity for your contract. This activity creates an internal play task. Update the task details as required to move to the next stage. Select **Open record** to view the internal play task. Review the opportunity details, update the status to Closed or Canceled, and select **Close** this activity and move on to the next stage.
 12. In the `Track Opportunity` phase, review the contract details.
 
     Select **Open record** to change if necessary or select **Mark read** to proceed to the next stage.

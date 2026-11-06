@@ -7,16 +7,16 @@ release: zurich
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Explore, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Exploring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Predictive Intelligence for Innovation Management
 
 The Predictive Intelligence for Innovation Management capability uses machine-learning algorithms to search and display similar ideas while submitting a new idea.
 
-The PPM Predictive Intelligence Workbench includes a prebuilt use case template that systematically guides you through the process of creating and training new predictive models. This template also helps with evaluating and testing them, and finally adding them to your business process to add value to your Idea, Demand, and Project Management.
+The PPM Predictive Intelligence Workbench includes a prebuilt use case template that systematically guides you through the process of creating and training new predictive models, evaluating and testing them, and finally adding them to your business process to add value to your Idea, Demand, and Project Management.
 
 Once you train your custom use cases, they are usable immediately. No prior knowledge or experience with artificial intelligence or machine learning is required when you use the PPM Predictive Intelligence Workbench.
 
@@ -78,4 +78,6 @@ Suggests related ideas based on the **Title** and **Description** fields. You ca
 [Train the similarity solution for Innovation Management to find similar ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/train-similarity-solution-im.md)
 
 [Submit an idea using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/submit-idea.md)
+
+[PPM PIWB template - Find similar ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/ppm-piwb-idea.md)
 

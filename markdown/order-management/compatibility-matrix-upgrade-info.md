@@ -5,19 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/compatibility-matrix-upgrade-info.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-07"
-reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Compatibility information for Customer Engagement Sequences
 
 The features that are supported in Customer Engagement Sequences are determined by combinations of ServiceNow AI Platform, Playbooks in Workflow Studio, and the Customer Engagement Sequences app version.
 
-The following versions of the Customer Engagement Sequences application are compatible with the ServiceNow® Xanadu, Yokohama, and Zurich releases:
+The following versions of the Customer Engagement Sequences application are compatible with the ServiceNow® Xanadu, Yokohama, Zurich, and Australia releases:
 
 -   Customer Engagement Sequences 1.0.0
 -   Customer Engagement Sequences 2.0.1
+-   Customer Engagement Sequences 2.1.0
 
 The following table provides a comparison of features available with two Customer Engagement Sequences version 1.0.0 and 2.0.1.
 
@@ -31,7 +32,7 @@ Customer Engagement Sequences 1.0.0
 
 </th><th>
 
-Customer Engagement Sequences 2.0.1
+Customer Engagement Sequences starting with version 2.0.1
 
 </th></tr></thead><tbody><tr><td>
 
@@ -106,4 +107,15 @@ Available starting with the Zurich release and Playbooks version 28.1.
 Available starting with the Zurich release and Playbooks version 28.1.
 
 </td></tr></tbody>
-</table>
+</table>**Note:** The click-to-call capability and activity picker options for the Schedule call activity in Workflow Studio vary by release.
+
+-   In Xanadu and Yokohama, only the **Schedule call** activity is available in the activity picker and does not include the click-to-call capability.
+-   Starting with Zurich and Customer Engagement Sequences 2.1.0, both **Schedule call** and **Schedule call - Deprecated** appear in the activity picker. Use the **Schedule call** activity to enable the click-to-call capability.
+
+**Related topics**  
+
+
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-customer-engagement-sequences.md)
+

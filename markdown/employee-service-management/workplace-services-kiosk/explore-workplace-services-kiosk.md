@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -111,8 +111,8 @@ Kiosk viewers \(guests and visitors\)
 
 To learn more about configuring and using Workplace Services Kiosk, see:
 
--   [Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
--   [Manage Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/manage-workplace-services-kiosk.md)
+-   [Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+-   [Managing Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/manage-workplace-services-kiosk.md)
 -   [Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 -   [Workplace Services Kiosk reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/workplace-services-kiosk-reference.md)
 

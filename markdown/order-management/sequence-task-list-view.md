@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sequence-task-list-view.html
 release: zurich
 topic_type: reference
-last_updated: "2025-12-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # My sequence task list view

@@ -1,27 +1,52 @@
 ---
-title: Setting improvement opportunity from Project Builder
+title: Set improvement opportunity from Project Builder
 description: Set improvement opportunities from Project Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/setting-impr-opp-proj-build.html
 release: zurich
 product: Process Mining
 classification: process-mining
-topic_type: concept
-last_updated: "2025-07-31"
+topic_type: task
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting improvement opportunity for projects, Working with improvement opportunities, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [For projects, Setting improvement opportunities, Use, Process Mining, Platform Analytics]
 ---
 
-# Setting improvement opportunity from Project Builder
+# Set improvement opportunity from Project Builder
 
 Set improvement opportunities from Project Builder.
 
-Create rule-based and automated improvement opportunities from Project Builder while creating or editing a project.
+## Before you begin
 
--   **[Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/rule-based-builder.md)**  
-Rule-based finding definition is a custom rule that displays improvement opportunities for a use case on the Summary and insights page.
--   **[Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)**  
-Automated improvement opportunities are the improvement opportunities that are available in Process Mining. Set them to understand the improvement opportunities for your process.
+Role required:
+
+-   The sn\_process\_mining\_admin and sn\_process\_mining\_power\_user roles can create an improvement opportunity for a project.
+-   The sn\_process\_mining\_analyst role can view an improvement opportunity for a project, but can’t create, edit, or delete an improvement opportunity.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
+
+2.  Select a project.
+
+    You can add an improvement opportunity while creating a project or editing an existing project. For information about adding an improvement opportunity when creating a project, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/improve-opportunities.md).
+
+3.  Select ellipses, and then select **Edit project**.
+
+    \[Omitted image "edit-project.png"\] Alt text: Edit project
+
+4.  Select the **Set improvement opportunities** tab.
+
+5.  Select **New**.
+
+    The Improvement opportunity definition page is displayed. Now, you can create the improvement opportunities for your process table.
+
+    **Important:** If you try to create a new improvement opportunity or edit an existing improvement opportunity from the Classic view, the Finding Builder is automatically opens.
+
+    For information on creating improvement opportunities, see the following topics:
+
+    -   [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/rule-based-builder.md)
+    -   [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automated-findings.md)
 
 **Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/project-imp-opp.md)
 

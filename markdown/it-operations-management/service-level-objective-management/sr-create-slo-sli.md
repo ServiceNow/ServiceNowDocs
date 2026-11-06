@@ -7,7 +7,7 @@ release: zurich
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -46,15 +46,15 @@ Each SLI can be associated with only one SLO, helping prevent conflicting perfor
 
 4.  In the Service Level Indicators \(SLI\) form, select the data source for your SLI.
 
-<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d408730e182">
+<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d443611e178">
 
 Data source
 
-</th><th align="left" id="d408730e185">
+</th><th align="left" id="d443611e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d408730e191">
+</th></tr></thead><tbody><tr><td id="d443611e187">
 
 **Alerts**
 
@@ -62,7 +62,7 @@ Description
 
 Base the SLI on alerts from integrated monitoring tools.Use alerts when you want your SLI to include early warning signs and a broader view of reliability.
 
-</td></tr><tr><td id="d408730e202">
+</td></tr><tr><td id="d443611e198">
 
 **Outages**
 
@@ -92,7 +92,7 @@ Base the SLI on outages detected by monitoring tools and reported by users.Use o
 
 See the following to learn how to monitor and manage your SLOs:
 
--   [Working with reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md) - Learn where and how to view SLO performance.
+-   [Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md) - Learn where and how to view SLO performance.
 -   [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md) - Update your SLOs to keep them aligned with your reliability goals.
 
 **Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-indicator-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-25"
-reading_time_minutes: 5
-breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Indicator form
@@ -104,7 +104,7 @@ Frequency
 
 </td><td>
 
-Frequency determines the interval at which the data for the indicator source should be collected.The **Frequency** field isn't available when **Performance Analytics** is selected from the **Data source** list.
+Frequency determines the interval at which the data for the indicator source should be collected.The **Frequency** field isn’t available when **Performance Analytics** is selected from the **Data source** list.
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Target maximum
 
 </td><td>
 
-Maximum value for the indicator. The **Target maximum** field isn't available when **Assessments** is selected from the **Data source** list.
+Maximum value for the indicator. The **Target maximum** field isn’t available when **Assessments** is selected from the **Data source** list.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Target minimum
 
 </td><td>
 
-Minimum value for the indicator.The **Target minimum** field isn't available when **Assessments** is selected from the **Data source** list.
+Minimum value for the indicator.The **Target minimum** field isn’t available when **Assessments** is selected from the **Data source** list.
 
 </td></tr><tr><td>
 
@@ -144,13 +144,7 @@ Consider Absolute Values
 
 </td><td>
 
-Option to consider absolute values from the **Target maximum** and **Target minimum** fields. This field is available only when values are entered in the **Target maximum** and **Target minimum** fields.
-
- When the check box is selected, absolute target maximum and target minimum values are applied only when the indicator frequency matches the fiscal period being scored. When the frequencies do not match, the system derives the target minimum and maximum values from the application weights of all indicators in the current scoring run.
-
- When the check box is cleared, the system uses [intelligent logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-score-profile.md) to calculate target maximum and target minimum values based on the actual application weights. The calculation applies regardless of whether the indicator frequency matches the fiscal period being scored.
-
- For a monthly cost indicator scored quarterly with a target maximum of $50,000 and target minimum of $10,000: when the check box is selected and the scoring period is monthly \(frequency matches\), the system applies the absolute values in the normalization formula. When the check box is selected and the scoring period is quarterly \(frequency does not match\), the system ignores the absolute values. It derives the target maximum and minimum from the actual application weights in the current scoring run. When the check box is cleared \(any scoring period\), the system applies intelligent logic. It compares the defined target values with actual application weights and uses whichever is more appropriate for each boundary.
+Option to consider values from the **Target maximum** and **Target minimum** fields. This field is available only when values are entered in the **Target maximum** and **Target minimum** fields.
 
 </td></tr></tbody>
 </table><table id="table_xmb_fst_ncc"><thead><tr><th>
@@ -172,7 +166,7 @@ Defines the location from which the indicator receives data.
  -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_Indicators.md).
 -   **Custom Script**: Allows you to write a script that collects data from another application. Beneath the **Data Source** field, a sample script appears. Customize the script as needed.
 -   **Query Condition**: Allows you to select a table to run filters on to obtain data.
--   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md). To view results of survey assessments within Enterprise Architecture, see [Generate survey assessments and view results within APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-survey-assessments-results-apm.md).
+-   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md).
 -   **Indicators**: Allows you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
 
 For example, if the parent indicator is number of issues, the dependent indicators can be number of incident counts, number of problems, and changes. These dependent indicators are child indicators and the number of incidents, problems, and changes recorded are consolidated up to the parent indicator as the number of issues.
@@ -186,7 +180,7 @@ Indicator
 
 The **Indicator** field appears when **Performance Analytics** is selected from the **Data source** list.Indicators are statistics that are used to measure current conditions and forecast trends.
 
- **Note:** If the collection frequency of the application indicator is not greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator. For more information, see [Collection of PA indicator score data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/pa-indicators-jobs.md).
+ **Note:** If the collection frequency of the application indicator is not greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`.
 
 </td></tr><tr><td>
 
@@ -212,9 +206,9 @@ Consolidation
 
 Computational method for aggregating the values, a function such as sum, average, maximum, or minimum.Default is Average. For example, Average is the sum of the monthly values divided by the total number of months in a quarter.
 
- If you select Maximum or Minimum, then it's the maximum value or the minimum value of a month in the quarter, respectively.
+ If you select Maximum or Minimum, then it’s the maximum value or the minimum value of a month in the quarter, respectively.
 
- If you select Sum, then it's an aggregate of all monthly values in the quarter.
+ If you select Sum, then it’s an aggregate of all monthly values in the quarter.
 
 </td></tr><tr><td>
 
@@ -238,7 +232,7 @@ Category of the metric.
 |Click through URL navigation type|Select whether to view the application or capability indicator details in a new window, in the same window, or in a dialog box.|
 |Click through URL script|The script associated with an indicator that allows users to select a URL and view the indicator data in a related application or dashboard. This enables quick access to relevant information, or actions related to the indicator data.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

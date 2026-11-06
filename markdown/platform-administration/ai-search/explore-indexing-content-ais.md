@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Index searchable content from ServiceNow AI Platform tables and external sources

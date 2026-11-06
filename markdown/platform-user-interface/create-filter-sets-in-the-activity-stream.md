@@ -1,47 +1,61 @@
 ---
-title: Create filter sets in the Activity stream
-description: Create filter sets to save custom filters for post types and field changes in the Activity stream.
+title: Use filter sets in the Activity stream
+description: Create and save filter sets with custom conditions in the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-filter-sets-in-the-activity-stream.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Create filter sets in the Activity stream
+# Use filter sets in the Activity stream
 
-Create filter sets to save custom filters for post types and field changes in the Activity stream.
+Create and save filter sets with custom conditions in the Activity stream.
 
 ## Before you begin
 
-Role required: none
+Role required: workspace\_user
 
 ## Procedure
 
-1.  Open a workspace record in your instance.
+1.  Open a record in your instance.
 
-2.  In the Activity stream, select the filter icon \(\[Omitted image "filter-icon-new.png"\] Alt text: Filter icon\).
+2.  From the Activity stream, select the filter icon \(\[Omitted image "filter-icon-new.png"\] Alt text: Filter icon\).
 
-3.  Select **Filter sets** &gt; **Create new filter set**.
+3.  Select the **Post Types** list, and select the values you want to filter.
 
-4.  Customize the filter set in the Create new filter set modal.
+4.  Select the **Field Changes** list, and select the values you want to filter.
 
-    -   **Name**
+5.  Select **Filter sets** &gt; **Create new filter set**.
 
-        Enter a name for the filter set.
+    The Create new filter dialog box opens.
 
-    -   **Post types**
+6.  In the Name field, enter a name for the filter set.
 
-        Remove any post types you don't want included in the filter set.
-
-    -   **Field changes**
-
-        Remove any field changes you don't want included in the filter set.
-
-5.  Select **Save**.
+7.  Select **Save**.
 
     The new filter set appears in the **Filter sets** list.
+
+8.  Select **Filter sets** and the edit icon \(\[Omitted image "pencil-icon.png"\] Alt text: Pencil icon\) for a filter set.
+
+    The Edit activity filter set dialog box opens.
+
+9.  Edit a filter set.
+
+    1.  From the Edit activity filter set dialog box, make changes to the filter set.
+
+    2.  Select **Save**.
+
+10. Delete a filter set.
+
+    1.  From the Edit activity filter set dialog box, select **Delete**.
+
+        The Discard your filter dialog box opens.
+
+    2.  Select **Discard filter**.
+
+        The filter set is deleted from the **Filter sets** list.
 
 

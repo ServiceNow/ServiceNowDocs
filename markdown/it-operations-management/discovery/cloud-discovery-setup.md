@@ -1,5 +1,5 @@
 ---
-title: Cloud discovery setup using Discovery Home
+title: Cloud Discovery setup using Discovery Home
 description: Get started with Cloud Discovery by configuring credentials, service accounts, schedules, and MID Servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cloud-discovery-setup.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Cloud discovery setup using Discovery Home
+# Cloud Discovery setup using Discovery Home
 
 Get started with Cloud Discovery by configuring credentials, service accounts, schedules, and MID Servers.
 
@@ -37,7 +37,7 @@ Perform the following tasks in the exact order they are listed below:
     -   [Set up Alibaba Cloud service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-up-alibaba-cloud-service-account.md)
 5.  For Amazon AWS Cloud and Microsoft Azure Cloud, configure notifications and alerts from the Amazon AWS Cloud and Microsoft Azure Cloud to make the necessary updates to your CMDB without additional scanning.
 
-    -   [Configure AWS Config event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-config-service-cloud-mgt.md)
+    -   [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-events-driven-discovery.md)
     -   [Configure the Microsoft Azure Alert service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
     -   [Configure the Google Cloud Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/gcp-stackdriver-service.md)
     -   [Configure the VMware Events service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/vmware-events-service-cloud-mgt.md)

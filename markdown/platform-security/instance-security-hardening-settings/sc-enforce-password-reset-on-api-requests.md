@@ -1,5 +1,5 @@
 ---
-title: Enforce password reset on api requests \[Updated in Security Center 1.5\]
+title: Enforce password reset on API requests
 description: Manage how the password reset functionality operates on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Enforce password reset on api requests \[Updated in Security Center 1.5\]
+# Enforce password reset on API requests
 
 Manage how the password reset functionality operates on your instance.
 
-When a user is marked for **Password needs reset**, they must provide a new password at the next authentication attempt. This property controls whether the password reset is mandatory before making API calls. If this property is not set to the recommended value of **true**, user accounts marked as **Password needs reset** can still perform operations by querying the table API through basic authentication. This security vulnerability could enable information leakage if an inactive account is compromised.
+When a user is marked for Password needs reset they must provide a new password at the next authentication attempt. The **glide.authenticate.api.user.reset\_password.mandatory** system property controls whether the password reset is mandatory before making API calls. If **glide.authenticate.api.user.reset\_password.mandatory** isn't set to the recommended value of **true**, then user accounts marked as Password needs reset can still perform most common operations by querying the table API through basic authentication.
+
+Ensure the property **glide.authenticate.api.user.reset\_password.mandatory** is set to **true**.
 
 ## More information
 
@@ -70,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 8.1
 -   CVSS score: High
--   Security risk details: Setting this property to **false** could lead to information leakage if an inactive account is compromised.
+-   Security risk details: This could allow information disclosure in the event that stale accounts are compromised.
 
 </td></tr><tr><td>
 

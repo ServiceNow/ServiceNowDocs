@@ -1,20 +1,20 @@
 ---
 title: Create a Find Gap query
-description: Create a Find Gap query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs that are not being reported by a discovery source.
+description: Create a Find Gap query from the CMDB 360 dashboard in CMDB Workspace to help you find CIs that are not being reported by a discovery source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [CMDB 360 experience in a workspace, CMDB 360/Multisource CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a Find Gap query
 
-Create a Find Gap query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs that are not being reported by a discovery source.
+Create a Find Gap query from the CMDB 360 dashboard in CMDB Workspace to help you find CIs that are not being reported by a discovery source.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Gaps in discovery source reporting occur when at least one discovery source repo
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Insights**. In the Insights page navigation panel, select **CMDB 360**.
 
 2.  Select **Create Query.**
 
@@ -38,7 +38,7 @@ Gaps in discovery source reporting occur when at least one discovery source repo
 
 6.  Select non-reporting discovery sources.
 
-    A non-reporting discovery source is a discovery source that doesn't report CIs as expected.Multiple non-reporting discovery sources have an OR condition with each other.
+    A non-reporting discovery source is a discovery source that doesn't report CIs as expected. Multiple non-reporting discovery sources have an OR condition with each other.
 
 7.  Select one or two reporting discovery sources.
 
@@ -60,7 +60,7 @@ Gaps in discovery source reporting occur when at least one discovery source repo
 
 11. Enter a name and description for your query.
 
-12. Select **Save** .
+12. Select **Save**.
 
 
 ## What to do next
@@ -74,6 +74,6 @@ On the CMDB 360 Query Results page:
     -   Select **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(10000 by default\).
     -   Select a CMDB 360 Source link to easily access preview data of a source and see more details.
 -   You can select **Create Schedule** to [set up a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.md) that runs your query on a regular basis. Scheduling your query enables you to use the query results in reports you create.
--   After creating a schedule, you can select **Create Report** to [configure a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-data-report-builder.md) that you can manage using [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting-landing-page.md).
+-   After creating a schedule, you can select **Create Report** to configure a report that you can manage using [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting-landing-page.md).
 -   On the Query Results page, access a record to view further details.
 

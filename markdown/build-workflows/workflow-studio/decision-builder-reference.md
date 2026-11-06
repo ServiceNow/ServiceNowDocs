@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
-breadcrumb: [Reference, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision tables reference
@@ -20,10 +20,6 @@ Reference topics provide additional information about decision tables properties
 Use system properties to set limits on the maximum number of inputs and decisions for decision tables created in Decision Builder.
 -   **[Domain separation and Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/domain-separation-decision-builder.md)**  
 This is an overview of domain separation as it pertains to Decision Builder. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
--   **[Export a Decision table from an Instance to another using update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exporting-decision-table.md)**  
-Export a decision table from one instance to another using update sets. This process reduces the time required to recreate the table across different instances.
--   **[Import a Decision table from an Instance to another using update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/importing-decision-table.md)**  
-Importing a decision table from one instance to another using update sets. This process reduces the time required to recreate the table across different instances.
 
-**Parent Topic:**[Workflow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-reference.md)
+**Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
 

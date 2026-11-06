@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise asset estate overview for Enterprise Asset Workspace
@@ -20,18 +20,19 @@ Take care of any urgent asset related action items such as entering a missing as
 
 You can access the Enterprise asset estate view by navigating to **Enterprise Asset Workspace** &gt; **Enterprise asset estate**.
 
-To access detailed information and take relevant action, select any widget. You can also narrow your results by using the **Location**, **Stockroom**, and **Model category** filters.
+To access detailed information and take relevant action, select any widget. You can also narrow down your results by using the **Location**, **Stockroom**, **Model category**, and **Classification** filters.
 
 \[Omitted image "eam-assetoverview.png"\] Alt text: Asset estate view
 
 |Widget or chart|Description|
 |---------------|-----------|
-|Asset warranty expirations this year|Count of assets that are expiring this current year.|
-|Asset requests|Count of enterprise and consumable requests in the catalog.|
-|Assets refresh request|Count of assets that are pending refresh.|
-|Lease contract expiration in 90 days|Contracts expiring in 90 days.|
-|Assets eligible for refresh|Assets nearing end of life and which are eligible for refresh.|
-|Disposed assets this year|Assets disposed this current year.|
-|Assets disposed by model category|Assets disposed until the current date in this year and grouped by their model category.|
-|Enterprise asset risk heat map|Displays the risk heat map for number of assets that have the likelihood and impact values. To view this heat map, ensure that the band score records in the Risk Score module are frozen.|
+|Asset warranty expirations this year|Number of assets that are expiring in the current year.|
+|Asset requests|Number of enterprise and consumable asset requests in the Service Catalog.|
+|Assets refresh requests|Number of assets that are pending refresh.|
+|Lease contract expiration in 90 days|Number of contracts that are expiring in 90 days.|
+|Assets with remaining life under 60 days|Number of assets that are reaching their end-of-life in less than 60 days.|
+|Assets eligible for refresh|Assets that are nearing their end-of-life and are eligible for refresh.|
+|Assets retired by substate|Assets that are currently retired, grouped by their substate.|
+|Assets retired by model category|Assets that are currently retired, grouped by their model category.|
+|Enterprise asset risk heat map|Risk heat map for the number of assets that have the likelihood and impact values. To view this heat map, ensure that the band score records in the Risk Score module are frozen.|
 

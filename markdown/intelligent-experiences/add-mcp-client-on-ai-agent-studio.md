@@ -1,31 +1,26 @@
 ---
-title: Add an MCP server in AI Agent Studio
-description: An MCP server hosts the APIs and tools required by an AI application to receive and process calls from MCP clients. The MCP server governs ingress traffic and promotes secure and efficient access to tools. Adding an MCP server in the AI Agent Studio helps you to leverage the Model Context Protocol as a tool for an AI agent.
+title: Adding an MCP Server in AI Agent Studio
+description: An MCP Server hosts the APIs and tools required by an AI application, enabling it to receive and process calls from MCP Clients to govern ingress traffic and to promote secure and efficient access to tools. Adding an MCP Server in the AI Agent Studio helps you to leverage the Model Context Protocol as a tool in an AI agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-mcp-client-on-ai-agent-studio.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Add an MCP server in AI Agent Studio
+# Adding an MCP Server in AI Agent Studio
 
-An MCP server hosts the APIs and tools required by an AI application to receive and process calls from MCP clients. The MCP server governs ingress traffic and promotes secure and efficient access to tools. Adding an MCP server in the AI Agent Studio helps you to leverage the Model Context Protocol as a tool for an AI agent.
+An MCP Server hosts the APIs and tools required by an AI application, enabling it to receive and process calls from MCP Clients to govern ingress traffic and to promote secure and efficient access to tools. Adding an MCP Server in the AI Agent Studio helps you to leverage the Model Context Protocol as a tool in an AI agent.
 
-Connecting an MCP server with the AI Agent Studio simplifies the integration process, making it easier to discover and invoke services. This connection enhances security and governance, providing a streamlined setup experience for administrators.
+Connecting an MCP Server with the AI Agent Studio simplifies the integration process, making it easier to discover and invoke services. This connection enhances security and governance, providing a streamlined setup experience for administrators.
 
-**Note:** To connect MCP servers with AI Agent Studio, you must have installed the Now Assist AI Agents plugin \[sn\_aia\] as a prerequisite.
+Adding an MCP Server requires you to add an MCP Server in the AI Agent Studio. You can add an MCP Server with one of the following authentication options:
 
-Adding an MCP server requires you to add an MCP server in the AI Agent Studio. You can add an MCPserver with one of the following authentication options:
+1.  **OAuth 2.1**: Helps add an MCP Server with an authentication code. For more information, see [Add an MCP Server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
+2.  **API Key**: Helps add an MCP Server with an API Key. For more information, see [Add an MCP Server with API Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-an-api-key-mcp-server.md).
+3.  **Others**: Helps add an MCP Server in a manual way by selecting a Connection and Credential Alias record. For more information, see [Add an MCP Server with Connection and Credential Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-an-mcp-server-with-connection-and-credential-alias.md).
 
--   **OAuth 2.1**: Add an MCP server with an authentication code. For more information, see [Add an MCP server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
-
-    **Note:** You can configure an MID Server to connect with MCP Client by adding it as an MCP server through OAuth 2.1 configuration and selecting the **Use MID server** check box on the respective server's Connection and Credentials Aliases record. For more information about connecting MCP Client with an MID Server through Connection and Credentials Aliases, see [Set up OAuth integration via MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-conn-alias-oauth-integration-via-mid-server.md).
-
--   **API Key**: Add an MCP server with an API Key.
--   **Others**: Add an MCP server manually by selecting a Connection and Credential Alias record.
-
-**Note:** You must authenticate the users with the MCP server to add the MCP tool to an AI agent. Without prior authentication, you can’t add the MCP servers.
+**Note:** You must authenticate the users with the MCP Server to add the MCP tool to an AI agent and without prior authentication, you can’t add the MCP Servers.
 

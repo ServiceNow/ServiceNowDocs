@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Initiate ad hoc approval, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Initiate ad hoc approval, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel an ad hoc approval for a contract document revision

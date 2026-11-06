@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Embedded Help reference, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -28,13 +28,13 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
-## Domain separation overview
+## Overview
 
-The goal of Embedded Help is to enable your users to benefit from base system help topics, as well as to create your own custom help topics. If your organization uses domain separation, you can create custom embedded help for each domain.
+The goal of Embedded Helpis to enable your users to benefit from base system help topics, as well as to create your own custom help topics. If your organization uses domain separation, you can create custom embedded help for each domain.
 
 ## How domain separation works in Embedded Help
 
-If your organization uses domain separation, you can create custom embedded help for each domain. To associate help content with a domain, the administrator configures the help content form to include the **Domain** field. When custom content is created, the author selects the domain to which the content applies.
+If your organization uses domain separation, you can create custom embedded help for each domain. To associate help content with a domain, the administrator configures the Help Content form to include the **Domain** field. When custom content is created, the author selects the domain to which the content applies.
 
 **Note:**
 

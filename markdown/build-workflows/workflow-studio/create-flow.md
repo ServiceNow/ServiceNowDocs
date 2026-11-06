@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Building flows, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow in Workflow Studio
@@ -27,7 +27,7 @@ Run a sequence of actions and flow logic when the trigger conditions occur.
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content enables you to deploy the application using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_SharingApplications.md) the application using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 3.  Select whether to build the flow with Now Assist or to build the flow from scratch.
 
-    To build a flow with Now Assist, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md).
+    To build a flow with Now Assist, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md).
 
     To build a flow from scratch, continue to the next step.
 
@@ -112,9 +112,9 @@ Priority level at which you want the system to run this flow by default. Options
 
     The system displays the Workflow Studio design environment.
 
-7.  Add a trigger to your flow.
+7.  Create a trigger for the flow.
 
-    **Note:** You can either create a trigger for the flow or use a saved trigger. To use a saved trigger, proceed to the next step.
+    **Tip:** You can either create a trigger for the flow or use a saved trigger. To use a saved trigger, proceed to the next step.To learn more about saved triggers, see [Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-triggers.md)
 
     1.  Under the TRIGGER section, select **Add a trigger**.
 
@@ -166,7 +166,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -213,10 +213,10 @@ Select a published subflow and define the input values. In addition to adding a 
     **Note:** The system only triggers activated flows.
 
 -   Deploy or transfer your flow to another instance.
-    -   Deploy your flow from the application repository when your application is complete and ready for release.
-    -   Transfer your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
+    -   [Deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_SharingApplications.md) your flow from the application repository when your application is complete and ready for release.
+    -   [Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/update-set-transfers.md) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
 
--   **[Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md)**  
+-   **[Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md)**  
 Use generative AI to create a flow from text directionsand images.
 -   **[Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-inbound-email-flow.md)**  
 Start a flow when your instance receives an email.

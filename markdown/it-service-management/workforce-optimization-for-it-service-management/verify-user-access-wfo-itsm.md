@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Understanding user criteria for event types, Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d227582e119">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d391757e119">
 
 To
 
-</th><th align="left" id="d227582e122">
+</th><th align="left" id="d391757e122">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d227582e128">
+</th></tr></thead><tbody><tr><td id="d391757e128">
 
 **Verify user access for all your groups**
 
@@ -50,7 +50,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d227582e140">
+</td></tr><tr><td id="d391757e140">
 
 **Specific groups and team members**
 

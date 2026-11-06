@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using CMDB success advisor for HAM

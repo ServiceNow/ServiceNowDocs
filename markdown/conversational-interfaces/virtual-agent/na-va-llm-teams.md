@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 keywords: [Virtual Agent, Otto, Microsoft, Teams, Integrating]
-breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using ServiceNow Otto for Virtual Agent conversations with Microsoft Teams
@@ -65,8 +65,10 @@ The ServiceNow Otto provides a new AI Search experience in channels with the fol
     \[Omitted image "msteams-llm-QnA-card.png"\] Alt text: ServiceNow Otto displaying the question and answer card with the sparkle image, legal disclaimer, and the description and citation for the question asked.
 
 
-For more information about enabling LLM for your bots integrated with Microsoft Teams, see .
+For more information about enabling LLM for your bots integrated with Microsoft Teams, see [Enable ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-teams.md).
 
+-   **[Enable ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-teams.md)**  
+Enable the large language model \(LLM\)-based conversational experience with ServiceNow Otto for Virtual Agent integrated with Microsoft Teams.
 -   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)**  
 Integrate ServiceNow Otto for Virtual Agent with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
 -   **[Synthesized response in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/msteams-synthesized-response.md)**  

@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Resources, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Access the resources that you own, resources that are owned by a group, or anyon
 
 ## Before you begin
 
-Role required: admin, feature admin \(sn\_cmp.cmp\_root\_admin\)
+Role required: admin
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-add-store-task-details.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
 ---
@@ -30,11 +30,15 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
 4.  Enter the description in the **Description**.
 
-5.  Select the **Add file** in the Attachments, if any.
+5.  Select a questionnaire template in the **Questionnaire template** or select **Create new questionnaire**.
 
-6.  Select **Save** to save the details.
+    Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the workspace.
 
-7.  Select **Continue**.
+6.  Select the **Add file** in the Attachments, if any.
+
+7.  Select **Save** to save the details.
+
+8.  Select **Continue**.
 
     A new prompt Continue without saving appears.
 
@@ -42,9 +46,9 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
     2.  Select **No** to remain in the same form.
 
-8.  Select **Cancel** to discard the details.
+9.  Select **Cancel** to discard the details.
 
-9.  Select **Save** to save the details.
+10. Select **Save** to save the details.
 
     The new store task added appears.
 
@@ -54,4 +58,6 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
     3.  Select **Continue** to go next step.
 
+
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

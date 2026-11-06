@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -81,6 +81,11 @@ Global
 -   sn\_sb\_service\_bridge\_settings
 -   sn\_sb\_transform\_line
 -   sn\_transport\_queue
+-   sn\_fds\_pro\_consumer\_criteria
+-   sn\_fds\_pro\_inbound\_offering\_item
+-   sn\_fds\_pro\_offering\_item
+-   sn\_fds\_con\_outbound\_offering
+-   sn\_fds\_con\_outbound\_subscription
 
 </td><td>
 
@@ -98,7 +103,13 @@ Global
 -   sn\_sb\_rps\_connection
 -   sn\_sb\_service\_bridge\_settings
 -   sn\_sb\_transform\_line
--   sys\_alias
+-   sn\_fds\_pro\_consumer\_criteria
+-   sn\_fds\_pro\_inbound\_offering\_item
+-   sn\_fds\_pro\_inbound\_subscription
+-   sn\_fds\_pro\_offering\_item
+-   sn\_fds\_con\_m2m\_company\_offering
+-   sn\_fds\_con\_outbound\_offering\_item
+-   sn\_fds\_con\_outbound\_subscription
 
 </td></tr><tr><td>
 
@@ -217,7 +228,7 @@ Transporter
 
 </td><td>
 
-Na
+N/a
 
 </td></tr><tr><td>
 
@@ -232,7 +243,81 @@ Employee Profile
 
 </td><td>
 
- 
+sys\_alias
+
+</td></tr><tr><td>
+
+Foundation Data Sync
+
+</td><td>
+
+-   sn\_fds\_data\_processing\_queue
+-   sn\_fds\_offering
+-   sn\_fds\_offering\_item
+-   sn\_fds\_request
+-   sn\_fds\_subscription
+-   sn\_fds\_subscription\_item
+
+</td><td>
+
+-   sn\_fds\_data\_processing\_queue
+-   sn\_fds\_offering\_item
+-   sn\_fds\_subscription
+-   sn\_fds\_subscription\_item
+
+</td></tr><tr><td>
+
+Foundation Data Sync for Providers
+
+</td><td>
+
+-   sn\_fds\_pro\_inbound\_offering\_request
+-   sn\_fds\_pro\_offering
+-   sn\_fds\_pro\_offering\_request
+
+</td><td>
+
+-   sn\_fds\_pro\_inbound\_offering
+-   sn\_fds\_pro\_inbound\_offering\_request
+-   sn\_fds\_pro\_inbound\_subscription\_item
+-   sn\_fds\_pro\_offering
+-   sn\_fds\_pro\_subscription
+-   sn\_fds\_pro\_subscription\_item
+
+</td></tr><tr><td>
+
+Foundation Data Sync for Consumers
+
+</td><td>
+
+-   sn\_fds\_con\_offering
+-   sn\_fds\_con\_offering\_item
+-   sn\_fds\_con\_offering\_request
+-   sn\_fds\_con\_outbound\_offering\_request
+-   sn\_fds\_con\_subscription
+-   sn\_fds\_con\_subscription\_item
+
+</td><td>
+
+-   sn\_fds\_con\_offering\_item
+-   sn\_fds\_con\_subscription
+-   sn\_fds\_con\_subscription\_item
+
+</td></tr><tr><td>
+
+Health
+
+</td><td>
+
+-   sn\_sb\_issue
+-   sn\_sb\_health\_connection\_stats
+-   sn\_sb\_health\_issue
+
+</td><td>
+
+-   sn\_sb\_issue
+-   sn\_sb\_health\_connection\_stats
+-   sn\_sb\_health\_issue
 
 </td></tr></tbody>
 </table>"\*" - Applicable for both provider and consumer.
@@ -248,6 +333,4 @@ The following examples use tables from this page to illustrate each scenario:
 **sn\_sb\_error** \(included in Exclude tables only\): The error records table is empty on the target instance after the clone. The system discards error records that existed on the target and copies none from the source.
 
 **sn\_fds\_offering** \(not included in either list\): The system replaces the target table with source data. Records that existed on the target instance before the clone are replaced by source instance records.
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-reference.md)
 

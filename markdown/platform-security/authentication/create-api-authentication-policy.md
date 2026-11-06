@@ -1,30 +1,30 @@
 ---
 title: Create an API authentication policy
-description: Authentication policies allow you to enforce access restrictions on the APIs based on the specified filter criteria.
+description: Authentication policies enables you to enforce access restrictions on the APIs based on the specified filter criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/create-api-authentication-policy.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API Authentication Policies, API access policy, Access Management]
+breadcrumb: [API authentication policies, API access policy, Authentication, Access Management]
 ---
 
 # Create an API authentication policy
 
-Authentication policies allow you to enforce access restrictions on the APIs based on the specified filter criteria.
+Authentication policies enables you to enforce access restrictions on the APIs based on the specified filter criteria.
 
 ## Before you begin
 
-Role required: admin
+Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **API Authentication Policy**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in these fields.
 
@@ -34,7 +34,7 @@ Role required: admin
     |Description|Short description of the policy.|
     |Application|Scope of the application.|
 
-4.  Right-click the form header and select **Save**.
+4.  Select and hold \(or right-click\) the form header and select **Save**.
 
 5.  From the Policy Inputs tab, select **Edit** to add the existing Filter Criteria.
 

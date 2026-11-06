@@ -1,5 +1,5 @@
 ---
-title: Exploring ITOM Mobile Agent
+title: Explore ITOM Mobile Agent
 description: Learn how you can use ITOM Mobile Agent to manage service reliability on the go, including its capabilities, benefits, and a sample workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/explore-itom-mobile.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Exploring ITOM Mobile Agent
+# Explore ITOM Mobile Agent
 
 Learn how you can use ITOM Mobile Agent to manage service reliability on the go, including its capabilities, benefits, and a sample workflow.
 
@@ -69,7 +69,7 @@ Working with ITOM Mobile Agent has the following benefits:
 
 To learn more about configuring and using ITOM Mobile Agent, see:
 
--   [Configuring ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configure-itom-mobile.md)
--   [Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
+-   [Configure ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configure-itom-mobile.md)
+-   [Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/use-itom-mobile.md)
 -   [ITOM Mobile Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/itom-mobile-settings.md)
 

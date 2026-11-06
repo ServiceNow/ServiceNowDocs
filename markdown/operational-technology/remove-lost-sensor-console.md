@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/remove-lost-sensor-console.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Remove a lost Sensor
@@ -38,13 +38,13 @@ Role required: admin
 
 6.  If the select Sensor is associated to a Site, a warning prompt opens.
 
-    \[Omitted image "image.remove-sensor-warning1"\] Alt text: Warning
+    \[Omitted image "remove-sensor-warning1.png"\] Alt text: Warning
 
-    Removing a Sensor that is associated to a Site cannot be undone.
+    Removing a Sensor that is associated to a Site can't be undone.
 
 7.  If you still intend to remove the Sensor, select **Continue**.
 
-    \[Omitted image "image.remove-second-warning2"\] Alt text: Remove the Sensor
+    \[Omitted image "remove-second-warning2.png"\] Alt text: Remove the Sensor
 
 8.  Select the **Remove Sensor** button to complete the removal.
 
@@ -54,4 +54,6 @@ Role required: admin
 The Sensor is no longer displayed on the Discovery Sensor for OT list page. Existing network connections associated with the Sensor remain in the system for historical purposes.
 
 **Important:** If you remove a lost Sensor from the Console, it may still be powered on and operating at its installed location. Verify that the Sensor is properly powered down and removed from the field after removing them from the Console. If a lost Sensor is found to be operational after having been removed and must be reinstalled on the network, you must contact the Technical Support team for assistance in reconfiguring the Sensor.
+
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md)
 

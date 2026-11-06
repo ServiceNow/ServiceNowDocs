@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -46,15 +46,15 @@ For ADO pipelines, pull requests can be managed for ADO coding source.
 
 2.  Perform the following steps based on your orchestration tool.
 
-<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d403096e222">
+<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d301782e222">
 
 Orchestration tool
 
-</th><th align="left" id="d403096e225">
+</th><th align="left" id="d301782e225">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d403096e231">
+</th></tr></thead><tbody><tr><td id="d301782e231">
 
 **Jenkins**
 
@@ -64,7 +64,7 @@ Steps
 2.  Select the **Pull Request Pipeline Tracking Check** option.
 
 
-</td></tr><tr><td id="d403096e258">
+</td></tr><tr><td id="d301782e258">
 
 **GitHub Actions**
 
@@ -75,7 +75,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d403096e291">
+</td></tr><tr><td id="d301782e291">
 
 **ADO**
 

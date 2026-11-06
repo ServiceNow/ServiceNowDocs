@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Summary of transfer order line tasks
@@ -77,16 +77,6 @@ After the **Received** task is closed, this task is created. After you close the
 
 **Related topics**  
 
-
-[Domain separation and Asset Management]()
-
-[Quick start test for Asset Management]()
-
-[Installed with Asset Management]()
-
-[Installed with Model Management]()
-
-[Transfer order line fields]()
 
 [Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
 

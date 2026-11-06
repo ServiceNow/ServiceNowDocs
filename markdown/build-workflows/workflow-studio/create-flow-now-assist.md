@@ -1,5 +1,5 @@
 ---
-title: Create a flow with Now Assist
+title: Create a flow with AI
 description: Use generative AI to create a flow from text directions and images.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-flow-now-assist.html
@@ -7,30 +7,28 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 9
+last_updated: "2026-09-15"
+reading_time_minutes: 8
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Create a flow, Building flows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
-# Create a flow with Now Assist
+# Create a flow with AI
 
 Use generative AI to create a flow from text directionsand images.
-
-\[Omitted video\] Description: Create a flow with Now Assist
 
 ## Before you begin
 
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-skill.md).
--   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md).
--   Turn on the flow recommendations skill. See [Turn on the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+-   Turn on the flow generation skill.
+-   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-on-the-flow-generation-with-images-skill.md).
+-   Turn on the flow recommendations skill.
 
 ## About this task
 
-Generate flows by using text prompts and image. Describe the flow in details, attach an image that illustrates the process clearly, and generate the flow with Now Assist. You can use only text prompts, only image, or both to generate the flow. Review the and flow and if required, make necessary updates to the prompts and regenerate the flow preview.
+Generate flows by using text prompts and image. Describe the flow in details, attach an image that illustrates the process clearly, and generate the flow with AI. You can use only text prompts, only image, or both to generate the flow. Review the and flow and if required, make necessary updates to the prompts and regenerate the flow preview.
 
 ## Procedure
 
@@ -38,7 +36,7 @@ Generate flows by using text prompts and image. Describe the flow in details, at
 
 2.  From the Workflow Studio home page, select **New** &gt; **Flow**.
 
-3.  To use the flow generation or flow generation with images skills, select the **Build with Now Assist** tab.
+3.  To use the flow generation or flow generation with images skills, select the **Build with AI** tab.
 
 4.  To use the flow recommendations skill, select the **Build on your own** tab.
 
@@ -72,11 +70,11 @@ Application scope to create your flow in. Global is the default. The application
 
 </td></tr><tr><td>
 
-Now Assist directions
+AI directions
 
 </td><td>
 
-Text and image used by Now Assist to create your flow. You can use only text, only image, or image and text both to create the flow. For example, if you attach an image of a flow chart, you can add additional information about the flow as text directions.Describe the flow trigger and its data first. Then describe all the actions and flow logic in the order you want them in the flow. Include as much detail as possible for the best results.
+Text and image used by flow generation to create your flow. You can use only text, only image, or image and text both to create the flow. For example, if you attach an image of a flow chart, you can add additional information about the flow as text directions.Describe the flow trigger and its data first. Then describe all the actions and flow logic in the order you want them in the flow. Include as much detail as possible for the best results.
 
 </td></tr><tr><td>
 
@@ -84,10 +82,10 @@ Try an example
 
 </td><td>
 
-Series of text examples to insert into the Now Assist directions field. Select this option to insert example text in the directions field. Each example illustrates directions that will build a flow outline. Trying an example overwrites any directions text that you previously added. You can use the undo and redo options to revert to your previous directions.
+Series of text examples to insert into the AI directions field. Select this option to insert example text in the directions field. Each example illustrates directions that will build a flow outline. Trying an example overwrites any directions text that you previously added. You can use the undo and redo options to revert to your previous directions.
 
 </td></tr></tbody>
-</table>    Follow these general guidelines when writing Now Assist directions.
+</table>    Follow these general guidelines when writing AI directions.
 
     -   **Always describe the trigger first**
 
@@ -163,7 +161,7 @@ Run with roles
 
 </td><td>
 
-Roles that the flow runs with. This option is only available when **Run as** is set to **user who initiates the session**. You can add one or more roles that the flow can use to access data. These roles only apply to running the flow. For example, add the itil role to flows that need to access ITSM data.
+Roles that the flow runs with. This option is only available when **Run as** is set to **user who initiates the session**. You can add one or more roles that the flow can use to access data. These roles only apply to running the flow. For example, add the itil role to flows that must access ITSM data.
 
 </td></tr><tr><td>
 
@@ -183,17 +181,13 @@ Priority level at which you want the system to run this flow by default. Options
 
     Each time you select the option, the system inserts a different example of flow directions text. There are three example directions to choose from. Each example direction produces a different type of flow. Selecting Try an example overwrites any directions text that you previously added. You can use the undo and redo options to revert to your previous directions.
 
-7.  Select **Build flow with Now Assist**.
-
-    \[Omitted image "example-build-flow-with-now-assist.png"\] Alt text: Example Build with Now Assist window with a flow named test flow and directions to build a flow that runs every day at midnight.
+7.  Select **Build flow with AI**.
 
     Workflow Studio uses your text directions to build a flow outline. If successful, Workflow Studio displays a preview of the flow in the diagramming view. Beneath each node of the flow there is an annotation showing the text directions used to generate the item.
 
-    \[Omitted image "example-flow-preview-with-annotations.png"\] Alt text: Example flow preview in diagramming view. Each node shows an annotation of the text directions used.
+8.  If the generated flow preview does not meet your needs, you can update the AI directions, and select **Rebuild flow**.
 
-8.  If the generated flow preview does not meet your needs, you can update the Now Assist directions, and select **Rebuild flow**.
-
-    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+    Each time you build or rebuild a flow, the operation counts as AI usage tracked by your subscription. To track your AI usage, see [Monitoring in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-center-monitoring.md).
 
 9.  If you want to stop creating a flow and return to the Workflow Studio homepage, you can select **Discard flow**.
 
@@ -201,18 +195,14 @@ Priority level at which you want the system to run this flow by default. Options
 
 10. Select **Save and edit flow** to review the flow outline.
 
-    **Note:** Opening a flow does not count as an assist.
+    **Note:** Opening a flow does not count as AI usage.
 
 
 ## Result
 
-Now Assist creates a flow outline with the name you provided. If the large language model couldn't find a matching action, flow logic, or subflow for your request, it may add one or more placeholder steps instead.
+Workflow Studio creates a flow outline with the name you provided. If the large language model couldn't find a matching action, flow logic, or subflow for your request, it may add one or more placeholder steps instead.
 
 ## Create a flow with a scheduled trigger
-
-\[Omitted image "example-build-with-now-assist-with-preview.png"\] Alt text: Create flow screen with options to build a flow with Now Assist
-
-\[Omitted image "example-build-flow-with-now-assist.png"\] Alt text: Example Build with Now Assist window with directions to build a flow that runs every day at midnight.
 
 You can use these prompt values to create a flow with a scheduled trigger.
 
@@ -220,9 +210,9 @@ You can use these prompt values to create a flow with a scheduled trigger.
 
     Assign new problems for triage daily
 
--   **Now Assist directions**
+-   **AI directions**
 
-    Create a flow that runs every day at midnight, and then find all the newly created problem records for the past day. Iterate over them. If they are not assigned, update it to assign the problem to level 1 triage group, move the state to "triaged," and then send a notification to the group.
+    Create a flow that runs every day at midnight to find newly created problem records. Iterate over them. If they aren't assigned, update it to assign the problem to level 1 triage group. Move the state to "triaged," and then send a notification to the group.
 
 
 ## What to do next

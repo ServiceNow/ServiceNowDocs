@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-08-25"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -48,10 +48,25 @@ For more information about how to create maintenance management plan records, se
 
         **Note:** For example, if a floor has only 1 reservation for a day, then, only 10% of space is optimized for a selected floor. This range falls under the minimum threshold utilization range of 40. The maintenance case in this case is deactivated. The deactivation of a maintenance case also depends on the interval time of a scheduled job. For example, if the schedule job is scheduled to run daily, the maintenance cases that are showing low space optimization are removed or deactivated by the agentic AI workflow. However, if a scheduled job is scheduled to run on an hourly basis, all maintenance cases showing minimum threshold value are removed or deactivated except one. The system retains one underutilized maintenance case before deactivating all other maintenance cases that are scheduled to run on an hourly basis. When cases get deactivated, the status changes to **Closed complete** in the Workplace Maintenance cases table.
 
-    -   The **sn\_wsd\_maintenance.optmise\_cleaning\_max\_utilisation\_threshold** property analyzes the maximum utilization threshold for a maintenance case. The default value is 80. If the utilization for a workplace maintenance plan case falls within this range or is higher, the Optimize Cleaning Activities agentic AI workflow adds a new maintenance case. The optimized cleaning activities are handled efficiently.
+    -   The **sn\_wsd\_maintenance.optmise\_cleaning\_max\_utilisation\_threshold** property analyzes the maximum utilization threshold for a maintenance case. The default value is 80. If the utilization for a workplace maintenance plan case falls within this range or is higher, the Optimize Cleaning Activities agentic AI workflow adds a new maintenance case. This ensures optimized cleaning activities are handled efficiently.
 
 1.  [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md)  
 This team of workplace agents can find open maintenance cases and optimize it for workplace maintenance activities. These agents can optimize a maintenance case based on the utilization rate of a location for which a maintenance case is created.
 
 **Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+
+**Related topics**  
+
+
+[Manage temporary space closures agentic workflow]()
+
+[Help manage workplace reservations agentic workflow]()
+
+[Automate map updates agentic workflow]()
+
+[Workplace Concierge agentic workflow]()
+
+[Process image to record agent for workplace case creation]()
+
+[Implement Autonomous L1 Agent for Workplace]()
 

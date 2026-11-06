@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-edit-consumer-profile.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View or edit a consumer profile
@@ -40,4 +40,9 @@ Role required: sn\_customerservice.consumer
 
 6.  Fill in the fields on the Change Password pop-up window and select **Update**.
 
+
+**Related topics**  
+
+
+[Change your password from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/change-password-consumer-portal.md)
 

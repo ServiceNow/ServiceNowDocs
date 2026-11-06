@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -54,12 +54,14 @@ When you anonymize a visitor, the visitor record is deleted. In all current visi
 
 ## Result
 
-The visitor is anonymized and all the details of the visitor are deleted. Any future registrations for the visitor are canceled, and the data in the fields are replaced with random values.
+The visitor is anonymized and all the details of the visitor are deleted. Any future registrations for the visitor are canceled, and the data in the fields is replaced with random values.
 
 **Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
+
+[Use the receptionist portal]()
 
 [Update a visitor registration]()
 

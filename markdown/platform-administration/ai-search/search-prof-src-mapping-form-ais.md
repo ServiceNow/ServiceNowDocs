@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Search Profile - Search Source Mapping form
@@ -60,7 +60,7 @@ Application scope for the search source mapping record. This field is automatica
 
 </td></tr><tr><td>
 
-Exclude in ServiceNow Otto® Genius Results
+Exclude in Now Assist Genius Results
 
 </td><td>
 
@@ -68,7 +68,7 @@ Option to exclude content from this search source when generating Genius Result 
 
 </td></tr><tr><td>
 
-Exclude Attachments in ServiceNow Otto Genius Results
+Exclude Attachments in Now Assist Genius Results
 
 </td><td>
 

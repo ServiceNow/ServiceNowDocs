@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [OT Asset Management, Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets
@@ -71,9 +71,11 @@ The CI \[cmdb\_ci\] table has the **OT entity** \[cmdb\_ot\_entity\] field. Also
 **Related topics**  
 
 
-[OT Asset Management licensing]()
+[Installing OT Asset Management]()
 
-[View the license report for the OT Asset Management application]()
+[Installed with OT Asset Management]()
 
 [OT Asset Workspace]()
+
+[OT Asset Management licensing]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Configure, Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, SMS with Amazon End User Messaging, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Set up SMS End User Messaging Service and AWS resources
@@ -32,7 +32,7 @@ This further enables IAM users to call the AWS End User Messaging APIs to send o
 
 ## Procedure
 
-1.  Navigate to AWS end user messaging and select **Manage SMS** to procure a phone number.
+1.  Navigate to AWS end user messaging and select **SMS &amp; RCS** to procure a phone number.
 
     To learn how to procure a phone number, see [documentation](https://docs.aws.amazon.com/sms-voice/latest/userguide/phone-numbers-request)
 
@@ -50,7 +50,7 @@ This further enables IAM users to call the AWS End User Messaging APIs to send o
 
 5.  After you run the CloudFormation template, generate the credentials for the IAM user that is created.
 
-    The CloudFormation template creates an IAM user with permissions required to call the End User Messaging APIs, that enable outbound SMS and uploading media files to an S3 bucket. You must create an access key for the IAM user. The access key ID and secret access key are required during the setup on the ServiceNow platform. To learn how to create an access key for an IAM user, see [documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
+    The CloudFormation template creates an IAM user with the permissions required to call the End User Messaging APIs. These permissions enable outbound SMS and uploading media files to an S3 bucket. Create an access key for the IAM user. The access key ID and secret access key are required during the setup on the ServiceNow platform. To learn how to create an access key for an IAM user, see [documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
 
 
 **Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)

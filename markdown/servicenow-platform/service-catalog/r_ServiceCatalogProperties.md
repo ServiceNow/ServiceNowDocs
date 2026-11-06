@@ -7,8 +7,8 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 20
+last_updated: "2026-09-10"
+reading_time_minutes: 21
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -224,7 +224,7 @@ sn\_now\_assist\_cr.llm.accept\_user\_input\_as\_is
 
 </td><td>
 
-When filling out catalog forms in Now Assist, this enables users to provide input to be taken as is. This applies only to textual fields \(for example, single-line, multi-line, HTML\). However, if Now Assist determines that user is attempting to 'skip' a field or to 'exit' the conversation, these actions take place with higher priority. There are these two uses cases:
+When filling out catalog forms in ServiceNow Otto, this enables users to provide input to be taken as is. This applies only to textual fields \(for example, single-line, multi-line, HTML\). However, if ServiceNow Otto determines that user is attempting to 'skip' a field or to 'exit' the conversation, these actions take place with higher priority. There are these two uses cases:
 
 -   A: User enters meaningless answer, for example, "abcd"
 -   B: User enter long content so that the LLM response is the empty values
@@ -259,17 +259,6 @@ When the number of the questions exceed this limit, conversational catalog recom
 
 -   **Type:** integer
 -   **Default value:** 10
-
-</td></tr><tr><td>
-
-sn\_now\_assist\_cr.enable\_question\_grouping
-
-</td><td>
-
-Determines whether to enable question grouping feature. By default, it is false to turn off question grouping. Setting it to true enables this feature which brings the benefit of grouping semanticly related questions together, reducing conversation turns and improving requester productivity.
-
--   **Type:** true/false
--   **Default value:** false
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -779,6 +768,14 @@ Use Cart V2 widget in Header Menu widget \(**glide.sc.portal.use\_cart\_v2\_head
 
 If selected, the Cart V2 \(SC Shopping Cart widget \(ID: sc-shopping-cart-v2\)\) widget is enabled in the Header Menu widget of Service Portal.
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Maximum number of questions for a catalog item for it to be eligible for request submission in the conversation mode in Virtual Agent.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Mobile
@@ -874,6 +871,17 @@ The maximum number of orphan sc\_item\_option records to delete when any sc\_req
 </td><td>
 
 Maximum number of orphan sc\_item\_option records to delete when any sc\_req\_item record is deleted.
+
+</td></tr><tr><td>
+
+glide.sc.catalog\_item.subscription\_enforcement
+
+</td><td>
+
+Control whether service subscriptions can bypass "Available for" user criteria on catalog items using the glide.sc.catalog\_item.subscription\_enforcement property. This setting verifies that only users meeting specific criteria can access items, even with a parent service subscription.
+
+-   require\_criteria: Prevents access to users who don't meet the item's criteria, even if they are subscribed to the parent service offering.
+-   allow\_bypass: Preserves existing behavior that means users gain access through the "Available for" user criteria. "allow\_bypass" is a default value.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog-reference.md)

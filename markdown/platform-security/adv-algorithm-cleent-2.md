@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/adv-algorithm-cleent-2.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Column Level Encryption, Column Level Encryption, Encryption]
 ---

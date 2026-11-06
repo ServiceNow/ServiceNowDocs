@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Portal configuration page widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Service Portal configuration page widgets, Widget library, Using po
 # Portal config widget
 
 The Portal Config widget is the left panel of the Branding Editor, which you use to configure themes for your portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
+
+
 
 **Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/sp-config-widgets.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -314,18 +314,6 @@ SIR: Create Security Incident via Security Incident Catalog
 </td><td>
 
 Determine whether a user can successfully create a security incident from the catalog.
-
-</td><td>
-
-Madrid
-
-</td></tr><tr><td>
-
-SIR: Security Incident life cycle
-
-</td><td>
-
-Validate the response tasks of the Policy Violation workflow.
 
 </td><td>
 

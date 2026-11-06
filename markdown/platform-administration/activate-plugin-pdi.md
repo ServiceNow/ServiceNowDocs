@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/activate-plugin-pdi.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate a plugin, ServiceNow plugins, Basic system configuration, Get started, Administer]
+breadcrumb: [Activate a plugin, ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Activate a plugin on a personal developer instance

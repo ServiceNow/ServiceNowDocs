@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-08-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Microsoft Teams, MSTeams, tenant, Virtual Agent, Conversational Integration, bot]
-breadcrumb: [Integrate multiple ServiceNow instances with a single MS Teams tenant, Specialized VA integrations for Teams, Integrate VA with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate multiple ServiceNow instances with a single MS Teams tenant, Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrate your self-configured bot with single Microsoft Teams tenant
@@ -39,7 +39,7 @@ Ensure that you created a bot on the Microsoft Teams tenant for each ServiceNow 
 
     **Note:** The virtual\_agent\_admin can install bots with multiple instances or bots apart from production in the ServiceNow instance and avail all the features of Virtual Agent and the flexibility to integrate one of the multiple ServiceNow instances with a bot on a single Microsoft Teams tenant.
 
-    1.  Log in to your ServiceNow instance \(secondary instance for integrating with a bot on single Microsoft Teams tenant\) and navigate to **All** &gt; **Conversational Interfaces** &gt; **Channels and Integrations**.
+    1.  Log in to your ServiceNow instance \(secondary instance for integrating with a bot on single Microsoft Teams tenant\) and navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
     2.  In **General Settings** under **Channels and integrations**, select **View All**.
 

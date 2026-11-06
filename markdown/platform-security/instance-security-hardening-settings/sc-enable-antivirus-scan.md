@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
@@ -16,23 +16,104 @@ breadcrumb: [File and resources, Hardening settings, Platform Security]
 
 The **com.glide.snap.enable\_scan** property activates the antivirus scan functionality.
 
+If **com.glide.snap.enable\_scan** isn't set to the recommended value of **true**, then antivirus scanning is disabled.
+
 Set **com.glide.snap.enable\_scan** to the recommended value of **true** to enable antivirus scanning.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**com.glide.snap.enable\_scan**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)|
-|Purpose|To enable or disable antivirus scanning on the specific instance.|
-|Recommended value|true|
-|Default value|true|
-|Data type|Boolean|
-|Security risk|\(High\) Antivirus scanning helps protect your instance against virus infections that can be introduced by file attachments to your system records, such as incidents, problems, and stories.|
-|Security risk rating|7.7|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**com.glide.snap.enable\_scan**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.7
+-   CVSS rating: High
+-   Security risk details: Users may download malicious files leading to desktop and session compromise.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

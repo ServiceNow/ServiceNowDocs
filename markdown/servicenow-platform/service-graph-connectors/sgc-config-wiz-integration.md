@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2025-11-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Wiz, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Dependencies and requirements:
 
 -   Wiz advanced or standard license
 -   The Integration Commons for CMDB store app, which is automatically installed. See [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   ITOM Licensing plugin \(com.snc.itom.license\). See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   Discovery and Service Mapping Patterns \(sn\_itom\_pattern\). See [Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/install-discovery-service-mapping-patterns.md).
 -   Discovery Core \(com.snc.discovery.core\)

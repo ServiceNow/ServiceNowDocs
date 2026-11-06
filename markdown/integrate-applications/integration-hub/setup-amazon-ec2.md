@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Amazon EC2 Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -44,15 +44,15 @@ Role required: admin
 
 5.  On the form, fill these values.
 
-<table id="choicetable_v11_rdx_glb"><thead><tr><th align="left" id="d601435e192">
+<table id="choicetable_v11_rdx_glb"><thead><tr><th align="left" id="d360616e192">
 
 Field
 
-</th><th align="left" id="d601435e195">
+</th><th align="left" id="d360616e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d601435e201">
+</th></tr></thead><tbody><tr><td id="d360616e201">
 
 **Name**
 
@@ -60,7 +60,7 @@ Description
 
 Name to uniquely identify the connection record. For example, enter `AWS Credentials`.
 
-</td></tr><tr><td id="d601435e213">
+</td></tr><tr><td id="d360616e213">
 
 **Active**
 
@@ -68,7 +68,7 @@ Name to uniquely identify the connection record. For example, enter `AWS Credent
 
 Option to actively use the credential record.
 
-</td></tr><tr><td id="d601435e222">
+</td></tr><tr><td id="d360616e222">
 
 **Access Key ID**
 
@@ -76,7 +76,7 @@ Option to actively use the credential record.
 
 Access Key ID of the user with full access to EC2.
 
-</td></tr><tr><td id="d601435e231">
+</td></tr><tr><td id="d360616e231">
 
 **Secret Access Key**
 
@@ -84,7 +84,7 @@ Access Key ID of the user with full access to EC2.
 
 Secret Access Key of the user with full access to EC2.
 
-</td></tr><tr><td id="d601435e241">
+</td></tr><tr><td id="d360616e241">
 
 **Credential alias**
 
@@ -92,7 +92,7 @@ Secret Access Key of the user with full access to EC2.
 
 Associated credential record.
 
-</td></tr><tr><td id="d601435e250">
+</td></tr><tr><td id="d360616e250">
 
 **Authentication Algorithm**
 

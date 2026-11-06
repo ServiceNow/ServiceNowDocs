@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/reduce-risk-bulk-edit.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [bulk edit, risk modification, compensating controls, vulnerable items]
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
@@ -53,6 +53,4 @@ If you're a Vulnerability admin or an analyst, the state change approval \(CA\#\
 If you're a Remediation Owner, the state change approval \(CA\#\) follows the configured approval process. After it's approved, the risk rating updates on the selected vulnerable items and rolls up to the new Remediation Task.
 
 **Note:** The sn\_sec\_exception.modify\_risk\_approval\_required system property controls whether a Remediation Owner request requires approval. This property is set to true by default. If set to false, the change approval moves directly to **Approved** and the risk rating updates immediately for Remediation Owners too.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
 

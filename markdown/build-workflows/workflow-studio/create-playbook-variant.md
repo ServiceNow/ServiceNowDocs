@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Playbook variants, Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbook variants, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a playbook variant
@@ -32,7 +32,7 @@ Role required: admin or playbook.admin
 
 5.  Fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d158415e92">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d162964e92">
 
 **Variant name**
 
@@ -40,7 +40,7 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d158415e104">
+</td></tr><tr><td id="d162964e104">
 
 **Conditions**
 

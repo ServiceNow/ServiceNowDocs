@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/using-public-sector-digital-services.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -16,7 +16,7 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 <table id="table_w2j_k51_4cc" class="nav-card"><tbody><tr><td>
 
-[Grants Management \[Omitted image "ind-financial-services.svg"\] Alt text: Guide grants agencies through the lifecycle of creating and publishing a grant program and accepting proposals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-grants-management-playbook.md)
+[Government Service Portal \[Omitted image "ind-government.svg"\] Alt text: Report issues, request public records, search for information, and seek assistance from a government service agent— all within a customizable interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/using-psds-government-service-portal-overview.md)
 
 </td><td>
 
@@ -24,13 +24,9 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 </td><td>
 
-[Government Service Portal \[Omitted image "ind-government.svg"\] Alt text: Report issues, request public records, search for information, and seek assistance from a government service agent— all within a customizable interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/using-psds-government-service-portal-overview.md)
+[Public Sector Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up CSM Configurable Workspace and expand the Workspace UI to optimize agent government service processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-csm-workspace.md)
 
 </td></tr><tr><td>
-
-[CRM Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up CSM Configurable Workspace and expand the Workspace UI to optimize agent government service processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-csm-workspace.md)
-
-</td><td>
 
 [Portals \[Omitted image "bus-service-portal.svg"\] Alt text: A one-stop shop to manage and submit public service requests, or applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-portals.md)
 
@@ -38,13 +34,17 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 [Virtual Agent \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Use Virtual Agent to create chatbot conversations tailored to public sector use cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/using-va-for-public-sector-digital-services.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Mobile Agent \[Omitted image "bus-mobile-phone.svg"\] Alt text: Enable the development of public sector applications for the delivery of digital services to constituents, such as benefits, licenses, and service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-mobile-agent.md)
 
+</td></tr><tr><td>
+
+ 
+
 </td><td>
 
-[ServiceNow Otto \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use ServiceNow Otto for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-using.md)
+[ServiceNow Otto® \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use ServiceNow Otto for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-using.md)
 
 </td><td>
 

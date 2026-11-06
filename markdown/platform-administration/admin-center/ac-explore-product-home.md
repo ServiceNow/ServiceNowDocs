@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Admin Center, Get started, Administer]
+breadcrumb: [Configuration Hub, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configure the product home page

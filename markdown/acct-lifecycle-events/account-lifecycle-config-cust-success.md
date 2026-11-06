@@ -1,33 +1,29 @@
 ---
-title: Customer success
-description: This section describes the different customer success capabilities and how to configure them.
+title: Configure customer success
+description: Customer success capabilities help you monitor and manage the health of customer accounts throughout their lifecycle. Configure these capabilities to track engagements, identify risks, and support retention goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-config-cust-success.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Customer Success Management]
 ---
 
-# Customer success
+# Configure customer success
 
-This section describes the different customer success capabilities and how to configure them.
+Customer success capabilities help you monitor and manage the health of customer accounts throughout their lifecycle. Configure these capabilities to track engagements, identify risks, and support retention goals.
 
--   **[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)**  
-Define the basic customer success components.
--   **[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)**  
-Create playbooks to define planned and unplanned activities during the engagement lifecycle.
--   **[Set up the Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-dce.md)**  
-Configure the Data Context Engine to collect data from different data sources and associate it with a relevant context table.
--   **[Create a product capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-prod-cap.md)**  
-Create a product capability record and associate with one or more capability usage records.
--   **[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engagement.md)**  
-Configure metrics to calculate the health and risk score for an engagement.
--   **[Create a success blueprint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint-template.md)**  
-Create a success blueprint template with predefined success objectives and outcomes.
--   **[Create an implementation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-imp-record.md)**  
-Track the progress of a partner or customer implementing a product or a service.
+-   **[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)**  
+Define the basic customer success components
+-   **[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engagement.md)**  
+Configure engagement health scores, risk definitions, and the color banding table to monitor and visualize the health and risk of engagements.
+-   **[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)**  
+Configure success blueprint templates and the supporting elements that customer success managers use to define how success is measured for an engagement.
+-   **[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)**  
+Configure product capabilities, adoption roadmap templates, and capability usage tracking to measure how customers use your products.
+-   **[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)**  
+Integrate Zoom with touchpoint records to schedule virtual meetings and generate AI-powered meeting summaries.
 -   **[Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-crm-integration.md)**  
 Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 

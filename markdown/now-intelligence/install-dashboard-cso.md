@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Chief Information Security Officer \(CISO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Information Security Officer \(CISO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Install the Chief Information Security Officer Dashboard

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Identify the supply and demand for models within a stockroom in the Enterprise Asset Workspace
@@ -68,18 +68,8 @@ The supply and demand details are stored in the Model and stockrooms \[sn\_asset
 
     -   The supply graph shows the count of the following:
         -   **In stock assets**: Number of associated assets that are currently in the In stock state and Available, Reserved, Pending transfer, and Pending install substate within the given stockroom.
-        -   **Incoming transfer order**:
-            -   Starting with version 9.1.0 of the Enterprise Asset Management application, the **Incoming transfer order** count is the number of associated assets that are currently being transferred to the given stockroom. This number is based on the sum of the **Quantity remaining** field value for all associated transfer order lines.
-            -   Prior to version 9.1.0 of the Enterprise Asset Management application, the **Incoming transfer order** count is the number of associated assets that have already been transferred to the given stockroom. This number is based on the sum of the following value for all associated transfer order lines:
-
-                **Quantity requested** field value - **Quantity remaining** field value
-
-        -   **Incoming purchase order**:
-            -   Starting with version 9.1.0 of the Enterprise Asset Management application, the **Incoming purchase order** count is the number of associated assets that have been ordered but not yet delivered to the given stockroom. This number is based on the sum of the **Remaining quantity** field value for all associated purchase order lines.
-            -   Prior to version 9.1.0 of the Enterprise Asset Management application, the **Incoming purchase order** count is the number of associated assets that have been ordered and delivered to the given stockroom. This number is based on the sum of the following value for all associated purchase order lines:
-
-                **Ordered quantity** field value - **Remaining quantity** field value
-
+        -   **Incoming transfer order**: Number of associated assets that are currently being transferred to the given stockroom. This number is based on the sum of the **Quantity remaining** field value for all associated transfer order lines.
+        -   **Incoming purchase order**: Number of associated assets that have been ordered but not yet delivered to the given stockroom. This number is based on the sum of the **Remaining quantity** field value for all associated purchase order lines.
     -   The demand graph shows the count of the following:
         -   **Outgoing transfer order**: Number of associated assets that are currently being transferred from the given stockroom. This number is based on the sum of the **Quantity requested** field value for all associated transfer order lines.
         -   **Asset requests**: Number of associated enterprise asset requests. This number is based on the sum of the **Quantity** field value for all associated request items.

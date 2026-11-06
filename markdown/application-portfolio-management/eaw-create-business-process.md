@@ -1,18 +1,18 @@
 ---
 title: Add or edit a business process
-description: .A Business process is a collection of related, structured activities performed to achieve a specific business outcome. Use business processes to model how your organization operates and to associate the business applications that support those activities.
+description: A Business process is a collection of related, structured activities performed to achieve a specific business outcome. Use business processes to model how your organization operates and to associate the business applications that support those activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-business-process.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage business processes, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage business processes, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit a business process
 
-.A Business process is a collection of related, structured activities performed to achieve a specific business outcome. Use business processes to model how your organization operates and to associate the business applications that support those activities.
+A Business process is a collection of related, structured activities performed to achieve a specific business outcome. Use business processes to model how your organization operates and to associate the business applications that support those activities.
 
 ## Before you begin
 

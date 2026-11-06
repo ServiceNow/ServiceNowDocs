@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
     -   Automatic: The skill is initiated without user interaction.
     -   User trigger: The skill is initiated when by an user action.
 7.  For the demand summarization skill, the triggers behaving in the following ways:
-    -   Automatic: The skill is initiated without user interaction. When users navigate to the **AI Overview** page of a demand, the summary of the record is auto-generated. By default, this trigger is set for demands in the Submitted, Screening, Qualified, and Approved states.
+    -   Automatic: The skill is initiated without user interaction. When users navigate to the **AI Overview** page of a demand, the summary of the record is auto-generated.
     -   User trigger: The skill is initiated when users select the **Summarize** action on a demand record.
 8.  Define and review the user accesses.
 

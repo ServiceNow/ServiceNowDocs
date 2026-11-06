@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-operations-core-data-model.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [FSO Core, Financial Services Operations, data model, financial institutions, service organizations, customer data, financial accounts, product models, sold products, financial services, treasury services, foundational data, operational workflow, banking, insurance]
 breadcrumb: [Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
 

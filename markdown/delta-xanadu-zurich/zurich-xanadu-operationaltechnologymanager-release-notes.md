@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationaltechnologymanager-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -214,16 +214,6 @@ Zurich
 -   **[Use Enhanced Access Control for OT](https://www.servicenow.com/docs/access?context=ot-enhanced-access-control&family=zurich&ft:locale=en-US)**
 
 Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
-
-
- -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
  -   **[Operational Technology Network Map](https://www.servicenow.com/docs/access?context=utilizing-ot-network-map&family=zurich&ft:locale=en-US)**

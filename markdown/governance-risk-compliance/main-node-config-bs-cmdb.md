@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/main-node-config-bs-cmdb.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring 360º views for services and processes, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ For the Service \(CMDB\) Main node configuration, the source typically used is O
 
 ## Node relationship configurations
 
-You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag in the Service \(CMDB\) Main node configuration as shown in the example.
+You can configure the node relationships in the Service \(CMDB\) Main node configuration. Configure the sequence, source table, relationship table, target table, and active flag as shown in the example.
 
 \[Omitted image "node-rel-config-bs.png"\] Alt text: Business Service \(CMDB\) Main node configuration.
 

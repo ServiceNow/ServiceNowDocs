@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Get your team brief, Use, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Get your team brief, Use Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Proactive Prompts for managers
@@ -83,11 +83,35 @@ Displays employees who haven’t had a job change in a while. -   To mark the su
 
 </td></tr><tr><td>
 
-Plan growth conversations
+
 
 </td><td>
 
-Recommends you to start growth conversations with your team to help their career journey. Chat with NowAssist to schedule conversations and get employee activity summaries.
+
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+
 
 </td></tr></tbody>
 </table>3.  To set your preferences on the display of prompts:

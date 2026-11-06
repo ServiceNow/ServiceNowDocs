@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using decision tables, Use, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Create decision tables in Workflow Studio
@@ -18,7 +18,7 @@ Create decision tables in Workflow Studio to embed business logic into a series 
 
 ## Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -266,7 +266,7 @@ Option to filter the list of reference records in the result column when the res
 
     For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
-17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Decision rule row menu options.\) to the left of the row number, and then select **Open in Decision rule view**.
+17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \[Omitted image "ellipses.png"\] Alt text: to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 

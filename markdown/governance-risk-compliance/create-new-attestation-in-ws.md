@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-attestation-in-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Certifying services using self-attestation, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_oper\_res.manager
 
     You can select the type of assessment as shown in the table.
 
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d237320e125">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d131902e125">
 
 Choice
 
-</th><th align="left" id="d237320e128">
+</th><th align="left" id="d131902e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d237320e134">
+</th></tr></thead><tbody><tr><td id="d131902e134">
 
 **Select __Smart assessment__.**
 
@@ -52,7 +52,7 @@ Description
 
 Select the Smart Assessment method for performing the self-attestation.
 
-</td></tr><tr><td id="d237320e152">
+</td></tr><tr><td id="d131902e152">
 
 **Select __Legacy assessment__.**
 
@@ -85,6 +85,8 @@ Select the Legacy assessment method for performing the self-attestation.
 
     \[Omitted image "self-attest-purpose.png"\] Alt text: Purpose.
 
+    **Note:** Beginning with Operational Resilience Release 22.0.x, contributors can answer questions, but only an assessor can submit the self-attestation assessment.
+
 7.  Select the **Default Self Attestation HTML Template** from the **PDF Template** field.
 
     You can use the Default Self Attestation HTML Template to generate the PDF of the self-attestation report.
@@ -95,7 +97,7 @@ Select the Legacy assessment method for performing the self-attestation.
 
     The following informational message is displayed: **Select the e-signature to be embedded in the template.**
 
-    **Note:** You must select the supported file format, such as either the JPEG, PNG, BMP, GIF, ICO, SVG format, for the signature image. If you select a file format that is not supported, such as the Microsoft Word format, the following error message is displayed on the screen: **Selected file type is invalid. Valid field types: JPEG, PNG, BMP, GIF, ICO, SVG.**
+    **Note:** You must select the supported file format, such as either the JPEG, PNG, BMP, GIF, ICO, SVG format, for the signature image. If you select a file format that is not supported, such as the Microsoft Word format, the following error message is displayed on the screen: **Selected file type is invalid. Valid file types: JPEG, PNG, BMP, GIF, ICO, SVG.**
 
     If you want to delete an existing image and add a new image instead, you can use the **Delete** icon in the **Signature** field and add another signature image.
 
@@ -121,7 +123,7 @@ Select the Legacy assessment method for performing the self-attestation.
 
 13. To send the attestation to the owner, select **Attest** in the form.
 
-    The self-attestation record moves to the **Awaiting attestation** state and an assessment is created for it. The owner of the self-attestation record receives an email notification with a link to access the record in the Operational Resilience Workspace.
+    The self-attestation record moves to the **Awaiting attestation** state and an assessment is created for it.
 
 
 ## What to do next

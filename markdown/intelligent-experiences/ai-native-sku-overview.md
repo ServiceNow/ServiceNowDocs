@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-native-sku-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [AI native, Foundation, Advanced, Prime, AI tiers, ITSM, CSM, HRSD, Industry]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
 ---
 
 # ServiceNow product tiers
@@ -52,7 +52,7 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 
 -   **[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-integrations-applications.md)**
 
-    Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. Workflow Data Fabric Foundation, including [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md), [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-main-landing-page.md), [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automation-center-landing-page.md) is embedded in every tier edition. Workflow Data Fabric Advanced, adding [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/stream-connect-quick-start.md), is available as a paid upgrade.
+    Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. Workflow Data Fabric Foundation, including [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md), [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-main-landing-page.md), [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automation-center-landing-page.md), and , is embedded in every tier edition. Workflow Data Fabric Advanced, adding  and [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/stream-connect-quick-start.md), is available as a paid upgrade.
 
 -   **[RaptorDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/raptordb.md)**
 

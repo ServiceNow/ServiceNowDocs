@@ -1,20 +1,20 @@
 ---
 title: Troubleshooting tools for Cloud Provisioning and Governance
-description: The Cloud Provisioning and Governance application provides tools to troubleshoot errors during cloud account Discovery, resource provisioning and management, and CMDB updates.
+description: The Cloud Provisioning and Governance application provides several tools to help you troubleshoot errors. You might encounter errors during the Discovery of cloud accounts, the provisioning and managing of cloud resources, and the updating of the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/troubleshooting-tools.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Troubleshooting tools for Cloud Provisioning and Governance
 
-The Cloud Provisioning and Governance application provides tools to troubleshoot errors during cloud account Discovery, resource provisioning and management, and CMDB updates.
+The Cloud Provisioning and Governance application provides several tools to help you troubleshoot errors. You might encounter errors during the Discovery of cloud accounts, the provisioning and managing of cloud resources, and the updating of the CMDB.
 
 These troubleshooting tools are available:
 

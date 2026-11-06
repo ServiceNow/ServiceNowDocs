@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbooks-using-activity-stream.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
@@ -81,7 +81,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text:
+Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: expand posts and collapse icon to collapse posts.
 
 </td></tr><tr><td>
 

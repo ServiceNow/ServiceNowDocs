@@ -7,7 +7,7 @@ release: zurich
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Center, Platform Security]
 ---
@@ -24,7 +24,7 @@ IAM consists of three tools you can use to manage access to the data on your ins
 
     Machine identities are digital credentials such as certificates, keys, and tokens. Servers, applications, containers, and cloud services use these identities authenticate with each other. Use the **Machine Identity Console** to manage the machine identities used for integrations with ServiceNow.
 
--   **[Access analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/access-analyzer.md)**
+-   **[Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-analyzer.md)**
 
     Use the **Analyze Access and Permissions** console to view permissions for a selected user, role, group, or compare access between two users.
 

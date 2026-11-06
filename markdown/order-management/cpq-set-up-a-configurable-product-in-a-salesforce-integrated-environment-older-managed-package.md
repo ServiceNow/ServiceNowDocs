@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up configurable products, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in a Salesforce-integrated environment \(older managed package\)

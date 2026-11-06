@@ -7,7 +7,7 @@ release: zurich
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,6 +26,8 @@ With record feeds, users can:
 -   Access Live Feed team functions, such as sending invitations and subscribing to email notifications.
 
 Any users with access to the record can also use the record feed. By default, record feeds are available on the incident, change, and problem tables. Administrators can configure record feeds for additional tables.
+
+\[Omitted image "LiveFeedDocumentFuji.png"\] Alt text: Live Feed Document
 
 ## How Document Feeds Work
 

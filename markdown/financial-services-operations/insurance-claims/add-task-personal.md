@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Personal Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add an ad-hoc task
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.auto\_processor, sn\_ins\_claim\_pers.auto\_
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d106215e83">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d116786e83">
 
 Option
 
-</th><th align="left" id="d106215e86">
+</th><th align="left" id="d116786e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106215e93">
+</th></tr></thead><tbody><tr><td id="d116786e93">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d106215e105">
+</td></tr><tr><td id="d116786e105">
 
 **From the applicable case/tasks list**
 

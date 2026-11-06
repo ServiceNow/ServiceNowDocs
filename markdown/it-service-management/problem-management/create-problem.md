@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a problem, Manage, Problem Management, IT Service Management]
+breadcrumb: [Create a problem, Managing Problems, Problem Management, IT Service Management]
 ---
 
 # Create a problem \(legacy\)
@@ -24,7 +24,7 @@ Role required: itil
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d149739e54">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d251463e54">
 
 **From the Problem module**
 
@@ -32,7 +32,7 @@ Role required: itil
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d149739e72">
+</td></tr><tr><td id="d251463e72">
 
 **From an incident**
 

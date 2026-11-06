@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Explore Upgrade Monitor in Upgrade Console
@@ -22,8 +22,8 @@ If you log in with the admin role while an upgrade is underway, the system autom
 
 |Option|Navigation|
 |------|----------|
-|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade Monitor**.|
-|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade Monitor**.|
+|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console** &gt; **Upgrade Monitor**.|
+|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Console** &gt; **Upgrade Monitor**.|
 
 ## How the Upgrade Monitor fits into the upgrade process
 

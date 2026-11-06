@@ -1,26 +1,26 @@
 ---
 title: Define or update a Business hours policy
-description: A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
+description: A Business hours job applies policies to identify resources running outside the specified hours, reports them, and manages the start and stop of resources on a specified schedule. Running only during specified business hours can significantly reduce your cloud spend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.html
 release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Define or update a Business hours policy
 
-A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
+A Business hours job applies policies to identify resources running outside the specified hours, reports them, and manages the start and stop of resources on a specified schedule. Running only during specified business hours can significantly reduce your cloud spend.
 
 ## Before you begin
 
 Required: A cloud account \(parent account\) that has at least one service account or project that has associated datacenters.
 
-A Billing Download job must be defined.
+A Billing Download Job must be defined.
 
 Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_owner \[sn\_clin\_core.insights\_owner\] for owned service accounts.
 
@@ -35,7 +35,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_o
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Business hours**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Business hours**.
 
 2.  Select **Policies**.
 
@@ -121,7 +121,7 @@ Service accounts
 
 </td><td>
 
-The service accounts to. apply the policy to.For Google Cloud only, this field is called Projects.
+The service accounts to apply the policy to.For Google Cloud only, this field is called Projects.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 

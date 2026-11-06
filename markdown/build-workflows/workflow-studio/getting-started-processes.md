@@ -1,5 +1,5 @@
 ---
-title: Getting started with Playbooks
+title: Building your first playbook
 description: Learn the basics of designing an automated process for your organization. Get an overview of how Workflow Studio Playbooks work in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/getting-started-processes.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Getting started with Playbooks
+# Building your first playbook
 
 Learn the basics of designing an automated process for your organization. Get an overview of how Workflow Studio Playbooks work in the ServiceNow AI Platform®.
 
@@ -59,11 +59,11 @@ In summary, your playbook runs when:
 
 If you're ready to start digitizing your business process with Playbooks in Workflow Studio, try checking out these resources:
 
--   [Design your first automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/design-automated-process.md)
+-   [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/design-automated-process.md)
 -   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-process-definition.md)
 
 -   **[Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/design-automated-process.md)**  
 Create a sample playbook to standardize and automate how Service Desk agents handle chat interactions with VIP users.
 
-**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-a-process.md)
+**Parent Topic:**[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-a-process.md)
 

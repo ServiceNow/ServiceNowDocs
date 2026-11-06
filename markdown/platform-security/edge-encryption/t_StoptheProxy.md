@@ -7,7 +7,7 @@ release: zurich
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Stop the proxy server.
 
-<table id="choicetable_nfz_zhb_tt"><tbody><tr><td id="d124072e72">
+<table id="choicetable_nfz_zhb_tt"><tbody><tr><td id="d137028e72">
 
 **On a Linux machine**
 
@@ -32,7 +32,7 @@ Role required: admin
 
 Execute `./shutdown.sh`
 
-</td></tr><tr><td id="d124072e84">
+</td></tr><tr><td id="d137028e84">
 
 **On a Windows machine**
 

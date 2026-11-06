@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Customer Relationship Management]
 ---
@@ -15,16 +15,16 @@ breadcrumb: [Sales Customer Relationship Management]
 Reference topics provide additional information about the Sales Customer Relationship Management applications.
 
 -   **[Sales Customer Relationship Management REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-rest-apis.md)**  
-Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to create and manage Sales CRM entities such as leads, quotes, and orders from external systems.
--   **[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-opportunity-mgt.md)**  
-Reference for lead and opportunity management applications.
+Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to create and manage Sales CRM entities such as pricing, leads, quotes, and orders from external systems.
+-   **[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-opportunity-mgt.md)**  
+Reference for sales automation applications.
 -   **[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-cpq.md)**  
 Reference for configure, price, and quote applications.
 -   **[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-reference.md)**  
 Reference topics provide additional information about Order Management.
 -   **[Order operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-order-operations.md)**  
 Reference for order operations applications.
--   **[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management-reference.md)**  
+-   **[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management-reference.md)**  
 Reference topics provide additional information about Partner Relationship Management.
 -   **[Lead-to-cash foundation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-cash-foundation.md)**  
 Reference for lead-to-cash foundation applications.

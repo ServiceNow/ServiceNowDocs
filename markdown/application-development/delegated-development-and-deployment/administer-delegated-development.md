@@ -1,5 +1,5 @@
 ---
-title: Administer Delegated Development
+title: Administer Delegated Development Delegated Development
 description: Perform administrative duties in Delegated Development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/administer-delegated-development.html
@@ -7,33 +7,27 @@ release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegated Development, Planning your application, Building applications]
+breadcrumb: [Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
-# Administer Delegated Development
+# Administer Delegated Development Delegated Development
 
 Perform administrative duties in Delegated Development.
 
 ## Overview of Delegated Development
 
--   [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
+-   [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 
-    A system administrator can assign a non-administrator user or group as a developer or deployment resource for a specific application. You can set specific permissions to designate what specific actions the assigned user can perform in the current instance.
+    A system administrator can assign a non-administrator user or group as a developer or deployment resource for a specific application.
 
--   [Delegating deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegating-deployment-permissions.md)
-
-    A system administrator can assign a non-administrator user or group as a deployment resource for a specific application. You can set specific permissions to designate what specific actions the assigned user can perform in the current instance.
-
--   [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/developer-permissions.md)
+-   [Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/developer-permissions.md)
 
     Administrators can assign one or more developer and deployment permissions to a group or user for a specific application.
 
-    You can also grant access to all permissions.
-
 -   [Remove a developer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_RemoveADeveloper.md)
 
-    Removing a user as a developer helps to prevent the accidental developing, changing, or deploying of an application in the current instance.
+    Remove a user as a developer prevents the user from developing, changing, or deploying the application in the current instance.
 
 

@@ -1,71 +1,67 @@
 ---
-title: AES/AEMC integration properties
-description: The AES/AEMC integration provides automated governance for custom application deployments by validating the scoped applications against admin-defined conditions before approval. When a developer submits a deployment request from App Engine Studio or ServiceNow Studio, the system automatically runs compliance checks using the Scan Engine to ensure all required rules are met. If the are not, it blocks the deployment.
+title: Configure AES/AEMC integration properties
+description: Configure the AES/AEMC integration to enforce automated Scan Engine compliance checks on custom app deployment requests from App Engine Studio and ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/aes-aemc-integration-properties.html
 release: zurich
-topic_type: concept
-last_updated: "2025-11-04"
-reading_time_minutes: 3
-breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# AES/AEMC integration properties
+# Configure AES/AEMC integration properties
 
-The AES/AEMC integration provides automated governance for custom application deployments by validating the scoped applications against admin-defined conditions before approval. When a developer submits a deployment request from App Engine Studio or ServiceNow Studio, the system automatically runs compliance checks using the Scan Engine to ensure all required rules are met. If the are not, it blocks the deployment.
+Configure the AES/AEMC integration to enforce automated Scan Engine compliance checks on custom app deployment requests from App Engine Studio and ServiceNow Studio.
 
-**Note:** Configuration of deployment pipelines is beyond the scope of this topic. The information in this topic assumes that the deployment pipelines within ServiceNow are configured. For information on configuring deployment pipelines, refer to [Configure Pipelines and Deployments](https://www.servicenow.com/docs/access?context=config-p-and-d).
+## Before you begin
 
-Integrating Scan Engine with App Engine Studio, ServiceNow Studio, or Pipelines and Deployments requires you to perform two procedures:
+**Important:** Perform all steps in this task on the production controller instance only. Deployment pipelines within ServiceNow must already be configured before enabling this integration.
 
--   Switching the default pipeline subflow
--   Configuring Scan Engine properties for AES/AEMC integration
+Deployment pipelines must already be configured in ServiceNow. No OAuth credentials or My SN Instances authentication are required, only a single My SN Instances record designating the production controller.
 
-**Note:** The following procedures will be performed only within the production controller which is part of the deployment pipeline.
+Role required: sn\_se.scan\_engine\_admin
 
-## Switching the Default Pipeline Subflow
+## Procedure
 
-Perform the following procedure to select the Scan Engine subflow:
+1.  Switch the default pipeline subflow
+2.  Navigate to **ALL** &gt; **App Engine** &gt; **Pipelines and Deployments** &gt; **Pipeline Types**.
 
-1.  Navigate to **ALL** &gt; **App Engine** &gt; **Pipelines and Deployments** &gt; **Pipeline Types**.
-2.  Open the default pipeline type record by selecting its `name` in the Label column.
-3.  Select the link to edit the record.
-4.  Ensure **Deployment Pipeline** is set as the **Application** scope.
-5.  Change the **Subflow** to **SE App Deployment Pipeline**.
-6.  Save the changes to the form.
+3.  Open the default pipeline type record.
 
-## Configuring Scan Engine Properties for AES/AEMC integration
+4.  Verify that **Deployment Pipeline** is set as the Application scope.
 
-Once the default pipeline subflow has been switched to the Scan Engine pipeline subflow, you then need to configure the Scan Engine for AES/AEMC integration by performing the following procedure:
+5.  Change **Subflow** to `SE App Deployment Pipeline` and save.
 
-1.  Navigate to **ALL &gt; Impact &gt; Configuration &gt; Scan Engine Properties**.
-2.  From the related lists at the bottom of the form, select the **My SN Instances** tab.
-3.  Create a single record to designate this instance as the production controller instance by first selecting **New**.
-4.  Fill in the following required and optional fields:
-    1.  **Instance Name** should match the `instance_name` system property.
-    2.  **Instance URL** is the URL of the production controller instance.
-    3.  **Environment** should be set to **Production**.
-    4.  No additional information is needed. Submit the form without setting up an **Authentication Type**.
-5.  When you return to the Scan Engine Properties page, select the **AES/AEMC Integration** tab in the middle of the form.
-6.  Ensure that the **Enable AES/AEMC Integration \(Production Instance Only\)** field is enabled. If it is not, check that steps 1-6 were performed correctly.
-7.  Select the **Enable AES/AEMC Integration \(Production Instance Only\)** check-box to reveal additional fields.
-8.  You can keep the default values or enter new ones.
-9.  Specify the conditions for which an application is considered "approved" to proceed to the first phase of the deployment pipeline.
-10. Specify the maximum amount of time an application scan should be allowed to complete before being rejected due to a timeout.
+6.  Configure Scan Engine properties
+7.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** &gt; **My SN Instances** tab and select **New**.
 
-Once configuration is complete, regular application submissions will now include an application scan as part of the deployment pipeline.
+8.  Create a single record with the following values:
 
-## Conditions for approving an application scan
+    -   **Instance Name**: Must match the `instance_name` system property
+    -   **Instance URL**
+    -   **Environment: Production**
+    -   **Authentication Type**: N/A \(leave blank\)
+9.  Submit the form.
 
-When an application is submitted from App Engine Studio or ServiceNow Studio, the integration will begin a full scan of the application that is being submitted for deployment. The conditions specified in the Scan Engine Properties page determine the approval criteria for whether application scans continue on to the deployment pipeline. When the application scan completes and the conditions are met, the application moves to the next stage of the deployment process, usually a group approval.
+10. Return to **Scan Engine Properties** and select the **AES/AEMC Integration** tab.
 
-If the conditions are not met, the deployment request is rejected. An email message is sent to the author of the application with details of the application scan.
+11. Select **Enable AES/AEMC Integration \(Production Instance Only\)** to reveal additional configuration fields.
 
-The conditions used are configured by the administrator.
+    If the checkbox does not appear, verify that the pipeline subflow was changed and the My SN Instances record was submitted correctly.
 
-## Application scan timeout \(minutes\)
+12. Configure approval conditions and scan timeout.
 
-Application scans through the Scan Engine are usually relatively short. Ten minutes is the default value. If a scan fails to complete within ten minutes, the deployment request will be rejected and information about the rejection will be added to the request record.
+    |Setting|Default|
+    |-------|-------|
+    |Pass condition|Scan score of 100|
+    |Scan timeout|10 minutes|
 
-Shorter or longer scan times can be configured by the administrator.
+
+**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/deployment-sync-integrations.md)
+
+**Related topics**  
+
+
+[Configure update set integration]()
 

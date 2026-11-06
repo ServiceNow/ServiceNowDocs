@@ -4,7 +4,7 @@ description: Reserve multiple workplace items for the same date and time in a si
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 ---
 
@@ -28,15 +28,15 @@ Before booking a room or desk, check the availability of the selected item using
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table><thead><tr><th align="left" id="d352572e60">
+<table><thead><tr><th align="left" id="d357834e60">
 
 Location
 
-</th><th align="left" id="d352572e63">
+</th><th align="left" id="d357834e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d352572e69">
+</th></tr></thead><tbody><tr><td id="d357834e69">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d352572e90">
+</td></tr><tr><td id="d357834e90">
 
 **From Employee Center Portal**
 
@@ -56,7 +56,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
 Make a reservation portal page opens for you to make workplace reservations.
 
-</td></tr><tr><td id="d352572e137">
+</td></tr><tr><td id="d357834e137">
 
 **From Workplace Service Portal**
 
@@ -257,9 +257,9 @@ If any of the items needs approval, then your request is submitted to the approv
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -286,4 +286,6 @@ If any of the items needs approval, then your request is submitted to the approv
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

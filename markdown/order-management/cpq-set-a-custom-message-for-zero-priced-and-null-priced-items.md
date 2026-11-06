@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-set-a-custom-message-for-zero-priced-and-null-priced-items.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up pricing display, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up pricing display, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set a custom message for zero-priced and null-priced items
@@ -24,7 +24,7 @@ Some configurations result in items that have a zero price or a null price. In t
 
 Administrators frequently replace the $0.00 value with the display string "Included".
 
-When the price is null, the solution may include components that require research or engineering before a price can be shared with the end user. When this is the case, the administrator may display strings such as "Pending" or "Price TBD". When a null-priced item is in the cart, the sum of cart items displayed in the total may be misleading. To alleviate this confusion, the administrator can define a string that overrides the cart total when null-priced items are present. For step by step instructions, see [Override the shopping cart total when a null-priced item is included](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.md).
+When the price is null, the solution may include components that require research or engineering before a price can be shared with the end user. When this is the case, the administrator may display strings such as "Pending" or "Price TBD". When a null-priced item is in the cart, the sum of cart items displayed in the total may be misleading. To alleviate this confusion, the administrator can define a string that overrides the cart total when null-priced items are present. For step by step instructions, see [Override the shopping cart total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.md).
 
 For a list of components that support null-price and zero-price overrides, see [Availability of price value overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-availability-of-price-value-overrides.md).
 
@@ -44,7 +44,7 @@ For a list of components that support null-price and zero-price overrides, see [
 **Related topics**  
 
 
-[Override the shopping cart total when a null-priced item is included](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.md)
+[Override the shopping cart total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.md)
 
 [Availability of price value overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-availability-of-price-value-overrides.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
 
@@ -18,9 +18,9 @@ Configure an anonymization policy to specify which techniques are used when anon
 
 ## Before you begin
 
-The data privacy configuration defines tables, sys\_user and other, and columns to the de-identified, depending on the use case and specifies parameterized types of the techniques to be used while de-identifying data.
+The data privacy configuration defines tables, `sys_user` and columns to anonymized information, depending on the use case and specific parameterized types of the techniques used.
 
-**Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create anonymization techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md)for more information.
+**Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create anonymization techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md) for more information.
 
 Role required: data\_privacy\_admin and admin
 
@@ -36,85 +36,33 @@ Role required: data\_privacy\_admin and admin
 
 3.  Select **Create new policy**.
 
-4.  Select to either anonymize **Data tables or columns**, **User specific data**, or **Real time data**.
-
-    \[Omitted image "create-new-policy.png"\] Alt text: New policy selection window.
+4.  Select to either anonymize **Data tables or columns**, **User specific data**, **Catalog variable**, or **Real-time data**.
 
     |Data Type|Description|
     |---------|-----------|
     |Data tables or columns|Records that match the data policy will be anonymized.|
     |User specific data|Select a set of users or user groups to be anonymized.|
+    |Catalog variable|Anonymize sensitive data stored in catalog item variables and form fields.|
     |Real time data|Anonymize real time entries for a set of columns.|
 
     Data privacy policies can only apply to classified data, for more information on data classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-classification.md).
 
 5.  Select **Create**.
 
-    There are sequential steps required to complete the policy, **Define details**and **Assign techniques**. **Select user reference** is also required when defining the policy for user specific data.
+    There are sequential steps required to complete the policy. You must **Define details** and **Assign techniques**. **Select user reference** is also required when defining the policy for user specific data.
 
-6.  Define the details for the new anonymization policy.
+    For catalog variables, you will **Define details** and select the scope \(either **Service catalog request** or **Record producer**\), then review the **Data pattern anonymization**.
+
+    **Note:** Data pattern anonymization uses the information currently in the active data pattern table.
+
+6.  Define the details for the new anonymization policy, which will vary depending on the chosen data type.
 
     -   Enter the policy name in the **Name** field, and the policy description in the **Description** field.
     -   Define what channels automatically activate the policy and the channel priority in **Activation Channels**
-    -   In the **Data Class** field, select the data class to use with this policy.
-    -   Turn on or off real time data anonymization. See Step 8 if real time data anonymization is on
+    -   In the **Data to process** field, select the data class to use with this policy.
+    -   If you're configuring real-time anonymization, you can select specific child tables from different scopes to include in your anonymization policy. Enter their columns in this field, then select the child tables in the following menu.
     **Note:** If you are not anonymizing an entry, select the **DoNothing** technique rather than leaving the entry empty. Policies with empty values in the Privacy Technique Configuration field cannot execute when used in data privacy jobs.
 
-    After selecting a data class, the Assign techniques form displays for each record returned for the defined data class.
+7.  Select **Continue** to move to the next configuration step.
 
-7.  Assign anonymization techniques for the selected data class.\[Omitted image "bulk-assign-technique.png"\] Alt text: The bulk assign techniques form.
-
-<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d185292e269">
-
-Option
-
-</th><th align="left" id="d185292e272">
-
-Description
-
-</th></tr></thead><tbody><tr><td id="d185292e278">
-
-**Select __Bulk Assign Techniques__**
-
-</td><td>
-
-Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for a list of data types.
-
-</td></tr><tr><td id="d185292e300">
-
-**Select an __anonymization technique__ for each data column record**
-
-</td><td>
-
-Your data privacy processor users can choose which records to anonymize when creating data privacy jobs. Individually apply anonymization to each data record in the chosen data class.
-
-</td></tr></tbody>
-</table>    \[Omitted image "assign-technique.png"\] Alt text: Individually assign a technique.
-
-8.  Enter child tables to be scanned.
-
-    Child tables of the parent will be anonymized, if a table has no children this option will not be available.
-
-    **Warning:** A parent job will fail if a child job fails.
-
-9.  If Data Pattern Anonymization is selected, select the anonymization technique to be used.
-
-10. Set the ordering for data patterns.
-
-11. **Tip:** Use the **Test** feature to test sample inputs. You can review metrics from the result like scan time, result, and discovered patterns.
-
-    Select the **Test** button to test the policy.
-
-12. **Important:** All tables must have a correct sys\_dictionary entry.
-
-    Select **Save**.
-
-13. Select **Publish** to update the anonymization policy for scheduling and be returned to Anonymization policies.
-
-    **Note:** Only published policies can be used for anonymization job scheduling.
-
-
-## What to do next
-
-[Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-job.md).
 

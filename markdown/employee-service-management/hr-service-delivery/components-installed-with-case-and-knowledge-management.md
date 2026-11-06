@@ -7,8 +7,8 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Reference, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -364,6 +364,8 @@ Updates role assignments for HR profiles that are beginning or ending their empl
 
 ## Tables installed
 
+The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
+
 <table id="table_pfy_pqk_hbb"><thead><tr><th>
 
 Table
@@ -373,6 +375,48 @@ Table
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+\*Allegation\[sn\_hr\_er\_allegation\]
+
+</td><td>
+
+Contains information about an allegation type and subtype.**Note:** A non-metadata table.
+
+</td></tr><tr><td>
+
+\*Allegation Subtype\[sn\_hr\_core\_allegation\_sub\_type\]
+
+</td><td>
+
+Metadata table that provides 59 records to the base system. Allegation subtypes further define an allegation. For example:-   Allegation type = Discrimination
+-   Allegation subtypes: Age, disability, Race, and so on.
+
+</td></tr><tr><td>
+
+\*Allegation Type\[sn\_hr\_core\_allegation\_type\]
+
+</td><td>
+
+Metadata table that provides base system records. Examples are:-   Customer Mistreatment
+-   Discrimination
+-   Drugs and Alcohol
+-   Fraud and Theft
+-   Harassment
+-   Interpersonal Conflict
+-   Misconduct
+-   Retaliation
+-   Wage and Scheduling Issue
+-   Workplace Violence
+
+</td></tr><tr><td>
+
+\*Associated Allegation\[sn\_hr\_er\_m2m\_allegation\_party\]
+
+</td><td>
+
+Contains information that associates an allegation to subject of allegations.**Note:** A non-metadata table.
+
+</td></tr><tr><td>
 
 Bank Account\[sn\_hr\_core\_profile\_bank\_account\]
 
@@ -686,6 +730,14 @@ HR insurance benefits table.**Note:** This table is an extension of the HR Benef
 
 </td></tr><tr><td>
 
+\*HR Investigations Case\[sn\_hr\_core\_case\_investigation\]
+
+</td><td>
+
+HR investigations case table.**Note:** This table is an extension of the HR Case table.
+
+</td></tr><tr><td>
+
 HR Operations Report\[sn\_hr\_core\_op\_report\]
 
 </td><td>
@@ -739,6 +791,14 @@ HR PDF Template\[sn\_hr\_core\_pdf\_template\]
 </td><td>
 
 HR PDF template table.**Note:** This table is an extension of the HR Document Template table.
+
+</td></tr><tr><td>
+
+\*HR Performance Case\[sn\_hr\_core\_case\_performance\]
+
+</td><td>
+
+HR performance case table.**Note:** This table is an extension of the HR Case table.
 
 </td></tr><tr><td>
 

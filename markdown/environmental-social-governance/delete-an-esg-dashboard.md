@@ -1,16 +1,16 @@
 ---
-title: Delete an ESG Management dashboard
+title: Delete an Operational Sustainability Management dashboard
 description: You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/delete-an-esg-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Delete an ESG Management dashboard
+# Delete an Operational Sustainability Management dashboard
 
 You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
 
@@ -37,5 +37,5 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
     3.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: and choose **Repair**.
     4.  Select **Repair** in the Activate Plugin window.
 
-**Parent Topic:**[Monitoring assessment data using ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

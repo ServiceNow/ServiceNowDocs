@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Access Management]
 ---
@@ -18,13 +18,7 @@ ServiceNow's authentication validates the identity of a user who accesses an ins
 
 ## Get started
 
-<table id="table_vcy_yrq_dsb" class="nav-card"><tbody><tr><td colspan="2">
-
-[\[Omitted image "bus-security.svg"\] Alt text: Authentication factorsAuthentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/authentication-factors.md)
-
- [Secure your voice agent access by choosing from flexible authentication options such as app-based codes, push prompts, SMS, SoftPIN or knowledge-based checks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/authentication-factors.md)
-
-</td></tr><tr><td>
+<table id="table_vcy_yrq_dsb" class="nav-card"><tbody><tr><td>
 
 [\[Omitted image "bus-security.svg"\] Alt text:Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_MultipleProviderSingleSignOn.md)
 
@@ -44,9 +38,9 @@ ServiceNow's authentication validates the identity of a user who accesses an ins
 
 </td><td>
 
-[\[Omitted image "bus-manager.svg"\] Alt text:Multi-factor authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-landing.md)
+[\[Omitted image "bus-security.svg"\] Alt text: Authentication factorsAuthentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/authentication-factors.md)
 
- [MFA enables you to provide second level of authentication that includes using passcode from an authentication app, hardware key, biometric authenticator, SMS, or Email.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-landing.md)
+ [Secure your voice agent access by choosing from flexible authentication options such as app-based codes, push prompts, SMS, SoftPIN or knowledge-based checks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/authentication-factors.md)
 
 </td></tr><tr><td>
 
@@ -56,9 +50,21 @@ ServiceNow's authentication validates the identity of a user who accesses an ins
 
 </td><td>
 
+[\[Omitted image "bus-manager.svg"\] Alt text:Multi-factor authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-landing.md)
+
+ [MFA enables you to provide second level of authentication that includes using passcode from an authentication app, hardware key, biometric authenticator, SMS, or Email.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-landing.md)
+
+</td></tr><tr><td>
+
 [\[Omitted image "bus-get-certified.svg"\] Alt text:Certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/certificate-based-authentication/certificate-based-authentication.md)
 
  [Unique PEM encoded certificates mapped to users instead of user name and password for certificate based authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/certificate-based-authentication/certificate-based-authentication.md)
+
+</td><td>
+
+[\[Omitted image "bus-endpoint.svg"\] Alt text: Digest token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_DigestTokenAuthentication.md)
+
+ [Username and the secret in the table, perform an hash operation that is user-specific such as SHA1, SHA 256, or MD5. This value has to be appended as part of the URL suffix, which works on the query param.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_DigestTokenAuthentication.md)
 
 </td></tr><tr><td>
 
@@ -67,12 +73,6 @@ ServiceNow's authentication validates the identity of a user who accesses an ins
  [Integrate with a Lightweight Directory Access Protocol \(LDAP\) directory to streamline the user login process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ldap-integration/c_LDAPIntegration.md)
 
 </td><td>
-
-[\[Omitted image "bus-endpoint.svg"\] Alt text: Digest token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_DigestTokenAuthentication.md)
-
- [Username and the secret in the table, perform an hash operation that is user-specific such as SHA1, SHA 256, or MD5. This value has to be appended as part of the URL suffix, which works on the query param.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_DigestTokenAuthentication.md)
-
-</td></tr><tr><td colspan="2">
 
 [\[Omitted image "bus-contract.svg"\] Alt text:Self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/external-user-self-registration.md)
 

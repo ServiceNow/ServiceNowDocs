@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-managers-som.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resources, Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Resources, Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add managers to a territory
@@ -93,4 +93,11 @@ Manage territory until the selected date.
 ## Result
 
 The manager appears in the Territory Managers related list when you open the territory.
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-sales-territory-management.md)
 

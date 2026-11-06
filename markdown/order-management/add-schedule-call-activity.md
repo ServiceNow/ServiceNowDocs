@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-schedule-call-activity.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Create sequences, Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add a schedule call activity to a telesales workflow sequence
@@ -30,7 +30,7 @@ You can add the Schedule call activity with other activities in a stage or in it
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -47,6 +47,8 @@ You can add the Schedule call activity with other activities in a stage or in it
 7.  Open the activity picker by selecting the Add an activity icon \[Omitted image "square-outline-24.svg"\] Alt text:.
 
 8.  On the Add activity screen, search for and select **Customer Engagement Sequences** &gt; **Schedule call**.
+
+    **Note:** The options available in the activity picker vary by release. For compatibility information, see [Compatibility information for Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/compatibility-matrix-upgrade-info.md).
 
 9.  On the Details tab of the Schedule call properties pane, enter a name to appear on the Sequence Steps tab during runtime in the **Label** field.
 

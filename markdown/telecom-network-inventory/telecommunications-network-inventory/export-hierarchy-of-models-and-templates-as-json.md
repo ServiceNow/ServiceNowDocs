@@ -1,51 +1,51 @@
 ---
 title: Export hierarchy of models and templates as JSON
-description: Learn how to export network equipment models, inventory templates, and their related records from an instance. Use this feature to promote validated configurations from a lower environment to production.
+description: Export network equipment models, inventory templates, and their related records from an instance. Use this feature to promote validated configurations from a lower environment to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-templates-as-json.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Export hierarchy of models and templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
 # Export hierarchy of models and templates as JSON
 
-Learn how to export network equipment models, inventory templates, and their related records from an instance. Use this feature to promote validated configurations from a lower environment to production.
+Export network equipment models, inventory templates, and their related records from an instance. Use this feature to promote validated configurations from a lower environment to production.
 
 ## Before you begin
 
-Role required: sn\_ni\_core.inventory\_admin / sn\_ni\_core.telco\_inventory\_catalog\_manager / sn\_ni\_core.inventory\_template\_manager
+Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.telco\_inventory\_catalog\_manager, or sn\_ni\_core.inventory\_template\_manager
 
 ## About this task
 
-The Export Hierarchy feature lets you download a selected inventory model or template along with all its related records as a single package. Instead of exporting each related record individually, Export Hierarchy captures the complete structure — the parent record and all child records in one operation, preserving the relationships between them.
+The Export Hierarchy feature downloads a selected inventory model or template with all its related records as a single package. Instead of exporting each related record individually, the Export Hierarchy feature captures the complete structure in one operation, including the parent record and all child records. The feature, preserves the relationships between them.
 
 ## Procedure
 
-1.  Navigate to Workspaces &gt; Network Inventory Workspace.
+1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(☰\) and select a model or inventory template category.
+2.  Select the list icon and select a model or inventory template category.
 
 3.  From the list, select the inventory model or template you want to export.
 
-4.  In the record header, select the context menu icon \(⋮\) next to Normalize.
+4.  In the record header, select the context menu icon \(⋮\).
 
-5.  Select Export Hierarchy.
+5.  Select **Export Hierarchy**.
 
-    The Export request record opens and displays the export status. When the Status field shows Completed, the exported JSON file is available as an attachment. If the attachment is not visible even though the status shows Completed, refresh the page.
+    The Export request record opens and displays the export status. When the **Status** field shows Completed, the exported JSON file is available as an attachment. If the attachment is not visible even though the status shows Completed, refresh the page.
 
-6.  On the right sidebar, click the attachment icon \(📎\) to download the exported JSON file.
+6.  On the right sidebar, select the attachment icon \[Omitted image "attachments-icon.png"\] Alt text: attachment icon a download the exported JSON file.
 
 
 ## Result
 
-The JSON file containing the selected model or template and all its related records is downloaded to your local system, ready to import into the target instance.
+The JSON file containing the selected model or template and all its related records is downloaded to your local system. You can import the JSON file into a target instance.
 
-**Parent Topic:**[Export hierarchy of models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 
 **Related topics**  
 

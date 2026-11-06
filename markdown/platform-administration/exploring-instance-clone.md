@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/exploring-instance-clone.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-02"
-reading_time_minutes: 3
-breadcrumb: [Instance Clone, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring Instance Clone
@@ -16,13 +16,17 @@ Explore how to use a clone to copy everything in a database from one instance to
 
 ## Instance Clone overview
 
-Cloning is the easiest way to synchronize your instances. It’s essential to have a representative environment to test changes before they go to production.
+Clone copies data and configuration from a source instance to a target instance, overwriting the target. After a clone, your environment closely resembles the source instance and allows you to safely test changes. Sub-production instances drift from production over time; clone resets that divergence.
 
--   Cloning helps reduce divergence between the environments and promotes smooth deployments.
--   Cloning is used to test changes such as upgrades, new applications, and new capabilities.
--   Cloning data comes from the most recent daily backup.
+Common use cases include:
 
-A list of helpful terminology and definitions for clone is included here [Clone terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-terminology.md).
+-   Validating upgrades
+-   Testing new applications
+-   Testing new capabilities
+
+Clone data is sourced from the most recent daily backup of the source instance.
+
+For clone terminology and definitions, see [Clone terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-terminology.md).
 
 ## Instance Clone workflow
 
@@ -31,11 +35,11 @@ A list of helpful terminology and definitions for clone is included here [Clone 
 1.  Clone build configuration: Basic definitions, configurations, and profile options are prepared. Data to be included, excluded, or preserved is verified.
 
 2.  Preflight checks: The clone checks the source and target instances to verify that they are in a healthy state before proceeding with the clone.
-3.  Backup: Uses the latest daily backup. If there were major recent changes, a new backup is created. You can also trigger a new backup manually by selecting the On-demand backup via the Clone Admin Console.
+3.  Backup: Uses the latest daily backup. If there were major recent changes, a new backup is created. You can also trigger a new backup manually by selecting **On-demand backup** in the **Clone Admin Console**.
 
 4.  Pre-Clone: Prepares space for the new database before restoring it.
 
-5.  Provision database interface \(DBI\): A new target instance is set up to receive the restored data.
+5.  Provision database instance \(DBI\): A new target instance is set up to receive the restored data.
 
 6.  Restore: The backup data is restored to the new target instance.
 
@@ -44,25 +48,47 @@ A list of helpful terminology and definitions for clone is included here [Clone 
 8.  Preservers: Data is preserved from the old target \(pre-clone instance\) and is copied to the new target instance.
 
 9.  Node repoint: The system switches from the old target to the new clone without user disruption.
-10. Scheduling scripts: Cleanup scripts and custom scripts are scheduled to run. Scripts with the same priority run at the same time.
-11. Post Clone: Cleanup scripts run.
-
+10. Scheduling scripts: Cleanup scripts run in the global scope. Cleanup scripts are defined on the source instance. Make any changes to them before the Restore phase starts so the changes apply to that clone request.
+11. Post Clone: The post-clone phase sets up the target instance after the clone completes.
+12. Cleanup Scripts: Cleanup scripts run on the target instance after the Post Clone phase is Completed and the clone is fully complete. To view script status, go to the Clone Status page on the source instance with Multi-Instance View enabled, or select **View on target instance** from the same Clone Status page. For more information, see [Monitor cleanup script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/monitor-cleanup-script-execution.md).
 
 ## Instance Clone users
 
-|User|Description|
-|----|-----------|
-|Administrator|Clone admins with the `clone_admin` role can request, cancel, schedule, or modify clones.|
+|User|Description|Applies to|
+|----|-----------|----------|
+|Clone Administrator|Users with the **clone\_admin** role can request, cancel, or schedule clones, and manage clone profiles.|Source|
+|OAuth Administrator|Users with the **oauth\_admin** role on the target instance perform the one-time OAuth setup required to register that instance for cloning. After OAuth setup is complete, users submitting clones to that target instance only require the **clone\_admin** role. Reconfiguration is not required unless OAuth authorization is reset.|Target|
+|SOAP user|Users with the **soap** role can perform all SOAP operations using basic authentication. The identity type for basic authentication is machine.|Source and target|
 
-## Clone benefits
+## Instance Clone benefits
 
-|Benefit|Feature|
-|-------|-------|
-|Tidy up data with exclusions and preservers for specific clone scenarios.|[Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-exclusions-preservers-cleanupscripts.md)|
-|Establish consistent clone outcomes with clone profiles and registered instances.|[Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-configurations-tab.md)|
-|Copy data from a production instance to a non-production instance or to copy data between non-production instances.|[Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md)|
+<table id="table_vpv_hfg_ngc"><thead><tr><th>
 
-## Instance Clone use cases
+Benefit
+
+</th><th>
+
+Feature
+
+</th></tr></thead><tbody><tr><td>
+
+-   Establish consistent clone outcomes with clone profiles and registered instances.
+-   Tidy up data with exclusions and preservers for specific clone scenarios.
+
+</td><td>
+
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-configurations-tab.md)
+
+</td></tr><tr><td>
+
+Copy data from a production instance to a non-production instance or to copy data between non-production instances.
+
+</td><td>
+
+[Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md)
+
+</td></tr></tbody>
+</table>## Instance Clone use cases
 
 ## Clone to a different version
 
@@ -74,17 +100,11 @@ The clone uses data from the most recent, daily backup of the source instance wh
 
 If the source and target instances are on different versions of the ServiceNow AI Platform, the target instance is modified to match the source instance version during this time.
 
-When starting a clone from a backup, the date and time the backup was taken, as well as periodic progress messages, appear in the **Clone Log** related list.
+When starting a clone from a backup, the Clone log displays the date and time the backup was taken. Periodic progress messages also appear in the Clone log at the bottom of the clone status page.
 
 ## Clone over production instances
 
-As long as the system property **glide.db.clone.allow\_clone\_target** is TRUE, an instance can serve as a clone target. Please ensure the property **glide.db.clone.allow\_clone\_target** is set back to FALSE after a production instance has served as a clone target. This helps prevent accidental or unintended clones over production in the future.
-
-## Deprecated Clone Options
-
-The clone option check box **Preserve users and related tables** was removed from the Clone Options in the Utah release. In some cases, past customizations to the clone request page or related to clone, may cause this field to remain on your form.
-
-**Important:** Selecting this deprecated field doesn't effect the user, role, or related tables during your clone.
+As long as the system property **glide.db.clone.allow\_clone\_target** is `TRUE`, an instance can serve as a clone target. Ensure the property **glide.db.clone.allow\_clone\_target** is set back to `FALSE` after a production instance has served as a clone target. This prevents accidental clones over production in the future.
 
 **Note:** Beginning with the Australia release, users attempting to access the legacy Instance Clone page, **clone\_instance.do**, are redirected instead to the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/Clone-UI.md). To view clone history for clones prior to the Australia release, view the legacy Clone History \[clone\_instance\] table.
 

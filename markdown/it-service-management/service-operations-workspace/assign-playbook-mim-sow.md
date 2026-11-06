@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Assign a playbook to Major Incident Management
@@ -20,7 +20,7 @@ Configure and assign playbooks to manage the major incidents process.
 
 The Major Incident Management \(MIM\) plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
-Role required: sn\_mim\_sow\_admin or admin
+Role required: admin
 
 ## Procedure
 
@@ -38,26 +38,26 @@ Role required: sn\_mim\_sow\_admin or admin
 
     -   **Assigned playbooks**: List of playbooks that are assigned to Major Incident Management.
 
-        In the case that no playbook is assigned, the **Assign playbook** option is available so you can assign a playbook to Major Incident Management.
+        If no playbook is assigned, the **Assign playbook** option is available so you can assign a playbook to Major Incident Management.
 
     -   **Available Playbooks**: List of playbooks that are available to be assigned to Major Incident Management.
-4.  On the configuration page, you can use the following options to assign a playbook to Major Incident Management.
+4.  On the configuration page, use one of the following options to assign a playbook to Major Incident Management.
 
-<table id="choicetable_ttg_gsk_gbc"><tbody><tr><td id="d365983e188">
+<table id="choicetable_ttg_gsk_gbc"><tbody><tr><td id="d233050e190">
 
 **Recommended playbooks**
 
 </td><td>
 
-The recommended playbooks section displays the following two base system playbooks that are shipped with Major Incident Management: -   **MI playbook**: Provides a simple and concise interface for communication and collaboration, as well as for unplanned communication or collaboration features in separate sections in a task-oriented view. This playbook is suggested for and can be used by upgrade customers.
--   **Advanced MI playbook**: Provides a similar interface to the MI Playbook but has advanced, configurable capabilities for communication and collaboration, as well as unplanned communication or collaboration placed under a single section. You can configure the unplanned communication or collaboration section of the playbook to create, add, and configure the communication plans, tasks, collaboration channels, and channel types as required using the Playbooks.
-For more information, see [Designing a major incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/design-playbooks-mim-sow.md). Playbooks enables you to make the Advanced MI Playbook more flexible to use. This playbook is suggested for and can be used by new or zBoot customers. For more information, see [Managing major incidents using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/managing-mi-playbook-sow.md).
+The recommended playbooks section displays the following two base system playbooks that are shipped with Major Incident Management: -   **MI playbook**: Provides a simple and concise interface for communication and collaboration, and for unplanned communication or collaboration features in separate sections in a task-oriented view. This playbook is suggested for and can be used by upgrade customers.
+-   **Advanced MI playbook**: Provides a similar interface to the MI playbook but has advanced, configurable capabilities for communication and collaboration, and unplanned communication or collaboration placed under a single section. You can configure the unplanned communication or collaboration section of the playbook to create, add, and configure the communication plans, tasks, collaboration channels, and channel types as required using the Playbooks.
+For more information, see [Designing a major incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/design-playbooks-mim-sow.md). Playbooks enables you to make the Advanced MI playbook more flexible to use. This playbook is suggested for and can be used by new or zBoot customers. For more information, see [Managing major incidents using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/managing-mi-playbook-sow.md).
 
 You can assign and use any or both playbooks with Major Incident Management based on your requirements and usage. Use the **sn\_sow.mim\_playbook\_ids** property to add the sys\_id of the playbook that you want to display under the playbook section and use for Major Incident Management.
 
 Select **View details** to view the playbook information and then select **Assign to MIM** to assign the playbook to Major Incident Management.
 
-</td></tr><tr><td id="d365983e262">
+</td></tr><tr><td id="d233050e264">
 
 **Available playbooks**
 
@@ -65,7 +65,7 @@ Select **View details** to view the playbook information and then select **Assig
 
 Select the **Available playbooks** tab, then select **Playbook** and then select **Assign**. The selected playbook is assigned to Major Incident Management and is added to the list of assigned playbooks.
 
-</td></tr><tr><td id="d365983e283">
+</td></tr><tr><td id="d233050e285">
 
 **Create new playbook**
 

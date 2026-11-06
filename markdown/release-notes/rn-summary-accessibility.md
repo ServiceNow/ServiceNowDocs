@@ -1,18 +1,18 @@
 ---
-title: Accessibility information for all Zurich features and products
-description: Cumulative release notes summary on accessibility information for Zurich features and products. Some products have specific accessibility information or exceptions.
+title: Accessibility information for all Brazil features and products
+description: Cumulative release notes summary on accessibility information for Brazil features and products. Some products have specific accessibility information or exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-accessibility.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 23
-breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-11-04"
+reading_time_minutes: 6
+breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Accessibility information for all Zurich features and products
+# Accessibility information for all Brazil features and products
 
-Cumulative release notes summary on accessibility information for Zurich features and products. Some products have specific accessibility information or exceptions.
+Cumulative release notes summary on accessibility information for Brazil features and products. Some products have specific accessibility information or exceptions.
 
 **Important:**
 
@@ -36,7 +36,7 @@ AI Agent Studio
 
 -   **[Voice Input for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the . This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the AI Admin Hub. This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
 After enabled, the Enable voice input for the ServiceNow Otto panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
 
@@ -49,69 +49,18 @@ AI Control Tower
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   AI asset security score details, AI agent containment, and configuration pages on the Security tab are fully navigable by keyboard and compatible with screen readers.
 
 </td></tr><tr><td>
 
-AI Risk and Compliance
+Access Management
 
 </td><td>
 
--   **Dark theme**
+-   ****
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-AIOps LEAP
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Accounts Payable Operations
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Adoption Services
-
-</td><td>
-
--   **[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-tours.md)**
-
-Guided Tours is enhanced with more accessibility features including:
-
-    -   Descriptive page titles
-    -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
-
-</td></tr><tr><td>
-
-Advanced Risk
-
-</td><td>
-
--   **Reflow for Risk heatmap**
-
-The Risk Heatmap component was updated to support reﬂow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations.
+Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -120,42 +69,20 @@ Agent experience for CSM
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Application Manager
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Accessibility improvements were made to the following CRM Workspace components: Special Handling Notes, Account Hierarchy, and Resolution Shaper. Updates include keyboard navigation, color contrast, and screen reader compatibility. These improvements help users who rely on screen readers, keyboard-only users, and users with low vision.
+    -   Reflow support for CRM Workspace components: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Asset Audit Response
+Authentication
 
 </td><td>
 
--   **Dark theme**
+-   ****
+    -   **Coral theme**
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Business Continuity Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -164,9 +91,9 @@ Change Management
 
 </td><td>
 
--   **Dark theme**
+-   ****
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+Reflow support for the Create a change request page: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
 
 </td></tr><tr><td>
@@ -175,272 +102,27 @@ Cloud Cost Management
 
 </td><td>
 
--   **Dark theme**
+-   ****
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Collaborative Work Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+Accessibility improvements were completed across the Cloud Cost Management Workspace, including the homepage, Spend, Optimization, Operations, Admin, and Budget pages. Updates include corrected heading structure and improved drag-and-drop interaction support. These updates benefit screen reader users, keyboard-only users, and low-vision users navigating the Cloud Cost Management Workspace.
 
 
 </td></tr><tr><td>
 
-Common Core
+Digital End-User Experience
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
 
 </td></tr><tr><td>
 
-Configurable Workspace
+Employee Center
 
 </td><td>
 
--   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/use-screen-summarization.md)**
-
-Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
-
-Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
-
-
-</td></tr><tr><td>
-
-Configuration Compliance
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Container Vulnerability Response
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Contract Management Pro
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Contract Management Pro for Legal Service Delivery
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Creator Studio
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-For more information, see [Dark mode in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-enabling-dark-mode.md).
-
-</td></tr><tr><td>
-
-Customer Engagement Sequences
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Customer Service Problem Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Customer Success Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Customer self-service for Sales Customer Relationship Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Data Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Data Management for CSM
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-DevOps Change Velocity
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Digital Portfolio Management \(DPM\)
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Dispute Rules Content Pack for Mastercard
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Dispute Rules Content Pack for Visa
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Document Intelligence
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Document Services
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
--   **[Guardrails for PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/guardrails-pdf-generation-accessibility.md)**
-
-Added static and dynamic guardrails for accessibility support for PDF document generation
-
--   **[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/pdf-generation-accessibility.md)**
-
-Added support for PDF document generation with accessibility for regulated markets.
-
-
-</td></tr><tr><td>
-
-Dynamic Translation
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Employee Slate
-
-</td><td>
-
-Employee Slate includes built-in accessibility compliance through the AI-native widget builder. Custom widgets automatically meet accessibility standards when created through the prompt-driven interface with design components that include accessibility features by default.
-
-</td></tr><tr><td>
-
-Enterprise Architecture
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
 
 </td></tr><tr><td>
 
@@ -448,69 +130,17 @@ Enterprise Asset Management
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Reflow support for Enterprise Asset Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Financial Services Card Operations
+Firewall Audits and Reporting
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Financial Services Operations Core
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Financial Services Operations Integration with Mastercard
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Financial Services Operations Integration with Visa
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Flows, subflows, and actions in Workflow Studio
-
-</td><td>
-
--   **Reflow improvements of canvas headers and footers**
-
-The following components were updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
-
-    -   Workflow Studio canvas header
-    -   Workflow Studio canvas footer
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
-
+-   ****
+    -   The application interface is navigable by keyboard and compatible with screen readers including JAWS and NVDA.
 
 </td></tr><tr><td>
 
@@ -518,71 +148,19 @@ Hardware Asset Management
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Reflow support for Hardware Asset Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Health Log Analytics
+Identity
 
 </td><td>
 
--   **Dark theme**
+-   ****
+    -   **Coral theme**
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Hermes Messaging Service
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-ITOM AIOps
-
-</td><td>
-
--   **Support for reflow**
-
-The Service Dashboard and Log Viewer component was updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
-
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-ITOM Visibility
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Impact
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -591,128 +169,37 @@ Incident Management
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Instance Data Replication
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Accessibility improvements were made to the Incident Management UI16 form across the full form lifecycle, including keyboard navigation, voice-over support, color contrast, and minimum target sizes. These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+    -   Accessibility improvements were made to the Major Incident Management UI List component, record pages and Major Incident workbench tabs, including keyboard navigation and screen reader support. These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+    -   Reflow support for Incident Management and Major Incident Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Intelligence for CSM
+Kubernetes Visibility Agent \(KVA\)
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   The Kubernetes explorer dashboard is navigable by keyboard and compatible with screen readers including JAWS and NVDA.
 
 </td></tr><tr><td>
 
-Knowledge Management
+Live Connect
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Live Connect is a backend connectivity layer with no direct user interface.
+    -   Accessibility of query results depends on the third-party client tools used to connect to Live Connect.
 
 </td></tr><tr><td>
 
-Lead-to-Cash Process Management
+Next Experience Components
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Legal Hold Notification
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Localization Workspace
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Manufacturing Commercial Operations
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Mastercard Spoke
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Mobile Platform
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Next Experience
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
--   **[New Accessibility preference added for page alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
-
-Turn on the **Do not auto-dismiss page alerts** preference to keep page alerts visible until you manually close them.
-
--   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-workspace-preferences.md)**
-
-A new Workspace preference lets you turn off lazy loading for workspace pages. When you turn off lazy loading, the entire page loads at once. This action improves compatibility with screen readers and provides a more consistent and reliable reading experience.
-
+To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
 
 </td></tr><tr><td>
 
@@ -720,113 +207,8 @@ Notify
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Now Assist in AI Search
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Now Assist in Contract Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Now Assist in Document Intelligence
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Now Assist in Virtual Agent
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-On-Call Scheduling
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Operational Resilience
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Operational Technology \(OT\) Manager Foundation
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Operational Technology Vulnerability Response
-
-</td><td>
-
--   **Coral theme**
-
-Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Order Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Reflow support for Notify: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
@@ -834,131 +216,8 @@ Password Reset
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Playbooks in Workflow Studio
-
-</td><td>
-
--   In Diagram view, navigate between and configure stages and activities [via keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/keyboard-navigation-in-playbook-diagram-view.md).
--   Set the action bar to always show in Diagram view. To learn more, see [View all buttons without hover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/view-all-buttons-without-hover.md).
--   In Diagram view, use a screen reader to help navigate the designer.
--   Updated color contrast for activities to meet WCAG standards.
-
-</td></tr><tr><td>
-
-Policy and Compliance Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Predictive Intelligence
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Privacy Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Proactive Service Experience Workflows
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Product Catalog Management and Pricing Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Public Sector Digital Services
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Quote Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-RPA Hub
-
-</td><td>
-
--   **Accessibility improvements**
-
-Improvements were completed to support accessibility.
-
-
-</td></tr><tr><td>
-
-Recommended Actions for Operational Technology Service Management \(OTSM\)
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Regulatory Change Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Reflow support for Password Reset: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
@@ -966,119 +225,18 @@ Request Management
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   ****
+    -   Reflow support for Request Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Resource Management Workspace
+Sales CRM for Telecommunications
 
 </td><td>
 
--   **Dark theme**
+-   ****
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Retail applications
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Sales Forecasting
-
-</td><td>
-
--   **Dark Theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Security Incident Response
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Security Posture Control
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Self-service and omnichannel engagement for CSM
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Service Exchange
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Service Graph Connector for Microsoft Defender for IoT \(Azure\)
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Service Level Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Service Observability
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+Sales Customer Relationship Management follows standard ServiceNow platform accessibility support, including keyboard navigation and compatibility with screen readers.
 
 
 </td></tr><tr><td>
@@ -1087,272 +245,21 @@ Service Operations Workspace for ITSM
 
 </td><td>
 
--   **Reflow**
-
-The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
-
+-   ****
+    -   Accessibility improvements were made to the Major Incident Management in Service Operations Workspace for ITSM in UI List component, record pages and Major Incident workbench tabs, including keyboard navigation and screen reader support. These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+    -   Reflow support for Major Incident Management in Service Operations Workspace for ITSM: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Service Portal
+ServiceNow Quote Experience
 
 </td><td>
 
--   **Dark theme**
+-   ****
 
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Service Reliability Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-ServiceNow AI Platform core feature
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-ServiceNow Otto
-
-</td><td>
-
--   **[Voice Input in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md)**
-
-Administrators can enable an optional voice input setting for the Now Assist panel in the AI Admin Hub console. This feature, Voice Input, gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. Voice Input helps users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or users using hand-held devices on the go, such as field service agents.
-
-Once enabled, Voice Input can be changed using the individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
-
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Enterprise Architecture \(EA\)
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-ServiceNow Otto for IT Operations Management \(ITOM\)
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Platform Analytics
-
-</td><td>
-
--   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
--   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
-
-</td></tr><tr><td>
-
-Software Asset Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Sourcing and Procurement Operations
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Supplier Lifecycle Operations
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Synthetic monitoring
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Theme Builder
-
-</td><td>
-
--   **[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/upload-custom-font.md)**
-
-The ability to upload custom fonts to your theme can help users with disabilities in several ways, including:
-
-    -   **Improved readability**: Custom fonts can be selected to enhance readability, making text easier to see, understand, and retain. This is beneficial for users with visual impairments, as clear letter forms reduce eye strain.
-    -   **Support for cognitive differences**: Custom fonts can address cognitive accessibility needs. For instance, users with dyslexia or Attention- Deficit/Hyperactivity Disorder \(ADHD\) may benefit from fonts that reduce reading strain and improve information processing.
-    -   **Improved globalization support**: Custom fonts tailored to specific languages improve the readability for non-Latin alphabets and ensure consistent, accessible user experiences across global audiences.
--   **[Dark mode in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/dark-mode-theme-builder.md)**
-
-As of version 6.1, Theme Builder is now available in light and dark mode. This option is commonly used to alleviate eye strain and improve readability. Dark mode applies to the Theme Builder interface only and does not affect the appearance of individual themes.
-
-
-</td></tr><tr><td>
-
-Third-party Risk Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for the Vendor Management Workspace and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Threat Intelligence Security Center
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-UI Builder
-
-</td><td>
-
-The expanded drop-down menus for column properties can be read by screen readers.
-
-</td></tr><tr><td>
-
-Unified Security Exposure Management
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Virtual Agent
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Visa Spoke
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Vulnerability Response
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Walk-up Experience
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Workforce Optimization for Customer Service CSM
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Zero Copy Connector Hub
-
-</td><td>
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
-[Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
-
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+Color contrast in ServiceNow Quote Experience was updated to display all interface elements clearly in dark-themed environments. This update helps users view and interact with all interface elements clearly in a dark-themed environment.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)
 

@@ -7,16 +7,16 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Set up dynamic approval configuration on a policy record
 
 A policy is a set of guidelines and rules established by a business organization to govern its operations. Creating an approval configuration record for a policy enables you to define one or more approval levels and approval rules based on various dynamic conditions.
 
-Beginning with the Zurich release, you can set up dynamic approval configuration on a policy record. The policy table consists of the policy records that regulate the status of the policies. Before implementing a policy, it goes through a review and approval process.
+Beginning with the Brazil release, you can set up dynamic approval configuration on a policy record. The policy table consists of the policy records that regulate the status of the policies. Before implementing a policy, it goes through a review and approval process.
 
 Setting up dynamic approval configuration on a policy record enables you to define multiple levels of approvals based on various dynamic conditions such as policy type, state, and owner that are related to the policy fields. When you set up dynamic approval configuration on a policy record, the approvers for a policy are added dynamically to the policy record.
 
@@ -24,8 +24,8 @@ Setting up dynamic approval configuration on a policy record enables you to defi
 
 The existing approval configuration process uses the manual approach that has the following limitations:
 
--   The approval configuration process uses a single level of approval. If multiple levels of approval are not used, it increases the possibility of introducing errors and oversights in the approval process.
--   The approvers for a policy cannot be changed based on dynamic or changing conditions of the approval process.
+-   The approval configuration process uses a single level of approval. If multiple levels of approval aren't used, it increases the possibility of introducing errors and oversights in the approval process.
+-   The approvers for a policy can't be changed based on dynamic or changing conditions of the approval process.
 -   The approvers are added manually to the record. The process can be time consuming, especially in large organizations or complex decision-making structures.
 -   Adding the approvers manually can lead to significant delays. Waiting to receive all approvals can slow down the decision-making process and decrease productivity.
 
@@ -107,11 +107,4 @@ The following components are used for setting up the dynamic approval configurat
 -   The Policy approval rules module creates or checks the approval configurations with the source table as policy.
 -   The Policy approval table stores the approvers of each level of the approval configuration. It can be used for tracking the status of the approval levels.
 -   Based on the current level decision, the policy either gets forwarded to the next level of approval or if it gets rejected, it is reset to the **Draft** state. If all levels are approved, the policy moves to the **Published** state.
-
--   **[Policy dynamic approval setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/configure-dynamic-approval-for-a-policy-without-redlining.md)**  
-Set up dynamic approval configuration on a policy. Based on the configured approval levels, the Policy and Compliance Management application configures one or more approval rules on the policy record.
--   **[Policy dynamic approval setup with redlining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/configure-dynamic-approval-for-policy-redlining.md)**  
-Set up dynamic approval configuration on a policy for which redlining is enabled.
-
-**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 

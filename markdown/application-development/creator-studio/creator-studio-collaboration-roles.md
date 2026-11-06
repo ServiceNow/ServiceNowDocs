@@ -7,10 +7,10 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [app collaboration, collaboration, delegated development]
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Collaborating with others to build apps in Creator Studio
@@ -68,7 +68,7 @@ You’ve designated Owners and Editors in your app, now what? You must invite ot
 
 Collaboration permissions enable you to control who's building apps in Creator Studio. You assign permissions to developers \(or users who deploy applications\) so that they can develop and deploy applications.
 
-If you invite someone to collaborate on an app and they don't have the Delegated developer \(delegated\_developer\) role, an App Engine admin must approve the collaboration request. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+If you invite someone to collaborate on an app and they don't have the Delegated developer \(delegated\_developer\) role, an App Engine admin must approve the collaboration request. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 When you add a user or group, a collaboration task is generated behind the scenes, and an approval flow kicks off. If you have App Engine Management Center \(AEMC\) installed, your admin can review and approve/deny these collaboration request tasks there. If you don’t have AEMC installed, admins can navigate to **All** &gt; **App Engine** &gt; **Collaboration** &gt; **Collaboration Tasks**.
 

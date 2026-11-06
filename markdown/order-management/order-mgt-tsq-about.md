@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-tsq-about.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-15"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -73,4 +73,11 @@ Use the Order Qualification Request integration request type in the Order Manage
 Learn how you can provide alternate proposals if a service qualification isn't met.
 
 **Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-service-orders.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

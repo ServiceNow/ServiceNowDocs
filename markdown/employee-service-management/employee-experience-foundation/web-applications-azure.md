@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [App Launcher, Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [App Launcher, Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Sync your applications from Microsoft Entra ID
@@ -110,7 +110,7 @@ Application icon
 
 Icon of the applicationWhen a brand icon isn't configured, a default icon appears.
 
-**Note:** Ensure that you configure a brand icon for the application for better user experience.
+**Note:** Ensure you configure a brand icon for the application for better user experience.
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Not available for
 
 User group for whom the app is unavailable. Values that are defined at the **Not available for** take precedence over **Available for**. This field is applicable only for custom applications.Application visibility and access are based on your configuration the **Not available for** option.
 
-**Note:** When you mark an application as **Not available for** a user, the app isn’t visible and accessible in the search results.
+**Note:** When you mark an application as **Not available for** a user, the app is not visible and accessible in the search results.
 
 </td></tr><tr><td>
 

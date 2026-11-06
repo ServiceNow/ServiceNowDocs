@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-task-plan-template-item.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Create one or more template items, such as a task or record, for a task plan tem
 
 ## Before you begin
 
-Role required: sn\_task\_plan.admin​ or sn\_task\_plan.creator role
+Role required: sn\_task\_plan.admin or sn\_task\_plan.creator role
 
 ## About this task
 

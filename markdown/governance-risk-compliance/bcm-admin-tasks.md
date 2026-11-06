@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bcm-admin-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,6 +20,8 @@ BIA administrator with the sn\_bia.bia\_admin role configures the BIA templates.
 Configure a business impact analysis \(BIA\) template in the Business Continuity Workspace with a legacy assessment. Select the type of elements, impact categories, and dependencies to be assessed. The legacy assessment uses the older method of selecting impact categories.
 -   **[Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/conf-impact-asmt-template.md)**  
 Create Smart Assessment templates in the Assessment Workspace for the Business Impact Analysis \(BIA\) workflow.
+-   **[Configure RTO and RPO Smart Assessment templates workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-rto-rpo-sa-templates.md)**  
+Configure Recovery Time Objective \(RTO\) and Recovery Point Objective \(RPO\) assessments using the Smart Assessment Engine for Business Impact Analysis \(BIA\). The Smart Assessment Engine replaces the traditional non-smart assessment questionnaires with an automated, rule-based approach.
 -   **[Configure BIA templates with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/conf-bia-temp-smart-asmt-type.md)**  
 Configure a business impact analysis \(BIA\) template in the Business Continuity Workspace with the Smart Assessment. Select the type of the elements, impact categories, and dependencies that are assessed in the BIA. The Smart Assessment lets you choose a custom Smart Assessment template for the BIA.
 

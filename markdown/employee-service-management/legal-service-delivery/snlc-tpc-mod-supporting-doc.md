@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work on a third-party contract review request, Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d389571e118">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d394891e118">
 
 Action
 
-</th><th align="left" id="d389571e121">
+</th><th align="left" id="d394891e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d389571e127">
+</th></tr></thead><tbody><tr><td id="d394891e127">
 
 **Add supporting documents**
 
@@ -77,7 +77,7 @@ This option is available only when external storage is enabled. The **External s
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d389571e279">
+</td></tr><tr><td id="d394891e279">
 
 **Reclassify supporting documents**
 
@@ -85,7 +85,7 @@ This option is available only when external storage is enabled. The **External s
 
 [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d389571e293">
+</td></tr><tr><td id="d394891e293">
 
 **Remove the supporting document**
 

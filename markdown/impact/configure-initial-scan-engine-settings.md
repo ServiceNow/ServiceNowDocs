@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-initial-scan-engine-settings.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Activate Scan Engine and review settings
@@ -16,35 +16,41 @@ Use Impact Guided Setup to set up the minimum required configuration options in 
 
 ## Before you begin
 
-[Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md) before beginning this task.
+**Important:** Navigation to reach this step differs depending on whether you're using the [Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use-impact-setup-hub.md) or the legacy [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md). See whichever one applies to you for the exact path.
 
-**Note:** You can complete the configuration steps directly in the Guided Setup interface, or can configure the properties using the indicate navigation steps.
+[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-roles.md) before beginning this task.
 
-Role required: Impact admin role or admin
+Role required: impact app admin or admin
 
 ## Procedure
 
 1.  Configure Instance Scanning and allow application access.
 
-    1.  Navigate to **All** &gt; **Impact** &gt; **Guided Setup** &gt; **Impact Platform Health** &gt; **Activate Scan Engine &amp; review settings**.
-
-    2.  On the Scan Engine Properties form, an SE Error banner displays.
+    1.  On the Scan Engine Properties form, an SE Error banner displays.
 
         \[Omitted image "scan-engine-operation-banner4.png"\] Alt text: The banner to select to activate application access.
 
-    3.  Select the `sys_update_version` link to navigate to the Application Access tab.
+    2.  Select the `sys_update_version` link to navigate to the Tables page.
+
+        \[Omitted image "guided-setup-app-access.png"\] Alt text: The Table updated versions page with the Application Access tab and the Can read check box selected.
+
+    3.  Select the **Application Access** tab.
 
     4.  Select the **Can read** checkbox.
 
-    5.  Select **Save** to continue to activate Scan Engine directly in Scan Engine properties or select **Update** to return to Guided Setup.
+    5.  Select **Update**.
 
-2.  Configure Scan Engine Properties to customize and enable initial scan options.
+2.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-    **Important:** The initial scan sets up the minimum required configuration options to run the first system scan.
+3.  Configure Scan Engine Properties to customize and enable as depicted in the table.
 
 <table id="table_lxt_slx_lgc"><thead><tr><th>
 
 Field
+
+</th><th>
+
+Value
 
 </th><th>
 
@@ -58,15 +64,21 @@ Activate Scan Engine
 
 Select the checkbox to set the value to **true**.
 
+</td><td>
+
+Turns on the Scan Engine feature.
+
 </td></tr><tr><td>
 
 Run scheduled scan
 
 </td><td>
 
--   Select the checkbox to set the value to **true**.
--   Used to schedule a daily scan to run based on the configured scan time and time zone of the settings selected.
+Select the checkbox to set the value to **true**.
 
+</td><td>
+
+Used to schedule a daily scan to run based on the configured scan time and time zone of the settings selected.
 
 </td></tr><tr><td>
 
@@ -74,27 +86,42 @@ Average Developer Rate
 
 </td><td>
 
-Default preferred developer hourly rate in the selected currency to be used for reporting the ROI \(return on investment\) from reducing technical issues.
-
-</td></tr><tr><td>
-
-Configure Scan Engine properties
+Set an hourly rate in the selected currency.
 
 </td><td>
 
-Review and adjust settings, as each tab has default settings that can be adjusted. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for more information.
+Default preferred developer hourly rate in the selected currency to be used for reporting the ROI \(return on investment\) calculated with the quantity of reduced technical issues.
+
+</td></tr><tr><td>
+
+Configure Platform Health Scan Engine properties
+
+</td><td>
+
+Review each tab to understand the default defined behavior or opt to reconfigure settings.
+
+</td><td>
+
+Review and adjust settings, as each tab has default settings that can be adjusted. **Important:** See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for more information.
 
 </td></tr></tbody>
-</table>3.  Select **Mark as Complete** to enable the next step.
+</table>4.  Select **Run your first scan** to enable the next step.
+
+    **Important:** The initial setup configures required options to run the first system scan. See [Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md) for details.
+
+    Additional and subsequent configuration may occur to adjust Scan Engine behavior.
 
 
-## What to do next
+-   **[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md)**  
+Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
+-   **[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/view-modify-scan-engine-properties.md)**  
+You can modify an existing definition to further customize and refine its scanning criteria or deactivate a definition.
+-   **[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-integration-scan-engine.md)**  
+Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 
-[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
+**Previous topic:**[Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-development-team.md)
 
-**Previous topic:**[Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md)
-
-**Next topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md)
+**Next topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md)
 

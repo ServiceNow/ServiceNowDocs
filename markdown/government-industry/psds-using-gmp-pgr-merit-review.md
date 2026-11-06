@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Set up a grant program, Grants Management Program Setup, Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Set up a grant program, Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Set up the Merit Review

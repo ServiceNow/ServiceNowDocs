@@ -1,32 +1,32 @@
 ---
 title: Firewall extension classes
-description: The CMDB CI Class Models store app adds or updates classes for firewall devices.
+description: The CMDB CI Class Models app adds or updates classes for firewall devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Firewall extension classes
 
-The CMDB CI Class Models store app adds or updates classes for firewall devices.
+The CMDB CI Class Models app adds or updates classes for firewall devices.
 
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the CMDB CI Class Models release notes.
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Firewalls
 
-A firewall is a network security system that, based on security policies, monitors and controls incoming and outgoing network traffic. Firewalls typically form a barrier between an internal network and an untrusted external network such as the internet. It usually consists of security policies that help secure an organization from external threats and cyberattacks. Firewall vendors may provide a centralized firewall manager to manage many firewall devices and the security policies residing on them. For example, Panorama™ is the centralized management system for Palo Alto Networks firewalls.
+A firewall is a network security system that, based on security policies, monitors and controls incoming and outgoing network traffic. Firewalls typically form a barrier between an internal network and an untrusted external network such as the internet. It usually consists of security policies that help secure an organization from external threats and cyberattacks. Firewall vendors might provide a centralized firewall manager to manage many firewall devices and the security policies residing on them. For example, Panorama™ is the centralized management system for Palo Alto Networks firewalls.
 
 \[Omitted image "cmdb-ci-class-model-fw-palo-alto-cisco.png"\] Alt text: Firewall extension classes integrated with the CMDB class hierarchy.
 
@@ -34,7 +34,7 @@ A firewall is a network security system that, based on security policies, monito
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates.See the class columns table for further details about the columns added for each class. CMDB CI Class Models: Release 1.10.0 adds or updates the following classes for the discovery of network firewall devices. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class. CMDB CI Class Models: Release 1.10.0 adds or updates the following classes for the discovery of network firewall devices. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_kbv_s5d_dlb"><thead><tr><th>
 

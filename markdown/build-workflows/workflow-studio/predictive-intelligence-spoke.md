@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Machine Learning solutions for Flow Designer
@@ -84,7 +84,7 @@ Regression Batch Prediction
 
 </td><td>
 
-Obtain a predicted value from an active regression solution definition using multiple input records.**Note:** The regression framework is deprecated in the Zurich release. You can continue to use existing regression solutions but you can't create new ones.
+Obtain a predicted value from an active regression solution definition using multiple input records.**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Regression Prediction
 
 </td><td>
 
-Obtain a predicted value from an active regression solution definition using a single input record.**Note:** The regression framework is deprecated in the Zurich release. You can continue to use existing regression solutions but you can't create new ones.
+Obtain a predicted value from an active regression solution definition using a single input record.**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.
 
 </td></tr><tr><td>
 

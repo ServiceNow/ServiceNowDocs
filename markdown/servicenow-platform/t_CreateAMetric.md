@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/t\_CreateAMetric.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assessment metrics, Assessment administrator tasks, Use, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create an assessment metric for a category
@@ -26,7 +26,7 @@ When you create metrics, consider the focus of the category and what characteris
 
 1.  Navigate in one of the following ways.
 
-<table id="choicetable_amk_2gr_z4"><tbody><tr><td id="d624719e69">
+<table id="choicetable_amk_2gr_z4"><tbody><tr><td id="d631747e69">
 
 **__Assessments__ &gt; __Metric Definition__ &gt; __Categories__**
 
@@ -36,7 +36,7 @@ Open a category, and locate the **Assessment Metrics** related list.
 
  This is the suggested navigation path, as the system links metrics to the category from which they are created.
 
-</td></tr><tr><td id="d624719e99">
+</td></tr><tr><td id="d631747e99">
 
 **__Assessments__ &gt; __Metric Definition__ &gt; __Metrics__**
 

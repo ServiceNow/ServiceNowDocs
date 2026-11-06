@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # Discrepancies when using different AI search tools
@@ -33,7 +33,7 @@ For more information on differences in ServiceNow AI results, see [Search result
 
 ## Now LLM Service response vs. Azure response
 
-\[Omitted image "nowllm-vs-azure.png"\] Alt text: The first image shows the response from Now LLM Service. The second image shows the response from Azure.
+\[Omitted image "image.nowllm-vs-azure"\] Alt text: The first image shows the response from Now LLM Service. The second image shows the response from Azure.
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

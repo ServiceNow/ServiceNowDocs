@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manually create issues, Manage issues, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manually create GRC issues using the Compliance Workspace, Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Group similar issues using the Compliance Workspace
@@ -33,9 +33,9 @@ Role required: \(per product\)
     -   **Audit** &gt; **Issues** &gt; **Create New**.
 2.  On the form, locate the **Parent** field.
 
-3.  Click the bulb icon and select **Issues with existing parent** from the **Group with** drop-down list.
+3.  Select the bulb icon and select **Issues with existing parent** from the **Group with** drop-down list.
 
-4.  Select **Similar issue** to group the similar issue with the current issue.
+4.  Select **Similar issue** to group a similar issue with the current issue.
 
     The parent issue of the issue you select becomes the parent issue of the current issue.
 

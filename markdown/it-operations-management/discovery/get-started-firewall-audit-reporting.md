@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
@@ -31,7 +31,7 @@ Role required: admin
     -   ITOM Visibility \[com.snc.itom.vis.license\] plugin
     -   Discovery \[com.snc.discovery\] plugin
     -   Configuration Management for Scoped Apps \(CMDB\) \[com.snc.cmdb.scoped\] plugin
-2.  Confirm that your system has been upgraded to Zurich or a later version.
+2.  Confirm that your system has been upgraded to Brazil or a later version.
 
     During the upgrade process, the Firewall Audits and Reporting \[com.sn\_disco\_firewall\] plugin is automatically installed if the ITOM Visibility \[com.snc.itom.vis.license\] and Discovery \[com.snc.discovery\] plugins are already installed.
 

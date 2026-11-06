@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/login-end-user.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with mobile instances, Using the mobile apps, Mobile Platform]
 ---
@@ -36,15 +36,15 @@ If you download the mobile app from an enterprise mobility management \(EMM\) su
 
 2.  In the instance address field, enter the instance address in one of two ways.
 
-<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d45504e115">
+<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d47511e115">
 
 Option
 
-</th><th align="left" id="d45504e118">
+</th><th align="left" id="d47511e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45504e124">
+</th></tr></thead><tbody><tr><td id="d47511e124">
 
 **Manual entry**
 
@@ -54,7 +54,7 @@ Type the instance address in the instance address field.
 
 **Note:** You don't need to include  `.service-now.com ` at the end of the instance name.
 
-</td></tr><tr><td id="d45504e141">
+</td></tr><tr><td id="d47511e141">
 
 **Scan QR code**
 

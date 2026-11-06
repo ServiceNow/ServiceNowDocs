@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/net-pricing-sp-contracts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Managing the price basis for MACD products

@@ -1,5 +1,5 @@
 ---
-title: Install Service Reliability Management from Admin Center or ServiceNow Store
+title: Install Service Reliability Management
 description: Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-install-sr-store-app.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Install Service Reliability Management from Admin Center or ServiceNow Store
+# Install Service Reliability Management
 
 Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
 
@@ -51,24 +51,7 @@ Roles and demo data are installed with SRM. The demo data includes templates tha
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-
-[Assign an administrator to Service Reliability Management]()
-
-[Activate teams and services in SRM]()
-
-[Customize service approval settings]()
-
-[Customize team approval settings]()
-
-[Configure error budget actions for breached SRM SLOs]()
-
-[Approve a change request for SRM]()
-
-[Configure fields for escalation triggers]()
-
-[Configure Twilio to send notifications in SRM]()
-
-[Install the Alert Automation application]()
+**Next topic:**[Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-assign-admins.md)
 

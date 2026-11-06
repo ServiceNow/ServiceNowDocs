@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Flow administration, Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # FDIH Dashboard
@@ -48,6 +48,8 @@ The dashboard is divided into six sections.
 There's no specific order in which you must view the reports, set filters, or customize the columns in the report tables.
 
 The following example shows how the dashboard data is organized into sections, charts, filters, and graphs. The filters enable you to drill beyond a chart or a graph to view more detailed data.
+
+\[Omitted image "fdih-dashboard-flow-usage-example.png"\] Alt text: Sample data of top 10 flow runs.
 
 -   **[Get insights from the FDIH Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/get-insights-fdih-dashboard.md)**  
 Use the FDIH Dashboard to get insights on flow executions and historical performance.

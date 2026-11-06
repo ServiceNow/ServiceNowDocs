@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
 ---
@@ -19,6 +19,10 @@ Use the Agent Client Collector \(ACC\) admin workspace to monitor the status of 
 ## Before you begin
 
 Role required: agent\_client\_collector\_admin
+
+## About this task
+
+For details on the information accessible on the ACC admin workspace, see [Agent Client Collector \(ACC\) admin workspace information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/acc-admin-workspace-information.md).
 
 ## Procedure
 
@@ -38,18 +42,11 @@ Role required: agent\_client\_collector\_admin
 
 4.  Select an agent in the agents list to view details of the agent.
 
-    \[Omitted image "agent-record-page.png"\] Alt text: Agent details page \[Omitted image "agent-record-page.png"\] Alt text: Agent details page
+    \[Omitted image "agent-record-page.png"\] Alt text: Agent details page
 
 5.  Select the **Agent actions** button and select from actions to perform on the agent.
 
-    |Agent action|Description|
-    |------------|-----------|
-    |Test Check|On the resulting pop-up window, select a check definition that you want to check on the agents.|
-    |Validate ACC plugins|Validate plugins on the selected agent.|
-    |Pause data collection|Pause data collection run on the agent when CPU consumption is getting too high.|
-    |Upgrade|Upgrade the agent to a more recent version.|
-    |Clear ACC plugins|Clear plugins on the agent to remove unwanted plugins.|
-    |Collect host data|Manually refresh host data.|
+    For details on the available actions, see [Agent Client Collector \(ACC\) admin workspace agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/acc-admin-workspace-agent-actions.md).
 
     **Note:** The **Agent actions** button displays only when you have installed Agent Client Collector Framework version 6.0.0 or higher.
 

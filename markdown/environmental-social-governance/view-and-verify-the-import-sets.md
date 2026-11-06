@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/view-and-verify-the-import-sets.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Watershed, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # View and verify the import sets
@@ -20,7 +20,7 @@ Role required: sn\_esg.program\_manager
 
 ## About this task
 
-After the data is loaded to the ESG Management application from an external source, such as a spreadsheet, import sets are created where the state of each row is available. If there are errors during import, the state is updated as **Error**. If the data is imported, the state is updated as **Inserted**. You can also view the cause of the error in the error log. If the metric data is overridden, then the state is set to **Ignore**.
+After the data is loaded to the Operational Sustainability Management application from an external source, such as a spreadsheet, import sets are created where the state of each row is available. If there are errors during import, the state is updated as **Error**. If the data is imported, the state is updated as **Inserted**. You can also view the cause of the error in the error log. If the metric data is overridden, then the state is set to **Ignore**.
 
 ## Procedure
 
@@ -39,5 +39,5 @@ After the data is loaded to the ESG Management application from an external sour
 
 [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-a-transform-map.md).
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
 

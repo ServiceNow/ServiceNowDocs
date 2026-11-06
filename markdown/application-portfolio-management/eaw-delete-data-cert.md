@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-delete-data-cert.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Delete a certification policy
@@ -16,7 +16,7 @@ Delete an unwanted certification policy permanently.
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst, com.snc\_apm\_analyst
+Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 
 ## About this task
 

@@ -1,5 +1,5 @@
 ---
-title: Customize the Playbook Experience
+title: Customizing the Playbook Experience
 description: Customize the layout of your Playbook Experience with base system modular components, templates, and more via integrated UI Builder functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/playbook-customize-playbook.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Designing playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Customize the Playbook Experience
+# Customizing the Playbook Experience
 
 Customize the layout of your Playbook Experience with base system modular components, templates, and more via integrated UI Builder functionality.
 
@@ -76,6 +76,8 @@ Determine how to display these modular components in your Playbook Experience:
 
         \[Omitted image "playbook-focused-view.png"\] Alt text: A single activity that you can mark as complete or skip.
 
+    -   The **Guided** layout
+    -   The **Wizard** layout
 -   **Playbook modals**
 
     If you want the ability to cancel playbooks and add optional activities, you must add the **Playbook Modals** component to your pages. If you use a template, this is already included.
@@ -95,6 +97,8 @@ If adding each component individually isn't ideal, you can also add an entire la
 -   Focused Horizontal
 -   Stacked Vertical
 -   Stacked Vertical
+-   Guided Decision
+-   Wizard
 
 Each layout contains the following components:
 
@@ -108,15 +112,4 @@ Each layout contains the following components:
 -   Client scripts
 
 To add a bundle to an existing or new UI Builder page, see [Add a custom layout bundle to a UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.md). If you're creating a new experience and want to add a bundle to a standard record page, see [Add a custom layout bundle to a UI Builder standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.md).
-
--   **[Customize a playbook in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-get-started-custom-layouts.md)**  
-Use UI Builder pages and modular components for custom playbook layouts to customize the end user's Playbook Experience in a configurable workspace, Service Portal page, or mobile web page.
--   **[Add a custom layout bundle to a UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.md)**  
-Add playbook custom layout bundles to a new or existing UI Builder page that you've created from scratch.
--   **[Add a custom layout bundle to a UI Builder standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.md)**  
-Add playbook custom layout bundles to a new or an existing UI Builder standard record page.
--   **[Enable Guided activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/enable-guided-activity-view.md)**  
-Guide end users through a playbook, step-by-step.
-
-**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
 

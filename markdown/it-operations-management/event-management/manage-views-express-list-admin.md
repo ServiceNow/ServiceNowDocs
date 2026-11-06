@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -149,15 +149,15 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d720270e375">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d779478e377">
 
 Task
 
-</th><th align="left" id="d720270e378">
+</th><th align="left" id="d779478e380">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d720270e384">
+</th></tr></thead><tbody><tr><td id="d779478e386">
 
 **Assign a user to the selected Express List view**
 
@@ -169,7 +169,7 @@ Procedure
 4.  Select the save icon \[Omitted image "save-icon.png"\].
 
 
-</td></tr><tr><td id="d720270e424">
+</td></tr><tr><td id="d779478e426">
 
 **Assign a user group to the selected Express List view**
 
@@ -231,7 +231,7 @@ Procedure
 
 10. Exclude field attributes from the Express List view by deactivating them.
 
-    1.  In the **Express List View Field Attributes** tab, select the information icon \[Omitted image "information\_icon.png"\] Alt text: for the relevant field attribute record.
+    1.  In the **Express List View Field Attributes** tab, select the information icon \[Omitted image "information\_icon.png"\] for the relevant field attribute record.
 
     2.  Select **Open Record**.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OAuth 2.0, OAuth authentication, Access Management]
+breadcrumb: [OAuth 2.0, OAuth authentication, Authentication, Access Management]
 ---
 
 # Set the OAuth property
@@ -18,7 +18,7 @@ To generate OAuth 2.0 tokens to registered applications, the `com.snc.platform.s
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 ## Procedure
 

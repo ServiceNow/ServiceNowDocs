@@ -1,24 +1,24 @@
 ---
 title: Experimentation framework
-description: The experimentation framework enables ServiceNow to test feature variants on customer instances and collect feedback to improve product experiences.
+description: The experimentation framework enables ServiceNow to test and release new features using A/B testing in order to collect feedback to improve product experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/experimentation-framework.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Basic system configuration, Get started, Administer]
+breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Experimentation framework
 
-The experimentation framework enables ServiceNow to test feature variants on customer instances and collect feedback to improve product experiences.
+The experimentation framework enables ServiceNow to test and release new features using A/B testing in order to collect feedback to improve product experiences.
 
-An experiment is a configuration that can be used by products to route users to a particular feature variant. Each experiment includes information about its scope and which feature variants are being tested.
+Each experiment includes information about its scope and which feature variants are being tested. Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via the experimentation framework.
 
-Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via the experimentation framework. Admins can choose to opt out of individual experiments or turn off the framework entirely.
+The framework captures only aggregated usage metrics \(such as feature usage, performance\) to assess the impact of a feature. No personally identifiable information is collected, and all data handling aligns with our standard privacy and security practices.
 
-You can view active experiments by navigating to **All** &gt; **Experimentation Framework** &gt; **All Experiments**.
+You have full transparency and control over your instance's use of the experimentation framework. You can view active experiments by navigating to **All** &gt; **Experimentation Framework** &gt; **All Experiments**. You can also choose to opt out of individual experiments or turn off the framework entirely.
 
 -   **[Opt out of an individual experiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/opt-out-individual-experiment.md)**  
 Opt out of a specific experiment while remaining enrolled in others.

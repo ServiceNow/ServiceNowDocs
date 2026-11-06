@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CWM integration, connected work, project execution, team collaboration]
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -58,7 +58,7 @@ Connected CWM tasks and stories appear as child rows under each project task. Th
 
 ## Team member view in CWM
 
-Team members work with the same connected items from within CWM. For details on the CWM side of the integration, such as creating, moving, and viewing connected work, see .
+Team members work with the same connected items from within CWM. For details on the CWM side of the integration, such as creating, moving, and viewing connected work, see [CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md).
 
 -   **[Connected CWM work on the project planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.md)**  
 Understand how the connected Collaborative Work Management \(CWM\) tasks are displayed on your project's planning page.

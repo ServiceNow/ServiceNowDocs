@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Company events
@@ -24,8 +24,6 @@ Company events can be published via a publish plan or using Content templates to
 Create new reservations and make changes to existing reservations for your company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
 -   **[Attendee List and RSVP for company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-attendee-list-company-events.md)**  
 Attendee list can be viewed for company events.
--   **[Surge Modal Redirect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec_home_surge_modal_redirect.md)**  
-Handle high concurrency events on the employee portal home page by showing a pop-up modal if there's a live company event.
 
 **Parent Topic:**[Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-publish-content.md)
 

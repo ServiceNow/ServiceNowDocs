@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SOW integration, Statement of Work, change request integration, workspace integration, interoperable routes]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
@@ -49,7 +49,7 @@ If a change is associated with a release, the card displays the following key de
 -   Policy status
 -   Release state
 
-To open the release execution page, select the release name link.
+To open the release record page, select the release name link.
 
 For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-change-sow.md).
 

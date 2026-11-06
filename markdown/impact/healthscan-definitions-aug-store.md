@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/healthscan-definitions-aug-store.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # HealthScan definitions updates: August 2024 release
@@ -749,7 +749,7 @@ HSD0004658
 
 </td><td>
 
-Adoption of ATF Quickstart Test 'CSM Extension for Proxy Contacts'
+Adoption of ATF Quickstart Test 'Customer Proxy Contacts'
 
 </td><td>
 
@@ -928,4 +928,5 @@ X
 -   Baseline findings were removed
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/healthscan-definitions.md)
+

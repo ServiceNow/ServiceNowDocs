@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/ctwm-exploring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -24,6 +24,8 @@ Use the **Operational Rounding Playbook** to build structured rounding task plan
 
 The playbook automates the creation of all related work across units and organizations while supporting evidence capture, exception reporting, and progress tracking directly in the Healthcare Workspace.
 
+Use the **Care Team Activities Playbook** to build recurring task plans for routine unit-level work, such as daily safety checks or shift readiness reviews. These task plans generate care team cases and tasks directly for each selected team or unit, without the cross-unit orchestration layer used by multi-unit programs.
+
 ## Care Team Work Management users
 
 |User|Description|
@@ -34,7 +36,7 @@ The playbook automates the creation of all related work across units and organiz
 
 ## Care Team Work Management workflow
 
-\[Omitted image "image.CTWM-workflow"\] Alt text: Care Team Work Management sample user workflow.
+\[Omitted image "CTWM-workflow.png"\] Alt text: Care Team Work Management sample user workflow.
 
 1.  An administrator configures the Care Team Work Management application.
 
@@ -52,6 +54,7 @@ The playbook automates the creation of all related work across units and organiz
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Standardize and automate routine operational tasks.|[Create a care team task plan using the Operational rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-operational-rounding-playbook.md)|Operational Leader|
+|Standardize and automate recurring unit-level operational tasks.|[Create a task plan using the Care team activities playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-cta-playbook.md)|Care Team Agent Manager, Operational Leader|
 |Improve visibility into operational performance at a unit level.|[Track care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-track-care-team-task-plans.md)|Operational Leader, Care Team Agent Manager|
 |Fulfill cases and task created from task plans.|[Fulfilling care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-fulfilling.md)|Care Team Agent, Care Team Agent Manager, Support Agents|
 
@@ -61,6 +64,7 @@ To learn more about configuring and using Care Team Work Management, see:
 
 -   [Configuring Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-configuring.md)
 -   [Create a care team task plan using the Operational rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-operational-rounding-playbook.md)
+-   [Create a task plan using the Care team activities playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-cta-playbook.md)
 -   [Track care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-track-care-team-task-plans.md)
 -   [Fulfilling care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-fulfilling.md)
 -   [Care Team Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-reference.md)

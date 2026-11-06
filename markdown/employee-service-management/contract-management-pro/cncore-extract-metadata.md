@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract metadata extraction, Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Extract contract metadata, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Initiate metadata extraction from a contract
@@ -32,15 +32,15 @@ You can also configure the system properties to automatically initiate the metad
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d206077e86">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d209811e86">
 
 Method
 
-</th><th align="left" id="d206077e89">
+</th><th align="left" id="d209811e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d206077e95">
+</th></tr></thead><tbody><tr><td id="d209811e95">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d206077e143">
+</td></tr><tr><td id="d209811e143">
 
 **Workspace used by your application**
 
@@ -77,5 +77,5 @@ Steps
 
 [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-review-metatdata.md)
 
-**Parent Topic:**[Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

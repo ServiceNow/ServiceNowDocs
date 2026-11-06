@@ -5,15 +5,21 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/set-up-ai-agent-advisor.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Configure, AI Agent Advisor, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Confirm installation of AI Agent Advisor
 
 Confirm the installation of the AI Agent Advisor application.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -49,7 +55,7 @@ Follow these steps to confirm the installation of the AI Agent Advisor plugin.
 
         The AI Agent Advisor application will install at the selected time.
 
-3.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center** to confirm the successful installation.
+3.  Navigate to **All** &gt; **AI Admin Center** &gt; **Home** or **Admin** &gt; **AI Admin Center** to confirm the successful installation.
 
     The AI Admin Center home page opens.
 
@@ -71,12 +77,8 @@ The AI Agent Advisor application is installed and available to the appropriate u
 
 **Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-agent-advisor.md)
 
-**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-agent-advisor.md)
-
 **Related topics**  
 
-
-[Setting up automation opportunity discovery in AI Admin Center]()
 
 [Setting up automation opportunity discovery in AI Admin Center]()
 

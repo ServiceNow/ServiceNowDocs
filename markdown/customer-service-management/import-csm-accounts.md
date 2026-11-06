@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-csm-accounts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Use Customer Service Management guided setup to import existing accounts and con
 
 ## Before you begin
 
-Role required: admin
+Role required: import\_admin, sn\_crm\_foundation\_admin, and csm\_guided\_setup\_user
 
 ## About this task
 

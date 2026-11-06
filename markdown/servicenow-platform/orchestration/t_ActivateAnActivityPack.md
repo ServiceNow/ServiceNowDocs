@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Orchestration, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 The following activity packs are available and active with your Orchestration subscription:
 
--   [Orchestration - Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
+-   [Orchestration - Active Directory]() \(com.snc.orchestration.ad\)
 -   [Orchestration - Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
 -   [Orchestration - Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
 -   [Orchestration - SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)

@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Generate labor costs
@@ -29,15 +29,15 @@ Generate labor costs based on the planning attributes configured for financials 
 
 2.  Generate labor costs using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d59149e111">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d61953e111">
 
 Choice
 
-</th><th align="left" id="d59149e114">
+</th><th align="left" id="d61953e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59149e120">
+</th></tr></thead><tbody><tr><td id="d61953e120">
 
 **Using link from Financials Summary view**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Generate Labor Costs**.
 
 
-</td></tr><tr><td id="d59149e153">
+</td></tr><tr><td id="d61953e153">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 
 Select the **Generate Labor Costs** related link.
 
-</td></tr><tr><td id="d59149e165">
+</td></tr><tr><td id="d61953e165">
 
 **Activate a scheduled job**
 
@@ -104,6 +104,10 @@ Activate and trigger a scheduled job to generate attribute-based labor costs for
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing OT Asset Management, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Installing OT Asset Management, OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install OT Asset Management from the ServiceNow Store

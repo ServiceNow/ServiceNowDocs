@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/domain-separation-for-partner-relationship-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
 # Domain separation for Partner Relationship Management
@@ -16,12 +16,10 @@ Domain separation enables you to separate data, processes, and administrative ta
 
 All partner program records, partner program relationships, and channel partners are present in the domain of the associated program.
 
-**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management-reference.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-program-table.md)
-
-[Partner program table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-program-table-fields.md)
+[configure-partner-program-table]
 

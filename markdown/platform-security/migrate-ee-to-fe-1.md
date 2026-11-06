@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/migrate-ee-to-fe-1.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Migrate from Edge Encryption to Field Encryption, Configuring Field Encryption, Field Encryption, Encryption]
 ---

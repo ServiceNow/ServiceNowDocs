@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/network-slice.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -30,7 +30,7 @@ By slicing a 5G network, a CSP can do the following tasks:
 
 A product catalog administrator creates templates in the product catalog by defining the template characteristics and template characteristic options. When the product catalog administrator is finished creating the templates, they publish it to the product catalog. With this process, the product catalog administrator can create templates for the various types of slices with the slice attributes and attribute values for the 5G network services.
 
-Next, the product catalog administrator maps the slice templates with the various specification categories. The product catalog administrator does the mapping by using the Template Selection Policy decision table in the Decision Builder. The mapped templates are automatically filled in the service specification form when a user selects a specification category. For a description of the Service specifications form fields, see .
+Next, the product catalog administrator maps the slice templates with the various specification categories. The product catalog administrator does the mapping by using the Template Selection Policy decision table in the Decision Builder. The mapped templates are automatically filled in the service specification form when a user selects a specification category. .
 
 **Note:**
 
@@ -42,4 +42,11 @@ The product catalog manager then uses the templates to define the new specificat
 After the 5G service specifications are created, they can be used in the slice order creation and fulfillment process. The 5G slice ordering process follows the existing order approval, decomposition, and fulfillment process in the Order Management application.
 
 **Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-service-orders.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

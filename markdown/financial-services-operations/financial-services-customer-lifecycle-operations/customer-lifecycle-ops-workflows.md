@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -69,7 +69,7 @@ Address change for customer
 Name change of customer
 
 </td></tr></tbody>
-</table>These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-designer-home-landing-page.md). The CLO admin can review and customize these workflows according to their organization's needs.
+</table>These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md). The CLO admin can review and customize these workflows according to their organization's needs.
 
 ## General workflow for Financial Services Customer Lifecycle Operations
 

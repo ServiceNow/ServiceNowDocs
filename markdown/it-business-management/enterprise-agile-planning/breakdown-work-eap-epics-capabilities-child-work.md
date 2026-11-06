@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -59,7 +59,7 @@ This task provides guidance to create child items directly from the parent work 
 
 ## What to do next
 
--   Refine the description with Now Assist. .
+-   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md).
 
     This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 

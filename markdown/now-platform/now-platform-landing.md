@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-platform/now-platform-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -41,7 +41,7 @@ Choose one of these tiles to get started.
 
 </td></tr><tr><td>
 
-Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.
+[Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/convint-landing-page.md)
 
 </td><td>
 

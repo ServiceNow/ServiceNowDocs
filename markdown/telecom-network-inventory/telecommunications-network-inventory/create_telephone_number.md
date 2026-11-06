@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a telephone infrastructure, Inventory number allocation, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Create a telephone infrastructure, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Create a telephone number to an area or region
@@ -18,7 +18,7 @@ Create a telephone number to add that number to an area or to a region by using 
 
 ## Before you begin
 
--   Ensure that the Telecommunications Network Inventory application includes all the required components of your telephone number. Otherwise, see [Creating telephone number components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md).
+-   Ensure that the Telecommunications Network Inventory application includes all the required components of your telephone number. Otherwise, see [Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md).
 -   Role required: sn\_inv\_num\_mgmt.inventory\_number\_manager
 
 ## About this task

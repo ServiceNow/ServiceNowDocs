@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -67,7 +67,7 @@ Activate the following Solutions when you have the Performance Analytics for Cus
 
     **Note:** To use Performance Analytics with Self-Service Analytics for applications other than Customer Service Management, see [Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/self-service-analytics.md).
 
--   Virtual Agent content pack: This Platform Analytics Solution has been deprecated starting in the Quebec release. Use the Conversational Analytics Dashboard instead.
+-   Virtual Agent content pack: This Platform Analytics Solution has been deprecated starting in the Quebec release. Use the [Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md) instead.
 
 ## Performance Analytics for Governance, Risk, and Compliance Solutions
 
@@ -93,7 +93,6 @@ Activate the following Solutions when you have the Performance Analytics for Hum
 
 Activate the following solutions if you have an entitlement to Performance Analytics for Business Management, Performance Analytics for Financial Management, or Performance Analytics for Service Strategy:
 
--   [Agile 2.0 \(sn\_scrum\_dashboard on ServiceNow Store\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/install-configure-agile-dashboard.md)
 -   [Essential SaFE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/pa-content-pack-essential-safe.md)
 -   Financial Management for Application Portfolio Management \(com.snc.pa.fm.apm\)
 -   Financial Management for Customer Service \(com.snc.pa.fm.csm\)

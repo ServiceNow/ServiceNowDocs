@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-associate-info-obj-ba.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage information objects in EA Workspace
@@ -38,7 +38,7 @@ Role required: sn\_apm.apm\_user
 
 8.  On the form, fill in the fields.
 
-    For field information, see [Add relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-relationship-form.md).
+    For field information, see [Add relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-relationship-form.md).
 
 9.  Select **Save**.
 
@@ -49,6 +49,8 @@ Role required: sn\_apm.apm\_user
 11. To edit an existing relationship details, select an information object then select **Edit**.
 
     Edit the details in the **Manage Relationship** form and select **Update**.
+
+    **Note:** You can zoom on this page or any of the child pages to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
 
 **Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-application-portfolio.md)

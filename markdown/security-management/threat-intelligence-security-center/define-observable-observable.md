@@ -7,8 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [observable-observable relationships, define relationships]
 breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -32,15 +33,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d393188e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d397223e107">
 
 Field
 
-</th><th align="left" id="d393188e101">
+</th><th align="left" id="d397223e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d393188e107">
+</th></tr></thead><tbody><tr><td id="d397223e116">
 
 **Source Observable**
 
@@ -48,7 +49,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d393188e116">
+</td></tr><tr><td id="d397223e125">
 
 **Target Observable**
 
@@ -56,7 +57,7 @@ Select and define the source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d393188e125">
+</td></tr><tr><td id="d397223e134">
 
 **Relationship Type**
 
@@ -68,7 +69,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d393188e144">
+</td></tr><tr><td id="d397223e153">
 
 **Basis For Correlation**
 

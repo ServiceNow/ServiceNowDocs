@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,17 +18,17 @@ For configuration management to be most effective, establish relationships betwe
 
 ## Required CSDM relationships
 
--   Most features and products, such as the Technology Portfolio Management risk assessment and Application Portfolio Management \(APM\), depend on the relationships.
+-   Most features and products, such as the Technology Lifecycle Management risk assessment and Application Portfolio Management \(APM\), depend on the relationships.
 -   The relationships commonly created as part of Service Mapping and Discovery are the standard for infrastructure CIs. If you map the elements manually, be sure to consider how Discovery would have treated them.
 -   Not all objects in the CSDM conceptual model are CMDB tables, and not all the objects have relationships. You might create some of the following required relationships.
 -   CSDM v5 implements the **Uses::Used By** relationship between Business Applications and Application Services. Earlier CSDM versions used **Consumes::Consumed By**. A Business Application, ultimately, relates to an Application Service table and not any other type of Service Instance.
 
-    **Note:** Enterprise Architecture Workspace users should continue to use the **Consumes::Consumed by** relationship so that the TPM and TRM life cycle timelines are displayed correctly.
+    **Note:** Enterprise Architecture Workspace users should continue to use the **Consumes::Consumed by** relationship so that the TLM and TRM life-cycle timelines are displayed correctly.
 
 
 \[Omitted image "csdm-ci-relationships.png"\] Alt text: CSDM relationships.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
 
 ## Resources in the ServiceNow Community
 

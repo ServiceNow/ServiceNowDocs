@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
-breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Get started with dynamic inputs
@@ -790,7 +790,7 @@ This custom action includes these elements.
 
 -   An input of type Dynamic Choice to select a table
 -   An input of type Dynamic Template to select and set field values
--   A script step to create a record from the 
+-   A script step to create a record from the [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 -   An action output variable named `output` to store the sys\_id of the record created
 
 ### Procedure

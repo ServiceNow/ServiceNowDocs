@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a quick link, Quick links, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Create a quick link, Quick links, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Restrict access to a quick link
@@ -32,15 +32,15 @@ Role required: sp\_admin, taxonomy\_manager or taxonomy\_admin and user\_criteri
 
 3.  Click the **Available For** tab.
 
-<table id="choicetable_ght_h1l_mqb"><thead><tr><th align="left" id="d383180e99">
+<table id="choicetable_ght_h1l_mqb"><thead><tr><th align="left" id="d388635e98">
 
 To
 
-</th><th align="left" id="d383180e102">
+</th><th align="left" id="d388635e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d383180e108">
+</th></tr></thead><tbody><tr><td id="d388635e107">
 
 **Add a new user criteria**
 
@@ -51,7 +51,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d383180e142">
+</td></tr><tr><td id="d388635e141">
 
 **Edit an existing user criteria**
 

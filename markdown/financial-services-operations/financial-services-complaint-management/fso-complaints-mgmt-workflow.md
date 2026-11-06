@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ The following diagram shows how the application helps bank agents resolve a comp
 
 \[Omitted image "fso-complaints-workflow-example.png"\] Alt text: Workflow that shows how a complaint request is resolved using the Complaint management application. For the text description, refer to the workflow steps that follow.
 
-**Note:** This workflow is built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-designer-home-landing-page.md). The complaint admin can review and customize this predefined flow based on the business needs of your organization.
+**Note:** This workflow is built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md). The complaint admin can review and customize this predefined flow based on the business needs of your organization.
 
 The following workflow routes the case and tasks for a complaint request to agents in different departments. The agents log in to CRM Workspace to work on the case and tasks in their queue. The case playbook guides agents through the steps that are needed to resolve customer complaints.
 
@@ -49,7 +49,7 @@ The following workflow routes the case and tasks for a complaint request to agen
 
         The workflow generates a quality control task and a quality control agent works on it to review the complaint details and agent's response for the case and approve it.
 
-    5.  The complaint agent sends out the response to the customer and gets an acceptance for it.
+    5.  The complaint agent sends out the response to the customer. If the customer accepts the response, the workflow advances to step 6 otherwise it goes back to the complaint agent.
 
         **Note:** If there's a Customer or Consumer Service Portal for customers, they get a notification for the response on the portal from where they can choose to accept or reject the response.
 

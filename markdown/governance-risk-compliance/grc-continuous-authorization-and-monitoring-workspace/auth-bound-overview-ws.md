@@ -1,5 +1,5 @@
 ---
-title: View authorization boundary details
+title: View reports on authorization boundary elements
 description: Use the authorization boundary overview page to define the parameters of a security measure for an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-bound-overview-ws.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# View authorization boundary details
+# View reports on authorization boundary elements
 
 Use the authorization boundary overview page to define the parameters of a security measure for an organization.
 
@@ -33,13 +33,13 @@ Role required:
 
 ## About this task
 
-For example, your organization might have many datacenters. You can define a parameter within a boundary, for example `Application servers in San Diego data center`. Setting this boundary and parameter enables you to monitor the objects within the boundary and set the scope.
+For example, your organization might have many data centers. You can define a parameter within a boundary, for example `Application servers in San Diego data center`. Setting this boundary and parameter enables you to monitor the objects within the boundary and set the scope.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. icon.
 
-2.  From the Authorization boundaries in the RMF list, select an authorization boundary record.
+2.  From the Authorization boundaries in the RMF list on the left pane, select an authorization boundary record on the right pane.
 
     The boundary overview page displays all the authorization packages that are available within the boundary. However, when you select the sidebar, it displays an active package.
 
@@ -49,12 +49,14 @@ For example, your organization might have many datacenters. You can define a par
 
     The Highlighted details section displays:
 
-    -   The name of the active package, its state, and impact. If there’s an active package existing for the boundary, you can’t create another package for the boundary.
+    -   The name of the active package, its state, and impact. If there’s an active package already existing for the boundary, you can’t create another package for the boundary.
     -   The link to the package, if selected, helps you to navigate to the associated, active authorization package.
     -   The users who are directly responsible and have a key role to play in updating the authorization boundary.
 4.  To create another package, select the Authorization Packages related list and deactivate the existing package by selecting false in the **Active** column of the package.
 
     This action deactivates the current package, and you can then create a package by selecting **New**. A boundary having only one active package behavior is guided by NIST 800-53 revision 5.
+
+    Within this authorization boundary, you can set the boundary filters, such as asset tags as computers. With this set filter condition, all the elements that fulfill the filter condition get added as system elements.
 
 5.  To view the relationship between the selected authorization boundary and all its associated objects in a distinct visualization, select **360° view**.
 

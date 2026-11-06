@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ You can edit the Project, project dates, business case, financials, score, notes
 
     From the Project Workspace, you can create an Agile phase or a Test phase. You can also create stories or add existing ones to the project, and add new epics.
 
-    You can refine project description using the write planning item skill if you have Now assist for SPM application installed.
+    You can refine project description using the write planning item skill if you have ServiceNow Otto for SPM application installed.
 
 4.  Select **Save**.
 

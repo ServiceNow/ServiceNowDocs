@@ -1,26 +1,26 @@
 ---
 title: Assign equipment to a task crew
-description: Assign equipment to an ad-hoc task crew to ensure they have the necessary tools to complete the work order task.
+description: Assign equipment to an ad hoc task crew to ensure they have the necessary tools to complete the work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-a-task-crew-with-equipment.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign equipment to a task crew
 
-Assign equipment to an ad-hoc task crew to ensure they have the necessary tools to complete the work order task.
+Assign equipment to an ad hoc task crew to ensure they have the necessary tools to complete the work order task.
 
 ## Before you begin
 
 Note the following requirements to assign the equipment:
 
--   The work order task must already have a task crew assigned. See [Create ad-hoc crews in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-adhoc-crews-disp-wrkspc.md) for more information.
+-   The work order task must already have a task crew assigned. See [Create ad hoc crews in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-adhoc-crews-disp-wrkspc.md) for more information.
 -   The work order task must already have resource requirements. See [Add resource requirement for a work order task in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/add-resource-requirement-disp-wrkspc.md) for more information.
 
 Role required: wm\_admin, wm\_dispatcher

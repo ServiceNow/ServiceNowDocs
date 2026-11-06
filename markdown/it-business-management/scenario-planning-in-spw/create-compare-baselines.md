@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 4.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d295212e119">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d317302e119">
 
 Option
 
-</th><th align="left" id="d295212e122">
+</th><th align="left" id="d317302e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d295212e128">
+</th></tr></thead><tbody><tr><td id="d317302e128">
 
 **Create a baseline**
 
@@ -59,7 +59,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d295212e178">
+</td></tr><tr><td id="d317302e178">
 
 **Compare baselines**
 

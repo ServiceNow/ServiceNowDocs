@@ -1,5 +1,5 @@
 ---
-title: Managing the appointments for telecommunication services
+title: Manage appointments for telecommunication services
 description: Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/field-service-management-for-telecommunications/manage-appointment-telecommunication-service.html
@@ -7,12 +7,12 @@ release: zurich
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Managing the appointments for telecommunication services
+# Manage appointments for telecommunication services
 
 Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
 

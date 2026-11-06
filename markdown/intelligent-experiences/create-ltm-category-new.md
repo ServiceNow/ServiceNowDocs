@@ -1,0 +1,62 @@
+---
+title: Create long-term memory category
+description: Create a category that defines the type of user information an AI agent can remember, such as work context or user preferences.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-ltm-category-new.html
+release: zurich
+topic_type: task
+last_updated: "2026-10-15"
+reading_time_minutes: 1
+breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Create long-term memory category
+
+Create a category that defines the type of user information an AI agent can remember, such as work context or user preferences.
+
+## Before you begin
+
+Role required: sn\_aia.admin
+
+## Procedure
+
+1.  Navigate to **AI Agent Studio** &gt; **Settings** &gt; **Long-term memory**.
+
+2.  Select **View All** against View the existing categories of memories.
+
+    You're directed to the AI Agent Memory Categories page.
+
+3.  Select **New**.
+
+4.  On the form, fill in the fields.
+
+<table id="table_e5b_dwz_r3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+A descriptive label for the category, such as `Hardware preferences` or `Accessibility needs`.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+A brief explanation of what type of user information this category captures.The description is used by the LLM extraction prompt to identify relevant facts during agent execution, so precise language improves extraction accuracy.
+
+</td></tr></tbody>
+</table>5.  Select **Save**.
+
+    After saving the record, the category is activated by default and is available to map to one or more AI agents.
+
+

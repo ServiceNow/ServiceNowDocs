@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 8
 keywords: [Editing and persisting layouts, Configuration mode and regions, Each region is its own session, Layout editing as ownership, Persistence, Restore defaults deletes the row, A save ends the session, Drag preview and cross-region moves, Empty containers, Known limitations, Related]
-breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Editing and persisting layouts

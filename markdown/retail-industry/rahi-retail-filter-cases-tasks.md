@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-filter-cases-tasks.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Manage store plans, Retail]
 ---
@@ -38,5 +38,7 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
 ## Result
 
-**My Work** now displays case and tasks as based on your specified filter criteria. To reset your filters, select **Clear**.
+**My Work** now displays case and tasks as based on your specified filter criteria. To reset these filters, select **Clear**.
+
+**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
 

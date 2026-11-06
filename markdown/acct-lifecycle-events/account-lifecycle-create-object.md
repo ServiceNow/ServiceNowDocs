@@ -1,16 +1,16 @@
 ---
-title: Create a success objective
+title: Add a success objective
 description: Create a success objective that represents the value of the products sold to the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-object.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Basic setup, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success objective
+# Add a success objective
 
 Create a success objective that represents the value of the products sold to the customer.
 
@@ -24,7 +24,7 @@ A success objective represents that value of one or more products purchased by t
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Objectives** and select **New**.
 
@@ -194,5 +194,9 @@ Any internal notes regarding this objective.
 </table>4.  Select **Save** to create a success objective.
 
 
-**Parent Topic:**[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
+## What to do next
+
+Add one or more success outcomes to measure the achievement of this objective. See [Add a primary success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-outcome.md).
+
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

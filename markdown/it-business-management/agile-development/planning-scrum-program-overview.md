@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Scrum program planning board
@@ -40,7 +40,7 @@ Agile Board has a program planning board where you can plan, schedule, and revie
 
     -   **Story dependencies**
 
-        Enables you to visually analyze dependencies between the stories of different sprints and teams by using the story dependency lines. You can use the dependencies option to show or hide these dependency lines. If you choose to hide the dependencies, you can see a colored border on the story card. The same happens if the dependencies involve a story that's not on the board.
+        Enables you to visually analyze dependencies between the stories of different sprints and teams by using the story dependency lines. You can use the dependencies option to show or hide these dependency lines. If you choose to hide the dependencies or if the dependencies involve a story that's not on the board, you see a colored border on the story card.
 
         The color of the dependency indicates the way you've scheduled the stories.
 
@@ -72,7 +72,7 @@ Agile Board has a program planning board where you can plan, schedule, and revie
 
     Enables you to see the stories that are assigned to the team but these stories aren't scheduled yet into any sprint.
 
-    While planning your scrum program, you might know which stories must be assigned to the team but you don't know what sprints to use. In this situation, you can move these stories to the team's backlog lane. By doing so, you can have a clear idea of the team's workload for the upcoming sprints and then eventually add these stories to the correct sprints.
+    While planning your scrum program, if you know which stories must be assigned to the team but you don't know what sprints to use. In that case, you can move these stories to the team's backlog lane. By doing so, you can have a clear idea of the team's workload for the upcoming sprints and then eventually add these stories to the correct sprints.
 
     You can also unplan a story that has already been scheduled to a sprint by dragging the story card back to the team's backlog. Use the backlog lane on the planning board to see which team has the story. Then, decide which sprint to schedule it in.
 
@@ -110,4 +110,11 @@ Agile Board has a program planning board where you can plan, schedule, and revie
 
     View a list of all stories of the program using the standard list view icon \(\[Omitted image "standard-list-icon.png"\] Alt text: Standard list view icon.\).
 
+
+-   **[Plan a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/plan-scrum-program.md)**  
+Plan work for sprints, using a centralized view on Agile Board, of multiple scrum teams that are working together on a scrum program.
+-   **[Add sprints from the program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/add-sprints-from-planning-page.md)**  
+Add sprints to your scrum teams directly from the scrum program planning board without having to navigate to another module.
+
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/scrum-programs-concept.md)
 

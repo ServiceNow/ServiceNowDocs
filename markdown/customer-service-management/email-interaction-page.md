@@ -1,19 +1,19 @@
 ---
 title: Email interaction sections
-description: The Email interaction sections enable you to manage information within the interaction record.
+description: Use the sections on the email interaction page to view and update contact, interaction, and activity details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/email-interaction-page.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction for CSM reference, Reference, Customer Service Management]
 ---
 
 # Email interaction sections
 
-The Email interaction sections enable you to manage information within the interaction record.
+Use the sections on the email interaction page to view and update contact, interaction, and activity details.
 
 |Field|Description|
 |-----|-----------|
@@ -40,28 +40,126 @@ Lookup by name, phone, or email
 
 </td><td>
 
-The contact lookup component enables agents to do the following:-   Look up a contact by name, phone number, or email address. As the agent types characters in the search box, matching information appears in record cards below the search box.
--   Select a contact after searching by selecting the record card. The selected record card replaces the lookup component.
+Component for looking up a contact by name, phone number, or email address: -   Search for a contact by name, phone number, or email address. Matching results appear in record cards as characters are entered in the search box.
+-   Select a contact by selecting the matching record card. The record card replaces the lookup component.
 
 You can also create a record to add a guest user as a contact. For more information, see [Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-customer-contact_EaaI.md).
 
 </td></tr></tbody>
-</table>|Field|Description|
-|-----|-----------|
-|Number|Automatically created interaction number.|
-|Type|Type of customer interaction, which is **Email**.|
-|Account|Name of the customer contact's company. This field is filled in automatically if the information is available in the contact record.|
-|Contact|Name of the customer contact.|
-|Consumer|Name of the consumer.|
-|Guest Email|Email ID of the guest user.|
-|Verified|Option to mark the record as verified or validated.|
-|State|Current state of the interaction. For more information, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-states.md).|
-|Assigned to|Name of the assigned user.|
-|Consumer Profile|Information about the consumer.|
-|Short description|Brief description of the customer issue.|
-|Work notes|Information about the interaction and the work being done to resolve the customer issue.|
+</table><table id="table_v4m_3f1_ycc"><thead><tr><th>
 
-<table id="table_sft_2z5_zdc"><thead><tr><th>
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+Automatically created interaction number.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+Type of customer interaction, which is **Email**.
+
+</td></tr><tr><td>
+
+Account
+
+</td><td>
+
+Name of the customer contact's company. This field is filled in automatically if the information is available in the contact record.
+
+</td></tr><tr><td>
+
+Contact
+
+</td><td>
+
+Name of the customer contact.
+
+</td></tr><tr><td>
+
+Consumer
+
+</td><td>
+
+Name of the consumer.
+
+</td></tr><tr><td>
+
+Guest Email
+
+</td><td>
+
+Email address of the guest user.
+
+</td></tr><tr><td>
+
+Verified
+
+</td><td>
+
+Option to mark the record as verified or validated.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+Current state of the interaction. For more information, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-states.md).
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+Name of the assigned user.
+
+</td></tr><tr><td>
+
+Consumer Profile
+
+</td><td>
+
+Information about the consumer.
+
+</td></tr><tr><td>
+
+Requester Organization
+
+</td><td>
+
+Organization requesting the omnichannel interactions.
+
+</td></tr><tr><td>
+
+Short description
+
+</td><td>
+
+Brief description of the customer issue.
+
+</td></tr><tr><td>
+
+Work notes
+
+</td><td>
+
+Information about the interaction and the work being done to resolve the customer issue.
+
+</td></tr></tbody>
+</table><table id="table_sft_2z5_zdc"><thead><tr><th>
 
 Application
 
@@ -75,7 +173,7 @@ Work notes
 
 </td><td>
 
-Internal notes documented for agent’s reference. These notes are visible only to agents and not to the customer. When a work note is created, it appears in the Activity stream. For more information on work notes, see [Compose a work note for internal use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/composing-email-work-note.md).
+Internal notes documented for the agent's reference. These notes are visible only to agents and not to customer. When a work note is created, it appears in the Activity stream. For more information on work notes, see [Compose a work note for internal use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/composing-email-work-note.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +189,7 @@ Filters
 
 </td><td>
 
-Enables you to filter emails, work notes, and field changes on the interaction.
+Filters for emails, work notes, and field changes on the interaction.
 
 </td></tr><tr><td>
 
@@ -99,7 +197,15 @@ Activity
 
 </td><td>
 
-Enables agents to view the email conversations between the agent and customer. For more information, see [Using the activity stream in an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-activity-stream-in-an-email-interaction.md).
+View of email conversations between the agent and the customer. For more information, see [Using the activity stream in an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-activity-stream-in-an-email-interaction.md).
+
+</td></tr><tr><td>
+
+Summarize this interaction
+
+</td><td>
+
+Displays the AI-generated summary of the email interaction. Agents can refresh the summary, copy it, provide feedback, or save it to the interaction record. **Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature.
 
 </td></tr></tbody>
 </table><table id="table_lhx_qz5_zdc"><thead><tr><th>
@@ -148,7 +254,7 @@ Response Template
 
 </td><td>
 
-Displays the response template required to respond to the customer. For more information, see [Use a response template to compose an email or a work note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/composing-email-work-note.md).
+Displays the response template required to respond to the customer. For more information, see [Compose emails and work notes using response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/composing-email-work-note.md).
 
 </td></tr><tr><td>
 
@@ -172,6 +278,63 @@ Customer History
 Displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab includes a search field, filter, and date range selector that agents can use to find specific information in the history. For more information on the customer history, see [Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-history-component-features.md).
 
 </td></tr></tbody>
+</table><table id="table_overview_zdc"><thead><tr><th>
+
+Control
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Summarize
+
+</td><td>
+
+Generates an AI summary of the email interaction using ServiceNow Otto. The summary appears in the Interaction Summary card and may include Issue, Key Actions Taken, and Next Steps depending on the email content.**Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature. For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/eaai-ai-summarization-email-interactions.md) and [Summarize an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/summarize-email-interaction-eaai.md)
+
+</td></tr><tr><td>
+
+View less or View more
+
+</td><td>
+
+Collapses or expands the AI summary card.
+
+</td></tr><tr><td>
+
+Copy icon
+
+</td><td>
+
+Copies the summary content to the clipboard.
+
+</td></tr><tr><td>
+
+Helpful or Not helpful icons
+
+</td><td>
+
+Submits feedback on the quality of the AI-generated summary.
+
+</td></tr><tr><td>
+
+Refresh icon
+
+</td><td>
+
+Regenerates the summary when email interaction data has changed since the original summary was created.
+
+</td></tr><tr><td>
+
+Information icon
+
+</td><td>
+
+Displays the AI disclaimer: `AI summarized this using the record details. Check it for accuracy.`
+
+</td></tr></tbody>
 </table><table id="table_kqr_qbv_zdc"><thead><tr><th>
 
 Application
@@ -186,7 +349,7 @@ Create Case
 
 </td><td>
 
-Enables the creation of a new case from the interaction.
+Creates a case from the interaction.
 
 </td></tr><tr><td>
 
@@ -210,7 +373,7 @@ Associate Record
 
 </td><td>
 
-Enables associating the existing cases with the current interaction.
+Associates existing cases with the current interaction.
 
 </td></tr><tr><td>
 
@@ -218,11 +381,21 @@ Assign to me
 
 </td><td>
 
-Assigns the interaction to the current agent.**Note:** Assign to me is visible only in interactions in the New state and with the Assigned to field as empty.
+Assigns the interaction to the current agent.**Note:** Assign to me is visible only in interactions in the New state and when the Assigned to field is empty.
+
+</td></tr><tr><td>
+
+Summarize
+
+</td><td>
+
+Generates an AI summary of the email interaction on demand. Check your entitlements to determine whether you have access to this feature. For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/eaai-ai-summarization-email-interactions.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-email-interaction-page.md)
+[Using email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-email-interaction-page.md)
+
+[AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/eaai-ai-summarization-email-interactions.md)
 

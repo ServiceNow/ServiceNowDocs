@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure email notifications in Major Incident Management
@@ -33,7 +33,7 @@ Consider the following items when you create or update a notification:
 -   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see [Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-channel.md).
 -   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you have added and verify the notification recipients. For details, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_PreviewingNotifications.md).
 
-Role required: sn\_mim\_sow\_admin or admin
+Role required: admin
 
 ## About this task
 

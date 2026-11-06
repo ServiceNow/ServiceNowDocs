@@ -7,8 +7,8 @@ release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Universal Request, Employee Service Management]
 ---
 
@@ -40,8 +40,8 @@ The Universal Request application provides the following key benefits to employe
 -   Enables agents to task employees using the Universal Task application to complete a catalog item or upload a document to facilitate quick resolution of a request.
 -   Monitor and improve the end-to-end experience with cross-departmental SLAs and metrics.
 
--   **[Universal Request versus Interaction Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-versus-ir.md)**  
-Universal requests and interaction records \(New Call records\) are created and used by agents of various departments. However, they differ in the way they are handled. The following information provides an overview of both the records and how they differ from each other.
+-   **[Universal Request versus Interaction Records \(New Call record\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-versus-ir.md)**  
+Universal request and interaction records are created and used by agents of various departments. However, they differ in the way they are handled. The following information provides an overview of both the records and how they differ from each other.
 -   **[Universal Request data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/UR-datamodel.md)**  
 Universal Request is a task type that supports cross-departmental collaboration and unified employee experience. Universal Request becomes the parent record for departmental primary tickets, such as IT incidents and HR cases, and enables your organization to measure cross-departmental SLAs and OLAs.
 -   **[Universal Request roles and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-roles.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/create-publish-new-specification-somt.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Creating and publishing specification versions, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Specification versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish a specification version
@@ -59,7 +59,7 @@ Version
 Version number that is assigned to a specification:
 
 -   When you create the initial version, 1 appears in this field, and can't be changed.
--   When you create subsequent versions of the specification, the next incremental number appears in this field after you click **Create New Version**. For example, 4 appears in this field if 3 was the previous version number.
+-   When you create subsequent versions of the specification, the next incremental number appears in this field after you select **Create New Version**. For example, 4 appears in this field if 3 was the previous version number.
 
 
 </td></tr><tr><td>
@@ -106,15 +106,15 @@ You can't change this field.
     4.  To create a product offering from the specification, navigate to the Product Offerings related
 5.  When you finish creating the specification version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d31972e267">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d45723e273">
 
 Action
 
-</th><th align="left" id="d31972e270">
+</th><th align="left" id="d45723e276">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31972e276">
+</th></tr></thead><tbody><tr><td id="d45723e282">
 
 **Publish**
 
@@ -124,7 +124,7 @@ Publish the draft specification so that you can use it in a product catalog as f
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d31972e294">
+</td></tr><tr><td id="d45723e300">
 
 **Update**
 
@@ -132,7 +132,7 @@ Publish the draft specification so that you can use it in a product catalog as f
 
 Update the specification with the new data that you added, but do not publish it for use in a product catalog.
 
-</td></tr><tr><td id="d31972e303">
+</td></tr><tr><td id="d45723e309">
 
 **Copy**
 

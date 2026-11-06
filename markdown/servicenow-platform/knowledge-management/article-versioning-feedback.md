@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,6 +26,4 @@ For more information about feedback options, see [Knowledge feedback](https://ra
 |Flagging an article|Checking out an article or setting a previous version to the current version resets the flagged value to false.|
 |View count|The view count is carried over to the checked out article. Any view of a version of an article increments the view count of all the subsequent published versions. Views to a newer version of an article do not affect the view count of previous versions. When a draft article is published, the total view count shows sum of previous published article view count and its own standalone view count.|
 |Use count|The use count is carried over to the checked out article. Any use of a version of an article increments the use count of all subsequent versions. Any use of a newer version of an article does not affect the use count of previous versions.|
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

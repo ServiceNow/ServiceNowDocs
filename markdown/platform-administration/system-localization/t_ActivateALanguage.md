@@ -7,9 +7,9 @@ release: zurich
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2025-10-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer]
+breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate a language
@@ -37,6 +37,7 @@ The following plugins are currently available:
 -   I18N: Italian Translations
 -   I18N: Japanese Translations
 -   I18N: Korean Translations
+-   I18N: Latin American Spanish Translations
 -   I18N: Norwegian Translations
 -   I18N: Polish Translations
 -   I18N: Portuguese Translations
@@ -66,7 +67,7 @@ In addition, the I18N: Internationalization plugin \(com.glide.i18n\) provides t
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md).
 

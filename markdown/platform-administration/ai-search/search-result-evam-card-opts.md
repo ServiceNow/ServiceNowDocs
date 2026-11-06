@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 10
-breadcrumb: [Configure EVAM display settings for search results, Configure, AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Configure EVAM display settings for search results, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # List of Search Result EVAM card properties
@@ -270,7 +270,7 @@ useAttachmentViewer
 
 </td><td>
 
-Option to use Document Viewer to display grouped attachments shown on the Search Result card in collapsed format. To learn more about Document Viewer, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/enable-document-viewer.md). For more information on grouped attachments and how they're shown on the Search Result card, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/group-attachment-srch-results-ais.md).
+Option to use Document Viewer to display grouped attachments shown on the Search Result card in collapsed format. To learn more about Document Viewer, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/enable-document-viewer.md). For more information on grouped attachments and how they're shown on the Search Result card, see [Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grouping-attachment-srch-results-ais.md).
 
  -   Type: true \| false
 -   Default value: false

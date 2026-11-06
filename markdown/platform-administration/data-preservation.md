@@ -1,24 +1,24 @@
 ---
 title: Preserving data from target instances during clones
-description: Use data preservers to protect data on the target instance from being overwritten. If you have custom applications, you must also manually preserve unpublished application content.
+description: You can use data preservers to protect data on the target instance from being overwritten. If you have custom applications, you must also manually preserve unpublished application content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-preservation.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer]
+breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Preserving data from target instances during clones
 
-Use data preservers to protect data on the target instance from being overwritten. If you have custom applications, you must also manually preserve unpublished application content.
+You can use data preservers to protect data on the target instance from being overwritten. If you have custom applications, you must also manually preserve unpublished application content.
 
 ## Data preservers
 
-Sometimes, it’s necessary to preserve some data on an instance targeted for cloning. For example, if the target is a MID Server, you must not overwrite the MID Server \[ecc\_agent\] table. Preserved data is reapplied to the target instance after exclusions are completed.
+Sometimes, it is necessary to preserve some data on an instance targeted for cloning. For example, if the target is a MID Server, you must not overwrite the MID Server \[ecc\_agent\] table. Preserved data is reapplied to the target instance after exclusions are completed.
 
-**Warning:** You must define data preservers on the source instance. Defining them on the target instance doesn't preserve the data.
+**Warning:** You must define data preservers on the source instance. Defining them on the target instance does not preserve the data.
 
 Data preservers typically preserve system settings and themes, such as:
 
@@ -26,6 +26,12 @@ Data preservers typically preserve system settings and themes, such as:
 -   Bookmark \[sys\_ui\_bookmark\]
 -   Recent Selection \[sys\_ui\_recent\_selection\]
 -   User Preference \[sys\_user\_preference\]
+
+**Note:** A clone does not support preserving data from a database view.
+
+Preserving a parent table also preserves all of its child tables. For clones between MariaDB instances, child tables aren't automatically preserved and must be manually added to the preserver list.
+
+Don't use data preservers to transfer large sets of data, such as user groups. If you must preserve table data, such as users, groups, and roles, consider exporting the records to a file and importing them after cloning.
 
 ## Data preservers for Multi-SSO
 
@@ -110,13 +116,11 @@ SAML2 Update1 Properties \[saml2\_update1\_properties\]
 None
 
 </td></tr></tbody>
-</table>**Note:** Although you can modify these data preservers, it’s good practice not to. The Digest Properties \[digest\_properties\], Identity Providers \[sso\_properties\], and SAML2 Update1 Properties \[saml2\_update1\_properties\] tables are required for multiple sources, single sign-on \(SSO\) to function properly. If multiple sources, single sign-on is turned off on the target instance, you can safely remove all three data preservers. Remove all tables simultaneously, as attempting to clone while preserving a table results in a system error and termination of the clone process.
+</table>**Note:** Although you can modify these data preservers, it is good practice not to. The Digest Properties \[digest\_properties\], Identity Providers \[sso\_properties\], and SAML2 Update1 Properties \[saml2\_update1\_properties\] tables are required for multiple source, single sign-on \(SSO\) to function properly. If multiple source, single sign-on is disabled on the target instance, you can safely remove all three data preservers. Remove them at the same time, as the system terminates the clone with an error message when you attempt to clone with one or two of these tables being preserved.
 
 ## Preservation of unpublished applications
 
 You can't use data preservers to save unpublished applications. Instead, application developers must choose how they want to preserve unpublished applications.
 
-The cloning process doesn’t preserve version differences for applications in development. Instead, the system clone only copies the application version installed on the source instance onto the target instance. If the target instance had a development version of the same application, the application is editable after the clone. The target instance maintains the same version that is installed on the source instance. If the application was missing from the source instance, the cloning process deletes the application from the target instance.
-
-**Parent Topic:**[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-instance-clone.md)
+The cloning process does not preserve version differences for applications in development. Instead, the system clone only copies the application version installed on the source instance onto the target instance. If the target instance had a development version of the same application, the application is editable after the clone, but maintains the version installed on the source instance. If the application was missing from the source instance, the cloning process deletes the application from the target instance.
 

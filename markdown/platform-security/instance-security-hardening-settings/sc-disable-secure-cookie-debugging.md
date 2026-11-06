@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 
 Manage the log messages related to cookies in your instance.
 
-Use the **glide.secure\_cookie.debug** property to manage your log messages related to cookies. If this property is set to **false**, no log messages are displayed. If it is set to **true**, messages in the `SecureUserCookie` and `Cookie` classes are logged. This could lead to sensitive information being exposed in your instance.
+If the **glide.secure\_cookie.debug** system property isn't set to the default value of **false**, then debug messages in the SecureUserCookie and Cookie class are logged in localhost log.
+
+Ensure that the property **glide.secure\_cookie.debug** is set to **false**.
 
 ## More information
 
@@ -70,6 +72,14 @@ false
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 4.2
 -   CVSS score: Medium
--   Security risk details: Configuring this property to **true** could lead to sensitive information being exposed.
+-   Security risk details: Logging debug messages from the SecureUserCookie and Cookie class could lead to sensitive information disclosure.
 
 </td></tr><tr><td>
 

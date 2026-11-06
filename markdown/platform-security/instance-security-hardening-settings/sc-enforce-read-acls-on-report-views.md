@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Plat
 
 Manage how Read ACLs are enforced on your instance.
 
-Use the **glide.report.report\_view.read\_acl** property to enforce the Read ACL \(table level\) on reporting functions when there is no Report View ACL on the table or field. If this property is not set to **enforce**, ACLs could be bypassed leading to sensitive information leakage.
+The property **glide.report.report\_view.read\_acl**, when set to **enforce**, enforces the read ACL \(table level\) on reporting functions when there is no Report View ACL on the table/field.
+
+Ensure the property **glide.report.report\_view.read\_acl** is set to **enforce**.
 
 ## More information
 
@@ -70,6 +72,14 @@ enforce
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -85,6 +95,99 @@ Security risk
 -   Severity score: 7.1
 -   CVSS score: High
 -   Security risk details: Not setting this property to **enforce** could cause ACLs to be bypassed.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>## More information
+
+<table id="table_ajc_b43_3kb"><thead><tr><th>
+
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.report.report\_view.read\_acl**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+String
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.1
+-   CVSS rating: High
+-   Security risk details: ACLs could be bypassed, leading to potential sensitive information disclosure.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

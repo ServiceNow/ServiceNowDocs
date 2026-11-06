@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-update-bp-map.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Update a business process map
@@ -36,18 +36,22 @@ Role required: sn\_apm.apm\_user
 
     To change the style of a connector, select the relationship line and choose a line type from the drop-down that appears directly on the line. BPMN shapes and general shapes have their own sets of line types.
 
-5.  Select the More Actions context menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu\) to see options for deleting a shape from the canvas.
+5.  To swap a shape with a different one, select the shape and use the **Shape type** option in the right panel.
 
-6.  Select **Share** to share the diagram with individuals or groups.
+    The replacement shape retains the original shape's label and connectors.
+
+6.  Select the More Actions context menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu\) to see options for deleting a shape from the canvas.
+
+7.  Select **Share** to share the diagram with individuals or groups.
 
     For more information, see [Share a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-share-diagram.md).
 
-7.  Select the More Actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) to perform the following actions:
+8.  Select the More Actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) to perform the following actions:
 
     -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-save-as-new.md).
     -   **Duplicate**: Select this option to duplicate the diagram. For more information, see [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-duplicate.md).
     -   **Submit for approval**: Select this option to submit the diagram for approval. The approval process can be done through a configured workflow. By default, the approval request is submitted to the Enterprise Architect group. For more information, see [Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-submit-for-approval.md).
-8.  Select **Commit changes** to synchronize the diagram to the database.
+9.  Select **Commit changes** to synchronize the diagram to the database.
 
     This option is available only when the diagram is approved. For more information, see [Synchronize a shape to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-sync-shape.md).
 

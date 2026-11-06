@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/c\_SurveyDefinitions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Survey administration, Use, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Survey definitions
@@ -20,7 +20,7 @@ Survey administrators and survey readers can also send survey invitations direct
 
 -   **[Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/t_ModifySurveyDefinitions.md)**  
 You can configure additional options for a survey definition.
--   **[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/c_SchedulePeriods.md)**  
+-   **[Schedule periods]()**  
 The available schedule periods are **Only Once**, **No Limit**, **Daily**, **Weekly**, **Monthly**, and **Yearly**.
 
 **Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/r_SurveyAdminTasks.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/mif-conf-managed-instance.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-instance application trust configuration, Configure, Multi-instance Management, Get started, Administer]
+breadcrumb: [Cross-instance application trust configuration, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configure Managed Instances
@@ -50,12 +50,10 @@ Role required: admin or sn\_mif.mif\_admin.
 
     -   Approve Manager Instance
     -   Reject Manager Instance
-    **Note:** If you are an Multi-instance Management admin, you will also be notified by an email about the approval requests.
+    **Note:** If you are an Multi-Instance Management admin, you will also be notified by an email about the approval requests.
 
 9.  Once approved, review the Managed Instances instance and the status updates.
 
     **Note:** The status shows as Revoked in the Managed Instances instance if its been deleted from the Managed By Instances instance. If a request is approved by the system, the status shows as Auto-Approved.
 
-
-**Parent Topic:**[Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/grant-access-v2.md)
 

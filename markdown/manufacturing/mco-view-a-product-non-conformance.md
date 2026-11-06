@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-view-a-product-non-conformance.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [product non-conformance, product non-conformance case, view product non-conformance, quality issue management, PNC, unassigned cases]
 breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
@@ -21,7 +21,7 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case**.
 
 2.  Select a list of cases to view.
 

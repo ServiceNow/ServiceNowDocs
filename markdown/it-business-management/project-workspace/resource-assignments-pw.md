@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Resource assignments in Project Workspace
@@ -45,7 +45,7 @@ Copy a resource assignment record directly from the resource pane in Project Wor
 -   **[Assign a resource using AI resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/assign-resources-using-resource-finder-pw.md)**  
 Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
 -   **[Manage resources from resource page in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/manage-resource-assignment-pw.md)**  
-View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page show all project-associated resources and their assignments to support forecasting and visualization of resource demands.
+View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page shows all project-associated resources and their assignments to support forecasting and visualization of resource demands.
 -   **[Access, assign, and approve unassigned work in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/assign-approve-unassigned-work-pw.md)**  
 View, assign and authorize resources directly from Project Workspace without navigating to Resource Management Workspace.
 -   **[Move a resource assignment in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/move-resource-assignments-project-workspace.md)**  
@@ -56,7 +56,7 @@ Extend the date of an allocated resource assignment and allocate resources for t
 Delete a resource assignment from Project Workspace. Deleting an assignment also deletes all associated resource allocations.
 -   **[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)**  
 Use the allocation heatmap capability in Project Workspace to view and update the resource allocation.
--   **[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/realign-resource-assignment-to-task.md)**  
+-   **[Realign resource assignment to project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/realign-resource-assignment-to-task.md)**  
 Realign or synchronize the resource assignment dates with the project task dates. This synchronization helps to schedule and align the resource assignments with the timeline of project task.
 
 **Parent Topic:**[Resource planning with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)

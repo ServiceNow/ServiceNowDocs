@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Getting started, Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Getting started, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Build your first flow in Workflow Studio
@@ -118,6 +118,8 @@ To help you get started with building your first flow in Workflow Studio, follow
 
     Your flow should look similar to the following example:
 
+    \[Omitted image "build-your-first-flow-example.png"\] Alt text: An example flow that asks for a manager's approval for requested items whose price is greater than $1,000.
+
 24. To test your flow and see if it triggers and runs properly without any errors, go to the main header and click **Test**.
 
 25. In the Test Flow window, select a Requested Item record that has a price greater than $1000, then select **Run Test**.
@@ -140,6 +142,4 @@ To help you get started with building your first flow in Workflow Studio, follow
 ## What to do next
 
 Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, open your flow in the Workflow Studio design environment and click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-execution-details.md).
-
-**Parent Topic:**[Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-flow.md)
 

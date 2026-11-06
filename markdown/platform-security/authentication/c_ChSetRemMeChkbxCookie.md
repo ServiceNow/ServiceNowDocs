@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Local authentication, Access Management]
+breadcrumb: [Local authentication, Authentication, Access Management]
 ---
 
 # Remember me
@@ -31,8 +31,8 @@ Configure the following properties to control the **Remember me** cookie behavio
 
 **Note:** To learn more about these properties, see the following topics in Instance Security Hardening Settings:
 
--   [Minimize absolute session timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
--   [Minimize session window timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)
+-   [Minimize absolute session timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
+-   [Minimize session window timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)
 
 If the **Remember me** feature does not persist between sessions, verify the following conditions:
 

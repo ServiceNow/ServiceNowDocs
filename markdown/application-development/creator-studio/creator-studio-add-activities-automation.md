@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Automation in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add activities to an app's playbook in Creator Studio
@@ -55,7 +55,7 @@ Diagram
 </td><td>
 
 1.  Select the **+** icon in the stage.
-2.  In the mini-picker, select the square icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) to add an activity.
+2.  In the mini-picker, select the square icon \[Omitted image "cs-add-activity-icon.png"\] Alt text: to add an activity.
 
 
 </td></tr><tr><td>
@@ -175,7 +175,7 @@ Update the value of the specified fields on the record that the form generates w
             Select the **Requester** option for the **To** or **Cc** fields to include the person who made the request in the email's recipients.
 
         -   Enter the email's subject in the **Subject** field.
-        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \(\[Omitted image "cs-more-actions-icon.png"\]\) to display more formatting options. For example, you can add images, tables, and links to the email.
+        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \[Omitted image "cs-more-actions-icon.png"\] to display more formatting options. For example, you can add images, tables, and links to the email.
     4.  For Update submission activities, select the fields that the activity should update on the submitted form's record.
 
         Choose one or more of the following fields to be automatically updated and specify the field value:

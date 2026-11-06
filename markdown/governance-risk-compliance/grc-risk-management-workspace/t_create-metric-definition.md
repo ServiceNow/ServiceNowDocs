@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create an automated metric definition
@@ -22,23 +22,19 @@ Role required: sn\_grc\_metric.manager, sn\_risk.user, and sn\_compliance.user
 
 ## About this task
 
-In automated metric definitions, the data is collected automatically based on the conditions that you define in the metric definition. In the condition, specify the tables that are used for collecting the metric data. For example, to obtain data for all the incidents logged in a particular month, you can specify the Incidents table as a source for data collection.
+In automated metric definitions, the data is collected automatically based on the conditions that you define in the metric definition. In the condition, specify the tables that are used for collecting the metric data. For example, if you want to obtain data for all the incidents logged in a particular month, you can specify the Incidents table as a source for data collection.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
+1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **Lists** &gt; **Metrics** &gt; **Automated metric definitions**.
 
-2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
+2.  Select **New**.
 
-3.  Navigate to **Metrics** &gt; **Automated metric definitions**.
+3.  On the form, fill in the fields.
 
-4.  Select **New**.
+    For a detailed explanation of the fields, refer to [Automated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/automated-metric-definition-fields-irm.md).
 
-5.  On the form, fill in the fields.
-
-    For a description of the field values on the Automated metric definition form, see [Automated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/automated-metric-definition-fields-irm.md).
-
-6.  Select **Save**.
+4.  Select **Save**.
 
     **Note:** In the new automated metric definition form, only the **Details** tab is displayed. After a new automated metric definition is created, additional related lists are displayed with the **Details** tab in the form.
 

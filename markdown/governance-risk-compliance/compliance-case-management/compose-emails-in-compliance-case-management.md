@@ -7,7 +7,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -26,15 +26,22 @@ You can compose and send emails regarding your cases and requests to multiple st
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
+1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon and then complete one of the following.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
-    -   Navigate to **Cases** &gt; **All cases** and select the case you want.
-    -   Navigate to **Requests** &gt; **All requests** and select the request you want.
-3.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: icon.
+3.  To compose an email, use the following options.
 
-4.  On the form, fill in the fields.
+    |Option|Description|
+    |------|-----------|
+    |**Compose an email for a compliance case**|Compose an email for a compliance case.|
+    |**Compose an entry for a compliance request**|Compose an email for a compliance request.|
+
+4.  Select the More actions \[Omitted image "more-actions-menu.png"\] icon.
+
+5.  Select **Compose Email**.
+
+6.  On the form, fill in the fields.
 
 <table id="table_pcl_lkb_11c"><thead><tr><th>
 
@@ -69,11 +76,9 @@ Email message
 Body of your message that includes any information, requests, or details you want to convey to the recipient. You can format the text, add attachments, and include links in this section.**Note:** You can send emails to both ServiceNow users and external stakeholders who don't have access to the ServiceNow instance. You must provide the basic record details in the subject line or body of the email to make them aware of the record that you're referring to.
 
 </td></tr></tbody>
-</table>5.  To add attachments, select **Attach File**.
+</table>7.  To add attachments, select **Attach File**.
 
-6.  Select **Send Email**.
-
-    The email has been sent to the recipient. You can view emails associated with the regulatory agency record by navigating to the Emails tab of that record.
+8.  Select **Send Email**.
 
 
 **Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)

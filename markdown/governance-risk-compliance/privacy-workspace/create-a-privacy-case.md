@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ At times, users can also report a case to the privacy teams using offline modes 
 
 2.  On the home page, navigate to the **Privacy cases** tab.
 
-3.  On the **Create** drop-down, select **Privacy case**.
+3.  From the **Create** drop-down, select **Privacy case**.
 
 4.  On the form, fill in the fields.
 

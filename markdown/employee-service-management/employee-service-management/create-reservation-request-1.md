@@ -4,7 +4,7 @@ description: Create reservations across multiple buildings, campuses, neighborho
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 38
 ---
 
@@ -48,15 +48,15 @@ For example, reservation planners or space planners with the dedicated role \(sn
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d561929e156">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d572322e157">
 
 Location
 
-</th><th align="left" id="d561929e159">
+</th><th align="left" id="d572322e160">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d561929e165">
+</th></tr></thead><tbody><tr><td id="d572322e166">
 
 **From Employee Center Portal**
 
@@ -330,7 +330,7 @@ Reserve multiple workplace items spanning multiple buildings. Building time zone
 
         -   Select a floor from the drop-down list.
 
-            Floor names are sorted alphabetically by label, or according to the sort **Order** configured in the Floors table. For example, Floor A, Floor B, and so on. For more information about sorting order, see [Add a floor using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-a-floor.md).
+            Floor names are sorted alphabetically by label, or according to the sort **Order** configured in the Floors table. For example, Floor A, Floor B, and so on. For more information about sorting order, see [Add a floor using Workplace Space Management]().
 
             **Note:** If the **Order** is null for all available buildings in a selected campus, then floor names are alphabetically sorted based on floor name label. For example Floor A, Floor B, and so on.
 
@@ -770,9 +770,9 @@ While reserving or viewing a space, the employee can see if a space is part of a
 **Related topics**  
 
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -801,4 +801,6 @@ While reserving or viewing a space, the employee can see if a space is part of a
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

@@ -1,0 +1,46 @@
+---
+title: ServiceNow Otto for Integrated Risk Management \(IRM\)
+description: Use generative AI capabilities to support key control objective tasks within Policy and Compliance Management.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/sn-otto-irm-pc.html
+release: zurich
+product: Policy and Compliance Management
+classification: policy-and-compliance-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [Servicenow Otto panel, generative AI]
+breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+---
+
+# ServiceNow Otto for Integrated Risk Management \(IRM\)
+
+Use generative AI capabilities to support key control objective tasks within Policy and Compliance Management.
+
+With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, use generative AI to
+
+-   Identify overlapping control objectives
+-   Recommend rationalization opportunities
+-   Optimize control objectives
+-   Analyze impact of regulatory changes
+
+These capabilities are integrated into Control Objective records and help streamline how you work with control objectives and compliance mapping.
+
+## Generative AI skills
+
+ServiceNow Otto for Integrated Risk Management \(IRM\) provides generative AI skills for specific control objective management tasks.
+
+|Skill|Description|
+|-----|-----------|
+|Control objective rationalization|Identifies redundant or overlapping control objectives across your framework using AI analysis.|
+|Control objective impact analyzer|Leverages generative AI to analyze citation and regulatory changes to identify which control objectives are impacted.|
+|Common control objective creation|Uses generative AI to analyze the accepted duplicate control objectives and generates a common control objective|
+
+## Agentic workflows
+
+ServiceNow Otto for Integrated Risk Management \(IRM\) provides agentic workflows to automate complex control objective management tasks and generate recommended actions.
+
+|Workflow|Description|
+|--------|-----------|
+|Control Objective Change Agent|Leverages the power of AI agents to automatically detect changes in related frameworks, analyze impact on control objectives, and generate recommended updates or rationalization actions.|
+

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a visitor policy, Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,11 +18,15 @@ Add one or more workplace location to a visitor policy. Visitors who are registe
 
 ## Before you begin
 
+**Warning:** This topic is only applicable for Workplace Visitor Management version 1.19 or earlier.
+
+In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+
 Role required: sn\_wsd\_visitor.admin
 
 ## About this task
 
-You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and ensure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
+You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and make sure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
 
 ## Procedure
 
@@ -38,7 +42,7 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
 6.  In the Locations related list, apply the policy to internal or external visitors and configure whether the policies require signatures.
 
-    1.  Select the preview icon \(\) for the record that you want to edit.
+    1.  Select the preview option for the record that you want to edit.
 
     2.  On the preview window for the location policy, select **Open Record**.
 

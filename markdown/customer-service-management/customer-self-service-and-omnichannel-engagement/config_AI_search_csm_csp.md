@@ -7,9 +7,9 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search for the Customer and Consumer Service Portals
@@ -20,7 +20,7 @@ You must configure the Customer and Consumer Service Portals to use AI Search.
 
 You must install a CSM or CSP portal and AI Search integration for CSM and CSP Portals.
 
-Role required: admin, sp\_admin
+Role required: sp\_admin
 
 ## About this task
 
@@ -30,7 +30,7 @@ AI Search is inactive by default and you must enable it by updating the portal r
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals** and open a portal record.
 
-2.  Select **Customer Support** for csm portal or select **Customer Service** for CSP portal.
+2.  Select **Customer Support** for CSM portal or select **Customer Service** for CSP portal.
 
 3.  Select the **Enable AI Search** check box.
 
@@ -50,4 +50,9 @@ AI Search is inactive by default and you must enable it by updating the portal r
 
 7.  Navigate to **Page Route Maps** and enable the **CSM AI Search Home Page** route map for CSM and **CSP AI Search Home Page** for CSP as they’re inactive by default.
 
+
+**Related topics**  
+
+
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

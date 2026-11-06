@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Ad-hoc Service Locations, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Assign ad-hoc Service Locations, Prepare work orders, Use, Field Service Management]
 ---
 
 # Setting ad-hoc locations in work orders and work order tasks

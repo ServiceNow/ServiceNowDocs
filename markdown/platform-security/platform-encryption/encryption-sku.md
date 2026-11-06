@@ -7,7 +7,7 @@ release: zurich
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---
@@ -29,7 +29,7 @@ The Platform Encryption group adds the following features and offerings:
 
 ## Additional information
 
-To learn more about key management, see [Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/explore-kmf.md)[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/explore-kmf.md).
+To learn more about key management, see [Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/explore-kmf.md).
 
 **Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/understanding-kmf.md)
 

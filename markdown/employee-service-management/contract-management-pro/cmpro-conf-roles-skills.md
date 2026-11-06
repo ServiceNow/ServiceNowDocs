@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure data permissions for AI skills
@@ -46,6 +46,8 @@ You must configure the necessary roles for your workspace to ensure that skills 
 
 3.  In the **Role List** field, select the lock icon \[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text:.
 
+    \[Omitted image "cmpro-lock-role-list.png"\] Alt text: Role list field used to add new roles.
+
 4.  In the search field, search for the role that you want to add.
 
 5.  Select the desired role from the search results.
@@ -53,12 +55,12 @@ You must configure the necessary roles for your workspace to ensure that skills 
     The selected role is added to the **Role List** field.
 
 
-**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Select large language models for use cases in Now Assist in Contract Management]()
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro]()
 
 [Configuring contract metadata extraction]()
 
@@ -66,7 +68,7 @@ You must configure the necessary roles for your workspace to ensure that skills 
 
 [Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management]()
+[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro]()
 
-[Post-upgrade steps for Now Assist in Contract Management]()
+[Post-upgrade steps for ServiceNow Otto for Contract Management Pro]()
 

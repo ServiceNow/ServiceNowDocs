@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/data-model-for-partner-relationship-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Data model for Partner Relationship Management
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-channel-partner-table.md)
+
 
 </td><td>
 
@@ -43,7 +43,7 @@ Manage information related to channel partners.
 
 </td></tr><tr><td>
 
-[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-program-table.md)
+
 
 </td><td>
 
@@ -56,7 +56,7 @@ Enable channel partners to participate in structured programs to build customer 
 
 </td></tr><tr><td>
 
-[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-program-relationship-table.md)
+
 
 </td><td>
 
@@ -67,57 +67,8 @@ Enable channel partners to participate in structured programs to build customer 
 
 Establish a relationship between channel partners and partner programs.
 
-</td></tr><tr><td>
-
-[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-segment-mapping.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-[Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-segment-criteria.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-criteria.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
 </td></tr></tbody>
-</table>-   **[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-channel-partner-table.md)**  
-With the Partner Relationship Management application, you can use the channel partner \[sn\_prm\_channel\_partner\] table to manage and store information related to channel partners.
--   **[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-program-table.md)**  
-With the Partner Relationship Management application, enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by using the Partner Program \[sn\_prm\_partner\_program\] table.
--   **[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-program-relationship-table.md)**  
-With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs.
--   **[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-segment-mapping.md)**  
-Establish a mapping between a program and a segment on the program segment mapping \(sn\_prm\_program\_segment\_mapping\) table to determine which segment belongs to which partner program.
--   **[Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-segment-criteria.md)**  
-Create records in the program segment criteria \(sn\_prm\_program\_segment\_criteria\) table based on different records on the entity criteria \(sn\_req\_criteria\_customer\_condition\) table and segments.
--   **[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-criteria.md)**  
-Establish a mapping between the partner program \(sn\_prm\_partner\_program\_relationship\) table and the entity criteria \(sn\_req\_criteria\_customer\_condition\) table.
-
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-relationship-management.md)
+</table>**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -281,4 +281,8 @@ As a reservation planner, you can cancel a reservation if necessary using the **
 [Neighborhood User Assignment Rule form]()
 
 [User Workplace Profile form]()
+
+[]()
+
+[]()
 

@@ -1,5 +1,5 @@
 ---
-title: View Login History in Identity Center
+title: Viewing Login History in Identity Center
 description: Provides details about your login history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/login-history.html
@@ -7,12 +7,12 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity Center for users, Identity Center, Identity]
 ---
 
-# View Login History in Identity Center
+# Viewing Login History in Identity Center
 
 Provides details about your login history.
 

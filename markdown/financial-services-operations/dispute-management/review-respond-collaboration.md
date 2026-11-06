@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -41,6 +41,8 @@ For the second presentment:
 -   If not received, the case favors the cardholder and the transaction moves to Financial adjustments 1, ending the dispute.
 -   If received, the transaction progresses to the next task [Review chargeback response and decide on pre-arbitration or arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/review-and-decide-prearbitration.md) in the chargeback process.
 
+If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
@@ -65,21 +67,21 @@ For the second presentment:
 
 9.  Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 10. Select one of the following options from the **Merchant's Response to Collaboration** drop-down list to specify the merchant's response to the chargeback.
 
     **Note:** In case of integration with Mastercard's Mastercom APIs, the **Merchant's Response to Collaboration** drop-down list automatically shows the merchant response and you can't edit it.
 
-<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d76076e334">
+<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d82332e364">
 
 Option
 
-</th><th align="left" id="d76076e337">
+</th><th align="left" id="d82332e367">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d76076e343">
+</th></tr></thead><tbody><tr><td id="d82332e373">
 
 **__Refund__**
 
@@ -104,7 +106,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
     -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
-</td></tr><tr><td id="d76076e443">
+</td></tr><tr><td id="d82332e473">
 
 **__Voucher__**
 
@@ -129,7 +131,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
     -   Select **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends.
 
 
-</td></tr><tr><td id="d76076e543">
+</td></tr><tr><td id="d82332e573">
 
 **__First-Party Trust__**
 
@@ -158,6 +160,8 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
 </table>    **Note:** In case of integration with Mastercard's Mastercom APIs, if the task state changes to Document Upload Pending after you select **Create second first chargeback**, then the attached document is not uploaded to Mastercard.
 
 11. To reupload the document, delete and replace your attachment with one that meets Mastercard's requirements then select **Upload document**.
+
+    For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 12. Select **Close task**.
 

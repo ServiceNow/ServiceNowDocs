@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Data capture and validation
@@ -28,7 +28,9 @@ Activity
 
 </td><td>
 
-In this stage, the important data is imported into the system. The following default tables are available with the base system:
+Select the **Data capture** activity to import relevant data into the system and validate it before moving to the next stage.
+
+ The following default tables are available with the base system:
 
 -   Customer contacts
 -   Location
@@ -41,21 +43,13 @@ In this stage, the important data is imported into the system. The following def
 
  Custom conditions have been defined and field values in these tables like source table, target table, and data source are auto-populated in each of these tables. You can use these flows by directly importing data into these tables and publish them when they’re ready. For details on importing data into these tables, see [Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-import-data.md).
 
- These tables have been configured with specific conditions and field values have been auto-populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Define additional field and record level validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
+ These tables have been configured with specific conditions and field values have been auto-populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Configure data validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
 
 </td></tr></tbody>
 </table>Review the data in the Summary activity and select **Mark Complete** to move to the next stage.
 
--   **[Account onboarding data validation flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-import-flow.md)**  
-This section describes how the data is imported from an external file, validated, and published to the target table.
--   **[Define additional field and record level validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-data-valid-assist.md)**  
-Create field and record level validations in the Data validation assist table.
--   **[Configure the account onboarding data import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-import-builder.md)**  
-Use the Import Builder to configure the account onboarding data import task.
--   **[Add the data import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-add-data-import.md)**  
-Add the data import task that you’ve configured to the **Account lifecycle onboarding process** defined in the Process Automation Designer.
 -   **[Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-import-data.md)**  
 As part of the Customer Success Management process, you can import, configure, and publish data.
 
-**Parent Topic:**[Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-playbook.md)
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

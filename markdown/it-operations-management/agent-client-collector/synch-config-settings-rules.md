@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Create a configuration settings rule, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Create a configuration settings rule, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Synchronize configuration settings rules
@@ -38,4 +38,6 @@ Verify that all Metric Intelligence MID Servers have been synchronized with the 
 1.  Navigate to **Output and Artifacts** &gt; **ECC Queue**.
 2.  In the **Queues** pane, search the **Topics** column for `MetricConfigProbe`.
 3.  Check the **Agent** column and verify that all MID Servers are updated.
+
+**Parent Topic:**[Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-config-overriding-rule.md)
 

@@ -7,16 +7,16 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Usage Insights, Platform Analytics]
+breadcrumb: [Exploring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Navigating the Usage Insights application
 
 Understand how to navigate the Usage Insights application, including the **All Applications** and individual application views.
 
-Users with any Usage Insights viewer role can access the application by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**.
+Users with any Usage Insights viewer role can access the application by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**.
 
 Different users have different rights and privileges in the Usage Insights application. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
 
@@ -24,13 +24,11 @@ Different users have different rights and privileges in the Usage Insights appli
 
 When you launch Usage Insights, there are two tabs: Overview and Events. The Overview tab allows you to view aggregate usage within a given time frame across all of your tracked applications. There are a number of filters you can configure to see scores for Active users, Sessions, and Average session duration, as well as a list showing usage by individual application. The Events tab enables you to filter a list of tracked user interactions across enabled Usage Insights applications.
 
-\[Omitted image "uxa-overview-tabs.gif"\] Alt text: GIF alternating the Overview and Events tabs of the Usage Insights application
+\[Omitted image "uxa-overview-tabs.gif"\] Alt text: GIF alternating the Overview and Events tabs of the UXA application
 
 ## Metrics across all applications
 
-You can view basic application usage and event details for all applications within an instance. Select **All Applications** from the applications list to see these metrics simultaneously.
-
-\[Omitted image "uxa-overview-all-apps.png"\] Alt text: See basic metrics for all applications within an instance
+You can view basic application usage and event details for all applications within an instance. Select **All Applications** from the applications list to see these metrics simultaneously.\[Omitted image "uxa-overview-all-apps-australia.png"\] Alt text: See basic metrics for all applications within an instance
 
 |KPI|Description|
 |---|-----------|
@@ -66,7 +64,7 @@ The Analysis menu items provide access to the Retention, Cohort analysis, Conver
 |Events|A list of user interactions such as page navigation and clicks that you can filter, drill down into, and export.|
 |Pages|A list of visited pages on your instance that you can filter, drill down into, and export.|
 
-\[Omitted image "uxa-overview-sp-app.png"\] Alt text: Usage Insights overview - Service Portal application
+\[Omitted image "uxa-overview-sp-app.png"\] Alt text: UXA overview - Service Portal application
 
 <table id="table_fvx_5y2_wjb"><thead><tr><th>
 
@@ -115,7 +113,7 @@ Filters
 
 </td><td>
 
-Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/filter-user-list.md).
+Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/filter-user-list.md).
 
 </td></tr><tr><td>
 
@@ -158,6 +156,7 @@ List of pages with the most views and most sessions. Select any entry in the lis
 
 -   Counters in the Usage Insights application contain aggregated user numbers.
 -   If a country’s tracking consent policy is set to **Disabled**, user metrics are not tracked.
+-   The sampled data represents 5-10% of the total data that is collected in real time.
 
 **Parent Topic:**[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
 

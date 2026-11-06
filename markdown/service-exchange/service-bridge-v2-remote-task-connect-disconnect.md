@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create remote tasks to sync data, Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Create remote tasks to sync data, Use for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Connect and Disconnect remote tasks

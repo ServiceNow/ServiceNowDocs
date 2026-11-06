@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Semantic index configuration for indexed sources
@@ -59,8 +59,8 @@ You can verify whether semantic index configuration is activated by navigating t
 
 -   **[Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-semantic-indexing-ais.md)**  
 Specify the semantic indexing configuration settings you want to apply when AI Search indexes records from your indexed sources.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-rag.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-rag.md)**  
-
+-   **[AI Search RAG \(Retrieval-Augmented Generation\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-rag.md)**  
+The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by narrowing the focus of your large language model \(LLM\) to a specific, contextual data set, instead of the vast, general data it was trained on.
 
 **Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-sources-ais.md)
 

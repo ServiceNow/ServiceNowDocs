@@ -1,20 +1,20 @@
 ---
 title: Contract Management Pro for Legal Service Delivery
-description: With the Legal Contract Management Pro for Legal Service Delivery, you can configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract and amendment requests. The integration also supports e-signatures and external storage systems.
+description: The ServiceNow Contract Management Pro for Legal Service Delivery enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract, amendment, and renewal requests. It also supports e-signatures, wet signatures, offline signatures, and external storage systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-service-delivery/snlc-mgmt-pro-landing-page.html
 release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract Management Pro for Legal Service Delivery
 
-With the Legal Contract Management Pro for Legal Service Delivery, you can configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract and amendmentrequests. The integration also supports e-signatures and external storage systems.
+The ServiceNow® Contract Management Pro for Legal Service Delivery enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract, amendment, and renewal requests. It also supports e-signatures, wet signatures, offline signatures, and external storage systems.
 
 ## Get started
 
@@ -40,7 +40,7 @@ With the Legal Contract Management Pro for Legal Service Delivery, you can confi
 
 </td><td>
 
-[Now Assist in Contract Management \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Use Now Assist in Contract Management to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[ServiceNow Otto for Contract Management Pro \[Omitted image "bus-ai-otto.svg"\] Alt text: Use ServiceNow Otto for Contract Management Pro to enhance user productivity using AI capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

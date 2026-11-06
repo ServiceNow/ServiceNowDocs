@@ -7,7 +7,7 @@ release: zurich
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---
@@ -18,7 +18,7 @@ Deleting a template notification prevents new service categories from using the 
 
 ## Before you begin
 
-Role required: none
+Role required: none.
 
 ## Procedure
 
@@ -26,8 +26,8 @@ Role required: none
 
 2.  Select a notification record.
 
-3.  Select **Delete**.
+3.  Click **Delete**.
 
-4.  Select **OK** to confirm.
+4.  Click **OK** to confirm.
 
 

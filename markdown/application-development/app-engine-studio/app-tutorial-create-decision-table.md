@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Build a decision table
@@ -141,6 +141,8 @@ Follow along with the tutorial to build a decision table for the employee travel
 
     1.  Select in the empty box in the condition column.
 
+        \[Omitted image "app-tutorial-condition-column-value.png"\] Alt text: You can select in the empty box in the condition column to create conditions.
+
     2.  Select **is**, then select **is one of** from the list.
 
     3.  In the empty space beneath **is one of**, select **Brazil** and **United States**.
@@ -214,6 +216,8 @@ Value
     In our tutorial, the results represent the regional heads for each region.
 
     1.  Select in the empty box in the result column.
+
+        \[Omitted image "app-tutorial-result-column-value.png"\] Alt text: Select in the empty box in the result column to define results.
 
     2.  In the empty field, enter the name of the regional head.
 

@@ -1,18 +1,18 @@
 ---
-title: Now Assist and Agentic AI glossary
-description: Learn about the terms and concepts used in Now Assist and Now Assist AI agents.
+title: AI glossary
+description: Learn about the terms and concepts used on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
 ---
 
-# Now Assist and Agentic AI glossary
+# AI glossary
 
-Learn about the terms and concepts used in Now Assist and Now Assist AI agents.
+Learn about the terms and concepts used on the ServiceNow AI Platform.
 
 ## AI Admin Hub
 
@@ -137,12 +137,6 @@ Q&amp;A Genius Results in ServiceNow Otto provide users with concise, actionable
 ## Retrieval Augmented Generation
 
 Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for AI Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised agentic workflows.
-
-## Now Assist
-
-Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
-
-To learn more about Now Assist, see [Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
 
 ## ServiceNow Otto context menu
 

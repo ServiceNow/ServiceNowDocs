@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -57,7 +57,7 @@ Role required: admin
 
     For more information about publishing a topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
 
-    The Reserve Space topic is published and can be used from the ServiceNow Otto for Virtual Agent.
+    The Reserve Space topic is published and can be used from the Now Virtual Agent.
 
 
 ## What to do next

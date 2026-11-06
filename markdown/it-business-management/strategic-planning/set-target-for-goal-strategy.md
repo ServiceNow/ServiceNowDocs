@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 **Note:**
 
 -   Only the owner or contributors of the goal can create targets for the goal.
--   You can also restrict the access for a target record to the specific users by enabling the **Confidential** field on the Target form if the ServiceNow® ESG Management application is installed.
+-   You can also restrict the access for a target record to the specific users by enabling the **Confidential** field on the Target form if the ServiceNow® Operational Sustainability Management application is installed.
 
 ## Procedure
 
@@ -43,15 +43,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 3.  Add a target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d147024e142">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d155952e142">
 
 Option
 
-</th><th align="left" id="d147024e145">
+</th><th align="left" id="d155952e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147024e151">
+</th></tr></thead><tbody><tr><td id="d155952e151">
 
 **From the Goals page**
 
@@ -59,7 +59,7 @@ Steps
 
 Next to the goal that you want to add a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
-</td></tr><tr><td id="d147024e169">
+</td></tr><tr><td id="d155952e169">
 
 **From the Strategy page**
 

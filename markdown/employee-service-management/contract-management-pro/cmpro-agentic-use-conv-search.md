@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Use conversational contract search and insights
@@ -39,4 +39,11 @@ Use the following methods to search for contract information:
 
 -   **Search in contract metadata:** Find contracts by querying structured information in contract fields. For more information, see [Search in contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-search-metadata.md).
 -   **Search in contract documents:** Find information within the content of contract documents, including clauses and specific text. For more information, see [Search in contracts document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-converse-ask-ques-new.md).
+
+-   **[Search in contracts document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-converse-ask-ques-new.md)**  
+Ask question in the ServiceNow Otto panel to search for information in the content of the contract document.
+-   **[Search in contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-search-metadata.md)**  
+Ask question in the ServiceNow Otto panel to search for information related to contract fields.
+
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

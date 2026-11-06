@@ -7,8 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [alert generation, alert prioritization, anomaly detection, alert rules, alert significance, alert filters, log anomalies, keyword management, noise reduction, alert management, log alert filtering, advanced filtering]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -18,7 +19,7 @@ Influence how Health Log Analytics generates and prioritizes alerts and identifi
 
 ## Overview of impacting alert generation, prioritization, and anomaly detection
 
-Explore how to influence alert generation and anomaly detection in Health Log Analytics. You can create and modify rules to generate alerts for specific metrics, ensuring that you are informed of important issues. You can also assign different levels of significance to alerts, helping Health Log Analytics prioritize them based on their relevance. In addition, you can influence anomaly detection by managing the keywords that Health Log Analytics looks for in your log data, and use advanced log alert filters to reduce noise.
+Explore how to influence alert generation and anomaly detection in Health Log Analytics. You can create and modify rules to generate alerts for specific metrics, ensuring that you're informed of important issues. You can also assign different levels of significance to alerts, helping Health Log Analytics prioritize them based on their relevance. In addition, you can influence anomaly detection by managing the keywords that Health Log Analytics looks for in your log data, and use advanced log alert filters to reduce noise.
 
 -   [Using alert rules to control when Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-alert-rules-manage.md)
 
@@ -32,7 +33,7 @@ Explore how to influence alert generation and anomaly detection in Health Log An
 
     Influence how Health Log Analytics finds anomalies by managing keywords it looks for in your log data.
 
--   [Reducing noise by adding advanced log alert filters in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-adv-alert-filtering.md)
+-   [Reduce noise by adding advanced log alert filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-adv-alert-filtering.md)
 
     Use advanced log alert filters to reduce noise by making Health Log Analytics drop alerts that don't indicate a significant issue.
 

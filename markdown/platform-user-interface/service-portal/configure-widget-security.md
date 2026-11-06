@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,15 +38,15 @@ When you configure widget security, configure the page security accordingly so t
 
 3.  On the form, configure the widget security.
 
-<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d37957e103">
+<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d37634e103">
 
 Option
 
-</th><th align="left" id="d37957e106">
+</th><th align="left" id="d37634e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d37957e112">
+</th></tr></thead><tbody><tr><td id="d37634e112">
 
 **Restrict the widget to authenticated users**
 
@@ -54,7 +54,7 @@ Procedure
 
 Clear the **Public** check box and leave the **Roles** field blank.
 
-</td></tr><tr><td id="d37957e127">
+</td></tr><tr><td id="d37634e127">
 
 **Restrict the widget to certain roles**
 
@@ -66,7 +66,7 @@ Clear the **Public** check box and leave the **Roles** field blank.
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d37957e172">
+</td></tr><tr><td id="d37634e172">
 
 **Restrict which tables public widgets can access for guest users**
 

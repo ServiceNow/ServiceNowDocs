@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -29,7 +29,7 @@ AWA home provides the following features:
 
 Navigate to **Advanced Work Assignment** &gt; **Home** to start exploring AWA features.
 
-**Important:** The AWA home page appears after you have installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow Store. Existing customers don't need to install it from the store. However, subsequent updates are available there. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Important:** The AWA home page appears after you have installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow Store. Existing customers don't need to install it from the store. However, subsequent updates are available there. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Planning, installing, and exploring AWA
 
@@ -198,5 +198,4 @@ Install either one or both of the following plugins for this card to conditional
  Assign work items to agents based on shifts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
-
+</table>

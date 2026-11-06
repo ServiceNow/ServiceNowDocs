@@ -1,31 +1,31 @@
 ---
-title: Configure a new ReleaseOps ecosystem
-description: Configure a new ReleaseOps ecosystem using the sample pipelines and playbooks to begin deploying changes from your development to test to production instances.
+title: Complete ReleaseOps manual setup
+description: Complete ReleaseOps manual setup to configure a new ReleaseOps ecosystem using the sample pipelines and playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/configure-new-releaseops-ecosystem.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, configure ReleaseOps]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Configure a new ReleaseOps ecosystem
+# Complete ReleaseOps manual setup
 
-Configure a new ReleaseOps ecosystem using the sample pipelines and playbooks to begin deploying changes from your development to test to production instances.
+Complete ReleaseOps manual setup to configure a new ReleaseOps ecosystem using the sample pipelines and playbooks.
 
 ## About this task
 
-This task enables you to configure a ReleaseOps ecosystem using the sample pipelines and playbooks. To learn about custom pipelines in ReleaseOps, see [Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/create-release-ops-pipeline.md).
+Starting with version 1.2.1 of ReleaseOps, you can use guided setup for a quicker initial configuration experience. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/complete-guided-setup.md).
+
+The manual setup procedure outlined in this task can also be used to complete ReleaseOps initial configuration. Manual setup can be useful in more complex setup scenarios and when making changes to your existing ReleaseOps ecosystem.
 
 ## Before you begin
 
-**Note:** Starting with version 1.2.1 of ReleaseOps, you can configure a new ecosystem using guided setup. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/complete-guided-setup.md).
-
-Role required: admin
+Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 
 Confirm that all instances \(production, development, and test\) have ReleaseOps installed. Your test instance must also have ATF Test Generator and Cloud Runner installed. For more information, see [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/install-releaseops.md).
 
@@ -102,4 +102,6 @@ Confirm that multi-instance management has been configured to enable all non-pro
 ## Result
 
 ReleaseOps is ready to deploy changes from your development to test to production instances.
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configuring-releaseops.md)
 

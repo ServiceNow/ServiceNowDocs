@@ -1,5 +1,5 @@
 ---
-title: Automation Center Executions dashboarb
+title: Automation Center Executions dashboard
 description: The Automation Center Executions dashboard helps you manage the health of automations in one central place. You can also​ import automation metrics and data from third-party providers regardless of the technology used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/executions-dash.html
@@ -7,12 +7,12 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workspace, Explore, Automation Center, Workflow Data Fabric]
 ---
 
-# Automation Center Executions dashboarb
+# Automation Center Executions dashboard
 
 The Automation Center Executions dashboard helps you manage the health of automations in one central place. You can also​ import automation metrics and data from third-party providers regardless of the technology used.
 

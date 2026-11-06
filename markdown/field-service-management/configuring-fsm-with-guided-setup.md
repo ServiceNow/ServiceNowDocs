@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configuring-fsm-with-guided-setup.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan implementation, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ The Field Service Management Guided Setup provides a sequence of tasks that help
 
 ## Before you begin
 
-Role required: none
+Role required: wm\_admin
 
 ## About this task
 
@@ -35,5 +35,7 @@ Use guided setup to step through the initial Field Service Management configurat
 3.  Select **Configure** to begin the module setup.
 
 4.  Select **Mark as Complete** when you complete a task.
+
+    For more information on the roles required to perform the guided setup, see [Roles required for Field Service Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/roles-required-for-field-service-guided-setup.md).
 
 

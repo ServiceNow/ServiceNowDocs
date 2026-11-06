@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/work-group-life-service-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -56,15 +56,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 8.  Close the task from the playbook activity or the task form.
 
-<table><thead><tr><th align="left" id="d110044e231">
+<table><thead><tr><th align="left" id="d120639e231">
 
 Policy task
 
-</th><th align="left" id="d110044e234">
+</th><th align="left" id="d120639e234">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d110044e240">
+</th></tr></thead><tbody><tr><td id="d120639e240">
 
 **To verify a change or a document**
 
@@ -74,7 +74,7 @@ Action
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d110044e267">
+</td></tr><tr><td id="d120639e267">
 
 **To submit a review**
 

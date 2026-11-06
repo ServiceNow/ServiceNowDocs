@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_JournalFields.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Journal field type
@@ -19,6 +19,10 @@ There are three types of journal field: journal, journal\_list, and journal\_inp
 |journal|Allow and store input, and display the combined inputs below the input box. Journal fields display in the activity stream in the form and in the list view.|
 |journal\_input|Allow and store input, but do not display the combined inputs. Journal input fields only display with the record they are associated with, so they do not display in the activity stream on the list view.|
 |journal\_list|Do not allow or store input; they merely display the contents of other Journal fields upon which the journal\_list field is dependent. If a journal\_list field is dependent on more than one Journal field, it will chronologically interweave those fields' inputs. The journal\_list field does not display content within the activity stream, but rather in a separate block.|
+
+\[Omitted image "JournalFieldTypes.png"\] Alt text: Journal field types
+
+The example image contains the three available journal field types. The first is a journal field, with its inputs displayed below the field. The second is a journal input field, which does not show its previous inputs. The third is Journal list field, which is configured to show the input from the journal input field above it.
 
 ## Restricting journal entries sent in a notification
 

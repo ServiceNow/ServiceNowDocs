@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Schedule Adherence, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -42,15 +42,15 @@ Role required: sn\_shift\_planning.admin
 
 3.  Monitor the schedule adherence of your agents.
 
-<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d342349e144">
+<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d193174e144">
 
 To
 
-</th><th align="left" id="d342349e147">
+</th><th align="left" id="d193174e147">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d342349e153">
+</th></tr></thead><tbody><tr><td id="d193174e153">
 
 **View schedule adherence at organization or team level**
 
@@ -58,7 +58,7 @@ Do this
 
 Click the **Schedule Adherence** tab.The bar displays the schedule adherence and conformance in percentage for your teams. Click on the bar chart to drill down and view more analytics.
 
-</td></tr><tr><td id="d342349e168">
+</td></tr><tr><td id="d193174e168">
 
 **Analyze planned vs actual scheduling for your team members**
 

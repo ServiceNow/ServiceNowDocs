@@ -1,0 +1,64 @@
+---
+title: Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills
+description: Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills to suit your requirements.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.html
+release: zurich
+product: Threat Intelligence Security Center
+classification: threat-intelligence-security-center
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Now Assist TISC, Threat Intelligence Security Center]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
+---
+
+# Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills
+
+Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills to suit your requirements.
+
+## Before you begin
+
+Roles required: admin
+
+## Procedure
+
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+
+2.  Under **Technology**, select **Security Operations**.
+
+3.  In **All features**, select **Threat Intelligence Security Center**.
+
+    The following ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills are displayed:
+
+    -   TISC Case Summarization
+    -   TISC Report Authoring
+4.  For the skill you want to customize, select **\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.** &gt; **Make a copy**.
+
+    The guided setup is displayed. Configure the sections and select **Save and continue** to proceed.
+
+    **Note:**
+
+    The configurable sections can be different for individual skills. Follow the prompts to customize the editable sections.
+
+5.  In **General details**, enter a unique name and description for the skill.
+
+6.  In **Choose input**, modify the editable fields in the template, and select **Save template**.
+
+    You can configure only the editable base input table fields and their descriptions. Select from the related tables supported on the lists for your input data.
+
+7.  In **Customize prompt**, edit the prompt by reordering or removing the predefined sections.
+
+    Review and test the prompt on a threat intelligence record for each input template configuration.
+
+8.  In **Define access**, define the user access and role restrictions.
+
+9.  In **Select display**, toggle to display the skill in all Security Operations products and the Now Assist panel.
+
+10. In **Review and Activate**, review your skill and consider additional modifications.
+
+11. Select **Activate**.
+
+    Your skill is displayed in the available Threat Intelligence Security Center skills section.
+
+

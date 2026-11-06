@@ -1,18 +1,18 @@
 ---
 title: Create a relationship registry record
-description: Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+description: Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-a-rela-registry-record.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a relationship registry record
 
-Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
 
 ## Before you begin
 
@@ -20,13 +20,11 @@ Role required: sn\_grc\_rel\_config.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Data Registry** &gt; **Relationship Registries**.
+1.  Navigate to **All** &gt; **Data Relationships Framework** &gt; **Relationship registries**.
 
 2.  Select **New**.
 
-    The Relationship Registry new record form is displayed.
-
-    \[Omitted image "rela-registry-record-new.png"\] Alt text: Rel regisry record.
+    \[Omitted image "create-rel-reg.png"\] Alt text: Relationship registry new record form.
 
 3.  On the form, fill in the fields.
 
@@ -38,7 +36,7 @@ Role required: sn\_grc\_rel\_config.admin
 
 
 -   **[Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/data-rel-registries-form.md)**  
-Use the Relationship registry record form \(Relationship Registry \[sn\_data\_registry\_relationship\] table\) to define a relationship between objects.
+Use the Relationship registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 
 **Parent Topic:**[Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/data-relationship-framework.md)
 

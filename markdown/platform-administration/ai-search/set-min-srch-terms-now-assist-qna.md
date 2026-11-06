@@ -7,10 +7,10 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Knowledge base articles Genius Results, Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Change the minimum search term count for Knowledge base articles Genius Results
@@ -19,7 +19,7 @@ Specify the minimum number of terms that a search must contain to be eligible fo
 
 ## Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 
@@ -27,7 +27,7 @@ Role required: ais\_admin
 
 Knowledge base articles Genius Results send eligible knowledge article search results to the LLM for answer generation.
 
-By default, the system only sends knowledge article results to the Now LLM Service when the search satisfies all of these conditions.
+By default, the system only sends knowledge article results to the LLM when the search satisfies all of these conditions.
 
 -   The search application is Service Portal, Virtual Agent, Employee Center, or global search.
 -   The user's session language is English.

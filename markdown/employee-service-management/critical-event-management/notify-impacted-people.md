@@ -1,5 +1,5 @@
 ---
-title: Sending notifications during a critical event
+title: Send notifications during a critical event
 description: Send critical event notification to impacted people and on-site responders in Critical Event Management to inform them of the situation and request their response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/notify-impacted-people.html
@@ -7,12 +7,12 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
-# Sending notifications during a critical event
+# Send notifications during a critical event
 
 Send critical event notification to impacted people and on-site responders in Critical Event Management to inform them of the situation and request their response.
 

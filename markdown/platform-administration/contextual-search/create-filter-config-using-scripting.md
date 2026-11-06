@@ -7,9 +7,9 @@ release: zurich
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Filter configuration for contextual search, Configure, Contextual search, Search administration, Configure core features, Administer]
+breadcrumb: [Filter configuration for contextual search, Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a filter configuration using scripts

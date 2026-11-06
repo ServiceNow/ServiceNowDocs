@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Usage Insights, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Usage Insights for pages and screens
@@ -62,7 +62,7 @@ Avg. Load Time
 
 </td><td>
 
-Shows the average time that it takes to load the page, based on the number of times the page is viewed.
+Shows the average time it takes to load the page, based on the number of times the page is viewed.
 
 </td></tr><tr><td colspan="2">
 
@@ -147,7 +147,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Usage Insights**.
 
 2.  Select an application and then select **Data Foundation** &gt; **Pages**.
 

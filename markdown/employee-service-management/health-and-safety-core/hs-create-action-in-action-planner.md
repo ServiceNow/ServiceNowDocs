@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage actions in Action planner, Use, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ With Action planner, you can manage actions in context while reviewing a Health 
 
 2.  Open a safety record such as a safety incident or a risk assessment.
 
-3.  Select the Action Planner icon \[Omitted image "image.health-safety-action-planner"\] Alt text: Action Planner icon\) from the contextual sidebar panel.
+3.  Select the Action Planner icon \[Omitted image "health-safety-action-planner.png"\] Alt text: Action Planner icon\) from the contextual sidebar panel.
 
     Any existing actions linked to this record are displayed as cards.
 
@@ -46,15 +46,15 @@ With Action planner, you can manage actions in context while reviewing a Health 
 
 7.  To edit or open an action separately, select an option in the **Created actions** section.
 
-<table id="choicetable_cqz_333_ljc"><thead><tr><th align="left" id="d729799e158">
+<table id="choicetable_cqz_333_ljc"><thead><tr><th align="left" id="d741174e158">
 
 Option
 
-</th><th align="left" id="d729799e161">
+</th><th align="left" id="d741174e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d729799e167">
+</th></tr></thead><tbody><tr><td id="d741174e167">
 
 **Edit an existing action**
 
@@ -68,14 +68,14 @@ The inline **Edit action** form opens with the current fields pre-filled.
 3.  Update the fields as needed and select **Save**.
 
 
-</td></tr><tr><td id="d729799e196">
+</td></tr><tr><td id="d741174e196">
 
 **Open an action record in full**
 
 </td><td>
 
 1.  Locate the action card you want to open.
-2.  Select the Open record icon \(\[Omitted image "image.hs-open-action"\] Alt text:\) on the card.
+2.  Select the Open record icon \(\[Omitted image "hs-open-action.png"\] Alt text: open record icon\) on the card.
  The action record opens as a new tab in the associated Health and Safety record.
 
 </td></tr></tbody>

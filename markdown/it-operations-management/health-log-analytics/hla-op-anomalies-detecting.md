@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Health Log Analytics, HLA, HLA alerts, alert generation, alert metrics, anomaly, anomalies, anomalous, pattern, keywords, correlator, correlation]
 breadcrumb: [Exploring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -21,7 +21,7 @@ Health Log Analytics identifies patterns in your log data and learns pattern beh
 
 Anomalies are abnormal or unexpected behavior that occur when activities deviate from established baselines. There are many kinds of anomalies. In this example, the system tracks the baseline rate \(the average number of events per minute\) for a specific log pattern. When this typically inactive log generates a spike in events, the system detects the deviation from the baseline and generates an alert.
 
-\[Omitted image "anomaly-spike.png"\] Alt text: Anomaly has as a spike in the rate of events in a typically inactive log pattern.
+\[Omitted image "anomaly-spike.png"\] Alt text: Anomaly seen as a spike in the rate of messages of a particular type.
 
 Health Log Analytics uses various methods to detect anomalies and generate alerts.
 
@@ -31,9 +31,9 @@ Health Log Analytics monitors multiple metrics in the log stream to detect anoma
 
 As an operator, you can provide feedback about the generated alerts. Your feedback "teaches" Health Log Analytics that a specific alert is significant or irrelevant to you. The application then either raises the priority of the alert metric or mutes it to reduce noise.
 
--   A significant alert is more likely to be included in a Log Analytics group when the associated metric behaves anomalously. For more information, see [Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-make-significant.md)
--   Mute an alert for a specified source to eliminate distracting new alerts for unimportant issues. When a metric is muted, Health Log Analytics removes the current alert and any other alerts based on that metric from the feed. It also stops generating new alerts from that metric. For more information, see [Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-mute.md).
--   When the situation changes, you can return a significant metric to its default significance. You can also reactivate a muted metric to cause the system to start generating alerts again. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined.md).
+-   A significant alert is more likely to be included in a Log Analytics group when the associated metric behaves anomalously. For more information, see [Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-make-significant-sow.md)
+-   Mute an alert for a specified source to eliminate distracting new alerts for unimportant issues. When a metric is muted, Health Log Analytics removes the current alert and any other alerts based on that metric from the feed. It also stops generating new alerts from that metric. For more information, see [Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-mute-sow.md).
+-   When the situation changes, you can return a significant metric to its default significance. You can also reactivate a muted metric to cause the system to start generating alerts again. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined-sow.md).
 
 ## Lexical keywords
 

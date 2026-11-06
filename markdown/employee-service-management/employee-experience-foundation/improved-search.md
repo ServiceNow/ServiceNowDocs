@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic topic pages, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Dynamic topic pages, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Search on the topic pages
@@ -27,11 +27,7 @@ The search functionality on the topic pages provides results for the Service Cat
     For more information on changing the default number of results, see [Change the number of returned search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/improved-search.md).
 
 
-**Note:** You must have the Employee Center for the search on the topic pages feature to function.
-
-## Expanded Now Assist search
-
-When you search on topic pages and expand the search, the default search changes to Now Assist search.
+**Note:** You must have the Employee Center 28.0.4 installed along with Utah for the search on the topic pages feature to function.
 
 ## Change the number of returned search results
 

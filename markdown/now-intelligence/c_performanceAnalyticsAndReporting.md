@@ -1,17 +1,17 @@
 ---
 title: Platform Analytics
-description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/c\_performanceAnalyticsAndReporting.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 ---
 
 # Platform Analytics
 
-Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 
 ## Get started
 
@@ -64,7 +64,7 @@ Learn how to help your business constantly improve. Plan and implement key perfo
 
 Learn about dashboard-based analytics on the usage of several ServiceNow applications. Administrators can get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
 
-\[Omitted image "uxa-overview.png"\] Alt text: User experience analytics dashboard.
+\[Omitted image "uxa-overview.png"\] Alt text: Usage Insights dashboard.
 
 ## Process Mining
 

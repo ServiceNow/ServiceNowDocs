@@ -7,9 +7,9 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Submit request using external-facing PDR form, PDR external-facing form, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Submit request using external-facing PDR form, Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # External-facing PDR form fields
@@ -77,4 +77,6 @@ First name, last name, and email address of the requester. The email address is 
 |**Request description**|Details of the request.|
 |**Data subject details**|First name, last name, and email address of the data subject on whose behalf the request is being submitted.|
 |**Agent details**|First name, last name, and email address of the authorized agent. The agent receives a verification email and subsequent updates about the request.|
+
+**Parent Topic:**[Submit privacy requests using external-facing PDR form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.md)
 

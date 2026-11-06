@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -17,15 +17,15 @@ ServiceNow Impact is built on the ServiceNow AI Platform and combines customized
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-program-features.md)
+[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/exploring-impact.md)
 
 </td><td>
 
-[Using Impact\[Omitted image "bus-management-console.svg"\] Alt text:Use an updated interactive Impact program where you can access your Impact tools and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-in-app.md)
+[Configuring Impact\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to setup and configure Impact.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
 
 </td></tr><tr><td>
 
-[Configuring Impact\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to setup and configure Impact.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact.md)
+[Using Impact\[Omitted image "bus-management-console.svg"\] Alt text:Use an updated interactive Impact program where you can access your Impact tools and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-in-app.md)
 
 </td><td>
 
@@ -33,7 +33,9 @@ ServiceNow Impact is built on the ServiceNow AI Platform and combines customized
 
 </td></tr><tr><td colspan="2">
 
-[Additional resources for Impact\[Omitted image "bus-documentation.svg"\] Alt text:Explore additional resources for learning about Impact.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-resources-impact.md)
+[Additional resources for Impact\[Omitted image "bus-documentation.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-resources-impact.md)
+
+ [Explore additional resources for learning about Impact.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-resources-impact.md)
 
 </td></tr></tbody>
 </table>

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-mgt-configure-docusign-pdf.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure quote PDF documents, Quote management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Configure DocuSign for PDF documents
@@ -31,4 +31,6 @@ Sales operation specialists can link quote PDF documents to Docusign so that sig
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to separate Docusign account data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/separate-docusign-data.md)
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)
 

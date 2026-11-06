@@ -7,9 +7,9 @@ release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure EVAM, EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring entity view action mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Define an EVAM view template
@@ -90,6 +90,4 @@ A JSON template that defines the view for a mapped data source.For example, the 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
-
-**Parent Topic:**[Configuring Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.md)
 

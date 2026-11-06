@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Customizing highlighted fields, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -50,15 +50,15 @@ Portfolio Planning uses a dual-file script architecture to enable safe customiza
 
 2.  Update the column name in the **Script** field of the Script Include.
 
-<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d231392e195">
+<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d248744e195">
 
 For this view
 
-</th><th align="left" id="d231392e198">
+</th><th align="left" id="d248744e198">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d231392e204">
+</th></tr></thead><tbody><tr><td id="d248744e204">
 
 **Prioritization view**
 
@@ -107,7 +107,7 @@ The required function is updated.
 
 The Priority column is now highlighted in the Prioritization List view. During the next product upgrade, the ServiceNow Controlled file \(`APWBacklogConfigImpl`\) will be updated, but your customization in the Config file will remain intact and will not conflict.
 
-</td></tr><tr><td id="d231392e283">
+</td></tr><tr><td id="d248744e283">
 
 **Hierarchy view**
 

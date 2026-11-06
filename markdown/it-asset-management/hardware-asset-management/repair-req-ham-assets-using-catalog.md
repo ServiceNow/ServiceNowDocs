@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Repair of defective assets, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Repair of defective assets, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request repair of hardware assets using Service Catalog
@@ -63,7 +63,7 @@ Stockroom that has assets to be repaired.
 
         You can add one or more assets to the request.
 
-    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text: Unlock capabilities icon..
+    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text:.
 
 4.  Select **Submit**.
 

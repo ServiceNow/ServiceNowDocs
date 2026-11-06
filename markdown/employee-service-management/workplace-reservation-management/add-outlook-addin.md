@@ -7,8 +7,8 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-08"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Manage Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -113,15 +113,4 @@ Link to the instance where the add-in is installed.
 
     The manifest file for the add-in is created. Employees can now make reservations in Workplace Reservation Management using the add-in file. For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
-
-1.  [Upload the manifest file for a workplace employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/uplooad-manifest-single-user.md)  
-Upload the manifest file \(add-in for Microsoft Outlook\) for a workplace employee \(single user\). Employees can create workplace reservations using the Microsoft Outlook add-in file.
-2.  [Upload the add-in file Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/upload-manifest-msoffice.md)  
-Upload the manifest file to Microsoft Office 365. Employees can view and use the add-in from Microsoft Office 365 Outlook.
-
-**Parent Topic:**[Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md)
-
-**Previous topic:**[Redirect WSD RSV MOA OAuth registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/route-outlook-add-in.md)
-
-**Next topic:**[Upload the manifest file for a workplace employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/uplooad-manifest-single-user.md)
 

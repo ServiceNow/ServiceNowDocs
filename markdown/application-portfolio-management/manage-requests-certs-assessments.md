@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/manage-requests-certs-assessments.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Managing requests, certifications, and assessments
@@ -49,11 +49,11 @@ You can select **View all** to see the list of assessments. Select the assessmen
 
 ## Technology Portfolio audit
 
-The  **Technology Portfolio Audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist. For example, the software product full version might be 9.2.1. The End of Support lifecycle version in the Software Asset Management Content library might only be full version 9.2. This audit table helps you to evaluate the lifecycle matching information based on the details of the products being used in your organization. Use the table to identify exact lifecycle version matches. You can also identify when no valid lifecycle version could be found for the software product or hardware model version used in your organization.
+The  **Technology Portfolio Audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist. For example, the software product full version might be 9.2.1. The End of Support lifecycle version in the Software Asset Management Content library might only be full version 9.2. This audit table helps you to evaluate the lifecycle matching information based on the details of the products being used in your organization. Use the table to identify exact lifecycle version matches or missing lifecycle versions for software products and hardware models in your organization.
 
 The data in the Technology Portfolio Audit table is fetched from the TPM Technology Lifecycle Exception \[sn\_apm\_tpm\_technology\_lifecycle\_exception\] table.
 
-As an admin user, you can run the **Populate TPM Discovered Technologies and Lifecycles** scheduled job on-demand to calculate the technology lifecycle risk for your application portfolio. The scheduled job executes the script generating the lifecycle risk dates for your software products and hardware models by querying the ITAM content library. These dates include end of support date, end of extended support date, and end of life date. For more details, see [Schedule a job to generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/schedule-job-generate-tpm-data.md) and [Generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md). Whether the script runs on demand or scheduled, you can view the results in the Portfolio &gt; Technology Portfolio Management &gt; Logs page.
+As an admin user, you can run the **Populate TPM Discovered Technologies and Lifecycles** scheduled job on-demand to calculate the technology lifecycle risk for your application portfolio. The scheduled job executes the script generating the lifecycle risk dates for your software products and hardware models by querying the ITAM content library. These dates include end of support date, end of extended support date, and end of life date. For more details, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md). Whether the script runs on demand or scheduled, you can view the results in the Portfolio &gt; Technology Portfolio Management &gt; Logs page.
 
 <table id="table_frn_x3m_cxb"><thead><tr><th>
 

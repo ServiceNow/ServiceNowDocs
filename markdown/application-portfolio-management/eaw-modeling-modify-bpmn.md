@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-modify-bpmn.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Modify BPMN diagram details
@@ -29,6 +29,10 @@ Role required: sn\_apm.apm\_user
 4.  Select the **Modify business process details** icon on the diagram page.
 
     \[Omitted image "modeling-modify-bpmn.png"\] Alt text: Modify business process details icon on the bpmn diagram page
+
+    **Note:**
+
+    To access the **Modify business process details** icon using a keyboard, navigate to the diagram using the **Tab** key. Canvas controls are accessible without a mouse.
 
 5.  Modify the details such as name, description, and other details.
 

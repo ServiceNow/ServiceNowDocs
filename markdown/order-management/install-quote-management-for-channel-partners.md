@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-quote-management-for-channel-partners.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 2
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Quote Management for Channel Partners
@@ -16,22 +16,23 @@ Install the Quote Management for Channel Partners plugin \(com.snc.partner\_rela
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 Depending on your entitlements, you must install demo data after installation. Demo data comprises the sample records that describe application features for the common use cases.
+
+**Note:** The Quote Self-Service application is installed along with Quote Management for Channel Partners. For more information on Quote Self-Service, see [Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/self-service-quote.md)
 
 Role required: admin
 
 ## About this task
 
-The Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) plugin facilitates management of the entire order life cycle, specifically for indirect sales.
+The Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) plugin facilitates management of the entire quote life cycle, for indirect sales.
 
 The following items are installed with the Quote Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_qm\) plugin:
 
 -   Plugins
 -   Store applications
--   Role like the sn\_prm\_qm.quote\_partner\_ui
--   Tables
+-   Role such as the sn\_prm\_qm.quote\_partner\_ui
 
 For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -47,15 +48,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d113375e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d164571e146">
 
 Demo data install task
 
-</th><th align="left" id="d113375e137">
+</th><th align="left" id="d164571e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d113375e143">
+</th></tr></thead><tbody><tr><td id="d164571e155">
 
 **If demo data is available and you want to install it**
 
@@ -65,7 +66,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d113375e173">
+</td></tr><tr><td id="d164571e185">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -74,7 +75,6 @@ Description
 Load the demo data after installing the Sales Common plugin.1.  Install Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) application.
 2.  Navigate to the **All** and in the Filter, type `v_plugin.list`.
 3.  In the **System Plugin** list, search for the Quote Management for Channel Partners plugin.
-4.  In the System **Plugin Order Management for Channel Partners data model** window, under Related Links, select **Install Demo Data Only**.
 
 
 </td></tr></tbody>
@@ -83,5 +83,15 @@ Load the demo data after installing the Sales Common plugin.1.  Install Quote Ma
 
 You have successfully installed the Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) application.
 
+-   **[Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/self-service-quote.md)**  
+Quote Self-Service \(com.sn\_quote\_self\_service\) enables channel partners to create and manage quotes directly in the Partner portal through a guided playbook experience.
+
 **Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
 

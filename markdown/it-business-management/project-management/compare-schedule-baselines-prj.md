@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create baseline of a project, Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create baseline of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Compare schedule baselines of a project
@@ -28,15 +28,15 @@ Role required: it\_project\_manager
 
 1.  To compare the schedule baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d228712e64">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d245534e64">
 
 Option
 
-</th><th align="left" id="d228712e67">
+</th><th align="left" id="d245534e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d228712e73">
+</th></tr></thead><tbody><tr><td id="d245534e73">
 
 **From the Planning Console**
 
@@ -48,7 +48,7 @@ Steps
 4.  On the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More actions icon\) and then from the Baselines list, select a baseline.
 
 
-</td></tr><tr><td id="d228712e121">
+</td></tr><tr><td id="d245534e121">
 
 **From the Baseline form**
 
@@ -71,7 +71,7 @@ Steps
     -   **Baseline start date**: The planned start date for the task.
     -   **Baseline end date**: The planned end date for the task.
     -   **Baseline variance**: The difference between the baseline end date and planned end date. The value of this field column if there are any changes made to the project tasks or project. If the planned end date for a task is prior to the baseline date, the variance is shown as a negative value. For example, for a task with the planned end date of April 24 and the baseline created on April 17 means it is past due or late. The Baseline variance column in this case displays a value of -5 days.
-    **Note:** Use the show or hide columns in gantt icon \(\[Omitted image "ConfigurationIcon.png"\] Alt text: Show or hide coloumns in gantt icon\) to add these columns to the Planning Console.
+    **Note:** Use the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide coloumns in gantt icon\) to add these columns to the Planning Console.
 
 
 **Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectBaseline.md)

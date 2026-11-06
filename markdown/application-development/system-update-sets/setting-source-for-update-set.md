@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfers, System update sets, Deploying applications, Building applications]
+breadcrumb: [Configure, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Set up the source instance for an update set
@@ -58,7 +58,7 @@ Active
 
 </td><td>
 
-Specify whether the local instance can transfer update sets to the remote instance. You can transfer update sets only to active remote instances.
+Specify whether the local instance can transfer update sets to the remote instance. Update sets can only be transferred to active remote instances.**Note:** Use the Active field to deactivate unwanted remote instances.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ URL
 
 </td><td>
 
-Specify the URL of the remote instance using the appropriate transfer protocol. Each remote instance record should have a unique URL. Creating duplicate records with the same URL can cause errors. The remote instance must be on the same release family as the local instance. **Note:** You can’t change the URL after the system verifies the connection. Use the Active field to deactivate unwanted remote instances.
+Specify the URL of the remote instance using the appropriate transfer protocol. Each remote instance record should have a unique URL. **Note:** Creating duplicate records with the same URL can cause errors. The remote instance must be on the same release family as the local instance. You can’t change the URL after the system verifies the connection.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Short description
 
 </td><td>
 
-\[Optional\] Enter any other relevant information about the remote instance.
+Enter any other relevant information about the remote instance.
 
 </td></tr></tbody>
 </table>4.  Select **Test Connection**.
@@ -103,4 +103,6 @@ Short description
     -   You must modify the source instance \(for example, change the password\).
 6.  Select and hold \(or right-click\) the form header and select **Save**.
 
+
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/configure-system-update-sets.md)
 

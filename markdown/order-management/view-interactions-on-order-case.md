@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-interactions-on-order-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, ServiceNow Otto for Order Management]
+breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View customer context for an order exception chat
@@ -23,11 +23,11 @@ Role required: sn\_order\_case.order\_agent, awa\_agent, and now\_assist\_panel\
 
 ## About this task
 
-When a customer's chat for an order exception is escalated to a live agent, the agent can accept the chat from the CSM/FSM Configurable Workspace Inbox. After the agent accepts the chat, the Active Chat panel opens with an AI-generated summary of the conversation between the order exception AI agent and the customer, and the associated interaction record opens alongside with the customer's account and contact details already populated.
+When a customer's chat for an order exception is escalated to a live agent, the agent can accept the chat from the CRM Workspace Inbox. After the agent accepts the chat, the Active Chat panel opens with an AI-generated summary of the conversation between the order exception AI agent and the customer, and the associated interaction record opens alongside with the customer's account and contact details already populated.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Accept the order exception chat from the Inbox.
 
@@ -42,7 +42,7 @@ When a customer's chat for an order exception is escalated to a live agent, the 
 3.  Review the AI-generated chat summary in the Active Chat panel to understand the customer's request and what the order exception AI agent has done so far.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-case-self-service.md)
 
 **Related topics**  
 

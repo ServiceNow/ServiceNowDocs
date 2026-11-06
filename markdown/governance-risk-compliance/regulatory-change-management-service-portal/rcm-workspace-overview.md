@@ -7,8 +7,8 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -31,30 +31,30 @@ The Compliance Workspace using the provides a single-pane view with a personaliz
 
 ## Regulatory Change Management application views in Compliance Workspace
 
-The Regulatory Change Management application in Compliance Workspace contains the following views for the users.
+The Regulatory Change Management application in Compliance Workspace contains the following pages.
 
--   **Home page view**
+-   **Home page \[Omitted image "icon-tprm-ws-home.png"\] Alt text:**
 
     Provides an overview of the compliance posture of your organization.
 
--   **Regulatory Change Management application landing page view**
+-   **Regulatory Change Management application overview page \[Omitted image "reg-change-icon.png"\] Alt text:**
 
     Provides an overview, trends, and tracking status of the regulatory activity across your organization.
 
--   **Tasks view**
+-   **Tasks page \[Omitted image "icon-tprm-ws-tasks.png"\] Alt text:**
 
     Provides an overview of the tasks that are assigned to the users, user groups, reported items, and watchlist.
 
--   **Issues overview landing page view**
+-   **Issues overview page \[Omitted image "issue-overview-icon.png"\] Alt text:**
 
     Provides an overview, tracking status, and performance trends of the issues.
 
--   **List view**
+-   **List page \[Omitted image "icon-tprm-ws-list.png"\] Alt text:**
 
     Provides the list of the GRC objects in the Compliance Workspace.
 
 
-\[Omitted image "home-page-compliance-workspace.png"\] Alt text: Workspace views of Compliance homepage.
+\[Omitted image "home-page-compliance-workspace.png"\] Alt text: RCM dashboard view with Alerts, Tasks, and Trend reports from the Compliance Workspace.
 
 **Note:** GRC administrators configure the tasks and issues in the Landing Page Configurations module in the classic user interface. These tasks and issues are visible to the end users in the landing pages of various workspaces. For more information, see [Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md).
 
@@ -63,19 +63,9 @@ The Regulatory Change Management application in Compliance Workspace contains th
 **Related topics**  
 
 
-[Regulatory Change Management application landing page]()
-
-[Tasks page in the Compliance Workspace]()
-
-[Source document import tasks]()
+[Regulatory event alerts vs. source document alerts]()
 
 [Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
 
 [Next Experience Discuss and Chat Collaboration]()
 

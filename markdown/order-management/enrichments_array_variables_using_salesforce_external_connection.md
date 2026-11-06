@@ -1,13 +1,13 @@
 ---
-title: Passing array variables using Salesforce external connectionshould this be "using an external connection to Salesforce"?
+title: Passing array variables using Salesforce external connection
 description: You must use single quote strings when making a SOQL query to Salesforce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/enrichments\_array\_variables\_using\_salesforce\_external\_connection.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Passing array variables using Salesforce external connection

@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Quality Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Quality Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Set criteria for quality review
@@ -18,7 +18,7 @@ Configure criteria to determine which closed work order tasks qualify for review
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, or wm\_admin
 
 ## About this task
 

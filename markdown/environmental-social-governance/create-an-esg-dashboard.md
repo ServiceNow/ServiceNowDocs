@@ -1,16 +1,16 @@
 ---
-title: Create an ESG Management dashboard using the In-line editor
+title: Create an Operational Sustainability Management dashboard using the In-line editor
 description: You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can also create elements and add existing elements from the in-line editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-an-esg-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Create an ESG Management dashboard using the In-line editor
+# Create an Operational Sustainability Management dashboard using the In-line editor
 
 You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can also create elements and add existing elements from the in-line editor.
 
@@ -44,7 +44,7 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 7.  Select the View dashboard details icon \[Omitted image "details-icon.png"\] Alt text: to view all the details of the dashboard.
 
-    You can also edit the details as required. For more information, see [Edit ESG Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)
+    You can also edit the details as required. For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)
 
 8.  Arrange the data on the canvas to make it useful.
 
@@ -59,8 +59,8 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 ## What to do next
 
--   [Edit ESG Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)
--   [Edit ESG Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-elements.md)
+-   [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)
+-   [Edit Operational Sustainability Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-elements.md)
 
-**Parent Topic:**[Monitoring assessment data using ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

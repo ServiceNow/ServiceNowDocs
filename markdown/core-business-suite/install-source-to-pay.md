@@ -1,0 +1,50 @@
+---
+title: Install Source-to-Pay
+description: Install Source-to-Pay to configure its settings and requests.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/install-source-to-pay.html
+release: zurich
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Install Core Business Suite applications, Configure, Core Business Suite]
+---
+
+# Install Source-to-Pay
+
+Install Source-to-Pay to configure its settings and requests.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **Admin** &gt; **Admin Home**.
+
+2.  On the Core Business Suite Foundation card, select **View product overview**.
+
+3.  On the Core Business Suite Foundation page, select **Source-to-Pay** in the Install section.
+
+4.  Select **Install**, and then follow the on-screen instructions to complete the installation.
+
+    **Note:** To install the latest versions, don’t modify the items listed in the Review Installation Details dialog box.
+
+    Required dependent plugins are installed automatically, and required roles are added. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
+
+5.  Select **Apply default configurations**.
+
+    Applying default configurations sets the required default settings for the Source-to-Pay. For information about default configurations, see [Source-to-Pay default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/source-to-pay-default-configurations.md).
+
+    If the default configurations aren’t applied, run the script to apply them. For more information, see [Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/reset-default-configurations.md).
+
+
+## Result
+
+The installed Source-to-Pay business unit appears in the ready to configure section.
+
+-   **[Source-to-Pay default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/source-to-pay-default-configurations.md)**  
+Details of the default configurations for Source-to-Pay.
+
+**Parent Topic:**[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/install-cbs-apps.md)
+

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add and configure a stage in a playbook
@@ -26,15 +26,15 @@ Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/Serv
 
 1.  Add a stage.
 
-<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39083e75">
+<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39442e75">
 
 View
 
-</th><th align="left" id="d39083e78">
+</th><th align="left" id="d39442e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39083e84">
+</th></tr></thead><tbody><tr><td id="d39442e84">
 
 **Diagram**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the mini-picker, select the dotted square icon. \[Omitted image "diagram-stage-icon.png"\] Alt text: Square dotted stage icon in Diagram view mini-picker.
 
 
-</td></tr><tr><td id="d39083e113">
+</td></tr><tr><td id="d39442e113">
 
 **Board**
 
@@ -98,7 +98,7 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39083e257">
+<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39442e257">
 
 **Display order**
 
@@ -106,7 +106,7 @@ Choose when you want your stage to start running. Options include:-   **When pla
 
 When there are multiple stages running at the same time, define the order in which stages appear during a playbook run.**Note:** In Workflow Studio, this can also be helpful when viewing parallel activities in Diagram view.
 
-</td></tr><tr><td id="d39083e277">
+</td></tr><tr><td id="d39442e277">
 
 **Start with delay**
 
@@ -114,7 +114,7 @@ When there are multiple stages running at the same time, define the order in whi
 
 Specify a duration of time to wait before running an stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/start-with-delay-properties.md).
 
-</td></tr><tr><td id="d39083e300">
+</td></tr><tr><td id="d39442e300">
 
 **Restart rules**
 
@@ -140,33 +140,4 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 [Add and configure your activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-configure-activity.md)
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Use AI agent as an activity]()
-
-[Use an AI skill as an activity]()
-
-[Automation Assets]()
-
-[Start with delay input properties]()
-
-[Optional activities]()
-
-[Decision activities]()
-
-[Decision stages]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

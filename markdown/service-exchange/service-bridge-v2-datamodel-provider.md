@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Service Exchange]
 ---
@@ -611,5 +611,4 @@ admin
  sn\_sb.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Exchange data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-data-model.md)
-
+</table>

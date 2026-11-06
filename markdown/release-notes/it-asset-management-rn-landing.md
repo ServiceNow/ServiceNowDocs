@@ -1,33 +1,37 @@
 ---
-title: IT Asset Management release notes
-description: IT Asset Management has new and updated features in the Zurich release
+title: Asset Management release notes
+description: Asset Management has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/it-asset-management-rn-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# IT Asset Management release notes
+# Asset Management release notes
 
-IT Asset Management has new and updated features in the Zurich release
+Asset Management has new and updated features in the Brazil release.
 
+-   **[AI Cost Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/ai-cost-management-rn-static.md)**  
+The ServiceNow® AI Cost Management application gives you comprehensive visibility and control over your AI spend and usage. The application consolidates cost and usage data from your external AI accounts, helping you track and optimize the total AI spend across your organization. See the following sections for release notes by version.
 -   **[Asset Audit Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/asset-audit-response-rn.md)**  
-The ServiceNow® Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content data to help drive more efficient and accurate responses to these requests. Asset Audit Response is a new application in the Zurich release.
+The ServiceNow® Asset Audit Response application provides workspaces where asset managers can manage their regulatory audits, request evidence for these audits, respond to these requests through a guided experience, and access regulatory content to help drive more efficient and accurate responses to these requests. See the following sections for release notes by version.
 -   **[Cloud Cost Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cloud-cost-management-rn.md)**  
-The ServiceNow® Cloud Cost Management application \(formerly known as ServiceNow Cloud Insights\) helps you to analyze the cloud resource costs so that you can identify and act on opportunities to save money and optimize the operations of your organization. Cloud Cost Management was enhanced and updated in the Zurich release.
+The ServiceNow® Cloud Cost Management application helps you to analyze cloud costs across your organization. It helps you to identify and act on opportunities to save costs and optimize operations. See the following sections for release notes by version.
 -   **[Enterprise Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/enterprise-asset-management-rn.md)**  
-The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.
+The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets. You can extend the life of your assets while reducing any costly downtime. See the following sections for release notes by version.
 -   **[Hardware Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/hardware-asset-management-rn.md)**  
-The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.
+The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. See the following sections for release notes by version.
+-   **[ServiceNow Otto for Cloud Cost Management \(CCM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-otto-ccm-rn-static.md)**  
+The ServiceNow Otto for Cloud Cost Management \(CCM\) application brings agentic AI to Cloud Cost Management. See the following sections for release notes by version.
+-   **[ServiceNow Otto for Hardware Asset Management \(HAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-otto-for-ham-rn.md)**  
+The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. See the following sections for release notes by version.
 -   **[Software Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/software-asset-management-rn.md)**  
-The ServiceNow® Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.
--   **[ServiceNow Otto for Hardware Asset Management \(HAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-ham-rn.md)**  
-The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
--   **[ServiceNow Otto for Software Asset Management \(SAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-sam-rn.md)**  
-The ServiceNow® ServiceNow Otto for Software Asset Management \(SAM\) application brings generative AI to IT Asset Management. ServiceNow Otto for SAM was enhanced and updated in the Zurich release.
+The ServiceNow® Software Asset Management application enables you to systematically track, evaluate, and manage the cost, utilization, compliance, and optimization for software and SaaS applications. See the following sections for release notes by version.
+-   **[ServiceNow Otto for Software Asset Management \(SAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-otto-sam-rn.md)**  
+The ServiceNow Otto for Software Asset Management \(SAM\) application brings agentic AI to Software Asset Management. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

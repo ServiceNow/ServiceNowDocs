@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/define-tables-fields-application-records.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Planning your application, Building applications]
+breadcrumb: [Planning your application, Classic app development, Building applications]
 ---
 
 # Specify data for your application

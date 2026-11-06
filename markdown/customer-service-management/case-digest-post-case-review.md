@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-digest-post-case-review.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

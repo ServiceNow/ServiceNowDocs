@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recommended Actions for ITSM reference, Recommended Actions for ITSM in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Recommended Actions for ITSM reference, Recommended Actions for ITSM in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Field level recommendations in Recommended Actions for ITSM

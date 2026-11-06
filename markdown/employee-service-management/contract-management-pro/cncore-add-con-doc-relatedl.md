@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Contract repository record, Related list, Contract document related list, uptake steps for CM Pro, BU configuration]
 breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -69,7 +69,7 @@ The Contract document tab is available your workspace to view the contract docum
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Assign a role for configuring template mappings]()
 

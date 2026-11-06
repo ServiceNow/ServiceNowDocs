@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an insight trigger, Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Create an insight trigger, Create an insight rule, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Map an insight rule to an existing business rule

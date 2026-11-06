@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [license key discovery, file-based discovery, ACC, software asset management]
-breadcrumb: [Agent Client Collector File-Based Discovery, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Discovering a license key in a file-based discovery framework
@@ -40,4 +40,9 @@ Beginning in version 2.0.0, file-based discovery identifies license keys stored 
 File-based license key discovery acts as a framework rather than a single reader because every vendor's license file format differs. The framework provides the underlying mechanism to find a candidate file and pass its content for processing, while administrators supply configuration that specifies what to look for and how to read it.
 
 This architecture enables support for new vendors and file formats through configuration alone — no platform code changes are required.
+
+-   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-license-key-rule.md)**  
+Enable license key discovery to verify the legitimacy of your software installation. Set up support for a new vendor's license file format by creating a parser script and defining a matching rule.
+
+**Parent Topic:**[Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/file-based-discovery-overview.md)
 

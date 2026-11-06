@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Career Conversations reference, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Career Conversations
@@ -37,8 +37,6 @@ Tables are used to track and maintain relationships among different ServiceNow a
 |Career Conversations|Discussion Series \[sn\_egd\_act\_discussion\_series\]|
 |Career Conversations|Suggested Talking Point \[sn\_egd\_act\_suggested\_talking\_point\]|
 |Career Conversations|Talking Point \[sn\_egd\_act\_talking\_point\]|
-|Career Conversations|Feedback instance integration \[sn\_egd\_feedback\_instance\_integration\]|
-|Career Conversations|Feedback request integration \[sn\_egd\_act\_feedback\_request\_integration\]|
 
 **Parent Topic:**[Career Conversations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-reference.md)
 

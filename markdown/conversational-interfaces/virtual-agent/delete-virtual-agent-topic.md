@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Virtual Agent, delete, topic, designer, confirm]
-breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Delete a Virtual Agent topic
@@ -21,11 +21,9 @@ Delete a Virtual Agent topic that is no longer needed.
 
 Role required: virtual\_agent\_admin or admin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
-
 ## About this task
 
-You can delete a topic using the **Delete** option in the Assistant Designer Asset library or in the topic header bar.
+You can delete a topic using the **Delete** option in the Assistant Designer Asset library or in the header bar for the topic.
 
 **Note:**
 
@@ -35,21 +33,21 @@ If you want to remove a topic from your Virtual Agent clients but don't want to 
 
 ## Procedure
 
-1.  If you're not working on the topic, navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Select the **Asset Library** tab.
+2.  Select the **Asset library** tab.
 
 3.  Use one of the following methods based on either a record on the home page or the header inside a topic.
 
-<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d138970e160">
+<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d142513e127">
 
 Method
 
-</th><th align="left" id="d138970e163">
+</th><th align="left" id="d142513e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d138970e169">
+</th></tr></thead><tbody><tr><td id="d142513e136">
 
 **Asset library - single topic**
 
@@ -57,7 +55,7 @@ Description
 
 Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon. on the row for the topic that you want to delete, then select **Delete**.
 
-</td></tr><tr><td id="d138970e189">
+</td></tr><tr><td id="d142513e154">
 
 **Asset library - multiple topics**
 
@@ -67,7 +65,7 @@ Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt
 2.  Select **Delete**.
  **Note:** If one or more of the selected assets are subflows or actions, the delete option is disabled.
 
-</td></tr><tr><td id="d138970e215">
+</td></tr><tr><td id="d142513e178">
 
 **Topic header bar**
 
@@ -89,5 +87,5 @@ A toast message also appears for 4 seconds, confirming the topic has been delete
 
 If the topic was active and is no longer listed in the home page, the topic is immediately removed from Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

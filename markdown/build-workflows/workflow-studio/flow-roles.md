@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow roles
@@ -50,5 +50,9 @@ Flows and subflows each run with their own roles. Subflows don't inherit roles f
 
 Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control-rules.md).
 
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
+## Flow roles override AI agent roles
+
+A flow always runs using the roles it has been configured to run with in Workflow Studio. Flow roles override any roles inherited by an AI agent from a dynamic user or a specific AI user. If you want a flow to only run with the roles inherited from a user, remove flow roles. For information about adding roles to an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md).
+
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flows.md)
 

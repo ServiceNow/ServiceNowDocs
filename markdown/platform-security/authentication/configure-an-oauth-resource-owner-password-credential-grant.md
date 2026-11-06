@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ROPC Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [ROPC Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth resource owner password credential grant
@@ -18,7 +18,7 @@ Configuring an OAuth resource owner password credential \(ROPC\) grant enables a
 
 ## Before you begin
 
-Role required: `admin`
+Role required: `oauth_admin, mi_admin, admin`
 
 ## Procedure
 
@@ -40,6 +40,10 @@ Role required: `admin`
     1.  Select **Create auth scope** if you want to define a new scope.
 
     2.  Select a scope from the **Auth scope** drop-down.
+
+    3.  Enter API names in **Limit authorization to the following APIs** to narrow access.
+
+    4.  Use **+ Add another row** to assign additional scopes to your configuration.
 
 4.  Select **Allow access only to APIs in selected scope** in the Scope validation settings to restricts access to listed scopes only.
 

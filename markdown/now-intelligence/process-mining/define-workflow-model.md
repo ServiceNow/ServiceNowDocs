@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Create a project or template using Project Builder
@@ -18,7 +18,7 @@ Create and mine a project using the Project Builder to analyze and optimize your
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 To mine a project, ensure that you have enabled [Audit Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_EnableAuditingForATable.md) for the parent table of the project.
 
@@ -31,6 +31,8 @@ To mine a project, ensure that you have enabled [Audit Log](https://raw.githubus
     The Project Setup page is displayed.
 
     \[Omitted image "set-obj.png"\] Alt text: Project setup page
+
+    Select **Manage templates** to create or map templates. For more information, see [Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-template.md) and [Map a template to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/map_template_to_table.md).
 
 
 -   **[Set objectives for Process Mining projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/set-objectives.md)**  

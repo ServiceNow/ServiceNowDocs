@@ -7,9 +7,9 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Audit Task Management, Audit Supervisor Workspace, Audit Workspace, Audit Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Audit Task Management, Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a control test from an engagement in Audit Workspace
@@ -284,5 +284,9 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 </table>8.  Select **Save**.
 
     You can view the description and monitor the state of the control test in the **State** banner of the Overview page. The state updates as the record progresses through the control test process flows.
+
+9.  To record individual assessment procedures for this control test, select the **Test steps** related list, then select **New**.
+
+    Fill in **Identifier**, **Assessment objective**, and **Objective effectiveness** for each test step.
 
 

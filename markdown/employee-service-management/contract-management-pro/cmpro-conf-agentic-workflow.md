@@ -1,6 +1,6 @@
 ---
-title: Configuring agentic workflows in Now Assist in Contract Management
-description: Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
+title: Configuring agentic workflows in ServiceNow Otto for Contract Management Pro
+description: Configure agentic workflows in ServiceNow Otto for Contract Management Pro so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Enable agentic workflows in ServiceNow Otto for Contract Management]
-breadcrumb: [Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configuring agentic workflows in Now Assist in Contract Management
+# Configuring agentic workflows in ServiceNow Otto for Contract Management Pro
 
-Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
+Configure agentic workflows in ServiceNow Otto for Contract Management Pro so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
 
 Complete the following steps to configure agentic workflows in Contract Management Pro.
 
@@ -24,7 +24,7 @@ Complete the following steps to configure agentic workflows in Contract Manageme
     For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Ensure ServiceNow Otto panel is turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
-3.  Ensure **ServiceNow Otto - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/manage-llm-va.md).
+3.  Ensure **ServiceNow Otto - Platform \(default\)** assistant in the CI Admin Experience is turned on.
 4.  Configure the security controls to specify the users who can discover or use the agentic workflow, and provide data permissions for the agentic workflow.
 
     For more information, see [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md).
@@ -71,14 +71,14 @@ Update the ContractsAIAgentsHelper script include to add the sys\_id of a custom
 -   **[Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-me-agentic-ntf.md)**  
 Enable the email notifications for metadata extraction and obligation extraction to notify users when metadata extraction and obligation extraction are complete.
 
-**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
 [Configure data permissions for AI skills]()
 
-[Select large language models for use cases in Now Assist in Contract Management]()
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro]()
 
 [Configuring contract metadata extraction]()
 
@@ -86,5 +86,5 @@ Enable the email notifications for metadata extraction and obligation extraction
 
 [Configuring contract obligation extraction]()
 
-[Post-upgrade steps for Now Assist in Contract Management]()
+[Post-upgrade steps for ServiceNow Otto for Contract Management Pro]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-inline-editor-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics dashboards, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

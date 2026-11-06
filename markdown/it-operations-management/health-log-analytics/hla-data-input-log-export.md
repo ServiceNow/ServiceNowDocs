@@ -7,9 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [ServiceNow, Log Export, Health Log Analytics, HLA, data input, configuration]
+keywords: [ServiceNow, Log Export, Health Log Analytics, HLA, manual, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -24,7 +24,7 @@ Set up a data input for monitoring ServiceNow instance node logs from both Java 
 -   Verify that the Log Export Service \(LES\) is installed on your ServiceNow instance. LES is a ServiceNow Platform tool under a different license than Health Log Analytics that enables you to export your system logs seamlessly into HLA. For more information, see [Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/les-intro.md).
 -   Verify that the Hermes Messaging Service is up and running:
     1.  Navigate to **All** &gt; **Hermes Messaging Service** &gt; **Diagnostics**.
-    2.  Ensure that the status icon is green, signifying that the service is active: \[Omitted image "hla-hermes-diagnostics-status.png"\] Alt text: Green Hermes Diagnostics status icon.
+    2.  Ensure that the status icon is green, signifying that the service is active.
 
         If it isn't, contact ServiceNow support.
 
@@ -47,7 +47,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-The ServiceNow Log Export data input streams system node logs from Java code and JavaScript into HLA. It provides a complete view of your ServiceNow instance status with server context. This enhanced visibility facilitates improved monitoring and generates more meaningful alerts. You can identify instance issues, detect security threats, optimize performance, and maintain regulatory compliance.
+The ServiceNow Log Export data input streams system node logs from Java code and JavaScript into HLA. This provides a complete view of your ServiceNow instance status with server context. This enhanced visibility facilitates improved monitoring and generates more meaningful alerts to help you identify instance issues, detect security threats, optimize performance, and maintain regulatory compliance.
 
 ## Procedure
 

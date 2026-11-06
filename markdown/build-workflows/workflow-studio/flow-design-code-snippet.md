@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API access, Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [API access, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create code snippets for flows, subflows, and actions
@@ -41,6 +41,4 @@ Role required: flow\_designer or admin
 ## What to do next
 
 Edit the script to add any mandatory values, such as inputs.
-
-**Parent Topic:**[API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/api-access-flow-designer.md)
 

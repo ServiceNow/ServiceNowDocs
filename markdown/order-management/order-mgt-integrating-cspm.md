@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-integrating-cspm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Sales Customer Relationship Management]
 ---
@@ -19,6 +19,6 @@ Install these plugins:
 -   Sales Customer Relationship Management plugin
 -   Service test management plugin
 
-    For more information about service test management, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/setting-test-group.md) and [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/settingup-test-specifications.md).
+    For more information about service test management, see  and .
 
 

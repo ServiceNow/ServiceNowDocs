@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-assoc-bp-with-vs-stage.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Associate a business process with a value stream stage
@@ -62,5 +62,5 @@ Role required: sn\_apm.apm\_user
 
 [Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
 
-[Add or remove business capabilities from value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
+[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
 

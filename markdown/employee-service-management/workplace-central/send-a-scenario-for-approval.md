@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -47,15 +47,15 @@ After you publish a scenario, send the scenario for approval. The scenario will 
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d388405e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d393721e159">
 
 Path
 
-</th><th align="left" id="d388405e162">
+</th><th align="left" id="d393721e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d388405e168">
+</th></tr></thead><tbody><tr><td id="d393721e168">
 
 **From the Scenarios list section**
 
@@ -69,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d388405e193">
+</td></tr><tr><td id="d393721e193">
 
 **From the Buildings list section**
 

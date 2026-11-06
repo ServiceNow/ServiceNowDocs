@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aisearch-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -149,14 +149,23 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=zurich&ft:locale=en-US)**
+-   **[Display search suggestion links as standard HTML anchors](https://www.servicenow.com/docs/access?context=display-search-suggestion-links-standard-html-anchors&family=zurich&ft:locale=en-US)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://www.servicenow.com/docs/access?context=display-search-result-links-standard-html-anchors&family=zurich&ft:locale=en-US)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
+ -   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=zurich&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
 
     -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
     -   Now Assist Actions is now Actions.
-    -   Now Assist Q &amp; A is now Knowledge base articles.
-    -   Now Assist Multi Content Response is now Summary.
+    -   Now Assist Q&amp;A is now Knowledge base articles.
+    -   Now Assist Multi-Content Response is now Summary.
 
  -   **[Generate multi-content synthesized responses](https://www.servicenow.com/docs/access?context=generate-multi-content-synthesized-sources&family=zurich&ft:locale=en-US)**
 

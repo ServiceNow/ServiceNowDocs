@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-adjust-component-wcag.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Edit components, Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,27 +16,33 @@ Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
+
+You can also watch a short video on how to fix accessibility errors.
+
+\[Omitted video\] Description: Theme Builder Accessibility Inspector
 
 ## About this task
 
 When you're editing a component in Theme Builder, you may encounter a warning symbol \(\[Omitted image "tb-accessibility-icon.png"\] Alt text: Accessibility error\), which indicates that the component doesn't comply with the Web Content Accessibility Guidelines \(WCAG\) 2.1 for color contrast. The WCAG 2.1 contrast ratio that Theme Builder targets for content and UI variables is 3:1. This ratio determines the contrasts between brighter and darker screen colors and how they relate to the user interface. The first digit shows the level of bright colors, and the second digit shows the relative level of dark colors. The 3:1 threshold provides optimal visibility to visually challenged users. For more information, see the [W3C Recommendation site for WCAG 2.1](https://www.w3.org/TR/WCAG21/).
 
-The total number of accessibility violations are indicated on the red numbered badge \(\[Omitted image "tb-a11y-inspector-badge.png"\] Alt text: Accessibility inspector badge.\) alongside the Accessibility inspector panel.
+The total number of accessibility violations are indicated on the red numbered badge \(\[Omitted image "tb-a11y-inspector-badge.png"\] Alt text: Accessibility inspector numbered badge.\) alongside the Accessibility inspector panel.
 
 ## Procedure
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d119265e91">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d116909e109">
 
 Option
 
-</th><th align="left" id="d119265e94">
+</th><th align="left" id="d116909e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119265e100">
+</th></tr></thead><tbody><tr><td id="d116909e118">
 
 **From Accessibility inspector**
 
@@ -48,7 +54,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d119265e139">
+</td></tr><tr><td id="d116909e157">
 
 **From the Component styles menu**
 

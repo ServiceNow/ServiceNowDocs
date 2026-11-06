@@ -1,24 +1,30 @@
 ---
 title: Export OSCAL SSP
-description: Generate and download Open Security Controls Assessment Language \(OSCAL\) JSON formatted System Security Plan \(SSP\) files containing authorization package data including controls, boundaries, and system implementation details from the Authorization package overview record page. The authorization package must be in Implement state or later to generate OSCAL System Security Plan \(SSP\) files.
+description: From the Authorization package overview record page, generate zip files and export the record's mapped content details in OSCAL format. To generate OSCAL SSP, the selected Authorization package must be in implemented state or after that. This action enables you to export your authorization package from CAM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Export OSCAL files from authorization package, Export in OSCAL format, CAM OSCAL, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Export in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Export OSCAL SSP
 
-Generate and download Open Security Controls Assessment Language \(OSCAL\) JSON formatted System Security Plan \(SSP\) files containing authorization package data including controls, boundaries, and system implementation details from the Authorization package overview record page. The authorization package must be in Implement state or later to generate OSCAL System Security Plan \(SSP\) files.
+From the Authorization package overview record page, generate zip files and export the record's mapped content details in OSCAL format. To generate OSCAL SSP, the selected Authorization package must be in implemented state or after that. This action enables you to export your authorization package from CAM.
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.info\_system\_sec\_manager, or sn\_irm\_cont\_auth.info\_system\_sec\_officer
+Role required:
+
+-   CAM Administrator \(sn\_irm\_cont\_auth.admin\)
+-   System Owner \(sn\_irm\_cont\_auth.system\_owner\)
+-   Authorizing Official \(sn\_irm\_cont\_auth.authorization\_official\)
+-   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\)
+-   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
 
 ## Procedure
 
@@ -26,33 +32,39 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\
 
 2.  In the CAM Workspace, select \[Omitted image "ws-list-icon.png"\] Alt text: List from the sidebar.
 
-3.  Select **Authorization packages** from the **RMF** list.
+3.  Select Authorization packages from the **RMF** list.
 
-4.  From the list view, select the authorization package record for SSP generation.
+4.  From the list view, select the authorization package record for which to generate SSP files.
 
     **Note:** The authorization package must be in the Implement, Assess, Authorize, or Monitor state to generate OSCAL SSP.
 
-5.  To export OSCAL SSP, select **Generate OSCAL SSP** from the **Generate OSCAL** drop-down.
+5.  Select **Generate OSCAL**.
 
-    **Note:** If you’re using the Xanadu version, start from Step 5 in [Export data in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.md).
+    A banner appears with the message: "The files are being generated. Please refresh the page after some time, then click 'Download OSCAL Files' to download the OSCAL files."
 
-    A message appears indicating file generation is in progress. The system generates files containing JSON data and associated diagrams. Refresh the page before downloading the JSON files.
+    The system starts generating OSCAL files asynchronously. This process takes a few minutes depending on package complexity. The **Download OSCAL Files** button appears when the process is complete.
 
-6.  To download the SSP zip file, select the **Download OSCAL SSP** from the **Download OSCAL** drop-down list.
+6.  After the process is complete, select **Download OSCAL Files**.
 
-    \[Omitted image "cam-oscal-ssp-without-zip.gif"\] Alt text: Dowloading OSCAL SSP.
+    **Note:** Verify that the pop-up blocker is turned off for the URL so that the ZIP file is automatically downloaded to your local machine.
 
-    **Important:** Verify that the pop-up blocker is disabled for the URL so that the SSP zip file is automatically downloaded to your local repository.
+    A ZIP file is downloaded containing the following OSCAL files:
 
-    The downloaded zip file contains catalog.json, overlay-catalog.json, profile.json, ssp.json, and poam.json files. If diagrams attach to relevant fields or link to the package boundary, they appear in the zip file contents. Available diagrams include dataflow diagrams, network architecture diagrams, authorization boundary diagrams, and enterprise architecture diagrams.
+    -   Catalog JSON file
+    -   Profile JSON file
+    -   SSP JSON file
+    -   Assessment Plan \(AP\) JSON file \(one per engagement\)
+    -   Assessment Results \(AR\) JSON file \(one per engagement\)
+    -   Overlay Catalog JSON file \(if overlays are configured. Also includes overlays from associated control tailoring requests\)
+    -   POA&amp;M JSON file \(included if POA&amp;M items exist\)
+    Additionally, if any diagrams attached to the respective fields and boundary for the package are linked to it, then they’re also available in the contents of the zip. The diagrams can be a catalog dataflow diagram, network architecture diagram, or an authorization boundary diagram, available as png files in the zip.
 
-    **Note:**
+    You can validate these files using the OSCAL CLI validator and import them into other systems or share them with external auditors for assessment planning.
 
-    -   If no POA&amp;M is linked to the Authorization Package, the poam.json file will not be generated.
-    -   The overlay-catalog.json file contains only the policies linked to the Authorization Package. If no catalog overlay is linked to the Authorization Package, the overlay-catalog.json file will not be generated. Multiple overlay-catalog files will be generated one for each overlay.
-    -   To customize the OSCAL behavior for export, see the [OSCAL Model customization support \[KB1650397\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1650397) article in the Now Support Knowledge Base.
+    To customize the OSCAL behavior for export, see the [OSCAL Model customization support \[KB1650397\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1650397) article in the Now Support Knowledge Base.
+
     For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
 
 
-**Parent Topic:**[Export OSCAL files from authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-files-from-authorization-package.md)
+**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

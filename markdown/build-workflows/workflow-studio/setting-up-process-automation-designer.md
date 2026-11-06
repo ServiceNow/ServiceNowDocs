@@ -1,33 +1,42 @@
 ---
-title: Configuring playbooks
-description: Set up and monitor playbooks and Playbook Experience.
+title: Configuring Playbooks
+description: Set up and monitor Playbooks and Playbook Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/setting-up-process-automation-designer.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Configuring playbooks
+# Configuring Playbooks
 
-Set up and monitor playbooks and Playbook Experience.
+Set up and monitor Playbooks and Playbook Experience.
 
-## Overview
+## Configuration Overview
 
-1.  You don't need to activate the core Workflow Studio Playbooks feature because it is already part of the ServiceNow AI Platform, but many features are only available with application updates from the ServiceNow Store.
+-   You don't need to activate the core Workflow Studio Playbooks feature because it is already part of the ServiceNow AI Platform, but many features are only available with application updates from the ServiceNow Store.
 
     Download the latest updates for Playbooks from the ServiceNow Store. To get started more quickly, we recommend you download the Process Automation Demo Experience, Process Automation Content, and Playbook Experience applications as well.
 
-2.  Configure Playbooks user access and properties.
+-   Configure Playbooks user access and properties.
+-   Configure accessibility preferences to make the Playbooks authoring experience more accessible.
 
--   **[Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md)**  
+-   **[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md)**  
 Activate the Workflow Studio application to create flows, playbooks, and more for any of your use cases.
--   **[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)**  
+-   **[Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md)**  
+Turn on the ServiceNow Otto for Creator skills for using generative AI for creating and managing Playbooks.
+-   **[Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/change-default-llm-playbook-generation.md)**  
+Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to generate your playbooks.
+-   **[Managing playbook permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-permissions.md)**  
+Understand which mechanisms control who can build playbooks and who can interact with them while they run.
+-   **[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)**  
 Monitor and troubleshoot issues by reviewing playbook executions.
+-   **[Configure accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-all-buttons-without-hover.md)**  
+View all buttons in a playbook diagram by default, without the need to hover or select any element.
 
-**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-workflow-studio.md)
+**Parent Topic:**[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

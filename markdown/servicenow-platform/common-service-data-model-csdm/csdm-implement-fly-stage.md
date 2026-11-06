@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,7 +31,7 @@ When you reach the Fly stage, you have accomplished all or most of the process o
 
     -   Are you spending too much or too little on services?
     -   Are you spending too little or too little on services?
-    -   Are they the right services compared to emerging capabilities?
+    -   Are they the appropriate services compared to emerging capabilities?
 -   **The Fly stage is a foundation for using ITSM capabilities**
 
     Use a request catalog to relate a service offering to a catalog item. You can also enhance the request workflow to automatically populate the “Subscribe by” table. Service catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog.md).

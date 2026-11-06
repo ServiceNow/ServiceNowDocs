@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-17"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run the Migrate BA Product Model Map job

@@ -1,26 +1,26 @@
 ---
 title: Activate time limited authentication
-description: Time limited authenication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
+description: Time limited authentication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/activate-time-limited-authentication.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time limited authentication, Token based authentication \(User logins\), Access Management]
+breadcrumb: [Time limited authentication, Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
 # Activate time limited authentication
 
-Time limited authenication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
+Time limited authentication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** Time limited authentication is very specific to ServiceNow instance, the customized links for users can only be created within ServiceNow.
+**Note:** Time limited authentication is very specific to ServiceNow instance. The customized links for users can only be created within ServiceNow.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

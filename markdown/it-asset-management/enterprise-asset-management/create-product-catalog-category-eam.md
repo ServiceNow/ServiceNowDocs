@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Enterprise Asset Management, EAM, product catalog, product catalog category, create category, admin center]
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an enterprise catalog category
@@ -19,7 +19,7 @@ Create an enterprise catalog category to group related product catalog items wit
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 

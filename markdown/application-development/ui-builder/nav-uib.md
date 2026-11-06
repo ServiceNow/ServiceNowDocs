@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Navigate the UI Builder application
@@ -37,6 +37,10 @@ You can access the list of controllers in the top by selecting the **Controllers
 You can access the list of presets in the top by selecting the **Presets** tab in the top bar.
 
 \[Omitted image "nav-home-presets.png"\] Alt text: Presets tab displays presets
+
+You can access the list of UI interactions in the top by selecting the **UI interactions** tab in the top bar.
+
+\[Omitted image "uib-uii-list.png"\] Alt text: UI interactions tab displays list of UI interactions.
 
 Select the **What's new** link in the header to view the latest changes to UI Builder.
 

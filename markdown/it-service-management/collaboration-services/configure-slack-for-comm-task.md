@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Collaboration services, IT Service Management]
+breadcrumb: [Collaboration services, IT Service Management]
 ---
 
 # Configure Slack as a communication channel for a communication task
@@ -34,6 +34,4 @@ Role required: admin
 
     Slack gets added as a communication channel for the communication task.
 
-
-**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

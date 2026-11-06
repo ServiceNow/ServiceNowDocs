@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [browser extensions, ACC-VC, extension discovery]
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Browser extension discovery and categorization
@@ -44,4 +44,11 @@ Browser extensions are categorized or re-categorized automatically, without crea
 
 -   An inactive signature is reactivated.
 -   New browser extensions are discovered that match an existing active signature.
+
+-   **[Browser extension metadata fetching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-browser-extension-metadata-fetching.md)**  
+Assess shadow IT and shadow AI risk in your organization by using browser extension metadata fetching in Agent Client Collector for Visibility \(ACC-VC\). This capability is an optional layer on top of browser extension discovery that collects each extension's metadata.
+-   **[Categorize discovered browser extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-categorize-browser-extensions.md)**  
+Group discovered browser extensions in your environment by business relevance.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

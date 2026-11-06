@@ -1,16 +1,16 @@
 ---
-title: Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+title: Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
 description: Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-tpm.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+# Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
 
 Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 
@@ -22,7 +22,7 @@ Whether your instance displays TPM or TLM also depends on your application versi
 
 The underlying technologies of the business applications used in your business enterprise have a shelf life. You must actively manage and monitor them to track their versions and life-cycle.
 
-The software products used in your business applications can be operating systems, database management systems, development tools, and middle ware, each of which has a life cycle. If these life-cycle stages aren't tracked, the vendor may not support them any longer. The business applications that run on these technologies are at stake.
+The software products used in your business applications can be operating systems, database management systems, development tools, and middle ware, each of which has a life cycle. If these life-cycle stages aren’t tracked, the vendor may not support them any longer. The business applications that run on these technologies are at stake.
 
 Creating an inventory of all technologies used in the enterprise helps to:
 
@@ -98,7 +98,7 @@ Hardware requires the Hardware Model reference on the Computer be populated.
 
 ## Update TLM Data for a business application or application service
 
-You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Lifecycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## View insights for technology life-cycle risks
 
@@ -120,7 +120,7 @@ You can track the progress of TLM analysis by examining the TPM Discovered Techn
 
 For the Technology Lifecycle Management \(TLM\), the business applications and their related application services \(associated hardware models and software products\) are displayed in a hierarchical structure. The corresponding timelines of the application services are displayed as bars on the Gantt chart.
 
-The application services \(composed of software products and hardware models\) have lifecycle timelines determined for them. On the Gantt chart, the earliest TLM phase start date of either the software products or hardware models are rolled up. This calculates the TLM phase start date of the overall application service. That is, the earliest TLM phase start date of any software product or hardware model is taken as the TLM phase start date of the application service, overall. For more details, see [TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md) and [View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
+The application services \(composed of software products and hardware models\) have lifecycle timelines determined for them. On the Gantt chart, the earliest TLM phase start date of either the software products or hardware models are rolled up. This calculates the TLM phase start date of the overall application service. That is, the earliest TLM phase start date of any software product or hardware model is taken as the TLM phase start date of the application service, overall. For more details, see [TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md) and [View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
 
 \[Omitted image "TPM-gantt-chart.png"\] Alt text: TLM Gantt chart
 
@@ -131,7 +131,7 @@ In the Enterprise Architecture Workspace Dashboard, the 'Top 10 business applica
 -   **[Technology risk calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-technology-risk-calc.md)**  
 Assess the technology risks of your business applications by calculating their risks. Technology risks are calculated at the hardware model and software product levels to determine the risk at the business application level.
 -   **[Working with technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
-The **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
+The  **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
 
 **Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-technology-portfolio-view.md)
 
@@ -144,5 +144,5 @@ The **Technology portfolio audit** tab shows audit information for your applicat
 
 [TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md)
 
-[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 

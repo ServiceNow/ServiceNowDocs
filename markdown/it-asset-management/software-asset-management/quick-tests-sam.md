@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [References, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Quick start tests for Software Asset Management
@@ -229,7 +229,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, and a software entitlement using the custom Part Number. Verifies that a software model is automatically created.
+Creates a custom software product, custom DMAP, custom Part Number, and software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 

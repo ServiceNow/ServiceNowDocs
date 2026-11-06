@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/config-apps2use-devicedatetimeform.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile properties, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure mobile apps to use the date/time format of mobile devices
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The useDeviceSettingsForDateTimeFormats mobile property is available in ServiceNow® mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see Mobile app version history for iOS and Android.
+The useDeviceSettingsForDateTimeFormats mobile property is available in ServiceNow® mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see [Mobile app version history for iOS and Android](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html).
 
 ## Procedure
 

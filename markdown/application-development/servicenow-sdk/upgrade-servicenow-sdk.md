@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Upgrade the ServiceNow SDK
@@ -31,15 +31,15 @@ Role required: admin
 
 1.  Complete the following steps depending on whether you're updating a global installation of the ServiceNow SDK or the version used by an application.
 
-<table id="choicetable_q2z_4ms_mgc"><thead><tr><th align="left" id="d303906e86">
+<table id="choicetable_q2z_4ms_mgc"><thead><tr><th align="left" id="d233413e86">
 
 Option
 
-</th><th align="left" id="d303906e89">
+</th><th align="left" id="d233413e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d303906e95">
+</th></tr></thead><tbody><tr><td id="d233413e95">
 
 **Application package**
 
@@ -70,7 +70,7 @@ cd <path/to/directory>
 now-sdk -v
     ```
 
-</td></tr><tr><td id="d303906e146">
+</td></tr><tr><td id="d233413e146">
 
 **Global package**
 

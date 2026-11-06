@@ -7,9 +7,10 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage major incidents, Incident Management, IT Service Management]
+keywords: [major incident plugin details]
+breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
 
 # Major Incident Management plugins

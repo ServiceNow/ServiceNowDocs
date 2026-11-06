@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable financial budget allocation for projects in Project Workspace, Configure financials for Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Enable financial budget allocation for projects in Project Workspace, Configure financials for Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure budget attribute at instance-level
@@ -25,7 +25,7 @@ Configure the budget attribute by expense type or cost type as an instance-level
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Properties** &gt; **Properties**.
+1.  Navigate to **All** and type in **sys\_properties.list** in the filter box.
 
 2.  Filter the Name column to locate and open **sn\_invst\_pln.budget\_allocation\_attribute** property.
 

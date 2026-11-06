@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d147225e79">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d156153e79">
 
 Type
 
-</th><th align="left" id="d147225e82">
+</th><th align="left" id="d156153e82">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d147225e88">
+</th></tr></thead><tbody><tr><td id="d156153e88">
 
 **Team Doc**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d147225e106">
+</td></tr><tr><td id="d156153e106">
 
 **Planning item Doc**
 

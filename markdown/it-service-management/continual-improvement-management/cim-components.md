@@ -7,7 +7,7 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Continual Improvement Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Demo data is available for this feature.
 -   Improvement Coordinator \[sn\_cim.improvement\_coordinator\]
 -   Improvement Manager \[sn\_cim.improvement\_manager\]
 
-For more information about the inherited roles and functions that users with different CIM roles can perform, see [CIM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-roles.md).
+For more information about the inherited roles and functions that users with different CIM roles can perform, see [Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-roles.md).
 
 ## Scheduled jobs
 

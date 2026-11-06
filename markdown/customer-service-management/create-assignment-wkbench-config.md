@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-assignment-wkbench-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure assignment workbench, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,9 +22,9 @@ Role required: admin
 
 The assignment workbench configuration is stored in a matching rule that is based on the **Selection criteria** matching type. The default configuration uses the **Recommendation for Case Assignment** matching rule, which includes three of the four default matching criteria:
 
--   Availability today
--   Matching skills
--   Assigned cases
+-   Availability Today
+-   Matching Skills
+-   Assigned Cases
 
 You can modify or create matching criteria and then modify the **Recommendation for Case Assignment** matching rule as needed or you can create your own configuration.
 
@@ -32,35 +32,35 @@ You can modify or create matching criteria and then modify the **Recommendation 
 
 1.  Navigate to **All** &gt; **Routing and Assignment** &gt; **Matching Rules** to access the Matching Rules list.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Enter a **Name** for the matching rule.
 
 4.  If desired, enter an **Execution Order** for the matching rule.
 
-    This execution order is the order in which the matching rule is to be executed. Similar to business rules, matching rules are processed based on execution order, from the lowest to the highest.
+    This is the order in which this matching rule is to be executed. Similar to business rules, matching rules are processed based on execution order, from the lowest to the highest.
 
 5.  In the **Applies To** tab, select the **Table** that stores the task for which the matching rule is being created.
 
 6.  Use the **Conditions** field to build one or more conditions on the selected table.
 
-    A condition is made up of a selected field, an operator, and a value. Add conditions using the **AND** and **OR** buttons. Delete conditions by selecting the **X** icon on the right-side of a condition.
+    A condition is made up of a selected field, an operator, and a value. Add conditions using the **AND** and **OR** buttons. Delete conditions by clicking the **X** to the right of a condition.
 
 7.  In the **Resource** tab, select **Selection Criteria** in the **Matching** field.
 
-8.  Select **Submit**.
+8.  Click **Submit**.
 
-9.  From the Matching Rules list, open the matching rule that you created .
+9.  From the Matching Rules list, open the matching rule that you just created.
 
-10. In the **Select Criteria** related list, select **New**.
+10. In the **Select Criteria** related list, click **New**.
 
-    The select Criterion form is displayed.
+    This opens the Select Criterion form.
 
 11. Select a **Criterion** from the Matching Criteria list.
 
 12. Select how the criterion is to be used in the **Use for** field.
 
-<table id="choicetable_njl_kph_xx"><tbody><tr><td id="d219926e231">
+<table id="choicetable_njl_kph_xx"><tbody><tr><td id="d249411e231">
 
 **Ranking and Display**
 
@@ -68,7 +68,7 @@ You can modify or create matching criteria and then modify the **Recommendation 
 
 Uses the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d219926e240">
+</td></tr><tr><td id="d249411e240">
 
 **Display Only**
 
@@ -76,7 +76,7 @@ Uses the criterion to determine agent ranking and displays it in a column on the
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d219926e249">
+</td></tr><tr><td id="d249411e249">
 
 **Ranking and No Display**
 
@@ -87,7 +87,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>13. Select a **Ranking Method**.
 
-<table id="choicetable_mth_1qh_xx"><tbody><tr><td id="d219926e270">
+<table id="choicetable_mth_1qh_xx"><tbody><tr><td id="d249411e270">
 
 **More is better**
 
@@ -95,7 +95,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 A higher value is better. For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d219926e279">
+</td></tr><tr><td id="d249411e279">
 
 **Less is better**
 
@@ -104,7 +104,7 @@ A higher value is better. For example, more availability is better when determin
 A lower value is better. For example, fewer cases are better when determining the agent ranking.
 
 </td></tr></tbody>
-</table>14. Select **Submit**.
+</table>14. Click **Submit**.
 
 15. Repeat steps 10 through 14 for each criterion to add to the matching rule.
 

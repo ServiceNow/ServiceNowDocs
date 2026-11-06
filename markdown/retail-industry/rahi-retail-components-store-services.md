@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-components-store-services.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -69,7 +69,7 @@ sn\_rtl\_stre\_servcs.agent
 
 </td><td>
 
-Create, update, and close store inquiry case across service organizations.
+Create, update, and close store inquiry case across organizations.
 
 </td><td>
 
@@ -81,7 +81,7 @@ sn\_rtl\_stre\_servcs.agent\_manager
 
 </td><td>
 
-Create, update, and close store inquiry case across service organizations.
+Create, update, and close store inquiry case across organizations.
 
 </td><td>
 

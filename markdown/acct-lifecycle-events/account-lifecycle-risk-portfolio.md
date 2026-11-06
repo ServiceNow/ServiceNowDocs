@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer success, Use, Customer Success Management]
+breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Risk portfolio dashboard
 
 Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
 
-Login as a user with the `sn_acct_lc.customer_success_agent` or `sn_acct_lc.agent` role and navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
+Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate to **Workspaces** &gt; **CRM Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
 
 \[Omitted image "account-lifecycle-risk-port.png"\] Alt text: Risk portfolio page
 
@@ -27,7 +27,7 @@ The following score cards are displayed:
 
 You can do the following:
 
--   Hover over the charts to see the number of risks and the percentage by scope, probability, and category.
+-   Hover over the charts to see the number of risk and the percentage by scope, probability, and category.
 -   Select a specific category in a chart to drill down to the list view of all the risks in that category.
 -   Select a chart to drill down to the list of total risks.
 -   Select **View all risk signals** to drill down to the list of all the risk signals.
@@ -60,10 +60,10 @@ In the Active risk signals section, you can view the following:
     Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the detailed record page.
 
 
--   **[Risk signal and issues page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-issues-page.md)**  
+-   **[Risk and issues page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-issues-page.md)**  
 This page provides detailed information about a risk signal including risk occurrences, threshold values, and risk solution.
 -   **[Associate risk signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk_signal_solution.md)**  
 Use this option to associate a risk signal with an internal play or a success case.
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
+**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-dashboards.md)
 

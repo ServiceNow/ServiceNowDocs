@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Upgrade Center, Upgrade, Administer]
+breadcrumb: [Exploring Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Upgrade Plan overview
@@ -23,7 +23,7 @@ You will need the following instances to use Upgrade Plan.
 -   Builder instance: Build your upgrade plan
 -   Consumer instance: Implement your created upgrade plan
 
-**Note:** Ensure that your instance is upgraded to the desired version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. For example, to move from Yokohama to Zurich Patch 1, you must first install the Upgrade Plan - Zurich Patch 1 from the applications page. Once installed, you can then start the upgrade process to Zurich Patch 1. See [Upgrade Plan Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-properties.md) for more details.
+**Note:** Ensure that you have upgraded your instance to the latest available version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. See [Upgrade Plan Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-properties.md) for more details.
 
 When you upgrade an instance, resolutions are skipped, and customizations are often loaded post upgrade. This causes temporary breakdown of features until fully loaded. Tasks like committing update sets, installing new plugins and applications, and multiple update are also time consuming. Use the Upgrade Plan feature to automate these post-upgrade tasks by tracking your actions and replay the steps on all the required instances. You don’t have to manually apply post-upgrade tasks which helps in reducing downtime.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-add-products-services-to-orders.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -24,21 +24,15 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 
 The product catalog displays tiles that contain product information. Simple products have an **Add** button that adds the product with no options available to the order.
 
-Products with options have a  **Customize**  button that opens the  product configurator, which lets you select product options.
-
-\[Omitted image "som-om-order-catalog-2.png"\] Alt text: Product catalog used to add products and services to orders.
-
 Products with options have a **Customize** button that opens the product configurator, which lets you select product options.
 
-\[Omitted image "som-om-configurator-callouts-2.png"\] Alt text: Product configurator lets agents choose product options.
-
-When the  product configurator opens you can select from the available options for the product or service.
-
-The product configurator consists of three columns.
+When the  product configurator opens you can select from the available options for the product or service. The product configurator consists of three columns.
 
 -   The product hierarchy displays product catalog items and child products associated with the product.
 -   The option selection displays any available options for the product, service, order lines, and order tasks.
 -   The Current Selection displays the selected products options and the pricing.
+
+Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-som-product-configurator.md).
 
 As you configure your product, use the following options:
 
@@ -79,7 +73,7 @@ Adds the product to the order after you've configured it.
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Customizing the content in your Network Inventory Workspace widgets
@@ -27,7 +27,7 @@ The data collection process for the Network Inventory Workspace landing page use
 
 For example, the following shows a listing of some of the CMDB groups that are used for the Network Inventory Workspace data collection:
 
-\[Omitted image "cmdb-group.png"\] Alt text: CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.
+\[Omitted image "ni-workspace-cmdb-groups.png"\] Alt text: CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.
 
 **Note:** To learn how the data collection process operates, see [Data collection and refresh for the Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.md).
 
@@ -72,23 +72,23 @@ The following examples show how the name segments are combined in the CMDB group
 
 -   **All Available Status Equipment**
 
-    CMDB group data that is used in the Network equipment by states widget to report the percentage of equipment that is in the Available status in all network domains.
+    CMDB group data that is used in the Network equipment by states widget. It reports the percentage of equipment that is in the Available status in all network domains.
 
 -   **Core Available Status Equipment**
 
-    CMDB group data used in the Network equipment by states widget to report the percentage of equipment that is in an Available status in the Core network domain.
+    CMDB group data used in the Network equipment by states widget. It reports the percentage of equipment that is in an Available status in the Core network domain.
 
 -   **Mobility Pending Repair Status Equipment**
 
-    CMDB group data used in the Network equipment by states widget to report the percentage of equipment that is in a Pending Repair status in the Mobility network domain.
+    CMDB group data used in the Network equipment by states widget. It reports the percentage of equipment that is in a Pending Repair status in the Mobility network domain.
 
 -   **All Ericsson Manufacturer Equipment**
 
-    CMDB group data that is used in the Network equipment by manufacturer widget to report the total piece count for the equipment that is supplied by Ericsson in all network domains.
+    CMDB group data that is used in the Network equipment by manufacturer widget. It reports the total piece count for the equipment that is supplied by Ericsson in all network domains.
 
 -   **Telecom Nokia Manufacturer Equipment**
 
-    CMDB group data that is used in the Network equipment by manufacturer widget to report the total piece count for the equipment that is supplied by Nokia in the Telecom network domain.
+    CMDB group data that is used in the Network equipment by manufacturer widget. It reports the total piece count for the equipment that is supplied by Nokia in the Telecom network domain.
 
 
 ## Modifying the Network equipment by manufacturer widget

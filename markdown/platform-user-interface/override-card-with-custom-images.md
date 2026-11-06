@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/override-card-with-custom-images.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Card illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,9 @@ Modify or override the default card illustrations with your own custom images to
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 Verify that your custom images use the desired colors and meet your branding requirements before uploading to Theme Builder.
 
@@ -50,7 +52,7 @@ Verify that your custom images use the desired colors and meet your branding req
 
 7.  Select the default card illustration file name.
 
-    \[Omitted image "tb-card-focus-important-images.png"\] Alt text: Focus important card illustration with Images tab selected.
+    For example, the file name listed for this illustration is **feature\_focus-important.svg**.
 
     The upload images modal appears.
 

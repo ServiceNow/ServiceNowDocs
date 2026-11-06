@@ -1,44 +1,57 @@
 ---
 title: Accessibility and conformance
-description: Learn about accessibility updates and improvements completed for the Zurich family release.
+description: View a summary of accessibility updates and improvements completed for the Brazil family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow products and where to access them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/r\_Accessibility508Compliance.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-10-23"
+reading_time_minutes: 3
 keywords: [accessibility-508-compliance, VPAT, ACR, accessibility conformance report, accessibility release highlights, accessibility release notes, compliance, conformance, product accessibility, administer]
-breadcrumb: [Learn about the Zurich release, Zurich release notes]
+breadcrumb: [Learn about the Brazil release, Brazil release notes]
 ---
 
 # Accessibility and conformance
 
-Learn about accessibility updates and improvements completed for the Zurich family release.
+View a summary of accessibility updates and improvements completed for the Brazil family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow® products and where to access them.
 
 ## Release Highlights
 
--   **Next Experience, Configurable Workspace, and Builder improvements**
-
-    Leverage Platform and Product upgrades to help you strengthen your WCAG 2.1 AA accessibility conformance. This release enhances usability for all users, particularly those who rely on keyboard navigation, assistive technologies, or have visual impairments. Key improvements include the ability to add custom fonts for Theme Builder, new Next Experience Accessibility preferences, and a new card in the Onboarding Carousel for new instances highlighting the location of the Accessibility preferences.
+The Brazil release continues to focus on enhancing usability for everyone—especially users who navigate by keyboard, rely on assistive technologies, or have low vision or cognitive differences. Key improvements include accessibility enhancements to Core UI, Customer Service Management workspace components, Seismic Components, Incident Management, and the UI List component.
 
 -   **New features and other improvements**
-    -   **Onboarding Carousel:** Empower new users to customize their experience from day one. A new card in the Onboarding Carousel guides them to Accessibility preferences, making it easier for them to find and apply the settings they need.
-    -   **New Custom Fonts feature for Theme Builder:** Upload a custom font to your theme to improve globalization support and provide greater flexibility to users who may benefit from specific font styles or sizes.
-    -   **New Next Experience Accessibility preferences:**
-        -   **Accessibility settings:** **Page alerts:** Keep page alerts visible until you acknowledge them. This can benefit users who need more time to review the alert.
-        -   **Workspace settings:** **Lazy Load Workspace:** Control the way Workspace pages are loaded. This option can enhance compatibility with screen readers by providing a more consistent and reliable reading experience.
-    -   **UI Builder:**
-        -   Find and fix accessibility issues more easily with the enhanced Find and Fix Issues feature in UI Builder. New accessibility checks in the A11y rules create warnings when a label property or aria-label property is empty for specific components. These checks can improve the usability of UI Builder, the quality of workspace pages, and developer productivity.
-        -   Enable alerts to auto-dismiss across an experience by configuring them in the experience settings for UIB Admin roles.
-    -   **Next Experience Components accessibility conformance:** Refer to the ServiceNow Horizon site Components section. Web Content Accessibility Guideline \(WCAG\) 2.1 AA conformance level indicators can be found in the overview section for each component.
-    -   **Dark mode option for the Coral theme:** Enhance readability and reduce eye strain with the new dark mode option for the Coral theme, now available for both web and mobile experiences. This feature can be particularly beneficial in low-light environments.
-    -   **Guided Tours enhancements:** Benefit from Guided Tours enhancements that include descriptive page titles, as well as keyboard assistance for required fields and user interface controls.
-    -   **Document Services:** Leverage new static and dynamic guardrails for accessibility support for PDF document generation. These enhancements monitor and manage memory usage to help maintain stability during PDF generation.
-    -   **Playbooks in Workflow Studio:** Enhance workflow efficiency with improved keyboard navigation for Playbooks in Workflow studio. This update allows users to move more easily between stages and activities, creating a smoother experience for those who rely on a keyboard.
 
-## Product Accessibility
+    Core UI Updates to Support WCAG 2.2: Extensive work was completed to update Core UI to support WCAG 2.2 AA standards, including conformance improvements for reflow. These updates help users with low vision, motor impairments, and those who rely on assistive technologies.
 
-Accessibility Conformance Reports \(ACRs\), created using the international version of the Voluntary Product Accessibility Template \(VPAT\), are available for supported ServiceNow releases. These reports detail how our products support global accessibility standards. For a complete list of available reports, see [Accessibility conformance reports](https://www.servicenow.com/docs/r/accessibility/available-accessibility-conformance-reports.html).
+    **New Next Experience accessibility preference:** Horizon Design System components now support larger clickable and tappable areas, making controls easier to select. This feature is not enabled by default. To enable it, select **Enable enhanced spacing mode** in your Accessibility user preferences. This update supports users with mobility impairments, low-vision users, and mobile users.
+
+    **Color Vision Deficiency \(CVD\) theme for ServiceNow Platform:**Introduces a platform-wide color scheme option that replaces red/green color coding with blue-based palettes and additional visual cues. This mode can be enabled through user preference to improve color differentiation, reduce eye strain, and clarify visual states across themes, and navigation. This benefits users with color vision deficiency by providing accessible alternatives to color-dependent information, enabling more accurate interpretation and reduced confusion.
+
+    **Enhanced Contrast Mode for ServiceNow Themes:** A native, high-contrast mode within the platform's theme selector. This theme increases contrast for text, UI components, and interactive elements' to support improved readability and reduced eye strain. This benefits users with visual impairments, particularly those with low vision and color vision deficiencies, by making interface content easier to see and interact with under various lighting conditions without requiring technical setup.
+
+    **Color Independence:**Highlighted values in workspace list views now display a text label next to the colored badge, so color is no longer the only way to understand a value. The label comes from your system configuration. For example, if your organization uses red to mean critical, the badge displays "Critical." The label is also associated with the value so that screen readers announce it. This enhancement helps users with low vision, users with color blindness, and users who rely on screen readers understand highlighted values without depending on color alone.
+
+    **Components improvements:**
+
+    Accessibility improvements were made to the following:
+
+    -   Customer Service Management \(CSM\) workspace components
+    -   Seismic components
+    -   Incident Management UI16 form
+    -   UI List component
+    -   Business Continuity Management pages and components
+    These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+
+    **Cloud Cost Management:** Accessibility improvements were completed across the Cloud Cost Management Workspace, including the Home, Spend, Optimization, Operations, Admin, and Budget pages. Updates include corrected heading structure and improved drag-and-drop interaction support. These updates benefit screen reader users, keyboard-only users, and low-vision users navigating the Cloud Cost Management Workspace.
+
+    **EmployeeWorks:** The AI widget builder in EmployeeWorks includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
+
+
+## Product accessibility
+
+A Voluntary Product Accessibility Template \(VPAT\) is a globally recognized reporting format used to evaluate the accessibility of a product or service. ServiceNow uses the international version of the VPAT to create Accessibility Conformance Reports \(ACRs\). ACRs are available for the currently supported ServiceNow releases.
+
+For a full list of available accessibility conformance reports, see [Accessibility conformance reports](https://www.servicenow.com/docs/r/accessibility/available-accessibility-conformance-reports.html).
 
 **Related topics**  
 

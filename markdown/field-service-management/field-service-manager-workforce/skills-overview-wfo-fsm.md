@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Coaching, Workforce Optimization, Workforce, Use, Field Service Management]
+breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Skills Overview in Workforce Optimization for Field Service
@@ -222,15 +222,15 @@ You can access Skills Overview from Manager Workspace using the Teams or Shift S
 
 2.  Access Skills Overview from either the Teams application or the Shift Scheduling application.
 
-<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d135489e492">
+<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d148897e492">
 
 Application
 
-</th><th align="left" id="d135489e495">
+</th><th align="left" id="d148897e495">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d135489e501">
+</th></tr></thead><tbody><tr><td id="d148897e501">
 
 **Teams**
 
@@ -242,7 +242,7 @@ Actions
 4.  Select a skill from the Skill list.
 
 
-</td></tr><tr><td id="d135489e540">
+</td></tr><tr><td id="d148897e540">
 
 **Shift Scheduling**
 

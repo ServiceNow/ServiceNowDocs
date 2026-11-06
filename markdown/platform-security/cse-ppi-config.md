@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/cse-ppi-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -56,7 +56,7 @@ Roles required:
 
 11. Wait while your instance performs a guardrail check.
 
-    This check scans your instance for any invalid signatures, and might take some time to complete. Don't exit or refresh the page until the scan completes.
+    This check scans your instance for any invalid or missing signatures, and might take some time to complete. Don't exit or refresh the page until the scan completes.
 
     This workflow identifies signatures that were generated with expired or inactive certificates and re-signs the affected records. To improve performance, the workflow now divides the process into multiple events and runs them in parallel.
 

@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, Text response, bot response, control, node]
-breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Text bot response control
@@ -21,7 +21,7 @@ Use the Text bot response control in a Virtual Agent topic to display a bot resp
 
 Use the Text response properties panel to design bot responses to the user.
 
-\[Omitted image "bot-text-response-2.png"\] Alt text: Bot text response properties.
+\[Omitted image "bot-text-response.png"\] Alt text: Bot text response properties.
 
 <table id="table_gzl_msz_hdb"><thead><tr><th>
 
@@ -130,19 +130,11 @@ A no-code condition statement or low-code script that specifies a condition for 
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Supported|Plain text string only|
 |SMS Twilio|Supported|None|
-|LINE|Supported|None|
-|WhatsApp \(powered by Twilio\)|Supported|None|
-|WhatsApp|Supported|The maximum limit is 4,096 characters.|
-|Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Supported|For screen devices, full support. For nonscreen devices, the header is read.|
+|WhatsApp|Supported|None|
+|Google Chat|Supported|None|
 
 ## Example Text bot response script
 
@@ -168,7 +160,7 @@ In this example, the script returns links to three instances in the response. Us
 
 ## Example Text bot response control
 
-**Note:** Assistant Designer Asset library controls may display and function differently in other channels.
+**Note:** Assistant Designer controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -187,5 +179,5 @@ Text bot response output
 \[Omitted image "rich-text-example-web-ui.png"\] Alt text: Text response with emojis that reads, "We could not find any assets currently assigned to you." A phone number, additional steps, and a link are included.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

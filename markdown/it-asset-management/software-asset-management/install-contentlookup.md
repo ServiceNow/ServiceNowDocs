@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install Content library portal for Software Asset Management
@@ -18,7 +18,7 @@ Install the Content library portal store application to view the data stored in 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   The Content library portal application requires the following plugins. Ensure that these plugins are activated before you install the Content library portal application.
     -   **Required ServiceNow plugins**
         -   **Activate Software Asset Management Professional Master Workspace \(com.sn\_samp\_master\_ws\) plugin**
@@ -38,7 +38,7 @@ Install the Content library portal store application to view the data stored in 
             Activates AI search functionality.
 
 
-**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content lookup portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/content-lookup-ham.md).
+**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content Library portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/content-lookup-ham.md).
 
 Role required: sam\_admin
 
@@ -50,7 +50,7 @@ Role required: sam\_admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -48,7 +48,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     \[Omitted image "acrobat-event-asset-rto.png"\] Alt text: Event assets.
 
-    When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated and displayed in the record as shown in the example.
+    When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated. The values are displayed in the record as shown in the example.
 
     \[Omitted image "acrobat-event-record.png"\] Alt text: Event.
 

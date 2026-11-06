@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Language setup in Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Language setup in Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure language groups
@@ -26,6 +26,8 @@ After setting up individual language providers, you can define one or more langu
 From version 2.0.2: When your users create translation requests, they can select configured language groups rather than adding each language individually to the request.
 
 Individual languages may be included in more than one language group. If a language is included multiple times in one translation request, Localization Workspace clears out the preconfigured value for translation service provider. Then the translation requester must manually select the desired translation service provider.
+
+**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins and localization requesters \(localization\_admin and localization\_requestor\) with the setup of a language group. Access the guided tour by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
 
 ## Procedure
 

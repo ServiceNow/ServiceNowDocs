@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,7 +42,7 @@ There might be AI agents installed on your instance that are not used in agentic
 
 -   **CMDB principal class manager AI agent**
 
-    The CMDB principal class manager AI agent determines whether you can set Cl classes as principal, suggests principal classes, and can set or unset a class as principal. Setting a class as a principal class is a practical way to save time because you can configure ServiceNow AI Platform products to display only principal classes in list views. The workflow helps you to decide which CIs you're most likely to work with day-to-day and then provides a link to enable you to set the associated classes as principal classes. For more information, see [Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
+    The CMDB principal class manager AI agent determines whether you can set Cl classes as principal, suggests principal classes, and can set or unset a class as principal. Setting a class as a principal class is a practical way to save time because you can configure ServiceNow AI Platform products to display only principal classes in list views. The workflow helps you to decide which CIs you're most likely to work with day-to-day and then provides a link to enable you to set the associated classes as principal classes. For more information, see [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
 
 -   **CMDB life cycle manager AI agent**
 

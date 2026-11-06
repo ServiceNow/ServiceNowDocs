@@ -7,9 +7,9 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference, Incident Management, IT Service Management]
+breadcrumb: [Incident Management integration with Universal Request, Incident Management integrations, Reference, Incident Management, IT Service Management]
 ---
 
 # Request Universal Request integration for Incident Management
@@ -34,11 +34,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Universal Request\[com.snc.universal\_request\]
+Universal Request\(com.snc.universal\_request\)
 
 </td><td>
 
-Enables seamless service experience across different groups and task types.
+Provides a single service experience across groups and task types.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -91,10 +91,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Incident Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

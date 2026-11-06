@@ -7,7 +7,7 @@ release: zurich
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a program to manage projects and demands, Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -103,7 +103,7 @@ Status of the Key Performance Indicators for overall health, schedule, cost, res
 The value of these KPIs roll up and are shown in the Current Status section of the program status report. **Note:** A grey X icon \(\[Omitted image "none\_icon.png"\] Alt text: None icon\) next to any project KPI means that the project manager has excluded that aspect from the status report.
 
 </td></tr></tbody>
-</table>6.  If you need a printed copy of the report, click the print icon \(\[Omitted image "PrintIcon.png"\] Alt text: Print icon\) in the header of **Status Report** tab.
+</table>6.  If you need a printed copy of the report, select the print icon \(\[Omitted image "PrintIcon.png"\] Alt text: Print icon\) in the header of **Status Report** tab.
 
 
 ## Program status report

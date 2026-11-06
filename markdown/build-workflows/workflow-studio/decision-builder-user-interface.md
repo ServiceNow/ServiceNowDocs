@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Decision tables, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision Builder user interface
@@ -73,6 +73,4 @@ Pagination is a method used to present large data sets by breaking them down int
 -   You must save changes before leaving the current view, when reordering, adding, deleting rows, or modifying the table.
 -   If a new row is added at the end of the page, the added row moves to the next page after saving.
 -   Post export/import, filtering, or when changing the number of rows in the page, you’re redirected to the first page.
-
-**Parent Topic:**[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/decision-designer-overview.md)
 

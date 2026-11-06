@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-template-configuration.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-15"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -16,11 +16,13 @@ Use the Template Configurations module to set up the template relationship regis
 
 ## Before you begin
 
-Role required: sn\_oper\_res.admin
+Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## About this task
 
 From the Administration menu, the Template Configurations module displays document design template details for DRIR action tasks. The Word Templates module, on the other hand, provides DRIR Word templates necessary for generating Microsoft Word reports.
+
+The Reporting Configurations module has been introduced with the Digital Resilience Incident Reporting, version 22.3.0 version. It provides Microsoft 365 reporting configurations that are scoped to the Digital resilience incident \(DRI\) business domain and adds data to a report.
 
 ## Procedure
 
@@ -36,14 +38,48 @@ From the Administration menu, the Template Configurations module displays docume
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name of the template configuration. For example, you can specify Engagement template configuration.|
-    |Business domain|Domain from which the template is being configured. \(Refers Microsoft 365 business domain table\)|
-    |Table|Source table on which Microsoft Word template would be built.|
-    |Fields|Fields from which data must be displayed on the report. Move the required fields from the Available list to the Selected list.|
+<table id="table_zb5_hgc_pcc"><thead><tr><th>
 
-    The example shows how the fields are used in a Microsoft Word document.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the template configuration. For example, you can specify Engagement template configuration.
+
+</td></tr><tr><td>
+
+Business domain
+
+</td><td>
+
+Domain from which the template is being configured. \(Refers Microsoft 365 business domain table\).**Note:** For Digital resilience incident reporting, select the DRI business domain value. In the Template Configurations module, this domain corresponds to the 'DRIR' entry in the Microsoft 365 business domain \(sn\_esg\_msoff\_intg\_business\_domain\) table. In the Reporting Configurations module, the same scope is represented as 'DRI' in the GRC business domain \(sn\_grc\_business\_domain\) table. Both reference the same underlying business domain record \(sys\_id: 41d4216b83f840d28101d55520756c49\).
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Source table on which the Microsoft Word template would be built.
+
+</td></tr><tr><td>
+
+Fields
+
+</td><td>
+
+Fields from which data must be displayed on the report. Move the required fields from the Available list to the Selected list.
+
+</td></tr></tbody>
+</table>    The example shows how the fields are used in a Microsoft Word document.
 
     \[Omitted image "d19-data-rel-selection-in-word-doc.png"\] Alt text: Data column.
 
@@ -53,4 +89,9 @@ From the Administration menu, the Template Configurations module displays docume
 
     You can update the data relationships, content configurations, and scripted variables for the predefined templates.
 
+
+**Related topics**  
+
+
+[Create Data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-data-relationships-action-tasks.md)
 

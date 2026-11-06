@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -152,7 +152,7 @@ Replace the variables in the default format of the URL `http://<my-instance>.ser
 
 **Example showing the URL to push messages not in jsonv2 format**
 
-The format of the URL to push event messages from an external source that are not in jsonv2 format is `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event/Transform={Name_of_Transform_Script}`. The \{Name\_of\_Transform\_Script\} variable is the full name of the script and always begins with the text: TransformEvents\_. The script name must be specified as the `Transform` header parameter and must always start with the prefix `TransformEvents_`.
+The format of the URL to push event messages from an external source that are not in jsonv2 format is `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event/Transform={Name_of_Transform_Script}`. The \{Name\_of\_Transform\_Script\} variable is the full name of the script and always begins with the text: TransformEvents\_. Specify the script name as the `Transform` header parameter with the prefix `TransformEvents_`.
 
 For this example, assume that the script name is EventsToProcess, the URL is therefore:`http://10.138.64.27:8097/api/mid/em/inbound_event/TransformEvents_EventsToProcess`
 
@@ -225,9 +225,7 @@ curl --location -g --request POST 'http://{MID_Server_IP}:{MID_Web_Server_Port}/
 
 ## Configuring external API integrations with MID Server failover
 
-To ensure high availability for external API integrations, deploy an external load balancer that distributes traffic across multiple MID servers.
-
-**Note:** The MID cluster web server configuration handles internal processing only \(through ecc\_queue\) and can't manage inbound external API traffic.
+To ensure high availability for external API integrations, deploy an external load balancer that distributes traffic across multiple MID servers. Note that the MID cluster web server configuration handles internal processing only \(through ecc\_queue\) and can't manage inbound external API traffic.
 
 |Field|Value|
 |-----|-----|

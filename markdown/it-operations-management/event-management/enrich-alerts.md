@@ -43,7 +43,7 @@ Alert enrichment rules automatically enhance incoming alerts with additional con
 
     The Enrich alerts page opens.
 
-5.  Follow the steps in [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+5.  Follow the steps in [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

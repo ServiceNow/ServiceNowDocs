@@ -1,5 +1,5 @@
 ---
-title: CMDB 360/Multisource CMDB
+title: CMDB 360
 description: CMDB 360 retains complete history about discovery sources and proposed values, involved in updates of CI attributes. Use CMDB 360 data to track how the CMDB is populated by various discovery sources at the CI attribute level. Also, to revert CI updates from a specific discovery source, or to recompute attribute values using updated reconciliation rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.html
@@ -7,16 +7,16 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB 360/Multisource CMDB
+# CMDB 360
 
 CMDB 360 retains complete history about discovery sources and proposed values, involved in updates of CI attributes. Use CMDB 360 data to track how the CMDB is populated by various discovery sources at the CI attribute level. Also, to revert CI updates from a specific discovery source, or to recompute attribute values using updated reconciliation rules.
 
-Starting with the Utah release, the Multisource CMDB feature is part of the CMDB 360 feature. CMDB 360 provides all the functionality of Multisource CMDB and additional capabilities such as an analytics dashboard, and new query functionality. You can access all of the CMDB 360 capabilities in the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)or in the [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md).
+CMDB 360 provides all the functionality of the legacy Multisource CMDB feature with additional capabilities such as an analytics dashboard, and new query functionality. You can access all of the CMDB 360 capabilities in the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)or in the [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md).
 
 ## How CMDB 360 works
 
@@ -64,8 +64,6 @@ Use the or [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubuse
 -   Compare attribute values across discovery sources.
 -   Compare attribute values between CMDB and other discovery source.
 -   Limit reports for CMDB 360 data, to a specific application service, technical service, or a CMDB group.
-
-See [Sample CMDB 360/Multisource CMDB queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-data-report-builder.md) for more details.
 
 ## Visualize CMDB 360 data
 

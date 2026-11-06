@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-23"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -123,7 +123,7 @@ Device info, such as:-   Network Device Exploration
 
 </td><td>
 
-The **Active** field is inactive on both the Classifier Probes \[discovery\_classifier\_probe\] and the Discovery Patterns \[sa\_pattern\] tables for the related probe or pattern that performs the identification and exploration of the CI.
+The **Active** field is inactive on the Classifier Probes \[discovery\_classifier\_probe\] table for the related probe. It is also inactive on the Discovery Patterns \[sa\_pattern\] table for the related pattern that performs CI identification and exploration.
 
  These tables are referred to from the Device Info Category \[discovery\_category\_device\_info\] table.
 
@@ -316,7 +316,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, this returns the software product, publisher, and version in the payload. The data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, the software product, publisher, and version are returned in the payload. This data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
 
 7.  Configure **Advanced UNIX** settings.
 

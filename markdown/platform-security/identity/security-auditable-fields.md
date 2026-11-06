@@ -1,34 +1,34 @@
 ---
-title: Security Auditable Fields
-description: Displays table and field level details that will be audited in the ServiceNow instance.
+title: Security auditable fields
+description: Displays table and field level details that are audited in the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/security-auditable-fields.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
 
-# Security Auditable Fields
+# Security auditable fields
 
-Displays table and field level details that will be audited in the ServiceNow® instance.
+Displays table and field level details that are audited in the ServiceNow® instance.
 
-Security Auditable Fields displays the details of tables and fields that will be audited in the ServiceNow instance.
+Security Auditable Fields displays the details of tables and fields that are audited in the ServiceNow instance.
 
 To access the Security Auditable Fields page, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**. The Security Auditable Fields page is displayed with the following information.
 
-|Column Name|Description|
+|Column name|Description|
 |-----------|-----------|
 |Table to Audit|Details of the table that is audited.|
 |Audit Storage Destination|Details of the destination where the audit details are stored.|
-|Field List|Auditing will be done for fields specified in the list.|
-|Create|Audit the changes that are related to Create operation.|
-|Update|Audit the changes that are related to Update operation.|
-|Delete|Audit the changes that are related to Delete operation.|
-|Active|Audit only if the configuration for the table is active.|
+|Field List|Auditing is done for fields specified in the list.|
+|Create|Whether changes related to the Create operation are audited.|
+|Update|Whether changes related to the Update operation are audited.|
+|Delete|Whether changes related to the Delete operation are audited.|
+|Active|Audits only if the configuration for the table is active.|
 
 \[Omitted image "security-auditable-fields.png"\] Alt text: Security Auditable Fields
 

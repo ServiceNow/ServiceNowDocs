@@ -1,20 +1,20 @@
 ---
 title: Get started with Certificate Inventory and Management
-description: Prior to diving into the Certificate Inventory and Management application's functionality, meet the necessary requirements by installing and activating the plugin, upgrading your instance, and obtaining the Certificate Inventory and Management application from the ServiceNow Store.
+description: Install required plugins, upgrade your instance, and download the Certificate Inventory and Management application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/get-started-cert-inventory-mgmt.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Get started with Certificate Inventory and Management
 
-Prior to diving into the Certificate Inventory and Management application's functionality, meet the necessary requirements by installing and activating the plugin, upgrading your instance, and obtaining the Certificate Inventory and Management application from the ServiceNow Store.
+Install required plugins, upgrade your instance, and download the Certificate Inventory and Management application from the ServiceNow Store.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Note:** The ServiceNow Store regularly releases new applications and updates to ServiceNow applications. If you already have an application, you can download the latest version to enhance your existing experience with ServiceNow products. Features vary by release. The version number indicates which content and features are available in each release.
 
@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   ITOM Visibility \[com.snc.itom.vis.license\] plugin
     -   Discovery \[com.snc.discovery\] plugin
     -   Configuration Management for Scoped Apps \(CMDB\) \[com.snc.cmdb.scoped\] plugin
-2.  Confirm that your system has been upgraded to Zurich or a later version.
+2.  Confirm that your system has been upgraded to Brazil or a later version.
 
     During the upgrade process, the Certificate Inventory and Management \[com.sn\_disco\_certmgmt\] plugin is automatically installed if the ITOM Visibility \[com.snc.itom.vis.license\] and Discovery \[com.snc.discovery\] plugins are already installed.
 

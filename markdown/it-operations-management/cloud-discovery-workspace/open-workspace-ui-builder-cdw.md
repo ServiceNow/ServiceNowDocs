@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: ui\_builder\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+1.  In the navigation filter, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
 2.  Select **Experiences**.
 
@@ -31,5 +31,5 @@ Role required: ui\_builder\_admin or admin
 
 ## Result
 
-Your Configurable Workspace experience opens in UI Builder.
+Your configurable experience opens in UI Builder.
 

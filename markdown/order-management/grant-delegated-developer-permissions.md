@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/grant-delegated-developer-permissions.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Grant delegated developer permissions for managing sequences
@@ -27,4 +27,11 @@ Role required: admin
     -   pd\_author or playbook.admin \(for version 1.0.0.\)
     For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_DelegatedDevelopment.md) and [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/developer-permissions.md).
 
+
+**Related topics**  
+
+
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-customer-engagement-sequences.md)
 

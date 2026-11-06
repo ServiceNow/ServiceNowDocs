@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [An app's table, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [An app's table, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Changing the table for an app
@@ -50,7 +50,7 @@ For more information on the Task table, see [Working with the Task table](https:
 
 ## Role for changing the table for an app
 
-To change the associated table for an app, you must have either the admin role, the sn\_creatorstudio.app\_configurator role, or sn\_creatorstudio.configuration\_admin, which are granular admin roles. For more information, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/roles-within-platform-security.md).
+To change the associated table for an app, you must have either the admin role, the sn\_creatorstudio.app\_configurator role, or sn\_creatorstudio.configuration\_admin, which are granular admin roles. For more information, see .
 
 ## Repercussions of changing an app's table
 

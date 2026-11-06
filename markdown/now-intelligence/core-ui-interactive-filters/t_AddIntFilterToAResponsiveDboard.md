@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Interactive Filters on dashboards, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Add an interactive filter to a dashboard to filter reports on that dashboard.
 
 ## Before you begin
 
-Role required: pa\_power\_user. You must have edit access to the dashboard you want to add the widget to.
+Role required: The dashboard\_admin role is required to create or edit Core UI Responsive Dashboards, which may still be necessary in Service Portal, for example. You must have edit access to the dashboard you want to add the widget to.
 
 ## About this task
 
@@ -32,7 +32,7 @@ In this animation, the two visualizations and the interactive filter are all bas
 
 ## Procedure
 
-1.  Navigate to a dashboard.
+1.  Navigate to a Core UI dashboard.
 
 2.  Click the add content icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Add content icon \).
 

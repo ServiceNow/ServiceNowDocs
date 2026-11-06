@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Strategic Portfolio Management]
+breadcrumb: [Agile Development, Strategic Portfolio Management]
 ---
 
 # Agile Development 2.0
@@ -24,23 +24,15 @@ ServiceNow Agile Development 2.0 provides an agile software development environm
 
 </td><td>
 
-[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Activate the required plugins, migrate data from Agile Development 1.0, and verify custom configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/setting-up-agile-development-2.md)
-
-</td><td>
-
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Agile Development with third-party execution systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/integrating-agile-dev-with-third-party-apps.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text: Learn how to manage your product development with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-manage.svg"\] Alt text: Learn how to manage your product development with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Agile Development with third-party execution systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/integrating-agile-dev-with-third-party-apps.md)
 
 </td><td>
 
 [Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, form fields, and general guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-development-2-reference.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

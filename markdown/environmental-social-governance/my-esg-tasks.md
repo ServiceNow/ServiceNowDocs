@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/my-esg-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -38,7 +38,7 @@ A typical My tasks page for a logged-in user is shown in the following example.
 
 **Note:** On the **My pending tasks**, **My items** tab, you can only view the records that are in-progress. The closed and canceled records are not displayed on these tabs. You can view the closed and canceled records in their respective forms in the Operational Sustainability Workspace.
 
-If you have the ESG Management administrator role, you can customize the Operational Sustainability Workspace by updating the Tasks page configurations module.
+If you have the Operational Sustainability Management administrator role, you can customize the Operational Sustainability Workspace by updating the Tasks page configurations module.
 
 **Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-new-explore.md)
 

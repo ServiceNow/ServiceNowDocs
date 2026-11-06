@@ -7,8 +7,9 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+keywords: [Release timeline, Release tasks, Release policies]
 breadcrumb: [Timeline-oriented releases, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
@@ -40,25 +41,37 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 6.  Select the **Overview** section to review and modify release details, get an overview of its status, or change its readiness target date.
 
-    For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-details.md) and [Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-readiness-target.md).
+    For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-details.md).
 
-7.  Select the **Release scope** section to review and update the scope of the release by adding or removing the product features and enhancements.
+7.  Review the risk score for the current phase on the Release overview dashboard.
+
+    The risk score of timeline-oriented releases combines overdue task scores and policy failure scores, weighted by their respective importance. For more information, see [Risk score for timeline-oriented releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-risk-score-release.md).
+
+8.  Change the release readiness target to reschedule the release period.
+
+    For more information, see [Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-readiness-target.md).
+
+9.  Select the **Release scope** section to review and update the scope of the release by adding or removing the product features and enhancements.
 
     For more information, see [Update the scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-scope.md).
 
-8.  Select the **Configuration items** section to review and manage the configuration items in the release.
+10. Select the **Configuration items** section to review and manage the configuration items in the release.
 
     You can add more configuration items or remove the existing ones as needed. For more information, see [Manage configuration items in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-config-items.md).
 
-9.  Select the **Change requests** section to review and manage the change requests in the release.
+11. Select the **Change requests** section to review and manage the change requests in the release.
 
     You can add new or existing change requests or remove the existing ones as needed. For more information, see [Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-change-request.md).
 
-10. From the Release form header, select the number under the Artifacts to manage artifacts added to the release.
+12. From the Release form header, select the number under the Artifacts to manage artifacts added to the release.
 
     For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
-11. Select the **Release notes** section to create and manage release notes for the release.
+13. Select the **Release timeline** to view the release status, activities log, and work on its phases and tasks.
+
+    For more information, see [Execute the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-stage-release.md).
+
+14. Select the **Release notes** section to create and manage release notes for the release.
 
     You have the option to add release notes manually or generate using AI.
 
@@ -92,33 +105,17 @@ For more information, see [Email notifications in Digital Product Release](https
 
 ### Procedure
 
-1.  Select **Release execution** to view the release status and work on its phases and tasks, and manage key dates.
+1.  Select **Release timeline** to view the release status and work on its phases and tasks, and manage key dates.
 
-    \[Omitted image "dpr-release-execution.png"\] Alt text: Release execution page of a time-oriented release to track its progress.
+    \[Omitted image "dpr-release-execution.png"\] Alt text: Release timeline page of a time-oriented release to track its progress.
 
-2.  Review the risk score for the current phase on the Release overview dashboard.
+2.  Select **Release tasks** to add tasks in a release phase for a product.
 
-    The risk score of timeline-oriented releases combines overdue task scores and policy failure scores, weighted by their respective importance. For more information, see [Risk score for timeline-oriented releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-risk-score-release.md).
+    1.  On the Release tasks page, select **Add task**.
 
-3.  Update a release phase.
+    2.  On the Create task dialog box, add details for the task like its name, phase it belongs to, end date, and description.
 
-    1.  From the timeline, select a phase or use the arrow buttons to navigate to the previous or next phase.
-
-    2.  When all tasks in the current phase are complete and mapped policies comply, mark the phase as complete by selecting **Complete phase**.
-
-        **Note:** If any of the mapped policies is noncompliant, you can complete a phase only when you have any of the roles defined in the system property **sn\_dpr.complete\_phase\_override**.
-
-        The state of the current phase is updated to Completed and the next phase is started. The actual end date of the current phase is updated to the current date.
-
-4.  Add a task to a release phase.
-
-    1.  From the timeline, select a phase or use the arrow buttons to navigate to the previous or next phase.
-
-    2.  Select **Add task**.
-
-    3.  On the Create task dialog box, add details for the task like its name, phase it belongs to, end date, and description.
-
-    4.  If the task needs approval, perform the following steps:
+    3.  If the task needs approval, perform the following steps:
 
         **Note:** You can select whether the task needs approval when creating it. This option can’t be changed after it’s saved.
 
@@ -128,68 +125,66 @@ For more information, see [Email notifications in Digital Product Release](https
 
         2.  From the **Assigned to** list, select the user who would approve the task.
         3.  From the **Approval definition** list, select an approval definition to trigger the approval based on the predefined condition.
-    5.  Select **Create task**.
+    4.  Select **Create task**.
 
     The task is created in the Pending state andadded to the selected phase.
 
     For an approval task, an approval record is created for the approvers to review and act.An email notification is also sent to them. For more information, see [Approve or reject a release task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-approve-reject-release-task.md).
 
-5.  Track and manage the progress of tasks for the selected phase.
+3.  Track and manage the progress of tasks for the selected phase.
 
-    1.  From the timeline, select a phase or use the arrow buttons to navigate to the previous or next phase.
+    1.  On the Release tasks page, expand a phase in the list by selecting the expand row icon.
 
-    2.  Select the **Tasks** tab to view all tasks in the phase.
+        You can apply filters to view specific tasks or change the view type by selecting the **Kanban** or **List** option. You can also view only tasks assigned to you by selecting the **My tasks** toggle.
 
-        You can apply filters to view specific tasks or change the view type by selecting the **Kanban** or **List** option.
+    2.  Select a task to open in the Task details pane.
 
-    3.  Select a task to open in the Task details pane.
+    3.  Review the task in the Task details pane, or select **Full details** to open the task record in the form view.
 
-    4.  Review the task in the Task details pane, or select **Full details** to open the task record in the form view.
+    4.  Assign the task in the **Assigned to** field to the user who will work on it.
 
-    5.  Assign the task in the **Assigned to** field to the user who will work on it.
+    5.  Review the approval status for an approval task in the **Approval** field.
 
-    6.  Review the approval status for an approval task in the **Approval** field.
-
-    7.  Update the **State** field with the status of the task that doesn't need any approval.
+    6.  Update the **State** field with the status of the task that doesn't need any approval.
 
         The state of an approval task is automatically updated when approved.
 
-    8.  Select **Save** to save the changes.
+    7.  Select **Save** to save the changes.
 
         If you complete the current task and the system property **sn\_dpr.sequential\_task\_execution** is set to true, the next task in the order moves to the Open state.
 
-6.  Manage mapping of policies to a release phase to validate it.
+4.  Select **Release policies** to manage mapping of policies to a release phase.
 
-    1.  From the timeline, select a phase or use the arrow buttons to navigate to the previous or next phase.
+    1.  On the Release policies page, review the mapped policies by their status.
 
         **Note:** Policies can’t be mapped to a completed or cancelled phase.
 
-    2.  Select the **Policies** tab.
-
-    3.  To map a policy to the selected phase,
+    2.  To map a policy to the selected phase,
 
         1.  Select **Add**.
         2.  On the Map Policies dialog box, select one or more policies from the list to map to the phase.
         3.  Select **Map policies**.
         The selected policies are mapped to the phase and are listed in the Policy Mappings list.
 
-    4.  To delete an existing policy mapping,
+    3.  To delete an existing policy mapping,
 
-        1.  Select the policies from the Policy Mappings list.
-        2.  Select **Delete**, and confirm.
+        1.  Select the policies from the Release policies list.
+        2.  Select **Remove**, and confirm.
         Selected policies mappings are removed from the phase.
 
         **Note:** For an in-progress phase, if you remove a previously executed policy, the remaining policies are automatically run after its removal. The updated execution statuses of the individual policies are aggregated and shown in the **Policy status** field on the **Details** tab.
 
-7.  Select **Run policies** to run policies on the current phase.
+5.  Run policies on the current phase to check for the compliance status.
 
+    -   On the Release policies or Release tasks page, select **Run policies**.
+    -   On other pages, select the release action icon \(\[Omitted image "icon-actions-menu.png"\] Alt text:\) and then select **Run policies**.
     All mapped policies are executed in the background for the current phase \(**In Progress** state\). You can check the execution status by refreshing the list on the **Policies** tab.
 
     A scheduled job runs daily to execute the policies that are mapped to the phase. The Execution status column on the Policies list for each phase is updated to show the compliance status after each run.
 
     When multiple policies are mapped to a phase, their execution statuses are aggregated into the phase's overall status. You can view this aggregated status in the **Policy status** field on the **Details** tab.
 
-8.  If a policy fails compliance, you can request an exception with justification.
+6.  If a policy fails compliance, you can request an exception with justification.
 
     **Note:** This option is only available when both Digital Product Release and GRC: Policy and Compliance Management are installed.
 
@@ -205,15 +200,12 @@ For more information, see [Email notifications in Digital Product Release](https
 
     After the exception is approved, the policy status shows as Compliant with exception in subsequent executions. The phase can be completed if all other policies are compliant.
 
-9.  Add or update key dates in a timeline-oriented release that should be in relation to the release target date.
+7.  Add or update key dates in a timeline-oriented release that should be in relation to the release target date.
 
     These key dates help you define and track important events that can happen during the release period.
 
     -   Add a new key date to the release:
-        1.  Select the more actions icon next to the **Add task** button and then select **Add key date**.
-
-            \[Omitted image "dpr-icon-add-keydate.png"\] Alt text: Add key date button on the Release execution tab.
-
+        1.  On the Release timeline page, select **Add key date**.
         2.  In the Add key date dialog box, fill in the fields.
 
             For more information, see [Release key date form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/release-key-date-form.md).
@@ -226,11 +218,23 @@ For more information, see [Email notifications in Digital Product Release](https
 
         2.  On the Key date form, update the fields.
         3.  Select **Save**.
-10. Close a release after verifying its completeness.
+8.  Manage the progress of a phase in the release.
+
+    1.  On the Release timeline page, select a phase on the timeline or use the arrow buttons to navigate to the previous or next phase.
+
+    2.  When all tasks in the current phase are complete and mapped policies comply, mark the phase as complete by selecting **Complete phase**.
+
+        Alternatively, you can complete the current phase from the Release tasks or Release policies pages. Select the release actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text:\) and then select **Complete current release**.
+
+        **Note:** If any of the mapped policies is noncompliant, you can complete a phase only when you have any of the roles defined in the system property **sn\_dpr.complete\_phase\_override**.
+
+        The state of the current phase is updated to Completed and the next phase is started. The actual end date of the current phase is updated to the current date.
+
+9.  Close a release after verifying its completeness.
 
     For more information, see [Close a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-complete-release.md).
 
-11. Cancel a release if it's no longer required.
+10. Cancel a release if it's no longer required.
 
     **Note:** Only users with the sn\_dpr\_model.release\_admin role can cancel releases.
 

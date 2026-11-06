@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/main-node-relationship-fw.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -70,7 +70,9 @@ The existing Node relationship configurations related list has been updated and 
 
 -   Maximum number of nodes and Maximum number of levels: You can set the maximum number of nodes and levels for the map \(as shown in the **Properties** tab\). Similarly, you can also control the maximum number of children shown at the specific node relation and maximum number of levels shown at a specific node. The **Maximum number of levels** property is enabled only when the source table and target table in the Main node configuration are the same; if they’re different, this property is disabled.
 -   Maximum number of children: You can control maximum number of children to be displayed at the specific node relation. The minimum value for this field is 2.
--   Direction: Another field added to the relationship configuration is "Direction." It specifies the direction of the relationship between the source and target tables. Set the direction to either "Target to source" or "Source to target." When set to "Target to source," selecting a specific node displays all its upstream nodes. It shows the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
+-   Direction: Another field added to the relationship configuration is "Direction," which specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target."
+
+    When set to "Target to source," selecting a specific node displays all its upstream nodes. This shows the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
 
     \[Omitted image "main-node-config-direction.png"\] Alt text: Direction.
 
@@ -83,7 +85,9 @@ The existing Node relationship configurations related list has been updated and 
 
 ## Nexus map configurations related list
 
-The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you to define its UI configuration. It helps you to determine how the selected node would be displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements. A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
+The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you define its UI configuration. This determines how the selected node is displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements.
+
+A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
 
 \[Omitted image "main-node-config-nexus-map.png"\] Alt text: Nexus map configuration.
 
@@ -124,7 +128,7 @@ You can update the following UI parameters for the node:
 -   Icon: Update the icon to be used for the node in the main node UI, for example, briefcase-outline.
 -   Secondary label: Update the secondary label to be displayed for the node, for example, class.
 -   Tooltip: Update the tooltip to be displayed when hovering over the node, for example, Name.
--   **Configuration for set as main node** field \(Setting a node as the Main Node\): To enable the **Make this primary** functionality for a node \(To make a node as a primary node\), you must configure the **Configuration for set as main node** setting. This configuration reflects the hierarchy flow for the node that is designated as primary. To set a specific node as the Main node \(primary node\) at any point, select the Nexus map configuration in the **Configuration for set as main node** field. For example, when viewing node relationships from primary node A to node B and node C, the node chain such as "A -&gt;B -&gt;C" is displayed. You can select node B as the Main node \(primary node\). The display shows node A as the upstream node and node C as the downstream node.
+-   **Configuration for set as main node** field \(Setting a node as the Main Node\): To enable the **Make this primary** functionality for a node \(To make a node as a primary node\), you must configure the **Configuration for set as main node** setting. This configuration reflects the hierarchy flow for the node that is designated as primary. To set a specific node as the Main node \(primary node\) at any point, select the Nexus map configuration in the **Configuration for set as main node** field. For example, when viewing node relationships from primary node A to node B and node C, the node chain such as "A -&gt;B -&gt;C" is displayed. You can select node B as the Main node \(primary node\). The display then shows node A as the upstream node and node C as the downstream node.
 
     **Configuration for 360° view** field: You can configure this setting to determine the configuration to be used when viewing a 360° view, for example, **Entity**.
 
@@ -266,8 +270,6 @@ After setting up the Main node configurations, you must verify that the entities
 Node relationship configurations are used to set up relationships between the records and objects defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
 -   **[Nexus map configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/nexus-map-configuration.md)**  
 Beginning with Operational Resilience, version 21.1.x, the Nexus map configuration has been introduced. To display a main node in the Operational Resilience Workspace, you must configure the Nexus map. The Node Map configuration UI allows you to visualize related data hierarchically, track issues, and identify areas needing attention for effective resolution or health monitoring.
--   **[Main node configuration source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/main-node-configuration-source.md)**  
-You can set up the source for the Main node configurations.
 
 **Parent Topic:**[Exploring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/what-is-opres.md)
 

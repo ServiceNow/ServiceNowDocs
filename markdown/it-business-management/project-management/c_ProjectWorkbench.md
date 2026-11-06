@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Using Project workbench - Legacy
@@ -18,7 +18,9 @@ The project workbench provides a central location for creating and managing proj
 
 **Important:**
 
-Project Workbench is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
+Starting Australia, Project Workbench is no longer deployed, enhanced, supported or available for activation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+Existing customers: If you have Project Workbench implemented in your instance, you can continue using it. The application remains in your instance and your data is intact. However, it is treated as custom code. ServiceNow Technical Support will no longer provide fixes, patches, or upgrades for any issues.
 
 The workbench supports the Project Management and application life cycle management applications, allowing for a hybrid approach to project management. Project managers can create projects that combine both waterfall and agile methodologies and add waterfall, agile, and test phases to these projects.
 
@@ -34,7 +36,6 @@ With the project manager role, you can use the project workbench to:
 
 -   Manage projects.
 -   Create and update project phases and milestones.
--   Assign a group to an agile phase.
 -   Create and update project tasks, stories, and test cases.
 -   Attach test plans to a test phase.
 -   View and manage project details from a list view or visual task board.

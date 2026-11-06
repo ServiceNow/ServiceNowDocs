@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Building and running automated test suites
@@ -32,7 +32,7 @@ Grouping tests into test suites offers these benefits.
 
 Automated Test Framework supports building a multi-level hierarchies where a test suite can be both a parent and child. For example, this figure illustrates Test Suite 1 as the parent at the top of the hierarchy. Test Suite 1.3 is a child of Test Suite 1 and also a parent of Test Suite 1.3.1 and Test Suite 1.3.2.
 
-
+\[Omitted image "test-suite-hierarchy.png"\] Alt text: Diagram of example test suite hierarchy
 
 ## Schedules
 

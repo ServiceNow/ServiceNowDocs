@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-09"
 reading_time_minutes: 2
 keywords: [generative AI, agentic AI, AI Control Tower, Otto premium chat, Conversational support, AICT Assistant]
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # ServiceNow Otto in AI Control Tower
@@ -46,4 +46,9 @@ To locate the asset, search your inventory for AICT Assistant.
 Bringing AICT Assistant under management applies the same governance to your conversational experience that you apply to the rest of your AI portfolio, including evaluation scoring, lifecycle stages, risk classification, and value tracking. Like other discovered ServiceNow AI assets, AICT Assistant arrives unmanaged. See [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-ai-managed-unmanaged.md) and [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md).
 
 You can edit or customize the AICT Assistant in Assistant Designer. See [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/assistant-designer.md).
+
+**Related topics**  
+
+
+[Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-recommendations-ai-insights.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configure-notif-custom-Slack-app.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up notifications for a custom Slack app
@@ -17,7 +17,7 @@ Send ServiceNow notifications to users via your own Slack bot.
 ## Before you begin
 
 -   [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-ih-overview.md)
--   [Request Messaging Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md)
+-   [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md)
 -   Create a custom application for Slack
 
 Role required: admin or messaging\_admin

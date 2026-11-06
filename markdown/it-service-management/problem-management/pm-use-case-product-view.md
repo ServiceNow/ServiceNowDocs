@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Problem Management, IT Service Management]
+breadcrumb: [Configuring Problem Management, Problem Management, IT Service Management]
 ---
 
 # Applying CSDM guidelines to Problem Management
@@ -31,7 +31,7 @@ The Problem Management form references the following CSDM elements \(attributes 
 2.  Service Offering — References the \[service\_offering\] table to see the service offerings affected by the problem in the Service Offerings related list \[task\_service\_offering\].
 3.  Configuration Items — References the \[cmdb\_ci\] table
 4.  Affected/Causal CIs — Related list \[task\_ci\] table
-5.  Assignment Group — References the Group attribute.
+5.  Assignment group — References the Group attribute.
 
     **Note:** You can populate the Group attribute by using the Assignment Group for the relevant CI.
 

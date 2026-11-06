@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ You can assign these approvals to any user or user group in your organization wh
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d538340e110">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d547630e110">
 
 Option
 
-</th><th align="left" id="d538340e113">
+</th><th align="left" id="d547630e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d538340e119">
+</th></tr></thead><tbody><tr><td id="d547630e119">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d538340e140">
+</td></tr><tr><td id="d547630e140">
 
 **As a collaborator**
 

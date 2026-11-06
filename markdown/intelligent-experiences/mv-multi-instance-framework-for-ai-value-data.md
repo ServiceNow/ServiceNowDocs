@@ -1,6 +1,6 @@
 ---
 title: Multi-Instance Framework for AI value data
-description: The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, the AI Control Tower calculates value for Creator skills using data from development and testing environments.
+description: The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, AI Control Tower calculates value for Creator skills using data from development and testing environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-multi-instance-framework-for-ai-value-data.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-25"
 reading_time_minutes: 1
 keywords: [multi-instance framework, MIF, AI value, sub-production instance]
-breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Multi-Instance Framework for AI value data
 
-The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, the AI Control Tower calculates value for Creator skills using data from development and testing environments.
+The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, AI Control Tower calculates value for Creator skills using data from development and testing environments.
 
 For creator skills deployed in a sub-production instance, you can evaluate how the value is determined for an AI system by running a metric within its value template. The results are synced to the production instance for the value calculation.
 
@@ -33,5 +33,5 @@ MIF syncs the following value data from the sub-production instance to the produ
 **Related topics**  
 
 
-[Set up the Multi-Instance Framework for value calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.md)
+[Set up Multi-Instance Framework for value calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.md)
 

@@ -1,31 +1,23 @@
 ---
 title: Healthcare and Life Sciences release notes
-description: Healthcare and Life Sciences has new and updated features in the Zurich release.
+description: Healthcare and Life Sciences has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/healthcare-life-sciences-rn-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Healthcare and Life Sciences release notes
 
-Healthcare and Life Sciences has new and updated features in the Zurich release.
+Healthcare and Life Sciences has new and updated features in the Brazil release.
 
--   **[Care Team Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cto-mobile-rn.md)**  
-The ServiceNow® Care Team Mobile application enables care teams to create and view shared support requests from the convenience of their mobile devices. Care Team Mobile is a new application in the Zurich release.
--   **[Care Team Operations for Biomed release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cto-biomed-rn.md)**  
-The ServiceNow® Care Team Operations for Biomed application contains the case types to report and fulfill healthcare biomedical issues. Care Team Operations for Biomed was enhanced and updated in the Zurich release.
--   **[Care Team Operations for Environmental Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cto-evs-rn.md)**  
-The ServiceNow® Care Team Operations for Environmental Services application contains case types to report and fulfill facilities issues as part of Healthcare Operations. Care Team Operations for Environmental Services is a new application in the Zurich release.
--   **[Care Team Operations for Facilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cto-facilities-rn.md)**  
-The ServiceNow® Care Team Operations for Facilities application contains the case types to report and fulfill facilities issues as a part of Healthcare Operations. Care Team Operations for Facilities is a new application in the Zurich release.
--   **[Care Team Operations for Healthcare IT release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/cto-healthcare-it-rn.md)**  
-The ServiceNow® Care Team Operations for Healthcare IT application contains the case types to report and fulfill healthcare IT issues. Care Team Operations for Healthcare IT was enhanced and updated in the Zurich release.
--   **[Healthcare Operations Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/hco-core-rn.md)**  
-The ServiceNow® Healthcare Operations Core application streamlines and optimizes healthcare team operational tasks. Healthcare Operations Core was enhanced and updated in the Zurich release.
+-   **[EMR Provider Directory Sync release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/hco-fhir-release-notes.md)**  
+The ServiceNow® EMR Provider Directory Sync application keeps Healthcare Operations organization, location, practitioner, and care-team data in sync with a FHIR R4 server on a schedule. EMR Provider Directory Sync is a new application.
+-   **[Healthcare Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/healthcare-operations-rn.md)**  
+The ServiceNow® Healthcare Operations family helps care teams manage operational requests across the hospital: Care Team Work Management, Care Team Portal, Care Team Mobile, the Care Team Operations for Biomed, Care Team Operations for Environmental Services, Care Team Operations for Facilities, and Care Team Operations for Healthcare IT apps, and the Healthcare Operations Core data model they share.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

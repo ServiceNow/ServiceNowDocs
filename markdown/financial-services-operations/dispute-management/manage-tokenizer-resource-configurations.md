@@ -1,22 +1,23 @@
 ---
 title: Manage Tokenizer Resource Configurations
-description: The Tokenizer Resource Configurations table contains entries for each endpoint that sends and receives tokenized data.
+description: The Tokenizer Resource Configurations table contains entries for each endpoint that sends and receives tokenized data. It defines which REST message function Card Data Security uses based on the API path, HTTP method, and target system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [tokenizer resource configurations, tokenizer resource configuration table, rest message function, api endpoint mapping, http method configuration, target system, sn\_data\_sec\_resource\_config, manage tokenizer endpoints, card data security endpoints]
 breadcrumb: [Administer, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Manage Tokenizer Resource Configurations
 
-The Tokenizer Resource Configurations table contains entries for each endpoint that sends and receives tokenized data.
+The Tokenizer Resource Configurations table contains entries for each endpoint that sends and receives tokenized data. It defines which REST message function Card Data Security uses based on the API path, HTTP method, and target system.
 
-Each endpoint entry also has an associated REST message function. These REST messages are defined in the REST Message table. See [Set up tokenized REST message record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-a-rest-message-function.md) for more information.
+Each endpoint entry has an associated REST message function. These REST messages are defined in the REST Message table. See [Set up tokenized REST message record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-a-rest-message-function.md) for more information.
 
 **Note:** Card Data Security includes REST messages for Visa Resolve Online \(VROL\) and Mastercom.
 
@@ -29,10 +30,10 @@ To access Tokenizer Resource Configurations, navigate to **All** &gt; **Card Ope
 |Field|Description|
 |-----|-----------|
 |Name|Name of the tokenizer resource configuration record.|
-|HTTP method|The HTTP method of the request.|
-|Endpoint|The endpoint URL of the REST message function.|
-|Target system|The Third-Party System the method is connecting to.|
-|REST message function|The function of the REST message, which is defined in the REST message record. See [Set up tokenized REST message record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-a-rest-message-function.md) for more information.|
+|HTTP method|The HTTP method of the request \(e.g. GET, POST, PUT, PATCH, or DELETE\).|
+|Path|Path of the API \(e.g. /mastercom/v6/claims/\{claim-id\}\).|
+|Target system|The Third-Party System the method is connecting to \(e.g. Visa Resolve Online \(VROL\), Mastercom\).|
+|REST message function|The REST message function, which is defined in the REST message record. See [Set up tokenized REST message record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-a-rest-message-function.md) for more information.|
 |Security system|The name of the tokenizer service being used.|
 
 -   **[Create a tokenizer resource configuration entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-tokenizer-resource-configuration-entry.md)**  

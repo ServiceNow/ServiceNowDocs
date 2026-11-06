@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/retire-archive-pub-trm-cat.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the publishing center, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Retire or archive a published TRM catalog

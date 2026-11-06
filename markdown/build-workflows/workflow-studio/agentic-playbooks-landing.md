@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-10-09"
-reading_time_minutes: 2
-breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Agentic Playbooks
@@ -42,15 +42,4 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 ## Data processing
 
 This application requires data to be transferred from ServiceNow customers' individual instances to a centralized ServiceNow environment, which may be located in a different data center region from the one where your instance is, and potentially to a third-party cloud provider, such as Microsoft Azure. This data is handled per ServiceNow's internal policies and procedures, including our policies available through our [CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0564067).
-
--   **[Exploring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks.md)**  
-Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
--   **[Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-agentic-playbooks.md)**  
-As a playbook author in Workflow Studio, configure AI Agents to perform a playbook activity.
--   **[Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/running-agentic-activities.md)**  
-Monitor and complete agentic activities as needed.
--   **[Agentic Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbook-reference.md)**  
-Reference topics provide associated roles and guidelines for configuring Agentic Playbooks.
-
-**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
 

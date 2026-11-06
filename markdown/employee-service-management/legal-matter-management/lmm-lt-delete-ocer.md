@@ -7,7 +7,7 @@ release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller, sn\_lg\_matter.matter\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d527425e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d536537e51">
 
 Method
 
-</th><th align="left" id="d527425e54">
+</th><th align="left" id="d536537e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d527425e60">
+</th></tr></thead><tbody><tr><td id="d536537e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -44,7 +44,7 @@ Action
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d527425e104">
+</td></tr><tr><td id="d536537e104">
 
 **Using Legal Counsel Center lists**
 
@@ -57,7 +57,7 @@ Action
 5.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d527425e163">
+</td></tr><tr><td id="d536537e163">
 
 **Using platform view**
 

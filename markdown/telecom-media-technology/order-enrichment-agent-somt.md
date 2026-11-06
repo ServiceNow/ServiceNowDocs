@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/order-enrichment-agent-somt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection order enrichment AI agent
@@ -20,7 +20,7 @@ The order enrichment AI agent creates a task and triggers the order fulfillment 
 
 For each top order line Item \(OLI\) and its child OLIs, the order enrichment agent uses historical data from similar orders to determine which enrichment tasks are required.
 
-To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/activate-group-action-framework-somt.md).
+To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/activate-group-action-framework-somt.md).
 
 If needed, the outcome of the order tasks can be modified by the agent.
 

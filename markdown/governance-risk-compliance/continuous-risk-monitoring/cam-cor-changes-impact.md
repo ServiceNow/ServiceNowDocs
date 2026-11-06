@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -94,5 +94,5 @@ For more information on attestation flow scenarios, see the [Attestation workflo
 
 **Note:** For more information, see the [Operational changes and their impact on the process flow of control and its requirements \[KB1587264\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1587264) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

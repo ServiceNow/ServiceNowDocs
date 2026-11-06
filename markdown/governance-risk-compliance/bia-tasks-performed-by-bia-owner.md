@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bia-tasks-performed-by-bia-owner.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -49,17 +49,17 @@ Beginning with the Xanadu and later releases, the reliability of business impact
 -   **[Impact categories and ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bia-impact-categories.md)**  
 Impact categories are the types of an impact that you can assess during a business impact analysis. The BCM administrator of an organization is responsible for defining the impact categories and the timeframe during which an organization may experience a downtime. This information is used to determine the recovery time objective and recovery point objective of the assets.
 -   **[RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/rto-rpo-recovery-tiers.md)**  
-Due to unforeseen disruptive events, the business processes in your organization can face a downtime. It is important to classify your business processes in the recovery tiers and calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
+Due to unforeseen disruptive events, the business processes in your organization can face a downtime. It is important to classify your business processes in the recovery tiers. Then calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
 -   **[Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/rto-rpo-calculation.md)**  
 The BCM application provides an assessment questionnaire for calculating the recovery time objective \(RTO\) and recovery point objective \(RPO\) in the business impact analysis \(BIA\). As a pre-requisite to the BIA, BCM administrator defines the impact ratings and sets up the assessment questions. After receiving the responses to the assessment, the BCM application calculates the RTO and RPO.
 -   **[BIA states and UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/states-ui-actions-bia.md)**  
 When you create a business impact analysis \(BIA\), certain UI actions are associated with each state.
 -   **[Configuring dictionary, UI policy, and element variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-enhanced-bia-logic.md)**  
-Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
+Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view, which determine columns, required fields, and display in dependency assessment views.
 -   **[Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-smart-asmt-template.md)**  
 Beginning with the Yokohama release, you can use the latest assessment template for conducting a Business Impact Analysis \(BIA\). The BIA template is now integrated with the Smart Assessment Engine, enabling you to use the Smart Assessment along with the legacy assessment.
 -   **[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bia-in-uib-ws.md)**  
-Create a business impact analysis in BCM UI Builder Workspace to get the necessary information for a plan.
+Create a business impact analysis in BCM UI Builder Workspace to gather information for an impact analysis.
 -   **[Scheduling an auto-update of dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-impactanalysis-dep-based-on-cmdb-changes.md)**  
 You can schedule an auto-update of the dependencies in the business impact analysis based on the source data and relationships in the CMDB. You can receive an email notification with details of the BIA dependency updates from the BCM application.
 -   **[Assess impact categories and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/assess-impact-categories-bia-in-uib-ws.md)**  
@@ -67,7 +67,7 @@ Assess the impact categories and dependencies in BCM UIB Workspace to get the ne
 -   **[Approve the business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/approve-bia-in-uib-ws.md)**  
 Approve the business impact analysis in BCM UI Builder Workspace in the BCM application. If you’re the business impact analysis owner or the BCM lead for the business impact analysis, you can approve the business impact analysis.
 -   **[Update dependencies of BIAs in Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-dependency-details-of-BIA-in-self-service-as-contributor.md)**  
-Use the contributor role to update the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the **Activity** section in the BCM application.
+Update BIA dependency details including impact category results, RPO Impact analysis responses, dependency group state, and work notes in the BCM application.
 -   **[Visualize 360° relationships for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/visualize-360-degree-view-for-bia.md)**  
 Visualize the 360° relationships for a business impact analysis and its associated entities in BCM UIB Workspace. You can access the 360° view at any time while creating a business impact analysis.
 -   **[Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/generate-pdf-for-bia.md)**  

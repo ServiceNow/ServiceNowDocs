@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create Core UI reports from MetricBase time-series data
@@ -22,9 +22,15 @@ You must have the MetricBase product. To get it, see [Requesting the MetricBase 
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
+## About this task
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **Create New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On the **Data** tab, enter a report name that reflects the information in the report.
 
@@ -47,7 +53,7 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 6.  On the **Type** tab, select the type of report to create and click **Next**.
 
-    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, click **Run**.
+    Only time series reports are available. For information on specific reports types, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, click **Run**.
 
 7.  On the **Configure** tab, fill in the following fields and select **Next**.
 
@@ -116,7 +122,7 @@ Select this option to show report data in a list below the report. The list appe
     -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
     -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_CreateLineCharts.md)
     -   [Step line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/step-reports.md)
-10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
+10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
 ## Result

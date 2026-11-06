@@ -7,9 +7,9 @@ release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learning in Workforce Optimization for HR, Coaching in Workforce Optimization for HR, Use, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Learning in Workforce Optimization for HR, Coaching in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Create internal learning in Workforce Optimization for HR

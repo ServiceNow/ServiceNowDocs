@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics and Reporting, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Users with the Authorization Official \[sn\_irm\_cont\_auth.authorization\_offic
 
 **Important:** Starting with version 18.1.2 of CAM users on Vancouver or Washington DC can view the AO Overview dashboard in the Next Experience UI Framework.
 
-For more information on navigation steps and dashboard appearance, see [Analytics and Reporting Solutions for CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.md).
+For more information on navigation steps and dashboard appearance, see [Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.md).
 
 ## Accessing the dashboard
 
@@ -30,19 +30,19 @@ Users with the following roles can access the dashboard:
 
 To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **Analytics Dashboards** &gt; **AO Overview**.
 
-## AO Overview - Authorization Packages tab
+## AO Overview: Authorization Packages tab
 
 The Authorization Packages tab on the AO Overview dashboard provides central visibility into the state of all packages. The reports on the Baseline Controls tab provide a general overview of the baseline controls in your system.
 
 |Report|Description|
 |------|-----------|
 |Packages Pending Approval|The number of authorization packages for which approval has been requested, but that haven’t yet received approval.|
-|Packages with Overridden Impact|The number of authorization packages with an impact that have been overridden. For more information, see [Risk Management Framework \(RMF\) step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
+|Packages with Overridden Impact|The number of authorization packages with an impact that have been overridden. For more information, see [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
 |Packages by Step|The number of authorization packages categorized by steps \(for example, Monitor, Access, Select, and so forth\).|
 |Packages by Impact|The number of authorization packages categorized by impact levels.|
 |Pending Approvals|A list of all packages pending approval.|
 
-## AO Overview - Baseline Controls tab
+## AO Overview: Baseline Controls tab
 
 The reports on the Baseline Controls tab on the AO Overview dashboard provide a general overview of the baseline controls in your system.
 

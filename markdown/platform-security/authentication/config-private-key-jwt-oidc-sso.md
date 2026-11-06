@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Private Key JWT Support for OAuth 2.0 Client Authentication, OAuth outbound, OAuth authentication, Access Management]
+breadcrumb: [Private key JWT support for OAuth 2.0 client authentication, OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure Private Key JWT for OIDC based SSO
@@ -18,14 +18,14 @@ Configure Private Key JWT for OIDC based SSO integrations.
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 You must perform the following tasks before choosing Private Key JWT for OIDC based SSO.
 
--   [Upload Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Attach a JKS certificate to your instance to use to enable the JWT client authentication.
+-   [Upload Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Attach a JKS certificate to your instance to enable the JWT client authentication.
 -   [Configure a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate.
 
-    **Note:** If you want to add **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** to the header as part of the JWT Key, you must configure the form and add the **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** field.
+    **Note:** To add **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** to the header as part of the JWT Key, you must configure the form and add the **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** field.
 
 -   [Create a JWT provider with a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md): Add a JWT provider to your ServiceNow instance.
 
@@ -49,8 +49,8 @@ To include a JWT Key for OIDC based Identity Provider, you must:
 
 5.  Select the **JWT Provider**.
 
-    \[Omitted image "jwt-oidc-sso.png"\] Alt text: JWT Provider
+    \[Omitted image "jwt-oidc-sso.png"\]
 
-    When the user authenticates, the authentication page has options to login through Okta.
+    When the user authenticates, the authentication page has options to log in through Okta.
 
 

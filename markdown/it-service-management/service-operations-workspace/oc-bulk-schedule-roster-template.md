@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-08-21"
 reading_time_minutes: 5
 keywords: [oncall\_roster\_template.xlsx, on-call roster template, bulk create schedules]
-breadcrumb: [Create on-call schedules for multiple groups, Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Create on-call schedules for multiple groups, Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # On-call bulk roster template Excel file

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -21,24 +21,6 @@ The NIST CSF navigation structure facilitates the management of the NIST cyberse
 1.  The risk executives and/or the security officers identify categories and subcategories as cybersecurity policies.
 2.  The risk executives and/or the security officers prioritize cybersecurity activities.
 3.  Monitor the NIST CSF Overview dashboard
-
-## Roles and permissions in the NIST CSF application
-
-To effectively manage the tasks within the NIST CSF application, specific roles are assigned to key stakeholders:
-
--   Risk Executives are assigned the role: sn\_irm\_nist\_csf.risk\_executive
--   Security Officers are assigned the role: sn\_irm\_nist\_csf.security\_officer
-
-These roles enable users to perform the following critical activities:
-
--   Identify categories and subcategories as cybersecurity policies
--   Create and manage cybersecurity activities
--   Generate and orient target profiles
--   Conduct gap analysis to assess alignment with desired outcomes
-
-**Note:**
-
-To create and manage controls, users must have the sn\_compliance.user role or a higher-level compliance role.
 
 -   **[Identify the framework core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/identify-framework-core.md)**  
 Within the NIST CSF application, the **Framework Core** section is used to identify categories and subcategories as cybersecurity policies and their statement policies.

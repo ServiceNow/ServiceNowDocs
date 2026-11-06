@@ -1,51 +1,46 @@
 ---
-title: Configure the Impact Store Application
-description: The tasks are outlined that are required to install and then configure the Impact Store Application using Guided Setup.
+title: Configuring Impact
+description: The tasks are outlined to install and set up the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configuring-impact-platform.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-04"
-reading_time_minutes: 2
-breadcrumb: [Configuring Impact, Impact]
+last_updated: "2026-10-03"
+reading_time_minutes: 1
+breadcrumb: [Impact]
 ---
 
-# Configure the Impact Store Application
+# Configuring Impact
 
-The tasks are outlined that are required to install and then configure the Impact Store Application using Guided Setup.
+The tasks are outlined to install and set up the Impact Store Application.
 
-Guided setup provides a sequence of tasks that help you configure the Impact Store Application in your ServiceNow instance.
+## Set up Impact
 
-The configuration and connection steps must be performed for each instance to connect to the Impact Delivery Instance for multi-instance configurations. See [Impact multi-instance-support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-multi-instance-support.md) for additional configuration information.
+The Impact Setup Hub is the way to install and configure the Impact Store Application, with install built directly into the same flow.
 
-Automated registration, the preferred method, initiates the connection and the registration to the Impact Delivery Instance provider instance into combined tasks.
+<table id="table_setup-hub-card" class="nav-card"><tbody><tr><td align="center">
 
-**Note:** Regulated and GCC customers are required to perform Manual registration. See [Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use_manual_registration_configure_impact_store_application.md).
+[Use the Impact Setup Hub\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Install Impact, if needed, and complete setup from the Product Hub page.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use-impact-setup-hub.md)
 
-Follow the individual topics for each step of the Impact Guided setup.
+</td><td align="center">
 
-1.  [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/install-impact-innovation-lab.md)  
-Follow these instructions to install the Impact Store Application.
-2.  [Use Guided Setup for Impact Store Application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md)  
-Use Impact Guided Setup to follow a sequence of tasks that help you configure the Impact Store Application on your ServiceNow instance.
-3.  [Use Guided Setup to onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/onboard_users_impact_store_application.md)  
-Onboard new and existing users to the Impact Store Application.
-4.  [Assign users to Scan Engine groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-users-scan-engine-groups.md)  
-In addition to assigning Impact users to groups, the Platform Health users must also be part of a group.
-5.  [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md)  
+[Activate the ServiceNow Otto skill for Impact\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Get assistance from generative AI experiences to help with your instance faster.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
+
+</td></tr></tbody>
+</table>**Note:** Impact Guided Setup remains available for a period of time as a legacy path. Install from the ServiceNow Store first, then open Guided Setup. See [Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md).
+
+1.  [Use the Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use-impact-setup-hub.md)  
+Use the Impact Setup Hub to install Impact and complete a sequence of tasks that configure it on your ServiceNow instance.
+2.  [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-roles.md)  
+Assign users to the role groups that control access to Impact, Platform Health, and the Now Assist panel.
+3.  [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md)  
 Use Impact Guided Setup to set up the minimum required configuration options in order to run the first system scan.
-6.  [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/run-scan-engine.md)  
-An initial full Scan Engine completion is required to set a baseline from a series of tasks performed that tune the instance environment to complete future scans quickly and efficiently.
-7.  [Run the Service Exchange pre-configuration scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/perform_pre_configuration_health_checks_impact_store_app.md)  
-Track errors on recent transactions, see connection status, run health checks, and receive recommendations to improve the health of your Impact instance for connection with Service Exchange.
-8.  [Use automated registration to connect to the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/start-automated-registration-IDI.md)  
-The automated registration process simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
-9.  [Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/verify-impact-data-connection.md)  
-During Impact Guided Setup automated registration, a status is provided to indicate a successful connection. Use the Verify the Connection step to track the progress.
-10. [Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/initiate-migration-idi.md)  
-After the connection is established between your Impact Store Application and the Impact Delivery Instance, next migrate your data.
-11. [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/hop-access-impact-squad.md)  
+4.  [Register and connect to the data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/initiate-registration.md)  
+Automated registration initiates, establishes, and verifies the secure connection to the Impact Delivery Instance, the provider, into one combined task.
+5.  [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/hop-access-impact-squad.md)  
 Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
+6.  [Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md)  
+Use Impact Guided Setup to follow a sequence of tasks that help you configure the Impact Store Application on your ServiceNow instance.
 
-**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact.md)
+**Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-landing-page.md)
 

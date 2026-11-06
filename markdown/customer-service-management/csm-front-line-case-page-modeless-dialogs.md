@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 14
-breadcrumb: [Front-line case page, CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Modeless dialogs
@@ -23,11 +23,11 @@ After opening a modeless dialog, agents can move it around the screen and put it
 
 ## Thin compose modeless dialogs
 
-The thin compose modeless dialog feature incorporates modeless dialogs into the activity stream. It enables agents to initiate a comment, work note, or email in the activity stream and then open the text in a modeless dialog. Thin compose modeless dialogs:
+The thin compose modeless dialog feature incorporates modeless dialogs into the activity stream. It enables agents to initiate a comment, work note, or email from the activity stream in a modeless dialog. Thin compose modeless dialogs:
 
--   Auto-expand to accommodate the text.
+-   Auto expand to accommodate the text.
 -   Can be manually resized.
--   Can be minimized after they're opened.
+-   Can be minimized after they are opened.
 -   Have the rich text editor enabled even when the **glide.ui.journal.use\_html** system property is set to false.
 
 Thin compose modeless dialogs are available on the following record pages:
@@ -100,7 +100,7 @@ Minimize a modeless dialog
 
 </td><td>
 
-To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs are added to the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: Minimize modeless dialogs icon n the action bar\) menu in the action bar and appear in a list in this menu.
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-bottom-utility-bar.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Open a minimized modeless dialog
 
 </td><td>
 
-Select the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: minimize modeless dialogs menu\) menu in the action bar and then select an item from the list.Items in the Minimize modeless dialogs menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
+Select a minimized modeless dialog from the dock to restore it. Items in the dock appear with the action type \(email, comment, or work note\) and an abbreviated title.
 
 </td></tr><tr><td>
 
@@ -183,7 +183,7 @@ Minimize a modeless dialog
 
 </td><td>
 
-To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs are added to the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: minimize modeless dialogs menu icon\) menu in the action bar and appear in a list in this menu.
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-bottom-utility-bar.md).
 
 </td></tr><tr><td>
 
@@ -191,7 +191,7 @@ Open a minimized modeless dialog
 
 </td><td>
 
-Select the Minimize modeless dialogs \(\[Omitted image "modeless-dialog-minimized-window.png"\] Alt text: minimize modeless dialogs menu icon\) menu in the action bar and then select an item from the list.Items in the Minimize modeless dialogs menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
+Select a minimized modeless dialog from the dock to restore it. Items in the dock appear with the action type \(email, comment, or work note\) and an abbreviated title.
 
 </td></tr><tr><td>
 
@@ -230,15 +230,15 @@ Apply a template to an email
 
 To apply a template to an email:
 
-1.  Select the Apply templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\) in the Compose email modeless dialog footer to display a list of available templates.
+1.  Select the Apply templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Apply templates icon\) in the Compose email modeless dialog footer to display a list of available templates.
 
-The Template preview modal displays the available email templates. It doesn't display quick messages or response templates.
+The Template preview modal displays the available email templates. It does not display quick messages or response templates.
 
 2.  Select a template from the list. You can also search for a specific template.
 
 The system adds the contents of the template to the body of the email.
 
-**Note:** If no templates are available, the icon doesn't appear in the footer.
+**Note:** If no templates are available, the icon does not appear in the footer.
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Open a draft email in a subtab
 
 </td><td>
 
-Select the Pop out icon \(\[Omitted image "csm-email-modeless-dialog-pop-out.png"\] Alt text: Compose email pop out icon\) in the Compose Email window header to open the draft email in a subtab.The Compose Email window closes when the email opens in the subtab.
+Select the Pop out icon \(\[Omitted image "modeless-dialog-pop-out-icon.png"\] Alt text: modeless dialog pop out icon which is a smaller solid square within a larger square\) in the Compose Email window header to open the draft email in a subtab.The Compose Email window closes when the email opens in the subtab.
 
 </td></tr><tr><td>
 
@@ -329,13 +329,21 @@ You can expand and collapse the email header as needed by selecting the expand h
 
 When the email header is expanded, you can edit the information in these fields. When the email header is collapsed:
 
--   The names in the **To**, **Cc**, and **Bcc** fields are combined into one line. If there's a long list of recipients, some of the names are replaced with "and more."
+-   The names in the **To**, **Cc**, and **Bcc** fields are combined into one line. If there is a long list of recipients, some of the names are replaced with "and more".
 -   The subject is displayed in a second line.
--   The fields aren't editable.
+-   The fields are not editable.
 
-When you create an email or forward an email, the header is expanded by default and displays the **To** and **Subject** fields. If you expand the **Cc** and **Bcc** fields, the collapse header icon is displayed.
+When you create a new email or forward an email, the header is expanded by default and displays the **To** and **Subject** fields. If you expand the **Cc** and **Bcc** fields, the collapse header icon is displayed.
 
 When you reply to an email, the header is collapsed by default. Expanding the header shows all the fields that contain information.
+
+## Draft indicators
+
+When a draft exists, visual indicators appear on composer tabs to show unsaved content:
+
+-   Email tab: Displays "Email \(Draft\)" text next to the tab name.
+-   Work notes tab: Displays a dot indicator next to the tab name.
+-   Comments tab: If the Comments tab is configured on a page, it also displays a dot indicator next to the tab name when a draft exists.
 
 ## Compose Email modeless dialog footer icons
 
@@ -363,7 +371,7 @@ Apply template \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\
 
 </td><td>
 
-Select this icon to display a list of available templates. You can select a template from the list or search for a specific template. The list can display up to 10 templates. Selecting a template applies that template to the draft email.**Note:** If no templates are available, the icon doesn’t appear in the footer.
+Select this icon to display a list of available templates. You can select a template from the list or search for a specific template. The list can display up to 10 templates. Selecting a template applies that template to the draft email.**Note:** If no templates are available, the icon does not appear in the footer.
 
 </td></tr><tr><td>
 
@@ -438,9 +446,24 @@ Selecting **Post Work Notes** adds the content to the **Work notes** field on th
 </td></tr></tbody>
 </table>If text already exists in the **Additional comments** or **Work notes** fields, applying a template opens a modeless dialog and adds the template content. Selecting **Undo** removes the template content from the modeless dialog and replaces it with the existing text from the fields on the Case record.
 
+## Viewing attachments in modeless dialogs
+
+Agents can view attachments in modeless dialogs rather than a full-screen view. This feature enables agents to view attachments while referencing the underlying case or interaction pages.
+
+The **Open attachment preview in modeless window** UI Builder property controls the attachment display. This property is available at the workspace level and is set to true by default. When enabled, agents can do the following:
+
+-   Select an attachment to open the file in a modeless dialog.
+
+    When an attachment is already open in a modeless dialog and a second attachment is opened, the second attachment opens in the same modeless dialog.
+
+-   Navigate through multiple attachments using a carousal.
+-   Download and delete attachments.
+
+**Note:** Agents can view attachments in modeless dialogs when the attachments are available in the contextual side panel or in the activity stream. Viewing attachments from other locations such as the email composer or forms continues to use the full-page preview.
+
 ## Updating the glide.ui.journal.use\_html property
 
-The Rich Text Editor \(RTE\) is enabled for modeless dialogs and the thin compose modeless dialog feature. It isn't enabled for the instance unless the **glide.ui.journal.use\_html** system property is set to true.
+The Rich Text Editor \(RTE\) is enabled for modeless dialogs and the thin compose modeless dialog feature. It is not enabled for the instance unless the **glide.ui.journal.use\_html** system property is set to true.
 
 When you enter text in a comment or work note modeless dialog, the system adds that same text to the **Additional comments** and **Work notes** fields on the case record. HTML tags can appear along with the text in these fields.
 

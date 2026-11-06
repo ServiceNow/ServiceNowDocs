@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-analyze-applications-by-capability.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Use bubble chart view, Working with application rationalization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Analyze applications using the bubble chart
@@ -21,6 +21,8 @@ Role required: sn\_apm.apm\_analyst
 ## About this task
 
 You can narrow down the number of business applications that may be viewed, based on their application indicator scores.
+
+You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-insights-into-ba.md).
 
 ## Procedure
 
@@ -38,7 +40,7 @@ You can narrow down the number of business applications that may be viewed, base
 
         **Note:**
 
-        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Create bubble charts for application strategies - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/setup-bubble-chart-for-appln-strategy.md).
+        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-indicator.md).
         -   For a bubble to be displayed on the bubble chart, the indicator scores for the selected fiscal period must be available for both X and Y-axis indicators.
     -   Bubble size: The bubble size is based on indicators related to business applications. The indicator scores determine the size of the bubble.
 
@@ -75,8 +77,4 @@ You can narrow down the number of business applications that may be viewed, base
 [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 
 [Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
-
-[Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-bubble-chart-view.md)
-
-[Apply filters on the Application Rationalization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-apply-filters-app-rat.md)
 

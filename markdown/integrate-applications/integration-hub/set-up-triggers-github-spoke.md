@@ -1,13 +1,13 @@
 ---
 title: Set up triggers for the GitHub spoke
-description: Set up the trigger to generate the secret and callback URL on your ServiceNow instance.Activate the trigger definition to generate the secret and callback URL on your ServiceNow instance for the GitHub spoke.Set the secret and callback URL to enable GitHub to securely send webhooks to your ServiceNow instance.
+description: Set up the trigger to generate the secret and callback URL on your ServiceNow instance.Activate the trigger definition to generate the secret and callback URL on your ServiceNow instance.Set the secret and callback URL to enable GitHub to securely send webhooks to your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-10-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [GitHub Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -24,9 +24,9 @@ Set up the trigger to generate the secret and callback URL on your ServiceNow in
 -   Activate and set up the GitHub spoke.
 -   Role required: admin.
 
-## Activate the trigger definition on ServiceNow instance for the GitHub spoke
+## Activate the trigger definition on ServiceNow instance
 
-Activate the trigger definition to generate the secret and callback URL on your ServiceNow instance for the GitHub spoke.
+Activate the trigger definition to generate the secret and callback URL on your ServiceNow instance.
 
 ### Before you begin
 
@@ -107,7 +107,7 @@ Payload URL \*
 
 </td><td>
 
-Option to provide GitHub the payload URL that GitHub uses to send the payload via the webhook.Enter the URL that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.md).
+Option to provide GitHub the payload URL that GitHub uses to send the payload via the webhook.Enter the URL that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Secret
 
 </td><td>
 
-Option to provide the secret that the ServiceNow verifies when it receives the webhook from GitHub.Enter the secret that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.md).
+Option to provide the secret that the ServiceNow verifies when it receives the webhook from GitHub.Enter the secret that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.md).
 
 </td></tr><tr><td>
 

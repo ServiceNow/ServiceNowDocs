@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/explore-sales-territory-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Territory Management​

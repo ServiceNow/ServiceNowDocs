@@ -1,20 +1,20 @@
 ---
 title: Card bot response control
-description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. This information can include rich content such as a video or image.
+description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-card-output.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Card bot response control
 
-Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. This information can include rich content such as a video or image.
+Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
 
 A card can contain record information, an image, or a YouTube video content in a compact format. The compact format is designed for readability within the chat window.
 
@@ -24,7 +24,7 @@ The Card bot response can show the following types of content:
 -   Image: Displays a large or small image that you provide, along with a title and description. The property sheet provides a pre-configured template for the card layout. Specify the title, description, and the image source.
 -   YouTube video: Displays in an inline video player if supported on the channel. The image is displayed along with a title, description, and hyperlink to relevant content.
 
-    In the Zurich release, only YouTube videos are supported.
+    In the Brazil release, only YouTube videos are supported.
 
     **Tip:** You can also use the [Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-video-bot-response.md) to include YouTube videos in conversations. The Video bot response control includes a navigation button that pauses the conversation. If you want the user to watch the video before continuing with the conversation, use this navigation button. When users have finished watching the video, they can click this navigation button to continue with the conversation.
 
@@ -60,7 +60,7 @@ Type of card to be used. Choose one of the following options:-   **Record**
 -   **Small image with text**
 -   **YouTube Video Card**
 
-**Note:** In the Zurich release, only YouTube video cards are supported.
+**Note:** In the Brazil release, only YouTube video cards are supported.
 
 
 </td></tr><tr><td class="sub-head" colspan="2">
@@ -204,42 +204,6 @@ Constraints
 
 </th></tr></thead><tbody><tr><td>
 
-Web UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Mobile UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-ServiceNow Otto panel
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Record cards and record cards with action only.
-
-</td></tr><tr><td>
-
 Microsoft Teams
 
 </td><td>
@@ -264,30 +228,6 @@ Conversational Integration with Slack Version 2.0.0 and later.The video control 
 
 </td></tr><tr><td>
 
-Workplace
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Image card output not available.Facebook apps no longer support vertical list templates. The card layout uses a horizontal, scrollable carousel template effective August 15, 2019. Cards also feature a button template.
-
-</td></tr><tr><td>
-
-Facebook Messenger
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
 SMS Twilio
 
 </td><td>
@@ -300,43 +240,19 @@ Records and image cards only.
 
 </td></tr><tr><td>
 
-LINE
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Records and image cards only.
-
-</td></tr><tr><td>
-
-WhatsApp \(powered by Twilio\)
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Records and image cards only.
-
-</td></tr><tr><td>
-
 WhatsApp
 
 </td><td>
 
-Supported
+Partial support
 
 </td><td>
 
-In record card, the title and fields together have a limit of 1,024 characters.In a YouTube video card, the title, link, and description combined can contain up to 4,096 characters.
+Records and image cards only.
 
 </td></tr><tr><td>
 
-Apple Messages for Business
+Google Chat
 
 </td><td>
 
@@ -345,18 +261,6 @@ Supported
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-Alexa \(Voice\)
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Some types of output are only available on devices with screens. For nonscreen devices, the card title is read. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).
 
 </td></tr></tbody>
 </table>## Example Glide record query
@@ -429,11 +333,24 @@ Card output
 
 The Card response layout for images may vary across channels.
 
-|Response properties|Card output|
-|-------------------|-----------|
-|\[Omitted image "va-card-image-props-small-image.png"\] Alt text: Basic properties include the node name, card type, template, title, description, image link, and image alt text.| |
+<table id="table_tjb_mrr_gpb"><thead><tr><th>
 
-## Example Card bot response with video content
+Response properties
+
+</th><th>
+
+Card output
+
+</th></tr></thead><tbody><tr><td>
+
+\[Omitted image "va-card-image-props-small-image.png"\] Alt text: Basic properties include the node name, card type, template, title, description, image link, and image alt text.
+
+</td><td>
+
+\[Omitted image "va-card-small-image-example-.png"\] Alt text: The user asks, "When do we announce earnings?" A card is returned with a header that reads, "Save the date \| Q1 Earnings Call."
+
+</td></tr></tbody>
+</table>## Example Card bot response with video content
 
 The way the Card bot response displays videos may vary across channels. For example, the display you see in Slack messages may be different from what you see on Microsoft Teams or Workplace from Facebook. Also, if an embedded player is supported on that channel, the player is included in the display. For more information about channels, see the documentation for the channel that you're using.
 
@@ -451,8 +368,10 @@ Card output
 
 </td><td>
 
-\[Omitted image "Card-MSteams-03.png"\] Alt text: Microsoft Teams video card, showing header title Video Example, and placeholder line Video Example Description.
+\[Omitted image "youtube-video-card-output-all-opts.png"\] Alt text: Card that reads, "Chief Holiday Officer \| Let's workflow it." The YouTube video is embedded beneath and displays the linked title and description.
+
+ \[Omitted image "Card-MSteams-03.png"\] Alt text: Microsoft Teams video card, showing header title Video Example, and placeholder line Video Example Description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

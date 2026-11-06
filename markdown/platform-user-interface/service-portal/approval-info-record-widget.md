@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ The Approval Info Record widget shows details about the approval request and a f
 
 ## Using the widget
 
-\[Omitted image "widgetapprovaldetails.png"\] Alt text: Approval Info Record widget showing all of the information available about the approval including comments by the requester.
+\[Omitted image "image.widgetapprovaldetails"\] Alt text: Approval Info Record widget showing all of the information available about the approval including comments by the requester.
 
 Configure the field values and the order of the fields from Service Portal Approval Configuration. For more information, see [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/configure-approval-assistance-ai-agent.md).
 

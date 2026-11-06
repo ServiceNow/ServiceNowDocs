@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configuring-predeictive-intelligence.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up FSM reports and analytics, Configure, Field Service Management]
+breadcrumb: [FSM reports and analytics, Configure, Field Service Management]
 ---
 
 # Configuring Predictive Intelligence for Field Service Management

@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -69,7 +69,7 @@ Phase 3
 
     3.  If multiple alerts are present, open one to determine if it is related to the other alert, or if the underlying issue is the same in both alerts.
 
-        For example, an alert might be associated with a web server and another alert might exist for a database issue. Correlate the web server alert as secondary and the database alert as primary.
+        For example, an alert might be associated with a web server while another alert exists for a database issue. Correlate the web server alert as a secondary alert with the database alert as the primary alert.
 
     4.  Open the secondary alert, click the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\) in the **Parent** field, and then select the primary alert.
 
@@ -189,7 +189,7 @@ As an Event Management operator, you can also launch a web application from an a
 -   **[Associate a knowledge base article with an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-associate-kb.md)**  
 As an Event Management operator, you can associate a knowledge base \(KB\) article with the alert to capture additional information about the alert. This might include a procedure that someone has to follow to resolve the underlying issue on your network, or a best practice to prevent the issue from reoccurring.
 -   **[Put an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-put-alert-into-maintenance.md)**  
-As an Event Management operator, you can put an alert into maintenance if the alert does not require any further action but you still want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
+As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you still want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
 
 **Parent Topic:**[What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/operator-process.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a report from an imported spreadsheet, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create a report from an imported spreadsheet, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Edit an imported data source
@@ -18,15 +18,17 @@ You can edit imported Excel spreadsheets \(`.xlsx` files\) of data maintained ou
 
 ## Before you begin
 
-Role required: None, but only the person who imported the data source can edit it.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ## About this task
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
 
-2.  Click the name of a report that uses to imported data source to open the report in the Report Designer.
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
+
+2.  Select the name of a report that uses to imported data source to open the report in the Report Designer.
 
 3.  On the **Data** tab, click the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text:\) next to the name of the external import.
 

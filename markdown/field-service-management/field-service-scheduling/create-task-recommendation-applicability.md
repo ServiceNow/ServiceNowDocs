@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Map applications to Intelligent Task Recommendation policies
@@ -18,7 +18,7 @@ Map applications to task recommendation policies. Provide access to these polici
 
 ## Before you begin
 
-Role required: admin, wm\_admin
+Role required: admin, wm\_admin, sn\_task\_recommend.task\_rec\_admin
 
 ## About this task
 

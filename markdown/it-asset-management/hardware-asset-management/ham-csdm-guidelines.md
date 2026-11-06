@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Applying the CSDM guidelines to Hardware Asset Management
@@ -109,4 +109,6 @@ If you have opted-in to CSDM in the releases before Xanadu, synchronization of t
 From the Xanadu release onward, when you opt in to CSDM, the life-cycle fields are directly synchronized between the asset and CI.
 
 For more details on synchronization of life-cycle fields, see [How life-cycle values for Asset, CI, and IBI are synced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md).
+
+**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configuring-ham.md)
 

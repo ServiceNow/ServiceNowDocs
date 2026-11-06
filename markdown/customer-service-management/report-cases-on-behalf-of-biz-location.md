@@ -1,30 +1,32 @@
 ---
-title: Create cases for a business location in the Business Location Service Portal
-description: As a staff member with the location agent role, create and manage cases for your business locations.
+title: Create cases for a business organization in the Business Organization Support Portal
+description: As a staff member with the location agent role, create and manage cases for your business organizations \(formerly business locations\) from the Business Organization Support Portal \(formerly Business Location Service Portal\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/report-cases-on-behalf-of-biz-location.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Create cases for a business location in the Business Location Service Portal
+# Create cases for a business organization in the Business Organization Support Portal
 
-As a staff member with the location agent role, create and manage cases for your business locations.
+As a staff member with the location agent role, create and manage cases for your business organizations \(formerly business locations\) from the Business Organization Support Portal \(formerly Business Location Service Portal\).
 
 ## Before you begin
 
 Role required: admin, sn\_customerservice.svc\_location\_agent, and sn\_customerservice.svc\_location\_manager
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
 ## About this task
 
 Staff members with the location agent role can do the following:
 
 -   View information for the customers at their location.
--   Create cases for an account, consumer, business location, and themselves.
--   Register staff members at an external business location.
+-   Create cases for an account, consumer, business organization, and themselves.
+-   Register staff members at an external organization.
 -   Track and update cases created at their location.
 
 ## Procedure
@@ -52,6 +54,14 @@ The record producer used for to create a case for the contributor user. When the
 -   **Business Location**: The logged-in user with the service organization contributor role.
 -   **Myself**: The logged-in user with the self-contributor role.
 
+
+</td></tr><tr><td>
+
+Reported By
+
+</td><td>
+
+Auto-populated with the logged-in user.
 
 </td></tr><tr><td>
 
@@ -168,10 +178,10 @@ Brief description of the customer question, issue, or problem.
 
 ## What to do next
 
-Similarly, you can report cases on behalf of a business location, against sold products deployed at a business location, or installed base items deployed at a business location.
+Similarly, you can report cases on behalf of a business location, against sold products deployed at a business organization, or installed base items deployed at a business organization.
 
 **Related topics**  
 
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/track-cases-for-blsp-portal.md)
 

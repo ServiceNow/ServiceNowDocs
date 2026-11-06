@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create demand tasks, Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: timecard\_user
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d109356e74">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d114784e74">
 
 Assignment type
 
-</th><th align="left" id="d109356e77">
+</th><th align="left" id="d114784e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d109356e83">
+</th></tr></thead><tbody><tr><td id="d114784e83">
 
 **Demand task assigned to you**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the **Add to Time Sheet** link.
 
 
-</td></tr><tr><td id="d109356e107">
+</td></tr><tr><td id="d114784e107">
 
 **Demand task assigned to you as an additional assignee**
 

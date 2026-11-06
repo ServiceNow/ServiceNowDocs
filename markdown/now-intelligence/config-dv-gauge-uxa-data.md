@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-dv-gauge-uxa-data.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Gauge visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Gauge visualizations, Create, Data visualizations, Platform Analyti
 
 When you select a Usage Insights data source for a gauge visualization, the following Data configuration options are available.
 
-**Note:** If you add a Platform Analytics data visualization with Usage Insights \(UXA\) data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
+**Note:** If you add a Platform Analytics data visualization with Usage Insights data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 

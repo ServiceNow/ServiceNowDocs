@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/notify-users-when-taskplan-template-is-shared.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sharing task plan templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

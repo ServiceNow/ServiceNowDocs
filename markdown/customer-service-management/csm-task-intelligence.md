@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-task-intelligence.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -108,14 +108,14 @@ Use the Similar Case Recommendation feature to quickly locate similar cases that
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Task Intelligence for Customer Service application
 
 The Task Intelligence for Customer Service application \(com.snc.csm\_ml\_task\) is available from the ServiceNow Store. This application has the following plugin dependencies:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)
@@ -138,4 +138,18 @@ Use the Task Intelligence features to complete the following tasks:
 -   Review Task Intelligence analytics and prediction history
 
 For more information about these tasks, see [Use Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-task-intelligence.md).
+
+## AI Prediction Banner Display Behavior
+
+AI prediction banner display in CRM Workspace: AI prediction banners in CRM Workspace are controlled by specific client-side and back end configurations that determine when and how prediction results are displayed to agents.
+
+Client-side control: The AI Banner Display Client controls the functionality of prediction banners in CRM Workspace. This is the current implementation that replaces the deprecated version.
+
+Default display behavior: The displayBanner property is set to false by default in the back end logic. This means that AI prediction banners are not automatically displayed unless explicitly configured to do so.
+
+Default page requirement: AI prediction banners only work on the default page of the workspace. If you have customized workspace pages or are using non-default page layouts, the prediction banners will not display.
+
+Standard UI Form versus workspace display: There is a clear distinction between how prediction results are displayed in the Standard UI form \(back end\) and how they are displayed in CRM Workspace. Predictions may be available and processing correctly in the Standard UI form, but the CRM Workspace display requires proper client-side configuration through the AI Banner Display Client to surface these predictions to agents.
+
+**Tip:** When troubleshooting AI prediction banner visibility issues, verify both the back end prediction processing and the workspace client-side display configuration. Ensure you are using the default workspace page layout for banner functionality.
 

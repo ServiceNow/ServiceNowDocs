@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework \(RMF\) step 1 - Categorize the authorization package
+title: RMF step 1 - Categorize the authorization package
 description: In the Categorize step, you define the criticality or sensitivity of your information system according to potential worst-case scenarios. This involves selecting NIST information types for the package and using the information types to define the impact levels for the package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.html
@@ -7,28 +7,41 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Risk Management Framework \(RMF\) step 1 - Categorize the authorization package
+# RMF step 1 - Categorize the authorization package
 
 In the Categorize step, you define the criticality or sensitivity of your information system according to potential worst-case scenarios. This involves selecting NIST information types for the package and using the information types to define the impact levels for the package.
 
 ## Before you begin
 
-Role required to use **Categorize**: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.info\_system\_sec\_officer
+Role required to use **Categorize**:
 
-Role required to write to an authorization package: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.info\_system\_sec\_officer
+-   sn\_irm\_cont\_auth.system\_owner
+-   sn\_irm\_cont\_auth.info\_system\_sec\_manager
+-   sn\_irm\_cont\_auth.info\_system\_sec\_officer
 
-Role required to select information types: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.system\_owner
+Role required to write to an authorization package:
+
+-   sn\_irm\_cont\_auth.admin
+-   sn\_irm\_cont\_auth.system\_owner
+-   sn\_irm\_cont\_auth.info\_system\_sec\_manager
+-   sn\_irm\_cont\_auth.authorization\_official
+-   sn\_irm\_cont\_auth.info\_system\_sec\_officer
+
+Role required to select information types:
+
+-   sn\_irm\_cont\_auth.admin
+-   sn\_irm\_cont\_auth.system\_owner
 
 Role required to write to overridden fields on the Package form: sn\_irm\_cont\_auth.system\_owner
 
 ## About this task
 
-When you clicked **Categorize** on the Authorization Package form, an **Impact** field, an **Impact** tab, and an **Information Types** related list appeared on the form.
+When you click **Categorize** on the Authorization Package form, an **Impact** field, an **Impact** tab, and an **Information Types** related list appear on the form.
 
 ## Procedure
 

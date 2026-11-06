@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure Nokia Altiplano SGC, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Set up Nokia Altiplano
@@ -22,7 +22,7 @@ Role required: TSOM Visibility admin
 
 ## About this task
 
-Confirm you are operating in the Service Graph Connector for the Nokia Altiplano application scope. To switch to the Service Graph Connector for Nokia Altiplano scope:
+Verify the active application scope is Service Graph Connector \(SGC\) for Nokia Altiplano.
 
 1.  Select the application picker \(\[Omitted image "globe-outline-24.svg"\]\) in the header.
 2.  Search for **Nokia Altiplano**.
@@ -84,15 +84,15 @@ Confirm you are operating in the Service Graph Connector for the Nokia Altiplano
         5.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
 5.  Configure Data Collection Schedule either for bulk discovery or filtered discovery by clicking **Get Started**and then click **Configure**.
 
-<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d29628e347">
+<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d35582e357">
 
 To
 
-</th><th align="left" id="d29628e350">
+</th><th align="left" id="d35582e360">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d29628e356">
+</th></tr></thead><tbody><tr><td id="d35582e366">
 
 **Schedule data collection for bulk discovery \(Use bulk discovery data source for all devices in connection alias\)**
 
@@ -107,7 +107,7 @@ Do the following
 -   In the **Time** field, enter the time in hours, minutes, and seconds.
 
 
-</td></tr><tr><td id="d29628e413">
+</td></tr><tr><td id="d35582e423">
 
 **Schedule data collection for filtered discovery \(Use Filtering Discovery data source for specific OLT filter criteria for each connection alias\)**
 
@@ -140,12 +140,16 @@ Do the following
 
 The configured connections, aliases, credentials, and import schedules can also be accessed from the navigation Navigate to **All** &gt; **Service Graph Connectors** &gt; **Nokia Altiplano**.
 
+The following snapshot helps you confirm the configuration set up of Nokia Altiplano service graph connector.
+
+\[Omitted image "Complete-guided-setup.png"\] Alt text: Nokia Altiplano guided setup that has completed all the steps.
+
 **Related topics**  
 
 
 [Set up multiple Nokia Altiplano instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.md)
 
-[Configure concurrent import and parallel loading for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
+[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
 
 [Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 

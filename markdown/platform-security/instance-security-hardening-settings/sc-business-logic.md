@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -22,9 +22,9 @@ The following are some security controls that an administrator can configure to 
 Configure the **sn\_kb\_social\_qa.max\_comments\_per\_user\_daily** property to restrict the number of QA comments per day.
 -   **[Limit max subscriptions per user per day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-limit-max-subscriptions-per-user-per-day.md)**  
 Configure the **sn\_kb\_social\_qa.max\_subscriptions\_per\_user\_daily** property to limit the max number subscriptions a user can subscribe to in a day.
--   **[Minimize SMTP Recipient Quantity \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.md)**  
+-   **[Minimize SMTP Recipient Quantity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.md)**  
 The **glide.email.smtp.max\_recipients** specifies the maximum number of recipients the instance can list in the **To:** line for a single email notification.
--   **[Timeout Guest Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-timeout-guest-sessions.md)**  
+-   **[Timeout guest sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-timeout-guest-sessions.md)**  
 Use a system property to control the inactive session timeout for unauthenticated users.
 -   **[Validate remote host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-validate-remote-host.md)**  
 Set the property to true to prevent bad actors from using internal port scanning in your network.

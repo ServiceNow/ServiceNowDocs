@@ -1,5 +1,5 @@
 ---
-title: Agentic AI ServiceNow Otto for Incident Management
+title: Agentic AI in ServiceNow Otto for Incident Management
 description: Use the ITSM Incident Management agentic workflows to manage, resolve and close incidents and incident tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-ai-workflow-im.html
@@ -7,13 +7,13 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Agentic AI ServiceNow Otto for Incident Management
+# Agentic AI in ServiceNow Otto for Incident Management
 
 Use the ITSM Incident Management agentic workflows to manage, resolve and close incidents and incident tasks autonomously.
 
@@ -36,9 +36,4 @@ The agentic workflow uses the following AI agents:
 -   Incident resolution details AI agent
 -   Incident knowledge article AI agent
 -   Incident known error article AI agent
-
--   **[ITSM Wrap-up and resolve incident agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-wrap-up-resolve-incident-aw.md)**  
-Use the Wrap-up and resolve incident agentic workflow to generate resolution notes and select resolution code to resolve an incident. Attach the Knowledge Base \(KB\) article or create a draft Knowledge article. Attach a Known Error \(KE\) article to the incident record when the resolution code is selected as Known Error. Update duplicate incident information when the resolution code is Duplicate.
-
-**Parent Topic:**[Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 

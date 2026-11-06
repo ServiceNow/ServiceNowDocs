@@ -1,5 +1,5 @@
 ---
-title: Block Expired Anti-CSRF Tokens \[Updated in Security Center 1.5\]
+title: Block Expired Anti-CSRF Tokens
 description: Block expired CSRF tokens to prevent cross-site request forgery attacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-block-expired-csrf-tokens.html
@@ -7,35 +7,111 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Block Expired Anti-CSRF Tokens \[Updated in Security Center 1.5\]
+# Block Expired Anti-CSRF Tokens
 
 Block expired CSRF tokens to prevent cross-site request forgery attacks.
 
-## Overview
+The **glide.security.csrf\_previous.allow** system property enables use of an expired secure token to identify and validate incoming requests. This token is used to prevent cross-site request forgery attacks.
 
-Cross-site request forgeries are a type of malicious exploit whereby unauthorized commands are performed on behalf of an authenticated user.
+Ensure that the property **glide.security.csrf\_previous.allow** is set to **false**.
 
-## Configuration details
+## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Overview|Controls the usage of an expired secure token to identify and validate incoming requests. Set to **false** to prevent a previously expired token to validate an incoming request.|
-|Configuration name|**glide.security.csrf\_previous.allow**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Data type|Boolean|
-|Recommended value|**false**|
-|Default value|**true**|
-|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
-|Security risk|**Severity score**: 6.5|
-|**Severity rating per CVSS score**: Medium|
-|**Security risk details**: Enforces a strong anti-CSRF mechanism to protect authenticated functionality, and effective anti-automation or anti-CSRF protects unauthenticated functionality.|
-|Dependencies and prerequisites|None|
-|References|[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md), [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery).|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.security.csrf\_previous.allow**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 6.5
+-   CVSS rating: Medium
+-   Security risk details: Allowing the use of previous or expired CSRF tokens exposes the application to replay attacks, enabling attackers to reuse valid requests and potentially perform unauthorized actions on behalf of legitimate users.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

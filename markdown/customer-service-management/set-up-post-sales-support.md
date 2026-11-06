@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/set-up-post-sales-support.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configure Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Setting up the Customer Contracts and Entitlements application
 
 Configure the features and components of Customer Contracts and Entitlements to enable a seamless, end-to-end service experience including after sales services for your customers.
 
-As a user with the admin role, you can set up the Customer Contracts and Entitlements application to enable users to create entitlements and service contracts for users.
+As a user with the admin role, you can set up the Customer Contracts and Entitlements application to enable users to create entitlements and customer contracts for users.
 
 <table id="table_pxs_xwx_gyb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Create a characteristic to add to an entitlement. A characteristic refers to the
 
 </td><td>
 
-Add a user to your instance to enable them to log in and use designated application features. After adding the user, you make them approver to review service contracts.
+Add a user to your instance to enable them to log in and use designated application features. After adding the user, you make them approver to review customer contracts.
 
 </td></tr><tr><td>
 
@@ -46,15 +46,15 @@ Add a user to your instance to enable them to log in and use designated applicat
 
 </td><td>
 
-Assign roles to users. Use this feature to grant the sn\_customerservice\_manager \(CSM manager\) role to a newly added user and authorize them to make an informed judgment to review a service contract.
+Assign roles to users. Use this feature to grant the sn\_customerservice\_manager \(CSM manager\) role to a newly added user and authorize them to make an informed judgment to review a customer contract.
 
 </td></tr><tr><td>
 
-[Create customer accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-create-csm-accounts.md)**Note:** On the Accounts form, to view the service contracts, remove the contract-related lists and configure the Service contracts related list.
+[Create customer accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-create-csm-accounts.md)**Note:** On the Accounts form, to view the customer contracts, remove the contract-related lists and configure the customer contracts related list.
 
 </td><td>
 
-Create an account and associate it to a service contract.
+Create an account and associate it to a customer contract.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Create an account and associate it to a service contract.
 
 </td><td>
 
-Create a consumer record in Customer Service Management. A consumer can be associated with a service contract in the Customer Contracts and Entitlements application.
+Create a consumer record in Customer Service Management. A consumer can be associated with a customer contract in the Customer Contracts and Entitlements application.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Create a record for a product that is sold to an account or a consumer. A sold p
 
 </td></tr><tr><td>
 
-[Create an Install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-install-base-item.md)
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-install-base-item.md)
 
 </td><td>
 

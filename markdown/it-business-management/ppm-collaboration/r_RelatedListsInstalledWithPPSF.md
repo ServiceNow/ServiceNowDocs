@@ -7,9 +7,9 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Related lists added for financials
@@ -17,8 +17,6 @@ breadcrumb: [Reference, Project Portfolio Management, Strategic Portfolio Manage
 PPM Standard adds several related lists to both the Project and Portfolio forms.
 
 ## Portfolio related lists
-
-\[Omitted image "project\_relatedlists\_portfolio.png"\] Alt text: Portfolio related lists for financials
 
 This table explains the related lists and how to create or use the records in these lists in the portfolio workbench.
 
@@ -30,8 +28,6 @@ This table explains the related lists and how to create or use the records in th
 |Planning &amp; Budgeting|Planning &amp; Budgeting of the project. For more information, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).|
 
 ## Project related lists for financials
-
-\[Omitted image "project\_relatedlists.png"\] Alt text: Project related lists
 
 This table explains the related lists for financials in a project record.
 

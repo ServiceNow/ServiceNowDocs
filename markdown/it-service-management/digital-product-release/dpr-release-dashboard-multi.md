@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Release dashboards, Explore, Digital Product Release, IT Service Management]
 ---
@@ -76,7 +76,7 @@ Policies
 
 </td><td>
 
-Number of policies across all releases, grouped by their run status.
+Number of policies across all releases, grouped by products and stacked by their run status.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Approvals
 
 </td><td>
 
-Number of approval tasks across all releases, grouped by their approval status.
+Number of approval tasks across all releases, grouped by their state.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,9 @@ Enhancements
 Number of enhancements across all releases.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-dashboard-release.md)
+</table>**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
+
+**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-dashboard-release.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Create and manage definition, Define and manage configuration, Configure, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Agreement \(SLA\) definition, Configure Service Level Agreement \(SLA\), Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Create an SLA definition

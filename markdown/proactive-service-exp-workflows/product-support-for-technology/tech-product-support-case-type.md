@@ -1,26 +1,26 @@
 ---
-title: Product Support for Technology type
-description: The Product Support for Technology type enables technology companies to provide support for digital products and services.
+title: Technology Product Support case type
+description: The Technology Product Support case type enables technology companies to provide support for digital products and services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
-# Product Support for Technology type
+# Technology Product Support case type
 
-The Product Support for Technology type enables technology companies to provide support for digital products and services.
+The Technology Product Support case type enables technology companies to provide support for digital products and services.
 
-A [case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-types.md) represents the processes and the data that are needed to resolve a specific type of customer issue. The Technology Product Support case type includes the table, roles, SLAs, email notifications, and other items needed to resolve technology issues.
+A case types represents the processes and the data that are needed to resolve a specific type of customer issue. The Technology Product Support case type includes the table, roles, SLAs, email notifications, and other items needed to resolve technology issues.
 
-The Product Support for Technology application \(sn\_tech\_product\_support\) includes the Product Support for Technology type. To view a list of available case types, navigate to **Customer Service** &gt; **Case Types** &gt; **Manage Case Types**.
+The Technology Product Support Case application \(sn\_tech\_product\_support\) includes the Technology Product Support case type. To view a list of available case types, navigate to **Customer Service** &gt; **Case Types** &gt; **Manage Case Types**.
 
-The Product Support for Technology type includes the following items.
+The Technology Product Support case type includes the following items.
 
 <table id="table_r3g_bvl_y1c"><thead><tr><th>
 
@@ -36,7 +36,7 @@ Tables
 
 </td><td>
 
-The Product Support for Technology application includes the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table. This table extends the Case table and can be extended.For a detailed description of the Product Support for Technology table, including field descriptions, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
+The Technology Product Support Case application includes the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table. This table extends the Case table and can be extended.For a detailed description of the Tech Product Support Case table, including field descriptions, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ The Product Support for Technology application includes the Tech Product Support
 
 </td><td>
 
-Roles control access to features and capabilities in the Product Support for Technology application, menu, and modules.
+Roles control access to features and capabilities in the Technology Product Support Case application, menu, and modules.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Roles control access to features and capabilities in the Product Support for Tec
 
 </td><td>
 
-Product Support for Technology cases follow a specific life cycle and move through a series of states from creation to closure.
+Technology product support cases follow a specific life cycle and move through a series of states from creation to closure.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ State flows are customized transitions from one state to another, such as when a
 
 </td><td>
 
-The Product Support for Technology application includes list views for CSM/FSM Configurable Workspace and for Core UI that appear in the application navigator.
+The Technology Product Support Case application includes list views for CSM/FSM Configurable Workspace and for Core UI that appear in the application navigator.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Email notifications are sent to the contact and, in some cases, to users on the 
 
 </td><td>
 
-Provider notifications for agents are sent following updates to Product Support for Technology cases.
+Provider notifications for agents are sent following updates to technology product support cases.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ An SLA definition includes the timing, conditions, workflows, and other informat
 
 </td><td>
 
-A record producer is a specific type of catalog item that allows end users to create task-based records from a service catalog. The Product Support for Technology application includes the following record producer: **Create a Technology Product Case**.
+A record producer is a specific type of catalog item that allows end users to create task-based records from a service catalog. The Technology Product Support Case application includes the following record producer: **Create a Technology Product Case**.
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ The case action status feature enables agents to easily identify cases that need
 
 </td><td>
 
-The Product Support for Technology type uses field indicators and field highlights to indicate information about cases.
+The Technology Product Support case type uses field indicators and field highlights to indicate information about cases.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Cases in the Resolved state can be closed automatically if customers do not take
 </td></tr></tbody>
 </table>## Roles
 
-User roles available with the Product Support for Technology application address the diverse skill sets needed to resolve complex technical issues. These roles enable users to research technical issues, collaborate with development teams, and implement advanced troubleshooting techniques.
+User roles available with the Technology Product Support Case application address the diverse skill sets needed to resolve complex technical issues. These roles enable users to research technical issues, collaborate with development teams, and implement advanced troubleshooting techniques.
 
 <table id="table_zp1_plg_n1c"><thead><tr><th>
 
@@ -165,7 +165,7 @@ Customer \[sn\_tech\_support.customer\]
 
 </td><td>
 
-Users with this role:-   Can view product support for technology cases in the Customer Service Portal.
+Users with this role:-   Can view technology product support cases in the Customer Service Portal.
 -   Have write access to the **Steps to reproduce** field.
 
 </td><td>
@@ -180,7 +180,7 @@ Customer admin\[sn\_tech\_support.customer\_admin\]
 
 </td><td>
 
-Users with this role:-   Can view product support for technology cases in the Customer Service Portal.
+Users with this role:-   Can view technology product support cases in the Customer Service Portal.
 -   Have write access to the **Steps to reproduce** field.
 
 </td><td>
@@ -195,7 +195,7 @@ Partner \[sn\_tech\_support.partner\]
 
 </td><td>
 
-Users with this role:-   Can view product support for technology cases in the Customer Service Portal.
+Users with this role:-   Can view technology product support cases in the Customer Service Portal.
 -   Have write access to the **Steps to reproduce** field.
 
 </td><td>
@@ -210,7 +210,7 @@ Partner admin\[sn\_tech\_support.partner\_admin\]
 
 </td><td>
 
-Users with this role:-   Can view product support for technology cases in the Customer Service Portal.
+Users with this role:-   Can view technology product support cases in the Customer Service Portal.
 -   Have write access to the **Steps to reproduce** field.
 
 </td><td>
@@ -225,7 +225,7 @@ Agent\[sn\_tech\_support.agent\]
 
 </td><td>
 
-An agent role for the Product Support for Technology application.
+An agent role for the Technology Product Support Case application.
 
 </td><td>
 
@@ -244,7 +244,7 @@ Creator\[sn\_tech\_support.creator\]
 
 </td><td>
 
-Users with this role can create product support for technology cases.
+Users with this role can create technology product support cases.
 
 </td><td>
 
@@ -256,7 +256,7 @@ Developer\[sn\_tech\_support.developer\]
 
 </td><td>
 
-A developer role for the Product Support for Technology application.
+A developer role for the Technology Product Support Case application.
 
 </td><td>
 
@@ -274,7 +274,7 @@ Report viewer\[sn\_tech\_support.report\_viewer\]
 
 </td><td>
 
-Provides report viewer access to product support for technology cases.
+Provides report viewer access to Technology Product Support cases.
 
 </td><td>
 
@@ -286,7 +286,7 @@ Viewer\[sn\_tech\_support.viewer\]
 
 </td><td>
 
-Provides read-only access to product support for technology cases.
+Provides read-only access to technology product support cases.
 
 </td><td>
 
@@ -298,7 +298,7 @@ Writer\[sn\_tech\_support.writer\]
 
 </td><td>
 
-Provides write access to product support for technology cases.
+Provides write access to technology product support cases.
 
 </td><td>
 
@@ -315,7 +315,7 @@ Users with the major case manager role can:-   Create major cases
 -   Add or remove child cases from major cases
 -   Add or remove impacted accounts or consumers
 
-For more information, see [Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/major-issue-management.md).
+For more information, see .
 
 </td><td>
 
@@ -334,7 +334,7 @@ Resource manager\[sn\_tech\_support.resource\_manager\]
 
 </td><td>
 
-Users with this role can assign product support for technology cases to agents.
+Users with this role can assign technology product support cases to agents.
 
 </td><td>
 
@@ -353,7 +353,7 @@ Navigation menu\[sn\_tech\_support.navigation\_menu\]
 
 </td><td>
 
-Provides access to the Product Support for Technology menu and modules in the application navigator.
+Provides access to the Technology Product Support Cases menu and modules in the application navigator.
 
 </td><td>
 
@@ -362,7 +362,7 @@ Provides access to the Product Support for Technology menu and modules in the ap
 </td></tr></tbody>
 </table>## Case states
 
-A Product Support for Technology can be in any of the following case states.
+A Technology Product Support case can be in any of the following case states.
 
 <table id="table_nyz_jg2_y1c"><thead><tr><th>
 
@@ -534,7 +534,7 @@ The agent or customer selects **Accept Solution** or the case is auto closed.
 </td></tr></tbody>
 </table>## List views
 
-The Product Support for Technology application includes list views for CSM/FSM Configurable Workspace and for Core UI. These views are displayed in the application navigator.
+The Technology Product Support Case application includes list views for CSM/FSM Configurable Workspace and for Core UI. These views are displayed in the application navigator.
 
 <table id="table_yph_xks_y1c"><thead><tr><th>
 
@@ -576,7 +576,7 @@ Technology Product Support Cases-   Draft
 
 Special handling notes bring important information to an agent's attention. You can configure special handling notes to appear based on one or more conditions, such as a specific account, contact, or product.
 
-The Product Support for Technology application includes a configuration for special handling notes. Navigate to **Special Handling Notes** &gt; **Configuration** to view the configuration for the Tech Product Support Case table \[sn\_tech\_product\_support\_case\]. This configuration includes the following related fields:
+The Technology Product Support Case application includes a configuration for special handling notes. Navigate to **Special Handling Notes** &gt; **Configuration** to view the configuration for the Tech Product Support Case table \[sn\_tech\_product\_support\_case\]. This configuration includes the following related fields:
 
 -   Account
 -   Contact
@@ -586,13 +586,13 @@ The Product Support for Technology application includes a configuration for spec
 
 Users can create special handling notes by navigating to **Special Handling Notes** &gt; **Special Handling Notes** and selecting **New**. For more information, see the following topics:
 
--   [Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OnScreenAlerts.md)
--   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-special-handling-notes.md)
--   [Create a special handling note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_CreateAnOnScreenAlert.md)
+-   
+-   
+-   
 
 ## Service definitions
 
-The Product Support for Technology application includes the following service definitions. These definitions belong to the Product Support for Technology category and are associated with the Create a Product Support for Technology catalog item.
+The Technology Product Support Case application includes the following service definitions. These definitions belong to the Technology Support category and are associated with the Create a Technology Product Case catalog item.
 
 -   Question
 -   Service Request
@@ -732,7 +732,7 @@ To access a list of email templates, navigate to **System Notification** &gt; **
 
 ## Provider notifications
 
-Provider notifications for agents are sent on the following updates to product support for technology cases. Notifications appear in the bell icon in the CSM Configurable Workspace header. To access a list of provider notifications, navigate to **System Notification** &gt; **Provider** &gt; **Notifications**.
+Provider notifications for agents are sent on the following updates to technology product support cases. Notifications appear in the bell icon in the CSM Configurable Workspace header. To access a list of provider notifications, navigate to **System Notification** &gt; **Provider** &gt; **Notifications**.
 
 |Case update|Notification|
 |-----------|------------|
@@ -743,7 +743,7 @@ Provider notifications for agents are sent on the following updates to product s
 
 ## SLA definitions
 
-The Product Support for Technology application includes the following SLA definitions.
+The Technology Product Support Case application includes the following SLA definitions.
 
 <table id="table_xsy_fcl_y1c"><thead><tr><th>
 
@@ -946,12 +946,12 @@ When a case is in the Awaiting Info state and the customer, or a customer contac
 
 For more information, see the following topics:
 
--   [Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-action-status.md)
--   [Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-action-status-csm-workspace.md) \(CSM Configurable Workspace\)
+-   
+-    \(CSM Configurable Workspace\)
 
 ## Field indicators and highlights
 
-The Product Support for Technology case type uses field indicators and field highlights to indicate information about cases. These indicators and highlights appear on columns that are displayed in the list view.
+The Technology Product Support case type uses field indicators and field highlights to indicate information about cases. These indicators and highlights appear on columns that are displayed in the list view.
 
 <table id="table_pcn_pzd_y1c"><thead><tr><th>
 
@@ -1010,12 +1010,12 @@ Field indicators and field highlights appear on the **Short description** field 
 -   Red: High severity
 -   Orange: Medium severity
 
- For more information, see [Administering case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/administer-case-account-escalation.md).
+ For more information, see .
 
 </td></tr></tbody>
 </table>## Automatically close technology product support cases
 
-The Auto Close Resolved Cases feature is available with the product support for technology case type. Cases in the Resolved state can be closed automatically if customers do not take any action.
+The Auto Close Resolved Cases feature is available with the technology product support case type. Cases in the Resolved state can be closed automatically if customers do not take any action.
 
 **Note:** This feature is active by default.
 
@@ -1027,5 +1027,5 @@ Customers receive the following notifications before a case is automatically clo
 -   Second notification: sent after 5 days
 -   Third notification: sent after 8 days
 
-For more information, see [Automatically close customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/auto-close-customer-service-case.md).
+For more information, see .
 

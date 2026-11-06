@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Discover portable software installed by package managers
@@ -34,4 +34,9 @@ For each package found on a host, the agent captures the following information:
 ## Configuring npm package discovery
 
 To begin discovering packages, you must configure package discovery. See [Configure portable software discovery in Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-package-discovery-accvc.md) for step-by-step instructions.
+
+-   **[Configure portable software discovery in Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-package-discovery-accvc.md)**  
+Configure portable software the Agent Client Collector for Visibility Content \(ACC-VC\) agent discovers by updating the config table. This ensures that only portable software that was configured is searched for and discovered.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

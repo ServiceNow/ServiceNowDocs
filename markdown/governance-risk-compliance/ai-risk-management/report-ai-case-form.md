@@ -7,9 +7,10 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report an AI case from the Employee Center, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
+keywords: [report AI case form, AI case fields, Employee Center]
+breadcrumb: [Report an AI case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Report an AI case form

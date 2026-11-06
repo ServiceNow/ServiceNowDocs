@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bcp-recovery-tasks-grid.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -185,9 +185,7 @@ Brief note about the recovery task.
 
     -   **Filter**
 
-        Apply column filter to filter data that have simple text. For example, you can filter tasks with short descriptions that talk about safety.
-
-        Use the simple number filter to filter time critical data. For example, you can apply the filter to the **Completion deadline** column to filter the tasks that have to be completed within an hour of a business disruption.
+        Apply column filter to filter data that have simple text. For example, you can filter tasks with short descriptions that talk about safety. Use the simple number filter to filter time critical data. For example, you can apply the filter to the **Completion deadline** column to filter the tasks that have to be completed within an hour of a business disruption.
 
         \[Omitted image "GroupFilter.png"\] Alt text: Group and filter tasks
 

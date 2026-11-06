@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-cost-attribute-adjustment.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create and publish a cost-based attribute adjustment
@@ -16,7 +16,7 @@ Set different product costs based on product attributes, such as model or size, 
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator or sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pricelist\_manager
 
 ## About this task
 
@@ -24,7 +24,7 @@ You select the characteristics of a product that affect the base product cost. N
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -112,7 +112,7 @@ Start date
 
 </td><td>
 
-Date and time that this attribute adjustment begins.If you want to apply the adjustment to a cost book line, the **Start date** and **End date** must be within the cost book line start and end dates.
+Date and time that this attribute adjustment begins.If you want to apply the adjustment to a cost book line, the **Start date** and **End date** must be the within the cost book line start and end dates.
 
 </td></tr><tr><td>
 

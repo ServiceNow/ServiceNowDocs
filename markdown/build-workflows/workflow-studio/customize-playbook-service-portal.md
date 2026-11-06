@@ -1,5 +1,5 @@
 ---
-title: Customize the playbook in Service Portal
+title: Customize a playbook in Service Portal
 description: Use the Service Portal Designer to customize the playbook runtime experience for Service Portal users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/customize-playbook-service-portal.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Playbooks in Service Portal, Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Customize the playbook in Service Portal
+# Customize a playbook in Service Portal
 
 Use the Service Portal Designer to customize the playbook runtime experience for Service Portal users.
 
@@ -23,7 +23,7 @@ Use the Service Portal Designer to customize the playbook runtime experience for
 
     **Note:** A key difference in Service Portal is that the playbook record generator is used instead of the record producer. The Service Portal requester enters the information for the record generator and uses the Next or Continue declarative action to move to the next activity​.
 
-    To learn more about playbook record generators, see .
+    To learn more about playbook record generators, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-record-generator-overview.md).
 
 
 ## Procedure
@@ -175,6 +175,4 @@ Prevents the URL of a running playbook in Service Portal from updating whenever 
 </td></tr></tbody>
 </table>
 Verify that you are using the official Playbook Widget for the Portal Page.
-
-**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)
 

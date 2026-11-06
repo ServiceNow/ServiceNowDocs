@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Identify similar demand records]
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
@@ -39,6 +39,8 @@ Role required: it\_demand\_user
 3.  Select the **Identify similar demands** button to detect similar demand records.
 
     The similar demands identified by AI are displayed in the top banner and the Similar Demands related list.
+
+    \[Omitted image "similar-demand-new-color.png"\] Alt text: List of similar records identified by AI.
 
 
 ## What to do next

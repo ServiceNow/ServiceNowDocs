@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Push notifications, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Push notifications, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject requests from push notifications
@@ -28,15 +28,15 @@ Role required: wm\_agent
 
 3.  Process the request.
 
-<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d26671e76">
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d27427e76">
 
 To
 
-</th><th align="left" id="d26671e79">
+</th><th align="left" id="d27427e79">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d26671e85">
+</th></tr></thead><tbody><tr><td id="d27427e85">
 
 **Accept working on the work order task notification**
 
@@ -44,7 +44,7 @@ Do this
 
 Click **Accept**
 
-</td></tr><tr><td id="d26671e97">
+</td></tr><tr><td id="d27427e97">
 
 **Reject the task notification**
 

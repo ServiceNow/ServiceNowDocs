@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 6
 keywords: [Theme field reference, Theme fields, Brand colors, Neutral colors, Shape, Logos and favicons, Mobile color mappings, Font family fields, Font face fields, Font URLs and preloading, Font registration]
-breadcrumb: [Theming with Lux, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Theming with Lux, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Theme field reference

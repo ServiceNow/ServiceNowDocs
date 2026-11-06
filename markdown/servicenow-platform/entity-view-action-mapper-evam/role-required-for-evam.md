@@ -7,9 +7,9 @@ release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [EVAM Reference, EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Entity View Action Mapper reference, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Roles required for EVAM

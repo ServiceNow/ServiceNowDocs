@@ -7,7 +7,7 @@ release: zurich
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Coaching, IT Service Management]
 ---
@@ -100,8 +100,6 @@ Grants administrative rights to create, read, or update learning libraries based
 </table>## Coaching workflow
 
 The image shows a high-level workflow on how coaching admins set up Coaching, and how managers and agents use Coaching.
-
-**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.md).
 
 \[Omitted image "coaching-workflow.png"\] Alt text: Coaching workflow
 

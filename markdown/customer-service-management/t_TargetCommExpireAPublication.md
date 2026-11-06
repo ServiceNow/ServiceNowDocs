@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommExpireAPublication.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_publications.author or sn\_publications.admin
 
 2.  Select an article that has been published.
 
-3.  Select **Expire**.
+3.  Click **Expire**.
 
     The publication **Expiry Date** is set to the current date. The publication is removed from the Active Publications list and appears on the Expired Publications list.
 

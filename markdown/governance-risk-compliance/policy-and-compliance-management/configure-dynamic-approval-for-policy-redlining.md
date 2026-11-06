@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Set up dynamic approval configuration for policy, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up dynamic approval configuration on a policy record, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Policy dynamic approval setup with redlining
@@ -83,6 +83,4 @@ To use dynamic approval for policy redlining, ensure that the redlining setup is
 
     If the policy gets rejected at any state, it is reset to the **Draft** state. Once the approvers approve the policy, it moves to the **Published** state.
 
-
-**Parent Topic:**[Set up dynamic approval configuration on a policy record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/dynamic-approval-config-for-a-policy.md)
 

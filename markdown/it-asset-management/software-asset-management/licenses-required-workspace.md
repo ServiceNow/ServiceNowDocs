@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View calculations for your licenses in workspace
@@ -185,7 +185,7 @@ License Consumption Explanation
 
 </td><td>
 
-A detailed license consumption summary post reconciliation. The summary gives you a thorough understanding of how your license rights are used, the methodology behind license calculations and the reasoning for the consumption process.
+A detailed license consumption summary post reconciliation. The summary gives you a thorough understanding of how your license rights are used, the methodology behind license calculations, and the reasoning for the consumption process.
 
 </td></tr></tbody>
 </table>7.  View the infrastructure of a configuration item and the metric attributes applied by selecting the **License consumption breakdown** tab.

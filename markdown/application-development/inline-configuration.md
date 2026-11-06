@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Inline configuration, Four configuration modes, External config with @externalConfig, Custom URL with inline-simple, Self-config with inline-auto, Custom component in the props pane, How configuration is stored, sys\_aix\_configuration, sys\_user\_preference, REST surface, Server-side resolution, Related]
-breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Inline configuration

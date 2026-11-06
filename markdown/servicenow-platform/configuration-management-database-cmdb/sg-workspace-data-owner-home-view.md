@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,9 +20,9 @@ Data Owner view in CMDB Workspace provides a filtered view for data owner users 
 
 Navigate to **Workspaces** &gt; **CMDB Workspace**, and then, in the navigation panel, select the Data Owner Home icon.
 
-Role required: sn\_cmdb\_editor or sn\_cmdb\_admin
+Role required: sn\_cmdb\_user, sn\_cmdb\_editor, or sn\_cmdb\_admin
 
-The Data Owner Home view shows users CIs that they own or manage, related health, related records, and related services and offerings. This view also provides AI-assisted insights, recommended actions, and important notifications. Service instance owners can view and manage their Service Instances.
+The Data Owner view shows users CIs that they own or manage, related health, related records, and related services and offerings. This view also provides AI-assisted insights, recommended actions, and important notifications. Service instance owners can view and manage their Service Instances.
 
 As a data owner, you can view the following types of information:
 
@@ -98,7 +98,7 @@ You can perform the following actions on the Data Owner view:
 -   Filter the data that shows in the CMDB data cards, by:
     -   Association: Select **CIs I own** to show only those CIs that you own \(CIs in which **owned\_by** is equal to the data owner user\). Select **CIs I manage** to show only those CIs that you manage or that are managed by a group that you're a member of \(CIs in which **managed\_by** is equal to one of the groups that the data owner user belongs to\). Or, select **All association types** to show both types.
     -   Classes: Select a CI class derived from the CIs specified by the association filter, or **All classes**. This filter is applied on top of the association filter.
--   Personalize the list of the CIs included in the view. You can specify conditions that limit which CIs are included, you can sort and group the list, and select a CI from the list to show it in CI Form. For more information about CI Form, see [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
+-   Personalize the list of the CIs included in the view. You can specify conditions that limit which CIs are included, you can sort and group the list, and select a CI from the list to show it in CI Form. For more information about CI Form, see [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
 -   Select related items to open a list view of the associated records.
 -   Select the Related items settings icon in the Related activity tab and select and arrange which related items categories appear in the cards in the Related activity tab.
 -   Select **CMDB Health Settings** in the Health card on the CMDB data tab to configure CMDB Health preferences. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).

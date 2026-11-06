@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ A healthy CMDB, based on health benchmarks in an organization, is essential to a
 
 </td><td>
 
-[Use CMDB Health in CMDB Workspaceor in Service Graph Workspace\[Omitted image "bus-news.svg"\] Alt text:Access CMDB Health dashboards and related tasks in CMDB Workspace views.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.md)
+[Use CMDB Health in a workspace\[Omitted image "bus-news.svg"\] Alt text:Access CMDB Health dashboards and related tasks in CMDB Workspaceor in Service Graph Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.md)
 
 </td></tr><tr><td>
 

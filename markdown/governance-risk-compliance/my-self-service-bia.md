@@ -1,18 +1,18 @@
 ---
 title: Update dependency details of a BIA in Self Service
-description: Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
+description: Contributors can update BIA dependency details including disruption duration, RPO impact analysis responses, dependency group state, and work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/my-self-service-bia.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Update dependency details of a BIA in Self Service
 
-Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
+Contributors can update BIA dependency details including disruption duration, RPO impact analysis responses, dependency group state, and work notes.
 
 ## Before you begin
 

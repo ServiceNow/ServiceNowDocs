@@ -1,24 +1,24 @@
 ---
-title: Restrict access to background script \[Updated in Security Center 1.3 and 2.0\]
-description: Configure the glide.script\_processor.admin property to set the role required for accessing the Script Background module.
+title: Restrict access to background script
+description: Use a system property to set a role requirement for accessing the Script Background module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-access-to-background-script.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict access to background script \[Updated in Security Center 1.3 and 2.0\]
+# Restrict access to background script
 
-Configure the **glide.script\_processor.admin** property to set the role required for accessing the Script Background module.
+Use a system property to set a role requirement for accessing the Script Background module.
 
-This property holds the required role to access Script Background module. If **glide.script\_processor.admin** is not set to the recommended and default value of admin, then users having a lower privileged role will be able to run background scripts on the instance. This will lead to a complete bypass of the ACL system allowing full access to tables.
+Use the **glide.script\_processor.admin** system property to set a required role to access the **Scripts - Background** module. If this property isn't set to the recommended value of `background_script_admin` or another high privileged role, users with lower privileged roles are able to run background scripts on your instance.
 
-Ensure the property **glide.script\_processor.admin** is set to the admin. This is the default value on instances.
+Ensure the property **glide.script\_processor.admin** is set to `background_script_admin`. This is also the default value.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -62,7 +62,7 @@ Recommended value
 
 </td><td>
 
-admin
+background\_script\_admin
 
 </td></tr><tr><td>
 
@@ -70,7 +70,15 @@ Default value
 
 </td><td>
 
-admin
+background\_script\_admin
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+background\_script\_admin
 
 </td></tr><tr><td>
 
@@ -88,7 +96,15 @@ Security risk
 
 -   Severity score: 8.8
 -   CVSS score: High
--   Security risk details: Not setting this property to the recommended value of **admin** lets any user run background scripts on the instance.
+-   Security risk details: Background scripts allow a complete bypass of the ACL system allowing full access to tables.
+
+</td></tr><tr><td>
+
+Functional Impact
+
+</td><td>
+
+Users without the role specified in the property are unable to access the **Scripts - Background** module, as intended.
 
 </td></tr><tr><td>
 

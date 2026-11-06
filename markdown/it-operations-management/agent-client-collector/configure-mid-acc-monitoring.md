@@ -1,24 +1,28 @@
 ---
 title: Configure a MID Server to work with Agent Client Collector Monitoring
-description: Connect agents to a MID Server to enable Agent Client Collector Monitoring functionality.
+description: Connect agents to a MID Server to enable Agent Client Collector Monitoring \(ACC-M\) functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/configure-mid-acc-monitoring.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure a MID Server to work with Agent Client Collector Monitoring
 
-Connect agents to a MID Server to enable Agent Client Collector Monitoring functionality.
+Connect agents to a MID Server to enable Agent Client Collector Monitoring \(ACC-M\) functionality.
 
 ## Before you begin
 
 Role required: agent\_client\_collector\_admin
+
+## About this task
+
+For details on configuring Agent Client Collector for log monitoring, see [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-log-analytics.md).
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workspace page, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,18 +26,18 @@ Role required: sn\_grc\_workspace.admin.
 
 2.  Select the record that you want to configure.
 
-3.  Open the record and on the form, click **here** to edit the record.
+3.  Open the record and on the form, select **here** to edit the record.
 
     On the form, fill in the fields. For more information, see [Workspace page configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/workspace-page-configuration-form.md).
 
     \[Omitted image "workspace-page-configuration-form.png"\] Alt text: Workspace page configuration
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 ## Result
 
-Workspace is customized as per the configuration and looks similar in all the GRC applications.
+Workspace is customized according to the configuration and looks similar in all the GRC applications.
 
 -   **[Workspace page configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/workspace-page-configuration-form.md)**  
 Description of field values for the workspace configuration form.

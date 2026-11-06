@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,6 +30,14 @@ Use the Kiosk Page Configuration form to create pages for the Workplace Services
 The Page Configurations created for the Workplace Services Kiosk can be further customized by using their related lists.
 -   **[Location Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/location-policy-form.md)**  
 Use the location policy form to assign a visitor policy to a workplace location, apply the policy to internal/external visitors and configure whether the policies require signatures.
+-   **[New visit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/new-visit-form.md)**  
+Use the New visit form to select a purpose, location, date and time for your visit. Additionally, add visitors and optional co-hosts
+-   **[Additional requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/additional-req-form.md)**  
+The Additional requirement form specifies visitor information that is required while adding a visitor.
+-   **[About visit-related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/wsd_visitor_management_tables.md)**  
+The Workplace Visitor Management application uses three interconnected tables to track everything that happens during a visit from the invitation to the departure. Knowing what each table does helps you configure the application, troubleshoot issues, and know where to look when you have to audit visit activity.
+-   **[Differences between Workplace Visitor Management versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/visitor-mgmt-v1-v2-differences.md)**  
+Workplace Visitor Management version 2.0.0 introduces significant architectural, data model, portal, security, and feature changes compared to earlier versions \(1.19 or earlier\).
 
 **Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
 

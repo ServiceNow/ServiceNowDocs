@@ -1,5 +1,5 @@
 ---
-title: Verify expected results
+title: Verify expected results for Hybrid Analysis
 description: Observables are generated automatically by a security incident and scanned by the application. Locate the lookup results on the security incident to verify the threat lookup has run successfully. Also view raw data and run threat lookups on child observables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.html
@@ -7,12 +7,12 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hybrid Analysis integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Verify expected results
+# Verify expected results for Hybrid Analysis
 
 Observables are generated automatically by a security incident and scanned by the application. Locate the lookup results on the security incident to verify the threat lookup has run successfully. Also view raw data and run threat lookups on child observables.
 
@@ -75,7 +75,7 @@ If you do not see results under the **Threat Lookup Results** tab, verify that t
 
 **Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Previous topic:**[Install and configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)
+**Previous topic:**[Install and configure Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)
 
 **Next topic:**[\(Optional\) Manually attach an observable for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/attach-an-observable-manually-hybrid-analysis.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/contactcenter-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Integrate, Customer Service Management]
 ---
 
@@ -18,13 +18,13 @@ Integrate your contact center platform with the ServiceNow Customer Service Mana
 
 Prerequisite: Ensure that agents are set up via configuration through their contact center integration to access the ServiceNow Workspace. The agent profiles are synced automatically when the agent logs in through the contact center connector in OpenFrame. For example, agent John Jason in the ServiceNow workspace must be able to log in to the contact center.
 
-See [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md) to enable ICC for CCaaS calls.
-
 Additionally, the agent presence state must match between the ServiceNow workspace and the contact center. In some cases, the state “available” might have a different name in the contact center environment, “on queue” for example.
 
 Review the following architecture diagram for more insight on the contact center integration flow with ServiceNow.
 
-\[Omitted image "MMASSET0021181-contact-center-integration-brand2-updated.png"\] Alt text: Contact center integration architecture
+See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/cti-csm-integration.md).
+
+\[Omitted image "MMASSET0021181-contact-center-integration-brand2-updated.png"\] Alt text: Contact center integration flow architecture
 
 ## External routing with Contact Centers
 
@@ -65,4 +65,11 @@ Agents using the integration can do the following:
 -   Transfer to another agent​
 -   Transfer to a queue​
 -   Cancel a transfer to another agent
+
+**Related topics**  
+
+
+[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/enable-icc-for-ccaas.md)
+
+[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)
 

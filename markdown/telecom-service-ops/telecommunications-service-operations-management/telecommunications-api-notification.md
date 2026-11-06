@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Telecommunications Service Operations Management]
+breadcrumb: [Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
 
 # External event management via Telecommunications API notifications
@@ -24,7 +24,7 @@ Telecommunications API notification receives incoming notifications from the ext
 
 ## Telecommunications API notification data model
 
-
+The following diagram shows the components in the data model for the API notification.\[Omitted image "kafka\_architecture\_diagram\_v3.svg"\] Alt text: infographic showing the components in the Telecommunications API notification data model.
 
 The Telecommunications API notification enables ServiceNow to receive incoming notifications through the event-driven architectures such as the Publisher/Subscriber \(Pub/Sub\) subscription model, Hermes, and Kafka Stream Connect. While cloud customers have the flexibility to select between both architectures, on-premise customers are limited to using their own Kafka or Pub/Sub subscription model.
 
